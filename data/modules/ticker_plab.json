@@ -1,0 +1,21 @@
+{
+  "ticker": "PLAB",
+  "exchange": "NASDAQ",
+  "company": "Photronics, Inc.",
+  "sector": "Semiconductors",
+  "description": "Photronics is one of the world's leading manufacturers of photomasks — the high-precision glass reticles used in semiconductor and flat panel display lithography to transfer circuit patterns onto silicon wafers. Operating eleven facilities across Asia, Europe, and North America, it serves virtually every major chipmaker. The business is structurally tied to node migration: each new process generation requires new mask sets. Q1 FY2026 revenue was $225 million (+6% YoY), with $588 million in cash, zero meaningful debt, and a $330 million capex plan to expand U.S. and Korean capacity.",
+  "key_products": [
+    "IC photomasks",
+    "FPD photomasks",
+    "High-end IC masks (EUV-adjacent)",
+    "Flat panel display masks"
+  ],
+  "market_cap_usd": null,
+  "market_cap_date": "2026-05-05",
+  "revenue_ttm_usd": null,
+  "cash_usd": 588200000,
+  "last_updated": "2026-05-05",
+  "key": "PLAB",
+  "blurb": "Photronics is one of the world's leading manufacturers of photomasks — the high-precision glass reticles used in semiconductor and flat panel display lithography to transfer circuit patterns onto silicon wafers. Operating eleven facilities across Asia, Europe, and North America, it serves virtually every major chipmaker. The business is structurally tied to node migration: each new process generation requires new mask sets.",
+  "recent": "Q1 FY2026 revenue was $225 million (+6% YoY), with $588 million in cash, zero meaningful debt, and a $330 million capex plan to expand U.S. and Korean capacity."
+}

@@ -1,0 +1,14 @@
+{
+  "key": "ARM",
+  "name": "Arm Holdings plc",
+  "exchange": "NASDAQ (ADR)",
+  "blurb": "Arm Holdings licenses processor architectures and physical IP to virtually every chip company on earth. Rather than manufacturing chips, Arm charges royalties on every device that ships using an Arm-based design — from the iPhone to Android phones to embedded microcontrollers to, increasingly, cloud server chips and AI accelerators. Its v9 architecture is the basis for Apple Silicon, NVIDIA's Grace CPU, Amazon's Graviton, and the majority of mobile SoCs. Arm's business model is uniquely capital-light and royalty-compounding: as ASPs (average selling prices) of chips using Arm cores rise — driven by AI compute demand — Arm's royalty revenue grows without proportional cost increases.",
+  "recent": "Arm trades at a forward P/E of ~98.5x on only 21.1% projected EPS growth, producing a PEG of 4.67 — the most expensive name in a table of thirty large-cap semiconductor stocks. Third-party estimates place the forward P/E even higher (90–121x as of April 2026). The premium reflects the thesis that Arm is the royalty collector of the entire AI compute era, but at a PEG of 4.67, investors are pricing in decades of compounding that has not yet materialised.",
+  "sources": [
+    {"url": "https://www.gurufocus.com/term/forward-pe-ratio/ARM", "title": "Arm Holdings Forward PE — GuruFocus"},
+    {"url": "https://stockanalysis.com/stocks/arm/statistics/", "title": "Arm Holdings Statistics — Stock Analysis"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,22 @@
+{
+  "key": "citrini",
+  "display_name": "Citrini Research (@citrini)",
+  "blurb": "Independent thematic-equity research firm founded in 2023 by James van Geelen, a self-taught investor who began his career in alternative healthcare before turning to public markets in 2018. Citrini publishes via paid Substack, runs a portfolio of long/short thematic baskets called the Citrindex, and has built a following on X for early calls on AI 'picks and shovels,' GLP-1 obesity drugs, and idiosyncratic trades such as a public short of Silicon Valley Bank in late 2022, months before its collapse. The firm now reports roughly ten employees and covers themes spanning AI, robotics, defence, healthcare and government policy.",
+  "credibility_note": "Track-record claims are largely self-reported through paywalled subscriber notes; the firm's '+131% since inception' and '+100% one-year' figures for its core portfolio cannot be audited externally. That said, several specific calls have been corroborated in the public press: the early 2023 AI hardware basket, the SVB short, and a February 2026 note on AI capex sustainability that was credited by Bloomberg with helping trigger an equity-market sell-off. Van Geelen, born around 1992, holds bachelor's degrees in biology and psychology from UCLA and is not a CFA charterholder; positions described in Citrini notes are the firm's own, and readers should assume the firm transacts in the names it covers.",
+  "links": [
+    {"label": "Substack", "url": "https://www.citriniresearch.com/"},
+    {"label": "Firm site", "url": "https://www.citrini.com/"},
+    {"label": "X / Twitter", "url": "https://x.com/citrini"}
+  ],
+  "sources": [
+    {"title": "About — Citrini Research", "url": "https://www.citrini.com/about"},
+    {"title": "Citrini Research's apocalyptic Substack — eFinancialCareers", "url": "https://www.efinancialcareers.com/news/alap-shah-citrini-research"},
+    {"title": "What we know about the 33-year-old author — Oninvest", "url": "https://en.oninvest.com/article/alchemist-who-earned-200-what-we-know-about-the-33-year-old-author-of-the-citrini-report-on-ai"},
+    {"title": "Citrini founder's AI warning precedes selloff — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-24/citrini-founder-shocked-his-ai-prediction-spurred-stocks-selloff"},
+    {"title": "James van Geelen on thematic investing — Odd Lots / Bloomberg", "url": "https://www.bloomberg.com/news/articles/2024-07-12/what-is-thematic-investing-how-to-build-a-portfolio-ahead-of-2024-elections"},
+    {"title": "State of the Themes Q4 2024 — Citrini Research", "url": "https://www.citriniresearch.com/p/state-of-the-themes-q4-2024"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

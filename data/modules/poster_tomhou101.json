@@ -1,0 +1,22 @@
+{
+  "key": "tomhou101",
+  "display_name": "tomhou101",
+  "blurb": "Insufficient public data to write a reliable bio. The only recoverable signal from the provided sources is two tweet fragments indicating the account posts about active trading and technical chart analysis (e.g., S&P 500 patterns). Display name, follower count, background, and domain expertise are unknown.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/tomhou101"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/tomhou101/status/2043980843451048256",
+      "title": "I took a position off the open today, when we got a small dip…"
+    },
+    {
+      "url": "https://x.com/tomhou101/status/2046811855411347755",
+      "title": "Supports a megaphone pattern on the SPX then. Probably still some…"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:21:33.619944Z",
+  "backend": "claude-sonnet-subagent"
+}

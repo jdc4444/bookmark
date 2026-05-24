@@ -1,0 +1,119 @@
+{
+  "headline": "World Labs Opens Its 3D World-Generating Model to Developers",
+  "lede": "World Labs, the AI startup assembled around Fei-Fei Li's conviction that spatial reasoning is modern AI's missing layer, launched the World API in January 2026. Developers can now generate persistent, navigable 3D environments from a text prompt, photograph, panorama, or video clip for as little as twelve cents per world. The release is the first programmable interface to a full 3D world model.",
+  "body": "World Labs launched the World API on January 21, 2026, making its *world model*, **Marble**, available to developers via a standard REST interface. The proposition is compact: submit a text prompt, a photograph, a panorama, or a video clip; receive a persistent, navigable 3D environment you can embed in a browser, export to a game engine, or pipe into a simulation. At draft quality, a generated world costs roughly twelve cents; the highest-fidelity tier runs to about $2.48.\n\nWhat separates Marble from video generation is not degree but kind. Systems like Google (GOOGL) DeepMind's Genie 3 predict sequential frames as a user explores — no exportable structure is ever produced. Marble instead generates a “discrete spatial state”: an explicit 3D scene that persists, that can be panned away from and returned to without objects shifting, and that can be downloaded and imported into game engines or physics simulators. Scenes are encoded as *3D Gaussian Splatting* — millions of semitransparent positioned particles that enable photorealistic rendering in a browser — alongside a proprietary collision mesh for physical constraints.\n\nThe founding team’s collective résumé is unusual even in a field where credentials travel fast. Fei-Fei Li, the company’s chief executive, built *ImageNet*, the labelled benchmark dataset that catalysed the deep-learning revolution and arguably launched modern computer vision. Ben Mildenhall invented *Neural Radiance Fields (NeRF)*, the foundational technique for reconstructing 3D scenes from 2D photographs. Christoph Lassner created *Pulsar*, a sphere-based *differentiable renderer* that anticipated Gaussian Splatting by several years. Justin Johnson, formerly of the University of Michigan, rounds out a founding group whose work spans the key technical lineage from which Marble descends.\n\nThe company raised $230 million when it emerged from stealth in September 2024, then closed a $1 billion round in February 2026. Autodesk (ADSK) contributed $200 million — the largest single cheque — and is integrating Marble into its design tools, with media and entertainment as the initial focus. NVIDIA (NVDA) and AMD (AMD) also participated, a pairing that reflects the GPU makers’ interest in workloads that scale rendering demand. Early integrations include NVIDIA’s Isaac Sim and MuJoCo robotics simulators, where Marble generates training environments on demand, and Escape.ai, which converts 2D films into explorable 3D spaces.\n\nMarble’s weaknesses are worth noting. It struggles with illustrative or fantasy styles outside its photographic training distribution, and fine detail degrades at distance from the source image. The model architecture has not been publicly disclosed — no peer-reviewed paper exists — so independent verification of the company’s technical claims rests on product demonstrations and third-party analysis. Whether *spatial intelligence* at the scale World Labs envisions will prove as tractable as language modelling remains the open question behind a bet that has attracted more than a billion dollars.",
+  "tickers": [
+    "GOOGL",
+    "ADSK",
+    "NVDA",
+    "AMD"
+  ],
+  "companies": [
+    {
+      "name": "World Labs",
+      "ticker": null
+    },
+    {
+      "name": "Google",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Autodesk",
+      "ticker": "ADSK"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD"
+    },
+    {
+      "name": "Escape.ai",
+      "ticker": null
+    }
+  ],
+  "poster": "theworldlabs",
+  "concepts": [
+    {
+      "key": "world-model",
+      "term": "world model",
+      "definition": "An AI system that builds and maintains an explicit internal representation of 3D space — geometry, depth, lighting, and physics — rather than predicting a sequence of image frames. The key distinction from a video generator is that a world model produces a persistent, navigable structure you can revisit or export; a video generator produces only the frames you see, which must be regenerated each time the camera moves."
+    },
+    {
+      "key": "3d-gaussian-splatting",
+      "term": "3D Gaussian Splatting",
+      "definition": "A technique for representing 3D scenes as millions of semitransparent, positioned ‘gaussian’ particles — each defined by location, scale, colour, and opacity — rather than traditional polygon meshes. Because the rendering math is efficient and runs on standard GPU hardware, Gaussian Splatting enables real-time, photorealistic rendering in a web browser without specialised equipment."
+    },
+    {
+      "key": "neural-radiance-fields",
+      "term": "Neural Radiance Fields (NeRF)",
+      "definition": "A method introduced in 2020 for reconstructing a complete 3D scene from a set of 2D photographs taken at different angles. The neural network learns to predict the colour and density of light at any point in space, enabling novel-view synthesis — rendering the scene from angles that were never photographed. NeRF is the conceptual ancestor of the Gaussian Splatting approaches that succeeded it."
+    },
+    {
+      "key": "spatial-intelligence",
+      "term": "spatial intelligence",
+      "definition": "World Labs’ term for an AI system’s ability to perceive, generate, reason about, and interact with 3D environments. The company frames it as the spatial analogue to language intelligence in large language models: just as LLMs learned to understand and produce text, a spatially intelligent model should understand and generate physical space, including geometry, lighting, and physics."
+    },
+    {
+      "key": "differentiable-renderer",
+      "term": "differentiable renderer",
+      "definition": "A rendering pipeline designed so that mathematical gradients — the feedback signal used in machine learning — can flow backwards through it. This allows a neural network to learn 3D scene properties such as shape, material, and lighting directly from 2D image supervision, without requiring manually labelled 3D data. It is the computational bridge between 2D photography and learnable 3D representations."
+    },
+    {
+      "key": "discrete-spatial-state",
+      "term": "discrete spatial state",
+      "definition": "World Labs’ term for the explicit, static 3D structure that Marble produces. Unlike a video generator, which outputs a stream of frames that may ‘morph’ or change inconsistently over time, a discrete spatial state is a fixed scene you can navigate from any angle, pause, export, and return to without objects shifting — more like a 3D file than a movie."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.worldlabs.ai/blog/announcing-the-world-api",
+      "title": "Announcing the World API — World Labs Blog",
+      "note": "Primary source: official API launch announcement with feature breakdown and integration examples"
+    },
+    {
+      "url": "https://www.worldlabs.ai/",
+      "title": "World Labs — Main Site",
+      "note": "Company mission statement, product overview (Marble, Spark, Chisel), and spatial intelligence framing"
+    },
+    {
+      "url": "https://www.worldlabs.ai/blog/marble-world-model",
+      "title": "Marble: A Multimodal World Model — World Labs Blog",
+      "note": "Technical explanation of Marble’s architecture, Gaussian Splatting output, and distinction from video generators"
+    },
+    {
+      "url": "https://www.worldlabs.ai/about",
+      "title": "About World Labs — Team Page",
+      "note": "Founding team biographies: Fei-Fei Li, Ben Mildenhall, Christoph Lassner, Justin Johnson"
+    },
+    {
+      "url": "https://techcrunch.com/2026/02/18/world-labs-lands-200m-from-autodesk-to-bring-world-models-into-3d-workflows/",
+      "title": "World Labs lands $1B, with $200M from Autodesk — TechCrunch",
+      "note": "Confirms $1B February 2026 round, Autodesk’s $200M contribution, and NVIDIA/AMD participation"
+    },
+    {
+      "url": "https://techcrunch.com/2025/11/12/fei-fei-lis-world-labs-speeds-up-the-world-model-race-with-marble-its-first-commercial-product/",
+      "title": "Fei-Fei Li’s World Labs speeds up the world model race with Marble — TechCrunch",
+      "note": "Marble commercial launch in November 2025; competitive positioning against Odyssey, Decart, Google Genie"
+    },
+    {
+      "url": "https://bdtechtalks.substack.com/p/what-to-know-about-world-labs-marble",
+      "title": "What to know about World Labs Marble — BD Tech Talks",
+      "note": "Independent technical analysis: strengths (interiors, photographic inputs), weaknesses (illustrative styles, distance degradation)"
+    },
+    {
+      "url": "https://docs.worldlabs.ai/api/pricing",
+      "title": "World API Pricing — World Labs Docs",
+      "note": "Credit system and per-world cost breakdown across marble-1.0-draft through marble-1.1-plus tiers"
+    }
+  ],
+  "bookmark_id": "2014046372639408203",
+  "generated_at": "2026-05-07T12:47:20.139359Z",
+  "backend": "claude-sonnet-subagent"
+}

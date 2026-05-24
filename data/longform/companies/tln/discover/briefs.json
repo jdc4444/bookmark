@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "company": {"name": "Talen Energy Corporation", "ticker": "TLN", "exchange": "NASDAQ", "slug": "tln"},
+  "report_title": "Talen Energy — the 1.9 GW Susquehanna AWS deal that priced AI electricity",
+  "report_subtitle": "How a Pennsylvania nuclear and gas operator emerged from Chapter 11, signed the largest single carbon-free data center PPA in US history, and became one of the cleanest AI-electricity plays on NASDAQ",
+  "voice_and_style": "Financial-Times / Bloomberg long-form. Primary sources only (SEC EDGAR 10-K + 10-Q + 8-K + DEF 14A, IR press releases on ir.talenenergy.com, primary industry coverage at Utility Dive, S&P Global Platts, PJM publications). Past-tense narrative voice. Quote management from earnings calls / press releases verbatim. Do not extrapolate beyond snapshot date 2026-05-23. The reader is a sophisticated investor familiar with US power markets, PJM, capacity auctions, RMR contracts, and hyperscaler-utility PPA structures. No Aleabit / Substack / X commentary as primary source; bounded to ≤200 word subsection in news_catalysts only.",
+  "target_total_word_count": 18000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {"slug": "snapshot", "title": "Snapshot", "order": 1, "target_words": 750,
+     "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Open with the structural fact: Talen's expanded June 2025 PPA with Amazon for up to 1,920 MW of Susquehanna carbon-free nuclear power through 2042 is among the largest single carbon-free data center PPAs in US history.",
+       "State the ticker (TLN, NASDAQ), CEO Mark McFarland (since May 2023, ex-California Resources / GenOn / Luminant / EFH), Chairman Stephen Schaefer (Riverstone, GenOn Holdings, Golar LNG), corporate HQ Houston with Pennsylvania-anchored generation.",
+       "Generation portfolio: 13.1 GW total — 2.2 GW nuclear (90% of 2.5 GW Susquehanna), 5.7 GW low/zero-carbon baseload total, 2.8 GW gas combined-cycle (Freedom + Guernsey acquired and closed FY25), 4.6 GW intermediate/peaking, ~800 MW minority coal interests.",
+       "FY2025 financials: $1,035M adjusted EBITDA, $524M adjusted FCF, Susquehanna generated ~17 TWh at ~$27/MWh.",
+       "Commercial portfolio: Amazon PPA 1,920 MW through 2042 plus RMR contracts Brandon Shores ($145M/year) + H.A. Wagner ($35M/year) through May 2029, plus 8,745 MW cleared in PJM 2027/2028 capacity auction at $333.44/MW-day.",
+       "Pending M&A: Cornerstone ($3.45B, 2.0 GW combined-cycle + 456 MW peaking, agreed); plus closed Freedom + Guernsey ($3.8B, 2.8 GW closed FY25). Total acquisition program ~$7.25B / ~5.3 GW. Financed in part with $1.4B 6.250% notes due 2034 + $1.3B 6.500% notes due 2036.",
+       "Close with the central tension: AI data center electricity demand has structurally repriced PJM baseload, and Talen sits at the intersection of nuclear monetisation + gas-capacity consolidation + RMR + capacity-market layers. The question is whether the AI capex cycle sustains long enough for the contracted layers and the gas-acquisition program to compound the free-cash-flow base."
+     ]},
+    {"slug": "corporate_history", "title": "From PPL spin-off to AI electricity supplier", "order": 2, "target_words": 1400,
+     "use_prep_files": ["history.md", "snapshot.json", "leadership.json"],
+     "directives": [
+       "Three eras: (1) 2015 PPL competitive power spin-off + Riverstone merchant power combination, 2016 take-private LBO by Riverstone, multi-year merchant-power compression through mid-2010s. (2) 2022 Chapter 11 filing, 2023 emergence + NASDAQ relisting, May 2023 McFarland joins as CEO. (3) 2023-2026 post-restructuring rebuild — executive team rebuilt from EFH / GenOn / Constellation alumni; board built with deep PE + restructuring + energy-finance pedigree; Amazon PPA signed March 2024 and expanded June 2025; fleet acquisitions Freedom + Guernsey closed + Cornerstone agreed; December 2025 management realignment (Nutt President, Muller CFO).",
+       "Detail the Amazon PPA evolution: March 2024 initial agreement to supply Susquehanna power to adjacent AWS data center campus; June 2025 expansion to 1,920 MW through 2042 with ramp schedule potentially reaching full volume by 2032 plus SMR co-development option.",
+       "Quote management from earnings calls and press releases on the AI electricity thesis, the AWS partnership, and the M&A program.",
+       "Close on what the post-restructuring arc means: a company built from the deepest EFH / GenOn / Constellation pedigree, anchored by a low-LCOE nuclear asset, and now structurally positioned at the intersection of two demand cycles (AI data center electricity + PJM capacity tightening)."
+     ]},
+    {"slug": "business_segments", "title": "Nuclear, gas, RMR, and the capacity stack", "order": 3, "target_words": 1500,
+     "use_prep_files": ["financials.json", "counterparties.json", "snapshot.json"],
+     "directives": [
+       "Lay out the generation portfolio: 2.2 GW nuclear (90% Susquehanna), 5.7 GW low/zero-carbon baseload total, 2.8 GW combined-cycle gas, 4.6 GW intermediate/peaking, ~800 MW minority coal interests.",
+       "Susquehanna deep-dive: 2.5 GW capacity, 90% Talen ownership, ~17 TWh FY2025 generation, ~$27/MWh implied LCOE. Critical infrastructure context: Susquehanna is one of the largest single nuclear units in PJM and has decades of regulatory licence runway remaining.",
+       "The Amazon PPA pricing: 1,920 MW through 2042 at hyperscaler-PPA contract rates above the $27/MWh production cost. Exact contract pricing not publicly disclosed; the spread between production cost and contract price is the structural economic improvement.",
+       "Freedom and Guernsey: 2.8 GW of combined-cycle gas added FY25 for $3.8B. Provides dispatchable firming capacity to complement nuclear baseload.",
+       "Cornerstone (pending): 2.0 GW combined-cycle + 456 MW peaking for $3.45B. Brings additional gas capacity into the IPP fleet.",
+       "RMR contracts: Brandon Shores $145M/year + H.A. Wagner $35M/year = $180M/year fixed through May 2029. RMR is structurally different from merchant or contracted generation — it pays generators to keep otherwise-uneconomic plants available for grid reliability.",
+       "PJM capacity revenue: 8,745 MW cleared at $333.44/MW-day in the 2027/2028 auction implies roughly $1.06B annual capacity payments on those cleared MWs. PJM capacity auctions provide multi-year revenue visibility.",
+       "Coal minority interests: 800 MW. Vestigial — historical legacy at this point in the cycle.",
+       "Source explicitly to FY2025 10-K, quarterly 10-Q filings, 8-Ks, PJM auction publications."
+     ]},
+    {"slug": "financial_deep_dive", "title": "$1,035M EBITDA and the $7.25B acquisition program", "order": 4, "target_words": 1700,
+     "use_prep_files": ["financials.json", "snapshot.json"],
+     "directives": [
+       "Open with FY25 headlines: adjusted EBITDA $1,035M, adjusted FCF $524M (50% FCF/EBITDA conversion).",
+       "Susquehanna economics walk: ~17 TWh × ~$27/MWh LCOE = ~$459M production cost basis. At Amazon PPA contract pricing (industry estimates put hyperscaler-data-center carbon-free baseload PPAs in the $80-120/MWh range though TLN-specific pricing isn't disclosed), the contracted-revenue uplift is material.",
+       "Acquisition program math: Freedom + Guernsey closed at $3.8B for 2.8 GW (implied ~$1,357/kW). Cornerstone agreed at $3.45B for 2.456 GW total (implied ~$1,404/kW). Total acquisition spend ~$7.25B / ~5.3 GW.",
+       "Debt issuance and capital structure: $1.4B 6.250% senior unsecured notes due 2034 + $1.3B 6.500% senior unsecured notes due 2036 = $2.7B new debt to fund the acquisition program. Net leverage target 'around 3.5x or lower over the cycle' — disciplined for an IPP with this growth program.",
+       "RMR contribution: $180M/year fixed revenue through May 2029 = $720M cumulative across 4 years remaining at snapshot.",
+       "PJM capacity revenue: $1.06B/year annualised on the 2027/2028 cleared MWs at $333.44/MW-day pricing.",
+       "Operating leverage opportunity: as Susquehanna revenue rises from Amazon PPA ramp + Freedom/Guernsey/Cornerstone capacity adds + PJM capacity revenue increases, the fixed cost base of the nuclear and gas operations stays relatively flat. EBITDA growth from $1,035M FY25 to a higher run rate by FY27-28 is the operating-leverage thesis.",
+       "Source exclusively to FY2025 10-K, quarterly 10-Q filings, and 8-K acquisition / debt issuance disclosures."
+     ]},
+    {"slug": "earnings_story", "title": "From restructuring print to $1B EBITDA", "order": 5, "target_words": 1400,
+     "use_prep_files": ["financials.json", "snapshot.json", "history.md"],
+     "directives": [
+       "Frame as the cumulative narrative from the 2023 post-restructuring opening prints through FY2025 $1,035M adjusted EBITDA.",
+       "Q1, Q2, Q3, Q4 2025 quarterly results: Q2 2025 results (announced August 7, 2025), Q3 2025 results (announced November 5, 2025) — narrowed 2025 guidance. FY2025 print in February 2026.",
+       "Pull quotes from McFarland and CFO commentary on Susquehanna performance, Amazon PPA execution, Freedom/Guernsey integration, Cornerstone agreement, RMR contract starts (June 2025), PJM 2027/2028 auction clearing.",
+       "March 2024 initial Amazon PPA announcement (8-K filing). June 2025 expansion announcement. December 2025 management realignment announcement.",
+       "Stock-price reaction series through 2024-2026: TLN re-listed at modest valuations post-Chapter-11 and has appreciated significantly as the AI electricity thesis matured and the Amazon PPA was signed and expanded. Reference current trading without overweighting.",
+       "Close on the cumulative observation: the post-restructuring earnings story is now defined by long-term contracted revenue layers (Amazon PPA + RMR + PJM capacity) rather than pure merchant exposure — a structural improvement in revenue visibility."
+     ]},
+    {"slug": "leadership", "title": "McFarland, Schaefer, and the EFH+GenOn alumni cluster", "order": 6, "target_words": 1800,
+     "use_prep_files": ["leadership.json", "snapshot.json"],
+     "directives": [
+       "Open with Mark McFarland: age 56, BS Civil Engineering Virginia Tech + MBA University of Delaware + MIT Nuclear Reactor Technology Course. Career: Exelon Senior VP → EFH Chief Commercial Officer → Luminant Chief Commercial Officer → GenOn Energy Executive Chairman/CEO → California Resources Corporation CEO/President → Talen Energy CEO May 2023. The post-Chapter-11 energy-restructuring CEO archetype.",
+       "Terry Nutt (President since December 15 2025): age 49, BBA + MS Accounting Texas A&M. Career: Vistra senior finance → EDF Trading CFO → Just Energy CFO → Talen Energy (CFO then President). The operating finance pedigree.",
+       "Cole Muller (CFO since December 15 2025): age 45, US Naval Academy + Wharton MBA + UPenn JD; ex-McKinsey Associate Partner → Talen SVP Cumulus Growth → Talen EVP Strategic Ventures → CFO. The Naval Academy + Wharton + UPenn + McKinsey combination is unusually deep for an IPP CFO; signals the AWS PPA and Cornerstone acquisition originated under his architectural leadership.",
+       "John Wander (General Counsel): age 58, BA Economics Northwestern + JD UT School of Law. Shareholder litigation partner Vinson & Elkins for 32 years.",
+       "Andrew Wright (Chief Administrative Officer): age 58, BBA Accounting SMU + JD Notre Dame + CPA. 14 years General Counsel at Energy Future Holdings. Deepest single EFH-restructuring memory on the executive team.",
+       "Brad Berryman (COO): age 57, BS Organizational Management Central Baptist + US Navy submarine service. 30 years nuclear with prior senior roles at Turkey Point, Wolf Creek, Palo Verde plus prior Talen Chief Nuclear Officer role. The Navy submarine pedigree is standard for senior nuclear-operations executives.",
+       "Edward Casulli (Chief Nuclear Officer): age 56, BS EE US Naval Academy + Executive Masters Management of Technology UPenn. Nearly 30 years nuclear including prior Site VP at Susquehanna. Most directly Susquehanna-credentialed officer.",
+       "Dale Lebsack (Chief Asset Development Officer): age 50, BS ME Georgia Tech. Prior Chief Fossil Officer at Talen; joined via 2015 RJS Power acquisition.",
+       "Chris Morice (Chief Commercial Officer since 2023): age 46. Career: Lehman Brothers → EDF Trading → Topaz Power → Koch Energy → Talen.",
+       "Darren Olagues (Chief Development Officer since October 2024): age 55, BA Accounting Tulane. Ex-Cleco + Exelon + Sithe Energies + GenOn Energy CFO/Senior Advisor. Second GenOn alumnus on the executive team.",
+       "Board: Stephen Schaefer (Chairman, age 62, BS Finance and Accounting Northeastern + CFA; ex-Riverstone, GenOn Holdings board, Golar LNG board, TexGen Power, Duke Energy NA).",
+       "Gizman Abbas (Independent Director, NomGov Chair, Audit, Comp): age 53, BS EE Auburn + MBA Northwestern Kellogg; Founding Principal Direct Invest Development; ex-Apollo + Goldman Sachs + Morgan Stanley + ExxonMobil + Southern Company; NYISO board.",
+       "Anthony Horton (Independent Director, Comp Chair, Audit, Risk Oversight): age 65, BBA Economics UT Arlington + Master's UT Dallas/Arlington + CPA + CFA + CMA + CFM. Ex-EFH CFO + ex-TXU Senior Director. Deepest EFH-restructuring board memory.",
+       "Karen Hyde (Independent Director, Audit Chair, Comp): age 64, BS Metallurgical Engineering Lafayette + MS Mineral Economics Colorado School of Mines + Certified Internal Auditor. Retired Senior VP / Chief Compliance and Ethics Officer at Xcel Energy (30 years); pre-Xcel nuclear engineer at US Department of Defense. The nuclear-and-compliance audit chair.",
+       "Joseph Nigro (Independent Director, Risk Oversight Chair, NomGov): age 61, Bachelor's Economics UConn + Exelon Leadership Institute + MIT Reactor Technology Course. Senior Advisor Blackstone Energy Transition Group; Chairman Eos Energy Enterprises; ex-Exelon CFO + ex-Constellation Energy CEO. Most senior single energy-finance and operating figure on the board.",
+       "Christine Benson Schwartzstein (Independent Director, NomGov, Risk Oversight): age 45, AB Earth and Planetary Sciences magna cum laude Harvard. 17-year Goldman Sachs investment banker → Orion Infrastructure Capital Managing Director → Apollo Infrastructure Company board → Delek US Holdings board. Infrastructure-PE-and-investment-banking specialist on the board.",
+       "Board composition observation: PE-and-restructuring chairman + operating CEO + Apollo+Goldman+Morgan Stanley energy banker + ex-EFH CFO + ex-Xcel SVP and DOD nuclear engineer + ex-Exelon CFO and ex-Constellation CEO + 17-year Goldman investment banker now Apollo Infrastructure director. Calibrated for cycle-management governance of a post-Chapter-11 IPP through the AI electricity transition.",
+       "DO NOT punt on any director. All 7 directors and 10 executive officers have substantive material in prep/leadership.json — use it."
+     ]},
+    {"slug": "customers_supply_chain", "title": "Amazon, PJM, RMR — the four-layer revenue stack", "order": 7, "target_words": 1500,
+     "use_prep_files": ["counterparties.json", "financials.json", "snapshot.json"],
+     "directives": [
+       "Frame the four revenue layers: (1) Amazon AWS PPA — up to 1,920 MW carbon-free nuclear through 2042 from Susquehanna with potential SMR co-development option. (2) PJM capacity market — 8,745 MW cleared at $333.44/MW-day in 2027/2028 auction implying ~$1.06B annual capacity payments. (3) RMR contracts — Brandon Shores $145M/year + H.A. Wagner $35M/year = $180M/year fixed through May 2029. (4) Energy market revenue — wholesale electricity sales into PJM at market clearing prices.",
+       "Amazon AWS PPA specifics: signed March 2024, expanded June 2025. Maximum volume 1,920 MW, term through 2042, ramp schedule potentially reaching full volume by 2032. Delivery to Susquehanna-adjacent Amazon data center campus plus other Pennsylvania sites. SMR co-development option for Talen's Pennsylvania footprint.",
+       "PJM Interconnection counterparty relationship: dominant wholesale market for Talen's fleet. 2027/2028 auction clearing prices represent meaningful uplift versus pre-2024 PJM capacity pricing levels.",
+       "RMR contract structure: PJM-administered contracts that pay generators to keep otherwise-uneconomic plants available for grid reliability. Brandon Shores and H.A. Wagner are dual-fuel coal/oil plants whose continued operation supports MAAC/SWMAAC zone reliability requirements.",
+       "Supply chain: nuclear fuel supply for Susquehanna handled through long-term contracts with major fuel cycle suppliers (specifics not separately broken out); pipeline natural gas for combined-cycle assets sourced through PJM-regional pipeline counterparties; interconnection to PJM transmission for all major assets.",
+       "Competitive set: Constellation Energy (CEG, largest US nuclear IPP), Vistra (VST, Texas + PJM), NRG, Dominion Energy (D, Virginia data center exposure), PSEG (PEG, NJ nuclear), Exelon (EXC, regulated utility holdco).",
+       "Close on the structural observation: Talen's revenue stack is now a layered combination of multi-decade contracted revenue + RMR fixed payments + PJM capacity market + merchant-energy upside. Few IPPs have all four layers at this scale."
+     ]},
+    {"slug": "competitive_position", "title": "Where Talen sits in the AI electricity landscape", "order": 8, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "counterparties.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Frame the AI electricity competitive landscape: (a) Nuclear-anchored IPPs — Talen + Constellation Energy + Vistra. (b) Gas-anchored IPPs — Vistra + NRG + Calpine + Talen's gas fleet. (c) Regulated utilities serving hyperscaler PPAs — Dominion (Virginia), Duke Energy (Carolinas), Southern Company (Georgia), AEP (Mid-Atlantic). (d) Hyperscaler self-supply — Amazon owns some PJM-area peakers; Microsoft and Google primarily contract with IPPs and utilities.",
+       "Talen's structural advantages versus competitors: (i) Susquehanna's ~$27/MWh LCOE is among the lowest baseload production costs in PJM; (ii) the 1,920 MW Amazon PPA is among the largest single carbon-free data center PPAs; (iii) the RMR + PJM capacity revenue layers provide visibility competitors with merchant-only exposure don't have; (iv) the post-Chapter-11 capital structure is now stable with conservative leverage targets.",
+       "Talen's structural disadvantages versus competitors: (i) Constellation Energy has a larger and more diversified nuclear fleet; (ii) Vistra's Texas (ERCOT) exposure provides geographic diversification Talen lacks; (iii) regulated utilities like Dominion can build new generation with cost-of-service recovery that pure IPPs cannot; (iv) the gas-acquisition program adds leverage during a period of rising rates.",
+       "Compare with Constellation specifically: Constellation has 21+ GW of nuclear capacity versus Talen's 2.2 GW; significantly larger fleet but trades at a premium reflecting scale + regulated-utility-style cash flow stability. Talen's smaller fleet trades at a higher % of revenue contracted under the Amazon PPA.",
+       "AI electricity demand context: PJM region data center load growth running at 25-40% annually in 2024-2026; new transmission interconnection queue heavily skewed to data center demand. Each MW of qualified, contracted carbon-free baseload capacity is scarce and rising in value.",
+       "Close on the strategic-competitive question: Talen's combined positioning (Susquehanna + Amazon PPA + RMR + PJM capacity + gas acquisitions) is unmatched at its scale — but execution risk on the Cornerstone close and the AWS PPA ramp determines whether the structural positioning converts to compounding free cash flow."
+     ]},
+    {"slug": "news_catalysts", "title": "From AWS PPA expansion to capacity auction clear", "order": 9, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "history.md", "counterparties.json"],
+     "directives": [
+       "Build the news timeline from primary sources: March 2024 initial Amazon PPA announcement (8-K); 2024-2025 quarterly earnings prints; June 11, 2025 Amazon AWS expansion to 1,920 MW (press release); FY25 quarterly cadence (Q1 May 2025, Q2 August 7 2025, Q3 November 5 2025); PJM 2027/2028 capacity auction clearing announcement; Freedom + Guernsey close FY25; Cornerstone announcement; debt issuances of $1.4B 2034 notes + $1.3B 2036 notes; December 15, 2025 management realignment.",
+       "Quote management from press releases and earnings calls on AI electricity thesis and AWS partnership.",
+       "Forward catalysts from snapshot date: Cornerstone acquisition close (pending); Q1 2026 earnings (May 2026); Q2 2026 earnings (~August 2026); additional hyperscaler PPA disclosures (Talen has flagged interest in expanding beyond Amazon); PJM 2028/2029 capacity auction results; SMR co-development progress with Amazon.",
+       "Bound the Aleabit / X commentary discussion to a single subsection titled 'Specialist-commentary subsection: how the AI electricity bull case is framed.' Limit to 200 words. If Aleabit has a published target / framing for TLN in prep data, cite as one data point with explicit caveat. Otherwise write 'Specialist commentary framing of TLN by Aleabit was not surfaced in the bounded primary-source set used for this report' and do not invent.",
+       "DO NOT use Aleabit, Substack, X as primary source anywhere else."
+     ]},
+    {"slug": "ip_rd", "title": "Nuclear operations excellence and SMR optionality", "order": 10, "target_words": 1000,
+     "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Frame the 'IP and R&D' chapter as operational-excellence-and-strategic-optionality rather than patents-and-papers — Talen is a power producer, not a technology vendor.",
+       "Nuclear operations expertise: Susquehanna's ~17 TWh FY2025 generation at ~$27/MWh LCOE places the facility in the top quartile of US nuclear plant operating economics. The plant's capacity factor and reliability metrics are the operational moat.",
+       "Executive nuclear pedigree: Brad Berryman 30 years nuclear (Turkey Point, Wolf Creek, Palo Verde, US Navy submarine), Edward Casulli (US Naval Academy EE + UPenn Executive Master's; prior Susquehanna Site VP) — the Naval Academy + nuclear-Navy pipeline is the foundational US nuclear-operations talent source.",
+       "SMR co-development option with Amazon: the June 2025 PPA expansion included a Talen/Amazon option to explore co-developing Small Modular Reactors in Talen's Pennsylvania footprint. This is real strategic optionality even if SMR commercial deployment in the US is at least 5-10 years out. Reference NuScale, X-energy, TerraPower, BWXT as the SMR ecosystem context.",
+       "Gas-fleet integration capability: bringing Freedom + Guernsey (closed) and Cornerstone (pending) into the operating fleet requires integration capability that the executive team's EFH/GenOn pedigree directly supports.",
+       "Regulatory and licensing IP: Susquehanna's NRC operating licence runs through the 2040s (extensions possible to the 2060s). The licence-management capability and NRC relationship are themselves strategic assets — Karen Hyde's audit-chair role with ex-DOD nuclear background underscores how seriously the board treats regulatory-compliance governance.",
+       "Close on the operational-excellence thesis: Talen's most durable competitive advantage is operational discipline on a low-LCOE nuclear asset combined with the integrated executive team built from the deepest energy-restructuring pedigree set in the IPP universe."
+     ]},
+    {"slug": "risks", "title": "AI capex cycle, M&A integration, and leverage management", "order": 11, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json"],
+     "directives": [
+       "Six categorical risks: (1) AI capex cycle dependence — Talen's structural-margin uplift assumes sustained AI data center electricity demand in PJM. (2) Amazon counterparty concentration — the 1,920 MW PPA is the single largest contracted revenue line. (3) M&A integration — Freedom + Guernsey + Cornerstone integration risk against the operating fleet. (4) Leverage management — net leverage target around 3.5x with $2.7B new debt issuance funding acquisitions; rising-rates environment matters. (5) Nuclear regulatory and operational — Susquehanna's NRC licence and operating performance; any extended outage materially affects the AWS PPA delivery. (6) PJM capacity market dynamics — clearing prices could decline if new generation enters PJM capacity market at scale, compressing the ~$1.06B annual capacity payment line.",
+       "For each risk, walk through (a) specific exposure, (b) what management has said publicly about mitigation, (c) leading-indicator signal.",
+       "Amazon concentration nuance: the PPA is multi-decade and structurally similar to a utility long-term contract; counterparty credit risk is Amazon's investment-grade rating; the risk is operational delivery (Susquehanna availability) and execution of the ramp schedule.",
+       "M&A integration risk specifically: $7.25B of total acquisition spend across Freedom + Guernsey + Cornerstone is substantial. The EFH/GenOn alumni cluster on the executive team provides integration capability but integration execution remains a real risk.",
+       "Leverage risk: $2.7B new senior unsecured notes at 6.250-6.500% coupons against $1,035M EBITDA implies meaningful interest expense growth. The net-leverage-target discipline depends on continued EBITDA growth.",
+       "Source claims to the FY2025 10-K risk factors section, management commentary, and 8-K filings."
+     ]},
+    {"slug": "outlook", "title": "AWS PPA ramp + Cornerstone + the next PJM auction", "order": 12, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json", "leadership.json"],
+     "directives": [
+       "Open with the visible FY2026 setup: Cornerstone acquisition close pending, AWS PPA delivery ramp continuing toward potential full-volume reach by 2032, PJM 2028/2029 capacity auction ahead, RMR contract revenue continuing through May 2029.",
+       "Forward catalyst sequence: Q1 2026 earnings (~May 2026), Cornerstone close (pending), Q2 2026 earnings (~August 2026), additional hyperscaler PPA negotiations (Talen has flagged interest), PJM 2028/2029 capacity auction clearing.",
+       "Operating leverage math: as Susquehanna revenue contributes the Amazon PPA contracted prices + Freedom/Guernsey/Cornerstone add gas EBITDA + PJM capacity payments rise to $1.06B+ annualised on cleared MWs + RMR contributes $180M/year, the FY2027 EBITDA could reach $1.5-2.0B against the FY25 $1,035M baseline. This is informed extrapolation, not management guidance.",
+       "Adjusted FCF trajectory: 50% FCF/EBITDA conversion in FY25 implies $750M-1.0B FCF at the higher EBITDA range. Combined with disciplined leverage management, this funds either substantial deleveraging, additional M&A, or returns of capital.",
+       "Strategic-corporate-action overhang: Talen could (a) pursue additional hyperscaler PPAs beyond Amazon, (b) execute additional gas-capacity M&A, (c) accelerate SMR co-development with Amazon, (d) initiate share buybacks or dividend if leverage targets are reached, (e) pursue full strategic transaction (sale or merger) given the carbon-free baseload scarcity value.",
+       "Close on the central question: can Talen sustain the operational discipline that has produced $1,035M FY25 EBITDA at the same time as it integrates Cornerstone, executes the AWS PPA ramp, and competes for additional hyperscaler PPAs? Frame the question; don't pretend to answer. The reader should have what they need to take a view."
+     ]},
+    {"slug": "appendices", "title": "Appendices", "order": 13, "target_words": 800,
+     "use_prep_files": ["snapshot.json", "financials.json"],
+     "directives": [
+       "Three subsections: (a) Glossary of US power market terminology (IPP, PJM, capacity auction, RMR, LCOE, PPA, SMR, NRC, baseload, combined-cycle, peaking, MWh, MW-day). (b) Generation portfolio summary table by fuel type and MW. (c) Source list — every SEC EDGAR filing referenced, every press release URL, every primary news article.",
+       "Source list must be exhaustive. Reference the FY2025 10-K, the DEF 14A 2025 proxy, the March 2024 + June 2025 Amazon PPA 8-Ks, the Freedom/Guernsey + Cornerstone 8-Ks, the $1.4B 2034 notes + $1.3B 2036 notes 8-Ks, the PJM 2027/2028 capacity auction announcement, quarterly earnings releases.",
+       "Glossary entries 1-2 sentences each, sophisticated-investor refresh-level."
+     ]}
+  ]
+}

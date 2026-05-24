@@ -1,0 +1,32 @@
+{
+  "headline": "Prompt Library Surfaces Quietly Before Its Official Launch",
+  "lede": "In a casual aside, the creator behind @doodlestein disclosed the existence of jeffreysprompts.com — a personal prompt library — before any formal announcement. The site is apparently live but deliberately unlaunched, held back while a paid tier and fresh content are finished.",
+  "body": "The tweet is a soft reveal rather than a product launch: the author notes the site exists, then immediately explains why no one has heard of it yet. The framing is familiar in indie-builder culture — a working product held in reserve until it clears some personal bar for completeness. Here that bar is a \"Pro\" offering and a deeper catalog of prompts.\n\nPrompt libraries — curated collections of instructions designed to elicit specific behaviors from large language models — have multiplied rapidly as general-purpose AI tools like *ChatGPT* and *Claude* became mainstream. The better ones are organized by task category, tested against specific model versions, and occasionally sold as premium products. The freemium structure hinted at here (a free tier plus \"Pro stuff\") is the dominant commercial model in the space.\n\nThe research sources retrieved for this bookmark contain no information about jeffreysprompts.com or its creator. What can be read directly from the tweet: the site exists at the stated domain; a paid tier is in development; and the poster judges the free tier incomplete enough that a public announcement would be premature. Whether the site when launched will distinguish itself in a crowded market is, for now, an open question.",
+  "tickers": [],
+  "poster": "doodlestein",
+  "concepts": [
+    {
+      "key": "prompt-library",
+      "term": "prompt library",
+      "definition": "A curated collection of text instructions — called *prompts* — designed to guide an AI language model toward a specific output or behavior. Libraries range from simple one-liners to elaborate multi-step templates, often organized by use case (writing, coding, research) and sometimes versioned against particular models."
+    },
+    {
+      "key": "freemium-saas",
+      "term": "freemium model",
+      "definition": "A pricing structure in which a baseline product is offered at no cost while advanced features, higher usage limits, or premium content sit behind a paid tier. Common in software-as-a-service, it uses free access to build an audience before converting a fraction of users to paying customers."
+    },
+    {
+      "key": "soft-launch",
+      "term": "soft launch",
+      "definition": "Releasing a product to the public — or to a limited audience — without a formal announcement or marketing push. The goal is to test real-world behavior, gather feedback, or complete remaining work before committing to a public debut."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2025719665641554430",
+  "generated_at": "2026-05-06T20:04:18.066029Z",
+  "backend": "claude"
+}

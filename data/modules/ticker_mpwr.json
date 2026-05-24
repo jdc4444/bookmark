@@ -1,0 +1,16 @@
+{
+  "key": "mpwr",
+  "name": "Monolithic Power Systems, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "A fab-light analog company that designs high-density power-management integrated circuits — the chips that step a server's intermediate-bus voltage down to the sub-1-volt rail an AI accelerator actually consumes. MPWR moved from a broad-based analog supplier into the dominant provider of GPU-adjacent power modules during the H100 generation, displacing the incumbent Vicor at Nvidia. Its modules are characterised by very high current density and tight integration, which matter enormously as AI racks push past 100 kilowatts.",
+  "recent": "In early 2026, management raised the floor on its enterprise-data growth target to 50-percent-plus from a prior 30-to-40 percent range, citing acceleration in Nvidia Blackwell shipments. Analyst notes suggest MPWR may take roughly 70 percent of power-management sockets on the forthcoming Vera Rubin GPU platform (VR200 NVL144 and R200 HGX), potentially adding more than $100 million to 2026 estimates. The stock has gained roughly 90 percent over the trailing twelve months and trades near all-time highs, leaving the AI exposure largely in the price.",
+  "sources": [
+    {"title": "MPWR — The AI Power Architect — Simply Wall St", "url": "https://simplywall.st/community/narratives/us/semiconductors/nasdaq-mpwr/monolithic-power-systems/cafbznfq-monolithic-power-systems-mpwr-the-ai-power-architect-at-all-time-highs"},
+    {"title": "The Power Behind the Brain — FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-4-9-the-power-behind-the-brain-a-deep-dive-into-monolithic-power-systems-mpwr-in-the-ai-era"},
+    {"title": "Energizing AI: power-delivery competition — SemiAnalysis", "url": "https://newsletter.semianalysis.com/p/energizing-ai-power-delivery-competition"},
+    {"title": "Assessing MPWR after record revenue — Yahoo Finance", "url": "https://finance.yahoo.com/news/assessing-monolithic-power-systems-mpwr-231237366.html"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

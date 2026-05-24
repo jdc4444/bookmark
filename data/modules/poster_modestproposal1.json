@@ -1,0 +1,20 @@
+{
+  "key": "modestproposal1",
+  "display_name": "@modestproposal1",
+  "blurb": "A pseudonymous macro and quantitative finance account on X (formerly Twitter) known for dry, data-driven commentary delivered with deadpan wit — the handle is a nod to Jonathan Swift's 1729 satirical essay. The account posts original quantitative work: return-ranking tables, historical-analog screens, cross-asset regime analyses, and the occasional chart captioned with minimal but pointed text. The tone is that of a seasoned institutional practitioner who finds the daily financial media cycle simultaneously useful and mildly absurd. No public institutional affiliation is confirmed, though the sophistication of the backtested data work suggests a professional quantitative background.",
+  "credibility_note": "The account's quantitative posts — historical return rankings, regime screens — are methodologically transparent and verifiable against public index data. Commentary is descriptive rather than advisory: the account identifies patterns and leaves interpretation to the reader, which limits exposure to prediction error. Well-regarded within the market-structure and macro Twitter community.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/modestproposal1"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/modestproposal1/status/2045191192095162759",
+      "title": "NASDAQ 13-Day Return ranking post — X"
+    }
+  ],
+  "generated_at": "2026-05-05T22:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

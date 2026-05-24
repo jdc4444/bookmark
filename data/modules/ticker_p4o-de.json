@@ -1,0 +1,32 @@
+{
+  "key": "P4O.DE",
+  "name": "Plan Optik AG",
+  "exchange": "Xetra (Frankfurt, Germany) — also quoted on Börse Stuttgart; ticker P4O, ISIN DE000A0HGQS8",
+  "blurb": "Not enough public information — the provided research sources are financial-portal stub pages (Yahoo Finance, MarketWatch, TipRanks, Google Finance, MarketScreener) that confirm the company name and listing but contain no extracted business description. Plan Optik AG's sector and operations are not derivable from the supplied source text.",
+  "recent": "Not enough public information — none of the supplied sources contain article text, earnings summaries, price-action data, or news items from the past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/P4O.DE/",
+      "title": "Planoptik AG (P4O.DE) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/p4o?countrycode=xe",
+      "title": "P4O Stock Price | Plan Optik AG Stock Quote (Germany: Xetra) | MarketWatch"
+    },
+    {
+      "url": "https://www.tipranks.com/stocks/de:p4o",
+      "title": "P4O Stock | Plan Optik AG Price, Quote, News & Analysis - TipRanks"
+    },
+    {
+      "url": "https://www.google.com/finance/quote/P4O:ETR",
+      "title": "Plan Optik AG (P4O) Stock Price & News - Google Finance"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/PLANOPTIK-AG-50914979/",
+      "title": "Planoptik AG Stock (P4O) - Quote Börse Stuttgart - MarketScreener"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:35:45.497260Z",
+  "backend": "claude-sonnet-subagent"
+}

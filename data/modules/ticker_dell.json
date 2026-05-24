@@ -1,0 +1,24 @@
+{
+  "key": "DELL",
+  "name": "Dell Technologies Inc.",
+  "exchange": "NYSE",
+  "blurb": "Dell Technologies is a global technology company that designs, manufactures, and sells personal computers, servers, storage, networking equipment, and related services. Its two main segments are the Infrastructure Solutions Group (ISG), which covers servers, storage, and networking, and the Client Solutions Group (CSG), covering PCs and workstations. Dell has become a leading provider of AI-optimized servers powered by Nvidia and AMD GPUs, positioning it as a primary beneficiary of the enterprise AI infrastructure buildout. It also gained market share following regulatory troubles at rival Super Micro Computer.",
+  "recent": "DELL stock has nearly doubled in 2026 on surging demand for AI servers, as tech companies race to build out data centers. On May 12, 2026, UBS downgraded the stock from 'Buy' to 'Neutral,' arguing that AI-driven upside is already priced in and the risk/reward is now more balanced; shares fell roughly 5–6% on the news. Attention is now turning to the Dell Technologies World conference, where Dell CEO and Nvidia CEO are scheduled to deliver a joint keynote on the opening day.",
+  "sources": [
+    {
+      "url": "https://stocktwits.com/news-articles/markets/equity/dell-stock-falls-on-ubs-downgrade-analyst-flags-heated-valuation-capped-upside/cZXXbcfReL9",
+      "title": "DELL Stock Falls On UBS Downgrade: Analyst Flags Heated Valuation, Capped Upside — Stocktwits"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/DELL/news/",
+      "title": "DELL News Today | Why did Dell Technologies stock go up today? — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/DELL/",
+      "title": "Dell Technologies Inc. (DELL) Stock Price, News, Quote & History — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T09:45:37.584956Z",
+  "backend": "claude-sonnet-subagent"
+}

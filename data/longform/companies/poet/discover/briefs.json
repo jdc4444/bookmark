@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "company": {
+    "name": "POET Technologies Inc.",
+    "ticker": "POET",
+    "exchange": "NASDAQ / TSX",
+    "slug": "poet"
+  },
+  "report_title": "POET Technologies — the optical interposer pre-revenue bet on co-packaged optics",
+  "report_subtitle": "A $313M cash war chest, no commercial revenue, and an architecture pitch that requires hyperscalers to abandon pluggable transceivers — how POET's photonic-integration story trades pure option value",
+  "voice_and_style": "Financial-Times / Bloomberg long-form. Primary sources only: POET 20-F annual report on SEC EDGAR, POET 6-K quarterly filings, IR press releases on poet-technologies.com, primary industry reporting at Semiconductor Today, Lightreading, Optical Connections, Semi Engineering. Past-tense narrative voice. Quote management from earnings calls / press releases verbatim when paraphrasing claims. Do not extrapolate beyond the snapshot date 2026-05-23. Treat POET as a pre-revenue platform-bet equity story explicitly — do not pretend it is an operating company at revenue scale. The reader is a sophisticated investor who already knows what co-packaged optics is. No Aleabit / Substack / X commentary as primary source; bounded to ≤200 word subsection in news_catalysts only.",
+  "target_total_word_count": 17000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {
+      "slug": "snapshot",
+      "title": "Snapshot",
+      "order": 1,
+      "target_words": 750,
+      "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+      "directives": [
+        "Open with the binary nature of the story: POET is a pre-commercial photonics platform with $313.4M cash, $62.96M FY25 net loss, and essentially no revenue (~$1.2M FY25 NRE-and-product). The equity proposition is option value on hyperscaler co-packaged optics adoption.",
+        "State the dual-listing (NASDAQ POET + TSX POET), the foreign-private-issuer status (20-F filing basis), Toronto corporate domicile + Singapore manufacturing base.",
+        "Two-sentence framing: POET designs and licenses the POET Optical Interposer — a wafer-level photonic integration platform built around a passive substrate hosting multiple optical components (lasers, modulators, photodetectors, filters) with minimal optical loss. The platform is positioned for 800G/1.6T transceiver applications and specifically for co-packaged optics (CPO) and external light source (ELS) modules.",
+        "CEO Suresh Venkatesan joined in 2015 from GlobalFoundries (SVP Technology Development, led 28nm ramp, instrumental in 14nm transfer). Lead Independent Director Jean-Louis Malinge ran Kotura (silicon photonics, sold to Mellanox 2013 for $82M) — the most directly comparable operating precedent on the board.",
+        "FY25 details: net loss $62.96M, R&D $18.08M, SG&A $25.08M, ~$35M non-cash operating costs. Total assets grew from $69.7M (Dec 2024) to $328.6M (Dec 2025) on the back of a $250M institutional equity raise from three undisclosed buyers. Share count 132.3M common + 5.79M options + 37.36M warrants = 28.35% dilution overhang on full exercise. Derivative warrant liability $135.6M on the balance sheet.",
+        "Close on the central tension: $313M cash provides ~7 years of runway at FY25 burn, the board is calibrated for cycle-compression governance, and the Sivers Semiconductors collaboration (September 2025) is the most concrete strategic partnership. But the FY25 20-F explicitly notes 'No major customers, partners, or design wins explicitly named.' Whether the runway is long enough to cross from platform thesis to qualified component in hyperscaler CPO supply chains is the question the report exists to frame.",
+        "Tone: declarative, primary-source, no hedging. Do not pretend POET is at revenue scale — it isn't, and the report should be honest about that."
+      ]
+    },
+    {
+      "slug": "corporate_history",
+      "title": "From planar optoelectronics to the Singapore interposer line",
+      "order": 2,
+      "target_words": 1400,
+      "use_prep_files": ["history.md", "snapshot.json", "financials.json"],
+      "directives": [
+        "Anchor in the pre-Venkatesan POET history: incorporated in Canada, listed on Toronto venture exchanges in the earliest period, named POET (Planar Opto Electronic Technology) for the original monolithic integration thesis on gallium-arsenide. The pre-2015 era produced IP and accumulated losses but no commercial scale.",
+        "The 2015 Venkatesan pivot: Suresh Venkatesan joined as Chairman and CEO from SVP Technology Development at GlobalFoundries. Purdue PhD EE, 25+ US patents, Freescale Fellow (2007), Motorola SABA (2004), GlobalFoundries 28nm ramp leadership, 14nm transfer and qualification. POET pivoted to the Optical Interposer platform thesis — wafer-level photonic integration on a passive substrate.",
+        "The Singapore subsidiary (POET Singapore Pte. Ltd.) operates the wafer-level photonic integration line. Singapore selected for semiconductor labour pool depth + geopolitical insulation from US-China friction vs. a China-only base. 20-F geopolitical risk discloses Asia operations footprint China + Singapore + Malaysia.",
+        "Board build-out timeline: Malinge joined September 2017 (the Kotura/Mellanox operating precedent — most consequential single board addition for credibility), Riley December 2020 (32-year semi/optoelectronics operator), Lan Ende advisor June 2022 then director October 2022 (Arista Networks CPO — customer-side credential), Tirva December 2024 (public-company CFO/COO), Khan July 2025 (Coherent SiC EVP + Agere CEO chip-CEO credential).",
+        "Chris Tsiofas retired at the June 2025 AGM after 13 years as Audit Committee Chair. The Tirva-as-natural-successor sequencing is the most consequential governance event of 2024-2025.",
+        "2025 $250M institutional equity financing — three undisclosed institutional buyers. Total assets grew from $69.7M (Dec 2024) to $328.6M (Dec 2025). The financing creates the structural dilution overhang (5.79M options + 37.36M warrants = 28.35% on exercise) plus the $135.6M derivative warrant liability.",
+        "September 2025 Sivers Semiconductors collaboration on external light sources for co-packaged optics — most concrete disclosed strategic partnership at snapshot date. Pairs Sivers' DFB lasers (UK Sivers Photonics) with POET's Optical Interposer for ELS modules into CPO supply chains.",
+        "Close on what the arc means for the equity: a pre-commercial platform company that has executed a board build-out + financing capable of supporting multi-year runway, and is now in the qualification phase against the hyperscaler CPO transition that determines whether the platform thesis crystallises into revenue or stays as option value."
+      ]
+    },
+    {
+      "slug": "business_segments",
+      "title": "One platform, four module applications",
+      "order": 3,
+      "target_words": 1500,
+      "use_prep_files": ["counterparties.json", "snapshot.json", "financials.json"],
+      "directives": [
+        "Frame the product structure honestly: POET does not have multiple revenue segments because POET does not have meaningful revenue. The product taxonomy is platform plus module applications.",
+        "The POET Optical Interposer: wafer-level photonic integration platform with a passive substrate hosting multiple optical components (lasers, modulators, photodetectors, filters) at minimal optical loss. Materials-agnostic: can host III-V and silicon photonic devices, structurally different from a pure silicon photonics or a pure compound-semiconductor approach.",
+        "Four module application areas: (a) 800G optical transceiver modules (Optical Interposer-based, customer qualification stage); (b) 1.6T optical transceiver modules (development stage); (c) External Light Sources (ELS) for CPO (Sivers collaboration); (d) Other photonic integration applications under co-development with customers.",
+        "Honest revenue framing: FY25 NRE-and-product revenue $1.2M total ($298K Q3, $341K Q4). This is engineering-services and prototype revenue, not commercial volume. The 20-F flags 'No major customers, partners, or design wins explicitly named' — this is a customer-qualification-pipeline equity story.",
+        "Singapore manufacturing base: POET Singapore Pte. Ltd. operates the integration line. Specifics of fab/OSAT relationships are not publicly disclosed at snapshot date — flag honestly.",
+        "Capital allocation: 100% of cash deployment goes to R&D ($18.08M FY25) + SG&A ($25.08M FY25) + sustaining operations. No capex line meaningful at FY25 scale; the company is design-and-license-IP, not a fab-owning operating company.",
+        "Source explicitly to the FY2025 20-F filing, Q3/Q4 2025 6-K press releases, IR product pages on poet-technologies.com."
+      ]
+    },
+    {
+      "slug": "financial_deep_dive",
+      "title": "The $313M war chest against the $63M operating burn",
+      "order": 4,
+      "target_words": 1500,
+      "use_prep_files": ["financials.json", "snapshot.json"],
+      "directives": [
+        "Open with the headline: FY25 net loss $62.96M, FY25 revenue ~$1.2M, ratio of loss to revenue is approximately 50x. This is not an operating company in the conventional sense.",
+        "Expense walk: R&D $18.08M (incl $2.22M stock comp), SG&A $25.08M (incl $3.89M stock comp + $3.32M D&A), ~$35M total non-cash operating costs. Cash burn approximately $45M FY25 ($62.96M net loss less $35M non-cash plus some working capital movement).",
+        "Balance sheet expansion: Total assets $69.7M (Dec 2024) → $328.6M (Dec 2025), a near 5x jump. Cash and short-term investments $53.8M → $313.4M. Working capital $170.7M. The expansion is the result of the $250M institutional equity raise.",
+        "Runway calculation: $313.4M cash and short-term investments / $45M annual cash burn = approximately 7 years runway. This is structurally long for a pre-commercial photonics platform company.",
+        "Share structure: 132.3M common shares outstanding + 5.79M options + 37.36M warrants = 175.45M fully-diluted (approx) implied. The 28.35% potential dilution from option and warrant exercise is the structural dilution overhang.",
+        "Derivative warrant liability: $135.6M on the balance sheet as a non-cash mark-to-market item. This reflects the economic obligation of the outstanding warrants and represents real shareholder dilution risk if exercised. Convertible debt of $5.8M is a smaller line item.",
+        "Accumulated deficit ~$297M, accumulated net operating losses ~$180M. The historical context: POET has consumed roughly $297M of cumulative equity in pursuit of the platform thesis before reaching meaningful commercial revenue.",
+        "Source numbers exclusively to the FY2025 20-F and the quarterly 6-K filings."
+      ]
+    },
+    {
+      "slug": "earnings_story",
+      "title": "Four quarters of qualification engineering revenue",
+      "order": 5,
+      "target_words": 1200,
+      "use_prep_files": ["financials.json", "snapshot.json", "history.md"],
+      "directives": [
+        "Frame as the cumulative narrative of POET's quarterly disclosure cadence through 2024-2025. Honest framing: there is no operating-leverage story here, only qualification-engineering revenue progress and balance-sheet expansion.",
+        "Q3 2024 NRE-and-product revenue $3,685 (yes, three thousand dollars). Q4 2024 $29,032. Q2 2025 $268,469. Q3 2025 $298,434. Q4 2025 $341,202. Sequential progression is the only operational story — revenue is accelerating but from a tiny base.",
+        "Pull quotes from management on each major announcement attributed to the originating 6-K filing or press release. Use Suresh Venkatesan's framing of customer qualification progress, the Sivers collaboration announcement (September 2025), and the $250M financing closing.",
+        "The structural-narrative point: each quarterly disclosure cycle through 2024-2025 was characterised by (a) modest NRE revenue progression, (b) operating-expense growth as the headcount and R&D scale up, (c) periodic balance-sheet headlines from the financing transactions.",
+        "Stock-price reaction series: POET stock has been highly volatile through 2024-2025 as CPO architectural narrative has moved, with notable moves around Broadcom CPO Tomahawk announcements, Nvidia roadmap announcements, and the Sivers collaboration. Reference current trading level without overweighting it.",
+        "Close on the cumulative observation: POET in its public-disclosure history has produced sequential qualification-engineering revenue growth and a 5x balance-sheet expansion, but has not produced disclosed commercial design-in revenue. The disclosure cadence is consistent with a platform-bet equity story, not an operating-company quarterly print."
+      ]
+    },
+    {
+      "slug": "leadership",
+      "title": "The GlobalFoundries CEO and his Kotura-pedigree lead independent",
+      "order": 6,
+      "target_words": 1600,
+      "use_prep_files": ["leadership.json", "snapshot.json"],
+      "directives": [
+        "Open with Suresh Venkatesan: B.Tech EE IIT, MS+PhD EE Purdue. Career: Motorola (SABA induction 2004), Freescale Semiconductor (Freescale Fellow 2007), GlobalFoundries 2009-2015 (SVP Technology Development, led 28nm ramp, instrumental in 14nm transfer and qualification). Joined POET as Chairman and CEO 2015. Over 25 US patents, 50+ technical papers. Frame the GlobalFoundries 28nm credential as the most concrete operating credential.",
+        "Jean-Louis Malinge — Lead Independent Director since September 2017. CEO of Kotura 2004-2013 (silicon photonics; sold to Mellanox 2013 for $82M). Previously 15+ years at Corning Incorporated including VP Optical Networking Components. Currently Partner at ARCH Venture Partners (~$2B AUM) and Managing Director at YADAIS photonics consulting. Frame as the most directly comparable operating precedent on the board.",
+        "Theresa Lan Ende — Director since October 2022 (advisor since June 2022). Current: Chief Procurement Officer (formerly Chief Procurement Director) at Arista Networks; previously 10 years as Senior Director Global Supply Chain Management at Arista. Career through JDS Uniphase, Force10 Networks, Cisco Systems, ROLM Telecommunications. Silicon Valley Business Journal 'Top 100 Women of Influence' 2019. Frame as the working hyperscaler-customer-side supply-chain credential.",
+        "Glen Riley — Director since December 2020; Compensation Committee Chair. Most recent: General Manager Filter Solutions BU at Qorvo. Prior: Managing Director TriQuint International HQ Singapore, General Manager TriQuint GaAs Foundry, General Manager TriQuint Optoelectronics, CEO Opticalis, VP Agere High-Speed/Long-Haul Optoelectronics, Asia Sales President Lucent Microelectronics (Tokyo). Education: B.S. valedictorian University of Maine; HBS General Management Program 1998. Frame as 32-year compound-semiconductor and optoelectronics operator.",
+        "Robert (Bob) Tirva — Director since December 2024; Audit Committee member (succeeded Tsiofas at June 2025 AGM). Previous: President + COO + CFO of Sonim Technologies (acquired by AJP Holding 2022). Career: IBM, Broadcom, Dropbox, Intermedia Cloud Communications. Other current board: Skyworks Aeronautics. Frame as the public-company financial-execution credential.",
+        "Sohail Khan — Director since July 7, 2025; Corporate Governance and Nominating Committee. Career: EVP Wideband Gap Electronics and President of SiC, LLC at Coherent Corp.; CEO and Head of Strategy at Agere Systems; President and CEO of ViXS Systems; Managing Partner K5 Innovations; 16 years on LightPath Technologies board; Intersil director. Frame as the deepest chip-CEO M&A pattern recognition on the board.",
+        "Chris Tsiofas retired at June 2025 AGM after 13 years as Audit Committee Chair. Tirva is the natural successor. The audit chair reconfiguration is the consequential governance event of 2024-2025 — note as such.",
+        "Board composition observation: six-director board (post-Tsiofas, including Khan) is unusually well-credentialed for a pre-commercial-revenue $313M-cash company. Working photonics CEO + ex-silicon-photonics-CEO (Malinge) + ex-Coherent-SiC EVP (Khan) + 32-year optoelectronics GM (Riley) + Arista CPO (Lan Ende) + public-company CFO/COO (Tirva). Compare with a Sivers-style US-listing-prep board (Bastani, Thomson, Svancar etc) — POET's board is calibrated for operational governance of a platform thesis, not for IPO execution or transformational M&A.",
+        "Note structurally: there is no separate CFO listed on POET's public team page, which is unusual for a $313M-cash company. The CFO function is presumably handled through corporate-level finance and the Audit Committee (now reconfigured under Tirva). Flag this honestly.",
+        "DO NOT punt on any of the six directors. Every name above has substantive material in prep/leadership.json — use it. If a sentence would say 'limited public profile,' rewrite it to use the data in the prep file."
+      ]
+    },
+    {
+      "slug": "customers_supply_chain",
+      "title": "A pipeline of qualifications and one strategic partner",
+      "order": 7,
+      "target_words": 1300,
+      "use_prep_files": ["counterparties.json", "financials.json", "snapshot.json"],
+      "directives": [
+        "Open with the honest disclosure framing: the FY25 20-F explicitly states 'No major customers, partners, or design wins explicitly named.' This is the structural fact about POET's current commercial position.",
+        "Customer pipeline framing: POET's go-to-market is qualifying with hyperscaler programs (Microsoft, AWS, Meta, Google) through OEM/ODM channels (Supermicro, Dell, HPE, Foxconn-FII) and direct hyperscaler engineering teams. The qualification cycle for novel photonic-integration architectures is typically 18-36 months from engagement through volume — longer than the PCIe retimer or pluggable transceiver cycle.",
+        "The Sivers Semiconductors collaboration (September 2025) is the most concrete disclosed strategic partnership at the snapshot date. Pairs Sivers' UK subsidiary Sivers Photonics (custom high-power InP DFB lasers) with POET's Optical Interposer to produce External Light Source (ELS) module candidates for hyperscaler CPO supply chains. Two pre-commercial platform companies aiming at the same emerging market.",
+        "Manufacturing geography: POET Singapore Pte. Ltd. operates the wafer-level photonic integration line. Additional Asia footprint in China and Malaysia per 20-F. Specific OSAT and fab relationships not publicly disclosed at snapshot date.",
+        "Competitive landscape: Intel Silicon Photonics (internal, competing architecture), Marvell (Inphi acquisition for PAM-DSP and coherent optics), Broadcom (Tomahawk 5 CPO — the most consequential demand-side validator AND the most consequential competitor at the optical-engine layer), Coherent (II-VI; vertically integrated photonics), Lumentum (architectural-alternative if pluggable wins), Ayar Labs (CPO with intra-chip optical I/O focus), Lightmatter (photonic compute/interposer), Celestial AI (photonic interconnect). AAOI is the architectural alternative — if pluggable optics continues to dominate, AAOI's vertically-integrated transceiver business is the supplier of choice.",
+        "Close on the structural observation: POET's customer-and-partner map at the snapshot date is a pipeline rather than a revenue base. The investment proposition is binary — qualifying design-in disclosures over the next 12-24 months are the leading indicator that converts platform thesis into revenue."
+      ]
+    },
+    {
+      "slug": "competitive_position",
+      "title": "Where the Optical Interposer fits in the CPO landscape",
+      "order": 8,
+      "target_words": 1500,
+      "use_prep_files": ["snapshot.json", "counterparties.json", "financials.json"],
+      "directives": [
+        "Frame the CPO architectural decision as the central competitive variable. Co-packaged optics moves the laser, modulator, and PD silicon from a pluggable transceiver into the package attached to the switch ASIC. If hyperscalers transition at scale, the entire pluggable transceiver value chain compresses and component suppliers like POET become rate-limiting.",
+        "POET's structural differentiator: a materials-agnostic wafer-level photonic integration platform on a passive substrate. This is structurally different from (a) Intel silicon photonics (silicon-only, internal), (b) compound-semiconductor monolithic approaches (e.g. historical InP integration), and (c) chip-to-chip optical I/O approaches (Ayar Labs, Lightmatter, Celestial AI).",
+        "Competitive landscape by approach: (1) Integrated silicon photonics — Intel internal, Marvell (Inphi), Cisco (Acacia), Coherent. (2) Optical interposers — POET, plus venture-backed competitors. (3) Co-packaged optical engines — Broadcom Tomahawk CPO, Nvidia (internal silicon photonics roadmap), Ayar Labs (intra-chip optical). (4) External light source modules — POET + Sivers (collaboration), Lumentum (DFB laser supplier), Coherent.",
+        "Industry-validation signals to watch: Broadcom Tomahawk 5 CPO production ramp (most concrete demand signal for CPO architecture), Nvidia Rubin generation CPO disclosures (if Nvidia commits to CPO at Rubin scale, the addressable market multiplies), hyperscaler co-design disclosures of CPO supply chains.",
+        "POET's structural weaknesses: zero commercial volume, no disclosed major design wins, smaller R&D budget than Broadcom/Intel/Marvell/Coherent at their CPO efforts, dilution overhang on the share register, no separate disclosed CFO.",
+        "POET's structural strengths: $313M cash runway, Singapore manufacturing base providing geopolitical insulation, Sivers strategic partnership locking in the ELS use case, board composition with Kotura precedent (Malinge sold silicon photonics to Mellanox $82M).",
+        "Sources: POET 20-F, peer 10-K filings (Coherent, Lumentum, Marvell), industry primary reporting at Semiconductor Today, Lightreading, Optical Connections, Semi Engineering. Do NOT cite Aleabit or X commentary as primary sources."
+      ]
+    },
+    {
+      "slug": "news_catalysts",
+      "title": "What moved the price and what to watch",
+      "order": 9,
+      "target_words": 1500,
+      "use_prep_files": ["snapshot.json", "financials.json", "history.md", "counterparties.json"],
+      "directives": [
+        "Build the news timeline from primary sources: each 2024 and 2025 6-K quarterly press release; June 2024 board changes; December 2024 Tirva appointment; June 2025 AGM results (Tsiofas retirement); July 2025 Khan appointment; September 2025 Sivers collaboration; 2025 close of $250M financing; February 2026 FY2025 20-F filing; April-May 2026 any subsequent disclosures (pre-snapshot).",
+        "Quote management framing of each major announcement attributed to the originating press release or 6-K.",
+        "Identify key forward catalysts from the snapshot date: Broadcom Tomahawk CPO production ramp announcements, Nvidia Rubin generation CPO disclosures, any qualified design win announcement from POET, additional strategic partnerships, additional financing transactions (the runway is long but warrant exercise could change share structure dramatically).",
+        "Bound the Aleabit / X commentary discussion to a single subsection at the bottom of the chapter, titled 'Specialist-commentary subsection: how price-target chatter framed the move.' Limit to 200 words. If Aleabit has a published target / framing for POET in the prep data, cite as one data point with explicit caveat that Aleabit is not used as a primary source for facts elsewhere. If Aleabit's exact framing is not in the prep data, write 'Specialist commentary framing of POET by Aleabit was not surfaced in the bounded primary-source set used for this report' and do not invent.",
+        "DO NOT use Aleabit, Substack, X, or any third-party commentary as a primary source anywhere else in this chapter."
+      ]
+    },
+    {
+      "slug": "ip_rd",
+      "title": "Wafer-level photonic integration as a thesis",
+      "order": 10,
+      "target_words": 1100,
+      "use_prep_files": ["snapshot.json", "financials.json"],
+      "directives": [
+        "Open with the R&D economics: $18.08M FY25 R&D spend (incl $2.22M stock-comp) against $1.2M total revenue. Operating cash flow is meaningfully negative; the $313M cash war chest is what funds the multi-year R&D continuation.",
+        "Venkatesan's patent portfolio: over 25 US patents, co-author of 50+ technical papers. The IP is heavily process-technology-led from his GlobalFoundries 28nm credentials and Freescale Fellow CMOS contributions.",
+        "POET-specific patent portfolio: precise count not surfaced in the prep summary used here — flag honestly. The technology stack covers wafer-level photonic integration, passive substrate design, low-optical-loss assembly methods, multi-component (laser/modulator/PD/filter) integration techniques.",
+        "Engineering geography: Singapore (POET Singapore Pte. Ltd. — the manufacturing line), Toronto (corporate), other Asia operations in China and Malaysia per 20-F. R&D personnel headcount not separately disclosed at snapshot date — flag honestly.",
+        "R&D as percent of revenue is misleading at POET's scale because revenue is so low. R&D as percent of operating expenses is approximately 42% ($18.08M / $43.16M total OpEx) — a research-intensity ratio typical of platform-development companies.",
+        "Strategic-IP question: POET's wafer-level photonic integration platform is the IP perimeter that determines whether the company captures rents from the CPO architectural transition. The patent stack must (a) prevent direct architectural-replication by Broadcom / Intel / Marvell, and (b) license meaningfully into hyperscaler CPO programs.",
+        "Close on the central R&D question: $18M annual R&D is roughly 1/10th of what Broadcom or Intel deploys against CPO. POET's path to competitive position is not R&D-volume parity — it is platform-IP defensibility plus customer-qualification execution. Whether the IP is in fact defensible at hyperscaler scale is the open question the next 18-24 months will answer."
+      ]
+    },
+    {
+      "slug": "risks",
+      "title": "Pre-revenue, pre-qualification, with dilution overhang",
+      "order": 11,
+      "target_words": 1400,
+      "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json"],
+      "directives": [
+        "Seven categorical risks: (1) Pre-revenue — POET's commercial revenue is essentially zero at FY25 and the path to revenue depends on hyperscaler qualification. (2) Customer concentration — there are no >10% customers because there are essentially no customers; this is structurally different from pluggable-optics suppliers but no less risky. (3) Dilution overhang — 5.79M options + 37.36M warrants = 28.35% potential dilution on full exercise; $135.6M derivative warrant liability on the balance sheet. (4) Geopolitical Asia exposure — China, Singapore, Malaysia operations per 20-F. (5) Competitive R&D scale — Broadcom, Intel, Marvell, Coherent each deploy meaningfully larger R&D budgets against CPO. (6) Architectural-transition timing — if hyperscalers do not adopt CPO at scale in 2027-2028, POET's runway may outlast the addressable-market crystallisation. (7) Accumulated deficit ~$297M — the historical context of platform development is meaningful.",
+        "For each risk, walk through (a) the specific exposure, (b) what management has said publicly about mitigation, and (c) what the leading-indicator signal would be that the risk is materialising.",
+        "Customer concentration nuance: 'pre-qualification' is the correct framing rather than 'no customers' — POET has documented qualification engagements with hyperscaler and OEM/ODM programs, but the disclosure threshold for a 'design win' has not been met.",
+        "Architecture-transition risk specifically: this is the single highest-stakes risk in the report. If Broadcom Tomahawk CPO does not reach production volume on Broadcom's stated 2026-2027 timeline, the entire CPO addressable-market thesis compresses. POET's runway buys time but does not create the addressable market.",
+        "Dilution overhang nuance: warrants outstanding at varying exercise prices and expirations; the $135.6M derivative warrant liability is a non-cash mark-to-market item that fluctuates with stock price. Honest framing: this is a real economic obligation but the timing of exercise is not knowable in advance.",
+        "Source claims to the 20-F risk factors section, the quarterly 6-K commentary, and management remarks from press releases."
+      ]
+    },
+    {
+      "slug": "outlook",
+      "title": "Seven years of runway against the CPO timing",
+      "order": 12,
+      "target_words": 1400,
+      "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json", "leadership.json"],
+      "directives": [
+        "Open with the cash-runway math: $313.4M cash and short-term investments / ~$45M annual cash burn = approximately 7 years of runway. This is structurally long.",
+        "Forward catalyst sequence: 2026 6-K quarterly cadence (qualification revenue progression), additional strategic partnerships (the Sivers collaboration is the template), Broadcom Tomahawk CPO ramp signals, Nvidia Rubin / next-architecture CPO disclosures (late 2026 - 2027), hyperscaler co-design disclosures of CPO supply chains.",
+        "The binary outcome architecture: (a) If hyperscalers adopt CPO at scale in 2027-2028 and POET is qualified as a component in those supply chains, the platform thesis converts to revenue at a steep multiple. Revenue scaling could be 10-100x in 2-3 years from qualified design-win disclosures. (b) If pluggable optics continue to dominate (AAOI / Coherent / Lumentum capture the volume), POET's runway is consumed without thesis crystallisation; the optionality value diminishes through to the end of runway.",
+        "Operating-leverage math (if the platform thesis converts): at $200M+ annual revenue (a plausible 2028-2029 number if qualified at one hyperscaler at modest volume), POET could approach gross-margin parity with vertically-integrated photonics peers. At $500M+ annual revenue (an aggressive 2029-2030 number if qualified at multiple hyperscalers), the company would be cash-flow positive and the dilution overhang from current warrants would be diluted by share-price appreciation.",
+        "M&A speculation overhang: POET at $313M cash and an Optical Interposer platform would be valuable to several potential acquirers if qualifications were disclosed — Intel (silicon photonics gap), Marvell (extending Inphi), Broadcom (insourcing CPO components), Coherent (extending platform). The board composition (Malinge's Kotura/Mellanox precedent, Khan's Agere CEO M&A pattern) is the kind that could execute a transaction if presented. No public signal of any transaction at snapshot.",
+        "Close on the central question the report has built toward: does POET's 7-year runway buy enough time for the CPO architectural transition to crystallise, and if it does, is POET's Optical Interposer one of the qualified components? Frame the question; don't pretend to answer. The reader should have what they need to take a view."
+      ]
+    },
+    {
+      "slug": "appendices",
+      "title": "Appendices",
+      "order": 13,
+      "target_words": 800,
+      "use_prep_files": ["snapshot.json", "financials.json"],
+      "directives": [
+        "Three subsections: (a) Glossary of photonic-integration terminology (CPO, ELS, optical interposer, DFB laser, silicon photonics, III-V, MBE, MOCVD, OSFP, pluggable, wafer-level integration). (b) Quarterly revenue table from Q3 2024 through Q4 2025 and balance-sheet snapshot. (c) Source list — every SEC EDGAR filing referenced, every press release URL, every primary news article referenced.",
+        "The source list must be exhaustive and link-by-link. Reference the FY2025 20-F filing on SEC EDGAR, every quarterly 6-K filing, the IR press release URLs from poet-technologies.com.",
+        "Glossary entries should be 1-2 sentences each, sophisticated-investor refresh-level not primer-level."
+      ]
+    }
+  ]
+}

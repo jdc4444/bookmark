@@ -1,0 +1,24 @@
+{
+  "key": "SPY",
+  "name": "SPDR S&P 500 ETF Trust",
+  "exchange": "NYSE Arca",
+  "blurb": "The oldest and largest U.S. equity exchange-traded fund, launched in January 1993 by State Street Global Advisors as a vehicle to track the S&P 500 Index — a market-capitalisation-weighted benchmark of 500 large U.S. companies maintained by S&P Dow Jones Indices. SPY holds all constituent stocks in proportion to their index weight, with Apple, Microsoft, NVIDIA, Amazon and Meta typically constituting the top five positions. It trades continuously during market hours with daily volume in the hundreds of millions of shares, making it the world's most liquid single-listed equity security by dollar volume. Expense ratio: 0.0945% annually. SPY is often used as a proxy for 'the market' in both retail portfolios and institutional hedging strategies.",
+  "recent": "The S&P 500 closed at approximately 7,230 on May 1, 2026, representing a YTD gain of roughly 5.1% for 2026. The index's Shiller CAPE ratio stood near 40.9 as of early May 2026 — among the two highest readings in recorded history and exceeded only briefly during the 1999-2000 dot-com peak. The Federal Reserve held its benchmark rate at 3.5–3.75% at its April 2026 meeting, maintaining a pause in the cutting cycle that began in late 2024.",
+  "sources": [
+    {
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/funds/spdr-sp-500-etf-trust-spy",
+      "title": "SPDR S&P 500 ETF Trust — State Street Global Advisors"
+    },
+    {
+      "url": "https://www.multpl.com/shiller-pe",
+      "title": "Shiller PE Ratio — Multpl"
+    },
+    {
+      "url": "https://www.slickcharts.com/sp500/returns/ytd",
+      "title": "S&P 500 YTD Return — Slickcharts"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

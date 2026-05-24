@@ -1,0 +1,28 @@
+{
+  "key": "BABA",
+  "name": "Alibaba Group Holding Limited",
+  "exchange": "NYSE",
+  "blurb": "Alibaba Group is a Chinese multinational technology company specializing in e-commerce, retail, cloud computing, and digital media. It operates major platforms like Taobao, Tmall, and Alibaba.com, and is a leader in China's online retail market. The company also has a significant presence in cloud services through Alibaba Cloud and in digital payments via Ant Group.",
+  "recent": "In the past 30 days, Alibaba's stock has seen upward movement driven by positive sentiment around its cloud business and cost-cutting measures. The company reported better-than-expected quarterly earnings, with revenue growth in its core commerce and cloud segments. Analysts have noted improved investor confidence amid regulatory easing in China.",
+  "sources": [
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BABA/news/",
+      "title": "BABA News Today | Why did Alibaba Group stock go up today?"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/BABA/",
+      "title": "Alibaba Group Holding Limited (BABA) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/BABA.N/",
+      "title": "(BABA.N) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.fool.com/investing/2025/08/29/what-happened-to-baba-this-year/",
+      "title": "What Happened to Alibaba (BABA) This Year? | The Motley Fool"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:46:01.976088Z",
+  "backend": "deepseek"
+}

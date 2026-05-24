@@ -1,0 +1,15 @@
+{
+  "key": "NBIS",
+  "name": "Nebius Group N.V.",
+  "exchange": "NASDAQ",
+  "blurb": "Nebius Group is the Amsterdam-headquartered successor entity to Yandex's international operations after the Russian tech giant divested all domestic assets to a Russian consortium in a $5.4 billion transaction completed in July 2024. Led by Yandex co-founder Arkady Volozh, the renamed company has repositioned itself as a full-stack GPU cloud — a so-called neocloud — offering compute infrastructure for training and running large AI models. The Yandex engineering lineage gives it unusual depth in distributed systems and large-scale model serving.",
+  "recent": "Nebius resumed NASDAQ trading under ticker NBIS in October 2024 (formerly YNDX). Revenue for fiscal 2025 came in at $529.8 million, up roughly 479% year-over-year. Management guided to $3.0-3.4 billion in 2026 revenue. A reported $2.7 billion infrastructure deal with Meta in early 2026 would represent a step-function expansion of its client base.",
+  "sources": [
+    {"title": "Nebius Group Wikipedia", "url": "https://en.wikipedia.org/wiki/Nebius_Group"},
+    {"title": "Nebius neocloud deep dive (FinancialContent)", "url": "https://www.financialcontent.com/article/finterra-2026-3-17-nebius-group-nbis-the-rise-of-the-ai-neocloud-powerhouse"},
+    {"title": "Nebius major AI infrastructure player (247wallst)", "url": "https://247wallst.com/investing/2026/03/04/nebius-group-just-became-a-major-ai-infrastructure-player/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

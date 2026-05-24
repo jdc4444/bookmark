@@ -1,0 +1,65 @@
+{
+  "headline": "StableGen Brings AI Texturing to Blender in One Click",
+  "lede": "A new open-source plugin called StableGen lets Blender users automatically texture 3D objects using generative AI, all within the popular 3D creation suite. The tool, developed by a creator known as Sakalon, promises to dramatically speed up a traditionally labor-intensive step in 3D modeling.",
+  "body": "StableGen is a Blender add-on that connects to a local **ComfyUI** backend — a node-based interface for Stable Diffusion — to generate textures for 3D meshes. It supports multiple *ControlNet* units (Depth, Canny, Normal) to preserve geometric details, and uses *IPAdapter* for style guidance from reference images. The plugin can texture entire scenes from defined camera viewpoints, offering both a fast Grid Mode for previews and a Sequential Mode for higher multi-view consistency via inpainting.\n\nUnlike cloud-based alternatives, StableGen runs entirely on the user's own hardware, requiring a capable GPU and a local installation of ComfyUI with a Stable Diffusion XL (SDXL) checkpoint. The open-source nature (MIT license) allows customization and community contributions. Early demonstrations show impressive results for stylized and photorealistic textures, though output quality depends heavily on the underlying model and prompt engineering.\n\nThe significance lies in democratizing AI-assisted texturing for Blender's large user base — from indie game developers to architectural visualizers. By eliminating manual UV mapping and painting, StableGen could lower the barrier for creating detailed 3D assets. However, it is not a magic bullet: complex geometry or unusual topology may still require manual cleanup, and the reliance on local hardware limits accessibility for those without powerful GPUs.",
+  "tickers": [],
+  "companies": [],
+  "poster": "alexfredo87",
+  "concepts": [
+    {
+      "key": "comfyui",
+      "term": "ComfyUI",
+      "definition": "A node-based graphical user interface for Stable Diffusion that allows users to build complex image generation workflows by connecting modular blocks. It is often used as a backend for AI tools in 3D applications."
+    },
+    {
+      "key": "controlnet",
+      "term": "ControlNet",
+      "definition": "A neural network architecture that adds spatial conditioning controls to pretrained diffusion models, enabling users to guide generation with inputs like depth maps, edge detection, or normal maps."
+    },
+    {
+      "key": "ipadapter",
+      "term": "IPAdapter",
+      "definition": "A lightweight adapter for diffusion models that injects image prompt features, allowing style or content transfer from a reference image without fine-tuning the base model."
+    },
+    {
+      "key": "inpainting",
+      "term": "inpainting",
+      "definition": "A technique in image editing where missing or selected regions of an image are filled in by an AI model, often used to maintain consistency across different views of a 3D object."
+    },
+    {
+      "key": "sdxl",
+      "term": "Stable Diffusion XL (SDXL)",
+      "definition": "An advanced version of the Stable Diffusion text-to-image model, offering higher resolution and improved image quality compared to its predecessor, commonly used for AI-assisted content creation."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "sakalond/StableGen",
+      "url": "https://github.com/sakalond/StableGen",
+      "summary": "An open-source Blender plugin that uses generative AI to automatically texture 3D objects. It integrates with ComfyUI and supports ControlNet, IPAdapter, and multi-view consistency modes."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/sakalond/StableGen",
+      "title": "StableGen GitHub Repository",
+      "note": "Primary source for plugin features, installation, and license."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EVNYAMnn_oQ",
+      "title": "StableGen Tutorial Video",
+      "note": "Demonstrates plugin usage and output quality."
+    },
+    {
+      "url": "https://www.linkedin.com/posts/luka-tisler_ever-wished-your-3d-models-could-texture-activity-7332667676810436608-VUu1",
+      "title": "LinkedIn Post on StableGen",
+      "note": "Detailed feature list and community context."
+    }
+  ],
+  "bookmark_id": "1924617998557438342",
+  "generated_at": "2026-05-07T07:10:12.949843Z",
+  "backend": "deepseek"
+}

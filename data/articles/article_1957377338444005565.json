@@ -1,0 +1,59 @@
+{
+  "headline": "Yan Framework Targets Real-Time AI-Driven Interactive Video at 1080p/60FPS",
+  "lede": "A team of eighteen researchers has published Yan, a framework that unifies interactive video generation, simulation, and editing in a single pipeline. Running at 1080p and 60 frames per second, it positions itself less as a video-clip tool and more as a replacement for a game engine's rendering layer. The paper appeared on arXiv in August 2025.",
+  "body": "Yan is built around three interlocking modules, each targeting a distinct bottleneck in real-time interactive video. The first, which the authors call AAA-level simulation, uses a highly compressed *3D-VAE* — a neural encoder-decoder that compresses both spatial and temporal dimensions — paired with a *KV-cache-based shift-window denoising* process. Together these reduce the latency of the underlying diffusion model enough to sustain real-time playback without sacrificing resolution.\n\nThe second module handles open-domain generation. The team devised a hierarchical autoregressive captioning method that injects game-specific knowledge into a standard *video diffusion model* (VDM), a class of generative network that progressively refines noisy video frames. The result is a generator that responds frame-by-frame to user actions, effectively making the diffusion process steerable in real time. Notably, when text and image prompts come from different stylistic domains — say, a cartoon instruction paired with a photorealistic scene — the model blends mechanics and aesthetics rather than collapsing to one or the other.\n\nThe third module tackles editing. Yan explicitly **disentangles** the simulation of interactive mechanics — physics, movement rules, collision — from visual rendering. That separation allows a user to change the look of a scene via text without disturbing its underlying behavior, or vice versa. The authors describe this as \"multi-granularity\" editing: you can alter a surface texture, a full visual style, or the rules of engagement independently.\n\nThe ambition here is architectural as much as technical. Prior work in AI video has mostly targeted clip-length generation or offline editing; Yan proposes a single framework spanning the entire creation pipeline. Whether the 1080p/60FPS figures hold under the full complexity of open-ended user interaction — rather than constrained benchmark scenarios — is the natural question the paper leaves open.",
+  "tickers": [],
+  "poster": "AngryTomtweets",
+  "concepts": [
+    {
+      "key": "video-diffusion-model",
+      "term": "video diffusion model (VDM)",
+      "definition": "A generative neural network that learns to produce video by iteratively removing noise from a random signal, guided by a text or image prompt. Diffusion models have become the dominant architecture for high-quality AI image and video synthesis because they allow fine-grained control over the output through the denoising schedule."
+    },
+    {
+      "key": "3d-vae",
+      "term": "3D variational autoencoder (3D-VAE)",
+      "definition": "A neural encoder-decoder that compresses video along both spatial dimensions (height, width) and the temporal dimension (frame sequence) into a compact latent representation. Working in this compressed space dramatically reduces the computation needed at inference time, which is why it is critical for achieving real-time generation speeds."
+    },
+    {
+      "key": "kv-cache",
+      "term": "KV-cache (key-value cache)",
+      "definition": "A technique, borrowed from transformer-based language models, that stores intermediate attention computations so they do not need to be recalculated when generating successive tokens or frames. In video generation, reusing cached key-value pairs from earlier frames allows the model to produce new frames far more quickly than recomputing from scratch each time."
+    },
+    {
+      "key": "shift-window-denoising",
+      "term": "shift-window denoising",
+      "definition": "An inference strategy in which the model processes a sliding temporal window of frames during the denoising pass rather than the entire video at once. Shifting the window forward one frame at a time makes continuous, unbounded video generation tractable while keeping memory and latency bounded."
+    },
+    {
+      "key": "disentanglement",
+      "term": "mechanics–rendering disentanglement",
+      "definition": "The practice of training a model so that the rules governing how objects behave (physics, game logic) are represented separately from how they look (textures, lighting, style). Achieving this lets users edit one dimension without corrupting the other — a long-standing goal in controllable generative models."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "greatx3-yan",
+      "url": "https://github.com/greatx3/Yan",
+      "summary": "The project page for Yan is hosted at greatx3.github.io/Yan, suggesting this GitHub account hosts the associated code and assets. Based on the paper, the repository is expected to contain the three-module Yan pipeline — simulation, generation, and editing — along with model weights or links to them. As of the paper's publication date the full release status was not confirmed in the available sources."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2508.08601",
+      "title": "Yan: Foundational Interactive Video Generation (arXiv:2508.08601)",
+      "note": "Primary source — full abstract and author list for the Yan paper"
+    },
+    {
+      "url": "https://huggingface.co/papers/2508.08601",
+      "title": "Paper page — Yan: Foundational Interactive Video Generation (Hugging Face)",
+      "note": "Secondary summary confirming module descriptions and real-time performance claims"
+    }
+  ],
+  "bookmark_id": "1957377338444005565",
+  "generated_at": "2026-05-06T20:33:20.876768Z",
+  "backend": "claude"
+}

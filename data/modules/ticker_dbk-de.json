@@ -1,0 +1,24 @@
+{
+  "key": "DBK.DE",
+  "name": "Deutsche Bank Aktiengesellschaft",
+  "exchange": "XETRA",
+  "blurb": "Deutsche Bank is a leading German global banking and financial services company, offering investment, corporate, private, and retail banking, as well as asset management. It operates in over 60 countries and is one of the largest banks in Europe by total assets. The bank has been undergoing a major restructuring to improve profitability and streamline operations.",
+  "recent": "In the past 30 days, Deutsche Bank's stock has been influenced by broader market trends and European banking sector performance. The bank continues to execute its transformation strategy, focusing on cost reduction and digitalization. No major earnings or specific catalysts were reported in this period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/DBK.DE/",
+      "title": "Deutsche Bank Aktiengesellschaft (DBK.DE) - Yahoo Finance"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/stockdetails/deutsche-bank-ag/fi-afr4c7",
+      "title": "Deutsche Bank AG (DBK) Stock, Price, News, Quotes, Forecast and ..."
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/FRA/DBK/",
+      "title": "Deutsche Bank Aktiengesellschaft (DBK) Stock Price, News & Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:31:19.335126Z",
+  "backend": "deepseek"
+}

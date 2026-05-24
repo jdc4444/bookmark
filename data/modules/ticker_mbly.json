@@ -1,0 +1,24 @@
+{
+  "key": "MBLY",
+  "name": "Mobileye Global Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Mobileye Global Inc. develops and deploys advanced driver assistance systems (ADAS) and autonomous driving technologies for automakers across the United States, Europe, China, and other international markets. The company operates through two segments — Mobileye (end-to-end ADAS and autonomous driving hardware/software) and Moovit (mobility-as-a-service data and transit intelligence). Its product portfolio ranges from Base ADAS front-camera safety systems to Cloud-Enhanced ADAS platforms that leverage crowdsourced localization data. Originally an Intel subsidiary, Mobileye went public on NASDAQ in October 2022 and is a leading supplier of ADAS silicon and software to global automakers.",
+  "recent": "Mobileye's Q1 2026 earnings (reported April 23, 2026) surprised to the upside on revenue, driving shares up approximately 11.7% on the day. The stock extended gains into mid-May, closing at $10.53 on May 13, 2026 — a 14.08% single-session move — though it remains well off its 52-week high of $20.18. Analyst consensus stands at Buy with a mean price target of $14.13, implying roughly 34% upside from current levels.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/mbly/",
+      "title": "Mobileye Global (MBLY) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/other/mobileye-nasdaq-mbly-surprises-with-q1-cy2026-sales-stock-jumps-11-7/ar-AA21yH3X",
+      "title": "Mobileye (NASDAQ:MBLY) surprises with Q1 CY2026 sales, stock jumps 11.7% — MSN"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/MBLY/",
+      "title": "Mobileye Global (MBLY) Stock Price, News & Analysis — MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:33:22.094986Z",
+  "backend": "claude-sonnet-subagent"
+}

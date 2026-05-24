@@ -1,0 +1,54 @@
+{
+  "headline": "A Claude Code Plugin That Mines Social Media for Fresh Intelligence",
+  "lede": "The AI world's most perishable commodity is current practice — what actually works in tools like Midjourney or Cursor today, as opposed to what worked last quarter. A Claude Code plugin called /last30days attempts to solve this by treating Reddit, X, Bluesky, and six other platforms as a live research feed, synthesizing upvoted community knowledge into a timestamped brief on any topic a user names.",
+  "body": "The tool installs as a *Claude Code skill* — an extension to Anthropic's terminal-based AI coding assistant — and accepts any plain-language query. The plugin is attributed in the registry to the account `mvanhorn`, though the tweet opts for the more dramatic 'someone built.' Under the hood, the skill fans out across nine sources: Reddit, X, Bluesky, YouTube, TikTok, Instagram, Hacker News, Polymarket, and the open web. It scores, deduplicates, and synthesizes results into a narrative with citations — not, as the tweet implies, a finished prompt template.\n\nThe engineering has real texture. Reddit integration runs on **ScrapeCreators**, a third-party service that covers Reddit, TikTok, and Instagram under a single API key, with automatic subreddit discovery that finds relevant communities without the user having to name them. Top comments receive a 10% upvote-weight scoring bonus, surfacing received wisdom rather than just initial posts. Bluesky access, added in v2.9.5, uses the *AT Protocol* — the open federation standard behind the network — and requires the user's own app-password credentials.\n\nVersion 2.9.5 also adds *comparative mode*: a query like `/last30days cursor vs windsurf` triggers three parallel research passes and returns a side-by-side table of strengths, weaknesses, and a verdict. An earlier update introduced auto-save, writing every briefing as a named markdown file to `~/Documents/Last30Days/` and building a personal research library passively over time. The project now ships with 455-plus tests across its modules, a signal that it has moved beyond a weekend experiment.\n\nThe appeal is real and specific. Prompt engineering, tool selection, and community best practices in this field have a half-life measured in weeks. Static documentation, SEO-optimized posts, and even LLM training data lag badly. A tool that queries what practitioners are actively upvoting — including, unusually, prediction-market odds from Polymarket — offers a genuinely different signal. Whether that signal is clean depends on scoring logic the tweet does not disclose and that varies by platform's underlying search quality.",
+  "tickers": [],
+  "poster": "MillieMarconnni",
+  "concepts": [
+    {
+      "key": "claude-code-skill",
+      "term": "Claude Code skill",
+      "definition": "A plugin for Claude Code, Anthropic's terminal-based AI assistant aimed at software development. Skills add new slash commands and capabilities; they can be installed from a marketplace or directly from a GitHub repository slug."
+    },
+    {
+      "key": "at-protocol",
+      "term": "AT Protocol",
+      "definition": "The open federation standard that powers Bluesky. It lets users own their identity and move between servers, similar in spirit to email's decentralized design. Developers can build clients that read and write to the network using standard API calls with user-supplied credentials."
+    },
+    {
+      "key": "scraping-api",
+      "term": "scraping API",
+      "definition": "A third-party service that retrieves data from social platforms that restrict or lack official developer access. ScrapeCreators, used here, provides a unified endpoint covering Reddit, TikTok, and Instagram under one key. Such services occupy a legally ambiguous zone relative to platform terms of service."
+    },
+    {
+      "key": "polymarket",
+      "term": "Polymarket",
+      "definition": "A prediction market where users stake real money on the outcomes of real-world events, including technology developments. Its prices reflect crowd-probabilistic belief, a distinct signal from editorial opinion or social upvotes."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "mvanhorn-last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "summary": "A Claude Code plugin that accepts a plain-language query and returns a research brief drawing on Reddit, X, Bluesky, YouTube, TikTok, Instagram, Hacker News, Polymarket, and the open web from the past 30 days. Supports comparative 'X vs Y' queries and auto-saves briefings as local markdown files. Released under the MIT license. Note: the GitHub URL is inferred from the registry install command shown in the README screenshot; the repository location was not independently verified from the provided research sources."
+    }
+  ],
+  "fact_check": "The tweet frames /last30days primarily as a prompt-writing tool and mentions only 'Reddit and X,' but the README describes nine source platforms and characterizes the output as a grounded narrative with citations — not a finished, copy-paste prompt. The '100% Open Source' claim applies to the plugin code under MIT; the data pipeline itself requires paid third-party API keys (ScrapeCreators, Bluesky credentials), a dependency the tweet omits. None of these are outright false, but together they flatten a technically specific tool into something that sounds more automatic and free than the actual setup warrants.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://unrollnow.com/status/2036363493478375797",
+      "title": "Thread by @MillieMarconnni — UnrollNow",
+      "note": "Confirms author identity and that the post is part of a 12-tweet thread; full thread content not available from this source"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/hamna-aslam-kahn_this-feels-like-cheating-someone-built-activity-7455590556681826304-Y6MZ",
+      "title": "LinkedIn reshare of the original tweet",
+      "note": "Confirms tweet text verbatim; no additional ground truth beyond the original post"
+    }
+  ],
+  "bookmark_id": "2036363493478375797",
+  "generated_at": "2026-05-06T19:59:19.076075Z",
+  "backend": "claude"
+}

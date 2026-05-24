@@ -1,0 +1,17 @@
+{
+  "key": "VNP",
+  "name": "5N Plus Inc.",
+  "exchange": "TSX",
+  "blurb": "5N Plus Inc. (TSX: VNP) is a Montreal-based producer of ultra-high-purity specialty semiconductors and performance materials, operating in two segments. Specialty Semiconductors manufactures compound semiconductor wafers, epitaxial substrates, and advanced materials — principally from tellurium, germanium, indium, gallium, bismuth, and selenium — for applications in space solar cells, defence infrared sensors, and compound semiconductor devices. Performance Materials supplies bismuth and other high-purity metals for pharmaceutical, industrial, and energy applications. The company's German subsidiary, AZUR SPACE, is one of the world's leading manufacturers of space-grade multi-junction solar cells for satellite programmes, with production capacity expanded roughly 30% in 2025 and a further 25% expansion planned for the second half of 2026. 5N Plus appeared as a named competitor in Coherent Corp.'s 2022 10-K filing when shares traded near C$0.92; by mid-2026 the stock had reached C$35–36, a gain of roughly 38x.",
+  "recent": "Full-year 2025 results featured 35% revenue growth and 73% higher Adjusted EBITDA, following record 2024 results (revenue up 19% to $289M, EBITDA up 39% to $53M). In February 2026 the company announced another 25% expansion of AZUR SPACE solar-cell capacity. The 52-week range as of May 2026 is C$5.12–C$36.40, with the stock having outperformed the TSX Composite by roughly 342 percentage points over the prior twelve months. The analyst consensus is Buy, with a target near C$37.65.",
+  "sources": [
+    {"url": "https://stockanalysis.com/quote/tsx/VNP/", "title": "5N Plus (TSX:VNP) Stock Price & Overview — StockAnalysis"},
+    {"url": "https://www.5nplus.com/en/news/5n-plus-doubles-production-capacity-in-semiconduct/", "title": "5N Plus doubles production capacity in specialty semiconductors"},
+    {"url": "https://kalkine.ca/news/general-news/5n-plus-tsxvnp-the-hidden-canadian-materials-leader-powering-the-solar-and-semiconductor-boom", "title": "5N Plus: The Hidden Canadian Materials Leader — Kalkine"},
+    {"url": "https://www.5nplus.com/en/news/5n-plus-inc-to-further-increase-space-solar-cell-p/", "title": "5N Plus to Further Increase Space Solar Cell Production Capacity"},
+    {"url": "https://finance.yahoo.com/quote/VNP.TO/", "title": "5N Plus Inc. (VNP.TO) — Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T22:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

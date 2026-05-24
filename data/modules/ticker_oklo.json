@@ -1,0 +1,24 @@
+{
+  "key": "OKLO",
+  "name": "Oklo Inc.",
+  "exchange": "NYSE",
+  "blurb": "Oklo Inc. is a nuclear energy startup developing small fission power plants and advanced fuel technologies. The company operates across multiple business lines including energy generation (Ohio), nuclear fuel recycling (Tennessee), and isotope production (Texas). Oklo aims to commercialize compact nuclear reactors to deliver clean, reliable power to data centers, industrial customers, and remote sites.",
+  "recent": "Oklo recently cleared a significant regulatory or commercial hurdle that drove its stock higher, according to a Wall Street Journal-cited report. The company continues to operate at a loss as it works toward its first commercial reactor deployment, with deepening losses flagged in recent coverage despite investor optimism about its long-term pipeline.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/OKLO/",
+      "title": "Oklo Inc. (OKLO) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/topstocks/oklo-just-cleared-a-big-hurdle-and-its-stock-is-rising/ar-AA232smA",
+      "title": "Oklo's losses deepen. Why the nuclear start-up still has Wall Street's attention"
+    },
+    {
+      "url": "https://oklo.com/newsroom/news/",
+      "title": "Oklo Inc. - Newsroom - Press Releases"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:46:41.660026Z",
+  "backend": "claude-sonnet-subagent"
+}

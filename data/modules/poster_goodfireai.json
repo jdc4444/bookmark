@@ -1,0 +1,22 @@
+{
+  "key": "GoodfireAI",
+  "display_name": "Goodfire",
+  "blurb": "Goodfire is an AI research organization focused on mechanistic interpretability, neural geometry, and building tools to understand and control AI models. They post about their research agenda, including how neural networks represent concepts like time, space, and numbers along curved paths. Their platform Silico aims to enable building AI models with the precision of written software.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/GoodfireAI"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/GoodfireAI",
+      "title": "Goodfire (@GoodfireAI) / Posts / X"
+    },
+    {
+      "url": "https://threadreaderapp.com/user/GoodfireAI",
+      "title": "Goodfire's Threads - Thread Reader App"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-08T10:12:07.969171Z",
+  "backend": "deepseek"
+}

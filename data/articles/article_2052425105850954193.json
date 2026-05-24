@@ -1,0 +1,101 @@
+{
+  "headline": "What Really Protects Your Portfolio When Inflation Spirals",
+  "lede": "A 2021 paper by Campbell Harvey and the Man Group research team sifted 95 years of market data across the United States, Britain, and Japan to identify which assets hold their real value when inflation spirals above 5%. Their answer unsettles almost every standard portfolio construction of the past three decades: the workhorse 60/40 allocation turns from a reliable compounder into a reliable loser, and the most dependable protection comes from an active strategy most institutional investors barely allocate to.",
+  "body": "Every generation learns inflation the hard way. When *Campbell Harvey* of Duke’s Fuqua School and the Man Group (EMG.L) research team published “The Best Strategies for Inflationary Times” in the *Journal of Portfolio Management* in 2021, most portfolio managers had spent their careers in an environment where inflation was theoretical. The paper’s solution to that limited modern experience is historical reach: 95 years of monthly data for the United States, United Kingdom, and Japan, identifying 34 inflationary episodes across the three countries combined. Their definition of an *inflationary regime* is deliberately strict — year-on-year headline CPI must be both accelerating and above 5% — which screens out ordinary price rises and focuses the analysis on genuinely disruptive shocks, of which there were eight in the US alone since 1926.\n\nThe verdict on **traditional assets** is stark. Nominal government bonds lose roughly 5% per year in real terms during these regimes; broad equities lose around 7%. The *60/40 portfolio* — the allocation that underpins most defined-benefit pensions and balanced retail funds — swings from an annualized *real return* of +8% in ordinary times to -6% during inflation, a 14-percentage-point reversal. Only two of the eight US regimes produced positive real equity returns. The paper’s implication is blunt: the construction that worked for three decades of low inflation is not a hedge — it is the exposure.\n\nAmong passive assets, **commodities** are the clearest winner, delivering approximately 14% annualized real returns during US inflationary episodes. Gold provides protection, though with meaningful variation across regimes. *TIPS* (Treasury Inflation-Protected Securities) work as designed but extract a penalty in non-inflationary periods, creating a carry problem for investors who hold them permanently. Energy sector equities are the only equity sub-group with reliably positive real returns; *cross-sectional momentum* — a factor strategy that systematically buys recent winners and sells recent losers within an asset class — averages about 8% real during inflation, outperforming even its already-positive normal-times record.\n\nThe paper’s most striking result concerns **trend-following**: the systematic active strategy that goes long assets in uptrends and short assets in downtrends across bonds, equities, commodities, and currencies simultaneously. A hypothetical all-asset trend portfolio would have returned approximately 25% per year in real terms during US inflationary regimes — nearly double the commodity result — driven by shorting rising-rate bonds and going long soaring commodity prices. This is a backtest of a hypothetical portfolio, not a live-fund benchmark, and the authors flag the thin episode count as a genuine limitation. But 2022 provided an unscripted out-of-sample test: *CTA* (commodity trading adviser) funds — the institutional vehicle for systematic trend strategies — posted exceptional returns that year while equities and bonds fell in tandem, the most consequential real-world confirmation the paper could have received.\n\nCollectibles — fine art, wine, stamps — also appear in the winners’ column, but illiquidity, authentication risk, and storage costs are absent from the long historical return series, making those figures aspirational rather than investable. More fundamentally, eight US inflation regimes in 95 years is a thin statistical sample. Harvey himself is a leading scholar on *multiple-testing bias* in finance research — the tendency for studies to surface spurious winners by running enough tests — and the paper is candid that the standout results, trend-following especially, require interpretation alongside that caveat.",
+  "tickers": [
+    "EMG.L"
+  ],
+  "companies": [
+    {
+      "name": "Man Group",
+      "ticker": "EMG.L"
+    }
+  ],
+  "poster": "GestaltU",
+  "concepts": [
+    {
+      "key": "inflationary-regime",
+      "term": "Inflationary Regime",
+      "definition": "As defined in this paper, a period when year-on-year headline CPI is both accelerating and above 5%. This strict threshold distinguishes genuinely disruptive inflation shocks from routine price fluctuations, and is why the authors identify only eight such episodes in the US since 1926."
+    },
+    {
+      "key": "60-40-portfolio",
+      "term": "60/40 Portfolio",
+      "definition": "A standard institutional asset allocation holding 60% equities and 40% bonds. It has been the dominant model for balanced and pension funds for decades, producing reliable real returns during low-inflation periods — but, as this paper shows, reliably negative real returns during inflation shocks."
+    },
+    {
+      "key": "real-return",
+      "term": "Real Return",
+      "definition": "An investment return expressed after subtracting the inflation rate. A bond yielding 4% while inflation runs at 6% produces a real return of roughly -2%. All headline results in this paper are reported in real terms to make comparisons across inflationary and non-inflationary periods meaningful."
+    },
+    {
+      "key": "trend-following",
+      "term": "Trend-Following",
+      "definition": "A systematic trading strategy that buys assets whose prices have been rising and sells (or shorts) assets whose prices have been falling, applied across multiple asset classes simultaneously. Also called managed futures or time-series momentum. The strategy is executed by algorithms rather than discretionary judgement."
+    },
+    {
+      "key": "cta-fund",
+      "term": "CTA Fund",
+      "definition": "A Commodity Trading Adviser fund, the main institutional vehicle for systematic trend-following strategies. CTAs trade futures across bonds, equities, commodities, and currencies using quantitative rules. They are regulated separately from traditional mutual funds and are typically accessed by institutional or high-net-worth investors."
+    },
+    {
+      "key": "cross-sectional-momentum",
+      "term": "Cross-Sectional Momentum",
+      "definition": "An equity factor strategy that ranks securities by recent price performance and systematically buys the top performers while selling the bottom performers within a given universe. It is distinct from time-series trend-following, which trades each asset independently against its own price history rather than against peers."
+    },
+    {
+      "key": "tips",
+      "term": "TIPS",
+      "definition": "Treasury Inflation-Protected Securities: US government bonds whose principal adjusts with the Consumer Price Index, guaranteeing a positive real return if held to maturity. The catch is that they trade at a premium during periods of inflation anxiety and tend to lag nominal Treasuries in calm, low-inflation environments."
+    },
+    {
+      "key": "multiple-testing-bias",
+      "term": "Multiple-Testing Bias",
+      "definition": "A statistical hazard in quantitative finance research where testing many strategies across many time periods raises the probability of finding an apparent winner by chance. The more tests you run, the more likely you are to find a strategy that looked great historically but has no genuine predictive power. Campbell Harvey has published landmark work on how this problem inflates reported factor returns."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The quoted tweet states “8 inflationary episodes since 1926 in USA, UK, and Japan,” which implies these eight episodes are distributed across all three countries. The paper actually identifies eight inflationary regimes specifically in the United States; the full dataset includes 34 episodes when the UK and Japan are added. This is a minor misreading of the paper’s structure rather than a substantive error — the core claim about eight US episodes and the countries studied is correct.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://people.duke.edu/~charvey/Research/Published_Papers/P154_The_best_strategies.pdf",
+      "title": "The Best Strategies for Inflationary Times (Duke PDF)",
+      "note": "Primary source: the full paper by Harvey, Neville, Draaisma, Funnell, Van Hemert"
+    },
+    {
+      "url": "https://www.man.com/insights/best-strategies-for-inflationary-times",
+      "title": "The Best Strategies for Inflationary Times – Man Group",
+      "note": "Official Man Group summary with selected findings and return figures"
+    },
+    {
+      "url": "https://www.man.com/insights/when-inflation-hits",
+      "title": "When Inflation Hits – Man Institute",
+      "note": "Man Group explainer with asset-class return figures by regime"
+    },
+    {
+      "url": "https://scholars.duke.edu/individual/pub1494610",
+      "title": "Duke Scholars: The Best Strategies for Inflationary Times",
+      "note": "Duke publication record confirming authorship and journal details"
+    },
+    {
+      "url": "https://fuqua.duke.edu/duke-fuqua-insights/campbell-r-harvey-signs-inflation-looms-and-how-protect-against-potential-surge",
+      "title": "Fuqua Insights: Campbell Harvey on Inflation Protection",
+      "note": "Harvey’s own commentary on key findings, including the cryptocurrency volatility caveat"
+    },
+    {
+      "url": "https://www.pm-research.com/content/iijpormgmt/47/8/8",
+      "title": "Journal of Portfolio Management: The Best Strategies for Inflationary Times",
+      "note": "Official journal landing page confirming volume 47, issue 8, pages 8–37"
+    },
+    {
+      "url": "https://www.pa-pers.org/assets/docs/Falll%202021%20-%20Man%20Group%20full%20research%20paper.pdf",
+      "title": "The Best Strategies for Inflationary Times (Full Paper PDF)",
+      "note": "Alternative full-paper PDF source used for abstract and methodology detail"
+    }
+  ],
+  "bookmark_id": "2052425105850954193",
+  "generated_at": "2026-05-08T10:10:47.012329Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,84 @@
+{
+  "headline": "Self-Rewriting Agents and the Race to Codify a New Paradigm",
+  "lede": "A new academic framework called Memento-Skills proposes that AI agents should rewrite their own toolkits in real time, accumulating experience without ever updating model weights. The idea maps closely onto an approach already shipping in Hermes Agent, an open-source project from Nous Research — a resemblance that @Teknium, a developer on Hermes, noted with pointed amusement.",
+  "body": "Memento-Skills positions itself against two established paradigms for adapting large language models. *Pre-training* sets model weights by ingesting billions of tokens; *fine-tuning* then adjusts those weights on task-specific data using techniques such as *SFT* (supervised fine-tuning), *RLHF* (reinforcement learning from human feedback), or *DPO* (direct preference optimization). Both are expensive and produce a static artifact once complete. The paper proposes a third path: **deployment-time learning**, in which the model's parameters remain entirely frozen while the agent accumulates experience in a growing external skill memory.\n\nIn practice, the architecture works through a *reflection loop*. When the agent fails at a task, it diagnoses what went wrong, rewrites or creates a *skill* — a reusable procedure stored outside the model — and updates the library accordingly. A *skill router* then selects among available skills at inference time. The paper formalises this as M_{t+1} = Write(M_t, r_t), where r_t is the outcome of each live interaction: the library improves continuously, with no retraining cost and no change to model weights.\n\n@Teknium's observation is that this description closely matches **Hermes Agent**, an MIT-licensed framework built by Nous Research. Hermes already writes reusable skill documents when it solves hard problems, maintains a searchable skill library, and — according to its own documentation — grows more capable with each deployment session without touching model parameters. Whether the Memento-Skills authors were aware of Hermes when they wrote the paper is not established; independent parallel development of the same idea is common in a field moving at this pace.\n\nThe broader point is architectural convergence. Multiple teams — academic and open-source alike — are landing on the same intuition: that the right locus of adaptation for a deployed agent is neither the model's weights nor the prompt, but a structured external memory the agent itself authors and curates. This reframes the engineering question from 'how do we retrain for new conditions?' to 'how do we give an agent the ability to write, audit, and retire its own tools?' Both Memento-Skills and Hermes Agent answer by letting the agent author code about itself — and the fact that the idea was discovered twice suggests it is robust enough to be right.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Nous Research",
+      "ticker": null
+    }
+  ],
+  "poster": "Teknium",
+  "concepts": [
+    {
+      "key": "deployment-time-learning",
+      "term": "deployment-time learning",
+      "definition": "A paradigm in which a model's parameters are kept permanently frozen after training, and the system instead accumulates experience in an external, writable memory. Adaptation happens at runtime through successive interactions, with no retraining required."
+    },
+    {
+      "key": "pre-training",
+      "term": "pre-training",
+      "definition": "The first stage of training a large language model, in which parameters are initialised by processing massive text corpora — typically hundreds of billions to trillions of tokens — to give the model broad world knowledge."
+    },
+    {
+      "key": "fine-tuning",
+      "term": "fine-tuning",
+      "definition": "A subsequent training phase that adjusts a pre-trained model's weights on a smaller, task-specific dataset to improve performance in a narrower domain. Common techniques include SFT, RLHF, and DPO."
+    },
+    {
+      "key": "sft",
+      "term": "SFT (supervised fine-tuning)",
+      "definition": "A fine-tuning technique in which a model is trained on labelled input-output pairs supplied by humans, teaching it to mimic preferred responses directly."
+    },
+    {
+      "key": "rlhf",
+      "term": "RLHF (reinforcement learning from human feedback)",
+      "definition": "A training method that uses human preference rankings between model outputs to train a reward model, then applies reinforcement learning to push the language model toward higher-ranked responses."
+    },
+    {
+      "key": "dpo",
+      "term": "DPO (direct preference optimization)",
+      "definition": "A fine-tuning alternative to RLHF that skips the separate reward model, instead optimising the language model directly on human preference pairs — simpler to implement and often more stable."
+    },
+    {
+      "key": "skill-memory",
+      "term": "skill memory",
+      "definition": "An external, persistent store of reusable procedures or knowledge capsules that an agent can read, write, and update during deployment. Unlike model weights, skill memory can be modified without any retraining."
+    },
+    {
+      "key": "reflection-loop",
+      "term": "reflection loop",
+      "definition": "A feedback cycle in which an agent reviews the outcome of a failed or suboptimal action, diagnoses the cause, and revises the relevant skill or procedure before the next attempt."
+    },
+    {
+      "key": "skill-router",
+      "term": "skill router",
+      "definition": "A component in an agent framework that, given an incoming task, selects which pre-existing skill from the library to invoke — analogous to a dispatcher that matches requests to appropriate handlers."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "@Teknium implies the Memento-Skills paper was derived from or directly inspired by Hermes Agent's design. This cannot be verified from available sources; the two systems share a common architecture but independent parallel discovery is a plausible alternative explanation. The resemblance is genuine — both use external skill libraries that the agent rewrites from live experience — but the causal claim ('someone saw Hermes and wrote a paper') is conjecture, not established fact.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/Teknium/status/2037187666928894152",
+      "title": "Teknium on X",
+      "note": "Original bookmark; Teknium's commentary comparing Memento-Skills to Hermes Agent"
+    },
+    {
+      "url": "https://hermes-agent.org/",
+      "title": "Hermes Agent — Open-Source AI Agent with Persistent Memory",
+      "note": "Official Hermes Agent homepage; describes persistent memory and automated skill creation features"
+    },
+    {
+      "url": "https://hermes-agent.nousresearch.com/docs/user-stories",
+      "title": "User Stories & Use Cases | Hermes Agent",
+      "note": "Community use cases confirming Hermes Agent's real-world deployment and Teknium's role in building it"
+    }
+  ],
+  "bookmark_id": "2037187666928894152",
+  "generated_at": "2026-05-07T03:54:55.560295Z",
+  "backend": "claude"
+}

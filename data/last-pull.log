@@ -1,0 +1,8 @@
+page.waitForSelector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('article[data-testid="tweet"]') to be visible
+
+    at scrollAndCollect (/Users/alphaone/Documents/Code/Bookmark/playwright_x.js:406:14)
+    at async cmdPull (/Users/alphaone/Documents/Code/Bookmark/playwright_x.js:501:20) {
+  name: 'TimeoutError'
+}

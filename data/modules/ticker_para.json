@@ -1,0 +1,24 @@
+{
+  "key": "PARA",
+  "name": "Paramount Global",
+  "exchange": "NASDAQ",
+  "blurb": "Paramount Global is a leading global media and entertainment company that produces and distributes content across film, television, and digital platforms. Its portfolio includes Paramount Pictures, CBS, MTV, Nickelodeon, and streaming services like Paramount+. The company has a significant market position in legacy media but faces challenges from cord-cutting and competition from streaming giants.",
+  "recent": "In the past 30 days, Paramount Global's stock has been volatile amid news of its pending $8 billion merger with Skydance Media. The FCC approved the merger in July 2025, causing the stock to jump. However, the stock also experienced declines on other days due to broader market sentiment and sector-specific headwinds.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/news/why-paramount-para-stock-down-185100596.html",
+      "title": "Why Paramount (PARA) Stock Is Down Today - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PARA/news/",
+      "title": "PARA News Today | Why did Paramount Global stock go up today? - MarketBeat"
+    },
+    {
+      "url": "https://www.benzinga.com/m-a/25/07/46619864/paramount-global-stock-jumps-after-fcc-approves-8-billion-merger-with-skydance",
+      "title": "Paramount Global Stock Jumps After FCC Approves $8 Billion Merger With Skydance - Benzinga"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T09:05:49.206657Z",
+  "backend": "deepseek"
+}

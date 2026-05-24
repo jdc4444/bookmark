@@ -1,0 +1,22 @@
+{
+  "key": "samgrows",
+  "display_name": "sam",
+  "blurb": "Sam is a user on X (formerly Twitter) under the handle @samgrows. Their profile and posts are not accessible due to JavaScript requirements or privacy extensions. No information about their domain expertise, posting topics, or follower count is available.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/samgrows"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/samgrows",
+      "title": "sam (@samgrows) / Posts / X"
+    },
+    {
+      "url": "https://x.com/samgrows/status/2045644347337507005",
+      "title": "it's over - x.com"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-07T08:03:18.382488Z",
+  "backend": "deepseek"
+}

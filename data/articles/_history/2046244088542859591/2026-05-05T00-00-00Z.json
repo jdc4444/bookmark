@@ -1,0 +1,45 @@
+{
+  "bookmark_id": "2046244088542859591",
+  "headline": "The Machine That Tests Its Own Ideas: An Autonomous Agent Hunts for Stock Market Edges",
+  "lede": "A software engineer has published a framework in which a Claude-powered AI agent independently proposes, codes, backtests, and validates quantitative trading strategies — without a human touching the logic between hypothesis and result. The project, AutoHypothesis, is modest in its claims but serious in its methodology, applying a walk-forward discipline that forces the system to behave more like a careful researcher than an algorithm tuned to fit the past.",
+  "body": "The premise of AutoHypothesis is straightforward to describe and harder to execute well: give an AI agent a blank Python file, a set of instructions written in plain English, and access to fifteen years of US equity data, then let it run. The agent — powered by Anthropic's Claude via the Python SDK — is permitted to rewrite three functions inside a file called agent.py: signal generation, position sizing, and regime detection. Everything else — the data pipeline, the backtesting harness, the transaction-cost model, the logging infrastructure — is fixed and untouchable. This separation is load-bearing. It means the agent cannot accidentally cheat by modifying the evaluation machinery itself, a failure mode that has quietly undermined a number of publicised AI-trading experiments.\n\nThe evaluation pipeline is organised into four sequential time windows. The agent iterates freely on data from 2010 to 2016, proposing hypotheses and measuring their performance on a universe of the 300 most-liquid US equities, with ten basis points of friction applied per trade and a one-day signal lag to prevent look-ahead contamination. When the agent judges a strategy ready, it is permitted exactly one shot at an in-sample holdback period covering 2017 to 2018; failure automatically reverts the code to the previous version. Pass that gate and the strategy faces a single walk-forward test on 2019 to 2021 data — a period that includes the pandemic crash and subsequent recovery — with explicit pass thresholds: a mean out-of-sample Sharpe ratio of at least 0.80, an excess Sharpe over the benchmark of at least 0.10, and annual portfolio turnover below 50%. The 2022-to-present window is held out entirely and touched only at the end, functioning as the cleanest available proxy for genuine live performance.\n\nThe no-hyperparameter-tuning rule deserves particular attention because it is where most backtested strategies quietly die in the real world. A strategy that is allowed to re-enter the validation period with adjusted parameters is not being validated; it is being fitted to data that has been laundered as test data. AutoHypothesis enforces a hard firewall: once a hypothesis is declared and the holdback run is initiated, the parameters are frozen. The agent is explicitly forbidden from running parameter sweeps without a new economic rationale. This constraint is easy to state and genuinely difficult to maintain in a system that has no ego investment in any particular outcome — the agent will simply generate new hypotheses rather than tweak the old ones, which is arguably the correct research behaviour.\n\nAfter roughly four hours of autonomous iteration, the agent converged on a strategy that combines a volume trend signal — the ratio of 60-day to 200-day average dollar volume, identifying stocks with accelerating institutional interest — with inverse-volatility position weighting, equal-weight allocation to the top quintile of ranked stocks, and a turnover-smoothing mechanism that reduces churn by blending today's target portfolio with the prior day's holdings. The holdout results covering 2022 to 2025 show a Sharpe ratio of 0.86 against a passive benchmark of 0.67, with 28.1% annual turnover and an 11.4% maximum drawdown. A Sharpe of 0.86 is not a number that suggests a production-ready edge: it is roughly consistent with a strategy that earns a modest risk premium above the market, probably in the range of two to four percentage points of annualised excess return depending on realised volatility, before accounting for real-world frictions such as market impact, short availability, and tax drag. What it does suggest is that the agent has not simply discovered a spurious backtest artefact — the signal appears to persist into unseen data, which is a meaningful result in a domain where most reported backtests evaporate on first contact with live markets.\n\nThe framework's acknowledged limitations are worth taking seriously. The backtest universe is subject to survivorship bias, since delisted stocks are excluded from the data — a distortion that systematically flatters momentum and volume strategies because the stocks most likely to trend strongly are also the ones most likely to survive. Transaction costs of ten basis points are optimistic for a strategy with 28% annual turnover applied to the top 300 liquid names; a more conservative estimate of 20 to 30 basis points would reduce the Sharpe meaningfully. The author explicitly notes that the strategy is not deployment-ready and that the more interesting near-term goal is enabling the agent to improve its own data pipeline — a capability that would represent a genuine escalation in autonomy. What AutoHypothesis has demonstrated, more valuably than any particular strategy result, is that the scaffolding for rigorous agentic quantitative research is now simple enough to build in a single repository and run on consumer hardware for the cost of a few hours of API calls.",
+  "tickers": [],
+  "poster": "artemg314",
+  "concepts": [
+    {
+      "key": "sharpe-ratio",
+      "term": "Sharpe ratio",
+      "definition": "A measure of risk-adjusted return calculated as annualised excess return above a risk-free rate divided by annualised return volatility; higher values indicate better compensation per unit of risk taken."
+    },
+    {
+      "key": "walk-forward-validation",
+      "term": "walk-forward validation",
+      "definition": "A backtesting discipline in which a strategy is developed on one historical window, then evaluated on a strictly later out-of-sample window it has never seen — simulating the temporal reality of live trading and guarding against curve-fitting to historical noise."
+    },
+    {
+      "key": "agentic-loop",
+      "term": "agentic loop",
+      "definition": "An autonomous AI workflow in which a large language model iteratively proposes actions, executes them via code or tool calls, reads the results, and uses those results to inform its next proposal — cycling without human intervention until a stopping condition is reached."
+    },
+    {
+      "key": "overfitting",
+      "term": "overfitting",
+      "definition": "The failure mode in which a model or strategy is so precisely calibrated to historical data that it captures noise rather than genuine signal, performing well in backtests but failing out-of-sample; in quantitative finance also called curve-fitting."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "autohypothesis",
+      "url": "https://github.com/arteemg/AutoHypothesis",
+      "summary": "AutoHypothesis is a single-repository Python framework in which a Claude-powered agentic loop autonomously proposes, codes, and backtests quantitative equity strategies by rewriting three signal-generation functions inside a fixed evaluation harness. The system enforces walk-forward validation across four sequential time windows and forbids hyperparameter tuning once a hypothesis enters validation. Licensed under Apache 2.0, it depends on the Anthropic SDK, yfinance, pandas, and numpy."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    "https://github.com/arteemg/AutoHypothesis"
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

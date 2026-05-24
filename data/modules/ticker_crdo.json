@@ -1,0 +1,32 @@
+{
+  "key": "CRDO",
+  "name": "Credo Technology Group Holding Ltd",
+  "exchange": "NASDAQ",
+  "blurb": "Credo Technology Group Holding Ltd is a semiconductor company that provides high-speed, low-power connectivity solutions for data centers and AI infrastructure. Its key products include the Pilot software platform and ZeroFlap optical transceivers, which are increasingly adopted by hyperscalers. The company is emerging as a critical enabler of AI infrastructure, addressing bandwidth bottlenecks in high-performance computing.",
+  "recent": "In the past 30 days, Credo reported record third-quarter FY26 results, driven by growing hyperscaler adoption of its Pilot platform and ZeroFlap optical transceivers. The company also presented its connectivity innovations at TSMC’s 2026 North America Technology Symposium. Its stock has been volatile amid broader AI infrastructure demand trends.",
+  "sources": [
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CRDO/news/",
+      "title": "CRDO News Today | Why did Credo Technology Group stock go up today? $CRDO"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CRDO/news/",
+      "title": "Credo Technology Group Holding Ltd (CRDO) Latest Stock News & Headlines"
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-crdo/credo-technology-group-holding/news/what-credo-technology-group-holding-crdos-record-q3-and-hype",
+      "title": "What Credo Technology Group Holding (CRDO)'s Record Q3 and Hyperscaler Adoption Means For Shareholders"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/crdo",
+      "title": "CRDO Stock Price | Credo Technology Group Holding Ltd - MarketWatch"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4898126-credo-is-becoming-one-of-ais-most-important-bottleneck-stocks",
+      "title": "Credo Is Becoming One Of AI's Most Important Bottleneck Stocks"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:28:35.275159Z",
+  "backend": "deepseek"
+}

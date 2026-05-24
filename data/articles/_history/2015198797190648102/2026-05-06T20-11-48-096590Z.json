@@ -1,0 +1,56 @@
+{
+  "headline": "The $5 VPS Bot That Tempts You Toward a $10,000 Mac",
+  "lede": "The joke writes itself: @damianplayer published a guide showing that ClawdBot, an open-source personal AI agent, runs fine on a five-dollar-a-month virtual server. The image attached to the post is an Apple checkout screen for a $9,899 Mac Studio. 'Do as I say, not as I do' is the caption.",
+  "body": "ClawdBot — distributed under the name *OpenClaw* — is an open-source Node.js application that turns any consumer messaging app into a command interface for a persistent AI assistant. WhatsApp, Telegram, Discord, Slack, Signal, and iMessage are all supported. The agent runs as a background *daemon* on whatever hardware hosts it, polling for messages and executing tasks: clearing inboxes, scheduling meetings, running web research, managing files. It connects to any OpenAI-compatible model provider, including Anthropic's Claude API, a paid Claude subscription, or a locally-hosted model.\n\nThe hardware floor is intentionally low. Official documentation lists minimum requirements of 1 GB of RAM and 500 MB of disk space — enough for a Raspberry Pi, an old laptop, or a cheap *VPS*. A single shell command handles installation on macOS and Linux. The project's recommended dedicated machine for 24/7 use is the Mac Mini M4 at $599: quiet, energy-efficient, and capable of running local AI models for users who want to avoid recurring API costs.\n\nThe Mac Studio in the screenshot costs $9,899 — roughly 165 times the monthly VPS rate, paid upfront. The gap illustrates a familiar dynamic in self-hosted software: the technical floor is low, but once a tool earns a permanent place in daily workflow, the temptation to give it more headroom compounds. A VPS runs ClawdBot reliably; a Mac Studio runs ClawdBot *plus* local large-language models, heavy parallel jobs, and everything else without throttling or round-trip latency to a cloud provider.\n\nThe broader appeal of ClawdBot reflects growing interest in AI agents that operate through messaging channels the user already monitors, rather than requiring a dedicated app or web UI. The bet is on reducing friction: if the agent lives in the same thread as family texts and work notifications, the odds of actually using it every day go up. The guide promised thirty minutes from zero to a working bot. The author's own hardware budget, apparently, required rather longer to settle.",
+  "tickers": [
+    "AAPL"
+  ],
+  "poster": "damianplayer",
+  "concepts": [
+    {
+      "key": "daemon",
+      "term": "daemon",
+      "definition": "A background process that runs continuously without direct user interaction, keeping a service alive around the clock. On macOS, daemons are typically managed by LaunchAgents; on Linux, by systemd. ClawdBot installs itself as a daemon so it can respond to messages even when no terminal is open."
+    },
+    {
+      "key": "vps",
+      "term": "VPS (Virtual Private Server)",
+      "definition": "A rented slice of a remote server, billed monthly, that behaves like a dedicated machine. VPS hosting providers carve a physical server into isolated virtual instances, each with its own CPU allocation, RAM, and storage. Entry-level plans start around $5 per month and are sufficient for lightweight always-on applications like ClawdBot."
+    },
+    {
+      "key": "local-model",
+      "term": "local model",
+      "definition": "An AI language model that runs entirely on the user's own hardware rather than being accessed over a cloud API. Local models avoid per-token fees and keep data off third-party servers, but require more powerful hardware — one reason Mac Studio-class machines are attractive for heavy AI workloads."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "openclaw-ai",
+      "url": "https://openclaw.ai",
+      "summary": "OpenClaw (formerly Clawdbot / Moltbot) is a free, open-source Node.js agent that connects any OpenAI-compatible AI model to consumer messaging apps including WhatsApp, Telegram, Discord, and iMessage. It ships with persistent memory, browser control, file system access, and a plugin system for custom skills. Installation takes a single shell command and the daemon keeps it running 24/7 without user intervention."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": "The quoted thread is @damianplayer's ClawdBot setup guide, framing the tool as less intimidating than its reputation and promising a working configuration in thirty minutes. The outer tweet is a self-aware follow-up: despite writing the guide to show anyone can run ClawdBot on minimal hardware, the author ended up adding a $9,899 Mac Studio to their cart.",
+  "sources": [
+    {
+      "url": "https://clawd-bot.com/install/",
+      "title": "How to Install ClawdBot (OpenClaw) — Setup Guide 2026",
+      "note": "Official installation documentation; source for hardware minimums, supported platforms, and one-liner install command"
+    },
+    {
+      "url": "https://dev.to/sivarampg/you-dont-need-a-mac-mini-to-run-clawdbot-heres-how-to-run-it-anywhere-217l",
+      "title": "You Don't Need a Mac Mini to Run Clawdbot — DEV Community",
+      "note": "Corroborates VPS viability and low hardware requirements"
+    },
+    {
+      "url": "https://www.bitdoze.com/clawdbot-setup-guide/",
+      "title": "OpenClaw (Clawdbot) Setup Guide: Your 24/7 AI Assistant on VPS or Mac Mini",
+      "note": "Source for Mac Mini M4 pricing ($599), feature overview, and VPS vs Mac Mini tradeoff discussion"
+    }
+  ],
+  "bookmark_id": "2015198797190648102",
+  "generated_at": "2026-05-06T20:11:48.096590Z",
+  "backend": "claude"
+}

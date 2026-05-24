@@ -1,0 +1,38 @@
+{
+  "headline": "Six Prerequisites for Work That Actually Matters",
+  "lede": "A developer named Sankalp, who writes about technology and ideas under the handle @dejavucoder, posted a spare list as a note to himself heading into 2026. Six words and a phrase: taste, time, agency, figuring out what you want to do, energy, mood. The brevity is the point — each item names a resource that, if missing, makes the rest irrelevant.",
+  "body": "The list is best read as a taxonomy of prerequisites rather than a to-do list. Most productivity frameworks start with tasks and schedules. This one starts earlier, at the conditions under which good work becomes possible at all. It is a more honest accounting of why ambitious plans collapse.\n\n**Taste** — the ability to recognise quality and feel the gap between your current output and your standard — comes first. The designer and writer Paul Graham, and before him countless teachers of craft, have argued that taste develops faster than skill, which creates the painful awareness of one's own mediocrity that precedes improvement. Without it, you can produce indefinitely without getting better.\n\n*Agency* is the freedom to choose what to work on. It sounds obvious until you notice how much of most people's time is allocated by others — employers, obligations, ambient social pressure. Time without agency is just scheduled busyness. The two items together are necessary but not sufficient, which is why \"figuring out what you want to do\" sits between them: direction is itself a resource, one that can take years to locate and is easily lost.\n\nEnergy and mood close the list, and their placement feels deliberate. They are the most volatile inputs — subject to sleep, health, grief, dread — and the most commonly underestimated. Knowledge workers tend to treat their hours as interchangeable. They are not. An hour at peak energy is worth several at the bottom of it, and a sustained low mood can quietly zero out all the other prerequisites while leaving the calendar intact.\n\nTaken together, the list is a quiet argument against the hustle-productivity complex: before optimising workflows or setting goals, audit whether you actually have the raw material. If taste, time, agency, direction, energy, and mood are not broadly in order, the plan is not the problem.",
+  "tickers": [],
+  "poster": "dejavucoder",
+  "concepts": [
+    {
+      "key": "taste-in-craft",
+      "term": "taste",
+      "definition": "In creative and intellectual work, taste refers to the ability to judge quality — to recognise what is excellent before you can reliably produce it yourself. The gap between taste and skill is what makes early-stage work frustrating; it is also the engine of improvement. Ira Glass described this dynamic memorably: beginners have good taste but weak execution, and the only cure is volume of work."
+    },
+    {
+      "key": "agency",
+      "term": "agency",
+      "definition": "Agency here means the degree of freedom a person has to choose what to work on, when, and how. It is distinct from simply having free time — a full calendar of someone else's priorities leaves no agency. Researchers in motivation (particularly in self-determination theory) treat autonomy as one of the three core psychological needs alongside competence and relatedness."
+    },
+    {
+      "key": "creative-energy",
+      "term": "energy (as a resource)",
+      "definition": "Energy in this context is not just physical stamina but cognitive and emotional capacity — the bandwidth available for effortful, original thinking. It is depleted by stress, poor sleep, and decision fatigue, and is not evenly distributed across the day or week. Treating all working hours as equivalent ignores this, which is why energy management has emerged as a distinct concept alongside time management."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://dejavucoder.substack.com/",
+      "title": "Random Musings — Sankalp on Substack",
+      "note": "Confirms the poster's name is Sankalp and that he writes about tech and ideas"
+    }
+  ],
+  "bookmark_id": "2005722628418605204",
+  "generated_at": "2026-05-06T20:22:41.733551Z",
+  "backend": "claude"
+}

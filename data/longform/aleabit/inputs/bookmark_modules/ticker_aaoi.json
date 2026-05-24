@@ -1,0 +1,16 @@
+{
+  "key": "aaoi",
+  "name": "Applied Optoelectronics, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Applied Optoelectronics is a Texas-based maker of optical components and transceivers, historically known for serving cable-television networks and a handful of hyperscale customers in cycles of feast and famine. The AI build-out has dragged it firmly into the data-centre supply chain, where it now competes for 400G, 800G, and 1.6T transceiver volumes against Lumentum, Coherent, Innolight, and Eoptolink.",
+  "recent": "Management is guiding to full-year 2026 revenue exceeding $1 billion, more than double 2025's roughly $456 million, on the back of 800G ramps and a single 1.6T order disclosed at over $200 million. The company aims to scale from roughly 90,000 800G units per month at end-2025 toward 500,000 800G/1.6T units per month by end-2026. The stock hit an all-time high near $192 in early May 2026, having traded as low as $12.56 within the last 52 weeks.",
+  "sources": [
+    {"title": "AAOI hyperscale orders coverage", "url": "https://stockstotrade.com/news/applied-optoelectronics-inc-aaoi-news-2026_05_01/"},
+    {"title": "AAOI 800G transceiver outlook (Zacks via Yahoo)", "url": "https://finance.yahoo.com/markets/stocks/articles/800g-transceivers-drive-aaois-revenue-143600096.html"},
+    {"title": "AAOI revenue guide (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/04/10/applied-optoelectronics-could-double-revenue-to-1-billion-in-2026/"},
+    {"title": "AAOI Yahoo Finance quote", "url": "https://finance.yahoo.com/quote/AAOI/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

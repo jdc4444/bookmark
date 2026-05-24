@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "fiscal_year_end": "December 31",
+  "currency": "USD",
+  "filing_basis": "20-F (foreign private issuer)",
+  "sources": [
+    "https://www.stocktitan.net/sec-filings/POET/20-f-poet-technologies-inc-files-annual-report-foreign-issuer-eeda6513f179.html",
+    "https://www.poet-technologies.com/news/poet-technologies-reports-fourth-quarter-2025-financial-results",
+    "https://www.poet-technologies.com/news/poet-technologies-reports-third-quarter-2025-financial-results"
+  ],
+  "key_finding": "POET in FY2025 is the textbook pre-commercial-revenue photonics platform balance sheet story. Operating losses are real ($63M net loss, $18M R&D) and revenue is essentially zero (Q3 $298K and Q4 $341K of NRE-and-product), but the asset base grew from $69.7M (Dec 2024) to $328.6M (Dec 2025) — a near 5x balance sheet expansion driven by a $250M institutional equity raise. Cash and short-term investments stand at $313.4M, providing roughly 5 years of runway at the FY25 burn rate. The dilution overhang is meaningful: 5.79M options and 37.36M warrants outstanding against 132.3M common shares = potential 28.35% dilution. A $135.6M derivative warrant liability sits on the balance sheet as one of the most consequential single line items.",
+  "annual_revenue_history_usd_thousands": {
+    "2024_q3": 3.685,
+    "2024_q4": 29.032,
+    "2025_q2": 268.469,
+    "2025_q3": 298.434,
+    "2025_q4": 341.202,
+    "2025_full_year_approx": 1208.6,
+    "note": "Revenue is non-recurring engineering (NRE) and small product revenue. POET remains essentially pre-commercial."
+  },
+  "fy2025_profitability": {
+    "net_loss_usd_millions": -62.96,
+    "rd_expense_usd_millions": 18.08,
+    "rd_stock_comp_usd_millions": 2.22,
+    "sga_expense_usd_millions": 25.08,
+    "sga_stock_comp_usd_millions": 3.89,
+    "sga_depreciation_amortization_usd_millions": 3.32,
+    "non_cash_operating_costs_approx_usd_millions": 35,
+    "accumulated_deficit_approx_usd_millions": -297,
+    "accumulated_net_operating_losses_approx_usd_millions": -180
+  },
+  "balance_sheet_dec_31_2025": {
+    "total_assets_usd_millions": 328.6,
+    "total_assets_dec_2024_usd_millions": 69.7,
+    "cash_and_short_term_investments_usd_millions": 313.4,
+    "cash_dec_2024_usd_millions": 53.8,
+    "working_capital_usd_millions": 170.7,
+    "derivative_warrant_liability_usd_millions": -135.6,
+    "convertible_debt_usd_millions": -5.8
+  },
+  "share_structure": {
+    "common_shares_outstanding_millions": 132.3,
+    "options_outstanding_millions": 5.79,
+    "warrants_outstanding_millions": 37.36,
+    "fully_diluted_share_count_implied_millions": 175.45,
+    "dilution_overhang_percent_increase_if_exercised": 28.35
+  },
+  "capital_raises_2025": {
+    "us250m_institutional_equity_financing": {
+      "total_proceeds_usd_millions": 250,
+      "buyer_count": 3,
+      "buyer_names": "Not publicly disclosed at snapshot date",
+      "transaction_significance": "Funded the 5x balance sheet expansion and provides ~5 years of runway at FY25 burn rate"
+    }
+  },
+  "structural_observations": [
+    "FY25 revenue of ~$1.2M does not cover even one quarter of the $18M R&D run rate — POET is a pure platform-bet equity story, not an operating company.",
+    "$313.4M cash + short-term investments provides multi-year runway. At FY25 burn rate of ~$45M cash operating loss (net loss $63M less $18M non-cash), runway is approximately 7 years.",
+    "Warrant liability of $135.6M is a non-cash mark-to-market item but represents real economic obligation; exercise would dilute shareholders by up to 28% from current share count.",
+    "Accumulated deficit of ~$297M provides historical context: POET has consumed roughly $297M of cumulative equity in pursuit of the platform thesis before reaching commercial revenue.",
+    "20-F filing basis means POET is a Canadian foreign private issuer in US SEC parlance. The dual NASDAQ + TSX listing is structural — TSX provides the home-country listing, NASDAQ provides US institutional access."
+  ]
+}

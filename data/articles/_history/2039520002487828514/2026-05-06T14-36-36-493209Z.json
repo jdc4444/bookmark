@@ -1,0 +1,33 @@
+{
+  "headline": "Managing ADHD: A Practical Guide to the Control System",
+  "lede": "A viral thread by @zetalyrae offers an 8,000-word guide to managing ADHD, framed as a two-part system of high-level strategies and micro-level tactics. The post, recently rediscovered by @corsaren, has resonated with thousands who bookmarked it but never read it.",
+  "body": "The guide is structured around the idea that managing ADHD requires both a **control system** and a bag of tricks. The first section, \"Strategies,\" covers six pillars: chemistry (sleep, exercise, medication), memory (externalizing rather than trusting recall), energy (managing spoons), procrastination (understanding the emotional roots), introspection (knowing one's own patterns), and time (using external structures). The second section, \"Tactics,\" offers micro-level improvements—many of which are essentially about tricking oneself, such as the \"two-minute rule\" or body-doubling.\n\nThe author emphasizes that the pleasure is in *foreseeing* the solution, not in executing it—a nod to the Borges epigraph. This insight cuts against the common advice to just \"try harder\" and instead validates the ADHD experience of knowing what to do but struggling to do it. The guide is notable for its lack of moralizing; it treats ADHD as a design problem, not a character flaw.\n\nWhile the guide is thorough, it does not address the role of medication in depth, nor does it discuss co-morbid conditions like anxiety or depression that often accompany ADHD. Readers should treat it as a complement to professional advice, not a replacement. The thread's popularity—12,000 bookmarks—suggests a hunger for practical, non-judgmental resources in a space often filled with platitudes.",
+  "tickers": [],
+  "poster": "corsaren",
+  "concepts": [
+    {
+      "key": "body-doubling",
+      "term": "body doubling",
+      "definition": "A technique where a person with ADHD works alongside another person (in person or virtually) to stay focused. The other person's presence provides subtle accountability and reduces the feeling of isolation, making it easier to start and sustain tasks."
+    },
+    {
+      "key": "spoons-theory",
+      "term": "spoon theory",
+      "definition": "A metaphor used to describe the finite amount of mental and physical energy a person has each day. Each task 'costs' a spoon, and once spoons are depleted, the person cannot function. Originally coined for chronic illness, it is often applied to ADHD to explain variable energy levels."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/corsaren/status/2039520002487828514",
+      "title": "Tweet by @corsaren",
+      "note": "Original bookmark and quote-tweet of @zetalyrae's thread"
+    }
+  ],
+  "bookmark_id": "2039520002487828514",
+  "generated_at": "2026-05-06T14:36:36.493209Z",
+  "backend": "deepseek"
+}

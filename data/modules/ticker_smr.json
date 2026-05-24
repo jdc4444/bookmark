@@ -1,0 +1,24 @@
+{
+  "key": "SMR",
+  "name": "NuScale Power Corporation",
+  "exchange": "NYSE",
+  "blurb": "NuScale Power Corporation designs and commercializes small modular reactor (SMR) technology, centered on its NuScale Power Module (NPM) — a light-water nuclear reactor capable of generating 77 megawatts of electricity per unit. Founded in 2007 and headquartered in the United States, the company provides end-to-end services including regulatory licensing support, design and engineering, construction guidance, and operator training. NuScale holds the distinction of being the first SMR design to receive NRC design approval in the U.S., positioning it as a first-mover in the emerging commercial SMR market. With roughly 428 employees and a pre-revenue scale operation, it remains a development-stage company competing in the industrials/specialty machinery sector.",
+  "recent": "NuScale reported earnings on May 7, 2026, with trailing-twelve-month revenue of $18.67M (down ~62% year-over-year) and a net loss of $385.8M, reflecting its continued pre-commercial buildout phase. The stock has declined sharply from its 52-week high of $57.42 to approximately $11.96 as of May 13, 2026 — near the lower half of its annual range of $8.85–$57.42 — amid investor reassessment of SMR commercialization timelines. Analyst consensus sits at Hold with a mean price target of $18.10, implying ~51% upside from current levels.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/smr/",
+      "title": "NuScale Power (SMR) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/SMR/news/",
+      "title": "SMR News Today | NuScale Power — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/SMR/",
+      "title": "NuScale Power Corporation (SMR) Stock Price, News, Quote & History — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:47:09.484963Z",
+  "backend": "claude-sonnet-subagent"
+}

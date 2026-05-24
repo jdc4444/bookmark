@@ -1,0 +1,126 @@
+{
+  "headline": "AI Infrastructure Pricing Power Migrates Layer by Layer",
+  "lede": "The central error in AI infrastructure investing, argues @tengyanAI in an April 2026 thread, is treating the stack as a single trade. At any moment, one of at least six discrete layers — silicon compute, high-bandwidth memory, advanced packaging, networking, power, and software — holds disproportionate pricing power while the others earn commodity returns. The attached chart is his proprietary instrument for tracking where that power currently resides: a “Memory Regime” score of 77, labeled TIGHT, on a scale that tops out at SHORTAGE.",
+  "body": "The premise of the thread is that the AI infrastructure stack is not a monolithic investment theme but a series of at least six distinct layers, each with its own supply chain, competitive structure, and risk profile. Those layers span silicon compute (GPUs and custom AI chips), **high-bandwidth memory** (*HBM*), advanced packaging, high-speed networking, data-center power and cooling, and software orchestration. Pricing power — the capacity to charge above cost without losing volume — migrates between these layers as the binding constraint shifts. An investor who treats “AI infrastructure” as one trade captures the average return, not the winner.\n\nFrom roughly 2022 through 2024, that constraint sat firmly in silicon. **NVIDIA** (NVDA) captured approximately 93% of server GPU revenue during the H100 buildout, with wholesale *average selling prices* running $25,000–$35,000 per unit. The secondary bottleneck was *CoWoS* (Chip-on-Wafer-on-Substrate), **Taiwan Semiconductor Manufacturing’s** (TSM) advanced packaging technology that integrates HBM stacks directly alongside the GPU die on a silicon interposer. CoWoS capacity was so scarce in 2023 that it constrained NVIDIA’s own shipment volumes independent of GPU production.\n\nThe binding constraint has since rotated to memory. HBM is an architecture that stacks multiple DRAM dies vertically using *through-silicon vias* (TSVs), placing them adjacent to the GPU on an interposer — dramatically raising memory bandwidth while cutting power draw versus conventional DDR5 DRAM. A single NVIDIA B200 GPU requires 192 gigabytes of HBM3E across eight stacks. **SK Hynix** (000660.KS), which holds roughly 62% of the HBM market and supplies the great majority of NVIDIA’s allocation, commands around $20–25 per gigabyte for HBM3E — six to eight times the $3–4 per gigabyte price of standard DDR5. **Micron Technology** (MU), which skipped a generation and went straight to HBM3E, is sold out through end of 2026. **Samsung Electronics** (005930.KS), despite holding 17% share and struggling with yield losses, paradoxically supports industry pricing by failing to add usable capacity to the pool.\n\nThe “Memory Regime” chart attached to the tweet — Teng Yan’s proprietary real-time scoring instrument — maps the HBM market across four supply regimes: SHORTAGE, TIGHT, BALANCED, and SURPLUS. The current score of 77 sits within the TIGHT band but near its upper ceiling, close to SHORTAGE territory. SHORTAGE defined the market in 2023, when NVIDIA could barely source enough HBM3 to fulfill H100 orders. The TIGHT reading today reflects a market where all three suppliers are formally sold out through 2026 and spot allocations command sharp premiums, yet early HBM4 qualifications have begun to create the first thin crack in the supply wall. SK Group’s chairman stated at Nvidia’s GTC conference in early 2026 that the shortage would persist until 2030, citing a structural constraint: HBM consumes roughly three to four times the wafer capacity of commodity DRAM per gigabyte, so shifting the production mix toward HBM crowds out conventional memory and sustains pricing pressure across the whole DRAM stack.\n\nThe broader investment implication is that chasing the dominant layer after the rotation has already occurred captures trailing returns, not forward ones. McKinsey estimates roughly 25% of total AI capital flows not to chips or memory but to power, cooling, and physical infrastructure — assets that earn revenue regardless of which chip generation or model architecture wins the next cycle. On this framework, the next rotation may already be visible in emerging power and networking constraints; the task for investors is to instrument those layers the way Teng Yan has tried to instrument memory.",
+  "tickers": [
+    "NVDA",
+    "TSM",
+    "000660.KS",
+    "MU",
+    "005930.KS"
+  ],
+  "companies": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS"
+    }
+  ],
+  "poster": "tengyanAI",
+  "concepts": [
+    {
+      "key": "high-bandwidth-memory",
+      "term": "High-Bandwidth Memory (HBM)",
+      "definition": "An advanced DRAM architecture that stacks multiple memory dies vertically using through-silicon vias and places them directly adjacent to a GPU or processor on a silicon interposer. HBM delivers far greater memory bandwidth than conventional DRAM — HBM3E reaches up to 1.28 terabytes per second per stack — while consuming less power, making it essential for AI accelerators whose workloads are memory-bandwidth-bound rather than compute-bound."
+    },
+    {
+      "key": "cowos",
+      "term": "CoWoS (Chip-on-Wafer-on-Substrate)",
+      "definition": "An advanced semiconductor packaging technology from Taiwan Semiconductor Manufacturing that places multiple chiplets — such as a GPU die and several HBM stacks — side by side on a silicon interposer substrate and bonds them into a single package. CoWoS enables the extremely high-speed, short-distance connections between a GPU and its HBM that are impossible with conventional circuit-board mounting. Its production capacity became a critical secondary bottleneck during the 2023 AI chip buildout."
+    },
+    {
+      "key": "through-silicon-via",
+      "term": "Through-Silicon Via (TSV)",
+      "definition": "A vertical electrical connection that passes entirely through a silicon die, allowing stacked chips to communicate at high speed directly rather than routing signals around die edges. TSVs are the enabling technology inside HBM: they carry data and power between the multiple DRAM layers in a stack, which is what gives HBM its bandwidth and power-efficiency advantage over conventional memory mounted separately on a circuit board."
+    },
+    {
+      "key": "memory-regime",
+      "term": "Memory Regime (scoring framework)",
+      "definition": "A proprietary supply-cycle scoring system developed by @tengyanAI that rates the HBM market on a numerical scale spanning four qualitative states: SURPLUS, BALANCED, TIGHT, and SHORTAGE. A score near the top of the range indicates extreme tightness verging on shortage; a score near zero signals oversupply. The methodology for constructing the score is not publicly disclosed, making independent replication impossible."
+    },
+    {
+      "key": "pricing-power",
+      "term": "Pricing Power",
+      "definition": "In semiconductor and AI infrastructure investing, the ability of a supplier at a particular stack layer to charge prices significantly above their cost of production without losing customers — because no viable alternative exists. Pricing power emerges when a layer becomes the binding bottleneck in a supply chain and typically erodes as new production capacity comes online or the bottleneck migrates to a different layer."
+    },
+    {
+      "key": "hbm3e",
+      "term": "HBM3E",
+      "definition": "The third-generation, extended-specification iteration of High-Bandwidth Memory, currently used in NVIDIA’s Blackwell (B200) GPU architecture. HBM3E delivers up to 1.28 terabytes per second of bandwidth per stack at higher capacity than baseline HBM3, and commands a six-to-eight-times price premium over standard DDR5 DRAM. The “E” designation indicates an enhanced JEDEC specification enabling higher speed and stack height."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The “Memory Regime” score of 77 is a proprietary index with no publicly disclosed construction methodology, so its precision cannot be independently verified. Additionally, Teng Yan’s professional background is in crypto-AI research (formerly Delphi Digital, now Chain of Thought) rather than traditional semiconductor equity analysis; his layer-rotation framework is directionally informed but should be cross-referenced against specialist sources such as SemiAnalysis or sell-side semiconductor research before acting on specific quantitative claims. The assertion that SK Group’s chairman predicted a shortage lasting until 2030 is sourced from secondary reporting and could not be confirmed against a primary transcript.",
+  "thread_summary": "The full thread could not be retrieved because X requires a login to view post content. Based on the opening post, the thread decomposes the AI infrastructure stack into six or more discrete layers and argues that the current bottleneck — and therefore the current source of outsized pricing power — resides in high-bandwidth memory, as illustrated by the Memory Regime chart. Subsequent posts are presumed to detail the tracking methodology and to identify candidate positions for the next layer rotation.",
+  "sources": [
+    {
+      "url": "https://newsletter.semianalysis.com/p/scaling-the-memory-wall-the-rise-and-roadmap-of-hbm",
+      "title": "Scaling the Memory Wall: The Rise and Roadmap of HBM",
+      "note": "Authoritative technical deep-dive on HBM architecture, supply chain, and manufacturer roadmaps from SemiAnalysis"
+    },
+    {
+      "url": "https://www.inferentialinvestor.com/p/the-shifting-investment-sands-of",
+      "title": "The Shifting Investment Sands of AI Infrastructure",
+      "note": "Maps the GPU-to-memory pricing power rotation with quantitative revenue estimates"
+    },
+    {
+      "url": "https://alcapitaladvisory.com/research/intelligence/ai-infrastructure.html",
+      "title": "The AI Capex Cycle: $725B Hyperscaler Buildout",
+      "note": "AL Capital framework for disaggregating AI infrastructure investment by layer archetype"
+    },
+    {
+      "url": "https://introl.com/blog/ai-memory-supercycle-hbm-2026",
+      "title": "The AI Memory Supercycle",
+      "note": "Supply and demand data for HBM in 2025–2026 including SK Group chairman statement on shortage duration"
+    },
+    {
+      "url": "https://www.patsnap.com/resources/blog/articles/hbm-technology-landscape-2026-market-and-ai-demand/",
+      "title": "HBM Technology Landscape 2026: Market and AI Demand",
+      "note": "Market share data and ASP estimates for HBM3E by manufacturer"
+    },
+    {
+      "url": "https://chipstockinvestor.com/an-investors-guide-to-hbm-high-bandwidth-memory-for-ai/",
+      "title": "An Investor’s Guide to HBM for AI",
+      "note": "Accessible breakdown of HBM economics and manufacturer competitive positioning"
+    },
+    {
+      "url": "https://o-mega.ai/articles/the-ai-stack-in-2026-infrastructure-models-applications",
+      "title": "The AI Stack in 2026: Infrastructure, Models, Applications",
+      "note": "Layer-by-layer overview of the 2026 AI stack and investment dynamics"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2025/12/26/news-ai-reportedly-to-consume-20-of-global-dram-wafer-capacity-in-2026-hbm-gddr7-lead-demand/",
+      "title": "AI to Consume 20% of Global DRAM Wafer Capacity in 2026",
+      "note": "TrendForce data on HBM wafer consumption crowding out commodity DRAM"
+    },
+    {
+      "url": "https://www.yolegroup.com/press-release/data-center-semiconductor-trends-2025-artificial-intelligence-reshapes-compute-and-memory-markets/",
+      "title": "Data Center Semiconductor Trends 2025",
+      "note": "Yole Group TAM projections for compute, memory, and networking layers through 2030"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out",
+      "title": "Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out",
+      "note": "Goldman Sachs macro-level AI capital deployment forecast for 2026–2031"
+    }
+  ],
+  "bookmark_id": "2042015567465664843",
+  "generated_at": "2026-05-11T13:24:44.161483Z",
+  "backend": "claude-sonnet-subagent"
+}

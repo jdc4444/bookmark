@@ -1,0 +1,83 @@
+{
+  "bookmark_id": "2048602056689348824",
+  "headline": "The Man Who Knows What Light Can Do: Anders Storm's Bet on POET Technologies",
+  "lede": "When the former chief executive of a photonics company discloses a position in a rival small-cap photonics name, the signal is hard to ignore. Anders Storm ran Sivers Semiconductors for years, helped build its silicon photonics franchise, and now — no longer bound by corporate restraints — owns shares in POET Technologies.",
+  "body": "Anders Storm announced his resignation as chief executive of Sivers Semiconductors AB (Nasdaq Stockholm: SIVE) on March 26, 2024, citing a desire for \"new challenges outside the Company.\" He served out a six-month notice period, departing in September 2024, and subsequently joined Dirac Research — a Stockholm audio-technology firm — as its new chief executive. During his tenure at Sivers, Storm had methodically repositioned the company from a niche mmWave wireless supplier into a dual-pronged enterprise straddling satellite communications and artificial-intelligence photonics, centering its value proposition on indium phosphide (InP) lasers — compound semiconductors prized for their ability to generate and amplify light on-chip with far greater efficiency than silicon alone can manage.\n\nThat background makes his disclosed stake in POET Technologies Inc. (Nasdaq: POET) something other than casual speculation. POET is a Toronto-founded, Nasdaq-listed company whose central invention is the Optical Interposer — a wafer-level platform that integrates electronic and photonic components from dissimilar materials (silicon, InP, lithium niobate) into a single chip-scale module using standard CMOS semiconductor manufacturing. The practical payoff is steep: POET claims its approach eliminates the hand-alignment and precision-optical assembly steps that make conventional photonics transceivers expensive and slow to scale, replacing craft labour with the same yield-driven factory logic that drove silicon's cost curve down over five decades. In a data centre world where 800-gigabit-per-second and 1.6-terabit-per-second optical transceivers are fast becoming table stakes for AI clusters, those cost and throughput claims matter acutely.\n\nSivers and POET are not strangers. Sivers Photonics — Sivers' standalone photonics unit, which the parent has been engineering toward an independent Nasdaq listing via a proposed merger with byNordic Acquisition Corporation — supplies InP laser sources that plug directly into POET's Optical Interposer platform. In the supply-chain shorthand Storm himself sketched on X: SIVE provides the light source; POET packages it into the optical engine; Foxconn Interconnect Technology (FIT) builds the pluggable transceiver module; and the finished component lands in AI servers at hyperscale data centres. Storm has also noted the chain's extension toward Celestial AI — an optical compute start-up since acquired by Marvell Technology — implying that POET's engines could sit upstream of some of the largest switching and networking silicon in production. The topology is speculative but architecturally coherent, and it is the kind of supply-chain map that an industry insider is better placed to draw than most.\n\nPOET's own commercial story has accelerated sharply. In May 2024 FIT selected POET's silicon photonics optical engines for 800G and 1.6T pluggable modules, with production targeted at POET's joint-venture fab Super Photonics Xiamen. By October 2025 the company disclosed a $5 million initial production order from a leading systems integrator for its POET Infinity 800G engines, destined for hyperscale AI data servers. Full-year 2025 revenue remained pre-commercial by conventional standards — Q4 2025 registered $341,000 against $29,000 a year earlier — but the inflection point is visible: the company guided for shipments of more than 30,000 optical engines in 2026, with 800G production targeted for Q3. Three rounds of institutional equity financing between late 2025 and January 2026 raised roughly $375 million in gross proceeds, leaving POET with approximately $430 million in cash — a war-chest that removes near-term dilution risk and funds the ramp.\n\nThe signal embedded in Storm's position is structural rather than merely directional. An insider signal — the informational advantage that accrues when a market participant's professional expertise gives them credibility in assessing a technology's feasibility and competitive position — is worth more when the investor is a domain expert with hands-on knowledge of the exact bottleneck the target company claims to solve. Storm spent years sourcing InP laser technology for Sivers, negotiating with silicon-photonics partners, and watching hyperscaler procurement officers decide which photonics architectures to back. When such a person chooses to put personal capital into a small-cap photonics name, it is reasonable to treat that choice as a considered view on technology viability — one that carries more epistemic weight than a generalist fund adding the name to a momentum basket.\n\nCaveats apply. POET remains pre-profit, its revenues embryonic relative to its $1 billion market capitalisation, and its Foxconn partnership, while validated, has not yet scaled to volumes that test the unit-economics thesis. Storm's disclosed position is a retail-scale stake, not a strategic investment that would require regulatory disclosure; the tweet that surfaced it is a social-media post, not a prospectus. Still, the photonics sector rewards those who understand which architectural bets will survive first contact with semiconductor manufacturing reality — and on that question, the former chief executive of Sivers Semiconductors is among the better-informed observers in the market.",
+  "tickers": ["SIVE", "POET"],
+  "poster": "LIWEI_TWCapital",
+  "concepts": [
+    {
+      "key": "insider-signal",
+      "term": "insider signal",
+      "definition": "The informational advantage that accrues when a market participant's deep professional expertise — typically as a former executive, engineer, or operator — lends unusual credibility to their investment decision in a related company, implying a technology or business assessment grounded in direct operational knowledge rather than public filings alone."
+    },
+    {
+      "key": "silicon-photonics",
+      "term": "silicon photonics",
+      "definition": "A branch of semiconductor engineering that fabricates optical components — waveguides, modulators, photodetectors — directly on silicon wafers using standard CMOS chip-making tools, enabling data to travel as light rather than electrical current and dramatically reducing latency and power consumption in high-speed data connections."
+    },
+    {
+      "key": "optical-interposer",
+      "term": "Optical Interposer",
+      "definition": "POET Technologies' proprietary wafer-level platform that co-packages photonic and electronic chips made from different materials (silicon, indium phosphide, lithium niobate) into a single module using semiconductor manufacturing processes, eliminating the hand-alignment steps that make conventional optical-transceiver assembly costly and hard to scale."
+    },
+    {
+      "key": "indium-phosphide",
+      "term": "indium phosphide (InP)",
+      "definition": "A III-V compound semiconductor whose direct bandgap makes it highly efficient at generating and amplifying light, widely used in laser sources and optical amplifiers for fibre-optic and photonic applications where silicon's indirect bandgap is a fundamental limitation."
+    },
+    {
+      "key": "co-packaged-optics",
+      "term": "co-packaged optics (CPO)",
+      "definition": "A data-centre architecture in which optical transceivers are integrated directly onto the same substrate as a network switch ASIC, rather than plugging in externally, dramatically reducing electrical trace lengths, power consumption, and signal loss at high data rates."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "title": "Sivers Semiconductors Announces Resignation of CEO Anders Storm",
+      "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-announces-resignation-of-ceo-anders-storm-302099112.html"
+    },
+    {
+      "title": "Anders Storm Exits CEO Position Of Sivers Semiconductors, Joins Dirac",
+      "url": "https://www.electronicsforyou.biz/industry-buzz/people/anders-storm-exits-ceo-position-of-sivers-semiconductors-joins-dirac/"
+    },
+    {
+      "title": "POET Announces Design Win and Collaboration with Foxconn Interconnect Technology",
+      "url": "https://www.globenewswire.com/news-release/2024/05/14/2881223/0/en/POET-Announces-Design-Win-and-Collaboration-with-Foxconn-Interconnect-Technology-for-High-speed-AI-Systems.html"
+    },
+    {
+      "title": "POET Technologies Receives $5 Million Production Order for 800G Optical Engines",
+      "url": "https://www.globenewswire.com/news-release/2025/10/22/3170983/0/en/POET-Technologies-Receives-5-Million-Production-Order-for-800G-Optical-Engines.html"
+    },
+    {
+      "title": "POET Technologies Reports Fourth Quarter 2025 Financial Results",
+      "url": "https://www.poet-technologies.com/news/poet-technologies-reports-fourth-quarter-2025-financial-results"
+    },
+    {
+      "title": "Sivers Semiconductors Partners With POET Technologies to Deliver Innovative Light-Engines",
+      "url": "https://www.sivers-semiconductors.com/press/sivers-semiconductors-partners-with-poet-technologies-to-deliver-innovative-light-engines-and-strengthen-serviceable-market-offerings-in-next-gen-ai-infrastructure/"
+    },
+    {
+      "title": "Anders Storm on X — SIVE ecosystem post",
+      "url": "https://x.com/StormDirac/status/2044550150958219356"
+    },
+    {
+      "title": "Sivers to spin off Photonics subsidiary as NASDAQ-traded firm",
+      "url": "https://www.semiconductor-today.com/news_items/2024/aug/siversphotonics-070824.shtml"
+    },
+    {
+      "title": "POET Technologies Optical Interposer technology page",
+      "url": "https://www.poet-technologies.com/technology"
+    },
+    {
+      "title": "Anders Storm Substack — 6 weeks that change SIVE",
+      "url": "https://andersstorm.substack.com/p/6-weeks-that-change-sive"
+    }
+  ],
+  "generated_at": "2026-05-05T15:32:03Z",
+  "backend": "claude-sonnet-subagent"
+}

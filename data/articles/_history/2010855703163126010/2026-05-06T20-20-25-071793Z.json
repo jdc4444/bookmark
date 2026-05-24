@@ -1,0 +1,53 @@
+{
+  "headline": "Light Therapy Glasses Beat Boxes on Compliance, Not Lumens",
+  "lede": "@flowpraxis makes a brief but pointed buying recommendation: choose wearable light therapy glasses — the Luminette or Ayo — over the traditional stationary lamp. The argument is behavioural rather than clinical: mobility determines whether a device actually gets used.",
+  "body": "*Light therapy* works by exposing the retina to bright, blue-enriched light that suppresses melatonin and nudges the *circadian clock* forward. It is most commonly used for *seasonal affective disorder* (SAD) — a form of depression correlated with shortened autumn and winter daylight — but also for jet lag, shift-work, and plain morning sluggishness.\n\nThe compliance problem with stationary boxes is structural. A traditional light therapy lamp requires you to sit within roughly half a metre of a bright panel for twenty to thirty minutes each morning, typically without distraction. The regimen works in controlled trials; in ordinary life, people skip it. The poster's claim that \"most probably don't end up using them the way you should\" matches a well-documented pattern across health interventions: the gap between prescribed and actual use collapses theoretical efficacy.\n\n**Light therapy glasses** route the same blue-enriched LEDs into a wearable frame aimed upward at the lower retina, leaving both hands and the rest of the morning free. The *Luminette 3* retails at around $199 and can be operated standalone, without a phone. The *Ayo* requires its companion smartphone app to function at all — you cannot use the device without it. A third option, the *Pegasi 2*, emits blue-green light and pairs via Bluetooth to its own app. The poster's view that \"most would work\" tracks with independent lab reviews: the functional differences between these products are real but secondary to the compliance advantage they share.\n\nFor most people the decisive variable is not peak *melanopic illuminance* — the measure of light's potency at the circadian receptors, weighted toward the roughly 480 nm wavelengths those cells prefer — but simply how many mornings the device is actually on their face. Glasses win that contest structurally, not by being brighter.",
+  "tickers": [],
+  "poster": "flowpraxis",
+  "concepts": [
+    {
+      "key": "light-therapy",
+      "term": "Light Therapy",
+      "definition": "A treatment in which the eyes are exposed to bright artificial light — typically 2,500–10,000 lux — for a timed session each morning. Clinically validated for seasonal affective disorder and increasingly used for circadian misalignment and jet lag. Efficacy depends heavily on timing, duration, and consistent daily use."
+    },
+    {
+      "key": "seasonal-affective-disorder",
+      "term": "Seasonal Affective Disorder (SAD)",
+      "definition": "A subtype of recurrent depression linked to reduced daylight in autumn and winter, affecting an estimated 1–3% of adults in temperate climates. Morning light therapy is a first-line treatment with efficacy broadly comparable to antidepressants for mild-to-moderate presentations."
+    },
+    {
+      "key": "circadian-rhythm",
+      "term": "Circadian Rhythm",
+      "definition": "The roughly 24-hour internal clock governing sleep, wakefulness, hormone release, and metabolism. Light is its primary external synchroniser: bright morning light advances the clock (making you sleepier earlier that evening), while light late at night delays it."
+    },
+    {
+      "key": "melanopic-illuminance",
+      "term": "Melanopic Illuminance",
+      "definition": "A measure of light's effectiveness at stimulating the eye's intrinsically photosensitive retinal ganglion cells (ipRGCs), which drive circadian and hormonal responses independently of colour vision. Unlike standard lux, it weights blue wavelengths — peaking around 480 nm — more heavily. Sometimes expressed as m-EDI, or melanopic equivalent daylight illuminance."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://myluminette.com/en-us/blogs/article/ayo-vs-luminette",
+      "title": "Ayo vs Luminette 3: A Comparison of Light Therapy Glasses",
+      "note": "Pricing and feature differences between Ayo and Luminette 3, from Luminette's own site"
+    },
+    {
+      "url": "https://optimizeyourbiology.com/best-light-therapy-glasses",
+      "title": "Best Light Therapy Glasses Review: Lab Tested (2026)",
+      "note": "Independent lab testing of SAD glasses including spectral data, lux, and flicker measurements"
+    },
+    {
+      "url": "https://sadlampsusa.com/luminette-vs-ayo-vs-pegasi-2-light-therapy-glass-review/",
+      "title": "Luminette vs Ayo vs Pegasi 2 Light Therapy Glass Review",
+      "note": "Detailed comparison of three products including app dependencies and connectivity requirements"
+    }
+  ],
+  "bookmark_id": "2010855703163126010",
+  "generated_at": "2026-05-06T20:20:25.071793Z",
+  "backend": "claude"
+}

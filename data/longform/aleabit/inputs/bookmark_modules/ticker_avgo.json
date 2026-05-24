@@ -1,0 +1,13 @@
+{
+  "key": "AVGO",
+  "name": "Broadcom Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Broadcom is a diversified semiconductor and infrastructure software company formed through a series of acquisitions, most recently VMware (closed 2023). Its chip portfolio spans networking ASICs (custom chips for hyperscaler AI clusters), enterprise storage controllers, WiFi silicon, and set-top-box processors. Broadcom's AI networking chips — particularly its Tomahawk Ethernet switching ASICs and custom AI accelerators built for Google, Meta, and Apple — have made it a second-tier AI infrastructure beneficiary behind NVIDIA. The VMware acquisition added high-margin enterprise software revenue that meaningfully improved the company's margin profile.",
+  "recent": "Broadcom's FY2026 revenue (ending Oct 2026) is on track to exceed $65 billion, with AI-related chip revenue growing rapidly as hyperscalers expand custom silicon programs. Forward EPS growth of 56.3% and a forward P/E of ~23.4x produce a PEG of 0.42 — among the best risk-adjusted valuations in large-cap technology. CEO Hock Tan has guided to $60–90 billion in AI chip revenue by 2027 from three major hyperscaler customers alone.",
+  "sources": [
+    {"url": "https://www.heygotrade.com/en/blog/ai-semiconductor-stocks-2026-nvidia-tsmc-broadcom/", "title": "NVIDIA vs TSMC vs Broadcom: AI Chip Stocks 2026 — HeyGoTrade"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

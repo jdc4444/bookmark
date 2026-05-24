@@ -1,0 +1,166 @@
+{
+  "headline": "Semiconductor Lead Times Are Flashing an Old Buy Signal",
+  "lede": "Among the small set of indicators that chip-sector investors treat as reliable, few are simpler or more durable than the lead-time signal: when the gap between ordering semiconductors and receiving them grows, buy the stocks; when it shrinks, sell. As of spring 2026, that gap is growing across nearly every segment of the industry.",
+  "body": "The rule is simple enough to fit on a trading card: buy semiconductor stocks when *lead times* are extending, sell when they shrink. Lead times — the gap between placing a chip order and receiving delivery — are the supply chain's most candid expression of demand. When they lengthen, buyers are booking further out because supply cannot keep pace; that scarcity translates to pricing power, margin expansion, and upward revisions to earnings estimates. When they contract, supply has caught up, inventories are building, and estimate cuts follow.\n\nBy April 2026, the data supports the buy case. A Baird survey published April 9 found DRAM lead times at **41 weeks** — the highest in the firm's dataset — with *FPGA* lead times at 40 weeks and power-conversion chips from Monolithic Power Systems (MPWR) at 33. The breadth matters: it is one thing for a single hot category to tighten; it is another when analog, power, discrete, and memory all move together. Texas Instruments (TXN) and Analog Devices (ADI) announced 10–30% price increases effective February 2026, followed by ON Semiconductor (ON), STMicroelectronics (STM), and Lattice Semiconductor (LSCC). Price hikes are a lagging but legally enforceable confirmation of what lead-time data signals first. Susquehanna's *SemiSIGnals* tracker — the most closely watched lead-time index among institutional investors — logged five additional days of expansion in Q4 2025.\n\nThe tightest segment runs through AI infrastructure. *HBM* — high-bandwidth memory, the stacked DRAM that feeds large AI accelerators — is sold out through at least end-2026, with output at Micron (MU), Samsung (005930.KS), and SK Hynix (000660.KS) redirected overwhelmingly toward AI customers; the three producers have shifted roughly 93% of combined DRAM wafer capacity to HBM, squeezing commodity DRAM supply and pushing spot prices up 80–90% since Q4 2025. NVIDIA (NVDA)'s Blackwell-generation GPU backlog reportedly exceeds $500 billion. *CoWoS* packaging — the advanced chip-stacking process at Taiwan Semiconductor Manufacturing (TSM) that bonds AI dies and memory — remains oversubscribed through 2026.\n\nThe historical precedent behind the maxim is clean. Susquehanna documented lead times climbing from roughly 12 weeks in 2020 to a **peak of 27.1 weeks in May 2022**, coinciding with a sustained bull run in the *Philadelphia Semiconductor Index* (SOX). The unwinding was equally instructive: customers had over-ordered to buffer against the shortage, and when end demand softened, cancellations cascaded upstream — the textbook *bullwhip effect* — driving SOX down more than 30% from its highs and tipping the industry into a deep inventory correction through 2023. The current data suggests the cycle is in early expansion. Whether the second chapter of that script arrives depends on whether AI capital expenditure continues pulling demand outward across every category, or concentrates and eventually plateaus.",
+  "tickers": [
+    "MPWR",
+    "TXN",
+    "ADI",
+    "ON",
+    "STM",
+    "LSCC",
+    "MU",
+    "005930.KS",
+    "000660.KS",
+    "NVDA",
+    "TSM"
+  ],
+  "companies": [
+    {
+      "name": "Monolithic Power Systems",
+      "ticker": "MPWR"
+    },
+    {
+      "name": "Texas Instruments",
+      "ticker": "TXN"
+    },
+    {
+      "name": "Analog Devices",
+      "ticker": "ADI"
+    },
+    {
+      "name": "ON Semiconductor",
+      "ticker": "ON"
+    },
+    {
+      "name": "STMicroelectronics",
+      "ticker": "STM"
+    },
+    {
+      "name": "Lattice Semiconductor",
+      "ticker": "LSCC"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM"
+    }
+  ],
+  "poster": "PythiaR",
+  "concepts": [
+    {
+      "key": "lead-times",
+      "term": "Lead Times",
+      "definition": "The elapsed time between placing a purchase order for a semiconductor component and receiving physical delivery. Normal lead times run 6–12 weeks for commodity chips. When demand outpaces capacity, that window stretches to 20, 30, or 40+ weeks, forcing buyers to commit capital far in advance — and signaling supply tightness that historically precedes rising prices and stock multiples."
+    },
+    {
+      "key": "fpga",
+      "term": "FPGA",
+      "definition": "Field-programmable gate array: a chip whose internal logic circuits can be reconfigured by the buyer after manufacture, used in networking gear, aerospace, data centers, and rapid prototyping. Unlike fixed-function chips (ASICs), FPGAs are flexible but expensive. Lead times for FPGAs spike sharply during capacity crunches because production is concentrated among a small number of suppliers."
+    },
+    {
+      "key": "semisignals",
+      "term": "SemiSIGnals",
+      "definition": "A monthly lead-time tracking report published by Susquehanna Financial Group that surveys distributors and buyers across thousands of semiconductor part numbers. It is widely treated as the canonical institutional reference for semiconductor cycle positioning, tracking average delivery timelines across analog, memory, logic, discrete, and power categories."
+    },
+    {
+      "key": "hbm",
+      "term": "HBM (High-Bandwidth Memory)",
+      "definition": "A type of DRAM in which multiple memory dies are stacked vertically and connected via microscopic through-silicon vias, delivering far higher data bandwidth than conventional DRAM at much lower power. It is the memory standard for large AI accelerators from NVIDIA, AMD, and custom ASICs, and its production is controlled by a handful of Korean and American memory makers."
+    },
+    {
+      "key": "cowos",
+      "term": "CoWoS",
+      "definition": "Chip-on-Wafer-on-Substrate: Taiwan Semiconductor Manufacturing's advanced packaging technology that bonds processor and memory dies side by side on a shared silicon interposer, enabling the tight integration required by AI GPUs. CoWoS capacity is entirely controlled by TSMC, making it a hard constraint on how many AI chips can ship in a given quarter."
+    },
+    {
+      "key": "sox",
+      "term": "Philadelphia Semiconductor Index (SOX)",
+      "definition": "The primary benchmark index for US-listed semiconductor equities, maintained by Nasdaq. It includes roughly 30 chip design, manufacturing, and equipment companies and is the standard reference for tracking sector-wide stock performance. Also traded as an ETF under the ticker SOXX."
+    },
+    {
+      "key": "bullwhip-effect",
+      "term": "Bullwhip Effect",
+      "definition": "A supply-chain phenomenon in which small fluctuations in end-consumer demand amplify into large order swings further up the chain. In semiconductors, customers over-order during shortages to secure supply; when end demand softens, they stop ordering entirely, causing cancellations to cascade upstream and production utilization to collapse — often faster and harder than the original shortage."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.investing.com/news/stock-market-news/semiconductor-lead-times-surge-across-multiple-segments-baird-reports-93CH-4605978",
+      "title": "Semiconductor Lead Times Surge Across Multiple Segments, Baird Reports (April 9, 2026)",
+      "note": "Primary data source: Baird survey showing DRAM at 41 weeks, FPGAs at 40 weeks, power-conversion ICs at 33 weeks — all multi-year highs"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/susquehanna-lifts-semiconductor-targets-ai-155355135.html",
+      "title": "Susquehanna Lifts Semiconductor Targets as AI, Lead Times Support Earnings Outlook (Jan 22, 2026)",
+      "note": "SemiSIGnals Q4 2025 data: lead times expanded 5 days; NVIDIA Blackwell/Rubin backlog cited above $500B"
+    },
+    {
+      "url": "https://sourceability.com/post/q1-2026-lead-time-report-highlights",
+      "title": "Q1 2026 Lead Time Report Highlights — Sourceability",
+      "note": "Distributor-level data: DRAM prices up 80–90% since Q4 2025, HBM on allocation, multiple supplier price hikes"
+    },
+    {
+      "url": "https://blog.findchips.com/dram-memory-shortage-2026-pricing-lead-times-where-to-buy/",
+      "title": "The 2026 DRAM Buyer Playbook — Findchips",
+      "note": "HBM sold out through 2026; 93% of combined DRAM wafer capacity shifted to HBM; CoWoS oversubscribed"
+    },
+    {
+      "url": "https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/",
+      "title": "Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 — SIA",
+      "note": "Authoritative revenue data validating the demand strength underlying current lead-time expansion"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html",
+      "title": "2026 Semiconductor Industry Outlook — Deloitte",
+      "note": "Full-year 2026 revenue forecast of ~$975B; AI chips projected at ~$500B on just 0.2% of unit volume"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2025/12/19/news-analog-devices-reportedly-plans-10-30-price-hike-from-feb-2026-following-tis-lead/",
+      "title": "Analog Devices Plans 10–30% Price Hike from Feb. 2026 — TrendForce",
+      "note": "Documents ADI and TI price hikes as lagging confirmation of supply tightness signaled by lead times"
+    },
+    {
+      "url": "https://polyelectronics.us/semiconductor-lead-times-are-moving-toward-42-weeks-why-a-u-s-ems-partner-matters-more-than-ever-in-2026/",
+      "title": "Semiconductor Lead Times Are Moving Toward 42 Weeks — Polyelectronics",
+      "note": "EMS industry perspective on 30–42 week lead-time projections across MCU, power, and analog categories"
+    },
+    {
+      "url": "https://www.cnbc.com/amp/2023/07/28/how-the-world-went-from-a-semiconductor-shortage-to-a-major-glut.html",
+      "title": "How the World Went From a Semiconductor Shortage to a Major Glut — CNBC",
+      "note": "Historical context on the 2021–2022 lead-time surge and the bullwhip-driven 2023 inventory correction"
+    },
+    {
+      "url": "https://www.investing.com/academy/trading/how-to-analyze-semiconductor-stocks/",
+      "title": "How to Analyze Semiconductor Stocks — Investing.com",
+      "note": "Framework explaining lead times, book-to-bill, and cycle indicators as investment signals"
+    },
+    {
+      "url": "https://x.com/justbrosef?lang=en",
+      "title": "@justbrosef on X",
+      "note": "Source of the maxim; profile self-described as former buy-side investor with sardonic institutional-fund framing"
+    }
+  ],
+  "bookmark_id": "2052472555630399565",
+  "generated_at": "2026-05-08T10:13:54.067625Z",
+  "backend": "claude-sonnet-subagent"
+}

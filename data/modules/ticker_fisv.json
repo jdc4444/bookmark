@@ -1,0 +1,11 @@
+{
+  "key": "FISV",
+  "name": "Fiserv (legacy ticker, rebranded to FI)",
+  "exchange": "NASDAQ (legacy symbol)",
+  "blurb": "FISV was the long-standing ticker for Fiserv, a financial-technology firm specializing in payments processing, core banking software, and merchant acquiring (Clover). In 2024 the company shortened its symbol to FI; references to $FISV in posts after that date are using the legacy symbol for the same underlying company.",
+  "recent": "Fiserv (FI) traded near multi-year lows through late 2025 and early 2026 amid margin compression, slowing Clover growth, and competitive pressure from Stripe, Block and Toast. Shares are off roughly 60% from 2023 highs.",
+  "sources": [],
+  "type": "ticker",
+  "generated_at": "2026-05-06T03:23:40.364683+00:00",
+  "backend": "claude-sonnet-subagent"
+}

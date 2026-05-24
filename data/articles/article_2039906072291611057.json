@@ -1,0 +1,321 @@
+{
+  "headline": "Inside a Crowd-Sourced Basket of Twenty-Nine AI-Era Micro-Caps",
+  "lede": "Serenity, an X.com analyst who covers the AI hardware supply chain under the handle @aleabitoreddit, crowd-sourced a portfolio she calls the Followers Favorite Stock Parabolic Growth ETF: twenty-nine small and micro-cap names submitted by her followers as high-conviction bets on tenfold returns, each equally weighted at roughly 3.45 percent. She openly admitted to being unfamiliar with about a third of the tickers, treating collective follower conviction as a substitute for her own due diligence. The basket spans AI optical interconnects, directed-energy weapons, deep-sea minerals, and gene therapy — an index of retail investor obsessions in the spring of 2026.",
+  "body": "Serenity, whose feed concentrates on the AI hardware supply chain, built this basket by polling her followers for their highest-conviction name, then equal-weighting every submission at roughly 3.45 percent. The structure is deliberately flat: no position dominates, which means the portfolio is simultaneously a collective research exercise and a bet that a crowd aggregates private sector knowledge better than any single analyst. Her admission of not knowing a third of the holdings is not a disclaimer but part of the methodology — she is treating her follower network as distributed intelligence.\n\nThe backbone of the basket is an *AI optical interconnect* thesis running from laser fabrication to chip testing. Sivers Semiconductors (SIVE) makes *indium phosphide* distributed-feedback lasers — the light sources inside next-generation transceivers. Enablence Technologies (ENAFF) manufactures *planar lightwave circuit* couplers, the passive glass waveguides that route that light, and is formally partnered with Sivers on a *co-packaged optics* module for AI data centers. POET Technologies (POET) develops optical engines that let customers assemble high-density transceiver modules without owning a photonics fab. Applied Optoelectronics (AAOI) sits at the finished-product end, manufacturing 800G and **1.6T** transceivers and guiding to more than $1 billion in 2026 revenue. Aehr Test Systems (AEHR) stress-tests *silicon photonics* chips at the wafer level before expensive packaging, while nLIGHT (LASR) supplies semiconductor and fiber lasers for both data-center fabrication equipment and directed-energy defense programs. The packaging angle is reinforced by two German names: LPKF Laser & Electronics (LPK.DE), whose proprietary *LIDE* process etches precision holes in thin glass for advanced chip substrates, and Plan Optik (P4O.DE), a micro-cap glass-wafer maker whose shares rallied more than 160 percent over twelve months as investors connected its product line to the *glass interposer* thesis. Photronics (PLAB), a *photomask* specialist serving virtually every major chipmaker, and Trio-Tech International (TRT), which provides burn-in test services for AI GPU silicon, complete the picks-and-shovels tier.\n\nA second cluster groups defense modernization, edge AI, and critical materials. Electro Optic Systems (EOS.AX), an Australian maker of laser-weapon turrets and counter-drone systems, and Firefly Aerospace (FLY), a small-launch and lunar-delivery company with growing national-security revenue, sit alongside nLIGHT on the directed-energy side. Blaize Holdings (BZAI) designs edge AI processors for smart-city and defense applications; Gorilla Technology (GRRR) deploys AI video analytics while building GPU compute campuses in India and Southeast Asia; 2CRSi (AL2SI), a French GPU-server manufacturer, offers a more direct infrastructure exposure. Valens Semiconductor (VLN) makes high-speed chips for automotive camera links. The materials sub-basket includes EQ Resources (EQR.AX), one of the few non-Chinese tungsten producers, benefiting from surging *APT* prices and Western supply-security anxiety; ASP Isotopes (ASPI), which enriches isotopically pure Silicon-28 for quantum computing and recently signed its largest-ever supply contract; and TMC the metals company (TMC), which cleared a key US regulatory milestone in May 2026 in its bid to harvest *polymetallic nodules* from the Pacific floor for battery minerals.\n\nSeveral names sit at a considerable remove from the AI and defense narrative. uniQure (QURE) is a *gene therapy* company running a Phase I/II program for Huntington's disease with a $586 million cash runway and no near-term commercial catalyst that would explain a tenfold move. Crossject (ALCJ), a French pre-revenue biotech, is developing a needle-free diazepam auto-injector funded partly by BARDA. Mitek Systems (MITK) is a profitable identity-verification *SaaS* business whose recent 18 percent year-on-year growth is sound but scarcely momentum-grade. Energous Corporation (WATT) is the one surprise story: a wireless-power company that was essentially a science project until a Fortune-10 retailer began deploying its technology across thousands of US stores, lifting quarterly revenue roughly tenfold year-on-year. EON Resources (EONR), a development-stage Permian Basin oil producer, has no obvious kinship with anything else in the list. HydroGraph Clean Power (HGRAF), a graphene manufacturer, and Aduro Clean Technologies (ADUR), a chemical-recycling startup, represent a cleantech tail with multiyear commercialization timelines. Vishay Precision Group (VPG), a precision-sensor specialist that recently announced robotics supply deals, is the most conventionally profitable name in the portfolio. Equal weighting means each outlier claims the same 3.45 percent slot as the photonics core — structurally, a gene-therapy binary event carries the same expected portfolio contribution as a transceiver ramp worth hundreds of millions of dollars.\n\nThe word “parabolic” is doing double duty. Several holdings have already posted violent upward moves: Sivers gained more than 1,200 percent year-to-date by early May 2026 before analysts raised questions about whether the rally had outrun fundamentals; nLIGHT hit an all-time high the same week; POET fell roughly 50 percent in a single week after disclosing an order cancellation from its largest customer. “Parabolic growth” here describes a trajectory already achieved as much as a target. Whether followers submitted these names at the inflection point between a genuine supply-chain ramp and a momentum cycle that has already priced in generous assumptions — and whether a crowd aggregates information or merely amplifies shared biases — is the productive tension this basket leaves unresolved.",
+  "tickers": [
+    "TRT",
+    "HGRAF",
+    "SIVE",
+    "ENAFF",
+    "POET",
+    "AAOI",
+    "AEHR",
+    "LASR",
+    "LPK.DE",
+    "P4O.DE",
+    "PLAB",
+    "EOS.AX",
+    "FLY",
+    "BZAI",
+    "GRRR",
+    "AL2SI",
+    "VLN",
+    "EQR.AX",
+    "ASPI",
+    "TMC",
+    "QURE",
+    "ALCJ",
+    "MITK",
+    "WATT",
+    "EONR",
+    "ADUR",
+    "VPG"
+  ],
+  "companies": [
+    {
+      "name": "Sivers Semiconductors AB",
+      "ticker": "SIVE"
+    },
+    {
+      "name": "Enablence Technologies Inc.",
+      "ticker": "ENAFF"
+    },
+    {
+      "name": "POET Technologies Inc.",
+      "ticker": "POET"
+    },
+    {
+      "name": "Applied Optoelectronics Inc.",
+      "ticker": "AAOI"
+    },
+    {
+      "name": "Aehr Test Systems",
+      "ticker": "AEHR"
+    },
+    {
+      "name": "nLIGHT Inc.",
+      "ticker": "LASR"
+    },
+    {
+      "name": "LPKF Laser & Electronics SE",
+      "ticker": "LPK.DE"
+    },
+    {
+      "name": "Plan Optik AG",
+      "ticker": "P4O.DE"
+    },
+    {
+      "name": "Photronics Inc.",
+      "ticker": "PLAB"
+    },
+    {
+      "name": "Trio-Tech International",
+      "ticker": "TRT"
+    },
+    {
+      "name": "Electro Optic Systems Holdings Limited",
+      "ticker": "EOS.AX"
+    },
+    {
+      "name": "Firefly Aerospace Inc.",
+      "ticker": "FLY"
+    },
+    {
+      "name": "Blaize Holdings Inc.",
+      "ticker": "BZAI"
+    },
+    {
+      "name": "Gorilla Technology Group Inc.",
+      "ticker": "GRRR"
+    },
+    {
+      "name": "2CRSi SA",
+      "ticker": "AL2SI"
+    },
+    {
+      "name": "Valens Semiconductor Ltd.",
+      "ticker": "VLN"
+    },
+    {
+      "name": "EQ Resources Limited",
+      "ticker": "EQR.AX"
+    },
+    {
+      "name": "ASP Isotopes Inc.",
+      "ticker": "ASPI"
+    },
+    {
+      "name": "TMC the metals company Inc.",
+      "ticker": "TMC"
+    },
+    {
+      "name": "uniQure NV",
+      "ticker": "QURE"
+    },
+    {
+      "name": "Crossject SA",
+      "ticker": "ALCJ"
+    },
+    {
+      "name": "Mitek Systems Inc.",
+      "ticker": "MITK"
+    },
+    {
+      "name": "Energous Corporation",
+      "ticker": "WATT"
+    },
+    {
+      "name": "EON Resources Inc.",
+      "ticker": "EONR"
+    },
+    {
+      "name": "HydroGraph Clean Power Inc.",
+      "ticker": "HGRAF"
+    },
+    {
+      "name": "Aduro Clean Technologies Inc.",
+      "ticker": "ADUR"
+    },
+    {
+      "name": "Vishay Precision Group Inc.",
+      "ticker": "VPG"
+    }
+  ],
+  "poster": "aleabitoreddit",
+  "concepts": [
+    {
+      "key": "ai-optical-interconnect",
+      "term": "AI Optical Interconnect",
+      "definition": "The technology and supply chain for transmitting data between chips and servers using pulses of light through fiber-optic cables rather than electrical signals. Optical links are faster, lower-latency, and more energy-efficient at the speeds required for large-scale AI model training and inference, driving a surge in demand for lasers, transceivers, and photonic packaging components."
+    },
+    {
+      "key": "indium-phosphide",
+      "term": "Indium Phosphide (InP)",
+      "definition": "A compound semiconductor made from indium and phosphorus that emits light efficiently at the infrared wavelengths used in fiber-optic communications. Preferred over silicon for making the laser diodes inside high-speed data-center transceivers because of its direct bandgap and high electron mobility; Sivers Semiconductors is one of the few independent western suppliers of InP laser dies."
+    },
+    {
+      "key": "planar-lightwave-circuit",
+      "term": "Planar Lightwave Circuit (PLC)",
+      "definition": "An optical waveguide chip made by depositing silica glass layers on a silicon substrate. Routes and splits light beams passively — without electrical power — and is used in fiber splitters, optical couplers, and the passive sections of co-packaged optical modules. Enablence Technologies is a specialist manufacturer of PLC components."
+    },
+    {
+      "key": "co-packaged-optics",
+      "term": "Co-Packaged Optics (CPO)",
+      "definition": "An architecture that integrates optical transceiver hardware directly into the same physical package as a network switch or AI processor chip, eliminating lossy copper connections between them. A key frontier in data-center interconnect design as per-lane speeds scale to 1.6T and beyond; enables higher bandwidth density and lower power consumption per bit."
+    },
+    {
+      "key": "silicon-photonics",
+      "term": "Silicon Photonics",
+      "definition": "A manufacturing approach that builds optical components — waveguides, modulators, photodetectors — directly onto silicon wafers using standard semiconductor fabrication tools. Allows photonic circuits to be produced at chip-industry scale and cost, enabling affordable high-speed optical transceivers; Aehr Test Systems has developed burn-in equipment specifically for silicon photonics chips."
+    },
+    {
+      "key": "one-point-six-t",
+      "term": "1.6T Transceiver",
+      "definition": "An optical module capable of transmitting 1.6 terabits of data per second, the current frontier for high-speed connections between AI accelerators and network switches inside hyperscale data centers. Successor to 800G modules; requires advanced indium phosphide lasers, silicon photonics integration, and co-packaged optics engineering to achieve the bandwidth density at acceptable power and cost."
+    },
+    {
+      "key": "directed-energy-weapons",
+      "term": "Directed Energy Weapons",
+      "definition": "Weapons that damage or destroy targets by delivering concentrated electromagnetic energy — typically a high-power laser beam or microwave pulse — rather than kinetic projectiles. Under rapid development globally for counter-drone and missile-defense applications, where speed-of-light delivery and low cost-per-shot are decisive advantages over conventional munitions."
+    },
+    {
+      "key": "lide",
+      "term": "LIDE (Laser-Induced Deep Etching)",
+      "definition": "A proprietary process developed by LPKF Laser & Electronics that uses focused ultrashort laser pulses to structurally modify thin glass, followed by a chemical etch that removes the altered material. Produces high-aspect-ratio holes and channels with precision unmatched by mechanical drilling, used to create the signal vias in advanced glass semiconductor packaging substrates."
+    },
+    {
+      "key": "glass-interposer",
+      "term": "Glass Interposer / Glass Core Substrate",
+      "definition": "A glass-based routing layer placed between a processor chip and its circuit board that carries high-speed electrical signals between chiplets. Glass offers lower signal loss, finer routing capability, and better thermal stability than organic or silicon alternatives, making it attractive for next-generation AI chip packaging; companies like Plan Optik and LPKF supply the precision glass and processing equipment this shift requires."
+    },
+    {
+      "key": "photomask",
+      "term": "Photomask",
+      "definition": "A high-precision quartz plate on which circuit patterns are etched in chrome or other opaque materials. Used as a stencil in semiconductor lithography to project those patterns onto silicon wafers via ultraviolet or extreme-UV light, printing each layer of a chip. Every new process node requires a fresh set of masks, making photomask manufacturers like Photronics structurally tied to chip industry investment cycles."
+    },
+    {
+      "key": "wafer-level-burn-in",
+      "term": "Wafer-Level Burn-In",
+      "definition": "Stress-testing semiconductor chips under elevated voltage and temperature while they are still attached to the original silicon wafer, before individual die are cut out and packaged. Identifies latent manufacturing defects at the cheapest possible stage of production; particularly valuable for high-cost components such as AI GPUs and silicon photonics chips where a single bad part can cost hundreds of dollars."
+    },
+    {
+      "key": "picks-and-shovels",
+      "term": "Picks-and-Shovels Investing",
+      "definition": "The strategy of buying suppliers of tools and infrastructure to a booming industry rather than betting on which end-product companies will dominate. The analogy is to Gold Rush merchants who sold picks and shovels to every prospector: enabling companies capture value regardless of who wins the underlying race, with more predictable revenue and less binary risk than the product-level bets."
+    },
+    {
+      "key": "apt",
+      "term": "APT (Ammonium Paratungstate)",
+      "definition": "The intermediate chemical compound produced by refining tungsten ore, widely used as the benchmark price for global tungsten markets. APT prices surged roughly 300 percent from early 2025 as Western buyers sought to reduce dependence on Chinese tungsten supply amid geopolitical decoupling, directly benefiting non-Chinese producers like EQ Resources."
+    },
+    {
+      "key": "polymetallic-nodules",
+      "term": "Polymetallic Nodules",
+      "definition": "Potato-sized mineral concretions that form on the deep ocean floor over millions of years, containing commercially interesting concentrations of nickel, cobalt, copper, and manganese — all critical inputs for lithium-ion batteries and electronics. Mining them is technically feasible but faces significant environmental and international regulatory scrutiny; TMC the metals company holds exploration rights to a large nodule field in the Pacific."
+    },
+    {
+      "key": "gene-therapy",
+      "term": "Gene Therapy",
+      "definition": "A medical approach that treats disease by inserting, altering, or replacing genetic material inside a patient's cells, typically delivered by a modified virus known as a viral vector. Targets conditions caused by single-gene mutations; approved products exist for hemophilia (uniQure's HEMGENIX), but most programs for complex neurological diseases such as Huntington's remain in early clinical stages with highly binary outcomes."
+    },
+    {
+      "key": "barda",
+      "term": "BARDA",
+      "definition": "The Biomedical Advanced Research and Development Authority, a US Department of Health and Human Services agency that funds development of medical countermeasures — vaccines, treatments, and diagnostics — against biological, chemical, radiological, and nuclear threats. BARDA contracts provide non-dilutive government funding but do not guarantee regulatory approval or commercial revenue for the funded products."
+    },
+    {
+      "key": "phase-i-ii",
+      "term": "Phase I/II Clinical Trial",
+      "definition": "An early-stage human drug trial combining first-in-human safety testing (Phase I) with initial evidence of efficacy (Phase II) in a single study design. Common in rare-disease and neurological programs where eligible patient populations are too small to run sequential studies; positive Phase I/II data is encouraging but does not guarantee later-stage success or regulatory approval."
+    },
+    {
+      "key": "equal-weighting",
+      "term": "Equal Weighting",
+      "definition": "A portfolio construction method in which every holding receives the same percentage allocation regardless of the investor's conviction level, the holding's market capitalization, or its revenue size. Maximizes breadth and prevents concentration risk but treats a speculative pre-revenue biotech as structurally equivalent to a high-revenue transceiver manufacturer — a trade-off the Parabolic Growth ETF makes explicit."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The self-description as “the most anticipated ETF of all time” is evidently tongue-in-cheek hyperbole. More substantively, the image OCR captures two tickers absent from the tweet body: GRRR (Gorilla Technology Group) fits the basket's AI theme credibly and is almost certainly a genuine holding omitted from the tweet text due to character limits. $THS is harder to square: if the OCR is accurate, it resolves to TreeHouse Foods (NYSE: THS), a private-label food company in the process of being taken private, which has no thematic connection to any other holding and is most likely a misread of another ticker. The OCR also renders one position as $FLYR rather than $FLY; $FLYR was a Norwegian low-cost airline that ceased operations in January 2023, while Firefly Aerospace (NASDAQ: FLY) is the correct match given the basket's space and defense theme. Finally, the prices listed in the tweet body are entry prices at time of composition; several holdings — including Sivers (SIVE) and nLIGHT (LASR) — have since moved far above those levels, while POET has traded sharply lower following an order cancellation event.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.newsfilecorp.com/release/288080/Sivers-Semiconductors-ONet-and-Enablence-Technologies-Announce-Collaboration-on-CoPackaged-Optics",
+      "title": "Sivers Semiconductors, O-Net and Enablence Announce CPO Collaboration",
+      "note": "Primary press release confirming the SIVE-ENAFF-O-Net partnership for co-packaged optics module development"
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/tech/nasdaq-lasr/nlight/news/why-nlight-lasr-is-up-65-after-q1-profit-turnaround-and-hade",
+      "title": "Why nLIGHT (LASR) Is Up 65% After Q1 Profit Turnaround and HADES Launch",
+      "note": "Confirms nLIGHT all-time high of $86.95 on May 8, 2026 and first profitable quarter"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/QURE/uni-qure-announces-first-quarter-2026-financial-results-and-provides-ijul49e9srbq.html",
+      "title": "uniQure Q1 2026 Financial Results",
+      "note": "Confirms $586.6M cash position, runway into H2 2029, and Phase I/II Huntington's program status"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/ASPI/asp-isotopes-provides-business-59ar43nq3a1t.html",
+      "title": "ASP Isotopes Business Update — Largest-Ever Silicon-28 Contract",
+      "note": "Confirms first commercial Silicon-28 shipments expected Q2 2026 and details of the supply agreement"
+    },
+    {
+      "url": "https://www.tipranks.com/news/catalyst/why-eq-resources-shares-are-suddenly-climbing-2",
+      "title": "Why EQ Resources Shares Are Suddenly Climbing",
+      "note": "Confirms APT price surge ~300% from early 2025 and EQ Resources H1 FY2026 revenue growth"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/tmc/",
+      "title": "TMC the metals company — Stock Analysis Profile",
+      "note": "Confirms NOAA full-compliance determination for TMC consolidated application in May 2026"
+    },
+    {
+      "url": "https://seekingalpha.com/news/4523203-gorilla-technology-stock-jumps-after-2026-forecast-positive-cash-flow-outlook",
+      "title": "Gorilla Technology Jumps After 2026 Forecast and Positive Cash Flow Outlook",
+      "note": "Confirms GRRR GPU-campus deals in India and revenue forecast; basis for including GRRR as real basket holding"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/13/why-valens-semiconductor-stock-soared-today/",
+      "title": "Why Valens Semiconductor Stock Soared Today",
+      "note": "Confirms VLN Q1 2026 revenue beat and 9-13% single-day move on May 13, 2026"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/fly/",
+      "title": "Firefly Aerospace (FLY) — Stock Analysis Profile",
+      "note": "Confirms FLY Q1 2026 record revenue of $80.9M and full-year 2026 guidance of $420-450M"
+    },
+    {
+      "url": "https://business-news-today.com/plan-optik-etr-p4o-under-retail-spotlight-as-glass-wafer-thesis-tightens-around-ai-packaging-shift/",
+      "title": "Plan Optik Under Retail Spotlight as Glass Wafer Thesis Tightens Around AI Packaging Shift",
+      "note": "Explains P4O.DE retail investor thesis and 160%+ twelve-month price appreciation"
+    },
+    {
+      "url": "https://www.marketscreener.com/news/2crsi-aims-to-exceed-its-2025-26-targets-ce7e5bdcd88afe2d",
+      "title": "2CRSi Aims to Exceed Its 2025-26 Targets",
+      "note": "Confirms 2CRSi H1 FY2026 revenue above €198M, positive operating cash flow, and AI server certifications"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/03/25/3261926/0/en/CROSSJECT-publishes-its-2025-financial-results-and-confirms-the-strengthening-of-its-operational-industrial-and-financial-trajectory.html",
+      "title": "Crossject 2025 Financial Results and Operational Trajectory",
+      "note": "Confirms BARDA funding totaling $43.3M and ZEPIZURE US commercialization timeline"
+    },
+    {
+      "url": "https://stocksdownunder.com/electro-optic-systems-asxeos-q1-2026/",
+      "title": "Electro Optic Systems (ASX:EOS) Q1 2026",
+      "note": "Confirms EOS A$518M backlog as of March 2026 and US$500M+ defense pipeline"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/03/24/3261101/0/en/HydroGraph-and-Sparc-Technologies-Team-Up-to-Commercialize-Graphene-Enhanced-Coatings-for-Global-Infrastructure-Protection.html",
+      "title": "HydroGraph and Sparc Technologies Announce Graphene Coatings Partnership",
+      "note": "Primary source for HydroGraph commercialization activity; basis for HGRAF business description"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/04/15/3274358/0/en/Aduro-Clean-Technologies-Reports-Third-Quarter-Fiscal-2026-Results-and-Provides-Business-Update.html",
+      "title": "Aduro Clean Technologies Q3 FY2026 Results and Business Update",
+      "note": "Confirms ADUR Chemelot FOAK site selection, $39.4M cash, and multiyear commercialization timeline"
+    }
+  ],
+  "bookmark_id": "2039906072291611057",
+  "generated_at": "2026-05-14T11:28:46.325019Z",
+  "backend": "claude-sonnet-subagent"
+}

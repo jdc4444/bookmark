@@ -1,0 +1,105 @@
+{
+  "headline": "One Prompt, Unverifiable: Vibe Coding's Demo Economy",
+  "lede": "A developer posts a striking 3D orbital gallery built with Three.js and Google's Gemini AI, claiming the entire codebase emerged from a single prompt with no iteration. The demo runs, and the code is technically real. The workflow claim has no way to be checked.",
+  "body": "The term *vibe coding* entered the language in February 2025 when Andrej Karpathy, co-founder of OpenAI, posted a crisp definition: give in to the model, embrace what it generates, and “forget that the code even exists.” The phrase spread quickly enough to be named Word of the Year 2025. The practice has since spawned a recognizable genre of social-media content—developers posting AI-generated demos as proof of capability, the artifact itself serving as marketing.\n\n**Orbix** is a clean example of the form. The GitHub repository contains a single 307-line TypeScript file that constructs a *Three.js* scene: 80 image cards arranged in a ring, animated through *GSAP* ScrollTrigger with Lenis smooth scrolling, rendered with per-texture mipmapping and scene fog. The visual is genuinely polished. Three.js is a JavaScript library that wraps *WebGL*—the browser’s low-level GPU rendering interface—into a developer-friendly scene graph; it is the dominant tool for browser-based 3D. Whether generated in one AI session or refined across many, the code reflects real Three.js fluency.\n\nThe “One Prompt. One Iteration.” claim is the part that cannot be checked. Google AI Studio, a product of Alphabet (GOOGL), exports finished application code without any conversation history, prompt log, or iteration count. The repository contains only the output; there is no metadata confirming how it was produced. This is not a flaw specific to Orbix—it is structural to the format. Every demo in this genre makes claims the artifact itself cannot support.\n\n@thebuggeddev’s account, created in August 2025, has published 43 repositories following an identical formula: TypeScript plus Vite plus Gemini plus Three.js, deployed to Vercel. Orbix is the fourth most-starred project; a sequel, Multiorbix, followed within weeks. This is less a software portfolio than a content strategy—visually distinctive, high-cadence, optimized for reach. The model named in the tweet, Gemini 3.1 Pro, is Alphabet’s current flagship; the jump in version numbering from 2.5 to 3.1, skipping 3.0 entirely, is an unusual branding choice, but the model is real and listed in Alphabet’s current subscription pages.\n\nThe broader significance is what vibe-coding demos actually demonstrate. The code exists and runs. The aesthetic is appealing. But the claimed workflow—one prompt, no revision—is not legible in the artifact. Researchers have documented that AI-assisted code carries measurably higher defect rates; one analysis found AI co-authored code had 1.7 times more major issues than human-written code, and a randomized trial found experienced developers became 19 percent slower using AI tools despite believing they had improved. Orbix is not evidence against vibe coding, nor straightforwardly for it. It is evidence that the marketing of vibe coding has matured faster than any method for evaluating it.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Vercel",
+      "ticker": null
+    }
+  ],
+  "poster": "thebuggeddev",
+  "concepts": [
+    {
+      "key": "vibe-coding",
+      "term": "vibe coding",
+      "definition": "A software-development approach coined by Andrej Karpathy in February 2025: describe a desired outcome in natural language, accept the AI’s output with minimal review, and treat the generated code as a black box. The defining feature is speed over scrutiny—the developer’s role shifts from writing to prompting and accepting."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "A JavaScript library created by Ricardo Cabello in 2010 that abstracts WebGL into a high-level scene graph of cameras, lights, geometries, and materials. It is the dominant library for 3D graphics in the browser, used by NASA, Google, and hundreds of commercial products."
+    },
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "Web Graphics Library: a JavaScript API that gives browsers direct, low-level access to the device’s GPU for rendering 2D and 3D graphics without plugins. It is verbose and technically demanding to use directly; libraries like Three.js exist primarily to wrap it."
+    },
+    {
+      "key": "gsap",
+      "term": "GSAP",
+      "definition": "GreenSock Animation Platform: a professional JavaScript animation library widely used for web UI and creative coding. Its ScrollTrigger plugin, used in Orbix, ties animation playback to the browser’s scroll position so visual effects advance as the user scrolls."
+    },
+    {
+      "key": "google-ai-studio",
+      "term": "Google AI Studio",
+      "definition": "Alphabet’s browser-based environment for prototyping applications with Gemini models. It lets users write prompts, preview AI-generated code, and export the result as a self-contained React/Vite project—without preserving any record of the prompting conversation in the export."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "thebuggeddev-Orbix",
+      "url": "https://github.com/thebuggeddev/Orbix",
+      "summary": "A React/Vite/TypeScript web application exported from Google AI Studio using Gemini. The core is a 307-line App.tsx that arranges 80 image planes in a Three.js orbital ring, driven by GSAP ScrollTrigger animations and Lenis smooth scrolling. It uses Lorem Picsum placeholder images and deploys to Vercel via the default AI Studio export scaffolding."
+    }
+  ],
+  "fact_check": "The “One Prompt. One Iteration.” claim is unverifiable. Google AI Studio’s export format produces only the generated code, stripping all conversation history and iteration metadata; the public repository contains nothing that confirms or refutes the claimed workflow. Additionally, the gallery’s visual thumbnail shows labeled artworks, but the actual code populates the gallery with random Lorem Picsum placeholder images, not curated content. Neither of these is unique to this project—both are structural features of the format—but they complicate the “super sleek” framing. The Gemini model version cited (“3.1 Pro”) is accurate per Alphabet’s current lineup.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/thebuggeddev/Orbix",
+      "title": "thebuggeddev/Orbix — GitHub",
+      "note": "Primary source: the full exported codebase. Reveals 307-line App.tsx, no prompt history, repo created April 6 2026."
+    },
+    {
+      "url": "https://orbix-one-xi.vercel.app",
+      "title": "Orbix — Live Demo",
+      "note": "Confirms the app runs with default AI Studio title metadata and Lorem Picsum placeholder images."
+    },
+    {
+      "url": "https://threejs.org",
+      "title": "Three.js — JavaScript 3D Library",
+      "note": "Official library site confirming Three.js as the dominant WebGL abstraction for browser 3D graphics."
+    },
+    {
+      "url": "https://github.com/mrdoob/three.js/releases/tag/r183",
+      "title": "Three.js r183 Release Notes",
+      "note": "Confirms the version used in Orbix and its February 20 2025 release date."
+    },
+    {
+      "url": "https://x.com/karpathy/status/1886192184808149383",
+      "title": "Andrej Karpathy’s original vibe coding tweet",
+      "note": "Primary source for the coinage and definition of vibe coding, February 2 2025."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding",
+      "title": "Vibe coding — Wikipedia",
+      "note": "Aggregates adoption data, Word of the Year 2025 designation, academic criticism, and security research findings."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "title": "Gemini Models — Google AI for Developers",
+      "note": "Confirms Gemini 3.1 Pro exists in the current model lineup alongside Gemini 2.5 Pro."
+    },
+    {
+      "url": "https://github.com/thebuggeddev",
+      "title": "thebuggeddev — GitHub Profile",
+      "note": "Reveals account creation date (August 2025), 43 repos, and consistent Gemini+Three.js formula across all projects."
+    }
+  ],
+  "bookmark_id": "2041232652385292794",
+  "generated_at": "2026-05-07T08:02:13.751313Z",
+  "backend": "claude-sonnet-subagent"
+}

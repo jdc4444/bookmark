@@ -1,0 +1,60 @@
+{
+  "headline": "How Mental Models Reduce Blind Spots and Sharpen Judgment",
+  "lede": "Jim O'Shaughnessy's post is a thin caption over a book cover — the substance lives in the volume itself. *The Great Mental Models, Vol. 1* by Shane Parrish, founder of the Farnam Street blog, opens with an aphorism that doubles as its thesis: the person with the fewest blind spots wins. The book's project is to distill the most durable thinking tools from mathematics, physics, biology, and philosophy into a portable kit for better decisions.",
+  "body": "The core argument is epistemological rather than motivational. Parrish contends that poor decisions are not failures of effort or intelligence but of perspective: we act on incomplete maps of reality, confusing our representation of the world with the world itself. The book's first model — **the map is not the territory** — captures this precisely. Every mental representation is a simplification, and the gap between map and territory is where mistakes breed.\n\nParrish identifies three reasons people fail to update their understanding when reality pushes back: wrong vantage point, ego-induced denial, and distance from the consequences of their own choices. The last is particularly corrosive in large organizations, where the person making a decision rarely bears its downstream costs. The models in the book are designed as correctives — each one a lens that, when layered with others, reveals information invisible to a single viewpoint.\n\nThe roster of models in Vol. 1 leans on classical intellectual traditions. *Inversion* — borrowed from the mathematician Carl Jacobi's habit of attacking problems backwards — asks not \"how do I succeed?\" but \"what would guarantee failure?\" *Second-order thinking* demands that decisions account not just for immediate effects but for the effects of those effects. *Hanlon's Razor* counsels against attributing to malice what can be explained by incompetence, a useful corrective to conspiracy thinking.\n\nThe framing of mental models as lenses is not original to Parrish — Charlie Munger made the same argument in his famous 1994 \"Elementary, Worldly Wisdom\" speech at USC — but the book systematizes it accessibly. The value is not any single model but the habit of reaching for multiple frameworks before settling on a conclusion. Mastery of a small number of versatile, broadly applicable concepts, Parrish argues, compounds faster than accumulating narrow, expiry-dated knowledge.",
+  "tickers": [],
+  "poster": "jposhaughnessy",
+  "concepts": [
+    {
+      "key": "mental-model",
+      "term": "Mental Model",
+      "definition": "A simplified representation of how something works, used to reason about complex situations without holding every detail in mind. Because the brain cannot store the full complexity of the world, it builds compressed stand-ins — the quality of those stand-ins determines the quality of decisions."
+    },
+    {
+      "key": "map-is-not-the-territory",
+      "term": "The Map Is Not the Territory",
+      "definition": "Any description or model of reality is necessarily incomplete; the menu is not the meal, the blueprint is not the building. Treating your representation of a situation as the situation itself is a systematic source of error, because the simplifications required to build a map inevitably leave things out."
+    },
+    {
+      "key": "inversion",
+      "term": "Inversion",
+      "definition": "A problem-solving technique of approaching a goal by asking what would cause failure rather than success, then working to avoid those conditions. Popularized in modern investing circles by Charlie Munger, it originates with the 19th-century mathematician Carl Jacobi, who advised: 'invert, always invert.'"
+    },
+    {
+      "key": "second-order-thinking",
+      "term": "Second-Order Thinking",
+      "definition": "Reasoning about the downstream effects of effects — not just \"what happens next?\" but \"and then what?\" Most people stop at first-order consequences; second-order thinking is what separates decisions that look good immediately from those that hold up over time."
+    }
+  ],
+  "books": [
+    {
+      "key": "great-mental-models-vol-1",
+      "title": "The Great Mental Models, Volume 1: General Thinking Concepts",
+      "author": "Shane Parrish",
+      "summary": "Published by Parrish's Farnam Street media company, the book assembles a core set of thinking tools drawn from across disciplines — physics, biology, mathematics, philosophy — and argues that fluency in a small number of durable concepts is more valuable than deep expertise in any single narrow domain. Its central claim is that blind spots, not lack of information, are the root cause of poor decisions. The book covers models including the map/territory distinction, inversion, second-order thinking, probabilistic thinking, and Occam's and Hanlon's Razors."
+    }
+  ],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://durmonski.com/book-summaries/the-great-mental-models-vol-1/",
+      "title": "The Great Mental Models (Vol. 1) by Shane Parrish — Durmonski.com",
+      "note": "Actionable summary confirming book content and model list"
+    },
+    {
+      "url": "https://brunomiranda.com/blog/the-great-mental-models-vol-1-by-shane-parrish/",
+      "title": "The Great Mental Models Vol 1 by Shane Parrish — Bruno Miranda",
+      "note": "Book notes confirming core thesis and the blind-spots quote as sourced from the book"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/shane-parrish-050a2183_in-life-and-business-the-person-with-the-activity-7139236954826518528-2BTb",
+      "title": "Shane Parrish on LinkedIn",
+      "note": "Parrish himself elaborating the blind-spots argument and the lens/perspective framing"
+    }
+  ],
+  "bookmark_id": "1972312238712385692",
+  "generated_at": "2026-05-06T20:32:07.223486Z",
+  "backend": "claude"
+}

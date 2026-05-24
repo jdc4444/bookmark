@@ -1,0 +1,28 @@
+{
+  "key": "MITK",
+  "name": "Mitek Systems, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Mitek Systems is a San Diego-based software company specializing in AI-driven digital identity verification and fraud prevention. Its platform helps more than 7,000 organizations — including banks, fintechs, and enterprises — verify identities, authenticate users, and detect fraud at account opening, login, and payment touchpoints. The company's two primary product lines are its legacy Mobile Deposit check-capture business and its fast-growing Fraud & Identity suite, with the latter now accounting for the majority of growth. Mitek has roughly 595 employees and a market cap of approximately $662 million.",
+  "recent": "On May 10–12, 2026 Mitek reported record Q2 FY2026 results: revenue of $54.8M (beating the $52.6M consensus), adjusted EPS of $0.38 (vs. $0.34 expected), 18% SaaS growth, and 28% Fraud & Identity revenue growth with adjusted EBITDA of $22.3M. The company raised its full-year FY2026 revenue guidance to $189–$198M (~8% growth at midpoint) and Fraud & Identity revenue guidance to $103–$108M (~17% growth at midpoint), sending the stock up ~1.2% in after-hours trading to around $14.67.",
+  "sources": [
+    {
+      "url": "https://www.stocktitan.net/news/MITK/mitek-reports-record-fiscal-2026-second-quarter-results-raises-full-mno8q4bxyus6.html",
+      "title": "Mitek Q2 revenue hits record $54.8M, lifts FY26 view | MITK Stock News"
+    },
+    {
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-mitek-systems-beats-q2-2026-expectations-stock-rises-93CH-4670836",
+      "title": "Earnings call transcript: Mitek Systems beats Q2 2026 expectations, stock rises"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260205349138/en/Mitek-Reports-Fiscal-2026-First-Quarter-Results-and-Raises-Full-Year-Outlook",
+      "title": "Mitek Reports Fiscal 2026 First Quarter Results and Raises Full-Year Outlook"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/MITK/",
+      "title": "Mitek Systems, Inc. (MITK) Stock Price, News, Quote & History - Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:35:10.507795Z",
+  "backend": "claude-sonnet-subagent"
+}

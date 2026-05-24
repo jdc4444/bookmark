@@ -1,0 +1,14 @@
+{
+  "key": "LAC",
+  "name": "Lithium Americas Corp.",
+  "exchange": "NYSE",
+  "blurb": "Lithium Americas is developing the Thacker Pass lithium deposit in Humboldt County, Nevada — one of the largest known lithium clay deposits in the world, with an estimated resource of roughly 21 million tonnes of lithium carbonate equivalent. General Motors holds a minority stake and has committed to offtake. In October 2025 the U.S. Department of Energy's Loan Programs Office renegotiated a $2.23 billion construction loan into a structure that includes a 5% warrant-based equity stake for the federal government, making Washington a direct participant in domestic lithium production ahead of anticipated EV battery demand.",
+  "recent": "Construction at Thacker Pass advanced through 2025 but the project remains years from first production, with no revenue expected before late this decade. The stock rallied roughly 69% in the second half of 2025 as government backing solidified and lithium spot prices rebounded. LAC carries heavy capital expenditure obligations and negative earnings through at least 2026; the investment thesis is a long-duration bet on domestic battery-material policy rather than near-term cash flow.",
+  "sources": [
+    {"url": "https://resource-recycling.com/e-scrap/2025/10/08/analysis-doe-takes-equity-stake-in-lithium-americas-deal/", "title": "Analysis: DOE takes equity stake in Lithium Americas deal — Resource Recycling"},
+    {"url": "https://ts2.tech/en/lac-stock-on-december-2-2025-government-stake-doe-loan-drawdown-and-lithium-price-rally-full-2026-2030-outlook/", "title": "LAC Stock: Government Stake, DOE Loan Drawdown and Lithium Price Rally — ts2.tech"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T14:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

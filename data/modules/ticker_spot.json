@@ -1,0 +1,28 @@
+{
+  "key": "SPOT",
+  "name": "Spotify Technology S.A.",
+  "exchange": "NYSE",
+  "blurb": "Spotify Technology S.A. is a global audio streaming service provider operating through Premium and Ad-Supported segments. The Premium segment offers ad-free, on-demand access to music, podcasts, and audiobooks, while the Ad-Supported segment provides limited on-demand access with advertisements. As of early May 2026, Spotify holds a market capitalization of approximately $87.4 billion and is a dominant player in the audio streaming industry.",
+  "recent": "In the past 30 days, Spotify reported strong earnings on April 28, 2026, with net income surging 132.2% year-over-year to $3.12 billion. The stock has experienced volatility, trading between $405 and $785 over the past 52 weeks, and closed at $425.25 on May 6, 2026. Analysts maintain a Strong Buy consensus with a price target of $671.09.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/SPOT/",
+      "title": "Spotify Technology S.A. (SPOT) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/spot",
+      "title": "SPOT Stock Price | Spotify Technology S.A. Stock Quote (U.S.: NYSE)"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/SPOT/news/",
+      "title": "SPOT News Today | Why did Spotify Technology stock go up today?"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/spot/",
+      "title": "Spotify Technology (SPOT) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:37:36.887822Z",
+  "backend": "deepseek"
+}

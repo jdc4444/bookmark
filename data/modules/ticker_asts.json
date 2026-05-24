@@ -1,0 +1,15 @@
+{
+  "key": "ASTS",
+  "name": "AST SpaceMobile, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "AST SpaceMobile is building a network of large-aperture satellites in low Earth orbit designed to deliver broadband directly to unmodified standard mobile handsets — no specialised hardware required. The company has carrier partnerships representing roughly three billion potential subscribers, including AT&T, Verizon, Vodafone, and Rakuten, and secured $1 billion in hard commercial commitments from those partners.",
+  "recent": "BlueBird 6, described as the largest commercial communications array ever deployed in LEO, launched aboard an ISRO LVM3 rocket in December 2025. The company targets intermittent US nationwide service in early 2026 and continuous service by late 2026, with 45-60 satellites on orbit by year-end. A 10-year commercial agreement with stc Group (Saudi Arabia) was signed in October 2025.",
+  "sources": [
+    {"title": "BlueBird 6 launch announcement (BusinessWire)", "url": "https://www.businesswire.com/news/home/20251222922862/en/AST-SpaceMobile-Announces-Successful-Orbital-Launch-of-BlueBird-6-the-Largest-Commercial-Communications-Array-Ever-Deployed-in-Low-Earth-Orbit"},
+    {"title": "AST nationwide LEO service 2026 (IEEE ComSoc)", "url": "https://techblog.comsoc.org/2025/11/11/ast-spacemobile-to-deliver-u-s-nationwide-leo-satellite-services-in-2026/"},
+    {"title": "AST stc Group 10-year deal (SatNews)", "url": "https://news.satnews.com/2025/10/30/stc-group-ast-spacemobile-announce-10-year-commercial-agreement-long-term-revenue-commitment-for-space-based-cellular-broadband-connectivity/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

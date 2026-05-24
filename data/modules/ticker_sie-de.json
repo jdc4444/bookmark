@@ -1,0 +1,32 @@
+{
+  "key": "SIE.DE",
+  "name": "Siemens Aktiengesellschaft",
+  "exchange": "Xetra (Frankfurt, Germany — Prime Standard)",
+  "blurb": "Siemens AG is a German multinational industrial technology conglomerate and one of the most heavily weighted constituents of the DAX40. The company operates across industrial automation, digitalization, electrification, smart infrastructure, and mobility. Headquartered in Munich, it serves customers in manufacturing, energy, transportation, and building technology worldwide. Siemens has a structured investor-relations presence including a defined equity story, ongoing share buyback programs, and regular bond issuances.",
+  "recent": "Siemens released its Q1 FY2026 results on February 12, 2026, and the company's investor-relations page currently features Q2 FY2026 materials as the lead item, indicating quarterly results were recently published around May 2026. A share buyback program announced November 2023 has been running since February 12, 2024. Specific Q2 FY26 figures, price action, and catalysts from the past 30 days are not detailed in the available sources.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/SIE.DE/",
+      "title": "Siemens Aktiengesellschaft (SIE.DE) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/ETR/SIE/",
+      "title": "Siemens Aktiengesellschaft (SIE) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/sie?countrycode=xe",
+      "title": "SIE | Siemens AG Stock Overview (Germany: Xetra) — Barron's"
+    },
+    {
+      "url": "https://www.siemens.com/en-us/company/investor-relations/",
+      "title": "Investor Relations — Siemens"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/SIE?countrycode=XE",
+      "title": "SIE Stock Price | Siemens AG Stock Quote (Germany: Xetra) — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:47:30.592341Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,85 @@
+{
+  "bookmark_id": "2018460331698516196",
+  "headline": "The Chart That Explains the AI Trade: OpenAI's Supply Chain Has Lapped Google's",
+  "lede": "A Bloomberg custom index tracking the stocks most exposed to OpenAI's build-out has roughly tripled since late 2024, while a parallel basket of Google-ecosystem suppliers has gone nowhere. Posted without comment by a fintech account ahead of what turned out to be a $110–122 billion fundraise, the chart is a blunt verdict on which AI platform the market believes is winning the infrastructure cycle.",
+  "body": "The two indices in the Bloomberg chart are not products the terminal sells by name; they are analyst-constructed baskets — a common practice for tracking thematic exposure when no listed ETF exists. The Google Ecosystem basket groups Alphabet (GOOG) with four contract manufacturers and component suppliers that depend heavily on its data-centre capital spending: Broadcom (AVGO), which designs Google’s custom tensor processing unit (TPU) silicon; Celestica (CLS), which assembles TPU server racks; Lumentum (LITE), which supplies the optical transceivers and switches that carry traffic inside Google’s clusters; and TTM Technologies (TTMI), a printed-circuit-board (PCB) fabricator with a 20–30 percent share of Google’s TPU PCB orders. The OpenAI basket is broader and more financially leveraged: NVIDIA (NVDA), the GPU monopolist that supplies nearly every training cluster on the planet; SoftBank (SFTBY), OpenAI’s lead financial backer and co-chair of the Stargate joint venture; Oracle (ORCL), which is committing data-centre capacity to Stargate; AMD, the secondary GPU alternative; Microsoft (MSFT), OpenAI’s cloud host on Azure; and CoreWeave (CRWV), the neocloud — a GPU-specialist cloud provider that rents compute to AI companies rather than building general-purpose infrastructure — that went public in March 2025 and holds over $66 billion in contracted backlog from Microsoft, OpenAI, and Meta.\n\nThe chart was posted on or around 2 February 2026, roughly three weeks before OpenAI closed a $110 billion funding round at a $730 billion valuation, later upsized to $122 billion at $852 billion by end of March. The phrase mega raise in the tweet referred to that round, which was already being discussed in deal circles. Amazon anchored with $50 billion, NVIDIA put in $30 billion, and SoftBank contributed another $30 billion — each of which is itself a constituent of the OpenAI basket, meaning the index was, in part, tracking companies writing cheques into the very entity that would validate their investment thesis.\n\nThe performance gap is striking but not mysterious. Google’s capex ecosystem is a set of contract relationships: Celestica assembles servers, TTM makes boards, Lumentum ships optics. Each link in that chain earns thin manufacturing margins, and its revenue is capped by Google’s own spending decisions — which, during 2025, shifted some TPU assembly to Taiwanese OEMs including Inventec, clipping Celestica directly. Google itself is a strong AI competitor (its Gemini models, TPU silicon, and DeepMind research are world-class), but the Google basket is not Google; it is a set of subcontractors whose fortunes depend on one customer’s procurement choices. The OpenAI basket, by contrast, captures the demand aggregator (OpenAI itself, via NVIDIA and ORCL revenues), the infrastructure financier (SoftBank), and the pure-play neocloud (CoreWeave) — companies whose equity valuations are directly leveraged to AI capacity expansion in a way that PCB manufacturers and server assemblers simply are not.\n\nThe Stargate joint venture (a $500 billion planned AI data-centre programme co-owned by OpenAI, SoftBank, Oracle, and Abu Dhabi’s MGX) is the single largest articulation of that leverage. When Stargate buys GPU servers, NVIDIA ships chips, Oracle provides land and power, CoreWeave leases adjacent GPU capacity, and SoftBank’s equity in the venture appreciates. The Google basket has no equivalent flywheel. Lumentum does sell optics into NVIDIA’s reference designs and announced a $2 billion investment from NVIDIA in early 2026, but that is a recent pivot, not the thesis that defined the Google basket over the period the chart covers.\n\nA note of caution belongs here. The OpenAI basket’s outperformance through February 2026 was followed by turbulence: in late April, reports emerged that OpenAI had missed its own targets for new user acquisition and sales, triggering a sharp sell-off in NVDA, ORCL, and CRWV in a single session. The Bloomberg opinion desk ran a piece arguing that an OpenAI-specific bubble need not imply an AI infrastructure bubble more broadly — a distinction the market did not immediately make. The chart @DratchCap posted was a snapshot of euphoria at near-peak, not a forward projection. What it genuinely captures is the structural question the AI cycle keeps posing: does value accrue to the platform that aggregates demand, or to the manufacturers that fulfil it? So far, the market’s answer has been unambiguous.",
+  "tickers": [
+    "NVDA",
+    "ORCL",
+    "CRWV",
+    "GOOG",
+    "AVGO",
+    "CLS",
+    "LITE",
+    "TTMI",
+    "SFTBY",
+    "AMD",
+    "MSFT"
+  ],
+  "poster": "DratchCap",
+  "concepts": [
+    {
+      "key": "capex-ecosystem",
+      "term": "capex ecosystem",
+      "definition": "A basket of companies whose revenues are primarily driven by the capital-expenditure decisions of a single large technology platform. When that platform accelerates data-centre spending, the ecosystem suppliers benefit; when it slows or diversifies procurement, they are exposed. The term is used here to describe the Bloomberg-constructed indices grouping Google’s and OpenAI’s respective hardware supply chains."
+    },
+    {
+      "key": "neocloud",
+      "term": "neocloud",
+      "definition": "A cloud provider that specialises exclusively in GPU compute, renting accelerator capacity to AI developers and model companies rather than offering the broad suite of storage, networking, and application services that hyperscalers (AWS, Azure, Google Cloud) provide. CoreWeave is the canonical example; it went public in March 2025 and holds multi-year capacity contracts with Microsoft, OpenAI, and Meta."
+    },
+    {
+      "key": "stargate",
+      "term": "Stargate JV",
+      "definition": "A joint venture announced in January 2025 by OpenAI, SoftBank, Oracle, and Abu Dhabi’s MGX with a stated plan to invest up to $500 billion in AI data-centre infrastructure in the United States by 2029. SoftBank and OpenAI are the lead financial and operational partners respectively. Oracle provides data-centre capacity and is an equity participant. The project is the largest single articulation of the OpenAI supply-chain investment thesis."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://techcrunch.com/2026/02/27/openai-raises-110b-in-one-of-the-largest-private-funding-rounds-in-history/",
+      "title": "OpenAI raises $110B — TechCrunch"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round",
+      "title": "OpenAI Valued at $852 Billion After $122B Round — Bloomberg"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CoreWeave",
+      "title": "CoreWeave — Wikipedia"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Stargate_LLC",
+      "title": "Stargate LLC — Wikipedia"
+    },
+    {
+      "url": "https://www.coreweave.com/news/coreweave-announces-pricing-of-initial-public-offering",
+      "title": "CoreWeave IPO Pricing — CoreWeave Newsroom"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4830515-ttm-technologies-the-silent-pcb-leader-poised-for-breakout-growth",
+      "title": "TTM Technologies: PCB Leader — Seeking Alpha"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/12/30/softbank-openai-investment.html",
+      "title": "SoftBank Fully Funded $40B OpenAI Investment — CNBC"
+    },
+    {
+      "url": "https://openai.com/index/announcing-the-stargate-project/",
+      "title": "Announcing The Stargate Project — OpenAI"
+    },
+    {
+      "url": "https://futurumgroup.com/insights/oracle-q2-fy-2026-cloud-grows-capex-rises-for-ai-buildout/",
+      "title": "Oracle Q2 FY2026: Cloud Grows, Capex Rises — Futurum"
+    },
+    {
+      "url": "https://seekingalpha.com/news/4547610-alphabet-outlines-175b-185b-2026-capex-plan-as-ai-momentum-accelerates-across-search-cloud",
+      "title": "Alphabet $175B–$185B 2026 CapEx Plan — Seeking Alpha"
+    }
+  ],
+  "generated_at": "2026-05-05T23:34:22.605438Z",
+  "backend": "claude-sonnet-subagent"
+}

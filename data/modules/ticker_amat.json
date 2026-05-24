@@ -1,0 +1,13 @@
+{
+  "key": "AMAT",
+  "name": "Applied Materials, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Applied Materials is the world's largest semiconductor equipment company by revenue, supplying deposition, etch, ion implantation, and metrology tools used in chip fabrication at every major foundry and memory manufacturer. Unlike ASML (which focuses on lithography), Applied Materials covers the broadest range of wafer processing steps — most chips manufactured anywhere pass through multiple Applied Materials tools. The company also supplies solar and display manufacturing equipment. Its services business (AGS) provides recurring revenue through parts, upgrades, and maintenance contracts.",
+  "recent": "Applied Materials has benefited from sustained semiconductor equipment investment across logic (TSMC, Samsung, Intel), DRAM, and NAND capacity expansions. Forward P/E of ~27.3x on 27.1% projected EPS growth yields a PEG of 1.01 — right at the conventional fair-value boundary. Revenue for FY2025 exceeded $28 billion. U.S. export restrictions on advanced equipment to China have created some demand uncertainty but also pushed customers to accelerate domestic tool installations.",
+  "sources": [
+    {"url": "https://www.ainvest.com/news/undervalued-semiconductor-stocks-2026-wall-street-strategic-outlook-2601/", "title": "Undervalued Semiconductor Stocks 2026 — AInvest"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

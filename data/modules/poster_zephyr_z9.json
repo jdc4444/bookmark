@@ -1,0 +1,22 @@
+{
+  "key": "zephyr_z9",
+  "display_name": "Zephyr (@zephyr_z9)",
+  "blurb": "Zephyr (@zephyr_z9) is an Asian semiconductor and AI-chip commentator affiliated with Citrine Research, posting under a pseudonym on X (formerly Twitter) to an audience of over 108,000 followers. The account specialises in the intersection of Chinese semiconductor policy, supply-chain dynamics, and equity implications across the broader Asian memory and foundry ecosystem — with particular focus on Chinese players (Huawei, YMTC, CXMT, DeepSeek) and their competitive positioning against Taiwanese, Korean, and Japanese counterparts. Posts range from granular process-technology analysis (node transitions, equipment constraints, photoresist sourcing) to broader capital-markets theses about late-cycle and second-tier semiconductor beneficiaries. Zephyr is notably willing to take early contrarian positions on Chinese chip competitiveness that later prove prescient, and consistently grounds macro observations in specific company-level data.",
+  "credibility_note": "Pseudonymous; no publicly disclosed employer, AUM, or auditable performance record beyond the Citrine Research affiliation. The account has a demonstrated track record of surfacing non-consensus technical detail on Chinese semiconductor development ahead of the Western press, which has built credibility with a specialised fintech and semiconductor investing audience. Views should be read as informed practitioner commentary, not licensed investment advice.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/zephyr_z9"}
+  ],
+  "sources": [
+    {
+      "title": "Zephyr (@zephyr_z9) on X",
+      "url": "https://x.com/zephyr_z9"
+    },
+    {
+      "title": "Zephyr (@zephyr_z9) Twitter Analytics (Sorsa)",
+      "url": "https://app.sorsa.io/profile/zephyr_z9"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

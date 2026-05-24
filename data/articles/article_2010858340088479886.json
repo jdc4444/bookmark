@@ -1,0 +1,114 @@
+{
+  "headline": "Now Everyone Can Build: Andreessen's Manifesto Gets a Vibe-Coded Demo",
+  "lede": "In a single tweet, Marc Andreessen managed to invoke his most famous essay, promote a portfolio company, and demonstrate the thesis behind both. The post—tagging Wabi, an AI-powered app platform backed by his firm Andreessen Horowitz, with a prompt to build a film-and-novel recommender filtered for “techno-optimist themes”—is equal parts advertisement, proof of concept, and political statement. It lands in a moment when the gap between “idea for an app” and “working app” has collapsed to roughly one sentence.",
+  "body": "Wabi, founded by Eugenia Kuyda—the entrepreneur behind Replika, the AI companion app that reached 35 million users—bills itself as the first “personal software platform”: a social layer built on top of instant app generation. A user types a description; Wabi handles code, infrastructure, and interface; the finished product is shareable, remixable, and discoverable, much as a YouTube clip is. A $20 million pre-seed round announced in November 2025, led by Andreessen Horowitz, attracted endorsers including Garry Tan of Y Combinator and Amjad Masad of Replit—a roster whose professional identities depend on the premise that software creation is approaching mass democratisation. Andreessen’s tweet is the firmest possible signal from a lead investor: he is not just funding the thesis, he is performing it.\n\nThe opening line—“It’s time to build”—deliberately echoes an essay Andreessen published in April 2020, at the height of early pandemic dread, that became one of the decade’s most-circulated tech manifestos. The original argument was blunt: Western institutions failed to stockpile ventilators and tests not for lack of money or capability, but for lack of desire. “The problem is inertia,” he wrote. Now, six years later, the update reads: “Now everyone can.” The addition does quiet but significant work. It reframes the 2020 complaint—institutions won’t build—as a solved problem, and credits that solution implicitly to the AI tooling that firms like Andreessen Horowitz have spent years funding.\n\nThe request itself is a knowing self-citation. Andreessen published his **Techno-Optimist Manifesto** in October 2023, a roughly 5,200-word declaration asserting that unlimited technological growth is civilisation’s only path to abundance, and that forces arguing for constraint—environmental, social, or precautionary—are “zombie ideas.” The manifesto named 56 “patron saints of techno-optimism” including Friedrich Nietzsche and the fictional John Galt, and explicitly cited the 1909 *Futurist Manifesto* as an influence; critics noted that the Futurists’ machine-worship later became entangled with Italian fascism. Here, Andreessen is effectively commissioning an AI to curate his own manifesto’s syllabus—a conceit that is either deeply self-aware or simply on-brand, depending on one’s sympathy for the project.\n\nThe cultural moment the tweet inhabits has acquired a name: *vibe coding*, a phrase coined by Andrej Karpathy in February 2025 to describe development in which the programmer “fully gives in to the vibes” and “forgets that the code even exists.” Collins English Dictionary named it Word of the Year for 2025. Wabi occupies the extreme consumer end of this spectrum—no terminal, no editor, no prompting fluency required—while competitors like Replit and Lovable target users with more technical confidence. The underlying bet is that the next wave of consumer software will not come from developers learning to use AI, but from non-developers bypassing the concept of development entirely.\n\nA wrinkle is worth noting. The original “It’s Time to Build” essay argued explicitly for constructing housing, hospitals, and schools—the physical infrastructure of a functioning society. The same catchphrase now applies to a platform for generating personal micro-apps. Critics might reasonably observe that the rhetorical reach has narrowed considerably, or that democratising app creation and building civic infrastructure are not quite the same project, whatever they share in name.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Wabi",
+      "ticker": null
+    },
+    {
+      "name": "Andreessen Horowitz",
+      "ticker": null
+    },
+    {
+      "name": "Replika",
+      "ticker": null
+    },
+    {
+      "name": "Y Combinator",
+      "ticker": null
+    },
+    {
+      "name": "Replit",
+      "ticker": null
+    },
+    {
+      "name": "Lovable",
+      "ticker": null
+    }
+  ],
+  "poster": "pmarca",
+  "concepts": [
+    {
+      "key": "vibe-coding",
+      "term": "Vibe Coding",
+      "definition": "A mode of software development coined by Andrej Karpathy in February 2025, in which a person describes what they want in plain language and an AI system produces working code. The developer neither writes nor reads the underlying syntax, treating the software as an output rather than a craft. The term spread rapidly and was named Collins English Dictionary’s Word of the Year for 2025."
+    },
+    {
+      "key": "personal-software-platform",
+      "term": "Personal Software Platform",
+      "definition": "A category of product where individuals create software applications for their own use through natural-language descriptions alone, with no programming involved. Wabi applies this label to itself. The concept extends vibe coding into pure consumer territory: the output is not code a developer iterates on but a finished app that a non-technical user owns, shares, and remixes."
+    },
+    {
+      "key": "techno-optimism",
+      "term": "Techno-Optimism",
+      "definition": "The view that technological progress is the primary driver of human welfare and should be actively pursued without precautionary constraints. In the specific form Andreessen advocates, it holds that markets and innovation—rather than regulation or redistribution—are the correct mechanisms for solving civilisational problems. The term predates Andreessen, but his 2023 manifesto gave it a sharply ideological edge, linking it to accelerationist discourse and placing it in explicit opposition to AI safety and sustainability frameworks."
+    },
+    {
+      "key": "futurist-manifesto",
+      "term": "Futurist Manifesto",
+      "definition": "A 1909 document by Italian poet Filippo Tommaso Marinetti that celebrated speed, machinery, industry, and the destruction of tradition as the foundations of a new art and civilisation. It launched the Futurism movement in Europe; several of its key figures later aligned with Italian Fascism. Andreessen cited it as an influence in his Techno-Optimist Manifesto, a connection critics found instructive."
+    },
+    {
+      "key": "pre-seed",
+      "term": "Pre-Seed Round",
+      "definition": "A funding stage that precedes a startup’s formal seed round—typically the earliest institutional capital a company raises, used to build an initial product and validate the concept before a larger fundraise. Pre-seed rounds are generally smaller than seed rounds and often come from angel investors or early-stage venture funds willing to bet on a founder’s track record rather than proven traction."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet’s central assertion—“Now everyone can” build—is contested by evidence from the broader vibe coding ecosystem. Engineers and researchers have reported that AI-generated code frequently contains security vulnerabilities and creates maintenance burdens for technical teams who later inherit it; Fast Company documented a “vibe coding hangover” in late 2025. Whether non-technical users can create reliable, lasting software—as opposed to functional demos—remains an open and actively debated question. It is also worth contextualising the catchphrase against Andreessen’s original 2020 essay, which argued for building housing, hospitals, and schools; the phrase now applies to personal app generation. This is not a factual error, but it does represent a significant shift in scope that the tweet elides.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://wabi.ai/",
+      "title": "Wabi — Personal Software Platform",
+      "note": "Official product site; describes Wabi’s core features and positioning"
+    },
+    {
+      "url": "https://a16z.com/announcement/investing-in-wabi/",
+      "title": "Investing in Wabi — Andreessen Horowitz",
+      "note": "a16z announcement of $20M pre-seed; includes investment thesis and Kuyda quotes"
+    },
+    {
+      "url": "https://techcrunch.com/2025/11/05/replika-founder-raises-20m-pre-seed-for-wabi-the-youtube-of-apps/",
+      "title": "Replika founder raises $20M pre-seed for Wabi, the ‘YouTube of apps’ — TechCrunch",
+      "note": "Primary news coverage of Wabi funding round and founding context"
+    },
+    {
+      "url": "https://theaiinsider.tech/2025/11/26/replika-founder-launches-wabi-with-20m-to-pioneer-a-social-platform-for-instant-ai-built-apps/",
+      "title": "Replika Founder Launches Wabi with $20M — The AI Insider",
+      "note": "Additional detail on Wabi launch and social platform features"
+    },
+    {
+      "url": "https://a16z.com/its-time-to-build/",
+      "title": "It’s Time to Build — Andreessen Horowitz",
+      "note": "The original April 2020 essay; primary source for Andreessen’s argument and key quotes"
+    },
+    {
+      "url": "https://a16z.com/the-techno-optimist-manifesto/",
+      "title": "The Techno-Optimist Manifesto — Andreessen Horowitz",
+      "note": "Primary source for the October 2023 manifesto; key claims, patron saints list, and cited influences"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Techno-Optimist_Manifesto",
+      "title": "Techno-Optimist Manifesto — Wikipedia",
+      "note": "Overview of the manifesto’s reception, criticism, and secondary sources"
+    },
+    {
+      "url": "https://www.vice.com/en/article/billionaire-marc-its-time-to-build-andreesen-is-a-nimby/",
+      "title": "Billionaire Marc ‘It’s Time to Build’ Andreessen Is a NIMBY — Vice",
+      "note": "2022 report on Andreessen’s lobbying against Atherton housing development; relevant to the fact-check"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding",
+      "title": "Vibe Coding — Wikipedia",
+      "note": "Overview of the term’s coinage by Karpathy, spread, and cultural impact"
+    }
+  ],
+  "bookmark_id": "2010858340088479886",
+  "generated_at": "2026-05-07T13:13:18.259336Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "1810.HK",
+  "name": "Xiaomi Corporation",
+  "exchange": "Hong Kong Stock Exchange",
+  "blurb": "Xiaomi Corporation is a Chinese multinational electronics company that designs, develops, and sells smartphones, IoT devices, and lifestyle products. It is one of the world's largest smartphone manufacturers and has a strong ecosystem of connected devices. The company also provides internet services and has expanded into electric vehicles.",
+  "recent": "In the past 30 days, Xiaomi's stock has shown moderate gains amid positive market sentiment. The company announced strong quarterly earnings, driven by smartphone sales and IoT growth. Analysts have noted Xiaomi's successful expansion into the EV market as a key catalyst.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/1810.HK/",
+      "title": "Xiaomi Corporation (1810.HK) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/1810.HK/",
+      "title": "(1810.HK) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/1810:HKG",
+      "title": "Xiaomi Corp (1810) Stock Price & News - Google Finance"
+    },
+    {
+      "url": "https://www.etnet.com.hk/www/eng/stocks/realtime/quote_chart_interactive.php?code=1810",
+      "title": "Hong Kong Stock Chart Analysis - 1810.HK XIAOMI-W - Real-Time Hong Kong Stock News - etnet"
+    },
+    {
+      "url": "http://www.aastocks.com/en/stocks/analysis/stock-aafn/01810/0/hk-stock-news/1",
+      "title": "AASTOCKS Financial News - XIAOMI-W (01810.HK)"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:40:03.799154Z",
+  "backend": "deepseek"
+}

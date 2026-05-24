@@ -1,0 +1,14 @@
+{
+  "key": "000660.KS",
+  "name": "SK Hynix Inc.",
+  "exchange": "KRX (Korea Stock Exchange)",
+  "blurb": "SK Hynix is South Korea's second-largest semiconductor company and the world's leading manufacturer of high-bandwidth memory (HBM) — the stacked DRAM architecture used in AI accelerators including NVIDIA's H100 and B200. The company holds an estimated 50%+ share of HBM supply to NVIDIA and is the primary beneficiary of the AI infrastructure memory supercycle. SK Hynix also produces NAND flash and enterprise SSDs through its Solidigm subsidiary.",
+  "recent": "SK Hynix reported record Q1 2026 revenue of KRW 52.6 trillion, up 60% QoQ and 198% YoY, driven by surging HBM3E shipments. Morgan Stanley raised its 2026 and 2027 EPS forecasts by 56% and 63% respectively. HBM capacity for 2026 is reportedly fully committed. The stock trades at a forward P/E of ~4.3x — an extreme discount to the sector median that reflects persistent cyclical skepticism despite structurally different AI-driven demand.",
+  "sources": [
+    {"url": "https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html", "title": "SK Hynix posts record Q1 profit — CNBC"},
+    {"url": "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/", "title": "SK Hynix 2026 Outlook: HBM-Led Memory Supercycle"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

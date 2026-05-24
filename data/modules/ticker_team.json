@@ -1,0 +1,24 @@
+{
+  "key": "TEAM",
+  "name": "Atlassian Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Atlassian Corporation is a leading provider of team collaboration and productivity software, known for products like Jira, Confluence, and Trello. The company serves a wide range of customers from small teams to large enterprises, with a strong focus on cloud-based solutions. As of 2026, Atlassian holds a significant market position in the DevOps and agile project management space, competing with Microsoft and other SaaS providers.",
+  "recent": "In the past 30 days, Atlassian reported strong fiscal Q3 2026 earnings on April 30, highlighting robust cloud and data center growth, which sent the stock soaring 29% on May 1. The stock had been the worst performer in the Nasdaq-100 earlier in the year but staged a dramatic reversal following the earnings beat. As of May 6, 2026, TEAM traded at $88.80, still well below its 52-week high of $232.36.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/TEAM/news/",
+      "title": "Atlassian Corporation (TEAM) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/TEAM",
+      "title": "TEAM: Atlassian Corp - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/markets/team-stock-rockets-after-hours-why-this-year-s-worst-nasdaq-100-performer-is-staging-a-dramatic-reversal/ar-AA228Ije",
+      "title": "TEAM stock rockets after-hours: Why this year's worst Nasdaq-100 performer is staging a dramatic reversal"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:57:17.670458Z",
+  "backend": "deepseek"
+}

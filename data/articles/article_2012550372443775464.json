@@ -1,0 +1,121 @@
+{
+  "headline": "Developers Mocked Sprint Planning. AI Agents Need It.",
+  "lede": "For a decade, the default developer posture toward product management was barely concealed contempt — Jira tickets as overhead, sprint ceremonies as time theft, ticket grooming as theater. A single screenshot, captioned with eight words of dry commentary, invites a reconsideration. The structure engineers resisted turns out to be the architecture autonomous coding agents require.",
+  "body": "The image Mulroy attached shows a prompt being fed to an AI coding agent — the @docs/spec.md syntax injects a specification file directly into the model's context — followed by a set of constraints: decompose the project into **sprints and tasks**, make every ticket “an atomic, committable piece of work with tests,” ensure each sprint produces “a demoable piece of software that can be run, tested, and built upon.” A final instruction routes the draft plan to a *subagent* for peer review before writing it to a markdown file. Mulroy’s caption: “so maybe the product owners were on to something.”\n\nMulroy is a Principal Engineer at Cloudflare (NET), where he leads the *Agent Experience*, or *AX*, team within the Emerging Technology and Innovation organization. AX is the discipline of designing APIs and platform surfaces so AI agents can consume them reliably and without hallucination — developer experience reoriented toward non-human callers. His team dogfoods Cloudflare’s AI infrastructure before public release and works to prepare the company’s entire API surface for agent-first consumption. He has argued publicly against simply letting agents run unconstrained: “The temptation is always there to just let agents do more,” he told the Chats with Kent podcast in April 2026, “but you end up with 4,000-line PRs.”\n\nThe reversal the tweet names runs deep. Throughout the 2010s, developer-led teams celebrated removing product managers from the loop. Sprint planning was mocked as ceremony; *grooming sessions* — the practice of collectively sizing and refining backlog tickets before a sprint — were cancelled as theater; Jira became the symbol of the dysfunction it was meant to cure. The implicit conviction: structure was the enemy of craft. When Andrej Karpathy coined *vibe coding* in early 2025 — prompting a model with minimal specification and accepting whatever emerged — the vibe hangover followed quickly. Agents moving fast on underspecified work generated confident, compounding errors that proved expensive to unwind.\n\nThe technical case for PM-style discipline is exact. Every language model operates within a finite *context window* — a token budget across which it must maintain coherent state. As tasks grow, intermediate reasoning, failed attempts, and incremental edits accumulate in that budget; models begin to lose track of constraints established early in context, a failure mode practitioners call *context rot*. Atomic tasks create natural reset points: each is a bounded unit of work ending in a commit, clearing the slate without carrying forward accumulated confusion. Tests serve as the binary completion signal — the agent’s substitute for a human reviewer saying “done.” Sprint boundaries create checkpoints for human oversight before an agent builds ten more tasks on a faulty foundation.\n\nThe subagent review step is structurally significant. The planning agent, having drafted a sprint breakdown, routes the prompt and plan to a second agent carrying no working memory from the planning process — only inputs and outputs. That agent occupies the position of a pull-request reviewer: context-clean, evaluating the plan on its merits rather than the effort expended generating it. Mulroy’s team has operationalized these ideas at the infrastructure level: Cloudflare’s *Artifacts*, which he co-authored and announced during Agents Week 2026, is a Git-compatible versioned file system that lets agents manage millions of repos programmatically, fork from any state, and time-travel through file and prompt history. The unglamorous machinery of sprint planning — atomicity, tests, demoable checkpoints, review gates — maps precisely onto the constraints imposed by finite context and autonomous execution.",
+  "tickers": [
+    "NET"
+  ],
+  "companies": [
+    {
+      "name": "Cloudflare",
+      "ticker": "NET"
+    }
+  ],
+  "poster": "dillon_mulroy",
+  "concepts": [
+    {
+      "key": "agent-experience-ax",
+      "term": "Agent Experience (AX)",
+      "definition": "The discipline of designing APIs and platform surfaces so that AI agents — rather than human developers — can discover, understand, and operate them reliably. AX is positioned as a superset of developer experience (DX): everything DX requires, plus machine-readable structure, unambiguous error signals, and support for autonomous decision-making without human clarification."
+    },
+    {
+      "key": "context-window",
+      "term": "Context Window",
+      "definition": "The finite token budget within which a language model must hold everything relevant to a task: system instructions, conversation history, code, tool outputs, and intermediate reasoning. Once this budget fills, the model can no longer attend equally to all of it, and early constraints tend to get ‘forgotten.’ It is the fundamental scarcity that shapes how AI coding agents must be structured."
+    },
+    {
+      "key": "vibe-coding",
+      "term": "Vibe Coding",
+      "definition": "A term coined by Andrej Karpathy in early 2025 for the practice of prompting an AI model with a loosely described goal and accepting whatever it produces, without formal specification or structured review. The term captures a real phenomenon — fast, confident output that is subtly wrong — and the ‘vibe hangover’ it induces when errors compound across a codebase."
+    },
+    {
+      "key": "grooming-sessions",
+      "term": "Grooming Sessions",
+      "definition": "In Agile software development, a grooming (or backlog refinement) session is a meeting in which a team collectively reviews, sizes, and clarifies upcoming tickets before they enter a sprint. Developers notoriously derided these sessions as bureaucratic overhead; the AI-agent context has rehabilitated the underlying practice, if not the ceremony, by demonstrating that precise upfront decomposition produces better autonomous output."
+    },
+    {
+      "key": "context-rot",
+      "term": "Context Rot",
+      "definition": "A failure mode in long-running AI agent sessions in which accumulated working memory — intermediate states, failed attempts, partial rewrites — degrades the model’s ability to reason coherently about the original task. As the context window fills with noise, early constraints and design decisions effectively disappear from the model’s attention, causing it to contradict or ignore them."
+    },
+    {
+      "key": "subagent",
+      "term": "Subagent",
+      "definition": "A secondary AI agent invoked by a primary agent to perform a discrete subtask with a clean context — no working memory inherited from the parent session. The subagent pattern is used for tasks like code review, plan validation, and parallel execution, where a fresh perspective (uncontaminated by the parent’s accumulated reasoning) produces more reliable results."
+    },
+    {
+      "key": "atomic-task",
+      "term": "Atomic Task",
+      "definition": "In agent-workflow design, an atomic task is a unit of work small enough to be completed, tested, and committed in a single bounded session — with a clear pass/fail criterion (typically a test suite) and no side effects that would pollute subsequent tasks. Atomicity is the agent analogue of the single-responsibility principle: it limits the blast radius of any one failure and keeps context windows from filling with irrelevant history."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://kentcdodds.com/chats/07/03/foundations-feedback-and-agents-dillon-mulroy-on-product-at-cloudflare",
+      "title": "Foundations, feedback, and agents — Dillon Mulroy on product at Cloudflare | Chats with Kent",
+      "note": "Primary source for Mulroy’s quotes, role at Cloudflare, and views on agent scope"
+    },
+    {
+      "url": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+      "title": "Artifacts: versioned storage that speaks Git — Cloudflare Blog",
+      "note": "Mulroy’s co-authored product announcement; primary source for Artifacts details"
+    },
+    {
+      "url": "https://github.com/dmmulroy",
+      "title": "dmmulroy (Dillon Mulroy) · GitHub",
+      "note": "Mulroy’s public profile; source for background, repos, and open-source work"
+    },
+    {
+      "url": "https://github.com/dmmulroy/cloudflare-skill",
+      "title": "cloudflare-skill — GitHub",
+      "note": "Mulroy’s AX artifact; structured Cloudflare knowledge base for AI coding agents"
+    },
+    {
+      "url": "https://blog.cloudflare.com/welcome-to-agents-week/",
+      "title": "Welcome to Agents Week — Cloudflare Blog",
+      "note": "Cloudflare’s framing of Agents Week 2026 and the AX philosophy"
+    },
+    {
+      "url": "https://tessl.io/blog/from-vibe-coding-to-spec-driven-development",
+      "title": "From Vibe Coding to Spec-Driven Development — Tessl",
+      "note": "Canonical industry articulation of why specs produce more deterministic agent output"
+    },
+    {
+      "url": "https://alexop.dev/posts/spec-driven-development-claude-code-in-action/",
+      "title": "Spec-Driven Development with Claude Code in Action — alexop.dev",
+      "note": "Practical walkthrough of spec.md + atomic task patterns in Claude Code"
+    },
+    {
+      "url": "https://frontendatscale.com/issues/49/",
+      "title": "The Rise of Spec-Driven Development — Frontend at Scale",
+      "note": "Source for cultural-reversal framing: developers voluntarily adopting PM-style structure"
+    },
+    {
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "title": "Effective context engineering for AI agents — Anthropic Engineering",
+      "note": "Technical grounding for context window limits and context rot"
+    },
+    {
+      "url": "https://addyosmani.com/blog/code-agent-orchestra/",
+      "title": "The Code Agent Orchestra — Addy Osmani",
+      "note": "Source for atomic task pattern and rationale for reset-per-task architecture"
+    },
+    {
+      "url": "https://www.stainless.com/blog/steps-toward-great-agent-experience-every-api-provider-can-take-today",
+      "title": "Steps toward great agent experience every API provider can take today — Stainless",
+      "note": "Canonical definition of Agent Experience (AX) as a discipline"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding",
+      "title": "Vibe coding — Wikipedia",
+      "note": "Attribution and dating of Karpathy’s coinage"
+    }
+  ],
+  "bookmark_id": "2012550372443775464",
+  "generated_at": "2026-05-07T13:02:31.545954Z",
+  "backend": "claude-sonnet-subagent"
+}

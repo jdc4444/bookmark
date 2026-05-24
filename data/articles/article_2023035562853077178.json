@@ -1,0 +1,49 @@
+{
+  "bookmark_id": "2023035562853077178",
+  "headline": "The Bot That Thinks It's a Bank: Hummingbot Demystified",
+  "lede": "Hummingbot is a widely-used open-source framework for running automated crypto trading strategies — primarily market-making, not the microsecond-latency high-frequency trading of Wall Street lore. The conflation is common, and worth unpacking.",
+  "body": "The tweet calls Hummingbot a \"high-frequency trading\" framework, and the label is not entirely wrong — it is just not quite right either. *High-frequency trading*, in the institutional sense, refers to strategies measured in microseconds, executed by co-located servers sitting physically adjacent to exchange matching engines, where a 50-microsecond edge is the difference between a profitable book and an unprofitable one. Hummingbot, which runs comfortably on a Raspberry Pi or a modest cloud instance, operates in a different time zone entirely. What it actually does is **market-making**: simultaneously posting buy and sell limit orders on an exchange, collecting the spread between the two, and hedging inventory risk across venues. The distinction matters because the economics, the infrastructure requirements, and the competitive moats are entirely different.\n\nHummingbot began life inside CoinAlpha, a San Francisco fintech outfit, which open-sourced the codebase in April 2019. The timing was apt: crypto derivatives markets were fragmenting across dozens of exchanges, each with bespoke APIs and wildly inconsistent documentation. The value proposition was an abstraction layer — write a strategy once, run it on Binance, OKX, Kraken, or a dozen decentralised venues without rewiring the plumbing for each. By the time CoinAlpha spun the project into the independent, Cayman Islands-registered **Hummingbot Foundation** in December 2021, the repository had accumulated some 200,000 lines of Python and a community of roughly 16,000 traders and developers on Discord.\n\nThe Foundation's sustainability model is an interesting construction. Rather than charging users — the software remains Apache 2.0 licensed, meaning anyone can run it freely — the Foundation collects *fee-share rebates* from exchange partners including Binance and OKX, who have an obvious interest in liquidity providers using the platform. Governance flows through the **HBOT token**, a purpose-built instrument whose sole function is voting on proposals: which connectors to maintain, how to allocate the community treasury, and so on. It is a not-for-profit that earns revenue from the exchanges whose order books its users fill — a tidy, if occasionally awkward, alignment of interests. The Foundation reported modest losses in 2022 and 2023 before projecting a return to surplus in 2024, buoyed by growing fee-share income.\n\nAs of its April 2026 release (v2.14.0), the repository hosts more than 18,500 GitHub stars and some 4,600 forks, with over 140 supported trading venues. The project has processed more than **$34 billion** in cumulative trading volume — a figure that sounds impressive until one recalls that a single large institutional market-maker might transact that in a week. Hummingbot's constituency is the long tail: individual algo traders, small funds testing strategies, and developers building on top of its connector library. The project is less a rival to Jane Street than a workbench for the democratisation of strategies that institutional shops commoditised years ago.\n\nTom Dörr, the poster, runs a high-volume curation account focused on notable open-source repositories, and his framing as \"high-frequency trading\" reflects the informal shorthand that developers often apply to any bot that trades faster than a human. It is a harmless compression — and Hummingbot is a genuinely useful tool — but readers considering the software should understand that the competitive landscape it enters is not the co-location arms race but the far more accessible, if still demanding, world of retail and semi-professional algorithmic trading. The latency that matters here is usually measured in seconds, not microseconds, and the edge comes from strategy design and exchange coverage rather than kernel bypass and FPGA network cards.",
+  "tickers": [],
+  "poster": "tom_doerr",
+  "concepts": [
+    {
+      "key": "market-making",
+      "term": "Market-Making",
+      "definition": "A trading strategy in which a participant simultaneously posts a bid (buy order) and an ask (sell order) on an exchange, profiting from the spread between the two prices while accepting temporary inventory risk. Market-makers provide liquidity to other participants and are often compensated through rebate programmes by exchanges. It is distinct from high-frequency trading, though institutional HFT firms often employ market-making as one strategy among several."
+    },
+    {
+      "key": "high-frequency-trading",
+      "term": "High-Frequency Trading (HFT)",
+      "definition": "A class of algorithmic trading strategies characterised by extremely high order submission rates and holding periods measured in milliseconds or microseconds. Institutional HFT firms invest heavily in co-location (placing servers physically adjacent to exchange matching engines), custom networking hardware, and low-level kernel optimisation to shave latency. The term is often loosely applied to any fast automated trading, but technically refers to this latency-intensive institutional approach."
+    },
+    {
+      "key": "open-source-governance-token",
+      "term": "Governance Token",
+      "definition": "A blockchain-based token whose primary utility is voting rights over a project's decisions, rather than a claim on revenue or equity. Hummingbot's HBOT token allows holders to vote on proposals covering software maintenance priorities, treasury allocation, and partnership terms, using off-chain voting infrastructure (Snapshot) to avoid transaction fees."
+    },
+    {
+      "key": "fee-share-rebate",
+      "term": "Exchange Fee-Share Rebate",
+      "definition": "An arrangement in which a cryptocurrency exchange returns a portion of the trading fees generated by a specific client or platform to a designated party. Hummingbot Foundation earns revenue this way: exchanges pay rebates for the volume their liquidity-providing users generate through the platform, creating a sustainable income stream without charging end users directly."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "url": "https://github.com/hummingbot/hummingbot",
+      "name": "hummingbot/hummingbot",
+      "note": "Core open-source framework for automated crypto trading strategies, primarily market-making and arbitrage. 18.5k stars, 4.6k forks, ~97% Python. Originally maintained by CoinAlpha; governance transferred to the independent Hummingbot Foundation in December 2021. Apache 2.0 licensed."
+    }
+  ],
+  "fact_check": "The tweet characterises Hummingbot as a 'high-frequency trading' framework. This is a common but imprecise label. Hummingbot's own documentation consistently describes its primary use case as market-making and arbitrage; it does not claim sub-millisecond latency capabilities or co-location features that define institutional HFT. The $34B trading volume figure appears in the official GitHub README and Foundation materials as of early 2026. The Foundation's financial figures (2022–2023 losses, 2024 projected surplus) are drawn from the publicly posted 'State of the Foundation 2024' blog post. Star and fork counts reflect the GitHub repository as of the research date (May 2026).",
+  "thread_summary": null,
+  "sources": [
+    "https://hummingbot.org/about/",
+    "https://hummingbot.org/blog/introducing-the-hummingbot-foundation/",
+    "https://hummingbot.org/blog/state-of-the-foundation-2024/",
+    "https://github.com/hummingbot/hummingbot",
+    "https://hummingbot.org/about/hbot/"
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

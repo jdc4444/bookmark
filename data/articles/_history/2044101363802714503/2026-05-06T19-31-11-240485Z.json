@@ -1,0 +1,49 @@
+{
+  "headline": "PlayCanvas's SuperSplat Brings Free 3D Gaussian Splat Tours to Mobile",
+  "lede": "A free, browser-based tool called SuperSplat, built by the open-source web game engine company PlayCanvas, lets anyone explore photorealistic 3D captures of buildings on a phone — no app required. The underlying technique, *3D Gaussian Splatting*, has rapidly matured from a research curiosity into a practical format for architectural documentation, cultural preservation, and real-estate marketing. SuperSplat's arrival as a zero-cost, open-source option marks a meaningful shift in who can publish and share these captures.",
+  "body": "**3D Gaussian Splatting** (*3DGS*) represents a captured environment as millions of tiny colored ellipsoids — \"splats\" — rather than the polygon meshes or voxels typical of older 3D formats. Photographs taken from many angles feed an optimization algorithm that places, sizes, and colors each splat to reproduce the scene photorealistically. Compared with *Neural Radiance Fields* (NeRF), the competing neural approach to scene reconstruction, Gaussian Splatting renders far faster, making real-time interactive viewing feasible on consumer hardware.\n\nSuperSplat is PlayCanvas's open-source editor and viewer for these splat files, running entirely in a standard web browser via WebGL. Because there is no app to install, it works on mobile phones as well as desktops. The screenshot shows publicly listed scans of a museum labeled Tranquility Tower and Chaoran Tower in Jinan, China, suggesting the platform already hosts a browsable library. A user who creates a splat capture elsewhere can upload and share it through SuperSplat without a subscription.\n\nThe tweet slightly telescopes the workflow: SuperSplat does not itself scan buildings. A separate capture process — typically a phone with a LiDAR sensor walking a space, or a photogrammetry rig processing dozens of still photos — produces the raw data. SuperSplat is the publishing and viewing layer that follows. That distinction matters for anyone who assumes the tool replaces capture hardware.\n\nThe claim that competing platforms charge over $100 cannot be confirmed from the research sources available here. Several hosted 3DGS services do charge professional-tier fees, but specific pricing varies and changes frequently. What is verifiable is that PlayCanvas releases SuperSplat under an open-source license, meaning anyone can self-host it or inspect the code — a meaningful commitment compared with proprietary freemium tools that retain control of data and distribution.",
+  "tickers": [],
+  "poster": "VishantShah10",
+  "concepts": [
+    {
+      "key": "gaussian-splatting",
+      "term": "3D Gaussian Splatting",
+      "definition": "A scene-reconstruction technique that encodes a real-world environment as millions of small, colored, semi-transparent ellipsoids. Trained from ordinary photographs, each ellipsoid (\"splat\") is positioned and oriented to reproduce the original scene's appearance from any viewpoint. Because the rendering math is simpler than neural alternatives, it runs in real time even on mobile hardware."
+    },
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "A browser API that gives JavaScript direct access to a device's graphics processor, enabling hardware-accelerated 3D rendering inside a standard web page. It underpins browser-based games, data visualizations, and — in this case — Gaussian Splat viewers that require no app installation."
+    },
+    {
+      "key": "photogrammetry",
+      "term": "Photogrammetry",
+      "definition": "The process of deriving 3D geometry and texture from overlapping 2D photographs. Software identifies shared points across images, triangulates their positions in space, and assembles a dense 3D model. It is a common capture method for feeding into downstream formats like Gaussian Splats."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "playcanvas-supersplat",
+      "url": "https://github.com/playcanvas/supersplat",
+      "summary": "SuperSplat is PlayCanvas's open-source browser-based editor and viewer for 3D Gaussian Splat (.ply/.splat) files. It uses the PlayCanvas WebGL engine to render large splat scenes interactively on desktop and mobile without any plugin. Users can upload captures, browse a public library of scans, and embed or share scenes via link."
+    }
+  ],
+  "fact_check": "The tweet's claim that competing platforms charge \"over $100\" for comparable hosted 3DGS viewing cannot be confirmed or denied from the research sources provided. Several professional 3DGS hosting and editing services do operate on paid plans, but specific pricing was not verifiable here. The broader framing — that SuperSplat is free and open-source where others are not — is accurate as a category observation, but readers should verify current competitor pricing independently.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/realarmaansidhu/status/2043868126958203169",
+      "title": "Related X post on SuperSplat",
+      "note": "Blocked by JavaScript requirement; no content retrieved"
+    },
+    {
+      "url": "https://www.3dsourced.com/3d-software/best-3d-scanner-apps-ios-android/",
+      "title": "14 Best 3D Scanner Apps for iOS & Android 2024",
+      "note": "Covers mobile 3D scanning apps broadly; does not mention SuperSplat"
+    }
+  ],
+  "bookmark_id": "2044101363802714503",
+  "generated_at": "2026-05-06T19:31:11.240485Z",
+  "backend": "claude"
+}

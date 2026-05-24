@@ -1,0 +1,28 @@
+{
+  "key": "SPGI",
+  "name": "S&P Global Inc.",
+  "exchange": "NYSE",
+  "blurb": "S&P Global Inc. is a leading provider of financial intelligence, credit ratings, benchmarks, and analytics. Its core divisions include S&P Global Ratings (one of the world's three major credit rating agencies), S&P Global Market Intelligence (data and research platforms), S&P Global Commodity Insights, and S&P Dow Jones Indices, which administers the S&P 500 and thousands of other indices. The company significantly expanded its scale through the 2022 merger with IHS Markit, reinforcing its position as a critical infrastructure provider for global capital markets.",
+  "recent": "Shares fell approximately 4.15% on May 13, 2026, closing at $406.55 — a notable single-day decline that prompted coverage on MarketBeat asking why the stock dropped, though the specific catalyst is not detailed in available sources. Pre-market pricing on May 14 showed a modest recovery to $407.97, suggesting the sell-off may be stabilizing. Not enough public information from these sources to confirm the precise earnings or macro trigger behind the move.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/SPGI/",
+      "title": "S&P Global Inc. (SPGI) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/SPGI/news/",
+      "title": "SPGI News Today | Why did S&P Global stock drop today? — MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/spgi",
+      "title": "SPGI Stock Price | S&P Global Inc. Stock Quote — MarketWatch"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xnys/spgi/quote",
+      "title": "SPGI Stock Price Quote — Morningstar"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:22:49.862640Z",
+  "backend": "claude-sonnet-subagent"
+}

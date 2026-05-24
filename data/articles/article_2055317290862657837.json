@@ -1,0 +1,129 @@
+{
+  "headline": "Quant Funds Load Up on Apple, Nvidia, and Linde in Q1 2026",
+  "lede": "Fresh 13F filings — the quarterly SEC disclosures that reveal what large institutional managers held at each quarter's end — show systematic funds adding heavily to Apple (AAPL), Nvidia (NVDA), and Linde (LIN) during the first three months of 2026. The data became available as the May 15 filing deadline passed, offering the first aggregated read on where algorithmic money moved during a quarter dominated by tariff shocks and AI-infrastructure spending. The figures come from @InTheAssembly, a financial commentary account that aggregates 13F data.",
+  "body": "Apple (AAPL) had the roughest start to 2026 of any mega-cap. In early April the company shed an estimated $638 billion in market value as tariff escalation — duties as high as 145% on Chinese imports — threatened both its manufacturing supply chain and its second-largest consumer market. The reversal came fast: a 90-day tariff pause announced around May 7 relit investor confidence, and Apple's fiscal second-quarter earnings, reported April 30, were emphatic. Revenue reached $111.2 billion (up 17% year-over-year), earnings per share hit $2.01 (up 22%), and Greater China revenue surged 28%. The board added a $100 billion buyback authorization, and the stock hit a new all-time closing high of $300.23 on May 15. That sequence — sharp drawdown followed by earnings blowout and buyback — is precisely what quant *momentum* and *earnings-revision* models are designed to identify, explaining the $781 million net add.\n\nNvidia (NVDA) requires less narrative. Its position as the dominant supplier of *GPUs* (graphics processing units, the specialized chips central to AI model training) has been the defining equity story of the past three years, and the institutional bid has not relented. Analysts expect the company to report roughly $78.8 billion in revenue for its fiscal first quarter on May 20 — continued explosive growth. Renaissance Technologies, the quantitative firm whose Medallion Fund is the closest thing finance has to a perpetual-motion machine, reportedly increased its Nvidia stake by 190% in Q1 2026, a striking move from the canonical quant shop. Arrowstreet Capital, another systematic manager, raised its $5.54 billion Nvidia position by a further 19%.\n\nThe most instructive name is **Linde** (LIN). As the world's largest industrial gases company by revenue — roughly $34 billion in 2025 — Linde occupies an unglamorous but structurally durable corner of the economy: it produces and distributes oxygen, nitrogen, hydrogen, and specialty gases to steel mills, hospitals, semiconductor fabs, and data centers under long-term, *take-or-pay* contracts. Those contracts — often 15 to 20 years, with supply infrastructure built adjacent to the customer's site — create switching costs so high that churn is nearly nonexistent. That formula has made Linde the archetypal *compounder*: a company that generates high returns on invested capital and can redeploy them at similarly high rates, compounding intrinsic value decade after decade.\n\nLinde (LIN) spent 2024 and much of 2025 underperforming the broader market by a wide margin as European industrial activity slowed, energy prices swung unpredictably (energy is 30–40% of production cost), and the clean-hydrogen buildout moved slower than expected. The recovery narrative has three threads. First, semiconductor fab demand: Linde supplies the specialty gases that chip manufacturers cannot operate without, and its electronics-segment revenue — roughly $4 billion today — is growing at double-digit rates on the back of AI infrastructure investment. Second, a hydrogen pipeline: management expects $2.5–$3 billion in hydrogen-related projects to begin generating revenue in 2026. Third, a clean Q1 2026 earnings beat — $4.33 adjusted earnings per share against a $4.27 consensus — with full-year guidance raised. That combination of quality-factor credentials and fresh earnings momentum is what brings a compounder back.",
+  "tickers": [
+    "AAPL",
+    "NVDA",
+    "LIN"
+  ],
+  "companies": [
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Linde",
+      "ticker": "LIN"
+    },
+    {
+      "name": "Renaissance Technologies",
+      "ticker": null
+    },
+    {
+      "name": "Arrowstreet Capital",
+      "ticker": null
+    }
+  ],
+  "poster": "InTheAssembly",
+  "concepts": [
+    {
+      "key": "13f-filing",
+      "term": "13F filing",
+      "definition": "A quarterly SEC disclosure form required of any U.S. institutional investment manager overseeing $100 million or more in domestic equity assets. It must be filed within 45 days of each quarter's end and lists all long equity positions — the primary public window into large-fund stock ownership, though it is backward-looking and reveals only what was held, not why."
+    },
+    {
+      "key": "quant-fund",
+      "term": "quant fund",
+      "definition": "An investment fund that makes buy and sell decisions using mathematical models, statistical algorithms, and machine learning rather than human judgment. Quant funds screen for systematic signals — momentum, earnings revisions, buyback yield, quality factors — across hundreds or thousands of stocks simultaneously and rebalance mechanically when those signals shift."
+    },
+    {
+      "key": "compounder",
+      "term": "compounder",
+      "definition": "A company that generates high returns on invested capital and can reinvest those returns at similarly high rates year after year, causing intrinsic value to grow exponentially over time. Classic compounders have durable competitive moats — pricing power, switching costs, or a structural supply position — that protect their economics across economic cycles."
+    },
+    {
+      "key": "take-or-pay-contract",
+      "term": "take-or-pay contract",
+      "definition": "A long-term supply agreement in which the buyer commits to pay for a minimum volume of a commodity or service whether or not they actually take delivery. For Linde, these contracts — typically 15–20 years, with supply infrastructure built adjacent to the customer's facility — provide highly predictable recurring revenue and make switching to a competitor economically prohibitive."
+    },
+    {
+      "key": "earnings-revision-momentum",
+      "term": "earnings-revision momentum",
+      "definition": "A quantitative factor measuring the direction and magnitude of changes in analyst earnings estimates. When estimates are revised upward repeatedly, quant models treat it as a signal of improving fundamentals and increase portfolio weighting in the affected stock."
+    },
+    {
+      "key": "gpu",
+      "term": "GPU",
+      "definition": "Graphics processing unit — a chip originally designed to render images whose massively parallel architecture makes it ideal for the matrix mathematics at the core of deep-learning model training. Nvidia is the dominant GPU supplier for AI workloads."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.apple.com/newsroom/2026/04/apple-reports-second-quarter-results/",
+      "title": "Apple Reports Second Quarter Results",
+      "note": "Official Apple earnings release with revenue, EPS, and segment figures cited in the brief"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/AAPL/institutional-ownership/",
+      "title": "AAPL Institutional Ownership — MarketBeat",
+      "note": "Institutional buyer and seller counts and net inflow figures for Apple"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVDA/institutional-ownership/",
+      "title": "NVDA Institutional Ownership — MarketBeat",
+      "note": "Institutional buyer and seller counts and position changes for Nvidia"
+    },
+    {
+      "url": "https://hedgefollow.com/stocks/NVDA",
+      "title": "NVDA 13F Hedge Fund Ownership — HedgeFollow",
+      "note": "Source for Renaissance Technologies and Arrowstreet Capital Q1 2026 position changes"
+    },
+    {
+      "url": "https://www.linde.com/news-and-media/2026/linde-reports-first-quarter-2026-results",
+      "title": "Linde Reports First Quarter 2026 Results — Linde.com",
+      "note": "Official Linde Q1 2026 earnings including EPS beat and full-year guidance raise"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260501117311/en/Linde-Reports-First-Quarter-2026-Results",
+      "title": "Linde Q1 2026 Results — BusinessWire",
+      "note": "Full press release with segment-level financial data for Linde"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/lin/",
+      "title": "Linde (LIN) Stock Overview — StockAnalysis",
+      "note": "Current price, market cap, and financial summary for LIN"
+    },
+    {
+      "url": "https://hedgeco.net/news/02/2026/top-investors-shift-the-balance-why-quant-funds-are-now-the-preferred-hedge-fund-allocation.html",
+      "title": "Why Quant Funds Are Now the Preferred Hedge Fund Allocation — HedgeCo",
+      "note": "Context on the structural shift toward quant fund allocations in 2026"
+    },
+    {
+      "url": "https://www.sec.gov/data-research/sec-markets-data/form-13f-data-sets",
+      "title": "SEC Form 13F Data Sets",
+      "note": "Primary regulatory source for quarterly 13F filing data"
+    },
+    {
+      "url": "https://acquirersmultiple.com/2026/02/top-superinvestors-are-buying-linde-plc-lin/",
+      "title": "Top Superinvestors Are Buying Linde — Acquirer's Multiple",
+      "note": "Coverage of institutional accumulation in LIN ahead of Q1 2026"
+    },
+    {
+      "url": "https://appleinsider.com/articles/26/05/15/apple-shares-climbed-to-a-record-high-as-investors-look-past-ai-concerns",
+      "title": "Apple Shares Climbed to a Record High — AppleInsider",
+      "note": "Source for AAPL record closing high of $300.23 on May 15, 2026"
+    }
+  ],
+  "bookmark_id": "2055317290862657837",
+  "generated_at": "2026-05-17T08:44:49.013320Z",
+  "backend": "claude-sonnet-subagent"
+}

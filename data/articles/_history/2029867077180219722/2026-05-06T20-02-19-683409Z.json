@@ -1,0 +1,48 @@
+{
+  "headline": "GPT-5.4 Beats Opus 4.6 on Creative Animation—and on Price",
+  "lede": "A developer running a structured nine-part model comparison opened with a result that cuts against the usual benchmark narrative: on a purely aesthetic coding task—an *SVG* plant animation with convincing leaf physics—**GPT-5.4** outperformed **Claude Opus 4.6** on visual quality while costing roughly half as much. The coding leaderboards rank the two models as near-equals; the eye, apparently, can tell the difference.",
+  "body": "The test prompt asked each model to produce a single HTML file—no external libraries—using *SVG* (Scalable Vector Graphics, a vector image format native to browsers) to simulate a plant growing: stem extension, leaves sprouting and unfurling with springy, wind-like motion, looping forever. It is the kind of task where \"correct\" is insufficient; the animation also has to feel alive.\n\nGPT-5.4 delivered what the developer called cool leaf physics and a clean, seamless loop. **Claude Opus 4.6** grew the plant but then simply faded it out—technically functional, aesthetically flat. On speed, the developer judged the two roughly comparable. The \"(High)\" qualifier on GPT-5.4 most likely refers to a reasoning-effort setting in OpenAI's API, analogous to extended thinking; if so, the comparison is not entirely apples-to-apples, and the cost figure already bakes in that elevated effort.\n\nThe price gap is the sharper finding. Benchmark data from BenchLM puts Opus 4.6 output at $75 per million tokens against GPT-5.4's $15—a five-fold difference at list price. A separate source (Apiyi) cites narrower figures: $25 versus $15 per million output tokens, which maps more closely to the developer's \"half cheaper\" characterisation. The exact spread will depend on session length and the ratio of input to output tokens; the direction of the gap is not in dispute.\n\nWhat makes the comparison interesting is not that one model beat the other on a single prompt. Formal coding benchmarks—the numbers most people cite in this debate—suggest the two are essentially tied: BenchLM scores their coding capability at 90.8 for Opus versus 90.7 for GPT-5.4. Benchmark tasks tend to test correctness and logical reasoning; they rarely test whether generated code produces output that a human would find beautiful. The gap the developer observed may live entirely in that unmeasured space.\n\nThis is only the opening post in a nine-part series, and first impressions are not conclusions. But the early signal—better aesthetics, lower cost—will be hard to ignore in a market where GPT-5.4 appears to have closed the functional coding gap while undercutting significantly on price.",
+  "tickers": [],
+  "poster": "developedbyed",
+  "concepts": [
+    {
+      "key": "svg-animation",
+      "term": "SVG animation",
+      "definition": "SVG (Scalable Vector Graphics) is an XML-based image format browsers can render natively without raster pixels. Animating SVG elements—paths, polygons, groups—directly in the browser produces smooth, resolution-independent motion with no image files required, making it a common choice for generative or procedural graphics."
+    },
+    {
+      "key": "spring-physics",
+      "term": "spring physics",
+      "definition": "A simulation technique that models objects as if attached to springs: they overshoot a target position, oscillate, and gradually settle. Applied to UI animation, it produces the bouncy or wind-blown feel that distinguishes organic motion from simple linear easing."
+    },
+    {
+      "key": "reasoning-effort",
+      "term": "reasoning-effort setting",
+      "definition": "Some LLM APIs let callers dial up or down the amount of internal 'thinking' a model does before answering. Higher effort produces more thorough responses but costs more and takes longer. OpenAI's GPT-5 family exposes this as named tiers; the '(High)' tag in this test likely refers to one such tier."
+    },
+    {
+      "key": "cost-per-token",
+      "term": "cost per token",
+      "definition": "LLM APIs charge separately for input tokens (the prompt sent in) and output tokens (the text generated). Because output tokens are usually priced higher and generated code can be verbose, the output rate often dominates real-world cost for coding tasks."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The developer's 'half cheaper' claim is directionally accurate but the exact multiple is disputed by sources. BenchLM puts Opus 4.6 output at $75/M tokens versus GPT-5.4's $15—a five-fold gap. Apiyi cites narrower figures ($25 versus $15 output), which would yield roughly a 40 percent saving. Neither source's numbers are independently verified here, and the GPT-5.4 '(High)' reasoning-effort tier may carry a premium not reflected in base-rate comparisons. Readers should treat any specific price figure as approximate.",
+  "thread_summary": "This is the opening post of a nine-part head-to-head series. The developer is running a structured battery of prompts across both models and sharing impressions as each result comes in. Only the first result—a creative SVG animation task—is covered here; the developer explicitly noted many more tests were forthcoming and described the exercise as early and ongoing.",
+  "sources": [
+    {
+      "url": "https://benchlm.ai/blog/posts/claude-opus-vs-gpt-5",
+      "title": "Claude Opus 4.6 vs GPT-5.4: Full Benchmark Breakdown (2026) — BenchLM.ai",
+      "note": "Overall scores, category breakdowns (coding 90.8 vs 90.7), and list pricing for both models"
+    },
+    {
+      "url": "https://help.apiyi.com/en/gpt-5-4-vs-claude-opus-4-6-comparison-2026-en.html",
+      "title": "GPT-5.4 vs Claude Opus 4.6: In-depth comparison of 2026 flagship AI models — Apiyi.com",
+      "note": "Alternative pricing data and Chatbot Arena ELO rankings; figures differ from BenchLM on Opus output price"
+    }
+  ],
+  "bookmark_id": "2029867077180219722",
+  "generated_at": "2026-05-06T20:02:19.683409Z",
+  "backend": "claude"
+}

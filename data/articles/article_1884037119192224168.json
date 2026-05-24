@@ -1,0 +1,52 @@
+{
+  "bookmark_id": "1884037119192224168",
+  "headline": "The Man Who Wanted to Predict Markets and Moved Them Instead",
+  "lede": "Liang Wenfeng built DeepSeek to crack the mystery of financial markets through artificial general intelligence. What he cracked instead was the valuation of every AI company in the world.",
+  "body": "The cleanest way to understand Liang Wenfeng is to start with a sentence he wrote in the preface to the Chinese edition of *The Man Who Solved the Market*, Gregory Zuckerman's biography of Jim Simons. Whenever he encountered difficulty, Liang wrote, he returned to Simons's conviction: \"There must be a way to model prices.\" Simons — the mathematician who founded *Renaissance Technologies*, the secretive hedge fund that generated perhaps the most extraordinary long-run returns in investing history — believed that financial markets, however chaotic they appeared, contained exploitable patterns if you had enough data and enough computing power to find them. Liang, who graduated from Zhejiang University with engineering degrees and co-founded the quantitative hedge fund *High-Flyer* in 2016, took that faith seriously. High-Flyer grew to manage around 100 billion yuan (roughly $14 billion) using machine-learning models to identify and trade on statistical regularities in Chinese equities. By 2021, Liang had concluded that the next frontier was not more sophisticated trading algorithms but something far more ambitious: artificial general intelligence, or *AGI* — a system capable of matching, and eventually exceeding, the full range of human cognitive abilities. He began quietly accumulating thousands of Nvidia graphics processors. DeepSeek followed in May 2023.\n\nThe stated motivation has been consistent across Liang's rare public appearances. In a July 2024 interview with the Chinese publication *Waves*, he described AGI as an almost metaphysical necessity: \"Our destination is AGI. Language models might be a necessary path leading to AGI.\" His colleagues at High-Flyer have been more direct about the financial logic. If you believe, as Liang does, that markets are, at root, information-processing problems — that prices are the output of millions of agents reacting to signals — then a system that truly understands language, causality, and prediction would give a quant fund a structural edge no amount of incremental model-tuning could match. The hypothesis is elegant: build the most general possible intelligence, and market prediction becomes a solved subproblem. It is the Simons dream extended to its logical extreme.\n\nWhat Liang produced instead is one of the more striking examples of *reflexivity* — the philosopher George Soros's term for the feedback loops in which market participants' beliefs alter the very reality those beliefs are trying to model — that financial history has recorded in some time. DeepSeek-R1, released on January 20, 2025 under an open-source MIT licence, demonstrated that a large language model capable of matching *OpenAI's* proprietary o1 across mathematics, coding, and scientific reasoning could be trained on roughly 2,048 Nvidia H800 chips at an estimated cost of $5.6 million. By January 27, the model had become the most downloaded free application on the US iOS App Store. On that same day, investors concluded that the core thesis supporting hundreds of billions of dollars of capital investment in AI infrastructure — that only the largest, most expensive computing clusters could produce frontier models — was in serious need of revision. Nvidia lost approximately $589 billion in market capitalisation in a single session, the largest single-day loss for any company in stock market history.\n\nThe irony is structural, not accidental. Liang's decision to release DeepSeek's weights and training methodology as open-source — motivated by a stated desire to contribute to the global AI ecosystem and by High-Flyer's relative indifference to short-term commercialisation — meant that the model's efficiency discoveries were instantly available to every competitor and every analyst trying to price the AI infrastructure build-out. A man who set out to gain an informational edge over markets instead disclosed, voluntarily and for free, information that repriced the entire sector. The instrument of market prediction became the instrument of market disruption. Simons, who spent decades guarding Renaissance's methods with legendary secrecy, would have found this baffling.\n\nLiang's own trajectory continues with a kind of insouciant momentum. High-Flyer itself ranked among China's top-performing hedge funds in 2025, even as its founder was appearing on *Time*'s 100 Most Influential People in AI list and overseeing a DeepSeek that, by some estimates, commanded a notional valuation approaching $10 billion. He has stated flatly that the fund faces no capital constraint — \"our challenge has never been money; it's the embargo on high-end chips\" — and that DeepSeek will survive the coming consolidation among China's AI startups because it has what the cash-burning competitors lack: operational discipline and a research culture uncorrupted by the pressure to generate an exit. Whether the AGI he is building will one day predict financial markets with the accuracy he imagined is unknowable. What is knowable is that, in the course of building it, he has already moved them more dramatically than almost any single actor in recent memory.",
+  "tickers": [],
+  "poster": "teortaxesTex",
+  "concepts": [
+    {
+      "key": "agi",
+      "term": "AGI",
+      "definition": "Artificial General Intelligence — a hypothetical AI system capable of performing any intellectual task a human can, across domains, without task-specific retraining. Distinct from today's narrow AI systems, which excel within defined domains but cannot generalise freely. Achieving AGI remains an open and disputed research problem."
+    },
+    {
+      "key": "quant-fund",
+      "term": "Quant Fund",
+      "definition": "A hedge fund that makes investment decisions primarily through mathematical and statistical models rather than human judgment. Inputs can include price data, alternative data (satellite imagery, credit-card flows), and increasingly machine-learning signals. Renaissance Technologies, founded by Jim Simons, is the canonical example."
+    },
+    {
+      "key": "reflexivity",
+      "term": "Reflexivity",
+      "definition": "A concept associated with investor George Soros: the idea that in financial markets, participants' beliefs about prices influence the prices themselves, which in turn influence participants' beliefs, creating self-reinforcing feedback loops that can diverge from underlying economic fundamentals."
+    },
+    {
+      "key": "open-weights",
+      "term": "Open Weights",
+      "definition": "A model release in which the numerical parameters (weights) learned during training are made publicly available, allowing anyone to run, fine-tune, or study the model without paying for API access. Open-weights models can be self-hosted, modified, and examined for how they work — a level of transparency that closed, API-only models do not offer."
+    }
+  ],
+  "books": [
+    {
+      "title": "The Man Who Solved the Market",
+      "author": "Gregory Zuckerman",
+      "relevance": "Biography of Jim Simons, founder of Renaissance Technologies. Liang Wenfeng wrote the preface to the Chinese edition and has cited Simons's conviction — 'there must be a way to model prices' — as a touchstone for his own work."
+    }
+  ],
+  "repos": [],
+  "fact_check": "High-Flyer was co-founded in February 2016 (some sources say 2015; the formal entity Zhejiang Jiuzhang Asset Management was established then). The 100 billion yuan AUM figure and Liang's majority ownership via Ningbo High-Flyer Quantitative Investment Management Partnership (he holds approximately 1% personally) are confirmed by multiple sources. DeepSeek was launched May 2023. DeepSeek-R1 was released January 20, 2025 under the MIT license. The January 27, 2025 Nvidia single-day market cap loss is reported as approximately $589 billion by Bloomberg and CNBC, and approximately $600 billion by other outlets — the $589 billion figure is more precise. The $5.6 million training cost and 2,048 H800 GPU figure come from DeepSeek's own technical report. Liang's preface citing Simons's 'model prices' quote is confirmed by Wikipedia and multiple secondary sources. The Waves interview is from July 2024. Teortaxes's tweet characterising the motivation as wanting to 'predict the entire financial market' is a reasonable compression of the public record, though Liang's own public statements foreground AI innovation and ecosystem contribution rather than market-prediction alone.",
+  "thread_summary": null,
+  "sources": [
+    "https://fortune.com/2025/01/27/deepseek-founder-liang-wenfeng-hedge-fund-manager-high-flyer-quant-trading/",
+    "https://en.wikipedia.org/wiki/Liang_Wenfeng",
+    "https://en.wikipedia.org/wiki/High-Flyer",
+    "https://www.chinatalk.media/p/deepseek-from-hedge-fund-to-frontier",
+    "https://thechinaacademy.org/interview-with-deepseek-founder-were-done-following-its-time-to-lead/",
+    "https://www.bloomberg.com/news/articles/2025-01-27/asml-sinks-as-china-ai-startup-triggers-panic-in-tech-stocks",
+    "https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html",
+    "https://api-docs.deepseek.com/news/news250120"
+  ],
+  "generated_at": "2026-05-06T00:06:35.851081Z",
+  "backend": "claude-sonnet-subagent"
+}

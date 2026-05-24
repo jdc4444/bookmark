@@ -1,0 +1,128 @@
+{
+  "headline": "The AI Lipsync Model Built for Scenes That Break Others",
+  "lede": "Synchronizing a speaker's lips to a new audio track — *lipsync* — is a problem as old as dubbed cinema, but AI has made it cheap enough to attempt at scale. Most models built for the task fail the moment a scene departs from optimal conditions: a second speaker, a microphone in frame, a shot taken in near-darkness. Sync Labs' new **sync-3** model was designed around those failures as its primary test cases.",
+  "body": "The economics of global video distribution have created latent demand for cheap dubbing. Traditional localization runs $50–$300 per finished minute; AI tools bring that figure below $10. Netflix (NFLX) is reported to spend roughly $150 million a year on conventional dubbing, and Amazon (AMZN) launched a pilot in March 2025 to AI-dub twelve Prime Video titles — a signal that the largest buyers are beginning to treat the technology as production-grade. The addressable market for AI dubbing software stands at roughly $900 million and is projected to nearly quadruple by 2034.\n\nThe technical constraints of earlier models reflect their origins in academic research. *Wav2Lip*, the 2020 paper that established the field's baseline — and co-authored by two of Sync Labs' own founders — processed video in two-second independent chunks, stitched together after the fact. Each segment started with no memory of what preceded it, so errors accumulated at every seam. More fundamentally, the models assumed a single face in favorable light speaking directly to camera; multi-speaker scenes confused face-tracking, obstructions like hands or microphones generated artifacts, and profile angles fell outside the training distribution.\n\n**sync-3** discards the *chunk architecture*. The model ingests the entire shot at once, generating all frames simultaneously and building what the company calls a “global understanding” of the speaker — their face geometry, speaking style, and expression — across the full temporal extent of the clip. This eliminates boundary artifacts and allows the model to handle close-ups and off-axis angles in context rather than in isolation. A companion sub-pipeline, *active speaker detection* (ASD-1), identifies which face in a multi-person frame corresponds to the active audio track and applies lipsync only to that person — essential for any scene involving crosstalk or a silent listener in frame.\n\nSync Labs (Synchronicity Labs Inc.) is a 13-person San Francisco startup founded in 2023 by the researchers who wrote the Wav2Lip paper. Chief Scientist Prajwal K R (Oxford, PhD) and CTO Rudrabha Mukhopadhyay (IIIT Hyderabad, PhD) are the paper’s primary authors; CEO Prady Modukuru previously led AI products at Microsoft (MSFT). The company raised a $5.5 million seed round in August 2024 led by Google Ventures, a unit of Alphabet (GOOGL), and went through Y Combinator’s W24 cohort. No Series A has been announced. The model is sold as an API at $0.107–$0.133 per processed second — several times the price of Sync Labs’ own predecessor models — targeting post-production pipelines rather than consumer creators.\n\nThe AI dubbing landscape has divided into distinct lanes. ElevenLabs, valued at $3.3 billion following a January 2025 fundraise, handles audio-only voice cloning and does not touch video. HeyGen competes on the consumer and small-business end with avatar generation and broad language support. Deepdub serves studio-scale accounts including Paramount Global (PARA). Sync Labs occupies a narrower, developer-first niche — a pure-play lipsync API that trades breadth of features for depth of quality in the cases that matter most to professional production.",
+  "tickers": [
+    "NFLX",
+    "AMZN",
+    "MSFT",
+    "GOOGL",
+    "PARA"
+  ],
+  "companies": [
+    {
+      "name": "Netflix",
+      "ticker": "NFLX"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Synchronicity Labs",
+      "ticker": null
+    },
+    {
+      "name": "ElevenLabs",
+      "ticker": null
+    },
+    {
+      "name": "HeyGen",
+      "ticker": null
+    },
+    {
+      "name": "Deepdub",
+      "ticker": null
+    },
+    {
+      "name": "Paramount Global",
+      "ticker": "PARA"
+    }
+  ],
+  "poster": "synclabs_so",
+  "concepts": [
+    {
+      "key": "lipsync",
+      "term": "Lipsync",
+      "definition": "The process of aligning a speaker's visible lip and mouth movements to an audio track — originally a manual craft in film dubbing, now increasingly automated by AI. In AI lipsync, a model takes a source video and a new audio track and generates modified video frames so that the mouth movements plausibly match the new speech, enabling dubbed content without reshoots."
+    },
+    {
+      "key": "chunk-architecture",
+      "term": "Chunk architecture",
+      "definition": "A video processing approach in which a long clip is divided into short, independently-processed segments (typically two seconds each) that are then stitched back together. Prior AI lipsync models used this method because it was computationally tractable, but it caused flickering artifacts at segment boundaries and prevented the model from drawing on context from elsewhere in the shot."
+    },
+    {
+      "key": "active-speaker-detection",
+      "term": "Active speaker detection (ASD-1)",
+      "definition": "A sub-pipeline that identifies which face in a multi-person video frame corresponds to the voice currently heard in the audio track. Without it, a lipsync model applied to a dialogue scene would incorrectly modify every visible face simultaneously. Sync Labs' implementation — named ASD-1 — is used across their model family and handles interruptions and overlapping speech."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "Rudrabha-Wav2Lip",
+      "url": "https://github.com/Rudrabha/Wav2Lip",
+      "summary": "The 2020 open-source academic model that established the AI lipsync baseline, published at ACM Multimedia by IIIT Hyderabad researchers — including two of Sync Labs' founders. It introduced a lip-sync expert discriminator trained on real video to enforce synchronization accuracy and accumulated over 13,000 GitHub stars. The repo explicitly directs commercial users to Sync Labs for higher-quality output."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://sync.so/docs/models/sync-3",
+      "title": "sync-3 — Sync documentation",
+      "note": "Official product and API documentation for sync-3, including technical capabilities, pricing, and comparison to prior models"
+    },
+    {
+      "url": "https://sync.so/blog/sync-announces-5-5m-seed-round-to-make-video-content-creation-less-camera-dependent-using-ai/",
+      "title": "Sync announces $5.5M seed round",
+      "note": "Primary source for funding details, investor names, and company mission statement"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/sync-2",
+      "title": "Sync — Y Combinator",
+      "note": "YC profile confirming W24 cohort, team size of ~13, and founding year"
+    },
+    {
+      "url": "https://github.com/Rudrabha/Wav2Lip",
+      "title": "Wav2Lip GitHub repository",
+      "note": "Original open-source lipsync model by Sync Labs founders; establishes the chunk-processing baseline"
+    },
+    {
+      "url": "https://arxiv.org/abs/2008.10010",
+      "title": "A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild (ACM MM 2020)",
+      "note": "Foundational paper behind Wav2Lip, co-authored by Sync Labs' Chief Scientist and CTO"
+    },
+    {
+      "url": "https://sync.so/blog/lipsync-1-9-beta-new-standard-for-lipsync/",
+      "title": "lipsync-1.9 beta — Sync blog",
+      "note": "Details the architectural shift from staged pipelines to end-to-end single-pass processing"
+    },
+    {
+      "url": "https://sync.so/blog/lipsync-2-0/",
+      "title": "lipsync-2.0 — Sync blog",
+      "note": "Details the zero-shot style preservation approach preceding sync-3"
+    },
+    {
+      "url": "https://techcrunch.com/2025/03/05/prime-video-tests-ai-dubbing-for-select-movies-and-tv-series/",
+      "title": "Prime Video tests AI dubbing for select movies and TV series — TechCrunch",
+      "note": "Amazon's March 2025 pilot; evidence of enterprise adoption of AI dubbing"
+    },
+    {
+      "url": "https://www.businessresearchinsights.com/market-reports/ai-dubbing-software-market-117363",
+      "title": "AI Dubbing Software Market — Business Research Insights",
+      "note": "Market sizing figures cited for AI dubbing software"
+    }
+  ],
+  "bookmark_id": "2039020795171578359",
+  "generated_at": "2026-05-07T09:05:36.609226Z",
+  "backend": "claude-sonnet-subagent"
+}

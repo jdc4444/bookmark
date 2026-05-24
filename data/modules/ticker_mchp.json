@@ -1,0 +1,17 @@
+{
+  "key": "mchp",
+  "name": "Microchip Technology Incorporated",
+  "exchange": "NASDAQ",
+  "blurb": "Microchip Technology is a leading supplier of 8/16/32-bit microcontrollers and analog semiconductors, with a deep power-management portfolio covering PMICs, LDO regulators, DC-DC controllers, gate drivers for MOSFETs and IGBTs, and SiC gate drivers under its mSiC brand. It is one of the largest suppliers of mixed-signal and connectivity ICs for industrial, automotive, aerospace, and data-centre applications. Its Digitally Enhanced Power Analog (DEPA) controllers and 600V gate driver families address the high-voltage side of AI server power delivery, while its broad PMIC lineup targets point-of-load regulation for FPGAs, MPUs, and ASICs in compute racks.",
+  "recent": "Microchip reported Q3 FY2026 (quarter ending December 2025) net sales of $1.186 billion, up 15.6% year-over-year and beating guidance, with non-GAAP EPS of $0.44 against a $0.39 consensus. CEO Steve Sanghi cited broad-based recovery across end markets, non-GAAP gross margins expanding from 52% to 60.5%, and strong bookings building into the March 2026 quarter. Q4 FY2026 guidance was set at $1.26 billion (midpoint), representing roughly 30% year-over-year growth, with EPS of $0.48–$0.52. The company also introduced a new 600V gate driver family and the MCP16701 PMIC targeting AI, high-performance computing, and data-centre applications in early 2026.",
+  "sources": [
+    {"url": "https://ir.microchip.com/news-events/press-releases/detail/1364/microchip-technology-announces-financial-results-for-third-quarter-of-fiscal-year-2026", "title": "Microchip Q3 FY2026 Earnings Release — ir.microchip.com"},
+    {"url": "https://ir.microchip.com/news-events/press-releases/detail/1350/microchip-technology-raises-financial-guidance-for-sales-and-eps-for-third-quarter-of-fiscal-year-2026", "title": "Microchip Raises Q3 FY2026 Guidance — ir.microchip.com"},
+    {"url": "https://www.microchip.com/en-us/about/news-releases/products/advanced-pmic-for-high-performance-ai-industrial-computing", "title": "Microchip MCP16701 PMIC for AI / Data Center — microchip.com"},
+    {"url": "https://ir.microchip.com/news-events/press-releases/detail/1358/microchip-introduces-600v-gate-driver-family-for-high-voltage-power-management-applications", "title": "Microchip 600V Gate Driver Family — ir.microchip.com"},
+    {"url": "https://www.microchip.com/en-us/products/power-management/silicon-carbide/gate-drivers", "title": "Microchip mSiC Gate Drivers Product Page — microchip.com"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

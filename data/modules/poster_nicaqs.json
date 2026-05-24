@@ -1,0 +1,15 @@
+{
+  "key": "nicaqs",
+  "display_name": "@nicaqs",
+  "blurb": "A technical-analysis practitioner active on X whose posts focus on chart-based setups across equities and other asset classes. The account's primary edge, as self-described, is the systematic application of Fibonacci retracement levels — particularly the 61.8%–65% 'golden pocket' zone — to identify high-probability reversals in trending instruments. Posts routinely feature annotated TradingView charts with multi-year lookback windows, emphasizing monthly and weekly timeframes over short-term noise. The account does not appear to operate a paid newsletter or research service; output is shared publicly. Little additional biographical detail is publicly verifiable.",
+  "credibility_note": "Track record and identity are not publicly documented beyond the X account's own chart posts. The golden pocket framework cited is a legitimate and widely used technique in technical analysis, and the Lumentum example shown (status/2050795729271378383) is factually consistent with the stock's price history. As with all retrospective chart analysis, the selected example benefits from hindsight; readers should evaluate the broader hit rate independently before treating the method as a trading signal.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/nicaqs"}
+  ],
+  "sources": [
+    {"title": "Post on LITE golden pocket — @nicaqs on X", "url": "https://x.com/nicaqs/status/2050795729271378383"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

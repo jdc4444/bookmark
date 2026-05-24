@@ -1,0 +1,24 @@
+{
+  "key": "ETN",
+  "name": "Eaton Corporation plc",
+  "exchange": "NYSE",
+  "blurb": "Eaton Corporation plc is a global power management company founded in 1916, operating across five segments: Electrical Americas, Electrical Global, Aerospace, Vehicle, and eMobility. The company manufactures electrical components, power distribution assemblies, circuit protection products, utility power distribution equipment, and aerospace power systems, serving customers across the United States, Canada, Latin America, Europe, and Asia Pacific. With roughly 97,000 employees and trailing twelve-month revenue of $28.5 billion, Eaton is one of the largest industrial machinery companies in the world. Its Electrical segments have become increasingly prominent as data center buildout and grid modernization drive demand for power management infrastructure.",
+  "recent": "Eaton reported Q1 2026 earnings on May 5, 2026, with trailing revenue up approximately 12.7% year-over-year and net income of $3.99 billion. The stock paid a $4.40 annual dividend with an ex-dividend date of May 8, 2026, and traded at $406.94 on May 13 — up 1.35% on the day — well within its 52-week range of $311.90–$435.43. Analyst consensus remains Buy with a price target of $417.86, and market capitalization stands near $158 billion.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/etn/",
+      "title": "Eaton Corporation (ETN) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/ETN/",
+      "title": "Eaton Corporation plc (ETN) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/ETN/news/",
+      "title": "ETN News Today — MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:29:34.314136Z",
+  "backend": "claude-sonnet-subagent"
+}

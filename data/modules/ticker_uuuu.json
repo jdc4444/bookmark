@@ -1,0 +1,28 @@
+{
+  "key": "UUUU",
+  "name": "Energy Fuels Inc.",
+  "exchange": "NYSE American",
+  "blurb": "Energy Fuels Inc. is a leading U.S.-based critical minerals company focused on uranium production, rare earth elements (REE), and heavy mineral sands (HMS). The company explores, develops, and operates uranium mines alongside the White Mesa Mill in Utah—the only conventional uranium mill in the United States capable of processing uranium ore and alternative feedstocks. Energy Fuels is also advancing REE separation at the mill, producing oxides from monazite sands to reduce U.S. reliance on Chinese REE supplies. Its vertically integrated model, spanning mining to milling, provides a competitive edge as domestic uranium production gains priority on national security grounds.",
+  "recent": "Over the 30 days ending mid-May 2026, UUUU climbed approximately +13%, moving from roughly $19.54 to $22.04, driven by rising uranium spot prices, uranium sales exceeding expectations, and reaffirmed 2026 production guidance of up to 2.5 million pounds. Q1 2026 revenue surged 112% year-over-year to $36 million, though EPS came in at -$0.04, missing estimates; net loss nonetheless improved significantly versus the prior-year period. Analyst sentiment strengthened after H.C. Wainwright raised its price target to $29, and broader nuclear energy demand tailwinds supported the stock despite post-earnings volatility.",
+  "sources": [
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/UUUU/",
+      "title": "Energy Fuels (UUUU) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/UUUU/",
+      "title": "Energy Fuels Inc. (UUUU) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/uuuu",
+      "title": "UUUU Stock Price | Energy Fuels Inc. Stock Quote - MarketWatch"
+    },
+    {
+      "url": "https://tickeron.com/blogs/energy-fuels-uuuu-13-in-30-days-on-uranium-strength-and-ree-progress-13344/",
+      "title": "Energy Fuels (UUUU): +13% in 30 Days on Uranium Strength and REE Progress - Tickeron"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:47:32.881872Z",
+  "backend": "claude-sonnet-subagent"
+}

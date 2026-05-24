@@ -1,0 +1,24 @@
+{
+  "key": "FLEX",
+  "name": "Flex Ltd.",
+  "exchange": "NASDAQ",
+  "blurb": "Flex Ltd. is a global advanced manufacturing and supply chain solutions company headquartered in Austin, Texas. The company designs, engineers, and manufactures complex products for premier brands across diversified end markets including automotive, healthcare, industrial, and consumer electronics. Flex operates at global scale, providing end-to-end services from product design through distribution. Over the past several years the company has repositioned itself as a technology-focused industrial manufacturer, divesting non-core assets and concentrating on higher-margin, complex manufacturing programs.",
+  "recent": "On May 5, 2026, Flex announced that its Board of Directors unanimously approved a plan to spin off its Cloud and Power Infrastructure segment into a new independent publicly traded company ('SpinCo'), intended to be tax-free to shareholders and targeted to close in Q1 calendar 2027. SpinCo will focus on power and thermal management technologies and integrated infrastructure systems for AI data centers and mission-critical applications, while Flex will continue as a focused advanced manufacturing company. As part of the transaction, current CEO Revathi Advaithi will become CEO of SpinCo and serve as transitional Chairman of Flex's Board, with Michael Hartung named as incoming CEO of Flex.",
+  "sources": [
+    {
+      "url": "https://investors.flex.com/news/news-details/2026/Flex-Announces-Intention-to-Spin-Off-its-Cloud-and-Power-Infrastructure-Segment-into-a-New-Independent-Publicly-Traded-Company/default.aspx",
+      "title": "Flex Announces Intention to Spin Off its Cloud and Power Infrastructure Segment into a New Independent Publicly Traded Company"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/FLEX/news/",
+      "title": "FLEX News Today — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/FLEX/",
+      "title": "Flex Ltd. (FLEX) Stock Price, News, Quote & History — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:29:56.584837Z",
+  "backend": "claude-sonnet-subagent"
+}

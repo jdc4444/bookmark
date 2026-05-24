@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.sivers-semiconductors.com/press/sivers-semiconductors-appoints-vickram-vathulya-as-new-president-ceo/",
+    "https://www.microwavejournal.com/articles/44228-executive-interview-vickram-vathulya-ceo-sivers-semiconductors",
+    "https://www.sivers-semiconductors.com/press/dr-bami-bastani-is-nominated-as-the-chairman-of-the-board-of-directors-of-sivers-semiconductors-ab-and-is-appointed-executive-chairman-of-sivers-semiconductors-inc/",
+    "https://www.ad-hoc-news.de/boerse/news/ueberblick/co-founder-departure-and-restated-accounts-signal-sivers-semiconductors/69381844",
+    "https://www.ad-hoc-news.de/boerse/news/ueberblick/sivers-semiconductors-msci-induced-rally-masks-15-percent-dilution/69402419",
+    "https://www.sivers-semiconductors.com/press/notice-to-attend-the-annual-general-meeting-of-sivers-semiconductors-ab-publ-6/"
+  ],
+  "key_finding": "Bami Bastani (42-year semiconductor veteran, ex-GlobalFoundries SVP, ex-CEO ANADIGICS/Trident/Meru \u2014 three turnaround public-company CEOs) is the US-listing architect. He joined as Strategic Advisor in Aug 2023, was elevated to Sivers Inc US Executive Chairman + Sivers AB Chairman in Feb 2024. The CEO change (Anders Storm \u2192 Vickram Vathulya, US-educated semiconductor executive, in Aug 2024) followed within months. The PCAOB-aligned restatement (May 2026) and the board reshuffle clearing out co-founder Erik F\u00e4llstr\u00f6m (June 2026 AGM) follow the same logic: prep the entity for Nasdaq New York. The current board IS the listing team.",
+  "ceo": {
+    "name": "Vickram Vathulya",
+    "title": "President & CEO",
+    "appointed": "2024-08-19",
+    "predecessor": "Anders Storm",
+    "education": {
+      "phd": "Electrical Engineering, Lehigh University (Pennsylvania)",
+      "mba": "Berkeley Haas School of Business, University of California"
+    },
+    "career": [
+      "NXP Semiconductors \u2014 RF/wireless executive roles",
+      "Maxim Integrated \u2014 grew RF and wireless businesses",
+      "Maxim Semiconductors \u2014 revitalized 'largest and most profitable' standard products business",
+      "Nuvotronics \u2014 President; led strategic/operational/cultural transformation"
+    ],
+    "experience_years": 25,
+    "skin_in_game": {
+      "commitment": "Subscribe to up to 2,000,000 Sivers shares",
+      "value_usd": 1000000,
+      "via": "Personal commitment at appointment, subject to EGM approval",
+      "contrast_note": "Vathulya's seven-figure personal commitment is the opposite of the zero-shares-held REVIC deployment pattern Unitika exhibited with Kashiwagi Hisami. Vathulya is investing in his own bet."
+    },
+    "framing": "Vathulya's appointment was the signal that Sivers had chosen US capital markets as its endgame. A Lehigh PhD / Berkeley MBA running a Stockholm-listed company is not staffed for European institutional comfort \u2014 it is staffed for Nasdaq investor day."
+  },
+  "chairman": {
+    "name": "Bami Bastani",
+    "title_ab": "Chairman of the Board, Sivers Semiconductors AB",
+    "title_inc": "Executive Chairman, Sivers Semiconductors Inc.",
+    "joined_as": "Strategic Advisor (2023-08)",
+    "elevated_to_chairman": "2024-02",
+    "experience_years": 42,
+    "career": [
+      "Intel \u2014 semiconductor components",
+      "National Semiconductor \u2014 semiconductor components",
+      "Fujitsu Micro \u2014 System on a Chip",
+      "Trident Microsystems \u2014 President & CEO + Board (turnaround)",
+      "ANADIGICS \u2014 President & CEO + Board (turnaround)",
+      "Meru Networks \u2014 President & CEO + Board (WiFi-as-a-Service); enterprise systems",
+      "GlobalFoundries \u2014 Senior Vice President + Board member at Global Semiconductor Alliance (GSA)"
+    ],
+    "public_company_ceo_turnarounds": [
+      "ANADIGICS",
+      "Trident Microsystems",
+      "Meru Networks"
+    ],
+    "framing": "Bastani has been a public-company turnaround CEO three times. He is on the Sivers board as the US capital markets architect \u2014 and as the most experienced operating executive in the room."
+  },
+  "departing_at_2026_06_15_agm": [
+    {
+      "name": "Erik F\u00e4llstr\u00f6m",
+      "role": "Co-founder; Board Member",
+      "current_economic_interest": "Controls ~11.8% of Sivers votes via DDM Debt + F\u00e4llstr\u00f6m Family Office",
+      "outside_role": "CEO of DDM Debt",
+      "departure_context": "Strategic. DDM has publicly flagged that it 'wants to drive the company towards a broader investment company' \u2014 a vision in direct tension with the operational-focus thesis of the US-listing prep. His departure clears the room for a Nasdaq pitch that needs to talk about Sivers as a focused operating company, not as a vehicle for an activist holding play."
+    },
+    {
+      "name": "Tomas Duffy",
+      "role": "Current Vice Chairman; departing",
+      "education": "BSc, Kungliga tekniska h\u00f6gskolan (Royal Institute of Technology, KTH), 1976-1980",
+      "career": [
+        "Director of Large Corporates + Head of Telecom, EKN Exportkreditn\u00e4mnden (Swedish Export Credit Agency), Dec 2010 - April 2017",
+        "Partner, Vigerna Consulting",
+        "Sivers Semiconductors AB Board (since 2016)",
+        "Sivers IMA / Sivers Semiconductors Chair (since 2018; now Vice Chairman pre-departure)"
+      ],
+      "concurrent_boards": [
+        "CST Global Ltd.",
+        "Stella Tech AB",
+        "Stella Tech Distribution AB"
+      ],
+      "framing": "Duffy is the institutional memory. He joined the board in 2016, became chairman in 2018, and was at the table for the 2017 CST Global acquisition, the 2022 MixComm acquisition, and the Sivers IMA \u2192 Sivers Semiconductors rebrand. His pre-Sivers career \u2014 Swedish state export-credit telecom finance \u2014 anchored the European institutional credibility of the entity through the early growth-stage years. The transition to a US-listing-architect chairman (Bastani) made him surplus to the next phase rather than wrong for the previous one."
+    },
+    {
+      "name": "Keith Halsey",
+      "role": "Board member; departing",
+      "joined_board": "2024-05-15 AGM",
+      "tenure_at_departure_months": 13,
+      "framing": "Halsey served only ~13 months before this reshuffle (elected May 2024, departing June 2026). Public biographical detail remains thin in the sources reviewed at the snapshot date \u2014 flag as a genuine sourcing gap and not a basis for inference. The short tenure pattern is consistent with a transitional appointment between the pre-Bastani board and the US-listing-prep board, but the rationale for his rotation is not stated in the AGM materials."
+    }
+  ],
+  "continuing_directors": [
+    {
+      "name": "Bami Bastani",
+      "title": "Chairman (proposed re-election)",
+      "see": "chairman section above"
+    },
+    {
+      "name": "Todd Thomson",
+      "title": "Independent Director (since 2021)",
+      "education": "MBA Wharton; BA Economics Davidson College",
+      "career": [
+        "Bain & Co. \u2014 Fortune 500 advisory",
+        "Booz Allen Hamilton \u2014 strategy",
+        "Barents Group \u2014 strategy",
+        "GE Capital \u2014 M&A + strategy",
+        "Citigroup \u2014 CFO (5 years)",
+        "Citigroup Global Wealth Management \u2014 CEO ($10B division, 2.5 years)",
+        "Citigroup Alternative Investments \u2014 CEO",
+        "Chairman, Citi Pension Investment Committee",
+        "GlobalFoundries \u2014 advisory / executive",
+        "Currently: COO & CFO, Kairos Ventures (US VC firm)",
+        "Director, Actuate Therapeutics",
+        "Investment Committees: Dynasty, Davidson College, World Resources Institute"
+      ],
+      "tenure_at_sivers": "since 2021",
+      "significance": "Thomson is the most credentialed US-capital-markets figure on the board \u2014 former Citi CFO, former CEO of Citi's $10B Global Wealth Management division. He joined Sivers in 2021, three years before Bastani arrived and four years before the PCAOB restatement. He is therefore not part of the US-listing wave of appointments; he is the figure who LIKELY OPENED THE DOOR to the US-listing thesis in the first place. The Bastani-Vathulya-Thomson combination is unusually heavy on US public-company experience for a Swedish small-cap and that concentration is deliberate."
+    },
+    {
+      "name": "Karin Raj",
+      "title": "Independent, Non-executive Board Director; Chair, Investment Committee",
+      "current_employer": "Nokia",
+      "current_role": "CTO Europe, Nokia",
+      "career_arc": [
+        "Ericsson \u2014 senior technical roles",
+        "Various deep-tech firms",
+        "Nokia \u2014 CTO Europe (current)"
+      ],
+      "geographic_experience": [
+        "USA",
+        "China",
+        "India",
+        "France",
+        "Turkey",
+        "Nordics"
+      ],
+      "domains": [
+        "Telecom + satcom",
+        "Semiconductors + photonics",
+        "AI + IoT",
+        "Sensors + nanotech",
+        "High-precision micro-mechanics"
+      ],
+      "industry_cycles_led": "Mobile revolution through 2G/3G + 4G/5G",
+      "sivers_role": "Chair of the Investment Committee \u2014 structural authority over capex decisions",
+      "framing": "Raj is the technical anchor of the board. As Nokia's CTO Europe she carries direct big-tech-company experience in the exact intersection of segments Sivers operates in (telecom + satcom + semiconductors + photonics). Her chair of the Investment Committee role is the closest thing on the Sivers board to a structural CTO function \u2014 independent technical review of capex and product roadmap decisions."
+    }
+  ],
+  "new_nominees_2026_06_15_agm": [
+    {
+      "name": "Joakim Nideborn",
+      "proposed_title": "Vice Chairman",
+      "background": "Broad experience as CFO at listed technology companies",
+      "competencies": [
+        "Strategic business development",
+        "International expansion",
+        "Corporate governance",
+        "Financial communication",
+        "Capital markets"
+      ],
+      "stated_focus": "Primary oversight of the Board for customers, employees, and investors in the Nordic region",
+      "current_role": "CFO and Deputy CEO, HMS Networks AB (Nasdaq Stockholm listed industrial communications)",
+      "hms_career": [
+        "2017-12-01: CFO, HMS Networks AB",
+        "2021-12: Promoted to Deputy CEO (concurrent)"
+      ],
+      "prior_career": [
+        "Axiell Group",
+        "Ixyz Consulting",
+        "Beijer Electronics"
+      ],
+      "domain": "Industrial automation + consulting",
+      "framing": "Nideborn is a SITTING listed-company CFO and Deputy CEO at HMS Networks \u2014 a Nasdaq Stockholm industrial communications company. He is not a 'broad CFO background' in the abstract; he is a working CFO at a comparable Swedish listed tech company. The Vice Chairman role at Sivers gives him primary oversight of Nordic-region customers, employees, and investors \u2014 the governance counterpart to Bastani's US-capital-markets orientation."
+    },
+    {
+      "name": "Helena Svancar",
+      "proposed_title": "Board member",
+      "background": "More than 20 years of international leadership experience",
+      "competencies": [
+        "Corporate strategy",
+        "Corporate governance",
+        "Scaling technology businesses"
+      ],
+      "current_role": "Partner, Verdane (Nordic growth-equity firm), since September 2022",
+      "verdane_specialty": "M&A and communications technology",
+      "career": [
+        "20 years investment banking total",
+        "Deutsche Bank \u2014 last 10 years; Managing Director and Head of Corporate Finance Nordics",
+        "Ericsson \u2014 Head of M&A for nearly 5 years",
+        "Verdane \u2014 Partner, M&A specialist (Sept 2022 onwards)"
+      ],
+      "education": "CEMS MSc in Finance and International Management \u2014 Stockholm School of Economics + University of St. Gallen",
+      "concurrent_boards": [
+        "Onomondo \u2014 Non-Executive Director",
+        "Truecaller \u2014 Non-Executive Director; Chair of Remuneration Committee"
+      ],
+      "framing": "Svancar is the most cross-border M&A-pedigreed director on the Sivers board. She was Head of M&A at Ericsson for nearly five years \u2014 running the M&A desk at one of Sweden's most acquisitive large-cap tech companies \u2014 and before that spent a decade at Deutsche Bank rising to Managing Director and Head of Corporate Finance Nordics. Her appointment to a board preparing a US dual listing is signal-dense: a former Deutsche Bank Head of Corporate Finance Nordics and former Ericsson M&A head is the addition a board makes when it expects to execute cross-border transactions."
+    }
+  ],
+  "post_agm_board_composition": {
+    "total": 5,
+    "executive_chairman": 1,
+    "non_executive_directors": 4,
+    "vice_chairman": 1,
+    "framing": "5-person board (vs Unitika's 12-person director+auditor structure) reflects Swedish corporate governance norms. Smaller boards are typical for growth-stage Swedish-listed companies; smaller boards are also typical for companies preparing US listings where the SEC + NYSE/Nasdaq corporate governance rules emphasize majority-independent + audit-committee + governance-committee structures."
+  },
+  "concurrent_governance_concerns": {
+    "insider_trading_investigation": "Sweden's Economic Crime Authority (Ekobrottsmyndigheten) is examining possible market abuse violations related to the Nasdaq listing announcement, which leaked roughly 48 hours early via an anonymous X account. The investigation is open as of the snapshot date and the outcome could materially affect investor sentiment heading into the AGM.",
+    "msci_inclusion_timing": "Sivers joins MSCI Sweden Small Cap Index on 2026-05-29 \u2014 the same day Q1 results are released (delayed from earlier window) \u2014 forcing passive fund buying simultaneously with the first earnings under the new PCAOB regime."
+  },
+  "board_composition_observation": "The post-AGM board carries FOUR directors whose primary professional identity is corporate-finance and M&A execution: Bastani (3\u00d7 public-company turnaround CEO), Thomson (ex-Citi CFO, current Kairos COO/CFO), Nideborn (sitting HMS Networks CFO + Deputy CEO), and Svancar (ex-Deutsche Bank Head of Corporate Finance Nordics + ex-Ericsson Head of M&A). For a Stockholm small-cap that is approximately $2.2B market cap, this concentration of corporate-finance pedigree is unusually heavy and points to a board built not just for organic growth but for transactional work \u2014 the planned US dual listing being the explicit case, acquisitions to scale up before listing being an obvious adjacency."
+}

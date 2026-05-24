@@ -1,0 +1,122 @@
+{
+  "headline": "Open-Source Browser Tool Revives the Animation Workflow Adobe Neglected",
+  "lede": "For nearly a decade, the easiest route from a custom 3D model to an animated character ran through Mixamo — a service Adobe (ADBE) acquired in 2015 and has largely left untouched since. Mesh2Motion is an open-source, browser-based alternative that replicates and extends that workflow without an account, a software installation, or a subscription. In eighteen months it has drawn more than 2,500 GitHub stars.",
+  "body": "The tool's workflow is deliberately frictionless. A user imports a *GLB* or *glTF* file — the Khronos Group's open 3D interchange standard — positions a virtual skeleton inside the model using a browser-based editor, browses a library of motion-capture animations, and selects those to export. The result is a self-contained GLB containing the mesh, skeleton, and animation tracks, compatible without conversion with Three.js, Unity, Unreal Engine, Godot, and most other current 3D pipelines.\n\nThe context that makes this significant is Adobe's (ADBE) stewardship of Mixamo. The service, originally a Stanford University Biomotion Lab spin-off that pioneered cloud-based *auto-rigging* — the automated insertion of a skeleton into a mesh, with computed joint influences — was acquired for a reported $30 million in 2015. Adobe made it free for Creative Cloud subscribers and discontinued its satellite products: the character creator Fuse was shut down in 2019, the facial-animation tool Face Plus by 2017. The core auto-rigger still operates but supports only human bipeds and has received no major update in years, leaving a widely used production workflow without a credible successor.\n\nMesh2Motion's most tangible extension beyond Mixamo is skeleton variety. The project ships presets for quadrupeds — horses, foxes, cats — and birds, categories the older service has never addressed. A subtler but important feature is **A-Pose correction**, which resolves a persistent headache in *skeleton retargeting*: when a source rig's arms are horizontal (T-Pose) and the target rig's are angled downward at roughly 45 degrees (A-Pose, now Unreal Engine 5's default), every frame of animation arrives with a shoulder offset unless a correction matrix compensates. Mesh2Motion automates that step. A May 2026 update added support for Blender's *Rigify* auto-rigging system, meaning characters already rigged in Blender can be auto-mapped to Mesh2Motion's skeleton format — a sign the project is growing upstream, not merely refining its original scope.\n\nThe developer, Scott Petrovic, brings more than hobbyist credentials. Since 2013 he has served as UI lead at the **Krita Foundation**, the non-profit behind the open-source painting application *Krita*, directing its interface design across a decade of development and authoring *Digital Painting with Krita 2.9*, the first English-language book on the software. He completed a Three.js certification in 2023 and began building Mesh2Motion the same year — the framing of the tool's export target makes the connection explicit. The tweet seeking feedback from Mixamo users places the project squarely in the listening phase: the \"alpha\" label and the direct ask are consistent with a builder who has learned, through years of open-source work, that patience and iteration matter more than launch velocity.",
+  "tickers": [
+    "ADBE"
+  ],
+  "companies": [
+    {
+      "name": "Adobe",
+      "ticker": "ADBE"
+    },
+    {
+      "name": "Krita Foundation",
+      "ticker": null
+    },
+    {
+      "name": "Khronos Group",
+      "ticker": null
+    }
+  ],
+  "poster": "scottpetrovic",
+  "concepts": [
+    {
+      "key": "glb-gltf",
+      "term": "GLB / glTF",
+      "definition": "glTF (GL Transmission Format) is a royalty-free 3D file standard published by the Khronos Group, the same consortium behind OpenGL and WebGL. GLB is its binary container form, packaging geometry, materials, skeleton rigs, and animation tracks into a single file. It is supported natively by Three.js, Unity, Unreal Engine, Godot, and most web and game platforms, making it the dominant interchange format for real-time 3D assets."
+    },
+    {
+      "key": "auto-rigging",
+      "term": "auto-rigging",
+      "definition": "Rigging is the process of inserting a digital skeleton into a 3D mesh and computing how each bone deforms the surrounding geometry — a per-vertex value called a skinning weight. Auto-rigging uses software, often machine-learning-assisted, to perform this automatically from a model alone, without manual bone placement. Mixamo's cloud auto-rigger was the first widely accessible version of this workflow."
+    },
+    {
+      "key": "skeleton-retargeting",
+      "term": "skeleton retargeting",
+      "definition": "The process of transferring animation curves — per-frame rotations and positions of each bone — from one skeleton onto a structurally different skeleton. Because different rigs may have different bone names, proportions, or rest positions, a direct copy of the curves usually produces distorted motion; retargeting software applies remapping and scaling to make the result look natural on the target character."
+    },
+    {
+      "key": "a-pose-correction",
+      "term": "A-Pose correction",
+      "definition": "A correction step applied during skeleton retargeting when the source and target skeletons were posed differently at rig time. A T-Pose has arms extended horizontally; an A-Pose has arms angled downward at roughly 45 degrees. If both rigs share the same pose, animation transfers cleanly; if they differ, a per-bone correction matrix must be applied to every frame to prevent shoulder offsets and other artifacts in the exported animation."
+    },
+    {
+      "key": "rigify",
+      "term": "Rigify",
+      "definition": "Blender's built-in procedural auto-rigging system. It generates a full control rig from a set of meta-bones, producing a production-quality armature with FK/IK switching and deformation bones. Characters rigged with Rigify have a predictable bone-naming convention, which tools like Mesh2Motion can detect and auto-map to their own skeleton format."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "A JavaScript library created by Ricardo Cabello (mrdoob) in 2010 that wraps WebGL — the browser's low-level 3D graphics API — into an approachable, high-level API for rendering scenes, cameras, lights, materials, and animations. With over 112,000 GitHub stars and roughly six to eleven million npm downloads per month, it is the dominant framework for 3D content on the web."
+    }
+  ],
+  "books": [
+    {
+      "key": "digital-painting-krita-2-9",
+      "title": "Digital Painting with Krita 2.9",
+      "author": "Scott Petrovic",
+      "summary": "Published in 2015, this was the first English-language book dedicated to Krita, the open-source professional painting application. Written by the application's own UI lead, it covers brushes, layers, the animation workflow, and production techniques aimed at working digital artists. The book won an Artist Choice Award in ImagineFX magazine and helped establish Krita's credibility as a professional tool beyond hobbyist use."
+    }
+  ],
+  "repos": [
+    {
+      "key": "scottpetrovic/mesh2motion-app",
+      "url": "https://github.com/scottpetrovic/mesh2motion-app",
+      "summary": "The main Mesh2Motion repository, written in TypeScript with a Vite bundler and Three.js rendering layer. It implements the full import-rig-animate-export workflow in the browser: GLB/glTF model import, skeleton fitting, motion-capture animation preview, and batch GLB export. Licensed MIT for code and CC0 for all bundled art assets, with active community contributions including Blender Rigify AutoMapper support merged in May 2026."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/scottpetrovic/mesh2motion-app",
+      "title": "Mesh2Motion — GitHub Repository",
+      "note": "Primary source: README, license, commit history, and full feature list"
+    },
+    {
+      "url": "https://app.mesh2motion.org",
+      "title": "Mesh2Motion Live Application",
+      "note": "Live app confirming workflow steps and supported skeleton types"
+    },
+    {
+      "url": "https://gamefromscratch.com/mesh2motion-open-source-mixamo-alternative/",
+      "title": "Mesh2Motion — Open Source Mixamo Alternative (GameFromScratch)",
+      "note": "Third-party coverage framing competitive positioning against Mixamo"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mixamo",
+      "title": "Mixamo — Wikipedia",
+      "note": "Acquisition history, founding details, and product discontinuations"
+    },
+    {
+      "url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "title": "Mixamo FAQ — Adobe Official",
+      "note": "Current feature set and status of Mixamo under Adobe"
+    },
+    {
+      "url": "https://github.com/mrdoob/three.js",
+      "title": "Three.js GitHub Repository",
+      "note": "Library overview, star count, contributor volume, and release history"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/GlTF",
+      "title": "glTF — Wikipedia",
+      "note": "Format history, Khronos Group authorship, GLB specification details"
+    },
+    {
+      "url": "https://www.scottpetrovic.com/",
+      "title": "Scott Petrovic — Personal Site",
+      "note": "Biography, Krita contributions, Three.js certification date"
+    },
+    {
+      "url": "https://github.com/scottpetrovic",
+      "title": "Scott Petrovic — GitHub Profile",
+      "note": "Repository history, commit activity, and mesh2motion-assets repo"
+    }
+  ],
+  "bookmark_id": "1920839635875324311",
+  "generated_at": "2026-05-07T06:50:25.965871Z",
+  "backend": "claude-sonnet-subagent"
+}

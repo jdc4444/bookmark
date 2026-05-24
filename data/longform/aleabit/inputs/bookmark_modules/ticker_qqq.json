@@ -1,0 +1,29 @@
+{
+  "ticker": "QQQ",
+  "exchange": "NASDAQ",
+  "company": "Invesco QQQ Trust, Series 1",
+  "sector": "ETF — Technology / Growth",
+  "description": "Invesco QQQ Trust is an exchange-traded fund that tracks the Nasdaq-100 Index, a market-capitalisation-weighted index of the 100 largest non-financial companies listed on the NASDAQ exchange. Heavily concentrated in mega-cap technology and AI-adjacent companies — Apple, Microsoft, Nvidia, Alphabet, Amazon, Meta, Tesla, and Broadcom collectively represent more than half the fund's weight — QQQ functions as the primary liquid proxy for institutional and retail exposure to U.S. large-cap growth, AI infrastructure buildout, and semiconductor cycles. It is the third-largest ETF in the world by assets under management.",
+  "key_products": [
+    "Nasdaq-100 Index tracking",
+    "growth/technology sector exposure"
+  ],
+  "market_cap_usd": null,
+  "aum_usd": 330000000000,
+  "aum_date": "2026-05-05",
+  "expense_ratio": 0.002,
+  "top_holdings": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "TSLA",
+    "AVGO"
+  ],
+  "last_updated": "2026-05-05",
+  "key": "QQQ",
+  "blurb": "Invesco QQQ Trust is an exchange-traded fund that tracks the Nasdaq-100 Index, a market-capitalisation-weighted index of the 100 largest non-financial companies listed on the NASDAQ exchange. Heavily concentrated in mega-cap technology and AI-adjacent companies — Apple, Microsoft, Nvidia, Alphabet, Amazon, Meta, Tesla, and Broadcom collectively represent more than half the fund's weight — QQQ functions as the primary liquid proxy for institutional and retail exposure to U.S. large-cap growth, AI infrastructure buildout, and semiconductor cycles.",
+  "recent": "It is the third-largest ETF in the world by assets under management, with approximately $330 billion in AUM and an expense ratio of 0.20% as of early May 2026."
+}

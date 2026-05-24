@@ -1,0 +1,54 @@
+{
+  "headline": "A Free Library of Claude Skills for Social Media Creation",
+  "lede": "Charlie Hills, a content creator and AI educator, has released his entire library of 17 Claude-based skills as a free, cloneable GitHub repository. The collection powers his own content operation across LinkedIn, Instagram, Substack, X, and YouTube. The pitch is simple: clone the repo, drop it into a Claude project, and the system writes in your voice.",
+  "body": "The library is organized around a single architectural idea: every skill reads from a foundational *voice-builder* file first. That file is meant to capture the user's tone, cadence, and personality, so that all downstream outputs — LinkedIn posts, newsletter drafts, video scripts — remain stylistically consistent rather than sounding like generic AI boilerplate. Hills describes the voice-builder as the linchpin; change it, and the whole system recalibrates.\n\nThe 17 skills divide into five categories. Foundation skills (voice-builder, newsletter-voice) establish identity. LinkedIn skills handle the full production pipeline: profile optimization, drafting, scoring, formatting, and generating hooks — the opening lines that social algorithms reward with reach. Content-planning skills include a *content-matrix* (a structured grid for mapping topics to formats) and a niche-research tool. Graphics and video skills lean on Google's Gemini model for infographic and carousel generation, and on scripting for short-form video.\n\nThe distribution model is deliberately low-friction. Technical users can `git clone` the repository and place the folder inside a Claude project. Non-technical users can download a ZIP and upload the folders manually. Neither route requires API keys or a developer environment — only a Claude subscription with the Projects feature enabled, which allows persistent custom instructions and uploaded files.\n\nThe broader context is a growing market of *prompt engineering* products: pre-written instruction sets sold or given away to help non-programmers extract consistent, specialized behavior from large language models. Hills's library competes with paid alternatives by going free and open, betting that visibility and community growth outweigh direct monetization. Whether the skills produce meaningfully better output than a well-crafted single prompt is a question each user will answer for themselves.",
+  "tickers": [],
+  "poster": "charliejhills",
+  "concepts": [
+    {
+      "key": "claude-skills",
+      "term": "Claude Skills (Projects)",
+      "definition": "A feature in Anthropic's Claude that lets users attach persistent instruction files and documents to a project. Skills in this context are modular instruction sets — plain text files that tell Claude how to behave for a specific task, such as writing a LinkedIn post or generating an infographic brief."
+    },
+    {
+      "key": "voice-builder",
+      "term": "Voice Builder",
+      "definition": "A foundational prompt file that encodes a user's writing style, tone, and personality. In Hills's system, every other skill reads this file first, so all AI-generated content reflects a consistent authorial identity rather than a generic output."
+    },
+    {
+      "key": "content-matrix",
+      "term": "Content Matrix",
+      "definition": "A planning framework that maps content topics against distribution formats (e.g., short post, carousel, video) to generate a structured content calendar. It helps creators avoid repetition and ensure variety across channels."
+    },
+    {
+      "key": "hook-generator",
+      "term": "Hook Generator",
+      "definition": "A tool that writes the opening line or lines of a social media post. Platform algorithms tend to show more of a post only after a user engages with the opening, making a strong hook disproportionately important for reach."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "charlie947-claude-skills",
+      "url": "https://github.com/charlie947",
+      "summary": "A collection of 17 modular Claude instruction files covering content creation for LinkedIn, newsletters, short-form video, and graphics. Each skill is a plain-text prompt file designed to be dropped into a Claude Project folder. The system is anchored by a voice-builder file that all other skills reference, ensuring stylistic consistency across outputs."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/charlie947?tab=repositories",
+      "title": "charlie947 (Charlie Hills) / Repositories · GitHub",
+      "note": "Confirms GitHub identity and repository presence for Charlie Hills"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/charlie-hills_my-entire-claude-skills-library-is-now-free-activity-7454107016962191360-3HTY",
+      "title": "Charlie Hills's Post - LinkedIn",
+      "note": "Primary source for the full skill list, installation instructions, and the voice-builder architecture"
+    }
+  ],
+  "bookmark_id": "2035999614135067047",
+  "generated_at": "2026-05-06T19:58:18.766722Z",
+  "backend": "claude"
+}

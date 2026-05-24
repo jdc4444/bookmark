@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "fiscal_year_end": "December 31",
+  "currency": "USD",
+  "sources": [
+    "https://www.stocktitan.net/sec-filings/TLN/10-k-talen-energy-corp-files-annual-report-d8a48267db5f.html",
+    "https://www.stocktitan.net/sec-filings/TLN/ars-talen-energy-corp-sec-filing-14bae126f3f8.html",
+    "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-expands-nuclear-energy-relationship-amazon",
+    "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-centert/750440/"
+  ],
+  "key_finding": "Talen FY2025 delivered $1,035M adjusted EBITDA and $524M adjusted FCF on a 13.1 GW US generation portfolio anchored by the 2.5 GW Susquehanna nuclear facility (90% owned, generated ~17 TWh in 2025 at ~$27/MWh). The defining commercial milestone was the June 2025 expansion of the Amazon AWS PPA to up to 1,920 MW carbon-free baseload through 2042. Pending and recently closed acquisitions add ~5.3 GW of gas capacity for ~$7.25B total: Freedom + Guernsey (~$3.8B, closed in FY2025) and Cornerstone (~$3.45B, agreed). The financing stack is $1.4B 6.250% senior unsecured notes due 2034 plus $1.3B 6.500% senior unsecured notes due 2036, with management targeting net leverage around 3.5x or lower over the cycle.",
+  "generation_portfolio_total_gw": 13.1,
+  "generation_portfolio_breakdown": {
+    "nuclear_gw": 2.2,
+    "low_zero_carbon_baseload_total_gw": 5.7,
+    "natural_gas_combined_cycle_gw": 2.8,
+    "intermediate_peaking_gw": 4.6,
+    "minority_coal_interests_mw": 800
+  },
+  "susquehanna_specifics": {
+    "ownership_share": 0.90,
+    "total_capacity_gw": 2.5,
+    "fy2025_generation_twh": 17.0,
+    "fy2025_implied_lcoe_per_mwh_usd": 27
+  },
+  "fy2025_financial_metrics": {
+    "adjusted_ebitda_usd_millions": 1035,
+    "adjusted_fcf_usd_millions": 524
+  },
+  "amazon_aws_ppa": {
+    "initial_signing": "2024-03",
+    "expansion_signing": "2025-06",
+    "max_volume_mw": 1920,
+    "term_through_year": 2042,
+    "ramp_to_full_volume_year_approx": 2032,
+    "carbon_intensity": "carbon-free baseload",
+    "delivery_geography": "Amazon data center campus adjacent to Susquehanna, plus other Pennsylvania sites",
+    "additional_scope": "Talen and Amazon also exploring co-development of Small Modular Reactors (SMRs) within Talen's Pennsylvania footprint",
+    "framing": "Among the largest single carbon-free data center PPAs in US history; structurally similar to a multi-decade utility contract priced for AI workload buyers"
+  },
+  "rmr_contracts": {
+    "brandon_shores": {"annual_payment_usd_millions": 145, "start_date": "2025-06", "term_through": "2029-05"},
+    "ha_wagner": {"annual_payment_usd_millions": 35, "start_date": "2025-06", "term_through": "2029-05"}
+  },
+  "pjm_capacity_market": {
+    "auction_year": "2027/2028",
+    "cleared_capacity_mw": 8745,
+    "clearing_price_usd_per_mw_day": 333.44
+  },
+  "acquisitions": [
+    {"name": "Freedom and Guernsey", "capacity_gw": 2.8, "transaction_value_usd_billions": 3.8, "status": "Closed FY2025", "type": "Natural gas combined-cycle"},
+    {"name": "Cornerstone", "capacity_combined_cycle_gw": 2.0, "capacity_peaking_mw": 456, "transaction_value_usd_billions": 3.45, "status": "Agreed", "type": "Natural gas combined-cycle plus peaking"}
+  ],
+  "debt_issuances": [
+    {"principal_usd_billions": 1.4, "coupon_pct": 6.250, "maturity": 2034, "ranking": "Senior unsecured"},
+    {"principal_usd_billions": 1.3, "coupon_pct": 6.500, "maturity": 2036, "ranking": "Senior unsecured"}
+  ],
+  "capital_structure_target": "Net leverage around 3.5x or lower over the cycle",
+  "market_position": "Primarily operates in PJM (Mid-Atlantic, Ohio regions)",
+  "structural_observations": [
+    "Susquehanna at ~$27/MWh LCOE is one of the most economic baseload assets on the PJM grid. The Amazon PPA monetises that LCOE at significantly higher contract prices for AI data center buyers.",
+    "Adjusted FCF of $524M against adjusted EBITDA of $1,035M produces an FCF/EBITDA ratio of 50% — strong cash conversion for an IPP with significant maintenance capex.",
+    "The PJM 2027/2028 capacity auction clearing price of $333.44/MW-day on 8,745 MW cleared implies ~$1.06B of annual capacity payments at that price level — adds substantial visibility to revenue.",
+    "$7.25B of total acquisition spend (Freedom + Guernsey + Cornerstone) against $2.7B of new debt issuance + adjusted FCF over multi-year horizon implies the company is meaningfully levering its balance sheet to consolidate gas capacity into the IPP fleet.",
+    "Brandon Shores + H.A. Wagner RMR contracts together provide $180M of fixed annual revenue through May 2029 — meaningful contribution to revenue stability."
+  ]
+}

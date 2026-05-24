@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001844452/000162828026019865/lunr-20251231.htm",
+    "https://www.quiverquant.com/news/Intuitive+Machines+Stock+(LUNR)+Opinions+on+NASA+$180M+CLPS+Contract"
+  ],
+  "key_finding": "Intuitive Machines' counterparty map is dominated by NASA. The Commercial Lunar Payload Services (CLPS) program is the single most consequential customer relationship — a $4.82B contract ceiling with multiple task orders awarded under it. Secondary government customers include DoD, DARPA, Space Force. The Lanteris acquisition diversifies the customer mix by adding satellite-systems customers in commercial and government markets. The competitive set in lunar delivery is Astrobotic (also a CLPS awardee, conducted unsuccessful Peregrine lunar landing attempt), Firefly Aerospace (also CLPS, achieved successful Blue Ghost landing), and to a less direct extent SpaceX and Blue Origin who provide launch services rather than payload delivery.",
+  "nasa_clps_program": {
+    "total_contract_ceiling_usd_billions": 4.82,
+    "guaranteed_near_term_usd_millions": 150,
+    "im5_task_order": {
+      "value_usd_millions": 180.4,
+      "scope": "Deliver seven science and technology payloads to the Lunar South Pole using cargo-class Nova-D lander"
+    },
+    "framing": "CLPS is NASA's commercial procurement program for lunar payload delivery services. Intuitive Machines, Firefly, Astrobotic, and a handful of others are competing for task orders within the program. CLPS is structurally similar to Commercial Resupply Services (CRS) and Commercial Crew (CCP) that funded SpaceX's early commercial development."
+  },
+  "lunar_missions": [
+    {
+      "mission": "IM-1 'Odysseus'",
+      "launch_date": "2024-02-15",
+      "landing_date": "2024-02-22",
+      "lander_class": "Nova-C",
+      "outcome": "First private company to successfully land a spacecraft on the Moon's surface (touchdown achieved despite landing-leg complications and a sideways resting orientation)"
+    },
+    {
+      "mission": "IM-2 'Athena'",
+      "launch_date_approx": "Q1 2025",
+      "lander_class": "Nova-C",
+      "outcome": "Reached lunar surface; mission outcome had operational complications similar to IM-1"
+    },
+    {
+      "mission": "IM-3",
+      "status_at_snapshot": "In preparation"
+    },
+    {
+      "mission": "IM-4",
+      "status_at_snapshot": "In planning"
+    },
+    {
+      "mission": "IM-5",
+      "task_order_value_usd_millions": 180.4,
+      "lander_class": "Nova-D (larger cargo class)",
+      "destination": "Lunar South Pole",
+      "payloads": "Seven science and technology payloads"
+    }
+  ],
+  "primary_customers": [
+    {"name": "NASA Commercial Lunar Payload Services (CLPS)", "type": "Government contracted lunar delivery"},
+    {"name": "NASA Artemis program", "type": "Adjacent government customer for lunar infrastructure"},
+    {"name": "DoD, DARPA, US Space Force", "type": "National-security and dual-use customers"},
+    {"name": "Commercial satellite customers (via Lanteris post-acquisition)", "type": "Boeing-pedigree satellite systems customer base"}
+  ],
+  "competitive_set": [
+    {"name": "Astrobotic Technology", "framing": "Private CLPS awardee; conducted unsuccessful Peregrine lunar landing attempt in 2024 (mission ended before reaching lunar surface)"},
+    {"name": "Firefly Aerospace", "framing": "Public via FLY ticker; conducted successful Blue Ghost lunar landing in 2025"},
+    {"name": "SpaceX", "framing": "Launch services provider; not directly competing in lunar payload delivery but provides Starship as the broader lunar transportation platform via NASA HLS"},
+    {"name": "Blue Origin", "framing": "Launch services + lunar landing development (Blue Moon); the NASA HLS sustained lunar lander competitor"},
+    {"name": "Lockheed Martin / Northrop Grumman / Boeing / Raytheon", "framing": "Traditional aerospace and defense primes; competitive overlap on broader space-systems and NASA contract work, especially post-Lanteris acquisition"}
+  ],
+  "supply_chain_observations": {
+    "lander_propulsion": "Intuitive Machines designs and builds its own Nova-C and Nova-D lander platforms in Houston",
+    "launch_services": "IM-1 launched on SpaceX Falcon 9. Subsequent missions also expected on SpaceX or potentially Blue Origin New Glenn",
+    "ground_systems": "Lunar Telemetry, Tracking, and Control (TT&C) capability is one of IM's proprietary capabilities — could become a separate revenue line"
+  },
+  "lanteris_acquisition_counterparty_addition": "The $800M Lanteris acquisition (expected close Q1 2026) adds a satellite-systems customer book that brings Intuitive Machines into competitive overlap with the traditional aerospace primes on broader space-systems contracts. Lanteris CEO Chris Johnson (now President of Lanteris within IM) brings Boeing Satellite Systems International institutional relationships."
+}

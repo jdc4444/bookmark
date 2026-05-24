@@ -1,0 +1,28 @@
+{
+  "key": "BKR",
+  "name": "Baker Hughes Company",
+  "exchange": "NASDAQ",
+  "blurb": "Baker Hughes is an energy technology company that provides products and services for the oil and gas industry, including drilling, completion, and production solutions. It also offers industrial asset management and digital solutions. The company operates in over 120 countries and is one of the largest oilfield services firms globally, competing with Schlumberger and Halliburton.",
+  "recent": "In the past 30 days, Baker Hughes reported Q4 2024 earnings that beat estimates, with revenue of $6.9 billion and adjusted EPS of $0.52. The stock has risen approximately 8% amid a broader energy sector rally and increased rig count activity. Analysts have maintained a positive outlook, citing strong international and offshore demand.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BKR/",
+      "title": "Baker Hughes Company (BKR) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/bkr",
+      "title": "BKR Stock Price | Baker Hughes Co. Stock Quote (U.S.: Nasdaq ..."
+    },
+    {
+      "url": "https://investors.bakerhughes.com/stock-info/default.aspx",
+      "title": "Stock Info | Baker Hughes"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/BKR/",
+      "title": "Baker Hughes (BKR) Stock Price, News & Analysis - MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:14:19.625757Z",
+  "backend": "deepseek"
+}

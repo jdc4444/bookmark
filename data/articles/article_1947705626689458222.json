@@ -1,0 +1,168 @@
+{
+  "headline": "How JSON Prompts Are Turning Creators Into AI Cinematographers",
+  "lede": "The Apple Watch advertisement in this bookmark was never shot on a set, never storyboarded by a human director, and was never commissioned by Apple. It is tweet #4 in a promotional thread by @EHuanglu — an AI-content influencer operating as *el.cine* — demonstrating Higgsfield's WAN 2.5 video model. The prompt is a JSON object: a structured block of labeled fields — \"shot\", \"camera\", \"transition\", \"motion\", \"audio\" — that instructs an AI video generator how to compose and move through a cinematic product spot without a single camera operator in the room.",
+  "body": "The practice of writing *JSON-structured prompts* for AI video generators has matured from hobbyist experimentation into a recognized professional workflow. Where natural-language prompts suffer from what practitioners call \"concept bleed\" — describing mood can accidentally alter an object's colour; specifying motion can shift the overall style — JSON isolates parameters into discrete, labeled fields. A creator building a product ad can lock the camera lens, define the lighting temperature, specify each shot transition, and fix the audio character in separate sections, then swap any single field across iterations without rewriting the whole brief. The technique works not because the text is interpreted as code, but because models like **Alphabet (GOOGL)**'s Veo 3.1 have been trained to weight labeled keys as distinct channels of instruction, producing more consistent and controllable outputs than prose alone.\n\nThe specific hook of EHuanglu's thread is Higgsfield's WAN 2.5, which the influencer bills as an \"uncensored\" alternative to Veo 3 — one that will render real brand products, logos, and celebrity likenesses that other tools restrict. That positioning explains why the demonstration prompts reach for recognizable intellectual property: an **Apple (AAPL)** Watch, a Pepsi logo. The thread is, in essence, a model-launch promotional dressed as a tutorial. Higgsfield is a private AI startup whose platform aggregates multiple underlying video generators; the JSON format it accepts is a community-driven convention, not a formal API specification shared across the industry.\n\nThe broader advertising industry is already deeply committed to AI-generated video regardless of the tools used. The IAB's 2025 Digital Video Ad Spend and Strategy Report found 86% of buyers use or plan to use generative AI for video ad creative, with roughly 30% of digital video ads in 2025 made with or enhanced by AI — a share projected to reach 39% by 2026. **Coca-Cola (KO)** provided the starkest illustration of what scale actually entails: its 2025 AI holiday spot, produced by three AI studios using four separate models, required approximately 100 people and 70,000-plus generated video clips to produce a single finished advertisement. System1's initial testing gave it a near-perfect score; the public reaction was scathing. Critics noted distorted hands, weightless motion, and inconsistent visual style — a reminder that prompt precision and model output quality still sit at some distance from each other.\n\nThe companies whose intellectual property anchors EHuanglu's examples have reached pointed conclusions about AI in advertising. Apple spent its 2025 holiday campaign conspicuously foregrounding human labor — handcrafted puppets, an award-winning director, a behind-the-scenes video that accumulated 15 million YouTube views — positioning craft as a brand differentiator in a moment of backlash against synthetic imagery. The company simultaneously faces a proposed $250 million settlement over misleading advertising of its Apple Intelligence features, a legal climate that makes it unlikely to endorse unofficial AI-generated Watch ads. **PepsiCo (PEP)** ran its Super Bowl spot with a human director and real talent; its marketing vice president stated plainly that the company cares \"about the craft and the creativity of our people, our talent, and our partners\" — a line written in deliberate contrast to its rival's AI controversy.\n\nEHuanglu's templates are real and usable: multiple practitioner guides and platform documentation confirm that Veo 3.1 and similar models respond well to this structured format, and the JSON approach has genuine advantages for iterative, brand-consistent production. The thread's more extravagant claims — that one AI creator with Higgsfield can \"beat an entire Hollywood production team\" — read as product-launch marketing copy. The more defensible point is narrower: JSON-structured prompting has emerged as a kind of *cinematographic markup language*, letting a single operator specify shot grammar with a precision that unstructured prose cannot easily match. Whether the resulting outputs reliably reach broadcast quality, and whether major brands will accept AI-generated spots they did not commission, remains genuinely open.",
+  "tickers": [
+    "GOOGL",
+    "AAPL",
+    "KO",
+    "PEP"
+  ],
+  "companies": [
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    },
+    {
+      "name": "Coca-Cola",
+      "ticker": "KO"
+    },
+    {
+      "name": "PepsiCo",
+      "ticker": "PEP"
+    },
+    {
+      "name": "Higgsfield",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Runway",
+      "ticker": null
+    }
+  ],
+  "poster": "EHuanglu",
+  "concepts": [
+    {
+      "key": "json-structured-prompting",
+      "term": "JSON-structured prompting",
+      "definition": "A technique for controlling AI video generators by formatting instructions as a JSON object with labeled fields — \"camera\", \"lighting\", \"transition\", \"audio\" — rather than as prose. Because each parameter sits in its own named key, the model processes them more independently, reducing the risk of one description contaminating another. It is a community convention, not a formal standard, and the JSON is still passed as a text string rather than executed as code."
+    },
+    {
+      "key": "concept-bleed",
+      "term": "concept bleed",
+      "definition": "A failure mode in natural-language AI prompting where describing one attribute — say, mood or motion — inadvertently alters unrelated attributes like colour or style. The term captures the way loosely structured prose lets meanings leak across what the creator intended as separate instructions. Structured prompting is one response to the problem."
+    },
+    {
+      "key": "cinematographic-markup-language",
+      "term": "cinematographic markup language",
+      "definition": "An informal analogy for JSON-structured video prompting: treating shot descriptions, camera movements, transitions, and audio cues as tagged fields in a markup document, similar to how HTML tags structure web content. No such formal language exists; the phrase describes the emerging practice of applying software-style structure to filmmaking intent."
+    },
+    {
+      "key": "spec-ad",
+      "term": "spec ad",
+      "definition": "An unsolicited, unofficial advertisement made without a brand's commission or approval — typically by a filmmaker, student, or enthusiast demonstrating their skills or a tool's capabilities. Spec ads featuring real brands and products do not carry the brand's endorsement and sometimes draw legal attention, though they are common in creative portfolios."
+    },
+    {
+      "key": "veo-3",
+      "term": "Veo 3",
+      "definition": "Google DeepMind's third-generation text-to-video model, notable for generating video with synchronized audio and for its support of structured, field-labeled prompting. Released in 2025, it is accessible through Google's VideoFX platform and via third-party front-ends. Its content policies restrict generation of real people and branded products without authorization."
+    },
+    {
+      "key": "wan-2-5",
+      "term": "WAN 2.5",
+      "definition": "A text-to-video model developed from Alibaba's Wan-Video research lineage, integrated into the Higgsfield platform. Higgsfield markets WAN 2.5 as permitting generation of real brand logos, products, and celebrity likenesses — restrictions that Google's Veo and other models enforce. It accepts JSON-structured prompts and generates video with native audio."
+    },
+    {
+      "key": "iab",
+      "term": "IAB",
+      "definition": "The Interactive Advertising Bureau, a US trade organization that sets standards and publishes research for the digital advertising industry. Its annual Digital Video Ad Spend and Strategy Report is a primary data source on how advertisers are adopting new technologies including generative AI."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "EHuanglu describes Higgsfield WAN 2.5 as an \"uncensored version of Veo 3.\" This is a marketing framing, not a technical description. WAN 2.5 derives from Alibaba's Wan-Video research lineage, not from Google's Veo architecture; the two are distinct model families. Calling it a \"version of Veo 3\" misrepresents the provenance of the technology. Separately, EHuanglu's claim that a single AI creator with this tool can \"beat an entire Hollywood production team\" is not supported by any production data; Coca-Cola's comparable AI ad required roughly 100 people and tens of thousands of generated clips to produce a single spot.",
+  "thread_summary": "EHuanglu's thread presents ten numbered JSON prompt examples — including entries for Pepsi and Apple Watch — as demonstrations of Higgsfield's WAN 2.5 video model, framing the tool as an \"uncensored\" alternative to Veo 3 capable of rendering real brand products and celebrity likenesses. The thread doubles as a product-launch promotional for Higgsfield and a tutorial on JSON-structured video prompting, with EHuanglu arguing in follow-up tweets that the structured format gives individual creators the control of a full film crew.",
+  "sources": [
+    {
+      "url": "https://x.com/EHuanglu",
+      "title": "el.cine (@EHuanglu) on X",
+      "note": "Poster's profile; context for their focus and following"
+    },
+    {
+      "url": "https://x.com/EHuanglu/status/1970953048534274153",
+      "title": "EHuanglu: Higgsfield WAN 2.5 JSON product ad series launch tweet",
+      "note": "Thread-opening tweet establishing the 10-example promotional context"
+    },
+    {
+      "url": "https://www.imagine.art/blogs/json-prompting-for-ai-video-generation",
+      "title": "ImagineArt: JSON Prompting for AI Video Generation",
+      "note": "Primary technical explainer on what JSON prompting does and which fields Veo 3.1 supports"
+    },
+    {
+      "url": "https://www.imagine.art/blogs/veo-3-json-prompting-guide",
+      "title": "ImagineArt: JSON Prompting Guide for Veo 3",
+      "note": "Model-specific documentation confirming Veo 3.1 accepts structured JSON input natively"
+    },
+    {
+      "url": "https://medium.com/@ai.in.motion.blog/video-generation-with-json-prompting-my-deep-dive-into-structured-creativity-e89b4b82c1b8",
+      "title": "Medium: Video Generation With JSON Prompting — A Deep Dive",
+      "note": "Practitioner account of JSON workflow benefits including concept bleed, modularity, and debugging clarity"
+    },
+    {
+      "url": "https://medium.com/@creativeaininja/how-to-actually-control-next-gen-video-ai-runway-kling-veo-and-sora-prompting-strategies-92ef0055658b",
+      "title": "Medium: How to Actually Control Next-Gen Video AI",
+      "note": "Comparison of prompting strategies across Runway, Kling, Veo, and Sora — clarifies which tools use JSON vs. natural language"
+    },
+    {
+      "url": "https://jzcreates.com/blog/7-incredible-google-veo-3-json-prompt-examples/",
+      "title": "JZ Creates: 7 Incredible Google Veo 3 JSON Prompt Examples",
+      "note": "Community examples of JSON product ad prompts for branded goods including automotive and consumer brands"
+    },
+    {
+      "url": "https://www.iab.com/insights/video-ad-spend-report-2025/",
+      "title": "IAB 2025 Digital Video Ad Spend & Strategy Report",
+      "note": "Primary data source on generative AI adoption rates among advertisers"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/nearly-90-of-advertisers-will-use-gen-ai-to-build-video-ads-according-to-iabs-2025-video-ad-spend--strategy-full-report-302504691.html",
+      "title": "PR Newswire: IAB — Nearly 90% of Advertisers Will Use Gen AI for Video Ads",
+      "note": "Press release with specific IAB survey statistics cited in the brief"
+    },
+    {
+      "url": "https://futurism.com/artificial-intelligence/coke-ai-holiday-ad",
+      "title": "Futurism: Coke AI Holiday Ad Required 100 Staff and 70,000 AI Clips",
+      "note": "Source for Coca-Cola production scale figures"
+    },
+    {
+      "url": "https://www.nbcnews.com/tech/innovation/coca-cola-causes-controversy-ai-made-ad-rcna180665",
+      "title": "NBC News: Coca-Cola Causes Controversy With AI-Made Ad",
+      "note": "Public and critical reaction to Coca-Cola's AI holiday spot"
+    },
+    {
+      "url": "https://www.adweek.com/creativity/how-coca-colas-ai-holiday-ad-went-from-praise-to-rage/",
+      "title": "AdWeek: How Coca-Cola's AI Holiday Ad Went From Praise to Rage",
+      "note": "Detail on initial System1 testing score vs. public backlash"
+    },
+    {
+      "url": "https://www.macrumors.com/2025/11/27/apple-2025-holiday-ad-commercial/",
+      "title": "MacRumors: Apple 2025 Holiday Ad — Handcrafted Puppets",
+      "note": "Source for Apple's deliberate counter-positioning around human craft in advertising"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/04/23/apple-ai-ads-went-too-far-watchdog-says.html",
+      "title": "CNBC: Apple AI Ads Went Too Far, Watchdog Says",
+      "note": "UK ASA ruling context for Apple's legal exposure around AI advertising claims"
+    },
+    {
+      "url": "https://www.adsoftheworld.com/campaigns/a-i-can-do-that",
+      "title": "Ads of the World: Pepsi 'A.I. Can Do That?'",
+      "note": "PepsiCo's official positioning contrasting human-made creative with AI-generated competitor content"
+    },
+    {
+      "url": "https://higgsfield.ai/blog/WAN-2.5-Text-to-Audio",
+      "title": "Higgsfield: WAN 2.5 Text-to-Video With Native Audio",
+      "note": "Official Higgsfield documentation on WAN 2.5 capabilities and JSON prompt acceptance"
+    }
+  ],
+  "bookmark_id": "1947705626689458222",
+  "generated_at": "2026-05-07T06:38:47.894474Z",
+  "backend": "claude-sonnet-subagent"
+}

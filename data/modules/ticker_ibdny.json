@@ -1,0 +1,14 @@
+{
+  "key": "IBDNY",
+  "name": "Ibiden Co., Ltd.",
+  "exchange": "OTC (primary: TYO: 4062)",
+  "blurb": "Ibiden is a Japanese manufacturer headquartered in Gifu, Japan, that produces advanced IC substrates — the multilayered organic circuit boards connecting processor chips to their packages. It commands approximately 22% of the global ABF (Ajinomoto Build-up Film) substrate market and an estimated 70–80% of the highest-complexity segment used in leading AI GPUs and accelerators. Ibiden also manufactures silicon-carbide automotive components, but electronics — particularly AI substrates — now dominate its margin profile.",
+  "recent": "Ibiden announced a ¥500 billion (approximately $3.3 billion) capital expenditure plan in February 2026 for AI substrate capacity expansion at its Gifu facilities, co-funded approximately 50% by advance payments from customers including Nvidia. Electronics-segment operating margins expanded to roughly 19% in fiscal 2025. The company faces a material constraint: ABF film, the proprietary substrate material, is sourced almost entirely from Ajinomoto Fine-Techno, which plans only a ~50% output increase by 2030.",
+  "sources": [
+    {"url": "https://nikhs.substack.com/p/ibiden-the-hidden-bottleneck-beneath", "title": "Ibiden: The Hidden Bottleneck Beneath AI — Nikhs Substack"},
+    {"url": "https://www.digitimes.com/news/a20260204PD227/ibiden-expansion-capacity-production-plant.html", "title": "Japan's Ibiden channels US$3.3bn into IC substrate expansion — Digitimes"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

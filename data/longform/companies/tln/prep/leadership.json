@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.stocktitan.net/sec-filings/TLN/def-14a-talen-energy-corp-definitive-proxy-statement-54bad6a98a96.html",
+    "https://www.sec.gov/Archives/edgar/data/0001622536/000162828025013816/tln-20250319.htm",
+    "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-announces-strategic-realignment-executive"
+  ],
+  "key_finding": "Talen Energy is structurally an Energy Future Holdings / GenOn / Vistra / Exelon alumni operating company under a private-equity-and-restructuring-pedigree board. CEO Mac McFarland came from California Resources / GenOn / Luminant / Exelon — the post-Chapter-11 energy-restructuring CEO archetype. Chairman Stephen Schaefer brings the GenOn Holdings / Golar LNG / Riverstone / Duke Energy track record. Director Joseph Nigro (ex-Exelon CFO, ex-Constellation CEO, current Blackstone energy transition senior advisor) is the most senior single energy-finance figure on the board. Director Anthony Horton (ex-Energy Future Holdings CFO, ex-TXU Senior Director) carries the deepest EFH restructuring memory. Director Karen Hyde (retired Xcel Energy SVP/CCO; pre-Xcel nuclear engineer at DOD) is the nuclear-and-compliance audit chair. The executive team is unusually deep on nuclear (Brad Berryman as COO with 30 years nuclear and Edward Casulli as CNO from Susquehanna Site VP) and restructuring (Andrew Wright as Chief Admin Officer from 14 years as EFH General Counsel). The December 2025 management realignment elevated Terry Nutt to President and brought in Cole Muller (ex-McKinsey + Wharton MBA + US Naval Academy) as CFO, formalising the operating-and-financial leadership split as Talen scales through the AWS PPA + Cornerstone acquisition cycle.",
+  "ceo": {
+    "name": "Mark \"Mac\" McFarland",
+    "title": "Chief Executive Officer and Director",
+    "ceo_since": "2023-05",
+    "age": 56,
+    "education": [
+      "B.S. Civil Engineering, Virginia Tech",
+      "M.B.A., University of Delaware",
+      "MIT Nuclear Reactor Technology Course"
+    ],
+    "career": [
+      "2023-present: CEO and Director, Talen Energy",
+      "Earlier: CEO and President, California Resources Corporation",
+      "Earlier: Executive Chairman and CEO, GenOn Energy",
+      "Earlier: Chief Commercial Officer, Luminant",
+      "Earlier: Chief Commercial Officer, Energy Future Holdings",
+      "Earlier: Senior VP, Exelon"
+    ],
+    "framing": "McFarland is the post-Chapter-11 energy-restructuring CEO archetype. The California Resources Corporation tenure (oil and gas, also emerged from restructuring) plus GenOn Energy as Executive Chairman/CEO (power, also restructured) plus Luminant and Energy Future Holdings (the legendary EFH/TXU restructuring) plus Exelon SVP is the precise career path that produces an executive prepared for Talen's combination of post-restructuring rebuild + nuclear-fleet operation + AWS hyperscaler PPA negotiation + accelerated M&A program."
+  },
+  "executive_team": [
+    {
+      "name": "Terry L. Nutt",
+      "title": "President (since December 15, 2025)",
+      "age": 49,
+      "education": ["B.B.A. Texas A&M", "M.S. Accounting, Texas A&M"],
+      "career": [
+        "2025-present: President, Talen Energy",
+        "Earlier: CFO, Just Energy",
+        "Earlier: CFO, EDF Trading",
+        "Earlier: Senior finance roles, Vistra",
+        "20+ years energy industry experience"
+      ],
+      "framing": "Nutt's elevation to President in December 2025 formalised the operating-and-financial leadership split. The Just Energy / EDF Trading / Vistra finance track is the appropriate operating-grade financial pedigree."
+    },
+    {
+      "name": "Cole Muller",
+      "title": "Chief Financial Officer (since December 15, 2025)",
+      "age": 45,
+      "education": [
+        "U.S. Naval Academy",
+        "M.B.A., Wharton",
+        "J.D., University of Pennsylvania"
+      ],
+      "career": [
+        "2025-present: CFO, Talen Energy",
+        "Earlier: EVP Strategic Ventures, Talen Energy",
+        "Earlier: Senior VP Cumulus Growth, Talen Energy",
+        "Earlier: Associate Partner, McKinsey"
+      ],
+      "framing": "Muller's combination of Naval Academy + Wharton MBA + UPenn JD + McKinsey associate partner is unusually deep for an IPP CFO. His prior Talen roles (EVP Strategic Ventures, SVP Cumulus Growth) mean he was the architect of the data center colocation thesis before becoming CFO. The dual operational-and-financial credential signals that the AWS PPA and Cornerstone acquisition were his initiatives before his promotion."
+    },
+    {
+      "name": "John C. Wander",
+      "title": "General Counsel and Corporate Secretary",
+      "age": 58,
+      "education": ["B.A. Economics, Northwestern University", "J.D., University of Texas School of Law"],
+      "career": [
+        "Earlier: Shareholder litigation partner, Vinson & Elkins (32 years commercial law experience)"
+      ],
+      "framing": "Wander's Vinson & Elkins shareholder litigation partnership is the deepest Texas energy-law credential available. Critical capability set for an IPP defending hyperscaler-PPA contract architecture against potential regulatory challenges."
+    },
+    {
+      "name": "Andrew M. Wright",
+      "title": "Chief Administrative Officer",
+      "age": 58,
+      "education": ["B.B.A. Accounting, SMU", "J.D., Notre Dame", "CPA"],
+      "career": [
+        "Earlier: General Counsel, Energy Future Holdings (14 years)",
+        "22 years power generation sector experience"
+      ],
+      "framing": "Wright's 14 years as General Counsel of Energy Future Holdings is the deepest single EFH-restructuring memory on the executive team. The CPA + JD + 22 years power generation experience makes him uniquely qualified to manage the administrative and restructuring-legacy complexity that Talen carries from its own Chapter 11 emergence."
+    },
+    {
+      "name": "Brad L. Berryman",
+      "title": "Chief Operating Officer",
+      "age": 57,
+      "education": ["B.S. Organizational Management, Central Baptist", "U.S. Navy submarine service"],
+      "career": [
+        "Earlier: Chief Nuclear Officer and Senior VP, Talen Energy",
+        "Earlier: Roles at Turkey Point, Wolf Creek, Palo Verde nuclear sites",
+        "30 years nuclear experience including Navy submarine service"
+      ],
+      "framing": "Berryman is the nuclear-and-Navy operating depth on the team. 30 years of nuclear plant management with Susquehanna-relevant credentials at Turkey Point, Wolf Creek, Palo Verde. The Navy submarine service background is the standard pedigree for senior nuclear-operations executives."
+    },
+    {
+      "name": "Edward Casulli",
+      "title": "Senior Vice President and Chief Nuclear Officer",
+      "age": 56,
+      "education": ["B.S. Electrical Engineering, U.S. Naval Academy", "Executive Master's Management of Technology, University of Pennsylvania"],
+      "career": [
+        "Earlier: Site VP, Susquehanna (Talen Energy)",
+        "Earlier: PSEG Hope Creek leadership roles",
+        "Nearly 30 years nuclear experience"
+      ],
+      "framing": "Casulli is the most directly Susquehanna-credentialed officer on the team. Prior Site VP at Susquehanna means his operational fingerprints are on the facility now supplying Amazon under the 1.9 GW PPA."
+    },
+    {
+      "name": "Dale E. Lebsack",
+      "title": "Chief Asset Development Officer",
+      "age": 50,
+      "education": ["B.S. Mechanical Engineering, Georgia Tech"],
+      "career": [
+        "Earlier: Chief Fossil Officer, Talen Energy",
+        "Joined Talen 2015 via RJS Power acquisition",
+        "Earlier: Duke Energy, Entergy"
+      ]
+    },
+    {
+      "name": "Chris E. Morice",
+      "title": "Chief Commercial Officer (since 2023)",
+      "age": 46,
+      "education": ["Bachelor's, University of Missouri", "Master's, Fordham"],
+      "career": ["Earlier: Koch Energy, Topaz Power, EDF Trading, Lehman Brothers"]
+    },
+    {
+      "name": "Darren J. Olagues",
+      "title": "Chief Development Officer (joined October 2024)",
+      "age": 55,
+      "education": ["B.A. Accounting, Tulane"],
+      "career": [
+        "Earlier: CFO and Senior Advisor, GenOn Energy",
+        "Earlier: Cleco leadership roles",
+        "Earlier: Exelon, Sithe Energies"
+      ],
+      "framing": "Olagues is another GenOn-pedigree executive joining the Talen team. The GenOn / Cleco / Exelon track is the second-most-common career path on this executive team alongside the EFH alumni cluster."
+    }
+  ],
+  "board_of_directors": [
+    {
+      "name": "Stephen Schaefer",
+      "role": "Chairman of the Board (Independent Director)",
+      "age": 62,
+      "education": ["B.S. Finance and Accounting, Northeastern University", "Chartered Financial Analyst (CFA)"],
+      "career": [
+        "Current: Board member, GenOn Holdings",
+        "Current: Board member, Golar LNG",
+        "Earlier: TexGen Power",
+        "Earlier: Alpine Summit Energy Partners",
+        "Earlier: Riverstone (private equity)",
+        "Earlier: Huron Consulting",
+        "Earlier: Duke Energy North America"
+      ],
+      "framing": "Schaefer is the energy-restructuring-and-PE pedigree chairman. Riverstone (one of the most consequential energy PE firms), Duke Energy North America, GenOn Holdings, Golar LNG, plus the Northeastern + CFA finance credential. The chairman seat is calibrated for cycle-management governance of an IPP through the AI electricity transition."
+    },
+    {
+      "name": "Mark \"Mac\" McFarland",
+      "role": "CEO and Director",
+      "see": "ceo above"
+    },
+    {
+      "name": "Gizman Abbas",
+      "role": "Independent Director; Nominating and Governance Committee Chair; Audit Committee; Compensation Committee",
+      "age": 53,
+      "education": ["B.S. Electrical Engineering, Auburn University", "M.B.A., Northwestern Kellogg"],
+      "career": [
+        "Current: Founding Principal, Direct Invest Development",
+        "Current: Board member, Prairie Operating Company",
+        "Current: Board member, NY Independent System Operator",
+        "Earlier: Apollo Global Management",
+        "Earlier: Goldman Sachs",
+        "Earlier: Morgan Stanley",
+        "Earlier: ExxonMobil",
+        "Earlier: Southern Company"
+      ],
+      "framing": "Abbas is the deepest energy-private-equity-and-investment-banking finance credential on the board. The Apollo + Goldman Sachs + Morgan Stanley + ExxonMobil + Southern Company sequence + NYISO board seat positions him for the most strategic-finance governance role. Chairs nom/gov."
+    },
+    {
+      "name": "Anthony Horton",
+      "role": "Independent Director; Compensation Committee Chair; Audit Committee; Risk Oversight Committee",
+      "age": 65,
+      "education": ["B.B.A. Economics, UT Arlington", "Master's Professional Accounting/Finance, UT Dallas/Arlington", "CPA, CFA, CMA, CFM"],
+      "career": [
+        "Current: CEO, AR Horton Advisors",
+        "Earlier: CFO, Energy Future Holdings",
+        "Earlier: Senior Director, TXU Energy",
+        "Extensive board experience across energy and technology"
+      ],
+      "framing": "Horton is the deepest single EFH-restructuring memory on the board. As ex-EFH CFO, he carries the financial-restructuring pattern recognition that maps directly onto Talen's own Chapter 11 emergence. The quadruple finance certifications (CPA, CFA, CMA, CFM) are unusually deep."
+    },
+    {
+      "name": "Karen Hyde",
+      "role": "Independent Director; Audit Committee Chair; Compensation Committee",
+      "age": 64,
+      "education": ["B.S. Metallurgical Engineering, Lafayette College", "M.S. Mineral Economics, Colorado School of Mines", "Certified Internal Auditor"],
+      "career": [
+        "Earlier: Retired Senior VP and Chief Compliance and Ethics Officer, Xcel Energy (30-year tenure)",
+        "Earlier: Nuclear engineer, U.S. Department of Defense"
+      ],
+      "framing": "Hyde is the nuclear-and-compliance audit chair. The DOD nuclear engineering career + 30 years at Xcel Energy as Chief Compliance and Ethics Officer is the cleanest nuclear-regulatory-and-compliance credential on the board. Audit Chair seat sits with her by design — she is the regulatory expert for Susquehanna's NRC compliance and the broader fleet's environmental regulatory exposure."
+    },
+    {
+      "name": "Joseph Nigro",
+      "role": "Independent Director; Risk Oversight Committee Chair; Nominating and Governance Committee",
+      "age": 61,
+      "education": ["Bachelor's Economics, University of Connecticut", "Exelon Leadership Institute (University of Chicago)", "MIT Reactor Technology Course"],
+      "career": [
+        "Current: Senior Advisor, Blackstone Energy Transition Group",
+        "Current: Board member, Kindle Energy",
+        "Current: Chairman, Eos Energy Enterprises",
+        "Earlier: CFO, Exelon",
+        "Earlier: CEO, Constellation Energy"
+      ],
+      "framing": "Nigro is the most senior single energy-finance and operating figure on the board. The Exelon CFO + Constellation Energy CEO + Blackstone Energy Transition Senior Advisor + Eos Energy Enterprises Chairman + Kindle Energy board sequence is unmatched in scope. Risk Oversight Chair is where this credential is deployed."
+    },
+    {
+      "name": "Christine Benson Schwartzstein",
+      "role": "Independent Director; Nominating and Governance Committee; Risk Oversight Committee",
+      "age": 45,
+      "education": ["A.B. Earth and Planetary Sciences, magna cum laude, Harvard University"],
+      "career": [
+        "Current: Board member, Delek US Holdings",
+        "Current: Board member, Apollo Infrastructure Company",
+        "Earlier: Managing Director, Orion Infrastructure Capital",
+        "Earlier: 17 years at Goldman Sachs (investment banking)"
+      ],
+      "framing": "Schwartzstein is the youngest director and the longest-tenured Goldman Sachs investment banker on the board (17 years). The Apollo Infrastructure Company + Delek US Holdings + Orion Infrastructure Capital + Harvard A.B. (magna cum laude) profile makes her the infrastructure-PE-and-investment-banking specialist on the board. Maps onto Talen's accelerated M&A program (Freedom + Guernsey + Cornerstone)."
+    }
+  ],
+  "board_composition_observation": "Talen's seven-director board reads: PE-and-restructuring chairman (Schaefer/Riverstone/GenOn/Golar LNG) + operating CEO (McFarland/EFH/GenOn) + Apollo+Goldman+Morgan Stanley energy banker (Abbas) + ex-EFH CFO (Horton) + retired Xcel SVP and ex-DOD nuclear engineer (Hyde) + ex-Exelon CFO and ex-Constellation CEO (Nigro) + 17-year Goldman Sachs banker now Apollo Infrastructure director (Schwartzstein). The composition is calibrated for (a) operating governance of a post-Chapter-11 IPP with a substantial nuclear portfolio, (b) execution of multi-billion-dollar M&A in a sector where deal-experience and antitrust pattern recognition matter, and (c) cycle-management through the AI-electricity infrastructure transition. There is no separate independent technologist director — this is structurally appropriate for an electricity company that sells commodity baseload, not a technology vendor."
+}

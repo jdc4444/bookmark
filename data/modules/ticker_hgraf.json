@@ -1,0 +1,32 @@
+{
+  "key": "HGRAF",
+  "name": "HydroGraph Clean Power Inc.",
+  "exchange": "OTCQB (U.S. OTC Markets); also listed on the Canadian Securities Exchange as HG",
+  "blurb": "HydroGraph Clean Power Inc. is a Vancouver, British Columbia–based specialty materials company founded in 2017 that produces fractal graphene using a patented 'explosion synthesis' process carried out in its proprietary Hyperion Reactor. Its flagship product, FGA-1, achieves 99.8% purity and is marketed to over 60 customers across 75+ commercial pipeline projects spanning medical devices, advanced composites, and industrial coatings. Each Hyperion Reactor measures roughly 6×6×18 feet and is rated for approximately 10 tons of graphene per year, positioning HydroGraph as an emerging supplier in an industry that has historically struggled to deliver graphene at industrial scale and economically viable pricing.",
+  "recent": "As of May 14, 2026, HGRAF shares were trading at approximately $5.05, down 2.70% on the session, with a 52-week range of $0.15–$8.37 and a market capitalization near $1.72 billion. The company commissioned two additional Hyperion Reactors in January and February 2026, and is relocating primary production from Manhattan, Kansas to a new 70,000 sq ft Austin, Texas facility targeting 350+ tons per year of graphene capacity across five reactors. No major earnings announcements or material contract disclosures were identified in the provided sources for the trailing 30-day window.",
+  "sources": [
+    {
+      "url": "https://www.abcmoney.co.uk/2026/05/inside-hgraf-stock-how-a-tiny-canadian-company-is-trying-to-build-the-first-real-graphene-supply-chain/",
+      "title": "Inside HGRAF Stock: How a Tiny Canadian Company Is Trying to Build the First Real Graphene Supply Chain — ABC Money"
+    },
+    {
+      "url": "https://stocktwits.com/symbol/HGRAF",
+      "title": "HGRAF: Hydrograph Clean Power Inc. Latest Stock Price, Analysis, News — Stocktwits"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/HGRAF",
+      "title": "HGRAF Stock Price | Hydrograph Clean Power Inc. — MarketWatch"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/HGRAF",
+      "title": "HydroGraph Clean Power Inc. (HGRAF) Stock Price, Quote, News & Analysis — Seeking Alpha"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/HGRAF/news/",
+      "title": "HydroGraph Clean Power Inc. (HGRAF) Latest Stock News & Headlines — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:34:12.488194Z",
+  "backend": "claude-sonnet-subagent"
+}

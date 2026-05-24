@@ -1,0 +1,37 @@
+{
+  "key": "SOI",
+  "name": "Soitec SA",
+  "exchange": "Euronext Paris",
+  "blurb": "Soitec is a Grenoble-based manufacturer of engineered semiconductor wafers — most notably silicon-on-insulator (SOI) substrates produced via its proprietary Smart Cut process. It supplies wafers, not chips, and dominates niche segments: roughly 70%+ share of RF-SOI used in 5G smartphone radios, and an estimated 95%+ share of photonics-grade SOI, the substrate beneath nearly every silicon photonic integrated circuit. Its product lines include RF-SOI, FD-SOI for low-power logic, POI for RF filters, and photonics-SOI for optical interconnect chips. Mobile communications still account for the majority of revenue (about 546 million EUR of FY2025's 891 million EUR), but the photonics line has become the market's focal point.",
+  "recent": "Shares bottomed at 41.77 EUR on March 9, 2026 after a multi-year derating tied to smartphone wafer oversupply, then rallied violently as investors re-rated the photonics franchise around NVIDIA's co-packaged optics (CPO) roadmap. By April 17 Bloomberg called Soitec Europe's best-performing stock of 2026; analysts at Citigroup, Oddo BHF and Deutsche Bank lifted price targets in April. On May 4, 2026 the stock printed 153.55 EUR, up 517.41% YTD with a market capitalization of 5.29 billion EUR. Full-year results are scheduled for May 27, 2026; valuation has stretched to a P/E around 394 against a sector average near 29, with revenue still down roughly 10% year-over-year.",
+  "sources": [
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-04-17/europe-s-best-performing-stock-of-2026-rides-ai-photonics-wave",
+      "title": "Best-Performing European Stock of 2026 Rides Photonics Wave",
+      "note": "Bloomberg framing and analyst-upgrade timeline."
+    },
+    {
+      "url": "https://stockanalysis.com/quote/epa/SOI/",
+      "title": "Soitec (EPA:SOI) Stock Price & Overview",
+      "note": "Listing venue and ticker confirmation."
+    },
+    {
+      "url": "https://meyka.com/blog/soipa-surges-308-on-may-4-2026-semiconductor-stock-hits-high-volume-0405/",
+      "title": "SOI.PA Surges 30.8% on May 4, 2026",
+      "note": "Intraday May 4 confirmation."
+    },
+    {
+      "url": "https://asymmetricalbets.substack.com/p/this-2b-photonics-monopoly-down-75",
+      "title": "This $2B Photonics Monopoly Down 75% Is Key To AI's Next Paradigm Shift",
+      "note": "Primary source for segment revenue split, Smart Cut technology and 95% photonics-SOI share estimate."
+    },
+    {
+      "url": "https://vantixresearch.substack.com/p/soitec-deep-dive",
+      "title": "Soitec Deep Dive — Vantix Research",
+      "note": "Product-line breakdown including RF-SOI, FD-SOI, POI and photonics-SOI."
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

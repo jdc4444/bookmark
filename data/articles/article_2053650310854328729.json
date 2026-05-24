@@ -1,0 +1,151 @@
+{
+  "headline": "China's Factory Prices Have Deflated for Forty Straight Months",
+  "lede": "For more than three years, Chinese factory-gate prices have fallen without interruption — a streak that quietly compressed inflation worldwide even as Western central banks claimed victory over the post-pandemic price surge. The chart Danny Dayan shared captures the full arc: a brief positive plateau in 2022 that turned negative in October of that year and never recovered.",
+  "body": "China's *producer price index* (PPI) — which measures prices at the factory gate before goods reach consumers — recorded its 40th consecutive year-on-year decline in January 2026, printing at -1.4%. At its worst, in June 2025, the index was down 3.6% from a year earlier. The cumulative drag has been felt far beyond China's borders: J.P. Morgan (JPM) estimated that Chinese deflation subtracted roughly 70 *basis points* from global core goods inflation in the second half of 2023, as U.S. import prices from China fell 4% annualized and eurozone import prices dropped 15%.\n\nThe root causes are structural rather than cyclical. China's property sector — once the engine of domestic demand — remains in prolonged contraction, destroying household wealth and suppressing consumption. State-directed investment has simultaneously flooded capacity into export industries: electric vehicles, solar panels, **lithium-ion batteries**, and steel. The result is a classic oversupply problem: more goods than domestic buyers can absorb, sold at or below cost to whoever will take them. China's trade surplus hit a record $1.2 trillion in 2025 — a figure that encapsulates the imbalance between what the country produces and what its citizens consume.\n\nThe tweet's “last domino” framing carries a specific macro logic. After the 2021–2022 inflation surge, deflationary forces reasserted themselves in sequence: shipping costs normalized, semiconductor prices collapsed, commodity markets rolled over, wage growth moderated in the U.S. and Europe, and services inflation gradually retreated toward central bank targets. By late 2025, most major economies had declared their inflation battles won. China's PPI remained the conspicuous outlier — the last active deflationary weight still pressing on the global system. Goldman Sachs (GS) forecast PPI would not turn positive until early 2027; the IMF's February 2026 *Article IV consultation* projected China's *GDP deflator* — a broader measure spanning the whole economy — at -0.7% for the year, warning it was aggravating adverse debt dynamics.\n\nThe transmission mechanism runs through multiple channels. Chinese export prices feed directly into import price indexes across the U.S., Europe, and emerging markets. TD Economics estimated the overhang had subtracted two to three percentage points from U.S. PPI and roughly 90 basis points from headline *PCE inflation* — the Federal Reserve's preferred gauge. The irony of 2025–2026 is that U.S. tariffs of up to 145% on Chinese goods created an artificial inflation floor for American consumers, masking the underlying deflationary signal: factory prices were falling; shelf prices were not, because the tariff wedge sat in between.\n\nThe deflation streak did eventually end, in March 2026, when China's PPI printed +0.5% — its first positive reading in over three years. But analysts described the turn as a “dangerous cure”: the catalyst was an oil-price spike driven by conflict in the Middle East, not genuine domestic demand recovery. Morgan Stanley (MS) drew a parallel to Japan's experience, noting that once deflationary price expectations become entrenched, they prove progressively harder to dislodge. If the structural drivers — weak consumption, property-sector contraction, industrial overcapacity — remain unaddressed, the pressure could reassert itself once energy markets stabilize.",
+  "tickers": [
+    "JPM",
+    "GS",
+    "MS"
+  ],
+  "companies": [
+    {
+      "name": "J.P. Morgan",
+      "ticker": "JPM"
+    },
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS"
+    },
+    {
+      "name": "Morgan Stanley",
+      "ticker": "MS"
+    }
+  ],
+  "poster": "DannyDayan5",
+  "concepts": [
+    {
+      "key": "producer-price-index",
+      "term": "Producer Price Index (PPI)",
+      "definition": "A measure of the average change in prices received by domestic producers for their goods at the factory gate — before they reach retailers or consumers. It is a leading indicator for consumer inflation because factory-gate price moves eventually pass through the supply chain."
+    },
+    {
+      "key": "gdp-deflator",
+      "term": "GDP deflator",
+      "definition": "A price index covering the entire economy — all goods and services produced — rather than a fixed consumer basket. A negative GDP deflator means nominal output is shrinking relative to real output, the textbook definition of economy-wide deflation."
+    },
+    {
+      "key": "pce-inflation",
+      "term": "PCE inflation",
+      "definition": "The Personal Consumption Expenditures price index, the Federal Reserve's preferred measure of U.S. consumer inflation. It differs from the more familiar CPI in its weights and methodology, and tends to run somewhat lower, making it a slightly less alarming headline number."
+    },
+    {
+      "key": "core-goods-inflation",
+      "term": "core goods inflation",
+      "definition": "The rate of price change for physical goods excluding food and energy — cars, appliances, apparel, electronics. It is the category most directly affected by Chinese export prices, since China is the world's largest goods exporter."
+    },
+    {
+      "key": "basis-points",
+      "term": "basis points",
+      "definition": "One-hundredth of a percentage point (0.01%). Used in finance and economics to describe small changes in rates or price indexes precisely — 70 basis points equals 0.70 percentage points."
+    },
+    {
+      "key": "industrial-overcapacity",
+      "term": "industrial overcapacity",
+      "definition": "A condition in which an industry's productive capacity — factories, equipment, labor — substantially exceeds demand for its output. In China's case, state-directed investment in EVs, solar panels, and steel created supply volumes that domestic and global markets struggle to absorb at prices covering production costs."
+    },
+    {
+      "key": "trade-surplus",
+      "term": "trade surplus",
+      "definition": "The excess of a country's exports over its imports in value terms. A very large, persistent surplus — like China's $1.2 trillion in 2025 — reflects a structural gap between domestic production and consumption, and tends to export deflationary pressure alongside the goods themselves."
+    },
+    {
+      "key": "article-iv-consultation",
+      "term": "Article IV consultation",
+      "definition": "An annual review the International Monetary Fund conducts with each member country under Article IV of its founding charter. The resulting report provides the Fund's independent assessment of economic health, policy risks, and recommended reforms — and is closely watched as an authoritative outside verdict."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://tradingeconomics.com/china/producer-prices-change",
+      "title": "China Producer Prices Change — Trading Economics",
+      "note": "Full monthly PPI data series 2022–2026; source for the chart in the tweet"
+    },
+    {
+      "url": "https://www.jpmorgan.com/insights/global-research/international/china-deflation",
+      "title": "Deflation in China: Spillover Effects for Global Markets — J.P. Morgan Research",
+      "note": "Quantified -70 bps impact on global core goods inflation; U.S. and EU import price declines"
+    },
+    {
+      "url": "https://www.imf.org/en/news/articles/2026/02/18/pr-26053-china-imf-executive-board-concludes-2025-article-iv-consultation",
+      "title": "IMF Article IV Consultation — China, February 2026",
+      "note": "GDP deflator projected -0.7% in 2026; deflation described as aggravating debt dynamics"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/chinas-economy-expected-to-grow-in-2026-amid-surging-exports",
+      "title": "China's Economy Expected to Grow 4.8% in 2026 — Goldman Sachs",
+      "note": "Goldman PPI forecast -0.7% for 2026; positive PPI not expected until early 2027"
+    },
+    {
+      "url": "https://thedocs.worldbank.org/en/doc/600cd53e2bb24d56b8c3489e5d2c187-0070012025/original/CEU-December-2025-EN.pdf",
+      "title": "China Economic Update December 2025 — World Bank",
+      "note": "PPI contracted 2.8% YoY through first 10 months of 2025; upstream deflation in steel, coal, ferrous metals"
+    },
+    {
+      "url": "https://www.oxfordeconomics.com/resource/the-latest-export-from-china-is-deflation/",
+      "title": "The Latest Export from China Is Deflation — Oxford Economics",
+      "note": "Chinese export price declines and transmission to import price indexes across trading partners"
+    },
+    {
+      "url": "https://economics.td.com/gbl-chinas-deflation-global-prices",
+      "title": "Behind the Scenes: China's Deflation and Global Prices — TD Economics",
+      "note": "Estimated -2 to -3 ppt impact on U.S. PPI; roughly -90 bps on PCE inflation"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/05/05/china-risks-deeper-deflation-by-diverting-exports-to-domestic-market.html",
+      "title": "China Risks Deeper Deflation as It Diverts U.S.-Bound Exports — CNBC",
+      "note": "Tariff-driven export diversion deepening domestic and global deflationary pressure in mid-2025"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2025-05-28/china-deflation-worry-deepens-among-economists-after-trade-truce",
+      "title": "China Deflation Worry Deepens Among Economists After Trade Truce — Bloomberg",
+      "note": "Post-truce deflation forecasts; CPI and PPI outlook for 2025"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/02/11/china-inflation-january-cpi-ppi-deflation.html",
+      "title": "China PPI: January 2026 — 40th Consecutive Month of Decline — CNBC",
+      "note": "January 2026 reading -1.4%; persistent demand weakness documented at the time of the tweet"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-03-20/china-finds-dangerous-cure-for-record-deflation-in-war-oil-shock",
+      "title": "China Finds Dangerous Cure for Record Deflation in War Oil Shock — Bloomberg",
+      "note": "PPI turns positive in March 2026 via oil-price shock rather than demand recovery"
+    },
+    {
+      "url": "https://www.chathamhouse.org/2026/01/chinas-12-trillion-trade-surplus-will-increase-calls-stronger-renminbi-dont-expect-much",
+      "title": "China's $1.2 Trillion Trade Surplus — Chatham House",
+      "note": "Record 2025 trade surplus and structural demand-production imbalance"
+    },
+    {
+      "url": "https://www.investing.com/news/economy/why-chinas-battle-with-deflation-may-have-global-implications-3617804",
+      "title": "Why China's Battle with Deflation May Have Global Implications — Investing.com",
+      "note": "Morgan Stanley parallel to Japan; core inflation impact on U.S. and EU estimated"
+    },
+    {
+      "url": "https://www.capitaleconomics.com/blog/deflation-home-disruption-abroad-chinas-growth-model-lose-lose",
+      "title": "Deflation at Home, Disruption Abroad — Capital Economics",
+      "note": "Structural overcapacity as bigger threat than tariffs; global disruption mechanics"
+    },
+    {
+      "url": "https://www.chinabankingnews.com/p/the-mystery-of-chinas-15-years-of",
+      "title": "The Mystery of China's 15 Years of Deflation — China Banking News",
+      "note": "Historical context; 2022–2025 streak vs. the longer 2012–2016 precedent"
+    }
+  ],
+  "bookmark_id": "2053650310854328729",
+  "generated_at": "2026-05-11T12:09:13.664497Z",
+  "backend": "claude-sonnet-subagent"
+}

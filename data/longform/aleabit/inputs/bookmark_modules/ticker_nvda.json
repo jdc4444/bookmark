@@ -1,0 +1,14 @@
+{
+  "key": "NVDA",
+  "name": "NVIDIA Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "NVIDIA designs graphics processing units (GPUs) and system-on-chip products. Originally a gaming chip company, it became the dominant supplier of AI accelerators — chips that perform the parallel matrix math required to train and run large language models. Its H100, H200, and Blackwell GPU families are the de facto standard for AI training infrastructure at hyperscalers and cloud providers. NVIDIA's CUDA software ecosystem creates deep switching costs: virtually all AI frameworks and models are optimised for CUDA, making competing hardware difficult to adopt at scale. NVIDIA also sells networking (InfiniBand, Ethernet) and data-centre systems.",
+  "recent": "NVIDIA reported FY2026 (ending Jan 2026) revenue of $215.9 billion, up 65% YoY, with data centre revenue reaching $186 billion. The company's forward P/E of ~17.5x on 34.8% projected EPS growth produces a PEG of 0.50 — unusually cheap for what is arguably the most critical infrastructure company in the AI buildout. Hyperscalers (Microsoft, Amazon, Google, Meta) collectively committed over $200 billion in AI infrastructure capex for 2026, the majority flowing through NVIDIA's supply chain.",
+  "sources": [
+    {"url": "https://intellectia.ai/blog/nvidia-stock-analysis-2026-ai-demand", "title": "Nvidia Stock Analysis 2026: AI Demand — Intellectia"},
+    {"url": "https://www.tikr.com/blog/nvidia-stock-forecast-119-upside-as-ai-chip-demand-stays-strong", "title": "NVIDIA Stock Forecast: AI Chip Demand — TIKR"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,249 @@
+{
+  "headline": "A Fifteen-Layer Map of the AI Supply Chain's Real Chokepoints",
+  "lede": "A retail investor's weekend project — a 15-layer visualization of the AI hardware supply chain, mapping market share and AI-revenue concentration for every bottleneck company from silica mines to fab equipment — illustrates both the appeal and the difficulty of picking supply-chain stocks on the premise that artificial general intelligence is arriving faster than most experts thought possible even five years ago. The chart, posted to X by @_Lonis_, is earnest and more rigorous than most retail financial commentary. It also has a structural problem: the companies it depicts are real, but the actual 2025 production chokepoints sit in layers the visualization either understates or omits entirely.",
+  "body": "The investment thesis behind the chart rests on *AGI timelines* — probabilistic estimates of when AI systems will reach or surpass human-professional-level performance across cognitive tasks. Those estimates have compressed dramatically: median expert forecasts have collapsed from roughly 2060–2070 a decade ago to approximately 2033 today, with Anthropic CEO Dario Amodei publicly citing 2027 at Davos 2026 and Microsoft (MSFT) AI CEO Mustafa Suleyman describing human-level performance on most professional tasks as 12–18 months away. Compressed timelines directly justify accelerated infrastructure capex — more data centers, more chips, more copper, more power — and that surge in demand ripples backward through every layer of the supply chain, which is exactly what the chart attempts to trace.\n\nThe chart's opening layer covers raw commodities: platinum-group metals via Sibanye-Stillwater (SBSW), rare earth oxides from MP Materials (MP), lithium from Albemarle (ALB), copper from Freeport-McMoRan (FCX), and nickel from Sumitomo Metal Mining (5713.T). Of these, copper is the most directly relevant. S&P Global (SPGI) projects data center copper demand to roughly double by 2040, and hyperscale AI facilities require roughly 30 tonnes of copper per megawatt of installed capacity — a figure that makes Freeport, the world's largest publicly traded copper producer, the strongest case in this layer. The rest are second-order at best. Sibanye is primarily an automotive-cycle palladium-and-platinum story; Albemarle supplies lithium for EV batteries and grid storage — useful for powering data centers, but a long way from a chip. MP Materials' rare earth oxide feeds permanent magnets in data-center cooling fans and robotics, but the company remained loss-making on an operating basis through most of 2025. The chart assigns AI revenue percentages in the 6–10% range across these commodities — a speculative overlay rather than a disclosed segment from any of their filings.\n\nThe second layer, wafers and substrates, comes closer to the action. Shin-Etsu Chemical (4063.T) and SUMCO (3436.T) together control roughly 55% of global *300mm silicon wafer* supply — the foundational discs on which every advanced chip is fabricated. SUMCO paid dearly for expansion: depreciation jumped from ¥35 billion to ¥100 billion annually, driving a net loss in 2025 even as leading-edge wafer volumes grew 16% year-on-year. The sharper story in this layer is **ABF substrates** — ultrathin insulating layers that route electrical signals from a chip die to the circuit board. Ibiden (4062.T) and Unimicron (3037.TW) are the only two manufacturers with process capability for the most advanced AI accelerator substrates; Ibiden supplies Nvidia (NVDA) H100 and B200 chips directly. A supply-demand gap for ABF is already forming — projected at 10% by the second half of 2026, widening to 42% by 2028. Behind these substrate makers sits a near-total monopoly most investors have never heard of: Ajinomoto (2802.T), a Japanese food conglomerate, holds roughly 98% of the global market for the ABF film material itself.\n\nThe visualization's structural limitation is one of layer selection. The real 2025 production chokepoints — identified by Epoch AI's supply-chain analysis — sit in layers the chart either understates or omits. ***CoWoS*** (Chip-on-Wafer-on-Substrate), Taiwan Semiconductor Manufacturing's (TSM) *advanced packaging* process that integrates logic dies with stacked memory, is essentially a single-source capacity constraint: the four largest AI chip buyers consumed over 90% of global CoWoS output in 2025 while accounting for only 12% of advanced logic-die production. *HBM* (high-bandwidth memory) — the stacked memory that gives AI accelerators their data throughput — is dominated by SK Hynix (000660.KS), Samsung Electronics (005930.KS), and Micron Technology (MU); the shortage extends beyond 2026. A supply-chain map built to identify the next ASML (ASML) — the Dutch company holding a 100% share of *EUV* lithography equipment, without which no leading-edge chip can be manufactured — should weight these layers most heavily.\n\nThere is a harder epistemological problem embedded in the exercise. Even granting compressed AGI timelines, which layer of the supply chain captures the most value is not obvious. History suggests that enabling-technology monopolies — ASML (ASML) with its EUV machines, Ajinomoto (2802.T) with its ABF film — often retain more margin than commodity suppliers even when commodity volumes surge. ASML reported €32.7 billion in 2025 revenue at a 52.8% gross margin and has raised 2026 guidance to €36–40 billion on AI-driven demand. Whether raw-materials plays belong in an AGI-timeline portfolio depends on a second-order bet: that the infrastructure buildout will outpace the commodity market's ability to respond with new supply. For copper, that bet has some merit; for palladium, far less.",
+  "tickers": [
+    "MSFT",
+    "SBSW",
+    "MP",
+    "ALB",
+    "FCX",
+    "5713.T",
+    "SPGI",
+    "4063.T",
+    "3436.T",
+    "4062.T",
+    "3037.TW",
+    "NVDA",
+    "2802.T",
+    "TSM",
+    "000660.KS",
+    "005930.KS",
+    "MU",
+    "ASML"
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Sibanye-Stillwater",
+      "ticker": "SBSW"
+    },
+    {
+      "name": "MP Materials",
+      "ticker": "MP"
+    },
+    {
+      "name": "Albemarle",
+      "ticker": "ALB"
+    },
+    {
+      "name": "Freeport-McMoRan",
+      "ticker": "FCX"
+    },
+    {
+      "name": "Sumitomo Metal Mining",
+      "ticker": "5713.T"
+    },
+    {
+      "name": "S&P Global",
+      "ticker": "SPGI"
+    },
+    {
+      "name": "Shin-Etsu Chemical",
+      "ticker": "4063.T"
+    },
+    {
+      "name": "SUMCO",
+      "ticker": "3436.T"
+    },
+    {
+      "name": "Ibiden",
+      "ticker": "4062.T"
+    },
+    {
+      "name": "Unimicron Technology",
+      "ticker": "3037.TW"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Ajinomoto",
+      "ticker": "2802.T"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "ASML",
+      "ticker": "ASML"
+    },
+    {
+      "name": "Epoch AI",
+      "ticker": null
+    }
+  ],
+  "poster": "_Lonis_",
+  "concepts": [
+    {
+      "key": "agi-timelines",
+      "term": "AGI Timelines",
+      "definition": "Probabilistic estimates of when artificial general intelligence — AI capable of matching or exceeding human-professional-level performance across most cognitive tasks — will be achieved. These estimates have collapsed from a median of roughly 2060–2070 a decade ago to approximately 2033 today, a compression that directly drives accelerated investment in AI infrastructure."
+    },
+    {
+      "key": "abf-substrates",
+      "term": "ABF Substrates",
+      "definition": "IC substrates made using Ajinomoto Build-up Film, an ultrathin insulating material that routes electrical signals from a chip die's microscopic bond pads out to the larger traces of a circuit board. Advanced AI accelerator chips require high-layer-count ABF substrates with extremely fine line resolution; Ajinomoto holds roughly 98% of the global market for the film itself, making it an invisible monopoly upstream of the substrate makers."
+    },
+    {
+      "key": "cows",
+      "term": "CoWoS (Chip-on-Wafer-on-Substrate)",
+      "definition": "An advanced packaging process developed and produced exclusively by Taiwan Semiconductor Manufacturing, in which a logic die and high-bandwidth memory stacks are integrated side-by-side on a shared silicon interposer before being mounted on the final package substrate. CoWoS dramatically increases memory bandwidth and is a prerequisite for high-performance AI training chips; TSMC is currently the sole commercial source at leading-edge specifications."
+    },
+    {
+      "key": "hbm",
+      "term": "HBM (High-Bandwidth Memory)",
+      "definition": "A type of DRAM in which multiple memory dies are stacked vertically and connected by thousands of short through-silicon vias, yielding far higher data throughput than conventional DDR memory at lower power. AI accelerators require HBM to feed their compute cores fast enough to keep utilization high; supply is dominated by SK Hynix, Samsung Electronics, and Micron Technology."
+    },
+    {
+      "key": "euv-lithography",
+      "term": "EUV Lithography",
+      "definition": "A chip-manufacturing technique that uses 13.5-nanometer extreme ultraviolet light to print transistor patterns smaller than 7nm on silicon wafers. The light is generated by firing CO₂ lasers at tin droplets 50,000 times per second; ASML is the sole commercial supplier of EUV systems worldwide, making it the deepest single-source dependency in the entire semiconductor supply chain."
+    },
+    {
+      "key": "300mm-silicon-wafers",
+      "term": "300mm Silicon Wafers",
+      "definition": "The industry-standard substrate diameter for leading-edge semiconductor fabrication. Larger wafers yield more chips per production run, reducing unit cost; all advanced AI processors at sub-7nm nodes are fabricated exclusively on 300mm wafers. Shin-Etsu Chemical and SUMCO together supply roughly 55% of global 300mm wafer output."
+    },
+    {
+      "key": "advanced-packaging",
+      "term": "Advanced Packaging",
+      "definition": "Post-fabrication techniques — including CoWoS, fan-out wafer-level packaging, and 3D die stacking — that integrate multiple chips or memory dies into a single module with far shorter interconnects than a conventional circuit board. Advanced packaging has become a primary performance lever for AI chips because raw transistor shrinkage alone can no longer keep pace with compute demand."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The chart assigns AI revenue percentages in the 6–10% range to raw-material companies such as Sibanye-Stillwater and Sumitomo Metal Mining. None of these companies disclose AI-specific revenue as a financial segment in their filings; the percentages appear to be the author's own estimates based on indirect downstream exposure. Whether palladium, nickel, or even lithium qualifies meaningfully as 'AI revenue' is contestable — the connection runs through two or more intermediate supply-chain steps. More significantly, the visualization's emphasis on raw materials and silicon wafers as primary bottleneck layers conflicts with independent analysis: Epoch AI's 2025 supply-chain study identified CoWoS advanced packaging (a TSMC-exclusive process) and high-bandwidth memory as the dominant constraints on AI chip production volume in 2025 — neither receives adequate weight in the chart as captured. The visualization maps real companies but may be optimizing for supply-chain breadth and investability over bottleneck severity.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.asml.com/en/news/press-releases/2026/q4-2025-financial-results",
+      "title": "ASML Q4 2025 Financial Results",
+      "note": "Primary source for ASML revenue, gross margin, EUV bookings, and CEO commentary"
+    },
+    {
+      "url": "https://www.asml.com/en/investors/financial-results/q1-2026",
+      "title": "ASML Q1 2026 Financial Results",
+      "note": "Confirms 2026 guidance upgrade to €36–40B and High-NA EUV production ramp"
+    },
+    {
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-15-ai-super-cycle-propels-asml-to-record-q1-earnings-as-high-na-euv-enters-high-volume-manufacturing",
+      "title": "AI Super-Cycle Propels ASML to Record Q1 2026 Earnings",
+      "note": "Context on High-NA EUV entering high-volume manufacturing and ASML monopoly detail"
+    },
+    {
+      "url": "https://thereview.strangevc.com/p/asmls-30-year-monopoly-the-moonshot",
+      "title": "ASML's 30-Year Monopoly: The Moonshot Bet No One Can Replicate",
+      "note": "Detail on ASML's supplier exclusivity, Carl Zeiss SMT partnership, and patent moat"
+    },
+    {
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+      "title": "MP Materials Q4 2025 Full-Year Results",
+      "note": "Primary source for MP Materials production volume, revenue, and operating profitability"
+    },
+    {
+      "url": "https://www.albemarle.com/us/en/news/albemarle-reports-first-quarter-2026-results",
+      "title": "Albemarle Q1 2026 Results",
+      "note": "Albemarle revenue, EBITDA, and Energy Storage segment recovery data"
+    },
+    {
+      "url": "https://markets.financialcontent.com/ibtimes/article/predictstreet-2025-12-26-the-copper-gatekeeper-a-deep-dive-into-freeport-mcmoran-fcx-in-the-era-of-electrification",
+      "title": "The Copper Gatekeeper: A Deep Dive into Freeport-McMoRan",
+      "note": "FCX market position, revenue mix, and AI data center demand context"
+    },
+    {
+      "url": "https://carboncredits.com/data-centers-copper-hunger-how-ai-is-driving-a-looming-supply-crunch/",
+      "title": "Data Centers' Copper Hunger: How AI Is Driving a Looming Supply Crunch",
+      "note": "Copper-per-megawatt figures and projected supply-demand deficit through 2035"
+    },
+    {
+      "url": "https://www.advisorperspectives.com/commentaries/2025/12/09/ai-data-centers-consume-half-million-tons-copper-annually-2030",
+      "title": "AI Data Centers Could Consume Half a Million Tons of Copper Annually by 2030",
+      "note": "S&P Global projection on data center copper demand doubling by 2040"
+    },
+    {
+      "url": "https://uk.investing.com/news/company-news/sumco-q4-2025-slides-revenue-beats-forecast-amid-continued-losses-ai-demand-offers-hope-93CH-4507545",
+      "title": "SUMCO Q4 2025: Revenue Beats Forecast Amid Continued Losses, AI Demand Offers Hope",
+      "note": "SUMCO financial results, depreciation jump, and 16% leading-edge wafer growth"
+    },
+    {
+      "url": "https://www.semi.org/en/semi-press-release/semi-reports-2025-annual-worldwide-silicon-wafer-shipments-and-revenue-results",
+      "title": "SEMI 2025 Annual Worldwide Silicon Wafer Shipments and Revenue Results",
+      "note": "Industry-wide wafer shipment volume and revenue data for 2025"
+    },
+    {
+      "url": "https://www.siltronic.com/en/press/press-releases/siltronic-ag-robust-business-performance-in-2025-demonstrates-resilience-despite-challenging-conditions.html",
+      "title": "Siltronic AG 2025 Full-Year Results",
+      "note": "Siltronic revenue, EBITDA margin, and management commentary on AI-driven 300mm shift"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20250102PD221/ibiden-ic-substrate-demand-market-intel-nvidia.html",
+      "title": "Ibiden's Exclusive AI Chip Substrate Position — Digitimes",
+      "note": "Ibiden's role supplying Nvidia H100/B200 substrates and Gifu capacity expansion"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20260130PD220/unimicron-abf-substrate-ai-server-market-capacity.html",
+      "title": "ABF Substrate Crunch Reshapes Market: Unimicron Leads — Digitimes",
+      "note": "Unimicron's leading position in ABF substrate manufacturing and competitive dynamics"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20260420PD216/revenue-pcb-abf-substrate-unimicron-ai-chip.html",
+      "title": "AI Chip Rivalry: ABF Substrate Sells Out for Unimicron, Kinsus, Nan Ya PCB — Digitimes",
+      "note": "Confirms ABF sell-out conditions across leading substrate makers as of April 2026"
+    },
+    {
+      "url": "https://www.convergenceanalysis.org/fellowships/economics/securing-the-substrate-behind-every-chip-a-us-strategy-for-ajinomoto-build-up-film-abf",
+      "title": "Securing the Substrate Behind Every Chip: U.S. Strategy for ABF — Convergence Analysis",
+      "note": "Ajinomoto's ~98% ABF film market share, projected supply gaps, and geopolitical risk"
+    },
+    {
+      "url": "https://epoch.ai/data-insights/ai-chip-supply-chain-constraints",
+      "title": "Advanced Packaging and HBM Were the Bottlenecks — Epoch AI",
+      "note": "Primary source identifying CoWoS and HBM as the dominant 2025 AI chip production constraints"
+    },
+    {
+      "url": "https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/",
+      "title": "Shrinking AGI Timelines: Expert Forecasts — 80,000 Hours",
+      "note": "Comprehensive survey of AGI timeline forecasts across researchers, superforecasters, and executives"
+    },
+    {
+      "url": "https://blog.aifutures.org/p/q1-2026-timelines-update",
+      "title": "Q1 2026 AGI Timelines Update — AI Futures",
+      "note": "Recent update showing continued compression of AGI timeline estimates into early 2026"
+    }
+  ],
+  "bookmark_id": "2051001389284049111",
+  "generated_at": "2026-05-07T05:51:19.229701Z",
+  "backend": "claude-sonnet-subagent"
+}

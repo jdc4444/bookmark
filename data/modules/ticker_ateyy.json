@@ -1,0 +1,13 @@
+{
+  "key": "ATEYY",
+  "name": "Advantest Corporation",
+  "exchange": "OTC (ADR); primary TSE: 6857.T",
+  "blurb": "Advantest is a Japanese semiconductor test equipment company and the global leader in high-performance ATE (automated test equipment) for logic chips and memory. Its V93000 platform is the dominant tester for cutting-edge SoCs and AI accelerators; its T2000 family leads in DRAM and HBM test. As AI chips grow more complex and HBM stacks taller, the cost and time required for testing increases, directly benefiting Advantest's revenue per unit shipped. Advantest holds an estimated 50%+ share of the global ATE market for advanced logic and memory.",
+  "recent": "Advantest has ridden the AI and HBM supercycle. Demand for testing H100/H200/Blackwell GPUs and HBM3E modules has driven record orders. Forward P/E of ~42.7x on 40% projected EPS growth yields a PEG of 1.07 — essentially fair value for a monopoly-adjacent business in a structurally growing segment. Revenue is denominated largely in USD (test tool invoicing) but reported in JPY, creating currency translation effects.",
+  "sources": [
+    {"url": "https://companiesmarketcap.com/semiconductors/semiconductor-companies-ranked-by-pe-ratio/", "title": "Semiconductor Companies Ranked by PE Ratio — CompaniesMarketCap"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

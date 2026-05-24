@@ -1,0 +1,13 @@
+{
+  "key": "FCX",
+  "name": "Freeport-McMoRan Inc.",
+  "exchange": "NYSE",
+  "blurb": "Freeport-McMoRan is the world's largest publicly traded copper producer, operating the Grasberg mine in Indonesia — one of the largest copper and gold deposits on Earth — alongside mines in North and South America. Copper is a critical input for data-center power infrastructure, server busbars, and the high-bandwidth interconnects inside AI rack systems. Freeport commands roughly 12% of global copper production and is essentially a leveraged bet on global electrification.",
+  "recent": "Copper demand from AI data-center construction has become a notable demand driver alongside traditional grid and EV cable use, though Freeport's copper-to-AI revenue linkage remains indirect and diffuse. The company reported strong operational results through 2025, though it faces ongoing cost inflation at Grasberg. AI-related copper demand, while real, represents a relatively small share of total copper consumption today.",
+  "sources": [
+    {"url": "https://medium.com/@adnanmasood/semiconductors-in-2026-the-ai-driven-upswing-meets-structural-bottlenecks-3568b004905b", "title": "Semiconductors in 2026: The AI-Driven Upswing Meets Structural Bottlenecks — Medium"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "XOM",
+  "name": "ExxonMobil Corporation",
+  "exchange": "NYSE",
+  "blurb": "ExxonMobil is the largest U.S. integrated oil-and-gas company by market capitalization, operating across upstream exploration and production, downstream refining, chemicals, and an expanding LNG business. Its advantaged asset portfolio — anchored by record Guyana production exceeding 900,000 barrels per day and growing Permian volumes — has made it the go-to large-cap expression of the oil supermajor trade. The company targets $20 billion in structural cost savings by 2030 and has delivered 43 consecutive years of annual dividend growth.",
+  "recent": "In Q1 2026, ExxonMobil posted adjusted EPS of $1.16, beating consensus by 15% — the largest positive surprise in at least four consecutive quarters — on record Guyana output and $0.6 billion in structural cost reductions. GAAP net income was depressed by $3.9 billion in mark-to-market derivative timing effects that are expected to reverse in subsequent quarters. The Golden Pass LNG terminal loaded its first export cargo in April 2026. Management maintained full-year capex guidance at $27-29 billion and a $20 billion share buyback program. The stock is up sharply year-to-date, buoyed by Brent crude near $130/barrel following the Strait of Hormuz crisis.",
+  "sources": [
+    {"url": "https://www.tikr.com/blog/exxonmobil-reports-q1-2026-earnings-amid-hormuz-crisis-heres-what-the-numbers-mean-for-investors", "title": "ExxonMobil Reports Q1 2026 Earnings Amid Hormuz Crisis — TIKR"},
+    {"url": "https://finance.yahoo.com/sectors/energy/articles/exxonmobil-crushes-q1-2026-eps-134228533.html", "title": "ExxonMobil Crushes Q1 2026 EPS Estimates by 15% — Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

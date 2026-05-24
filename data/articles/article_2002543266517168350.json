@@ -1,0 +1,59 @@
+{
+  "headline": "Luma's Ray 3 Modify Lets a Single Frame Anchor a Scene",
+  "lede": "Luma AI's Ray 3 Modify, released in December 2025, introduces *keyframe-anchored* video-to-video generation: a user supplies a reference image at a chosen moment in the clip, and the model infers motion coherently before and after it. A demonstration by @AIWarper required nothing more than extracting the five-second frame, compositing a creature into it with an image-editing tool, and running the model once. The first output — no retries — held.",
+  "body": "The capability sits inside **Modify with Keyframes**, one of three distinct modes in Ray 3 Modify (alongside Modify Video and Character Reference). Where earlier *video-to-video* pipelines typically took a full source clip and rewrote it under a text prompt, the keyframe approach works as a temporal anchor: the user declares what the scene should look like at a specific instant, and the model propagates that state outward in both directions, maintaining the physical logic and camera motion of the original footage. Luma describes the goal as preserving \"performance authenticity\" — the original actor's timing and intent survive; only form and environment change.\n\nThe workflow @AIWarper demonstrates is deliberately minimal. They extracted the five-second frame from a source video, opened it in NB Pro (an AI image-compositing tool) to paint in a creature, then passed that single modified still back to Ray 3 Modify as the keyframe reference. Luma AI (private) handles the rest: the model figures out how the creature should be moving before and after the anchor, stitched to whatever action existed in the original clip. The result arriving on the first generation — rather than after a dozen discards — matters because *generation variance* in video models tends to be high; useful outputs often require filtering from a large sample.\n\nThe Character Reference mode extends the same logic from spatial keyframes to identity. Rather than anchoring a particular frame in time, it locks likeness, costume, and continuity across an entire clip — a feature Luma positions explicitly at actor-led productions that want to swap a performer's appearance while retaining the underlying motion capture. Use cases the company highlights include mythical creature overlays and full environment swaps, both of which require the model to reason about light, shadow, and occlusion rather than simply texture-painting over the original.\n\nWhat makes the demo credible beyond the visual result is the absence of prompt engineering or elaborate setup. The instruction surface is a single modified JPEG and a timestamp. That simplicity is the design claim Luma is making: that a production-grade edit workflow can resemble pulling a frame into Photoshop rather than writing a storyboard. Whether the consistency holds across longer clips, hard cuts, or fast camera movement remains the open question — the demo is five seconds of relatively static background, which is the easiest possible case.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Luma AI",
+      "ticker": null
+    }
+  ],
+  "poster": "AIWarper",
+  "concepts": [
+    {
+      "key": "video-to-video",
+      "term": "video-to-video (v2v)",
+      "definition": "A generation mode in which an existing video clip serves as structural input rather than a blank canvas. The model retransforms the source footage — altering appearance, environment, or characters — while using the original as a guide for motion, timing, and spatial layout."
+    },
+    {
+      "key": "keyframe-anchor",
+      "term": "keyframe anchor",
+      "definition": "A reference image placed at a specific moment in a video timeline that the model must match exactly. The model then infers what happens before and after that frame to produce a coherent clip. Borrowed from traditional animation, where keyframes define key poses and in-betweens are interpolated."
+    },
+    {
+      "key": "generation-variance",
+      "term": "generation variance",
+      "definition": "The degree of unpredictability between successive outputs from the same AI model given the same inputs. High variance means useful results require generating many candidates and selecting the best; low variance means the first output is likely to be usable."
+    },
+    {
+      "key": "character-reference",
+      "term": "character reference",
+      "definition": "A control mode in video generation where a supplied image defines a character's appearance — face, costume, identity — and the model applies that likeness consistently across all frames of a clip, regardless of pose or motion changes."
+    },
+    {
+      "key": "temporal-coherence",
+      "term": "temporal coherence",
+      "definition": "The property of a generated video in which objects, lighting, and characters remain visually consistent from frame to frame. Its absence produces flickering, morphing, or objects that appear and disappear arbitrarily."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": "The post opens a demonstration thread of Ray 3 Modify's five-second-anchor workflow. @AIWarper reports no cherry-picking on the first output and promises further examples below, suggesting subsequent replies show additional creature composites or workflow variations using the same minimal extract-composite-run pipeline.",
+  "sources": [
+    {
+      "url": "https://lumalabs.ai/news/ray3-modify",
+      "title": "Ray3 Modify | Luma",
+      "note": "Official product announcement describing Modify Video, Modify with Keyframes, and Character Reference modes, released December 18, 2025"
+    },
+    {
+      "url": "https://lumalabs.ai/learning-hub/ray3-modify-user-guide",
+      "title": "Ray3 Modify User Guide | Dream Machine",
+      "note": "Luma's official user guide detailing workflow steps and use cases for all Ray3 Modify modes"
+    }
+  ],
+  "bookmark_id": "2002543266517168350",
+  "generated_at": "2026-05-07T03:58:20.042724Z",
+  "backend": "claude"
+}

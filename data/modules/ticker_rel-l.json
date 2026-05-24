@@ -1,0 +1,24 @@
+{
+  "key": "REL.L",
+  "name": "RELX PLC",
+  "exchange": "London Stock Exchange",
+  "blurb": "RELX PLC is a global provider of information-based analytics and decision tools for professional and business customers. The company operates through four segments: Scientific, Technical & Medical; Risk & Business Analytics; Legal; and Exhibitions. It serves customers in over 180 countries and holds leading positions in each of its markets.",
+  "recent": "In the past 30 days, RELX shares have traded steadily with modest gains, supported by consistent revenue growth and a strong dividend yield. The company reported solid full-year results in February 2025, with underlying revenue growth of 6% and improved margins. No major news or analyst rating changes have emerged in the last month.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/REL.L/",
+      "title": "RELX PLC (REL.L) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/REL.L/",
+      "title": "(REL.L) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/LON/REL/",
+      "title": "Relx (REL) Share Price, Stock Value, News & Analysis $REL"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:31:28.590206Z",
+  "backend": "deepseek"
+}

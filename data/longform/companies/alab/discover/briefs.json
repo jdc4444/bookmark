@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "company": {
+    "name": "Astera Labs, Inc.",
+    "ticker": "ALAB",
+    "exchange": "NASDAQ",
+    "slug": "alab"
+  },
+  "report_title": "Astera Labs — the connectivity-silicon company that priced the AI rack",
+  "report_subtitle": "From three Texas Instruments alumni in 2017 to $852M of FY2025 revenue and 75.7% gross margin — how PCIe retimers became the highest-margin pickaxe of the AI buildout",
+  "voice_and_style": "Financial-Times / Bloomberg long-form. Primary sources only (SEC EDGAR 10-K, DEF 14A, 10-Q, 8-K, IR press releases, asteralabs.com, primary industry coverage at Lightreading, ConvergeDigest, Semi Engineering, EE Times). Past-tense narrative voice. Quote management from earnings calls or press releases when paraphrasing claims. Do not extrapolate beyond the snapshot date 2026-05-23. The reader is a sophisticated investor who already knows what PCIe and CXL are; do not explain basics. No Aleabit / Substack / X commentary as primary source; bounded to ≤200 word subsection in news_catalysts only.",
+  "target_total_word_count": 18000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {
+      "slug": "snapshot",
+      "title": "Snapshot",
+      "order": 1,
+      "target_words": 750,
+      "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+      "directives": [
+        "Open with the structural fact: Astera Labs did $852.5M of revenue in FY2025 at 75.7% GAAP gross margin — a level that places it in the top decile of fabless semiconductor companies on margin and is the operating signature of a connectivity-silicon company priced like software.",
+        "State the ticker (ALAB, NASDAQ), the IPO date (March 20, 2024 — opened at $52.56 against a $36 priced offering), the three co-founders (Mohan, Gajendra, Morrison), headquarters (Santa Clara), engineering centres (Santa Clara + Israel + India + smaller US sites), and the December 31, 2025 balance sheet ($167.6M cash + $1.02B marketable securities = $1.19B liquid, essentially no debt).",
+        "Two-sentence framing of what they do: Astera designs connectivity silicon — PCIe and CXL retimers (Aries), Ethernet smart cable modules (Taurus), CXL memory controllers (Leo), and PCIe/CXL fabric switches (Scorpio) — that sits between accelerator GPUs and the CPU/network fabric inside AI servers and racks. The customer set is hyperscalers (Microsoft, AWS, Meta, Google) plus AI-server OEM/ODM partners (Supermicro, Dell, HPE, Lenovo, Foxconn, Quanta).",
+        "FY2025 revenue $852.5M (+115% YoY), GAAP gross margin 75.7%, GAAP net income $219.1M ($1.22 diluted EPS), non-GAAP net income $331.0M ($1.84 diluted), operating cash flow $319.3M.",
+        "Q4 2025 $270.6M revenue (+92% YoY, +17% sequential); Q1 2026 guidance $286-297M at $0.36-0.38 GAAP EPS — implies continued mid-single-digit sequential growth into the next architecture generation.",
+        "Close with the central tension: 75.7% gross margin and $1.19B balance sheet are extraordinary outcomes for a two-year-public company, but the next 18-24 months require design-in retention at the Nvidia Rubin / AMD MI400 generation and successful Scorpio fabric ramp. The board (chair Alba ex-Galileo, Barratt incoming Intel chair, Hurlston current Lumentum CEO, Dyckerhoff Sutter Hill, Mayer ex-Ixia, Lazar ex-GoPro CFO) has been assembled to govern through exactly that cycle compression."
+      ]
+    },
+    {
+      "slug": "corporate_history",
+      "title": "From three TI alumni to NASDAQ in seven years",
+      "order": 2,
+      "target_words": 1400,
+      "use_prep_files": ["history.md", "snapshot.json", "financials.json"],
+      "directives": [
+        "Anchor in the three co-founders: Jitendra Mohan (BTech IIT Bombay, MS Stanford EE; National Semi 1996-2012 ending as Design Director; TI 2012-2017), Sanjay Gajendra (MEng Colorado-Boulder; Wipro 1996-2000; NatSemi 2006-2011; TI 2014-2017), Casey Morrison (less publicly profiled but the third founding signature). The TI / National Semiconductor common thread is the operational DNA.",
+        "Series A led by Sutter Hill Ventures (Stefan Dyckerhoff joined the board in 2019). Subsequent rounds from Fidelity, GlobalFoundries Ventures, Intel Capital, Avigdor Willenz Group. Willenz (Galileo Technology founder, Annapurna Labs founder) is the figure behind Manuel Alba's later chairmanship.",
+        "Pre-IPO build-out 2018-2023: four product families (Aries PCIe/CXL retimers, Taurus Ethernet smart cable modules, Leo CXL memory controllers, Scorpio PCIe/CXL fabric switches) and engineering centres in Israel and India built up. The board added Manuel Alba as chairman (March 2018), Dyckerhoff (2019), Hurlston (2022), Lazar (Dec 2022).",
+        "IPO March 20, 2024: priced at $36 (above the $32-34 range), opened at $52.56 (71% pop), closed first day around $62 — implying enterprise value over $9B at the IPO and $13B at first-day close.",
+        "FY2024 first full public year: $396.3M revenue (+242% YoY from $115.8M FY2023), GAAP-profitable. Bethany Mayer joins the board June 2024.",
+        "FY2025 the structural-margin year: $852.5M revenue (+115%), 75.7% gross margin, $219M GAAP net income, $1.19B liquid balance sheet. Craig Barratt joins the board March 2025 (and is designated incoming Intel Chairman effective May 13, 2026).",
+        "FY2026 begins with the CFO transition: Mike Tate retires March 2 2026, Desmond Lynch (ex-Rambus CFO) becomes new CFO. The Rambus IP-and-royalty CFO background signals continued focus on IP-style margin in the product mix.",
+        "Close on what the seven-year arc means: a founder-led connectivity silicon company that reached structural-margin profitability and a fortress balance sheet within two years of being public, with a board configured for sustained governance through the next architecture transition."
+      ]
+    },
+    {
+      "slug": "business_segments",
+      "title": "Four product families, one connectivity layer",
+      "order": 3,
+      "target_words": 1700,
+      "use_prep_files": ["counterparties.json", "snapshot.json", "financials.json"],
+      "directives": [
+        "Walk through each product family with technical accuracy at the level a sophisticated investor expects: (a) Aries — PCIe Gen5 and Gen6 retimers and smart retimers, the rate-limiting silicon between GPU accelerators and host CPUs in AI servers. (b) Taurus — Ethernet smart cable modules for 200G/400G/800G inter-rack interconnect; the 'smart' positioning means embedded monitoring and link-management silicon. (c) Leo — CXL memory expansion controllers; enable AI servers to access memory pools larger than a single CPU socket can address directly. (d) Scorpio — PCIe/CXL fabric switches; higher-level silicon connecting multiple GPUs through PCIe/CXL switching, an architectural alternative to Nvidia NVLink/NVSwitch.",
+        "Astera does not separately break out revenue by product family in the disclosure available at the snapshot date; flag this honestly. Aries (retimers) is the largest contributor based on management commentary and product positioning. Taurus is the next-most-disclosed driver. Leo and Scorpio are smaller-revenue, larger-strategic-option product lines.",
+        "The structural margin point: 75.7% GAAP gross margin in FY2025 is the highest in the fabless connectivity silicon peer set. The economics come from (a) high-value design-in at hyperscalers and OEMs where switching costs are 18-24 month qualification cycles, (b) leading-edge process nodes at TSMC where Astera's volumes are large enough to negotiate fab/OSAT terms, and (c) IP-heavy product architecture where most cost is engineering and tape-out spread across many years of design-in revenue.",
+        "End-market positioning: Astera's revenue flows almost entirely through AI server/rack builds — there is no meaningful diversification into edge, automotive, or non-AI server markets at the FY2025 disclosure level. The concentration of end-market exposure is a structural risk that increases the importance of architecture-transition design-in.",
+        "Q4 2025 standalone: $270.6M revenue, $0.58 non-GAAP diluted EPS, +92% YoY, +17% sequential. The sequential growth at a $250M+ quarterly base implies operating leverage is still building.",
+        "Source explicitly to the FY2025 10-K, Q1-Q4 2025 8-K earnings releases, and the asteralabs.com product family pages."
+      ]
+    },
+    {
+      "slug": "financial_deep_dive",
+      "title": "75.7 percent gross margin and a billion-dollar balance sheet",
+      "order": 4,
+      "target_words": 1700,
+      "use_prep_files": ["financials.json", "snapshot.json"],
+      "directives": [
+        "Open with the FY2025 headline: $852.5M revenue (+115%), 75.7% GAAP gross margin, $219.1M GAAP net income, $331.0M non-GAAP net income, $319.3M operating cash flow.",
+        "Gross margin analysis: 75.7% GAAP and 75.8% non-GAAP. The tiny gap between GAAP and non-GAAP is unusual — most public silicon companies show 200-500 bps gaps from stock-comp and amortisation. Astera's tight gap reflects an IP-and-design-driven cost structure with relatively low product-cost stock comp.",
+        "Operating leverage math: $471.8M FY25 OpEx against $852.5M revenue = ~55% opex-to-revenue. The company is reinvesting heavily in R&D for the Rubin / MI400 generation while still producing GAAP net income — the rare combination that creates structural valuation premium.",
+        "Non-GAAP vs GAAP net income gap: $331M non-GAAP vs $219M GAAP = $112M reconciliation. The dominant component is stock-based compensation, normal signature of a recently-IPO'd silicon company.",
+        "Balance sheet: $167.6M cash + $1.02B marketable securities = $1.19B liquid against essentially no debt. Operating cash flow $319.3M FY25 means the company self-funds the entire R&D spend with cash left over to compound the balance sheet.",
+        "Quarterly progression: FY24 quarters built from sub-$100M to $135M+; FY25 walked Q1-$132 (approx) → Q2-$176 → Q3-$203 → Q4-$270.6. The six-quarter sequential trend is the operating story.",
+        "FY2026 Q1 guidance: $286-297M revenue, $0.36-0.38 GAAP diluted EPS. Mid-point implies +7.7% sequential growth, consistent with continued ramp into the next architecture generation.",
+        "Compensation context: CEO Mohan FY25 base $615K + cash bonus $1.33M; COO Gajendra same; annual incentive payout factor 180.586% of target (above-target performance year); no new equity grants for CEO/COO in 2025 (IPO-era awards provide ongoing incentive).",
+        "Source numbers exclusively to the FY2025 10-K, the four 2025 quarterly 8-Ks, and the DEF 14A 2025 proxy."
+      ]
+    },
+    {
+      "slug": "earnings_story",
+      "title": "Six quarters of sequential growth",
+      "order": 5,
+      "target_words": 1400,
+      "use_prep_files": ["financials.json", "snapshot.json", "history.md"],
+      "directives": [
+        "Frame as the cumulative sequential-growth narrative through the public history. FY24 first public quarters built off the IPO base; FY25 walked through Q1, Q2, Q3 ($203M), Q4 ($270.6M); FY26 Q1 guide $286-297M.",
+        "Pull at least one quote from each of the FY24 Q4 (Feb 2025), Q1 2025, Q2 2025, Q3 2025 (Oct 28 2025), Q4 2025 / FY25 (Feb 24 2026) earnings calls. Attribute correctly. Use management's own framing for the AI-server build-cycle.",
+        "Q3 2025 was the first $200M+ quarter; Q4 2025 was the first $250M+ quarter. The Q4 print on Feb 24 2026 was the structural-margin demonstration: $270.6M revenue, 75.6% GAAP GM, $0.25 GAAP / $0.58 non-GAAP EPS.",
+        "Stock-price reaction series: from the $52.56 IPO open in March 2024 the stock has traded through a wide range as AI-server cycle expectations have moved. Reference current trading level near the snapshot date without overweighting it.",
+        "Close with the cumulative observation: in seven public quarters Astera has demonstrated continued sequential growth, expanding margins, and operating cash flow that exceeds R&D spend — the operating-leverage signature."
+      ]
+    },
+    {
+      "slug": "leadership",
+      "title": "Three founders, eight directors, and the Intel chairmanship overhang",
+      "order": 6,
+      "target_words": 1800,
+      "use_prep_files": ["leadership.json", "snapshot.json"],
+      "directives": [
+        "Open with Jitendra Mohan (CEO): age 52, BTech IIT Bombay EE, MS Stanford EE; National Semiconductor 1996-2012 (ended as Design Director, NatSemi acquired by TI 2011), TI Product Line Manager 2012-2017; co-founded Astera Nov 2017.",
+        "Sanjay Gajendra (President/COO): age 51, MEng Engineering Management Colorado-Boulder; Wipro 1996-2000, NatSemi 2006-2011, TI 2014-2017; co-founded Astera Nov 2017. COO from inception, President since November 2023.",
+        "Casey Morrison (Chief Product Officer): the third co-founder. Less publicly profiled — handle this honestly without inventing detail.",
+        "Desmond Lynch (CFO since March 2026): age 46, BA Glasgow + Chartered Accountant (Scotland); CFO Rambus 2022-2026 (SVP Finance + IR before that 2020-2022); VP Finance Knowles 2019-2020; VP Finance / Senior Director FP&A Renesas/IDT 2016-2019; Director FP&A Atmel 2010-2016. Replaces Mike Tate who retired March 2 2026.",
+        "Philip Mazzara (General Counsel and Secretary): age 47, JD/MBA Stanford; VP General Counsel and Secretary at Innovium Inc. (acquired by Marvell 2021) 2018-2021. Joined Astera Feb 2022, became GC September 2022.",
+        "Board chair Manuel Alba: age 70, director since March 2018. Co-founded Galileo Technology (sold to Marvell 2001), sat on boards of Annapurna Labs (sold to Amazon 2015), Habana Labs (sold to Intel 2019), Banias Labs, Marvell, Kardium, Lightbits, Xsight Labs, Lyte.ai, Copperleaf Technologies. Education BS EE Mexico Polytechnic, MS Computer Engineering and MS Engineering Management USC, MBA Santa Clara. Frame him as the deepest connectivity-and-acceleration M&A pattern recognition on the board.",
+        "Craig Barratt: age 63, director since March 2025. Stanford EE PhD/MS, U Sydney BE/BS. SVP/GM Intel Connectivity Group 2019-2020, President/CEO Barefoot Networks 2017-2019 (sold to Intel), SVP Google Access 2013-2017, President Qualcomm Atheros 2011-2013, President/CEO Atheros Communications 2003-2011 (sold to Qualcomm). Also: Director Intel since November 2025 and designated incoming Chairman of Intel effective May 13 2026; Director Intuitive Surgical since April 2011 (Lead Director 2020-2025); formerly IonQ 2021-2024. Audit Committee at Astera. Treat the Intel chairmanship overhang as a meaningful biographical fact.",
+        "Michael Hurlston: age 59, director since 2022. Compensation Committee Chair. Currently President/CEO of Lumentum Holdings (since February 2025), previously CEO of Synaptics (2019-2025), CEO of Finisar (2018-2019), SVP roles at Broadcom 2001-2017. UC Davis BS/MS EE + MBA. Triple-public-company-CEO at age 59 is rare — frame this. Director Flextronics International since September 2020.",
+        "Stefan Dyckerhoff: age 53, director since 2019. Nominating and Corporate Governance Committee Chair. Managing Director Sutter Hill Ventures since October 2012 (led Astera's Series A). EVP and GM Juniper Networks 2011-2012, VP/GM Cisco 2007-2009. Duke BS EE/CS + Stanford MS EE. Director SiFive since September 2015, Atmosic Technologies since April 2017, formerly Enfabrica 2020-2025 (Enfabrica is a direct AI-fabric competitor — note this delicately).",
+        "Bethany Mayer: age 64, director since June 2024. Audit Committee + Compensation Committee. EVP Corporate Development and Technology at Sempra Energy 2018-2019, President/CEO of Ixia 2014-2017 (sold to Keysight). Earlier: HP SVP, Blue Coat Systems, Cisco, Apple. Santa Clara BS Political Science + Cal State Monterey Bay MBA + NYU MS Cybersecurity. Other current boards: HPE since June 2023, Box (Chair) since April 2020, LAM Research since May 2019. Designated audit-committee financial expert. Frame her as the broadest current public-company director on the board.",
+        "Jack Lazar: age 60, director since December 2022. Audit Committee Chair + Nominating and Corporate Governance Committee. CEO Razal Ventures since January 2025; independent consultant since March 2016; CFO of GoPro 2014-2016; SVP Corporate Development at Qualcomm 2011-2013; SVP Corp Dev, CFO, and Secretary at Atheros Communications 2003-2011 (Atheros sold to Qualcomm 2011 — note he overlaps Barratt at Atheros). Santa Clara BS Commerce/Accounting. Other current boards: Resideo since September 2018, Box since March 2020, GlobalFoundries since July 2021.",
+        "Board composition observation: three founder-operators plus five independents whose CVs concentrate in semiconductor/connectivity CEO experience and venture investing. Three of the five independents (Alba, Hurlston, Barratt) have personally led connectivity or accelerator silicon companies through full M&A or scale-up cycles. One (Dyckerhoff) is the lead Series A investor partner. One (Lazar) is the public-company CFO veteran. One (Mayer) is the most cross-board experienced. The composition reflects a company that already executed a clean IPO (March 2024) and is now configured for cycle-compression governance through the Nvidia Rubin / next-architecture transition.",
+        "DO NOT punt on any of the six outside directors. Every name has substantive material in prep/leadership.json — use it. If a sentence in this chapter would say 'limited public profile,' rewrite it to use the data in the prep file instead."
+      ]
+    },
+    {
+      "slug": "customers_supply_chain",
+      "title": "Hyperscalers, OEMs, and the TSMC fab",
+      "order": 7,
+      "target_words": 1500,
+      "use_prep_files": ["counterparties.json", "financials.json", "snapshot.json"],
+      "directives": [
+        "Customer landscape framing: Astera's revenue flows through (a) AI server/system OEM and ODM channel — Supermicro, Dell, HPE, Lenovo, Foxconn-FII, Quanta, Wistron, ZT Systems — into hyperscaler builds, and (b) direct to hyperscalers (Microsoft, AWS, Meta, Google) for their custom AI infrastructure programs.",
+        "Named >10% customer disclosure: the FY2025 10-K excerpts reviewed at the snapshot date do not include a >10% customer concentration disclosure in the form that AAOI or similar suppliers carry. Honest framing: this is consistent with a connectivity-silicon supplier whose revenue is fragmented across multiple OEM channels into many hyperscaler programs — but it is a data point worth flagging as differently disclosed than the pure-play hyperscale-supplier comparables.",
+        "Supplier relationship to accelerator silicon: Astera's products are PCIe-spec connectivity, which means they are de facto required when accelerator-silicon programs reach AI-server volume. The named accelerator vendors are Nvidia (Hopper, Blackwell, Blackwell-Ultra, Rubin), AMD (MI300X, MI325X, MI350, MI400-series), and hyperscaler custom silicon (Microsoft Cobalt/Maia, AWS Trainium/Inferentia/Graviton, Google TPU, Meta MTIA).",
+        "Supply chain: TSMC for advanced-node connectivity ICs (leading-edge process required for PCIe Gen5/Gen6 SerDes IP). OSAT partners (ASE, Amkor) for assembly and test — specific contracts not separately disclosed. PCI-SIG / CXL Consortium memberships are the IP-stack foundations.",
+        "Competitive landscape (treat with primary-source discipline): Broadcom is the largest competitor across PCIe retimers and switching silicon; Marvell has connectivity silicon at scale; Microchip has overlapping PCIe retimers at lower volume; Credo (CRDO) competes most directly on the Ethernet smart cable module side (Taurus); MaxLinear has overlapping Ethernet products; Enfabrica is a venture-backed fabric-silicon competitor (Sutter Hill connection note: Stefan Dyckerhoff sat on Enfabrica board 2020-2025); Nvidia's own NVLink/NVSwitch is the strategic substitute for Scorpio's higher-level fabric story.",
+        "Go-to-market pattern: 18-24 month design-in cycle from spec engagement through qualification, volume ramp, and revenue recognition. The implication: architecture-transition timing is the most important variable for the equity story.",
+        "Close on the central structural risk: AI capex concentration. Astera's products go almost entirely into the GPU-server supply chain. If hyperscaler AI capex decelerates, the qualified design-in moat does not fully insulate the revenue line — qualified suppliers ship lower volumes when builds slow."
+      ]
+    },
+    {
+      "slug": "competitive_position",
+      "title": "Where Astera sits in the AI connectivity stack",
+      "order": 8,
+      "target_words": 1500,
+      "use_prep_files": ["snapshot.json", "counterparties.json", "financials.json"],
+      "directives": [
+        "Frame the competitive landscape by product family: (a) PCIe/CXL retimers (Aries): Astera leads on design-in count; Broadcom and Microchip are the meaningful competitors. (b) Ethernet smart cable modules (Taurus): Credo (CRDO) and MaxLinear are the most direct competitors. (c) CXL memory controllers (Leo): less mature category, Astera is one of a small number of qualified suppliers. (d) PCIe/CXL fabric switches (Scorpio): direct competition with Broadcom and Marvell; strategic substitute is Nvidia NVLink/NVSwitch.",
+        "Astera's structural advantages: (a) earliest-mover at scale in PCIe Gen5/Gen6 retimers, (b) IP-and-design-driven product architecture producing 75.7% gross margin, (c) fortress balance sheet ($1.19B liquid) provides multi-cycle R&D durability, (d) board composition (Alba's connectivity-M&A pattern, Barratt's Intel chair role, Hurlston's optical-CEO seat) provides strategic positioning signal.",
+        "Astera's structural risks: (a) end-market concentration in AI server connectivity, (b) Nvidia NVLink scale could erode Scorpio fabric TAM, (c) Broadcom has dramatically larger R&D budget across PCIe and switch silicon, (d) qualification-cycle compression at each architecture transition (Hopper → Blackwell → Rubin) means design-in must be re-won periodically.",
+        "Compare with adjacent public companies: Credo Technology (CRDO) is the closest pure-play public comparable for SerDes/retimers at AI scale, though Credo's product mix tilts more to Ethernet; Marvell competes broader across switching and custom ASICs; Broadcom is the broadest competitor across PCIe, switching, and custom silicon.",
+        "Architecture transition stakes: the next 12-18 months will determine design-in retention at Nvidia Rubin (announced for late-2026/2027 production) and AMD MI400-series. If Astera retains design-in at both, the multi-year revenue trajectory is preserved. If either generation skips to a different supplier, the structural-margin story compresses.",
+        "Sources: AAOI/COHR/LITE-style peer 10-K filings, Astera FY25 10-K, primary industry coverage at Semi Engineering, EE Times, Lightreading. Do NOT cite Aleabit or X commentary as primary sources."
+      ]
+    },
+    {
+      "slug": "news_catalysts",
+      "title": "From IPO to first $250M quarter",
+      "order": 9,
+      "target_words": 1600,
+      "use_prep_files": ["snapshot.json", "financials.json", "history.md", "counterparties.json"],
+      "directives": [
+        "Build the news timeline from primary sources: March 20, 2024 IPO at $36 opens at $52.56 (BusinessWire / NASDAQ release); FY24 quarterly earnings releases through 2024 and into 2025; June 24, 2024 — Bethany Mayer appointed to board (8-K and press release); March 2025 — Craig Barratt appointed to board (8-K and press release); October 28, 2025 — Q3 2025 earnings ($203M+ revenue announcement); February 24, 2026 — Q4 2025 / FY2025 earnings ($270.6M Q4, $852.5M FY); March 2, 2026 — CFO transition announcement (Tate retires, Lynch named); March 2026 — Desmond Lynch joins as CFO; April-May 2026 — Q1 2026 print and any subsequent design-in announcements (post-snapshot if dated after May 23 2026).",
+        "Quote management framing of each major announcement, attributed to the originating press release or transcript.",
+        "Identify key forward catalysts from the snapshot date: Q2 2026 print (expected August 2026 — post-snapshot), Nvidia Rubin design-in disclosure, AMD MI400 design-in disclosure, any disclosure of architecture-transition revenue tied to specific accelerator programs.",
+        "Bound the Aleabit / X commentary discussion to a single subsection at the bottom of the chapter, titled 'Specialist-commentary subsection: how price-target chatter framed the move.' Limit to 200 words. Cite Aleabit's published price target on ALAB as one data point only, with explicit caveat that Aleabit is not used as a primary source for facts elsewhere in this report. If Aleabit's exact published target or framing for ALAB is not in the prep data, write 'Specialist commentary framing of ALAB by Aleabit was not surfaced in the bounded primary-source set used for this report' and do not invent.",
+        "DO NOT use Aleabit, Substack, X, or any third-party commentary as a primary source anywhere else in this chapter."
+      ]
+    },
+    {
+      "slug": "ip_rd",
+      "title": "PCI-SIG memberships and the cost of a Gen6 retimer",
+      "order": 10,
+      "target_words": 1100,
+      "use_prep_files": ["snapshot.json", "financials.json"],
+      "directives": [
+        "Open with the operating signature: 75.7% gross margin reflects an IP-and-design-driven product structure. R&D spend is the largest single line in OpEx ($471.8M FY25 total OpEx).",
+        "Engineering geography: Santa Clara HQ, Astera Labs Israel (run by SVP Guy Azrad), Astera Labs India (managing director Shivananda R. Koteshwar in Bangalore). The Israel engineering team is the most consequential acquisition-target talent pool — Israeli analog and SerDes engineering depth was the foundation of multiple connectivity-silicon successes (Galileo, Annapurna, Habana).",
+        "IP stack: PCI-SIG memberships, CXL Consortium memberships, Ethernet standards body participation. Astera contributes to specifications rather than only consuming them.",
+        "Process node positioning: PCIe Gen5/Gen6 retimers require leading-edge TSMC nodes (likely 7nm/5nm and migrating to 4nm/3nm for Gen6 generations). The capex burden of leading-edge tape-outs is a meaningful financial commitment.",
+        "Patent portfolio: precise count not disclosed in the prep summary used here — flag honestly. The CFO transition to Desmond Lynch (ex-Rambus) signals continued focus on IP-and-royalty-style economics within the product mix, consistent with Rambus's industry-leading patent licensing model.",
+        "R&D as percent of revenue: not separately broken out in the prep — state limitation honestly. Combined with the $471.8M total OpEx, R&D is a heavy line that operating cash flow ($319.3M FY25) can absorb while still building the balance sheet.",
+        "Close on the strategic question: Astera's IP and R&D positioning is most relevant if the Scorpio fabric-switch product family scales into a Broadcom-competitive position. The product roadmap has not yet publicly demonstrated that scale at the FY25 snapshot — it is the open R&D investment outcome to watch."
+      ]
+    },
+    {
+      "slug": "risks",
+      "title": "AI capex concentration and the architecture-transition cycle",
+      "order": 11,
+      "target_words": 1500,
+      "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json"],
+      "directives": [
+        "Six categorical risks: (1) AI capex concentration — Astera's revenue flows almost entirely through AI server/rack builds. (2) Architecture transition timing — design-in must be re-won at Nvidia Rubin / AMD MI400 / next hyperscaler custom silicon generations. (3) Nvidia NVLink strategic substitution — could erode Scorpio fabric TAM. (4) Broadcom R&D scale — substantially larger competitor across PCIe and switch silicon. (5) Customer concentration — even without a single >10% customer, total exposure to ~5 hyperscalers and ~5 server OEMs creates capex-sensitivity. (6) Foundry/process-node availability — leading-edge TSMC capacity is a finite resource with hyperscaler-custom-silicon competing for the same allocation.",
+        "For each risk, walk through (a) the specific exposure, (b) what management has said publicly about mitigation, and (c) what the leading-indicator signal would be that the risk is materialising.",
+        "Customer concentration nuance: the lack of a >10% customer disclosure is different from the absence of concentration — Astera's products go into roughly the same set of 8-12 buyers (hyperscalers plus OEMs) as every AI-infrastructure component supplier. A meaningful AI capex slowdown across that buyer set would compress revenue.",
+        "Architecture transition risk specifically: the 18-24 month qualification cycle means design-in decisions made by Nvidia and AMD product teams in 2024-2025 are determining 2026-2027 revenue. The data point Astera and competitors don't always disclose is how many design-in slots they have at each generation. Treat the un-disclosed nature honestly.",
+        "Operating cash flow protection: $319.3M FY25 operating cash flow against $1.19B liquid balance sheet means Astera can sustain a multi-quarter revenue pause without external financing — this is a meaningful structural protection.",
+        "Source claims to the 10-K risk factors section, management commentary from earnings calls, and the DEF 14A proxy."
+      ]
+    },
+    {
+      "slug": "outlook",
+      "title": "Rubin, MI400, and the question of Scorpio",
+      "order": 12,
+      "target_words": 1500,
+      "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json", "leadership.json"],
+      "directives": [
+        "Open with the visible FY2026 setup: Q1 2026 guidance $286-297M revenue ($291.5M midpoint, +7.7% sequential), GAAP EPS $0.36-0.38. Extrapolating the FY25 exit run-rate and seasonal sequential pattern produces a plausible FY2026 revenue range of $1.2-1.4B at preserved gross margin — though this is informed extrapolation, not management guidance.",
+        "The architecture transition specifically: Nvidia Rubin (late-2026/2027 production) and AMD MI400-series are the next-generation accelerator programs whose design-in retention determines whether Astera sustains the 100%+ growth trajectory or moderates to 30-50% growth. The leading-indicator signal will be design-win press releases from Astera and from server OEMs naming Rubin/MI400 platforms.",
+        "Scorpio fabric switch outlook: the Scorpio product family is the strategic upside lever. Direct competition with Broadcom's PCIe switching and Nvidia's NVLink/NVSwitch. If Scorpio achieves volume design-in by FY2027, it potentially doubles Astera's addressable market within the AI server. If Scorpio stays niche, Astera remains a retimer-and-cable-module supplier with strong margins but capped TAM.",
+        "Operating leverage math: at $1.2-1.4B FY2026 revenue and preserved 75% GAAP gross margin and modest OpEx growth, GAAP net income could exceed $400M FY2026. This is the operating-leverage signature that justifies premium connectivity-silicon valuations.",
+        "M&A speculation overhang: a $850M revenue / 75% gross margin / $1.19B balance sheet connectivity silicon company is valuable to several potential acquirers. Broadcom (would be antitrust-difficult), Marvell, Nvidia (would be strategic-fit-difficult), Intel (where Craig Barratt now chairs — a meaningful pattern). There is no public signal of any transaction, but the board composition is the kind that could execute one if presented.",
+        "Close on the central question the report has built toward: will Astera Labs sustain the structural-margin connectivity-silicon position through the Rubin / MI400 transition, and if so, does the Scorpio fabric story scale into meaningful revenue by FY2027? Frame the question; don't pretend to answer. The reader should have what they need to take a view."
+      ]
+    },
+    {
+      "slug": "appendices",
+      "title": "Appendices",
+      "order": 13,
+      "target_words": 900,
+      "use_prep_files": ["snapshot.json", "financials.json"],
+      "directives": [
+        "Three subsections: (a) Glossary of AI connectivity silicon terminology (PCIe Gen5/Gen6, CXL, SerDes, retimer, smart cable module, NVLink, NVSwitch, fabric switch, hyperscaler, OSAT, design-in, qualification). (b) Quarterly revenue table from IPO through Q4 2025 and Q1 2026 guidance. (c) Source list — every SEC filing referenced, every press release URL, every primary news article referenced.",
+        "The source list must be exhaustive and link-by-link. Use the FY2025 10-K, the DEF 14A 2025 proxy, the IPO S-1, and the quarterly 8-K press releases from ir.asteralabs.com.",
+        "The glossary entries should be 1-2 sentences each, written for a sophisticated investor who needs a quick refresher rather than a primer."
+      ]
+    }
+  ]
+}

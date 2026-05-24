@@ -1,0 +1,23 @@
+{
+  "key": "seer_xyz",
+  "display_name": "Unknown",
+  "blurb": "Insufficient data to write a reliable bio. The research sources returned no usable content — X.com blocked rendering due to JavaScript being disabled, so no profile information, post history, follower count, or bio text was retrievable.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/seer_xyz",
+    "https://x.com/_seer_xyz"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/seer_xyz",
+      "title": "Seer (@seer_xyz) / Posts / X"
+    },
+    {
+      "url": "https://x.com/_seer_xyz",
+      "title": "Seer. (@_seer_xyz) / Posts / X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T09:37:28.470833Z",
+  "backend": "claude-sonnet-subagent"
+}

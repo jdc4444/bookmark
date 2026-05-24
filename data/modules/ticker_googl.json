@@ -1,0 +1,16 @@
+{
+  "key": "GOOGL",
+  "name": "Alphabet Inc. (Class A)",
+  "exchange": "NASDAQ",
+  "blurb": "Alphabet is the parent company of Google, the world's dominant search engine, as well as YouTube, the Google Cloud Platform, and a portfolio of moonshot bets (Waymo, DeepMind, Verily). Search advertising accounts for the majority of revenue, but the cloud division has grown into a multi-billion-dollar profit centre. Alphabet is also a leading player in generative AI, having developed the Gemini family of large language models and integrated them across its product suite.",
+  "recent": "Alphabet reported FY2025 revenue of approximately $370 billion, with Google Cloud crossing $50 billion annually. The company has faced antitrust scrutiny in both the US and EU, with a US federal court ruling in 2024 that Google holds an illegal monopoly in general search. Despite regulatory headwinds, the stock has benefited from AI-driven search enhancements and strong cloud growth. Paul Pelosi exercised call options with a $150 strike (purchased January 2025, exercised January 2026) gaining approximately 75% over the period.",
+  "sources": [
+    {
+      "url": "https://www.fool.com/investing/2026/02/01/nancy-pelosi-stocks-ai-stocks-nvda-stock/",
+      "title": "Nancy Pelosi's 2026 Stock Moves — Motley Fool"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

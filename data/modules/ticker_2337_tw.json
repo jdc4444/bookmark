@@ -1,0 +1,24 @@
+{
+  "key": "2337.TW",
+  "name": "Macronix International Co., Ltd.",
+  "exchange": "TWSE",
+  "blurb": "Macronix International Co., Ltd. (TWSE: 2337) is a Taiwan-based integrated device manufacturer (IDM — a company that both designs and fabricates its own chips) specialising in NOR flash memory and mask ROM. NOR flash is the non-volatile memory used for code storage and boot firmware in microcontrollers, automotive systems, IoT devices, and industrial equipment; unlike NAND flash, it allows random-access byte-level reads, making it essential where firmware must execute directly from storage. Macronix is one of the few remaining independent NOR flash IDMs globally.",
+  "recent": "Macronix reported FY2025 revenue of NT$28.9 billion, up 11.6% year-over-year, driven by recovering demand in automotive and industrial end markets. In 2025 the company introduced ArmorBoot MX76, a secure-boot NOR flash combining rapid boot performance with integrated security features, targeting embedded and automotive applications. The stock reached an all-time high of NT$170 in March 2026.",
+  "sources": [
+    {
+      "url": "https://www.mxic.com.tw/en-us/about/news/Pages/ArmorBoot-2025.aspx",
+      "title": "Macronix Introduces Secure-Boot NOR Flash ArmorBoot MX76 — Macronix"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/2337.TW/",
+      "title": "Macronix International (2337.TW) — Yahoo Finance"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Macronix",
+      "title": "Macronix — Wikipedia"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

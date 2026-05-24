@@ -1,0 +1,31 @@
+{
+  "ticker": "VOO",
+  "exchange": "NYSE Arca",
+  "company": "Vanguard S&P 500 ETF",
+  "sector": "ETF — U.S. Large-Cap Blend",
+  "description": "Vanguard S&P 500 ETF tracks the S&P 500 Index, a market-capitalisation-weighted benchmark of the five hundred largest U.S.-listed companies. It is among the largest ETFs in the world by assets and carries an expense ratio of 0.03%, reflecting Vanguard's mutual-ownership structure. VOO is a foundational holding for passive investors seeking broad domestic equity exposure at minimal cost.",
+  "key_products": [
+    "S&P 500 Index tracking",
+    "U.S. large-cap blend equity exposure"
+  ],
+  "market_cap_usd": null,
+  "aum_usd": 927000000000,
+  "aum_date": "2026-05",
+  "expense_ratio": 0.0003,
+  "top_holdings": [
+    "Apple",
+    "Microsoft",
+    "Nvidia",
+    "Amazon",
+    "Alphabet",
+    "Meta",
+    "Berkshire Hathaway",
+    "Tesla",
+    "Broadcom",
+    "JPMorgan Chase"
+  ],
+  "last_updated": "2026-05-06",
+  "key": "VOO",
+  "blurb": "Vanguard S&P 500 ETF tracks the S&P 500 Index, a market-capitalisation-weighted benchmark of the five hundred largest U.S.-listed companies. It is among the largest ETFs in the world by assets and carries an expense ratio of 0.03%, reflecting Vanguard's mutual-ownership structure. VOO is a foundational holding for passive investors seeking broad domestic equity exposure at minimal cost.",
+  "recent": "AUM stood at approximately $927 billion as of May 2026, with top holdings led by Apple, Microsoft, Nvidia, Amazon, Alphabet, Meta, Berkshire Hathaway, Tesla, Broadcom, and JPMorgan Chase."
+}

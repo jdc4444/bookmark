@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "company": "Sivers Semiconductors AB (SIVE.ST)",
+  "report_title": "Sivers Semiconductors \u2014 the laser chokepoint at the start of the curve",
+  "report_subtitle": "How a Stockholm-listed InP DFB laser maker became the upstream pure-play in the co-packaged optics supply chain \u2014 and what its planned US dual listing implies",
+  "voice_and_style": "FT/Bloomberg long-form. Concrete numbers in every paragraph. Quote primary documents (annual reports, press releases, earnings transcripts) where possible. When a third-party investor or analyst has framed something well, quote them by attribution and link. Skeptical-by-default \u2014 flag claims that haven't yet been verified by results, particularly around production timelines and customer ramps. No fluff, no hype. Treat the reader as someone who understands semiconductor supply chains but doesn't know this company specifically.",
+  "target_total_word_count": 11000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {
+      "slug": "snapshot",
+      "title": "Snapshot",
+      "order": 1,
+      "target_words": 750,
+      "directives": [
+        "Open with the most arresting fact: Sivers stock has moved from SEK 1.80 to SEK 72.90 over five years \u2014 a 40x rise that puts it at the 5-year high on the day this report was assembled. Frame this as the polar opposite of the Unitika setup (a recovery off distress) \u2014 Sivers is at-the-peak, with the market pricing future execution that has not yet happened.",
+        "State the ticker (SIVE.ST, Nasdaq Stockholm \u2014 also SIVEF OTC US), market cap (~SEK 22.7B / ~$2.2B at current price, with caveat that earlier analyst writeups cited SEK 3.4B from before the rally), shares outstanding (311.33M), 5y range (SEK 1.80\u201372.90)",
+        "Two-sentence framing of what they do: 'Sivers Wireless AB makes mmWave beamformers and antenna modules for SATCOM, 5G/6G, and defense applications. Sivers Photonics Ltd. \u2014 the UK subsidiary acquired in 2017 as CST Global \u2014 designs custom high-power InP DFB lasers and laser arrays, increasingly positioned as the upstream chokepoint for the External Light Source modules that enable co-packaged optics in next-generation AI data center GPUs.'",
+        "Founded 1951 by Carl von Sivers as Sivers Lab AB (passive microwave + VSWR detectors). Acquired by Philips Sweden in 1960. Modern entity formed through CST Global acquisition (2017) + MixComm acquisition (2022).",
+        "The macro: CEO Vickram Vathulya (PhD Lehigh, MBA Berkeley Haas, 25y semis at NXP/Maxim/Nuvotronics) appointed Aug 2024 with a personal commitment to buy 2M shares up to $1M. Chairman Bami Bastani (42y semis, three public-company turnaround CEO tours, ex-GlobalFoundries SVP) joined as Strategic Advisor Aug 2023 \u2192 Executive Chairman Feb 2024. The US-listing architecture is the throughline.",
+        "FY2025 (PCAOB-restated): Revenue SEK 306.6M (+25% YoY, +33% constant FX), pipeline $453M (+64%). Operating loss SEK 177.8M (wider than the SEK 141.3M reported under Swedish K3 \u2014 the dual-listing accounting uplift revealed less-conservative items). Cash SEK 43.5M; financing topped up Feb 2026 with $17M term loan + convertible; non-dilutive $6.6M NEMC grant May 2026.",
+        "Close with the framing question the rest of the report answers: 'Is Sivers the next LITE (the chokepoint pattern repeating), or is the at-the-peak valuation pricing a CPO ramp that has not yet shipped?' The June 15 2026 AGM, where shareholders vote on a 15% dilution authority + the board reshuffle clearing out co-founder F\u00e4llstr\u00f6m, is the immediate test."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "history.md"
+      ]
+    },
+    {
+      "slug": "corporate_history",
+      "title": "From Sivers Lab to Sivers Photonics \u2014 75 years",
+      "order": 2,
+      "target_words": 700,
+      "directives": [
+        "Shorter chapter than Unitika's 137-year arc \u2014 Sivers' modern identity is recent (post-2017)",
+        "1951: Carl von Sivers founds Sivers Lab AB. Passive microwave + VSWR detectors.",
+        "1960: Philips Sweden acquires Sivers Lab. Subsumed into the Philips technology portfolio.",
+        "(Gap \u2014 independence/IPO/Sivers IMA Holding era needs verification, flag as needs-further-research)",
+        "2017: SIVERS IMA HOLDING ACQUIRES CST GLOBAL. This is the foundational move that creates the modern Sivers. CST Global is a Scottish III-V photonic devices specialist with custom foundry capacity in wafer/coated bar/chip device/die-on-tape formats. Becomes 'Sivers Photonics Ltd.' Independent western source of III-V InP DFB lasers \u2014 the differentiator the 2025-26 CPO thesis runs on.",
+        "2019: Sivers Photonics + imec begin collaboration on integrated assemblies of C-band (1530-1565nm) InP DFB lasers onto imec's silicon photonics platform.",
+        "2022: Sivers acquires MixComm \u2014 US-based mmWave startup. Strengthens Sivers Wireless AB; brings additional wireless customers.",
+        "~2022-2024: Group rebrands from Sivers IMA Holding to Sivers Semiconductors AB. Subsidiaries: Sivers Wireless AB + Sivers Photonics Ltd.",
+        "Aug 2023: Bami Bastani joins as Strategic Advisor to the Board (the first US-listing-architect signal)",
+        "Feb 2024: Bastani elevated to Executive Chairman Sivers Inc + Chairman of Sivers AB",
+        "Aug 2024: CEO change Anders Storm \u2192 Vickram Vathulya (Lehigh PhD/Berkeley MBA)",
+        "Sept 2025: POET Technologies strategic collaboration",
+        "Feb 2026: $17M term loan + convertible",
+        "May 13 2026: PCAOB-restated 2025 Annual Report published",
+        "May 19 2026: $6.6M NEMC grant",
+        "May 20 2026: Board nominations Nideborn + Svancar announced",
+        "June 15 2026 (forthcoming): AGM with board reshuffle + 15% dilution authority vote",
+        "Close with the throughline: 'Sivers spent 65 years as a passive-microwave shop before two acquisitions in five years turned it into a CPO laser chokepoint. The pace of transformation is the story.'"
+      ],
+      "use_prep_files": [
+        "history.md",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "business_segments",
+      "title": "Two subsidiaries, two supply chains",
+      "order": 3,
+      "target_words": 1100,
+      "directives": [
+        "Open with the structural fact: Sivers operates two wholly-owned subsidiaries serving two distinct end-markets that happen to share the same underlying III-V semiconductor competency.",
+        "**Sivers Wireless AB** \u2014 Stockholm-based, the historical core. Products: mmWave beamformers, antenna modules, phased array ICs. Applications: SATCOM (European Space Agency, Intelsat as named customers), Fixed Wireless Access, 5G/6G base stations, defense and aerospace. Differentiation claim: 'only EU-based commercial provider for certain beamformer types' \u2014 a chokepoint claim that should be tested but is genuine for SATCOM-grade beamformers serving European institutional buyers. NEMC funding (May 2026) signals US DoD pipeline.",
+        "**Sivers Photonics Ltd.** \u2014 UK-based (Glasgow, ex-CST Global). Products: high-power InP DFB lasers, laser arrays, optical amplifiers, External Light Source (ELS) modules. Applications: AI datacenter optical interconnects, co-packaged optics, FMCW LiDAR for 3D imaging, healthcare wearable sensing, HPC. THIS is the analytical core \u2014 the segment the CPO thesis runs on.",
+        "Explain the technical chokepoint clearly: at the front of an optical transceiver or co-packaged optics module is a laser. For high-data-rate CPO applications it needs to be continuous-wave (CW), monochromatic (DFB controls wavelength precisely), and high-power (so the optical signal survives splitting + modulation). InP (indium phosphide) is the substrate of choice for telecom-band wavelengths (1.31\u00b5m, 1.55\u00b5m regions). Sivers Photonics is one of a handful of independent western foundries that can custom-design and small-batch manufacture these.",
+        "FY2025 financial split: company does not publish segment revenue split clearly in the public summaries available at snapshot date, but product revenue (SEK 85.7M) growing +13% constant FX while total revenue grew +25%/+33% implies a significant portion of growth is service/licensing/development revenue. Worth flagging this as analytical caveat.",
+        "Customer mapping \u2014 wireless: European Space Agency, Intelsat, US DoD (via NEMC). Photonics: POET (via ELS collab), Ayar Labs (SuperNova light source), O-Net/Enablence (ELS thermal solutions), unnamed automotive LiDAR customer ('across all their platforms', production Q4 2026). Indirect ecosystem reach into Marvell (via Celestial AI acquisition), AAPL SiPH program, AMD, Lightmatter, Lightelligence.",
+        "Highlight the FMCW LiDAR opportunity: the unnamed strategic customer is 'incorporating Sivers tech across all their platforms' with production ramp in Q4 2026 and lifecycle revenue $53-138M over 8-10 years \u2014 that's 16-44% of 2025 revenue annualized. If real, this single customer makes the LiDAR sub-segment a material standalone story.",
+        "Close with the segment-level upshot: Wireless is the historical floor (steady customers, defense pipeline, European chokepoint). Photonics is the option value (CPO thesis, multi-partner ramp 2026-2027). The financial result reflects this \u2014 wireless funds the building, photonics is the destination."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "financial_deep_dive",
+      "title": "Two sets of books \u2014 and what the restatement actually means",
+      "order": 4,
+      "target_words": 1300,
+      "directives": [
+        "Lead with the PCAOB restatement as the analytical pivot. This chapter is fundamentally about the question: which set of FY2025 numbers should an investor trust?",
+        "Side-by-side table \u2014 As Reported (Swedish K3) vs PCAOB-Restated \u2014 for FY2025: Net Sales 304.1 vs 306.6, EBIT -141.3 vs -177.8, Net Result -186.5 vs -222.6, EPS -0.69 vs -0.81, Equity 1,076.8 vs 949.8, Equity/share 3.46 vs 3.05.",
+        "Walk through the five restatement drivers explicitly: (1) revenue reallocation between periods + into 2026+, (2) inventory revaluation, (3) share-based comp fair value updates, (4) impairment of capitalized development expenditures, (5) by-nature \u2192 by-function income statement classification. Explain that #4 (development capitalization) is the most material \u2014 Swedish K3 allows capitalizing R&D as an asset when commercial viability is probable; PCAOB is more conservative. The restatement effectively recognizes that some R&D that Sivers capitalized as a future asset is not yet supported by sufficient commercial evidence.",
+        "FY2024 restatement is even more pointed: Revenue revised DOWN from 243.7 to 219.2 (-SEK 24.5M), Net Loss WIDENED from -116.3 to -183.9 (-SEK 67.6M wider). The 'revenue reallocation' driver effectively moved revenue out of 2024 into 2025 and later \u2014 historical performance was worse than originally reported.",
+        "5-year revenue trajectory (per the analyst writeup): 36.7% CAGR 2016-2025, 16x growth over the decade. FCF loss has narrowed from SEK 151M (2022) to SEK 66M (2025). Operating margin improved from -83% (2022) to -39% (2025). Direction of travel is correct; absolute level remains heavily negative.",
+        "Capital structure: 311.33M shares outstanding, **101.58% dilution since 2020** (essentially shares doubled in 5 years). Cash SEK 43.5M at YE \u2014 only ~3 quarters of cash burn. Financings: 2025 SEK 95M rights issue (8% dilution); Feb 2026 $17M term loan + convertible; May 2026 $6.6M non-dilutive NEMC grant.",
+        "**The June 15 AGM dilution authority**: shareholders vote on authorizing up to 53,844,956 new common shares (warrants + convertibles included) = ~15% of current share count. Plus a 2% LTI plan (7M class C options). Stated uses: organic growth funding, M&A, strategic shareholder onboarding, US listing enablement. A 15% dilution authority does not have to be drawn down immediately \u2014 but it sets the ceiling on what management can issue without coming back to shareholders.",
+        "Quarterly granularity: Q4 2025 revenue SEK 80.7M (+5%, +17% constant FX), Product revenue SEK 21.3M (+13% Q/Q). The Q4 pace would imply ~SEK 320M annualized \u2014 slightly below the pipeline's implied trajectory but consistent with the FY2025 trend.",
+        "Valuation context: at SEK 72.90 \u00d7 311.33M shares, market cap \u2248 SEK 22.7B / ~$2.2B = roughly **74x FY2025 revenue**. The substack analyst's bull-case 2030 model (45% revenue CAGR, 25% OP margin \u2192 SEK 2.3B revenue, SEK 404M net income, fair value SEK 14.52/share) implies the current price is roughly 5x their fair-value estimate. The market is pricing either a more aggressive ramp, a higher terminal margin, or a takeout premium.",
+        "Close with the framing for the rest of the report: the financials show a company that is real (revenue growth + margin improvement), under-funded for its ambition (3 quarters of cash + a 15% dilution proposal), and valued for a scenario that has not yet shipped (CPO production end-2026)."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "earnings_story",
+      "title": "The five quarters that built the rally",
+      "order": 5,
+      "target_words": 850,
+      "directives": [
+        "Chronological narrative through the recent quarterly reports: H1 2025, Q3 2025, Q4 2025 (Feb 26 2026 preliminary), Q1 2026 (delayed to May 29 2026, post-snapshot), plus the May 13 2026 PCAOB-restated annual report.",
+        "What management was saying at each report (CEO Vathulya since Aug 2024). What the market reaction was. What got revised.",
+        "Inflection moments: 2024-08-19 CEO transition; 2025 SEK 95M rights issue (8% dilution); 2025-09-29 POET partnership announcement \u2014 the moment the CPO thesis became contractually anchored; 2026-02 $17M term loan + convertible; 2026-05-13 PCAOB restatement; 2026-05-19 NEMC $6.6M Year-2 grant; 2026-05-20 board nominations.",
+        "Market reaction shape: SEK 1.80 5y trough \u2192 SEK 72.90 current = 40x. Material acceleration in 2H 2025 / H1 2026 as the POET partnership and Ayar Labs SuperNova references gained traction in specialist publications. Sivers joined the MSCI Sweden Small Cap Index effective 2026-05-29 \u2014 forcing passive-fund buying simultaneous with Q1 results.",
+        "Quote management commentary directly from Vathulya's press releases and IR materials. Do not quote third-party retail commentary as primary; treat all retail/social commentary as one of multiple market signals, not as a sourcing anchor.",
+        "Flag the PCAOB restatement event (2026-05-13) as a key inflection \u2014 the EBIT being SEK 36M wider under PCAOB than under K3 did NOT crater the stock, which suggests institutional readers interpreted it as accounting cleanup ahead of US listing rather than as a fundamental deterioration. This is itself a data point about market psychology.",
+        "Close with: the rally pace has run ahead of shipped CPO product. The next 2-3 quarters need to show production-stage revenue, not pipeline growth, to validate the multiple."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "snapshot.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "leadership",
+      "title": "The team that is going to ring the Nasdaq bell",
+      "order": 6,
+      "target_words": 1700,
+      "directives": [
+        "FACTUAL CONSTRAINT: Three directors total are departing at the 2026-06-15 AGM \u2014 Erik F\u00e4llstr\u00f6m (co-founder), Tomas Duffy (current Vice Chairman), and Keith Halsey. Do NOT write 'three other board members also exit' alongside F\u00e4llstr\u00f6m; that would be four. Write 'F\u00e4llstr\u00f6m leaves the board alongside two other directors: Tomas Duffy and Keith Halsey.'",
+        "OPENING: Lead with the Bastani thesis from leadership.json key_finding. He joined as Strategic Advisor Aug 2023, became Executive Chairman Feb 2024 \u2014 the CEO change followed in Aug 2024 \u2014 and the PCAOB restatement landed May 2026. This is a US-listing team assembled in sequence, not by accident.",
+        "PROFILE: Bami Bastani (Chairman). 42 years semiconductors: Intel + National Semi + Fujitsu Micro + Trident Microsystems + ANADIGICS + Meru Networks + GlobalFoundries SVP + Global Semiconductor Alliance board. THREE TIMES public-company turnaround CEO (ANADIGICS, Trident Microsystems, Meru Networks).",
+        "PROFILE: Vickram Vathulya (CEO). PhD Lehigh Electrical Engineering. MBA Berkeley Haas. 25y semis: NXP Semiconductors \u2192 Maxim Integrated (RF/wireless) \u2192 Maxim Semiconductors (revitalized 'largest and most profitable' standard products business) \u2192 Nuvotronics (President; strategic/operational/cultural transformation). Skin in the game: committed to subscribe to up to 2M shares = up to $1M personal investment at appointment.",
+        "PROFILE: Todd Thomson (continuing, since 2021). THIS IS A KEY PROFILE \u2014 do not gloss. MBA Wharton, BA Economics Davidson College. Citigroup CFO for 5 years. CEO of Citigroup Global Wealth Management ($10B division, 2.5 years). CEO of Citigroup Alternative Investments. Chairman of Citi Pension Investment Committee. Prior: Bain, Booz Allen Hamilton, Barents Group, GE Capital, GlobalFoundries. Currently COO & CFO at Kairos Ventures (US VC). Also director at Actuate Therapeutics. Investment Committees at Davidson College, World Resources Institute, Dynasty. Joined Sivers in 2021 \u2014 THREE YEARS before Bastani arrived. Frame Thomson explicitly as the figure who likely opened the door to the US-listing thesis in the first place; the Bastani-Vathulya-Thomson combination is unusually heavy on US public-company experience for a Swedish small-cap.",
+        "PROFILE: Karin Raj (continuing). THIS IS THE TECHNICAL ANCHOR \u2014 also do not gloss. Currently CTO Europe at Nokia. Previously at Ericsson and various deep-tech firms. Geographic experience: USA, China, India, France, Turkey, Nordics. Domains: telecom + satcom, semiconductors + photonics, AI + IoT, sensors + nanotech, high-precision micro-mechanics. Led mobile revolution through 2G/3G + 4G/5G. Chair of Sivers Investment Committee. Her role is the structural CTO function for the board \u2014 independent technical review of capex + product roadmap decisions.",
+        "PROFILE: Erik F\u00e4llstr\u00f6m (departing co-founder). CEO of DDM Debt. Controls ~11.8% of Sivers votes via DDM + F\u00e4llstr\u00f6m Family Office. DDM has publicly stated it wants to drive Sivers 'toward a broader investment company' \u2014 a vision in direct tension with the focused-operating-company thesis the US listing requires. His departure from the board June 15 2026 is therefore not just retirement; it's the clearing-out of an alternative strategic vision. Note he keeps his economic stake.",
+        "PROFILE: Tomas Duffy (departing Vice Chairman). BSc Royal Institute of Technology (KTH), Stockholm, 1976-1980. Pre-Sivers career: Director of Large Corporates + Head of Telecom at EKN Exportkreditn\u00e4mnden (Swedish Export Credit Agency, the Swedish state export-credit body), Dec 2010 - April 2017. Partner at Vigerna Consulting. Joined Sivers Semiconductors board in 2016. Chair (Sivers IMA / Sivers Semiconductors) since 2018, now Vice Chairman pre-departure. Concurrent boards: CST Global Ltd., Stella Tech AB, Stella Tech Distribution AB. Duffy is THE INSTITUTIONAL MEMORY \u2014 at the table for the 2017 CST Global acquisition, the 2022 MixComm acquisition, and the Sivers IMA \u2192 Sivers Semiconductors rebrand. His pre-Sivers career anchored the European institutional credibility of the entity through the early growth-stage years. The transition to a US-listing-architect chairman (Bastani) made him surplus to the next phase rather than wrong for the previous one.",
+        "PROFILE: Keith Halsey (departing). Joined the board at the 2024-05-15 AGM. Tenure at departure: ~13 months. Public biographical detail remains thin in the sources reviewed at the snapshot date \u2014 flag this as a genuine sourcing gap (not a basis for speculation). The short tenure is consistent with a transitional appointment between the pre-Bastani board and the US-listing-prep board, but the AGM materials do not explain his rotation.",
+        "PROFILE: Joakim Nideborn (new Vice Chairman nominee). 'Broad experience as CFO at listed technology companies.' Competencies: strategic business development, international expansion, corporate governance, financial communication, capital markets. Stated focus: oversight for customers, employees, and investors in the Nordic region. The Vice Chairman role suggests he is the operational governance lead alongside Bastani's US-capital-markets focus.",
+        "PROFILE: Helena Svancar (new board member nominee). 20+ years international leadership in corporate strategy, governance, scaling technology businesses; senior positions at global corporations and financial institutions.",
+        "CONCURRENT GOVERNANCE CONCERNS: Sweden's Economic Crime Authority (Ekobrottsmyndigheten) is investigating possible market abuse violations around the Nasdaq listing announcement, which leaked ~48 hours early via an anonymous X account. Don't sensationalize but note this as an active overhang. Also note the MSCI Sweden Small Cap Index inclusion (May 29 2026) \u2014 the same day Q1 results land \u2014 forces passive buying simultaneously with first PCAOB-regime earnings.",
+        "CLOSING: The post-AGM board is built for US capital markets \u2014 a turnaround-CEO chairman (Bastani), a US-educated operating CEO (Vathulya), a CFO-background Vice Chairman (Nideborn), the most credentialed US-capital-markets figure on the board (Thomson, since 2021), and a Nokia CTO Europe technical anchor (Raj). The Swedish founder-investor influence (F\u00e4llstr\u00f6m, Duffy as the institutional-memory chair) is being cleared out. The shape says Nasdaq New York; the only question is when.",
+        "VOICE: Substantive professional profiles, not age-centric framing. Lead with what each person did before joining the board, then what they're doing at Sivers, then what their appointment SIGNALS about the US-listing intent. Use leadership.json data heavily \u2014 it now contains career histories for the major figures. Where a bio is genuinely thin (Halsey, Nideborn, Svancar \u2014 limited public profile detail), flag it as a sourcing gap and move on; do NOT pad with age-based or seat-count framing."
+      ],
+      "use_prep_files": [
+        "leadership.json",
+        "snapshot.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "customers_supply_chain",
+      "title": "Where Sivers sits in the AI photonics stack",
+      "order": 7,
+      "target_words": 1300,
+      "directives": [
+        "OPENING: The single most important analytical exercise in this dossier. Sivers is upstream \u2014 they don't ship to hyperscalers directly. They ship to the design-house ELS module makers (POET, Ayar Labs, O-Net) who integrate Sivers DFB lasers into the optical interposer assemblies that go inside the next-gen AI accelerator packages.",
+        "STACK DIAGRAM (text): hyperscaler (Microsoft, Meta, AWS, Google) \u2192 GPU/accelerator vendor (NVIDIA, AMD, Marvell, Broadcom custom silicon) \u2192 CPO module integrator (POET, Ayar Labs, Lightmatter, Lightelligence, Celestial AI) \u2192 ELS module + interposer (POET interposer, Ayar SuperNova) \u2192 laser supply (Sivers Photonics, COHR, LITE, MACOM, Furukawa, Sumitomo). Sivers is at the lowest layer that matters; the design-house customers are the gatekeepers.",
+        "POET partnership (announced 2025-09-29 in joint press release): combines Sivers' high-power DFB lasers + POET's Optical Interposer platform. Target $1B+ ELS market per analyst Tim Savageaux. Prototypes H1 2026, production end-2026. Source the quotes directly from the POET/Sivers joint announcement, not from secondary commentary.",
+        "Ayar Labs SuperNova partnership: Sivers provides DFB laser arrays for the multi-wavelength light source Ayar uses for hyperscale AI optical interconnect. Demonstrated together at ECOC 2022 \u2014 this is a multi-year relationship, not a press-release one-off. Ayar is widely considered the most-advanced commercial CPO IP company; its SuperNova is the optical engine candidate for several hyperscaler co-packaged designs.",
+        "O-Net/Enablence partnership: ELS modules with thermal solutions for CPO. Lower-profile than POET. Thermal management is the constraint that limits CPO production yields.",
+        "imec collaboration (since 2019): Sivers Photonics + imec joint technology integrating C-band InP DFB lasers onto imec's silicon photonics platform. imec is the European reference center for silicon photonics \u2014 this is a structural endorsement that long pre-dates the recent CPO narrative.",
+        "Indirect ecosystem reach (treated as analytical inference, NOT claimed as Sivers customer relationships): the design houses Sivers ships to are reportedly engaged with Marvell (post-Celestial AI acquisition), Apple (SiPH for consumer devices, per industry reporting), AMD, Lightmatter, and Lightelligence. None of these has been confirmed by Sivers as a direct customer. Stating otherwise would over-claim.",
+        "Wireless customer side: European Space Agency + Intelsat (SATCOM beamformers, named in Sivers' own corporate materials), US DoD (via NEMC funding May 2026), automotive LiDAR (unnamed strategic customer, $53-138M lifecycle revenue per analyst writeup, production Q4 2026). The automotive customer matters because it's the single largest disclosed lifecycle revenue commitment in the company.",
+        "Concentration risk framing: $453M pipeline is distributed across these named partnerships + unnamed parties. No single customer is yet >25% of pipeline. But the named customers are themselves not yet at scale \u2014 POET is a small-cap, Ayar is private, O-Net is mid-cap Chinese. The whole supply-chain layer ABOVE Sivers is still in early commercial stage.",
+        "What WOULD constitute a thesis-confirming validation: NVIDIA, Microsoft, Meta, or Amazon naming Sivers (directly or via an integrator) in a hyperscale optical-interconnect announcement. None of these has happened as of the snapshot date.",
+        "Close with the analytical upshot: Sivers' chokepoint position is technically real (very few independent western InP DFB foundries) but commercially unproven at hyperscaler scale. Whether the chokepoint translates to revenue depends on which design-house customer wins which hyperscaler design slot \u2014 a layer of decision-making one step away from Sivers' control."
+      ],
+      "use_prep_files": [
+        "counterparties.json",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "competitive_position",
+      "title": "Why the comparison is COHR and LITE, but the analog is something smaller",
+      "order": 8,
+      "target_words": 1100,
+      "directives": [
+        "Map the competitive set carefully using publicly disclosed data: (1) integrated photonics giants \u2014 Coherent (COHR) and Lumentum (LITE), recipients of NVIDIA's simultaneous $2B strategic investments in March 2026 (per NVIDIA, COHR, and LITE press releases). Both make their own DFB lasers + transceiver assemblies + components, vertically integrated. (2) IP/design-house specialists \u2014 Sivers Photonics, MACOM (the publicly traded laser-chip pure-play), and a small set of European/Asian foundries. (3) Far-east large-scale generic CW laser makers \u2014 Furukawa Electric, Sumitomo Electric \u2014 that mass-produce standardized lasers for the bulk transceiver market.",
+        "Quantify the scale gap from reported financials: LITE FY26 quarterly revenue ~$808M annualized to >$3B; COHR ~$1.81B quarterly to >$7B annualized; MACOM ~$700M annually; Sivers SEK 306.6M (~$33M). Sivers is 1-2% of LITE and <0.5% of COHR. Source these numbers from each company's IR pages, not from social media.",
+        "The analytical question is not whether Sivers can match COHR/LITE in scale (it cannot, and is not trying to). The question is whether the architectural shift to CPO creates a new chokepoint at the *custom* DFB laser layer that the big integrated players' standardized product portfolios cannot serve.",
+        "Make the custom-vs-generic argument from publicly disclosed product positioning: Sivers' own product literature emphasizes 'customised III-V lasers' for specific customer specifications. COHR and LITE product catalogs are populated with standardized line items for known transceiver categories. Furukawa and Sumitomo lasers are generic CW for bulk transceivers. Whether the custom-spec layer has durable pricing power against the larger players' resources is the open question.",
+        "The historical pattern-match (cited generically, not attributed to any retail source): EML laser specialists who became transceiver-cycle winners (the LITE pattern in the 2020s), 800G/1.6T transceiver assemblers who captured the bandwidth-density transition (the AAOI pattern in 2025). Sivers is positioned at a similar inflection for CPO DFB lasers if the architectural shift completes as forecasted. The pattern is well-established in semi history; the question is whether Sivers executes against it.",
+        "Counter-argument the chapter must address: COHR doubled its 6-inch InP wafer output one quarter ahead of schedule per its FY26 disclosure. Lumentum acquired a fifth InP fab (Greensboro NC, converted from GaAs). The big integrated players are explicitly investing to close any chokepoint gap. Whether they can do it FAST enough to prevent Sivers from owning the design-house customer wins is the open question.",
+        "MACOM is the most direct comparable: publicly traded US semi, also a laser-chip pure play with a CPO laser supply position. MACOM market cap ~$10B; revenue ~$700M. If Sivers reaches MACOM-style relevance at MACOM-style margins, the long-run math implies meaningful upside from the current ~$2.2B market cap \u2014 but Sivers would need to multiply revenue ~20x to reach MACOM's run-rate.",
+        "Note the geographic argument: Sivers is European (Sweden + UK). Coherent is American + Swedish (Tarfala). Lumentum is American. MACOM is American. Furukawa + Sumitomo are Japanese. From a hyperscaler supply-chain diversification perspective, a European independent laser source has structural value that doesn't show up in financials \u2014 it's a hedge against US-Asian geopolitical concentration in optical components.",
+        "Close with: the competitive position is asymmetric. Sivers can lose if (a) COHR/LITE rapidly expand custom-laser capability, (b) Furukawa/Sumitomo upgrade to architectural CW-CPO grades, or (c) a hyperscaler decides to vertically integrate laser supply. Sivers can win disproportionately to its current revenue base if any one of the POET/Ayar/O-Net partnerships translates to a named hyperscaler design win."
+      ],
+      "use_prep_files": [
+        "counterparties.json",
+        "snapshot.json",
+        "financials.json"
+      ]
+    },
+    {
+      "slug": "news_catalysts",
+      "title": "Twelve months of headlines + how the equity story has traveled in specialist commentary",
+      "order": 9,
+      "target_words": 750,
+      "directives": [
+        "Chronological walk from Aug 2024 (Vathulya CEO appointment) through May 2026 (PCAOB restatement + NEMC grant + board nominations).",
+        "Key beats: Aug 2024 CEO change \u2192 2025 capital raise \u2192 Sept 2025 POET partnership \u2192 Q4 2025 results Feb 26 2026 (preliminary) \u2192 Feb 2026 $17M debt/convertible \u2192 May 13 2026 PCAOB-restated annual report \u2192 May 19 2026 NEMC $6.6M \u2192 May 20 2026 board nominations \u2192 May 29 2026 MSCI inclusion + Q1 results (delayed).",
+        "What got priced in vs what surprised. The stock has rallied >40x over five years. Rally accelerated specifically post-POET partnership (Sept 2025).",
+        "SHORT FINAL SECTION (~200 words max) \u2014 'How the equity story has traveled in specialist commentary': acknowledge that retail and specialist X/Twitter coverage has amplified the CPO chokepoint thesis around Sivers. Quote one or two well-framed lines from the most-cited social-financial commentator (account: @aleabitoreddit, ~385 SIVE tweets in the 2025-2026 window) without endorsing the conclusion \u2014 frame as 'one widely-followed retail-side analyst has pattern-matched Sivers to LITE's 2024 trajectory; the comparison is structurally consistent with COHR/LITE/Sivers' product positioning, but the timing of any LITE-style re-rating depends on hyperscaler design-in announcements that have not yet occurred.' Do not use Aleabit as a primary source for the company's positioning, partnerships, or financials; those come from Sivers' own IR materials, the May 13 2026 annual report, and the joint POET/Sivers announcement.",
+        "Forward catalysts inside the next 90-180 days: June 15 2026 AGM (board reshuffle + 15% dilution authority vote), Q1 2026 results (May 29), potential Nasdaq dual-listing announcement, POET prototype demo H1 2026, Ekobrottsmyndigheten insider trading investigation outcome.",
+        "Mid-2026-2027 forward catalysts: H2 2026 POET production readiness, Q4 2026 automotive LiDAR customer production ramp, any direct hyperscaler validation (NVIDIA/MSFT/META/AMZN naming Sivers via an integrator)."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "ip_rd",
+      "title": "InP DFB lasers \u2014 patents, products, and the case for chokepoint pricing",
+      "order": 10,
+      "target_words": 1100,
+      "directives": [
+        "Open with the IP density question. Sivers' chokepoint claim rests on hard-to-replicate technical knowledge \u2014 III-V epitaxial growth + DFB grating fabrication + InP-on-silicon-photonics integration. The patent portfolio is one proxy for that IP density.",
+        "Patent inventory (per public sources): Sivers Photonics has three issued patents and 16 patents pending across US, UK, Canada, and WIPO as disclosed in third-party patent databases. Specific patents identified at USPTO include 'Distributed feedback laser having enhanced etch stop features' and 'Method of making an InP-based DFB laser'. The patent count is modest relative to Coherent/Lumentum (hundreds each) but Sivers' IP is concentrated in custom CW DFB designs and InP-on-SiPho integration that the larger players' patent portfolios deliberately do not cover.",
+        "R&D spend: not directly disclosed in the public summaries reviewed, but inferred from the operating loss profile. Sivers spent ~SEK 178M EBIT loss in FY2025 on ~SEK 307M revenue \u2014 implied R&D + SG&A + COGS-above-revenue exceeds 100% of revenue. A growth-stage company explicitly investing ahead of revenue. Flag that the PCAOB restatement included 'impairment of previously capitalized development expenditures' \u2014 meaning some R&D Sivers booked as future-asset under Swedish K3 is being expensed under US GAAP.",
+        "Product family detail (from Sivers' own product literature): high-power InP DFB lasers (continuous wave), DFB laser arrays (for multi-wavelength applications like Ayar's SuperNova), C-band (1530-1565nm) lasers for telecom/datacom, custom designs for ELS module customers (POET interposer, etc.), gain chips for telecom amplifiers.",
+        "Technical capability claim from Sivers' corporate page: Sivers Photonics is 'one of the world's most advanced designer (and small scale manufacturer) of customised III-V lasers.' Small-scale-foundry positioning is critical \u2014 they're not competing with Furukawa/Sumitomo on mass-production cost; they're competing on custom-specification flexibility.",
+        "imec collaboration (since 2019, per Sivers IR + imec press releases): C-band InP DFB lasers integrated onto imec's silicon photonics platform. imec is the European reference center for silicon photonics \u2014 having Sivers as the laser-supply partner is a structural endorsement.",
+        "NEMC funding (May 2026, Year 2, $6.6M): US Defense Infrastructure modernization. The strong-execution language in the funding announcement suggests Year 1 deliverables were met. This is non-dilutive R&D funding that effectively subsidizes Sivers' US DoD-aligned product development.",
+        "Patent breadth question: with only 3 issued + 16 pending, is the IP defensible against well-funded competitors? Argue both sides. Against: small patent count looks thin compared to integrated players. For: chokepoint IP in epitaxial growth + DFB grating + InP-on-SiPho integration is concentrated in trade secrets and process know-how more than in patent filings. Patent count is a poor proxy for trade-secret moats in specialty semi.",
+        "Long-run margin envelope context (from publicly comparable companies): MACOM, the most direct US public peer, has historically achieved 20%+ OP margins. If Sivers reaches MACOM-style scale and margin at the next architecture transition, the long-run economics work. Whether that scenario materializes depends on customer wins that are still pending."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "counterparties.json",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "risks",
+      "title": "What could break this",
+      "order": 11,
+      "target_words": 900,
+      "directives": [
+        "Specific failure modes, not generic risk-factor list. Each risk grounded in disclosed or publicly reported facts.",
+        "Risk 1: PRODUCTION TIMELINE SLIPPAGE. The POET-Sivers production target is end-2026 (per the September 2025 joint announcement). The automotive LiDAR customer production target is Q4 2026 (per analyst writeup). Both are 7-9 months from snapshot. Semiconductor production ramps slip routinely \u2014 a 2-quarter delay in either could move the operating-margin breakeven into 2028 instead of 2027.",
+        "Risk 2: DILUTION + LIQUIDITY. Cash SEK 43.5M at YE 2025 per the annual report, $17M term loan + convertible Feb 2026, $6.6M NEMC grant May 2026. Burn rate ~SEK 130M/year FCF. The June 15 AGM 15% dilution authority is large but signals management expects to need it. Existing shareholders have already absorbed 101.58% dilution since 2020. Continued dilution is the structural risk.",
+        "Risk 3: CUSTOMER CONCENTRATION INSIDE THE PIPELINE. $453M pipeline sounds diversified, but the named customers (POET, Ayar, O-Net, the automotive LiDAR strategic customer) are each multi-quarter design wins. Any single customer pulling out \u2014 particularly the automotive one with its $53-138M lifecycle exposure \u2014 would materially crater the pipeline number.",
+        "Risk 4: COMPETITIVE PRESSURE FROM SCALE INCUMBENTS. COHR doubled InP wafer output one quarter ahead of schedule (per COHR's FY26 disclosures). LITE acquired a fifth InP fab (per LITE's announcements). NVIDIA invested $2B each into COHR and LITE in March 2026. The big integrated players are explicitly closing the chokepoint gap. Sivers must execute its production ramp before the chokepoint narrows.",
+        "Risk 5: PCAOB RESTATEMENT SIGNAL. The restatement widened FY2025 EBIT loss by SEK 36M. The drivers \u2014 particularly the impairment of capitalized development expenditures \u2014 suggest some Swedish-K3-aggressive accounting was being applied. Future PCAOB reviews may surface additional adjustments. If the dual-listing audit uncovers material issues, the listing could be delayed or downsized \u2014 and the stock that priced the listing rally would correct.",
+        "Risk 6: INSIDER TRADING INVESTIGATION. Ekobrottsmyndigheten is investigating market abuse around the Nasdaq listing announcement leak (48h early via anonymous X account). An adverse finding would not directly hit Sivers' operations but would impair the credibility of the US listing pitch.",
+        "Risk 7: CO-FOUNDER VISION CONFLICT. Erik F\u00e4llstr\u00f6m (departing) controls 11.8% of votes via DDM Debt + Family Office. DDM has publicly stated it wants to drive Sivers toward a 'broader investment company' \u2014 a vision incompatible with a focused-operating-company US listing. Post-departure, F\u00e4llstr\u00f6m's economic stake remains. If he activates that stake against management (e.g., pushing for a different strategic direction, a sale, or a recap), it becomes a meaningful overhang.",
+        "Risk 8: GEOPOLITICAL / MACRO. US-China optical components trade restrictions could either help Sivers (as a European source) or hurt it (if export controls extend to UK-fabricated InP wafers). SEK/USD swings affect reported revenue (Q4 2025 was +5% reported but +17% constant FX) \u2014 sustained SEK strength would compress reported numbers."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "leadership.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "outlook",
+      "title": "Three events that will decide whether the rally was right",
+      "order": 12,
+      "target_words": 800,
+      "directives": [
+        "Frame the next 12-24 months around three decisive events.",
+        "EVENT 1: JUNE 15 2026 AGM. Shareholders vote on (a) board reshuffle clearing out co-founder F\u00e4llstr\u00f6m + bringing in Nideborn (Vice Chair) + Svancar, (b) ~15% dilution authority (53.8M new shares) for organic growth + M&A + US listing prep, (c) 2% LTI plan. The outcome is largely procedural given the proposed slate is the nomination committee's own recommendation \u2014 but the dilution-authority size + insider-trading-investigation overhang will determine institutional sentiment heading into the listing.",
+        "EVENT 2: POET-SIVERS ELS MODULE PRODUCTION READINESS (END OF 2026). The September 2025 partnership said prototypes H1 2026, production end-2026. The next 6-8 months are pure execution risk \u2014 module yield rates, thermal performance, customer acceptance. A successful production launch with named hyperscaler design-in is the validation moment for the entire chokepoint thesis. A 2-quarter slip would mean the production validation lands in mid-2027, after the next round of dilution.",
+        "EVENT 3: NASDAQ NEW YORK DUAL LISTING ANNOUNCEMENT + PRICING. The PCAOB-restated financials are the audit uplift; the AGM dilution authority is the issuance vehicle; the MSCI Sweden Small Cap inclusion is the passive-buying tailwind. What remains is the actual listing announcement (rumored but not yet formal at snapshot date \u2014 there is an ongoing insider-trading investigation about a 48h-early leak). The price at which Sivers prices a US offering will set the ceiling on the next 12-18 months of stock performance.",
+        "WHAT WOULD CONFIRM THE BULL CASE: POET prototypes ship on schedule H1 2026; production launches Q4 2026 with named hyperscaler customer; Sivers raises US capital at SEK 60+ equivalent; FY2026 revenue exceeds SEK 450M (+50% YoY); operating loss narrows below SEK 100M.",
+        "WHAT WOULD CONFIRM THE BEAR CASE: POET production slips into 2027; automotive LiDAR customer pushes out; US listing prices materially below current SEK 72.90; Ekobrottsmyndigheten investigation widens; another 20%+ dilution before profitability.",
+        "Close with the structural framing: 'Sivers spent 65 years as a passive-microwave shop before two acquisitions in five years turned it into a CPO laser chokepoint. The next 18 months will determine whether the chokepoint is real or simply early-stage.'"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "counterparties.json",
+        "leadership.json"
+      ]
+    },
+    {
+      "slug": "appendices",
+      "title": "Appendices",
+      "order": 13,
+      "target_words": 200,
+      "directives": [
+        "Meta-chapter. Brief introduction to the financial tables + leadership graph + counterparty map + press release index + Aleabit primary-source mining notes that are rendered separately by the UI."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "leadership.json",
+        "counterparties.json"
+      ]
+    }
+  ]
+}

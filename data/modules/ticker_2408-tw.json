@@ -1,0 +1,32 @@
+{
+  "key": "2408.TW",
+  "name": "Nanya Technology Corporation",
+  "exchange": "Taiwan Stock Exchange",
+  "blurb": "Nanya Technology Corporation is a Taiwanese semiconductor company specializing in the design, manufacture, and sale of DRAM (dynamic random-access memory) products. It is one of the leading DRAM manufacturers in Taiwan, serving the consumer electronics, computing, and communications sectors. The company operates advanced fabrication facilities and focuses on specialty DRAM for niche markets.",
+  "recent": "Over the past month, Nanya Technology's stock has shown strong upward momentum, with a 35.15% gain in the last 30 days and a year-to-date increase of 47.79%. The stock has been volatile, reflecting market optimism about memory demand recovery and potential AI-related catalysts. No major earnings or news events were reported in the immediate past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/2408.TW/",
+      "title": "Nanya Technology Corporation (2408.TW) - Yahoo Finance"
+    },
+    {
+      "url": "https://www.investing.com/equities/nanya-tech",
+      "title": "Nanya Technology Corp Stock Price Today | TW: 2408 Live - Investing.com"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/2408:TPE",
+      "title": "Nanya Technology Corp (2408) Stock Price & News - Google"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/2408?countryCode=tw",
+      "title": "2408 Stock Price | Nanya Technology Corp. Stock Quote (Taiwan ... - MarketWatch"
+    },
+    {
+      "url": "https://www.tradingview.com/symbols/TWSE-2408/",
+      "title": "2408 Stock Price and Chart — TWSE:2408 — TradingView"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:42:40.588839Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,66 @@
+{
+  "bookmark_id": "2015798190449086948",
+  "headline": "Pelosi Exercises Her Options, and the Internet Takes Notes",
+  "lede": "Nancy Pelosi's latest Periodic Transaction Report landed, revealing that the former House Speaker exercised deep in-the-money calls on Alphabet, Amazon, Nvidia, and Tempus AI — netting 20,000 shares — while unloading sizable stakes in Apple, Disney, and PayPal.",
+  "body": "The disclosure itself is unremarkable as paperwork goes: a two-page filing submitted to the House Clerk's office, as required by the *STOCK Act*, the 2012 law that compels members of Congress and their spouses to report securities transactions above $1,000 within 45 days. What makes Pelosi's version of the form appointment reading is that it consistently describes positions that, viewed in hindsight, look less like portfolio management and more like a guided tour of the market's winners.\n\nThe mechanics here are worth pausing on. Each of the four bought positions came via exercising a *deep in-the-money call option* — a contract whose strike price sits well below the stock's current market price, meaning almost all of its value is \"intrinsic\" rather than speculative. A deep ITM call behaves almost identically to owning the underlying shares outright (in the jargon, its *delta* — the ratio of option-price move to stock-price move — approaches 1.0), while tying up less capital than an outright purchase. Paul Pelosi reportedly bought the calls in January 2025 at strikes of $150 for Alphabet and Amazon, $80 for Nvidia, and $20 for Tempus AI, then exercised them roughly a year later. Over that period, Tempus AI gained 121 percent, Alphabet 75 percent, and Nvidia 41 percent. The combined weighted return was approximately 41.7 percent — roughly double the S&P 500 over the same stretch.\n\nTempus AI deserves a brief introduction for readers who do not monitor the healthcare-AI space. Founded by Eric Lefkofsky of Groupon fame, Tempus applies machine learning to clinical data — genomic sequencing, radiology images, oncology records — to help physicians choose therapies and to sell de-identified data and algorithms to pharmaceutical companies. It went public in June 2024 and, in its fiscal 2025, reported revenue of $1.27 billion, up 83 percent year-on-year. Whether that warrants the Pelosi family's entry into the stock at a $20 strike is a question the filing does not answer.\n\nThe ritual of tracking these disclosures has itself become an industry. Quiver Quantitative aggregates congressional transaction reports and publishes copy-trading signals; Unusual Whales, a financial-data firm with an eye for spectacle, launched an ETF — ticker NANC, a not-subtle nod — that mechanically replicates Democratic members' disclosed trades. The fund holds $258 million in assets and has returned 74 percent since its February 2023 launch, outpacing its Republican-tracking counterpart, GOP. The rub, as Unusual Whales cheerfully admits, is that the mandated 30-to-45-day reporting lag means the fund buys after the disclosure, not with it — a structural disadvantage that probably explains why NANC has not fully replicated Pelosi's decade-long cumulative return of 816 percent.\n\nWhether that outperformance reflects prescience, luck, a technology-heavy portfolio that happened to ride the AI boom, or something less flattering is the question that has resisted clean resolution for years. Defenders note that a concentrated bet on mega-cap technology names was simply a good idea throughout the 2020s, and that survivorship bias inflates the legend: the trades that aged poorly attract less Twitter engagement than the ones that did not. Critics note that the same members who sit on committees overseeing telecommunications, defence procurement, and financial regulation are the ones reporting the most active portfolios — a coincidence that 86 percent of Americans, according to recent polling, would prefer to eliminate by banning congressional stock ownership outright. The 119th Congress has seen more than two dozen bills introduced to that end, including a Senate measure, S.1879, that would prohibit members, spouses, and dependent children from owning individual securities entirely. None has yet passed.",
+  "tickers": ["GOOGL", "AMZN", "NVDA", "TEM", "AAPL", "DIS", "PYPL", "NANC"],
+  "poster": "amitisinvesting",
+  "concepts": [
+    {
+      "key": "stock-act",
+      "term": "STOCK Act",
+      "definition": "The Stop Trading on Congressional Knowledge Act (2012) prohibits members of Congress, their staff, and certain executive-branch officials from trading on material non-public information obtained through their official duties. It also requires them to publicly disclose securities transactions above $1,000 within 45 days via Periodic Transaction Reports filed with the House Clerk or Senate Secretary."
+    },
+    {
+      "key": "deep-itm-call",
+      "term": "Deep ITM Call",
+      "definition": "A call option whose strike price is substantially below the current market price of the underlying stock. Because most of the option's value is intrinsic (the gap between strike and market price) rather than speculative, it behaves almost identically to owning the shares outright — its delta approaches 1.0 — while requiring less upfront capital than a direct stock purchase."
+    },
+    {
+      "key": "ptr",
+      "term": "Periodic Transaction Report",
+      "definition": "The standardised disclosure form that members of Congress and covered federal employees must file within 45 days of any securities transaction exceeding $1,000 in value. PTRs are publicly posted by the House Clerk and Senate Secretary and form the raw data for congressional trading trackers."
+    },
+    {
+      "key": "delta",
+      "term": "Delta",
+      "definition": "An options metric expressing how much the option's price moves for every $1 move in the underlying stock. A delta of 1.0 means the option tracks the stock dollar-for-dollar; deep in-the-money calls typically have deltas between 0.85 and 1.0."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The disclosed transactions — 5,000 shares each of GOOGL, AMZN, NVDA, and TEM acquired via exercising calls, plus sales of AAPL, DIS, and PYPL — are consistent with the Periodic Transaction Report filed January 23, 2026 as reported by the Motley Fool and Quiver Quantitative. Strike prices ($150 GOOGL/AMZN, $80 NVDA, $20 TEM) and purchase date (January 14, 2025) are sourced from public PTR data. The 41.7% weighted portfolio return figure comes from Motley Fool analysis of the period between purchase and exercise dates. Pelosi decade-long cumulative return of 816% is cited by Quiver Quantitative. The NANC ETF AUM of $258 million and 74% return since February 2023 inception are sourced from Unusual Whales and Barchart. The 86% public support figure for a trading ban is from Campaign Legal Center citing polling data. 13,000 congressional trades totalling $635.5 million in 2025 is from Harvard Journal on Legislation citing Quiver Quantitative data. Tempus AI FY2025 revenue of $1.27 billion (+83% YoY) is from public filings. The AAPL (45,000 shares), DIS (10,000), and PYPL (5,000) sale figures are taken directly from the tweet text as the PTR filing itself was not independently verified beyond secondary reporting.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.fool.com/investing/2026/02/01/nancy-pelosi-stocks-ai-stocks-nvda-stock/",
+      "title": "Nancy Pelosi's Initial Stock Moves in 2026 — Motley Fool"
+    },
+    {
+      "url": "https://www.quiverquant.com/congresstrading/politician/Nancy%20Pelosi-P000197",
+      "title": "Nancy Pelosi Trading Activity — Quiver Quantitative"
+    },
+    {
+      "url": "https://unusualwhales.com/nancy-pelosi",
+      "title": "Nancy Pelosi Stock Trades & Portfolio — Unusual Whales"
+    },
+    {
+      "url": "https://247wallst.com/investing/2025/01/10/this-innovative-etf-lets-you-follow-democrat-politicians-trades-nanc-etf/",
+      "title": "The NANC ETF Explained — 24/7 Wall St."
+    },
+    {
+      "url": "https://journals.law.harvard.edu/jol/2025/11/03/congressional-stock-trading-ban-challenges/",
+      "title": "Congressional Stock Trading Ban Challenges — Harvard Journal on Legislation"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1879",
+      "title": "S.1879 Ban Congressional Stock Trading Act — Congress.gov"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/tem/",
+      "title": "Tempus AI (TEM) Stock Overview — Stock Analysis"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,15 @@
+{
+  "key": "EOSE",
+  "name": "Eos Energy Enterprises, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Eos Energy manufactures zinc-bromide long-duration battery storage systems using its proprietary Znyth chemistry. Unlike lithium-ion batteries (typically two hours of discharge), Eos's Z3 modules support four to sixteen-plus hours of storage with no degradation penalty — a profile suited to grid-scale renewable energy firming and data-centre backup. The company received a $305 million DOE loan guarantee in November 2024 to build two manufacturing lines in Turtle Creek, Pennsylvania.",
+  "recent": "Eos guided full-year 2025 revenue of $150M–$190M (vs ~$16M in 2024), targeting a major production ramp in Q4 2025. Analysts project $477M in 2026 revenue and $1B in 2027. Four manufacturing lines combined are expected to produce over 8 GWh of annual capacity by 2026. A new Z3 battery architecture was launched to improve simplicity, safety, and AI-enabled grid controls. The company is positioning zinc-bromide storage as a complement to AI data-centre power demand.",
+  "sources": [
+    {"title": "Eos Energy technology overview (eose.com)", "url": "https://www.eose.com/technology/"},
+    {"title": "EOSE zinc battery ramp analysis (simplywall.st)", "url": "https://simplywall.st/stocks/us/capital-goods/nasdaq-eose/eos-energy-enterprises/news/can-eos-energy-eose-turn-its-2025-zinc-battery-ramp-into-a-d"},
+    {"title": "DOE loan guarantee (energy.gov)", "url": "https://www.energy.gov/edf/eos"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T23:54:09Z",
+  "backend": "claude-sonnet-subagent"
+}

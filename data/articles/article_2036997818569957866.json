@@ -1,0 +1,139 @@
+{
+  "headline": "The Open-Source Harness Turning Claude Code Into a Full Engineering Team",
+  "lede": "In January 2026, a San Francisco developer named Affaan Mustafa published everything-claude-code on GitHub under an MIT licence. Within three months the repository had crossed 100,000 stars; by May 2026 it stood at 175,000 — a trajectory that places it among the fastest-accumulating developer-tool repositories in recent memory. The subject is not a new programming language or a novel AI model but a configuration layer: a structured bundle of reusable instructions that sits on top of Claude Code and tells it how to behave like a coordinated engineering team rather than a single forgetful assistant.",
+  "body": "**Claude Code** is Anthropic's agentic coding *CLI* (command-line interface) — a terminal-resident assistant that reads a codebase, plans multi-file changes, executes shell commands, runs tests, and iterates until done, all from a natural-language prompt. Launched as a research preview in February 2025 and reaching general availability in May of that year, it crossed $1 billion in annualised revenue by November 2025. Its commercial trajectory is remarkable; its structural limitation is less remarked upon. Every new Claude Code session starts cold. The agent does not remember a team's conventions, its past mistakes, or the architectural decisions reached the day before.\n\nMustafa had been a daily user since the experimental rollout, and over ten months he built an elaborate configuration setup to compensate for that amnesia. In September 2025 he brought it to an Anthropic–Forum Ventures hackathon in New York, where his team used it as a backstage accelerant to build *zenith.chat* — an AI-driven customer-discovery platform — in eight hours and take first place. He published the underlying system in January 2026. everything-claude-code is not a fork of Claude Code but what practitioners call an *agent harness*: a manifest-driven plugin that installs specialised subagents, reusable *skills* (scripted workflow definitions), quality-gating *hooks* that fire before and after each tool call, language-specific coding standards, and preconfigured *MCP* (Model Context Protocol) server integrations. The numbers in the tweet — 28 agents, 116 skills, 59 commands — were accurate at the time of posting; continued development had expanded the repertoire to 48 agents, 182 skills, and 68 commands by May 2026.\n\nThe 'built-in security scanner' the tweet flags is *AgentShield*, a companion repository also published by Mustafa. As Claude Code gains filesystem, shell, and network access, malicious content embedded in files it reads can inject spurious instructions into the agent's context — a class of attack called *prompt injection*. AgentShield performs static analysis across 102 rules spanning five categories: secrets detection, permission auditing, hook-injection vectors, MCP server validation, and agent-configuration review. It can also run an adversarial evaluation pipeline in which a red-team module crafts attack prompts while a blue-team module tests whether the configuration's guardrails hold. The scanner integrates with GitHub Actions for continuous auditing and delivers a letter-graded security report.\n\nThe 175,000-star figure has attracted scrutiny proportionate to its size. Sceptics note that GitHub Discussions activity is sparse relative to the star count — suggesting curiosity more than sustained adoption — and that a detailed analysis published in March 2026 called the architecture over-engineered for typical team use, also pointing out that coding-standards rules cannot yet distribute automatically through the plugin system and must be copied by hand. Defenders counter that the selective install system, which lets a team adopt only the code-reviewer agent and *TDD* (test-driven development) workflow module without pulling in the full ecosystem, addresses the objection directly. The case for a discipline layer gained unexpected momentum in April 2026, when Anthropic published a postmortem acknowledging that three product changes — lowered reasoning effort, a session-clearing bug, and a verbosity-reduction system prompt — caused a measurable quality regression in Claude Code, prompting an Advanced Micro Devices (AMD) AI director to log 6,852 sessions and publicly declare the tool 'unusable for complex engineering tasks.' A curated configuration layer, the reasoning goes, provides some buffer when a tool's defaults cannot be trusted.\n\nThe repo's trajectory is a legible signal about where developer tooling is heading. For decades the professional consensus — captured in the engineering maxim *YAGNI* ('You Aren't Gonna Need It') — held that abstraction should be introduced only when complexity demands it. everything-claude-code makes the opposing bet: that agentic AI tools are sufficiently unpredictable that a structured discipline layer, imposed before the agent touches a codebase, pays for itself. Augment Code, a commercial AI-coding company, described the project as 'the .editorconfig equivalent for AI coding tools' — a quiet standard that every repository eventually adopts. Whether the discipline layer needs to weigh 182 skills or just a well-maintained configuration file is something each team will answer for itself. The experiment is live, under MIT licence, with 175,000 GitHub stars as a rough vote.",
+  "tickers": [
+    "AMD"
+  ],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD"
+    },
+    {
+      "name": "Augment Code",
+      "ticker": null
+    },
+    {
+      "name": "Forum Ventures",
+      "ticker": null
+    }
+  ],
+  "poster": "RoundtableSpace",
+  "concepts": [
+    {
+      "key": "cli",
+      "term": "CLI",
+      "definition": "A command-line interface is a text-based program you interact with by typing commands in a terminal, as opposed to clicking through a graphical application. Claude Code is a CLI — you invoke it in a shell and it reads and modifies your local codebase directly."
+    },
+    {
+      "key": "agent-harness",
+      "term": "agent harness",
+      "definition": "A configuration framework that wraps and structures an AI agent's behaviour — defining what subagents it can delegate to, what reusable workflows it can call, and how it should behave before and after each action. A harness does not replace the underlying model; it constrains and directs how that model is used."
+    },
+    {
+      "key": "skills",
+      "term": "skills",
+      "definition": "In the everything-claude-code context, skills are reusable workflow definitions — structured instructions for how to approach a specific engineering task, such as writing a database query, conducting a code review, or running a TDD cycle. They are loaded on demand and tell the agent which steps to follow in sequence."
+    },
+    {
+      "key": "hooks",
+      "term": "hooks",
+      "definition": "In Claude Code, hooks are shell commands that execute automatically at defined lifecycle events — before a tool call (PreToolUse), after one (PostToolUse), or at session start and end. They act as quality gates or automation triggers that fire without the agent explicitly deciding to invoke them."
+    },
+    {
+      "key": "mcp",
+      "term": "MCP (Model Context Protocol)",
+      "definition": "An open protocol developed by Anthropic that lets AI agents connect to external tools and data sources — databases, APIs, file systems — through a standardised interface. An MCP server exposes capabilities the agent can invoke as tools; the configuration tells the agent which servers are trusted and available."
+    },
+    {
+      "key": "prompt-injection",
+      "term": "prompt injection",
+      "definition": "An attack in which malicious text embedded in an external source — a file the AI reads, a web page it fetches, a code comment it processes — contains instructions that redirect the agent's behaviour. Because AI agents mix data and instructions in the same context window, a well-crafted string in a file can override the developer's intended commands."
+    },
+    {
+      "key": "tdd",
+      "term": "TDD (test-driven development)",
+      "definition": "A software development practice in which the developer writes automated tests before writing the code that satisfies them. The cycle is: write a failing test, write the minimum code to pass it, then refactor. The goal is to ensure correctness is baked in from the start rather than verified at the end."
+    },
+    {
+      "key": "yagni",
+      "term": "YAGNI",
+      "definition": "Short for 'You Aren't Gonna Need It', a software engineering principle warning against adding features or abstractions before they are concretely required. It is a guard against over-engineering systems based on hypothetical future demands — and the primary critical objection levelled at everything-claude-code."
+    },
+    {
+      "key": "agentshield",
+      "term": "AgentShield",
+      "definition": "A companion open-source security tool to everything-claude-code that performs static analysis of AI agent configuration files — CLAUDE.md, cursor rules, MCP server configs — to identify vulnerabilities such as hardcoded secrets, overly broad permissions, and prompt-injection vectors before the agent runs."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "affaan-m/everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "summary": "A manifest-driven plugin system for Claude Code that installs specialised subagents, reusable workflow skills, quality-gating hooks, and language-specific coding standards. It also works with Cursor, Codex, and OpenCode. Published in January 2026 under the MIT licence by Affaan Mustafa, the repo crossed 100,000 GitHub stars within three months and reached 175,000 by May 2026."
+    },
+    {
+      "key": "affaan-m/agentshield",
+      "url": "https://github.com/affaan-m/agentshield",
+      "summary": "A standalone security auditor for AI agent configurations. It runs 102 static-analysis rules across five categories — secrets detection, permission auditing, hook-injection vectors, MCP server validation, and agent-configuration review — and optionally executes an adversarial red-team/blue-team evaluation pipeline powered by Claude. Output is a letter-graded security report; the scanner integrates with GitHub Actions for continuous CI auditing."
+    }
+  ],
+  "fact_check": "The component counts in the tweet (28 agents, 116 skills, 59 commands) and the image metrics (50K+ stars, 6K+ forks, 30 contributors) appear accurate for the period shortly after the repo's January 2026 launch. By May 2026 the project had grown substantially — to 48 agents, 182 skills, 68 commands, 175,000 stars, 27,100 forks, and 170+ contributors. The figures are not wrong but are a snapshot of an earlier, faster-moving target.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "title": "everything-claude-code — GitHub",
+      "note": "Primary repo; component counts, star and fork metrics, README"
+    },
+    {
+      "url": "https://github.com/affaan-m/agentshield",
+      "title": "AgentShield — GitHub",
+      "note": "Companion security repo; rule counts and architecture"
+    },
+    {
+      "url": "https://affaanmustafa.com/",
+      "title": "Affaan Mustafa — Personal Site",
+      "note": "Biographical detail, hackathon narrative, project history"
+    },
+    {
+      "url": "https://ecc.tools/",
+      "title": "ecc.tools — Everything Claude Code website",
+      "note": "Canonical component counts for v1.9+; pricing tiers"
+    },
+    {
+      "url": "https://emelia.io/hub/everything-claude-code-explained",
+      "title": "Everything Claude Code Is Approaching 100K GitHub Stars — Emelia.io",
+      "note": "Detailed component breakdown and Affaan Mustafa profile"
+    },
+    {
+      "url": "https://www.augmentcode.com/learn/everything-claude-code-github",
+      "title": "Everything Claude Code hits 100K stars — Augment Code",
+      "note": "Quote on .editorconfig analogy; adoption context"
+    },
+    {
+      "url": "https://medium.com/@tentenco/everything-claude-code-inside-the-82k-star-agent-harness-thats-dividing-the-developer-community-4fe54feccbc1",
+      "title": "Inside the 82K-Star Agent Harness That's Dividing the Developer Community — Medium",
+      "note": "Critical take; over-engineering argument; plugin install bug"
+    },
+    {
+      "url": "https://fortune.com/2026/04/24/anthropic-engineering-missteps-claude-code-performance-decline-user-backlash/",
+      "title": "Anthropic's Engineering Missteps: Claude Code Performance Decline — Fortune",
+      "note": "Claude Code quality regression postmortem; AMD director criticism"
+    },
+    {
+      "url": "https://self.md/people/affaan-mustafa-everything-claude-code/",
+      "title": "Affaan Mustafa — self.md",
+      "note": "Professional background, education, prior projects"
+    }
+  ],
+  "bookmark_id": "2036997818569957866",
+  "generated_at": "2026-05-07T09:40:07.747401Z",
+  "backend": "claude-sonnet-subagent"
+}

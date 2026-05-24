@@ -1,0 +1,60 @@
+{
+  "headline": "A Contemporary School for Wilhelm Reich's Somatic Bodywork",
+  "lede": "Skan Reichian Bodywork names a contemporary school of hands-on somatic therapy rooted in the theories of Wilhelm Reich, the Austrian-American psychiatrist who proposed in the 1930s that psychological defenses crystallize as chronic muscular tension. The tweet by @zencephalon is a spare signpost — three words pointing toward a practice with decades of contested history behind it. Skan Academy, based at skanacademy.com, trains practitioners in this lineage, associated with a practitioner named Lydia.",
+  "body": "Wilhelm Reich began his career as a prized student of Freud's, but his most enduring contribution diverged sharply from psychoanalysis's talking cure. He proposed that what he called **character armor** — habitual patterns of muscular bracing, held breath, and postural rigidity — was the body's physical record of suppressed emotion and unresolved psychological conflict. Chronic jaw tension, a raised and locked shoulder, constricted breathing: each, in his account, represented an emotion arrested and held in tissue. The insight was marginal in his lifetime; today it underlies trauma-informed somatic therapies from EMDR to Somatic Experiencing.\n\nFrom this observation Reich developed *vegetotherapy*, a hands-on approach to dissolving armor by working systematically through seven body segments — from the ocular (eyes and forehead) downward through the throat, chest, diaphragm, abdomen, and pelvis. Breath, movement, and directed physical pressure were the tools. Subsequent practitioners built on the model: Alexander Lowen's *Bioenergetics* and Stanley Keleman's Formative Psychology both trace their lineages directly to Reich. The field has remained at the edge of mainstream psychotherapy, complicated in part by Reich's later career, during which he advanced the theory of *orgone energy* — a universal life force he believed he could accumulate in special wooden boxes — claims that no scientific body has ever validated, and that are best understood as separate from the character-armor model that influenced legitimate somatic therapy.\n\nSkan Academy is a contemporary school in this tradition. Beyond its association with a practitioner named Lydia and its home at skanacademy.com, the available sources did not yield readable detail about what specifically distinguishes Skan's approach — its theory of change, training curriculum, or how it positions itself relative to other Reichian lineages. The name does not appear in established Reichian literature, suggesting it is likely a proprietary designation for this school's particular method rather than a recognized branch within the broader field.\n\nThat Reichian bodywork continues to attract serious students reflects something real in the broader therapeutic culture. Bessel van der Kolk's research on trauma, popularized in *The Body Keeps the Score*, and Stephen Porges's *polyvagal theory* have placed somatic approaches near the center of contemporary trauma treatment. The argument Reich made in 1933 — that the body is not merely a vehicle for mental events but an active archive of psychological history — has become, in modified and scientifically tempered form, close to mainstream. Reich himself, who died in a federal penitentiary in 1957 after a legal battle with the FDA over his orgone devices, remains a polarizing figure; his bodywork legacy is considerably more defensible than his physics.",
+  "tickers": [],
+  "poster": "zencephalon",
+  "concepts": [
+    {
+      "key": "character-armor",
+      "term": "Character Armor",
+      "definition": "Wilhelm Reich's term for chronic patterns of muscular tension — jaw clenching, held breath, locked posture — that he believed encoded unresolved psychological conflicts in the body's tissues. The premise is that emotion suppressed over time does not simply disappear but becomes physically held in muscle and fascia. Dissolving this armor, through breath and direct physical contact, was the central aim of Reichian bodywork."
+    },
+    {
+      "key": "vegetotherapy",
+      "term": "Vegetotherapy",
+      "definition": "Reich's original term for his body-based therapeutic technique, distinct from his later and more speculative orgone theories. Working systematically through seven body segments from the eyes downward, vegetotherapy used breathwork, movement, and physical touch to release armoring and restore full emotional expression."
+    },
+    {
+      "key": "somatic-psychology",
+      "term": "Somatic Psychology",
+      "definition": "A family of therapeutic approaches treating the body as a primary site of psychological experience, not merely a vessel for mental events. Reichian bodywork is among the earliest formal examples. Contemporary variants — Somatic Experiencing, sensorimotor psychotherapy, polyvagal-informed therapy — share the core premise while grounding it in more recent neuroscience."
+    },
+    {
+      "key": "orgone-energy",
+      "term": "Orgone Energy",
+      "definition": "A speculative universal life force proposed by Wilhelm Reich in his later career, which he claimed could be accumulated in specially constructed boxes and used therapeutically. The concept has no scientific support and severely damaged Reich's professional standing. It is distinct from his earlier and more influential character-armor model, and most contemporary Reichian practitioners do not incorporate it."
+    }
+  ],
+  "books": [
+    {
+      "key": "character-analysis-reich",
+      "title": "Character Analysis",
+      "author": "Wilhelm Reich",
+      "summary": "First published in 1933, this is Reich's foundational text laying out his theory that personality structure and psychological defense express themselves as chronic bodily patterns — what he called character armor. It established the conceptual basis for all subsequent Reichian and neo-Reichian bodywork. The book remains the essential primary source for understanding what practitioners in this tradition are actually working from."
+    }
+  ],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.skanacademy.com/",
+      "title": "Skan Academy",
+      "note": "Home institution for Skan Reichian Bodywork; confirms the school's existence but page content was not readable from the scraped source."
+    },
+    {
+      "url": "https://www.skanacademy.com/what-is-skan",
+      "title": "What Is Skan — Skan Academy",
+      "note": "Intended to define the practice's specific approach; page content was not readable from the scraped source."
+    },
+    {
+      "url": "https://www.skanacademy.com/about-lydia",
+      "title": "About Lydia — Skan Academy",
+      "note": "Profile of the primary practitioner associated with Skan Academy; confirms the name Lydia but no further detail was readable."
+    }
+  ],
+  "bookmark_id": "2038272786553082010",
+  "generated_at": "2026-05-06T19:51:51.680169Z",
+  "backend": "claude"
+}

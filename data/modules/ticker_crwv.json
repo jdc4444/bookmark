@@ -1,0 +1,24 @@
+{
+  "key": "CRWV",
+  "name": "CoreWeave, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "CoreWeave is a neocloud — a GPU-specialist cloud provider that rents NVIDIA accelerator capacity to AI developers, research labs, and enterprises rather than offering the broad service catalogue of a hyperscaler. Founded in 2017 as a cryptocurrency mining operation and pivoted to GPU cloud in 2019, it operates more than 40 data centres with roughly 250,000 NVIDIA GPUs. Its commercial model is long-term capacity contracts — often three to seven years — which produce a large, predictable backlog but require heavy upfront debt-financed capital expenditure. CoreWeave went public on NASDAQ on 28 March 2025 at $40 per share, valuing the company at approximately $23 billion fully diluted. NVIDIA invested $2 billion in CoreWeave at $87.20 per share in January 2026, cementing the symbiotic relationship between the two companies.",
+  "recent": "CoreWeave reported $5.1 billion in revenue for full-year 2025, up 170% year-on-year, with quarterly revenue reaching $1.57 billion in Q4. Microsoft accounted for approximately 67% of FY2025 revenue. OpenAI has contracted up to $22.4 billion in cumulative commitments, and Meta signed a $14.2 billion agreement through December 2031. Total remaining performance obligations represent roughly 13 years of revenue at current run rates. In April 2026, CoreWeave priced an upsized $3.5 billion convertible senior notes offering and announced a multi-year GPU capacity agreement with Anthropic.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/CoreWeave",
+      "title": "CoreWeave — Wikipedia"
+    },
+    {
+      "url": "https://www.coreweave.com/news/coreweave-announces-pricing-of-initial-public-offering",
+      "title": "CoreWeave IPO Pricing — CoreWeave Newsroom"
+    },
+    {
+      "url": "https://sacra.com/c/coreweave/",
+      "title": "CoreWeave Revenue & Valuation — Sacra"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

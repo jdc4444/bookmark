@@ -1,0 +1,13 @@
+{
+  "key": "688256.SS",
+  "name": "Cambricon Technologies Corporation Limited",
+  "exchange": "SSE STAR Market (Shanghai Stock Exchange)",
+  "blurb": "Cambricon is China's leading AI chip company, designing neural processing units (NPUs) and AI accelerators used in cloud inference, smart cities, autonomous driving, and edge AI applications. It was founded in 2016 as a spin-out from the Chinese Academy of Sciences' Institute of Computing Technology and counts Alibaba, Lenovo, and Chinese government entities among its customers and backers. Cambricon's chips are manufactured at SMIC and compete domestically with Huawei Ascend and Biren Technology, while being positioned as a Chinese alternative to NVIDIA in government-mandated AI procurement.",
+  "recent": "Cambricon has seen explosive valuation expansion driven by China's push to develop a domestic AI chip ecosystem in response to U.S. export restrictions on NVIDIA GPUs. Forward P/E of ~50.4x on 74.2% projected EPS growth yields a PEG of 0.68 — intriguing if growth estimates hold, but Cambricon's revenue base and software ecosystem remain far smaller than NVIDIA's. The stock is included in the STAR Market, China's Nasdaq-style board for high-tech companies.",
+  "sources": [
+    {"url": "https://companiesmarketcap.com/semiconductors/semiconductor-companies-ranked-by-pe-ratio/", "title": "Semiconductor Companies Ranked by PE Ratio — CompaniesMarketCap"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

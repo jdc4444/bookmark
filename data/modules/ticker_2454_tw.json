@@ -1,0 +1,14 @@
+{
+  "key": "2454.TW",
+  "name": "MediaTek Inc.",
+  "exchange": "TWSE (Taiwan Stock Exchange)",
+  "blurb": "MediaTek is Asia's largest fabless semiconductor company, headquartered in Hsinchu, Taiwan. Founded in 1997, it is best known for the Dimensity line of smartphone SoCs, which held approximately 36% global smartphone application-processor market share in Q1 2025 — ahead of Qualcomm's 27%. The company is executing a strategic pivot toward AI infrastructure: it is a production partner for Google's Ironwood (TPUv7) AI accelerators and targets $2 billion in AI ASIC revenue in 2026, scaling toward $10 billion by 2027. Additional growth vectors include automotive cockpit SoCs (the 3nm DX1), a DENSO ADAS partnership, and AI PC silicon. US investors can access the stock via an unlisted OTC ADR under ticker MDTKF.",
+  "recent": "Q1 2026 revenue was NT$149.2 billion (down 2.7% YoY), with net income of NT$24.2 billion (EPS NT$15.17). The headline event was CEO Rick Tsai doubling 2026 AI ASIC revenue guidance from $1 billion to $2 billion at the April 30, 2026 earnings call, citing stronger-than-expected Google TPU v7e progress and a second unnamed hyperscaler programme in final-stage discussions. Counterpoint Research projected MediaTek will account for 1 in 4 AI ASIC server compute shipments globally by 2028. The 2nm Dimensity 9600 smartphone SoC has completed tape-out, expected in late Q3 2026.",
+  "pfic_risk": "low",
+  "pfic_notes": "Operating semiconductor manufacturer engaged in fabless chip design and sales; not a passive holding vehicle. US shareholders holding the TWSE-listed shares or the OTC ADR (MDTKF) should treat gains and dividends under standard foreign stock rules. Taiwan withholds 21% on dividends; a foreign tax credit is generally available on US returns. MDTKF is an unlisted ADR traded OTC and is not subject to SEC reporting.",
+  "tags": ["semiconductor", "fabless", "smartphone", "AI", "ASIC", "TPU", "automotive", "Taiwan", "TWSE", "5G", "Dimensity"],
+  "last_updated": "2026-05-05",
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:30:00Z",
+  "backend": "claude-sonnet-subagent"
+}

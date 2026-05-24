@@ -1,0 +1,54 @@
+{
+  "headline": "Claude as Canvas: The Case for Spatial AI Research",
+  "lede": "Most AI assistants treat research as a transaction: a question typed, an answer returned, the thread scrolling ever downward. Victoria Kim's post proposes something different — a canvas model, where ideas accumulate spatially and research feels less like querying a database and more like populating a mind map.",
+  "body": "The screenshot Kim shares shows a prototype interface built around Anthropic's Claude. Its key affordances are visible in the OCR'd UI: a \"Start a research thread to populate your canvas\" prompt, a **Highlight** action, and a \"New research\" button. Each element implies a graph-like model of knowledge — nodes that branch rather than a conversation that scrolls — closer in spirit to tools like Roam or Obsidian than to a standard chat window.\n\nThe underlying capability that makes this plausible is *Claude Artifacts*, a feature Anthropic introduced that opens a dedicated visual panel alongside the chat interface. Artifacts let Claude render interactive outputs — code, diagrams, UI prototypes — in real time, without the user leaving the tool. A canvas-based research workflow would extend this further, using that panel not just for one-off outputs but as a persistent workspace where highlights, threads, and source material accumulate.\n\nThe appeal is cognitive, not merely aesthetic. *Mind mapping* — the practice of arranging concepts visually around a central idea, with branches representing associations — is a well-studied method for externalising non-linear thinking. Chat interfaces, by contrast, enforce sequence: later messages bury earlier ones, and the connective tissue between ideas lives in the user's head rather than the screen. A canvas model makes that tissue visible.\n\nWhether the interface shown is a fully functional prototype, a concept mockup, or an early demo built on top of Artifacts is not clear from the post alone. Kim frames it as a hypothetical — \"what if\" — suggesting the intent is as much provocation as announcement. Even so, the question it surfaces is a real design problem for AI-assisted knowledge work: the limiting factor may not be what the model knows, but **how the interface structures what you do with it**.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    }
+  ],
+  "poster": "victoriakimse",
+  "concepts": [
+    {
+      "key": "mind-mapping",
+      "term": "mind mapping",
+      "definition": "A visual thinking technique that arranges ideas spatially around a central concept, with lines or branches representing associations between related thoughts. It externalises non-linear reasoning onto a two-dimensional surface rather than forcing ideas into a sequential list."
+    },
+    {
+      "key": "claude-artifacts",
+      "term": "Claude Artifacts",
+      "definition": "A feature in Anthropic's Claude AI that opens a dedicated side panel for rendering interactive or visual outputs — rendered code, diagrams, UI prototypes — in real time alongside the chat. It lets users see and manipulate generated content without leaving the interface."
+    },
+    {
+      "key": "canvas-interface",
+      "term": "canvas interface",
+      "definition": "A user-interface paradigm in which content is placed on an open, spatial surface rather than in a scrolling list. Users can arrange, connect, and annotate items freely, supporting associative and non-linear workflows."
+    },
+    {
+      "key": "research-thread",
+      "term": "research thread",
+      "definition": "In the context of this interface, a discrete line of inquiry — a question and its associated findings — that can be started, branched from, and linked to other threads on a shared canvas, rather than buried in a linear chat history."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.francescatabor.com/articles/2025/1/8/how-to-use-claude-artifacts-7-powerful-ways-with-examples",
+      "title": "How to use Claude Artifacts: 7 powerful ways with examples",
+      "note": "Explains Claude Artifacts feature and its visual/interactive canvas capabilities"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8tBiHNFW7DE",
+      "title": "Create a Mind Map with Claude AI — Visual Thinking Made Easy",
+      "note": "Demonstrates mind-map generation within Claude, supporting the spatial-research concept"
+    }
+  ],
+  "bookmark_id": "2037334423390257571",
+  "generated_at": "2026-05-07T03:53:27.768663Z",
+  "backend": "claude"
+}

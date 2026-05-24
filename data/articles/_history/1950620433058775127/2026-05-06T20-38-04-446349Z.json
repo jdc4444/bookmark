@@ -1,0 +1,48 @@
+{
+  "headline": "Morphic Turns Static Images Into Controllable 3D Video",
+  "lede": "Morphic, an AI video-generation platform, has launched a feature called 3D Motion that converts any still image into a short animated clip with simulated camera movement. The tool runs entirely in the browser, requiring no 3D-modelling software or expertise. It marks a step toward giving non-specialists the kind of cinematic camera control once reserved for visual-effects studios.",
+  "body": "The underlying technique begins with *depth estimation*: Morphic's system analyses the uploaded image and reconstructs the scene as a **point cloud** — a set of data points, each assigned a position in three-dimensional space based on inferred distance from the camera. That representation lets the software separate foreground from background and simulate parallax, the apparent shift between near and far objects as a viewer moves.\n\nOnce the point cloud is generated, the user defines a camera path directly in the browser. They drag to reposition the virtual camera, zoom, rotate, and pan, then save discrete keyframes — Morphic calls them \"positions\" — to mark where the camera should be at each moment in the clip. A video timeline lets them adjust the timing of each keyframe before generating the final output.\n\nThe result is the kind of shot photographers call a *Ken Burns effect* taken into full three-dimensional space: the image does not simply pan or zoom across a flat plane but appears to have genuine depth, with objects nearer the original camera receding more slowly than those in the middle distance. The technique is closely related to what the film industry calls *camera projection*, and has become increasingly common in AI video tools over the past year.\n\nMorphic offered the feature at no credit cost for the first 48 hours after launch — a standard promotional move designed to seed examples across social media and stress-test the pipeline at scale.",
+  "tickers": [],
+  "poster": "morphic",
+  "concepts": [
+    {
+      "key": "point-cloud",
+      "term": "point cloud",
+      "definition": "A collection of data points, each defined by X, Y, and Z coordinates, used to represent a three-dimensional object or scene. In AI image tools, a point cloud is typically inferred from a single flat photograph using depth-estimation models rather than measured with physical sensors."
+    },
+    {
+      "key": "depth-estimation",
+      "term": "depth estimation",
+      "definition": "A computer-vision technique that infers how far each pixel in a 2D image is from the camera. Modern approaches use neural networks trained on image pairs or video to produce a depth map — essentially a greyscale version of the scene where brightness encodes distance."
+    },
+    {
+      "key": "camera-projection",
+      "term": "camera projection",
+      "definition": "A compositing technique in which a still image is 'painted' onto a rough 3D geometry so that a virtual camera can move through the scene. Objects at different depths shift at different rates, creating the illusion of dimensionality. It has been a visual-effects staple for decades and is now being automated by AI tools."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Morphic's own published materials are inconsistent on a key detail: the LinkedIn announcement and the blog post's meta description state users can save \"up to five camera positions,\" while the full text of the blog post states \"Add up to 20 camera positions to build your shot.\" It is unclear whether the limit was revised after the LinkedIn post was written or whether the meta description was simply out of date. Readers relying on the social announcement may have the wrong number.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://morphic.com/blog/introducing-3d-motion",
+      "title": "Introducing 3D Motion — Morphic",
+      "note": "Primary product announcement with full feature description and workflow steps"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/morphicfilms_introducing-3d-motion-you-can-now-turn-activity-7356383891382824968-QZ6u",
+      "title": "Morphic LinkedIn post on 3D Motion",
+      "note": "Official company post; source of the five-position claim flagged in fact check"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3paM98luuJw",
+      "title": "3D Motion | Morphic Tutorial — YouTube",
+      "note": "Official tutorial video demonstrating the workflow"
+    }
+  ],
+  "bookmark_id": "1950620433058775127",
+  "generated_at": "2026-05-06T20:38:04.446349Z",
+  "backend": "claude"
+}

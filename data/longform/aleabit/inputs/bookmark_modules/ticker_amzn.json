@@ -1,0 +1,16 @@
+{
+  "key": "AMZN",
+  "name": "Amazon.com, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Amazon operates the world's largest e-commerce marketplace and the leading cloud infrastructure platform, Amazon Web Services (AWS). AWS generates the majority of Amazon's operating profit despite representing a minority of total revenue. The company also has significant positions in digital advertising, streaming (Prime Video), and logistics infrastructure. Amazon is a major investor in AI, both through AWS cloud AI services and through a multi-billion-dollar strategic stake in Anthropic.",
+  "recent": "Amazon reported FY2025 revenue exceeding $650 billion, with AWS growing at roughly 17% annually and crossing $100 billion in run-rate revenue. The advertising segment has become a meaningful profit contributor. Paul Pelosi exercised call options with a $150 strike (purchased January 2025, exercised January 2026), with the stock gaining approximately 10% over that period — the weakest performer in the Pelosi 2026 exercise batch.",
+  "sources": [
+    {
+      "url": "https://www.fool.com/investing/2026/02/01/nancy-pelosi-stocks-ai-stocks-nvda-stock/",
+      "title": "Nancy Pelosi's 2026 Stock Moves — Motley Fool"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

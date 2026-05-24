@@ -1,0 +1,99 @@
+{
+  "headline": "Claude Code Adds Cron-Style Automation to Agentic Sessions",
+  "lede": "Boris Cherny, creator and head of Claude Code at Anthropic, has shipped `/loop` — a slash command that turns an active Claude Code session into a lightweight recurring-task runner. The feature schedules prompts to fire at fixed or self-paced intervals for as long as the session remains live, letting a coding assistant keep watch on deployments, pull requests, and log files without further human input.",
+  "body": "The mechanics are deliberately spare. A developer types `/loop 5m check if the deployment finished` and **Claude** schedules the check as a repeating *cron* job, running every five minutes until cancelled. Three modes cover most needs: a fixed-interval prompt (the most explicit), a dynamic mode in which Claude chooses its own cadence based on what it observes, and a bare `/loop` with no arguments that activates a built-in maintenance prompt — scanning for unfinished work, unanswered pull-request review comments, and failed CI runs. The underlying machinery is three new tools — *CronCreate*, *CronList*, and *CronDelete* — that Claude calls on the user's behalf; developers who want direct control can supply precise cron expressions themselves.\n\nThe scheduling model borrows standard Unix cron conventions: five-field time expressions, deterministic jitter to prevent simultaneous session load on the API, and a hard 7-day expiry on recurring tasks. Tasks are **session-scoped** — they pause when the terminal session closes — but survive a restart if the session is resumed with `--resume` before the expiry lapses. A cap of 50 scheduled tasks per session and an environment variable (`CLAUDE_CODE_DISABLE_CRON=1`) give administrators a ceiling and an off switch.\n\nThe use cases Cherny highlights skew toward overnight supervision: babysitting a pull request and auto-applying fixes when review comments arrive, watching deployment logs for errors, or generating a morning briefing from overnight code changes via a Slack *MCP* integration. For the bare `/loop` mode, the default prompt is conservative by design — irreversible actions proceed only if prior authorisation already exists in the session transcript. Developers can replace the default with a project-level `.claude/loop.md` file, capped at 25,000 bytes, whose edits take effect on the next iteration.\n\n`/loop` occupies a deliberate middle tier in Anthropic's automation stack. For tasks that must run without an open laptop, the company offers cloud-hosted *Routines*, which execute on Anthropic's infrastructure and can be triggered on a schedule or by webhook. Desktop scheduled tasks cover local-file work that doesn't require an active session. `/loop` fills the gap between the two: local, ephemeral, contingent on a live session — suited to tasks a developer is supervising at arm's length rather than handing off entirely.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    }
+  ],
+  "poster": "bcherny",
+  "concepts": [
+    {
+      "key": "cron",
+      "term": "cron / cron job",
+      "definition": "A Unix utility that runs commands on a repeating schedule defined by a five-field time expression (minute, hour, day-of-month, month, day-of-week). Named after the Greek word for time, it is the standard mechanism for scheduled automation on Linux and macOS servers."
+    },
+    {
+      "key": "session-scoped",
+      "term": "session-scoped",
+      "definition": "A resource or process that exists only for the duration of a single interactive session. A session-scoped scheduled task stops when the terminal session ends, as opposed to a persistent background service that survives restarts."
+    },
+    {
+      "key": "mcp",
+      "term": "MCP (Model Context Protocol)",
+      "definition": "An open protocol introduced by Anthropic that lets AI assistants connect to external tools and data sources through a standardised interface. A Slack MCP integration, for instance, lets Claude read and post Slack messages as part of an automated workflow."
+    },
+    {
+      "key": "worktree",
+      "term": "worktree (git)",
+      "definition": "A Git feature that checks out a second working copy of a repository in a separate directory, without creating a new clone. Claude Code uses worktrees to run parallel agentic tasks — such as fixing a PR comment — in isolation from the main working directory."
+    },
+    {
+      "key": "cron-tools",
+      "term": "CronCreate / CronList / CronDelete",
+      "definition": "Three internal Claude Code tools introduced alongside /loop that manage the underlying task schedule. CronCreate registers a new timed task with a cron expression and prompt; CronList shows all active tasks; CronDelete cancels one by its ID. Claude calls them automatically on /loop invocation, but they can also be addressed directly for precise control."
+    },
+    {
+      "key": "routines",
+      "term": "Routines (Claude Code cloud)",
+      "definition": "Anthropic's cloud-hosted automation layer for Claude Code, distinct from /loop. Routines execute on Anthropic infrastructure without requiring an open user session, can be triggered on a cron schedule or by webhook, and run in a fresh environment rather than the user's local filesystem."
+    },
+    {
+      "key": "slash-command",
+      "term": "slash command",
+      "definition": "A text shortcut beginning with a forward slash that invokes a specific skill or capability inside Claude Code. /loop, /review, and /compact are examples. Some are built into the runtime; others are user-defined skills loaded from the project or home directory."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The announcement tweet states that /loop runs 'up to 3 days at a time.' The current official Claude Code documentation specifies a 7-day hard expiry on recurring tasks. The limit appears to have been extended after the initial release — the tweet was accurate at time of publication but is now out of date.",
+  "thread_summary": "Cherny announces /loop in an opening tweet with two worked examples — overnight PR babysitting with auto-fix, and a daily morning Slack briefing — then follows with a 'Learn more' post linking to the official scheduled-tasks documentation.",
+  "sources": [
+    {
+      "url": "https://code.claude.com/docs/en/scheduled-tasks",
+      "title": "Claude Code — Scheduled Tasks (official docs)",
+      "note": "Primary source for /loop mechanics, modes, limits, and the CronCreate/CronList/CronDelete tool reference"
+    },
+    {
+      "url": "https://www.anthropic.com/webinars/claude-code-for-financial-services-boris-cherny",
+      "title": "Anthropic.com — Boris Cherny webinar page",
+      "note": "Official confirmation of Cherny's title as Head of Claude Code and inventor of Claude Code"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
+      "title": "Lenny's Newsletter — Head of Claude Code: What happens after coding is solved",
+      "note": "In-depth interview with Cherny on Claude Code's scale and direction"
+    },
+    {
+      "url": "https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny",
+      "title": "The Pragmatic Engineer — Building Claude Code with Boris Cherny",
+      "note": "Background on Cherny's role and Claude Code's origins at Anthropic"
+    },
+    {
+      "url": "https://github.com/bcherny",
+      "title": "Boris Cherny — GitHub profile",
+      "note": "Confirms identity and open-source work"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/31759",
+      "title": "GitHub Issue #31759 — /loop not recognised in v2.1.71",
+      "note": "Documents the initial slash-command registration bug and confirms v2.1.71 as the release version"
+    },
+    {
+      "url": "https://winbuzzer.com/2026/03/09/anthropic-claude-code-cron-scheduling-background-worker-loop-xcxwbn/",
+      "title": "Winbuzzer — Anthropic Claude Code Cron Scheduling",
+      "note": "News coverage of the /loop launch with use-case examples"
+    },
+    {
+      "url": "https://claudefa.st/blog/guide/changelog",
+      "title": "Claude Code changelog aggregator",
+      "note": "Version history tracking /loop-related changes across releases from v2.1.71 onward"
+    }
+  ],
+  "bookmark_id": "2030194110221676663",
+  "generated_at": "2026-05-07T09:45:44.546696Z",
+  "backend": "claude-sonnet-subagent"
+}

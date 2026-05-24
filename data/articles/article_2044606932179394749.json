@@ -1,0 +1,119 @@
+{
+  "headline": "Neurode's Headband Reads and Stimulates the ADHD Brain",
+  "lede": "A Sydney startup has packed 152 near-infrared sensing channels and a mild electrical stimulator into a consumer headband. Neurode Labs targets ADHD — measuring prefrontal-cortex activity with *functional near-infrared spectroscopy* (fNIRS) and applying *transcranial random noise stimulation* (tRNS) to nudge underactive neurons toward normal function. The device is in early-access beta and awaiting FDA clearance, but peer endorsements are arriving from founders who understand exactly how difficult the engineering is.",
+  "body": "Neurode Labs, founded in Sydney in 2021, is attempting to collapse a clinical-scale brain scanner into something you can wear through an airport. The product uses **fNIRS** — a method that fires near-infrared light through the skull and measures how much oxygen the prefrontal cortex is consuming, a reliable proxy for attention and executive function. Neurode claims 152 sensing channels, which the company says is the highest count in any consumer fNIRS device and a significant reduction in cost from the room-size machines used in hospital research settings.\n\nThe device does more than measure. It also delivers *transcranial random noise stimulation* (tRNS) — weak, randomly varying electrical currents, between 0.55 and 1.55 milliamps, applied to the prefrontal cortex to lower its firing threshold. The therapeutic logic is that ADHD brains show measurably reduced prefrontal activity; nudging those neurons to activate more readily can ease symptoms without the side effects that stimulant medications carry for some patients. CEO Nathalie Gouailhardou developed the approach after working with clinical fNIRS equipment at the Bionics Institute in Melbourne, where she had been diagnosed with ADHD at five and found that standard stimulants caused her insomnia and anxiety. Co-founder Damian Sofrevski, an electrical engineer and physicist specializing in optical systems, spent three years translating the technology into a form factor that fits a human head rather than a research rack.\n\nThe miniaturization problem is genuine. *fNIRS* requires maintaining a source-to-detector separation of roughly two to four centimetres to ensure the light path actually penetrates the skull rather than skating along the surface of the scalp. Compressing that geometry while managing optical noise, motion artifacts, and battery drain is a non-trivial engineering exercise — which is precisely why Parmita Mishra's praise carries weight. Mishra, founder of Precigenetics, builds non-invasive cancer diagnostics using *Raman spectroscopy* and infrared light; her firm and Neurode both sit in the photonic biosensing space, and she knows what it costs to package optical hardware into a compact body.\n\nIn September 2024, Neurode raised A$5.2 million (roughly $3.5 million) in a pre-seed round led by **Khosla Ventures**, with participation from PsyMed Ventures and Stoic Venture Capital. Khosla's Alex Morgan summarized the thesis plainly: the company is taking known technologies and making them small and usable at home. The Wave retails at $999 plus a $29 monthly subscription — premium by consumer standards but a fraction of clinical-device pricing. It is currently US-only, restricted to adults eighteen and over, and carries no FDA clearance; clinical trials funded by the pre-seed are ongoing. Combining passive sensing with active electrical stimulation means the device likely qualifies as a *combination product* under FDA rules, a classification that typically adds cost and time to the regulatory path. How quickly Neurode navigates that process will determine whether it remains a curiosity for well-resourced self-optimisers or becomes a genuine drug-free option for the roughly 366 million adults estimated to live with ADHD worldwide.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Neurode Labs",
+      "ticker": null
+    },
+    {
+      "name": "Precigenetics",
+      "ticker": null
+    },
+    {
+      "name": "Khosla Ventures",
+      "ticker": null
+    },
+    {
+      "name": "PsyMed Ventures",
+      "ticker": null
+    },
+    {
+      "name": "Stoic Venture Capital",
+      "ticker": null
+    },
+    {
+      "name": "Bionics Institute",
+      "ticker": null
+    }
+  ],
+  "poster": "parmita",
+  "concepts": [
+    {
+      "key": "fnirs",
+      "term": "functional near-infrared spectroscopy (fNIRS)",
+      "definition": "A non-invasive brain-imaging technique that shines near-infrared light through the skull and measures how much oxygen is being consumed by underlying tissue. Because active neurons demand more oxygen, changes in blood oxygenation serve as a proxy for neural activity. fNIRS is cheaper and more motion-tolerant than fMRI, though its spatial resolution is lower and it cannot penetrate deep brain structures."
+    },
+    {
+      "key": "trns",
+      "term": "transcranial random noise stimulation (tRNS)",
+      "definition": "A non-invasive brain stimulation method that delivers weak electrical currents — varying randomly in amplitude and frequency — to the scalp overlying a target brain region. The randomness is thought to avoid neural habituation and may enhance cortical excitability, making neurons easier to activate. It is distinct from tDCS (direct current) and TMS (magnetic pulses) and has fewer reported side effects than either at therapeutic doses."
+    },
+    {
+      "key": "prefrontal-cortex",
+      "term": "prefrontal cortex",
+      "definition": "The front portion of the brain's frontal lobe, immediately behind the forehead. It governs executive functions — attention, impulse control, working memory, and planning. In people with ADHD, fNIRS and fMRI studies consistently show reduced prefrontal activity relative to neurotypical controls."
+    },
+    {
+      "key": "raman-spectroscopy",
+      "term": "Raman spectroscopy",
+      "definition": "An optical technique that illuminates a sample with a laser and analyzes the scattered light to identify molecular vibrations unique to specific chemical compounds. In biomedical diagnostics, it can detect cancerous tissue by identifying abnormal molecular signatures without removing or destroying the sample."
+    },
+    {
+      "key": "combination-product",
+      "term": "combination product",
+      "definition": "An FDA regulatory category for devices that combine two or more types of medical products — such as a diagnostic sensor paired with a therapeutic stimulator. Combination products require more complex review than standalone devices and are assigned a lead center (CDRH for device-led combinations) that coordinates evaluation across FDA divisions."
+    },
+    {
+      "key": "biophotonics",
+      "term": "biophotonics",
+      "definition": "The application of light-based technologies to biological systems — including imaging, sensing, and therapy. fNIRS and Raman spectroscopy are both biophotonic methods. The field spans everything from pulse oximetry in smartwatches to surgical laser tools."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://techcrunch.com/2024/09/10/neurode-wants-to-treat-and-track-adhd-symptoms-through-a-wearable-headband/",
+      "title": "Neurode wants to treat and track ADHD symptoms through a wearable headband — TechCrunch",
+      "note": "Primary press coverage of Neurode's pre-seed round and product details"
+    },
+    {
+      "url": "https://www.startupdaily.net/topic/funding/adhd-medtech-bags-5-2-million-pre-seed-round-for-its-alternative-headband-treatment/",
+      "title": "ADHD medtech bags $5.2M pre-seed — Startup Daily",
+      "note": "Australian coverage of funding round with A$ figures"
+    },
+    {
+      "url": "https://harikeshpushpapathan.medium.com/investment-notes-neurode-db67856ca09a",
+      "title": "Investment Notes: Neurode — Stoic Venture Capital",
+      "note": "Investor thesis, quote on Nathalie Gouailhardou, and commercial differentiation rationale"
+    },
+    {
+      "url": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-neurode-on-pre-seed-financing.html",
+      "title": "Wilson Sonsini Advises Neurode on Pre-Seed Financing",
+      "note": "Confirms pre-seed terms and investor roster"
+    },
+    {
+      "url": "https://www.neurodelabs.com/",
+      "title": "Neurode Labs official site",
+      "note": "Product specifications, pricing, and positioning"
+    },
+    {
+      "url": "https://au.linkedin.com/in/nathaliegou",
+      "title": "Nathalie Gouailhardou — LinkedIn",
+      "note": "CEO background, education, and career history"
+    },
+    {
+      "url": "https://www.linkedin.com/in/parmitamishra/",
+      "title": "Parmita Mishra — LinkedIn",
+      "note": "Poster's background and Precigenetics description"
+    },
+    {
+      "url": "https://sosv.com/company/neurode/",
+      "title": "Neurode — SOSV Portfolio",
+      "note": "Confirms SOSV/HAX accelerator participation"
+    },
+    {
+      "url": "https://www.persistencemarketresearch.com/market-research/wearable-biosensors-market.asp",
+      "title": "Wearable Biosensors Market — Persistence Market Research",
+      "note": "Market sizing and growth projections"
+    }
+  ],
+  "bookmark_id": "2044606932179394749",
+  "generated_at": "2026-05-07T07:39:41.157209Z",
+  "backend": "claude-sonnet-subagent"
+}

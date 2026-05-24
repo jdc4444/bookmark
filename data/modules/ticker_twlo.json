@@ -1,0 +1,28 @@
+{
+  "key": "TWLO",
+  "name": "Twilio Inc.",
+  "exchange": "NYSE",
+  "blurb": "Twilio Inc. provides a customer engagement platform that enables developers to build communications and customer interactions into applications via APIs. Its offerings include messaging, voice, email, video, and identity solutions, as well as the Segment customer data platform. The company serves businesses globally and is a leader in the cloud communications platform-as-a-service market.",
+  "recent": "In the past 30 days, Twilio reported earnings on April 30, 2026, with revenue growing 15.7% year-over-year to $5.30 billion and net income of $103.96 million. The stock has traded in a 52-week range of $91.84 to $200.00, closing at $191.40 on May 6, 2026, with a market cap of $29.05 billion.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/TWLO/",
+      "title": "Twilio Inc. (TWLO) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/twlo",
+      "title": "TWLO Stock Price | Twilio Inc. Cl A Stock Quote (U.S.: NYSE ...)"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/twlo/",
+      "title": "Twilio (TWLO) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/TWLO/news/",
+      "title": "TWLO News Today | Why did Twilio stock go up today? - MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:08:31.356880Z",
+  "backend": "deepseek"
+}

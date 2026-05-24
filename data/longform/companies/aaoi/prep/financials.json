@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "fiscal_year_end": "December 31",
+  "currency": "USD",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001158114/000143774926005875/aaoi20251231_10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001158114/000168316826003562/aaoi_ex9901.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001158114/000168316825008029/aaoi_ex9901.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001158114/000143774925033627/aaoi20250930_10q.htm",
+    "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-fourth-quarter-and-full-year-5",
+    "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-fourth-quarter-and-full-year-4"
+  ],
+  "key_finding": "AAOI's FY2025 result is the strongest in company history: $455.7M revenue (+82.8% YoY), GAAP gross margin 30.0% (up from 24.8%), net loss narrowed to $38.2M from $186.7M. The acceleration is driven by CATV recovery (53.8% of FY mix) AND datacenter ramp (42.9%), with Q4 2025 marking the first quarter datacenter revenue exceeded CATV. Accumulated deficit remains heavy at $493.1M — this is a company recently lifted out of an existential trough rather than a maturely profitable franchise. Customer concentration is severe: Digicomm 53.1% + Microsoft 28.8% = 81.9% of FY25 revenue.",
+  "annual_revenue_history_usd_millions": {
+    "2024": 249.4,
+    "2025": 455.7,
+    "yoy_growth_2025": 0.828
+  },
+  "fy2025_segment_revenue_mix": {
+    "catv": {"share": 0.538, "approx_usd_millions": 245.2, "yoy_direction": "up materially"},
+    "internet_data_center": {"share": 0.429, "approx_usd_millions": 195.5, "yoy_direction": "up materially"},
+    "telecom": {"share": 0.030, "approx_usd_millions": 13.7},
+    "ftth_and_other": {"share": 0.003, "approx_usd_millions": 1.4}
+  },
+  "fy2025_profitability": {
+    "gaap_gross_margin": 0.300,
+    "fy2024_gaap_gross_margin": 0.248,
+    "net_loss_usd_millions": -38.2,
+    "fy2024_net_loss_usd_millions": -186.7,
+    "accumulated_deficit_usd_millions": -493.1
+  },
+  "quarterly_revenue_usd_millions": [
+    {"period": "Q3 2024", "revenue": 65.2},
+    {"period": "Q4 2024", "revenue": 100.3},
+    {"period": "Q1 2025", "revenue": 99.9},
+    {"period": "Q2 2025", "revenue": 103.0},
+    {"period": "Q3 2025", "revenue": 118.6, "gaap_gm": 0.280, "nongaap_gm": 0.310, "catv": 70.6, "datacenter": 43.9, "telecom_approx": 3.7},
+    {"period": "Q4 2025", "revenue": 134.3, "datacenter": 74.9, "catv": 54.0, "note": "First quarter datacenter exceeded CATV"}
+  ],
+  "fy2025_customer_concentration": {
+    "digicomm": {"share": 0.531, "fy2024_share": 0.341, "fy2023_share": 0.113, "trajectory": "Up sharply for second consecutive year — Digicomm tripled from ~11% of revenue in 2023 to 53% in 2025. It is the channel partner for the CATV ramp."},
+    "microsoft": {"share": 0.288, "fy2024_share": 0.437, "fy2023_share": 0.466, "trajectory": "Declining as share but still the largest hyperscale datacenter customer — the absolute dollar value is rising as total revenue grew 83%"},
+    "combined_top_two_share": 0.819
+  },
+  "headcount_dec_31_2025": {
+    "total": 4691,
+    "by_country": {"us": 548, "taiwan": 1262, "china": 2881},
+    "rd_staff": 425,
+    "phds_in_rd": 14,
+    "union_status": "No US collective bargaining; some China subsidiary workers union members"
+  },
+  "ip_portfolio_dec_31_2025": {
+    "us_issued_patents": 199,
+    "china_taiwan_issued_patents": 140,
+    "european_issued_patents": 10,
+    "rd_locations": ["Sugar Land, Texas", "Georgia", "Taipei, Taiwan", "Ningbo, China"]
+  },
+  "manufacturing_footprint": {
+    "us": "Sugar Land, Texas — headquarters + US data center transceiver manufacturing (exit-2025 capacity ~100k units/month 800G, 35% from US)",
+    "taiwan": "Taipei — wafer fab + module assembly",
+    "china": "Ningbo — laser device fabrication + transceiver assembly",
+    "fy2026_capacity_target": "500,000+ units/month combined 800G + 1.6T by year-end 2026",
+    "vertical_integration": "In-house laser fabrication using proprietary MBE (molecular beam epitaxy) and MOCVD processes"
+  },
+  "capital_allocation_priorities": [
+    "Continue to invest in US production for data center products with automated processes",
+    "Continue to invest in new products, new technology, and highly-automated production infrastructure",
+    "Vertical integration: in-house laser fabrication, transceiver assembly, networking subsystems"
+  ],
+  "amazon_warrant_march_2025": {
+    "type": "Stock purchase warrant",
+    "shares_subject_to_warrant": 7945000,
+    "context": "Part of broader hyperscale supply relationship — separate from the Microsoft and Digicomm revenue lines. Vesting tied to purchase volume thresholds."
+  },
+  "fy2026_order_book_snapshot_mar_apr_2026": [
+    {"date": "March 2026", "customer": "Major hyperscaler (likely Amazon)", "product": "800G transceivers", "value_usd_millions": 53},
+    {"date": "March 2026", "customer": "Major hyperscaler", "product": "1.6T transceivers, first volume", "value_usd_millions": 200},
+    {"date": "Early April 2026", "customer": "Major hyperscaler", "product": "800G transceivers (additional)", "value_usd_millions": 71},
+    {"date": "Total since mid-March 2026", "customer": "One hyperscaler", "product": "Combined 800G + 1.6T", "value_usd_millions": 324}
+  ],
+  "balance_sheet_observations": {
+    "accumulated_deficit": "$493.1M (FY25 year-end) — concentrates the cyclical historical losses, mostly from the 2018-2023 trough years",
+    "interpretation": "Company is now revenue-growing and margin-expanding but balance sheet still carries the scar tissue of pre-2024 cycles; positive operating leverage hasn't yet produced net profitability"
+  }
+}

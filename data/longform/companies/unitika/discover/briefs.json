@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "company": "Unitika Ltd. (3103.T)",
+  "report_title": "Unitika \u2014 a polymer chokepoint at a crossroads",
+  "report_subtitle": "How a 137-year-old Osaka synthetic-fiber maker is restructuring around technical films, glass fibers, and an unsolved succession question",
+  "voice_and_style": "FT/Bloomberg long-form. Concrete numbers in every paragraph. Quote primary documents (earnings disclosures, press releases) when possible. Skeptical-by-default \u2014 flag claims that haven't yet been verified by results. No fluff, no hype. Treat the reader as someone who already knows what a polymer fiber maker is but doesn't know this company. ~600-1500 words per chapter.",
+  "target_total_word_count": 9000,
+  "frozen_snapshot_date": "2026-05-22",
+  "chapters": [
+    {
+      "slug": "snapshot",
+      "title": "Snapshot",
+      "order": 1,
+      "target_words": 700,
+      "directives": [
+        "Open with the most arresting fact: Unitika's stock went from \u00a5127 to \u00a53,745 inside the 5-year window before settling around \u00a51,574 \u2014 a 30x intra-period swing tied to distress + recovery",
+        "State the ticker (3103.T, Tokyo Prime), market cap (\u00a590.75B), shares outstanding (57.65M), current price (\u00a51,574 as of 2026-05-22)",
+        "Two sentences on what they actually make: nylon and polyester films, engineering plastics, glass fibers, activated carbon fibers, nonwoven textiles \u2014 not a household name even in Japan",
+        "Founded 1889 in Hyogo as Amagasaki Spinners; the modern Unitika came into existence via 1969 merger of Nichibo + Nippon Rayon",
+        "The macro: 137-year-old company mid-restructuring under REVIC supervision since April 2025; new CEO (Fujii Minoru, career employee since 1987) appointed at the same board meeting that issued the Class C preferred giving REVIC 66.76% voting",
+        "Connect to the price chart: massive impairment in FY3/25 (\u00a537.9B), but FY3/26 9M show OP +110%, NI flipped from -\u00a524.4B to +\u00a510.6B, equity ratio from 10.4% \u2192 25.2%",
+        "Close with the framing question the rest of the report will answer: is this a turnaround or a controlled liquidation?"
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "history.md",
+        "timeline.json"
+      ]
+    },
+    {
+      "slug": "corporate_history",
+      "title": "From Amagasaki to Unitika \u2014 a 137-year arc",
+      "order": 2,
+      "target_words": 900,
+      "directives": [
+        "Tell the story chronologically but with thematic compression. Don't enumerate every year \u2014 pick the inflection points",
+        "1889 Amagasaki Spinners \u2192 1908-1918 consolidations \u2192 Dainippon \u2192 1926 Nippon Rayon JV (synthetic pivot)",
+        "Wartime: kept intact under 'Big Ten' consolidation; postwar METI direction toward synthetic exports",
+        "1964 Nichibo rename, 1969 merger with Nippon Rayon = birth of Unitika",
+        "1973 oil shock + Asia competition kicks off long decline in textiles",
+        "1994 exit rayon filament; 1999 spin off textiles + fibers into subsidiaries",
+        "2000 plan to halve 92 subsidiaries by 2003",
+        "2014 first failed restructuring (Thailand production shift) \u2014 important to dwell on this because it explains why the 2024 plan had to be more drastic",
+        "2024-11-29 textile withdrawal announcement \u2192 2025-04-30 REVIC capital injection",
+        "The throughline: Unitika has been *shrinking with intent* for 50+ years, and the current restructuring is just the most explicit version. Argue this is what makes the FY3/29 \u00a570B revenue target credible."
+      ],
+      "use_prep_files": [
+        "history.md",
+        "timeline.json"
+      ]
+    },
+    {
+      "slug": "business_segments",
+      "title": "What Unitika actually sells",
+      "order": 3,
+      "target_words": 1100,
+      "directives": [
+        "Walk through the 4 reportable segments as of FY3/26 \u2014 Polymers, Performance Materials, Fibers & Textiles, Other",
+        "Polymers (\u00a542.5B 9M revenue, \u00a57.5B OP, 67% OP growth) \u2014 Films (nylon, polyester, EMBLEM-HG retort barrier film) + Plastics (engineering plastics for electric/electronic, specialty polymers). Explain why electronics demand is the swing factor",
+        "Performance Materials (\u00a529.1B, \u00a51.4B OP, 252% OP growth) \u2014 Activated Carbon Fibers (VOC, water purification) + Glass Fibers (the high-margin star: ultra-thin Low CTE and E Glass Fabrics for high-end mobile memory) + Glass Beads (road, industrial, reflective) + Non-Woven Fabrics (spunbond + spunlace cotton \u2014 but COTEX just bought the spunlace business) + Industrial Fibers (high-strength polyester yarns growing)",
+        "Fibers & Textiles (\u00a523.9B, \u00a550M OP) \u2014 the segment being wound down. Seiren acquiring Okazaki business jointly from Unitika + Nippon Ester. Uniforms steady, general apparel weak, overseas denim okay. The OP just flipped from loss to slight profit",
+        "Other (\u00a571M) \u2014 rounding error, but flag what it actually contains if disclosed",
+        "Highlight three growth products with proper detail: EMBLEM HG (retort barrier film, double-digit growth), UniPeel (silicone-free PET release film, semiconductor adoption), ultra-thin Low CTE Glass Fabrics (for chip substrates / high-end mobile memory)",
+        "Reference the DIC partnership on PPS film for mmWave (CES 2026) as a forward indicator of the specialty pivot"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "counterparties.json",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "financial_deep_dive",
+      "title": "The numbers behind the turnaround",
+      "order": 4,
+      "target_words": 1200,
+      "directives": [
+        "Build a 5-year revenue / OP / NI table from the prep data; flag the 2013 \u00a5162.7B revenue benchmark as the long-run peak for context",
+        "The impairment: FY3/25 \u00a537.9B write-down \u2192 drove the \u00a524.3B net loss while OP turned positive. Explain what got impaired (large nylon film line Emblem Asia #4 + Okazaki polyester chip + facility demolitions)",
+        "The OP bridge from -\u00a52.5B (FY3/24) to +\u00a55.9B (FY3/25): +\u00a52.4B pricing/mix (SE Asia exit) + \u00a51.8B volume + \u00a52.0B cost factors (post-impairment depreciation drop) - \u00a50.6B raw materials",
+        "Balance sheet transformation between Mar-25 and Dec-25: Cash \u00a513.5B \u2192 \u00a558.0B (REVIC + asset sales), Net assets \u00a516.2B \u2192 \u00a545.7B, CAR 10.4% \u2192 25.2%. Net Income \u00a510.6B with extraordinary mix: \u00a523.7B gain on non-current asset sale - \u00a512.4B restructuring expense + \u00a50.9B FX = +\u00a511.3B net extraordinary",
+        "Operating quality vs accounting quality: separate operating profit improvement (real) from the gain-on-sale that flatters net income (one-time)",
+        "FY3/26 revised guidance: Revenue \u00a5110B (-13% from divestitures), OP \u00a59.5B (+62%), NI \u00a520B. Walk through the divestiture-driven revenue drop vs the margin improvement",
+        "FY3/29 5y target: \u00a570B revenue, \u00a56.5B OP = 9.3% OP margin. Compared to FY3/25's 4.7% OP margin or FY3/26F's 8.6%, that's a structural improvement. Discuss whether 9.3% is credible for a polymer/specialty-materials company (Toray runs 5-7%, Teijin ~5%, smaller specialty-only peers sometimes 12-15%)",
+        "Shareholder return: zero common dividend. \u00a52.27/share Class C preferred dividend (REVIC). Explain why common holders are not getting paid while REVIC is."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "timeline.json"
+      ]
+    },
+    {
+      "slug": "earnings_story",
+      "title": "The last four quarters in narrative form",
+      "order": 5,
+      "target_words": 800,
+      "directives": [
+        "Stitch FY3/25 full-year \u2192 FY3/26 Q1 (Aug 2025) \u2192 Q2/H1 (Nov 2025) \u2192 Q3 (Feb 2026) \u2192 April 2026 disclosures (PDF re20260406-02) into one continuous narrative",
+        "What management was saying at each call. What the market reaction was. What got revised",
+        "FY3/25 May 27 call: Fujii inheriting CEO role mid-restructuring",
+        "August 2025 Q1: first quarter under new capital structure, first chance to see divestiture progress",
+        "November 2025 H1: company split agreement with wholly-owned subsidiary executed",
+        "February 2026 Q3: revised guidance, extraordinary mix disclosed",
+        "Note any moments when management changed its messaging \u2014 those are higher-signal than the headline numbers"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "timeline.json",
+        "press_release_index.json"
+      ]
+    },
+    {
+      "slug": "leadership",
+      "title": "The professional team REVIC put in place",
+      "order": 6,
+      "target_words": 1500,
+      "directives": [
+        "OPENING: Lead with the REVIC playbook insight. The April 2025 board reconstitution wasn't a generic governance reshuffle \u2014 it was a professional restructuring team assembly. REVIC didn't just take 66.76% of the vote; it deployed one of its own Managing Directors (Kashiwagi Hisami) inside the company as Vice President with explicit responsibility for Structural Reform Promotion. Use the leadership.json key_finding and central_thesis_for_chapter as the structural argument.",
+        "PROFILE: Fujii Minoru \u2014 career engineer, joined 1987 from Kyoto Institute of Technology Graduate School of Textile Science, ran nylon fiber (2008), glass fiber plant (2012), glass fiber business division (2019), Tech Supervision (2023), CEO (April 30 2025). Surface his 'only career employee in management' line. Note he was in the room when textile exit was being debated.",
+        "PROFILE: Kashiwagi Hisami \u2014 THIS IS THE STORY. Born Oct 27 1977 (47). Daiwa Securities 2000 \u2192 Corporate Revitalization Support Organization (REVIC predecessor) 2010 \u2192 multiple PE-style operating deployments (Yamgiwa, Kabe no Ana) \u2192 REVIC Managing Director since 2018 \u2192 DEPLOYED into Unitika as Vice President 2025-04-30. Zero shares owned. April 27 2026 announcement: pulled back to part-time effective June 26 2026, stated reason 'business recovery progressing smoothly; structural reforms largely complete.' This is the PE-style operative deployment: drop in the operator, execute the playbook, exit when stabilized. Frame the one-year cadence explicitly.",
+        "PROFILE: Furukawa Minoru \u2014 THIS IS THE OTHER STORY. Born June 13 1943, age 82. Osaka University Economics 1966 \u2192 joined Hitachi Zosen same year \u2192 17th President of Hitachi Zosen 2005-2013 (eight years) \u2192 led the 'land-based Hitachi Zosen' transformation from struggling 130-year-old shipbuilder to environmental-tech business \u2192 his framing of that turnaround as a '130th-anniversary second founding aiming for \u00a51 trillion by 2030' is the exact intellectual template REVIC is trying to apply to Unitika's 137-year history. He is not on the Unitika board for governance perspective. He is on the board because he has done this once before. This argues strongly for the turnaround thesis over the controlled-liquidation thesis. He chairs the (now dissolved) Nomination and Compensation Committees. Concurrent: Non-Executive Director, Ikeda Senshu Bank; Senior positions at Osaka Chamber of Commerce and Industry + Kansai Economic Federation. Retiring from the Unitika board June 26 2026.",
+        "PROFILE: Horino Keiko \u2014 Kitahama Law Offices partner since January 2013, age 43. Osaka University Faculty of Law 2004 \u2192 Judicial Training Institute 58th cohort \u2192 bar admission Osaka 2005 \u2192 joined Kitahama, partner 2013. Practice: finance, business rehabilitation, M&A, real estate, energy \u2014 including civil rehabilitation, corporate reorganization, and bankruptcy procedures. Guest Professor at Osaka University Graduate School of Advanced Judicial Studies (trust law) since 2021. National Insolvency Practice Network member. Multiple concurrent outside director appointments (Medical Ichiko Group 2021, Orbis System 2023). Frame her appointment as 'a working appointment, not a ceremonial one' \u2014 Kitahama is one of Osaka's senior business law firms with a substantial insolvency practice, and Horino does this work professionally. She continues on the June 2026 board.",
+        "PROFILE: Ishikawa Michiko (formal koseki name Ito Noriko) \u2014 Yokohama Minami Law Office attorney, Kanagawa Bar Association 73rd registration period (2021). University of the Ryukyus College of Law and Letters + Law School. Treat as the comparatively lighter outside director profile \u2014 her exit from the June 2026 board (replaced by Hakomori Kazuaki) may signal REVIC rotating toward a more senior outside director slot.",
+        "THE OTHER INSIDE DIRECTORS: Misu Shuichi (56, CFO equivalent \u2014 finance/legal/compliance/IT/sustainability), Kobayashi Eiji (43, fiber segment + business planning, inheriting Strategic Planning + IR in June 2026), Fujimoto Shinji (48, runs the polymer/glass-fiber operating core \u2014 gains Reform Implementation responsibility in June 2026 as Kashiwagi steps back), Oku Yamato (36, HR + finance oversight, leaves the board in June 2026). Frame the Misu-Kobayashi-Fujimoto trio as the post-restructuring operating bench.",
+        "THE AUDITORS: Nakano Shinsuke (40, Standing Auditor; being promoted to Director in June 2026 \u2014 Audit\u2192Executive transition is unusual). Sano Makoto (66, outside) + Murase Kenichi (outside) continue. Fukuhara Tetsuaki (78, outside) exits. The pending Iwafuji Atsushi (new Standing Auditor) holds the unusual structure of being concurrently Executive Officer for Corporate Planning \u2014 flag this as a governance observer might note.",
+        "CLOSING: The April 2026 announcement (Kashiwagi pulled back, Furukawa retiring, restructuring team thinning) is the closing argument. The REVIC playbook had a beginning (April 2025 capital + team deployment), a middle (one year of structural reform execution), and an explicit ending (June 2026 transition to a leaner operating board led by Fujii + three career-Unitika executives, with Horino retained for ongoing legal expertise). What this team produced is what the next 3-4 years will be judged against. Specifically: did Misu/Kobayashi/Fujimoto inherit a viable specialty-materials business, or just a smaller version of the same problem?",
+        "VOICE: Substantive professional profiles, not age-centric framing. Lead with what each person did before joining the board, then what they're doing at Unitika, then what their appointment SIGNALS about REVIC's intent. Ages can stay as factual details but should never be the analytical pivot. Use the leadership.json data heavily \u2014 it now contains career histories for the major figures."
+      ],
+      "use_prep_files": [
+        "leadership.json",
+        "timeline.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "customers_supply_chain",
+      "title": "Buyers, sellers, and the people forgiving the debt",
+      "order": 7,
+      "target_words": 800,
+      "directives": [
+        "Three layers: divestiture buyers, joint-development partners, creditor banks",
+        "Buyers: Seiren Co. (acquiring Okazaki textile from Unitika+Nippon Ester JV split), COTEX (spunlace nonwovens already closed), Tusco Thailand polyester spunbond still unsold",
+        "Joint development: DIC \u00d7 Unitika PPS film for mmWave PCB + radar (CES 2026 announcement). DIC is a much larger Japanese specialty chemicals firm \u2014 explain what it means for Unitika to be co-developing with them",
+        "Customers (signals from earnings commentary, since detailed customer disclosure is thin): food-packaging end users (Emblem HG), semiconductor fabs (UniPeel, glass fibers for chip substrates), public-sector uniform buyers, automotive applications (engineering plastics)",
+        "Creditor banks: MUFG, Mizuho, Sumitomo Mitsui Trust \u2014 they forgave up to \u00a543B which is generous; explain why Japanese main-bank relationships still produce this outcome (lender concentration + REVIC orchestration)",
+        "REVIC itself: government-affiliated revitalization fund. 66.76% voting via Class C preferred. \u00a520B injection + \u00a52.27/share dividend forecast. This is not patient capital in the VC sense \u2014 REVIC has a mandate to fix and exit"
+      ],
+      "use_prep_files": [
+        "counterparties.json",
+        "financials.json"
+      ]
+    },
+    {
+      "slug": "competitive_position",
+      "title": "Where Unitika sits among Japan's polymer giants",
+      "order": 8,
+      "target_words": 900,
+      "directives": [
+        "Position Unitika against the Japanese polymer/specialty-fiber peer set: Toray, Teijin, Asahi Kasei, Mitsubishi Chemical, Sumitomo Bakelite, Kuraray",
+        "Unitika is a fraction of any of these in revenue but punches above its weight in specific specialty corners (functional films, glass fibers for memory substrates, activated carbon fibers)",
+        "Frame the strategic logic: Unitika cannot win on commodity textile pricing against Toray's scale and ASEAN production \u2014 that's why the restructuring exits textiles",
+        "What Unitika CAN do that others can't (or aren't): silicone-free release film (UniPeel), retort barrier film (EMBLEM HG), ultra-thin Low CTE Glass Fabrics for mobile memory \u2014 narrow product moats with high IP density",
+        "Global peer comparison too: 3M (glass fibers, advanced materials), Honeywell (specialty chemicals), Solvay (high-performance polymers) \u2014 Unitika doesn't pretend to compete with these, but the specialty corners overlap",
+        "Note where Unitika is dependent on customers also competing with its partners (e.g., glass-fiber substrate may go into a foundry that also buys from Asahi Glass)",
+        "Don't make up market share percentages without citation \u2014 flag the >50% domestic share in transparent flame-retardant sheet (smoke curtains) as one of the few known figures"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "snapshot.json",
+        "counterparties.json",
+        "peers.json"
+      ],
+      "may_need_extra_research": "Yes \u2014 research peer revenues and OP margins via WebSearch"
+    },
+    {
+      "slug": "news_catalysts",
+      "title": "Twelve months of headlines",
+      "order": 9,
+      "target_words": 700,
+      "directives": [
+        "Walk through the 2025-04 \u2192 2026-05 news flow chronologically",
+        "Key beats: Apr 2025 REVIC injection \u2192 May 2025 FY3/25 results + Fujii appointment \u2192 Aug 2025 Q1 \u2192 Oct 2025 nonwovens buyer found \u2192 Nov 2025 H1 + company split \u2192 Dec 2025 DIC PPS film partnership \u2192 Feb 2026 Q3 + revised guidance + revised guidance \u2192 Apr 2026 press release re20260406",
+        "What got priced in vs what surprised. The stock went from \u00a5140 lows to \u00a54,380 highs at some point in that window \u2014 pinpoint when (likely after REVIC + first profitable Q)",
+        "Forward catalysts to watch: Tusco Thailand sale, more semiconductor design wins for glass fibers, FY3/26 full-year results in May 2026"
+      ],
+      "use_prep_files": [
+        "timeline.json",
+        "press_release_index.json",
+        "stax/3103.T-5y-1d.json"
+      ]
+    },
+    {
+      "slug": "ip_rd",
+      "title": "Patents, products, and the case for specialty pricing",
+      "order": 10,
+      "target_words": 700,
+      "directives": [
+        "This chapter needs MORE primary research \u2014 current data is thin on patent count + R&D spend",
+        "Use J-PlatPat / USPTO via WebSearch (sub-agent) to count Unitika patents in last 5 years by tech area",
+        "Highlight specific products and their IP positioning: UniPeel (silicone-free release film, semiconductor adoption), EMBLEM HG (high-gas-barrier nylon film), ultra-thin glass fibers for chip substrates",
+        "The DIC partnership on PPS film is itself a credibility marker for Unitika's polymer IP",
+        "Discuss whether the FY3/29 OP margin target (9.3%) is achievable given the IP density \u2014 high-IP specialty makers can do 12-15%, but Unitika's mix still has commodity exposure",
+        "Note R&D spend isn't yet pulled \u2014 this is a follow-up data fetch"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "counterparties.json"
+      ],
+      "may_need_extra_research": "Yes \u2014 patent counts + R&D spend"
+    },
+    {
+      "slug": "risks",
+      "title": "What could break this",
+      "order": 11,
+      "target_words": 800,
+      "directives": [
+        "Be specific. Don't recite a generic risk-factor list",
+        "Risk 1: Restructuring execution. Tusco Thailand polyester spunbond still unsold; if it can't be divested, deeper write-downs follow. Quantify against the \u00a56B demolition fund",
+        "Risk 2: Customer concentration in specialty products. The high-margin specialty pivot relies on Unitika products getting designed-in by semiconductor and electronic manufacturers \u2014 if any single design win loses out, the segment growth narrative cracks",
+        "Risk 3: REVIC overhang. Class C preferred \u00a52.27 dividend is small; the eventual REVIC exit (sale, conversion, buyback) could create supply pressure on common stock",
+        "Risk 4: Yen FX. Q3 9M had \u00a5940M FX gain on yen depreciation. The reverse hurts since most cost base is JPY and revenue is mixed",
+        "Risk 5: Competitive substitution. Toray and Teijin can scale into Unitika's specialty corners if pricing is high enough \u2014 particularly mobile memory substrates",
+        "Risk 6: Macro. Q3 commentary cited 'uncertainties in trade policy, exchange rate fluctuations, and geopolitical risks including Japan-China relations'. Specifically explain how each affects Unitika",
+        "Risk 7: Governance. Career-employee CEO + REVIC oversight = unclear who actually drives strategy. Surface this tension"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "counterparties.json",
+        "leadership.json"
+      ]
+    },
+    {
+      "slug": "outlook",
+      "title": "What to watch for next",
+      "order": 12,
+      "target_words": 700,
+      "directives": [
+        "Forward calendar (next 12 months): FY3/26 full-year results (May 2026), FY3/27 Q1, REVIC progress reports, any incremental divestiture closures",
+        "What constitutes a confirmation of the thesis: Tusco Thailand sale finalized, EMBLEM HG and UniPeel revenue growth continues at double-digit rates, glass-fiber chip-substrate volumes grow, common dividend resumes",
+        "What constitutes a failure of the thesis: revenue declines further than the guided \u00a5110B, OP margin slips below 8%, additional impairments needed, REVIC has to inject more capital",
+        "The lever to watch most closely: ratio of specialty/electronics revenue to commodity revenue \u2014 the strategic pivot succeeds or fails on this mix shift",
+        "Conclude with a one-sentence framing of where Unitika is: 'A two-year window to prove a 137-year-old company can become a specialty-materials maker \u2014 funded by the Japanese state's revitalization arm, watched by its main banks, and led by the first career engineer ever promoted to its presidency.'"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "timeline.json",
+        "leadership.json"
+      ]
+    },
+    {
+      "slug": "appendices",
+      "title": "Appendices",
+      "order": 13,
+      "target_words": 200,
+      "directives": [
+        "This is a meta-chapter. Just list the appendices: financial tables, timeline, sources bibliography, press-release index. Each is rendered by the UI from the prep data, not by the writer"
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "timeline.json",
+        "press_release_index.json",
+        "counterparties.json",
+        "leadership.json"
+      ]
+    }
+  ]
+}

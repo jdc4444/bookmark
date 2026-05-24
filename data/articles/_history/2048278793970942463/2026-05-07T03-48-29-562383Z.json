@@ -1,0 +1,69 @@
+{
+  "headline": "Nine Sentences, Sixty Years: Amateur Solves Erdős Problem with AI",
+  "lede": "A 23-year-old without advanced mathematical training has solved a combinatorics problem posed by the legendary Paul Erdős roughly sixty years ago, using ChatGPT Pro as his reasoning partner. The prompt that accomplished this was strikingly spare: nine sentences, a handful of XML-style structural tags, and a single instruction not to search the internet. Terence Tao's response to the result suggests the feat may reveal more about the psychology of mathematical progress than about artificial intelligence.",
+  "body": "Paul Erdős (1913–1996), the peripatetic Hungarian mathematician, left behind a vast catalogue of unsolved problems in *combinatorics* and number theory, many carrying small cash prizes he offered himself. His challenges were chosen with a distinctive eye: precise to state, yet resistant to the standard machinery of the field. A 23-year-old, reportedly without graduate training in mathematics, has now dispatched one that stood for roughly sixty years — using **ChatGPT Pro** as his collaborator.\n\nWhat arrests attention is not just the result but the instrument and how it was wielded. The winning prompt ran to nine sentences. It imposed structure through XML-like closing tags — `</problem>`, `</lemma 1>`, `</lemma 2>`, `</lemma 3>` — signalling that the proof should be assembled from intermediate steps, exactly as a working mathematician drafts a sketch before writing the formal argument. A *lemma* is a subsidiary result proved along the way to a larger conclusion; by naming slots for three of them, the solver forced the model to build a scaffold rather than free-associate. The prompt also instructed the model not to use the internet — to reason from first principles rather than retrieve — and closed with a reminder that \"this unconditional argument may require non-trivial, creative and novel elements.\"\n\nTerence Tao, a *Fields Medal* laureate at UCLA and widely regarded as the most formidable mathematician alive, offered a reading that complicates the triumphalist narrative. \"What's beginning to emerge,\" Tao said, \"is that the problem was maybe easier than expected, and it was like there was some kind of mental block.\" That framing matters. The machine may not have stormed a genuinely impregnable fortress so much as bypassed the aesthetic assumptions and cognitive grooves that professional mathematicians carry into a problem — the unspoken conviction, say, that a sixty-year-old problem must require sixty years' worth of sophisticated machinery.\n\nThe episode is being filed under what *Scientific American* calls **vibe maths**: using large language models as mathematical reasoning partners, by analogy with *vibe coding*, in which non-programmers produce working software by describing intent to an AI. The parallel is instructive but imperfect. A miscompiled program crashes immediately; a subtly flawed proof can persist undetected. Whether this solution has been rigorously verified by independent mathematicians is a question the available sources do not answer.\n\nStill, the prompt's architecture is itself a quiet lesson in discipline: decompose the problem into lemmas, forbid retrieval, expect novelty. That is closer to sound mathematical hygiene than to *prompt engineering* as ordinarily practised. If the barrier to entry for Erdős-class mathematics has genuinely dropped, the more interesting question is not what AI can now do, but which problems the field has quietly shelved because they looked too forbidding for humans — without a machine's blissful indifference to prior failure.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    }
+  ],
+  "poster": "yoitsyoung",
+  "concepts": [
+    {
+      "key": "erdos-problems",
+      "term": "Erdős problems",
+      "definition": "A large body of unsolved conjectures posed by Paul Erdős, typically in combinatorics and number theory and sometimes carrying cash prizes. They are celebrated for being easy to state yet fiendishly hard to resolve with conventional techniques."
+    },
+    {
+      "key": "combinatorics",
+      "term": "combinatorics",
+      "definition": "The branch of mathematics concerned with counting, arranging, and combining discrete objects. It underpins much of computer science, probability, and graph theory, and was Erdős's primary arena."
+    },
+    {
+      "key": "lemma",
+      "term": "lemma",
+      "definition": "In mathematics, a subsidiary result proved as a stepping stone toward a larger theorem. A proof is typically assembled from a chain of lemmas, each narrowing the gap between hypothesis and conclusion."
+    },
+    {
+      "key": "vibe-maths",
+      "term": "vibe maths",
+      "definition": "A colloquial term, coined by analogy with 'vibe coding,' for the practice of using large language models as mathematical reasoning partners — posing problems, iterating on partial proofs, and accepting AI-generated arguments. Popularised by Scientific American's coverage of this case."
+    },
+    {
+      "key": "vibe-coding",
+      "term": "vibe coding",
+      "definition": "A programming approach in which a user describes desired behavior to an AI model and accepts its code output without rigorous line-by-line review. The word 'vibe' signals an intent-driven, informal style over traditional disciplined engineering."
+    },
+    {
+      "key": "fields-medal",
+      "term": "Fields Medal",
+      "definition": "Often called the Nobel Prize of mathematics, it is awarded every four years to up to four mathematicians under 40. Terence Tao received it in 2006 and is widely considered among the greatest living mathematicians."
+    },
+    {
+      "key": "prompt-engineering",
+      "term": "prompt engineering",
+      "definition": "The practice of crafting inputs to a language model — choosing wording, structure, and constraints — to elicit more accurate, useful, or stylistically consistent outputs. Distinct here from the solver's approach, which more closely resembles mathematical proof structure."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet characterizes the solver as having 'no advanced mathematics training,' which the available sources do not independently verify. Tao's remark is rendered as a quotation but the exact wording may vary across reports; the sentiment — a 'mental block' rather than insuperable difficulty — appears consistent with his public commentary. Whether the solution has been peer-reviewed or formally published is not confirmed in the materials available here, which is a material gap given that 'vibe maths' proofs carry an elevated risk of subtle, hard-to-detect errors.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/yoitsyoung/status/2048278793970942463",
+      "title": "@yoitsyoung tweet quoting @Ananyo",
+      "note": "Primary bookmark; contains the full prompt text and the Tao quotation"
+    },
+    {
+      "url": "https://scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+      "title": "Amateur Armed with ChatGPT 'Vibe Maths' a 60-Year-Old Problem — Scientific American",
+      "note": "Underlying reported story linked in the quoted tweet; article content was not retrieved for this brief"
+    }
+  ],
+  "bookmark_id": "2048278793970942463",
+  "generated_at": "2026-05-07T03:48:29.562383Z",
+  "backend": "claude"
+}

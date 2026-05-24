@@ -1,0 +1,18 @@
+{
+  "key": "purpledrink_llc",
+  "display_name": "PurpleDrinkCapital (@PurpleDrink_LLC)",
+  "blurb": "PurpleDrinkCapital is an independent market commentator and trader based on X (formerly Twitter), where the account trades under the handle @PurpleDrink_LLC and publishes commentary under the tagline 'Financial market commentary, absolutely not a dividend investor.' The account focuses on long/short equities with a strong momentum and technical-analysis orientation, and has built a following for posting data-driven studies on market structure, EMA regimes, and trend identification. A Substack publication under the same brand has accumulated over 2,100 subscribers and ranked in Substack's top 100 rising finance newsletters. The account is self-described as 'Founder/CEO/CIO' of the entity — a tongue-in-cheek framing consistent with the sardonic voice common to independent fintwit accounts — and has appeared as a podcast guest discussing market philosophy and trading stories.",
+  "credibility_note": "The account's analytical work draws on publicly reproducible methods (historical EMA-stretch studies, base-rate analysis) rather than proprietary signals, which allows partial external verification. No institutional affiliation, credentials, or audited track record are publicly disclosed. Content should be treated as informed independent commentary rather than investment advice; the account may hold positions in instruments discussed.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/PurpleDrink_LLC"},
+    {"label": "Substack", "url": "https://substack.com/@purpledrink"}
+  ],
+  "sources": [
+    {"title": "PurpleDrinkCapital on Substack", "url": "https://substack.com/@purpledrink"},
+    {"title": "Purple Drink Capital: This Is Probably A Top Signal — Value Hive Podcast", "url": "https://creators.spotify.com/pod/show/valuehive/episodes/Purple-Drink-Capital-This-Is-Probably-A-Top-Signal--Trading-Stories-e2r0smr"},
+    {"title": "PurpleDrinkCapital on X", "url": "https://x.com/PurpleDrink_LLC"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

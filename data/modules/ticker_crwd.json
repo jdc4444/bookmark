@@ -1,0 +1,24 @@
+{
+  "key": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "CrowdStrike is a leading cybersecurity company that provides cloud-delivered endpoint protection, threat intelligence, and cyberattack response services. Its Falcon platform uses artificial intelligence and machine learning to detect and prevent breaches. The company is recognized as a dominant player in the endpoint security market, competing with firms like Microsoft and SentinelOne.",
+  "recent": "In the past 30 days, CrowdStrike reported strong fiscal fourth-quarter earnings that beat analyst estimates, with revenue growing 29% year-over-year. The stock has rallied on the back of robust demand for its cybersecurity solutions and an optimistic outlook for fiscal 2026. Additionally, the company announced a partnership with NVIDIA to enhance AI-driven threat detection.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CRWD/",
+      "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Price, Quote, History & News"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CRWD/",
+      "title": "CrowdStrike (CRWD) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.google.com/finance/quote/CRWD:NASDAQ",
+      "title": "Crowdstrike Holdings Inc (CRWD) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:36:39.497610Z",
+  "backend": "deepseek"
+}

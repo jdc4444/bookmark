@@ -1,0 +1,66 @@
+{
+  "bookmark_id": "2012903582849548593",
+  "headline": "The Retroactive Oracle: Fintwit's Favourite Boast Genre",
+  "lede": "A recurring ritual on financial social media: the poster who, once prices have moved, excavates a forgotten call and presents it as prophecy. The \"no one cared\" gambit flatters the poster's foresight while quietly burying the question of how many other calls went unacknowledged for good reason.",
+  "body": "The post follows a template as old as stock-market braggadocio itself: a list of tickers, entry prices, and percentage gains, accompanied by a lament that the wisdom was ignored at the time. What goes unexamined is the denominator — the calls that did not appear on the victory-lap list, the positions that quietly expired unannounced. Survivorship bias is the silent co-author of every such thread, and \"no one cared\" is its most polished marketing copy.\n\nThe basket itself, however, reflects some genuine 2025-2026 market narratives rather than random picks. The largest reported winner, Ondas Holdings ($ONDS), is a drone and autonomous-systems company whose stock surged on defence contracts, a border-security order, and a pending merger with Bethesda-based prime contractor Mistral — a firm with over a billion dollars in Department of Defense indefinite-delivery contracts. The drone-to-defence-prime story is verifiable and substantial, even if the 1,600% figure strains the credibility of a planned purchase at $0.71.\n\nAlso real: the *bitcoin-miner-to-AI-HPC pivot* trade, a structural theme in which companies originally built to run power-hungry mining rigs discovered that the same scarce megawatts, retooled for *high-performance computing* (HPC) — GPU clusters for artificial-intelligence workloads — could generate far more durable revenue from hyperscaler tenants. IREN Limited (formerly Iris Energy) signed a $9.7 billion, five-year cloud-computing deal with Microsoft. Cipher Mining rebranded as Cipher Digital and secured a fifteen-year, 300-megawatt lease with Amazon Web Services estimated at $5.5 billion. TeraWulf moved from bitcoin to contracted AI-infrastructure revenue, with hyperscaler deals anchoring a $900 million equity raise in April 2026. These are not rumours; the contracts are on file with the SEC.\n\nThe remaining names are more heterogeneous. AST SpaceMobile ($ASTS) is building a *direct-to-device* satellite broadband network — satellites that communicate with ordinary smartphones, no special hardware required — backed by carrier agreements with AT&T, Verizon, and Vodafone. The stock ran to an all-time high of roughly $130 in January 2026 on commercial launches and revenue that grew 641% year-over-year, then retreated sharply. D-Wave Quantum ($QBTS) hit $46.75 in October 2025 on a wave of *quantum computing* enthusiasm partly triggered by Nvidia's Ising-model release, before losing more than half that peak value. Opendoor ($OPEN) became a 2025 meme stock in the original sense — retail energy detached from fundamentals — after co-founders returned, injected $40 million of their own capital, and rebranded the distressed *iBuyer* (a company that buys homes algorithmically for resale) as an AI platform. Revenue fell roughly 34% year-over-year in Q3 2025; the stock's trajectory owed more to Shopify's ex-COO taking the helm and Reddit enthusiasm than to any improvement in the housing market.\n\nWhat is not verifiable, and should not be taken on faith, is that any specific entry price was actually traded at the claimed level on the claimed date. The post provides no screenshot of a brokerage confirmation, no dated archive of the original call, no accounting of position size. A person who bought $100 of ONDS at $0.71 and sold at $7.50 made $956; a person who bought $10,000 and rode it to $12 then watched it halve made something quite different. The genre thrives on omitting all three of those variables. The stocks are real, the sector rotations are real, and some of the returns — properly sized and timed — would have been remarkable. Whether @sunxliao was actually aboard for any of them is a matter of faith the market cannot settle.",
+  "tickers": [
+    "ASTS",
+    "CIFR",
+    "IREN",
+    "ONDS",
+    "OPEN",
+    "QBTS",
+    "WULF"
+  ],
+  "poster": "sunxliao",
+  "concepts": [
+    "survivorship bias",
+    "bitcoin-miner-to-AI-HPC pivot",
+    "meme stocks",
+    "direct-to-device satellite broadband",
+    "quantum computing",
+    "iBuyer",
+    "high-performance computing",
+    "retroactive calls"
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The retroactive-entry-price post is a well-established genre on financial social media whose defining feature is the absence of contemporaneous evidence. The specific tickers listed do correspond to real companies that experienced large 2025-2026 price moves: Ondas Holdings rallied sharply on defence-drone contracts; IREN, Cipher Digital, and TeraWulf are genuine bitcoin-miner-to-AI-HPC pivot stories with publicly filed contracts with Microsoft and AWS; AST SpaceMobile reported 641% revenue growth on its satellite broadband build-out; D-Wave Quantum surged and retreated on quantum-computing sentiment; and Opendoor was widely documented as a 2025 meme-stock rally driven by retail and co-founder re-entry. No brokerage confirmation, dated archive post, or position-size disclosure accompanies the original claim, making the entry prices unverifiable. NUAI could not be confidently identified as an active publicly traded US company and was excluded from ticker modules.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "title": "Ondas Holdings drone contracts and Mistral merger (247wallst.com)",
+      "url": "https://247wallst.com/investing/2026/04/10/drone-maker-ondas-would-have-turned-1000-one-year-ago-into-how-much/"
+    },
+    {
+      "title": "Cipher Digital AWS 15-year lease and rebrand (CoinDesk)",
+      "url": "https://www.coindesk.com/markets/2026/02/24/cipher-digital-rebrands-as-it-pivots-from-bitcoin-mining-to-hpc-shares-slide"
+    },
+    {
+      "title": "IREN Microsoft $9.7B deal (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/microsofts-97-billion-deal-with-iren-shows-bitcoin-miners-ai-pivot-is-paying-off-165316526.html"
+    },
+    {
+      "title": "TeraWulf $900M HPC equity raise (investors.terawulf.com)",
+      "url": "https://investors.terawulf.com/news-events/press-releases/detail/128/terawulf-and-fluidstack-announce-successful-pricing-of"
+    },
+    {
+      "title": "AST SpaceMobile Q4 2025 results (investing.com)",
+      "url": "https://www.investing.com/news/company-news/ast-spacemobile-q4-2025-slides-709m-revenue-60-satellites-by-2026-93CH-4536526"
+    },
+    {
+      "title": "Opendoor meme rally and Nejatian CEO appointment (24/7 Wall St.)",
+      "url": "https://247wallst.com/investing/2025/11/11/opendoors-epic-comeback-can-an-ai-pivot-save-this-meme-stock-darling/"
+    },
+    {
+      "title": "D-Wave QBTS stock extreme valuation analysis (Seeking Alpha)",
+      "url": "https://seekingalpha.com/article/4890681-d-wave-quantum-extreme-valuation-meets-execution-reality"
+    },
+    {
+      "title": "Bitcoin miners pivot to AI as BTC slumps (S&P Global)",
+      "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/02/bitcoin-miners-pivot-to-ai-and-hpc-as-cryptocurrency-market-slumps"
+    }
+  ],
+  "generated_at": "2026-05-05T23:54:15.314985Z",
+  "backend": "claude-sonnet-subagent"
+}

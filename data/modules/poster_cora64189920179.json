@@ -1,0 +1,13 @@
+{
+  "key": "cora64189920179",
+  "display_name": "@Cora64189920179",
+  "blurb": "An X account promoting retail day-trading strategies to a Japanese-language audience, with a particular focus on the 20-period EMA on 15-minute charts. The account's posts are characterised by an open-ended hook structure — promising a revelation and withholding the conclusion — consistent with engagement-farming content designed to drive replies, follows, and downstream paid-content funnels. No verifiable trading record, institutional affiliation, or legal identity is publicly associated with the account.",
+  "credibility_note": "The handle (@Cora64189920179) follows the auto-generated alphanumeric pattern — a name-prefix followed by a long numeric string — that fraud researchers and platform-policy teams associate with bot-farm account creation, where handles are machine-assigned rather than chosen by a human user. The tweet cited here is incomplete by design: it ends mid-sentence ('As for the specific way to use it,') to provoke engagement. The ¥3 million annual income claim is unaccompanied by audited trade records, account statements, or any methodology beyond the assertion of personal use. The technical premise — that the 20 EMA on a 15-minute chart is sufficient for reliable retail trading income — is contradicted by backtesting data and the broad academic literature on retail day-trader outcomes. The account should be treated as an engagement-farming vector rather than a source of actionable trading information.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/Cora64189920179"}
+  ],
+  "sources": [],
+  "type": "poster",
+  "generated_at": "2026-05-05T21:30:00Z",
+  "backend": "claude-sonnet-subagent"
+}

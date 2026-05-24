@@ -1,0 +1,53 @@
+{
+  "headline": "Flowith's Agent Neo Bids for the Autonomous-AI High Ground",
+  "lede": "Flowith, a San Francisco–based startup incubated at a hackathon in Yunnan, China, has launched Agent Neo, which it calls the world's first \"infinite\" AI agent. The product's central pitch is scale: where most commercial agents stall after a few dozen reasoning steps, Neo advertises a ten-million-token context window and more than a thousand sequential inference steps. Its developers say it currently leads the *GAIA* benchmark, the field's standard test for real-world agent performance.",
+  "body": "The word \"infinite\" is doing considerable promotional work here. What Flowith means in practice is a cloud-hosted agent designed to run without the hard ceilings imposed by today's mainstream tools. A **ten-million-token context** — a token being roughly three-quarters of a word — is large enough to hold thousands of pages of text in working memory simultaneously, which matters for tasks like synthesizing a lengthy research corpus or managing a sprawling code project. The competing framing offered by a TechPilot review puts the contrast bluntly: OpenAI's Operator, Anthropic's Computer Use, and similar offerings typically exhaust themselves after tens of steps; Neo claims to sustain a hundred times that.\n\nThe *GAIA benchmark* — General AI Assistants, a test suite developed to measure how well agents handle real-world, multi-step tasks that require browsing, tool use, and judgment — is the most concrete evidence Flowith offers. Topping GAIA's leaderboard across difficulty levels, if the claim holds up under scrutiny, would represent a meaningful technical result rather than mere marketing. Benchmarks, however, are snapshots: the landscape shifts quickly, and a leaderboard position can be overtaken within weeks.\n\nAgent Neo is structured around an *infinite canvas* metaphor rather than a chat interface. Users drop a task onto the canvas; the agent independently plans, delegates to sub-agents, and executes — producing text reports, images, video, slides, or entire websites. The system can also draw on a user's own knowledge base and fine-tuning data, which moves it closer to an enterprise automation layer than a general-purpose chatbot.\n\nThe company's origin story — a hackathon project that went global — is common enough in Silicon Valley to invite skepticism, but the GAIA result, if reproducible, suggests the engineering is serious. What remains untested at scale is reliability: autonomous agents that claim to run indefinitely are only as useful as their ability to recover gracefully from the errors that inevitably accumulate over a thousand steps. The research sources do not address failure modes or human-in-the-loop controls in detail.",
+  "tickers": [],
+  "poster": "flowith",
+  "concepts": [
+    {
+      "key": "context-window",
+      "term": "context window",
+      "definition": "The maximum amount of text (measured in tokens, roughly three-quarters of a word each) an AI model can hold in active memory during a single session. A larger context window lets the model reference more prior material without forgetting it. Flowith claims ten million tokens — far larger than the 128,000–200,000 tokens typical of leading commercial models as of early 2025."
+    },
+    {
+      "key": "gaia-benchmark",
+      "term": "GAIA benchmark",
+      "definition": "A standardized evaluation suite (General AI Assistants) designed to measure how well AI agents handle realistic, multi-step tasks that require web browsing, tool use, file manipulation, and judgment rather than pure text generation. It is considered a more demanding and ecologically valid test than simple question-answering benchmarks because it requires agents to act in the world, not just predict the next word."
+    },
+    {
+      "key": "inference-steps",
+      "term": "inference steps",
+      "definition": "In agentic AI systems, a single inference step is one discrete act of reasoning or action — calling a tool, writing a chunk of text, querying a database, or deciding what to do next. Chaining hundreds or thousands of steps without human intervention is technically difficult because errors compound and models can lose coherent state over long horizons."
+    },
+    {
+      "key": "agentic-ai",
+      "term": "agentic AI",
+      "definition": "An AI system that does not merely respond to a single prompt but autonomously plans, takes actions (browsing the web, writing and running code, calling APIs), and iterates toward a goal over many steps. Agentic systems are distinct from standard chatbots in that they must manage state, recover from failures, and make sequential decisions without constant human input."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim of \"infinite\" steps and context is marketing language, not a technical description. According to Flowith's own documentation and third-party reviews, the actual figures are up to ten million tokens of context and over one thousand inference steps — impressive numbers, but bounded. The GAIA benchmark leadership claim is presented as current fact; benchmark standings change rapidly, and independent verification of the top position is not confirmed in the available sources.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://flowith.io/tools/agent-neo/",
+      "title": "Agent Neo - Flowith",
+      "note": "Primary product page detailing capabilities, GAIA benchmark position, and use-case examples"
+    },
+    {
+      "url": "https://www.aibase.com/news/18206",
+      "title": "Flowith NEO Released! The World's First AI Agent with Infinite Steps, Context, and Tools",
+      "note": "News writeup covering the product launch announcement"
+    },
+    {
+      "url": "https://techpilot.ai/tools/flowith-neo-ai-agent/",
+      "title": "Flowith NEO: Multiple AI Agents that run 24/7 - Tech Pilot",
+      "note": "Independent review providing comparative context against OpenAI Operator, Claude Computer Use, and Abacus AI"
+    }
+  ],
+  "bookmark_id": "1924453961538670755",
+  "generated_at": "2026-05-06T20:59:41.037725Z",
+  "backend": "claude"
+}

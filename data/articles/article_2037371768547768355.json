@@ -1,0 +1,71 @@
+{
+  "bookmark_id": "2037371768547768355",
+  "headline": "The Wheel Turns: Options Trading's Most Popular Treadmill",
+  "lede": "Selling puts to buy, selling calls to exit — the "wheel strategy" sounds like frictionless income generation. In practice, it is a carefully packaged bet on volatility, time decay, and the forbearance of a bull market.",
+  "body": "The wheel is a two-phase options cycle favoured by retail traders on r/thetagang and popularised by the brokerage-educator Tastytrade. In the first phase, a trader sells a cash-secured put — an agreement to buy 100 shares of a stock at a chosen "strike" price in exchange for an upfront cash payment called a premium. Crucially, the strike is set at a level where the trader would be genuinely content to own the stock anyway. If the stock stays above the strike at expiry, the option expires worthless and the premium is pure income. If it falls below, the trader is "assigned" — obligated to buy the shares — but at an effective cost reduced by whatever premium was already collected.\n\nOnce the shares are in hand, phase two begins: selling a covered call, which is the mirror image. The trader agrees to sell the shares at a higher strike price, collecting another premium. If the stock rises past that ceiling the shares are called away at a profit; if not, the trader pockets the premium and resells the call the following month. Round and round the wheel turns, harvesting what options traders call theta — the daily erosion in an option's time value that accrues to the seller like interest on a short-term loan.\n\nThe intellectual foundation is sound enough. Academic research has repeatedly shown that equity options are, on average, priced with implied volatility slightly above subsequent realised volatility — a structural overpricing that sellers systematically exploit. The wheel simply packages this edge into a retail-friendly sequence, avoiding the complexity of multi-leg spreads by treating option-selling as a back-door way to set limit orders: enter at the put strike, exit at the call strike, collect premium along the way. The intuition embedded in @LEAPTRADER_'s aphorism — sell a put to enter, sell a call to exit — neatly collapses that logic into eleven words.\n\nThe catch is regime-dependence. The wheel thrives in the environment that has been most common since 2009: markets that drift upward with modest volatility, giving sellers time to collect premium before anything dramatic occurs. It bruises in two specific environments that are essentially opposites. In a fast crash — the kind that arrived in March 2020 or October 2018 — implied volatility (the market's forward-looking estimate of price swings) can spike far faster than premiums compensate, and the assigned shares arrive at precisely the moment the stock continues falling. The second failure mode is the runaway rally: a stock that surges well past the covered call strike forces the trader to surrender shares — and all further upside — just as the thesis is being validated. The wheel does not lose money in a runaway rally, but it massively underperforms simply owning the stock, which can erode the psychological case for the strategy just as visibly as a loss.\n\nPath-dependence is the subtler structural hazard. Because each assignment ties capital to a specific stock at a specific price, a string of bad luck — or bad stock selection — can trap a trader in a deteriorating position, repeatedly selling calls that expire worthless because the strike is far above a stock that never recovers. The options trader who sold puts on a company before an earnings disaster finds herself effectively averaging down, each successive covered call merely buying time while the underlying bleeds. Unlike a simple stop-loss rule, the wheel contains no mechanical exit; discipline must come from the trader, not the structure.\n\nThe tax overlay further erodes the headline returns that grid-traders post online. Premiums from short-dated option sales are short-term capital gains, taxed at ordinary income rates — up to 37% in the top U.S. federal bracket as of 2026, not the 15–20% that long-term equity holders pay. A wheel generating a 15% gross annual return might net 10% after taxes in a taxable brokerage account, a figure that starts to look less heroic against a passive S&P 500 index fund. Running the wheel inside a Roth IRA eliminates this drag but caps the capital available and restricts the strategy to fully cash-secured puts, since retirement accounts prohibit margin. The wheel is, in the end, a skill game played on a tilted tax table: the edge exists, but it requires careful stock selection, rigorous position-sizing, and the humility to close a losing position rather than spin the wheel one more time.",
+  "tickers": [],
+  "poster": "LEAPTRADER_",
+  "concepts": [
+    {
+      "key": "wheel-strategy",
+      "term": "the wheel strategy",
+      "definition": "A two-phase options income cycle: first sell a cash-secured put (to potentially acquire shares at a lower effective cost), then once shares are held, sell covered calls (to generate income and potentially exit the position at a higher price). The cycle repeats, harvesting option premium at each turn."
+    },
+    {
+      "key": "cash-secured-put",
+      "term": "cash-secured put",
+      "definition": "An options position in which the seller agrees to buy 100 shares of a stock at a specified strike price in exchange for an upfront premium. The seller holds enough cash to cover the full purchase obligation. If the stock falls below the strike at expiry, shares are 'assigned' to the seller; if not, the premium is kept outright."
+    },
+    {
+      "key": "covered-call",
+      "term": "covered call",
+      "definition": "An options position in which a shareholder sells the right for another party to buy their shares at a specified strike price by a given expiry date, in exchange for a premium. The shares 'cover' the obligation. If the stock rises above the strike, the shares are called away; if not, the premium is kept and the position can be repeated."
+    },
+    {
+      "key": "leaps",
+      "term": "LEAPS",
+      "definition": "Long-Term Equity AnticiPation Securities — exchange-listed options contracts with expiration dates more than nine months (and up to three years) in the future. Because they carry far more time value than standard monthly options, they are used as lower-capital proxies for stock ownership or as long-horizon hedges. The handle @LEAPTRADER_ signals a focus on this longer-dated end of the options market."
+    },
+    {
+      "key": "theta",
+      "term": "theta",
+      "definition": "The Greek letter used to measure an option's daily time-value decay — the dollar amount an option loses each day simply from the passage of time, all else equal. Option sellers are 'long theta,' meaning time decay works in their favour: as expiry approaches, the premium they collected erodes toward zero, generating profit if the underlying stays within the profitable range."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "title": "The Wheel: Options Strategy Guide — Predicting Alpha",
+      "url": "https://www.predictingalpha.com/wheel/"
+    },
+    {
+      "title": "The Wheel Strategy: 2025 Update With New Examples — Options Trading IQ",
+      "url": "https://optionstradingiq.com/the-wheel-strategy/"
+    },
+    {
+      "title": "Wheel Strategy: Complete Options Income Guide [2026] — QuantWheel",
+      "url": "https://quantwheel.com/learn/wheel-strategy/"
+    },
+    {
+      "title": "How Are Options Taxed? — Charles Schwab",
+      "url": "https://www.schwab.com/learn/story/how-are-options-taxed"
+    },
+    {
+      "title": "LEAPS (finance) — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/LEAPS_(finance)"
+    },
+    {
+      "title": "Cash-Secured Put — Tastytrade Support",
+      "url": "https://support.tastytrade.com/support/s/solutions/articles/43000435285"
+    },
+    {
+      "title": "Covered Call Options Strategy — Tastytrade",
+      "url": "https://tastytrade.com/learn/trading-products/options/covered-call/"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

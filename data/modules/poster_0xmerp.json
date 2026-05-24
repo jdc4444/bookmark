@@ -1,0 +1,22 @@
+{
+  "key": "0xMerp",
+  "display_name": "merp",
+  "blurb": null,
+  "credibility_note": null,
+  "links": [
+    "https://x.com/0xMerp"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/0xMerp",
+      "title": "merp (@0xMerp) / Posts / X"
+    },
+    {
+      "url": "https://x.com/0xMerp/status/2048041109616721927",
+      "title": "merp (@0xMerp) on X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-15T08:22:50.442767Z",
+  "backend": "claude-sonnet-subagent"
+}

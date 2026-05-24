@@ -1,0 +1,43 @@
+{
+  "headline": "AI Character Swaps Signal a Cost Collapse in Film Production",
+  "lede": "A short demo clip made by digital artist @ederxavier3d using **Kling Motion Control** has sharpened an argument that Hollywood's production economics are about to break. It shows a character in existing video footage replaced by another — seamlessly, with the underlying motion intact. The implication is not speculative: the baseline price of recasting a role in post-production is collapsing.",
+  "body": "Traditional film production treats an actor's face as load-bearing infrastructure. Reshooting scenes after a cast change, or replacing a performer with a stunt double after the fact, requires compositing artists, greenscreen setups, and weeks of VFX work. The result is that casting decisions, once locked, are expensive to reverse — a constraint that shapes everything from contract negotiations to the survival of troubled productions.\n\nKling is a video generation model developed by Kuaishou, the Chinese short-video platform. Its *Motion Control* feature allows users to guide how subjects and cameras move within generated or modified footage, following a reference rather than inventing motion randomly. The demo repurposes this to transplant a character into a clip while preserving the posture, gait, and physics of the original scene — the scaffold stays; only the body changes.\n\nThe 'negligible cost' framing is directionally accurate but elides real limitations. Today's video AI still struggles with temporal coherence across longer takes: faces drift, clothing clips, and fine detail degrades after a few seconds. Professional-grade work requires correction passes that currently demand skilled artists. What the demo genuinely shows is the direction of travel — a task once requiring a VFX house can now be prototyped in minutes by a single person with a consumer tool.\n\nThe Hollywood implications extend well beyond recasting. Studios have long pursued *digital doubles* — synthetic likenesses of actors usable without the performer's physical presence — but the cost historically confined the practice to blockbuster budgets. Tools like Kling compress that work toward a rounding error. This is also where the legal terrain grows treacherous: SAG-AFTRA's 2023 strike extracted explicit protections against studios replicating performers' likenesses without consent. The technology is now moving faster than those agreements anticipated.",
+  "tickers": [],
+  "poster": "venturetwins",
+  "concepts": [
+    {
+      "key": "motion-control-video-ai",
+      "term": "Motion Control (video AI)",
+      "definition": "A feature in AI video generation tools that lets users specify or preserve how subjects and cameras move within a generated or modified clip. Rather than inventing motion randomly, the model follows a reference — a skeleton, a trajectory, or an existing video — allowing predictable, choreographed output."
+    },
+    {
+      "key": "digital-double",
+      "term": "Digital double",
+      "definition": "A photorealistic CG replica of a real performer, built to appear in scenes the actor did not physically shoot. Until recently, creating a convincing digital double required months of scanning, rigging, and animation work costing millions of dollars, limiting their use to major studio productions."
+    },
+    {
+      "key": "production-pipeline",
+      "term": "Production pipeline",
+      "definition": "The industrial workflow by which a film or television project moves from raw footage through editing, visual effects, color grading, and sound to final delivery. AI tools are simultaneously compressing or bypassing multiple stages of this pipeline."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim of 'negligible cost' is overstated for professional, long-form use. Current AI video models — including Kling — exhibit temporal inconsistency over longer takes: faces shift, textures flicker, and fine detail degrades within seconds. Fully replacing a performer across a feature film remains far more expensive and labor-intensive than the demo implies. The directional argument holds; the cost framing does not yet apply at production scale.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.24vids.com/shorts/were-not-prepared-for-how-quickly-production-pipelines-are-going-to-change-p-tw-2011285029541077033",
+      "title": "We're not prepared for how quickly production pipelines are going to change with AI",
+      "note": "Mirror of the original tweet confirming Kling Motion Control attribution and ederxavier3d credit"
+    },
+    {
+      "url": "https://hbr.org/2022/11/how-generative-ai-is-changing-creative-work",
+      "title": "How Generative AI Is Changing Creative Work — Harvard Business Review",
+      "note": "Background on generative AI's broader impact on creative industries"
+    }
+  ],
+  "bookmark_id": "2011285029541077033",
+  "generated_at": "2026-05-06T20:17:57.082961Z",
+  "backend": "claude"
+}

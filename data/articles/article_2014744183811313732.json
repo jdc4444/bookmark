@@ -1,0 +1,124 @@
+{
+  "headline": "The Learning Science Schools Have Ignored for a Century",
+  "lede": "The gap between what scientists know about learning and what classrooms actually do is one of education's persistent embarrassments. A handful of techniques — backed by more than a century of replicated research — reliably outperform the methods most schools still use. Educator and adaptive-learning engineer Justin Skycak argues in this thread that the failure of adoption is structural, not informational: every incentive in the system rewards the wrong experiment.",
+  "body": "The strongest evidence clusters around three techniques. **Spaced repetition** — reviewing material at widening intervals rather than in concentrated bursts — exploits the biology of memory consolidation; synaptic pathways strengthen more durably when revisited after a delay than when hammered repeatedly in a single session. **Retrieval practice** (the *testing effect*) holds that actively recalling information far outperforms passively rereading it: a landmark 2006 paper by Roediger and Karpicke found that a single free-recall session beat repeated study on tests taken one week later, even though students predicted the opposite. *Interleaving* — mixing problem types rather than drilling one category until fluent — produces gains on transfer tasks that blocked practice cannot match; a 2008 study by Kornell and Bjork showed participants who studied paintings in interleaved sequences identified novel works by the same artists 63% of the time, against 20% for those who studied in massed blocks.\n\nThe reason these strategies go unused is partly cognitive illusion, partly logistics. Effective learning feels harder in the moment — a property Robert Bjork labelled *desirable difficulties*. When students reread a chapter, the text flows smoothly; that sense of fluency is mistaken for the acquisition of knowledge. Retrieval is uncomfortable, and produces a persistent feeling of struggle even when it is working. In the Kornell and Bjork study, participants rated the massed approach as more effective even after their own test scores had disproved the belief. Schools and edtech companies face the same perverse incentive: the methods that maximise short-term satisfaction are not the ones that maximise long-term retention.\n\nThe neuroscience grounding is not merely decorative. *Working memory* — the brain's scratchpad — holds roughly four chunks of information for about twenty seconds before they decay or are displaced. All new learning must transit through this bottleneck on its way to long-term storage, which means cognitive overload does not merely slow acquisition but blocks it entirely. At the cellular level, *long-term potentiation* (LTP) — the persistent strengthening of synaptic connections following repeated co-activation — is the primary molecular substrate of memory. Late-phase LTP requires de novo protein synthesis, a biological process that takes hours to stabilise; this is the mechanistic reason why massed cramming, however intense, produces flimsier memories than distributed review.\n\nThe second obstacle is administrative rather than psychological. Truly personalised spaced repetition for thirty students — each at a different point in the forgetting curve for each topic, with heterogeneous prerequisite gaps — is computationally intractable for any human teacher. Skycak, who built the adaptive learning engine at Math Academy and spent years applying these strategies at scale, is candid: the required bookkeeping is inhuman without software. Most edtech products nominally claim to implement evidence-based techniques but dilute them, lowering difficulty thresholds to preserve engagement scores rather than forcing the effortful retrieval that consolidates knowledge.\n\nThe synthesis Skycak offers is not novel in its components. John Dunlosky's 2013 meta-analysis in *Psychological Science in the Public Interest* rated practice testing and distributed practice as the only techniques with high utility across all studies surveyed, and that paper has been widely cited for over a decade. What the thread adds is a mechanistic frame and a structural diagnosis: these strategies are avoided not because educators are uninformed but because every incentive in the system — student comfort, teacher workload, edtech retention metrics — rewards the wrong experiment.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Math Academy",
+      "ticker": null
+    }
+  ],
+  "poster": "justinskycak",
+  "concepts": [
+    {
+      "key": "spaced-repetition",
+      "term": "Spaced Repetition",
+      "definition": "A study technique in which material is reviewed at increasing time intervals rather than in a single concentrated session. The intervals are calibrated so that each review occurs just as the memory begins to fade, producing stronger long-term consolidation than massed practice."
+    },
+    {
+      "key": "testing-effect",
+      "term": "Testing Effect (Retrieval Practice)",
+      "definition": "The well-replicated finding that actively retrieving information from memory — answering practice questions, writing free recalls — produces significantly better long-term retention than passively rereading the same material. The effort of retrieval appears to strengthen the neural pathway, not merely confirm it."
+    },
+    {
+      "key": "interleaving",
+      "term": "Interleaving",
+      "definition": "A practice schedule in which different problem types or subjects are mixed together rather than blocked (completing all problems of one type before moving to the next). Interleaving forces the learner to identify which strategy applies to which problem, producing better transfer and discrimination on later tests."
+    },
+    {
+      "key": "desirable-difficulties",
+      "term": "Desirable Difficulties",
+      "definition": "A concept developed by psychologist Robert Bjork describing learning conditions that slow initial acquisition but enhance long-term retention and transfer. Spacing, interleaving, and retrieval practice are all desirable difficulties: they feel harder and produce worse immediate performance while generating superior lasting outcomes."
+    },
+    {
+      "key": "working-memory",
+      "term": "Working Memory",
+      "definition": "The brain's short-term cognitive workspace, which holds roughly four chunks of information for approximately twenty seconds. It acts as a bottleneck between sensory input and long-term storage; if demand exceeds capacity, encoding into long-term memory is disrupted or blocked entirely."
+    },
+    {
+      "key": "long-term-potentiation",
+      "term": "Long-Term Potentiation (LTP)",
+      "definition": "A persistent strengthening of synaptic transmission between neurons, triggered by repeated simultaneous activation. LTP is the primary cellular mechanism underlying learning and memory; late-phase LTP requires protein synthesis and takes hours to stabilise, which is why spaced practice produces more durable memories than massed cramming."
+    },
+    {
+      "key": "blocked-practice",
+      "term": "Blocked Practice",
+      "definition": "A practice schedule in which a learner completes all repetitions of one skill or problem type before moving on to the next. It tends to feel productive and produces fast short-term gains, but research consistently shows it leads to poorer long-term retention and transfer compared to interleaved practice."
+    },
+    {
+      "key": "cognitive-load",
+      "term": "Cognitive Load",
+      "definition": "The total demand placed on working memory by a task. When cognitive load exceeds working memory capacity, the learner cannot process new information effectively, blocking consolidation into long-term storage."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.justinmath.com/which-cognitive-psychology-findings-are-solid-that-can-be-used-to-help-students-learn-better/",
+      "title": "Which Cognitive Psychology Findings Are Solid, That Can Be Used to Help Students Learn Better? — justinmath.com",
+      "note": "Skycak's companion long-form essay; the written version of the argument made in the tweet thread"
+    },
+    {
+      "url": "https://www.justinmath.com/leveraging-cognitive-learning-strategies-requires-technology/",
+      "title": "Leveraging Cognitive Learning Strategies Requires Technology — justinmath.com",
+      "note": "Skycak on why personalised spaced repetition is computationally intractable without software"
+    },
+    {
+      "url": "https://www.justinmath.com/bio/",
+      "title": "Justin Skycak — Bio",
+      "note": "Author biography; background at Math Academy and prior computational neuroscience work at LANL"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46744328",
+      "title": "The Physics of Learning (And Why Almost No One Uses It) — Hacker News",
+      "note": "HN thread linking to the original post; corroborates reach and community discussion"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/1529100612453266",
+      "title": "Improving Students' Learning With Effective Learning Techniques — Dunlosky et al. (2013)",
+      "note": "Canonical meta-analysis rating 10 learning techniques; practice testing and distributed practice rated high utility"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.2006.01693.x",
+      "title": "Test-Enhanced Learning — Roediger & Karpicke (2006)",
+      "note": "Landmark retrieval-practice study showing free recall outperforms repeated study on delayed tests despite opposite student predictions"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+      "title": "Distributed Practice in Verbal Recall Tasks — Cepeda et al. (2006)",
+      "note": "Meta-analysis of 317 spacing experiments; established that optimal inter-study intervals scale with retention interval"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-9280.2008.02127.x",
+      "title": "Learning Concepts and Categories — Kornell & Bjork (2008)",
+      "note": "Interleaving study yielding 63% vs 20% identification accuracy; documents the metacognitive illusion favouring massed practice"
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/science.1199327",
+      "title": "Retrieval Practice Produces More Learning than Elaborative Studying — Karpicke & Blunt (2011)",
+      "note": "Published in Science; free recall outperformed concept mapping on both immediate and delayed tests"
+    },
+    {
+      "url": "https://bjorklab.psych.ucla.edu/research/",
+      "title": "Bjork Memory & Forgetting Lab — UCLA",
+      "note": "Primary source for the desirable difficulties framework"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK3912/",
+      "title": "Long-Term Potentiation — NCBI Bookshelf",
+      "note": "Authoritative neuroscience reference on LTP as the cellular substrate of memory consolidation"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4492928/",
+      "title": "Ebbinghaus Forgetting Curve Replication — PMC",
+      "note": "Modern replication confirming Ebbinghaus's original 1885 findings on distributed practice and forgetting"
+    }
+  ],
+  "bookmark_id": "2014744183811313732",
+  "generated_at": "2026-05-07T12:44:40.593580Z",
+  "backend": "claude-sonnet-subagent"
+}

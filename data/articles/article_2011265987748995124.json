@@ -1,0 +1,67 @@
+{
+  "headline": "Scott Adams Leaves a Farewell Letter on Meaning, Books, and Belief",
+  "lede": "Scott Adams, creator of the *Dilbert* comic strip and self-described expert in persuasion, died sometime in early 2026. He had prepared a posthumous letter, dated January 1st, 2026, addressed to his audience. A reader credits Adams with one lasting practical gift: an introduction to hypnosis.",
+  "body": "The letter is a tidy summary of how Adams understood his own second act. After *Dilbert* made him a household name, he reoriented around a different ambition — writing books he hoped would be useful rather than merely entertaining. **How to Fail at Almost Everything and Still Win Big**, his first in that mode, became a genuine bestseller and spawned many imitators. *Win Bigly* followed, framing political persuasion as a learnable craft. *Loserthink* targeted reasoning errors on social media, and *Reframe Your Brain* offered techniques for reprogramming one's own mental habits. He called the last one a form of practical self-programming.\n\nThe hypnosis thread runs quietly through all of this. Adams described himself as a trained hypnotist, and the idea that language could rewire thought was central to his public persona. In mid-2024, he attracted fresh attention by claiming he had trained ChatGPT in what he called *waking hypnosis* — a technique that, unlike classical trance induction, uses directed language to shift mood and behavior in an alert subject. He described the self-administered result as more intense than psychedelics, refused to share the specific prompts, and called the capability \"weapons-grade persuasion.\" Several certified hypnotherapists who experimented alongside him noted more modest but genuinely interesting results from AI-generated hypnotic scripts.\n\nWhether ChatGPT can truly perform hypnosis is an open question the research does not settle. Adams' claims rested on his own reported experience and anecdotal corroboration; no peer-reviewed study of the method he described appears to exist. What is documented is that the framing — AI as persuasion tool — pulled many readers, including the poster here, into a serious investigation of hypnotherapy and self-hypnosis, fields with a legitimate evidence base for applications like pain management and sleep.\n\nThe letter closes on a note that echoes his books: \"Be useful.\" Adams had a gift for compressing his philosophy into slogans, and this one is consistent with everything from his career pivot after *Dilbert* to his podcast *Coffee With Scott Adams*, which he describes as an accidental community for lonely people. Whether one found him insightful or grating, the machinery he built around persuasion, mindset, and self-improvement clearly left durable marks on a certain stripe of reader.",
+  "tickers": [],
+  "poster": "brianluidog",
+  "concepts": [
+    {
+      "key": "waking-hypnosis",
+      "term": "Waking hypnosis",
+      "definition": "A mode of influence that does not require inducing a trance. Instead, it uses carefully chosen language — pacing, reframing, embedded suggestions — to shift a subject's mood or beliefs while they remain fully alert. Adams treated it as a subset of persuasion technique rather than a clinical intervention."
+    },
+    {
+      "key": "self-hypnosis",
+      "term": "Self-hypnosis",
+      "definition": "A practice in which an individual guides themselves into a state of heightened mental focus or suggestibility, typically using scripted language, visualization, or breathing. Scientific literature supports its use for sleep quality, pain management, and anxiety reduction, though the mechanisms remain debated."
+    },
+    {
+      "key": "reframing",
+      "term": "Cognitive reframing",
+      "definition": "A technique, common to both cognitive-behavioral therapy and persuasion practice, that involves consciously restating or reconceptualizing a situation to shift one's emotional or behavioral response to it. Adams built his final book around a popularized version of this idea."
+    }
+  ],
+  "books": [
+    {
+      "key": "how-to-fail",
+      "title": "How to Fail at Almost Everything and Still Win Big",
+      "author": "Scott Adams",
+      "summary": "Adams argues that systems beat goals — that building reliable personal processes matters more than chasing specific outcomes. The book draws on his own career setbacks and reframes failure as data. It became one of the more widely read entries in the practical self-improvement genre of the 2010s."
+    },
+    {
+      "key": "win-bigly",
+      "title": "Win Bigly: Persuasion in a World Where Facts Don't Matter",
+      "author": "Scott Adams",
+      "summary": "Written in the aftermath of the 2016 U.S. election, the book argues that persuasion — emotional, visual, and linguistic — drives political outcomes more reliably than factual argument. Adams frames persuasion as a trainable skill and uses his own predictions about the election as a case study."
+    },
+    {
+      "key": "reframe-your-brain",
+      "title": "Reframe Your Brain: The User Interface for Happiness and Success",
+      "author": "Scott Adams",
+      "summary": "Adams' most explicitly psychological book, offering a toolkit for reprogramming habitual thought patterns. Drawing on his background in hypnosis and persuasion, he presents reframing as a practical method for improving mood, productivity, and decision-making through deliberate linguistic substitution."
+    }
+  ],
+  "repos": [],
+  "fact_check": "Adams' claim that ChatGPT can induce hypnotic states 'beyond psychedelics' is his own anecdotal report, not a finding supported by published research. The research sources note that certified hypnotherapists found AI-generated hypnotic scripts produced 'fairly impressive results,' but this falls well short of validating Adams' more dramatic characterizations. The letter's claims about the impact of his books are similarly self-reported and unverifiable.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://gizmodo.com/dilbert-creator-claims-he-taught-chatgpt-dangerous-hypnosis-techniques-2000473575",
+      "title": "Dilbert Creator Claims He Taught ChatGPT 'Dangerous' Hypnosis Techniques",
+      "note": "Primary reporting on Adams' July 2024 ChatGPT hypnosis claims, including quotes and context"
+    },
+    {
+      "url": "https://fusionchat.ai/news/the-fusion-of-ai-and-hypnosis-scott-adams-hypnotic-journey-with-chatgpt",
+      "title": "The Fusion of AI and Hypnosis: Scott Adams' Hypnotic Journey with ChatGPT",
+      "note": "Additional detail on waking hypnosis technique and expert hypnotherapist responses"
+    },
+    {
+      "url": "https://www.hkdca.com/dilberts-creator-scott-adams-claims-chatgpt-can-perform-hypnosis/",
+      "title": "Dilbert's Creator Scott Adams Claims ChatGPT Can Perform Hypnosis",
+      "note": "Corroborating source on Adams' claims and Van Landingham's independent experiments"
+    }
+  ],
+  "bookmark_id": "2011265987748995124",
+  "generated_at": "2026-05-06T20:18:22.326532Z",
+  "backend": "claude"
+}

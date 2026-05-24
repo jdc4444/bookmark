@@ -1,0 +1,28 @@
+{
+  "key": "CIEN",
+  "name": "Ciena Corporation",
+  "exchange": "NYSE",
+  "blurb": "Ciena Corporation is a networking systems, services, and software company specializing in optical transport, packet networking, and broadband access. It provides solutions for communications service providers, cloud providers, and enterprises to build high-capacity networks. Ciena is a leading player in optical networking, benefiting from AI-driven cloud demand for its WaveLogic coherent optics.",
+  "recent": "In recent weeks, Ciena's stock rose 5.7% after reporting surging demand from cloud providers for AI-focused optical networking products and a large AI-related order backlog. However, insider share sales of about US$23.6 million and valuation concerns have tempered investor enthusiasm.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CIEN/",
+      "title": "Ciena Corporation (CIEN) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://simplywall.st/stocks/us/tech/nyse-cien/ciena/news/why-ciena-cien-is-up-57-after-ai-fueled-cloud-demand-sparks",
+      "title": "Why Ciena (CIEN) Is Up 5.7% After AI-Fueled Cloud Demand Sparks Valuation And Insider Scrutiny - Simply Wall St News"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/cien",
+      "title": "CIEN Stock Price | Ciena Corp. Stock Quote (U.S.: NYSE) | MarketWatch"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/CIEN/news/",
+      "title": "CIEN News Today | Why did Ciena stock drop today? - MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:28:23.014367Z",
+  "backend": "deepseek"
+}

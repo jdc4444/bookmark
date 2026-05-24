@@ -1,0 +1,116 @@
+{
+  "headline": "A Supply-Chain Map for Trading Short AGI Timelines",
+  "lede": "The interesting investment question for believers in short AGI timelines isn't which software model wins but which physical chokepoints all AI computation depends on. @_Lonis_, a retail investor, spent a weekend mapping the AI hardware stack fifteen layers deep — from lithium mines and rare-earth deposits through silicon wafers and advanced packaging substrates — color-coding each company by how much of its revenue already flows from AI demand. The chart is personal reference, not investment advice, but its analytical framework is the same one institutional analysts use: who is indispensable, and has the market noticed yet?",
+  "body": "The premise rests on a bet about *AGI timelines* — shorthand for predictions of when AI systems will achieve general human-level capability across essentially any cognitive task. If that threshold arrives within years rather than decades, the argument goes, capital advantages flow not to whoever picks the right *foundation model* but to whoever controls the physical infrastructure that all AI training and inference must pass through. The chart identifies, at each rung of that stack, which companies cannot easily be routed around.\n\nThe outermost layer is raw materials: **platinum-group metals** (*PGMs*), rare earths, lithium, copper, and nickel — feedstocks for magnets, battery chemistry, and conductors used throughout the chain. Companies flagged include Sibanye-Stillwater (SBSW), the South African miner with roughly a fifth of global PGM output; MP Materials (MP), operator of the only large-scale US rare-earth mine at Mountain Pass, California; Albemarle (ALB), one of the world's largest lithium chemicals producers; Freeport-McMoRan (FCX), the largest publicly traded copper miner; and Sumitomo Metal Mining (5713.T) for nickel. Estimated AI revenue exposure for all five sits in the single digits — these are broad commodity businesses whose prices are set by global demand across many industries, not by GPU build-outs alone.\n\nOne layer up, the picture concentrates. **Silicon wafers** — the purified discs on which chip circuitry is etched — are produced by a tight oligopoly: Shin-Etsu Chemical (4063.T), a Japanese conglomerate estimated to hold roughly a third of global *300mm wafer* capacity; SUMCO (3436.T), its domestic rival at around a quarter; and Germany's Siltronic (WAF.DE) at roughly 12%. More striking is the *ABF substrate* segment. *Ajinomoto Build-up Film* (ABF) is a laminate layer critical to advanced chip packaging — it connects a processor die to its circuit board at densities older materials cannot match. Ibiden (4062.T) and Unimicron (3037.TW) together command a dominant share of this market, and the chart estimates their AI revenue exposure at 30–40%, making these among the earliest genuinely AI-heavy names in the upstream portion of the stack.\n\nThe visualization encodes two variables simultaneously: box width represents a company's market share within its layer, and color encodes the share of revenue attributed to AI demand, breaking at under-15%, 15–30%, and above 30%. A wide, deeply saturated box signals a bottleneck that already knows it is one — potential pricing power in both directions. The creator is evidently most interested in the upper two color bands, where AI demand is material but perhaps not yet so visible that equity markets have priced it fully.\n\nThe OCR captures only the first three of fifteen layers; the remaining twelve presumably pass through lithography and fab equipment — where ASML (ASML) holds a near-monopoly on *extreme ultraviolet (EUV)* lithography machines, the tools that print the finest circuit features on leading-edge chips — then through chip fabrication, memory, advanced packaging, and data-center infrastructure. Those deeper layers contain the AI names most widely followed by equity markets. The upstream focus here reflects a contrarian logic: the closer a company sits to the earth, the less likely analysts have already assigned it an AI premium.",
+  "tickers": [
+    "SBSW",
+    "MP",
+    "ALB",
+    "FCX",
+    "5713.T",
+    "4063.T",
+    "3436.T",
+    "WAF.DE",
+    "4062.T",
+    "3037.TW",
+    "ASML"
+  ],
+  "companies": [
+    {
+      "name": "Sibanye-Stillwater",
+      "ticker": "SBSW"
+    },
+    {
+      "name": "MP Materials",
+      "ticker": "MP"
+    },
+    {
+      "name": "Albemarle",
+      "ticker": "ALB"
+    },
+    {
+      "name": "Freeport-McMoRan",
+      "ticker": "FCX"
+    },
+    {
+      "name": "Sumitomo Metal Mining",
+      "ticker": "5713.T"
+    },
+    {
+      "name": "Shin-Etsu Chemical",
+      "ticker": "4063.T"
+    },
+    {
+      "name": "SUMCO",
+      "ticker": "3436.T"
+    },
+    {
+      "name": "Siltronic",
+      "ticker": "WAF.DE"
+    },
+    {
+      "name": "Ibiden",
+      "ticker": "4062.T"
+    },
+    {
+      "name": "Unimicron",
+      "ticker": "3037.TW"
+    },
+    {
+      "name": "ASML",
+      "ticker": "ASML"
+    }
+  ],
+  "poster": "_Lonis_",
+  "concepts": [
+    {
+      "key": "agi-timelines",
+      "term": "AGI Timelines",
+      "definition": "Predictions — ranging from a few years to many decades — about when artificial general intelligence will arrive. AGI refers to AI systems capable of matching or exceeding human cognitive performance across essentially any task, not just the narrow domains where today's models excel. Timeline beliefs drive significant investment, research, and strategic decisions across the technology industry."
+    },
+    {
+      "key": "foundation-model",
+      "term": "Foundation Model",
+      "definition": "A large AI model trained on broad data at scale and then adapted for many specific tasks — examples include the GPT family, Claude, and Gemini. The term highlights that these models function as a base layer on which many downstream applications are built, analogous to an operating system underlying software."
+    },
+    {
+      "key": "pgm",
+      "term": "Platinum-Group Metals (PGM)",
+      "definition": "Six chemically related metallic elements — platinum, palladium, rhodium, ruthenium, iridium, and osmium — found together in ore deposits and mined primarily in South Africa and Russia. They are used in catalytic converters, industrial catalysts, and electronic components. PGM prices are notoriously volatile, driven by automotive and industrial demand."
+    },
+    {
+      "key": "silicon-wafer",
+      "term": "Silicon Wafer",
+      "definition": "A thin, flat disc of highly purified silicon crystal — typically 300mm in diameter for advanced manufacturing — on which transistors and circuit components are fabricated. Wafer quality and diameter constrain what circuit geometries are achievable; a small handful of companies produce essentially all of the world's advanced supply."
+    },
+    {
+      "key": "300mm-wafer",
+      "term": "300mm Wafer",
+      "definition": "The dominant size standard for leading-edge semiconductor manufacturing, where 300mm (roughly 12-inch) silicon discs yield more chips per wafer than older 200mm substrates, reducing per-chip cost. Converting a fabrication plant to 300mm requires billions in capital investment, creating high barriers to entry and concentrating supply among few producers."
+    },
+    {
+      "key": "abf-substrate",
+      "term": "ABF Substrate",
+      "definition": "Ajinomoto Build-up Film (ABF) substrate is an advanced organic packaging layer that electrically connects a processor die to its circuit board, enabling higher interconnect density and signal integrity than older ceramic or basic organic packages allow. It was first developed by food company Ajinomoto as a byproduct of amino-acid research and is now critical to high-performance chip packaging. Supply is highly concentrated in Japan and Taiwan."
+    },
+    {
+      "key": "euv-lithography",
+      "term": "EUV Lithography",
+      "definition": "Extreme ultraviolet (EUV) lithography uses 13.5-nanometer wavelength light to print chip features far smaller than older deep-ultraviolet processes allow, enabling the most advanced semiconductor nodes (currently 3nm and below). ASML is the only company in the world that manufactures EUV machines, giving it a structural monopoly on the equipment needed for leading-edge chip production."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The market-share and AI-revenue figures in the visualization are the creator's own estimates; no primary sources or methodology are cited, so all percentages should be treated as informed approximations rather than audited data. The OCR label 'Sumitomo Metal' in the raw-materials layer is ambiguous: the former Sumitomo Metal Industries merged into Nippon Steel in 2012 and is no longer an independent entity; the nickel-producing company is Sumitomo Metal Mining (5713.T), a separately listed firm, which is almost certainly what the visualization intends. The broad structural claims — ASML's EUV dominance, Shin-Etsu's wafer leadership — are consistent with publicly available industry data.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/_Lonis_/status/2051001389284049111",
+      "title": "Original tweet and supply-chain visualization by @_Lonis_",
+      "note": "Primary source; all company names, market-share estimates, and layer structure are taken directly from the embedded image and tweet text"
+    }
+  ],
+  "bookmark_id": "2051001389284049111",
+  "generated_at": "2026-05-07T04:22:22.800832Z",
+  "backend": "claude"
+}

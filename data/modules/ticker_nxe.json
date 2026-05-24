@@ -1,0 +1,28 @@
+{
+  "key": "NXE",
+  "name": "NexGen Energy Ltd.",
+  "exchange": "NYSE",
+  "blurb": "NexGen Energy Ltd. is a Canadian uranium exploration and development company focused on its flagship Rook I Project in the Athabasca Basin of Saskatchewan, Canada, which hosts the Arrow deposit — one of the largest and highest-grade uranium discoveries in the world. The company is advancing Arrow toward production as a potential low-cost, large-scale uranium mine designed to supply nuclear fuel for clean energy generation. NexGen is also listed on the Toronto Stock Exchange (TSX) under the same ticker and is considered a leading pure-play uranium development name globally.",
+  "recent": "NexGen's stock hit a 52-week high of $13.96 on January 28, 2026, reflecting strong investor interest in uranium amid growing nuclear energy demand. As of mid-May 2026, shares trade around $12.18–$12.19, near the upper end of their 52-week range of $5.29–$13.96. CNBC noted in March 2026 that options strategies targeting nuclear energy stocks including NXE gained attention in the context of a broader shift toward nuclear power driven by geopolitical developments in the Middle East.",
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/quotes/NXE",
+      "title": "NXE: Nexgen Energy Ltd - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/NXE/",
+      "title": "NexGen Energy (NXE) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/nxe",
+      "title": "NXE Stock Price | NexGen Energy Ltd. Stock Quote - MarketWatch"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/NXE/news/",
+      "title": "NexGen Energy Ltd. (NXE) Latest Stock News & Headlines - Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:00:24.365348Z",
+  "backend": "claude-sonnet-subagent"
+}

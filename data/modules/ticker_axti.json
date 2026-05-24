@@ -1,0 +1,28 @@
+{
+  "key": "AXTI",
+  "name": "AXT, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "AXT, Inc. designs, develops, manufactures, and distributes compound and single-element semiconductor substrates used across a wide range of high-growth applications. Its core product is indium phosphide (InP), which is critical for data center optical interconnects, silicon photonics, photonic integrated circuits, 5G communications, fiber optic lasers and detectors, and lidar systems for robotics and autonomous vehicles. Founded in 1986 and publicly listed since May 1998, AXT employs approximately 1,541 people and sits within the Semiconductor Equipment & Materials segment of the technology sector. The company is positioned as a key upstream supplier in the AI-driven buildout of high-speed optical data infrastructure.",
+  "recent": "AXT reported stellar Q1 2026 earnings on April 30, 2026, triggering a surge to an all-time high of $134.00 — an extraordinary move given its 52-week low of $1.38, representing roughly a 100x run in under a year. The stock pulled back roughly 12–13% in the days following the high before rebounding ~21% in the subsequent week, with shares around $121–122 as of May 13, 2026. Despite a market cap now exceeding $7.5B on trailing revenue of only ~$95.9M and a negative net income of ~$14.3M, the market is pricing in aggressive future growth, reflected in a forward P/E near 265; consensus analyst price targets (~$57) lag far behind current trading levels.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/axti/",
+      "title": "AXT, Inc. (AXTI) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://stocktwits.com/symbol/AXTI/news",
+      "title": "AXT Inc (AXTI) News, Articles, Events & Latest Updates — Stocktwits"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/AXTI/news/",
+      "title": "AXTI News Today — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/AXTI/news/",
+      "title": "AXT, Inc. (AXTI) Latest Stock News & Headlines — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:29:39.148789Z",
+  "backend": "claude-sonnet-subagent"
+}

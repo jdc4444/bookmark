@@ -1,0 +1,13 @@
+{
+  "key": "8035.T",
+  "name": "Tokyo Electron Limited",
+  "exchange": "TSE (Tokyo Stock Exchange)",
+  "blurb": "Tokyo Electron (TEL) is Japan's largest semiconductor equipment company and the world's third-largest overall, behind Applied Materials and Lam Research. TEL specialises in thermal processing, deposition (CVD/ALD), coater/developer systems, and plasma etch tools. Its coater/developer systems hold a near-monopoly position in the photolithography track — the equipment that applies and develops photoresist before and after EUV or DUV exposure. Every wafer made at TSMC, Samsung, or Intel's leading-edge fabs uses TEL track systems. TEL is also a major supplier to Chinese fabs under applicable export-control constraints.",
+  "recent": "TEL has benefited from the sustained semiconductor equipment investment cycle. Forward P/E of ~30.9x on 17.8% EPS growth yields a PEG of 1.74 — somewhat premium to the equipment peer group. The company is navigating U.S. export-control restrictions on advanced tools shipped to China while managing strong demand from non-China advanced logic and memory customers. TEL's high exposure to the Japanese yen creates currency headwinds when the yen appreciates.",
+  "sources": [
+    {"url": "https://companiesmarketcap.com/semiconductors/semiconductor-companies-ranked-by-pe-ratio/", "title": "Semiconductor Companies Ranked by PE Ratio — CompaniesMarketCap"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

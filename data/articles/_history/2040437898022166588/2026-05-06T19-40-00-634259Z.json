@@ -1,0 +1,55 @@
+{
+  "headline": "A 1956 Radio Show as Blueprint for the Automation Age",
+  "lede": "Brian Roemmele, a tech historian and futurist known for surfacing obscure archival material, claims a forgotten 1956 radio program anticipated the economic and social dislocations now arriving with AI and robotics. The post is wrapped in his signature stylized-dossier framing — a \"Classified\" document headed \"Project 5000 Days\" — but the underlying argument is substantive: that mid-century thinkers mapped this territory more precisely than modern prophets. The show in question is referred to in the image as the atomic-age *HOW-2*.",
+  "body": "The 1950s were unusually fertile ground for automation anxiety. Norbert Wiener, the mathematician who founded *cybernetics* — the study of self-regulating systems in machines and animals — had already published *The Human Use of Human Beings* in 1950, warning that industrial automation would create unemployment on a scale that capitalism had no institutional answer for. Popular media followed: radio and early television regularly staged debates about what economists then called the \"automation problem,\" the question of what happens to wages and consumption when machines outperform human labor across whole sectors.\n\nRoemmele frames the show's relevance around four themes he calls its prophecies: **self-replicating abundance** (machines building machines, compounding output without proportional human input), legal battles over ownership and liability in a robot-mediated economy, tax shocks as the wage-based revenue base erodes, and what he characterizes as the civilizational choice between passive surrender and \"creative reclamation.\" These are recognizable fault lines in today's AI policy debate — the last theme maps directly onto arguments from writers like Erik Brynjolfsson about whether humans redirect toward non-automatable, creative work or cede economic ground entirely.\n\nThe dossier framing — \"Agency: Department of Transitional Intelligence,\" \"Prophetic Leak Confirmed,\" \"Seized Artifact 045\" — is Roemmele's editorial voice, not an actual government document. He routinely packages historical finds inside this theatrical apparatus. The substance, if the radio show is as described, is that mid-century broadcast culture was genuinely wrestling with the end of *wage labor* (the system in which most household income derives from selling time and physical or routine cognitive effort) as a dominant economic structure.\n\nThe \"5000 Days\" framing — roughly 2025 to 2039 — mirrors an influential 2022 essay by Kevin Kelly arguing that the next decade and a half would be as transformative as the entire internet era compressed. Roemmele adopts the label for his own thesis about an *interregnum*: a liminal period in which the old economic rules break down before stable new ones form. Whether 1956 radio offered a genuine blueprint or a loose analog worth retrofitting to current events is, on the evidence available here, impossible to assess — the specific *HOW-2* program and its host \"Gordon Knight\" could not be independently verified from the loaded research sources.",
+  "tickers": [],
+  "poster": "BrianRoemmele",
+  "concepts": [
+    {
+      "key": "cybernetics",
+      "term": "Cybernetics",
+      "definition": "A field founded by mathematician Norbert Wiener in the late 1940s studying self-regulating feedback systems in both machines and living organisms. Wiener famously warned that industrial automation would destroy the economic value of routine human labor at a scale democracies were unprepared to manage."
+    },
+    {
+      "key": "abundance-interregnum",
+      "term": "Abundance Interregnum",
+      "definition": "Roemmele's label for the transitional period (roughly 2025–2039) in which AI and robotics begin producing goods and services faster than wage-labor markets can adapt. The term borrows 'interregnum' — a gap between two stable orders — to suggest the old economic rules have broken down before new ones are established."
+    },
+    {
+      "key": "self-replicating-abundance",
+      "term": "Self-Replicating Abundance",
+      "definition": "The idea that sufficiently capable machines can build, maintain, and improve other machines, compounding productive output without proportional increases in human labor. In extreme projections, this collapses the cost of manufactured goods toward near-zero while eliminating the jobs that once created consumer purchasing power."
+    },
+    {
+      "key": "wage-labor",
+      "term": "Wage Labor",
+      "definition": "The dominant economic arrangement in industrial societies, in which most households earn income by selling their time and effort to employers. Automation theorists argue AI threatens this foundation because it can replicate cognitive and physical tasks at far lower marginal cost than human workers."
+    }
+  ],
+  "books": [
+    {
+      "key": "wiener-human-use",
+      "title": "The Human Use of Human Beings: Cybernetics and Society",
+      "author": "Norbert Wiener",
+      "summary": "Published in 1950, this is Wiener's accessible elaboration of cybernetics for a general audience. He argues that feedback-driven machines will displace industrial labor and warns that society must design institutions — shorter working weeks, retraining, new social contracts — to absorb the shock. Remarkably prescient given the current AI debate, it is one of the few 20th-century works that anticipated both the technical trajectory and the social disruption now unfolding."
+    }
+  ],
+  "repos": [],
+  "fact_check": "The specific radio program referred to as *HOW-2* and its host \"Gordon Knight\" could not be independently verified through the research sources provided, which failed to load. The dossier imagery is Roemmele's editorial design, not a genuine government document. Readers should treat the attribution as unverified pending a primary-source citation.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/BrianRoemmele/status/2040437898022166588",
+      "title": "BrianRoemmele — 1956 Radio Show Blueprint Tweet",
+      "note": "Primary bookmark; source page did not load due to JavaScript requirement"
+    },
+    {
+      "url": "https://www.radio.co/blog/the-future-of-ai-in-radio",
+      "title": "The Creative Engine: Is AI in Radio the Broadcaster's New Secret for Success?",
+      "note": "Background on 2026 World Radio Day theme 'AI is a tool, not a voice'; contextual only"
+    }
+  ],
+  "bookmark_id": "2040437898022166588",
+  "generated_at": "2026-05-06T19:40:00.634259Z",
+  "backend": "claude"
+}

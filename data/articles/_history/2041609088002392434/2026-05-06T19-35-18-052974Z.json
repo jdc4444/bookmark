@@ -1,0 +1,48 @@
+{
+  "headline": "Why Barrel Waves Break Every Standard Ocean Shader",
+  "lede": "A developer building a surfing entry for VibeJam — an AI-assisted game jam — hit a fundamental graphics limitation: the hollow, curling tube of a breaking wave cannot be rendered with conventional ocean-shader techniques. The tweet announces a multi-day solution, with a promised technical breakdown.",
+  "body": "Standard real-time ocean shaders — whether based on *Gerstner waves* or *FFT (Fast Fourier Transform)* summation — model the sea surface as a **height field**: a 2D grid in which every horizontal coordinate maps to exactly one vertical height. This works beautifully for open-ocean swells, chop, and spray. It fails completely for a barrel wave, because a barreling crest curls back over itself, creating a hollow tube where a single x/z position on the grid would need to hold two or more distinct heights simultaneously. A height field is, by definition, incapable of that.\n\nThe geometry of a *tube* (surfer's term for the rideable interior of a breaking wave) is an overhanging, near-cylindrical surface — topologically impossible to express in a height map. Real-time solutions typically fall into a few camps: pre-authored animated meshes shaped like a barrel that scroll along a spline path, procedural mesh deformation in vertex shaders that explicitly pushes geometry into a curl, or hybrid approaches that fake the translucent green wall with layered transparency and screen-space tricks while keeping only the outer envelope as real geometry.\n\nThe Unity community thread on realistic breaking waves confirms how long developers have wrestled with this: even simulation-oriented surfing games often resort to hand-crafted wave assets rather than fully procedural solutions, because plausible breaking-wave physics at playable frame rates remains an unsolved problem in the general case.\n\n*VibeJam* is an AI-assisted game development competition aimed at solo builders and small teams using tools such as Claude Code and similar agent-driven coding environments. The jam's ethos prizes shipping a playable build quickly, which makes the willingness to spend several days on a single shader problem notable — it signals that the wave visual is load-bearing for the game's feel, not a cosmetic detail.",
+  "tickers": [],
+  "poster": "sweriko",
+  "concepts": [
+    {
+      "key": "height-field-ocean",
+      "term": "height-field ocean shader",
+      "definition": "A rendering technique that represents the ocean surface as a 2D grid where each cell stores a single vertical displacement value. The approach is efficient and produces convincing open-water visuals but cannot model overhanging or re-entrant geometry such as a breaking wave's curl."
+    },
+    {
+      "key": "barrel-wave",
+      "term": "barrel wave (tube)",
+      "definition": "A breaking wave whose crest pitches forward and curls over its trough, forming a hollow cylindrical tunnel of water. Surfers call riding inside this tunnel 'getting tubed' or 'getting barreled.' The geometry is topologically incompatible with height-field rendering."
+    },
+    {
+      "key": "gerstner-waves",
+      "term": "Gerstner waves",
+      "definition": "A classical physics-based wave model in which water particles move in circular or elliptical orbits, producing the characteristic peaked crests and broad troughs of ocean swells. Widely used in game engines for open-ocean rendering; cannot produce overhanging geometry."
+    },
+    {
+      "key": "vibejam",
+      "term": "VibeJam",
+      "definition": "An AI-assisted game development competition oriented toward solo developers and small teams using agent-driven coding tools. The format emphasizes shipping a playable prototype quickly, often with AI handling substantial portions of the code."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": "The tweet opens a thread in which the developer promises a technical breakdown of their breaking-wave solution. The full breakdown content was not accessible in the research sources, so the specific implementation details cannot be confirmed.",
+  "sources": [
+    {
+      "url": "https://discussions.unity.com/t/realistic-breaking-wave/748291?page=8",
+      "title": "Realistic Breaking Wave — Unity Discussions",
+      "note": "Community thread documenting years of developer attempts to produce convincing breaking-wave geometry in real-time engines; confirms the known difficulty of the problem."
+    },
+    {
+      "url": "https://www.vibegamedev.com/vibejam",
+      "title": "Free Vibe Jam Starter Pack — VibeGameDev",
+      "note": "Describes VibeJam's format, toolchain preferences (Claude Code, Codex), and target audience of AI-first builders."
+    }
+  ],
+  "bookmark_id": "2041609088002392434",
+  "generated_at": "2026-05-06T19:35:18.052974Z",
+  "backend": "claude"
+}

@@ -1,0 +1,58 @@
+{
+  "headline": "No-Code Web Scraping Tools Promise Access, Deliver Caveats",
+  "lede": "A promotional tweet by @Parul_Gautam7 heralds no-code web scraping as a frictionless data harvest requiring no developers and producing no bans. The claim reflects a genuine shift in the scraping industry — but the fine print tells a more complicated story.",
+  "body": "The tweet promotes a category of tools — services like ScrapeOwl, ScraperAPI, and Scrapeless — that wrap web-scraping complexity inside cloud infrastructure. Instead of writing Python scripts and managing proxies, a user points the tool at a URL, selects the page elements they want, and receives structured data in return. For non-technical users seeking price comparisons, search-engine rankings, or social-media profiles, the pitch has genuine merit.\n\nThe engineering underneath is less magical. These services route requests through **residential proxies** — IP addresses leased from real consumer devices — which are far harder for target sites to flag as automated traffic. They also spin up headless Chrome instances to render JavaScript-heavy pages and incorporate *CAPTCHA*-solving services to clear bot-detection gates. The 'no bans' promise means, more precisely, 'we handle the ban-avoidance so you don't have to' — a useful service, but a different claim.\n\nThe '99% of the internet' figure is marketing copy, not a measured statistic. Sites deploying aggressive anti-bot defences — Cloudflare Turnstile, Akamai Bot Manager, custom browser fingerprinting — still defeat casual scraping attempts even through these services. Success rates depend heavily on the target site, request volume, and subscription tier.\n\nThe tweet sidesteps a cluster of legal questions that no technical tool resolves. Most major websites prohibit automated access in their terms of service. US courts have delivered inconsistent rulings on whether scraping violates the *Computer Fraud and Abuse Act*; the EU's *GDPR* adds friction wherever scraped data includes personal information. 'No bans' is a claim about IP-level blocking, not legal exposure.\n\nThe legitimate applications are real: competitive price monitoring, lead generation, academic research, market analysis. But 'BREAKING,' '99%,' and 'No bans' belong to a promotional genre that strips caveats from genuinely useful tools, leaving users to discover the complications on their own.",
+  "tickers": [],
+  "poster": "Parul_Gautam7",
+  "concepts": [
+    {
+      "key": "residential-proxies",
+      "term": "Residential proxies",
+      "definition": "IP addresses assigned to real consumer devices rather than data-center servers. Because they look like ordinary home-broadband traffic, websites are far less likely to flag or block them automatically — making them the primary tool scraping services use to avoid IP bans."
+    },
+    {
+      "key": "no-code-scraper",
+      "term": "No-code scraper",
+      "definition": "A web-based tool that extracts data from websites through a visual interface — typically a point-and-click element selector — without requiring the user to write any code. The underlying scraping logic, proxy management, and infrastructure are handled by the service provider."
+    },
+    {
+      "key": "captcha-bypass",
+      "term": "CAPTCHA bypass",
+      "definition": "Automated or semi-automated methods for completing bot-detection challenges — such as Google reCAPTCHA or Cloudflare Turnstile — that websites deploy to distinguish human visitors from scripts. Commercial services typically combine machine-learning solvers with human workers for difficult cases."
+    },
+    {
+      "key": "cfaa",
+      "term": "Computer Fraud and Abuse Act (CFAA)",
+      "definition": "A US federal law originally aimed at hacking that has been invoked in several web-scraping lawsuits. Courts have disagreed on whether accessing publicly visible data without the site owner's permission violates the act; the legal question remains unsettled as of 2025."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Two claims in the tweet are materially misleading. 'No bans' overstates what residential-proxy routing can guarantee: sites using advanced fingerprinting or bot-management platforms still block traffic from these services, and no provider has published independent success-rate data. The '99% of the internet' figure appears nowhere in any cited source with a defined methodology; it is a common marketing convention in the scraping industry, not a measured statistic. Legal risks — terms-of-service violations, potential CFAA exposure, GDPR obligations — are entirely absent from the framing.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://towardsdev.com/this-is-how-i-scrape-99-of-websites-step-by-step-guide-40356d673d73",
+      "title": "This Is How I Scrape 99% of Websites (Step-by-Step Guide)",
+      "note": "Origin of the '99%' framing widely recycled in scraping marketing"
+    },
+    {
+      "url": "https://scrapeowl.com/",
+      "title": "ScrapeOwl — Simple and Affordable Web Scraping API",
+      "note": "Representative no-code scraping service; describes residential proxies, JS rendering, and CAPTCHA bypass features"
+    },
+    {
+      "url": "https://www.scraperapi.com/web-scraping/no-code-web-scrapers/",
+      "title": "8 Best No-Code Web Scrapers To Scale Data Collection — ScraperAPI",
+      "note": "Overview of the no-code scraping tool landscape and use cases"
+    },
+    {
+      "url": "https://www.scrapeless.com/en/blog/no-code-scraper",
+      "title": "8 Free No-Code Web Scrapers | Best Select 2025 — Scrapeless",
+      "note": "Explains technical architecture of no-code scrapers including scheduling, templates, and anti-detection approaches"
+    }
+  ],
+  "bookmark_id": "1928775980249657351",
+  "generated_at": "2026-05-06T20:49:46.465703Z",
+  "backend": "claude"
+}

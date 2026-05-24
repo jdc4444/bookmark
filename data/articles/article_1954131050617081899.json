@@ -1,0 +1,59 @@
+{
+  "headline": "Eight Platforms That Teach Programming Through Play",
+  "lede": "A curated list from developer educator @denicmarko maps eight popular programming languages and tools to game-based learning sites — one for each of JavaScript, Solidity, SQL, Python, CSS, Go, Java, and Git. The pitch is simple: dopamine loops that make games addictive can also make drilling syntax bearable. The quality and depth of the platforms vary considerably.",
+  "body": "The most substantively interesting entry on the list is **CryptoZombies**, which teaches *Solidity* — the primary language for writing smart contracts on Ethereum — by having learners build a zombie-army game that deploys as an actual *decentralised application* (a program running on a blockchain rather than a company's server). The platform claims over 400,000 registered users who have completed multiple courses, and more than one million individual classes completed; it describes itself as the largest education platform for blockchain development, and credits itself with publishing the first online tutorial specifically about *NFTs* (non-fungible tokens).\n\nThe SQL entry, *SQL Murder Mystery* from Knight Lab at Northwestern University, is a well-regarded exercise that lets learners solve a fictional whodunit by querying a database — a format that has circulated among programming educators for years. *CSS Battle* takes a different approach to *CSS* (the language that styles web pages): players are shown a visual target and must reproduce it with the shortest possible stylesheet, rewarding both correctness and brevity. *Oh My Git!* is an open-source card game that visualises *Git* — the version-control system used by most professional software teams — as a branching tree, making its abstract graph structure concrete.\n\nSome entries deserve a small asterisk. CodinGame, listed for *Go* (Google's compiled systems language), is in fact a multi-language competitive-coding platform that supports dozens of languages; it has no particular Go focus. Tynker, listed for Java, is primarily marketed at children and K–12 classrooms; adult learners seeking production-level Java instruction will quickly exhaust it. Neither error invalidates the list, but it tilts two entries toward novelty rather than depth.\n\n*Codedex* and *JavaScript Quiz* are thinner on publicly available detail from the research sources, so their depth and update cadence are harder to assess. The broader pattern the list illustrates — that interactive, feedback-rich environments accelerate early learning — is well-supported in educational research, even if no single game-based platform yet replaces structured curriculum for intermediate or advanced practitioners.",
+  "tickers": [],
+  "poster": "denicmarko",
+  "concepts": [
+    {
+      "key": "solidity",
+      "term": "Solidity",
+      "definition": "Solidity is the most widely used programming language for writing smart contracts on the Ethereum blockchain. It is statically typed and compiles to bytecode that runs on the Ethereum Virtual Machine. Errors in Solidity code can be expensive or irreversible once deployed, which is why tooling and education around it have grown substantially."
+    },
+    {
+      "key": "smart-contract",
+      "term": "Smart contract",
+      "definition": "A smart contract is a program stored and executed on a blockchain rather than on a company's servers. Once deployed, its code is public and runs exactly as written, without any single party able to alter it. This makes smart contracts useful for agreements that require trustless execution, such as token transfers or auctions."
+    },
+    {
+      "key": "git",
+      "term": "Git",
+      "definition": "Git is the version-control system used by the vast majority of professional software teams. It records the full history of changes to a codebase as a directed graph of snapshots called commits, enabling collaboration, rollback, and parallel lines of development called branches. Its concepts — staging, branching, merging — are non-intuitive to beginners, which is why visual tools like Oh My Git! exist."
+    },
+    {
+      "key": "game-based-learning",
+      "term": "Game-based learning",
+      "definition": "Game-based learning is an instructional approach that wraps educational content inside game mechanics — points, levels, narrative, immediate feedback — to sustain motivation and lower the perceived cost of mistakes. In programming education it is distinct from gamification (adding badges to a traditional course); here the game structure is the primary delivery vehicle."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "git-learning-center/oh-my-git",
+      "url": "https://ohmygit.org",
+      "summary": "Oh My Git! is an open-source card game that teaches Git by rendering the repository's commit graph in real time as players perform operations. Learners issue Git commands using physical-looking cards, and the visual graph updates immediately, making abstract concepts like branching and merging tangible. It targets beginners who find Git's mental model opaque when learned through the command line alone."
+    }
+  ],
+  "fact_check": "CodinGame is listed as a Go learning platform, but it is a multi-language competitive-programming site that supports many languages; it has no special Go focus or curriculum. Tynker is listed as a Java platform but is primarily designed for children and K–12 students, not adult developers. Both are genuine platforms, but the language-to-platform mapping is looser than the list implies.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://cryptozombies.io/",
+      "title": "CryptoZombies — #1 Solidity Tutorial & Ethereum Blockchain Programming Course",
+      "note": "Primary source for CryptoZombies platform details, user counts, and history"
+    },
+    {
+      "url": "https://www.codedex.io/",
+      "title": "Codédex | Start Your Coding Adventure",
+      "note": "Confirms platform exists; limited detail available"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/code-picker-80b3712a0_programming-learntocode-codingfun-activity-7360940132851470358-eFXr",
+      "title": "Learn to Code by Playing Games — Code Picker on LinkedIn",
+      "note": "Mirrors the full list, confirming all eight platform URLs"
+    }
+  ],
+  "bookmark_id": "1954131050617081899",
+  "generated_at": "2026-05-06T20:35:52.324580Z",
+  "backend": "claude"
+}

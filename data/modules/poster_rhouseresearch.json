@@ -1,0 +1,17 @@
+{
+  "key": "rhouseresearch",
+  "display_name": "Rittenhouse Research (@RHouseResearch)",
+  "blurb": "Rittenhouse Research is an independent equity research firm that open-sources its investment theses on X, with coverage concentrated in software, digital infrastructure, fintech, and digital assets. The account launched in May 2025 and quickly established itself around a high-conviction long thesis on Galaxy Digital's Helios data center project in West Texas, a 533-megawatt facility the firm valued at $32 billion of equity. The firm also publishes macro-economic analysis of AI business models, including P&L decompositions of frontier AI companies such as the Anthropic revenue-and-margin model that circulated widely in May 2026. Rittenhouse Research has been listed as a contributor at Delphi Digital, the cryptocurrency research platform, consistent with its focus on the intersection of AI compute economics and digital assets.",
+  "credibility_note": "Rittenhouse Research does not publicly disclose the identity of its founders or analysts, making external verification of credentials impossible. Investment theses are self-published and positions are presumably held by the firm in the companies it covers, though disclosure practice is not detailed on its public profiles. The Galaxy Digital thesis is the firm's most prominent public call; the stock's subsequent performance relative to the firm's $32 billion equity value target has not been independently audited. The Anthropic P&L model that drew wide attention in May 2026 is an illustrative back-of-envelope construction using publicly reported figures, not an audited financial projection; the firm does not claim otherwise. Readers should treat all published analysis as the opinion of an undisclosed, possibly conflicted party.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/RHouseResearch"}
+  ],
+  "sources": [
+    {"title": "Rittenhouse Research on X — Posts", "url": "https://x.com/RHouseResearch"},
+    {"title": "Rittenhouse Research Galaxy Digital thesis — X", "url": "https://x.com/RHouseResearch/status/1923076150693187726"},
+    {"title": "Rittenhouse Research — Delphi Digital contributor profile", "url": "https://members.delphidigital.io/analysts/rittenhouse-research"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

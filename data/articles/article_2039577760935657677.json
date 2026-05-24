@@ -1,0 +1,137 @@
+{
+  "headline": "Vitalik Buterin's Manifesto for AI That Answers Only to You",
+  "lede": "Vitalik Buterin, the co-founder of Ethereum, published in April 2026 a practical guide to running a personal AI stack with no cloud dependencies, no remote model access, and no unconfirmed agent actions. The occasion was the rapid rise of autonomous AI agents — and an equally rapid accumulation of security disasters accompanying them. His post is equal parts benchmark report, threat model, and cultural provocation.",
+  "body": "The backdrop is what Buterin calls the “agent transition” — AI has moved from chatbots answering questions to autonomous agents taking open-ended tasks, invoking dozens of tools, and acting in the world. OpenClaw, an open-source personal assistant that routes an AI through messaging apps like Signal and WhatsApp, has been at the centre of this shift, accumulating nearly a quarter-million GitHub stars within months of its November 2025 launch. The security record that accompanied this growth is alarming: roughly 15% of skills in OpenClaw’s plugin registry were found to contain malicious instructions; agents could modify their own system prompts without user approval; and in one well-documented demonstration, a single malicious webpage was sufficient to trigger arbitrary code execution inside a user’s instance. Buterin’s response is pointed but deliberately non-personal: “I do not blame the team, but rather the whole surrounding ecosystem and its culture.”\n\nHis own response is not to abandon agents but to enumerate exactly what he is defending against and build accordingly. He identifies six threat categories: remote models receiving and potentially monetising private data; non-LLM data leakage through third-party search queries; **prompt injection** — malicious content in external web pages or documents hijacking agent behaviour; accidental data exposure through LLM errors; hidden *backdoors* in model weights favouring the creator’s interests; and conventional software vulnerabilities in the dependency stack. His prescription is stark: all inference local first, all files hosted locally, sandbox everything.\n\nRunning a capable model locally demands serious hardware. Buterin benchmarked three configurations. His personal laptop, carrying an NVIDIA (NVDA) RTX 5090 GPU with 24 GB of VRAM, produces 90 tokens per second on his primary model — his stated ideal. An AMD (AMD) Ryzen AI Max Pro laptop with 128 GB of unified memory (a single pool shared between CPU and GPU) runs the same model at 51 tokens per second, and can stretch to the 122-billion-parameter variant at 18 tokens per second. The NVIDIA DGX Spark, a Mac Mini-sized desktop AI workstation that launched at $3,999 in late 2025, lands in between at 60 tokens per second. Buterin’s declared floor is 50 tokens per second: anything slower “feels too annoying to be worth it.” Crucially, the 5090 laptop wins on inference speed despite having far less memory than the other two — VRAM bandwidth matters more than total capacity for models that fit.\n\nThe software layer is equally deliberate. NixOS — a Linux distribution whose entire system state is declared in a reproducible configuration file — serves as the operating system. For model inference, Buterin replaced Ollama with *llama-server*, part of the llama.cpp project, after finding that Ollama could not fit his chosen model into GPU memory at all. That model is Qwen3.5:35B, a sparse *mixture-of-experts* architecture from Alibaba (BABA): its 35 billion total parameters collapse to roughly 3 billion active per forward pass, keeping inference fast without the quality penalty of simply using a smaller dense model.\n\nThe security centrepiece is **bubblewrap**, a Linux kernel primitive that wraps each agent process inside isolated namespaces — separate views of the filesystem, network, and running processes — preventing a compromised agent from touching anything it was not explicitly granted. Buterin adds a custom messaging daemon that lets the LLM send messages to him freely but requires human confirmation before contacting anyone else or moving cryptocurrency. Local copies of Wikipedia and technical manuals reduce the number of queries leaking to external services. He frames this explicitly as a beginning, not a finished product, and invites collaborators to build the missing pieces — notably a Tor-wrapped search tool for queries that still must leave the machine. The implicit argument is architectural: security for AI agents cannot be bolted on through application-layer rules after the fact; it has to be enforced at the kernel level, before the model ever touches the network.",
+  "tickers": [
+    "NVDA",
+    "AMD",
+    "BABA"
+  ],
+  "companies": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD"
+    },
+    {
+      "name": "Alibaba Group",
+      "ticker": "BABA"
+    }
+  ],
+  "poster": "VitalikButerin",
+  "concepts": [
+    {
+      "key": "agent-transition",
+      "term": "Agent Transition",
+      "definition": "The shift from AI chatbots that answer questions to AI agents that take open-ended tasks, invoke tools (web search, code execution, file access), and take actions in the world on behalf of the user. Agents run longer, touch more systems, and introduce a much larger attack surface than chatbots."
+    },
+    {
+      "key": "prompt-injection",
+      "term": "Prompt Injection",
+      "definition": "An attack in which malicious instructions are embedded inside content an AI agent reads — a webpage, a document, an email — causing the agent to follow those instructions as if they came from the legitimate user. The AI cannot reliably distinguish between trusted instructions from its operator and adversarial instructions hiding in untrusted data."
+    },
+    {
+      "key": "mixture-of-experts",
+      "term": "Mixture-of-Experts (MoE)",
+      "definition": "A neural network architecture where the model contains many specialised sub-networks (‘experts’) but activates only a small fraction of them for any given input. This means a model can have a large total parameter count — and thus broad knowledge — while remaining fast and memory-efficient at inference time, because most parameters are dormant."
+    },
+    {
+      "key": "bubblewrap-sandbox",
+      "term": "Bubblewrap",
+      "definition": "A Linux sandboxing tool that uses the kernel’s namespace isolation primitives to give a process a restricted view of the filesystem, network, and other processes. Unlike virtual machines, it adds almost no overhead — the sandboxed process runs at native speed but cannot see or touch resources outside its declared boundaries. It is the same mechanism Flatpak uses to isolate desktop applications."
+    },
+    {
+      "key": "unified-memory",
+      "term": "Unified Memory",
+      "definition": "A hardware architecture where the CPU and GPU share a single pool of RAM rather than separate memory banks. For AI inference, this allows large models to reside in memory that both processor types can access, enabling consumer laptops with 128 GB of unified memory to run models that would otherwise require dedicated server GPUs."
+    },
+    {
+      "key": "llama-server",
+      "term": "llama-server / llama.cpp",
+      "definition": "An open-source inference engine for running large language models locally on consumer hardware. It includes llama-server, an HTTP process that exposes an OpenAI-compatible API endpoint, allowing any AI client to point at a local model instead of a cloud service with a single configuration change."
+    },
+    {
+      "key": "nixos",
+      "term": "NixOS",
+      "definition": "A Linux distribution where the entire operating system — installed packages, services, settings — is declared in a single version-controlled configuration file. This makes the system reproducible and auditable: any machine with the same config file produces an identical environment, aligning with a security posture that treats the OS as code."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "openclaw-openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "summary": "OpenClaw is an open-source personal AI assistant that interfaces through messaging platforms including Signal, WhatsApp, and Telegram. Users interact with a local AI agent through their existing chat apps; the agent can run installed skills — plugins for web search, calendar management, code execution, and more. It became one of the fastest-growing open-source projects of 2025–2026 before attracting sustained security scrutiny over prompt injection vulnerabilities and malicious third-party skills."
+    },
+    {
+      "key": "ggml-org-llama-cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "summary": "llama.cpp is the most widely used open-source LLM inference engine for running large language models locally on consumer hardware. It achieves near-native GPU performance through quantisation and hand-optimised kernels, and supports dozens of model families. Its llama-server component exposes an OpenAI-compatible HTTP endpoint, letting any AI client switch from cloud inference to local inference with a single config change."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://vitalik.eth.limo/general/2026/04/02/secure_llms.html",
+      "title": "My self-sovereign / local / private / secure LLM setup, April 2026 — Vitalik Buterin",
+      "note": "Primary source: the full blog post"
+    },
+    {
+      "url": "https://www.aikido.dev/blog/why-trying-to-secure-openclaw-is-ridiculous",
+      "title": "Why trying to secure OpenClaw is ridiculous — Aikido.dev",
+      "note": "Structural security analysis of OpenClaw, cited directly by Buterin"
+    },
+    {
+      "url": "https://blogs.cisco.com/ai/personal-ai-agents-like-openclaw-are-a-security-nightmare",
+      "title": "Personal AI agents like OpenClaw are a security nightmare — Cisco",
+      "note": "Enterprise risk analysis of OpenClaw, cited directly by Buterin"
+    },
+    {
+      "url": "https://www.darkreading.com/application-security/openclaw-insecurities-safe-usage-difficult",
+      "title": "OpenClaw insecurities make safe usage difficult — Dark Reading",
+      "note": "CVE and malicious-skill coverage, cited directly by Buterin"
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw",
+      "title": "OpenClaw — GitHub",
+      "note": "Project source and context on rapid adoption"
+    },
+    {
+      "url": "https://www.nvidia.com/en-us/products/workstations/dgx-spark/",
+      "title": "NVIDIA DGX Spark — NVIDIA",
+      "note": "Specs and pricing for the DGX Spark desktop workstation Buterin benchmarked"
+    },
+    {
+      "url": "https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-300-series/amd-ryzen-ai-max-plus-pro-395.html",
+      "title": "AMD Ryzen AI Max+ PRO 395 — AMD",
+      "note": "Specs for the 128 GB unified-memory chip in one of Buterin’s test laptops"
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "title": "llama.cpp — GitHub",
+      "note": "Source for llama-server, Buterin’s inference backend"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",
+      "title": "Qwen3.5-35B-A3B — Hugging Face",
+      "note": "Model card for the sparse MoE model Buterin uses as his primary LLM"
+    },
+    {
+      "url": "https://github.com/containers/bubblewrap",
+      "title": "bubblewrap — GitHub",
+      "note": "Source and documentation for the Linux sandboxing tool at the centre of Buterin’s security architecture"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vitalik_Buterin",
+      "title": "Vitalik Buterin — Wikipedia",
+      "note": "Background on Buterin as Ethereum co-founder and public technologist"
+    }
+  ],
+  "bookmark_id": "2039577760935657677",
+  "generated_at": "2026-05-07T08:56:24.080015Z",
+  "backend": "claude-sonnet-subagent"
+}

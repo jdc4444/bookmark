@@ -1,0 +1,69 @@
+{
+  "headline": "Cloning Any Website in One Prompt, Using Live Browser Data",
+  "lede": "The standard AI approach to copying a website begins with a screenshot — a lossy, static image that forces the model to guess at fonts, colours, and spacing. A new open-source skill for Claude Code, Anthropic's terminal-based coding assistant, abandons that workaround: it routes a live Chrome browser session directly at the target, pulling computed styles and asset paths from the source itself. The result collapses what was a multi-step, imprecise process into a single natural-language prompt.",
+  "body": "The conventional screenshot-to-code pipeline has always worked at one remove from the truth. A developer named @JCodesMore built a skill for **Claude Code** that discards that crutch entirely. Rather than feeding the model a JPEG and asking it to reverse-engineer the design, the skill opens a *Chrome MCP* connection — a live channel into the browser's rendering engine — where computed *CSS*, font manifests, colour tokens, and animation parameters are all directly legible.\n\nThe workflow unfolds in automated stages. The skill navigates to the target, extracts the visual foundation — typeface stack, colour palette, layout grid — while capturing reference screenshots, then spawns parallel sub-agents to reconstruct separate page sections concurrently. A final pass reviews their output, merges it, and delivers a working clone. One natural-language prompt triggers the entire sequence.\n\nThe capability sits at an uncomfortable ethical boundary. Automated cloning tools have existed for decades — *HTTrack*, Wget's mirror mode — but lowering the skill threshold to a single prompt meaningfully expands who can deploy them and at what scale. Lookalike phishing pages, IP-infringing storefronts, and scraped brand sites are the obvious threat vectors. The tool's most prominent amplifier on LinkedIn acknowledged as much, noting he was not endorsing intellectual-property theft, and pointing to more defensible uses: scaffolding internal dashboards, prototyping UI layouts without boilerplate, or benchmarking a competitor's design language.\n\nWhat distinguishes this from earlier screenshot pipelines is the *MCP* layer. Model Context Protocol — an open standard published by Anthropic — defines how Claude Code calls external tools as part of its reasoning loop. A Chrome MCP server exposes the browser as a queryable instrument: the model can inspect the *DOM*, read computed style rules, and retrieve asset manifests rather than squinting at pixels. That architectural shift — from static image to live debugger — is more significant than any particular clone it produces.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    }
+  ],
+  "poster": "oliviscusAI",
+  "concepts": [
+    {
+      "key": "claude-code",
+      "term": "Claude Code",
+      "definition": "Anthropic's command-line AI coding assistant, invoked from a terminal rather than a chat interface. It can plan, write, and execute code, call external tools via MCP, and coordinate multiple sub-agents — making it suitable for multi-step automation tasks like website cloning."
+    },
+    {
+      "key": "chrome-mcp",
+      "term": "Chrome MCP",
+      "definition": "A Model Context Protocol server that exposes a live Chrome browser instance to an AI model as a callable tool. Rather than receiving a static screenshot, the model can navigate pages, query the DOM, and read computed styles in real time."
+    },
+    {
+      "key": "mcp",
+      "term": "Model Context Protocol (MCP)",
+      "definition": "An open standard published by Anthropic that defines how AI models invoke external tools and services during a reasoning session. It standardises the interface between a model and capabilities like file systems, browsers, APIs, and databases."
+    },
+    {
+      "key": "css",
+      "term": "CSS (Cascading Style Sheets)",
+      "definition": "The web language that controls visual presentation — fonts, colours, spacing, and animation — as applied to HTML elements. Computed CSS is the final, resolved set of style rules the browser actually applies after all stylesheets and inheritance are processed."
+    },
+    {
+      "key": "dom",
+      "term": "DOM (Document Object Model)",
+      "definition": "The browser's structured, in-memory representation of a web page, which makes every element — text, image, button — programmatically accessible. Reading the DOM directly gives an AI model the page's actual structure rather than a visual approximation."
+    },
+    {
+      "key": "parallel-agents",
+      "term": "Parallel agents",
+      "definition": "Multiple AI agent instances invoked concurrently to work on separate subtasks — here, different sections of a page — whose outputs are merged afterward. Running agents in parallel reduces the total time compared to processing each section sequentially."
+    },
+    {
+      "key": "httrack",
+      "term": "HTTrack",
+      "definition": "A long-established, free command-line utility that recursively downloads an entire website — pages, images, stylesheets — to a local folder for offline viewing. It is a precursor to AI-assisted cloning but requires manual configuration and produces static copies without intelligent reconstruction."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.linkedin.com/posts/charlywargnier_holy-cow-someone-literally-built-a-claude-activity-7442932090943287296-8t1P",
+      "title": "Holy cow. Someone literally built a Claude Code skill that clones any website — LinkedIn",
+      "note": "Detailed breakdown of the five-step workflow and the builder's identity (@JCodesMore); includes the author's ethical disclaimer"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Gi9xtsqeoP0",
+      "title": "This AI Skill Clones ANY Website in 60 Seconds — YouTube",
+      "note": "Video demonstration confirming the one-prompt, live-browser approach described in the tweet"
+    }
+  ],
+  "bookmark_id": "2041112612981916146",
+  "generated_at": "2026-05-07T03:53:02.176342Z",
+  "backend": "claude"
+}

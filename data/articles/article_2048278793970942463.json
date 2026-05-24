@@ -1,0 +1,140 @@
+{
+  "headline": "An Amateur's Nine-Sentence Prompt Dissolved a Sixty-Year Mathematical Blind Spot",
+  "lede": "In April 2026, a 23-year-old with no advanced mathematics training submitted a nine-sentence prompt to an AI and received, eighty minutes later, the core of a proof that had defeated professional mathematicians for six decades. The problem — Erdős Problem #1196, a conjecture about the growth of a weighted sum over certain integer sets — had endured not because it was impossibly deep, but because everyone who tried it began from the same wrong assumption. What GPT-5.4 Pro found, and human mathematicians had missed, was a classical tool sitting in textbooks since the 1880s.",
+  "body": "For six decades, **Erdős Problem #1196** eluded professional mathematicians, not because it demanded rare genius, but because every attempt began with the same misapprehension. The problem concerns *primitive sets*: collections of positive integers in which no element divides another (the set {6, 10, 15} is primitive; add 2 and it breaks, because 2 divides 6). Paul Erdős, the Hungarian combinatorialist who spent his life traveling between universities with two suitcases and left behind over a thousand unsolved problems when he died in 1996, defined the *Erdős sum* f(A) = ∑ 1/(a log a) over any such set A and conjectured it stays bounded near 1 as the elements grow large. Generations of number theorists believed it; none could prove it.\n\nEvery prior attempt reached for what analysts call the *Mertens downward chain* — a probabilistic model that simulates factorization by repeatedly dividing an integer by its largest prime factor. This approach always incurred unavoidable error terms known as *e^γ losses* (γ is the Euler–Mascheroni constant, roughly 0.577), which kept the desired bound perpetually out of reach. OpenAI's GPT-5.4 Pro bypassed that tradition entirely, applying instead the *von Mangoldt downward chain*, whose transition probabilities are weighted by the *von Mangoldt function* Λ(n) — a central object in *analytic number theory* available since the 1880s that satisfies the identity ∑_{d|n} Λ(d) = log n. Because the Erdős weight 1/(n log n) is sub-invariant under this chain — a technical property meaning that summing transitions across any primitive set, where each element can appear at most once in any divisibility chain, immediately yields the desired bound — the proof that had frustrated a generation followed almost directly. Jared Lichtman, a Stanford mathematician whose doctoral dissertation addressed a closely related conjecture, compared the move to AlphaGo's move 37: the AI's famously counterintuitive 2016 go play, invisible to trained human judgment and instantly decisive in retrospect.\n\nLiam Price, a 23-year-old based in the U.K. with no advanced mathematics credentials, submitted the problem on April 13, 2026 as a single prompt to GPT-5.4 Pro — a model released by OpenAI in March 2026 with extended reasoning capabilities, accessible via a $20-per-month subscription. He had been casually feeding problems from the erdosproblems.com catalogue into the model, a practice Scientific American labeled **vibe maths**: an adaptation of programmer Andrej Karpathy's term *vibe coding*, meaning AI-guided work done by feel rather than methodical intent. His nine-sentence prompt used XML-style structural tags to frame the problem and its components, closing with the directive: \"REMEMBER: this unconditional argument may require non-trivial, creative and novel elements.\" The model reasoned for roughly eighty minutes and produced a LaTeX draft. Price passed it to his collaborator Kevin Barreto, a Cambridge undergraduate, who recognized the key move as plausible and contacted Lichtman.\n\nFields Medalist Terence Tao, a professor at UCLA, joined as co-author on the resulting paper, submitted to arXiv on May 1, 2026. In a blog post three days later, Tao wrote that the proof \"reveals a previously undescribed connection between the *anatomy of integers* — the subfield of number theory studying the statistical distribution of prime factors in large numbers — and Markov process theory,\" and described the von Mangoldt technique as \"in retrospect, very natural for controlling primitive sets, but not explicitly used in previous literature.\" The paper simultaneously resolved two related Erdős conjectures, including the **Erdős Primitive Set Conjecture** (#164), which Lichtman had first proved in his 2022 doctoral thesis. Tao was equally clear about the limits: the AI's raw output required substantial expert work to become rigorous; Lichtman described the original LaTeX draft as correct in its core insight but \"quite poor\" as mathematical exposition. The published paper lists eight co-authors.\n\nTao's diagnosis of why the problem lasted sixty years was blunt: \"The humans that looked at it just collectively made a slight wrong turn at move one.\" The von Mangoldt function had been in textbooks for over a century; no one had thought to apply it here. Whether GPT-5.4 Pro arrived at the substitution through something resembling mathematical understanding or through an exhaustive combinatorial search across candidate proof strategies that no patient human would enumerate remains genuinely unclear — a distinction the researchers themselves flag. What is agreed is that the technique has legs: Tao's blog post sketches a broader research program he calls \"developmental anatomy of integers,\" treating large integers as evolving processes rather than static objects. Erdős problems are an imperfect benchmark, ranging from trivial to epochal. But the manner of this one suggests something worth watching: not that machines are smarter than mathematicians, but that they are unburdened by the field's accumulated assumptions.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    }
+  ],
+  "poster": "yoitsyoung",
+  "concepts": [
+    {
+      "key": "primitive-set",
+      "term": "Primitive Set",
+      "definition": "A set of positive integers in which no element divides any other. For example, {6, 10, 15} is primitive because none divides another; adding 2 breaks it, since 2 divides 6. Primitive sets arise naturally when studying multiplicative independence among integers."
+    },
+    {
+      "key": "erdos-sum",
+      "term": "Erdős Sum",
+      "definition": "The weighted sum f(A) = ∑ 1/(a log a) defined by Paul Erdős over a primitive set A. The denominator a log a is chosen so the sum converges gracefully as elements grow large. Erdős Problem #1196 asks how large this sum can get for primitive sets whose elements all exceed some threshold x."
+    },
+    {
+      "key": "mertens-downward-chain",
+      "term": "Mertens Downward Chain",
+      "definition": "A Markov process on the positive integers that models factorization by repeatedly dividing by the largest prime factor. For ninety years it was the standard probabilistic tool for problems about primitive sets, but applying it to Problem #1196 always introduced unavoidable error terms that prevented a tight bound."
+    },
+    {
+      "key": "e-gamma-losses",
+      "term": "e^γ Losses",
+      "definition": "Error terms proportional to e^γ (where γ ≈ 0.577 is the Euler–Mascheroni constant) that accumulated whenever analysts used the Mertens downward chain on this class of problem. They are unavoidable within that framework; the von Mangoldt chain sidesteps them entirely by using a different weighting scheme."
+    },
+    {
+      "key": "von-mangoldt-function",
+      "term": "Von Mangoldt Function",
+      "definition": "A function Λ(n) in analytic number theory equal to log p if n is a power of a prime p, and zero otherwise. Available since the 1880s, it encodes prime factorization through the identity ∑_{d|n} Λ(d) = log n — precisely the property that makes it useful in the new proof."
+    },
+    {
+      "key": "von-mangoldt-downward-chain",
+      "term": "Von Mangoldt Downward Chain",
+      "definition": "A Markov process on the integers where, starting from n, the chain moves to n/q with probability Λ(q)/log n for each divisor q. Because the weights sum exactly to 1 (due to ∑Λ(d) = log n) and the Erdős weight is sub-invariant under this chain, it yields the desired bound on primitive sets without the e^γ losses that plagued the Mertens approach."
+    },
+    {
+      "key": "analytic-number-theory",
+      "term": "Analytic Number Theory",
+      "definition": "The branch of mathematics that applies calculus, complex analysis, and probability theory to study the distribution and properties of integers and primes. Major results include the prime number theorem and the theory of the Riemann zeta function."
+    },
+    {
+      "key": "anatomy-of-integers",
+      "term": "Anatomy of Integers",
+      "definition": "An established subfield of multiplicative number theory studying the statistical properties of prime factors in large integers — how many prime factors a typical number has, how they are distributed, and how they correlate. The new paper introduces a 'developmental' version that views integers as evolving processes rather than static objects."
+    },
+    {
+      "key": "vibe-maths",
+      "term": "Vibe Maths",
+      "definition": "Casual, intuition-driven mathematical exploration using AI tools without deep subject expertise or methodical strategy — feeding problems into a model to see what happens. Adapted from 'vibe coding,' coined by Andrej Karpathy in 2025 for AI-guided programming by feel rather than comprehension."
+    },
+    {
+      "key": "vibe-coding",
+      "term": "Vibe Coding",
+      "definition": "A term coined by programmer Andrej Karpathy in February 2025 for AI-assisted programming in which the developer describes intent in natural language and accepts the AI's output without fully understanding every detail. Prioritizes speed and iteration over deep comprehension of the generated code."
+    },
+    {
+      "key": "fields-medal",
+      "term": "Fields Medal",
+      "definition": "Mathematics' most prestigious prize, equivalent in standing to a Nobel. Awarded every four years at the International Congress of Mathematicians to two to four mathematicians under the age of 40. Terence Tao received it in 2006 for contributions to partial differential equations, combinatorics, and number theory."
+    },
+    {
+      "key": "markov-chain",
+      "term": "Markov Chain",
+      "definition": "A stochastic process in which the probability of moving to any future state depends only on the present state, not on the sequence of states that preceded it. In the proof, integers are the states and the chain descends through divisors; the memoryless property enables clean summation arguments over primitive sets."
+    },
+    {
+      "key": "sub-invariant",
+      "term": "Sub-Invariant",
+      "definition": "A function h is sub-invariant under a Markov chain if its expected value after one transition step is at most its current value — it does not increase on average. This property is what allows the proof to bound the Erdős sum: once you show 1/(n log n) is sub-invariant under the von Mangoldt chain, the desired inequality follows without accumulating extra error."
+    },
+    {
+      "key": "erdos-primitive-set-conjecture",
+      "term": "Erdős Primitive Set Conjecture",
+      "definition": "Erdős Problem #164: the conjecture that among all primitive sets, the set of all prime numbers maximizes the Erdős sum f(A). First proved by Jared Lichtman in his 2022 doctoral dissertation and resolved again as a corollary of the new paper on Problem #1196."
+    },
+    {
+      "key": "developmental-anatomy-of-integers",
+      "term": "Developmental Anatomy of Integers",
+      "definition": "A new conceptual framework sketched by Terence Tao following the proof of Problem #1196, which treats large integers as objects that evolve over time — gaining and losing prime factors as steps in a process — rather than fixed entities. It reframes questions about integer structure as questions about Markov dynamics, opening potential applications beyond the specific problem solved."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "teorth-erdosproblems",
+      "url": "https://github.com/teorth/erdosproblems",
+      "summary": "An open-source database maintained by Terence Tao cataloguing over a thousand unsolved conjectures left by Paul Erdős, each with its original statement, known partial results, prize amounts, and community discussion threads. The web front-end at erdosproblems.com is the canonical public interface Liam Price used to select problems. Problem #1196 is now marked 'PROVED' in the database, crediting the GPT-5.4 Pro solution."
+    }
+  ],
+  "fact_check": "Two claims warrant qualification. First, to say Price 'solves' the problem overstates the AI's standalone role: GPT-5.4 Pro generated the key insight, but the raw LaTeX output was described by Lichtman as 'quite poor' as exposition, and turning it into a rigorous published proof required substantial work by eight co-authors including Tao. The AI found the conceptual move; humans wrote the mathematics. Second, the Tao quotation in the tweet — 'What's beginning to emerge is that the problem was maybe easier than expected, and it was like there was some kind of mental block' — is a paraphrase compiled from secondary sources, not a verbatim transcript. Tao's verified direct statement, from the Scientific American interview, was: 'This one is a bit different because people did look at it, and the humans that looked at it just collectively made a slight wrong turn at move one.' The paraphrase is consistent in spirit but should not be treated as an exact quote.",
+  "thread_summary": "In two connected tweets, @yoitsyoung first quotes @Ananyo's report on Liam Price's solution alongside Tao's reaction, then follows up to share the actual nine-sentence prompt Price used — expressing surprise at its brevity. The second tweet reproduces the XML-tagged prompt verbatim, ending with the directive 'REMEMBER: this unconditional argument may require non-trivial, creative and novel elements,' highlighting the gap between the prompt's simplicity and the mathematical depth of the result.",
+  "sources": [
+    {
+      "url": "https://www.scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/",
+      "title": "Amateur armed with ChatGPT 'vibe maths' a 60-year-old problem — Scientific American",
+      "note": "Primary news account; source of Tao's verified direct quotes and Price's biographical details"
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.00301",
+      "title": "Primitive sets and von Mangoldt chains: Erdős Problem #1196 and beyond (arXiv:2605.00301)",
+      "note": "The full eight-author paper submitted May 1, 2026; primary source for the proof method, co-authors, and scope of results"
+    },
+    {
+      "url": "https://terrytao.wordpress.com/2026/05/03/primitive-sets-and-von-mangoldt-chains-erdos-problem-1196-and-beyond/",
+      "title": "Primitive sets and von Mangoldt chains — Terence Tao's blog (May 3, 2026)",
+      "note": "Tao's own blog post summarizing the result and sketching the developmental anatomy program; primary source for his extended technical quotes"
+    },
+    {
+      "url": "https://www.erdosproblems.com/1196",
+      "title": "Erdős Problem #1196 — erdosproblems.com",
+      "note": "Canonical problem statement and current status ('PROVED'); maintained by Tao via the teorth/erdosproblems repository"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "title": "Introducing GPT-5.4 — OpenAI",
+      "note": "Official announcement of GPT-5.4 Pro's capabilities and release date (March 5, 2026)"
+    },
+    {
+      "url": "https://arxiv.org/abs/2202.02384",
+      "title": "A proof of the Erdős primitive set conjecture — Jared Lichtman (2022)",
+      "note": "Lichtman's doctoral thesis proving Problem #164; context for his role as the expert who validated Price's output"
+    },
+    {
+      "url": "https://www.buildfastwithai.com/blogs/gpt-5-4-solved-a-60-year-math-problem-what-happened",
+      "title": "GPT-5.4 Solved a 60-Year Math Problem: What Happened — Build Fast With AI",
+      "note": "Secondary analysis with detailed timeline, benchmark figures, and transcript of the proof method; used for corroboration"
+    }
+  ],
+  "bookmark_id": "2048278793970942463",
+  "generated_at": "2026-05-07T07:34:38.338892Z",
+  "backend": "claude-sonnet-subagent"
+}

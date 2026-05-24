@@ -1,0 +1,138 @@
+{
+  "headline": "A Claude Code Skill That Mines the Social Web for Working Prompts",
+  "lede": "A new open-source skill for Claude Code sweeps a dozen social platforms for the last month of community discussion on any topic, then generates a ready-to-use prompt based on what practitioners are actually finding effective right now. It was built by Matt Van Horn, a serial entrepreneur who co-founded Lyft and later sold a smart-oven startup to Weber. The tool has accumulated more than 25,000 GitHub stars since its January 2026 launch.",
+  "body": "A Claude Code *skill* called `/last30days` does something deceptively simple: you type a topic, and it queries a dozen social platforms and aggregators for the past thirty days of discussion, then synthesises what it finds into a single, citation-backed brief — complete with a ready-to-use **prompt** built from patterns the community is actively upvoting. The result lands in your editor within seconds. The skill is free, MIT-licensed, and installs in Claude Code with a single slash command.\n\nThe author is Matt Van Horn, a serial entrepreneur best known for co-founding Zimride, the carpooling service that evolved into **Lyft (LYFT)**, and for building the June Intelligent Oven, a countertop appliance that used computer vision to identify food and cook it automatically; Weber, the grill manufacturer, acquired June Life in a reported nine-figure deal. Van Horn's current project is, by comparison, decidedly scrappier: a 25,000-star GitHub repository written almost entirely in Python.\n\nThe skill's architecture is more intricate than a simple search. Under the hood it queries Reddit via *ScrapeCreators* (a third-party scraping API), X, Bluesky's *AT Protocol*, YouTube — pulling transcripts via the open-source tool *yt-dlp* — TikTok, Instagram, Hacker News, *Polymarket* (a prediction-market platform), and the broader web through Brave Software's search API. Each result is scored on a weighted formula that privileges engagement and comment depth; top-comment signals carry an additional boost. The synthesised output is automatically saved as a Markdown file, building what the README calls a “personal research library.”\n\nDistribution runs through Claude Code’s third-party *plugin marketplace* system — a relatively new facility that lets developers publish skills, agents, and hooks via any GitHub repository, much as an app store lets developers distribute software. A separate directory called *ClawHub*, associated with an AI agent framework called OpenClaw, also lists the skill; the two install commands visible in the screenshot above target different hosts. The tool has drawn crossover interest because the underlying problem — *prompt decay*, the tendency for specific techniques to stop working as AI models are retrained or updated — is acutely felt across every major tool category.\n\nThe “feels like cheating” framing in the post is understandable but worth testing. The skill synthesises what communities *say* is working, which is not the same as independently verified evidence. Community upvotes are a signal, not a proof; viral prompt patterns can be cargo-culted as easily as they can be tested. The real value is closer to what a good research assistant provides: it saves hours of thread-diving and surfaces patterns a busy practitioner might otherwise miss. Whether those patterns hold depends, as always, on the work that follows.",
+  "tickers": [
+    "LYFT"
+  ],
+  "companies": [
+    {
+      "name": "Lyft",
+      "ticker": "LYFT"
+    },
+    {
+      "name": "Weber Inc.",
+      "ticker": null
+    },
+    {
+      "name": "June Life",
+      "ticker": null
+    },
+    {
+      "name": "Brave Software",
+      "ticker": null
+    },
+    {
+      "name": "ScrapeCreators",
+      "ticker": null
+    }
+  ],
+  "poster": "MillieMarconnni",
+  "concepts": [
+    {
+      "key": "claude-code-skill",
+      "term": "Claude Code skill",
+      "definition": "A plugin for Anthropic’s Claude Code CLI tool that adds new slash commands, agents, or hooks. Skills are distributed via GitHub repositories and installed through Claude Code’s built-in plugin marketplace system."
+    },
+    {
+      "key": "at-protocol",
+      "term": "AT Protocol",
+      "definition": "The open, federated networking protocol that underpins Bluesky. It allows users to move their accounts and data between servers — unlike Twitter/X, where accounts are locked to the platform."
+    },
+    {
+      "key": "scrapecreators",
+      "term": "ScrapeCreators",
+      "definition": "A third-party API service that provides programmatic access to content from Reddit, TikTok, Instagram, and other social platforms that restrict direct scraping. One API key covers multiple platforms simultaneously."
+    },
+    {
+      "key": "yt-dlp",
+      "term": "yt-dlp",
+      "definition": "An open-source command-line tool for downloading video and audio from YouTube and hundreds of other sites. The last30days skill uses it to extract video transcripts for analysis alongside social posts."
+    },
+    {
+      "key": "polymarket",
+      "term": "Polymarket",
+      "definition": "A decentralised prediction-market platform where users stake real money on the outcomes of future events. The skill includes it as a source because market odds can reflect informed community consensus about what is likely to happen."
+    },
+    {
+      "key": "plugin-marketplace",
+      "term": "plugin marketplace",
+      "definition": "Claude Code’s system for distributing third-party extensions. Developers publish a GitHub repository in a specific format; users register it with a slash command and then install individual skills from its catalog."
+    },
+    {
+      "key": "prompt-decay",
+      "term": "prompt decay",
+      "definition": "The tendency for specific AI prompt techniques to stop working as models are retrained or updated. A prompt that reliably elicits a certain output today may produce different or worse results after the next model update."
+    },
+    {
+      "key": "openclaw",
+      "term": "OpenClaw",
+      "definition": "An AI agent framework with its own plugin ecosystem and marketplace (ClawHub). Distinct from Claude Code, though some tools — including last30days — publish install packages to both platforms."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "mvanhorn-last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "summary": "The canonical open-source repository for the last30days Claude Code skill. Written primarily in Python, it orchestrates searches across 13-plus social platforms and web sources, scores results by engagement, and synthesises findings into a Markdown brief with a ready-to-use prompt. MIT-licensed, with more than 25,000 GitHub stars as of May 2026 after growing from 1,500 at launch in January 2026."
+    }
+  ],
+  "fact_check": "The tweet presents the author as anonymous (“someone built”), but the tool is publicly attributed to Matt Van Horn (GitHub: mvanhorn), a well-documented entrepreneur. The post also summarises the source list as “Reddit and X,” though the skill actually queries more than a dozen platforms including Bluesky, YouTube, TikTok, Instagram, Hacker News, and Polymarket. Both are simplifications rather than errors. The version shown (v2.9.5) was current at posting; by the time of this brief the tool had reached v3.1.1 with a substantially expanded feature set, including a ground-up architecture rewrite.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "title": "mvanhorn/last30days-skill — GitHub",
+      "note": "Primary source: README, SPEC.md, SKILL.md, releases page, and star count"
+    },
+    {
+      "url": "https://github.com/mvanhorn/last30days-skill/blob/main/CHANGELOG.md",
+      "title": "last30days-skill CHANGELOG.md",
+      "note": "Version history and feature attribution for v2.9.x through v3.x"
+    },
+    {
+      "url": "https://github.com/mvanhorn",
+      "title": "Matt Van Horn — GitHub profile",
+      "note": "Author identity, bio, and career summary"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Matt_Van_Horn",
+      "title": "Matt Van Horn — Wikipedia",
+      "note": "Biographical background on the author’s career at Zimride/Lyft and June Life"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/discover-plugins",
+      "title": "Discover Plugins — Claude Code documentation",
+      "note": "Official documentation on Claude Code’s third-party plugin marketplace system"
+    },
+    {
+      "url": "https://clawhub.ai/plugins?family=code-plugin",
+      "title": "ClawHub — OpenClaw plugin marketplace",
+      "note": "What ClawHub is and how the skill is listed there"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46963949",
+      "title": "Last30Days: A Recency-Aware Research API — Hacker News",
+      "note": "Community discussion thread (low-engagement, Feb 2026); growth came from GitHub trending, not HN"
+    },
+    {
+      "url": "https://www.howdoiuseai.com/blog/2026-02-06-how-to-supercharge-claude-code-with-the-last-30-da",
+      "title": "How to Supercharge Claude Code with the Last 30 Days Skill — HowDoIUseAI",
+      "note": "Third-party tutorial with a direct quote from Van Horn on the tool’s purpose"
+    },
+    {
+      "url": "https://aibit.im/blog/post/last30days-a-claude-code-skill-for-real-time-trending-prompt-research",
+      "title": "last30days: A Claude Code Skill for Real-Time Trending Prompt Research — AIBit",
+      "note": "Early coverage from January 2026, shortly after launch; noted 1,500 stars at that point"
+    },
+    {
+      "url": "https://cultofclaude.com/skills/last30days-skill/",
+      "title": "last30days-skill — Cult of Claude",
+      "note": "Community directory listing confirming v2.9.5 snapshot and install commands"
+    }
+  ],
+  "bookmark_id": "2036363493478375797",
+  "generated_at": "2026-05-07T12:13:43.819257Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,22 @@
+{
+  "key": "knoxtwts",
+  "display_name": "KNOX",
+  "blurb": "KNOX is an X user whose profile and posts are inaccessible due to JavaScript requirements. No information about their domain expertise, posting topics, or follower count is available from the provided sources.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/knoxtwts"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/knoxtwts",
+      "title": "KNOX (@knoxtwts) / Posts / X"
+    },
+    {
+      "url": "https://x.com/knoxtwts/status/2021647690111598672",
+      "title": "KNOX (@knoxtwts) on X - x.com"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-07T08:41:55.197793Z",
+  "backend": "deepseek"
+}

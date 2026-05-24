@@ -1,0 +1,24 @@
+{
+  "key": "JBL",
+  "name": "Jabil Inc.",
+  "exchange": "NYSE",
+  "blurb": "Jabil Inc. is a global provider of engineering, manufacturing, and supply chain solutions, serving industries such as healthcare, automotive, aerospace, and consumer electronics. The company operates through three segments: Regulated Industries, Intelligent Infrastructure, and Connected Living and Digital Commerce. With over 135,000 employees and a market cap of approximately $37.5 billion, Jabil is a key player in the electronic manufacturing services (EMS) sector.",
+  "recent": "In the past month, Jabil's stock reached a 52-week high of $372.37 on May 6, 2026, driven by strong demand and positive analyst sentiment. The company reported robust revenue growth of 19% year-over-year to $32.67 billion, with net income up 67%. Analysts remain bullish, with a consensus 'Strong Buy' rating, though the average price target of $272.33 suggests potential downside from current levels.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/jbl/",
+      "title": "Jabil (JBL) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/JBL",
+      "title": "JBL: Jabil Inc - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/JBL/",
+      "title": "Jabil (JBL) Stock Price, News & Analysis - MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T13:00:34.923810Z",
+  "backend": "deepseek"
+}

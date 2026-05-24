@@ -1,0 +1,159 @@
+{
+  "headline": "No Compromise Required: How Open Source Became a Game Engine Advantage",
+  "lede": "Will Eastcott helped build *RenderWare*, the PS2-era graphics middleware that powered the *Grand Theft Auto* series, before co-founding PlayCanvas — a WebGL game engine built natively for the browser and MIT-licensed since 2014. His assertion that open source has ceased to be a compromise is not promotional boilerplate; it is the conclusion of someone who watched a proprietary platform become a liability the moment its corporate owner's interests diverged from its users'. A crisis at Unity Technologies in 2023 sharpened the argument considerably.",
+  "body": "Eastcott spent his formative career at Criterion Software building *RenderWare*, the proprietary graphics middleware that powered the *Grand Theft Auto* series, *Burnout*, and hundreds of PlayStation 2-era titles. **In August 2004, Electronic Arts (EA) acquired Criterion for roughly £48 million**, ending third-party RenderWare sales and stranding the studios that had built entire production pipelines around it. Eastcott later co-founded PlayCanvas in London in 2011 — open-sourcing its engine under the MIT licence in 2014 — and his argument that open source confers structural advantages is rooted in that lived experience: he watched a proprietary platform become a cautionary tale the moment its new owner's interests diverged from its licensees'.\n\nThe Unity Technologies (U) runtime fee crisis of 2023 replayed that dynamic for a new generation of developers. Unity announced in September of that year that it would charge a per-install fee retroactively once revenue and install thresholds were crossed — including for games already shipped. The backlash was severe; prominent studios condemned the policy and audited alternatives. Unity reversed course and cancelled the fee structure by 2024, but developer trust did not recover, and new-project adoption measurably declined. The episode clarified what had previously been a theoretical claim: an MIT-licensed engine cannot have its terms changed after the fact. That irrevocability is now a feature developers price into their platform choices.\n\nPlayCanvas itself has accumulated the technical record to make the capability argument harder to dismiss. Unlike Epic Games's Unreal Engine — whose browser strategy relies primarily on *Pixel Streaming*, a server-rendered approach requiring persistent backend infrastructure — PlayCanvas treats the browser as its lead platform. Its roughly 300KB JavaScript runtime, not a *WebAssembly* black box, lets developers use real debuggers and source maps rather than opaque compiled binaries. Its *WebGPU* backend — the next-generation web graphics API that supersedes *WebGL* — entered beta in the editor in April 2024; by then, the *compute shader* path was already simulating one million GPU particles. The *SOG* (Spatially Ordered Gaussians) format, open-sourced in September 2025, compresses four-million-Gaussian *3D Gaussian Splatting* scenes from roughly a gigabyte to 42 megabytes — a 95 percent reduction — without load-time processing. The cloud editor frontend followed in July 2025, completing the journey from closed commercial product to fully open stack.\n\nThe broader ecosystem provides corroboration independent of Eastcott's own project. Godot, a community-governed MIT engine, doubled the number of games it shipped on Steam year-over-year in the 2025–2026 window. At GDC 2026, NVIDIA (NVDA) released a production-quality path-tracing fork of Godot under the MIT licence — a signal that major hardware vendors now prefer contributing to open infrastructure rather than licensing proprietary renderers. When Eastcott says engines are better *because* they are open source, rather than merely functional *despite* it, he is pointing to community-driven feature velocity, irrevocable licensing guarantees, and the willingness of outside institutions to invest in shared infrastructure. Those are structural arguments, not philosophical ones.",
+  "tickers": [
+    "EA",
+    "U",
+    "NVDA"
+  ],
+  "companies": [
+    {
+      "name": "Criterion Software",
+      "ticker": null
+    },
+    {
+      "name": "Electronic Arts",
+      "ticker": "EA"
+    },
+    {
+      "name": "PlayCanvas",
+      "ticker": null
+    },
+    {
+      "name": "Unity Technologies",
+      "ticker": "U"
+    },
+    {
+      "name": "Epic Games",
+      "ticker": null
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    }
+  ],
+  "poster": "willeastcott",
+  "concepts": [
+    {
+      "key": "renderware",
+      "term": "RenderWare",
+      "definition": "A proprietary graphics middleware platform developed by Criterion Software in the 1990s and early 2000s. Licensed to game studios, it handled low-level rendering, physics, and audio for hundreds of console titles, most notably the early Grand Theft Auto games. Electronic Arts acquired Criterion in 2004 and discontinued third-party licensing, stranding dependent studios."
+    },
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "A JavaScript API that enables hardware-accelerated 3D graphics in web browsers without plugins, based on the OpenGL ES specification. Introduced around 2011, it made browser-based game engines technically feasible for the first time. WebGL 2.0, released in 2017, added compute-adjacent features but remains limited compared to modern GPU APIs."
+    },
+    {
+      "key": "webgpu",
+      "term": "WebGPU",
+      "definition": "The successor to WebGL, exposing a lower-level, higher-performance interface to the GPU from within a browser. Unlike WebGL — which is based on older OpenGL semantics — WebGPU maps to modern GPU architectures (Vulkan, Metal, DirectX 12), enabling compute shaders, storage buffers, and significantly better performance for complex scenes."
+    },
+    {
+      "key": "pixel-streaming",
+      "term": "Pixel Streaming",
+      "definition": "Unreal Engine's approach to browser delivery: the game runs on a remote server and only compressed video frames are sent to the user's browser. This avoids porting the engine to WebGL or WebGPU but requires persistent server infrastructure and introduces latency, making it unsuitable for fast-paced interactive use cases."
+    },
+    {
+      "key": "webassembly",
+      "term": "WebAssembly",
+      "definition": "A low-level binary instruction format that allows code written in languages like C++ to run in the browser at near-native speed. Unity's WebGL export compiles its C++ runtime to WebAssembly, which performs well but produces opaque binaries that are difficult to debug with standard browser developer tools."
+    },
+    {
+      "key": "compute-shader",
+      "term": "compute shader",
+      "definition": "A GPU program that runs general-purpose parallel computations — particle simulations, physics, post-processing — outside the traditional graphics pipeline. Compute shaders require a modern GPU API; WebGPU brings them to the browser for the first time, opening capabilities previously available only in native desktop applications."
+    },
+    {
+      "key": "3d-gaussian-splatting",
+      "term": "3D Gaussian Splatting",
+      "definition": "A real-time rendering technique that represents a scene as millions of semi-transparent, coloured Gaussian distributions rather than traditional polygons. Derived from photogrammetry or neural radiance field capture, it can produce photorealistic results at interactive framerates. Raw Gaussian splat files are extremely large, creating a practical compression problem for web delivery."
+    },
+    {
+      "key": "sog",
+      "term": "SOG (Spatially Ordered Gaussians)",
+      "definition": "PlayCanvas's open-source compression format for 3D Gaussian Splat data, released in September 2025. By spatially ordering Gaussians and applying GPU-friendly encoding, it reduces a four-million-Gaussian scene from roughly one gigabyte to 42 megabytes — a 95 percent reduction — without requiring decompression at load time."
+    },
+    {
+      "key": "mit-licence",
+      "term": "MIT licence",
+      "definition": "One of the most permissive open-source software licences. It allows anyone to use, copy, modify, and distribute software — including in commercial products — with minimal restrictions. Crucially, an MIT licence granted to a piece of software cannot be revoked or altered retroactively, unlike the subscription terms of a commercial engine."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "playcanvas-engine",
+      "url": "https://github.com/playcanvas/engine",
+      "summary": "The MIT-licensed JavaScript runtime for the PlayCanvas game engine, open-sourced in June 2014. As of April 2026, it is at version 2.18.1 with 14.9K GitHub stars and over 574 contributors. It provides an entity-component system, dual WebGL 2.0 and WebGPU rendering backends, physics, audio, WebXR support, and first-class 3D Gaussian Splatting tooling."
+    }
+  ],
+  "fact_check": "Eastcott's claim holds most cleanly in the browser and web-native game development space, where PlayCanvas competes directly. For AAA desktop and console development, Unreal Engine remains technically dominant despite being source-available rather than truly open source — its source code can be read under a commercial licence, but it is not MIT-licensed. The claim that open source engines are now *fundamentally* better is plausible for web targets and mid-tier projects, but overstates the case in segments where Unreal's Nanite geometry streaming and Lumen global illumination systems remain well ahead of any MIT-licensed equivalent.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/playcanvas/engine",
+      "title": "PlayCanvas Engine — GitHub",
+      "note": "Engine repo: version history, star count, contributor count, feature list"
+    },
+    {
+      "url": "https://blog.playcanvas.com/playcanvas-goes-open-source/",
+      "title": "PlayCanvas goes open source (June 2014)",
+      "note": "Original announcement of MIT licensing in 2014"
+    },
+    {
+      "url": "https://blog.playcanvas.com/meet-the-playcanvas-team-will-eastcott/",
+      "title": "Meet the PlayCanvas Team: Will Eastcott",
+      "note": "Eastcott's biography and Criterion/RenderWare career history"
+    },
+    {
+      "url": "https://blog.playcanvas.com/build-webgpu-apps-today-with-playcanvas/",
+      "title": "Build WebGPU Apps Today with PlayCanvas (April 2024)",
+      "note": "WebGPU beta launch, compute shader milestones, 62% user reach figure"
+    },
+    {
+      "url": "https://blog.playcanvas.com/playcanvas-open-sources-sog-format-for-gaussian-splatting/",
+      "title": "PlayCanvas Open Sources SOG Format",
+      "note": "SOG format compression ratios and technical details"
+    },
+    {
+      "url": "https://blog.playcanvas.com/playcanvas-editor-frontend-is-now-open-source/",
+      "title": "PlayCanvas Editor Frontend is now Open Source (July 2025)",
+      "note": "Editor open-sourcing milestone"
+    },
+    {
+      "url": "https://www.buildingtheopenmetaverse.org/episodes/revolutionizing-game-development",
+      "title": "Building the Open Metaverse — Will Eastcott interview",
+      "note": "Direct quotes from Eastcott on open source philosophy and origins"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/RenderWare",
+      "title": "RenderWare — Wikipedia",
+      "note": "RenderWare history, EA acquisition timeline, and licensing cessation"
+    },
+    {
+      "url": "https://techcrunch.com/2023/09/22/unity-u-turns-on-controversial-runtime-fee-and-begs-forgiveness/",
+      "title": "Unity U-turns on controversial runtime fee — TechCrunch",
+      "note": "Unity runtime fee crisis announcement and reversal"
+    },
+    {
+      "url": "https://dev.to/ziva/nvidia-is-investing-in-an-open-source-game-engine-heres-why-that-matters-5eca",
+      "title": "NVIDIA Is Investing in an Open Source Game Engine — DEV Community",
+      "note": "NVIDIA Godot path-tracing fork released at GDC 2026 under MIT licence"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Godot_(game_engine)",
+      "title": "Godot Engine — Wikipedia",
+      "note": "Godot Steam adoption figures and community growth data"
+    },
+    {
+      "url": "https://www.strayspark.studio/blog/godot-vs-unity-vs-unreal-2026",
+      "title": "Godot vs Unity vs Unreal in 2026 — StraySpark",
+      "note": "Comparative adoption data including Steam game counts"
+    }
+  ],
+  "bookmark_id": "2038566676745101681",
+  "generated_at": "2026-05-07T09:31:56.192232Z",
+  "backend": "claude-sonnet-subagent"
+}

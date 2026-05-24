@@ -1,0 +1,24 @@
+{
+  "key": "QURE",
+  "name": "uniQure N.V.",
+  "exchange": "NASDAQ",
+  "blurb": "uniQure N.V. is a Dutch clinical-stage gene therapy company headquartered in Amsterdam, Netherlands, with U.S. operations in Lexington, Massachusetts. The company focuses on developing one-time gene therapies for severe genetic diseases using its proprietary AAV-based platform. Its first approved product, Hemgenix (etranacogene dezaparvovec), received FDA approval in November 2022 for hemophilia B — the most expensive drug ever approved at launch — and is commercialized through a partnership with CSL Behring. Its pipeline is led by AMT-130, a gene therapy targeting Huntington's disease in Phase I/II trials.",
+  "recent": "Not enough public information — the provided research sources were unreadable (binary-encoded or CSS-only responses), and events after August 2025 fall outside this model's knowledge cutoff.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/QURE/",
+      "title": "uniQure N.V. (QURE) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/QURE/",
+      "title": "uniQure (QURE) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/QURE",
+      "title": "QURE Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:36:16.030984Z",
+  "backend": "claude-sonnet-subagent"
+}

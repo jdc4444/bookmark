@@ -1,0 +1,144 @@
+{
+  "headline": "OpenAI's Symphony Turns a Project Board into a Coding Factory",
+  "lede": "A specification from OpenAI called Symphony instructs a long-running daemon to watch a Linear project board, claim eligible issues, and dispatch each to an autonomous Codex agent that will — without human prompting — write code, open pull requests, and mark the ticket done. Released in spring 2026 and quickly accumulating 18,000 GitHub stars, it is less a product than a blueprint: a language-agnostic spec with a reference implementation in Elixir, designed to be copied and reimplemented. Its governing idea is that the right interface for managing AI coding agents is not a chat window but a project board.",
+  "body": "**Symphony** is a specification — and a reference implementation — for turning a *Linear* project board into an autonomous coding factory. Released by OpenAI in spring 2026, it describes a long-running daemon that wakes every thirty seconds, reads the board for eligible issues, and dispatches each to an isolated *Codex* agent worker. The spec is language-agnostic; the reference implementation, written in Elixir using the *BEAM* concurrency runtime, exploits lightweight processes to hold dozens of workers cheaply in parallel.\n\n@odysseus0z's summary — “a cron job dispatching tickets from Linear to workers, each of which is a Ralph loop” — is architecturally precise. The orchestrator is not literally a cron job but a daemon running a *poll-tick-dispatch* cycle that behaves identically from the outside. Each worker runs as a *Ralph loop*: an agent that keeps executing turns on the same thread, re-reading issue state after each pass, until the Linear issue moves to a terminal state or a configured turn limit is reached. The name, coined by developer Geoffrey Huntley and drawn from Ralph Wiggum of *The Simpsons*, evokes cheerful, unkillable persistence. It contrasts with the *ReAct* pattern, in which an agent decides for itself when to stop; in a Ralph loop, an external verifier makes that call.\n\nThe architectural elegance is in what Symphony deliberately omits: a database. All durable state lives in Linear and Git. What passes for a scratchpad — the running notes an agent accumulates across turns — is written into a Linear comment on the issue itself. That comment survives context rotation, is visible to human reviewers, and persists across daemon restarts. The design keeps the system observable without additional instrumentation: reading the board tells you exactly what every worker is doing. @odysseus0z reported loading fifty Linear tickets before bed and waking to thirty merged pull requests, agents having independently discovered how to test an Electron application by attaching to it via the Chrome DevTools Protocol.\n\nOpenAI claims a **500% increase in landed pull requests** after adopting Symphony internally — a figure striking enough to invite scrutiny. The spec's own authors are circumspect, labelling it an “engineering preview for trusted environments only,” and outside analysis has surfaced three structural constraints. Teams reportedly begin writing vaguer tickets once they assume the agent will compensate, producing architecturally wrong code. Agent output volume can outpace the human review bandwidth that maintains quality. And the binding technical requirement is not model capability but what analysts have called *harness engineering*: Symphony works best in modular, well-typed codebases with deterministic test suites; legacy and unstructured systems are poor candidates.\n\n@odysseus0z closes with “Yes it is all you need” — a deliberate echo of the 2017 paper “Attention Is All You Need,” which introduced the transformer architecture by arguing that competing complexity was unnecessary. The parallel is pointed: the same instinct toward minimal, composable design that reshaped deep learning may be the right frame for agent orchestration. A cron job, some workers, and a comment thread may indeed be enough.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Linear",
+      "ticker": null
+    }
+  ],
+  "poster": "odysseus0z",
+  "concepts": [
+    {
+      "key": "linear",
+      "term": "Linear",
+      "definition": "A fast, keyboard-first project management tool built for software teams. Issues move through configurable states (To Do, In Progress, In Review, Done); Symphony uses the Linear API as both its input queue and its durable state store."
+    },
+    {
+      "key": "ralph-loop",
+      "term": "Ralph loop",
+      "definition": "An agent execution pattern in which the model iterates in a loop until an external verifier — not the model itself — signals completion. Between iterations, state is stored outside the context window (in files, git commits, or external comments) to prevent degradation across long runs. Named after Ralph Wiggum of The Simpsons by developer Geoffrey Huntley."
+    },
+    {
+      "key": "poll-tick-dispatch",
+      "term": "poll-tick-dispatch",
+      "definition": "A daemon architecture pattern in which a long-running process wakes on a fixed interval (a tick), evaluates system state (the poll), and assigns work to available handlers (the dispatch). Symphony's orchestrator uses this to periodically check Linear for eligible issues and route them to Codex agent workers."
+    },
+    {
+      "key": "react-pattern",
+      "term": "ReAct",
+      "definition": "A widely-used AI agent pattern (Reasoning + Acting) in which the model interleaves step-by-step reasoning with tool calls and decides autonomously when the task is complete. Contrasted with Ralph loop, where an external condition — not the model's own judgment — determines exit."
+    },
+    {
+      "key": "codex",
+      "term": "Codex",
+      "definition": "OpenAI's AI coding agent, used by Symphony as the worker subprocess that reads an issue description, writes code in an isolated workspace, and opens pull requests. Symphony spawns one Codex process per Linear issue."
+    },
+    {
+      "key": "harness-engineering",
+      "term": "harness engineering",
+      "definition": "The practice of building modular, deterministic test infrastructure — strict type systems, unit tests, integration harnesses — that allows automated agents to verify their own changes reliably. Analysts identify weak harnesses as the primary reason Symphony underperforms in legacy codebases."
+    },
+    {
+      "key": "beam",
+      "term": "BEAM",
+      "definition": "The Erlang virtual machine, capable of running millions of lightweight concurrent processes with low memory overhead. Symphony's Elixir reference implementation uses BEAM to manage dozens of parallel Codex workers efficiently."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "openai-symphony",
+      "url": "https://github.com/openai/symphony",
+      "summary": "Symphony is the subject of this brief: an open-source specification and Elixir reference implementation for orchestrating autonomous Codex coding agents via a Linear project board. The repo contains SPEC.md (the language-agnostic protocol), the Elixir orchestrator daemon, a WORKFLOW.md template system, and configurable lifecycle hooks for workspace setup and teardown."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/openai/symphony",
+      "title": "openai/symphony — GitHub",
+      "note": "Primary source: repository README and overall structure"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openai/symphony/main/SPEC.md",
+      "title": "Symphony SPEC.md",
+      "note": "Language-agnostic protocol specification; ground truth for all architectural claims"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/openai/symphony/main/elixir/README.md",
+      "title": "Symphony Elixir README",
+      "note": "Reference implementation details including BEAM concurrency and worker lifecycle states"
+    },
+    {
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony/",
+      "title": "OpenAI — An open-source spec for Codex orchestration: Symphony",
+      "note": "Official announcement (returned HTTP 403 at fetch time; secondary sources used for release details)"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=47252045",
+      "title": "Hacker News: Symphony discussion thread",
+      "note": "Community reception, criticism of spec documentation quality, and ecosystem observations"
+    },
+    {
+      "url": "https://www.alibabacloud.com/blog/from-react-to-ralph-loop-a-continuous-iteration-paradigm-for-ai-agents_602799",
+      "title": "From ReAct to Ralph Loop — Alibaba Cloud Blog",
+      "note": "Authoritative explainer on the Ralph loop pattern and its contrast with ReAct"
+    },
+    {
+      "url": "https://github.com/snarktank/ralph",
+      "title": "snarktank/ralph — GitHub",
+      "note": "Geoffrey Huntley's original Ralph loop implementation; source for naming convention and pattern origin"
+    },
+    {
+      "url": "https://github.com/vercel-labs/ralph-loop-agent",
+      "title": "vercel-labs/ralph-loop-agent — GitHub",
+      "note": "Formal outer-loop verification layer formalizing the Ralph pattern with an external verifier function"
+    },
+    {
+      "url": "https://dev.to/alexandergekov/2026-the-year-of-the-ralph-loop-agent-1gkj",
+      "title": "2026: The Year of the Ralph Loop Agent — DEV.to",
+      "note": "Overview of Ralph loop adoption, token management strategies, and context rotation"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/openai-symphony-spec-linear-agent-control-plane-500-percent-pr-increase",
+      "title": "MindStudio: OpenAI Symphony — 500% PR Increase Analysis",
+      "note": "Analysis of Symphony as Linear control plane, including the 500% PR claim and failure modes"
+    },
+    {
+      "url": "https://www.epsilla.com/blogs/2026-04-19-symphony-the-paradigm-shift-from-supervising-agent",
+      "title": "Epsilla: Symphony — The Paradigm Shift from Supervising Agents",
+      "note": "Analysis of harness engineering as the binding constraint for Symphony adoption"
+    },
+    {
+      "url": "https://pub.towardsai.net/i-pointed-openais-symphony-at-20-linear-issues-the-15k-star-orchestrator-killed-my-standup-27e19cf85233",
+      "title": "Towards AI: I Pointed Symphony at 20 Linear Issues",
+      "note": "First-person user experience; corroborates the overnight-batch workflow @odysseus0z describes"
+    },
+    {
+      "url": "https://www.marktechpost.com/2026/03/05/openai-releases-symphony-an-open-source-agentic-framework-for-orchestrating-autonomous-ai-agents-through-structured-scalable-implementation-runs/",
+      "title": "MarkTechPost: OpenAI Releases Symphony",
+      "note": "News coverage with March 2026 release date context"
+    },
+    {
+      "url": "https://devops.com/openai-debuts-symphony-to-orchestrate-coding-agents-at-scale/",
+      "title": "DevOps.com: OpenAI Debuts Symphony to Orchestrate Coding Agents at Scale",
+      "note": "Additional news coverage and enterprise framing"
+    },
+    {
+      "url": "https://x.com/odysseus0z/status/2031850264240800131",
+      "title": "@odysseus0z — Getting Started with OpenAI Symphony (X thread)",
+      "note": "Poster's documented hands-on experience: 50 tickets loaded, 30 merged PRs overnight"
+    }
+  ],
+  "bookmark_id": "2030413782036726181",
+  "generated_at": "2026-05-07T12:21:48.565283Z",
+  "backend": "claude-sonnet-subagent"
+}

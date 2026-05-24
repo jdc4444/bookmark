@@ -1,0 +1,18 @@
+{
+  "key": "JoeyGEX",
+  "display_name": "Joe",
+  "blurb": "No usable profile data was retrievable from the provided sources. The X.com page for @JoeyGEX failed to load due to a JavaScript requirement, and the Apify source is unrelated to this account. Insufficient information exists in the supplied research to characterize this user's domain, posting focus, or follower count.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/JoeyGEX"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/JoeyGEX",
+      "title": "Joe (@JoeyGEX) / Posts / X — failed to load (JS disabled)"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T11:08:05.397010Z",
+  "backend": "claude-sonnet-subagent"
+}

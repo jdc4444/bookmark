@@ -1,0 +1,9 @@
+{
+  "handle": "sunxliao",
+  "platform": "X",
+  "inferred_focus": ["US equities", "small-cap speculation", "fintwit calls", "technology and defence stocks"],
+  "notes": "Posts in the 'retroactive call' genre common on financial social media: lists of tickers with claimed entry prices and subsequent gains, framed as ignored wisdom. No confirmed institutional affiliation or track record documentation found at time of writing. Posts skew toward volatile, narrative-driven names across sectors including bitcoin miners pivoting to AI, drone/defence, meme stocks, and speculative technology.",
+  "type": "poster",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

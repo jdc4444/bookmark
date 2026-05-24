@@ -1,0 +1,23 @@
+{
+  "ticker": "FN",
+  "exchange": "NYSE",
+  "company": "Fabrinet",
+  "sector": "Technology",
+  "description": "Fabrinet is a precision contract manufacturer specializing in optical and electro-optical components and assemblies, primarily the high-bandwidth transceivers and interconnects used in AI data center networking. Operating primarily from Thailand, it serves the world's leading optical networking and photonics companies. As AI clusters have scaled, demand for 400G/800G/1.6T coherent optical transceivers — the physical links that move data between GPU clusters — has made Fabrinet one of the fastest-growing EMS companies in the sector. Q3 FY2026 revenue was $1.21 billion (+39% YoY); the company carries zero debt and $945 million in cash.",
+  "key_products": [
+    "High-bandwidth optical transceivers",
+    "Coherent optical modules",
+    "Laser assemblies",
+    "HPC interconnects",
+    "Precision optical-electro-mechanical assemblies"
+  ],
+  "market_cap_usd": null,
+  "market_cap_date": "2026-05-05",
+  "revenue_ttm_usd": null,
+  "cash_usd": 945900000,
+  "debt_usd": 0,
+  "last_updated": "2026-05-05",
+  "key": "FN",
+  "blurb": "Fabrinet is a precision contract manufacturer specializing in optical and electro-optical components and assemblies, primarily the high-bandwidth transceivers and interconnects used in AI data center networking. Operating primarily from Thailand, it serves the world's leading optical networking and photonics companies. As AI clusters have scaled, demand for 400G/800G/1.6T coherent optical transceivers — the physical links that move data between GPU clusters — has made Fabrinet one of the fastest-growing EMS companies in the sector.",
+  "recent": "Q3 FY2026 revenue was $1.21 billion (+39% YoY); the company carries zero debt and approximately $946 million in cash."
+}

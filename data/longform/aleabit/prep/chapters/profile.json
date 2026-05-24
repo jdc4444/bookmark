@@ -1,0 +1,216 @@
+{
+  "slug": "profile",
+  "title": "Who Serenity is",
+  "lede": "Serenity is a pseudonymous X account that arrived on the platform in July 2025 and accumulated roughly 230,000 followers in under a year by mapping obscure suppliers in the AI hardware stack — photonics wafers, indium phosphide substrates, HBM compression tooling — before institutional research had named them. The account's self-reported 2026 YTD returns of approximately 630% are unaudited and, depending on which tweet you read, sometimes considerably higher; an independent reconstruction of publicly-timestamped calls lands closer to 570%. What is not in dispute is that the underlying thesis — a photonics supercycle driven by co-packaged optics in AI data centres — has so far paid off.",
+  "body": "The handle itself is a small disclosure. @aleabitoreddit — a Latinate rendering of \"Reddit player\" — announces a provenance that the account simultaneously claims and chafes against. The bio reads: \"That famous @Reddit WSB Trader now on X. AI/Semi Supply Chain Analyst ex. RISC-V FDN, AI research scientist; now trading unknown bottlenecks.\" No verified surname appears anywhere in the public record. The display name is Serenity.\n\nThe account's first posts, in July 2025, did not suggest what was coming. One early thread mapped a Naruto storyline onto an Upwork (UPWK) price chart and concluded, drily, that the bull pattern was visible to \"anyone with a PHD such as myself.\" The ironic register was a deliberate riff on the WallStreetBets aesthetic of mock-academic retail trading. By September 2025 the tone had shifted: Serenity was posting 195 tweets a month on *indium phosphide* wafer supply, *co-packaged optics* (the integration of optical transceivers directly onto a compute chip's package), and the capital-expenditure guidance of Korean memory manufacturers. By March 2026 the monthly count had reached 994.\n\nThe WallStreetBets provenance is unverifiable in its specifics. No public Reddit archive or media report documents a notable WSB figure matching Serenity's described background. What the account has said is that it was banned from r/WallStreetBets after AXT (AXTI) rose from $12 to over $80 \"because Mods got mad it kept going up and played out correctly.\" The username implies prior activity on the platform; the ban story implies a traceable record. Neither constitutes independent confirmation of celebrity status within that community.\n\n## A technical background that partly checks out\n\nThe biography's claim of \"ex. RISC-V FDN, AI research scientist\" is more specific than most X biographies and more checkable — and it partly holds up. In a March 2026 thread, Serenity described their trajectory in semiconductor circles:\n\n> My first job was $INTC but I quit after a really short time. Spend a year or two working on RISC-V related stuff like RocketChip, secure enclaves etc. at UC Berkeley. Was a researcher at…\n\nThe tweet was truncated in capture. But *RocketChip* is a real artifact: the Berkeley RISC-V processor generator developed in the ASPIRE Lab under Krste Asanović, the open-source implementation that underpins much of the RISC-V ecosystem and eventually anchored SiFive. Involvement at Berkeley in that period is a specific, checkable claim rather than vague credential-dropping. A later post was more emphatic: \"I literally pioneered RISC-V architecture implementations back when I was at Berkeley and still hold active patents. Frontier labs and $NVDA tried recruiting me to lead some AI teams. Yet the only mention of my background is 'WSB meme…'\"\n\nRISC-V International does not publish historical working-group or staff rosters, so the \"ex. RISC-V FDN\" designation cannot be confirmed against a public membership list. The broader academic trail has some independent corroboration: @SingularityRes, a separate account in the wider photonics cluster, noted in April 2026 that \"Serenity has a paper in Nature,\" a claim Serenity acknowledged in kind (\"I went to UC Berkeley and I have nature publications as well\"). The account also describes holding patents in semiconductors and cryptography, and lists its current occupation as running a fintech company whose name does not appear in any public corporate filing.\n\nThe technical background is self-reported at several links in the chain. It is nonetheless more substantive than the WSB-influencer framing that critical press coverage has reflexively reached for.\n\n## The analytical method\n\nThe conceptual frame is simple enough to state in a sentence: find the *functional monopoly* — a small supplier whose process IP, geography or capacity reservation makes it impossible to substitute on any commercially relevant timeframe — before institutions do. The logic is that a bottleneck at a sub-$2bn supplier is more dangerous to a hyperscaler's product roadmap than any GPU substitution risk, and therefore eventually commands a price that reflects the ransom value, not a standard earnings multiple. Serenity is explicit that conventional valuation metrics misread this dynamic:\n\n> Stop trying to model bottlenecks with traditional metrics like P/S or P/E… For $AXTI: it's like you found a restroom after eating 20 Tacos with Pinto Beans from Taco Bell. You're out of the toilet paper… but it's urgent.\n\nThe irreverence is calibrated. Posts mix supply-chain topology maps, translated Japanese regulatory filings, and meme-adjacent language in proportions that appear designed to maximise engagement without surrendering analytical substance. The February and March 2026 posting surge — 692 and 994 tweets respectively — coincided with NVIDIA's (NVDA) GTC event and the first broad market recognition of co-packaged optics as a commercial reality.\n\n## Reception and scepticism\n\nThe account's growth from effectively zero to roughly 230,000 followers in under ten months generated its own secondary literature. @SingularityRes captured the dynamic in April 2026: \"every retail optics investor is a @aleabitoreddit wrapper.\" @Ren_aramb, whose own account grew in the same period, called Serenity \"the godfather of FinX\" and \"my main source of alpha.\" @ParadisLabs, a regular interlocutor on thesis posts, described Serenity as having covered certain names better than it probably could itself.\n\nScepticism exists, too. @MoodyWriter13, who describes a claimed offline acquaintance — an \"actor colleague from that short film\" — and who Serenity has since blocked, raised a pointed structural challenge: if Sivers Semiconductors (SIVE.ST) is as critical to the CPO laser supply chain as presented, why have strategic buyers not taken equity stakes? The question remains open. MoodyWriter13 also disputed Serenity's characterisation of Riber (ALRIB.PA), arguing that utilisation was running at 50–60% and meaningful demand ramp was years away.\n\nSerenity's self-reported performance figures vary depending on which post you read: 630% YTD in early 2026, then 1,337% and 1,525% as additional names paid off. An independent reconstruction of publicly-timestamped calls, applied on an equal-weight basis to 160 trades across 200 unique tickers, reaches approximately 570% over a 213-day window — consistent with the thesis having worked, while leaving total returns a function of position sizing that cannot be reconstructed from public posts alone.",
+  "tickers": [
+    "UPWK",
+    "AXTI",
+    "INTC",
+    "NVDA",
+    "MRVL",
+    "AEHR",
+    "LITE",
+    "COHR",
+    "TSEM",
+    "SOI.PA",
+    "LPK.DE",
+    "SIVE.ST",
+    "6315.T",
+    "6830.T",
+    "ALRIB.PA"
+  ],
+  "companies": [
+    {
+      "name": "AXT Inc.",
+      "ticker": "AXTI"
+    },
+    {
+      "name": "Upwork",
+      "ticker": "UPWK"
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL"
+    },
+    {
+      "name": "Aehr Test Systems",
+      "ticker": "AEHR"
+    },
+    {
+      "name": "Lumentum Holdings",
+      "ticker": "LITE"
+    },
+    {
+      "name": "Coherent",
+      "ticker": "COHR"
+    },
+    {
+      "name": "Tower Semiconductor",
+      "ticker": "TSEM"
+    },
+    {
+      "name": "Soitec",
+      "ticker": "SOI.PA"
+    },
+    {
+      "name": "LPKF Laser & Electronics",
+      "ticker": "LPK.DE"
+    },
+    {
+      "name": "Sivers Semiconductors",
+      "ticker": "SIVE.ST"
+    },
+    {
+      "name": "Towa Corporation",
+      "ticker": "6315.T"
+    },
+    {
+      "name": "MSSCorp",
+      "ticker": "6830.T"
+    },
+    {
+      "name": "Riber",
+      "ticker": "ALRIB.PA"
+    },
+    {
+      "name": "SiFive",
+      "ticker": null
+    },
+    {
+      "name": "RISC-V International",
+      "ticker": null
+    }
+  ],
+  "concepts": [
+    {
+      "key": "co-packaged-optics",
+      "term": "Co-Packaged Optics (CPO)",
+      "definition": "A packaging architecture in which optical transceivers are integrated directly onto the same substrate as the compute or switching chip, replacing pluggable modules. CPO dramatically reduces the power consumed in moving data across a rack and is central to NVIDIA's Spectrum-X Photonics and Quantum-X Photonics switch programmes."
+    },
+    {
+      "key": "functional-monopoly",
+      "term": "Functional monopoly",
+      "definition": "Serenity's term for a supplier that occupies a chokepoint in a technology supply chain with no credible near-term substitute, regardless of its size. The argument is that a hyperscaler will pay a ransom-like premium for such components once a product cycle depends on them, making standard valuation multiples irrelevant."
+    },
+    {
+      "key": "indium-phosphide",
+      "term": "Indium phosphide (InP)",
+      "definition": "A compound semiconductor material preferred for the lasers and photodetectors in high-speed optical transceivers, because silicon cannot generate light efficiently. AXT (AXTI) and Lumentum (LITE) are key players in its supply chain. China added InP to its export-control list in February 2025, creating the supply shock that drove AXTI's price from roughly $12 to over $80."
+    },
+    {
+      "key": "risc-v",
+      "term": "RISC-V",
+      "definition": "An open-source instruction-set architecture originated at UC Berkeley in 2010 and now governed by RISC-V International, a Swiss non-profit. Unlike proprietary architectures such as Arm, anyone can implement a RISC-V chip without licensing fees. RocketChip, mentioned by Serenity, is the Berkeley RISC-V processor generator that became foundational to the ecosystem."
+    },
+    {
+      "key": "hbm",
+      "term": "High-Bandwidth Memory (HBM)",
+      "definition": "A stacked DRAM standard used in AI accelerators and networking ASICs that requires the memory die to be bonded directly to the logic chip. HBM4, standardised by JEDEC in April 2025, supports up to 2 TB/s of bandwidth. Towa Corporation (6315.T) supplies the compression-moulding tools used in HBM packaging."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1051627/000155837025003004/axti-20241231x10k.htm",
+      "title": "AXT Inc. 10-K FY2024 — SEC EDGAR",
+      "note": "Confirms InP export-control event (Feb 2025), revenue surge, and hyperscaler demand"
+    },
+    {
+      "url": "https://investors.axt.com/Investors/news/news-details/2025/AXT-Inc--Announces-Third-Quarter-2025-Financial-Results/default.aspx",
+      "title": "AXT Q3 2025 Earnings Release",
+      "note": "InP revenue up 250%+ sequentially to $13.1M; record $49M backlog"
+    },
+    {
+      "url": "https://www.soitec.com/home/group/newsroom/press-releases/content/2025/03/19/soitec-contributes-to-accelerated-development-of-integrated-optical-connectivity-solutions-for-ai-datacentres-with-its-silicon-photonics-soi-technology",
+      "title": "Soitec Silicon Photonics SOI Press Release (March 2025)",
+      "note": "Soitec named as sole at-volume Photonics-SOI supplier; NVIDIA, Broadcom, Marvell named as partners"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/05/27/3088835/0/en/Soitec-Reports-Fourth-Quarter-Revenue-and-Full-Year-Results-of-Fiscal-Year-2025.html",
+      "title": "Soitec FY2025 Full-Year Results",
+      "note": "Photonics-SOI segment approaching EUR 100M; 5M to 12M wafer TAM by 2030"
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories",
+      "title": "NVIDIA Spectrum-X Photonics Newsroom (March 18, 2025)",
+      "note": "GTC 2025 CPO announcement; supply chain named includes Lumentum, Coherent, Sumitomo"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/03/23/3260248/0/en/Tower-Semiconductor-and-Coherent-Demonstrate-400Gbps-lane-Data-Transmission-with-a-Silicon-Modulator-in-a-Production-Ready-Sipho-Process.html",
+      "title": "Tower Semiconductor and Coherent 400 Gbps/lane Demo (March 2026)",
+      "note": "Tower SiPho revenue +115% YoY to $228M in 2025; corroborates foundry chokepoint thesis"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20250318221354/en/Lumentum-Selected-as-an-NVIDIA-Silicon-Photonics-Ecosystem-Partner-to-Advance-AI-Networking-at-Scale",
+      "title": "Lumentum Selected as NVIDIA Silicon Photonics Ecosystem Partner (March 2025)",
+      "note": "Lumentum named in NVIDIA Spectrum-X supply chain; FY2025 Cloud & Networking up 30%"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1040470/000165495425008553/aehr_10k.htm",
+      "title": "Aehr Test Systems 10-K FY2025 — SEC EDGAR",
+      "note": "Aehr pivot from SiC to silicon photonics burn-in; March 2026 photonics customer win"
+    },
+    {
+      "url": "https://newsletter.semianalysis.com/p/co-packaged-optics-cpo-book-scaling",
+      "title": "SemiAnalysis: Co-Packaged Optics — Scaling with Light (January 2026)",
+      "note": "Identifies laser reliability and yield as top CPO bottlenecks; Tower, GF as SiPho foundries"
+    },
+    {
+      "url": "https://www.jedec.org/news/pressreleases/jedec%C2%AE-and-industry-leaders-collaborate-release-jesd270-4-hbm4-standard-advancing",
+      "title": "JEDEC HBM4 Standard Release (JESD270-4, April 2025)",
+      "note": "HBM4 standard underpinning the memory supercycle Serenity cites for TOWA thesis"
+    },
+    {
+      "url": "https://riscv.org/about/board/",
+      "title": "RISC-V International Board of Directors (current)",
+      "note": "No individual matching Serenity's described profile appears in public board records; foundation does not publish historical rosters"
+    },
+    {
+      "url": "https://lide.lpkf.com/en/applications/glass-core-substrates",
+      "title": "LPKF LIDE Technology — Glass Core Substrates",
+      "note": "LPKF's through-glass-via technology for advanced packaging substrates; corroborates LPK thesis"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-announces-collaboration-with-win-semiconductor-to-scale-high-volume-dfb-laser-production-302410292.html",
+      "title": "Sivers Semiconductors / WIN Semiconductor DFB Laser Collaboration (March 2025)",
+      "note": "SIVE volume-ramp de-risked via WIN foundry; directly supports Serenity SIVE thesis"
+    }
+  ],
+  "serenity_quotes_used": [
+    {
+      "tweet_id": "2036632240017522962",
+      "url": "https://x.com/aleabitoreddit/status/2036632240017522962",
+      "context": "Serenity describes early career: Intel, Berkeley RISC-V/RocketChip work"
+    },
+    {
+      "tweet_id": "2046338504553275505",
+      "url": "https://x.com/aleabitoreddit/status/2046338504553275505",
+      "context": "Claims to have pioneered RISC-V implementations at Berkeley; NVDA/Frontier recruitment"
+    },
+    {
+      "tweet_id": "2044864469667607009",
+      "url": "https://x.com/aleabitoreddit/status/2044864469667607009",
+      "context": "WSB ban story: banned after AXTI rose from $12 to $80+"
+    },
+    {
+      "tweet_id": "2049523399911952597",
+      "url": "https://x.com/aleabitoreddit/status/2049523399911952597",
+      "context": "Enumerates six functional monopoly positions (TOWA, MSSCorp, LPK, SOI, AXTI)"
+    },
+    {
+      "tweet_id": "2036638807496499687",
+      "url": "https://x.com/aleabitoreddit/status/2036638807496499687",
+      "context": "Taco Bell/toilet paper analogy for bottleneck-value thesis vs P/E models"
+    }
+  ],
+  "generated_at": "2026-05-08T09:39:07Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "TLT",
+  "name": "iShares 20+ Year Treasury Bond ETF",
+  "exchange": "NASDAQ",
+  "blurb": "TLT is an exchange-traded fund managed by BlackRock under the iShares brand that seeks to track the investment results of the ICE U.S. Treasury 20+ Year Bond Index. It holds U.S. government Treasury bonds with remaining maturities greater than 20 years, making it one of the longest-duration bond ETFs available. Because of its high duration, TLT is acutely sensitive to changes in long-term interest rates — price moves inversely with yields — and it is widely used by institutional and retail investors for interest-rate hedging, macro positioning, and fixed-income exposure. With tens of billions in assets under management, TLT is consistently one of the most actively traded ETFs in the U.S. market.",
+  "recent": "Not enough public information. The research sources provided contain only page-level metadata and navigation content without substantive recent news, price action, or earnings data for the April–May 2026 window.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/TLT/news/",
+      "title": "iShares 20+ Year Treasury Bond ETF (TLT) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/TLT/news/",
+      "title": "TLT News Today — MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/fund/tlt",
+      "title": "TLT | iShares 20+ Year Treasury Bond ETF Overview — MarketWatch"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/etfdetails/tlt-us-etf/fi-a24b5r",
+      "title": "iShares 20+ Year Treasury Bond ETF (TLT) — MSN Money"
+    },
+    {
+      "url": "https://www.zacks.com/funds/etf/TLT/profile",
+      "title": "iShares 20+ Year Treasury Bond ETF (TLT) Profile — Zacks"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:18:10.928124Z",
+  "backend": "claude-sonnet-subagent"
+}

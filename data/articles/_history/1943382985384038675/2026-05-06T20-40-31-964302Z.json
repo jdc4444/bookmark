@@ -1,0 +1,33 @@
+{
+  "headline": "Moonvalley Opens Its AI Video Generator to the Public",
+  "lede": "AI educator Angry Tom flags that Moonvalley, a generative-video startup, has made its platform available to try. The tweet is essentially a pointer — the substance is Moonvalley itself, a product competing in an increasingly crowded field of AI video tools.",
+  "body": "**Moonvalley** is an AI video-generation company whose platform lets users produce short video clips from text or image prompts. It sits in a market segment that has grown rapidly since 2023, with rivals including Runway, Kling, and OpenAI's Sora all vying for the same professional and prosumer audiences.\n\nThe research sources gathered here do not provide verified details about Moonvalley's specific capabilities, funding, or founding team, so this brief cannot confirm claims about output quality or benchmark performance. What the tweet establishes is simply that the service is accessible for testing — a meaningful milestone for any AI product that has been operating in a private-beta or waitlist phase.\n\n@AngryTomtweets is a self-described consultant and AI educator with a following built around hands-on coverage of generative tools. His posts tend to serve as quick-access signals for practitioners monitoring the space — the implied message being that this is worth a look, not necessarily that it outperforms alternatives.\n\nThe AI video market is notable for how quickly relative standings shift. A model celebrated in one month can be superseded within weeks. Without a head-to-head evaluation or third-party benchmarks cited in the source material, any claim about Moonvalley's standing relative to competitors should be treated as provisional.",
+  "tickers": [],
+  "poster": "AngryTomtweets",
+  "concepts": [
+    {
+      "key": "generative-video",
+      "term": "generative video",
+      "definition": "A category of AI that produces video footage from text descriptions, still images, or other inputs rather than capturing real footage. Models are trained on large video datasets and learn to synthesize motion, lighting, and scene coherence. Quality is usually measured by temporal consistency — how smoothly objects and characters move between frames."
+    },
+    {
+      "key": "private-beta",
+      "term": "private beta",
+      "definition": "A product phase in which access is limited to invited or waitlisted users before a general public launch. Companies use it to gather feedback and scale infrastructure before full release. 'You can try it here' typically signals a transition out of this phase."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The research sources do not contain verified details about Moonvalley's capabilities or benchmarks, so no specific claims could be confirmed or refuted. Any performance comparisons attributed to Moonvalley elsewhere should be independently verified.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://threadreaderapp.com/user/AngryTomtweets",
+      "title": "Angry Tom's Threads — Thread Reader App",
+      "note": "Provides context on @AngryTomtweets as an AI educator focused on generative tools including video models"
+    }
+  ],
+  "bookmark_id": "1943382985384038675",
+  "generated_at": "2026-05-06T20:40:31.964302Z",
+  "backend": "claude"
+}

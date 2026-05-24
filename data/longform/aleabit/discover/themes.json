@@ -1,0 +1,33 @@
+{
+  "report_id": "aleabit",
+  "handle": "aleabitoreddit",
+  "display_name": "Serenity",
+  "discovery_method": "manual_migration",
+  "themes": [
+    {
+      "slug": "photonics",
+      "title": "The photonics supercycle",
+      "tickers": ["SIVE", "SOI", "IQE", "AXTI", "TSEM", "AAOI", "LITE", "COHR", "FN", "POET", "ALAB", "CRDO"]
+    },
+    {
+      "slug": "hbm_packaging",
+      "title": "HBM and advanced packaging",
+      "tickers": ["AEHR", "SNDK", "MU", "KLAC", "ONTO", "TOWA", "MSSCorp", "AMAT", "LRCX", "TSEM"]
+    },
+    {
+      "slug": "ai_infra",
+      "title": "AI infrastructure and the neoclouds",
+      "tickers": ["NBIS", "CRWV", "IREN", "APLD", "VRT", "EQIX", "VST", "CIFR", "CORZ", "DLR", "TLN", "CEG"]
+    },
+    {
+      "slug": "hyperscaler_sovereign",
+      "title": "Hyperscalers and sovereign AI",
+      "tickers": ["NVDA", "MRVL", "AVGO", "AMD", "TSM", "ASML", "META", "GOOGL", "MSFT", "AMZN", "ARM", "ORCL", "KSPI", "EWY"]
+    },
+    {
+      "slug": "bear_book",
+      "title": "What hasn't worked",
+      "tickers": ["DFLI", "VST", "INFQ", "RDDT", "HIMS", "HOOD", "IBIT"]
+    }
+  ]
+}

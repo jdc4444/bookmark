@@ -1,0 +1,24 @@
+{
+  "key": "RXRX",
+  "name": "Recursion Pharmaceuticals, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Recursion Pharmaceuticals is a clinical-stage TechBio company headquartered in Salt Lake City, Utah, that combines large-scale biological experimentation with machine learning to accelerate drug discovery. The company runs millions of automated cellular experiments weekly, generating proprietary datasets it calls the Recursion OS, which it uses to identify disease mechanisms and novel drug candidates across rare diseases, oncology, and infectious disease. Recursion has strategic partnerships with NVIDIA (which invested $50M in 2023) and Bayer, and completed its acquisition of AI drug-discovery firm Exscientia in 2024, significantly expanding its computational chemistry capabilities. As of mid-2025 it had multiple programs in clinical trials but remained pre-revenue in the traditional pharmaceutical sense.",
+  "recent": "Not enough public information — the provided research sources (Yahoo Finance, MarketBeat, CNN Markets) did not return readable content, and events from April–May 2026 fall outside this model's August 2025 knowledge cutoff.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/RXRX/",
+      "title": "Recursion Pharmaceuticals, Inc. (RXRX) Stock Price, News, Quote — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/RXRX/news/",
+      "title": "RXRX News Today — MarketBeat"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/RXRX",
+      "title": "RXRX Stock Quote Price and Forecast — CNN Markets"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:01:24.081830Z",
+  "backend": "claude-sonnet-subagent"
+}

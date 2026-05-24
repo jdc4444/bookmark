@@ -1,0 +1,11 @@
+{
+  "key": "NUAI",
+  "name": "Unconfirmed (no widely-listed equity at this exact symbol)",
+  "exchange": "unknown / unconfirmed",
+  "blurb": "Several X.com posts reference $NUAI but no major US, EU, or Asian exchange currently lists a primary security under that symbol with confidence. Possible referents include a small-cap or recently-renamed name; readers encountering $NUAI in a tweet should verify the underlying company before treating it as a known ticker.",
+  "recent": "No verified recent trading data because the underlying issuer is not confidently identified.",
+  "sources": [],
+  "type": "ticker",
+  "generated_at": "2026-05-06T03:23:40.364683+00:00",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "HIMX",
+  "name": "Himax Technologies, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Himax Technologies is a fabless semiconductor company headquartered in Tainan, Taiwan, specializing in display imaging processing technologies. Its core business is display driver integrated circuits (ICs) for LCD and OLED panels used in smartphones, tablets, monitors, televisions, and automotive displays, where it holds a leading market share among independent driver IC suppliers. The company also develops non-driver products including wafer-level optics (WLO), liquid crystal on silicon (LCoS) microdisplays for augmented reality headsets, and timing controllers. Major customers include large panel makers such as BOE, Innolux, and AUO.",
+  "recent": "Not enough public information. The provided sources include a MarketBeat headline asking why HIMX stock 'went up today' and an MSN article titled 'Himax (HIMX) shares skyrocket, what you need to know,' suggesting a notable positive price move in the past 30 days, but neither article's body text was returned in the research sources, so the specific catalyst, earnings result, or news event cannot be confirmed.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/HIMX/",
+      "title": "Himax Technologies, Inc. (HIMX) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/top-stocks/himax-himx-shares-skyrocket-what-you-need-to-know/ar-AA22WlNh",
+      "title": "Himax (HIMX) shares skyrocket, what you need to know — MSN"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/HIMX/news/",
+      "title": "HIMX News Today | Why did Himax Technologies stock go up today? — MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-15T08:05:56.878863Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,1422 @@
+{
+  "authenticated_user": {},
+  "bookmark_count": 25,
+  "bookmarks": [
+    {
+      "author": {
+        "id": "igetredpilled",
+        "name": "red pill rick",
+        "username": "igetredpilled"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-27T19:27:23.000Z",
+      "engagement_score": 817.0,
+      "id": "2048846490785792133",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 32656,
+        "like_count": 589,
+        "quote_count": 0,
+        "reply_count": 46,
+        "retweet_count": 91
+      },
+      "raw": {
+        "author": {
+          "name": "red pill rick",
+          "username": "igetredpilled"
+        },
+        "created_at": "2026-04-27T19:27:23.000Z",
+        "id": "2048846490785792133",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 32656,
+          "like_count": 589,
+          "quote_count": 0,
+          "reply_count": 46,
+          "retweet_count": 91
+        },
+        "raw_text": "red pill rick @igetredpilled · Apr 28 SPX relative to M2 is back to the dot-com bubble high btw. 46 91 589 32K",
+        "text": "SPX relative to M2 is back to the dot-com bubble high btw.",
+        "url": "https://x.com/igetredpilled/status/2048846490785792133",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "SPX relative to M2 is back to the dot-com bubble high btw.",
+      "url": "https://x.com/igetredpilled/status/2048846490785792133",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "MichaelMOTTCM",
+        "name": "Michael J. Kramer",
+        "username": "MichaelMOTTCM"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-27T19:18:39.000Z",
+      "engagement_score": 1072.0,
+      "id": "2048844293100437895",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 124980,
+        "like_count": 840,
+        "quote_count": 0,
+        "reply_count": 76,
+        "retweet_count": 78
+      },
+      "raw": {
+        "author": {
+          "name": "Michael J. Kramer",
+          "username": "MichaelMOTTCM"
+        },
+        "created_at": "2026-04-27T19:18:39.000Z",
+        "id": "2048844293100437895",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 124980,
+          "like_count": 840,
+          "quote_count": 0,
+          "reply_count": 76,
+          "retweet_count": 78
+        },
+        "raw_text": "Michael J. Kramer @MichaelMOTTCM · Apr 28 The volume is just melting away. 76 78 840 124K",
+        "text": "The volume is just melting away.",
+        "url": "https://x.com/MichaelMOTTCM/status/2048844293100437895",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "The volume is just melting away.",
+      "url": "https://x.com/MichaelMOTTCM/status/2048844293100437895",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "QuantSymplectic",
+        "name": "Symplectic.Research",
+        "username": "QuantSymplectic"
+      },
+      "category": "Business and startups",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-27T17:10:21.000Z",
+      "engagement_score": 972.0,
+      "id": "2048812003548959098",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 52813,
+        "like_count": 769,
+        "quote_count": 0,
+        "reply_count": 29,
+        "retweet_count": 87
+      },
+      "raw": {
+        "author": {
+          "name": "Symplectic.Research",
+          "username": "QuantSymplectic"
+        },
+        "created_at": "2026-04-27T17:10:21.000Z",
+        "id": "2048812003548959098",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 52813,
+          "like_count": 769,
+          "quote_count": 0,
+          "reply_count": 29,
+          "retweet_count": 87
+        },
+        "raw_text": "Symplectic.Research @QuantSymplectic · Apr 28 Black-Scholes is wrong almost everywhere. And yet, it’s still the language of options markets. The reason: It’s the flat limit of a curved geometric pricing space. The volatility smile? That’s the curvature. Below we see where markets actually live in that space Preprint: Show more 29 87 769 52K",
+        "text": "Black-Scholes is wrong almost everywhere. And yet, it’s still the language of options markets. The reason: It’s the flat limit of a curved geometric pricing space. The volatility smile? That’s the curvature. Below we see where markets actually live in that space Preprint:",
+        "url": "https://x.com/QuantSymplectic/status/2048812003548959098",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Black-Scholes is wrong almost everywhere. And yet, it’s still the language of options markets. The reason: It’s the flat limit of a curved geometric pricing space. The volatility smile? That’s the curvature. Below we see where markets actually live in that space Preprint:",
+      "url": "https://x.com/QuantSymplectic/status/2048812003548959098",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "LIWEI_TWCapital",
+        "name": "LIWEI_TW Capital",
+        "username": "LIWEI_TWCapital"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-27T03:16:06.000Z",
+      "engagement_score": 183.0,
+      "id": "2048602056689348824",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 45718,
+        "like_count": 161,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 9
+      },
+      "raw": {
+        "author": {
+          "name": "LIWEI_TW Capital",
+          "username": "LIWEI_TWCapital"
+        },
+        "created_at": "2026-04-27T03:16:06.000Z",
+        "id": "2048602056689348824",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 45718,
+          "like_count": 161,
+          "quote_count": 0,
+          "reply_count": 4,
+          "retweet_count": 9
+        },
+        "raw_text": "LIWEI_TW Capital @LIWEI_TWCapital · Apr 27 $SIVE ex-CEO, Anders Storm, also holds $POET . I bet no body knows the industry better than him. Quote Anders Storm @StormDirac · Apr 26 Replying to @StockSavvyShay and @Speculator_io I have 5 Photonics favorits right now on and off your list, one in each of the layer 3, 4, 6, 7 and in the \"extra layer 8\". 3. $SIVE (missing in your list) 4. $GSF 6. $POET (might consolidate on this level until proven futur) 7. $MRVL 8. $AMD (big future user of photonics). 4 9 161 45K",
+        "text": "$SIVE ex-CEO, Anders Storm, also holds $POET . I bet no body knows the industry better than him.",
+        "url": "https://x.com/LIWEI_TWCapital/status/2048602056689348824",
+        "urls": [
+          {
+            "display_url": "$SIVE",
+            "expanded_url": "https://x.com/search?q=%24SIVE&src=cashtag_click",
+            "title": "$SIVE"
+          },
+          {
+            "display_url": "$POET",
+            "expanded_url": "https://x.com/search?q=%24POET&src=cashtag_click",
+            "title": "$POET"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "$SIVE ex-CEO, Anders Storm, also holds $POET . I bet no body knows the industry better than him.",
+      "url": "https://x.com/LIWEI_TWCapital/status/2048602056689348824",
+      "urls": [
+        {
+          "display_url": "$SIVE",
+          "expanded_url": "https://x.com/search?q=%24SIVE&src=cashtag_click",
+          "title": "$SIVE"
+        },
+        {
+          "display_url": "$POET",
+          "expanded_url": "https://x.com/search?q=%24POET&src=cashtag_click",
+          "title": "$POET"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "PurpleDrink_LLC",
+        "name": "PurpleDrinkCapital",
+        "username": "PurpleDrink_LLC"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-27T01:07:47.000Z",
+      "engagement_score": 51.0,
+      "id": "2048569764348330340",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8491,
+        "like_count": 48,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+      },
+      "raw": {
+        "author": {
+          "name": "PurpleDrinkCapital",
+          "username": "PurpleDrink_LLC"
+        },
+        "created_at": "2026-04-27T01:07:47.000Z",
+        "id": "2048569764348330340",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 8491,
+          "like_count": 48,
+          "quote_count": 0,
+          "reply_count": 3,
+          "retweet_count": 0
+        },
+        "raw_text": "PurpleDrinkCapital @PurpleDrink_LLC · Apr 27 It’s a Power Trend bitches Quote KASM @KASM_Capital · Apr 27 $SPY just ripped 14% off the March lows — and it’s about to go a lot higher. That’s probably surprising to hear. The index hasn’t been this stretched since the post‑COVID run. In the past 20 years, you only see this kind of overbought reading after major crashes, not before 3 48 8.4K",
+        "text": "It’s a Power Trend bitches",
+        "url": "https://x.com/PurpleDrink_LLC/status/2048569764348330340",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "It’s a Power Trend bitches",
+      "url": "https://x.com/PurpleDrink_LLC/status/2048569764348330340",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "aleabitoreddit",
+        "name": "Serenity",
+        "username": "aleabitoreddit"
+      },
+      "category": "Writing and knowledge",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-27T00:50:06.000Z",
+      "engagement_score": 1063.0,
+      "id": "2048565314053681285",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 61570,
+        "like_count": 925,
+        "quote_count": 0,
+        "reply_count": 46,
+        "retweet_count": 46
+      },
+      "raw": {
+        "author": {
+          "name": "Serenity",
+          "username": "aleabitoreddit"
+        },
+        "created_at": "2026-04-27T00:50:06.000Z",
+        "id": "2048565314053681285",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 61570,
+          "like_count": 925,
+          "quote_count": 0,
+          "reply_count": 46,
+          "retweet_count": 46
+        },
+        "raw_text": "Serenity @aleabitoreddit · Apr 27 Subscribers Fun fact for research: You can find a lot of \"hidden gems\" by looking at who companies like $COHR lists as competitors in the SEC filings. Names I've mentioned like 5N are there and it went from $.92 -> $24 in a few years. $LITE , Eoptolink, Innolight, are all there too. This Show more 46 22 925 61K",
+        "text": "Fun fact for research: You can find a lot of \"hidden gems\" by looking at who companies like $COHR lists as competitors in the SEC filings. Names I've mentioned like 5N are there and it went from $.92 -> $24 in a few years. $LITE , Eoptolink, Innolight, are all there too. This",
+        "url": "https://x.com/aleabitoreddit/status/2048565314053681285",
+        "urls": [
+          {
+            "display_url": "$COHR",
+            "expanded_url": "https://x.com/search?q=%24COHR&src=cashtag_click",
+            "title": "$COHR"
+          },
+          {
+            "display_url": "$LITE",
+            "expanded_url": "https://x.com/search?q=%24LITE&src=cashtag_click",
+            "title": "$LITE"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Fun fact for research: You can find a lot of \"hidden gems\" by looking at who companies like $COHR lists as competitors in the SEC filings. Names I've mentioned like 5N are there and it went from $.92 -> $24 in a few years. $LITE , Eoptolink, Innolight, are all there too. This",
+      "url": "https://x.com/aleabitoreddit/status/2048565314053681285",
+      "urls": [
+        {
+          "display_url": "$COHR",
+          "expanded_url": "https://x.com/search?q=%24COHR&src=cashtag_click",
+          "title": "$COHR"
+        },
+        {
+          "display_url": "$LITE",
+          "expanded_url": "https://x.com/search?q=%24LITE&src=cashtag_click",
+          "title": "$LITE"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "TheProfInvestor",
+        "name": "Prof",
+        "username": "TheProfInvestor"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-26T23:43:52.000Z",
+      "engagement_score": 496.0,
+      "id": "2048548649349857582",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 87795,
+        "like_count": 346,
+        "quote_count": 0,
+        "reply_count": 50,
+        "retweet_count": 50
+      },
+      "raw": {
+        "author": {
+          "name": "Prof",
+          "username": "TheProfInvestor"
+        },
+        "created_at": "2026-04-26T23:43:52.000Z",
+        "id": "2048548649349857582",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 87795,
+          "like_count": 346,
+          "quote_count": 0,
+          "reply_count": 50,
+          "retweet_count": 50
+        },
+        "raw_text": "Prof @TheProfInvestor · Apr 27 With this post. I am convinced Shorting $SOXX tomorrow. comback to the Earth Quote Heisenberg @Mr_Derivatives · Apr 27 $SOXX They wouldn't dare would they??? Remember back in January almost everyone said Gold was going to heaven and never coming back down... 50 22 346 87K",
+        "text": "With this post. I am convinced Shorting $SOXX tomorrow. comback to the Earth",
+        "url": "https://x.com/TheProfInvestor/status/2048548649349857582",
+        "urls": [
+          {
+            "display_url": "$SOXX",
+            "expanded_url": "https://x.com/search?q=%24SOXX&src=cashtag_click",
+            "title": "$SOXX"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "With this post. I am convinced Shorting $SOXX tomorrow. comback to the Earth",
+      "url": "https://x.com/TheProfInvestor/status/2048548649349857582",
+      "urls": [
+        {
+          "display_url": "$SOXX",
+          "expanded_url": "https://x.com/search?q=%24SOXX&src=cashtag_click",
+          "title": "$SOXX"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "poof_eth",
+        "name": "poof",
+        "username": "poof_eth"
+      },
+      "category": "Career and work",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-26T20:38:00.000Z",
+      "engagement_score": 18079.0,
+      "id": "2048501872370274749",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3556432,
+        "like_count": 15432,
+        "quote_count": 0,
+        "reply_count": 369,
+        "retweet_count": 1139
+      },
+      "raw": {
+        "author": {
+          "name": "poof",
+          "username": "poof_eth"
+        },
+        "created_at": "2026-04-26T20:38:00.000Z",
+        "id": "2048501872370274749",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3556432,
+          "like_count": 15432,
+          "quote_count": 0,
+          "reply_count": 369,
+          "retweet_count": 1139
+        },
+        "raw_text": "poof @poof_eth · Apr 27 Had a Jane Street interview in 2013 that still bothers me. It was my 6th round. Final interview. The guy walks in carrying no laptop, no notebook, just a cold brew and what I later realized was a single IKEA tea candle. He writes on the whiteboard: food: $200 rent: $800 Show more Quote Deedy @deedydas · Apr 25 Jane Street made ~$40B in 2025 with 3,500 employees, a ~2x from the year before. At ~65-70% profit margin, that's $8M profit / employee, the highest for a 1000+ ppl company. High-frequency trading continues to be the most efficient money making engine. I want to share an old 369 1.1K 15K 3.5M",
+        "text": "Had a Jane Street interview in 2013 that still bothers me. It was my 6th round. Final interview. The guy walks in carrying no laptop, no notebook, just a cold brew and what I later realized was a single IKEA tea candle. He writes on the whiteboard: food: $200 rent: $800",
+        "url": "https://x.com/poof_eth/status/2048501872370274749",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Had a Jane Street interview in 2013 that still bothers me. It was my 6th round. Final interview. The guy walks in carrying no laptop, no notebook, just a cold brew and what I later realized was a single IKEA tea candle. He writes on the whiteboard: food: $200 rent: $800",
+      "url": "https://x.com/poof_eth/status/2048501872370274749",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "Ren_aramb",
+        "name": "Ren",
+        "username": "Ren_aramb"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-26T18:36:01.000Z",
+      "engagement_score": 896.0,
+      "id": "2048471174917849301",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 128817,
+        "like_count": 786,
+        "quote_count": 0,
+        "reply_count": 20,
+        "retweet_count": 45
+      },
+      "raw": {
+        "author": {
+          "name": "Ren",
+          "username": "Ren_aramb"
+        },
+        "created_at": "2026-04-26T18:36:01.000Z",
+        "id": "2048471174917849301",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 128817,
+          "like_count": 786,
+          "quote_count": 0,
+          "reply_count": 20,
+          "retweet_count": 45
+        },
+        "raw_text": "Ren @Ren_aramb · Apr 27 Serenity makes an excellent point here. From this post alone you can count 10 different themes that are now considered bottlenecks and will likely print. If everything is a bottleneck, just make sure you’re positioned accordingly across these themes and let them compound. Show more Quote Serenity @aleabitoreddit · Apr 27 TLDR of recent news + bottlenecks that go brr: 1. CPU bottleneck - $INTC CEO said AI inference pushed CPU Ratio From 1:8 to 1:1. CPUs go brr ( $AMD, Intel, $ARM) -> $AMAT / $TSM / $KLAC, etc. go brr. 2. PGME / PGMEA shortage. DuPont, Shiny Chemical, Daxin, San Fu, $DOW and 20 45 786 128K",
+        "text": "Serenity makes an excellent point here. From this post alone you can count 10 different themes that are now considered bottlenecks and will likely print. If everything is a bottleneck, just make sure you’re positioned accordingly across these themes and let them compound.",
+        "url": "https://x.com/Ren_aramb/status/2048471174917849301",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Serenity makes an excellent point here. From this post alone you can count 10 different themes that are now considered bottlenecks and will likely print. If everything is a bottleneck, just make sure you’re positioned accordingly across these themes and let them compound.",
+      "url": "https://x.com/Ren_aramb/status/2048471174917849301",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "crux_capital_",
+        "name": "Gaetano",
+        "username": "crux_capital_"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-26T16:18:00.000Z",
+      "engagement_score": 609.0,
+      "id": "2048436440816615437",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 199602,
+        "like_count": 438,
+        "quote_count": 0,
+        "reply_count": 57,
+        "retweet_count": 57
+      },
+      "raw": {
+        "author": {
+          "name": "Gaetano",
+          "username": "crux_capital_"
+        },
+        "created_at": "2026-04-26T16:18:00.000Z",
+        "id": "2048436440816615437",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 199602,
+          "like_count": 438,
+          "quote_count": 0,
+          "reply_count": 57,
+          "retweet_count": 57
+        },
+        "raw_text": "Gaetano @crux_capital_ · Apr 26 There is a company that... > Has Exposure To Optics > Has Exposure to CPU / Inference boom > Has Exposure to Transformers > Grew Revenue > 50% YoY > Trades at less than 1x rev And practically no one is talking about it Guesses? 57 12 438 199K",
+        "text": "There is a company that... > Has Exposure To Optics > Has Exposure to CPU / Inference boom > Has Exposure to Transformers > Grew Revenue > 50% YoY > Trades at less than 1x rev And practically no one is talking about it Guesses?",
+        "url": "https://x.com/crux_capital_/status/2048436440816615437",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "There is a company that... > Has Exposure To Optics > Has Exposure to CPU / Inference boom > Has Exposure to Transformers > Grew Revenue > 50% YoY > Trades at less than 1x rev And practically no one is talking about it Guesses?",
+      "url": "https://x.com/crux_capital_/status/2048436440816615437",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "yoitsyoung",
+        "name": "yoitsyoung",
+        "username": "yoitsyoung"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-26T05:51:34.000Z",
+      "engagement_score": 3225.0,
+      "id": "2048278793970942463",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 414422,
+        "like_count": 2916,
+        "quote_count": 0,
+        "reply_count": 31,
+        "retweet_count": 139
+      },
+      "raw": {
+        "author": {
+          "name": "yoitsyoung",
+          "username": "yoitsyoung"
+        },
+        "created_at": "2026-04-26T05:51:34.000Z",
+        "id": "2048278793970942463",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 414422,
+          "like_count": 2916,
+          "quote_count": 0,
+          "reply_count": 31,
+          "retweet_count": 139
+        },
+        "raw_text": "yoitsyoung @yoitsyoung · Apr 26 Sounded so crazy I had to check how he prompted ChatGPT. He only wrote 9 sentences. \"Don't use the internet. </problem> </lemma 1> </lemma 2> </lemma 3> REMEMBER: this unconditional argument may require non-trivial, creative and novel elements.\" Wow. Quote Ananyo Bhattacharya @Ananyo · Apr 25 23 years old with no advanced mathematics training solves Erdős problem with ChatGPT Pro. \"What’s beginning to emerge is that the problem was maybe easier than expected, and it was like there was some kind of mental block.”-Terence Tao https://scientificamerican.com/article/amateur-armed-with-chatgpt-vibe-maths-a-60-year-old-problem/… 31 139 2.9K 414K",
+        "text": "Sounded so crazy I had to check how he prompted ChatGPT. He only wrote 9 sentences. \"Don't use the internet. </problem> </lemma 1> </lemma 2> </lemma 3> REMEMBER: this unconditional argument may require non-trivial, creative and novel elements.\" Wow.",
+        "url": "https://x.com/yoitsyoung/status/2048278793970942463",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Sounded so crazy I had to check how he prompted ChatGPT. He only wrote 9 sentences. \"Don't use the internet. </problem> </lemma 1> </lemma 2> </lemma 3> REMEMBER: this unconditional argument may require non-trivial, creative and novel elements.\" Wow.",
+      "url": "https://x.com/yoitsyoung/status/2048278793970942463",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "bradsferguson",
+        "name": "Bradford Ferguson",
+        "username": "bradsferguson"
+      },
+      "category": "Business and startups",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-25T23:52:41.000Z",
+      "engagement_score": 335.0,
+      "id": "2048188478907686990",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 69148,
+        "like_count": 272,
+        "quote_count": 0,
+        "reply_count": 17,
+        "retweet_count": 23
+      },
+      "raw": {
+        "author": {
+          "name": "Bradford Ferguson",
+          "username": "bradsferguson"
+        },
+        "created_at": "2026-04-25T23:52:41.000Z",
+        "id": "2048188478907686990",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 69148,
+          "like_count": 272,
+          "quote_count": 0,
+          "reply_count": 17,
+          "retweet_count": 23
+        },
+        "raw_text": "Bradford Ferguson @bradsferguson · Apr 26 At the risk of being catastrophically wrong, 22% yoy growth in CPU to datacenters is not worth getting excited about. GPUs are growing at +33% then Memory Growth Per GPU is another +50% multiplier on that. 1.33 x 1.5 = 2 or a +100% gain in demand. The 100%+ memory demand growth Show more Quote Trade Whisperer @TradexWhisperer · Apr 25 $AMD $INTC Training Era: 1 CPUs per 8 GPU. Inference Era: 4 CPU per 8 GPU Agentic AI: 8 CPU per 8 GPU CPUs are becoming the real orchestrators. Intel Q1 Data Center +22% YoY. $5.1B. 18A ahead of schedule. Inference = CPU + Memory Renaissance $MU $DRAM x.com/TradexWhispere… 17 23 272 69K",
+        "text": "At the risk of being catastrophically wrong, 22% yoy growth in CPU to datacenters is not worth getting excited about. GPUs are growing at +33% then Memory Growth Per GPU is another +50% multiplier on that. 1.33 x 1.5 = 2 or a +100% gain in demand. The 100%+ memory demand growth",
+        "url": "https://x.com/bradsferguson/status/2048188478907686990",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "At the risk of being catastrophically wrong, 22% yoy growth in CPU to datacenters is not worth getting excited about. GPUs are growing at +33% then Memory Growth Per GPU is another +50% multiplier on that. 1.33 x 1.5 = 2 or a +100% gain in demand. The 100%+ memory demand growth",
+      "url": "https://x.com/bradsferguson/status/2048188478907686990",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "DJ_Tao",
+        "name": "Luke T",
+        "username": "DJ_Tao"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-25T21:18:01.000Z",
+      "engagement_score": 76.0,
+      "id": "2048149553627689348",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5746,
+        "like_count": 55,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 7
+      },
+      "raw": {
+        "author": {
+          "name": "Luke T",
+          "username": "DJ_Tao"
+        },
+        "created_at": "2026-04-25T21:18:01.000Z",
+        "id": "2048149553627689348",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5746,
+          "like_count": 55,
+          "quote_count": 0,
+          "reply_count": 7,
+          "retweet_count": 7
+        },
+        "raw_text": "Luke T @DJ_Tao · Apr 26 As semis have gone parabolic, it's logical to think where the next run of this AI trade is going to occur. The next possible rotation sector of the AI trade is the independent power producers who have largely sat this run out. Independent Power Producers are well positioned to Show more 7 6 55 5.7K",
+        "text": "As semis have gone parabolic, it's logical to think where the next run of this AI trade is going to occur. The next possible rotation sector of the AI trade is the independent power producers who have largely sat this run out. Independent Power Producers are well positioned to",
+        "url": "https://x.com/DJ_Tao/status/2048149553627689348",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "As semis have gone parabolic, it's logical to think where the next run of this AI trade is going to occur. The next possible rotation sector of the AI trade is the independent power producers who have largely sat this run out. Independent Power Producers are well positioned to",
+      "url": "https://x.com/DJ_Tao/status/2048149553627689348",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "aleabitoreddit",
+        "name": "Serenity",
+        "username": "aleabitoreddit"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-24T23:07:43.000Z",
+      "engagement_score": 48.0,
+      "id": "2047814774726214098",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5501,
+        "like_count": 46,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "raw": {
+        "author": {
+          "name": "Serenity",
+          "username": "aleabitoreddit"
+        },
+        "created_at": "2026-04-24T23:07:43.000Z",
+        "id": "2047814774726214098",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5501,
+          "like_count": 46,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 0
+        },
+        "raw_text": "Serenity @aleabitoreddit · Apr 25 Replying to @TLEROY5 I don't see $SOI becoming a $40B company, maybe $~8B-12B in a year. 2 46 5.5K",
+        "text": "I don't see $SOI becoming a $40B company, maybe $~8B-12B in a year.",
+        "url": "https://x.com/aleabitoreddit/status/2047814774726214098",
+        "urls": [
+          {
+            "display_url": "$SOI",
+            "expanded_url": "https://x.com/search?q=%24SOI&src=cashtag_click",
+            "title": "$SOI"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "I don't see $SOI becoming a $40B company, maybe $~8B-12B in a year.",
+      "url": "https://x.com/aleabitoreddit/status/2047814774726214098",
+      "urls": [
+        {
+          "display_url": "$SOI",
+          "expanded_url": "https://x.com/search?q=%24SOI&src=cashtag_click",
+          "title": "$SOI"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "XRarchitect",
+        "name": "Ian Curtis",
+        "username": "XRarchitect"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-24T02:50:54.000Z",
+      "engagement_score": 808.0,
+      "id": "2047508554316460488",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 41616,
+        "like_count": 678,
+        "quote_count": 0,
+        "reply_count": 18,
+        "retweet_count": 56
+      },
+      "raw": {
+        "author": {
+          "name": "Ian Curtis",
+          "username": "XRarchitect"
+        },
+        "created_at": "2026-04-24T02:50:54.000Z",
+        "id": "2047508554316460488",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 41616,
+          "like_count": 678,
+          "quote_count": 0,
+          "reply_count": 18,
+          "retweet_count": 56
+        },
+        "raw_text": "Ian Curtis @XRarchitect · Apr 24 having fun bringing my ChatGPT Images 2.0 to life \"A 360 image of a golden state warriors themed spaceship interior\" then used Marble, Spark and Three.js to turn it into a persistent, interactive world I can walk around in. With some added DoF and splat particle effects 18 56 678 41K",
+        "text": "having fun bringing my ChatGPT Images 2.0 to life \"A 360 image of a golden state warriors themed spaceship interior\" then used Marble, Spark and Three.js to turn it into a persistent, interactive world I can walk around in. With some added DoF and splat particle effects",
+        "url": "https://x.com/XRarchitect/status/2047508554316460488",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "having fun bringing my ChatGPT Images 2.0 to life \"A 360 image of a golden state warriors themed spaceship interior\" then used Marble, Spark and Three.js to turn it into a persistent, interactive world I can walk around in. With some added DoF and splat particle effects",
+      "url": "https://x.com/XRarchitect/status/2047508554316460488",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "Noahpinion",
+        "name": "Noah Smith",
+        "username": "Noahpinion"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-23T22:20:50.000Z",
+      "engagement_score": 97.0,
+      "id": "2047440587121733729",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 15405,
+        "like_count": 83,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 5
+      },
+      "raw": {
+        "author": {
+          "name": "Noah Smith",
+          "username": "Noahpinion"
+        },
+        "created_at": "2026-04-23T22:20:50.000Z",
+        "id": "2047440587121733729",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 15405,
+          "like_count": 83,
+          "quote_count": 0,
+          "reply_count": 4,
+          "retweet_count": 5
+        },
+        "raw_text": "Noah Smith @Noahpinion · Apr 24 The War of the New Gods Quote Westley Dang @WestleyDang · Apr 24 cybersecurity benchmarking will be replaced with GPT-5.5 and Mythos hacking each other 4 5 83 15K",
+        "text": "The War of the New Gods",
+        "url": "https://x.com/Noahpinion/status/2047440587121733729",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "The War of the New Gods",
+      "url": "https://x.com/Noahpinion/status/2047440587121733729",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "lefthanddraft",
+        "name": "Wyatt Walls",
+        "username": "lefthanddraft"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-23T04:43:04.000Z",
+      "engagement_score": 248.0,
+      "id": "2047174394523615489",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 35378,
+        "like_count": 230,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 8
+      },
+      "raw": {
+        "author": {
+          "name": "Wyatt Walls",
+          "username": "lefthanddraft"
+        },
+        "created_at": "2026-04-23T04:43:04.000Z",
+        "id": "2047174394523615489",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 35378,
+          "like_count": 230,
+          "quote_count": 0,
+          "reply_count": 2,
+          "retweet_count": 8
+        },
+        "raw_text": "Wyatt Walls @lefthanddraft · Apr 23 > Amanda can't tell Claude who she is, Claude will think it's a jailbreak Yeah, I noticed. Quote Tim Duffy @timfduffy · Apr 23 I enjoyed this new Amanda Askell interview, it ought to have more than 5k views. https://youtube.com/watch?v=0GaKJ4Fp2x4… Some bits I thought were interesting: - 8:40: Constitution used for Mythos is essentially the same as the current constitution - 13:45: Discussion of corrigibility: Excess 2 8 230 35K",
+        "text": "> Amanda can't tell Claude who she is, Claude will think it's a jailbreak Yeah, I noticed.",
+        "url": "https://x.com/lefthanddraft/status/2047174394523615489",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "> Amanda can't tell Claude who she is, Claude will think it's a jailbreak Yeah, I noticed.",
+      "url": "https://x.com/lefthanddraft/status/2047174394523615489",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "burrytracker",
+        "name": "Michael Burry Stock Tracker ♟",
+        "username": "burrytracker"
+      },
+      "category": "Finance and crypto",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-22T17:12:19.000Z",
+      "engagement_score": 36.0,
+      "id": "2047000558121185527",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3717,
+        "like_count": 35,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "raw": {
+        "author": {
+          "name": "Michael Burry Stock Tracker ♟",
+          "username": "burrytracker"
+        },
+        "created_at": "2026-04-22T17:12:19.000Z",
+        "id": "2047000558121185527",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3717,
+          "like_count": 35,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "raw_text": "Michael Burry Stock Tracker ♟ @burrytracker · Apr 23 Replying to @thangdo03 He’s dead, but his fund ‘Renaissance’s Medallion Fund’ is alive and well 1 35 3.7K",
+        "text": "He’s dead, but his fund ‘Renaissance’s Medallion Fund’ is alive and well",
+        "url": "https://x.com/burrytracker/status/2047000558121185527",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "He’s dead, but his fund ‘Renaissance’s Medallion Fund’ is alive and well",
+      "url": "https://x.com/burrytracker/status/2047000558121185527",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "zan2434",
+        "name": "Zain Shah",
+        "username": "zan2434"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-22T16:00:05.000Z",
+      "engagement_score": 36554.0,
+      "id": "2046982383430496444",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5604567,
+        "like_count": 26512,
+        "quote_count": 0,
+        "reply_count": 1078,
+        "retweet_count": 4482
+      },
+      "raw": {
+        "author": {
+          "name": "Zain Shah",
+          "username": "zan2434"
+        },
+        "created_at": "2026-04-22T16:00:05.000Z",
+        "id": "2046982383430496444",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5604567,
+          "like_count": 26512,
+          "quote_count": 0,
+          "reply_count": 1078,
+          "retweet_count": 4482
+        },
+        "raw_text": "Zain Shah @zan2434 · Apr 22 Imagine every pixel on your screen, streamed live directly from a model. No HTML, no layout engine, no code. Just exactly what you want to see. @eddiejiao_obj , @drewocarr and I built a prototype to see how this could actually work, and set out to make it real. We're calling it Show more 1K 4.4K 26K 5.6M",
+        "text": "Imagine every pixel on your screen, streamed live directly from a model. No HTML, no layout engine, no code. Just exactly what you want to see. @eddiejiao_obj , @drewocarr and I built a prototype to see how this could actually work, and set out to make it real. We're calling it",
+        "url": "https://x.com/zan2434/status/2046982383430496444",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Imagine every pixel on your screen, streamed live directly from a model. No HTML, no layout engine, no code. Just exactly what you want to see. @eddiejiao_obj , @drewocarr and I built a prototype to see how this could actually work, and set out to make it real. We're calling it",
+      "url": "https://x.com/zan2434/status/2046982383430496444",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "0x50b",
+        "name": "ryowa",
+        "username": "0x50b"
+      },
+      "category": "Data and research",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-22T07:42:28.000Z",
+      "engagement_score": 89.0,
+      "id": "2046857153491681440",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 55582,
+        "like_count": 71,
+        "quote_count": 0,
+        "reply_count": 6,
+        "retweet_count": 6
+      },
+      "raw": {
+        "author": {
+          "name": "ryowa",
+          "username": "0x50b"
+        },
+        "created_at": "2026-04-22T07:42:28.000Z",
+        "id": "2046857153491681440",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 55582,
+          "like_count": 71,
+          "quote_count": 0,
+          "reply_count": 6,
+          "retweet_count": 6
+        },
+        "raw_text": "ryowa @0x50b · Apr 22 Missed 2 months of @zephyr_z9 's tweets. So I did what any normal person would do. Built 2 MCP servers to pull the last month of tweets / stock data, and break it all down for me every morning. 6 3 71 55K",
+        "text": "Missed 2 months of @zephyr_z9 's tweets. So I did what any normal person would do. Built 2 MCP servers to pull the last month of tweets / stock data, and break it all down for me every morning.",
+        "url": "https://x.com/0x50b/status/2046857153491681440",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Missed 2 months of @zephyr_z9 's tweets. So I did what any normal person would do. Built 2 MCP servers to pull the last month of tweets / stock data, and break it all down for me every morning.",
+      "url": "https://x.com/0x50b/status/2046857153491681440",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "quantedOptions",
+        "name": "quantedOptions",
+        "username": "quantedOptions"
+      },
+      "category": "Software engineering",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-22T06:00:48.000Z",
+      "engagement_score": 403.0,
+      "id": "2046831567427842410",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3648996,
+        "like_count": 331,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 36
+      },
+      "raw": {
+        "author": {
+          "name": "quantedOptions",
+          "username": "quantedOptions"
+        },
+        "created_at": "2026-04-22T06:00:48.000Z",
+        "id": "2046831567427842410",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 3648996,
+          "like_count": 331,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 36
+        },
+        "raw_text": "quantedOptions @quantedOptions · Apr 22 Quant? Vibe coder? Python trader? Integrate CBOE licensed market maker data delivered at 1-minute cadence via our API. Free trial. quantedOptions | The fastest, highest quality SPX Data Available From quantedoptions.com 36 331 3.6M",
+        "text": "Quant? Vibe coder? Python trader? Integrate CBOE licensed market maker data delivered at 1-minute cadence via our API. Free trial.",
+        "url": "https://x.com/quantedOptions/status/2046831567427842410",
+        "urls": [
+          {
+            "display_url": "quantedOptions | The fastest, highest quality SPX Data Available",
+            "expanded_url": "https://www.quantedoptions.com/",
+            "title": "quantedoptions.com quantedOptions | The fastest, highest quality SPX Data Available"
+          },
+          {
+            "display_url": "From quantedoptions.com",
+            "expanded_url": "https://www.quantedoptions.com/",
+            "title": "From quantedoptions.com"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Quant? Vibe coder? Python trader? Integrate CBOE licensed market maker data delivered at 1-minute cadence via our API. Free trial.",
+      "url": "https://x.com/quantedOptions/status/2046831567427842410",
+      "urls": [
+        {
+          "display_url": "quantedOptions | The fastest, highest quality SPX Data Available",
+          "expanded_url": "https://www.quantedoptions.com/",
+          "title": "quantedoptions.com quantedOptions | The fastest, highest quality SPX Data Available"
+        },
+        {
+          "display_url": "From quantedoptions.com",
+          "expanded_url": "https://www.quantedoptions.com/",
+          "title": "From quantedoptions.com"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "_gautam_94",
+        "name": "Gautam",
+        "username": "_gautam_94"
+      },
+      "category": "Business and startups",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-22T00:48:47.000Z",
+      "engagement_score": 389.0,
+      "id": "2046753047322255848",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 114879,
+        "like_count": 215,
+        "quote_count": 0,
+        "reply_count": 58,
+        "retweet_count": 58
+      },
+      "raw": {
+        "author": {
+          "name": "Gautam",
+          "username": "_gautam_94"
+        },
+        "created_at": "2026-04-22T00:48:47.000Z",
+        "id": "2046753047322255848",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 114879,
+          "like_count": 215,
+          "quote_count": 0,
+          "reply_count": 58,
+          "retweet_count": 58
+        },
+        "raw_text": "Gautam @_gautam_94 · Apr 22 Serenity @aleabitoreddit is playing a dangerous game with sivers $sive here. Small retail investors like us should be careful by not chasing at these high prices.. I've seen so many hype posts shilling $sive and lot of speculation about their partnerships and future growth.. Show more 58 12 215 114K",
+        "text": "Serenity @aleabitoreddit is playing a dangerous game with sivers $sive here. Small retail investors like us should be careful by not chasing at these high prices.. I've seen so many hype posts shilling $sive and lot of speculation about their partnerships and future growth..",
+        "url": "https://x.com/_gautam_94/status/2046753047322255848",
+        "urls": [
+          {
+            "display_url": "$sive",
+            "expanded_url": "https://x.com/search?q=%24sive&src=cashtag_click",
+            "title": "$sive"
+          },
+          {
+            "display_url": "$sive",
+            "expanded_url": "https://x.com/search?q=%24sive&src=cashtag_click",
+            "title": "$sive"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Serenity @aleabitoreddit is playing a dangerous game with sivers $sive here. Small retail investors like us should be careful by not chasing at these high prices.. I've seen so many hype posts shilling $sive and lot of speculation about their partnerships and future growth..",
+      "url": "https://x.com/_gautam_94/status/2046753047322255848",
+      "urls": [
+        {
+          "display_url": "$sive",
+          "expanded_url": "https://x.com/search?q=%24sive&src=cashtag_click",
+          "title": "$sive"
+        },
+        {
+          "display_url": "$sive",
+          "expanded_url": "https://x.com/search?q=%24sive&src=cashtag_click",
+          "title": "$sive"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "TheProfInvestor",
+        "name": "Prof",
+        "username": "TheProfInvestor"
+      },
+      "category": "Business and startups",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-21T17:08:26.000Z",
+      "engagement_score": 368.0,
+      "id": "2046637195294118006",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 39434,
+        "like_count": 305,
+        "quote_count": 0,
+        "reply_count": 21,
+        "retweet_count": 21
+      },
+      "raw": {
+        "author": {
+          "name": "Prof",
+          "username": "TheProfInvestor"
+        },
+        "created_at": "2026-04-21T17:08:26.000Z",
+        "id": "2046637195294118006",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 39434,
+          "like_count": 305,
+          "quote_count": 0,
+          "reply_count": 21,
+          "retweet_count": 21
+        },
+        "raw_text": "Prof @TheProfInvestor · Apr 22 Market is going to pullback and nobody should be surprised to see it You can take advantage of it. $VIX +7% 21 9 305 39K",
+        "text": "Market is going to pullback and nobody should be surprised to see it You can take advantage of it. $VIX +7%",
+        "url": "https://x.com/TheProfInvestor/status/2046637195294118006",
+        "urls": [
+          {
+            "display_url": "$VIX",
+            "expanded_url": "https://x.com/search?q=%24VIX&src=cashtag_click",
+            "title": "$VIX"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Market is going to pullback and nobody should be surprised to see it You can take advantage of it. $VIX +7%",
+      "url": "https://x.com/TheProfInvestor/status/2046637195294118006",
+      "urls": [
+        {
+          "display_url": "$VIX",
+          "expanded_url": "https://x.com/search?q=%24VIX&src=cashtag_click",
+          "title": "$VIX"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "michaelsikand",
+        "name": "Michael Sikand",
+        "username": "michaelsikand"
+      },
+      "category": "Business and startups",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-21T15:15:16.000Z",
+      "engagement_score": 2994.0,
+      "id": "2046608717039509939",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 639880,
+        "like_count": 2562,
+        "quote_count": 0,
+        "reply_count": 64,
+        "retweet_count": 184
+      },
+      "raw": {
+        "author": {
+          "name": "Michael Sikand",
+          "username": "michaelsikand"
+        },
+        "created_at": "2026-04-21T15:15:16.000Z",
+        "id": "2046608717039509939",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 639880,
+          "like_count": 2562,
+          "quote_count": 0,
+          "reply_count": 64,
+          "retweet_count": 184
+        },
+        "raw_text": "Michael Sikand @michaelsikand · Apr 21 This is insane. The $1.5T U.S. defense budget lays out $75B for drones. The combined market cap of U.S. pure play drone primes like $AVEX $AVAV $KRATOS is $27B. Quote Bloomberg @business · Apr 21 The Pentagon’s largest-ever budget request earmarks $75 billion for drones and technologies to counter them, mainly for a massive increase for a little-known office working with US commandos, according to defense officials https://bloomberg.com/news/articles/2026-04-21/pentagon-seeks-75-billion-for-drones-in-record-defense-budget?taid=69e78a77b2f7b80001e2437d&utm_campaign=trueanthem&utm_content=business&utm_medium=social&utm_source=twitter… 64 184 2.5K 639K",
+        "text": "This is insane. The $1.5T U.S. defense budget lays out $75B for drones. The combined market cap of U.S. pure play drone primes like $AVEX $AVAV $KRATOS is $27B.",
+        "url": "https://x.com/michaelsikand/status/2046608717039509939",
+        "urls": [
+          {
+            "display_url": "$AVEX",
+            "expanded_url": "https://x.com/search?q=%24AVEX&src=cashtag_click",
+            "title": "$AVEX"
+          },
+          {
+            "display_url": "$AVAV",
+            "expanded_url": "https://x.com/search?q=%24AVAV&src=cashtag_click",
+            "title": "$AVAV"
+          },
+          {
+            "display_url": "$KRATOS",
+            "expanded_url": "https://x.com/search?q=%24KRATOS&src=cashtag_click",
+            "title": "$KRATOS"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "This is insane. The $1.5T U.S. defense budget lays out $75B for drones. The combined market cap of U.S. pure play drone primes like $AVEX $AVAV $KRATOS is $27B.",
+      "url": "https://x.com/michaelsikand/status/2046608717039509939",
+      "urls": [
+        {
+          "display_url": "$AVEX",
+          "expanded_url": "https://x.com/search?q=%24AVEX&src=cashtag_click",
+          "title": "$AVEX"
+        },
+        {
+          "display_url": "$AVAV",
+          "expanded_url": "https://x.com/search?q=%24AVAV&src=cashtag_click",
+          "title": "$AVAV"
+        },
+        {
+          "display_url": "$KRATOS",
+          "expanded_url": "https://x.com/search?q=%24KRATOS&src=cashtag_click",
+          "title": "$KRATOS"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "Cora64189920179",
+        "name": "ヨシ＠兼業トレーダー",
+        "username": "Cora64189920179"
+      },
+      "category": "Data and research",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-04-21T10:39:34.000Z",
+      "engagement_score": 2942.0,
+      "id": "2046539332299981099",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 316504,
+        "like_count": 2520,
+        "quote_count": 0,
+        "reply_count": 30,
+        "retweet_count": 196
+      },
+      "raw": {
+        "author": {
+          "name": "ヨシ＠兼業トレーダー",
+          "username": "Cora64189920179"
+        },
+        "created_at": "2026-04-21T10:39:34.000Z",
+        "id": "2046539332299981099",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 316504,
+          "like_count": 2520,
+          "quote_count": 0,
+          "reply_count": 30,
+          "retweet_count": 196
+        },
+        "raw_text": "ヨシ＠兼業トレーダー @Cora64189920179 · Apr 21 Translated from Japanese Show original I seriously want all traders to use the EMA20 on 15-minute charts. You'll be like, \"Damn, this makes earning money so easy.\" I've been using it for the past few years myself, but honestly, even a total beginner could probably pull off around 3 million yen in a year. As for the Show more 30 196 2.5K 316K",
+        "text": "I seriously want all traders to use the EMA20 on 15-minute charts. You'll be like, \"Damn, this makes earning money so easy.\" I've been using it for the past few years myself, but honestly, even a total beginner could probably pull off around 3 million yen in a year. As for the",
+        "url": "https://x.com/Cora64189920179/status/2046539332299981099",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "I seriously want all traders to use the EMA20 on 15-minute charts. You'll be like, \"Damn, this makes earning money so easy.\" I've been using it for the past few years myself, but honestly, even a total beginner could probably pull off around 3 million yen in a year. As for the",
+      "url": "https://x.com/Cora64189920179/status/2046539332299981099",
+      "urls": []
+    }
+  ],
+  "generated_at": "2026-04-29T02:01:39Z",
+  "includes": {},
+  "pages": [
+    {
+      "scrolls": 6,
+      "source": "Safari"
+    }
+  ],
+  "requested_user_id": null,
+  "source": "safari-x-bookmarks-timeline"
+}

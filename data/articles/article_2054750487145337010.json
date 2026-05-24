@@ -1,0 +1,151 @@
+{
+  "headline": "SK Hynix's AI Memory Grip Spans Every Time Zone",
+  "lede": "A South Korean chipmaker provides the memory inside virtually every major AI accelerator now running, and since early 2025 has led the world in DRAM revenue. Its commercial footprint spans fourteen countries, and its profit margins rival those of software businesses.",
+  "body": "The phrase borrows the old British Empire epithet and applies it to **SK Hynix** (000660.KS), a semiconductor company headquartered in Icheon, South Korea, and since early 2025 the world's leading *DRAM* maker by revenue. Across fourteen countries it operates seventy-eight subsidiaries — regional *trading entities* named Hynix America, Hynix UK, Hynix Deutschland, Hynix Japan, and so on — each acting as a local importer and seller of memory chips. Their collective timezone span means a sales office is always open; the structure deliberately echoes the colonial trading house.\n\nWhat gives the metaphor its present bite is *HBM*, or **High Bandwidth Memory** — stacked *DRAM* chips mounted atop AI accelerators to ferry data at speeds conventional memory cannot match. SK Hynix holds roughly 70 to 80 percent of the market for *HBM3E*, the generation inside every NVIDIA (NVDA) H100 and H200 GPU now in service; through 2025, roughly ninety percent of NVIDIA's HBM supply came from SK Hynix alone. For the successor generation, *HBM4*, the company has reportedly secured about two-thirds of NVIDIA's allocation, with Samsung (005930.KS) and Micron Technology (MU) competing for the remainder.\n\nThe commercial consequence is exceptional. In fiscal year 2025 the company posted revenue of roughly ₩97 trillion (about $68 billion), an operating margin of 49 percent, and net income of ₩42.9 trillion — more than double the prior year. Its market capitalization approached $950 billion in May 2026, placing it among the twenty most valuable companies on Earth and within reach of the trillion-dollar threshold. The surge reflects a strategic bet: converting more capacity to high-margin HBM than rivals did, which allowed it to displace Samsung (005930.KS) as the world's top *DRAM* maker by revenue for the first time in the company's forty-year history.\n\nThe empire is also acquiring new territory. In March 2025, SK Hynix (000660.KS) broke ground on a $3.87 billion *advanced-packaging* facility in West Lafayette, Indiana — its first manufacturing site on American soil — backed by $458 million in US *CHIPS Act* subsidies. The plant, targeted for completion in 2028, will produce the *2.5D packaging* stacks that bond HBM dies to AI processors. A simultaneous organizational restructure created a dedicated HBM technical unit in the Americas, stationed near the hyperscale customers — NVIDIA (NVDA), Google (GOOGL), Microsoft (MSFT), Amazon (AMZN) — whose appetite for memory the company now defines.",
+  "tickers": [
+    "000660.KS",
+    "NVDA",
+    "005930.KS",
+    "MU",
+    "GOOGL",
+    "MSFT",
+    "AMZN"
+  ],
+  "companies": [
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "Google",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    }
+  ],
+  "poster": "rubicon59",
+  "concepts": [
+    {
+      "key": "hbm",
+      "term": "High Bandwidth Memory (HBM)",
+      "definition": "A type of DRAM in which multiple memory chips are stacked vertically and connected by thousands of short wires through the chip body (through-silicon vias). Stacking allows far wider data buses than conventional memory, delivering bandwidth of a terabyte or more per second — essential for AI training and inference workloads."
+    },
+    {
+      "key": "dram",
+      "term": "DRAM",
+      "definition": "Dynamic Random-Access Memory, the dominant form of volatile main memory used in computers and servers. Each memory cell stores a charge that must be refreshed thousands of times per second. SK Hynix, Samsung Electronics, and Micron Technology together control roughly 95 percent of global DRAM production."
+    },
+    {
+      "key": "hbm3e",
+      "term": "HBM3E",
+      "definition": "The third generation of High Bandwidth Memory, Extended — the E suffix denotes a capacity and speed upgrade over the base HBM3 specification. HBM3E stacks reach 36 gigabytes per stack with bandwidth exceeding 1.2 terabytes per second. It is the memory type inside NVIDIA's H100 and H200 GPUs."
+    },
+    {
+      "key": "hbm4",
+      "term": "HBM4",
+      "definition": "The fourth-generation High Bandwidth Memory standard, entering mass production in 2026. HBM4 targets higher per-stack capacity and bandwidth, and introduces a wider interface to the connected processor die. SK Hynix is the leading supplier for NVIDIA's next-generation GPU platforms using HBM4."
+    },
+    {
+      "key": "advanced-packaging",
+      "term": "advanced packaging",
+      "definition": "Semiconductor manufacturing techniques that integrate multiple chips into a single module — by stacking them vertically, placing them side by side on a dense substrate, or combining both approaches. Advanced packaging allows chipmakers to combine memory and logic at very short distances without designing each function on a single die."
+    },
+    {
+      "key": "2-5d-packaging",
+      "term": "2.5D packaging",
+      "definition": "An advanced packaging method in which chips are placed side by side on a dense silicon interposer and connected by very short wires. The 2.5D label distinguishes it from full 3D stacking (chips on top of each other) while offering much shorter interconnects than conventional board-level assembly. This approach is used to combine HBM stacks with AI processor dies in products like NVIDIA's H100."
+    },
+    {
+      "key": "chips-act",
+      "term": "CHIPS Act",
+      "definition": "The Creating Helpful Incentives to Produce Semiconductors and Science Act, signed into US law in August 2022. It appropriates approximately $52 billion for domestic semiconductor manufacturing subsidies, with the explicit goal of rebuilding US chip production capacity and reducing supply-chain dependence on East Asia."
+    },
+    {
+      "key": "trading-entity",
+      "term": "trading entity",
+      "definition": "In the structure of Korean and Japanese industrial groups, a trading entity (or trading subsidiary) is a legally separate company that imports, distributes, and sells the parent's products in a specific territory. It manages local pricing, customs, and customer relationships, acting as the commercial face of the manufacturer in that market."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.skhynix.com/company/UI-FR-CP06/",
+      "title": "SK Hynix Global Network (official)",
+      "note": "Lists all named global office locations across 14 countries"
+    },
+    {
+      "url": "https://news.skhynix.com/sk-hynix-announces-fy25-financial-results/",
+      "title": "SK Hynix FY2025 Financial Results (official press release)",
+      "note": "Revenue ₩97.1T, operating margin 49%, net income ₩42.9T"
+    },
+    {
+      "url": "https://news.skhynix.com/corporate/fact-sheet/",
+      "title": "SK Hynix Fact Sheet (official)",
+      "note": "46,863 employees, 4 production sites, 24 global sales offices"
+    },
+    {
+      "url": "https://counterpointresearch.com/en/insights/sk-hynix-tops-dram-market-for-three-consecutive-quarters",
+      "title": "Counterpoint Research: SK Hynix Tops DRAM Market Three Consecutive Quarters",
+      "note": "SK Hynix at 36% DRAM revenue share, overtaking Samsung from Q1 2025"
+    },
+    {
+      "url": "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/",
+      "title": "SK Hynix 2026 Market Outlook (official)",
+      "note": "Company framing of HBM supercycle and dominant HBM3E position"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/",
+      "title": "TrendForce: SK Hynix to Supply Two-Thirds of NVIDIA HBM4",
+      "note": "HBM4 supply allocation between SK Hynix and Samsung for NVIDIA next-gen platforms"
+    },
+    {
+      "url": "https://news.skhynix.com/sk-hynix-signs-investment-agreement-of-advanced-chip-packaging-with-indiana/",
+      "title": "SK Hynix Indiana Investment Agreement (official)",
+      "note": "$3.87B advanced packaging facility in West Lafayette, Indiana"
+    },
+    {
+      "url": "https://www.nist.gov/chips/sk-hynix-indiana-west-lafayette",
+      "title": "NIST CHIPS Act Award — SK Hynix Indiana",
+      "note": "$458M direct funding award details"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2025/12/04/news-sk-hynix-unveils-organizational-restructure-with-dedicated-hbm-taskforce-in-the-americas/",
+      "title": "TrendForce: SK Hynix Org Restructure with Americas HBM Taskforce",
+      "note": "New Americas HBM unit and global R&D expansion details"
+    },
+    {
+      "url": "https://companiesmarketcap.com/sk-hynix/marketcap/",
+      "title": "SK Hynix Market Cap History — CompaniesMarketCap",
+      "note": "Market cap approaching $950B as of May 2026"
+    },
+    {
+      "url": "https://companydata.com/company-profile/sk-hynix/",
+      "title": "SK Hynix Company Profile — CompanyData",
+      "note": "Lists 78 subsidiaries across 13+ countries with entity-level revenue data"
+    }
+  ],
+  "bookmark_id": "2054750487145337010",
+  "generated_at": "2026-05-14T09:29:04.762293Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,34 @@
+{
+  "headline": "An App That Animates the Migration of Words Across Centuries",
+  "lede": "A developer has built *Wanderword*, a browser app that uses Google's Gemini model to trace the etymological roots of words and D3.js to animate their geographic spread across history. The demo word is instructive: type \"orange\" and the app plots a journey from ancient India to medieval England, complete with phonetic mutations at each stop. The result is a reminder that dictionaries record arrivals, not voyages.",
+  "body": "The word **orange** began in northern India as the Sanskrit *naranga*, meaning the orange tree itself, sometime around the fifth century BCE. Merchants — Persian and then Arabic — carried both the fruit and its name westward, where it became *nārang* in Middle Persian and *nāranj* in Arabic. The word entered Old French through two routes: via Islamic Spain and via Italian trade networks, settling into the form *orenge*.\n\nAt that point a quietly spectacular accident reshaped the word for good. In Old French, the indefinite article for feminine nouns was *une*. The phrase *une norenge* — \"a norange\" — was heard by enough speakers as *une orenge* that the initial *n* migrated onto the article instead of the noun. Linguists call this **rebracketing** (or *metanalysis*): a listener redraws the morpheme boundary between two adjacent words, permanently altering one of them. English later borrowed the French form, and the *n* never came back. The same process gave English \"apron\" (from Old French *naperon*) and, in reverse, \"newt\" (from Old English *ewt*, which gained its *n* from the article \"an ewt\").\n\nWanderword makes this narrative visual rather than textual: a D3.js-powered map pins each language stage geographically, draws migration arcs, and annotates each node with the local form and its date. The underlying intelligence is Google Gemini, accessed through *Google AI Studio*, which presumably retrieves or synthesises the etymological chain for any queried word. The app is deployed on Google Cloud Run, suggesting a lightweight serverless architecture rather than a persistent backend.\n\nThe project sits at a genuinely interesting intersection: computational etymology has long been the preserve of academic databases (the *Oxford Latin Dictionary*, the *Etymologisches Wörterbuch*), but animating the data spatially makes the subject viscerally accessible. Whether Gemini's etymological claims hold up under scrutiny for less well-documented words — where the scholarly record is thinner — is the open question. For high-frequency vocabulary with deep research behind it, the approach looks solid.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "poster": "vamsibatchuk",
+  "concepts": [
+    {
+      "key": "rebracketing",
+      "term": "rebracketing",
+      "definition": "A linguistic process in which listeners reanalyse the boundary between two adjacent words or morphemes, shifting a sound from one word to another. The classic English example: 'a norange' was reinterpreted as 'an orange', stripping the *n* from the noun. Over time, the reanalysed form becomes standard. It is also called metanalysis."
+    },
+    {
+      "key": "etymology",
+      "term": "etymology",
+      "definition": "The study of word origins — tracing a word's form and meaning through the historical languages it passed through, back to its earliest recoverable ancestor. Etymology is reconstructed from written records, cognates in related languages, and, for prehistoric periods, the methods of comparative linguistics."
+    },
+    {
+      "key": "d3js",
+      "term": "D3.js",
+      "definition": "A JavaScript library for binding data to the Document Object Model and rendering it as interactive visualisations in the browser — charts, maps, animated transitions. It gives the programmer fine-grained control over SVG and HTML elements, making it popular for bespoke data graphics that off-the-shelf charting tools cannot produce."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2013028659938947184",
+  "generated_at": "2026-05-06T20:14:46.064703Z",
+  "backend": "claude"
+}

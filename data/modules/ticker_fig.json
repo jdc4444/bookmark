@@ -1,0 +1,24 @@
+{
+  "key": "FIG",
+  "name": "Figma, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Figma, Inc. develops and sells a collaborative, browser-based platform for designing, prototyping, and building digital experiences. Its offerings include Figma Design for team-based design and prototyping, Dev Mode for translating designs into code, and FigJam for brainstorming and alignment. The company went public on July 31, 2025, and is listed on the NYSE under the ticker FIG.",
+  "recent": "As of May 6, 2026, FIG stock closed at $19.29, down 0.67% on the day, with a market cap of $10.17B. The stock has a 52-week range of $16.60 to $142.92 and an analyst price target of $50.50, representing a potential upside of 161.79%. The next earnings report is scheduled for May 14, 2026.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/FIG/",
+      "title": "Figma, Inc. (FIG) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/FIG/",
+      "title": "Figma (FIG) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/fig/",
+      "title": "Figma (FIG) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:19:55.322916Z",
+  "backend": "deepseek"
+}

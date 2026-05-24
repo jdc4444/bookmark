@@ -1,0 +1,16 @@
+{
+  "key": "ZETA",
+  "name": "Zeta Global Holdings Corp.",
+  "exchange": "NYSE",
+  "blurb": "Zeta Global operates what it calls an AI marketing cloud — a data and software platform that helps large brands identify, acquire, and retain customers across digital channels. Founded in 2007 by John Sculley (former Apple CEO) and David Steinberg, it aggregates consumer data from hundreds of sources into a proprietary database of roughly 235 million individuals in the US, which it uses to power targeted advertising and personalization at scale.",
+  "recent": "Full-year 2025 revenue reached $1.305 billion (+30% year-over-year), the company's 18th consecutive quarter of beating and raising guidance. Net revenue retention — a measure of how much existing customers grow their spending — stood at a record 120%, suggesting strong upsell momentum. In March 2026, Zeta launched Athena, an agentic AI product that moves beyond analytics to autonomous marketing execution. The company raised its 2026 revenue midpoint guidance to $1.785 billion (+37%). KeyBanc upgraded to Overweight; average analyst price target circa $28.",
+  "sources": [
+    {"title": "Zeta Global 18th consecutive beat-and-raise (StockTitan)", "url": "https://www.stocktitan.net/news/ZETA/zeta-global-reports-18th-straight-beat-and-raise-quarter-and-record-piy483q7913f.html"},
+    {"title": "Zeta Global AI marketing cloud deep dive (FinancialContent)", "url": "https://markets.financialcontent.com/wral/article/predictstreet-2026-1-2-the-rise-of-the-ai-marketing-cloud-a-deep-dive-into-zeta-global-zeta"},
+    {"title": "Zeta Global Wikipedia", "url": "https://en.wikipedia.org/wiki/Zeta_Global"},
+    {"title": "Zeta Global 2026 outlook (Neuron Expert)", "url": "https://neuron.expert/news/the-rise-of-the-ai-marketing-cloud-a-deep-dive-into-zeta-global-zeta/16047/en/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T03:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

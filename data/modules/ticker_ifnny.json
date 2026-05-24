@@ -1,0 +1,17 @@
+{
+  "key": "ifnny",
+  "name": "Infineon Technologies AG",
+  "exchange": "NASDAQ (US ADR) / XETRA",
+  "blurb": "Infineon Technologies is a global power-semiconductor leader headquartered in Munich, Germany, trading on US markets as an ADR (IFNNY). Its product lineup for AI server power delivery includes OptiMOS and CoolMOS MOSFETs, high-density quad-phase power modules (OptiMOS TDM2454xx, 280A in a 10x9mm footprint), XDP digital hot-swap and protection controllers for 48V AI racks, EiceDRIVER isolated gate drivers supporting SiC and GaN topologies, and high-voltage GaN reference designs for LLC converters running at 800V input. Infineon is a preferred power-silicon partner in NVIDIA's 800V HVDC reference architecture for next-generation AI data centres.",
+  "recent": "Infineon closed FY2025 (ending September 2025) with revenue of €14.66 billion and significantly raised its AI power revenue target to approximately €1.5 billion in FY2026, citing rapidly rising AI infrastructure demand. Revenue for the quarter ending December 2025 was $4.26 billion, up 16.8% year-over-year. In Q1 FY2026 the company announced new HV GaN reference designs for AI server power architectures and expanded its XDP digital protection family with the XDP711-001 48V hot-swap controller. A new Smart Power Fab in Dresden is on track to open in summer 2026. FY2026 guidance calls for moderate total revenue growth, with AI power as the primary growth driver against softer automotive and industrial demand, and adjusted gross margin in the low-forties percent range.",
+  "sources": [
+    {"url": "https://www.eqs-news.com/news/corporate/infineon-technologies-ag-fy-2025-concluded-in-line-with-expectations-moderate-revenue-growth-expected-in-fy-2026-despite-adverse-currency-impact-ai-power-revenue-target-significantly-increased/6b656d8c-7353-4453-82f7-55e8fbd24d60", "title": "Infineon FY2025 Results and FY2026 Guidance — EQS News"},
+    {"url": "https://www.infineon.com/cms/en/about-infineon/press/market-news/2025/INFPSS202503-073.html", "title": "Infineon Next-Gen OptiMOS Power Modules for VPD in AI Data Centers — infineon.com"},
+    {"url": "https://www.powersemiconductorsweekly.com/2026/03/17/infineon-introduces-hv-gan-reference-designs-for-ai-server-power-architectures/", "title": "Infineon HV GaN Reference Designs for AI Server Power — Power Semiconductors Weekly"},
+    {"url": "https://www.infineon.com/market-news/2025/infpss202503-077", "title": "Infineon XDP Digital Protection Family Expansion — infineon.com"},
+    {"url": "https://meyka.com/blog/ifnny-infineon-technologies-earnings-preview-may-6-2026-0505/", "title": "IFNNY Earnings Preview May 6, 2026 — Meyka"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

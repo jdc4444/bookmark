@@ -1,0 +1,33 @@
+{
+  "key": "felixprehn",
+  "display_name": "Felix Prehn (@felixprehn)",
+  "blurb": "Felix Prehn is a former investment banker turned retail-finance educator and founder of the Goat Academy, a community he describes as aiming to make one million people financially independent. He publishes daily stock-market commentary via podcast, Substack, and X, with a focus on macro-driven equity themes, momentum screening, and accessible explanations of institutional-grade analysis. His style favours pattern-recognition and rules-based frameworks — consistent with a post that distils a CEO's earnings slide into a five-word signal.",
+  "credibility_note": "Prehn's market commentary is educational rather than licensed investment advice. His background as a former banker is self-reported and not independently verified in public records. Content is broadly accessible and retail-oriented; track record of specific calls is not audited externally.",
+  "links": [
+    {
+      "label": "Podcast",
+      "url": "https://podcast.goatacademy.org/"
+    },
+    {
+      "label": "Goat Academy",
+      "url": "https://goatacademy.org/"
+    },
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/felixprehn"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Felix Prehn Daily Market News — Goat Academy podcast",
+      "url": "https://podcast.goatacademy.org/"
+    },
+    {
+      "title": "Goat Academy — about page",
+      "url": "https://goatacademy.org/felix-prehns-goat-academy-stock-market-insights-gold-trends/"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T00:06:49Z",
+  "backend": "claude-sonnet-subagent"
+}

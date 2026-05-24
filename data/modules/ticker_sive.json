@@ -1,0 +1,16 @@
+{
+  "key": "SIVE",
+  "name": "Sivers Semiconductors AB (publ)",
+  "exchange": "Nasdaq Stockholm",
+  "blurb": "Sivers designs and manufactures indium phosphide (InP) distributed feedback lasers and optical amplifiers used inside high-speed optical transceivers, automotive LiDAR systems and satellite communications terminals. Its photonics business is one of the few independent western sources of the laser dies that go into AI-data-centre optical links, alongside larger incumbents such as Coherent and Lumentum. A separate wireless unit supplies 5G millimetre-wave RF chips. The company has been preparing a spin-off and potential dual Nasdaq New York listing of its photonics subsidiary.",
+  "recent": "Shares ran from roughly SEK 4 at the start of 2026 to a close of SEK 55.95 in early May, a year-to-date gain of about 1,247%, on customer wins including a 1.6T linear-drive optical module collaboration with Jabil announced 15 April 2026 and a LiDAR ramp scheduled for Q4 2026 with up to $138m of cumulative lifetime revenue. 2025 net sales were SEK 304m (+25% YoY) but the after-tax loss was SEK 186m, prompting an April 2026 directed issue of 8.62m shares at SEK 14.50 raising about SEK 125m at roughly 2.5% dilution. Photonics experts and Swedish business media have publicly questioned whether the rally has run ahead of fundamentals.",
+  "sources": [
+    {"url": "https://ts2.tech/en/sivers-semiconductors-stock-jumps-47-as-nasdaq-push-and-ai-optics-bet-hit-deadline-week/", "title": "Sivers stock jumps 47% (May 2026)"},
+    {"url": "https://www.prnewswire.com/news-releases/sivers-semiconductors-ab-publ-publishes-interim-report-q4-october--december-2025-302697967.html", "title": "Sivers Q4 2025 interim report"},
+    {"url": "https://siliconmatter.substack.com/p/sivers-semiconductors-a-130m-mcap", "title": "Sivers Semiconductors: a co-packaged optics, LiDAR and SATCOM play"},
+    {"url": "https://www.marketscreener.com/news/photonics-experts-question-sivers-semiconductors-share-rally-efn-update-ce7f59d8d88ff72d", "title": "Photonics experts question Sivers Semiconductors' share rally"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

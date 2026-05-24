@@ -1,0 +1,32 @@
+{
+  "key": "BAC",
+  "name": "Bank of America Corporation",
+  "exchange": "NYSE",
+  "blurb": "Bank of America is one of the largest financial institutions in the United States, serving individual consumers, small and middle-market businesses, institutional investors, large corporations, and governments worldwide. It operates through four segments: Consumer Banking, Global Wealth & Investment Management (GWIM), Global Banking, and Global Markets. Founded in 1784 and headquartered in Charlotte, North Carolina, the bank employs approximately 213,000 people and carries a market capitalization of roughly $364 billion. It is a core component of the U.S. financial system and a constituent of the Dow Jones Industrial Average.",
+  "recent": "Bank of America reported Q1 2026 earnings on April 15, 2026, with trailing-twelve-month net income of $30.26B (up ~14.7% year-over-year) and EPS of $4.02 (up ~21.2%), reflecting continued strength across its banking and markets segments. The stock reached a 52-week high of $57.55 before pulling back; as of May 8, 2026 shares closed at $51.31, down 2.73% on the day, though analysts maintain a consensus Buy rating with an average price target of $60.61. Year-over-year revenue growth of ~7.1% to $109.59B (ttm) and a forward P/E of 11.29 suggest the market is pricing in steady but not accelerating earnings expansion.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/bac/",
+      "title": "Bank of America (BAC) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/BAC/news/",
+      "title": "Bank of America Corporation (BAC) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BAC/news/",
+      "title": "BAC News Today — MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/bac",
+      "title": "BAC Stock Price | Bank of America Corp. — MarketWatch"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/BAC/news",
+      "title": "Bank of America Corporation (BAC) Latest Stock News — Seeking Alpha"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-09T05:02:27.665303Z",
+  "backend": "claude-sonnet-subagent"
+}

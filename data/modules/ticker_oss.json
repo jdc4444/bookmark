@@ -1,0 +1,24 @@
+{
+  "key": "OSS",
+  "name": "One Stop Systems, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "One Stop Systems designs and manufactures high-performance compute and storage solutions for edge applications, including artificial intelligence, autonomous vehicles, and defense. The company specializes in ruggedized servers and storage systems for harsh environments. It serves customers in the aerospace, defense, and industrial sectors.",
+  "recent": "In the past 30 days, OSS stock has experienced volatility amid broader market trends. The company has not released major news or earnings, but investor sentiment has been influenced by developments in AI and edge computing. No significant price-moving catalysts have been reported.",
+  "sources": [
+    {
+      "url": "https://onestopsystems.com/pages/ir-news",
+      "title": "News - One Stop Systems"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/OSS/",
+      "title": "One Stop Systems, Inc. (OSS) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/OSS/news/",
+      "title": "OSS News Today | Why did One Stop Systems stock go up today? - MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:47:47.487067Z",
+  "backend": "deepseek"
+}

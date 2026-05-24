@@ -1,0 +1,49 @@
+{
+  "headline": "Three.js Goes WebAssembly and Claims to Beat Native Speed",
+  "lede": "A terse 'oh' from a crypto-adjacent account captured the mood across developer Twitter when the official three.js account announced three.wasm — a WebAssembly port of the popular 3D graphics library that fits in 10 kilobytes, sustains 480-plus frames per second, and, by its author's reckoning, runs faster than native code. The claim stopped a lot of people mid-scroll.",
+  "body": "**Three.js** is the JavaScript library that put real-time 3D graphics within reach of web developers. Created by Ricardo Cabello (known online as mrdoob), it abstracts over *WebGL* — the browser API for GPU-accelerated rendering — and has underpinned everything from product configurators to browser-based games for well over a decade. Its ubiquity also made its performance ceiling a familiar frustration: JavaScript's dynamic nature imposes overhead that compiled languages avoid.\n\n*WebAssembly* (WASM) is a binary instruction format that browsers can execute at speeds much closer to compiled C or Rust than to interpreted JavaScript. Code compiled to WASM skips the JavaScript engine's parsing and optimization passes, arriving at the browser already in a compact, near-machine-readable form. The three.wasm project is mrdoob's attempt to rewrite or compile three.js's core into that format, shrinking the runtime to 10KB — a fraction of the full three.js bundle — while dramatically raising throughput.\n\nThe GitHub repository bills the project as '8x Faster JavaScript 3D Library,' and the demo claims 480-plus frames per second. Those numbers will strike rendering engineers as genuinely impressive; consumer displays top out at 60–165 Hz for most users, so headroom in the hundreds of fps implies the bottleneck has shifted away from CPU and JavaScript parsing entirely.\n\nThe phrase 'faster than native' deserves a raised eyebrow. In the conventional hierarchy, *native* code — a compiled binary running directly on the OS without a browser sandbox — is the performance ceiling that WASM asymptotically approaches but does not exceed. The claim likely means faster than equivalent JavaScript rather than faster than a bare-metal C program, but the wording is loose enough to mislead. The benchmark baseline is not specified in the publicly available announcement, which makes the superlative hard to verify.",
+  "tickers": [],
+  "poster": "solcoindegen",
+  "concepts": [
+    {
+      "key": "webassembly",
+      "term": "WebAssembly (WASM)",
+      "definition": "A binary instruction format designed as a compilation target for languages like C, C++, and Rust. Browsers can execute WASM much faster than JavaScript because it arrives pre-compiled and skips the JavaScript engine's parse-and-optimize cycle. It runs inside the browser's security sandbox, so it cannot directly access the operating system."
+    },
+    {
+      "key": "three-js",
+      "term": "three.js",
+      "definition": "An open-source JavaScript library created by Ricardo Cabello (mrdoob) that provides a high-level API for 3D graphics in the browser, built on top of WebGL. It is among the most widely used creative-coding libraries on the web, with applications ranging from product visualization to interactive art."
+    },
+    {
+      "key": "frames-per-second",
+      "term": "Frames Per Second (fps)",
+      "definition": "A measure of how many rendered images a graphics pipeline can produce each second. Consumer displays typically refresh at 60–165 Hz, so fps well above that threshold indicates the CPU or GPU is not the binding constraint — usually a sign that the rendering loop itself is very cheap."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "mrdoob-three.wasm",
+      "url": "https://github.com/mrdoob/three.wasm",
+      "summary": "A WebAssembly port of three.js authored by mrdoob (Ricardo Cabello), the original creator of three.js. The project aims to deliver a 10KB runtime that achieves frame rates above 480 fps, billing itself as '8x Faster' than the JavaScript original. It is an early-stage experiment exploring whether the 3D web's most popular abstraction layer can shed the overhead of the JavaScript VM entirely."
+    }
+  ],
+  "fact_check": "The claim 'faster than native' is almost certainly marketing shorthand rather than a literal benchmark result. WebAssembly runs inside a browser sandbox and cannot, by design, outperform equivalent code compiled to a native binary and run directly on the OS. The meaningful comparison is WASM versus JavaScript, not WASM versus native executables. Without a published benchmark methodology or baseline, the 480+ fps and 8x figures cannot be independently verified from the available sources.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/mrdoob/three.wasm",
+      "title": "GitHub - mrdoob/three.wasm: 8x Faster JavaScript 3D Library",
+      "note": "Primary source — the repository page describing the project's goals and performance claims"
+    },
+    {
+      "url": "https://x.com/threejs/status/2039193070332489846",
+      "title": "@threejs announcement tweet",
+      "note": "The quoted tweet containing the 10KB / 480+ fps / faster-than-native claims and demo link"
+    }
+  ],
+  "bookmark_id": "2039198466422022557",
+  "generated_at": "2026-05-06T19:44:34.211737Z",
+  "backend": "claude"
+}

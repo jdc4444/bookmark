@@ -1,0 +1,24 @@
+{
+  "key": "GOOG",
+  "name": "Alphabet Inc. (Class C)",
+  "exchange": "NASDAQ",
+  "blurb": "Alphabet is the parent company of Google, headquartered in Mountain View, California. Its principal revenue source is Google Search advertising, which has historically contributed approximately 55–60% of total revenue, supplemented by YouTube advertising, Google Cloud, and hardware. Google Cloud (GCP) is Alphabet's fastest-growing segment and competes directly with AWS and Azure for enterprise and AI workloads. Alphabet designs its own AI accelerators — tensor processing units (TPUs) — through Google DeepMind, reducing reliance on NVIDIA GPUs and enabling tight hardware-software co-design. GOOG is the Class C non-voting share; GOOGL is the Class A voting share. Both trade on NASDAQ.",
+  "recent": "Alphabet reported Google Cloud revenue growing 48% year-on-year in Q4 2025, with a $240 billion backlog — a 55% sequential jump. Gemini, Google's flagship AI model family, reached 750 million monthly active users with serving costs per unit down 78% over 2025 through model and hardware optimisations. Alphabet outlined 2026 capital expenditures of $175–185 billion, more than double its 2025 spend, to support AI infrastructure expansion. Google Cloud Next 2026 showcased 8th-generation TPUs (split into TPU 8t for training and TPU 8i for inference) and Gemini Enterprise, positioning Alphabet as a serious competitor to the OpenAI ecosystem for enterprise agentic AI workloads.",
+  "sources": [
+    {
+      "url": "https://seekingalpha.com/news/4547610-alphabet-outlines-175b-185b-2026-capex-plan-as-ai-momentum-accelerates-across-search-cloud",
+      "title": "Alphabet $175B–$185B 2026 CapEx — Seeking Alpha"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/02/04/alphabet-resets-the-bar-for-ai-infrastructure-spending.html",
+      "title": "Alphabet Resets AI Infrastructure Spending Bar — CNBC"
+    },
+    {
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261819907-google-cloud-next-26-tpu8t-tpu8i-gemini-enterprise-agent-tradingkey",
+      "title": "Google Cloud Next 2026: TPU 8t/8i and Gemini Enterprise — TradingKey"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

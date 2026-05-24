@@ -1,0 +1,66 @@
+{
+  "bookmark_id": "2045282930659066142",
+  "headline": "The GPU-as-Carry-Trade Fantasy, Annotated",
+  "lede": "A retail investor recently proposed buying NVIDIA accelerators as a tax-sheltered income vehicle — part depreciation play, part cloud-rental business, part collectible. The pitch is funnier than it sounds, and the structural questions it raises are entirely serious.",
+  "body": "The post in question arrived with the breathless urgency of a man who has just discovered arbitrage. Buy Nvidia H100 or H200 graphics processing units — the large, expensive slabs of silicon that currently power the world's artificial-intelligence infrastructure — classify them as capital expenditures, claim an immediate write-off on your taxes, rent their computing capacity to strangers by the hour, and wait for the hardware to appreciate. \"I don't think many people know yet about this tax loophole,\" the author concluded, with admirable confidence. Plenty of people know. That is, in fact, the entire business model of a class of companies now worth tens of billions of dollars.\n\nThe tax observation is, structurally, correct. Under the Internal Revenue Code's Section 168(k) — extended and made permanent at 100 percent by the One Big Beautiful Bill Act, signed into law in early 2025 — tangible business property such as computers and servers qualifies for full bonus depreciation (a provision allowing businesses to deduct the entire purchase price of eligible assets in the year they are placed in service, rather than spreading that deduction over the asset's useful life). An H100 costs roughly $25,000 to $31,000 new; under current rules, a business owner who buys one and puts it to productive use may deduct the full amount against ordinary income in year one. The IRS classifies such equipment as five-year MACRS property — the Modified Accelerated Cost Recovery System, which governs how the tax code assigns depreciation schedules to asset classes — though with 100-percent bonus depreciation in force, that five-year schedule is largely academic for the first filing.\n\nThe rental-income half of the scheme is also real, and it has attracted serious institutional capital. The companies called neoclouds — independent cloud providers that own large fleets of AI accelerators and rent computing time to enterprise customers — include CoreWeave, Lambda Labs, and Crusoe Energy. CoreWeave, the most prominent, went public on the Nasdaq in March 2025, disclosed $20.7 billion in property and equipment on its balance sheet (primarily GPU and server hardware), and reported $1.92 billion in 2024 revenue, up 738 percent from the prior year. H100 compute currently rents for roughly $2.69 to $4.49 per GPU per hour depending on the provider — down from $8 to $10 an hour at the 2024 scarcity peak, a decline of 64 to 75 percent. The carry trade (in this context, the incremental income earned between the cost of financing an asset and the revenue it generates — borrowed from fixed-income markets, where it describes holding a bond yielding more than the cost of borrowing) does exist. It is just considerably thinner than it was eighteen months ago.\n\nThe complication is the third leg of the stool: the assertion that GPUs \"will hold their value or slowly appreciate over time.\" This is where the pitch departs from institutional orthodoxy at some speed. CoreWeave depreciates its hardware over six years, Lambda Labs over five, Nebius over four. Amazon, in 2025, shortened its server useful-life estimate from six to five years, citing the accelerating pace of AI development — in the same quarter that Meta extended its own estimate to five and a half, a divergence that tells you something about how genuinely uncertain this accounting judgment is. The secondary market for used H100s, which peaked above $50,000 per unit during the 2023-2024 supply crunch, has since normalized to the $150,000-to-$180,000 range for complete eight-GPU server nodes — significant money, but not a collectibles curve. Michael Burry, who is professionally skeptical of things, has estimated roughly $176 billion in understated depreciation across the AI-infrastructure industry, arguing that GPU economic life tracks NVIDIA's annual product-release cadence more closely than any accounting schedule would prefer.\n\nThe institutional version of this trade — CoreWeave's model — finances GPU fleets with debt secured by the hardware itself (GPU-collateralized debt, an asset-backed structure treating accelerators much as aircraft or power-generation equipment are treated in project finance). CoreWeave carries more than $18 billion in total debt, against which its GPUs serve as collateral. The problem that Burry and other skeptics have identified is a structural mismatch: debt principal is fixed, but the collateral depreciates, and rental rates have compressed sharply as supply normalized and three hundred or more competing GPU cloud providers entered the market. For the individual operator, the economics are even less forgiving: no long-term enterprise contracts, no investment-grade credit rating to borrow against, and a secondary market for compute time dominated by parties who have better hardware, lower cost of capital, and, crucially, a dedicated sales team.\n\nNone of this is to say the tax mechanics are wrong — they are not — or that renting GPU compute is inherently foolish. It is to say that a trade requiring simultaneous correctness about tax law, rental-market occupancy rates, and hardware residual values, while competing against capitalized infrastructure companies running 250,000-GPU fleets, is less a loophole than a business. Businesses, as a rule, are hard.",
+  "tickers": ["NVDA"],
+  "poster": "bubbleboi",
+  "concepts": [
+    {
+      "key": "capital-expenditure",
+      "term": "capital expenditure (capex)",
+      "definition": "Money spent acquiring or improving a long-lived physical asset — a building, machine, or server — recorded on the balance sheet and expensed over time through depreciation, as opposed to an operating expense deducted immediately."
+    },
+    {
+      "key": "bonus-depreciation",
+      "term": "bonus depreciation",
+      "definition": "A tax provision under IRC §168(k) allowing businesses to deduct the full purchase price of eligible property in the year it is placed in service, rather than spreading the deduction over the asset's standard useful life. Made permanent at 100 percent by the One Big Beautiful Bill Act (2025)."
+    },
+    {
+      "key": "neocloud",
+      "term": "neocloud",
+      "definition": "Independent cloud providers — such as CoreWeave, Lambda Labs, and Crusoe — that own large fleets of AI accelerators (GPUs) and sell compute time to enterprise customers, distinct from hyperscalers like AWS or Azure that own broad-purpose cloud infrastructure."
+    },
+    {
+      "key": "carry-trade",
+      "term": "carry trade",
+      "definition": "A strategy that earns incremental income from the spread between the cost of financing an asset and the yield or revenue the asset generates — borrowed from fixed-income markets, where it describes holding a bond that yields more than the cost of borrowing to own it."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tax deduction mechanics are accurate under current law. However, the claim that GPUs 'hold value or appreciate' is contradicted by market data: H100 cloud rental rates declined 64–75% from 2024 peaks; secondhand H100 server prices have normalized well below scarcity highs. CoreWeave depreciates its fleet over six years; Nebius uses four. Institutional operators (CoreWeave, Lambda, Crusoe) have enterprise contracts, GPU-collateralized debt facilities, and scale that individual operators cannot replicate. Analysts including Michael Burry have flagged ~$176B in potential industry-wide understated depreciation.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.cbh.com/insights/articles/irs-notice-2026-11-interim-guidance-on-bonus-depreciation/",
+      "title": "IRS Notice 2026-11: Interim Guidance on Bonus Depreciation — Cherry Bekaert"
+    },
+    {
+      "url": "https://www.bdo.com/insights/tax/one-big-beautiful-bill-act-expands-100-depreciation-expensing-opportunities",
+      "title": "One Big Beautiful Bill Act Expands 100% Depreciation Expensing Opportunities — BDO"
+    },
+    {
+      "url": "https://hashrateindex.com/blog/used-gpu-market-pricing-deprecation-secondary-ai/",
+      "title": "Used GPU Market: A100 & H100 Pricing, Depreciation — Hashrate Index"
+    },
+    {
+      "url": "https://jarvislabs.ai/blog/h100-price",
+      "title": "NVIDIA H100 Price Guide 2026 — Jarvis Labs"
+    },
+    {
+      "url": "https://davefriedman.substack.com/p/how-coreweave-actually-finances-its",
+      "title": "How CoreWeave Actually Finances Its GPUs — Dave Friedman / Substack"
+    },
+    {
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Closes-Landmark-8.5-Billion-Financing-Facility-Achieving-First-Investment-Grade-Rated-GPU-backed-Financing/default.aspx",
+      "title": "CoreWeave Closes $8.5 Billion GPU-Backed Financing Facility"
+    },
+    {
+      "url": "https://sacra.com/c/coreweave/",
+      "title": "CoreWeave Revenue, Valuation & Funding — Sacra"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00.000Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,19 @@
+{
+  "key": "alc2022",
+  "display_name": "Antonio Linares (@alc2022)",
+  "blurb": "Antonio Linares is a Spanish retail investor and Substack writer with approximately 134,000 followers on X (formerly Twitter). He is primarily known in financial social-media circles for holding long positions in Palantir Technologies (from roughly the 2022 trough near $7), AMD (cited at around $4), and Tesla (cited at around $13) — calls he references repeatedly across his content as proof of analytical foresight. His writing style blends technology optimism with investing thesis construction, often framing emerging sectors (AI infrastructure, peptide biology, longevity) as the 'next Palantir' opportunity. He publishes on Substack under his own name (antoniolinares.substack.com) and cross-promotes articles on X using urgency and FOMO framing ('read before everyone else does'). As of 2026 he has written extensively on peptides and the longevity economy, drawing an analogy between early AI adoption and coming advances in programmable biology.",
+  "credibility_note": "Linares is a sophisticated retail investor and engaging writer, not a licensed financial analyst, registered investment adviser, or trained biologist. His track record rests on a small number of cited calls made during an identifiable market trough (late 2022 broad tech selloff); survivorship effects and the general recovery of AI-adjacent equities from that period make individual attribution difficult. His peptide and biology content does not engage primary clinical literature or trial data. Content should be treated as an informed lay perspective, not expert analysis. He does not appear to disclose position sizes, cost bases, or whether the companies he covers are holdings.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/alc2022"},
+    {"label": "Substack", "url": "https://antoniolinares.substack.com"},
+    {"label": "YouTube", "url": "https://www.youtube.com/@alc_magic"}
+  ],
+  "sources": [
+    {"title": "Antonio Linares (@alc2022) — X", "url": "https://x.com/alc2022"},
+    {"title": "Antonio Linares — Substack", "url": "https://antoniolinares.substack.com"},
+    {"title": "Peptides are the Tip of the Iceberg (March 2026)", "url": "https://antoniolinares.substack.com/p/peptides-are-the-tip-of-the-iceberg"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

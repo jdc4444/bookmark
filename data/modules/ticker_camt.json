@@ -1,0 +1,16 @@
+{
+  "key": "camt",
+  "name": "Camtek Ltd.",
+  "exchange": "NASDAQ",
+  "blurb": "Camtek is an Israeli maker of optical inspection and metrology systems for semiconductor wafers and advanced packaging. Its Eagle and Hawk platform families use proprietary imaging optics to detect defects and measure structural features on bumped wafers, HBM stacks, and CoWoS-like substrates — placing the company at the inspection chokepoint of the AI-chip packaging supply chain. Customers are primarily front-end OSATs and IDMs running advanced packaging lines for AI accelerators.",
+  "recent": "Camtek reported record revenue of $496 million for full year 2025, up roughly 15% from the 2024 record of $429 million. Management guides for double-digit growth in 2026 on continued demand for advanced packaging inspection ahead of hybrid-bonding ramps. The company received a $31 million CoWoS-focused order from a leading OSAT in early 2026 and multiple Hawk system orders from IDMs for AI applications. The stock has carried a price-to-sales ratio well above 7x throughout the AI era, reflecting its position as a near-monopoly provider of inspection for advanced packaging workflows.",
+  "sources": [
+    {"title": "Camtek Full Year 2025 Record Results", "url": "https://www.camtek.com/news-and-events/camtek-announces-record-results-for-the-fourth-quarter-full-year-2025/"},
+    {"title": "Camtek Full Year 2024 Record Results", "url": "https://www.camtek.com/news-and-events/camtek-announces-record-results-for-the-fourth-quarter-full-year-of-2024/"},
+    {"title": "Camtek $31M CoWoS order (ConvergeDigest)", "url": "https://convergedigest.com/camtek-lands-31m-order-from-osat-for-cowos-like-advanced-packaging/"},
+    {"title": "Camtek (CAMT) Stock Price & Overview (StockAnalysis)", "url": "https://stockanalysis.com/stocks/camt/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

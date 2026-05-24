@@ -1,0 +1,129 @@
+{
+  "headline": "Training AI to Write Like Humans by Reversing a Slopping Pipeline",
+  "lede": "A post on r/LocalLLaMA describes an elegantly simple data-engineering trick: instead of curating paired human and AI texts, the author generates them by deliberately degrading literary classics through repeated LLM prompting, then fine-tunes a model to reverse the damage. The result reportedly passes Pangram, one of the more rigorous commercial AI detectors — a claim made more striking by the apparent identity of the person who amplified it.",
+  "body": "The substrate is **Project Gutenberg**, the public-domain archive of pre-20th-century literature. The author fed passages through GPT-4o-mini ten times in succession, each time instructing the model to “make it read far better, adding superior prose.” The cumulative effect inverts the prompt’s stated goal: the text acquires the characteristic signature of *AI slop* — inflated vocabulary, structural redundancy, and a frictionless fluency that paradoxically reads as hollow. Reward models and language assistants alike are prone to this failure; they optimize for proxies of quality (length, ornate diction, tidy structure) rather than quality itself, producing what researchers have formally characterized as “superficial competence.”\n\nWith a corpus of slop-to-original pairs in hand, the author fine-tuned a smaller model to perform the inverse mapping. The move is structurally elegant: it sidesteps the hardest part of building a “humanizer” tool — finding convincing parallel training data — by generating that data from a corpus whose human provenance is beyond question. Gutenberg texts predate generative AI by more than a century and serve as an unimpeachable ground-truth anchor.\n\nThe technique echoes *Inverse Transfer Data Augmentation* (ITDA), a method formalized in 2024 by Shao et al., in which a capable frontier model strips stylistic attributes from text to produce a neutralized version, and a smaller model is then trained on the (neutralized → original) pairs. The Reddit post inverts the framing: the LLM adds a specific style — AI slop — and the fine-tuned model learns to remove it. The corruption engine is the same; the direction of desired travel is reversed.\n\nThe sharpest claim in the post is that the resulting model fools **Pangram**. Pangram, a detection startup apparently co-founded by Max Spero — whose X handle @max_spero_ is the profile that surfaced this Reddit project — uses an architecture called *EditLens*, presented at ICLR 2026, that achieves 94% accuracy on the binary human-versus-AI classification task. Pangram has been specifically hardened against humanizer tools and *back-translation* attacks; the Gutenberg inverse-pipeline approach is structurally different from those known attack vectors, which may explain why it succeeded. That the company’s own co-founder chose to amplify the result is either a mark of intellectual confidence or a signal that the margin was too narrow to alarm him — the post notes “very little overall quality cost,” leaving open the question of how much fidelity the unslopping process sacrifices.\n\nWhat the project does not address is domain specificity. A model trained to recover Victorian literary register from GPT-4o-mini’s improvements to Dickens is not the same as one that can humanize a LinkedIn post, a legal brief, or a software README. The technique may generalize; the single data point presented does not yet establish that it does.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Pangram",
+      "ticker": null
+    }
+  ],
+  "poster": "max_spero_",
+  "concepts": [
+    {
+      "key": "ai-slop",
+      "term": "AI slop",
+      "definition": "Low-quality digital content mass-produced with generative AI, characterized by inflated vocabulary, structural redundancy, and a shallow fluency that substitutes ornament for substance. The term was popularized in 2024 and named Merriam-Webster’s Word of the Year for 2025. Researchers define its key properties as superficial competence, asymmetric effort (easy to produce, costly to read critically), and mass producibility."
+    },
+    {
+      "key": "inverse-transfer-data-augmentation",
+      "term": "Inverse Transfer Data Augmentation (ITDA)",
+      "definition": "A fine-tuning technique in which a capable frontier model is used to degrade or neutralize stylized text, creating synthetic parallel training pairs, and a smaller model is then trained to perform the inverse transformation — recovering the target style from the neutralized input. Formalized by Shao et al. in 2024 for authorship style transfer; the Reddit post applies the same structure to the AI-slop-to-human-prose axis."
+    },
+    {
+      "key": "reward-model",
+      "term": "reward model",
+      "definition": "A secondary model trained to score language-model outputs on a quality scale, used during reinforcement learning from human feedback (RLHF) to steer a model toward preferred responses. Reward models can be gamed by surface-level signals — length, formal diction, tidy structure — rather than genuine quality, which is a principal driver of AI slop."
+    },
+    {
+      "key": "fine-tuning",
+      "term": "fine-tuning",
+      "definition": "Continuing the training of a pre-trained language model on a smaller, task-specific dataset to adapt its behavior for a particular use, without retraining from scratch. Fine-tuning is far cheaper than pre-training and is the standard method for specializing general-purpose models."
+    },
+    {
+      "key": "humanizer",
+      "term": "humanizer",
+      "definition": "A category of tool or model that rewrites AI-generated text to evade AI-detection software, typically by altering phrasing, rhythm, and vocabulary toward patterns associated with human writing. Commercial humanizer tools have been the subject of specific hardening efforts by detection companies such as Pangram."
+    },
+    {
+      "key": "back-translation",
+      "term": "back-translation",
+      "definition": "A method of generating synthetic text by translating a passage into an intermediate language and then back, which tends to neutralize stylistic fingerprints while preserving meaning. Used both for data augmentation in NLP research and as an adversarial technique for evading AI-content detectors."
+    },
+    {
+      "key": "editlens",
+      "term": "EditLens",
+      "definition": "Pangram’s neural architecture for AI-content detection, trained with lightweight similarity metrics as intermediate supervision rather than binary labels alone. Presented at ICLR 2026, it achieves 94% accuracy on binary human-versus-AI classification and has been independently validated for robustness against common evasion attacks including back-translation."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "Vicky-Shao-ITDA",
+      "url": "https://github.com/Vicky-Shao/ITDA",
+      "summary": "Reference implementation of Inverse Transfer Data Augmentation for authorship style transfer. Uses GPT-3.5 to neutralize stylized text, creating synthetic parallel training pairs, then fine-tunes a BART-base model to recover the target style. Represents the closest published prior art to the Reddit post’s unslopping technique."
+    }
+  ],
+  "fact_check": "Pangram markets a “99.98% accuracy” figure on its website; this refers to performance on its own internal benchmarks and should not be conflated with the 94.0% accuracy reported in its peer-reviewed ICLR 2026 paper (EditLens) on the binary human-versus-AI task — the figure most relevant to the claims in this post. The two numbers measure different things. Additionally, the Reddit post itself could not be independently retrieved for verification; this brief is based on the OCR transcript and the poster’s paraphrase, which may introduce imprecision about the exact method.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/max_spero_/status/2017468565243191496",
+      "title": "Max Spero on X: pretty cool project on r/localllama",
+      "note": "The bookmark tweet that surfaces the Reddit project; embedded OCR served as primary source for the post’s content"
+    },
+    {
+      "url": "https://www.pangram.com/",
+      "title": "Pangram — AI Content Detection",
+      "note": "Company overview and product claims including the 99.98% accuracy figure"
+    },
+    {
+      "url": "https://www.pangram.com/blog/introducing-pangram-3-2",
+      "title": "Introducing Pangram 3.2",
+      "note": "Latest model release notes including accuracy benchmarks and hardening against humanizer attacks"
+    },
+    {
+      "url": "https://www.pangram.com/blog/editlens-accepted-into-iclr-2026",
+      "title": "EditLens Accepted into ICLR 2026",
+      "note": "Peer-reviewed architecture paper; source of 94% accuracy figure"
+    },
+    {
+      "url": "https://www.pangram.com/blog/the-latest-in-ai-detection-research",
+      "title": "The Latest in AI Detection Research — Pangram",
+      "note": "Summary of ESPERANTO robustness study and back-translation attack resistance"
+    },
+    {
+      "url": "https://www.pangram.com/blog/ai-humanizers-the-slop-2-problem",
+      "title": "AI Humanizers: The (Slop)^2 Problem — Pangram",
+      "note": "Pangram’s analysis of humanizer-tool evasion attacks; context for why the Gutenberg approach is structurally novel"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AI_slop",
+      "title": "AI slop — Wikipedia",
+      "note": "Etymology, timeline, and cultural context of the term"
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.19163",
+      "title": "Measuring AI ‘Slop’ in Text (arXiv:2509.19163)",
+      "note": "First formal academic framework for evaluating AI slop; source of ‘superficial competence’ characterization"
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.15013",
+      "title": "Text Style Transfer with Round-trip Translation (arXiv:2602.15013)",
+      "note": "Prior art on using synthetic degradation via LLM for style transfer training data generation"
+    },
+    {
+      "url": "https://github.com/Vicky-Shao/ITDA",
+      "title": "Vicky-Shao/ITDA — Inverse Transfer Data Augmentation",
+      "note": "Closest published prior art to the Reddit post’s unslopping technique"
+    },
+    {
+      "url": "https://andrewpwheeler.com/2026/04/30/pangram-is-good/",
+      "title": "Pangram is Good — Andrew Wheeler (April 30, 2026)",
+      "note": "Independent validation of Pangram’s low false-positive rate on pre-AI legal texts"
+    },
+    {
+      "url": "https://www.ignorance.ai/p/the-field-guide-to-ai-slop",
+      "title": "The Field Guide to AI Slop — Ignorance.ai",
+      "note": "Cultural analysis of AI slop categories and characteristics"
+    }
+  ],
+  "bookmark_id": "2017468565243191496",
+  "generated_at": "2026-05-07T12:44:22.851943Z",
+  "backend": "claude-sonnet-subagent"
+}

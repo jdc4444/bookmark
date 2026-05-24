@@ -1,0 +1,28 @@
+{
+  "key": "RNO.PA",
+  "name": "Renault SA",
+  "exchange": "Euronext Paris",
+  "blurb": "Renault SA is a French multinational automotive manufacturer founded in 1898, engaged in the design, manufacture, sale, repair, maintenance, and leasing of motor vehicles across Europe, Eurasia, Africa, the Middle East, Asia Pacific, and the Americas. The company operates through three segments: Automotive (passenger cars and light commercial vehicles), Sales Financing (under the Mobilize Financial Services brand), and Mobility Services. With roughly 100,000 employees and trailing twelve-month revenue of approximately €57.9 billion, Renault ranks among Europe's largest automakers alongside its alliance partners.",
+  "recent": "As of mid-May 2026, Renault shares trade around €28.56, near the bottom of their 52-week range of €26.87–€49.74 and down roughly 42% over the past year amid a reported net loss of €10.93 billion (TTM). The stock went ex-dividend on May 8, 2026 with a €2.20 per share dividend, implying an elevated yield of approximately 8% that reflects compressed valuation rather than earnings strength. Next scheduled earnings release is July 30, 2026; the company's forward P/E of ~4x signals deep market skepticism about near-term profitability.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/RNO.PA/",
+      "title": "Renault SA (RNO.PA) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/epa/RNO/",
+      "title": "Renault (EPA:RNO) Stock Price & Overview - Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/EPA/RNO/",
+      "title": "Renault (RNO) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.rttnews.com/SymbolSearch.aspx?Symbol=RNO.PA",
+      "title": "Renault (RNO.PA) News Headlines - RTTNews"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:31:08.465712Z",
+  "backend": "claude-sonnet-subagent"
+}

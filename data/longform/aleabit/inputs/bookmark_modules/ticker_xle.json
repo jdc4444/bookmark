@@ -1,0 +1,28 @@
+{
+  "key": "XLE",
+  "name": "State Street Energy Select Sector SPDR ETF",
+  "exchange": "NYSE Arca",
+  "blurb": "The State Street Energy Select Sector SPDR ETF (XLE) is an exchange-traded fund that tracks the S&P Energy Select Sector Index, a market-cap-weighted index of US energy companies in the S&P 500. It holds 25 stocks, with top holdings including Exxon Mobil, Chevron, and ConocoPhillips. With over $41 billion in assets and a low expense ratio of 0.08%, XLE is one of the most widely used ETFs for gaining exposure to the US energy sector.",
+  "recent": "Over the past month, XLE fell sharply, dropping 4.12% on May 6, 2026 to close at $57.00, amid rising oil prices and investor concerns over escalating Iran conflict. The ETF's 52-week range is $39.97 to $63.46, with the high reached in late March 2026. Recent news highlighted bullish sentiment on Berkshire Hathaway's energy holdings ahead of earnings and broader market declines driven by geopolitical tensions.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/XLE/",
+      "title": "State Street Energy Select Sector SPDR ETF (XLE) Stock Price, News ..."
+    },
+    {
+      "url": "https://stockanalysis.com/etf/xle/",
+      "title": "XLE ETF Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/fund/xle",
+      "title": "XLE | State Street Energy Select Sector SPDR ETF Overview - MarketWatch"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/XLE",
+      "title": "XLE: State Street Energy Select Sector SPDR ETF - CNBC"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:49:40.821397Z",
+  "backend": "deepseek"
+}

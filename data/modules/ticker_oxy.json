@@ -1,0 +1,14 @@
+{
+  "key": "OXY",
+  "name": "Occidental Petroleum Corporation",
+  "exchange": "NYSE",
+  "blurb": "Occidental Petroleum is a diversified oil-and-gas producer with large-scale positions in the Permian Basin (its OxyChem chemical subsidiary is one of the largest U.S. producers of basic chemicals), the DJ Basin, and international assets in Oman and the UAE. It is notably the largest acreage holder in the Permian. Warren Buffett's Berkshire Hathaway holds approximately 28% of OXY's outstanding shares, an ownership level that has drawn persistent speculation about a potential full acquisition. OXY's elevated debt load — a legacy of the 2019 Anadarko acquisition — makes it one of the most oil-price-leveraged names in the large-cap E&P universe.",
+  "recent": "Occidental's Q1 2026 results were due for release on May 5, 2026, with a consensus analyst EPS estimate of $0.58 on revenue of $5.64 billion. The company has beaten EPS estimates for eight consecutive quarters. WTI averaging near $100/barrel through Q1 represents a significant positive surprise relative to the sub-$70 price decks embedded in consensus estimates at the start of the year. OXY's high financial leverage amplifies the earnings impact of oil price movements, which is both the central bull and bear argument for the stock in a volatile commodity environment.",
+  "sources": [
+    {"url": "https://news.alphastreet.com/occidental-petroleum-q1-2026-earnings-preview-may-6-street-expects-0-58-eps/", "title": "Occidental Petroleum Q1 2026 Earnings Preview — Alphastreet"},
+    {"url": "https://www.benzinga.com/quote/OXY/earnings", "title": "Occidental Petroleum Earnings Estimates — Benzinga"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

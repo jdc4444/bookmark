@@ -1,0 +1,32 @@
+{
+  "key": "RELX",
+  "name": "RELX PLC",
+  "exchange": "NYSE",
+  "blurb": "RELX PLC is a global provider of information-based analytics and decision tools for professional and business customers. The company operates through four segments: Risk, Scientific Technical & Medical, Legal, and Exhibitions. It serves customers in North America, Europe, and internationally, combining public and industry-specific content with technology to help clients evaluate risk, advance research, and manage legal and business information. With a market capitalization of approximately $63 billion and over 37,000 employees, RELX is a leading player in the specialty business services industry.",
+  "recent": "In the past 30 days, RELX stock has traded in a range of $35.63 to $36.52, with a recent price around $35.75. The company reported strong financials with revenue of $12.91 billion and net income of $2.78 billion, reflecting steady growth. Analysts maintain a Strong Buy consensus, and the stock offers a dividend yield of 2.42% with an ex-dividend date of August 8, 2025.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/RELX/",
+      "title": "RELX PLC (RELX) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/relx/",
+      "title": "RELX PLC (RELX) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/RELX/",
+      "title": "Relx (RELX) Stock Price, News & Analysis $RELX - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/relx",
+      "title": "RELX PLC ADR Stock Quote (U.S.: NYSE) - MarketWatch"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/XNYS/RELX/quote",
+      "title": "RELX Stock Price Quote | Morningstar"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:48:17.949214Z",
+  "backend": "deepseek"
+}

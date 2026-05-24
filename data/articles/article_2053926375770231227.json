@@ -1,0 +1,87 @@
+{
+  "headline": "When the Built-In Mac Sleep Guard Runs Out of Options",
+  "lede": "A reply tweet to former OpenAI researcher @willdepue poses a familiar developer question: why install anything when the operating system already ships the tool you need? The answer, in this case, is genuinely nuanced — `caffeinate -imdsu` works well until the laptop lid closes, and on Apple Silicon that turns out to matter a great deal.",
+  "body": "@abysmal_pepto's reply sits at the intersection of two recent trends: the proliferation of AI coding agents that run for hours unattended, and a cottage industry of macOS utilities built to keep laptops awake while they do. @willdepue, a former OpenAI researcher who contributed to *Sora* and the post-training of several frontier models, had posted about a tool or workflow for preventing a MacBook from sleeping mid-task. The rejoinder: why not use the command already baked into the operating system?\n\n`caffeinate` has lived at `/usr/bin/caffeinate` since OS X Mountain Lion (2012). It works by filing **IOKit power-management assertions** — explicit requests to the kernel not to enter a particular sleep state. The flags in the `-imdsu` combination each address a separate layer: `-i` blocks user-idle system sleep, `-m` blocks disk idle, `-d` blocks display sleep, `-s` blocks full system sleep on AC power, and `-u` briefly declares the user active to wake the display. Run together, they cover every standard sleep pathway except one.\n\nThe exception is the one that matters for this conversation. On *Apple Silicon* (M-series) Macs running macOS Ventura or later, closing the laptop lid triggers a hardware-enforced sleep event that `caffeinate` cannot override. Developers running AI agent sessions — extended autonomous tasks in tools like Claude Code or Codex that can run for hours — increasingly want to close the lid and return to a finished result. Neither `caffeinate` nor `pmset disablesleep 1` reliably prevents lid-close sleep on M-series hardware. Apple (AAPL) tightened the power-management stack when it moved to its own silicon, and the assertion model `caffeinate` relies on cannot reach that hardware-level gate. Tools like Modafinil (open-source, narcotic-sh on GitHub) and Amphetamine (free, Apple App Store) were built specifically to address this gap using OS-level APIs that sit above `caffeinate`'s reach.\n\nThere are softer limitations too. `caffeinate` is tied to the shell session that launched it: close the terminal window and the process dies silently, sleep prevention gone — unless the user backgrounds it with `nohup caffeinate -imdsu &`. The `-s` flag is explicitly AC-power-only, so on battery it is inert. And the `-u` assertion carries a hard-coded five-second expiry in Apple's open-source implementation; it is designed to simulate a brief user interaction, not hold indefinitely, and while the other flags keep the system awake it means the display-wake component expires quickly.\n\nSo the reply deserves a qualified yes. For a developer sitting at a desk, MacBook open, on AC power, who simply wants to prevent the screen from going dark during a build or a long download, `caffeinate -imdsu` is perfectly sufficient — no installation, no permissions, no expanded attack surface. The ecosystem of third-party apps exists for the cases that qualified yes cannot cover: lid closed on Apple Silicon, battery-powered operation where automatic cutoffs matter, non-technical users who need a menu-bar toggle, and anyone who wants expiration alerts or battery-protection rules. The tool is not redundant; it is scoped.",
+  "tickers": [
+    "AAPL"
+  ],
+  "companies": [
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    }
+  ],
+  "poster": "abysmal_pepto",
+  "concepts": [
+    {
+      "key": "iokit-power-assertion",
+      "term": "IOKit power assertion",
+      "definition": "A request filed by a process to macOS's kernel asking it not to enter a particular power state, such as sleep or display-off. The kernel honors the request as long as the process holds it; when the process exits, the assertion is released. `caffeinate` is the command-line interface for creating these assertions."
+    },
+    {
+      "key": "apple-silicon",
+      "term": "Apple Silicon",
+      "definition": "Apple's in-house family of ARM-based system-on-chip processors, beginning with the M1 in 2020. Because Apple controls both hardware and software, it can enforce behaviors — such as sleep on lid close — at a level below what the traditional macOS power-management API can override."
+    },
+    {
+      "key": "pmset",
+      "term": "pmset",
+      "definition": "A macOS command-line utility for reading and writing power-management settings, such as sleep timers, display-off delays, and the `disablesleep` flag. It operates at a lower level than `caffeinate` but is also constrained by hardware enforcement on Apple Silicon."
+    },
+    {
+      "key": "caffeinate",
+      "term": "caffeinate",
+      "definition": "A macOS built-in command at `/usr/bin/caffeinate` that prevents the system from sleeping by holding IOKit power assertions. It can be run standalone (holds until the process is killed), with a timeout (`-t`), or tied to another process (`-w <pid>`). Included since OS X 10.8 Mountain Lion."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "narcotic-sh-modafinil",
+      "url": "https://github.com/narcotic-sh/modafinil",
+      "summary": "A Swift menu-bar app for Apple Silicon Macs (macOS 13+) that keeps the system awake even when the lid is closed while allowing the display to turn off. It was built because existing tools including `caffeinate` and Amphetamine could not cleanly handle the lid-close sleep enforcement Apple introduced with its own silicon. The name is a deliberate nod to the naming tradition of caffeinate-adjacent tools (Caffeine → Amphetamine → Modafinil)."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://ss64.com/mac/caffeinate.html",
+      "title": "caffeinate man page — SS64",
+      "note": "Flag-by-flag documentation of the caffeinate command"
+    },
+    {
+      "url": "https://github.com/apple-oss-distributions/PowerManagement/blob/main/caffeinate/caffeinate.c",
+      "title": "Apple OSS caffeinate source",
+      "note": "Confirms the 5-second hard-coded expiry on the -u assertion"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=48080675",
+      "title": "Show HN: Modafinil — Keep your Mac awake with lid closed",
+      "note": "Creator cites viral Twitter posts about AI agents as the direct inspiration"
+    },
+    {
+      "url": "https://github.com/narcotic-sh/modafinil",
+      "title": "narcotic-sh/modafinil on GitHub",
+      "note": "Open-source lid-close sleep prevention tool for Apple Silicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=31124682",
+      "title": "HN thread: caffeinate vs third-party apps",
+      "note": "Community discussion of caffeinate limitations, including battery and lid-close edge cases"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=44745897",
+      "title": "HN thread: MacBook Pro Insomnia (lid-close sleep)",
+      "note": "Reports on caffeinate reliability on M-series hardware"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/amphetamine/id937984704",
+      "title": "Amphetamine — App Store",
+      "note": "Most widely used GUI alternative to caffeinate, used for comparison context"
+    }
+  ],
+  "bookmark_id": "2053926375770231227",
+  "generated_at": "2026-05-14T10:59:06.986423Z",
+  "backend": "claude-sonnet-subagent"
+}

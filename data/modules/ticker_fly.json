@@ -1,0 +1,32 @@
+{
+  "key": "FLY",
+  "name": "Firefly Aerospace Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Firefly Aerospace is a space and defense technology company providing integrated launch and space services for national security, government, and commercial customers. Its launch portfolio includes Alpha, a small responsive launch vehicle, and Eclipse, a medium-lift rocket under development. On the spacecraft side, the company offers Blue Ghost, a lunar delivery and operations platform. The company IPO'd on August 7, 2025 and trades with a market cap of approximately $6.3 billion against trailing-twelve-month revenue of $184.9 million (+70.7% YoY), though it remains unprofitable with a net loss of $358 million.",
+  "recent": "Firefly reported earnings on May 4, 2026, its most recent quarterly update. As of May 13, 2026, shares closed at $39.37 — near the analyst consensus price target of $40.13 (Buy) — but well off the 52-week high of $73.80, reflecting a significant drawdown since the post-IPO peak. Volume has been elevated at roughly 6 million shares, and the stock's 52-week low of $16.00 underscores continued volatility typical of pre-profitability space launch names.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/fly/",
+      "title": "Firefly Aerospace (FLY) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/FLY/news/",
+      "title": "FLY News Today | Firefly Aerospace — MarketBeat"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/FLY/",
+      "title": "FIREFLY AEROSPACE (FLY) Stock News & Updates — StockTitan"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/FLY/",
+      "title": "Firefly Aerospace Inc. (FLY) — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/fly",
+      "title": "FLY Stock Quote — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:33:13.549324Z",
+  "backend": "claude-sonnet-subagent"
+}

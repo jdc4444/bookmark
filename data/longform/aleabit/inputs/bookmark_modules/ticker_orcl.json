@@ -1,0 +1,24 @@
+{
+  "key": "ORCL",
+  "name": "Oracle Corporation",
+  "exchange": "NYSE",
+  "blurb": "Oracle is an enterprise software and cloud infrastructure company founded by Larry Ellison in 1977 and headquartered in Austin, Texas. Its core businesses are database software (Oracle Database remains the dominant enterprise RDBMS by revenue), cloud applications (ERP, HCM, and CX via Oracle Fusion and NetSuite), and Oracle Cloud Infrastructure (OCI), its IaaS platform. OCI entered the AI infrastructure race later than AWS, Azure, and Google Cloud but has emerged as a preferred hyperscale partner for OpenAI and other large AI workloads, partly due to competitive GPU pricing and multi-region data-centre commitments. Oracle is an equity participant in the Stargate joint venture alongside OpenAI and SoftBank.",
+  "recent": "Oracle's fiscal Q3 2026 (ending February 2026) was described by management as the strongest quarter in more than 15 years: total revenue rose 22% year-on-year to $17.2 billion, cloud revenue jumped 44% to $8.9 billion, and GPU-related cloud revenue grew 177% year-on-year in the prior quarter. The company reported a $523 billion remaining performance-obligation backlog — driven by AI mega-deals with OpenAI and Meta — and committed approximately $50 billion in capital expenditure for fiscal 2026. BNP Paribas analysts estimated that Oracle's 4.5 gigawatt Stargate capacity commitment could eventually generate $30–60 billion in annual revenue.",
+  "sources": [
+    {
+      "url": "https://futurumgroup.com/insights/oracle-q2-fy-2026-cloud-grows-capex-rises-for-ai-buildout/",
+      "title": "Oracle Q2 FY2026: Cloud Grows, Capex Rises — Futurum"
+    },
+    {
+      "url": "https://www.tipranks.com/news/oracle-orcl-sets-all-time-high-as-30bn-ai-stargate-payoff-looms",
+      "title": "Oracle All-Time High: Stargate Payoff — TipRanks"
+    },
+    {
+      "url": "https://openai.com/index/five-new-stargate-sites/",
+      "title": "OpenAI, Oracle, SoftBank Expand Stargate — OpenAI"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

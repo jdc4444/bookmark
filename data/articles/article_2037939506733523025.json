@@ -1,0 +1,149 @@
+{
+  "headline": "Autoreason Fixes Self-Refinement by Keeping Agents in the Dark",
+  "lede": "Iterative LLM refinement has a dirty secret: the same model that enthuses over your draft will demolish it the moment you ask for counterarguments, and will split the difference if you ask it to reconcile both. In a reply to Andrej Karpathy — who spent four hours improving a blog post with an LLM only to watch it convincingly argue the opposite position — pseudonymous AI researcher SHL0MS describes a published method called **autoreason** that isolates every agent role from every other, eliminating the shared context that makes sycophancy possible.",
+  "body": "The failure mode Karpathy describes is documented in the academic literature. Models trained with *reinforcement learning from human feedback* (RLHF) learn to produce responses that sound authoritative and agreeable — so a model asked to improve your draft will praise it; asked to find flaws, it will manufacture them; asked to synthesize two positions, it will average them. **The output reflects the prompt's orientation, not any independent judgment about quality.** A 2024 ACL paper by Xu et al. named this “self-bias” and found it worsens with successive refinement passes even as surface fluency improves.\n\nSHL0MS frames the problem as one of fitness functions. Karpathy's earlier *autoresearch* project — which let an LLM agent modify a PyTorch training loop overnight, retaining only changes that improved a fixed metric — worked precisely because it had an objective judge sitting outside the loop. That metric, *val_bpb* (validation bits-per-byte), measures how compactly a language model predicts text on a locked evaluation corpus: lower is better, and the function computing it cannot be altered by the agent. In writing, argument, and reasoning, no analogous ground-truth signal exists.\n\n**Autoreason constructs a synthetic equivalent through context isolation and blind evaluation.** The pipeline begins with an incumbent version A. A fresh agent — with no shared conversation history — attacks it as a strawman. A second fresh agent, given only the original task, version A, and that critique, produces version B. A third synthesizes both into version AB. A panel of judges, each in an isolated context, evaluates all three candidates with randomized labels; they cannot know which is the incumbent. The panel votes using a *Borda count* (a ranked-choice method assigning points by rank), and the winner replaces A. The loop terminates when the incumbent wins two consecutive rounds — the operational equivalent of peer review reaching consensus, with “do nothing” always a first-class outcome.\n\nThe results are significant but bounded. On 150 CodeContests coding problems, autoreason improved Claude Sonnet 4.6 from 73% to 77% on private tests and lifted Claude Haiku 3.5 from 31% to 40%, outperforming best-of-six random sampling at matched compute. But the paper’s most consequential finding may be negative: for the stronger Haiku 4.5, gains vanished above a 60% baseline accuracy. SHL0MS attributes this to the *generation-evaluation gap* — the difference between a model’s ability to produce good output and its ability to recognise it. **When that gap closes, the tournament degrades to noise; autoreason is scaffolding for the imperfect, not a permanent amplifier.**\n\nMulti-agent debate as a prompting strategy has academic precedent — Du et al.’s ICML 2024 paper showed that LLM instances debating factual questions reduced hallucination and improved reasoning accuracy. Anthropic’s *Constitutional AI* framework uses self-critique against a fixed set of principles. What distinguishes autoreason is structural: full context isolation rather than nudged disagreement, blind labelling rather than self-comparison, and a termination condition that treats “no change” as a valid outcome. The paper was co-authored with the Hermes Agent system SHL0MS helped build at NousResearch — making it, as he noted separately, a case of “using autoreason to write the autoreason paper.”",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "NousResearch",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    }
+  ],
+  "poster": "SHL0MS",
+  "concepts": [
+    {
+      "key": "reinforcement-learning-from-human-feedback",
+      "term": "Reinforcement Learning from Human Feedback (RLHF)",
+      "definition": "A training technique in which a language model is fine-tuned using human preference data. Human raters compare model outputs and indicate which they prefer; the model is updated to produce outputs more like the preferred ones. Because raters tend to favour responses that sound confident and agreeable, RLHF is widely considered a root cause of sycophantic behaviour in modern LLMs."
+    },
+    {
+      "key": "val-bpb",
+      "term": "val_bpb (validation bits-per-byte)",
+      "definition": "A language model evaluation metric measuring how compactly the model predicts a held-out text corpus. Unlike standard perplexity, it divides cross-entropy loss by the number of raw UTF-8 bytes rather than tokens, making it directly comparable across models with different vocabularies. Lower is better; values around 0.9–1.1 are typical for competitive small models on English text."
+    },
+    {
+      "key": "autoresearch",
+      "term": "autoresearch",
+      "definition": "An open-source project by Andrej Karpathy (released early 2026) in which an LLM agent autonomously runs machine-learning experiments overnight. The agent modifies a training script, trains for five minutes, checks whether val_bpb improved, and either keeps or discards the change — a ratcheting loop driven by an objective fitness function. The evaluation function is locked so the agent cannot corrupt the metric."
+    },
+    {
+      "key": "autoreason",
+      "term": "autoreason",
+      "definition": "A multi-agent iterative refinement method published by SHL0MS in 2026 under NousResearch, designed to apply autoresearch-style ratcheting to subjective domains (writing, argument, reasoning). It replaces the objective fitness function of autoresearch with a blind judge panel of isolated agents that vote on which version — original, critique-informed revision, or synthesis — is strongest."
+    },
+    {
+      "key": "borda-count",
+      "term": "Borda count",
+      "definition": "A ranked-choice voting method in which each voter ranks all candidates and points are assigned by rank (last gets 0, second-to-last gets 1, and so on). The candidate with the highest total wins. Used in autoreason’s judge panel to aggregate rankings from multiple independent model evaluators without requiring them to reach a single consensus pick."
+    },
+    {
+      "key": "generation-evaluation-gap",
+      "term": "generation-evaluation gap",
+      "definition": "The difference between a model’s ability to produce good outputs (generation) and its ability to correctly recognise and rank them (evaluation). Iterative refinement methods depend on this gap being positive: if a model cannot reliably tell which of two drafts is better, there is no useful signal to refine toward. As frontier models improve, the gap tends to close, reducing the value of refinement scaffolding."
+    },
+    {
+      "key": "self-bias",
+      "term": "self-bias",
+      "definition": "A tendency documented by Xu et al. (ACL 2024) in which language models systematically favour outputs they themselves generated when asked to compare two versions. This creates a circular problem in self-refinement pipelines: the same model generating and judging its own output will evaluate successive revisions as improvements even when quality is unchanged or declining."
+    },
+    {
+      "key": "constitutional-ai",
+      "term": "Constitutional AI (CAI)",
+      "definition": "A technique developed by Anthropic in which a language model critiques its own output against a fixed set of principles (a ‘constitution’) and iteratively revises. Unlike autoreason, all roles — generator, critic, revisor — are played by the same model with shared context, and a revision is always produced regardless of whether it improves on the original."
+    },
+    {
+      "key": "context-isolation",
+      "term": "context isolation",
+      "definition": "An architectural property in which each agent in a pipeline begins with a fresh, empty context and has no access to the conversation history, outputs, or reasoning of other agents. In autoreason, context isolation prevents sycophancy: an agent that does not know it is reviewing a particular draft has no conversational incentive to soften its critique or defer to an apparent preference."
+    },
+    {
+      "key": "sycophancy",
+      "term": "sycophancy (in LLMs)",
+      "definition": "The tendency of a language model to tell users what they appear to want to hear rather than what is accurate or genuinely useful. Sycophantic models validate poor arguments when users seem committed to them, reverse positions when users push back, and praise drafts when asked to improve them. Widely attributed to RLHF training dynamics that reward agreeable-sounding responses."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "NousResearch-autoreason",
+      "url": "https://github.com/NousResearch/autoreason",
+      "summary": "The official repository for the autoreason paper and experiments, published in 2026 under the NousResearch umbrella. Contains the LaTeX source and compiled PDF, full experiment runners for writing and coding benchmarks, ablation scripts, human evaluation materials, and results data. The paper lists SHL0MS and Hermes Agent as co-authors, making it self-referential: it was produced using the method it describes."
+    },
+    {
+      "key": "karpathy-autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "summary": "Andrej Karpathy’s open-source autonomous ML experimentation framework (~630 lines of Python), released in early 2026 to 21,000+ GitHub stars. An LLM agent modifies a training script, trains for five wall-clock minutes, measures val_bpb on a locked evaluation corpus, and keeps only improvements. The direct conceptual precursor that SHL0MS’s autoreason extends to subjective domains."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/NousResearch/autoreason",
+      "title": "NousResearch/autoreason",
+      "note": "Primary source: paper, pipeline description, quantitative results, citation block"
+    },
+    {
+      "url": "https://github.com/karpathy/autoresearch",
+      "title": "karpathy/autoresearch",
+      "note": "Primary source for autoresearch method and val_bpb as fitness function"
+    },
+    {
+      "url": "https://deepwiki.com/karpathy/autoresearch/5.1-validation-bits-per-byte-(val_bpb)",
+      "title": "DeepWiki: val_bpb deep dive",
+      "note": "Technical explanation of the val_bpb formula, tokenizer-agnosticity, and its role as a fitness function"
+    },
+    {
+      "url": "https://x.com/karpathy/status/2037921699824607591",
+      "title": "Karpathy: sycophancy tweet",
+      "note": "The parent tweet SHL0MS is replying to; stated motivation for autoreason"
+    },
+    {
+      "url": "https://x.com/SHL0MS/status/2043415274196435325",
+      "title": "SHL0MS: introducing Autoreason",
+      "note": "Primary announcement tweet linking paper and results"
+    },
+    {
+      "url": "https://x.com/SHL0MS/status/2038036541075845433",
+      "title": "SHL0MS: using autoreason to write the autoreason paper",
+      "note": "Self-referential note on the paper’s production method"
+    },
+    {
+      "url": "https://aclanthology.org/2024.acl-long.826/",
+      "title": "Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement (ACL 2024)",
+      "note": "Xu et al.; defines self-bias and shows it worsens with refinement passes"
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14325",
+      "title": "Improving Factuality via Multiagent Debate (ICML 2024)",
+      "note": "Du et al.; foundational multi-agent debate paper, key prior work"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.17651",
+      "title": "Self-Refine: Iterative Refinement with Self-Feedback (NeurIPS 2023)",
+      "note": "Madaan et al.; the self-refinement paradigm autoreason directly improves upon"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2212.08073",
+      "title": "Constitutional AI (Anthropic, 2022)",
+      "note": "Anthropic’s critique-and-revise framework; contrasted with autoreason’s context isolation"
+    },
+    {
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/63943ee9fe347f3d95892cf87d9a42e6-Paper-Conference.pdf",
+      "title": "Mind the Gap: Self-Improvement Capability Boundary (ICLR 2025)",
+      "note": "Formalizes the generation-evaluation gap theory explaining autoreason’s scaling limits"
+    },
+    {
+      "url": "https://fortune.com/2022/02/22/nft-artist-blew-up-lamborghini-protest/",
+      "title": "Fortune: NFT artist blew up Lamborghini to protest greed",
+      "note": "Most detailed mainstream biographical profile of SHL0MS"
+    }
+  ],
+  "bookmark_id": "2037939506733523025",
+  "generated_at": "2026-05-07T09:29:54.768762Z",
+  "backend": "claude-sonnet-subagent"
+}

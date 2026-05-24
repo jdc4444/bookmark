@@ -1,0 +1,79 @@
+{
+  "bookmark_id": "2038708922161181150",
+  "headline": "Three Hundred Agents and Thirty Cents: Can a Simulated Twitter Replace a Bloomberg Terminal?",
+  "lede": "A quant's claim that $0.30 of LLM tokens can replicate $32,000-a-year worth of Bloomberg market intelligence has gone viral — and it surfaces a genuine question about what professional data tools are actually selling. The honest answer is: not vibes.",
+  "body": "The post describes a workflow built on MiroFish — an open-source multi-agent simulation engine that spawns hundreds of AI personas, each with a distinct personality and memory, then lets them interact across simulated social platforms before a synthesis agent distills the collective behavior into a readable signal. In the greentext scenario, three hundred agents argue about earnings sentiment on a simulated Twitter while a Polymarket-style prediction market — with LLM-estimated starting odds — spins up alongside them, with social agents watching price moves and the prediction market absorbing social sentiment in real time. The cost of the LLM calls, routed through OpenRouter (an API aggregator that gives access to 300-plus models from a single endpoint, pricing from fractions of a cent per thousand tokens), comes to thirty cents. The implication is that the Bloomberg Terminal, at $31,980 per seat per year as of 2026, has been functionally replicated for the price of a newspaper article.\n\nMiroFish is a real and recently notable piece of software. Built by Guo Hangjiang, a senior undergraduate in China, it reached the top of GitHub's global trending list in March 2026 and has accumulated more than 17,000 stars since its December 2025 release. Its architecture is technically interesting: it uses GraphRAG (a graph-based retrieval-augmented generation technique that maps entities and their relationships) to build a knowledge base from seed documents, then creates agents with persistent memory — stored in a vector database — who interact across dual-platform social simulations tuned for different dynamics. A Twitter-like layer favors rapid sentiment cascades; a Reddit-like layer models slower, faction-based deliberation. The whole stack runs on any OpenAI-compatible API, and an offline fork swaps cloud dependencies for local models via Ollama and a local Neo4j graph database.\n\nThe specific Polymarket-simulation feature described in the post — prediction contracts auto-generated with LLM-estimated starting odds — is not confirmed in MiroFish's published documentation, which focuses on social-opinion modeling and scenario testing rather than explicit prediction-market mechanics. The post's author may be combining MiroFish's opinion simulation with a separate Polymarket API integration, or describing planned or experimental functionality. Either way, the underlying concept is coherent: LLM agents capable of simulating heterogeneous market participants have been the subject of serious academic work. The TradingAgents framework (arXiv, December 2024) deployed LLM-powered fundamental analysts, sentiment analysts, and bear-versus-bull researcher agents in coordinated financial simulations. GuruAgents, benchmarked through the first half of 2025, emulated legendary investors and reported backtested CAGRs above 40 percent — numbers that demand scrutiny but indicate the research community is taking the premise seriously.\n\nWhat the Bloomberg Terminal actually sells, at its current price, is harder to replicate than sentiment simulation. Its core product is not opinion aggregation — it is real-time tick data from 330-plus exchanges, proprietary Bloomberg News with sub-second delivery, the Instant Bloomberg (IB) messaging network connecting 350,000-plus financial professionals, and a compliance and portfolio-risk infrastructure (Bloomberg MARS, Bloomberg Vault) that most institutional desks are contractually required to use. The IB chat network alone represents a network-effects moat that no simulation can reproduce: a quant asking counterparts about liquidity conditions in a thinly traded APAC bond at 3 a.m. is not doing market simulation — she is doing market communication, and the hundred-thousand-dollar software seat is partly a membership fee to that room. Bloomberg's proprietary data pipelines and the legal certifications tied to them are also not substitutable by inference.\n\nWhat MiroFish can plausibly substitute for is the softer, more qualitative use of the terminal that practitioners sometimes describe with genuine embarrassment — running news sentiment queries, reading analyst commentary, getting a gestalt feel for how a market narrative is forming before a catalyst. That slice of value is real; it is also genuinely contestable by a well-tuned agent simulation. Academic work on LLM-based sentiment heterogeneity has shown that models calibrated with diverse ideological and behavioral profiles can reproduce opinion distribution patterns that single-model summarization misses. If the question is \"what is the market's narrative mood around this earnings call,\" a 300-agent simulation is arguably a more rigorous probe than a terminal query — and for thirty cents, the cost-benefit calculus is not absurd.\n\nThe limitations, however, are structural and the creators acknowledge them. LLM agents are measurably more susceptible to herd behavior than real human populations — simulated crowds polarize faster and recover more slowly than observed market sentiment. MiroFish's own documentation notes there are no published benchmarks comparing its simulation outputs to actual outcome distributions. The thirty-cent bill also scales: thirty cents at three hundred agents over one scenario is cheap; running continuous multi-scenario surveillance across a live portfolio, refreshed at earnings-relevant cadence, is a different cost profile. The viral framing trades on the terminal's $32,000 price tag as a rhetorical foil, but the more useful comparison is not Bloomberg-versus-MiroFish — it is Bloomberg-minus-the-parts-you-need-for-compliance-and-counterparty-access versus a simulation engine that can generate informed priors about narrative formation. That comparison is more nuanced, and the outcome more genuinely uncertain.",
+  "tickers": [
+    "BBG"
+  ],
+  "poster": "aaronjmars",
+  "concepts": [
+    {
+      "key": "agent-simulation",
+      "term": "multi-agent simulation",
+      "definition": "A computational framework in which many independent software agents — each with distinct parameters, memories, and behavioral rules — interact in a shared environment. In financial applications, agents represent heterogeneous market participants (retail traders, analysts, institutional desks) whose collective interactions produce emergent phenomena such as sentiment cascades, price discovery, or narrative formation, without any single agent being programmed to produce those outcomes."
+    },
+    {
+      "key": "openrouter",
+      "term": "OpenRouter",
+      "definition": "An API aggregator that provides access to 300-plus large language models from providers including Anthropic, OpenAI, Meta, Google, Mistral, and others through a single unified endpoint. Charges pass-through per-token pricing from the underlying model provider, enabling developers to route calls to the cheapest available model for a given task and to fall back automatically if one provider's service degrades."
+    },
+    {
+      "key": "bloomberg-terminal",
+      "term": "Bloomberg Terminal",
+      "definition": "A proprietary data and analytics platform from Bloomberg LP, priced at approximately $31,980 per seat per year in 2026, that bundles real-time price feeds from 330-plus exchanges, Bloomberg News, portfolio and risk analytics, and — critically — the Instant Bloomberg (IB) messaging network connecting over 350,000 financial professionals. IB is an industry-standard communication layer for over-the-counter markets and is often as much a reason to maintain a subscription as the data itself."
+    },
+    {
+      "key": "mirofish",
+      "term": "MiroFish",
+      "definition": "An open-source multi-agent AI simulation engine built by developer Guo Hangjiang, released December 2025, that spawns hundreds of AI personas with persistent memory and distinct personalities, lets them interact across simulated social platforms (Twitter-like and Reddit-like environments), and synthesizes the emergent behavior into scenario forecasts. Uses GraphRAG for knowledge-graph construction and any OpenAI-compatible LLM as its reasoning backend."
+    },
+    {
+      "key": "graphrag",
+      "term": "GraphRAG",
+      "definition": "A retrieval-augmented generation technique that represents source documents as a knowledge graph — with entities as nodes and their relationships as edges — rather than as flat text chunks. Querying via graph traversal allows the system to surface relational context (who affects whom, which events are linked) that conventional vector-search RAG can miss, producing richer grounding for agent reasoning."
+    },
+    {
+      "key": "prediction-market",
+      "term": "prediction market",
+      "definition": "A financial instrument or platform where participants trade contracts on the outcome of specific future events; the market price of a contract, which pays $1 if the event occurs and $0 otherwise, is interpreted as the crowd's implied probability of that outcome. Platforms like Polymarket use blockchain-settled contracts; the aggregated prices function as a real-time probability index that often outperforms polling or expert forecasts for binary events."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "url": "https://github.com/nikmcfly/MiroFish-Offline",
+      "description": "Offline fork of MiroFish replacing cloud dependencies (Zep Cloud) with local stack (Neo4j + Ollama)"
+    }
+  ],
+  "fact_check": "Bloomberg Terminal pricing of ~$32,000/year (2026) is confirmed by multiple sources. MiroFish is a real, recently released open-source project with confirmed social-simulation capabilities. The specific Polymarket auto-spin-up feature described in the post is not confirmed in MiroFish's published documentation as of the research date — the tool simulates social sentiment, not explicit prediction-market contracts natively. The $0.30 OpenRouter bill is arithmetically plausible for a single 300-agent simulation run using cheap models (e.g., sub-$1/million-token models), but does not account for repeated or continuous use. The claim that this 'replaces' a Bloomberg Terminal conflates sentiment-narrative simulation with the terminal's exchange data, compliance infrastructure, and professional messaging network.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "title": "MiroFish: The Open-Source AI Engine That Builds Digital Worlds to Predict the Future — DEV Community",
+      "url": "https://dev.to/arshtechpro/mirofish-the-open-source-ai-engine-that-builds-digital-worlds-to-predict-the-future-ki8"
+    },
+    {
+      "title": "MiroFish-Offline — GitHub (nikmcfly)",
+      "url": "https://github.com/nikmcfly/MiroFish-Offline"
+    },
+    {
+      "title": "MiroFish: Multi-Agent Swarm Intelligence for Predictive Simulation — Medium",
+      "url": "https://medium.com/@balajibal/mirofish-multi-agent-swarm-intelligence-for-predictive-simulation-09771e60b188"
+    },
+    {
+      "title": "TradingAgents: Multi-Agents LLM Financial Trading Framework — arXiv",
+      "url": "https://arxiv.org/abs/2412.20138"
+    },
+    {
+      "title": "Bloomberg Terminal Pricing 2026: $31,980/year per seat — CostBench",
+      "url": "https://costbench.com/software/financial-data-terminals/bloomberg-terminal/"
+    },
+    {
+      "title": "OpenRouter — Model Pricing",
+      "url": "https://openrouter.ai/pricing"
+    }
+  ],
+  "generated_at": "2026-05-05T15:57:22.297392Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,23 @@
+[2026-05-11T19:30:45] start: remaining n=21 concurrency=4 timeout=1200s
+[2026-05-11T19:38:26] ok 2053625578780086655
+[2026-05-11T19:42:58] ok 2053601586501579250
+[2026-05-11T19:50:45] exc 2053674761721450801 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053674761721450801', '--prefer', 'claude']' timed out after 1200 seconds
+[2026-05-11T19:50:45] exc 2053674371206599103 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053674371206599103', '--prefer', 'claude']' timed out after 1200 seconds
+[2026-05-11T19:52:02] ok 2053279575270969437
+[2026-05-11T19:53:17] ok 2053290202995564782
+[2026-05-11T20:01:07] ok 2052998675639750665
+[2026-05-11T20:04:40] ok 2053227694549057847
+[2026-05-11T20:07:02] ok 2053222352301727763
+[2026-05-11T20:07:39] ok 2052922231370694843
+[2026-05-11T20:13:19] ok 2037276816369406387
+[2026-05-11T20:16:53] ok 2052848796468744585
+[2026-05-11T20:19:47] ok 2052887722868576397
+[2026-05-11T20:23:10] ok 1981566109863289028
+[2026-05-11T20:24:53] ok 2042015567465664843
+[2026-05-11T20:25:59] ok 1960359077608923529
+[2026-05-11T20:27:20] ok 2032172386246705627
+[2026-05-11T20:29:26] ok 1932423157199016100
+[2026-05-11T20:35:09] ok 1924487214743843066
+[2026-05-11T20:37:56] fail 1930993095195369928 rc=1 "A screen recording posted by @EHuanglu shows a user prompting Emergent AI — a no-code, multi-agent app builder — to assemble a functional image generation and editing application in a single session.
+[2026-05-11T20:38:19] ok 1929280165596581951
+[2026-05-11T20:38:19] DONE ok=18 fail=3

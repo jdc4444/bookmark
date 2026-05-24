@@ -1,0 +1,43 @@
+{
+  "headline": "A Gallery Where the Web Shows What It Can Actually Do",
+  "lede": "Most websites are furniture — functional, forgettable. A small counter-tradition insists the browser is a canvas, capable of real-time three-dimensional rendering indistinguishable, at its best, from a game engine. mesh3d.gallery, curated by designer Andy Broncek, is the most focused public index of that tradition.",
+  "body": "The site catalogs more than 250 websites and experiments built with *WebGL* — the browser API that gives JavaScript direct access to a device's graphics processor — and *Three.js*, the open-source library that wraps WebGL in a usable abstraction. Together they form the standard toolkit for so-called **creative-coded** web experiences: product pages that dissolve into particle fields, portfolios where geometry responds to a cursor, brand sites that render light and shadow in real time.\n\nWhat makes mesh3d.gallery useful as a resource rather than merely decorative is its organization around makers. The studios with the most entries — Unseen Studio (23), PeachWeb (16), Lusion (14) — function as a de facto ranking of who is doing this work at the highest level. Featured individual entries span luxury watches, a real-estate developer, a musician's portfolio, a book launch — evidence that immersive web design has crossed from agency novelty to an expectation in certain premium segments.\n\nThe featured sites visible in the gallery's OCR hint at the range: glacial documentary filmmaking, earbuds marketed with spatial sound design, a fashion house, an adidas campaign. The common thread is that none of them treat the browser as a document viewer. They treat it as a runtime environment with a GPU attached.\n\nThe counter-argument — that such sites are slow, inaccessible, and built for portfolio awards rather than users — is real and recurring in web-development discourse. Heavy WebGL payloads punish mobile connections; screen readers can make nothing of a canvas element. The gallery does not adjudicate this tension; it curates the aesthetic achievement and implicitly leaves the accessibility critique to others. Whether that is a limitation or simply a clear editorial scope is a reasonable question for anyone building on these techniques.",
+  "tickers": [],
+  "poster": "andybroncek",
+  "concepts": [
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "A browser API (Application Programming Interface) that lets JavaScript code talk directly to a device's graphics processing unit (GPU). Because GPUs are designed to handle millions of parallel geometric calculations, WebGL enables browsers to render three-dimensional scenes, shaders, and particle systems at frame rates that would be impossible with ordinary HTML and CSS."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "An open-source JavaScript library that provides a higher-level API on top of WebGL. Rather than writing low-level GPU shader code directly, developers use Three.js to define scenes, cameras, lights, and meshes in familiar terms. It is by far the most widely adopted library for 3D work on the web."
+    },
+    {
+      "key": "creative-coding",
+      "term": "Creative coding",
+      "definition": "A practice in which code is used as a medium for artistic or expressive output rather than purely functional software. In web contexts it typically refers to interactive visuals, generative graphics, or motion experiences built in the browser. The field overlaps with design, digital art, and front-end engineering."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://mesh3d.gallery/",
+      "title": "Three.js & WebGL Website Inspiration | mesh3d",
+      "note": "Primary source for gallery description, maker rankings, and featured content"
+    },
+    {
+      "url": "https://mesh3d.gallery/websites",
+      "title": "3D Three.js & WebGL Websites | mesh3d",
+      "note": "Confirms catalog size (258+ entries) and featured site examples"
+    }
+  ],
+  "bookmark_id": "2039401138957513019",
+  "generated_at": "2026-05-06T19:43:06.664847Z",
+  "backend": "claude"
+}

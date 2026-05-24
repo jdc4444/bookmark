@@ -1,0 +1,53 @@
+{
+  "headline": "Two Terminal Commands That Push Mac Key Repeat Past the GUI Limit",
+  "lede": "Every Mac ships with a keyboard setting that governs how quickly a held key fires repeatedly — and how long before it starts. macOS's System Settings panel exposes sliders for both, but they stop well short of the minimum the operating system actually supports. Two `defaults write` commands in Terminal unlock values the graphical interface simply will not show you.",
+  "body": "When you hold down a key, macOS fires the character repeatedly after an initial pause. Two integers govern this behavior: **KeyRepeat**, the interval between successive firings (smaller means faster), and **InitialKeyRepeat**, the delay before the first repeat triggers (smaller means less waiting). Both live in the system's global preferences domain — a master store that applies across every app unless an individual application overrides it.\n\nThe commands `defaults write -g KeyRepeat -int 1` and `defaults write -g InitialKeyRepeat -int 10` write directly to that global domain, bypassing the graphical sliders. The `-g` flag is shorthand for *NSGlobalDomain*, macOS's catch-all preferences namespace. System Settings' sliders stop at a KeyRepeat minimum of 2 and an InitialKeyRepeat minimum of 15; these commands reach 1 and 10 respectively — values the GUI refuses to offer.\n\nThe practical effect is a keyboard that feels nearly instantaneous under sustained key presses. Arrow-key navigation through large files, clearing long terminal lines, or any workflow relying on held keys all become noticeably snappier. Most apps pick up the new values on relaunch; a full logout-and-login is the safest way to propagate the change system-wide, as it flushes the in-memory preferences cache and ensures the stored value wins.\n\nTo revert, adjusting the GUI sliders will overwrite the custom values, or `defaults delete -g KeyRepeat` and `defaults delete -g InitialKeyRepeat` remove the keys entirely and restore system defaults. The `defaults` interface writes to `.plist` files in `~/Library/Preferences/`, the same backing store System Settings reads — so either path edits the same underlying record.",
+  "tickers": [],
+  "poster": "reach_vb",
+  "concepts": [
+    {
+      "key": "key-repeat",
+      "term": "KeyRepeat",
+      "definition": "A macOS preference integer that controls the interval between successive character firings when a key is held down. Lower values produce a faster repeat rate. The GUI minimum exposed in System Settings is 2; the terminal can write 1."
+    },
+    {
+      "key": "initial-key-repeat",
+      "term": "InitialKeyRepeat",
+      "definition": "A macOS preference integer that sets the delay before repeating begins after a key is first pressed and held. Lower values shorten the wait. The GUI minimum is 15; the terminal can write 10."
+    },
+    {
+      "key": "nsglobaldomain",
+      "term": "NSGlobalDomain",
+      "definition": "The global preferences namespace in macOS, addressed as `-g` in the `defaults` command. Settings written here apply across all applications unless a specific app overrides them with its own domain values."
+    },
+    {
+      "key": "defaults-command",
+      "term": "`defaults` CLI",
+      "definition": "A macOS command-line tool for reading, writing, and deleting user preference values stored in `.plist` files under `~/Library/Preferences/`. It exposes settings that System Settings either hides entirely or limits through constrained sliders."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The commands are valid, but there is a prerequisite the tweet omits. On modern macOS, pressing and holding a key by default opens an accent-character picker rather than repeating the character — a behavior controlled by the separate key `ApplePressAndHoldEnabled`. If that setting is active (the factory default on many Macs), KeyRepeat and InitialKeyRepeat have no effect until repeating is re-enabled with `defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false`. Users who have never changed this setting may find the tweet's commands appear to do nothing without that prior step.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.idownloadblog.com/2015/01/14/how-to-enable-key-repeats-on-your-mac/",
+      "title": "How to enable key repeats on your Mac — iDownloadBlog",
+      "note": "Covers the ApplePressAndHoldEnabled prerequisite and System Settings keyboard sliders"
+    },
+    {
+      "url": "https://pawelgrzybek.com/change-macos-user-preferences-via-command-line/",
+      "title": "Change macOS user preferences via command line — pawelgrzybek.com",
+      "note": "Explains the defaults command structure, domains, and NSGlobalDomain"
+    },
+    {
+      "url": "https://stackoverflow.com/questions/13740337/modifying-a-plist-from-command-line-on-mac-using-defaults",
+      "title": "Modifying a Plist from command line on Mac using Defaults — Stack Overflow",
+      "note": "Confirms defaults writes to .plist files in ~/Library/Preferences/"
+    }
+  ],
+  "bookmark_id": "2043019450660671721",
+  "generated_at": "2026-05-06T19:32:20.046135Z",
+  "backend": "claude"
+}

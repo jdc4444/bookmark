@@ -1,0 +1,13 @@
+{
+  "key": "005930.KS",
+  "name": "Samsung Electronics Co., Ltd.",
+  "exchange": "KRX (Korea Stock Exchange)",
+  "blurb": "Samsung Electronics is the world's largest memory chip maker by revenue, a top-three logic foundry, and a global consumer electronics giant. Its semiconductor division (DS Division) manufactures DRAM, NAND flash, and operates advanced foundry services (Samsung Foundry) competing with TSMC for leading-edge logic orders. Samsung also produces its own Exynos processors and is the largest producer of OLED displays. Despite its scale, Samsung has lost HBM market share to SK Hynix due to yield and qualification challenges with HBM3E.",
+  "recent": "Samsung posted a 2025 operating profit recovery after a sharp downturn, with its semiconductor division stabilising. HBM3E qualification at NVIDIA has lagged SK Hynix, a competitive gap that has weighed on the stock relative to peers. The company trades at a forward P/E of ~5.1x — among the cheapest large-cap technology stocks globally — reflecting cycle discounting and foundry margin pressure. Samsung is investing heavily in 2nm GAA (gate-all-around) process technology to close the gap with TSMC.",
+  "sources": [
+    {"url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261663607-micron-samsung-sk-hynix-mu-stock-best-memory-stock-for-2026-tradingkey", "title": "Micron vs. Samsung vs. SK Hynix: Best Memory Stock 2026 — TradingKey"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

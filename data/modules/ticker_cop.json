@@ -1,0 +1,14 @@
+{
+  "key": "COP",
+  "name": "ConocoPhillips",
+  "exchange": "NYSE",
+  "blurb": "ConocoPhillips is the world's largest independent oil-and-gas exploration and production company by production volume, with a diversified portfolio spanning the Permian and Eagle Ford basins, Alaska, the Surmont oil-sands asset in Canada, and international positions in Norway, Qatar, and Australia. Unlike the integrated majors, COP has no refining or chemicals exposure, making its earnings the cleanest pure-play expression of upstream commodity prices among large-cap energy names.",
+  "recent": "ConocoPhillips posted adjusted Q1 2026 EPS of $1.89, beating the $1.66 consensus by 14%, generating $5.4 billion of cash from operations and $2.4 billion in free cash flow despite absorbing an ~80,000 BOE/day production disruption from its Qatar operations. Production was 2,309,000 BOE/day in Q1. Management maintained full-year production guidance at 2,310,000 BOE/day but raised capital spending guidance modestly to $12.0–$12.5 billion to capture Permian efficiency gains. Notably, CEO Ryan Lance commented that the company's mid-cycle oil-price floor view is moving above the prior $65 WTI reference — a signal that sell-side models may need to ratchet higher. The Willow project in Alaska is 50% complete with early oil expected in 2029.",
+  "sources": [
+    {"url": "https://www.thecerbatgem.com/2026/05/02/conocophillips-q1-earnings-call-highlights.html", "title": "ConocoPhillips Q1 Earnings Call Highlights — The Cerbat Gem"},
+    {"url": "https://finance.yahoo.com/sectors/energy/articles/conocophillips-q1-2026-earnings-fall-152507622.html", "title": "ConocoPhillips Q1 2026 earnings fall 21% to $2.2bn — Yahoo Finance / Offshore Technology"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,48 @@
+{
+  "headline": "Mixing Pregabalin and Diazepam for Alcohol-Like Effects",
+  "lede": "A tweet claims that combining 600mg of pregabalin with 10mg of diazepam produces the subjective effects of four alcoholic drinks without the hangover or other side effects. This combination of a gabapentinoid and a benzodiazepine is known to potentiate sedation and euphoria, but carries significant risks.",
+  "body": "The post describes a drug combination that mimics alcohol's disinhibiting and anxiolytic effects. Pregabalin, a gabapentinoid used for neuropathic pain and generalized anxiety, enhances GABA activity indirectly by binding to calcium channels. Diazepam, a benzodiazepine, directly potentiates GABA-A receptors. Together, they produce synergistic central nervous system depression, which can feel like alcohol intoxication but with less motor impairment or nausea at moderate doses.\n\nHowever, the claim of \"none of the side effects\" is misleading. Both drugs carry risks of dependence, tolerance, and withdrawal. At high doses, pregabalin can cause euphoria and is increasingly abused. Diazepam is a controlled substance with high abuse potential. Combining them amplifies sedation, dizziness, and the risk of respiratory depression, especially if the user has not built tolerance. The NHS and FDA warn against mixing CNS depressants without medical supervision.\n\nThe tweet's dosage is substantial: 600mg pregabalin is at the upper end of the therapeutic range (typically 150-600mg/day), and 10mg diazepam is a moderate dose for anxiety. For a naive user, this could cause excessive drowsiness or impaired coordination. The comparison to \"4 drinks\" is subjective and not backed by pharmacokinetic data. While some users report this combination as a substitute for alcohol, it is not risk-free and should not be attempted without a prescription.",
+  "tickers": [],
+  "poster": "andiammonite",
+  "concepts": [
+    {
+      "key": "gabapentinoid",
+      "term": "gabapentinoid",
+      "definition": "A class of drugs that includes pregabalin and gabapentin, originally developed as anticonvulsants. They work by blocking voltage-gated calcium channels in the brain, reducing the release of excitatory neurotransmitters. They are used for nerve pain, anxiety, and seizures, but can produce euphoria and sedation at high doses."
+    },
+    {
+      "key": "benzodiazepine",
+      "term": "benzodiazepine",
+      "definition": "A class of psychoactive drugs that enhance the effect of the neurotransmitter GABA at the GABA-A receptor, producing sedation, muscle relaxation, and anxiety relief. Examples include diazepam (Valium), alprazolam (Xanax), and lorazepam (Ativan). They are controlled substances due to risk of dependence and abuse."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that this combination has \"none of the side effects\" of alcohol is inaccurate. Both pregabalin and diazepam can cause drowsiness, dizziness, impaired coordination, and cognitive slowing. At high doses, pregabalin may cause euphoria and diazepam can lead to respiratory depression, especially when combined. Additionally, both drugs carry risks of dependence and withdrawal that are comparable to or greater than alcohol. The tweet downplays these risks.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.justanswer.com/medical/h3111-safe-mix-pregablin-diazepam-no-25-just.html",
+      "title": "Is it safe to mix pregablin and diazepam",
+      "note": "Medical advice warning about enhanced sedative effects and CNS depression."
+    },
+    {
+      "url": "https://www.nhs.uk/medicines/diazepam/how-and-when-to-take-diazepam/",
+      "title": "How and when to take diazepam - NHS",
+      "note": "Official dosing guidelines for diazepam, indicating typical doses and risks."
+    },
+    {
+      "url": "https://www.drugs.com/pro/pregabalin-oral-solution.html",
+      "title": "Pregabalin Oral Solution: Package Insert",
+      "note": "Prescribing information for pregabalin, including side effects and interactions."
+    },
+    {
+      "url": "https://www.goodrx.com/valium/what-is",
+      "title": "Valium (Diazepam): Uses, Side Effects, Dosage & More",
+      "note": "Consumer information on diazepam, highlighting controlled substance status and risks."
+    }
+  ],
+  "bookmark_id": "2043841505987563528",
+  "generated_at": "2026-05-06T07:28:34.069644Z",
+  "backend": "deepseek"
+}

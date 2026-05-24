@@ -1,0 +1,24 @@
+{
+  "key": "AGX",
+  "name": "Argan, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Argan, Inc. (NYSE: AGX) is a US holding company whose primary subsidiary, Gemma Power Systems, provides engineering, procurement, and construction (EPC) services for gas-fired power plants under fixed-price, lump-sum turnkey contracts — meaning Argan bears schedule and cost risk but captures margin if it delivers efficiently. The company operates in the US, Ireland, and the UK. Argan has become an indirect AI infrastructure play as surging data-centre power demand has sharply increased the pipeline for grid-scale gas generation, which Argan's clients commission to serve industrial and hyperscaler load.",
+  "recent": "Argan reported FY2025 revenue of $874.2 million (up 53% year-over-year) and net income of $85.5 million (up 164%). The project backlog reached $2.9 billion, anchored by the 1.2 GW Sandow Lakes Power Station and a 700 MW gas plant, both linked to AI-adjacent industrial and data-centre power demand. One-year total shareholder return exceeded 80% as of early 2026. The stock moved from $473.85 to $615.42 during the period tracked in the @zephyr_z9 report.",
+  "sources": [
+    {
+      "url": "https://simplywall.st/stocks/us/capital-goods/nyse-agx/argan/news/argan-agx-valuation-in-focus-as-ai-data-center-power-demand",
+      "title": "Argan: AI Data Center Power Demand and Sandow Lakes — Simply Wall St"
+    },
+    {
+      "url": "https://arganinc.com/about/",
+      "title": "About Argan, Inc. — Argan"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4885646-tower-semiconductor-pure-play-israeli-foundry-in-a-boom-cycle",
+      "title": "Argan (NYSE:AGX) — Seeking Alpha"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

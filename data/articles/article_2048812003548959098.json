@@ -1,0 +1,87 @@
+{
+  "bookmark_id": "2048812003548959098",
+  "headline": "The Map That Black-Scholes Cannot Draw",
+  "lede": "A NASA physicist turned quant has published a preprint arguing that the most famous formula in finance is not wrong so much as incomplete — the flat-space special case of a richer geometry, one whose curvature is precisely what options markets have been pricing all along.",
+  "body": "The Black-Scholes-Merton model, first published in 1973, prices a call or put option by assuming that the underlying asset follows a random walk with constant volatility. The formula works beautifully in a single, tidy case: when the statistical manifold — the mathematical space of possible return distributions — is perfectly flat. In that limit, volatility does not change with the price of the underlying, traders are risk-neutral, and the resulting option-price surface is a featureless plane. The world, of course, is none of those things. Options on equities consistently trade at implied volatilities that vary with strike and tenor, sketching the curved profile that practitioners call the \"volatility smile\" — a shape that Black-Scholes, by construction, cannot accommodate.\n\nBruce H. Dean, a physicist affiliated with NASA's Marshall Space Flight Center who has been publishing a sequence of papers applying the mathematical toolkit of information geometry to financial markets, argues in an April 2026 SSRN preprint that the smile and its discontents have a single, clean geometric explanation. His framework draws on a branch of mathematics, information geometry, that treats families of probability distributions as points on a curved surface — a statistical manifold — and measures distances between them using the Fisher information metric (a measure of how sharply a distribution changes as its parameters shift). In this picture, Black-Scholes occupies the flat, Euclidean limit of a much larger curved space, exact only on a one-dimensional sub-manifold of the full space of return distributions, and approximately accurate only in a calculable neighborhood of it. The volatility smile is not a model failure; it is a readout of how far the market has wandered off that flat slice into curved territory.\n\nThe currency of Dean's model is a quantity he calls K_eff, the effective scalar curvature of the pricing manifold. Its sign determines whether the market is in a \"smile\" regime (K_eff greater than zero, implied volatility curving upward away from the at-the-money strike on both sides) or a \"frown\" regime (K_eff less than zero, implied volatility curving downward, with the at-the-money strike commanding the highest implied vol). The two regimes are separated by a bifurcation locus — a dividing line in the parameter space where the curvature passes through zero — located at |ρ| = √(2/3), or roughly 0.816. Here ρ (rho) is the leverage correlation: the instantaneous correlation between changes in the price of the underlying and changes in its own volatility. Negative correlation is the normal equity-market condition — when prices fall, fear rises and volatility spikes — and the deep negativity of ρ for S&P 500 options is part of what places equity markets firmly in the frown region. The curvature formula itself is compact: K_eff = 2 − 3ρ² − (ν/σ₀)², where ν is the volatility of volatility (the speed at which implied vol itself fluctuates, as in the widely-used SABR stochastic-volatility model) and σ₀ is the baseline vol level. The higher the vol-of-vol relative to the spot vol, and the more negative the leverage correlation, the more negative K_eff becomes.\n\nThe phase-plane chart accompanying the post translates this into an empirical picture. Estimated daily from twenty-two years of SPY and VIX data (2004–2026, 5,480 observations), the pair (ν/σ₀, ρ) traces a flow on the theoretical K_eff field. As of April 27, 2026 — with VIX at 18.75 — the coordinates were (8.88, −0.85), placing the market deep in the frown region at a predicted K_eff of −2.35. The model identifies a stable attractor nearby at (9.18, −0.84), with K_eff = −1.90, suggesting that this frown regime is not a transient aberration but the gravitational basin toward which two decades of market dynamics reliably return. For a practitioner, this carries a concrete implication: if K_eff is negative, a delta-hedged options book that is long the wings of the implied-vol surface will systematically underperform, because the market is not smiling at the tails — it is frowning, paying the at-the-money strike a premium over the extremes. Standard hedging intuitions built on the smile assumption flip sign in this regime.\n\nWhat gives the framework unusual credibility is that Dean is not constructing a free-parameter fitting exercise. The bifurcation boundary at |ρ| ≈ 0.816 and the attractor coordinates emerge from the geometry of the Fisher-Poincaré manifold — the curved space induced by the Fisher information metric on a family of log-normal-plus-leverage distributions — without calibration to the options panel. An earlier preprint in the same series reports that this approach predicts the LEAPS skew (the long-dated implied-volatility structure of S&P options) within 19 percent of observed levels using no options-fitted parameters whatsoever. That is a notably parsimonious result in a field where models routinely require half a dozen free parameters to approximate the same surface. The paper joins a growing literature — including rough volatility models pioneered by Jim Gatheral and colleagues, and the heat-kernel expansions of the SABR framework — that treats the volatility surface as a geometric object, governed by curvature rather than by ad-hoc parameter choices. The contribution of Dean's specific formulation is a closed-form scalar — K_eff — that collapses the entire smile-versus-frown debate into a single number with a clear sign.\n\nThe broader point the post is quietly making is that Black-Scholes has survived not because traders believe it is right — virtually no one does — but because it is a shared coordinate system, a common language for quoting prices in terms of implied volatility. Dean's framework offers a reason for why that language persists: it is the zeroth-order approximation to a deeper theory, valid at the origin of a curved space and increasingly inaccurate as the market moves away from it. In that sense, the daily ritual of fitting implied vols to a Black-Scholes grid and then trading the resulting surface is not an act of collective delusion. It is, on this account, something more like dead reckoning — a navigator's flat-earth approximation that works well enough near the port of departure, and breaks down precisely when the voyage has pushed far enough into curved space that the horizon no longer lies where the map predicts.",
+  "tickers": ["SPY"],
+  "poster": "QuantSymplectic",
+  "concepts": [
+    {
+      "key": "black-scholes",
+      "term": "Black-Scholes-Merton (BSM)",
+      "definition": "The 1973 closed-form formula for pricing European options on an asset assumed to follow geometric Brownian motion with constant volatility. It is the industry standard for quoting implied volatility but is known to mis-price options whenever actual return distributions deviate from its log-normal assumption — which is virtually always."
+    },
+    {
+      "key": "volatility-smile",
+      "term": "volatility smile",
+      "definition": "The pattern observed when implied volatility — the volatility figure that makes Black-Scholes reproduce a market option price — is plotted against strike price. Rather than the flat line Black-Scholes predicts, it typically forms a curve: higher implied vol at out-of-the-money strikes on both sides (a \"smile\") or, for equity indices, a downward slope toward higher strikes (a \"skew\" or, in Dean's terminology, a \"frown\")."
+    },
+    {
+      "key": "information-geometry",
+      "term": "information geometry",
+      "definition": "A branch of mathematics, developed principally by Shun-ichi Amari, that equips families of probability distributions with a curved geometric structure. The key tool is the Fisher information metric, which measures how distinguishable two nearby distributions are. Applied to finance, it allows the space of possible market states to be treated as a curved manifold rather than a flat parameter grid."
+    },
+    {
+      "key": "statistical-manifold",
+      "term": "statistical manifold",
+      "definition": "In information geometry, the abstract curved surface formed by all distributions in a parameterized family. Each point on the manifold represents one distribution (e.g., one set of volatility and correlation parameters); distances between points are measured by the Fisher information metric; and the curvature of the manifold determines how rapidly the geometry departs from flat Euclidean space."
+    },
+    {
+      "key": "keff-curvature",
+      "term": "effective curvature (K_eff)",
+      "definition": "In Dean's framework, the scalar curvature of the leverage-corrected Fisher-Poincaré pricing manifold, given by K_eff = 2 − 3ρ² − (ν/σ₀)². A positive value places the market in the smile regime; a negative value in the frown regime. The sign change at |ρ| = √(2/3) defines the smile/frown bifurcation boundary."
+    },
+    {
+      "key": "leverage-correlation",
+      "term": "leverage correlation (ρ)",
+      "definition": "The instantaneous correlation between changes in an asset's price and changes in its own volatility. For equity indices it is strongly negative — prices falling and fear rising simultaneously — which is the mathematical origin of the put-heavy implied-volatility skew and, in Dean's model, the primary driver of the frown regime."
+    },
+    {
+      "key": "vol-of-vol",
+      "term": "volatility of volatility (ν / vol-of-vol)",
+      "definition": "The parameter governing how rapidly implied volatility itself fluctuates. In the SABR stochastic-volatility model — widely used by rates and equity-options desks — a higher vol-of-vol produces a more sharply curved (or \"winged\") implied-volatility surface. In Dean's curvature formula, a higher ν/σ₀ ratio pushes K_eff more negative, deepening the frown."
+    },
+    {
+      "key": "sabr-model",
+      "term": "SABR model",
+      "definition": "A stochastic-volatility model (Stochastic Alpha Beta Rho) introduced by Hagan et al. in 2002 and widely used to fit the implied-volatility smile in interest-rate and equity-options markets. Its key parameters — α (initial vol), ν (vol-of-vol), and ρ (price-vol correlation) — map directly onto the coordinates of Dean's information-geometric phase plane."
+    },
+    {
+      "key": "fisher-information-metric",
+      "term": "Fisher information metric",
+      "definition": "A way of measuring the distance between two probability distributions based on how much statistical evidence is needed to distinguish them. It is the natural Riemannian metric on a statistical manifold and, on the family of normal distributions, induces the hyperbolic geometry of the Poincaré half-plane — the curved geometry that Dean uses as the foundation of his pricing framework."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "title": "Black-Scholes-Merton as the Flat Limit of Information Geometry — Bruce H. Dean, SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6630259"
+    },
+    {
+      "title": "The Geometric Volatility Smile with Jumps: A Closed-Form Three-Term Decomposition — Bruce H. Dean, SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6637139"
+    },
+    {
+      "title": "Information Geometry of Market Dynamics: A Pareto Frontier from Contact Geometry — Bruce H. Dean, SSRN",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6565418"
+    },
+    {
+      "title": "Understanding the Volatility Smile: Slope, Curvature, and Arbitrage — Thomas Bury, Medium",
+      "url": "https://bury-thomas.medium.com/understanding-the-volatility-smile-slope-curvature-and-arbitrage-8a7b1130be7d"
+    },
+    {
+      "title": "SABR volatility model — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/SABR_volatility_model"
+    },
+    {
+      "title": "Volatility smile — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Volatility_smile"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

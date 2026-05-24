@@ -1,0 +1,13 @@
+{
+  "key": "SNPS",
+  "name": "Synopsys, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Synopsys is the market leader in EDA (electronic design automation) — the software toolchains used by chip designers to design, simulate, verify, and synthesise integrated circuits before they are sent to a foundry for fabrication. Without EDA tools, modern chip design at sub-10nm nodes is effectively impossible. Synopsys also sells silicon intellectual property (IP) — pre-designed circuit blocks like USB controllers and PCIe interfaces that chip designers license and integrate. Its duopoly with Cadence Design Systems gives both companies enormous pricing power and sticky customer relationships.",
+  "recent": "Synopsys is in the process of acquiring Ansys, a simulation software company, in a deal valued at approximately $35 billion. Forward P/E of ~28x on 18.3% projected EPS growth yields a PEG of 1.53 — modestly expensive relative to its growth rate but reflective of the structural indispensability of EDA tools in an era of accelerating chip complexity. AI-driven chip design is increasing demand for Synopsys tools as companies attempt more complex designs on tighter schedules.",
+  "sources": [
+    {"url": "https://stockanalysis.com/stocks/arm/statistics/", "title": "Semiconductor Sector Valuation Data — Stock Analysis"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

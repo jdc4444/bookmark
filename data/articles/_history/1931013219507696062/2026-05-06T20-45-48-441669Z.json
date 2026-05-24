@@ -1,0 +1,58 @@
+{
+  "headline": "Chinese Startup Brings Time-Aware 3D Scenes to the Web",
+  "lede": "4DV.ai, a Chinese visual-media startup, has demonstrated a live implementation of *4D Gaussian Splatting* running inside the PlayCanvas browser-based game engine. The system converts ordinary 2D video into navigable, dynamic 3D scenes — complete with spatial audio — and targets headsets including the Apple Vision Pro. Will Eastcott, who tagged PlayCanvas in his post, co-founded that engine.",
+  "body": "**Gaussian Splatting** is a real-time rendering method that represents a scene not as a mesh of polygons but as millions of tiny, coloured ellipsoids — *splats* — fitted to point-cloud data captured from photos or video. Because the splats are rendered by a rasteriser rather than a ray-marcher, the technique is dramatically faster than *Neural Radiance Fields* (NeRF), the previous state of the art for photorealistic 3D reconstruction from images. NeRF can take minutes to render a single frame; Gaussian Splatting runs in real time.\n\nThe fourth dimension is time. Standard Gaussian Splatting freezes a scene at a single moment; the splats have fixed positions and colours. 4D Gaussian Splatting extends the representation so that each splat can move and deform across frames, capturing motion — a dancer, a breaking wave, a crowd — rather than a still tableau. The research underpinning the technique has been explored in academic papers since 2023, but shipping it as a real-time, browser-playable product is a different engineering problem.\n\n4DV.ai's implementation, as shown in Eastcott's linked viewer, adds spatial audio to the captured scenes and allows the viewer to control camera angle freely, independent of the original recording. According to the sources, the company is also targeting the **Apple Vision Pro** as a playback device, which requires efficient on-device rendering rather than server-side streaming. Building the viewer on top of PlayCanvas — an open-source, WebGL-based game engine widely used for browser 3D — means the experience requires no plugin or native install.\n\nThe practical significance lies in volumetric video: recordings of real-world events that a viewer can inspect from any angle, as though present. Industries from live sports to surgical training have wanted this capability for years; the bottleneck has always been capture complexity and render cost. If 4DV.ai's pipeline genuinely converts standard 2D footage to navigable 4D at acceptable quality and latency, it lowers both bars substantially. The research sources note the company is Chinese and appears to be at the product-launch stage, though financial details and headcount are not publicly available.",
+  "tickers": [],
+  "poster": "willeastcott",
+  "concepts": [
+    {
+      "key": "gaussian-splatting",
+      "term": "Gaussian Splatting",
+      "definition": "A real-time 3D scene-reconstruction technique that fits a large number of small, translucent ellipsoids (called splats) to photographic data. Each splat has a position, colour, opacity, and shape. Because a standard graphics rasteriser can draw millions of splats per second, the method achieves interactive frame rates that ray-marching approaches like NeRF cannot match."
+    },
+    {
+      "key": "4d-gaussian-splatting",
+      "term": "4D Gaussian Splatting",
+      "definition": "An extension of Gaussian Splatting in which each splat is also parameterised over time, allowing it to translate, rotate, and change colour between frames. The result is a compact, renderable representation of a moving scene — not just a static snapshot. The '4D' refers to three spatial dimensions plus time."
+    },
+    {
+      "key": "nerf",
+      "term": "NeRF (Neural Radiance Field)",
+      "definition": "A technique that encodes a 3D scene inside a neural network trained on a set of photographs from different angles. Given a novel viewpoint, the network ray-marches through space to synthesise a photorealistic image. NeRF produces high-quality results but is computationally expensive, often requiring seconds or minutes per frame, limiting its use in real-time applications."
+    },
+    {
+      "key": "volumetric-video",
+      "term": "Volumetric Video",
+      "definition": "A recording format that captures not a flat image or conventional video but a full 3D representation of a scene at each moment in time. The viewer can navigate around the subject freely, as though physically present. It has been used in music videos and sports broadcasts but has historically required specialised multi-camera rigs and enormous file sizes."
+    },
+    {
+      "key": "playcanvas",
+      "term": "PlayCanvas",
+      "definition": "An open-source, WebGL-based 3D game engine designed to run in the browser without plugins. It is used for interactive experiences, games, and product visualisations on the web. Its JavaScript runtime and editor are maintained as an open-source project."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.4dv.ai/",
+      "title": "4DV.ai — Building the future of visual media",
+      "note": "Company homepage; confirms 4DV.ai's identity and Chinese origin"
+    },
+    {
+      "url": "https://twinreality.in/i-used-4dv-ai-to-reimagine-dynamic-scenes-heres-what-i-learned/",
+      "title": "I Used 4DV AI to Reimagine Dynamic Scenes — Here's What I Learned",
+      "note": "Practitioner review describing real-time dynamic capture and NeRF comparison"
+    },
+    {
+      "url": "https://deepnewz.com/china/china-s-4dv-ai-unveils-4d-gaussian-splatting-audio-apple-vision-pro-playcanvas-1cb10530",
+      "title": "China's 4DV AI Unveils 4D Gaussian Splatting With Audio for Apple Vision Pro and PlayCanvas",
+      "note": "News summary confirming audio support, camera control, Vision Pro target, and PlayCanvas integration"
+    }
+  ],
+  "bookmark_id": "1931013219507696062",
+  "generated_at": "2026-05-06T20:45:48.441669Z",
+  "backend": "claude"
+}

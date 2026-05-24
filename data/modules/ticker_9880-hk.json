@@ -1,0 +1,32 @@
+{
+  "key": "9880.HK",
+  "name": "UBTECH Robotics Corp Ltd",
+  "exchange": "Hong Kong Stock Exchange (SEHK)",
+  "blurb": "UBTECH Robotics Corp Ltd is a Shenzhen-based robotics company engaged in the research, design, development, production, and commercialization of robotic products and services, with operations spanning mainland China, Hong Kong, and international markets. The company is one of China's leading pure-play robotics firms, focused on humanoid and AI-powered robotic platforms. With a market capitalization of approximately HK$56.7 billion, it holds a prominent position in the Hong Kong-listed capital goods sector. Eleven analysts covering the stock forecast earnings to grow at roughly 109% per year, reflecting high expectations for the broader humanoid robotics market.",
+  "recent": "Not enough public information. The provided sources are financial data aggregator landing pages (Yahoo Finance, MarketWatch, Investing.com, Reuters, Simply Wall St) that do not surface specific news headlines or earnings events from the past 30 days. Share price data points in the sources show a range of approximately HK$107–113, with a consensus analyst price target of HK$158.60, implying roughly 48% upside — but no specific catalyst, earnings release, or material news from May 2026 is discernible from the supplied source content.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/9880.HK/",
+      "title": "Ubtech Robotics Corp Ltd (9880.HK) — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/9880?countrycode=hk",
+      "title": "UBTECH Robotics Corp. Ltd. Stock Quote — MarketWatch"
+    },
+    {
+      "url": "https://www.investing.com/equities/ubtech-robotics",
+      "title": "Ubtech Robotics Corp Ltd Stock Price Today — Investing.com"
+    },
+    {
+      "url": "https://simplywall.st/stocks/hk/capital-goods/hkg-9880/ubtech-robotics-shares",
+      "title": "Ubtech Robotics (SEHK:9880) Stock Analysis — Simply Wall St"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/9880.HK/stock-story/",
+      "title": "9880.HK Stock Analysis — Reuters"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:32:12.907398Z",
+  "backend": "claude-sonnet-subagent"
+}

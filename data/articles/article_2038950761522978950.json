@@ -1,0 +1,104 @@
+{
+  "headline": "Claude Code Has Sixty Commands; Most Developers Never Find Them",
+  "lede": "“Most developers use Claude Code like a chatbot that happens to live in the terminal” — the opening line of the article this post links to, and an accurate description of a common failure mode. Anthropic’s coding tool ships with over sixty built-in commands, a persistent memory system, and a programmable automation layer; most of that surface goes undiscovered until something goes obviously wrong. A tweet dramatizes the gap: three months of declining output quality, resolved instantly by `/clear`, followed by the rueful discovery that commands exist at all.",
+  "body": "Most developers treat Claude Code, Anthropic’s terminal-based coding tool, as a sophisticated autocomplete: type a question, receive code, move on. The tweet’s rueful timeline — three months of use, gradual output decline, context sitting at 98%, then a single `/clear` command restoring coherence — describes a genuine phenomenon. A *context window* is the finite working memory that any large language model maintains during a session; as it fills with prior exchanges, file reads, and tool call results, models begin to lose track of information buried in the middle of the input. Researchers call this *context rot*: output quality degrades measurably as signal-to-noise deteriorates, even when the window is not technically full.\n\nThe remedy involves two commands with different trade-offs. `/clear` is the hard reset: it discards the entire session and returns Claude to a blank state, sacrificing conversational continuity for clean output. `/compact` is more precise — it instructs Claude to compress the session into a dense summary, preserving the thread of work while shedding accumulated noise. Notably, `/compact` also re-reads the project’s **CLAUDE.md** from disk during the operation, resetting persistent instructions alongside the history. Developers can target what survives: `/compact Focus on API integration progress` keeps the relevant thread while discarding earlier distractions.\n\nCLAUDE.md — a plain markdown file in the project root, or in `~/.claude/` for global rules — is the system’s most underestimated component. Loaded at every session start, it gives Claude persistent instructions across sessions without re-explaining: build commands, code style conventions, workflow rules, project constraints. Unlike a hidden system prompt, CLAUDE.md is advisory context; Anthropic’s own documentation notes explicitly that Claude reads it as context, not enforced policy. Conciseness matters — files over 200 lines show reduced adherence — making specific, verifiable instructions more reliable than vague preferences.\n\nBeyond memory, the command surface extends into automation. *Hooks* are scripts or webhooks wired to 31 lifecycle events in the tool’s execution cycle — a developer can intercept every shell command before it runs, block dangerous patterns, or trigger a security review before every commit. Other commands address workflow specifics: `/btw` lets a developer ask a side question without adding it to the main conversation context; `--max-budget-usd` caps spending on scripted, non-interactive runs; `claude -w [branch]` opens an isolated *worktree* so Claude edits a branch without touching working files. The image shared with the tweet — a thumbnail captioned “Top 20 Claude Code Commands You Need, ranked by time saved” — shows ten of these, a glimpse of a command layer that community surveys suggest most users have simply never encountered.\n\nThe article the tweet links to frames this as a skill gap rather than a tool failure. That’s half right. The commands are documented, but the onboarding path — an interactive `/powerup` tour, a `/doctor` self-diagnosis tool, a `/context` visualizer that renders the active window as a colored grid — implies Anthropic eventually recognized that capability discovery needed to be engineered in. The deeper point is that managing context deliberately, rather than waiting to notice quality degradation empirically, is now a professional competency for developers using AI tooling. Knowing when to `/compact` is, in this sense, as important as knowing when to commit.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    }
+  ],
+  "poster": "zodchiii",
+  "concepts": [
+    {
+      "key": "context-window",
+      "term": "Context Window",
+      "definition": "The finite working memory a large language model can hold in a single session. Every message, file read, and tool result occupies a share of it. Once near capacity, older material can be dropped; even well below the limit, window size affects which parts of the conversation the model attends to most closely."
+    },
+    {
+      "key": "context-rot",
+      "term": "Context Rot",
+      "definition": "The degradation in an LLM’s output quality as its context window fills with accumulated history. Transformer models attend strongly to the beginning and end of their input but lose track of material in the middle — a pattern documented as the “lost-in-the-middle” effect — so as signal-to-noise deteriorates, response quality falls even if the window is not technically full."
+    },
+    {
+      "key": "slash-commands",
+      "term": "Slash Commands",
+      "definition": "Built-in commands in Claude Code invoked with a leading slash (e.g., `/clear`, `/compact`, `/btw`). They control session state, context management, workflow automation, and tool configuration. Claude Code ships with over sixty of them; most users encounter only a handful."
+    },
+    {
+      "key": "claude-md",
+      "term": "CLAUDE.md",
+      "definition": "A plain markdown file that Claude Code loads at every session start as persistent context. It stores coding conventions, build commands, workflow rules, and project constraints so the developer does not need to re-explain them each session. Stored in the project root for team-shared rules, or in `~/.claude/` for personal global rules."
+    },
+    {
+      "key": "hooks",
+      "term": "Hooks",
+      "definition": "Scripts, webhooks, or prompt-based triggers that Claude Code fires at specific points in its execution cycle — before a tool runs, after a task completes, when a session ends. With 31 configurable lifecycle events and five hook types, they let developers intercept and modify the tool’s behavior programmatically, functioning more like a build system’s lifecycle hooks than simple macros."
+    },
+    {
+      "key": "compact",
+      "term": "/compact",
+      "definition": "A Claude Code slash command that compresses an active session’s history into a dense summary, freeing context space without discarding all prior work. Unlike `/clear`, it preserves the thread of the current task. It also re-reads CLAUDE.md from disk, resetting persistent instructions alongside the compressed history."
+    },
+    {
+      "key": "worktree",
+      "term": "Worktree",
+      "definition": "A Git feature that allows multiple working directories to coexist from the same repository, each checked out to a different branch. Claude Code uses worktrees (via `claude -w [branch]`) to isolate AI-driven edits from the developer’s main working files, preventing accidental overwrites during long-running tasks."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet’s claim that output quality “doubles instantly” after running `/clear` is directionally accurate — context rot research confirms that clearing accumulated session history can meaningfully improve response quality — but “doubles” is anecdotal and unverifiable. No published benchmark establishes a 2x quality improvement specifically attributable to `/clear`. The broader phenomenon the tweet describes is well-supported by academic work on attention dilution and the lost-in-the-middle effect in transformer models.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://code.claude.com/docs/en/commands",
+      "title": "Claude Code Commands Reference — Official Anthropic Docs",
+      "note": "Primary reference for all built-in slash commands, aliases, and descriptions"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/memory",
+      "title": "Claude Code Memory & CLAUDE.md — Official Anthropic Docs",
+      "note": "Definitive source on CLAUDE.md hierarchy, auto-memory, and session loading behavior"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/hooks",
+      "title": "Claude Code Hooks Reference — Official Anthropic Docs",
+      "note": "Full reference for the 31 hook lifecycle events and 5 hook types"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/cli-reference",
+      "title": "Claude Code CLI Reference — Official Anthropic Docs",
+      "note": "Source for --max-budget-usd flag behavior and its restriction to print/non-interactive mode"
+    },
+    {
+      "url": "https://www.morphllm.com/context-rot",
+      "title": "Context Rot — Morph",
+      "note": "Technical analysis of context window degradation mechanisms tested across 18 frontier models"
+    },
+    {
+      "url": "https://shipyard.build/blog/claude-code-cheat-sheet/",
+      "title": "Claude Code Cheat Sheet — Shipyard",
+      "note": "Accessible community cheatsheet covering key commands with practical examples"
+    },
+    {
+      "url": "https://dev.to/akari_iku/ive-organised-the-claude-code-commands-including-some-hidden-ones-op0",
+      "title": "I’ve organised the Claude Code commands, including some hidden ones — DEV Community",
+      "note": "Community-compiled command index including undocumented and lesser-known commands"
+    },
+    {
+      "url": "https://batsov.com/articles/2026/03/11/essential-claude-code-skills-and-commands/",
+      "title": "Essential Claude Code Skills and Commands — batsov.com",
+      "note": "Practitioner’s guide to the most impactful commands from sustained daily use"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "title": "awesome-claude-code — GitHub",
+      "note": "Curated community index of skills, hooks, custom commands, and extensions for Claude Code"
+    }
+  ],
+  "bookmark_id": "2038950761522978950",
+  "generated_at": "2026-05-07T09:11:29.447225Z",
+  "backend": "claude-sonnet-subagent"
+}

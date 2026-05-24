@@ -1,0 +1,24 @@
+{
+  "key": "ADBE",
+  "name": "Adobe Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Adobe Inc. is a multinational software company known for its creative, marketing, and document management solutions, including Photoshop, Illustrator, Acrobat Reader, and the Experience Cloud. The company has transitioned to a subscription-based model, generating recurring revenue from its Digital Media and Digital Experience segments. Adobe holds a dominant position in the creative software market and competes with firms like Salesforce and Microsoft in the digital experience space.",
+  "recent": "In the past 30 days, Adobe's stock has shown volatility amid broader tech market movements. The company reported strong quarterly earnings, beating analyst estimates on both revenue and earnings per share, driven by growth in its Digital Media segment. However, forward guidance was slightly below expectations, leading to mixed analyst reactions.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ADBE/",
+      "title": "Adobe Inc. (ADBE) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ADBE/news/",
+      "title": "ADBE News Today | Why did Adobe stock go up today? - MarketBeat"
+    },
+    {
+      "url": "https://www.google.com/finance/quote/ADBE:NASDAQ",
+      "title": "Adobe Inc (ADBE) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:45:31.648160Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,143 @@
+{
+  "headline": "The Wakefulness Drug Powering Silicon Valley's Longest Days",
+  "lede": "Sam Altman, chief executive of OpenAI, casually disclosed on a Y Combinator podcast that taking armodafinil can extend a productive day to twenty hours — a throwaway remark that became a small cultural flashpoint. The drug is a prescription-only controlled substance, approved for sleep disorders and now widely used off-label by healthy professionals chasing asymmetric cognitive returns. The disclosure fits a pattern: the people remaking the economy are, increasingly, running on pharmaceutical augmentation.",
+  "body": "The remark was almost an aside. Asked how many productive hours he could honestly claim in a day, Sam Altman, chief executive of OpenAI, offered eight — more than most people, he acknowledged, but nothing like the sixteen that others boast of. Then, with the flat delivery of someone stating the obvious: “If you take Armodafinil or something you get 20.” The comment, made on a Y Combinator podcast, has circulated as a kind of confession: evidence that the people rebuilding civilization are running on prescription wakefulness drugs.\n\n*Armodafinil* — sold as Nuvigil by Teva Pharmaceutical Industries (TEVA) — is the purified *R-enantiomer* of modafinil, a wakefulness-promoting agent first approved by the FDA in 1998 for narcolepsy and related sleep disorders. The purified form, cleared in 2007, is more potent at lower doses and carries a longer effective window of roughly ten to seventeen hours, making it well-suited to manufacturing an artificially extended workday. Both drugs are classified as **Schedule IV controlled substances**, the same regulatory bracket as benzodiazepines, meaning they require a prescription and their distribution is federally restricted. The mechanism is atypical: armodafinil inhibits the *dopamine transporter*, raising synaptic dopamine without the blunt profile of amphetamines. But pharmacological tidiness does not fully describe how the drug is actually used. A landmark 2013 study in *JAMA Internal Medicine* found that 89 percent of US modafinil prescriptions between 2002 and 2009 were written for *off-label* indications — a figure that reflects a medical-system workaround as institutionalized as any drug culture.\n\nAltman is not alone, and the disclosure is not entirely accidental. At SXSW in 2026, Garry Tan, president of Y Combinator — the accelerator that seeded OpenAI — described taking modafinil during his founding years to hold onto fleeting technical insight before sleep dissolved it. Bryan Johnson, founder of Kernel and the obsessive self-experiment he calls *Blueprint*, spends roughly two million dollars a year on a personal optimization protocol that includes prescription compounds in this category. The pattern has a name: *biohacking* — a term popularized by Dave Asprey around 2011 that applies the software engineer’s optimization instinct to the human body. Sleep deprivation becomes a bug; armodafinil, a patch.\n\nThe tweet’s framing — “the elite is enhanced” — is where observation sharpens into argument. Obtaining armodafinil as a healthy person requires either a cooperative physician, a creative account of symptoms, or access to one of the San Francisco clinics that have made off-label prescribing their business. None of this is impossible, but the access is not evenly distributed, and it points at a broader question: whether the cognitive performance competition in tech is increasingly pharmaceutical, and whether that pharmaceutical access runs along existing lines of wealth and connection. A 2019 Drug Effectiveness Review by Oregon’s pharmacy board found the evidence for off-label use in healthy subjects weak to insufficient. Survey research on actual users finds high self-reported rates of improved attention and focus — claims the biochemistry does not fully underwrite.\n\nThe risks of off-label use in healthy subjects are real and poorly studied, a combination that should give pause. The FDA’s prescribing label includes a post-approval warning about psychiatric adverse events, including suicidal ideation and mania. *Stevens-Johnson syndrome*, a severe immune reaction affecting skin and mucous membranes, has been reported. Armodafinil is a *CYP3A4 inducer*, meaning it degrades the efficacy of oral contraceptives and dozens of concurrently taken drugs. No long-term controlled trial in healthy subjects has been conducted — the safety evidence for the population actually using the drug most heavily simply has not been generated. That this does not appear to slow adoption in a community defined by its appetite for asymmetric risk is perhaps the most reliable data point of all.",
+  "tickers": [
+    "TEVA"
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Y Combinator",
+      "ticker": null
+    },
+    {
+      "name": "Teva Pharmaceutical Industries",
+      "ticker": "TEVA"
+    },
+    {
+      "name": "Kernel",
+      "ticker": null
+    }
+  ],
+  "poster": "BasedBiohacker",
+  "concepts": [
+    {
+      "key": "armodafinil",
+      "term": "Armodafinil",
+      "definition": "A prescription wakefulness-promoting drug (brand name Nuvigil) classified as a Schedule IV controlled substance in the United States. FDA-approved for narcolepsy, sleep apnea, and shift-work sleep disorder, it is the purified active form of the older drug modafinil. It promotes wakefulness by inhibiting the dopamine transporter, producing a longer-lasting and more stable effect than modafinil at a lower dose."
+    },
+    {
+      "key": "modafinil",
+      "term": "Modafinil",
+      "definition": "The parent compound from which armodafinil is derived. A racemic wakefulness-promoting drug (brand name Provigil) approved by the FDA in 1998 for narcolepsy. It became widely used off-label in military, professional, and academic settings for cognitive enhancement and fatigue management. Armodafinil is modafinil’s purified R-enantiomer, released in 2007 as a longer-lasting, lower-dose alternative."
+    },
+    {
+      "key": "r-enantiomer",
+      "term": "R-enantiomer",
+      "definition": "Molecules can exist as non-superimposable mirror images of themselves, called enantiomers and labeled R and S. Many drugs are sold as a racemic mixture of both. Isolating the single active enantiomer often yields a more potent, cleaner-acting compound — as with armodafinil (the R-enantiomer of modafinil), which achieves a comparable effect at roughly half the dose."
+    },
+    {
+      "key": "schedule-iv-controlled-substance",
+      "term": "Schedule IV controlled substance",
+      "definition": "A category under the US Controlled Substances Act for drugs with accepted medical use but recognized potential for dependence and abuse. Schedule IV includes benzodiazepines (Xanax, Valium), certain sleep aids, and modafinil and armodafinil. They may not be legally obtained without a prescription and are subject to DEA oversight on manufacturing, distribution, and prescribing."
+    },
+    {
+      "key": "dopamine-transporter",
+      "term": "Dopamine transporter (DAT)",
+      "definition": "A protein in the brain that recycles the neurotransmitter dopamine back into neurons after it has been released, effectively terminating the signal. Armodafinil inhibits the DAT, allowing dopamine to accumulate in the synapse longer than usual, promoting alertness and motivation. Cocaine and ADHD medications like methylphenidate work by a similar mechanism, though armodafinil’s binding is less potent."
+    },
+    {
+      "key": "off-label-use",
+      "term": "Off-label use",
+      "definition": "When a physician prescribes a drug for a condition, patient population, or dosage not explicitly approved by the FDA. This is legal for licensed doctors, but the manufacturer cannot market the drug for those uses. For modafinil and armodafinil, a 2013 JAMA study found 89 percent of US prescriptions were written for unapproved indications."
+    },
+    {
+      "key": "biohacking",
+      "term": "Biohacking",
+      "definition": "A loosely defined movement that applies engineering and optimization thinking to the human body, ranging from dietary and sleep interventions to supplements, prescription drugs, implanted devices, and genetic modification. In Silicon Valley usage it typically refers to high-performers deploying pharmaceutical and technological tools to enhance cognitive or physical performance beyond baseline. The term was popularized by entrepreneur Dave Asprey starting around 2011."
+    },
+    {
+      "key": "blueprint",
+      "term": "Blueprint",
+      "definition": "Bryan Johnson’s self-funded personal experiment in radical biological optimization, in which he follows an extreme daily protocol of diet, exercise, and medical interventions — including over 100 daily pills, regular blood tests, and organ-specific performance monitoring — with the stated goal of minimizing his biological age. Johnson claims the project costs roughly two million dollars per year and has evolved into a commercial brand."
+    },
+    {
+      "key": "stevens-johnson-syndrome",
+      "term": "Stevens-Johnson syndrome",
+      "definition": "A rare but potentially life-threatening immune reaction, usually triggered by a drug, that causes severe blistering and sloughing of skin and mucous membranes. It is listed as a serious adverse event in the FDA prescribing label for armodafinil and modafinil. It occurs in roughly one to two people per million per year in the general population but carries serious morbidity when it does occur."
+    },
+    {
+      "key": "cyp3a4-inducer",
+      "term": "CYP3A4 inducer",
+      "definition": "CYP3A4 is a liver enzyme responsible for metabolizing a large fraction of all prescription drugs. A CYP3A4 inducer speeds up this enzyme’s activity, causing it to break down other drugs faster than expected — reducing their concentration in the bloodstream and potentially rendering them ineffective. Armodafinil’s status as a CYP3A4 inducer means it can substantially reduce the efficacy of oral contraceptives, immunosuppressants, and many other concurrently taken drugs."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Altman’s “you get 20” figure is a casual verbal remark, not a measured claim, and should not be read as a scientific assertion about armodafinil’s effects. No clinical trial supports the claim that the drug produces twenty productive hours in healthy subjects; its approved indications cover people with documented sleep disorders. The tweet’s framing that “the elite is enhanced” is editorial interpretation rather than stated fact. The underlying disclosure — that Altman uses armodafinil — is credibly sourced to a Y Combinator podcast but has not been independently verified against a full transcript; it circulates through secondary reporting.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://rudevulture.com/open-ai-ceo-sam-altman-is-a-fan-of-armodafinil/",
+      "title": "Open AI CEO Sam Altman is a fan of armodafinil — Rude Vulture",
+      "note": "Primary aggregation of the YC podcast quote with surrounding productivity discussion context"
+    },
+    {
+      "url": "https://www.ycombinator.com/library/Lp-how-to-build-the-future-sam-altman",
+      "title": "How To Build The Future: Sam Altman — Y Combinator Library",
+      "note": "Official YC page for the episode where the armodafinil remark reportedly appears"
+    },
+    {
+      "url": "https://honehealth.com/edge/sam-altman-anti-aging-metformin-diet-sleep/",
+      "title": "Sam Altman’s Anti-Aging Routine — Hone Health",
+      "note": "Documents Altman’s broader supplement and pharmaceutical regimen including metformin and sleep aids"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Armodafinil",
+      "title": "Armodafinil — Wikipedia",
+      "note": "Comprehensive pharmacology, mechanism, history, and approved uses"
+    },
+    {
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/021875s023lbl.pdf",
+      "title": "FDA Prescribing Label: Nuvigil (Armodafinil), 2017",
+      "note": "Official FDA label; source for Schedule IV classification, psychiatric risk warnings, and approved indications"
+    },
+    {
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1669100",
+      "title": "Trends in Prescribed Medications — JAMA Internal Medicine, 2013",
+      "note": "Source for the 89 percent off-label modafinil prescription finding covering 2002–2009"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7001904/",
+      "title": "Off-prescription use of modafinil: perceived risks and benefits — PMC",
+      "note": "Peer-reviewed survey of 219 off-label users; self-reported benefits and dependency rates"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3286657/",
+      "title": "Practical Use and Risk of Modafinil — PMC",
+      "note": "Clinical risk overview including psychiatric adverse events and drug interaction profile"
+    },
+    {
+      "url": "https://x.com/garrytan/status/2025644381576015926",
+      "title": "Garry Tan on X — SXSW 2026 modafinil disclosure",
+      "note": "First-person disclosure from Y Combinator’s president of past modafinil use during founding years"
+    },
+    {
+      "url": "https://time.com/4672962/silicon-valley-longer-life/",
+      "title": "How Silicon Valley Is Trying to Hack Its Way Into a Longer Life — Time",
+      "note": "Comprehensive narrative feature on biohacking and longevity culture among tech elites"
+    },
+    {
+      "url": "https://longevity.technology/clinics/silicon-valleys-biohacking-obsession-why-tech-executives-are-hooked/",
+      "title": "Silicon Valley’s Biohacking Obsession — Longevity Technology",
+      "note": "Overview of the structural biohacking culture and off-label prescribing clinics in the Bay Area"
+    }
+  ],
+  "bookmark_id": "2011492882822127685",
+  "generated_at": "2026-05-07T13:05:59.026709Z",
+  "backend": "claude-sonnet-subagent"
+}

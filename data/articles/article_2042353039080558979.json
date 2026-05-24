@@ -1,0 +1,113 @@
+{
+  "headline": "The 200-Week Moving Average Strategy Munger Almost Certainly Never Endorsed",
+  "lede": "When Microsoft slid roughly a quarter from its mid-2024 peak near $470, it brushed against a floor it had not tested in more than thirteen years — its 200-week moving average. The decline prompted a flurry of social-media posts pairing the chart with a quote attributed to the late Charlie Munger: that buying quality stocks at this level would beat the S&P 500 by a large margin over time. The chart observation is real and technically notable; the attribution, traceable to a single unverifiable anecdote in a 2024 book, almost certainly is not.",
+  "body": "When Microsoft (MSFT) fell roughly a quarter from its mid-2024 all-time high near $470, it approached a level it had not seriously tested in over thirteen years: its **200-week moving average**, the simple mean of the stock's closing price across the preceding 200 weekly sessions — about four years of trading history compressed into a single number. For *technical analysts*, this indicator acts as a proxy for long-term trend direction: a price consistently above a rising average signals an enduring bull market; a clean break below it often confirms a major reversal. Microsoft approaching this level in the April–May 2025 period was, for a company of its size and consistency, an unusual event.\n\nThe tweet pairs that chart with a quote attributed to Charlie Munger: \"If all you ever did was buy high-quality stocks on the 200-week moving average, you would beat the S&P 500 by a large margin over time. The problem is, few human beings have that kind of discipline.\" It has circulated widely on financial social media since September 2024, acquiring the authority of received wisdom with each retelling. The attribution deserves scrutiny.\n\nThe quote traces to a single source: Lawrence McDonald's 2024 book *How to Listen When Markets Speak*, which describes a private conversation with Munger in Omaha — without specifying a date or naming a corroborating witness. Benzinga covered the book; influencers on X and Substack amplified the claim; each iteration further laundered a solitary anecdote into a Munger maxim. No Berkshire Hathaway (BRK.B) shareholder letter, no recorded speech, no authorized collection of Munger's writing contains the remark. Munger died in November 2023 and cannot corroborate it.\n\nThe attribution is suspicious on its face because it contradicts Munger's documented philosophy. Munger and Warren Buffett were pure *fundamental investors* — they assessed businesses by their earnings power, competitive moats, and management quality, not by the geometry of price charts. Buffett's standing joke was that turning a stock chart upside down produced no different answer, which captured both partners' lifelong disdain for *technical analysis*. A 200-week moving average tells you nothing about whether a company is cheap relative to its intrinsic value; it reports only the price's relationship to its own history. The claim that Munger privately endorsed this approach while publicly dismissing it requires more than one man's memory of a lunch.\n\nThe behavioral observation embedded in the quote, however, stands on solid ground regardless of who coined it. **DALBAR**, which tracks actual investor returns against benchmarks, found that the average equity investor underperformed the S&P 500 by more than eight percentage points in 2024 — pulling money out of equity funds in every quarter, including just before a significant rally. Academic research names the underlying mechanism: the *disposition effect*, the well-documented tendency to sell winners too early and hold losers too long. Buying at a depressed long-term moving average demands precisely the opposite instinct — adding exposure when sentiment is worst and most investors are heading for the exits. Whether or not Munger ever said it, that observation is robustly true.",
+  "tickers": [
+    "MSFT",
+    "BRK.B"
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Berkshire Hathaway",
+      "ticker": "BRK.B"
+    }
+  ],
+  "poster": "r6ride_87",
+  "concepts": [
+    {
+      "key": "200-week-moving-average",
+      "term": "200-Week Moving Average",
+      "definition": "The simple arithmetic mean of a stock's closing price across the most recent 200 weekly sessions — roughly four years of trading history. Widely used as a long-term trend indicator: a stock holding above a rising 200-week MA is considered to be in a sustained uptrend, while a sustained break below it often signals a major trend reversal. Because it incorporates years of price history, it moves slowly and is less susceptible to short-term noise than shorter-term averages."
+    },
+    {
+      "key": "technical-analysis",
+      "term": "Technical Analysis",
+      "definition": "An approach to evaluating securities based on statistical patterns in price and volume data — charts, moving averages, momentum indicators — rather than on the underlying business's financial condition. Practitioners believe past price patterns repeat and can be used to forecast future price direction. Distinguished from fundamental analysis, which focuses on earnings, assets, and competitive position."
+    },
+    {
+      "key": "fundamental-investing",
+      "term": "Fundamental Investing",
+      "definition": "An investment approach that values a company by analysing its business — earnings, cash flows, competitive moats, balance-sheet strength — and comparing that intrinsic value to the current market price. Associated with Benjamin Graham, Warren Buffett, and Charlie Munger. Contrasts with technical analysis, which focuses on price-chart patterns without reference to underlying business quality."
+    },
+    {
+      "key": "disposition-effect",
+      "term": "Disposition Effect",
+      "definition": "A documented behavioral bias in which investors systematically sell winning positions too early and hold losing positions too long. Named and quantified by economists Hersh Shefrin and Meir Statman in 1985, and corroborated empirically by Terrance Odean's 1998 study of 10,000 brokerage accounts. Rooted in loss aversion: the psychological pain of locking in a realized loss outweighs the rational case for cutting it."
+    },
+    {
+      "key": "dalbar",
+      "term": "DALBAR",
+      "definition": "A financial-services research firm best known for its annual Quantitative Analysis of Investor Behavior (QAIB), which measures the returns that mutual-fund investors actually earned — accounting for the timing of their purchases and redemptions — against index benchmarks. DALBAR's data consistently shows that retail investors significantly underperform the indexes they invest in, largely due to poorly timed buying and selling driven by emotion."
+    }
+  ],
+  "books": [
+    {
+      "key": "how-to-listen-when-markets-speak",
+      "title": "How to Listen When Markets Speak",
+      "author": "Lawrence G. McDonald with James Patrick Robinson",
+      "summary": "Published in 2024 by Penguin Random House, the book draws on McDonald's career as a bond trader and macro strategist to argue that commodity cycles, credit markets, and geopolitical shifts offer advance warning of major economic turning points. McDonald is best known for an earlier account of the Lehman Brothers collapse. The book contains the private-anecdote attribution of the 200-week moving average quote to Charlie Munger that subsequently went viral on financial social media — a claim that has not been independently corroborated by any other source."
+    }
+  ],
+  "repos": [],
+  "fact_check": "Two claims warrant challenge. First, the quote is attributed to Charlie Munger, but it derives exclusively from a personal anecdote by Lawrence McDonald in his 2024 book — no recorded speech, shareholder letter, interview, or authorized Munger collection contains it, and it flatly contradicts Munger's documented, lifelong philosophy of fundamental value investing. Second, the assertion that the strategy 'beats the S&P 500 by a large margin' has never been subjected to a rigorous published backtest; the claim circulates widely on social media but has no quantitative support in any peer-reviewed or serious practitioner study.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.penguinrandomhouse.com/books/734668/how-to-listen-when-markets-speak-by-lawrence-g-mcdonald-with-james-patrick-robinson/",
+      "title": "How to Listen When Markets Speak — Penguin Random House",
+      "note": "Publisher's page for the McDonald book that is the sole traceable origin of the alleged Munger quote"
+    },
+    {
+      "url": "https://www.benzinga.com/opinion/24/10/41551988/2-stocks-about-to-trigger-the-markets-single-best-indicator",
+      "title": "2 Stocks About to Trigger the Market's Single Best Indicator — Benzinga",
+      "note": "Early mainstream coverage amplifying McDonald's Munger attribution into wider circulation"
+    },
+    {
+      "url": "https://x.com/SJosephBurns/status/1832696475312091552",
+      "title": "Steve Burns (@SJosephBurns) X post, September 2024",
+      "note": "One of the first high-amplification posts spreading the quote on X"
+    },
+    {
+      "url": "https://www.threads.com/@trendspider/post/DUdm58Pjumn/to-quote-the-late-great-charlie-munger-if-all-you-ever-did-was-buy-high-quality-stocks-on-the",
+      "title": "TrendSpider Threads post: MSFT at 200-week MA",
+      "note": "The likely original chart source that @r6ride_87 is quoting or engaging with"
+    },
+    {
+      "url": "https://www.threads.com/@barchartofficial/post/DVqKCGJD46d/microsoft-msft-hasnt-closed-below-its-week-moving-average-in-more-than-years",
+      "title": "Barchart: MSFT hasn't closed below its 200-week MA in more than 13 years",
+      "note": "Confirms the 13-year streak above the 200-week MA that made the 2025 test notable"
+    },
+    {
+      "url": "https://www.quiverquant.com/news/Microsoft+Stock+(MSFT)+Opinions+on+Breaching+200-Week+Moving+Average",
+      "title": "Quiver Quantitative: Microsoft and the 200-Week MA Breach",
+      "note": "Covers the eventual breach below the MA in early 2026, providing price-level context"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/charlie-munger-strategy-buy-quality-140000015.html",
+      "title": "Charlie Munger Strategy: Buy Quality Stocks at 200-Week MA — Yahoo Finance / Zacks",
+      "note": "Summarizes the strategy and 2022 MSFT case study; explicitly acknowledges no backtest exists"
+    },
+    {
+      "url": "https://trendspider.com/learning-center/whats-known-about-charlie-munger-and-warren-buffetts-strategies-at-berkshire-hathaway/",
+      "title": "TrendSpider: Munger and Buffett's Strategies at Berkshire Hathaway",
+      "note": "Documents the fundamental (not technical) investment philosophy Munger publicly held"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/investors-missed-the-best-of-2024s-market-gains-latest-dalbar-investor-behavior-report-finds-302416023.html",
+      "title": "DALBAR 2024 Investor Behavior Report — PRNewswire",
+      "note": "Primary source for 2024 retail investor underperformance data (8+ percentage-point gap vs. S&P 500)"
+    },
+    {
+      "url": "https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf",
+      "title": "\"Are Investors Reluctant to Realize Their Losses?\" — Terrance Odean, 1998",
+      "note": "Foundational academic paper establishing the disposition effect across 10,000 retail brokerage accounts"
+    }
+  ],
+  "bookmark_id": "2042353039080558979",
+  "generated_at": "2026-05-07T05:44:46.490818Z",
+  "backend": "claude-sonnet-subagent"
+}

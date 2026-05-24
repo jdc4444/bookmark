@@ -1,0 +1,48 @@
+{
+  "headline": "A Fully Local Video Search Engine That Understands What It Sees",
+  "lede": "A developer has built a video search tool that runs entirely on a personal machine — no cloud, no API calls, no audio transcription. The user types a plain-language description of a scene and the system returns the exact timestamp where it appears. The engine does this by having a vision-language model watch the video frame by frame.",
+  "body": "The project's central claim is privacy-first semantic search: because every computation happens locally, no footage ever reaches an external server. That distinction matters for anyone working with sensitive recordings — security camera footage, medical video, private home clips — where uploading to a cloud service would be legally or personally fraught.\n\nThe technical mechanism is *visual embedding*. Rather than converting speech to text and searching a transcript, the system uses **Qwen3-VL**, a multimodal model from Alibaba's Qwen team that can interpret images and video frames. Frames are processed and converted into dense numerical vectors — embeddings — that encode what is visually happening in each moment. A user's text query is converted into the same vector space, and the system finds frames whose embeddings are closest in meaning.\n\nThis approach handles queries that transcription-based search simply cannot. A query like \"person walking a dog near a lake\" contains no spoken words to match; it describes a visual scene. Embedding-based retrieval catches it because the model has learned to associate that visual configuration with the corresponding language. The tradeoff is compute: running a vision-language model frame by frame is GPU-intensive, and the post does not specify indexing speed or minimum hardware requirements.\n\nQwen3-VL is part of Alibaba's open-weight Qwen model family, released for local and commercial use. Using it for video means periodically sampling frames — likely at some fixed interval such as one frame per second — rather than processing every individual frame at full video rate, which would be prohibitively slow on most consumer hardware. The granularity of that sampling determines how precisely the returned timestamp matches the actual moment in the clip.\n\nThe project sits inside a growing category of *local-first AI tools* — software that treats the user's own hardware as the inference endpoint, accepting performance limits in exchange for data sovereignty. As open-weight vision models become more capable and quantization techniques shrink their memory footprint, tools like this will become more practical on mid-range consumer GPUs.",
+  "tickers": [],
+  "poster": "om_patel5",
+  "concepts": [
+    {
+      "key": "visual-embedding",
+      "term": "visual embedding",
+      "definition": "A technique where an AI model converts an image or video frame into a list of numbers — a vector — that encodes its semantic content. Similar images produce similar vectors, so a text query can be matched to visually relevant frames by comparing vectors rather than looking for keyword matches."
+    },
+    {
+      "key": "multimodal-model",
+      "term": "multimodal model",
+      "definition": "A machine-learning model that can process more than one type of input — in this case, both images and text. Qwen3-VL is multimodal because it understands the visual content of a frame and can relate it to natural-language descriptions."
+    },
+    {
+      "key": "local-first-ai",
+      "term": "local-first AI",
+      "definition": "A design philosophy in which AI inference runs entirely on the user's own hardware rather than a remote server. The main benefits are privacy and offline capability; the main cost is that consumer hardware is typically slower and less powerful than cloud GPU clusters."
+    },
+    {
+      "key": "semantic-search",
+      "term": "semantic search",
+      "definition": "Search that finds results based on meaning rather than exact word matches. A semantic search for 'dog near water' can surface a clip of a labrador by a pond even if those exact words never appear in any attached text."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The post claims the system uses \"Qwen3-VL embeddings.\" Qwen3-VL is a real model family from Alibaba's Qwen team capable of visual understanding, and using its representations as embeddings for retrieval is technically plausible. However, the research sources available do not confirm the specific repository, the developer's identity, or the exact implementation details — the primary sources (X, TikTok, Facebook) were inaccessible or uninformative. The claim that \"no data ever leaves your computer\" is accurate as a design property of local inference but depends entirely on the implementation having no telemetry or remote calls, which cannot be verified from the post alone.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/om_patel5/status/2038760874190811353",
+      "title": "Original tweet by @om_patel5",
+      "note": "Primary bookmark source describing the tool"
+    },
+    {
+      "url": "https://www.facebook.com/reel/985676577226038/",
+      "title": "Facebook reel reposting the same content",
+      "note": "Confirms the text of the original post; no additional technical detail"
+    }
+  ],
+  "bookmark_id": "2038760874190811353",
+  "generated_at": "2026-05-06T19:47:44.189094Z",
+  "backend": "claude"
+}

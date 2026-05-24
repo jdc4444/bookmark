@@ -1,0 +1,43 @@
+{
+  "headline": "OpenAI Embraces OpenClaw Users Anthropic Wants to Expel",
+  "lede": "A policy split between the two dominant AI labs has turned a terms-of-service dispute into a marketing moment. Anthropic has explicitly barred users from authenticating **OpenClaw** — a third-party autonomous-agent platform — with their paid Claude subscriptions, while OpenAI publicly announced it would permit the equivalent practice for ChatGPT accounts.",
+  "body": "OpenClaw, built by iOS-developer-turned-AI-entrepreneur Peter Steinberger (@steipete), is a command-line agent tool that orchestrates AI models across a configurable \"gateway\" — a routing layer that manages workspaces, skills, and model selection. Its appeal is economic: rather than paying per token through a raw *API key* (a credential that bills by usage, regardless of any subscription), OpenClaw can authenticate via *OAuth* — the browser-based sign-in flow that taps an existing subscription's included token budget. For heavy agent workflows, the difference between the two billing modes can be stark. Andrew Warner reports burning $20 a day through API billing; his friend claims $100.\n\nAnthropic's position is unambiguous. Its Legal and Compliance documentation states that auth tokens obtained through Free, Pro, or Max accounts are \"intended exclusively for Claude Code and Claude.ai\" and that routing them through any other product — including third-party tools — violates its Consumer Terms of Service. The company reserves the right to enforce this without prior notice, which Warner reads as a ban threat against OpenClaw users on Claude subscriptions. Steinberger has characterized Anthropic's outreach to him as limited to legal letters, and recounted in a Lex Fridman interview that after being forced to rename the project, Anthropic declined even to allow a domain redirect for existing users.\n\nOpenAI's response was swift and public. When Warner suggested that Sam Altman could step in, Steinberger replied within minutes that OpenAI had already announced it would allow the practice. The practical effect: OpenClaw users can authenticate with a ChatGPT subscription using two CLI commands — `openclaw onboard --auth-choice openai-codex`, which triggers an OAuth browser flow tied to a ChatGPT or Codex subscription rather than a metered key, followed by `openclaw models set openai-codex/gpt-5.3-codex` to designate that model as the agent's default. A third command, `openclaw models status --plain`, returns just the resolved model name — useful for scripting or verifying the change took effect before restarting the gateway.\n\nThe episode illustrates a structural tension that will recur as *agentic* use-cases — where a model runs autonomously across many steps, accumulating large token counts — become the norm. Subscription plans are priced for human-paced conversation, not machine-speed iteration. Allowing third-party tools to tap subscription budgets is consumer-friendly but potentially ruinous for the lab's unit economics; blocking it is financially rational but creates exactly the kind of friction that hands a competitor an opening. OpenAI, currently the challenger in the developer-tools space Anthropic has cultivated with Claude Code, chose the friendlier posture.",
+  "tickers": [],
+  "poster": "AndrewWarner",
+  "concepts": [
+    {
+      "key": "oauth-authentication",
+      "term": "OAuth authentication",
+      "definition": "A standard browser-based sign-in protocol that lets one application confirm a user's identity through another service — here, letting OpenClaw verify that a user holds an active ChatGPT or Claude subscription without ever seeing their password. Contrasted with an API key, which is a static credential tied to metered, pay-per-use billing."
+    },
+    {
+      "key": "api-key-billing",
+      "term": "API key billing",
+      "definition": "A pay-per-token pricing model where every request to a language model is charged based on the volume of text sent and received. Unlike flat subscription plans, costs scale directly with usage — making it expensive for autonomous agents that issue many requests automatically."
+    },
+    {
+      "key": "agentic-workflow",
+      "term": "agentic workflow",
+      "definition": "A pattern in which a language model operates autonomously across a sequence of steps — browsing, coding, calling tools — rather than responding to a single human prompt. Because each step consumes tokens, agentic workflows accumulate costs far faster than ordinary chat sessions."
+    },
+    {
+      "key": "gateway",
+      "term": "OpenClaw gateway",
+      "definition": "The local routing process in OpenClaw that mediates between the user's configured skills and the upstream model provider. It must be restarted after model configuration changes to pick up the new settings."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "No independent research sources were provided for this bookmark, so several specific claims cannot be verified. The model identifier `gpt-5.3-codex` and the broader \"openai-codex\" provider described in the commands fall outside the author's knowledge base (cutoff August 2025) and cannot be confirmed as real product names. The cost figures ($20–$100 per day) are self-reported anecdotes, not audited data. OpenAI's permissive policy is cited only via Steinberger's tweet, not a published policy document — readers should verify whether a formal written policy exists. The post's framing is openly promotional: Warner explicitly urges readers to downgrade Claude plans and spread the OpenAI walkthrough, which should be weighed when evaluating his characterization of Anthropic as \"hostile.\"",
+  "thread_summary": "Warner first announced Anthropic's prohibition on using Claude subscription auth in OpenClaw, then in a follow-up revealed OpenAI had already moved to permit the equivalent for ChatGPT accounts. The thread culminates in a detailed walkthrough — co-produced with concierge setup specialist @calebhodges — showing users how to re-onboard OpenClaw against an OpenAI Codex subscription in two CLI commands.",
+  "sources": [
+    {
+      "url": "https://x.com/AndrewWarner/status/2024518232271417434",
+      "title": "Andrew Warner thread on OpenClaw and Anthropic/OpenAI auth policies",
+      "note": "Primary source — the bookmark itself, including embedded screenshots of Anthropic's compliance docs and steipete's replies"
+    }
+  ],
+  "bookmark_id": "2024518232271417434",
+  "generated_at": "2026-05-06T20:05:32.762934Z",
+  "backend": "claude"
+}

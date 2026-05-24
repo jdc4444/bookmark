@@ -1,0 +1,15 @@
+{
+  "key": "FURUKAWA",
+  "name": "Furukawa Electric Co., Ltd.",
+  "exchange": "Tokyo Stock Exchange (5801.T); ADR: FUWAY (OTC)",
+  "blurb": "Furukawa Electric is a Japanese industrial conglomerate producing copper and fiber-optic cables, electronic materials, automotive components, and industrial equipment. Its optical communications division — now spun into a global joint venture called Lightera (launched April 2025) comprising operations in Japan, the United States, and Latin America — is a major fiber-cable manufacturer competing with Corning, Prysmian, and Sumitomo for hyperscaler and telco contracts.",
+  "recent": "In March 2026, Lightera (Furukawa's fiber JV) began mass production of a 13,824-count optical fiber cable at its Mie Works plant in Japan — among the world's highest fiber-density cables — targeting hyperscale data centers. The ADR trades as FUWAY on OTC markets. Like Sumitomo, Furukawa is a conglomerate where the fiber division is one of several major business lines, meaning AI-optics upside is real but partially diluted at the consolidated level.",
+  "sources": [
+    {"url": "https://www.furukawaelectric.com/en/release/2026/comm_20260312.html", "title": "Furukawa/Lightera 13824-count cable mass production (Furukawa Electric, Mar 2026)"},
+    {"url": "https://www.furukawaelectric.com/en/release/2025/comm_20250306.html", "title": "Lightera brand launch announcement (Furukawa Electric, Mar 2025)"},
+    {"url": "https://finance.yahoo.com/quote/FUWAY/", "title": "Furukawa Electric ADR (FUWAY) – Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T08:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

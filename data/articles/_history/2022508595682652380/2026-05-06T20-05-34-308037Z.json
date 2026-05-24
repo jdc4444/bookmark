@@ -1,0 +1,48 @@
+{
+  "headline": "Runway's Story Panels Gains Cinematic Polish and Triptych Layout Logic",
+  "lede": "Runway ML, the generative-video startup, has quietly pushed an update to its Story Panels feature, improving the visual quality of cinematic sequences and porting over layout logic from a companion tool called the Character Renderer. The change is incremental — a refinement rather than a new capability — but it signals how Runway is stitching its growing toolkit into a coherent production pipeline.",
+  "body": "**Story Panels** is Runway's workflow for turning a single image or concept into a sequenced, multi-frame narrative — essentially an automated storyboard generator powered by the company's generative-video models. The update sharpens how those frames render when a *cinematic* style is selected, a mode that tends toward widescreen compositions, dramatic lighting, and filmic color grading.\n\nThe more architecturally interesting change is the adoption of *triptych logic* from the Character Renderer. A triptych, in visual storytelling, refers to a three-panel compositional structure — a layout convention borrowed from painting and comic art that divides a scene into a left context, central focus, and right resolution (or some functional equivalent). The Character Renderer, a separate Runway component designed to maintain visual consistency for a character across frames, had already codified rules for how to distribute image content across such a three-part grid. Story Panels can now apply the same logic.\n\nSharing layout rules between tools matters more than it might seem. Generative models are prone to *visual drift* — a character's face, costume, or proportions subtly shift from frame to frame as the model samples independently. By importing triptych logic that was already tuned for character coherence, Story Panels inherits some of that stability without a full re-training cycle.\n\nThe poster, @iamneubert, describes the change as \"a small update,\" and by the standards of a major model release it is. But the pattern — cross-pollinating logic between discrete Runway features — reflects the company's broader product strategy: build modular creative tools, then gradually wire them together into something closer to a full production suite.",
+  "tickers": [],
+  "poster": "iamneubert",
+  "concepts": [
+    {
+      "key": "story-panels",
+      "term": "Story Panels",
+      "definition": "A Runway ML feature that generates multi-frame visual narratives from a single input image or prompt. It automates the storyboarding process by producing sequenced, stylistically consistent panels suitable for pre-visualization or short-form storytelling."
+    },
+    {
+      "key": "triptych-logic",
+      "term": "Triptych Logic",
+      "definition": "A compositional rule set that divides an image or scene into three distinct panels — typically providing left-context, central focus, and right-resolution areas. Borrowed from classical painting and comics, it is used in generative AI tools to impose structural consistency across multi-panel outputs."
+    },
+    {
+      "key": "character-renderer",
+      "term": "Character Renderer",
+      "definition": "A Runway component designed to maintain visual identity — appearance, proportions, clothing — for a character across multiple generated frames. It combats the tendency of generative models to introduce unintended variation between outputs."
+    },
+    {
+      "key": "visual-drift",
+      "term": "Visual Drift",
+      "definition": "The gradual, unintended change in the appearance of subjects — faces, objects, colors — as a generative model produces successive frames independently. Controlling drift is a central challenge in AI-assisted video and storyboard production."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://help.runwayml.com/hc/en-us/articles/50985233945747-Story-Panels",
+      "title": "Story Panels – Runway Help Center",
+      "note": "Confirms Story Panels is an official Runway ML product feature"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nlReW9osT48",
+      "title": "How to Turn an Image into an Entire Story with Story Panels Workflow | Runway",
+      "note": "Official Runway tutorial demonstrating the Story Panels workflow in practice"
+    }
+  ],
+  "bookmark_id": "2022508595682652380",
+  "generated_at": "2026-05-06T20:05:34.308037Z",
+  "backend": "claude"
+}

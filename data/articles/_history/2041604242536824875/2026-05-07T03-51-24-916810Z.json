@@ -1,0 +1,59 @@
+{
+  "headline": "L-Theanine and the Stress-Drinking Loop It May Break",
+  "lede": "A user on X describes taking roughly ten times the standard dose of *l-theanine* — an amino acid found in green tea — during a period of severe stress, and watching a year-and-a-half alcohol habit dissolve in the process. The anecdote touches on a well-documented phenomenon: chronic stress and alcohol use reinforce each other in ways that can become self-sustaining before the person caught in the loop notices.",
+  "body": "Stress and alcohol share a feedback loop that is difficult to exit. The Mayo Clinic notes that chronic stress disrupts nearly every system in the body, elevating *cortisol* and other hormones in ways that heighten anxiety and impair judgment. Alcohol initially blunts that anxiety — which is precisely why it becomes a preferred coping mechanism under prolonged pressure. The trouble is that regular drinking raises baseline anxiety over time, requiring more alcohol for the same relief. The trap can set in faster than most people expect.\n\nL-theanine is an amino acid found almost exclusively in green tea (*Camellia sinensis*) and, to a lesser extent, certain mushrooms. At the doses studied in clinical settings — typically 100 to 400 milligrams — it appears to promote relaxation without sedation by modulating *GABA* (the brain's main inhibitory neurotransmitter), boosting *alpha brain-wave* activity, and mildly influencing dopamine and serotonin pathways. It is sold widely as an over-the-counter supplement, often at 100-milligram capsules, and is broadly regarded as safe at standard serving sizes.\n\nThe poster claims to have been taking roughly one **gram** per cup of coffee — five to ten times the commonly studied dose, and far above the 100 mg per capsule shown on the supplement label in the attached image. Whether the effect they describe is attributable to the theanine itself, to displacing alcohol as a stress ritual, to the *anxiolytic* synergy of caffeine and theanine combined, or simply to time and changed circumstances is impossible to determine from a single account. Controlled evidence that l-theanine specifically reduces alcohol craving or dependence in humans is preliminary at best; most research has focused on stress and cognition rather than addiction.\n\nThe heading — *W-Theanine* — is an internet-slang pun: in online vernacular, \"L\" means a loss and \"W\" means a win. @realKalos and @celestialbe1ng are rebranding the supplement as a victory. The joke is gentle, but the underlying experience it describes — stress so severe that alcohol starts to feel structural rather than recreational — maps onto a well-recognized clinical risk. What interrupted that trajectory here remains genuinely unclear.",
+  "tickers": [],
+  "companies": [],
+  "poster": "celestialbe1ng",
+  "concepts": [
+    {
+      "key": "l-theanine",
+      "term": "L-theanine",
+      "definition": "An amino acid found mainly in green tea leaves. At doses of 100–400 mg it is associated with relaxation without drowsiness, partly through its effects on GABA receptors and alpha brain-wave activity. It is widely sold as an over-the-counter dietary supplement."
+    },
+    {
+      "key": "cortisol",
+      "term": "cortisol",
+      "definition": "The body's primary stress hormone, released by the adrenal glands. Chronically elevated cortisol disrupts sleep, immune function, and mood, and is a central driver of stress-related health deterioration described by sources like the Mayo Clinic."
+    },
+    {
+      "key": "gaba",
+      "term": "GABA",
+      "definition": "Gamma-aminobutyric acid, the central nervous system's main inhibitory neurotransmitter. It reduces neuronal excitability; substances that boost GABA activity — including alcohol and certain supplements — typically produce calming or anti-anxiety effects."
+    },
+    {
+      "key": "alpha-brain-waves",
+      "term": "alpha brain waves",
+      "definition": "Neural oscillations in the 8–12 Hz range, associated with a relaxed but alert mental state. L-theanine is frequently cited in studies as increasing alpha-wave power, a change that correlates with reduced subjective anxiety."
+    },
+    {
+      "key": "anxiolytic",
+      "term": "anxiolytic",
+      "definition": "A substance or effect that reduces anxiety. The term applies to both pharmaceutical drugs (such as benzodiazepines) and non-prescription compounds — including caffeine-theanine combinations — that have a measurable calming action."
+    },
+    {
+      "key": "stress-induced-drinking",
+      "term": "stress-induced drinking",
+      "definition": "A pattern in which psychological stress drives increased alcohol consumption as a coping mechanism. Chronic stress raises anxiety and impairs self-regulation; alcohol's short-term anxiolytic relief reinforces the behavior even as regular drinking raises baseline anxiety, tightening the cycle."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The poster's dose of approximately one gram of l-theanine per cup of coffee is well above the 100–400 mg range used in most clinical studies, and roughly ten times the per-capsule serving shown on the supplement label in the attached image. No controlled clinical evidence establishes that l-theanine reliably eliminates alcohol dependence or craving; the mechanism implied is biologically plausible in outline but unproven at this scale in human trials. The account is a single-subject self-report and cannot distinguish theanine's pharmacological effect from other factors such as displaced ritual, the caffeine-theanine combination, or the natural passage of time.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/stress/art-20046037",
+      "title": "Chronic stress puts your health at risk",
+      "note": "Ground-truth source on cortisol dysregulation and the systemic effects of chronic stress"
+    },
+    {
+      "url": "https://www.verywellmind.com/prolonged-stress-symptoms-causes-impact-and-coping-5092113",
+      "title": "Prolonged Stress: Symptoms, Causes, Impact, and Coping",
+      "note": "Context on how prolonged stress affects coping behavior and health outcomes"
+    }
+  ],
+  "bookmark_id": "2041604242536824875",
+  "generated_at": "2026-05-07T03:51:24.916810Z",
+  "backend": "claude"
+}

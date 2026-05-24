@@ -1,0 +1,181 @@
+{
+  "headline": "Nine Free Primers on the Hidden Architecture of Global Credit",
+  "lede": "AP Research (@AlphaPicks), a cross-asset research publication with more than 11,000 Substack subscribers, has released a free “Global Primer” series covering nine markets and instruments — from overnight repo to private credit — that together constitute the load-bearing structure of modern fixed income and derivatives. The essays are pitched at serious readers who want institutional-level fluency without a Bloomberg terminal or a sell-side desk.",
+  "body": "The series has a structural backbone: the secured funding chain that underlies most dollar credit pricing. At its base lies the *repo* market — overnight secured lending collateralized by US Treasuries, and the mechanism through which the Federal Reserve transmits its policy rate into the broader financial system. From repo derives *SOFR* (Secured Overnight Financing Rate), the transaction-based overnight benchmark that replaced *LIBOR* as the dominant dollar reference after the 2012 rate-rigging scandal. SOFR underpins *STIR* (Short-Term Interest Rate) futures traded on CME Group (CME), which together constitute the world’s deepest pool of centralized rate-expectations liquidity. One can trace most of dollar credit pricing back to a single overnight number.\n\nAbove that plumbing layer sit the credit and hedging instruments. *Cross-currency basis swaps* allow non-US borrowers to convert domestic funding into dollars; the *basis* — a spread that should in theory be zero under covered interest parity — widens under dollar scarcity, making it a real-time global stress indicator. It reached approximately negative 200 *basis points* in the EUR/USD market during the March 2020 COVID dislocation before Federal Reserve swap lines with other central banks restored it to near-zero. *Credit default swaps* (CDS) are bilateral derivative contracts in which a protection buyer pays periodic premiums in exchange for compensation if a named borrower defaults; their notional outstanding swelled to $62 trillion by end-2007. The instrument became infamous after American International Group (AIG) had sold roughly $440 billion of protection on mortgage-linked securities and required a government bailout; post-2009 reforms standardized CDS with central clearing and auction-based settlement under *ISDA* protocols.\n\nThe private credit primer may be the collection’s sharpest analytical piece. AP Research estimates the US market now approaches **$1.3 trillion** — roughly 30% of below-investment-grade US corporate debt — with a growing concentration in software and SaaS companies that were underwritten at elevated leverage and little free cash flow. Ares Management (ARES), Blackstone (BX), and Apollo Global Management (APO) together dominate a market the Financial Stability Board flagged in May 2026 for valuations reliant on “judgment rather than continuous price discovery.” The precious metals entries position gold as a **stock-driven monetary asset** — annual mine production is roughly 1% of above-ground stock, making supply cycles largely irrelevant to pricing — whose *carry* disadvantage shrinks as *real interest rates* fall. Silver has a distinct industrial dimension, with roughly 58% of demand tied to applications including solar photovoltaics. Both metals surged in 2025 — gold roughly 65%, silver over 140% — amid central bank accumulation and fiscal uncertainty.\n\nEach primer closes with a section on trading strategies and the behavioral biases — anchoring to Fed guidance, herd dynamics around *FOMC* meetings, FOMO-driven overreaction to rate signals — that consistently distort pricing in each market. The applied orientation distinguishes the collection from most academic treatments of the same material, and the fact that it is free makes it an unusual resource in a field where institutional-grade education is normally paywalled or gated behind a sell-side relationship.",
+  "tickers": [
+    "CME",
+    "AIG",
+    "ARES",
+    "BX",
+    "APO"
+  ],
+  "companies": [
+    {
+      "name": "CME Group",
+      "ticker": "CME"
+    },
+    {
+      "name": "American International Group",
+      "ticker": "AIG"
+    },
+    {
+      "name": "Ares Management",
+      "ticker": "ARES"
+    },
+    {
+      "name": "Blackstone",
+      "ticker": "BX"
+    },
+    {
+      "name": "Apollo Global Management",
+      "ticker": "APO"
+    }
+  ],
+  "poster": "AlphaPicks",
+  "concepts": [
+    {
+      "key": "repo",
+      "term": "Repo (Repurchase Agreement)",
+      "definition": "A short-term secured loan in which one party sells securities — typically US Treasuries — and simultaneously agrees to repurchase them at a slightly higher price on a specified date. The price difference is the effective interest rate on the loan. Most repos are overnight, and the US market averages over $12 trillion in daily exposures, making it the foundation of short-term dollar funding for banks, broker-dealers, and money market funds."
+    },
+    {
+      "key": "sofr",
+      "term": "SOFR (Secured Overnight Financing Rate)",
+      "definition": "A daily rate published by the Federal Reserve Bank of New York measuring the cost of overnight borrowing collateralized by US Treasury securities. Calculated as the volume-weighted median of actual repo transactions, it is transaction-based and tamper-resistant. It replaced LIBOR as the dominant US dollar benchmark, with the transition completing in June 2023."
+    },
+    {
+      "key": "stir",
+      "term": "STIR Futures",
+      "definition": "Short-Term Interest Rate futures — exchange-traded contracts whose underlying benchmark has a maturity of less than one year. Quoted as 100 minus the implied rate (a price of 95.50 implies a 4.50% rate), so prices fall when rate expectations rise. They are the world’s most liquid expression of central bank policy expectations and are used for directional bets, curve trades, and hedging interest rate exposure."
+    },
+    {
+      "key": "cross-currency-basis-swap",
+      "term": "Cross-Currency Basis Swap",
+      "definition": "A contract in which two parties exchange principal and floating-rate interest payments in different currencies for the duration of the trade, then return principals at the original exchange rate at maturity. A non-US company, for instance, might borrow euros and swap into dollars to fund US operations. The instrument is central to how multinationals, foreign banks, and sovereigns manage currency funding mismatches."
+    },
+    {
+      "key": "basis",
+      "term": "The Basis (Cross-Currency)",
+      "definition": "The residual spread added to one leg of a cross-currency swap to make the contract economically fair. Classical theory — covered interest parity — predicts it should be zero; in practice it is persistently negative for major non-dollar currencies, meaning foreign borrowers pay a premium above theoretical rates to obtain dollars. The basis widens sharply during periods of dollar funding stress, making it a widely-watched systemic indicator."
+    },
+    {
+      "key": "basis-points",
+      "term": "Basis Points",
+      "definition": "A unit equal to one-hundredth of a percentage point (0.01%). Widely used in bond and derivatives markets to express small changes in rates or spreads — a move from 2.00% to 2.05% is 5 basis points. Negative 200 basis points means a spread is two full percentage points below its theoretical fair value."
+    },
+    {
+      "key": "cds",
+      "term": "Credit Default Swap (CDS)",
+      "definition": "A bilateral derivative in which one party (the protection buyer) pays a recurring premium — quoted in basis points per annum on a notional amount — in exchange for compensation if a specified reference entity defaults or undergoes a defined credit event such as bankruptcy or failure to pay. It functions as insurance on a debt obligation and can be held without owning the underlying bond, enabling both hedging and speculation on credit risk."
+    },
+    {
+      "key": "libor",
+      "term": "LIBOR (London Interbank Offered Rate)",
+      "definition": "A survey-based benchmark reflecting the rate at which major banks reported they could borrow from each other. For decades the dominant global reference rate for trillions of dollars in loans, bonds, and derivatives. A 2012 scandal revealed systematic rate manipulation by multiple banks for profit; regulators mandated a transition to transaction-based alternatives. All USD LIBOR panel settings ceased in June 2023."
+    },
+    {
+      "key": "isda",
+      "term": "ISDA (International Swaps and Derivatives Association)",
+      "definition": "The global trade body that publishes standardized legal documentation for over-the-counter derivatives, most notably the ISDA Master Agreement. Its 2009 “Big Bang” protocol, introduced in response to the 2008 financial crisis, standardized CDS coupons at 100 basis points for investment-grade and 500 basis points for high-yield contracts, and introduced auction-based cash settlement to reduce counterparty opacity."
+    },
+    {
+      "key": "private-credit",
+      "term": "Private Credit",
+      "definition": "Debt financing extended by non-bank entities — asset managers, business development companies (BDCs), and private funds — typically to mid-market corporate borrowers who cannot or choose not to access public bond markets. It grew dramatically after post-2008 banking regulation reduced traditional lenders’ appetite for riskier loans. Because marks are set by managers rather than continuous market prices, credit quality deterioration can be obscured until stress forces a reckoning."
+    },
+    {
+      "key": "carry",
+      "term": "Carry",
+      "definition": "The net income or cost from holding an asset over time, accounting for any yield generated minus financing costs. A bond has positive carry because it pays interest; gold has negative carry because it pays nothing and costs money to store. When interest rates fall, gold’s carry disadvantage relative to yield-bearing assets declines, which is one structural reason gold tends to rally in low-rate environments."
+    },
+    {
+      "key": "real-interest-rates",
+      "term": "Real Interest Rates",
+      "definition": "The interest rate on a financial instrument adjusted for inflation — typically proxied by the yield on inflation-protected government bonds (TIPS in the US). A 4% nominal yield with 3% inflation implies a 1% real rate. Real rates are considered the primary macro driver of gold prices: when they fall, the opportunity cost of holding a non-yielding asset declines and gold demand rises."
+    },
+    {
+      "key": "fomc",
+      "term": "FOMC (Federal Open Market Committee)",
+      "definition": "The rate-setting body of the US Federal Reserve, consisting of the seven governors of the Board of Governors plus five Federal Reserve Bank presidents on a rotating basis. It meets eight times per year to set the federal funds rate target. FOMC meeting dates are among the highest-volatility moments in STIR and rates derivatives markets, as traders rapidly reprice policy expectations in response to the statement and press conference."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.alphapicks.co.uk/p/global-primer-series-stir-trading",
+      "title": "Global Primer Series: STIR Trading — AP Research",
+      "note": "Primary source: the STIR trading primer covering SOFR futures, participant types, and trading strategies"
+    },
+    {
+      "url": "https://www.alphapicks.co.uk/p/global-primer-series-repo-markets",
+      "title": "Global Primer Series: Repo Markets — AP Research",
+      "note": "Primary source: the repo markets primer covering secured funding mechanics and stress episodes"
+    },
+    {
+      "url": "https://www.alphapicks.co.uk/p/global-primer-series-cross-currency",
+      "title": "Global Primer Series: Cross Currency Basis — AP Research",
+      "note": "Primary source: the cross-currency basis primer covering systemic USD funding dynamics"
+    },
+    {
+      "url": "https://www.alphapicks.co.uk/p/global-primer-series-credit-default",
+      "title": "Global Primer Series: Credit Default Swaps — AP Research",
+      "note": "Primary source: the CDS primer covering mechanics, history, and ISDA reforms"
+    },
+    {
+      "url": "https://www.alphapicks.co.uk/p/global-primer-series-private-credit",
+      "title": "Global Primer Series: Private Credit — AP Research",
+      "note": "Primary source: the private credit primer including market size and software-sector concentration risk"
+    },
+    {
+      "url": "https://www.alphapicks.co.uk/p/global-primer-series-sofr-options",
+      "title": "Global Primer Series: SOFR Options — AP Research",
+      "note": "Primary source: the SOFR options primer covering the LIBOR transition and vol surface mechanics"
+    },
+    {
+      "url": "https://www.alphapicks.co.uk/p/global-primer-series-precious-metals",
+      "title": "Global Primer Series: Precious Metals (Gold) — AP Research",
+      "note": "Primary source: the gold primer covering monetary asset framing, central bank demand, and real rate drivers"
+    },
+    {
+      "url": "https://www.bis.org/publ/qtrpdf/r_qt1609e.pdf",
+      "title": "Understanding the Cross-Currency Basis — BIS Quarterly Review, September 2016",
+      "note": "Authoritative BIS analysis of why cross-currency basis persists despite covered interest parity theory"
+    },
+    {
+      "url": "https://www.bis.org/publ/qtrpdf/r_qt1912v.htm",
+      "title": "September Stress in Dollar Repo Markets — BIS Quarterly Review, 2019",
+      "note": "Documents the September 2019 repo rate spike; structural fragility of US repo relying on four marginal lenders"
+    },
+    {
+      "url": "https://www.nber.org/system/files/working_papers/w15384/w15384.pdf",
+      "title": "Credit Default Swaps and the Credit Crisis — NBER (René Stulz)",
+      "note": "Academic analysis of CDS role in 2008 crisis, including AIG’s exposure and systemic risk concentration"
+    },
+    {
+      "url": "https://www.newyorkfed.org/arrc/sofr-transition",
+      "title": "SOFR Transition — NY Fed ARRC",
+      "note": "Official NY Fed resource documenting the LIBOR-to-SOFR transition timeline and rationale"
+    },
+    {
+      "url": "https://www.fsb.org/2026/05/report-on-vulnerabilities-in-private-credit/",
+      "title": "Report on Vulnerabilities in Private Credit — Financial Stability Board, May 2026",
+      "note": "FSB systemic risk assessment of private credit including valuation opacity, leverage, and bank interconnectedness"
+    },
+    {
+      "url": "https://www.financialresearch.gov/the-ofr-blog/2025/12/04/sizing-us-repo-market/",
+      "title": "Sizing the U.S. Repo Market — OFR, December 2025",
+      "note": "Documents the $12+ trillion scale of daily US repo market exposures using novel panel data"
+    },
+    {
+      "url": "https://www.lseg.com/en/insights/ftse-russell/a-standout-year-for-gold-and-silver",
+      "title": "A Standout Year for Gold and Silver — LSEG/FTSE Russell, 2025",
+      "note": "2025 precious metals performance data including gold ˜65% and silver ˜140% annual gains"
+    }
+  ],
+  "bookmark_id": "2051395068985057491",
+  "generated_at": "2026-05-08T10:27:50.510514Z",
+  "backend": "claude-sonnet-subagent"
+}

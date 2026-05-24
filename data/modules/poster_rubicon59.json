@@ -1,0 +1,22 @@
+{
+  "key": "rubicon59",
+  "display_name": "rubicon59",
+  "blurb": "Insufficient data to characterize this account. The provided research sources both returned JavaScript-disabled error pages from X.com with no readable content. One post URL references $INTC (Intel), suggesting possible interest in equities or tech stocks, but nothing more can be confirmed.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/rubicon59"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/rubicon59",
+      "title": "rubicon59 profile — blocked (JS disabled)"
+    },
+    {
+      "url": "https://x.com/rubicon59/status/2047422742824403086",
+      "title": "$INTC post — blocked (JS disabled)"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T09:29:20.462327Z",
+  "backend": "claude-sonnet-subagent"
+}

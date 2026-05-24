@@ -1,0 +1,111 @@
+{
+  "headline": "Google Drive's Document Scanner Finally Becomes Worth Recommending",
+  "lede": "Google Drive's built-in document scanner, long a convenience feature that few would recommend over dedicated alternatives, has quietly become one of the more capable scanning tools on Android. A series of updates spanning late 2023 through the end of 2025 have layered in fully autonomous capture, AI image enhancement, and a redesigned interface — positioning Google as a serious contender in a category it once merely occupied.",
+  "body": "The scanner that shipped in early versions of Drive worked well enough for the occasional receipt but struggled where it counted: multi-page documents, awkward lighting, fiddly manual controls. Competitors filled the gap. Adobe Scan (ADBE) built a loyal professional user base around tight PDF workflows; Apple (AAPL) baked a capable scanner into Notes on iOS; and Microsoft Lens offered near-best-in-class *OCR* until Microsoft (MSFT) quietly retired the standalone app in early 2025, folding its functionality into the broader Microsoft 365 mobile suite.\n\nGoogle's (GOOGL) answer came in stages. A November 2023 update introduced *auto-capture* — the camera fires automatically when it detects a document edge in the frame — along with basic multi-page support. The more meaningful leap arrived in late 2025: a fully autonomous mode where the scanner runs continuously, detecting each new page as it enters view and queuing captures without any tap from the user. A **duplicate-detection** layer flags when the same page has already been captured, preventing a 20-page contract from ballooning into a 30-page PDF. In testing by 9to5Google, a large legal document that “normally would take several minutes” was processed in a few seconds.\n\nParallel to the capture upgrades, an *auto-enhancement* pass arrived in January 2025: AI-driven correction for white balance, shadows, contrast, and sharpness, requiring no manual editing after the fact. The redesigned interface follows Google's *Material 3 Expressive* design language — rounded viewfinders, animated progress indicators, a thumbnail carousel for drag-and-drop page reordering. The most advanced features are still cycling through *Workspace Labs*, Google's opt-in experimental channel, so broad availability is not yet guaranteed.\n\nThe competitive implications are modest but real. Adobe Scan retains its edge for professional PDF workflows where Acrobat integration matters; Apple's Notes scanner still wins on friction-free single-document captures on iPhone. But Google now holds a meaningful lead in automation on Android — no competing app currently offers a fully hands-free, continuous multi-page scanner with live duplicate detection. For Alphabet, the scanner is also a data funnel: every document that lands in Drive is another entry point for *Gemini*-powered search and extraction. The enthusiastic reaction from Min Choi, a product manager at Google DeepMind, suggests the update is making an impression even among people who know Google's AI roadmap from the inside.",
+  "tickers": [
+    "ADBE",
+    "AAPL",
+    "MSFT",
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Adobe",
+      "ticker": "ADBE"
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    }
+  ],
+  "poster": "minchoi",
+  "concepts": [
+    {
+      "key": "auto-capture",
+      "term": "Auto-Capture",
+      "definition": "A scanning mode in which the camera automatically fires when it detects a clean document edge in frame, removing the need to tap a shutter button. Google introduced a toggleable version in 2023 and made it the default-always-on mode in the 2025 update."
+    },
+    {
+      "key": "duplicate-detection",
+      "term": "Duplicate Detection",
+      "definition": "A session-level feature that identifies when a page has already been scanned during the current session and alerts the user, preventing redundant pages from appearing in the final document. Distinct from cloud-level duplicate-file detection."
+    },
+    {
+      "key": "auto-enhancement",
+      "term": "Auto-Enhancement",
+      "definition": "An AI post-processing pass applied after scanning that automatically corrects white balance, removes shadows, boosts contrast, and sharpens edges. Arrived in Google Drive in January 2025 with no manual editing required."
+    },
+    {
+      "key": "material-3-expressive",
+      "term": "Material 3 Expressive",
+      "definition": "The third major iteration of Google's design language for Android and its apps, characterized by rounded shapes, expressive animated elements, and an emphasis on motion. The 'Expressive' sub-variant emphasizes bolder, more dynamic visual feedback compared to standard Material 3."
+    },
+    {
+      "key": "workspace-labs",
+      "term": "Workspace Labs",
+      "definition": "Google's opt-in experimental feature channel for Google Workspace subscribers, where new capabilities are tested before reaching general availability. Users who opt in may encounter features that are still being refined and could change or be withdrawn."
+    },
+    {
+      "key": "ocr",
+      "term": "OCR (Optical Character Recognition)",
+      "definition": "Software that converts images of printed or handwritten text into machine-readable, searchable, and editable text. A core capability in document-scanning apps, enabling a photo of a contract to become a text file rather than a static image."
+    },
+    {
+      "key": "gemini",
+      "term": "Gemini",
+      "definition": "Google's family of large language and multimodal AI models, integrated across Google products including Drive. In the context of scanned documents, Gemini enables features like natural-language search over document contents and automatic summarization."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet's framing that “Doc scanning will never be the same” is enthusiasm rather than error — the features described are real and well-documented. However, as of late 2025 the fully autonomous scanning mode and the Material 3 Expressive redesign were still in beta via Workspace Labs and broader Android beta channels, not yet in general release; many Drive users would not yet see these features on their devices.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://workspaceupdates.googleblog.com/2023/11/updates-to-google-drive-scanner-on-android-and-ios.html",
+      "title": "Updates to the Google Drive scanner on Android & iOS (Nov 2023)",
+      "note": "Official Google Workspace blog post detailing the auto-capture toggle and multi-page scanning additions"
+    },
+    {
+      "url": "https://workspaceupdates.googleblog.com/2025/09/new-document-scanning-ui-google-drive-mobile.html",
+      "title": "Revamping the scanned documents editing experience in Google Drive on Android (Sept 2025)",
+      "note": "Official blog post for the Sept 2025 editing-UI refresh with Material 3 thumbnail carousel"
+    },
+    {
+      "url": "https://workspaceupdates.googleblog.com/2024/12/release-notes-12-13-202.html",
+      "title": "Google Workspace Updates Weekly Recap: December 13, 2024",
+      "note": "Official source announcing auto-enhancement feature and Rapid/Scheduled Release dates"
+    },
+    {
+      "url": "https://9to5google.com/2025/09/29/google-drive-testing-ai-scanner/",
+      "title": "Google Drive testing new AI scanner, and it’s blazing fast (9to5Google, Sept 2025)",
+      "note": "First-look coverage of the fully autonomous multi-page scanning mode in Workspace Labs, including the quoted timing comparison"
+    },
+    {
+      "url": "https://9to5google.com/2025/12/01/android-document-scanner-redesign/",
+      "title": "New Android document scanner with M3 Expressive redesign seeing wider beta (9to5Google, Dec 2025)",
+      "note": "Coverage of the Material 3 Expressive redesign beta, including duplicate page detection feature"
+    },
+    {
+      "url": "https://9to5google.com/2024/12/15/google-drive-scanner-enhance/",
+      "title": "Google Drive document scanner rolling out automatic Enhance on Android (9to5Google, Dec 2024)",
+      "note": "Detailed breakdown of the AI auto-enhancement feature at rollout"
+    },
+    {
+      "url": "https://www.androidcentral.com/apps-software/ai-scanning-google-drive-android-test-that-identifies-adds-in-a-snap",
+      "title": "AI scanning hits Google Drive in Android test (Android Central, Sept 2025)",
+      "note": "Hands-on description of autonomous scanning mode and the shift away from manual user input"
+    }
+  ],
+  "bookmark_id": "2035101387298611651",
+  "generated_at": "2026-05-07T12:13:55.641714Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.businesswire.com/news/home/20260212534404/en/Nebius-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results",
+    "https://nebius.com/newsroom/nebius-announces-oversubscribed-strategic-equity-financing-of-usd-700-million-to-accelerate-roll-out-of-full-stack-ai-infrastructure"
+  ],
+  "key_finding": "Nebius's counterparty map at FY2025 has three structural anchors: (a) the customer base — disclosed as 'over half' of $7-9B FY2026 ARR target already contracted, but specific named customers are not publicly disclosed at customer-name level (this is consistent with hyperscaler-adjacent enterprise contracting practice); (b) the supplier base — Nvidia is the dominant GPU supplier and also a strategic equity investor through the August 2025 $700M placement, creating circular alignment; (c) the strategic-investor base — Accel and Orbis joined Nvidia in the $700M placement, with Accel's Matthew Weigand on the board.",
+  "core_ai_cloud_business": {
+    "description": "Full-stack AI infrastructure: Nvidia GPU clusters in Nebius-built data centers, with vertically integrated stack from chip-procurement through cooling, networking, software, and operating-system layers. Customer access via Nebius AI Studio and direct enterprise contracting.",
+    "fy2025_q4_segment_growth_yoy": "+802%",
+    "geographic_footprint": "Europe-headquartered (Netherlands corporate domicile) with US expansion underway through 2025-2026. Specific data center locations include Finland (legacy Yandex footprint) and US sites under construction."
+  },
+  "portfolio_subsidiaries": [
+    {
+      "name": "Toloka AI",
+      "description": "Human-data labelling platform for AI model training. Operates a global crowd-sourced labour network providing ground-truth labels for vision, language, and multimodal AI training datasets. Revenue model is service-based with hyperscaler and AI lab customers.",
+      "strategic_role": "Adjacent profitable revenue line that complements the core AI cloud (Toloka customers often overlap with cloud customers)."
+    },
+    {
+      "name": "TripleTen",
+      "description": "Online tech education / coding-bootcamp business focused on data science, software engineering, and AI/ML skills.",
+      "strategic_role": "Standalone consumer-tech business; consolidates into the group but operates independently with separate management."
+    },
+    {
+      "name": "Avride",
+      "description": "Autonomous driving technology business. Develops self-driving systems and robotics-related platforms.",
+      "strategic_role": "Long-cycle moonshot; consolidates into the group as a venture-style holding. Closest analog is Cruise / Waymo / Aurora-scale R&D commitment."
+    }
+  ],
+  "customer_landscape": {
+    "framing": "Nebius's customer base is structurally hyperscaler-adjacent enterprise AI: AI labs and ML model developers, hyperscaler customers who require multi-cloud capacity, enterprise AI customers running training and inference workloads. The 'over half of $7-9B FY26 ARR already contracted' disclosure indicates Nebius is signing multi-year commercial contracts with credit-worthy buyers; specific customer names are not publicly disclosed at the snapshot date.",
+    "comparison_to_corewave_and_lambda": "Nebius operates in the same competitive set as CoreWeave (public, NASDAQ:CRWV) and Lambda (private), Crusoe (private), Vultr, and the hyperscaler-internal AI cloud capacity at Microsoft Azure, AWS, and Google Cloud. Nebius's structural advantage versus the pure-play competitors is the $3.7B cash + $834M Q4 operating cash flow + the Nvidia strategic-investor relationship."
+  },
+  "supplier_relationships": [
+    {
+      "name": "Nvidia",
+      "role": "GPU supplier + strategic equity investor (August 2025 $700M placement)",
+      "framing": "Nvidia's dual role as GPU supplier AND equity investor is the most consequential relationship on the counterparty map. The $700M placement aligned Nvidia's strategic interest with Nebius's capacity build-out; the implied allocation priority for Nvidia's GPU output (H100, H200, B100/B200, Rubin generation) flows from the equity alignment. Specific GPU allocations are not publicly disclosed."
+    },
+    {
+      "name": "Data center hardware supply chain",
+      "role": "Servers, networking, cooling, power infrastructure",
+      "framing": "Specific vendors not separately disclosed at customer-name level. Customer set likely includes Supermicro, Dell PowerScale / PowerEdge, HPE, Foxconn-FII, and direct ODM suppliers."
+    },
+    {
+      "name": "Power utilities and real estate counterparties",
+      "role": "Connected-power agreements for 800MW-1GW FY26 target",
+      "framing": "Connected-power agreements are the highest-stakes operational dependency. Nebius's contracted >2GW exit-2025 vs 170MW active means there is a meaningful pipeline of utility agreements and real estate sites under various stages of build."
+    }
+  ],
+  "strategic_investors_august_2025_placement": [
+    {"name": "Accel", "framing": "Tier-1 venture capital firm; partner Matthew Weigand joined the board concurrent with the placement. Accel's enterprise-software and AI-infrastructure portfolio depth aligns with Nebius's strategic trajectory."},
+    {"name": "Nvidia", "framing": "Strategic supplier-and-investor alignment as discussed above."},
+    {"name": "Orbis Investments (certain accounts)", "framing": "South African-rooted global value investor with patient capital — significant signal of long-duration capital backing the AI-infrastructure thesis."}
+  ],
+  "competitive_set_for_reference": [
+    {"name": "CoreWeave (CRWV)", "framing": "Direct public competitor in AI GPU cloud. Larger active capacity but more leveraged balance sheet."},
+    {"name": "Lambda (private)", "framing": "Pure-play AI GPU cloud, venture-backed, also Nvidia-aligned."},
+    {"name": "Crusoe (private)", "framing": "AI GPU cloud + flared-gas power integration; differentiated power-supply approach."},
+    {"name": "Microsoft Azure AI / Google Cloud / AWS", "framing": "Hyperscaler-internal AI cloud capacity; the strategic alternative to which Nebius sells its multi-cloud value proposition."},
+    {"name": "Vultr / DigitalOcean Nimbus", "framing": "Lower-tier AI cloud entrants with smaller scale."}
+  ]
+}

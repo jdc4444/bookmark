@@ -1,0 +1,13 @@
+Enrich candidates: 140 of 936 total.
+  [25/140] ok=22 gone=3 quoted=22 thread=0 +media=0  elapsed=78s eta=357s
+  -- break 30s --
+  [50/140] ok=45 gone=5 quoted=45 thread=2 +media=0  elapsed=188s eta=338s
+  -- break 30s --
+  [75/140] ok=69 gone=6 quoted=69 thread=3 +media=0  elapsed=293s eta=254s
+  -- break 30s --
+  [100/140] ok=93 gone=7 quoted=93 thread=5 +media=0  elapsed=402s eta=161s
+  -- break 30s --
+  [125/140] ok=116 gone=9 quoted=116 thread=6 +media=0  elapsed=513s eta=62s
+  [140/140] ok=129 gone=11 quoted=129 thread=9 +media=0  elapsed=566s eta=0s
+
+Done. ok=129 gone=11 quoted=129 thread=9 +media=0

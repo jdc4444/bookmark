@@ -1,0 +1,24 @@
+{
+  "key": "3037.TW",
+  "name": "Unimicron Technology Corporation",
+  "exchange": "TWSE",
+  "blurb": "Unimicron Technology Corporation (TWSE: 3037) is a Taiwanese printed circuit board (PCB) and IC substrate manufacturer headquartered in Taoyuan City. The company derives roughly 60% of revenue from PCBs and 30% from IC substrates, with the latter segment increasingly focused on ABF (Ajinomoto Build-up Film) substrates for high-performance computing and AI applications. Unimicron is consistently ranked among the top five global ABF substrate suppliers alongside Ibiden, AT&S, Nan Ya PCB, and Shinko Electric.",
+  "recent": "Unimicron targeted high single-digit revenue growth in 2025 on the back of surging ABF substrate demand for cloud AI, with the company's advanced packaging CoWoS (Chip-on-Wafer-on-Substrate) capacity additions coming online in the second half. FY2024 delivered revenue growth of 8.5% and profit growth of 10.2%. The top customer markets are China (~40%), USA (~25%), and Taiwan (~15%), giving Unimicron meaningful exposure to US tariff and supply-chain diversification trends.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Unimicron",
+      "title": "Unimicron — Wikipedia"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/3037.TW/",
+      "title": "Unimicron Technology (3037.TW) — Yahoo Finance"
+    },
+    {
+      "url": "https://www.unimicron.com/en/",
+      "title": "Unimicron Technology Corporation — Official Site"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

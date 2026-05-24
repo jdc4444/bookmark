@@ -1,0 +1,22 @@
+{
+  "key": "commonsenseplay",
+  "display_name": "Common Sense Investor (CSI)",
+  "blurb": "Account display name is \"Common Sense Investor (CSI),\" suggesting a retail or independent investing focus. Beyond the display name, the provided research sources returned no usable content — X.com's JavaScript requirement blocked all page data. No biography, follower count, posting history, or domain details could be extracted.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/commonsenseplay"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/commonsenseplay",
+      "title": "Common Sense Investor (CSI) (@commonsenseplay) / Posts / X"
+    },
+    {
+      "url": "https://x.com/commonsenseplay/status/2042701657239359839",
+      "title": "Common Sense Investor (CSI) (@commonsenseplay) on X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:18:30.499897Z",
+  "backend": "claude-sonnet-subagent"
+}

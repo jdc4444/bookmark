@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.stocktitan.net/sec-filings/LUNR/def-14a-intuitive-machines-inc-definitive-proxy-statement-03c1d88a2ab7.html",
+    "https://investors.intuitivemachines.com/corporate-governance/board-of-directors",
+    "https://investors.intuitivemachines.com/management/stephen-altemus",
+    "https://www.intuitivemachines.com/post/intuitive-machines-announces-appointment-of-nicoleseligman-to-board-of-directors"
+  ],
+  "key_finding": "Intuitive Machines' six-director board is the deepest NASA / national-security / aerospace pedigree set on any small-cap space company at this scale. Class III chairman Dr. Kamal Ghaffarian (co-founder of Stinger Ghaffarian Technologies + Axiom Space + X Energy + Quantum Space + PTX) is one of the most prolific deep-tech / space industry founder-chairman figures of his generation. Class III CEO Stephen Altemus came from NASA Johnson Space Center where he served as Deputy Director and led the Columbia Reconstruction Director role after the 2003 disaster. Class I directors William Liquori (retired Lieutenant General, US Space Force Chief Strategy and Resourcing Officer) and Robert Masson (ex-Raytheon/Naval Aviator/Harvard MBA CFO; Audit Chair) provide military-aerospace and finance pedigree. Class II director Michael Blitzer (Kingstown Capital founder, USA Rare Earth Chairman, Merlin Labs lead independent, Inflection Point SPAC sponsor — the original IPO vehicle that took LUNR public via de-SPAC) is the financial-engineering anchor and chairs Strategic Transactions. Class II director Nicole Seligman (ex-President Sony Entertainment + Sony Corporation of America + 9 years EVP and Global GC Sony + clerked for Justice Thurgood Marshall + Williams & Connolly litigation partner + Harvard College magna + Harvard Law magna + OpenAI director + Meira GTx Holdings director) is one of the most credentialed corporate-governance directors on any US listed company at LUNR's market cap. The executive team is rebuilt around the Lanteris acquisition: Tim Crain (Co-founder, CTO from Feb 2026) carries the NASA aerospace-engineering pedigree; Peter McGrath (CFO from September 2024) came from 31 years at Boeing; Chris Johnson (President of Lanteris from January 2026) was CEO of Lanteris and President of Boeing Satellite Systems International.",
+  "ceo_president_director": {
+    "name": "Stephen Altemus",
+    "title": "Chief Executive Officer, President, and Class III Director",
+    "age": 62,
+    "director_since": "2023-02",
+    "education": [
+      "B.S. Aeronautical Engineering, Embry Riddle Aeronautical University",
+      "M.S. Engineering Management, University of Central Florida"
+    ],
+    "career": [
+      "2013-present: Co-founder, CEO and President, Intuitive Machines",
+      "Earlier: Deputy Director, NASA Johnson Space Center",
+      "Earlier: Director of Engineering, NASA JSC",
+      "Earlier: Lead engineer Engineering Directorate's Aeroscience and Flight Mechanics Division, NASA JSC (joined 2000)",
+      "Earlier: Columbia Reconstruction Director after February 1, 2003 Space Shuttle Columbia disaster",
+      "Earlier: NASA Kennedy Space Center and Space Shuttle Program (joined NASA 1989)"
+    ],
+    "framing": "Altemus is the rare working space-engineering executive who built a private space company out of NASA institutional credibility. The Columbia Reconstruction Director role is the most operationally-significant single credential on the public space-CEO landscape — running the response to the loss of a Space Shuttle is among the most disciplined aerospace engineering management roles in modern history. The combined Embry Riddle aeronautical + UCF engineering management pedigree, the JSC Deputy Director seat, and the 25+ years at NASA before founding Intuitive Machines are why NASA Johnson Space Center remains his most important institutional relationship."
+  },
+  "chairman": {
+    "name": "Dr. Kamal Ghaffarian",
+    "title": "Co-founder and Chairman of the Board (Class III)",
+    "age": 67,
+    "director_since": "2023-02",
+    "education": [
+      "B.S. Computer Science in Engineering",
+      "B.S. Electronics Engineering",
+      "M.S. Information Management",
+      "Ph.D. Management Information Systems",
+      "Ph.D. Technology"
+    ],
+    "career": [
+      "2013-present: Co-founder and Chairman, Intuitive Machines",
+      "Co-founder, Stinger Ghaffarian Technologies (acquired by KBR 2018)",
+      "Founder/Chairman, IBX",
+      "Founder/Chairman, Axiom Space (private orbital module operator)",
+      "Founder/Chairman, X Energy (advanced nuclear reactor)",
+      "Founder/Chairman, Quantum Space",
+      "Founder/Chairman, PTX",
+      "Earlier: technical and management positions at Lockheed Martin, Ford Aerospace, Loral"
+    ],
+    "framing": "Ghaffarian is one of the most prolific deep-tech / space industry founder-chairman figures of his generation. The portfolio he chairs — Axiom Space (orbital station modules), X Energy (advanced nuclear), Quantum Space (cislunar), PTX, plus founding Stinger Ghaffarian Technologies (acquired by KBR 2018 for ~$355M) and IBX — is an unusually wide deep-tech founding posture. His chairmanship of Intuitive Machines is the institutional-credibility anchor that lets a co-founded space company at LUNR's revenue scale operate alongside SpaceX and Blue Origin."
+  },
+  "board_of_directors_full": [
+    {
+      "name": "Dr. Kamal Ghaffarian",
+      "see": "chairman above"
+    },
+    {
+      "name": "Stephen Altemus",
+      "see": "ceo_president_director above"
+    },
+    {
+      "name": "William J. Liquori",
+      "role": "Class I Director (term expires 2026); Audit Committee, Compensation Committee, Nominating and Corporate Governance Committee Chair, Conflicts Committee Chair, Strategic Transactions Committee",
+      "age": 57,
+      "director_since": "2023-02",
+      "education": [
+        "B.A. Computer Science, Boston University",
+        "M.S. Computer Resources and Information Management, Webster University",
+        "Master's, Airpower Art and Science (Air University)",
+        "Master's, Air and Space Power Strategy (Air University)",
+        "Master's, Strategic Studies (Marine Corps University)"
+      ],
+      "career": [
+        "Earlier: Retired Lieutenant General, U.S. Space Force",
+        "Earlier: Chief Strategy and Resourcing Officer, U.S. Space Force"
+      ],
+      "other_boards": ["True Anomaly, Inc.", "Space Force Association"],
+      "framing": "Liquori is the most senior single national-security space credential on the board. The retired LtGen US Space Force rank + Chief Strategy and Resourcing Officer role is precisely the institutional relationship that maps onto Pentagon and Space Force procurement decisions. Chairs Nominating and Corporate Governance plus Conflicts Committee. The True Anomaly board seat is the contemporary venture-space ecosystem connection."
+    },
+    {
+      "name": "Robert L. Masson",
+      "role": "Class I Director (term expires 2026); Audit Committee Chair; Compensation Committee; Nominating and Corporate Governance Committee; Conflicts Committee; Strategic Transactions Committee",
+      "age": 57,
+      "director_since": "2023-02",
+      "education": [
+        "B.S. Economics, U.S. Naval Academy",
+        "M.B.A., Harvard Business School"
+      ],
+      "career": [
+        "Earlier: CFO roles in aerospace and defense sectors",
+        "Earlier: Raytheon Technologies",
+        "Earlier: Flowserve",
+        "Earlier: Hypertherm",
+        "Earlier: Latham Group",
+        "1992-2001: Naval Aviator, US Navy"
+      ],
+      "other_boards": ["Tech-Etch, Inc. (Chair of Audit Committee)"],
+      "framing": "Masson is the deepest single audit-and-finance credential on the board. The combination of US Naval Academy + Harvard MBA + Naval Aviator + Raytheon + Flowserve + Hypertherm + Latham CFO career is the precise pedigree that produces an aerospace and defense audit-committee chairman. Tech-Etch audit-committee chairmanship is the active second public-company audit oversight credential."
+    },
+    {
+      "name": "Michael Blitzer",
+      "role": "Class II Director (term expires 2028 per most recent disclosure); Audit Committee; Compensation Committee Chair; Nominating and Corporate Governance Committee; Conflicts Committee; Strategic Transactions Committee Chair",
+      "age": 48,
+      "director_since": "2023-02",
+      "education": [
+        "B.S., Cornell University",
+        "M.B.A., Columbia Business School"
+      ],
+      "career": [
+        "Current: Chairman and CEO, Inflection Point Asset Management (since 2024)",
+        "Founder, Kingstown Capital Management (2006-2021/2024 — multi-billion asset manager with endowment and foundation clients)",
+        "Earlier: Gotham Asset Management (Joel Greenblatt)",
+        "Earlier: J.P. Morgan Securities (1999, advising private debt and capital raises)",
+        "2010s: Columbia Business School investing instructor (5 years)"
+      ],
+      "other_boards": [
+        "USA Rare Earth (Nasdaq: USAR) — Chairman of the Board since 2025 public listing",
+        "Merlin Labs, Inc. (Nasdaq: MRLN) — Lead Independent Director",
+        "Inflection Point Acquisition Corp III (SPAC sponsor)",
+        "Inflection Point Acquisition Corp V (SPAC sponsor)"
+      ],
+      "framing": "Blitzer is the financial-engineering and capital-markets anchor on the board. As the original Inflection Point Acquisition Corp SPAC sponsor that took LUNR public via de-SPAC in February 2023, his board seat carries the institutional-memory of the public-listing structure. Chairs Compensation Committee and Strategic Transactions Committee — the latter is the structural-corporate-action committee that approved the $800M Lanteris acquisition. The USA Rare Earth Chair + Merlin Labs lead independent + multiple active Inflection Point SPAC sponsorships make him the highest-frequency public-company capital-markets dealmaker on the board."
+    },
+    {
+      "name": "Nicole Seligman",
+      "role": "Class II Director (term expires 2028); Audit Committee; Nominating and Corporate Governance Committee; Conflicts Committee",
+      "age": 69,
+      "director_since": "2023-06",
+      "education": [
+        "B.A., magna cum laude, Harvard College",
+        "J.D., magna cum laude, Harvard Law School"
+      ],
+      "career": [
+        "2014-2016: President, Sony Entertainment, Inc.",
+        "2012-2016: President, Sony Corporation of America",
+        "2005-2014: Executive Vice President and global General Counsel, Sony Corporation",
+        "Earlier: Litigation partner, Williams & Connolly LLP",
+        "Earlier: Law clerk to Justice Thurgood Marshall, U.S. Supreme Court"
+      ],
+      "other_boards": [
+        "OpenAI (board director)",
+        "Meira GTx Holdings plc",
+        "Praetorian Acquisition Corp."
+      ],
+      "framing": "Seligman is the most credentialed corporate-governance director on any US listed company at LUNR's market cap. The 9-year EVP and Global GC of Sony Corporation tenure + dual Presidencies of Sony Entertainment and Sony Corp of America + Harvard College magna + Harvard Law magna + Thurgood Marshall clerkship + Williams & Connolly litigation partner is one of the deepest legal-and-corporate-governance pedigrees in any US boardroom. The OpenAI board seat is the most consequential contemporary deep-tech governance signal — she is one of the small group of directors providing fiduciary oversight at the most important AI company globally."
+    }
+  ],
+  "named_executive_officers_non_board": [
+    {
+      "name": "Dr. Timothy Crain",
+      "title": "Senior Vice President and Chief Technology Officer (as of February 2026)",
+      "age": 53,
+      "education": ["Ph.D. Aerospace Engineering, University of Texas at Austin"],
+      "career": [
+        "Co-founder, Intuitive Machines LLC",
+        "Earlier: NASA JSC engineer on Mars Science Lander navigation",
+        "Earlier: Orion spacecraft guidance systems"
+      ],
+      "framing": "Co-founder + UT Austin PhD aerospace engineering + NASA Mars/Orion experience. The technical-credibility anchor of the executive team and the architect of the IM lunar lander engineering platform."
+    },
+    {
+      "name": "Peter McGrath",
+      "title": "Senior Vice President and Chief Financial Officer (since September 2024)",
+      "age": 58,
+      "education": ["B.S. Aerospace Engineering", "M.S. Aerospace Engineering", "M.B.A."],
+      "career": [
+        "2024-present: SVP and CFO, Intuitive Machines",
+        "Earlier: VP Business Development, Intuitive Machines",
+        "Earlier: 31 years at Boeing — structural analysis, Phantom Works, launch services roles"
+      ],
+      "framing": "McGrath's 31-year Boeing career across structural analysis, Phantom Works, and launch services is the cleanest single aerospace-finance pedigree. The dual aerospace engineering degrees + MBA + Boeing depth is precisely the executive profile that can manage NASA contract structure on the financial side while understanding the engineering economics."
+    },
+    {
+      "name": "Anna Jones",
+      "title": "Senior Vice President, Chief Legal Officer, and Corporate Secretary (since February 2026)",
+      "age": 47,
+      "education": ["B.B.A.", "J.D. Northwestern University School of Law"],
+      "career": [
+        "Earlier: VP Securities and Corporate Counsel, Paysafe",
+        "Earlier: Assistant General Counsel, Marathon Oil",
+        "Earlier: Legal positions at ConocoPhillips",
+        "Earlier: Corporate associate, Latham and Watkins LLP"
+      ]
+    },
+    {
+      "name": "Chris Johnson",
+      "title": "President of Lanteris Space Systems (since January 2026)",
+      "age": 49,
+      "education": [
+        "B.S. Mechanical Engineering, University of Kansas",
+        "M.S. Systems Architecting and Engineering, USC",
+        "M.B.A., USC"
+      ],
+      "career": [
+        "2026-present: President, Lanteris Space Systems (Intuitive Machines subsidiary post-acquisition)",
+        "Earlier: CEO, Lanteris Space Systems",
+        "Earlier: President, Boeing Satellite Systems International",
+        "Earlier: 20+ years at Boeing in defense and commercial satellite roles"
+      ],
+      "framing": "Johnson is the operating leader of the most consequential single transaction in Intuitive Machines' history. The Boeing Satellite Systems International presidency is the institutional credential that explains why the $800M Lanteris acquisition transforms LUNR from lunar-logistics specialist into space prime contractor — Johnson brings the Boeing-grade satellite-systems institutional capability."
+    }
+  ],
+  "board_composition_observation": "LUNR's six-director board is structurally configured for a NASA-contractor + national-security-procurement + space-systems-acquisition operating company at the pre-revenue-scale and through the early-revenue-ramp phases of the business. The Ghaffarian + Altemus founder-pair is anchored by the LtGen Liquori national-security credential, the Masson Naval-Academy + Harvard MBA + Raytheon aerospace-finance credential, the Blitzer Kingstown Capital + Inflection Point SPAC + Strategic Transactions Chair financial-engineering credential, and the Seligman Sony + OpenAI + Harvard Law corporate-governance credential. There is no separate sitting space-industry CEO peer on the board (no Tory Bruno / Bill Anderson-grade direct space-industry CEO peer). The composition is calibrated for governance through the Lanteris integration and the NASA CLPS task-order execution rather than for executing a transformational outbound M&A."
+}

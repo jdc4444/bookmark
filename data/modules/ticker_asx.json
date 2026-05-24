@@ -1,0 +1,13 @@
+{
+  "key": "ASX",
+  "name": "ASE Technology Holding Co., Ltd.",
+  "exchange": "NYSE (ADR); primary TWSE: 3711.TW",
+  "blurb": "ASE Technology is the world's largest OSAT (outsourced semiconductor assembly and test) company, responsible for packaging and testing chips after they leave the foundry wafer fab. Chip packaging — the process of cutting wafers into individual dies, mounting them in substrates, and connecting them to the outside world — is increasingly strategic as advanced packaging (chiplets, CoWoS, SoIC) becomes essential for AI accelerators that exceed the reticle size limits of individual dies. ASE's CoWoS-compatible packaging capacity has become a key bottleneck in NVIDIA Blackwell GPU supply chains. ASE is headquartered in Kaohsiung, Taiwan.",
+  "recent": "ASE has benefited from surging demand for advanced packaging from AI chip supply chains. NVIDIA's Blackwell GPUs require CoWoS advanced packaging, a significant portion of which flows through ASE and its competitor SPIL (a subsidiary). Forward P/E of ~47.4x on 39.7% projected EPS growth yields a PEG of 1.19. Revenue growth is driven by advanced packaging volumes rather than legacy wire-bond assembly.",
+  "sources": [
+    {"url": "https://companiesmarketcap.com/semiconductors/semiconductor-companies-ranked-by-pe-ratio/", "title": "Semiconductor Companies Ranked by PE Ratio — CompaniesMarketCap"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

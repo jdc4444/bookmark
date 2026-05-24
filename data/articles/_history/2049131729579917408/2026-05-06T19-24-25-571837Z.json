@@ -1,0 +1,56 @@
+{
+  "headline": "Sci-Hub's AI Bot Targets Academic Publishing's Paywall Economy",
+  "lede": "A tweet by @IterIntellectus uses pointed irony to publicize Sci-Bot, a free AI tool drawing on Sci-Hub's repository of over 85 million research papers. The post names the economic paradox at the heart of academic publishing: researchers pay to publish, peer reviewers work without compensation, yet readers face steep per-article fees that flow to commercial intermediaries. The reverse-psychology framing — \"please don't use this\" — is a well-worn activist gesture, but the grievance it packages is genuine and decades old.",
+  "body": "The tweet's target is **Elsevier**, the largest of the so-called \"big five\" academic publishers and a subsidiary of the British data company RELX. Elsevier's scientific publishing division has long attracted scrutiny for operating margins that analysts have put near 37 percent — exceptional for any industry, and especially striking given that its core inputs (research manuscripts, editorial labor, peer review) arrive largely at no cost to the publisher. The $3,000 figure the tweet cites reflects the *article processing charge* (APC) many journals now levy on authors who want their work made freely available online; the $40-per-article fee reflects a common pay-per-view price for individual papers behind paywalls.\n\nSci-Hub, founded in 2011 by Kazakhstani researcher Alexandra Elbakyan, built its reputation by hosting millions of papers stripped of their paywalls — a practice that has made it the subject of major copyright litigation by Elsevier and other publishers. The site has operated in a legal grey zone ever since, migrating domains as injunctions follow it. Sci-Bot, launched at sci-bot.ru, is the platform's move into AI-assisted discovery: rather than simply hosting PDFs, it offers a conversational interface over the corpus, letting researchers query across a claimed 85-plus million papers without a subscription.\n\nThe economic logic the tweet sketches is not disputed even by defenders of the existing system. Most academic research is publicly funded through grants from bodies like the U.S. National Institutes of Health or the European Research Council. Authors assign copyright to journals, often for free, as a condition of publication. Peer reviewers — typically faculty at universities — evaluate manuscripts without pay as a professional norm. The publisher's contribution is editorial coordination, typesetting, hosting, and the reputational signal of the journal brand. Critics argue that brand signal has become the primary product, and that its value is maintained partly by keeping access restricted.\n\nThe *open-access* movement has attempted to reform this model for thirty years, with modest success. Mandates from funders like the NIH now require many grant-funded papers to be deposited in public repositories. A parallel route, *gold open access*, makes papers immediately free but shifts costs onto authors via APCs — which is why Elsevier's revenue has, in many cases, simply migrated from reader subscriptions to author fees. Sci-Bot represents a more confrontational approach: treat the existing corpus as a public good regardless of what the copyright holders prefer, and build tools on top of it.",
+  "tickers": [
+    "RELX"
+  ],
+  "poster": "IterIntellectus",
+  "concepts": [
+    {
+      "key": "article-processing-charge",
+      "term": "Article Processing Charge (APC)",
+      "definition": "A fee paid by the author (or their institution or funder) to a journal in exchange for making the published paper freely available online. APCs at major journals typically range from roughly $1,500 to over $5,000. Critics argue they replicate the revenue model of subscription publishing while shifting costs onto researchers rather than readers."
+    },
+    {
+      "key": "open-access",
+      "term": "Open Access",
+      "definition": "A publishing model under which research papers are freely available to any reader, without subscription or per-article fees. 'Gold' open access means the publisher makes the final version free, often funded by APCs. 'Green' open access means authors deposit a version in a public repository. Neither model has fully displaced the subscription paywall at commercial publishers."
+    },
+    {
+      "key": "peer-review",
+      "term": "Peer Review",
+      "definition": "The process by which submitted research manuscripts are evaluated by other experts in the field before publication. Reviewers are almost universally unpaid volunteers acting out of professional obligation. The publisher coordinates the process but does not compensate reviewers, making peer review one of the more contested free-labor arrangements in knowledge production."
+    },
+    {
+      "key": "sci-hub",
+      "term": "Sci-Hub",
+      "definition": "A website founded in 2011 by Alexandra Elbakyan that hosts millions of academic papers, typically obtained by circumventing publisher paywalls. It has faced sustained copyright litigation from major publishers including Elsevier but continues to operate via shifting domain names. It is widely used in countries where institutional journal subscriptions are unaffordable, and by researchers at institutions whose libraries lack broad access."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "sci-hub-sci-bot",
+      "url": "https://sci-bot.ru",
+      "summary": "Sci-Bot is an AI-powered research assistant built on Sci-Hub's repository of over 85 million papers. It offers a conversational interface for querying the corpus, positioning itself as a free alternative to subscription-based research discovery tools. Its legal status is contested under copyright law in multiple jurisdictions, mirroring the status of Sci-Hub itself."
+    }
+  ],
+  "fact_check": "The tweet's core claims — that authors pay roughly $3,000 to publish, peer reviewers are unpaid, and per-article fees run around $40 — are broadly consistent with widely reported figures, though APCs vary considerably by journal and publisher. The characterization of Elsevier's margins as exceptionally high is supported by analyst reporting on RELX's scientific division. The corpus size of 85-plus million papers is taken from the tweet and Sci-Hub's own claims; independent verification of this exact figure was not available from the loaded research sources.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/IterIntellectus/status/2049131729579917408",
+      "title": "Original tweet by @IterIntellectus",
+      "note": "Primary source — the bookmark itself"
+    },
+    {
+      "url": "https://x.com/i/trending/2048713907888652788",
+      "title": "Sci-Hub Launches Sci-Bot AI for Free Research Answers",
+      "note": "X trending topic confirming Sci-Hub as Sci-Bot's origin"
+    }
+  ],
+  "bookmark_id": "2049131729579917408",
+  "generated_at": "2026-05-06T19:24:25.571837Z",
+  "backend": "claude"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "txn",
+  "name": "Texas Instruments Incorporated",
+  "exchange": "NASDAQ",
+  "blurb": "The largest pure-play analog-semiconductor maker in the world by revenue, with roughly twenty percent share of the analog market. Texas Instruments designs and manufactures power-management chips, signal-chain devices and embedded processors used in industrial machinery, automobiles and, increasingly, AI servers. Its strategy is unusual in the industry: it owns and operates several 300-millimetre wafer fabs in the United States, giving it a long-term cost advantage against fab-light competitors, but also requiring a multi-year capital-spending programme that compressed free cash flow through 2023-2024.",
+  "recent": "Q1 2026 revenue came in at $4.83 billion, ahead of the $4.53 billion consensus, with analog-segment revenue up 22 percent year on year and data-centre revenue up roughly 90 percent. Capital expenditure dropped 40 percent year on year to $676 million as the 300mm fab build-out tapers, and free cash flow rose to $1.40 billion. The company has also announced selective price increases of 15 to 85 percent on certain analog products effective April 2026, in line with similar moves by Analog Devices, Infineon and Murata. The stock is up roughly 50 percent year-to-date through April 2026.",
+  "sources": [
+    {"title": "TXN signals sector rebound with Q1 guidance — FinancialContent", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-25-analog-awakening-texas-instruments-signals-sector-rebound-with-bold-q1-guidance"},
+    {"title": "Texas Instruments Q4 2025 / data-centre recovery — Manufacturing Dive", "url": "https://www.manufacturingdive.com/news/texas-instruments-q4-2025-data-center-semiconductor-market-recovery/810672/"},
+    {"title": "TXN vs ON in April 2026 — 24/7 Wall St.", "url": "https://247wallst.com/investing/2026/05/04/texas-instruments-or-on-semiconductor-which-analog-chip-stock-won-in-april/"},
+    {"title": "TXN unexpected AI winner — Benzinga", "url": "https://www.benzinga.com/markets/tech/26/04/52034021/texas-instruments-stock-unexpected-ai-winner-txn"},
+    {"title": "TI to acquire Silicon Labs — Manufacturing Dive", "url": "https://www.manufacturingdive.com/news/texas-instruments-silicon-labs--7-5b-acquisition-chips-embed-process/811363/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

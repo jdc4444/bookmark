@@ -1,0 +1,28 @@
+{
+  "key": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Super Micro Computer designs and sells high-performance server, storage, and networking solutions built on modular, open-standard architecture, serving customers across the United States, Asia, Europe, and globally. The company has emerged as a key supplier of liquid- and air-cooled AI inference and training servers integrating GPUs from partners such as NVIDIA, alongside its broader portfolio of blade systems (SuperBlade, MicroBlade), multi-node platforms (BigTwin, GrandTwin), and hyperscale/cloud datacenter systems. With trailing-twelve-month revenue of approximately $33.7 billion (+56% YoY), SMCI has scaled rapidly on surging enterprise and hyperscaler AI infrastructure demand. The company employs roughly 6,200 people and has been publicly traded since its March 2007 IPO.",
+  "recent": "SMCI reported its most recent quarterly earnings on May 5, 2026, with the stock subsequently declining and trading around $32 as of May 13-14, 2026 — roughly half its 52-week high of $62.36, reflecting a market-cap contraction to approximately $19.3 billion. Analyst consensus sits at Hold with a mean price target of $36, implying modest upside from current levels. A recent MSN report flagged near-term selling pressure on the stock, though specific catalyst details were not available in the provided sources.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/smci/",
+      "title": "Super Micro Computer (SMCI) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/SMCI/",
+      "title": "Super Micro Computer (SMCI) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/SMCI/news/",
+      "title": "Super Micro Computer, Inc. (SMCI) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/savingandinvesting/why-super-micro-smci-stock-is-down-today/ar-AA231p9Z",
+      "title": "Why Super Micro (SMCI) stock is down today — MSN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T09:46:29.278788Z",
+  "backend": "claude-sonnet-subagent"
+}

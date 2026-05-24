@@ -1,0 +1,18 @@
+{
+  "key": "BenP_np",
+  "display_name": "Unknown",
+  "blurb": "No usable data was returned from the provided research source — the X.com page failed to load due to JavaScript being disabled in the scraping context. Cannot construct a bio without fabricating details.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/BenP_np"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/BenP_np",
+      "title": "A (@BenP_np) / Posts / X — failed to load (JS disabled)"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:54:29.971685Z",
+  "backend": "claude-sonnet-subagent"
+}

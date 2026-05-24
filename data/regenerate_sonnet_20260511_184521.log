@@ -1,0 +1,2 @@
+[2026-05-11T18:45:21] start: todo=129 skipped_old=437 skipped_fresh=409 concurrency=4
+[2026-05-11T18:45:21] breakdown: {'missing': 29, 'stale': 99, 'backend=deepseek': 1}

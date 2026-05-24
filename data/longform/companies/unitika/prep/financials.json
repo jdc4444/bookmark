@@ -1,0 +1,185 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-05-22",
+  "currency": "JPY",
+  "fiscal_year_end_month": 3,
+  "segment_taxonomy_change": {
+    "fy3_25_and_earlier": ["High Polymer", "Functional Materials", "Fiber"],
+    "fy3_26_onward": ["Polymers", "Performance Materials", "Fibers and Textiles", "Other"]
+  },
+  "annual": [
+    {
+      "fiscal_year_end": "2013-03",
+      "revenue_jpy_m": 162680,
+      "net_income_jpy_m": 583,
+      "employees_consolidated": 4534,
+      "source_note": "Wikipedia (13y-old benchmark for context)"
+    },
+    {
+      "fiscal_year_end": "2024-03",
+      "revenue_jpy_m": 118300,
+      "operating_profit_jpy_m": -2500,
+      "ordinary_profit_jpy_m": -1000,
+      "net_income_jpy_m": -5400,
+      "source": "FY3/25 presentation comparator"
+    },
+    {
+      "fiscal_year_end": "2025-03",
+      "revenue_jpy_m": 126400,
+      "operating_profit_jpy_m": 5900,
+      "ordinary_profit_jpy_m": 4700,
+      "net_income_jpy_m": -24300,
+      "impairment_charge_jpy_m": 37900,
+      "shareholders_equity_jpy_m": 15568,
+      "total_assets_jpy_m": 149430,
+      "capital_adequacy_ratio_pct": 10.4,
+      "cash_and_deposits_jpy_m": 13501,
+      "segments": {
+        "high_polymer": {
+          "revenue_jpy_m": 55400,
+          "revenue_yoy_pct": 8.5,
+          "operating_profit_jpy_m": 6000
+        },
+        "functional_materials": {
+          "revenue_jpy_m": 37000,
+          "revenue_yoy_pct": 8.3,
+          "operating_profit_jpy_m": 300
+        },
+        "fiber": {
+          "revenue_jpy_m": 33900,
+          "revenue_yoy_pct": 2.8,
+          "operating_profit_jpy_m": -357
+        }
+      }
+    }
+  ],
+  "fy3_26_9m_actual": {
+    "period": "April 1, 2025 to December 31, 2025",
+    "revenue_jpy_m": 95637,
+    "revenue_yoy_pct": 2.2,
+    "operating_profit_jpy_m": 9030,
+    "op_yoy_pct": 110.3,
+    "ordinary_profit_jpy_m": 8802,
+    "op_yoy_pct_recurring": 75.8,
+    "net_income_jpy_m": 10649,
+    "prior_year_net_income_jpy_m": -24399,
+    "comprehensive_income_jpy_m": 9490,
+    "eps_jpy": 184.72,
+    "diluted_eps_jpy": 20.49,
+    "extraordinary": {
+      "fx_valuation_gain_jpy_m": 940,
+      "gain_on_sale_non_current_assets_jpy_m": 23661,
+      "business_restructuring_expense_jpy_m": -12391,
+      "net_extraordinary_jpy_m": 11270
+    },
+    "scope_changes_excluded_subsidiaries_fy3_26": [
+      "Unitika Garment Technology Co., Ltd.",
+      "Unitika Spinning Co., Ltd.",
+      "PT. Unitika Trading Indonesia"
+    ],
+    "segments": {
+      "polymers": {
+        "revenue_jpy_m": 42476,
+        "revenue_yoy_pct": 0.7,
+        "operating_profit_jpy_m": 7543,
+        "op_yoy_pct": 67.0,
+        "color": "Films + Plastics both grew. Nylon and polyester films grew in packaging; EMBLEM-HG strong. Electronic-materials demand drove industrial film. Engineering plastics +sales for electric/electronic (auto weak). Specialty polymers steady growth."
+      },
+      "performance_materials": {
+        "revenue_jpy_m": 29144,
+        "revenue_yoy_pct": 5.8,
+        "operating_profit_jpy_m": 1441,
+        "op_yoy_pct": 251.7,
+        "color_subsegments": {
+          "activated_carbon_fibers": "VOC-removal sheets for air purification recovering overseas; water-purification (mainstay) strong",
+          "glass_fibers": "Industrial materials robust (tents, sheets); electronic materials grew significantly — ultra-thin Low CTE Glass Fabrics + ultra-thin E Glass Fabrics for high-end mobile memory",
+          "glass_beads": "Road applications declining (price competition from overseas); industrial + reflective steady",
+          "non_woven_fabrics": "Spunbond strong (agricultural + automotive); spunlace cotton steady (industrial up, consumer down)",
+          "industrial_fibers": "Polyester staple down; high-strength polyester yarns up; monofilament steady"
+        }
+      },
+      "fibers_and_textiles": {
+        "revenue_jpy_m": 23944,
+        "revenue_yoy_pct": 0.8,
+        "operating_profit_jpy_m": 50,
+        "prior_year_op_jpy_m": -560,
+        "color": "Uniforms steady (public-sector); general clothing weak; overseas denim solid; civil-engineering + household-product industrial materials strong"
+      },
+      "other": {
+        "revenue_jpy_m": 71,
+        "revenue_yoy_pct": 47.7,
+        "operating_profit_jpy_m": -28,
+        "prior_year_op_jpy_m": -53
+      }
+    },
+    "balance_sheet": {
+      "total_assets_jpy_m": 180121,
+      "liabilities_jpy_m": 134397,
+      "net_assets_jpy_m": 45723,
+      "shareholders_equity_jpy_m": 45472,
+      "capital_adequacy_ratio_pct": 25.2,
+      "cash_and_deposits_jpy_m": 57956
+    },
+    "balance_sheet_deltas": {
+      "vs_prior_fy_end": {
+        "total_assets_jpy_m": 30690,
+        "liabilities_jpy_m": 1199,
+        "net_assets_jpy_m": 29490,
+        "cash_and_deposits_jpy_m": 44455
+      },
+      "driver": "Net asset increase from Class C share issuance to REVIC; cash buildup from REVIC + asset sale gains"
+    }
+  },
+  "fy3_26_full_year_guidance_revised_2026_02_06": {
+    "revenue_jpy_m": 110000,
+    "revenue_yoy_pct": -13.0,
+    "operating_profit_jpy_m": 9500,
+    "op_yoy_pct": 62.4,
+    "ordinary_profit_jpy_m": 9000,
+    "op_yoy_pct_recurring": 91.8,
+    "net_income_jpy_m": 20000,
+    "eps_jpy": 342.35,
+    "interpretation": "Revenue declines on divestiture; profitability surges; one-time gains support net income"
+  },
+  "fy3_29_5y_target": {
+    "revenue_jpy_m": 70000,
+    "operating_profit_jpy_m": 6500,
+    "strategic_focus": [
+      "High-margin polymer",
+      "Inorganic materials (fibers, ceramics)",
+      "Semiconductor packaging",
+      "Medical devices",
+      "Environmental applications"
+    ]
+  },
+  "shares": {
+    "outstanding_common": 57752343,
+    "treasury": 98120,
+    "weighted_avg_during_term": 57654401,
+    "class_a_status": "Cancelled 2025-04-30",
+    "class_b_status": "Cancelled 2025-04-30",
+    "class_c_status": "Issued 2025-04-30 to REVIC, 66.76% voting"
+  },
+  "dividends": {
+    "common_stock_fy3_26": 0.00,
+    "common_stock_fy3_25": 0.00,
+    "class_c_year_end_fy3_26": 2.27,
+    "policy_note": "No common dividend during restructuring; minimal Class C preferred dividend forecast"
+  },
+  "market_snapshot": {
+    "as_of": "2026-05-22",
+    "price_jpy": 1574,
+    "market_cap_jpy_m": 90750,
+    "shares_outstanding_m": 57.65,
+    "pe_ttm": 45.06,
+    "eps_ttm_jpy": 34.93,
+    "beta": 2.03,
+    "week52_low_jpy": 140,
+    "week52_high_jpy": 4380,
+    "5y_low_jpy": 127,
+    "5y_high_jpy": 3745
+  },
+  "macro_context": {
+    "from_q3_commentary": "Domestic economy resilient, especially manufacturing, driven by vigorous global AI-related demand + continued robust capital investment. Outlook uncertain due to trade-policy/exchange-rate/geopolitical (incl. Japan-China) risks."
+  }
+}

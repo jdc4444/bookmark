@@ -1,0 +1,22 @@
+{
+  "key": "insane_analyst",
+  "display_name": "Irrational Analysis",
+  "blurb": "SOURCE DATA INSUFFICIENT — the provided research sources returned blank X.com error pages. Display name 'Irrational Analysis' is visible in the page titles, but no bio, domain, posting focus, or follower count could be extracted. Details should not be invented.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/insane_analyst"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/insane_analyst",
+      "title": "Irrational Analysis (@insane_analyst) / Posts / X - Twitter"
+    },
+    {
+      "url": "https://x.com/insane_analyst/status/2051416078690213888",
+      "title": "Irrational Analysis (@insane_analyst) on X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:10:08.023316Z",
+  "backend": "claude-sonnet-subagent"
+}

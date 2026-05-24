@@ -1,0 +1,83 @@
+{
+  "bookmark_id": "2038708922161181150",
+  "headline": "Thirty Cents vs. Thirty Thousand Dollars: LLMs Meet the Bloomberg Terminal",
+  "lede": "A crypto-and-AI investor claims a handful of LLM API calls through OpenRouter can stand in for a Bloomberg Terminal subscription — a service that costs institutions roughly $32,000 a year. The boast is partly true, largely misleading, and entirely worth unpacking.",
+  "body": "The Bloomberg Terminal is not a website. It is closer to a city — one that took four decades and billions of dollars to build, and whose value derives as much from its inhabitants as from its infrastructure. A subscriber gains real-time price feeds from more than 350 exchanges, decades of normalized historical data spanning 35 million instruments, Bloomberg Intelligence research on 2,000-plus companies, and Bloomberg News, staffed by roughly 2,700 journalists in 120 countries. The annual tab, at roughly $32,000 per seat for 2025, is not a data purchase so much as a membership in a financial civilization.\n\nThen there is **Instant Bloomberg** — the Terminal's in-built messaging system, used by all 355,000 subscribers to negotiate trades, share research, and route *indications of interest* (informal pre-trade expressions of intent to buy or sell). In fixed income — where bonds change hands not on centralized exchanges but through bilateral negotiation with dealers — IB is functionally how the market communicates. No chat application, however cleverly prompted, can replicate a network that took decades to reach critical mass.\n\n**OpenRouter** is a different kind of infrastructure: a unified API gateway that routes developer requests to more than 290 large language models from Anthropic, OpenAI, Google, DeepSeek, Meta, and others, billing on a pay-per-token basis with no monthly minimum. The per-token prices it charges are essentially pass-throughs from the underlying providers, and cheaper models — Meta's Llama, Google's Gemma — are offered for free within generous daily limits. A session of research queries, depending on the models chosen and the verbosity of the prompts, can indeed cost thirty cents or less. The $0.30 figure is real. The comparison to a Bloomberg subscription is the sleight of hand.\n\nWhat an LLM workflow can plausibly replicate is the research layer: scanning news, summarizing earnings releases, drafting a quick sector overview, sketching valuation frameworks. For an independent analyst, a journalist, or a startup founder trying to understand a market, these are the Terminal features most used and least defensible at $32,000. The gap opens quickly once you need *deterministic* data — precise bid-ask spreads, time-stamped tick history, legally relied-upon benchmark fixings. Ask two financial websites for the same metric and you will likely receive three different answers, owing to differing fiscal-year conventions, restatement handling, and adjustment methodologies. Bloomberg's quiet achievement is that it spent decades standardizing that messiness into a consistent schema. An LLM, by contrast, synthesizes from whatever sources it can reach, inheriting all their inconsistencies.\n\nThe post fits a familiar genre on X: the provocateur's ratio, in which a dramatic cost comparison signals technical sophistication while carefully omitting the use-case fine print. Aaron Mars is a crypto investor and early-stage VC with genuine technical curiosity — his feed shows fluency in AI agent design and on-chain coordination — but the terminal he is describing is a researcher's Bloomberg, not a bond trader's. The honest version of the claim is narrower and still interesting: *for non-institutional, non-trading research workflows, the marginal value of a Bloomberg subscription has fallen sharply as frontier LLMs have improved.* That is a real trend worth watching, and Bloomberg itself evidently agrees — it is integrating conversational AI directly into the Terminal under the name ASKB, an agentic assistant meant to surface insights through natural language rather than the Terminal's famously cryptic command codes.\n\nThe gap that remains is the one markets have always been most ruthless about closing: *latency and trust*. When a fund manager needs to know the current yield on a specific off-the-run Treasury, she needs a number she can act on, with legal certainty about its provenance, in milliseconds. OpenRouter delivers language. Bloomberg delivers data with a chain of custody. For now, those are different products — and the difference is worth rather more than $31,999.70.",
+  "tickers": [],
+  "poster": "aaronjmars",
+  "concepts": [
+    {
+      "key": "bloomberg-terminal",
+      "term": "Bloomberg Terminal",
+      "definition": "A subscription software platform used by financial professionals to access real-time market data across 350+ exchanges, decades of historical data on 35 million instruments, Bloomberg News, and the Instant Bloomberg messaging network. It costs roughly $32,000 per seat annually and is as much a professional network as a data product."
+    },
+    {
+      "key": "openrouter",
+      "term": "OpenRouter",
+      "definition": "A unified API gateway that provides developer access to 290+ large language models from major providers (Anthropic, OpenAI, Google, Meta, DeepSeek, and others) through a single endpoint and credit-based billing. It charges per-token at pass-through rates with no monthly minimum, making experimental sessions cheaply feasible."
+    },
+    {
+      "key": "instant-bloomberg",
+      "term": "Instant Bloomberg (IB)",
+      "definition": "The Bloomberg Terminal's proprietary messaging system, used by all 355,000 subscribers to negotiate over-the-counter trades, share research, and route indications of interest. In fixed income markets — where bonds are traded bilaterally rather than on exchanges — IB functions as the communication infrastructure of the market itself, and its network effect is not replicable by third-party tools."
+    },
+    {
+      "key": "otc-fixed-income",
+      "term": "OTC Fixed Income",
+      "definition": "Over-the-counter bond trading, in which buyers and sellers negotiate directly with dealers rather than through a centralized exchange. Because prices are not publicly posted, the communication channels between participants — historically, Instant Bloomberg — carry significant structural importance."
+    },
+    {
+      "key": "llm-api-token-pricing",
+      "term": "LLM Token Pricing",
+      "definition": "Large language model APIs charge by the token — roughly a word-fragment of text — with input (prompt) and output (response) priced separately. Frontier models cost a few dollars per million tokens; cheaper open-weights models are available for fractions of a cent, making short research sessions genuinely very inexpensive."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The $32,000/year Bloomberg Terminal figure is accurate for 2025 (single-seat pricing rose to $31,980 annually). OpenRouter's per-token pricing is passthrough from providers with no markup, and a light research session costing $0.30 is plausible using cheaper models. The 355,000 Bloomberg subscriber figure comes from Bloomberg LP's own disclosures. The claim to have 'replaced' the Terminal is not substantiated in the original post — no workflow details, data sources, or use-case specifics are provided, making independent verification impossible.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://godeldiscount.com/blog/bloomberg-terminal-cost-2026",
+      "title": "Bloomberg Terminal Cost 2026: Full Pricing Breakdown",
+      "note": "Confirms $31,980/year single-seat pricing for 2025, details feature set including IB messaging and fixed income data"
+    },
+    {
+      "url": "https://openrouter.ai/docs/faq",
+      "title": "OpenRouter FAQ | Developer Documentation",
+      "note": "Explains unified API model, credit-based billing, BYOK option, and provider routing/fallback mechanics"
+    },
+    {
+      "url": "https://professional.bloomberg.com/products/bloomberg-terminal/collaboration-tools/instant-bloomberg/",
+      "title": "Instant Bloomberg | Bloomberg Professional Services",
+      "note": "Official description of IB messaging system and its role in OTC trading workflows"
+    },
+    {
+      "url": "https://www.junia.ai/blog/perplexity-bloomberg-terminal",
+      "title": "Perplexity Bloomberg Terminal: Can AI Replace a $30,000 Finance Stack?",
+      "note": "Analysis of what AI alternatives can and cannot replicate from Bloomberg's feature set"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/finance-techie-says-they-cloned-bloombergs-usd30k-a-year-terminal-with-perplexitys-computer-project-draws-both-praise-and-sizable-skepticism",
+      "title": "Finance techie says they cloned Bloomberg's $30k-a-year Terminal with Perplexity's Computer",
+      "note": "Documents similar prior viral claim and the skepticism it attracted among finance professionals"
+    },
+    {
+      "url": "https://www.bloomberg.com/company/stories/meet-askb-bloomberg-introduces-agentic-ai-to-the-bloomberg-terminal/",
+      "title": "Meet ASKB: Bloomberg Introduces Agentic AI to the Bloomberg Terminal",
+      "note": "Bloomberg's own response to AI disruption: integrating conversational AI natively into the Terminal"
+    },
+    {
+      "url": "https://www.wallstreetprep.com/knowledge/bloomberg-vs-capital-iq-vs-factset-vs-thomson-reuters-eikon/",
+      "title": "Bloomberg vs. Capital IQ vs. FactSet vs. Refinitiv",
+      "note": "Competitive landscape context; highlights Bloomberg's fixed income data and IB network as differentiated advantages"
+    },
+    {
+      "url": "https://x.com/AdegbemboB/status/1999897459800109250",
+      "title": "Aaron J. Mars profile description on X",
+      "note": "Background on poster: crypto/AI VC at Tela VC, builder in consumer crypto and AI coordination"
+    }
+  ],
+  "generated_at": "2026-05-05T23:43:46.832134Z",
+  "backend": "claude-sonnet-subagent"
+}

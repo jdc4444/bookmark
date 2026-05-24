@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "headline_summary": "Applied Optoelectronics is a 28-year-old founder-led vertically-integrated optical components and transceivers maker that, in FY2025, doubled revenue to $455.7M on the back of a simultaneous CATV cyclical recovery and an AI-datacenter 800G ramp. Customer concentration is severe (Digicomm + Microsoft = 81.9% of FY25), and a $324M+ near-term order book announced March-April 2026 from one hyperscale customer (widely understood to be Amazon, following the March 2025 warrant) marks an inflection toward 1.6T-generation product economics.",
+  "headquarters": "Sugar Land, Texas, USA",
+  "founded": "1997-02-28",
+  "ipo_date": "2013-09",
+  "ticker_exchange": "AAOI / NASDAQ",
+  "founder_ceo": "Dr. Chih-Hsiang \"Thompson\" Lin (Chairman, President, CEO since inception)",
+  "employees_total": 4691,
+  "employees_by_country": {"us": 548, "taiwan": 1262, "china": 2881},
+  "fy2025_revenue_usd_millions": 455.7,
+  "fy2025_yoy_growth": 0.828,
+  "fy2025_gaap_gross_margin": 0.300,
+  "fy2025_net_loss_usd_millions": -38.2,
+  "accumulated_deficit_usd_millions": -493.1,
+  "segment_mix_fy2025": {
+    "catv": 0.538,
+    "internet_data_center": 0.429,
+    "telecom": 0.030,
+    "ftth_and_other": 0.003
+  },
+  "top_two_customer_concentration_fy2025": 0.819,
+  "stock_5y_range_usd": [1.50, 223.10],
+  "stock_at_snapshot_usd_approx": 181,
+  "manufacturing_locations": ["Sugar Land TX", "Taipei Taiwan", "Ningbo China"],
+  "capacity_target_fy2026_end": "500,000+ units/month combined 800G + 1.6T transceivers",
+  "patent_portfolio_dec_31_2025": {"us": 199, "china_taiwan": 140, "europe": 10},
+  "structural_thesis_in_one_paragraph": "AAOI is the rare US-listed optical components company that operates with full vertical integration from InP wafer fabrication through transceiver assembly, and it has come through a 2018-2023 trough that wiped out roughly $500M of accumulated equity to reach the AI-datacenter ramp with both its vertical stack and its Texas/Taiwan/China manufacturing footprint intact. The investment question is whether the FY2025 result — 82.8% revenue growth, 30% gross margin, narrowed net loss — represents the beginning of a multi-year operating leverage cycle that finally turns the accumulated deficit into book equity, or a cyclical peak compounded by extreme customer concentration that will mean-revert as Microsoft's share normalises and Digicomm's CATV channel matures. The Amazon warrant and the >$324M near-term 1.6T-inclusive order book argue for the first interpretation; the $493.1M accumulated deficit and the 81.9% two-customer concentration argue for caution about the second."
+}

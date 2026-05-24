@@ -1,0 +1,44 @@
+{
+  "headline": "The Engineer Who Kept Leaked Claude Code Source on GitHub",
+  "lede": "When Anthropic's proprietary source code for Claude Code — its AI-assisted coding tool — leaked online, one engineer did what engineers do: forked it, backed it up, and refused to take it down. Anthropic issued a takedown notice; the engineer apparently found a way around it. The tweet \"i backed the source up on my github\" is the laconic caption on a story about intellectual property, DMCA mechanics, and the internet's instinct to preserve.",
+  "body": "Claude Code is Anthropic's terminal-based coding assistant, tightly integrated with its Claude language models. Its source had not been publicly released; a leak exposing the codebase was therefore both a competitive embarrassment and a legal matter for the company. Anthropic, like most software firms facing unwanted disclosure, reached for the standard instrument: a *DMCA* (Digital Millennium Copyright Act) takedown notice, which compels platforms like GitHub to remove infringing content on complaint.\n\nThe engineer identified in reporting as the person behind the backup — apparently @realsigridjin — did not simply comply. According to coverage in both MSN and DEV Community, they found a technique to keep the repository accessible despite the notice. The precise method is described in those sources as unconventional enough to warrant the headline \"the crazy way,\" though the full technical detail was not available in the research materials provided here; the brief will not speculate on the specifics.\n\nWhat makes this episode notable beyond its entertainment value is the legal and practical question it raises. DMCA takedowns are blunt instruments: they require no judicial finding, only an assertion of ownership and a counter-notification process that most individuals decline to navigate. When someone does push back — through technical means, counter-notice, or some transformation of the material — it exposes how much the system relies on asymmetric compliance rather than adjudicated rights.\n\nAnthropic is a private company, so there are no public shareholders to satisfy. But the leak touches something more fundamental: proprietary tooling is itself a competitive moat, and Claude Code's internals, once public, can inform rivals. The engineer's GitHub archive, however long it persists, is a small illustration of the gap between legal right and technical enforcement on the open internet.",
+  "tickers": [],
+  "poster": "realsigridjin",
+  "concepts": [
+    {
+      "key": "dmca-takedown",
+      "term": "DMCA takedown notice",
+      "definition": "A formal request under the U.S. Digital Millennium Copyright Act requiring a platform to remove content alleged to infringe copyright. The process is largely automated and places the burden of counter-notification on the person whose content is removed, not on the claimant to prove infringement first."
+    },
+    {
+      "key": "source-code-leak",
+      "term": "source code leak",
+      "definition": "The unintended disclosure of a software product's underlying code — the human-readable instructions from which executables are built. For proprietary software, this can expose trade secrets, architectural decisions, and security vulnerabilities."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "realsigridjin-claude-code-backup",
+      "url": "https://github.com/realsigridjin",
+      "summary": "A backup of leaked Claude Code source code posted to GitHub by @realsigridjin. The repository became notable after Anthropic issued a DMCA takedown and the engineer reportedly found a method to keep it accessible. The specific repo URL was not confirmed in available sources."
+    }
+  ],
+  "fact_check": "The research sources confirm the broad outline — a leak occurred, Anthropic issued a takedown, an engineer kept the material on GitHub via some workaround — but the full articles were truncated and the specific technical method described as the \"crazy way\" was not available. This brief does not characterize that method; readers should consult the DEV Community and MSN pieces directly for those details.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.msn.com/en-in/money/news/how-an-engineer-ensured-claude-code-source-code-leak-stays-on-github-despite-anthropic-s-takedown-notice/ar-AA1ZZO3n",
+      "title": "How an engineer ensured Claude Code source code leak stays on GitHub despite Anthropic's takedown notice",
+      "note": "MSN news report on the event; confirms the takedown and the engineer's countermove"
+    },
+    {
+      "url": "https://dev.to/whiplash/the-crazy-way-a-dev-avoided-copyright-on-leaked-claude-code-5cp4",
+      "title": "The Crazy Way a Dev Avoided Copyright on Leaked Claude Code",
+      "note": "DEV Community technical writeup on the method used to keep the repo live; article truncated in research materials"
+    }
+  ],
+  "bookmark_id": "2038908883004227957",
+  "generated_at": "2026-05-06T19:46:18.918110Z",
+  "backend": "claude"
+}

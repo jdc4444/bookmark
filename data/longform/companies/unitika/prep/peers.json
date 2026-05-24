@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "peer_set_japanese_polymer_fiber_specialty": [
+    {
+      "name": "Toray Industries",
+      "ticker": "3402.T",
+      "fy2025_revenue_jpy_b": 2563.3,
+      "fy2025_revenue_yoy_pct": 4.0,
+      "fy2025_core_operating_income_jpy_b": 142.8,
+      "fy2025_op_yoy_pct": 39.1,
+      "implied_op_margin_pct": 5.6,
+      "scale_vs_unitika_revenue_ratio": 20.3,
+      "color": "Carbon fiber composite materials core OP +70.7%; Electronics & Information Materials +63.6%. The scale leader.",
+      "source": "https://www.toray.com/ir/pdf/lib/lib_a547.pdf"
+    },
+    {
+      "name": "Teijin Ltd.",
+      "ticker": "3401.T",
+      "fy2025_revenue_jpy_b": 1005.5,
+      "fy2025_op_margin_pct": -7.84,
+      "implied_op_loss_jpy_b": -78.8,
+      "scale_vs_unitika_revenue_ratio": 8.0,
+      "color": "Materials (aramid, polycarbonate, carbon fiber) + Fibers & Products Converting + Healthcare. FY3/25 was a tough year — operating LOSS.",
+      "source": "marketsmojo.com aggregated; need to verify with primary IR"
+    },
+    {
+      "name": "Asahi Kasei",
+      "ticker": "3407.T",
+      "fy2025_revenue_jpy_b": null,
+      "needs_research": true,
+      "color": "Broader diversified chemicals — much larger than Unitika; specialty overlap in some polymer films"
+    },
+    {
+      "name": "Mitsubishi Chemical Group",
+      "ticker": "4188.T",
+      "fy2025_revenue_jpy_b": null,
+      "needs_research": true,
+      "color": "Industry giant; some specialty polymer/film overlap"
+    },
+    {
+      "name": "Kuraray Co., Ltd.",
+      "ticker": "3405.T",
+      "fy2025_revenue_jpy_b": null,
+      "needs_research": true,
+      "color": "Specialty fibers + polymers; EVAL EVOH films; competes with Unitika in food packaging barrier films"
+    }
+  ],
+  "global_specialty_materials_peers_for_context": [
+    {
+      "name": "3M",
+      "ticker": "MMM",
+      "color": "Glass fibers + specialty films; vastly larger; reference for high-margin specialty"
+    },
+    {
+      "name": "Honeywell",
+      "ticker": "HON",
+      "color": "Aerospace-grade fibers + specialty materials; reference for high-margin technology"
+    },
+    {
+      "name": "Solvay",
+      "ticker": "SOLB.BR",
+      "color": "High-performance polymers (PEEK, PPS) — overlap with Unitika's DIC partnership target"
+    }
+  ],
+  "comparison_summary": {
+    "unitika_position": "Sub-scale specialty player. ¥126B revenue is 5% of Toray and 12% of Teijin. Strategy: shrink to ¥70B and chase OP margin >9% in chip-substrate glass fibers + retort barrier film + release film",
+    "margin_benchmarks": {
+      "toray_fy25_op_margin_pct": 5.6,
+      "teijin_fy25_op_margin_pct": -7.84,
+      "unitika_fy25_op_margin_pct": 4.7,
+      "unitika_fy3_26_guidance_op_margin_pct": 8.6,
+      "unitika_fy3_29_target_op_margin_pct": 9.3
+    },
+    "the_question": "Can Unitika achieve a 9.3% OP margin in specialty materials when Toray (with scale advantages, carbon fiber leadership, and diversified electronic materials) runs 5.6%? The answer depends entirely on whether the chip-substrate glass fiber + UniPeel release film + EMBLEM HG retort film franchises grow fast enough to outweigh the residual commodity exposure."
+  }
+}

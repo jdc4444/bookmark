@@ -1,0 +1,24 @@
+{
+  "key": "UMC",
+  "name": "United Microelectronics Corporation",
+  "exchange": "NYSE",
+  "blurb": "United Microelectronics Corporation (NYSE: UMC; TWSE: 2303) is the world's second-largest pure-play semiconductor foundry, headquartered in Hsinchu, Taiwan. Unlike TSMC, UMC does not pursue leading-edge nodes; instead it specialises in mature-process technologies from 28nm down to legacy nodes, plus a growing portfolio of specialty processes including silicon photonics, embedded non-volatile memory, and high-voltage CMOS. This positioning makes UMC a direct beneficiary of industrial, automotive, and IoT demand that does not require cutting-edge transistor density.",
+  "recent": "UMC reported Q4 2025 revenue of NT$61.8 billion (up 4.5% sequentially), with its 22nm node reaching a record 13% of quarterly revenue. Management entered 2026 expecting wafer-pricing increases later in the year, driven by tightening mature-node capacity. The company opened a new 22nm fab in Singapore (Phase 1) targeting 30,000 wafers per month at full ramp, with US$5 billion committed to the site through full build-out. CAPEX guidance for 2026 stands at US$1.5 billion.",
+  "sources": [
+    {
+      "url": "https://www.businesswire.com/news/home/20250423806399/en/UMC-Reports-First-Quarter-2025-Results",
+      "title": "UMC Reports First Quarter 2025 Results — Business Wire"
+    },
+    {
+      "url": "https://www.umc.com/en/News/press_release/Content/corporate/20250401",
+      "title": "UMC Unveils New Fab Expansion in Singapore — UMC"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/United_Microelectronics_Corporation",
+      "title": "United Microelectronics Corporation — Wikipedia"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

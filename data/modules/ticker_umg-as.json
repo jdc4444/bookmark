@@ -1,0 +1,32 @@
+{
+  "key": "UMG.AS",
+  "name": "Universal Music Group N.V.",
+  "exchange": "Euronext Amsterdam",
+  "blurb": "Universal Music Group N.V. is a global music company operating through Recorded Music, Music Publishing, and Merchandising & Other segments. It discovers and develops recording artists, licenses and distributes music, and engages in live events and sponsorship. As one of the world's largest music companies, it holds a dominant market position with a vast catalog of artists and songs.",
+  "recent": "In early April 2026, Pershing Square Capital Management proposed to acquire UMG in a cash-and-stock deal valuing the company at €30.4 per share, a 78% premium over the prior close. The proposal sent UMG stock soaring nearly 11% and would merge UMG with Pershing Square SPARC Holdings for a NYSE listing. The stock has since traded around €19.15, reflecting ongoing market reaction.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/UMG.AS/",
+      "title": "Universal Music Group N.V. (UMG.AS) - Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/UMG.AS/",
+      "title": "(UMG.AS) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/ams/UMG/",
+      "title": "Universal Music Group (AMS:UMG) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.investing.com/equities/universal-music-nv",
+      "title": "Universal Music Group NV Stock Price Today - Investing.com"
+    },
+    {
+      "url": "https://stocktwits.com/news-articles/markets/equity/bill-ackman-pershing-square-umg-stock-acquisition/cZJJFq9RIpJ",
+      "title": "Bill Ackman-Led Pershing Square's Acquisition Proposal Sends UMG Stock Soaring"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:41:34.410674Z",
+  "backend": "deepseek"
+}

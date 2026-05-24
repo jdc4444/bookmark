@@ -1,0 +1,41 @@
+{
+  "ticker": "MSFT",
+  "name": "Microsoft Corporation",
+  "exchange": "NASDAQ",
+  "sector": "Technology",
+  "industry": "Software — Infrastructure",
+  "description": "Microsoft is a global software, cloud, and AI platform company. Its principal segments are Productivity and Business Processes (Office, LinkedIn, Dynamics), Intelligent Cloud (Azure, server products), and More Personal Computing (Windows, Xbox, Surface). The company is in a structural transition from a capital-light software licensor to a capital-intensive hyperscale cloud and AI infrastructure provider.",
+  "key_metrics_snapshot": {
+    "as_of": "2026-05-05",
+    "price_approx": 413.49,
+    "all_time_high": 555.45,
+    "all_time_high_date": "2025-07-31",
+    "ytd_change_pct": -15.7,
+    "drawdown_from_ath_pct": -25.6,
+    "correction_low": 356.07,
+    "correction_low_date": "2026-03-28",
+    "ma_200_week_approx": "360-380",
+    "ma_200_day_approx": 393.87,
+    "forward_pe_approx": 24.4,
+    "revenue_growth_yoy_pct": 18,
+    "azure_growth_yoy_pct": 40,
+    "ai_revenue_annualized_b": 37,
+    "capex_calendar_2026_projected_b": 190,
+    "fcf_change_yoy_pct": -22
+  },
+  "technical_notes": {
+    "200wma_breached_april_2026": true,
+    "first_200wma_breach_in_years": 13,
+    "prior_200wma_touches": [
+      "2009 (financial crisis)",
+      "2018 (growth scare)",
+      "2020 (COVID crash)",
+      "2022 (rate-shock selloff)"
+    ],
+    "recovery_from_march_low_pct": 16.1
+  },
+  "created_at": "2026-05-05T00:00:00Z",
+  "key": "MSFT",
+  "blurb": "Microsoft is a global software, cloud, and AI platform company. Its principal segments are Productivity and Business Processes (Office, LinkedIn, Dynamics), Intelligent Cloud (Azure, server products), and More Personal Computing (Windows, Xbox, Surface). The company is in a structural transition from a capital-light software licensor to a capital-intensive hyperscale cloud and AI infrastructure provider.",
+  "recent": "As of early May 2026, MSFT trades near $413 — down approximately 25.6% from its July 31, 2025 all-time high of $555.45 and -15.7% YTD — after touching a March 28 correction low of $356.07. The drawdown carried the stock briefly below its 200-week moving average for the first time in roughly 13 years (prior touches: 2009, 2018, 2020, 2022). Revenue grew 18% YoY with Azure +40%, while annualized AI revenue reached approximately $37 billion; calendar-2026 capex is projected near $190 billion and free cash flow contracted -22% YoY. Forward P/E is approximately 24.4."
+}

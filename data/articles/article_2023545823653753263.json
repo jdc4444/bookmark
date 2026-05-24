@@ -1,0 +1,74 @@
+{
+  "headline": "The Markdown Index That Promises to End LLM API Hallucinations",
+  "lede": "Massive, a financial market data provider, has adopted a proposed web standard called llms.txt — a plain Markdown index of its API documentation intended for AI coding assistants to consume without HTML scraping. The move targets a specific and well-documented failure mode: language models confidently generating plausible but incorrect API calls. The mechanism is sound in its narrow application; the marketing claim of 'zero hallucinations' is not.",
+  "body": "Massive is financial market data infrastructure — an *API* for developers building trading tools, dashboards, and AI-driven investment applications. It delivers real-time and historical data for stocks, options, forex, cryptocurrency, and futures via REST and WebSocket connections. The stock apps the post invokes are developer products layered on top of this feed; Massive supplies the data pipe.\n\nThe feature rests on a community convention called **llms.txt**, proposed in September 2024 by Jeremy Howard, co-founder of Answer.AI and the fast.ai library. A website publishes a plain Markdown file at `/llms.txt` — a curated, structured index of its key documentation pages. Instead of an AI assistant scraping HTML, parsing navigation menus, and reconstructing content from noisy markup, it fetches this clean index directly at *inference time* — while it is being used, not during training.\n\nThe hallucination problem llms.txt addresses is real and measured. Research from Amazon's (AMZN) science division found that API-related errors — wrong parameter names, deprecated methods, similar-but-incorrect endpoint calls — account for up to **15% of all hallucinations** in state-of-the-art code LLMs. The failure mode is familiar to developers who have used AI assistants for integrations: the model confidently generates a call that almost works, or used to work on a now-deprecated version. Massive's implementation goes further than a static file: their *Model Context Protocol* server reads the llms.txt dynamically at startup and indexes all current endpoints, so an AI agent building against the API always sees the live surface rather than a snapshot frozen in training weights.\n\nThe honest caveat is that llms.txt's broader ambitions remain contested. An empirical 90-day study of AI crawler traffic found only 0.1% of bot requests — 84 out of 62,100 — actually accessed llms.txt files. No major AI platform has publicly committed to using them, and Google's John Mueller noted that “no AI system currently uses llms.txt.” Those criticisms bear on the file's aspirations as an SEO or discoverability tool. They matter far less for Massive's narrower use case: a developer explicitly dropping the URL into a coding assistant prompt, or an MCP server fetching it at runtime. In that deliberate, direct pipeline, the mechanism functions today.",
+  "tickers": [
+    "AMZN"
+  ],
+  "companies": [
+    {
+      "name": "Massive, Inc.",
+      "ticker": null
+    },
+    {
+      "name": "Answer.AI",
+      "ticker": null
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    }
+  ],
+  "poster": "massive_com",
+  "concepts": [
+    {
+      "key": "llms-txt",
+      "term": "llms.txt",
+      "definition": "A plain Markdown file published at /llms.txt on a website, providing a curated, structured index of documentation for AI coding assistants to consume directly. Proposed in September 2024 by Jeremy Howard as a lightweight alternative to HTML scraping; it is a community convention, not a formal IETF or W3C standard."
+    },
+    {
+      "key": "inference-time",
+      "term": "inference time",
+      "definition": "The moment an AI model is actively generating a response, as distinct from training time when its weights were learned. Fetching documentation at inference time means the AI uses the current API spec rather than potentially stale knowledge baked into its training data."
+    },
+    {
+      "key": "model-context-protocol",
+      "term": "Model Context Protocol (MCP)",
+      "definition": "An open standard introduced by Anthropic in November 2024 for connecting AI assistants to external tools, APIs, and data sources at runtime. An MCP server acts as a bridge, giving an AI live access to structured information without requiring it to scrape content or rely on training-time knowledge."
+    },
+    {
+      "key": "api-hallucination",
+      "term": "API hallucination",
+      "definition": "A specific class of LLM error where the model generates a plausible-sounding but incorrect API call — wrong parameter names, nonexistent endpoints, or deprecated methods. Research suggests these account for roughly 15% of all hallucinations in code-focused language models."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim of 'zero LLM hallucinations' is marketing hyperbole. llms.txt addresses one specific error category — stale or incorrect API references generated from training data — but cannot eliminate hallucinations broadly. Reasoning errors, logical mistakes, and fabrications outside the documentation scope remain unaddressed. The accurate claim is narrower: providing up-to-date API documentation in context measurably reduces a specific category of API-related errors.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://llmstxt.org",
+      "title": "llms.txt — The Proposed Standard",
+      "note": "Official spec site authored by Jeremy Howard of Answer.AI; establishes format and intent"
+    },
+    {
+      "url": "https://massive.com",
+      "title": "Massive — Stock Market API",
+      "note": "Massive's homepage confirming they are a financial data API provider serving developers"
+    },
+    {
+      "url": "https://directory.llmstxt.cloud",
+      "title": "llms.txt Directory",
+      "note": "Community directory tracking 849+ adopters; confirms Massive.com is listed under finance"
+    },
+    {
+      "url": "https://www.amazon.science",
+      "title": "On Mitigating Code LLM Hallucinations with API Documentation (Jain et al.)",
+      "note": "Amazon Science research finding API hallucinations account for ~15% of code LLM errors; exact paper URL not independently verified"
+    }
+  ],
+  "bookmark_id": "2023545823653753263",
+  "generated_at": "2026-05-07T12:27:52.172397Z",
+  "backend": "claude-sonnet-subagent"
+}

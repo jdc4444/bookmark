@@ -1,0 +1,15 @@
+{
+  "key": "CIFR",
+  "name": "Cipher Digital Inc. (formerly Cipher Mining Inc.)",
+  "exchange": "NASDAQ",
+  "blurb": "Cipher Digital (originally Cipher Mining) began as an industrial-scale bitcoin miner and pivoted aggressively toward AI and high-performance computing infrastructure. The company rebranded in February 2026 to reflect its strategic transformation away from cryptocurrency toward hyperscaler data-centre hosting, leveraging its power-dense facilities and existing infrastructure relationships.",
+  "recent": "Cipher secured a 15-year, 300-megawatt lease with Amazon Web Services estimated at approximately $5.5 billion in contract value, and a 10-year, 300-megawatt lease with Fluidstack and Google. The company now holds 600 megawatts of contracted HPC capacity. Q1 2026 bitcoin mining revenue was $34.8 million while the company absorbed a wider net loss of $114.3 million as it funds the HPC build-out. Stock rose roughly 300% over the trailing twelve months through mid-2025 before the HPC pivot announcement triggered a near-term sell-off on dilution concerns.",
+  "sources": [
+    {"title": "Cipher Digital rebrands and pivots from bitcoin mining to HPC (CoinDesk)", "url": "https://www.coindesk.com/markets/2026/02/24/cipher-digital-rebrands-as-it-pivots-from-bitcoin-mining-to-hpc-shares-slide"},
+    {"title": "CIFR stock AI hyperscale deal news (StockTwits)", "url": "https://stocktwits.com/news-articles/markets/equity/cifr-stock-ai-hyperscale-deal-bitcoin-miner-pivot/cZ3YrBFRISV"},
+    {"title": "Bitcoin miners going all-in on AI, selling BTC (CoinDesk)", "url": "https://www.coindesk.com/markets/2026/03/03/end-of-bitcoin-hodl-public-miners-going-all-in-on-ai-signaling-more-btc-selling"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

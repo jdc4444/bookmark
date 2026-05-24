@@ -1,0 +1,218 @@
+{
+  "headline": "Four Phases, Fifteen Years: A Road Map for the AI Investment Supercycle",
+  "lede": "An anonymous X account named @cryptorand has published a widely shared infographic claiming the artificial-intelligence investment cycle will run fifteen years, divide into four identifiable phases, and already have its first behind it. The four-phase sequence — semiconductor makers, then data-centre infrastructure, then physical-world AI, then software dominance — maps closely enough onto institutional research to deserve analytical attention, even if its source carries no verifiable credentials. Reacting, a retail investor named @napoleon21st endorses the framework while promoting four small-cap names not on the original chart.",
+  "body": "The *AI supercycle* — a sustained, multi-decade capital wave driven by artificial-intelligence adoption — has accumulated credentialed backing. Raj Ganguly, co-CEO of venture firm B Capital Group, told CNBC in September 2025 that “it’s probably a 20-year super cycle,” bracketing the @cryptorand estimate of fifteen years within an institutional range. Goldman Sachs (GS) projects roughly $7.6 trillion in aggregate AI capital expenditure between 2026 and 2031, and IDC, the research firm, forecasts the semiconductor market alone will surpass $1.29 trillion in 2026 — a 52.8% single-year surge — using the supercycle label explicitly. Where the @cryptorand chart departs from institutional research is not in its duration claim but in its authority: the account is anonymous, carries no regulatory registration, and its framework synthesises circulating research themes rather than originating them.\n\nThe infographic’s more durable argument is its **phase-rotation thesis** — the claim that AI capital migrates in predictable sequence. Phase 1 (2023–2024) belonged to the semiconductor picks-and-shovels trade: Nvidia (NVDA) and Broadcom (AVGO) led it, and the chart correctly concedes that “most upside already [has been] captured.” Phase 2, framed as the present year, centres on the physical infrastructure of data centres — power generation, cooling, and high-speed networking. Phase 3 extends the AI stack into the physical world: rare earths, robotics, drones, and space. Phase 4 (2030 and beyond) arrives at software dominance and *AGI* infrastructure. Goldman Sachs has framed the current moment in nearly identical terms, and Global X ETFs publishes a three-stage thematic map that matches the first three phases almost exactly. Among the Phase 2 names on the @cryptorand chart, Vertiv (VRT) — maker of thermal and power-management systems for data centres — is the most institutionally validated: Q1 2026 revenue rose 30% year-over-year to $2.65 billion, with orders up 252%. Arista Networks (ANET), the dominant Ethernet-switching vendor for AI clusters, has raised its 2026 AI networking revenue target to $3.25 billion. GE Vernova (GEV) booked $2.4 billion in data-centre electrification orders in Q1 2026 alone.\n\nWhat @napoleon21st adds is not drawn from the chart at all. The four tickers he promotes — Sivers Semiconductors (SIVE.ST), Silicom (SILC), LPKF Laser & Electronics (LPK.DE), and One Stop Systems (OSS) — appear nowhere in the infographic and represent his own Phase 2-to-3 small-cap overlay. Each has a specific technological rationale. Sivers manufactures the indium phosphide laser arrays at the core of *co-packaged optics* (CPO) — a technique for integrating optical transceivers directly onto AI chip packages, circumventing the copper-interconnect bottleneck that limits large-scale GPU cluster performance. Silicom makes FPGA-based *smart NICs* that handle packet processing and traffic steering independently of the host CPU at the data-centre network edge; Q1 2026 revenue rose 33% year-over-year and the company is co-developing an inference-specific NIC with a large AI compute customer for hyperscaler trials in the second half of 2026. LPKF’s proprietary LIDE process (*Laser-Induced Deep Etching*) drills the microscopic through-glass vias used in *glass core substrates* — advanced packaging components that route signals between chiplets and are Taiwan Semiconductor Manufacturing’s (TSM) declared scaling path beyond conventional silicon interposers. One Stop Systems builds ruggedised edge-computing servers for defence, aerospace, and autonomous systems; Q4 2025 revenue grew more than 70% year-over-year on defence programme wins including the P-8 Poseidon maritime patrol aircraft.\n\nThe phase-rotation thesis carries real execution and timing risk. Man Group (MAN.L), the listed alternative-asset manager, argues that the AI build-out suffers from a “closed-loop financing problem” — the largest technology companies acting simultaneously as suppliers, customers, investors, and validators, creating circular capital flows that may be partly divorced from verifiable end-market demand. Broadcom (AVGO) itself has publicly warned of an “AI digestion” period in which hyperscalers pause new hardware orders to integrate equipment already purchased, complicating the timing of any phase rotation. For napoleon21st’s small-cap picks the risks are more specific: Sivers (SIVE.ST) posted a SEK 186 million after-tax loss in 2025 and ran more than 1,200% year-to-date through early May 2026 on technology not yet in volume production; LPKF Laser & Electronics (LPK.DE) glass-substrate customers remain in test-and-R&D rollout; neither company’s shares trade on a US exchange. None of the four tickers carries multi-firm institutional analyst coverage of the kind attached to VRT, ANET, or GEV.\n\nThe bookmark is ultimately two things at once: an endorsement of a coherent, institutionally-aligned investment narrative with genuine analytical grounding, and a retail investor using that credible frame to promote four illiquid small-caps in which he appears to hold concentrated positions — none of which appeared in the framework he is citing. The pattern is familiar in financial social media: a persuasive macro scaffold lends authority to micro bets the author has already made. Whether SIVE, SILC, LPK, and OSS vindicate the thesis depends on engineering timelines, customer ramps, and market-access improvements that remain years from resolution.",
+  "tickers": [
+    "GS",
+    "NVDA",
+    "AVGO",
+    "VRT",
+    "ANET",
+    "GEV",
+    "SIVE.ST",
+    "SILC",
+    "LPK.DE",
+    "OSS",
+    "TSM",
+    "MAN.L"
+  ],
+  "companies": [
+    {
+      "name": "Goldman Sachs Group",
+      "ticker": "GS"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO"
+    },
+    {
+      "name": "Vertiv",
+      "ticker": "VRT"
+    },
+    {
+      "name": "Arista Networks",
+      "ticker": "ANET"
+    },
+    {
+      "name": "GE Vernova",
+      "ticker": "GEV"
+    },
+    {
+      "name": "Sivers Semiconductors AB",
+      "ticker": "SIVE.ST"
+    },
+    {
+      "name": "Silicom Ltd.",
+      "ticker": "SILC"
+    },
+    {
+      "name": "LPKF Laser & Electronics SE",
+      "ticker": "LPK.DE"
+    },
+    {
+      "name": "One Stop Systems, Inc.",
+      "ticker": "OSS"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM"
+    },
+    {
+      "name": "Man Group",
+      "ticker": "MAN.L"
+    },
+    {
+      "name": "B Capital Group",
+      "ticker": null
+    },
+    {
+      "name": "IDC",
+      "ticker": null
+    },
+    {
+      "name": "Global X ETFs",
+      "ticker": null
+    }
+  ],
+  "poster": "napoleon21st",
+  "concepts": [
+    {
+      "key": "ai-supercycle",
+      "term": "AI supercycle",
+      "definition": "A prolonged, self-reinforcing wave of capital deployment driven by artificial-intelligence adoption, analogous in scope and duration to prior technology platform shifts such as electrification or the internet build-out. Analysts at B Capital, Sequoia Capital, and IDC use the term to describe a 15-to-20-year period of rising AI capital expenditure cascading across hardware, infrastructure, and software layers."
+    },
+    {
+      "key": "phase-rotation",
+      "term": "phase rotation",
+      "definition": "An investment thesis holding that capital migrates in sequence across distinct segments of a technology build-out — in the AI case, from semiconductor makers to data-centre infrastructure to physical-world AI applications and finally to software. Investors who correctly anticipate each rotation aim to own the next phase before it is widely recognised and priced in, accepting that early-phase winners may underperform once capital moves on."
+    },
+    {
+      "key": "co-packaged-optics",
+      "term": "co-packaged optics (CPO)",
+      "definition": "A chip-packaging technique that integrates optical transceivers directly onto the same substrate as a processor or network switch, replacing copper wire for the shortest data links inside a server rack. CPO eliminates a key bandwidth and power bottleneck in large-scale AI GPU clusters and requires purpose-built laser light sources — such as the indium phosphide arrays that Sivers Semiconductors manufactures — positioned within millimetres of the chip die."
+    },
+    {
+      "key": "smart-nic",
+      "term": "smart NIC",
+      "definition": "A network interface card equipped with an FPGA (field-programmable gate array) or a dedicated processor that handles packet processing, encryption, and traffic steering independently of the host CPU. Smart NICs accelerate data handling at the network edge of AI data centres and are increasingly used to offload the overhead of distributed inference workloads."
+    },
+    {
+      "key": "glass-core-substrate",
+      "term": "glass core substrate",
+      "definition": "An advanced semiconductor packaging component made from ultra-thin glass, drilled with microscopic through-glass vias (TGVs) that carry electrical signals between chiplets assembled in a single package. Glass substrates offer lower signal loss and finer routing density than the organic laminates used in conventional chip packages, and are a declared scaling path at TSMC and Intel for the post-silicon-interposer era."
+    },
+    {
+      "key": "lide",
+      "term": "LIDE (Laser-Induced Deep Etching)",
+      "definition": "A proprietary laser-processing technique developed by LPKF Laser & Electronics for drilling high-aspect-ratio holes and precise structures in thin glass. LIDE is the manufacturing step that converts flat glass sheets into functional semiconductor substrates and interposers by creating the through-glass vias needed for electrical connectivity, and LPKF holds the key patents on the process."
+    },
+    {
+      "key": "agi",
+      "term": "AGI (Artificial General Intelligence)",
+      "definition": "A hypothetical class of AI systems capable of performing any intellectual task a human can accomplish, without domain-specific training. In investment discourse, AGI infrastructure is shorthand for the compute and energy capacity presumed necessary to train and operate such systems — used in the @cryptorand Phase 4 thesis to describe a long-dated bet on sustained demand for large-scale AI compute beyond narrow-purpose models."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The quoted tweet body says “We’re in year 3,” but the infographic image explicitly labels the current moment “Year 4 of 15” and places Phase 2 in ‘Year 4.’ The discrepancy likely reflects the original tweet being written in late 2024 and the image being updated for 2025, but both elements appear in the same post, which is internally inconsistent. The 15-year supercycle duration is plausible but imprecise: credentialed institutional sources cite a 15-to-20-year range with no mathematical derivation for any specific figure.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2025/09/26/were-in-an-ai-super-cycle-top-investor-says-and-it-could-last-20-years.html",
+      "title": "We’re in an AI ‘super cycle,’ top investor says — and it could last 20 years",
+      "note": "Primary source for Raj Ganguly / B Capital’s 15-to-20-year supercycle framing"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/ai-infrastructure-stocks-poised-to-be-next-phase",
+      "title": "AI Infrastructure Stocks Poised to Be Next Phase",
+      "note": "Goldman Sachs Phase 2 infrastructure rotation thesis"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out",
+      "title": "Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out",
+      "note": "Goldman Sachs $7.6 trillion AI CapEx 2026–2031 projection"
+    },
+    {
+      "url": "https://www.idc.com/resource-center/blog/semiconductor-market-to-surge-past-the-trillion-dollar-threshold-ai-infrastructure-drives-market-growth/",
+      "title": "Semiconductor Market to Surge Past the Trillion-Dollar Threshold",
+      "note": "IDC $1.29 trillion semiconductor forecast for 2026 and supercycle framing"
+    },
+    {
+      "url": "https://sequoiacap.com/article/ai-in-2025/",
+      "title": "AI in 2025",
+      "note": "Sequoia Capital using ‘supercycle’ language for the long-term AI investment thesis"
+    },
+    {
+      "url": "https://www.globalxetfs.com/articles/a-thematic-playbook-to-invest-in-the-ai-ecosystem",
+      "title": "A Thematic Playbook to Invest in the AI Ecosystem",
+      "note": "Global X ETFs three-phase framework, closest institutional analog to the @cryptorand structure"
+    },
+    {
+      "url": "https://www.man.com/insights/the-ai-bubble",
+      "title": "The AI Bubble",
+      "note": "Man Group structural critique: closed-loop financing and collateral depreciation mismatch"
+    },
+    {
+      "url": "https://freenance.io/funds/ai-infrastructure-stocks-2026-data-centers-power-cooling-pick-shovel-play/",
+      "title": "AI Infrastructure Stocks 2026: Data Centers, Power, Cooling",
+      "note": "Vertiv Phase 2 consensus data; order growth and Q1 2026 revenue figures"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/04/how-ai-data-centers-are-reshaping-the-power-market-and-the-4-plays-investors-are-making/",
+      "title": "How AI Data Centers Are Reshaping the Power Market",
+      "note": "GE Vernova $2.4B Q1 2026 data-centre electrification orders"
+    },
+    {
+      "url": "https://www.sivers-semiconductors.com/press/sivers-semiconductors-o-net-and-enablence-technologies-announce-external-light-sources-for-ai-datacenters/",
+      "title": "Sivers Semiconductors, O-Net and Enablence Announce External Light Sources for AI Datacenters",
+      "note": "Sivers CPO partnership and laser-array product context"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4901938-sivers-semiconductors-a-small-cap-bet-on-ais-next-bottleneck",
+      "title": "Sivers Semiconductors: A Small Cap Bet on AI’s Next Bottleneck",
+      "note": "Seeking Alpha deep-dive on Sivers CPO positioning and loss profile"
+    },
+    {
+      "url": "https://www.prnewswire.com/il/news-releases/silicom-reports-q1-2026-results-302758689.html",
+      "title": "Silicom Reports Q1 2026 Results",
+      "note": "Silicom Q1 2026 revenue, design wins, and AI inference NIC co-development details"
+    },
+    {
+      "url": "https://lide.lpkf.com/en/applications/glass-interposers",
+      "title": "LPKF LIDE — Glass Interposers",
+      "note": "LPKF LIDE technology explanation and glass interposer applications"
+    },
+    {
+      "url": "https://www.lpkf.com/en/news-press/press-releases-teaser/onto-innovation-and-lpkf-are-set-to-accelerate-mass-production-of-glass-core-substrates-for-semiconductors",
+      "title": "Onto Innovation and LPKF Set to Accelerate Mass Production of Glass Core Substrates",
+      "note": "LPKF partnership for glass substrate mass production, customer readiness context"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/03/18/3258095/0/en/One-Stop-Systems-Reports-Q4-2025-Results.html",
+      "title": "One Stop Systems Reports Q4 2025 Results",
+      "note": "OSS 70%+ Q4 2025 revenue growth, P-8 Poseidon programme win, gross margin data"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/04/07/the-ai-supercycle-just-entered-phase-2-most-invest/",
+      "title": "The AI Supercycle Just Entered Phase 2. Most Investors Aren’t Ready.",
+      "note": "Motley Fool on Phase 2 timing and risk of partial pricing-in for large-cap names"
+    },
+    {
+      "url": "https://radical.vc/beyond-chips-rare-earth-magnets-and-the-future-of-ai-infrastructure/",
+      "title": "Beyond Chips: Rare Earth Magnets and the Future of AI Infrastructure",
+      "note": "Radical Ventures on Phase 3 physical AI and rare earth demand logic"
+    },
+    {
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2025-12-19-the-great-rotation-is-the-ai-supercycle-entering-a-dangerous-digestion-phase",
+      "title": "The Great Rotation: Is the AI Supercycle Entering a Dangerous Digestion Phase?",
+      "note": "Broadcom AI digestion warning and MIT 95% no-ROI study context"
+    }
+  ],
+  "bookmark_id": "2052922231370694843",
+  "generated_at": "2026-05-11T13:07:07.039575Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "NVTS",
+  "name": "Navitas Semiconductor Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Navitas Semiconductor Corporation designs, develops, and markets next-generation power semiconductors, specializing in gallium nitride (GaN) power integrated circuits and silicon carbide (SiC) power devices alongside silicon system controllers and digital isolators. Founded in 2014 and headquartered in Torrance, California, the company targets high-growth end markets including automotive, data centers, mobile, and consumer electronics. With roughly 190 employees, Navitas is a pure-play GaN/SiC challenger competing against legacy silicon power device incumbents such as Infineon, ON Semiconductor, and STMicroelectronics. The company remains pre-profitability, posting a net loss of ~$134M on trailing-twelve-month revenue of ~$40.5M.",
+  "recent": "NVTS shares surged roughly 10% on May 13, 2026 — the day before this entry was written — closing at $21.17, near its 52-week high of $23.82 and well above its 52-week low of $1.88, implying a dramatic multi-month recovery. The company reported earnings on May 5, 2026; trailing revenue is down approximately 45% year-over-year, reflecting ongoing demand weakness in consumer and mobile end markets. Despite the price run-up, the consensus analyst price target of ~$12.88 sits roughly 39% below the current market price, suggesting Wall Street remains cautious relative to the market's recent enthusiasm.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/nvts/",
+      "title": "Navitas Semiconductor (NVTS) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NVTS/news/",
+      "title": "NVTS News Today | Why did Navitas Semiconductor stock go up today? — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/NVTS/",
+      "title": "Navitas Semiconductor Corporation (NVTS) Stock Price, News, Quote — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:30:23.714137Z",
+  "backend": "claude-sonnet-subagent"
+}

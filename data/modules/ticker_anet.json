@@ -1,0 +1,24 @@
+{
+  "key": "ANET",
+  "name": "Arista Networks, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Arista Networks is a leading provider of cloud networking solutions, including high-performance switches, routers, and software for data centers and campus environments. The company is known for its Extensible Operating System (EOS) and has a strong market position in the cloud networking space, competing with Cisco and others. Arista serves large-scale data center customers, including cloud titans and Fortune 500 enterprises.",
+  "recent": "In the past 30 days, Arista Networks stock experienced a sell-off, but analysts remain bullish, with a consensus price target suggesting a potential 36% gain. The company continues to benefit from strong demand for AI and cloud networking infrastructure, with recent earnings beating expectations.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ANET/",
+      "title": "Arista Networks, Inc. (ANET) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/ANET/",
+      "title": "Arista Networks (ANET) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.barchart.com/story/news/1778978/ignore-the-sell-off-in-arista-networks-stock-analysts-still-think-anet-can-gain-36-from-here",
+      "title": "Ignore the Sell-Off in Arista Networks Stock. Analysts Still Think ANET Can Gain 36% from Here"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T13:07:18.027582Z",
+  "backend": "deepseek"
+}

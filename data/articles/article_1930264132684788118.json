@@ -1,0 +1,48 @@
+{
+  "headline": "Anthropic Academy Opens Its Curriculum to Anyone for Free",
+  "lede": "Anthropic has consolidated its developer and practitioner education into a single hub called Anthropic Academy, offering free courses spanning prompt engineering, agent architecture, and enterprise deployment. The materials range from conceptual frameworks for non-technical users to hands-on API guides for developers. Completion earns a certificate.",
+  "body": "The academy, accessible at anthropic.com/learn, organises its catalogue into four main tracks. *Build with Claude* targets developers: it covers API fundamentals, real-world prompting, and prompt evaluation — the practice of systematically testing whether a prompt reliably produces correct outputs. A dedicated module on **Claude Code** addresses best practices for *agentic coding*, meaning workflows in which an AI model writes, runs, and iterates on code semi-autonomously rather than serving as a one-shot autocomplete.\n\nA second track, *Claude for Work*, is aimed at managers and teams integrating the model into existing workflows. It sits alongside a personal-use track and a broader *AI Fluency Framework* — a structured vocabulary for what it means to collaborate with AI systems effectively, efficiently, ethically, and safely. The framework is also distributed as a quarterly newsletter.\n\nThe most technically substantive entry in the list is *Building Effective Agents*, drawn from Anthropic's engineering blog. It addresses how to design *multi-step agent pipelines* — systems in which an LLM takes a sequence of actions, queries external tools, and makes decisions across multiple turns rather than responding once and stopping. The distinction matters: single-turn completions are relatively predictable; agents that call APIs, write files, or spin up subprocesses introduce new failure modes.\n\nThe curriculum arrives alongside growing competition from Google and OpenAI, both of which have released free practitioner guides in the same period. Offering free education is a standard developer-acquisition strategy: a developer who learns prompting through Anthropic's materials is more likely to reach for Anthropic's API when building. The certificate adds a mild credential signal that may help the content spread through professional networks.",
+  "tickers": [],
+  "poster": "CodeByPoonam",
+  "concepts": [
+    {
+      "key": "agentic-coding",
+      "term": "agentic coding",
+      "definition": "A workflow in which an AI model does more than autocomplete: it writes code, executes it, reads the output, and iterates across multiple steps. The model acts as a semi-autonomous agent rather than a passive tool, which introduces new risks around unintended side-effects and runaway loops."
+    },
+    {
+      "key": "prompt-evaluation",
+      "term": "prompt evaluation",
+      "definition": "The practice of systematically testing a prompt against a set of inputs to measure whether the model's outputs meet a defined standard. Analogous to unit testing in software: rather than trusting that a prompt works, you verify it across many cases and track regressions when the prompt or model changes."
+    },
+    {
+      "key": "multi-step-agent-pipeline",
+      "term": "multi-step agent pipeline",
+      "definition": "An AI architecture in which a language model is given tools — web search, code execution, file access, API calls — and instructed to use them in sequence to complete a longer task. Unlike a single question-and-answer exchange, the model plans, acts, observes results, and decides what to do next, sometimes delegating to other models."
+    },
+    {
+      "key": "model-context-protocol",
+      "term": "Model Context Protocol (MCP)",
+      "definition": "An open protocol developed by Anthropic that standardises how AI models connect to external tools and data sources. Rather than each application writing custom integration code, MCP provides a shared interface — roughly analogous to USB for AI tool connections."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.anthropic.com/learn",
+      "title": "AI Learning Resources & Guides from Anthropic — Anthropic Academy",
+      "note": "Official source confirming course catalogue, certificate offering, and featured tracks"
+    },
+    {
+      "url": "https://geeksaroundglobe.com/google-open-ai-and-anthropic-just-released-free-ai-guides-heres-where-to-get-them/",
+      "title": "Google, OpenAI, and Anthropic Just Released Free AI Guides",
+      "note": "Third-party context on competitive landscape of free AI education releases"
+    }
+  ],
+  "bookmark_id": "1930264132684788118",
+  "generated_at": "2026-05-06T20:47:18.504317Z",
+  "backend": "claude"
+}

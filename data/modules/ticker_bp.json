@@ -1,0 +1,14 @@
+{
+  "key": "BP",
+  "name": "BP p.l.c.",
+  "exchange": "NYSE (ADR)",
+  "blurb": "BP is one of the world's largest integrated energy companies, headquartered in London, with operations spanning upstream oil and gas, midstream pipelines, refining, petrochemicals, and a growing low-carbon energy business. It reports earnings on a replacement-cost (RC) basis — stripping inventory holding gains — which gives a cleaner read of operational performance than GAAP. BP trades on the NYSE as an American Depositary Share (ADS).",
+  "recent": "BP's Q1 2026 underlying replacement-cost profit surged to $3.2 billion ($3.8 billion on a total RC basis), more than doubling year-over-year and beating analyst expectations of $2.63 billion by 22%. The customers-and-products (refining and trading) segment delivered an extraordinary swing of $2.5 billion versus the prior year, driven by refining margin expansion and exceptional oil-trading results in a highly volatile crude market. BP ADS EPS of $1.24 beat the Zacks consensus of $0.91 by 36%. The Hormuz disruption boosted both upstream realizations and physical oil trading profits simultaneously — a rare confluence that analysts expect to moderate in Q2 as the market normalizes.",
+  "sources": [
+    {"url": "https://www.cnbc.com/2026/04/28/bp-q1-earnings-oil-energy.html", "title": "BP profits more than double, beating expectations as Iran war boosts oil prices — CNBC"},
+    {"url": "https://finance.yahoo.com/sectors/energy/articles/bp-q1-earnings-beat-estimates-174200975.html", "title": "BP Q1 Earnings Beat Estimates on Strong Oil Trading Contribution — Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

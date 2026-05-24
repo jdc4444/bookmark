@@ -1,0 +1,24 @@
+{
+  "key": "LNG",
+  "name": "Cheniere Energy, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Cheniere Energy, Inc. is an energy infrastructure company focused on liquefied natural gas (LNG) related businesses in the United States. It owns and operates the Sabine Pass LNG terminal in Louisiana and the Corpus Christi LNG terminal in Texas, along with associated pipelines. The company is a leading U.S. LNG exporter and plays a key role in global natural gas markets.",
+  "recent": "As of May 6, 2026, Cheniere Energy's stock (LNG) closed at $261.42, down 3.01% on the day, with a market cap of $54.93B. The company reported strong financials with revenue of $19.49B and net income of $5.32B over the trailing twelve months. Analysts rate the stock a Strong Buy with a price target of $294.87, and the next earnings report is scheduled for May 7, 2026.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/LNG/",
+      "title": "Cheniere Energy, Inc. (LNG) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/lng/",
+      "title": "Cheniere Energy (LNG) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/LNG/",
+      "title": "Cheniere Energy (LNG) Stock Price, News & Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:14:40.193793Z",
+  "backend": "deepseek"
+}

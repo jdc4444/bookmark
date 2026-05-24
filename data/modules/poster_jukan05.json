@@ -1,0 +1,22 @@
+{
+  "key": "jukan05",
+  "display_name": "Jukan",
+  "blurb": "Jukan is an X (formerly Twitter) account focused on semiconductor industry analysis, primarily translating and synthesising Korean, Japanese, and Taiwanese trade press and research into English. The account covers TSMC foundry dynamics, memory markets (DRAM, NAND, HBM), AI chip supply chains, and geopolitical semiconductor policy with evident primary-source access and a buy-side-adjacent analytical frame. Posts frequently cite TrendForce, Nikkei, and Korean financial press. The account appears to operate from a Northeast Asian vantage point and is notable for surfacing non-anglophone semiconductor intelligence before it reaches Western financial media.",
+  "credibility_note": "Track record of early coverage on HBF, YMTC market share, and UMC/Vanguard price dynamics. No institutional affiliation publicly declared. Content is analytical rather than promotional.",
+  "links": [
+    "https://x.com/jukan05"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/jukan05/status/2050537304528478247",
+      "title": "Jukan on X — MediaTek sell-side underestimation post (May 2026)"
+    },
+    {
+      "url": "https://x.com/jukan05/status/2013091516840116729",
+      "title": "Jukan on X — Deutsche Bank TSMC capacity analysis"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T20:30:00Z",
+  "backend": "claude-sonnet-subagent"
+}

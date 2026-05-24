@@ -1,0 +1,20 @@
+{
+  "key": "TEM",
+  "name": "Tempus AI, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Tempus AI applies machine learning to clinical and genomic data to advance precision medicine — the practice of tailoring medical treatment to individual patients based on their genetic and molecular profiles. The company operates in oncology, cardiology, radiology, and neuropsychiatry, offering genomic sequencing diagnostics, AI-powered clinical decision tools, and a proprietary data platform that it licenses to pharmaceutical companies for drug discovery. Founded in 2015 by Eric Lefkofsky (co-founder of Groupon), Tempus went public in June 2024.",
+  "recent": "Tempus reported FY2025 revenue of $1.27 billion, an 83% increase year-on-year, driven by its data and genomics segments. The company narrowed losses to -$245 million. Management guided for 25% revenue growth in 2026 and positive adjusted EBITDA of $65 million. Paul Pelosi exercised call options with a $20 strike (purchased January 2025, exercised January 2026), with TEM shares returning approximately 121% over that period — the strongest performer in the disclosure batch.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/tem/",
+      "title": "Tempus AI (TEM) Stock Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/02/01/nancy-pelosi-stocks-ai-stocks-nvda-stock/",
+      "title": "Nancy Pelosi's 2026 Stock Moves — Motley Fool"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

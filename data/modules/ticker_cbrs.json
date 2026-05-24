@@ -1,0 +1,24 @@
+{
+  "key": "CBRS",
+  "name": "Cerebras Systems Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Cerebras Systems is an AI infrastructure company that designs and manufactures wafer-scale processors purpose-built for AI training and inference, most notably its Wafer Scale Engine. The company builds complete AI supercomputer systems—hardware, cooling, networking, and software—and also offers inference-as-a-service at speeds it claims are unattainable on conventional GPU-based alternatives. With 708 employees and trailing-twelve-month revenue of approximately $510 million (up ~548% year-over-year), Cerebras targets hyperscalers, AI labs, and enterprises running large-scale model training and inference workloads using familiar ML frameworks such as PyTorch.",
+  "recent": "Cerebras completed the largest IPO of 2026 on May 14, 2026, pricing 30 million shares at $185 each and raising $5.55 billion. Shares nearly doubled on debut, closing at $311.07 (+68.15%) and continuing higher in pre-market trading on May 15 to approximately $330, giving the company a market capitalization of roughly $67 billion. The bull case centers on a high-profile inference partnership with OpenAI, though analysts have flagged customer concentration risk as a key concern.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/markets/article/cerebras-stock-surges-nearly-70-in-biggest-ipo-of-2026-130757196.html",
+      "title": "Cerebras stock surges nearly 70% in biggest IPO of 2026"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/cbrs/",
+      "title": "Cerebras Systems (CBRS) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://thetechmarketer.com/cerebras-ipo-cbrs-stock-2026-wafer-scale-engine/",
+      "title": "Cerebras IPO CBRS Stock 2026: 5 Shocking Facts About the Debut"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-15T08:22:29.945402Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,28 @@
+{
+  "key": "ALGM",
+  "name": "Allegro MicroSystems, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Allegro MicroSystems designs, develops, manufactures, and markets sensor integrated circuits (ICs) and application-specific power ICs for motion control and energy-efficient systems. Its products include magnetic sensor ICs (position, speed, current) and power ICs (motor drivers, regulators, LED drivers, isolated gate drivers). The company primarily serves the automotive market, with additional exposure to industrial and consumer sectors. As of May 2026, it has a market capitalization of about $9.5 billion and employs roughly 4,060 people.",
+  "recent": "In the past 30 days, ALGM stock surged over 200% from its 52-week low of $18.17 to a high of $51.40, driven by strong earnings and positive market sentiment. The company reported revenue of $839.73 million (TTM) and is scheduled to report next earnings on May 7, 2026. Analysts have a Strong Buy consensus with a price target of $44.27.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ALGM/",
+      "title": "Allegro MicroSystems, Inc. (ALGM) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/ALGM",
+      "title": "ALGM Stock Price | Allegro MicroSystems Inc. Stock Quote"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/algm/",
+      "title": "Allegro MicroSystems (ALGM) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xnas/algm/quote",
+      "title": "ALGM Stock Price Quote | Morningstar"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:45:51.929734Z",
+  "backend": "deepseek"
+}

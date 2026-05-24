@@ -1,0 +1,24 @@
+{
+  "key": "PEP",
+  "name": "PepsiCo, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "PepsiCo, Inc. is a global food and beverage company that manufactures, markets, and sells a wide range of snacks, beverages, and food products. Its portfolio includes iconic brands such as Pepsi, Mountain Dew, Lay's, Doritos, Gatorade, and Quaker Oats. With a strong presence in over 200 countries, PepsiCo is one of the largest food and beverage companies in the world, competing directly with The Coca-Cola Company and Nestlé.",
+  "recent": "In the past 30 days, PepsiCo's stock has shown modest gains amid broader market stability. The company continues to benefit from its diversified product portfolio and pricing power, though input cost inflation remains a headwind. No major earnings or catalysts were reported in this period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/PEP/",
+      "title": "PepsiCo, Inc. (PEP) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PEP/news/",
+      "title": "PEP News Today | Why did PepsiCo stock go up today? - MarketBeat"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/PEP:NASDAQ",
+      "title": "PepsiCo Inc (PEP) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:39:07.984050Z",
+  "backend": "deepseek"
+}

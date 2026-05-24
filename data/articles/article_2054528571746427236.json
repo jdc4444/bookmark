@@ -1,0 +1,154 @@
+{
+  "headline": "Locking In SanDisk's Windfall: The Case for a Zero-Cost Collar",
+  "lede": "SanDisk Corporation (SNDK) has risen more than 3,000% since its February 2025 spinoff, handing its largest institutional holders one of the decade's more improbable concentrated gains. A post from @Alpha_Ex_LLC lays out a theoretical options trade that would let a top-ten SNDK holder lock in most of those gains while retaining another doubling — at zero net cash cost. The structure is a *zero-cost collar*, and three unusual conditions in SNDK's options market make it, for once, genuinely attractive.",
+  "body": "SanDisk Corporation (SNDK) spun off from Western Digital (WDC) in February 2025 at prices equivalent to roughly $48 per share. By mid-May 2026 the stock was trading above $1,500 — driven by a *NAND flash* supercycle and an explosion in data-centre storage demand. The ten largest institutional holders control nearly 44% of the company's 148 million shares outstanding. For any of them, the practical question is no longer how to make more money but how to avoid losing what they have.\n\nThe post proposes a *zero-cost collar*: simultaneously buying a *put option* struck at $1,367 — roughly 10% below the current price — and selling a *call option* struck at $3,027, precisely double today's price. Both legs expire December 15, 2028. The put defines a floor: below $1,367, the holder is fully protected. The call defines a ceiling: above $3,027, any further gains belong to the counterparty. Bloomberg terminal data shown in the post places the net premium at approximately -$3.39 per share, or 0.22% of the stock's value — a rounding error at institutional scale.\n\nWhat makes this particular trade unusually attractive is a confluence of three conditions that all favour the collar buyer. First, **put-call parity** — the mathematical relationship anchoring options prices — embeds an interest-rate carry advantage that inflates the premium of long-dated calls relative to puts. SNDK pays no dividend and prevailing rates remain elevated; over a 2.6-year tenor, these factors make the 200%-strike call disproportionately expensive for the buyer, which is precisely what the collar seller exploits. Second, *implied volatility* on SNDK options is running near 99% — an extraordinary level for a stock with a market capitalisation above $200 billion. At that level, even a call struck 100% above spot commands real premium. Third, the *volatility skew* — the usual premium that *out-of-the-money* puts command over equivalent calls — is nearly absent here. The Bloomberg pricer shows the put's implied volatility at 98.8% and the call's at 97.2%, a gap of barely 1.6 percentage points. In most markets, demand for crash protection pushes that differential far wider, making collars expensive; its near-absence on SNDK means the collar buyer is not overpaying for the put relative to what the sold call generates.\n\nThe structure has a famous antecedent. In 1999, Mark Cuban received Yahoo shares worth roughly $1.4 billion when the company bought his Broadcast.com. Rather than sell — which would have triggered immediate capital-gains taxes — he bought a put at $85 and sold a call at $205, expiring three years out, for zero net premium. Yahoo briefly touched $237 before collapsing to $13. Cuban's floor held. The linked video — titled “Cuban's Collar is Jensen's Alpha,” published in June 2024 — applied the same framework to **NVIDIA** (NVDA) chief Jensen Huang's concentrated stake, arguing that elevated rates, no NVDA dividend, and high *implied volatility* together produced analogous conditions. “Jensen's Alpha” is a deliberate double meaning: the financial term for excess risk-adjusted return, and the CEO's given name. Huang has not publicly disclosed any collar; his documented activity is a 10b5-1 selling plan adopted in March 2025. The argument is prescriptive — for anyone sitting on a multi-billion-dollar position in a volatile stock, efficient hedging *is* the available alpha.\n\nAmong the top ten SNDK holders, **Western Digital** (WDC) faces the most visible pressure. When it spun SanDisk off, Western Digital retained 7.5 million shares — roughly 5% of the float — and has already filed a registration statement enabling future resale. Selling that block outright would move the market against itself; a collar executed over 2.6 years with a major derivatives dealer eliminates catastrophic downside without triggering that market impact. For passive giants like Vanguard Group and BlackRock (BLK) — whose index-fund mandates prevent swift liquidation — the logic is different but the conclusion similar: if the NAND supercycle reverses before 2028, a collar is the only practical hedge available.",
+  "tickers": [
+    "SNDK",
+    "WDC",
+    "NVDA",
+    "BLK"
+  ],
+  "companies": [
+    {
+      "name": "SanDisk Corporation",
+      "ticker": "SNDK"
+    },
+    {
+      "name": "Western Digital",
+      "ticker": "WDC"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "BlackRock",
+      "ticker": "BLK"
+    },
+    {
+      "name": "Vanguard Group",
+      "ticker": null
+    },
+    {
+      "name": "Yahoo",
+      "ticker": null
+    }
+  ],
+  "poster": "Alpha_Ex_LLC",
+  "concepts": [
+    {
+      "key": "zero-cost-collar",
+      "term": "Zero-Cost Collar",
+      "definition": "An options strategy applied to an existing stock position. The holder buys a protective put (establishing a floor against losses) and simultaneously sells a covered call (capping upside gains), structuring the two legs so that the premium received on the call exactly offsets the cost of the put — resulting in zero net cash outlay. The name refers to the absence of upfront premium, not the absence of all economic cost: the holder implicitly foregoes the interest income that could have been earned on the stock's value, which is what subsidises the put under put-call parity."
+    },
+    {
+      "key": "put-call-parity",
+      "term": "Put-Call Parity",
+      "definition": "A fundamental no-arbitrage relationship between the prices of put and call options with the same strike and expiry. Simplified: call price minus put price equals the stock price minus the present value of the strike discounted at the risk-free rate. In practice, when interest rates are high and no dividend is paid, call premiums are larger relative to equivalent puts — because the call buyer is implicitly borrowing the purchase price. This carry advantage allows a zero-cost collar to place the call strike far above the put strike."
+    },
+    {
+      "key": "implied-volatility",
+      "term": "Implied Volatility",
+      "definition": "The market's forward-looking estimate of how much a stock's price will fluctuate, expressed as an annualised percentage and derived from the prices of traded options. Higher implied volatility means options — both puts and calls — are more expensive. For a zero-cost collar, very high implied volatility helps because even deeply out-of-the-money calls become worth real premium, making it easier to fund the protective put."
+    },
+    {
+      "key": "volatility-skew",
+      "term": "Volatility Skew",
+      "definition": "The empirical observation that options at different strikes trade at different implied volatilities, even for the same expiry. Typically, out-of-the-money puts carry higher implied volatility than out-of-the-money calls — a “smirk” reflecting demand for crash protection. When skew is flat (put vol ≈ call vol), buying a put and selling a call involves no hidden penalty; when skew is steep, the collar buyer overpays for the put relative to what the sold call generates."
+    },
+    {
+      "key": "out-of-the-money",
+      "term": "Out-of-the-Money (OTM)",
+      "definition": "An option whose strike price is less favourable than the current market price. A put is out-of-the-money when its strike is below the current stock price (exercising it would be immediately unprofitable); a call is out-of-the-money when its strike is above. OTM options cost less than at-the-money options but provide no intrinsic value at expiry unless the stock has moved past the strike."
+    },
+    {
+      "key": "nand-flash",
+      "term": "NAND Flash",
+      "definition": "A type of non-volatile semiconductor memory that retains data without power, used in solid-state drives, smartphones, and data-centre storage arrays. NAND prices are notoriously cyclical because fabrication capacity takes years to build while demand can shift quickly. The current supercycle is driven by AI training and inference workloads that require vast amounts of fast, dense storage."
+    },
+    {
+      "key": "supercycle",
+      "term": "Supercycle",
+      "definition": "A prolonged period — typically measured in years — during which demand for a commodity or technology persistently outstrips supply, driving prices and producer margins sharply above their long-run average. In semiconductors, supercycles are powered by demand waves (AI, smartphones, cloud build-out) that arrive faster than new manufacturing capacity can be constructed. They tend to end abruptly when enough new supply comes online simultaneously."
+    },
+    {
+      "key": "10b5-1-plan",
+      "term": "10b5-1 Plan",
+      "definition": "A prearranged stock-sale programme that allows corporate insiders to sell shares without running afoul of insider-trading laws. Under SEC Rule 10b-5, insiders must establish the plan at a time when they hold no material non-public information; sales then execute automatically according to the preset schedule. The plan provides an affirmative defence against insider-trading allegations, even if the insider later acquires material information before any individual trade executes."
+    },
+    {
+      "key": "alpha-finance",
+      "term": "Alpha (Finance)",
+      "definition": "The excess return of an investment above a benchmark or above the return expected for the level of systematic risk taken, as formalised in the Capital Asset Pricing Model. Positive alpha means the investor outperformed on a risk-adjusted basis. In the video title “Jensen's Alpha,” the term is used with irony: the authors argue that for a concentrated insider, the alpha available is not finding a better stock but hedging the one already held."
+    },
+    {
+      "key": "put-option",
+      "term": "Put Option",
+      "definition": "A contract giving the holder the right — but not the obligation — to sell a specified quantity of an asset at a predetermined strike price before or on a set expiry date. A put increases in value as the underlying falls below the strike, making it a standard instrument for downside protection."
+    },
+    {
+      "key": "call-option",
+      "term": "Call Option",
+      "definition": "A contract giving the holder the right — but not the obligation — to buy a specified quantity of an asset at a predetermined strike price before or on a set expiry date. Selling a call against an existing stock position (a covered call) generates premium income but caps the seller's upside at the strike price."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet states the collar allows a holder to “retain up to 100% of the upside from here.” This is accurate but easily misread: “100% of the upside” refers to gains of up to 100% in percentage terms — participation up to the call strike at twice today's price, not unlimited upside. Above approximately $3,027 the holder surrenders all further gains to the counterparty. Separately, calling the structure “zero cost” describes only the cash premium exchanged. Under put-call parity, the holder implicitly foregoes the interest income on the stock's value over the 2.6-year horizon — the true economic cost, paid through opportunity rather than cash. The poster's own framing acknowledges this dynamic in the referenced video.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://alphaexchangepodcast.com/episode/cubans-collar-is-jensens-alpha",
+      "title": "Cuban's Collar is Jensen's Alpha — Alpha Exchange Podcast",
+      "note": "Original podcast episode applying the zero-cost collar framework to NVDA; conceptual source for the tweet"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CMREJb-BjY8",
+      "title": "Cuban's Collar is Jensen's Alpha — YouTube",
+      "note": "The video linked in the tweet"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/04/sandisk-stocks-3314-rally-leaves-little-room-to-run/",
+      "title": "SanDisk Stock's 3,314% Rally Leaves Little Room to Run — 247 Wall St.",
+      "note": "Bear-case analysis with hold rating on SNDK"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/06/prediction-sandisk-stock-is-going-to-4000-in-1-yea/",
+      "title": "Prediction: SanDisk Stock Is Going to $4,000 in 1 Year — Motley Fool",
+      "note": "Bull-case $4,000 price target citing long-term supply contracts"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Put%E2%80%93call_parity",
+      "title": "Put-Call Parity — Wikipedia",
+      "note": "Formal statement of the no-arbitrage relationship between puts and calls"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/SNDK/institutional-ownership/",
+      "title": "SNDK Institutional Ownership — MarketBeat",
+      "note": "Top institutional holders and recent 13F changes"
+    },
+    {
+      "url": "https://www.sandisk.com/company/newsroom/press-releases/2025/sandisk-celebrates-nasdaq-listing-after-completing-separation",
+      "title": "SanDisk Celebrates Nasdaq Listing — SanDisk Newsroom",
+      "note": "Official spinoff announcement and share distribution details"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/whole-market-cratered-protected-mark-103000153.html",
+      "title": "Mark Cuban: ‘The Whole Market Cratered and I Was Protected’ — Yahoo Finance",
+      "note": "Cuban's own account of the Yahoo collar trade and its outcome"
+    },
+    {
+      "url": "https://www.investopedia.com/terms/z/zerocostcollar.asp",
+      "title": "Zero Cost Collar — Investopedia",
+      "note": "Reference definition of the zero-cost collar strategy"
+    },
+    {
+      "url": "https://www.stocktitan.net/sec-filings/SNDK/s-3asr-sandisk-corp-sec-filing-3f715ae15971.html",
+      "title": "SanDisk S-3ASR Registration Statement — StockTitan",
+      "note": "Western Digital's retained 7.5M SNDK shares registered for potential resale"
+    }
+  ],
+  "bookmark_id": "2054528571746427236",
+  "generated_at": "2026-05-14T10:04:21.984572Z",
+  "backend": "claude-sonnet-subagent"
+}

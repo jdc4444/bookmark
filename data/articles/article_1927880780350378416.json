@@ -1,0 +1,43 @@
+{
+  "headline": "Satellites Reveal Earth's Photosynthetic Pulse From Orbit",
+  "lede": "From orbit, Earth breathes on a measurable schedule. Satellite instruments have captured the rhythmic ebb and flow of photosynthesis across the planet's surface — a global biological pulse so regular it resembles a heartbeat when rendered as animation. The viral footage circulating under that label is real science, though the framing deserves unpacking.",
+  "body": "The visualisation originates from the **YOU:MATTER** exhibit, produced by the creative studio *Marshmallow Laser Feast* for the Bradford 2025 United Kingdom City of Culture event, in partnership with the National Science and Media Museum. It draws on data collected by satellites measuring *sun-induced fluorescence* (SIF) — a faint red glow that green plants emit as a byproduct of converting sunlight into chemical energy. That glow is so dim it eluded detection for decades; modern spectrometers aboard Earth-observation satellites can now isolate it from the broader solar signal.\n\nSIF is a more direct proxy for photosynthetic activity than older vegetation indices. It responds within minutes to changes in light, temperature, and water stress, giving scientists something closer to a real-time readout of how vigorously plants are working. Paired with the *greenness index* — which tracks chlorophyll concentration by comparing how leaves absorb visible red light while reflecting near-infrared — researchers can monitor the planet's biological rhythms continuously and at global scale.\n\nThe resulting animations show red waves pulsing across continents as growing seasons advance and retreat, forests inhale carbon dioxide during daylight and release it at night, and agricultural regions flicker with the cadence of planting and harvest. The effect is genuinely striking: a living map of the biosphere at work, rendered from two hundred miles up.\n\nThe viral framing — that Earth is \"a living creature\" with a literal heartbeat — is poetic anthropomorphisation rather than scientific description. Earth is not an organism; it has no centralised biology, no homeostatic system evolved for self-preservation. What the satellite data reveals is the aggregate activity of trillions of individual organisms — plants, algae, phytoplankton — whose collective rhythms, when summed and rendered from space, acquire the appearance of something breathing. The metaphor is evocative and not entirely inapt. But it is a metaphor.",
+  "tickers": [],
+  "poster": "forallcurious",
+  "concepts": [
+    {
+      "key": "sun-induced-fluorescence",
+      "term": "Sun-Induced Fluorescence (SIF)",
+      "definition": "A faint red glow emitted by chlorophyll molecules in plants as a byproduct of photosynthesis. Because its intensity varies with how actively a plant is fixing carbon, satellites capable of detecting SIF provide a near-real-time measure of photosynthetic productivity — more responsive than older vegetation indices based purely on reflected light."
+    },
+    {
+      "key": "greenness-index",
+      "term": "Greenness Index",
+      "definition": "A satellite-derived measure of vegetation density, typically based on how strongly leaves absorb visible red light while reflecting near-infrared light. Higher values indicate denser, healthier chlorophyll. When combined with SIF data, it helps scientists distinguish between a plant that looks green and one that is actively photosynthesising."
+    },
+    {
+      "key": "photosynthesis",
+      "term": "Photosynthesis",
+      "definition": "The process by which plants, algae, and some bacteria convert sunlight, carbon dioxide, and water into sugars and oxygen. It is the primary mechanism by which carbon moves from the atmosphere into the biosphere, making it central to climate regulation and the global carbon cycle."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that Earth is 'a living creature' with a 'heartbeat' is anthropomorphisation and should not be read literally. Earth is not a biological organism. The rhythms visible in the satellite data are the aggregate behaviour of individual living things — plants, algae, phytoplankton — not evidence of planetary sentience or life at a planetary scale. The underlying science (SIF measurements, greenness indices, photosynthetic cycles) is legitimate and well-established.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.instagram.com/reel/DMAecbOopVl/",
+      "title": "Astrophysicsmania on Instagram: Earth has a heartbeat — and satellites can see it",
+      "note": "Primary source explaining SIF, the greenness index, and the YOU:MATTER exhibit provenance"
+    },
+    {
+      "url": "https://www.msn.com/en-us/science/earth-science/scientists-record-sounds-of-earth-s-heartbeat-from-space/ar-AA1LOy4N",
+      "title": "Scientists record sounds of Earth's 'heartbeat' from space",
+      "note": "Supporting coverage contextualising the satellite data and Earth-rhythm research"
+    }
+  ],
+  "bookmark_id": "1927880780350378416",
+  "generated_at": "2026-05-06T20:54:25.427994Z",
+  "backend": "claude"
+}

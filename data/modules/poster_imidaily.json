@@ -1,0 +1,24 @@
+{
+  "key": "imidaily",
+  "display_name": "@imidaily",
+  "blurb": "Investment Migration Insider (IMI Daily) is the trade publication of record for the citizenship-by-investment and residency-by-investment industry — a niche that encompasses the programmes through which wealthy individuals obtain second passports or residency rights in exchange for qualifying investments or donations. Founded by Christian Henrik Nesheim, IMI Daily covers programme launches, regulatory changes, intermediary news and data on global wealth migration flows. It sits at the intersection of private wealth management, immigration law and sovereign fiscal policy, and its audience consists primarily of lawyers, advisers and programme operators rather than end investors.",
+  "credibility_note": "IMI Daily is a specialist trade outlet with genuine domain expertise and broad sourcing across the investment-migration industry. Its reporting on headline migration statistics sometimes leads with figures from promotional sources (Henley & Partners, New World Wealth) that are not always independently verified; individual claims should be cross-referenced against official government data where possible. On matters of programme mechanics, regulatory changes and industry structure it is generally reliable.",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://www.imidaily.com/"
+    },
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/imidaily"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.imidaily.com/about/",
+      "title": "About Investment Migration Insider — IMI Daily"
+    }
+  ],
+  "generated_at": "2026-05-06T17:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

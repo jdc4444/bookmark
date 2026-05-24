@@ -1,0 +1,124 @@
+{
+  "headline": "The Fed’s Lever May No Longer Reach the Economy",
+  "lede": "Andy Constan, a veteran macro strategist who founded Damped Spring Advisors after senior roles at Bridgewater Associates and Brevan Howard, has compressed years of heterodox macro debate into a single provocation: a hundred-basis-point rate hike would accomplish nothing, because the lever the Federal Reserve controls is no longer meaningfully connected to the real economy. The argument draws on converging work by an MMT pioneer, a Stanford fiscal theorist, and several market analysts — each arriving, by different routes, at the same uncomfortable conclusion. The relevant lever, in this view, is not the overnight rate but the volume of long-dated government bonds flooding the market.",
+  "body": "The standard story of monetary policy transmission runs roughly as follows: the Federal Reserve raises the *federal funds rate*; banks charge more for loans; households and businesses borrow less; aggregate demand falls; prices stabilize. Constan’s argument is that this chain, always imprecise, has been critically disrupted at multiple links simultaneously. The United States carries roughly $38 trillion in debt and ran a deficit of some 6% of GDP in FY2025 — a level that, as former Treasury Secretary Janet Yellen told the American Economic Association in January 2026, has “never before been realized except during wars and recessions.” Net interest on that debt reached $970 billion in FY2025, projected to remain above $1 trillion indefinitely.\n\nWhen the Fed raises rates, the government must pay more to service its debt. That money flows into the private sector — to money-market funds, pension funds, and wealthier households — as additional income. Warren Mosler, the investor whose ideas underpinned *Modern Monetary Theory* (*MMT*), has argued for decades that in a heavily indebted sovereign, rate hikes are more stimulative than restrictive: a transfer from Treasury to net holders of government paper, running at roughly $2 billion per day in FY2025. Economists call this regime *fiscal dominance* — the condition in which sovereign debt grows large enough that fiscal flows begin to offset or overwhelm a central bank’s intended tightening. A second disruption is fixed-rate lock-in. Nearly all of America’s 50 million active mortgages were originated at rates below 3.5%, locked in during 2020–2021. The Fed’s 525 *basis points* of hikes from 2022 to 2023 never touched those borrowers’ monthly payments; only prospective buyers faced the new rate environment, producing a paralysis of the housing market rather than the broad deleveraging textbook models require.\n\n**Duration supply** — the volume of long-dated bonds available in the market, predominantly U.S. Treasuries — is Constan’s proposed alternative lever. The *term premium*, the extra yield investors demand to hold a ten-year bond rather than rolling a series of shorter instruments, is set largely by that supply: more bonds in the market means higher required yields and tighter long-term financial conditions. The 30-year fixed mortgage rate, corporate borrowing costs, and investment discount rates all follow the long end of the *yield curve*, not the overnight rate the Fed controls. In this framework, the entity holding the real lever is the Treasury, specifically through its *Quarterly Refunding Announcement* (*QRA*) — the quarterly disclosure detailing how much new debt will be issued and at what maturities.\n\nThe 2024–2025 easing cycle offered a striking empirical test. From September 2024 to early 2025, the Fed cut the federal funds rate by 175 basis points. The 10-year Treasury yield fell only about 35 basis points and at points moved in the opposite direction, reaching its highest level since 2011 in January 2025. The term premium, measured by the Adrian-Crump-Moench (*ACM*) model at the New York Federal Reserve, accounted for more than half of the long-end rise during that period. Kansas City Fed researchers, using high-frequency Treasury auction data, confirmed that each incremental debt-expansion shock pushes five-to-ten-year real term premia measurably higher. The bond market was moving on fiscal supply dynamics while the Fed moved in the opposite direction.\n\nThe counterarguments deserve weight. Core *PCE* (personal consumption expenditures inflation) fell from above 5.5% in mid-2022 to near 3% by late 2024 — a deceleration that tracked the hiking cycle. Housing activity fell sharply. These outcomes are hard to explain if the lever were truly severed. The stronger defense of Constan’s thesis is that disinflation owed more to post-pandemic supply normalization than to monetary tightening, and that the economy’s resilience — near-record equity valuations, sustained consumer spending, unemployment holding below 4.5% for two consecutive years — reflects those fiscal offsets. A more precise framing, echoed by analysts including Lyn Alden and a growing body of academic work on *fiscal dominance*, is that the transmission mechanism is *impaired*, not absent: it still operates, but at an effective dose far higher than historical precedent, with a distributional skew that insulates wealthier, fixed-rate-locked households while squeezing prospective buyers and smaller borrowers. Constan’s one-liner is deliberately blunt; **the analytical precision is in the second sentence**.",
+  "tickers": [],
+  "companies": [],
+  "poster": "dampedspring",
+  "concepts": [
+    {
+      "key": "federal-funds-rate",
+      "term": "Federal Funds Rate",
+      "definition": "The overnight interest rate at which U.S. banks lend reserves to one another — the Federal Reserve’s primary policy tool, set by the Federal Open Market Committee at each meeting. It anchors short-term borrowing costs but does not directly determine longer-duration rates such as the 10-year Treasury yield or 30-year mortgage rate, which are set by market forces further out on the yield curve."
+    },
+    {
+      "key": "basis-points",
+      "term": "Basis Points",
+      "definition": "A unit of measure for interest rates equal to one one-hundredth of a percentage point (0.01%). One hundred basis points equals one full percentage point. The term is used universally in fixed-income markets to describe changes in yields, policy rates, and credit spreads without the ambiguity of saying “one percent.”"
+    },
+    {
+      "key": "modern-monetary-theory",
+      "term": "Modern Monetary Theory (MMT)",
+      "definition": "A heterodox macroeconomic framework, developed principally by Warren Mosler, holding that a government which issues its own currency cannot involuntarily default on domestic-currency debt. MMT argues that fiscal policy — government spending and taxation — is the primary lever for managing inflation and unemployment, and that the interest-income effects of rate hikes can partially offset tightening in high-debt environments by transferring income from Treasury to private bondholders."
+    },
+    {
+      "key": "fiscal-dominance",
+      "term": "Fiscal Dominance",
+      "definition": "A regime in which the scale of sovereign debt effectively constrains monetary policy: raising interest rates increases the government’s debt-service costs, potentially injecting more income into the private sector than the tightening removes. Analyst Lyn Alden has defined the threshold operationally as the point where a rate hike increases the federal deficit by a larger dollar figure than it slows bank lending. The concept overlaps with the academic Fiscal Theory of the Price Level developed by Stanford economist John Cochrane."
+    },
+    {
+      "key": "duration-supply",
+      "term": "Duration Supply",
+      "definition": "The aggregate quantity of long-maturity bonds — primarily U.S. Treasuries — available in financial markets at any given time. When the Treasury issues a larger share of its debt in long maturities, investors must be compensated with higher yields to absorb the additional supply, pushing up long-term borrowing costs regardless of what the Federal Reserve does at the short end. Under Constan’s thesis, managing duration supply is the more direct lever over mortgage rates and corporate financing costs than the overnight policy rate."
+    },
+    {
+      "key": "term-premium",
+      "term": "Term Premium",
+      "definition": "The extra yield investors demand to hold a long-duration bond — such as a 10-year Treasury — rather than rolling a sequence of short-term instruments expected to yield the same cumulative amount over the same period. It compensates for inflation uncertainty, duration risk, and supply-demand imbalances. When fiscal deficits push large volumes of long-dated bonds into the market, the term premium typically rises, lifting long-end yields even when the Fed is actively cutting short rates."
+    },
+    {
+      "key": "yield-curve",
+      "term": "Yield Curve",
+      "definition": "A graph plotting the interest rates of bonds with identical credit quality but different maturities — typically from three-month T-bills out to 30-year Treasuries. The “long end” refers to maturities of ten years and beyond, where mortgage rates, corporate borrowing costs, and investment discount rates are anchored. The Federal Reserve directly controls only the very short end; the long end is shaped by inflation expectations, term premia, and duration supply."
+    },
+    {
+      "key": "quarterly-refunding-announcement",
+      "term": "Quarterly Refunding Announcement (QRA)",
+      "definition": "A quarterly disclosure by the U.S. Treasury, typically released in late January, April, July, and October, detailing how much new debt it plans to issue over the coming months and at which maturities. Bond markets treat the QRA as a major signal for duration supply: a larger-than-expected allocation to longer maturities typically pushes long-end yields higher. It has become one of the most market-moving disclosures in fixed income, drawing attention previously reserved for Federal Reserve statements."
+    },
+    {
+      "key": "pce",
+      "term": "PCE (Personal Consumption Expenditures)",
+      "definition": "The Personal Consumption Expenditures price index, published by the U.S. Bureau of Economic Analysis, is the Federal Reserve’s preferred inflation gauge. It covers a broader basket of goods and services than the CPI and uses chain-weighting to adjust for consumer substitution behavior. “Core PCE,” which strips out food and energy prices, is the primary measure the Fed monitors when assessing progress toward its 2% inflation target."
+    },
+    {
+      "key": "acm-model",
+      "term": "ACM Model (Adrian-Crump-Moench)",
+      "definition": "A model developed by researchers at the New York Federal Reserve that decomposes Treasury yields into two components: an expectations part (the market’s forecast of future short-term rates) and a term premium part (compensation for duration and inflation risk). It is a widely cited reference for determining whether a move in long-term yields is being driven by monetary policy expectations or by supply, demand, and risk-compensation dynamics that the Fed does not directly control."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Constan’s claim that the Fed’s rate lever is “unconnected to the economy” overstates a real but contested argument. Core PCE did fall from above 5.5% to near 3% during the 2022–2024 hiking cycle, and mortgage origination volumes dropped sharply as 30-year rates approached 7% — both consistent with at least partial transmission of monetary tightening. A more defensible formulation is that the transmission mechanism is severely *impaired* in a high-debt, fixed-rate-mortgage-dominated economy, not fully severed. The interest-income and lock-in effects Constan cites are empirically documented but they dampen the lever’s reach rather than disconnect it entirely.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://dampedspring.com/",
+      "title": "Damped Spring — A Synthesis of Market Drivers",
+      "note": "Andy Constan’s official research firm; biographical and institutional context"
+    },
+    {
+      "url": "https://hiddenforces.io/podcasts/fed-risks-losing-the-bond-market-andy-constan/",
+      "title": "Why the Fed Risks Losing Control of the Bond Market — Hidden Forces (Andy Constan)",
+      "note": "Constan on term premium, duration convexity, and the long-end yield mechanism"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/audio/2025-05-09/andy-constan-on-fed-policy-and-bond-market-myths-macro-matters",
+      "title": "Andy Constan on Fed Policy and Bond Market Myths — Bloomberg FICC Focus (May 2025)",
+      "note": "Most recent long-form interview on monetary policy effectiveness and duration supply"
+    },
+    {
+      "url": "https://www.brookings.edu/articles/remarks-by-janet-l-yellen-on-the-future-of-the-fed-central-bank-independence-and-fiscal-dominance/",
+      "title": "Remarks by Janet Yellen on Fiscal Dominance — Brookings (January 2026)",
+      "note": "Source for 6% GDP deficit figure and Yellen’s fiscal dominance warning at the AEA"
+    },
+    {
+      "url": "https://www.crfb.org/blogs/trillion-dollar-interest-payments-are-new-norm",
+      "title": "Trillion-Dollar Interest Payments Are the New Norm — CRFB (December 2025)",
+      "note": "Source for $970 billion FY2025 net interest figure and $1 trillion projection"
+    },
+    {
+      "url": "https://www.lynalden.com/july-2024-newsletter/",
+      "title": "July 2024 Newsletter: Rates Insensitivity in the Downcycle — Lyn Alden",
+      "note": "Systematic empirical case for rates insensitivity; fixed-rate lock-in and fiscal offset mechanisms"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2024-07-09/warren-mosler-explains-why-high-interest-rates-might-fan-inflation",
+      "title": "Warren Mosler Explains Why High Interest Rates Might Fan Inflation — Bloomberg (July 2024)",
+      "note": "MMT founder’s interest-income channel argument in a mainstream outlet"
+    },
+    {
+      "url": "https://www.nber.org/papers/w35098",
+      "title": "Treasury Supply Shocks — Bi, Phillot, Zubairy (NBER Working Paper #35098)",
+      "note": "Academic evidence linking debt expansion shocks to higher term premia and tighter financial conditions"
+    },
+    {
+      "url": "https://www.kansascityfed.org/research/economic-bulletin/higher-treasury-supply-is-likely-to-put-upward-pressure-on-interest-rates/",
+      "title": "Higher Treasury Supply Is Likely to Put Upward Pressure on Interest Rates — Kansas City Fed (November 2025)",
+      "note": "Source for empirical result on Treasury supply shocks and five-to-ten-year real term premia"
+    },
+    {
+      "url": "https://www.newyorkfed.org/research/data_indicators/term-premia-tabs",
+      "title": "Term Premia — New York Federal Reserve (ACM Model)",
+      "note": "Real-time Adrian-Crump-Moench term premium estimates; source for January 2025 term premium peak data"
+    },
+    {
+      "url": "https://www.cmegroup.com/openmarkets/interest-rates/2025/Are-Bond-Vigilantes-Back-as-Debt-Woes-Lift-Yields.html",
+      "title": "Are Bond Vigilantes Back as Debt Woes Lift Yields? — CME Group (2025)",
+      "note": "Source for 175bp Fed easing versus 35bp 10-year yield decline data point"
+    }
+  ],
+  "bookmark_id": "2054582187282837666",
+  "generated_at": "2026-05-14T09:52:59.974538Z",
+  "backend": "claude-sonnet-subagent"
+}

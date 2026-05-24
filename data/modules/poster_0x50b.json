@@ -1,0 +1,20 @@
+{
+  "key": "0x50b",
+  "display_name": "@0x50b",
+  "blurb": "A pseudonymous account on X that posts at the intersection of software engineering, AI tooling, and financial analysis. The handle (0x50b = hexadecimal for 1291) suggests a technical background. The account gained attention in May 2026 for building two custom MCP (Model Context Protocol) servers to automate the ingestion of @zephyr_z9's tweets and corresponding stock price data, delivering AI-synthesised daily briefings inside a Claude Project — an approach that sits between quantitative-finance infrastructure and DIY financial media. No institutional affiliation is publicly known.",
+  "credibility_note": "The account's public posts are primarily about tooling and methodology rather than direct investment claims; the stock-intelligence output is attributed to @zephyr_z9's underlying analysis rather than original @0x50b research. Credibility as a builder appears solid; credibility as an independent analyst is not yet established.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/0x50b"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/0x50b/status/2046857153491681440",
+      "title": "Original MCP-server post — X"
+    }
+  ],
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

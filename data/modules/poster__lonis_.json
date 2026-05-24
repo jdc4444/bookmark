@@ -1,0 +1,20 @@
+{
+  "key": "_Lonis_",
+  "display_name": "Lonis Hamaili (@_Lonis_)",
+  "blurb": "Lonis Hamaili is a French-Algerian entrepreneur and independent investor who publishes under @_Lonis_ on X and at loniss.com. He is best known for his 'Cambrian Thesis,' a framework for trading public equities on short AGI timelines by identifying supply-chain bottleneck companies with high AI revenue concentration and low substitution risk. His work maps the AI infrastructure stack 15 layers deep — from raw materials through hyperscalers — assigning market-share, AI revenue, and operating-income metrics to each node. Outside of investing, Hamaili emerged from the Y Combinator S20 batch as co-founder of Dework, a Web3-native project-management and token-payments platform. He later co-founded Godmode (2023), an early consumer interface for agentic AI, and currently serves as VP of Growth at Próspera, a privately administered special economic zone in Honduras that replaces conventional municipal regulation with a contractual, insurance-backed governance model.",
+  "credibility_note": "Hamaili explicitly labels his supply-chain mapping as personal research, not investment advice. His background is in venture-backed startups and city-building rather than institutional finance; he holds no known public investment-management credentials. AI revenue percentages attributed to individual companies in the map are his own approximations, not reported figures. Readers should assume he may hold positions in companies he discusses.",
+  "links": [
+    {"label": "loniss.com / Cambrian Thesis", "url": "https://loniss.com/cambrian-thesis?v=3"},
+    {"label": "@_Lonis_ on X", "url": "https://x.com/_Lonis_"},
+    {"label": "LinkedIn", "url": "https://www.linkedin.com/in/loniss/"}
+  ],
+  "sources": [
+    {"url": "https://loniss.com/cambrian-thesis?v=3", "title": "The Cambrian Thesis — loniss.com"},
+    {"url": "https://www.linkedin.com/in/loniss/", "title": "Lonis Hamaili — LinkedIn"},
+    {"url": "https://www.crunchbase.com/person/lonis-hamaili", "title": "Lonis Hamaili — Crunchbase"},
+    {"url": "https://tracxn.com/d/companies/godmode/__41MX8paURoq78qcDFI0wQGGUKMFJUtMHroA80HlkPYs/founders-and-board-of-directors", "title": "Godmode founders — Tracxn"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

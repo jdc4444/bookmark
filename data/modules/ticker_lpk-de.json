@@ -1,0 +1,28 @@
+{
+  "key": "LPK.DE",
+  "name": "LPKF Laser & Electronics SE",
+  "exchange": "XETRA",
+  "blurb": "LPKF Laser & Electronics SE is a German technology company that develops and manufactures laser-based solutions for the electronics, semiconductor, and medical technology industries. Its key growth areas include Advanced Semiconductor Packaging and LIDE (Laser Induced Deep Etching) for glass processing. The company holds a strong market position in laser systems for PCB prototyping and micro-material processing.",
+  "recent": "In the past 30 days, LPKF reported weaker Q1 2026 results with lower sales and a larger loss, but the stock surged as investors focused on its Advanced Semiconductor Packaging and LIDE growth potential. The share price reached a 52-week high of €29.90 on May 11, 2026, reflecting a year-to-date return of over 350%. The stock has since pulled back slightly, trading around €25.70 as of mid-May.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/LPK.DE/",
+      "title": "LPKF Laser & Electronics SE (LPK.DE) - Yahoo Finance"
+    },
+    {
+      "url": "https://simplywall.st/stocks/de/tech/etr-lpk/lpkf-laser-electronics-shares/news/a-look-at-lpkf-laser-electronics-xtralpk-valuation-after-q1",
+      "title": "A Look At LPKF Laser & Electronics (XTRA:LPK) Valuation After Q1 Weakness And LIDE Growth Expectations"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/Stock/LPK?countryCode=XE",
+      "title": "LPK Stock Price | LPKF Laser & Electronics AG Stock Quote (Germany ...)"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/LPK-DE",
+      "title": "LPK-DE: LPKF Laser & Electronics SE - Stock Price, Quote and News - CNBC"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T13:07:28.940683Z",
+  "backend": "deepseek"
+}

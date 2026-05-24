@@ -1,0 +1,74 @@
+{
+  "headline": "How Developers Are Taming AI Coding Amnesia on Complex Projects",
+  "lede": "AI coding assistants like **Cursor** have transformed software development but grow unreliable as projects scale — losing track of prior decisions, re-introducing patterns already ruled out, and producing architecturally inconsistent code. Builders of ambitious applications, including the *prediction market* platform visible in the screenshot, are engineering structured workarounds to compensate. Independent accounts suggest the right scaffolding can cut recurring errors by 50% or more.",
+  "body": "The core problem is what practitioners call *task-specific amnesia*: an AI assistant's effective memory is bounded by its *context window* — the finite block of text the model processes at once. On a small project this is ample. As a codebase grows, earlier constraints, environment configurations, and architectural decisions spill outside the window and effectively vanish. Cursor, the leading AI-native code editor, then produces code that contradicts decisions made three sessions ago, ignores integration requirements, or invents abstractions the developer already rejected.\n\nSeveral techniques have emerged to address this. Maintaining a dedicated instructions folder — a set of markdown files describing project conventions, constraints, and past errors — lets developers inject structured context at the start of each session. Breaking complex features into chunks of three to five discrete steps prevents any single prompt from overwhelming the model. Perhaps most systematically, a \"mistake log\" approach pairs an error-recording pipeline with an *MCP server* (a standardized protocol for giving AI assistants access to external tools and persistent data) to automatically surface past failures before generating new code, giving Cursor a long-term memory it natively lacks. One independent account documented a 50% reduction in recurring errors using this method.\n\nThe platform shown in the screenshot provides useful context for why these solutions matter. The CryptoOracle interface resembles a *prediction market* — a platform where users stake money on probabilistic outcomes: \"Will BTC hit $80k by December 2025?\" trades at 65% YES with $4.5 million wagered; \"Will ETH surpass $4k in Q3 2025?\" sits at 72% YES with $12.3 million at stake. Building such a system involves tightly coupled complexity — real-time price feeds, *smart contract* integration for trustless settlement, wallet authentication, and dynamic odds recalculation. A change in one layer can silently break another, which is precisely the environment where AI assistants lose coherence fastest.\n\nThe poster's claim of 70% error reduction sits above the 50% documented in comparable independent implementations. The gap likely reflects different definitions of \"error,\" project-specific factors, or the compounding benefit of combining multiple techniques simultaneously. What holds across the evidence is the direction: unstructured *vibe coding* — the casual practice of describing intent and letting an AI write the implementation — degrades quickly on production-grade systems. The discipline required to make it work resembles, in miniature, the engineering required to keep any junior developer productive on a complex codebase: explicit context, small tasks, and a written record of past mistakes.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Cursor",
+      "ticker": null
+    }
+  ],
+  "poster": "MVP_Builder",
+  "concepts": [
+    {
+      "key": "task-specific-amnesia",
+      "term": "task-specific amnesia",
+      "definition": "The tendency of AI coding assistants to forget earlier decisions, constraints, and architectural context as a conversation or codebase grows. Because the model can only process a finite window of text at once, information from prior sessions is simply not available to it — leading to repeated mistakes and contradictory outputs."
+    },
+    {
+      "key": "context-window",
+      "term": "context window",
+      "definition": "The maximum amount of text (measured in tokens — roughly three-quarters of a word each) that a language model can process in a single pass. Everything outside this window is invisible to the model. On large codebases, relevant files and prior decisions routinely exceed this limit."
+    },
+    {
+      "key": "mcp-server",
+      "term": "MCP server",
+      "definition": "A Model Context Protocol server — a standardized interface, developed by Anthropic, that allows AI assistants like Cursor to call external tools and retrieve data from outside the conversation window. In the context of coding workflows, MCP servers can query databases, read files, or fetch past error logs to inject relevant memory into each prompt."
+    },
+    {
+      "key": "prediction-market",
+      "term": "prediction market",
+      "definition": "A financial platform where participants buy and sell contracts tied to the outcome of future events — elections, asset prices, sports results. The market price of a contract reflects the crowd's collective probability estimate. Platforms like Polymarket popularized crypto-native prediction markets, where smart contracts handle settlement automatically."
+    },
+    {
+      "key": "vibe-coding",
+      "term": "vibe coding",
+      "definition": "A colloquial term for AI-assisted software development where the programmer describes intent in natural language and lets the AI produce the implementation, with minimal manual review of the resulting code. Works well for prototypes; becomes problematic on complex, multi-layered systems where consistency and correctness across sessions matter."
+    },
+    {
+      "key": "smart-contract",
+      "term": "smart contract",
+      "definition": "Self-executing code stored on a blockchain that automatically enforces the terms of an agreement — such as paying out a prediction market winner — without requiring a trusted intermediary. Once deployed, the code runs exactly as written, which makes correctness critical and bugs costly."
+    },
+    {
+      "key": "instructions-folder",
+      "term": "instructions folder",
+      "definition": "A directory of markdown files, maintained by the developer, that codifies project conventions, past mistakes, and architectural constraints. These files are fed into the AI's context at the start of each session as a substitute for the persistent memory the model lacks natively."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The poster claims a 70% reduction in Cursor errors. The most comparable independent account — a documented 'mistake log' system using MCP and Apple Notes — reports a 50% reduction in recurring errors. A separate guide cites that 92% of AI workflow failures stem from seven preventable mistakes, though the methodology behind that figure is not disclosed. The 70% figure may be plausible for a specific project with disciplined implementation of multiple techniques simultaneously, but it exceeds what published independent benchmarks have documented.",
+  "thread_summary": "The tweet is the opening hook of a thread (cut off mid-sentence) in which the poster promises to share the specific system they built to reduce Cursor's context errors while developing a crypto prediction-market platform for a client. The full thread — not captured here — presumably details the instructions folder structure, prompting discipline, and possibly a mistake-log setup they used.",
+  "sources": [
+    {
+      "url": "https://dredyson.com/fix-cursor-ides-ai-failures-a-beginners-step-by-step-prevention-guide-7-critical-mistakes-to-avoid/",
+      "title": "Fix Cursor IDE's AI Failures: A Beginner's Step-by-Step Prevention Guide",
+      "note": "Enumerates the seven most common Cursor workflow failures and how to prevent them"
+    },
+    {
+      "url": "https://ai.plainenglish.io/the-ultimate-vibe-coding-guide-18-productivity-tips-from-top-cursor-users-bad8339a473d",
+      "title": "The Ultimate Vibe Coding Guide: 18 Productivity Tips From Top Cursor Users",
+      "note": "Aggregates practitioner techniques including instructions folders, task chunking, and prompt refinement"
+    },
+    {
+      "url": "https://medium.com/@oz3dprinter/building-a-mistake-log-for-cursor-how-i-cut-ai-coding-errors-by-50-dc04de7f1603",
+      "title": "Building a 'Mistake Log' for Cursor: How I Cut AI Coding Errors by 50%",
+      "note": "Primary source for the MCP-based mistake log system and the 50% error-reduction benchmark"
+    }
+  ],
+  "bookmark_id": "1928770004037611886",
+  "generated_at": "2026-05-07T04:05:03.138060Z",
+  "backend": "claude"
+}

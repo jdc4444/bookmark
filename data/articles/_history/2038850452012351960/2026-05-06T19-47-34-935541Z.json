@@ -1,0 +1,64 @@
+{
+  "headline": "A Free Rival Derails Plans for a Paid 3D Atmosphere Plugin",
+  "lede": "Dan Greenheck, a developer who builds tools for the Three.js ecosystem, was readying a commercial package he called Three.js Sky Pro. Then he found @takram/three-geospatial — a free, already-published library from Takram Design Engineering that, judging by its interactive Storybook demo, covers the same ground and then some.",
+  "body": "The collision is a small but telling episode in developer-tooling economics. *Three.js* is a JavaScript library that wraps WebGL — the browser's low-level 3D graphics API — into something approachable. *React Three Fiber* (R3F) sits on top of it, letting React developers compose 3D scenes declaratively, the same way they'd assemble a web page. Together they've become the dominant stack for ambitious in-browser 3D work, and a healthy market of paid plugins and pro components has grown around them.\n\nAtmosphere and volumetric cloud rendering is among the hardest problems in real-time graphics. Simulating how sunlight scatters through air — the mechanism that makes sky blue at noon and orange at dusk — requires solving equations that game engines typically approximate with precomputed lookup tables. Convincing volumetric clouds are harder still: they demand *ray-marching*, a GPU technique that steps through a volume sampling density at each point, which is expensive enough that even desktop games often fake it.\n\nWhat the Storybook demo visible in Greenheck's screenshot shows is striking. **@takram/three-geospatial** ships a full atmosphere layer (sky, stars, haze), volumetric clouds with adjustable coverage and a quality slider that goes up to \"Ultra,\" cascaded shadow maps for clouds, lens-flare effects, a *G-buffer* pass (a deferred-rendering technique that separates geometry and lighting into separate buffers for later compositing), tone mapping, and color grading. It integrates with Google's *3D Tiles Renderer* — the standard for streaming photorealistic 3D city geometry — and its demo renders convincing overcast skies above London's buildings with a live Google Maps API key.\n\nGreenheck notes, with some irony, that he had been aware of a different package in this space but turned up the wrong one when searching — a reminder of how easily discovery fails in a fragmented ecosystem of npm packages, GitHub repos, and niche demos. For him the options now are to differentiate on developer experience or support, absorb the library into a higher-level product, or concede the niche. The tweet offers no answer, only a candid acknowledgment that the drawing board awaits.",
+  "tickers": [],
+  "poster": "dangreenheck",
+  "concepts": [
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "A JavaScript library that abstracts WebGL, the browser's low-level 3D graphics interface, into a scene graph with cameras, lights, and meshes. It is the de-facto standard for serious 3D work in the browser."
+    },
+    {
+      "key": "react-three-fiber",
+      "term": "React Three Fiber (R3F)",
+      "definition": "A React renderer for Three.js that lets developers describe 3D scenes as JSX components. It handles the render loop and state synchronization, making Three.js feel like idiomatic React rather than imperative WebGL."
+    },
+    {
+      "key": "volumetric-clouds",
+      "term": "Volumetric clouds",
+      "definition": "Clouds rendered as genuine 3D volumes rather than flat textured sprites. The GPU ray-marches through a density field, sampling light scattering at each step. The result is self-shadowing, parallax depth, and realistic illumination — at significant computational cost."
+    },
+    {
+      "key": "3d-tiles",
+      "term": "3D Tiles",
+      "definition": "An OGC open standard for streaming and rendering massive 3D geospatial datasets — notably Google's photorealistic city meshes derived from satellite and aerial imagery. Libraries like the 3D Tiles Renderer let browser-based apps consume these datasets alongside custom WebGL scenes."
+    },
+    {
+      "key": "g-buffer",
+      "term": "G-buffer",
+      "definition": "Short for geometry buffer, a deferred rendering technique that writes scene geometry (normals, depth, material IDs) into separate framebuffer textures in a first pass, then applies lighting in a second pass. This decouples geometry complexity from lighting cost."
+    },
+    {
+      "key": "ray-marching",
+      "term": "Ray-marching",
+      "definition": "A GPU rendering technique that steps along a ray in small increments, sampling a volume or signed-distance field at each step. It is the standard approach for rendering clouds, fog, and other media that have no discrete surface."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "takram-design-engineering/three-geospatial",
+      "url": "https://github.com/takram-design-engineering/three-geospatial",
+      "summary": "A free, open-source package from Takram Design Engineering that adds geospatial atmosphere, volumetric cloud, and sky rendering to Three.js and React Three Fiber. It integrates with the 3D Tiles Renderer for photorealistic city scenes and ships a polished Storybook with London, Tokyo, and Fuji demos. From the visible feature list it includes cascaded cloud shadows, lens flare, G-buffer compositing, tone mapping, and Google Maps API support."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/dangreenheck/status/2038850452012351960",
+      "title": "Original tweet by @dangreenheck",
+      "note": "Primary source; tweet text and Storybook screenshot are the factual basis for this brief"
+    },
+    {
+      "url": "https://takram-design-engineering.github.io/three-geospatial/?path=/story/clouds-3d-tiles-renderer-integration--london",
+      "title": "@takram/three-geospatial Storybook demo",
+      "note": "Visible in the screenshot; shows the library's feature set and London cloud demo"
+    }
+  ],
+  "bookmark_id": "2038850452012351960",
+  "generated_at": "2026-05-06T19:47:34.935541Z",
+  "backend": "claude"
+}

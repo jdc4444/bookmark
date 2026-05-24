@@ -1,0 +1,24 @@
+{
+  "key": "HPE",
+  "name": "Hewlett Packard Enterprise Company",
+  "exchange": "NYSE",
+  "blurb": "Hewlett Packard Enterprise (HPE) is a global enterprise technology company spun off from Hewlett-Packard in 2015, tracing its corporate lineage to 1939. It operates across five segments — Server, Hybrid Cloud, Networking, Financial Services, and Corporate Investments — selling products such as HPE ProLiant servers, HPE Cray EX supercomputers, HPE Synergy composable infrastructure, and HPE Edgeline edge systems. With trailing-twelve-month revenue of approximately $35.7 billion and 67,000+ employees worldwide, HPE serves enterprise and government customers across the Americas, EMEA, and Asia-Pacific. Its strategic focus has shifted toward AI-optimized servers and hybrid cloud solutions as demand for high-performance computing accelerates.",
+  "recent": "HPE shares surged 6.16% to $32.07 on May 13, 2026 — touching the top of its 52-week range ($17.03–$32.53) — and continued rising pre-market on May 14; the specific catalyst was not disclosed in available sources. The stock's market cap has expanded roughly 96% over the trailing period, reflecting strong investor appetite for its AI server exposure. Next earnings are scheduled for June 1, 2026, with analysts holding a consensus Buy but a price target of $26.82, below the current trading level.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/hpe/",
+      "title": "Hewlett Packard Enterprise Company (HPE) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/HPE/news/",
+      "title": "HPE News Today | Why did Hewlett Packard Enterprise stock go up today? — MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/HPE",
+      "title": "HPE Stock Price | Hewlett Packard Enterprise Co. Stock Quote — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T09:46:04.652280Z",
+  "backend": "claude-sonnet-subagent"
+}

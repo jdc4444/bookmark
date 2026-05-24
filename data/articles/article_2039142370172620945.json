@@ -1,0 +1,28 @@
+{
+  "headline": "A Thin Pointer to YouTube Lectures, Context Unknown",
+  "lede": "A brief post from @kristinelizx notes that the previous year's lectures — described as \"stacked,\" meaning high-quality or impressively curated — are available on YouTube. The tweet reads as a follow-up to something already in progress: a thread, a recommendation list, or an ongoing discussion whose topic is not recoverable from the post alone.",
+  "body": "The tweet functions as a caption rather than a claim. It adds a data point — the prior year's content is archived on YouTube — but does not name the subject, course, speaker, or channel. The word *stacked*, in contemporary internet usage, signals that the material is dense with value: well-sourced, substantive, not padded.\n\nWithout the surrounding thread or a working link to the YouTube content, the specific domain of these lectures — whether mathematics, economics, computer science, or something else entirely — cannot be determined. The research sources returned no useful identifying information, and the poster's prior tweet referenced by the URL was inaccessible.\n\nWhat can be said: the poster treats this as a recommendation, not a discovery. The phrasing \"also stacked\" implies a parallel set of current-year lectures has already been praised, and this is an addendum pointing readers toward the older archive. The recommendation is implicit but genuine.",
+  "tickers": [],
+  "poster": "kristinelizx",
+  "concepts": [
+    {
+      "key": "stacked-slang",
+      "term": "stacked (internet slang)",
+      "definition": "Used colloquially to mean that something is impressively dense with quality content — packed with substance, well-curated, or unusually high in value relative to expectations. It carries an endorsement: the thing described is worth your time."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": "This appears to be part of a longer thread or reply chain. The phrase \"also stacked\" strongly implies a preceding post already recommended current-year lectures; this post adds that last year's equivalent content is on YouTube. The full thread context is not recoverable from available sources.",
+  "sources": [
+    {
+      "url": "https://x.com/kristinelizx/status/1860433935953723652",
+      "title": "kristinelizx prior tweet",
+      "note": "Attempted to retrieve context for the thread — page was inaccessible due to JavaScript requirement"
+    }
+  ],
+  "bookmark_id": "2039142370172620945",
+  "generated_at": "2026-05-06T19:44:10.484570Z",
+  "backend": "claude"
+}

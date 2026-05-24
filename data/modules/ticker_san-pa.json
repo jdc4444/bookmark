@@ -1,0 +1,32 @@
+{
+  "key": "SAN.PA",
+  "name": "Sanofi S.A.",
+  "exchange": "Euronext Paris",
+  "blurb": "Sanofi S.A. is a major French multinational pharmaceutical and healthcare company listed on Euronext Paris under the ticker SAN. It operates across the global healthcare sector, developing, manufacturing, and marketing prescription medicines, vaccines, and consumer health products. The company is one of the largest pharmaceutical groups in Europe and ranks among the top global players by market capitalization, which stood near €107 billion based on available source data.",
+  "recent": "Not enough public information — the provided research sources contain only quote-page snippets and do not include specific news, earnings releases, or price-action narratives from the past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/SAN.PA/",
+      "title": "Sanofi (SAN.PA) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/SAN?countrycode=fr",
+      "title": "SAN Stock Price | Sanofi S.A. Stock Quote (France: Euronext Paris) - MarketWatch"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/SAN:EPA",
+      "title": "Sanofi SA (SAN) Stock Price & News - Google Finance"
+    },
+    {
+      "url": "https://stockmarketwatch.com/stock/SAN.PA",
+      "title": "SAN.PA Stock Quote - SAN.PA Stock Price Today - Stock Market Watch"
+    },
+    {
+      "url": "https://www.markets.com/quote/san_pa",
+      "title": "SAN Stock Price, Quote and News - Markets.com"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:01:58.891733Z",
+  "backend": "claude-sonnet-subagent"
+}

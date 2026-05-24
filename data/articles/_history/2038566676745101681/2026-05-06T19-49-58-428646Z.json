@@ -1,0 +1,44 @@
+{
+  "headline": "Open Source Game Engines Have Stopped Being a Compromise",
+  "lede": "For years, developers choosing an open source game engine made a trade-off: community goodwill and transparency in exchange for missing features, slower tooling, or weaker commercial support. Will Eastcott, co-founder of PlayCanvas, argues that trade-off is now defunct. Open source, he contends, has become a structural advantage, not a concession.",
+  "body": "The conventional wisdom held that studios choosing open source engines — rather than commercial platforms like Unity or Unreal Engine — accepted some friction in exchange for cost savings or philosophical alignment. Proprietary engines offered mature editor tooling, dedicated support contracts, and years of production-hardened rendering code. Open source alternatives were respectable but second-tier.\n\nEastcott's claim is that this framing is obsolete. Open development, he argues, makes engines *fundamentally better* — not merely adequate. The logic is familiar from other domains: many contributors catching bugs, public roadmaps attracting talent, no vendor lock-in discouraging deep integration. But in game engines specifically, the compounding effect of community-contributed platform targets, shaders, and editor plugins has become genuinely difficult for a closed team to replicate.\n\n**PlayCanvas** is a WebGL/WebGPU game engine written in JavaScript, designed to run games directly in the browser without plugins. Its open source model means developers can inspect and modify the renderer, submit fixes upstream, and deploy without royalties. The attached \"Runnable link\" in the tweet — a live interactive demo — illustrates one of the engine's signature advantages: instant shareability via URL, something inherently suited to a web-native, open stack.\n\nThe broader landscape supports at least part of the argument. Godot, another open source engine, saw substantial growth after Unity's controversial 2023 runtime-fee announcement drove developers to evaluate alternatives. That episode demonstrated how proprietary licensing terms — opaque and revisable at the vendor's discretion — carry real risk that open source licenses structurally cannot. Whether that makes open source engines *better* in an absolute sense, or simply better on a risk-adjusted basis, is a distinction Eastcott elides but readers should hold onto.",
+  "tickers": [],
+  "poster": "willeastcott",
+  "concepts": [
+    {
+      "key": "webgl-webgpu",
+      "term": "WebGL / WebGPU",
+      "definition": "Browser-standard graphics APIs that let web pages render hardware-accelerated 3D graphics without plugins. WebGL is the older, widely-supported standard; WebGPU is its modern successor with lower CPU overhead and compute-shader support. Game engines built on these APIs run natively in any modern browser."
+    },
+    {
+      "key": "open-source-engine",
+      "term": "Open source game engine",
+      "definition": "A game development framework whose source code is publicly available, typically under a permissive or copyleft license. Developers can inspect internals, contribute changes, and ship games without paying royalties — in contrast to commercial engines that charge licensing fees or revenue percentages."
+    },
+    {
+      "key": "vendor-lock-in",
+      "term": "Vendor lock-in",
+      "definition": "A situation where a product or project becomes so dependent on a proprietary platform that switching away is prohibitively costly. In game development it can manifest as proprietary asset formats, editor workflows, or licensing terms that cannot be renegotiated once a studio has shipped on them."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "playcanvas-engine",
+      "url": "https://github.com/playcanvas/engine",
+      "summary": "The PlayCanvas WebGL/WebGPU game engine, written in JavaScript and TypeScript. It provides a scene graph, physically-based rendering, physics integration, and an asset pipeline targeting browser deployment. Because it runs in the browser, games built with it are shareable via a URL with no install step."
+    }
+  ],
+  "fact_check": "The research sources provided did not contain information about PlayCanvas or open source game engines, so specific performance or market-share claims cannot be independently verified here. Eastcott's core assertion — that open source engines are now superior rather than merely acceptable — is a qualitative argument, not an empirical one, and reasonable experts disagree. Unreal Engine, which is source-available but not fully open source, remains the dominant choice for high-fidelity AAA production. The claim is best read as a strong industry opinion from an interested party rather than a settled verdict.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/willeastcott/status/2038566676745101681",
+      "title": "Will Eastcott on open source engines and PlayCanvas",
+      "note": "Primary bookmark — the argument being analyzed"
+    }
+  ],
+  "bookmark_id": "2038566676745101681",
+  "generated_at": "2026-05-06T19:49:58.428646Z",
+  "backend": "claude"
+}

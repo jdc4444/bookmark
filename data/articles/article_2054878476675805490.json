@@ -1,0 +1,156 @@
+{
+  "headline": "Three Semiconductor Runners Each Sit 40% Above Their Floor",
+  "lede": "A trader notes that SanDisk, Micron Technology, and Intel — three of the semiconductor sector's most explosive 2025-2026 performers — each trade 40 to 45 percent above their nearest technical support levels. The observation is not a sell call; it is a map of how far each stock could fall before finding a historical floor. For investors riding the AI memory supercycle, the gap is bracing.",
+  "body": "The tweet is a **technical risk calibration**, not a prediction. @degentradingLSD is remapping the downside on three stocks that have become momentum darlings of the AI infrastructure trade — flagging that the nearest *support levels*, price zones where historical buying has previously arrested declines, lie a long way down.\n\nSanDisk (SNDK), spun off from Western Digital (WDC) in February 2025 as a *pure-play* NAND flash memory company (one focused exclusively on a single product category), has been the sector's most surreal performer: up more than 4,000% since the spinoff, trading above $1,400 in mid-May 2026. The catalyst is structural — AI inference workloads demand enormous high-capacity *NAND flash* storage, and SanDisk's *QLC* (quad-level cell) technology has positioned it as the supply-side beneficiary of a chronically undersupplied market. At an *RSI* near 75-80 and trading more than twice its 100-day moving average, the stock is technically extended. The $770 support the tweet cites sits close to that long-term moving average floor — roughly 45% below current levels.\n\nMicron Technology (MU) has returned roughly 740% from its May 2025 lows, a run powered by its pivot from commodity *DRAM* toward *high-bandwidth memory* (HBM) — stacked memory chips designed to sit alongside AI accelerators at pricing multiples well above standard memory. Fiscal Q2 2026 revenue came in at $23.9 billion, up 196% year-over-year, and the company's entire 2026 HBM4 output is sold out under binding agreements tied to Nvidia's (NVDA) Vera Rubin GPU platform. Support at $480 corresponds to the February–March 2026 consolidation zone, before the *HBM4* production ramp fully absorbed into the share price.\n\nIntel Corporation (INTC) is the contrarian name in this trio. Unlike the memory companies riding a structural demand tailwind, Intel's run from a 52-week low near $19 to roughly $120 is a restructuring and mean-reversion trade. A Q1 2026 earnings beat — data-centre revenue up 22% year-over-year, adjusted EPS of $0.29 against a near-zero consensus — sent shares up 20%-plus in after-hours trading. The GAAP picture remains complicated: a $4.07 billion goodwill impairment charge produced a net loss of $3.73 billion, and free cash flow was negative. Support at $72 is approximately where the stock traded before the Q1 earnings surge.\n\n\"The trend is your friend until it bends\" is a cornerstone aphorism of *momentum trading* — the philosophy that a strongly trending asset tends to keep trending, making it statistically rational to follow rather than fight that trend, right up until a definitive reversal signal appears. By invoking it here, the poster is not advising anyone to sell; he is reminding that when three-digit-percentage rallies eventually correct, the distance back to earth can be vertiginous.",
+  "tickers": [
+    "SNDK",
+    "WDC",
+    "MU",
+    "NVDA",
+    "INTC"
+  ],
+  "companies": [
+    {
+      "name": "SanDisk Corporation",
+      "ticker": "SNDK"
+    },
+    {
+      "name": "Western Digital",
+      "ticker": "WDC"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Intel Corporation",
+      "ticker": "INTC"
+    }
+  ],
+  "poster": "degentradingLSD",
+  "concepts": [
+    {
+      "key": "support-level",
+      "term": "Support Level",
+      "definition": "A price zone where a stock has historically attracted enough buying interest to halt or reverse a decline, acting as an informal floor. When a stock pulls back to support, traders expect buyers to step in and defend the level. A decisive break below support is typically treated as a bearish signal that can accelerate selling."
+    },
+    {
+      "key": "pure-play",
+      "term": "Pure Play",
+      "definition": "A company that operates in a single, narrowly defined business segment, making it a clean bet on that industry's performance. Investors prize pure-play status because it makes valuation, benchmarking, and portfolio allocation more straightforward. SanDisk's 2025 spinoff from Western Digital transformed it from a diversified hardware company into a pure-play flash memory vehicle."
+    },
+    {
+      "key": "nand-flash",
+      "term": "NAND Flash Memory",
+      "definition": "A form of non-volatile semiconductor storage that retains data without power. It underpins solid-state drives, smartphone storage, and data-centre infrastructure. NAND pricing follows intense boom-bust cycles tied to supply build-out and demand waves, with the current AI-driven surge representing one of the more dramatic upcycles in the industry's history."
+    },
+    {
+      "key": "qlc",
+      "term": "QLC (Quad-Level Cell)",
+      "definition": "A NAND flash architecture that stores four bits of data per memory cell, versus two bits in MLC or three in TLC. QLC delivers higher storage density and lower cost per gigabyte but historically at lower endurance and write speed. SanDisk's BiCS8 QLC technology has closed much of the endurance gap, enabling deployment in enterprise data-centre drives."
+    },
+    {
+      "key": "rsi",
+      "term": "RSI (Relative Strength Index)",
+      "definition": "A momentum oscillator that measures the speed and magnitude of a security's recent price changes, scaled from 0 to 100. Readings above 70 conventionally signal an overbought condition; readings below 30 signal oversold. It is a timing tool, not a valuation one — an overbought stock can remain overbought for extended periods in a strong trend."
+    },
+    {
+      "key": "dram",
+      "term": "DRAM (Dynamic Random-Access Memory)",
+      "definition": "The primary working memory in computers, servers, and AI accelerators. Unlike NAND flash, DRAM is volatile — it loses data when power is cut — and far faster. It is manufactured at scale primarily by Samsung, SK Hynix, and Micron, making the market structurally oligopolistic and highly cyclical."
+    },
+    {
+      "key": "hbm",
+      "term": "High-Bandwidth Memory (HBM)",
+      "definition": "A class of DRAM physically stacked in multiple layers connected by microscopic through-silicon vias and mounted directly alongside a processor on a shared interposer. This arrangement dramatically increases memory bandwidth while reducing latency and power consumption — essential for large AI model inference and training. Pricing runs at multiples of standard DDR5 memory."
+    },
+    {
+      "key": "hbm4",
+      "term": "HBM4",
+      "definition": "The fourth generation of the HBM standard, using a 12-high stack configuration and a wider interface to the host processor for higher bandwidth and larger capacity than its predecessor HBM3E. Micron entered high-volume HBM4 production in early 2026 for Nvidia's Vera Rubin GPU platform, with the company's entire 2026 allocation sold out under binding agreements."
+    },
+    {
+      "key": "momentum-trading",
+      "term": "Momentum Trading",
+      "definition": "An investment strategy that buys assets showing recent strong performance and avoids or sells assets showing weakness, on the empirical observation that trends persist. It stands in contrast to value investing, which seeks assets trading below intrinsic worth. Momentum strategies work well in trending markets and can fail abruptly in reversals — the precise risk the tweet is flagging."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.fool.com/investing/2026/05/12/sandisk-just-went-vertical-is-the-stock-now-too-ho/",
+      "title": "SanDisk Just Went Vertical — Is the Stock Now Too Hot to Handle?",
+      "note": "Motley Fool analysis of SNDK rally and RSI overbought signals, May 12 2026"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/08/micron-rockets-11-sandisk-rallies-11-western-digital-up-3-on-ai-memory-supercycle-bull-case/",
+      "title": "Micron Rockets 11%, SanDisk Rallies 11% — AI Memory Supercycle Bull Case",
+      "note": "247 Wall St. on the May 8 2026 AI memory sector rally"
+    },
+    {
+      "url": "https://www.techi.com/sandisk-sndk-stock-supercycle/",
+      "title": "SanDisk Stock Up 30x in One Year: NAND Supercycle",
+      "note": "Overview of SanDisk rally drivers and the NAND supercycle thesis"
+    },
+    {
+      "url": "https://invezz.com/news/2026/05/12/sandisk-stock-is-in-a-bull-run-but-rsi-says-a-pullback-may-be-near/",
+      "title": "SanDisk Stock Is in a Bull Run But RSI Says a Pullback May Be Near",
+      "note": "Invezz technical analysis and RSI reading for SNDK"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/13/will-micron-be-a-trillion-dollar-stock-by-2030-the-answer-is-yes/",
+      "title": "Will Micron Be a Trillion Dollar Stock By 2030?",
+      "note": "247 Wall St. bull case for MU including HBM4 demand outlook"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/04/23/micron-is-up-68-ytd-as-hbm-demand-explodes-is-the-memory-rally-sustainable/",
+      "title": "Micron Is Up 68% YTD as HBM Demand Explodes",
+      "note": "247 Wall St. on Micron's rally and HBM sustainability question"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/03/27/micron-just-started-mass-producing-hbm4-for-nvidia/",
+      "title": "Micron Just Started Mass-Producing HBM4 for Nvidia Vera Rubin",
+      "note": "Motley Fool on Micron HBM4 production ramp for Nvidia Vera Rubin"
+    },
+    {
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+      "title": "Micron in High-Volume Production of HBM4 for Nvidia Vera Rubin",
+      "note": "Official Micron IR release confirming HBM4 mass production milestone"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/04/23/intel-intc-q1-2026-earnings-report.html",
+      "title": "Intel Q1 2026 Earnings Report",
+      "note": "CNBC coverage of Intel Q1 2026 beat and after-hours reaction"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/04/intel-stock-has-quintupled-from-lows-is-the-easy-money-already-gone/",
+      "title": "Intel Stock Has Quintupled From Lows",
+      "note": "247 Wall St. on Intel's run from lows and forward valuation questions"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/04/30/is-intel-stock-heading-to-150-in-2026/",
+      "title": "Is Intel Stock Heading to $150 in 2026?",
+      "note": "Motley Fool bull and bear case for INTC following Q1 beat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/sndk/forecast/",
+      "title": "SNDK Analyst Forecasts",
+      "note": "Aggregated analyst price targets and ratings for SanDisk"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/mu/forecast/",
+      "title": "MU Analyst Forecasts",
+      "note": "Aggregated analyst price targets and ratings for Micron"
+    }
+  ],
+  "bookmark_id": "2054878476675805490",
+  "generated_at": "2026-05-15T08:27:50.748458Z",
+  "backend": "claude-sonnet-subagent"
+}

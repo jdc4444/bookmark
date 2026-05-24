@@ -1,0 +1,24 @@
+{
+  "key": "4971.T",
+  "name": "MEC Company Ltd.",
+  "exchange": "TSE",
+  "blurb": "MEC Company Ltd. (TSE: 4971) is a Japanese specialty chemical manufacturer focused exclusively on surface-treatment chemicals for printed circuit boards and IC substrates. Its core products are copper micro-etch and surface-treatment solutions — chemical processes that roughen copper surfaces to improve adhesion between copper traces and the dielectric layers built up in multi-layer PCBs and ABF substrates. MEC holds dominant market share in the copper-etchant chemistry segment for high-end PCB production, a niche with high switching costs and limited qualified alternatives, giving it a degree of pricing power unusual for a process-chemicals company.",
+  "recent": "MEC reported FY2025 revenue of ¥20.95 billion, up 14.9% year-over-year, driven by accelerating substrate fabrication volumes tied to AI server demand. The company's earnings reportedly delivered 313% year-on-year growth in a recent reporting period, reflecting both volume leverage and improved mix toward higher-margin substrate-grade chemistry. The stock price reached approximately ¥8,670 as of early May 2026.",
+  "sources": [
+    {
+      "url": "https://www.tradingview.com/symbols/TSE-4971/",
+      "title": "MEC Company Ltd. (TSE:4971) — TradingView"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/tyo/4971/",
+      "title": "MEC Company (TYO:4971) — Stock Analysis"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/4971.T/",
+      "title": "MEC Company Ltd. (4971.T) — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

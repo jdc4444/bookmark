@@ -1,0 +1,24 @@
+{
+  "key": "mrmikeinvesting",
+  "display_name": "@MrMikeInvesting",
+  "blurb": "A retail-focused stock-promotion account on X that publishes periodic lists of \"top picks\" — typically ten names spanning small-cap growth, AI-adjacent, and speculative sectors. The account presents itself as a stock and options trader and founder of \"Mikes Trading.\" Posts are characterised by confident price targets, urgency framing (\"don't miss out\"), and recurring disclaimers that the author is not a financial adviser. The annual picks-list format — complete with claims of millionaire-making results from the prior year's edition — is a signature device. No audited track record is publicly available.",
+  "credibility_note": "The account makes unverifiable claims about returns from prior picks lists. Price targets are stated without disclosed methodology. The bottom portion of \"top 10\" lists is routinely withheld, a pattern common to accounts that monetise exclusivity through paid communities or follow-gating. Posts contain standard retail-influencer disclaimers. Treat all claims as promotional rather than analytical until independently verified.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/MrMikeInvesting"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/MrMikeInvesting/status/2011292180573266365",
+      "title": "2026 Top 10 Picks post — X"
+    },
+    {
+      "url": "https://x.com/MrMikeInvesting/status/1940748161322307937",
+      "title": "July 2025 picks post — X"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

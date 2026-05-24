@@ -1,0 +1,24 @@
+{
+  "key": "VPG",
+  "name": "Vishay Precision Group, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Vishay Precision Group is a manufacturer of precision sensors, force/torque measurement systems, and weighing instruments serving industrial, aerospace, and defense markets. The company specializes in high-accuracy measurement components including foil resistors and load cells used in demanding environments. VPG has carved out a niche as a supplier of precision parts to advanced manufacturing sectors, increasingly including robotics and automation. Its products are critical in applications where measurement accuracy is non-negotiable.",
+  "recent": "VPG shares surged approximately 30% following a strong earnings beat that exceeded analyst expectations. The company announced deals to supply components to robot makers, with investor attention drawn to its exposure to AI infrastructure, data centers, and industrial robotics themes. The earnings result and new customer wins marked a significant near-term catalyst for the stock.",
+  "sources": [
+    {
+      "url": "https://www.investors.com/news/tech-stocks-vpg-vishay-precision-group-data-centers-ai-robots/",
+      "title": "Supplier Of Precision Parts VPG Soars 30% After Smashing Earnings — Investor's Business Daily"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/VPG/",
+      "title": "Vishay Precision Group (VPG) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/vishay-precision-vpg-report-earnings-213255911.html",
+      "title": "Vishay Precision (VPG) To Report Earnings Tomorrow: Here Is What To Expect — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:34:19.314914Z",
+  "backend": "claude-sonnet-subagent"
+}

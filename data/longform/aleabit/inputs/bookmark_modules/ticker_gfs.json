@@ -1,0 +1,24 @@
+{
+  "key": "GFS",
+  "name": "GlobalFoundries Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "GlobalFoundries Inc. (NASDAQ: GFS) is the world's third-largest semiconductor foundry by revenue, operating advanced manufacturing facilities in the United States (Fab 8 in Malta, NY; Vermont), Germany (Dresden), and Singapore. Unlike TSMC and Samsung, GlobalFoundries exited the leading-edge node race in 2018 and now focuses on differentiated specialty processes: silicon photonics, silicon-germanium (SiGe), RF CMOS, FD-SOI (fully depleted silicon-on-insulator), and embedded non-volatile memory. This positions GF as a complement — and sometimes a competitor — to Tower Semiconductor in the specialty foundry space.",
+  "recent": "GF reported FY2025 revenue of $6.79 billion (up 1% year-over-year) with gross margin improving 360 basis points to 29% and diluted EPS of $1.72. Silicon photonics revenue exceeded $200 million in 2025 and is expected to nearly double in 2026, with management guiding toward a $1 billion annual run rate by end-2028. In June 2025, the company announced a $16 billion US investment plan anchored by its New York and Vermont fabs. GF also finalised a $1.5 billion CHIPS Act direct-funding agreement with the US government. In January 2026, GF agreed to acquire Synopsys' ARC Processor IP unit, targeting physical-AI embedded applications.",
+  "sources": [
+    {
+      "url": "https://gf.com/gf-press-release/globalfoundries-announces-16b-u-s-investment-to-reshore-essential-chip-manufacturing-and-accelerate-ai-growth/",
+      "title": "GlobalFoundries Announces $16B US Investment — GlobalFoundries"
+    },
+    {
+      "url": "https://www.powersemiconductorsweekly.com/2026/02/11/globalfoundries-reports-strong-q4-and-full-year-2025-results-authorizes-500-million-share-buyback/",
+      "title": "GlobalFoundries Reports Strong Q4 and FY2025 Results — Power Semiconductors Weekly"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/GFS/",
+      "title": "GlobalFoundries (GFS) — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

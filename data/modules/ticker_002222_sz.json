@@ -1,0 +1,17 @@
+{
+  "key": "002222.SZ",
+  "name": "CASTECH Inc.",
+  "exchange": "SZSE",
+  "blurb": "CASTECH Inc. (SZSE: 002222), founded in Fuzhou, Fujian in 1990 and listed in Shenzhen in 2008, is the world's largest mass-production supplier of several nonlinear optical crystals, including LBO (lithium triborate), BBO (beta-barium borate), KTP (potassium titanyl phosphate), and Nd:YVO4 (neodymium-doped yttrium orthovanadate). These materials are the seed elements inside virtually every industrial solid-state laser, frequency-doubling system, and scientific Q-switched laser in the world — a defensible position built over three decades of process know-how. The company also produces precision optical components and laser devices used in semiconductor equipment, AR/VR, radar, LiDAR, optical communications, biomedicine, and quantum information research. CASTECH appeared in Coherent Corp.'s 2022 10-K under Photonic Solutions competitors.",
+  "recent": "CASTECH reported 2024 revenue of 875.72 million CNY (up 12% year-over-year) with net profit of 218.79 million CNY (up 4.7%). The current share price is approximately 92 CNY with a market capitalisation near 33 billion CNY. The company participated in Laser World of Photonics China 2026 and OPIE 2026, showcasing expansions in semiconductor-equipment and AR-related optical components — sectors that provide incremental growth atop its core laser crystal business.",
+  "sources": [
+    {"url": "https://www.castech.com/intro/Company-Profile-20.html", "title": "CASTECH Company Profile — castech.com"},
+    {"url": "https://finance.yahoo.com/quote/002222.SZ/", "title": "CASTECH Inc. (002222.SZ) — Yahoo Finance"},
+    {"url": "https://stockanalysis.com/quote/she/002222/", "title": "CASTECH (SHE:002222) Stock Price & Overview — StockAnalysis"},
+    {"url": "https://www.castech.com/news_detail/21.html", "title": "CASTECH at Laser World of Photonics China 2026"},
+    {"url": "https://www.investing.com/equities/castech-inc-a", "title": "CASTECH Inc. Stock Price — Investing.com"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T22:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

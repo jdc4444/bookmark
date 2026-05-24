@@ -1,0 +1,6 @@
+7092:7133: execution error: No Safari tab found for x.com/i/bookmarks (-2700)
+Opening https://x.com/i/bookmarks in Safari...
+Loaded 934 known IDs from data/x-bookmarks.json for early-stop check.
+Captured 8 Safari bookmarks (0 with media, 0 media late-fills)...
+Wrote Safari bookmark archive to data/x-bookmarks.fresh.json
+Error: [Errno 21] Is a directory: '.'

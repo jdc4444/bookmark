@@ -1,0 +1,146 @@
+{
+  "headline": "The Geometry Problem That Stops Game Waves From Breaking",
+  "lede": "Every ocean in every game is, at its core, a lie of a particular kind: the water surface never actually folds over itself. A developer building a surfing entry for VibeJam 2026 ran into the topological wall that underlies that deception — and spent several days finding a way around it.",
+  "body": "VibeJam 2026 ran April 1 through May 1 under the banner of *vibe coding*, Andrej Karpathy's term for directing AI tools to write the bulk of your code while you retain creative control. Organised by indie entrepreneur Pieter Levels and sponsored by Cursor — the AI-first code editor — the jam required that at least ninety percent of code be AI-written and offered a $40,000 prize pool. The developer known as @sweriko, whose prior work includes a WebGPU crowd-simulation renderer and a browser-native neural motion-matching port, entered with a surfing game and immediately encountered what one 2024 academic paper called an open problem in real-time graphics.\n\nThe problem sits in the geometry of water itself. The two techniques that power virtually every ocean in a game — *Gerstner waves* (a physics-inspired method that displaces mesh vertices both vertically and horizontally to approximate the peaked, choppy look of real water) and *FFT ocean* (a statistically-based approach using fast Fourier transforms over a wave-energy spectrum) — share a fundamental limitation: they model the surface as a **height field**, a grid in which each horizontal coordinate maps to exactly one elevation. This works for open-ocean swells. But a breaking barrel wave — the hollow tube surfers call the green room — requires water to curl back over itself, so that above a single point on the seafloor there are simultaneously two or more surface positions: the advancing crest, the curving underside of the lip, the enclosed air pocket. A height field literally cannot encode this. The NVIDIA (NVDA) GPU Gems chapter on Gerstner waves noted as early as 2004 that the steepness parameter must be capped to prevent the crest from looping over itself — a feature, not a bug, in any engine that wants stable geometry. FFT ocean reaches the same wall: it detects the *Jacobian singularity* — the moment horizontal displacement self-intersects — and uses it only to trigger a foam texture, not a geometry fold. The barrel never forms.\n\nsweriko's solution is a two-layer compositor. The open ocean continues to run on the FFT model. Breaking waves are treated as separate geometry events: a WaveManager schedules each break as a time-parameterised sequence, and a waveProfile shader function transitions a mesh cross-section from a *trochoidal* swell shape into a breaking one. The shader explicitly models the back face, the steepening front, and a curling lip whose rotation angle approaches π radians — a full inward fold — while computing a separate barrel interior radius. Inside the footprint of a breaking wave the FFT surface is suppressed and replaced by this parametric geometry; outside it the ocean runs normally. Four archetypes are supported: clean right, clean left, A-frame, and closeout.\n\nThe broader picture is that sweriko's approach joins a small literature of imperfect but ingenious workarounds. A 2024 ACM paper proposed topology-changing meshes for massive open-ocean games; Matthias Müller combined *shallow water equations* with particle spray and approached but never formed a true barrel cavity. The Crest Ocean System, the dominant ocean asset for Unity Technologies (U), explicitly documents that modelling realistic shoreline waves is an open problem and substitutes foam where breaking should occur. What distinguishes sweriko's demo, if the technique holds, is that it constructs the actual geometry of the curl rather than painting around the space where it should be.",
+  "tickers": [
+    "NVDA",
+    "U"
+  ],
+  "companies": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Unity Technologies",
+      "ticker": "U"
+    },
+    {
+      "name": "Cursor",
+      "ticker": null
+    }
+  ],
+  "poster": "sweriko",
+  "concepts": [
+    {
+      "key": "vibe-coding",
+      "term": "vibe coding",
+      "definition": "A development practice coined by AI researcher Andrej Karpathy in February 2025, in which the programmer directs an AI assistant to write the bulk of the code while retaining creative and architectural control. The programmer describes intent; the machine produces implementation. Collins English Dictionary named it Word of the Year 2025."
+    },
+    {
+      "key": "height-field",
+      "term": "height field",
+      "definition": "A surface representation in which every horizontal (X, Y) coordinate maps to exactly one elevation (Z) value. Efficient for terrain and calm water, but mathematically incapable of representing any surface that folds back on itself — such as a breaking wave's curling lip and the hollow barrel behind it."
+    },
+    {
+      "key": "gerstner-waves",
+      "term": "Gerstner waves",
+      "definition": "A physics-inspired wave model that displaces mesh vertices both vertically and horizontally, producing the peaked crests and broad troughs characteristic of real ocean swells. First adapted for real-time games in the 2004 NVIDIA GPU Gems collection. The steepness parameter must be capped to prevent the crest from looping over itself — precisely the topology a barrel wave requires."
+    },
+    {
+      "key": "fft-ocean",
+      "term": "FFT ocean",
+      "definition": "A statistically-based ocean simulation that uses the inverse fast Fourier transform over a wave-energy spectrum to generate realistic open-water surface motion. Like Gerstner waves, it represents the ocean as a height field and cannot produce self-intersecting geometry."
+    },
+    {
+      "key": "barrel-wave",
+      "term": "barrel wave",
+      "definition": "A type of breaking wave in which the crest pitches forward to form a hollow cylindrical tube — the 'green room' of surfing. Generating a barrel in real-time 3D requires the water surface to overhang and curve back on itself, which standard height-field ocean shaders cannot represent."
+    },
+    {
+      "key": "jacobian-singularity",
+      "term": "Jacobian singularity",
+      "definition": "In ocean simulation, the moment the horizontal displacement field self-intersects — mathematically, when the Jacobian determinant of the displacement mapping reaches zero. It marks the physical threshold at which a real wave would break, but in height-field ocean systems it is used only as a foam trigger, never as a geometry event."
+    },
+    {
+      "key": "trochoidal-wave",
+      "term": "trochoidal wave",
+      "definition": "A wave whose surface profile traces the path of a point on the rim of a rolling circle (a trochoid). Closely related to Gerstner waves; the cross-section is asymmetric with a sharp crest and a broad trough, matching real deep-water wave profiles well."
+    },
+    {
+      "key": "a-frame-wave",
+      "term": "A-frame wave",
+      "definition": "A wave that breaks symmetrically in both directions from a central peak, forming an A-shape as seen from the shore. Common at reef and sandbar breaks; offers surfers the choice to ride left or right from the same takeoff point."
+    },
+    {
+      "key": "closeout-wave",
+      "term": "closeout",
+      "definition": "A wave that breaks all at once across its entire width, offering no open face for a surfer to ride. Considered undesirable for surfing but common in certain beach-break conditions. In wave-rendering systems it is one of the standard archetypes alongside lefts, rights, and A-frames."
+    },
+    {
+      "key": "shallow-water-equations",
+      "term": "shallow water equations",
+      "definition": "A simplified fluid-dynamics model that assumes water depth is much smaller than horizontal scale. Computationally tractable for real-time simulation of waves near shore, but still grounded in a height-field formulation and therefore unable to produce the overhanging geometry of a barrel wave."
+    },
+    {
+      "key": "wavemanager",
+      "term": "WaveManager",
+      "definition": "In sweriko's breaking-waves demo, the runtime component that schedules and positions individual breaking-wave events on top of the FFT ocean. Each event is a time-parameterised geometry sequence that suppresses the underlying height-field surface within its footprint and substitutes the parametric breaking geometry."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "sweriko-breaking-waves-demo",
+      "url": "https://github.com/sweriko/breaking-waves-demo",
+      "summary": "A WebGPU/Three.js demo built for VibeJam 2026 that composites a parametric breaking-wave layer on top of an FFT ocean. The waveProfile shader function explicitly models the curling lip, barrel interior radius, and foam closeout of a plunging breaker — the geometry that standard ocean shaders omit. Pushed publicly on May 2, 2026, one day after the jam deadline."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": "The tweet opens a technical breakdown thread in which @sweriko explains the approach used to simulate breaking and barrel waves for a VibeJam 2026 surfing game. The thread content could not be retrieved directly, but the associated GitHub repository (sweriko/breaking-waves-demo) appears to be the primary artefact the breakdown describes, covering the FFT-plus-parametric-compositor architecture and the four wave archetypes.",
+  "sources": [
+    {
+      "url": "https://vibej.am/2026/",
+      "title": "VibeJam 2026 — Official Site",
+      "note": "Rules, prize pool, sponsor list, and vibe-coding definition for the 2026 jam"
+    },
+    {
+      "url": "https://x.com/karpathy/status/1886192184808149383",
+      "title": "Andrej Karpathy — Original 'vibe coding' tweet",
+      "note": "Coinage and first definition of the term"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding",
+      "title": "Wikipedia: Vibe coding",
+      "note": "History, adoption statistics, and Collins Word of the Year designation"
+    },
+    {
+      "url": "https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-1-effective-water-simulation-physical-models",
+      "title": "GPU Gems Ch.1: Effective Water Simulation from Physical Models (NVIDIA, 2004)",
+      "note": "Canonical source for Gerstner wave steepness constraints and the loop-over warning"
+    },
+    {
+      "url": "https://dl.acm.org/doi/fullHtml/10.1145/3641233.3664308",
+      "title": "ACM 2024: Simulation and Representation of Topology-Changing Rolling Waves for Massive Open Ocean Games",
+      "note": "Directly names height-field displacement maps as the barrier to wave topology change"
+    },
+    {
+      "url": "https://sbgames.org/papers/sbgames10/computing/full/full4.pdf",
+      "title": "SBGames 2010: A Model For Real Time Ocean Breaking Waves Animation",
+      "note": "Frames the breaking-wave challenge as a topology representation problem, not a compute problem"
+    },
+    {
+      "url": "https://github.com/sweriko/breaking-waves-demo",
+      "title": "sweriko/breaking-waves-demo (GitHub)",
+      "note": "Source code for the VibeJam 2026 surfing game; primary evidence for the compositor architecture"
+    },
+    {
+      "url": "https://crest.readthedocs.io/en/latest/user/shallows-and-shorelines.html",
+      "title": "Crest Ocean System — Shorelines documentation",
+      "note": "Industry-standard Unity ocean asset explicitly admitting realistic shoreline breaking waves remain an open problem"
+    },
+    {
+      "url": "https://matthias-research.github.io/pages/publications/breakingWaves.pdf",
+      "title": "Matthias Müller: Real-time Breaking Waves for Shallow Water Simulations",
+      "note": "SWE-based approach that approaches but does not form a true barrel cavity"
+    },
+    {
+      "url": "https://discussions.unity.com/t/realistic-breaking-wave/748291",
+      "title": "Unity Discussions: Realistic Breaking Wave",
+      "note": "Developer community corroboration that standard ocean assets cannot produce barrel geometry"
+    }
+  ],
+  "bookmark_id": "2041609088002392434",
+  "generated_at": "2026-05-07T08:00:17.873906Z",
+  "backend": "claude-sonnet-subagent"
+}

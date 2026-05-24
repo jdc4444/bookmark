@@ -1,0 +1,48 @@
+{
+  "headline": "Judgment Loops Wound; Deep Feeling Without Them Heals",
+  "lede": "A brief reply from consciousness researcher @algekalipso condenses a distinction clinical psychology has taken years to articulate: not all emotional loops are the same. Self-reinforcing judgment loops — where a feeling triggers self-criticism, which amplifies the feeling — are a documented engine of mental disorder. Feeling deeply, without that evaluative overlay, is something else entirely.",
+  "body": "The research on **self-reinforcing judgment loops** is fairly settled. A cognitive loop, as the literature defines it, is a cyclical pattern in which perception, interpretation, and reaction feed back into each other, largely below conscious awareness. When that loop is laced with self-evaluation — *is this feeling appropriate? Why can't I stop? Am I broken?* — the evaluation intensifies the original feeling, which demands more evaluation, and so on. This is the machinery behind rumination, which underlies depression and anxiety disorders. The loop is not the feeling. It is the judgment attached to the feeling.\n\nGregg Henriques, writing in *Psychology Today*, calls these *neurotic loops*: patterns in which the self-system's monitoring function turns against its own emotional states, generating meta-emotions — anxiety about anxiety, guilt about anger — that are often more disabling than whatever sparked them. The brain's default-mode network, active roughly half of waking hours in self-generated mental narrative, is the habitat of these spirals. They are efficient in the same way a drain is efficient.\n\nThe alternative @algekalipso names — **feeling deeply without judgment** — is where therapies across very different traditions tend to converge. Acceptance and commitment therapy (*ACT*) calls it *defusion*: loosening the grip of evaluative language around inner experience so that a feeling can arise, crest, and pass without the self-monitoring that would otherwise steer it into a loop. Mindfulness traditions call it non-judgmental awareness. Psychedelic-assisted therapy, with its emphasis on surrender over resistance, relies on the same principle. The common element is exposure without avoidance and without meta-commentary.\n\nThe practical upshot is tidy but not easy: the same capacity to feel intensely that, combined with harsh self-judgment, produces a neurotic spiral can, stripped of that judgment, produce integration and relief. The variable is not emotional depth but the evaluative frame wrapped around it. @algekalipso's phrase — *how loopy they are* — points to a spectrum rather than a binary, which matches the clinical picture: mild self-monitoring is universal; it becomes pathological only when the loop grows self-reinforcing and inescapable.",
+  "tickers": [],
+  "poster": "algekalipso",
+  "concepts": [
+    {
+      "key": "self-reinforcing-judgment-loop",
+      "term": "Self-Reinforcing Judgment Loop",
+      "definition": "A cyclical mental pattern in which an emotion triggers self-evaluative thought — criticism, shame, analysis — which intensifies the original emotion, which demands more evaluation. Distinguished from simply having a feeling by the layer of meta-commentary attached to it. Common substrate of rumination, anxiety, and depression."
+    },
+    {
+      "key": "non-judgmental-emotional-processing",
+      "term": "Non-Judgmental Emotional Processing",
+      "definition": "Allowing feelings to arise and pass without layering evaluative thought on top of them — noticing what one feels without immediately assessing whether the feeling is appropriate or proportionate. Appears in mindfulness traditions, acceptance-based therapies, and psychedelic-assisted therapy as a mechanism of emotional integration rather than suppression."
+    },
+    {
+      "key": "neurotic-loop",
+      "term": "Neurotic Loop",
+      "definition": "A term used by psychologist Gregg Henriques for the pattern in which the self-monitoring function turns against its own emotional states, generating meta-emotions that are often more disabling than the original feeling. Considered a core mechanism in many common mental disorders, including depression, anxiety, and OCD."
+    },
+    {
+      "key": "rumination",
+      "term": "Rumination",
+      "definition": "Repetitive, passive focus on distressing feelings and their possible causes and consequences, without movement toward problem-solving or acceptance. Clinically distinct from purposeful reflection and identified as a transdiagnostic risk factor — something that cuts across multiple mental health conditions rather than being specific to one."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://neurolaunch.com/cognitive-loop/",
+      "title": "Cognitive Loops: Understanding Cyclical Thought Processes",
+      "note": "Background on how cognitive loops form, their role in mental health, and the brain's default-mode narrative processing"
+    },
+    {
+      "url": "https://www.psychologytoday.com/us/blog/theory-knowledge/202211/the-neurotic-loops-the-core-many-mental-disorders",
+      "title": "The Neurotic Loops at the Core of Many Mental Disorders",
+      "note": "Gregg Henriques on how self-monitoring loops become neurotic spirals underlying common mental disorders"
+    }
+  ],
+  "bookmark_id": "1930058522357862496",
+  "generated_at": "2026-05-06T20:48:15.442941Z",
+  "backend": "claude"
+}

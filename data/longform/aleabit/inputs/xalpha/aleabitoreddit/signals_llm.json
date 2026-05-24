@@ -1,0 +1,3854 @@
+[
+  {
+    "ticker": "NBIS",
+    "tier": "S",
+    "first_signal_date": "2025-09-09T17:56:24+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 3,
+      "med": 0,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "CIFR",
+    "tier": "S",
+    "first_signal_date": "2025-09-26T16:33:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "IREN",
+    "tier": "S",
+    "first_signal_date": "2025-09-26T20:07:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 1,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "VIRT",
+    "tier": "S",
+    "first_signal_date": "2025-09-29T21:06:17+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 3,
+      "med": 0,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "FLY",
+    "tier": "S",
+    "first_signal_date": "2025-10-08T23:08:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "AMZN",
+    "tier": "S",
+    "first_signal_date": "2025-10-10T18:04:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "DKNG",
+    "tier": "S",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "WLAC",
+    "tier": "S",
+    "first_signal_date": "2025-10-12T23:15:40+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "ALAB",
+    "tier": "S",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "CRDO",
+    "tier": "S",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "TSM",
+    "tier": "S",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "WULF",
+    "tier": "S",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "SMCI",
+    "tier": "S",
+    "first_signal_date": "2025-10-15T11:12:33+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "AIRO",
+    "tier": "S",
+    "first_signal_date": "2026-01-08T14:58:02+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 3,
+      "med": 0,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "AVAV",
+    "tier": "S",
+    "first_signal_date": "2026-01-20T19:15:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "MU",
+    "tier": "S",
+    "first_signal_date": "2026-01-27T12:59:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "CRCL",
+    "tier": "S",
+    "first_signal_date": "2026-02-02T08:22:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 3,
+      "med": 0,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "SOL",
+    "tier": "S",
+    "first_signal_date": "2026-02-02T08:22:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 3,
+      "low": 0,
+      "total": 4
+    }
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "S",
+    "first_signal_date": "2026-02-03T05:37:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 1,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "INTC",
+    "tier": "S",
+    "first_signal_date": "2026-02-03T07:51:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "AVGO",
+    "tier": "S",
+    "first_signal_date": "2026-02-03T16:41:31+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "IBIT",
+    "tier": "S",
+    "first_signal_date": "2026-02-04T20:43:00+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "COIN",
+    "tier": "S",
+    "first_signal_date": "2026-02-06T01:44:39+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "GLXY",
+    "tier": "S",
+    "first_signal_date": "2026-02-06T10:10:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "BTC",
+    "tier": "S",
+    "first_signal_date": "2026-02-07T22:23:30+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "RDDT",
+    "tier": "S",
+    "first_signal_date": "2026-02-08T00:12:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "SNDK",
+    "tier": "S",
+    "first_signal_date": "2026-02-11T00:23:50+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 3,
+      "med": 0,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "EWY",
+    "tier": "S",
+    "first_signal_date": "2026-02-18T17:12:46+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 4,
+      "low": 0,
+      "total": 5
+    }
+  },
+  {
+    "ticker": "CVX",
+    "tier": "S",
+    "first_signal_date": "2026-02-20T09:12:36+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "XLU",
+    "tier": "S",
+    "first_signal_date": "2026-02-20T10:57:52+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "LASR",
+    "tier": "S",
+    "first_signal_date": "2026-03-02T13:07:53+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "AAOI",
+    "tier": "S",
+    "first_signal_date": "2026-03-04T15:37:54+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "SIVE",
+    "tier": "S",
+    "first_signal_date": "2026-03-16T13:28:18+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 3,
+      "med": 0,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "SOI",
+    "tier": "S",
+    "first_signal_date": "2026-03-17T12:53:06+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "TSEM",
+    "tier": "S",
+    "first_signal_date": "2026-03-17T12:53:06+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "S",
+    "first_signal_date": "2026-03-24T14:32:25+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "ARM",
+    "tier": "S",
+    "first_signal_date": "2026-03-25T09:55:01+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "MSFT",
+    "tier": "S",
+    "first_signal_date": "2026-03-26T14:06:24+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "META",
+    "tier": "S",
+    "first_signal_date": "2026-03-26T14:22:42+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 2,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "LITE",
+    "tier": "S",
+    "first_signal_date": "2026-03-30T02:19:36+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 1,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "6451",
+    "tier": "S",
+    "first_signal_date": "2026-05-05T01:23:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 3,
+      "med": 0,
+      "low": 0,
+      "total": 3
+    }
+  },
+  {
+    "ticker": "UPWK",
+    "tier": "A",
+    "first_signal_date": "2025-07-02T10:48:12+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "ALAB",
+    "tier": "A",
+    "first_signal_date": "2025-07-21T13:49:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "IBIT",
+    "tier": "A",
+    "first_signal_date": "2025-07-28T09:35:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "HIMS",
+    "tier": "A",
+    "first_signal_date": "2025-08-25T20:24:17+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "NBIS",
+    "tier": "A",
+    "first_signal_date": "2025-09-09T14:17:58+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "TGT",
+    "tier": "A",
+    "first_signal_date": "2025-09-18T17:21:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "CIFR",
+    "tier": "A",
+    "first_signal_date": "2025-09-26T16:23:20+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "IREN",
+    "tier": "A",
+    "first_signal_date": "2025-09-26T16:33:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 1,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "ORCL",
+    "tier": "A",
+    "first_signal_date": "2025-09-26T16:48:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "VIRT",
+    "tier": "A",
+    "first_signal_date": "2025-09-29T16:56:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "BTC",
+    "tier": "A",
+    "first_signal_date": "2025-09-29T22:36:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "RKLB",
+    "tier": "A",
+    "first_signal_date": "2025-10-06T21:04:37+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "FLNC",
+    "tier": "A",
+    "first_signal_date": "2025-10-08T14:19:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 1,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "FLY",
+    "tier": "A",
+    "first_signal_date": "2025-10-08T21:55:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AMD",
+    "tier": "A",
+    "first_signal_date": "2025-10-10T15:38:20+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AMZN",
+    "tier": "A",
+    "first_signal_date": "2025-10-10T15:38:20+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "UNH",
+    "tier": "A",
+    "first_signal_date": "2025-10-10T18:04:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "DKNG",
+    "tier": "A",
+    "first_signal_date": "2025-10-10T18:12:56+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "META",
+    "tier": "A",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SNAP",
+    "tier": "A",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "WLAC",
+    "tier": "A",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "MP",
+    "tier": "A",
+    "first_signal_date": "2025-10-13T01:12:40+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "RBRK",
+    "tier": "A",
+    "first_signal_date": "2025-10-13T15:51:02+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "TSM",
+    "tier": "A",
+    "first_signal_date": "2025-10-13T19:01:51+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "WYFI",
+    "tier": "A",
+    "first_signal_date": "2025-10-13T19:01:51+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 1,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "BITF",
+    "tier": "A",
+    "first_signal_date": "2025-10-13T23:25:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "WULF",
+    "tier": "A",
+    "first_signal_date": "2025-10-13T23:25:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "CRDO",
+    "tier": "A",
+    "first_signal_date": "2025-10-15T00:55:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "GLXY",
+    "tier": "A",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "LTC",
+    "tier": "A",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SMCI",
+    "tier": "A",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "BZAI",
+    "tier": "A",
+    "first_signal_date": "2025-10-15T11:12:33+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SEI",
+    "tier": "A",
+    "first_signal_date": "2025-10-15T11:12:33+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AIRO",
+    "tier": "A",
+    "first_signal_date": "2026-01-08T14:48:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "LPTH",
+    "tier": "A",
+    "first_signal_date": "2026-01-16T18:08:59+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "VLN",
+    "tier": "A",
+    "first_signal_date": "2026-01-16T18:08:59+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "INTC",
+    "tier": "A",
+    "first_signal_date": "2026-01-17T12:37:07+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "OSS",
+    "tier": "A",
+    "first_signal_date": "2026-01-20T08:37:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "DPRO",
+    "tier": "A",
+    "first_signal_date": "2026-01-20T08:53:57+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SKYT",
+    "tier": "A",
+    "first_signal_date": "2026-01-20T08:53:57+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "A",
+    "first_signal_date": "2026-01-20T16:07:35+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "VPG",
+    "tier": "A",
+    "first_signal_date": "2026-01-20T17:35:07+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AVAV",
+    "tier": "A",
+    "first_signal_date": "2026-01-20T19:07:33+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "MU",
+    "tier": "A",
+    "first_signal_date": "2026-01-27T12:41:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SNDK",
+    "tier": "A",
+    "first_signal_date": "2026-01-30T02:37:07+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SOL",
+    "tier": "A",
+    "first_signal_date": "2026-01-30T16:01:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "CRCL",
+    "tier": "A",
+    "first_signal_date": "2026-01-30T17:36:42+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "ETH",
+    "tier": "A",
+    "first_signal_date": "2026-02-02T08:22:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AVGO",
+    "tier": "A",
+    "first_signal_date": "2026-02-03T16:12:17+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "PYPL",
+    "tier": "A",
+    "first_signal_date": "2026-02-03T16:41:31+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 1,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "COIN",
+    "tier": "A",
+    "first_signal_date": "2026-02-03T18:06:16+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "MSTR",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T01:44:39+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "EWY",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T05:17:00+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "HOOD",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T05:17:00+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SK HYNIX",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T05:17:00+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "TTD",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T10:10:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "RDDT",
+    "tier": "A",
+    "first_signal_date": "2026-02-07T22:17:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "RPI",
+    "tier": "A",
+    "first_signal_date": "2026-02-16T15:55:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "ACMR",
+    "tier": "A",
+    "first_signal_date": "2026-02-17T04:02:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AMKR",
+    "tier": "A",
+    "first_signal_date": "2026-02-17T04:02:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "INFQ",
+    "tier": "A",
+    "first_signal_date": "2026-02-18T14:54:07+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SIMO",
+    "tier": "A",
+    "first_signal_date": "2026-02-18T15:41:40+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "CVX",
+    "tier": "A",
+    "first_signal_date": "2026-02-19T03:23:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "XLU",
+    "tier": "A",
+    "first_signal_date": "2026-02-19T18:48:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "LASR",
+    "tier": "A",
+    "first_signal_date": "2026-03-02T12:51:29+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AAOI",
+    "tier": "A",
+    "first_signal_date": "2026-03-03T18:51:32+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "TSEM",
+    "tier": "A",
+    "first_signal_date": "2026-03-11T19:53:39+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SIVE",
+    "tier": "A",
+    "first_signal_date": "2026-03-16T08:54:18+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "SOI",
+    "tier": "A",
+    "first_signal_date": "2026-03-17T10:47:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "COHR",
+    "tier": "A",
+    "first_signal_date": "2026-03-17T12:53:06+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "A",
+    "first_signal_date": "2026-03-23T01:59:25+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "ARM",
+    "tier": "A",
+    "first_signal_date": "2026-03-25T09:53:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "VNP",
+    "tier": "A",
+    "first_signal_date": "2026-03-25T10:16:42+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "IQE",
+    "tier": "A",
+    "first_signal_date": "2026-03-26T05:05:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "MSFT",
+    "tier": "A",
+    "first_signal_date": "2026-03-26T05:45:40+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "LITE",
+    "tier": "A",
+    "first_signal_date": "2026-03-28T15:32:25+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "A",
+    "first_signal_date": "2026-03-31T00:44:31+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "HPS.A",
+    "tier": "A",
+    "first_signal_date": "2026-04-13T14:50:58+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "A",
+    "first_signal_date": "2026-04-14T21:27:00+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "3105",
+    "tier": "A",
+    "first_signal_date": "2026-04-16T02:02:16+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "NVTS",
+    "tier": "A",
+    "first_signal_date": "2026-04-22T18:39:06+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 1,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "JBL",
+    "tier": "A",
+    "first_signal_date": "2026-04-23T18:51:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "MRVL",
+    "tier": "A",
+    "first_signal_date": "2026-04-23T18:51:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "6830",
+    "tier": "A",
+    "first_signal_date": "2026-04-29T09:42:22+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "LPK",
+    "tier": "A",
+    "first_signal_date": "2026-04-29T16:17:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 2,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "TOWA",
+    "tier": "A",
+    "first_signal_date": "2026-04-29T16:17:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "MSSCORP",
+    "tier": "A",
+    "first_signal_date": "2026-05-03T20:02:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 1,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "6451",
+    "tier": "A",
+    "first_signal_date": "2026-05-03T20:18:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 2,
+      "med": 0,
+      "low": 0,
+      "total": 2
+    }
+  },
+  {
+    "ticker": "UPWK",
+    "tier": "B",
+    "first_signal_date": "2025-07-02T10:48:09+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ETORO",
+    "tier": "B",
+    "first_signal_date": "2025-07-02T17:28:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "IBIT",
+    "tier": "B",
+    "first_signal_date": "2025-07-02T18:46:58+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "OSCR",
+    "tier": "B",
+    "first_signal_date": "2025-07-02T20:38:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GOOGL",
+    "tier": "B",
+    "first_signal_date": "2025-07-03T09:57:16+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BULL",
+    "tier": "B",
+    "first_signal_date": "2025-07-07T14:02:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GME",
+    "tier": "B",
+    "first_signal_date": "2025-07-07T14:02:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "HIMS",
+    "tier": "B",
+    "first_signal_date": "2025-07-07T14:02:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SG",
+    "tier": "B",
+    "first_signal_date": "2025-07-07T14:02:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ALAB",
+    "tier": "B",
+    "first_signal_date": "2025-07-21T08:10:50+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CRDO",
+    "tier": "B",
+    "first_signal_date": "2025-07-21T14:13:31+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "DNUT",
+    "tier": "B",
+    "first_signal_date": "2025-07-23T05:53:22+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "DJT",
+    "tier": "B",
+    "first_signal_date": "2025-07-28T09:35:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "PLTR",
+    "tier": "B",
+    "first_signal_date": "2025-07-28T09:51:44+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "KSPI",
+    "tier": "B",
+    "first_signal_date": "2025-07-31T08:38:35+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CRWV",
+    "tier": "B",
+    "first_signal_date": "2025-08-23T11:08:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ETOR",
+    "tier": "B",
+    "first_signal_date": "2025-08-23T11:08:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NVO",
+    "tier": "B",
+    "first_signal_date": "2025-08-23T11:08:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SNAP",
+    "tier": "B",
+    "first_signal_date": "2025-08-23T11:08:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "UNH",
+    "tier": "B",
+    "first_signal_date": "2025-08-23T11:08:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MRVL",
+    "tier": "B",
+    "first_signal_date": "2025-09-02T14:08:16+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CREDO",
+    "tier": "B",
+    "first_signal_date": "2025-09-08T16:43:54+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NBIS",
+    "tier": "B",
+    "first_signal_date": "2025-09-09T14:08:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "TSSI",
+    "tier": "B",
+    "first_signal_date": "2025-09-09T18:51:53+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "TSM",
+    "tier": "B",
+    "first_signal_date": "2025-09-10T07:40:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "tier": "B",
+    "first_signal_date": "2025-09-10T16:00:38+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "HOOD",
+    "tier": "B",
+    "first_signal_date": "2025-09-14T14:58:28+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RUM",
+    "tier": "B",
+    "first_signal_date": "2025-09-15T12:09:46+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NFE",
+    "tier": "B",
+    "first_signal_date": "2025-09-17T23:13:55+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "TGT",
+    "tier": "B",
+    "first_signal_date": "2025-09-18T15:39:18+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LTC",
+    "tier": "B",
+    "first_signal_date": "2025-09-18T23:03:46+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LUNR",
+    "tier": "B",
+    "first_signal_date": "2025-09-24T16:09:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BRK",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T00:16:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ETH",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T00:30:30+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CIFR",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T15:37:22+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "IREN",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T15:37:22+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ORCL",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T16:45:41+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AVGO",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T16:52:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AMZN",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T20:07:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GEMI",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T20:07:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BTC",
+    "tier": "B",
+    "first_signal_date": "2025-09-27T01:38:35+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VIRT",
+    "tier": "B",
+    "first_signal_date": "2025-09-29T16:42:34+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MSTR",
+    "tier": "B",
+    "first_signal_date": "2025-09-29T22:36:23+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RKLB",
+    "tier": "B",
+    "first_signal_date": "2025-09-30T02:29:39+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "DOCN",
+    "tier": "B",
+    "first_signal_date": "2025-10-02T19:23:53+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "UNKNOWN",
+    "tier": "B",
+    "first_signal_date": "2025-10-07T01:32:38+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "EOSE",
+    "tier": "B",
+    "first_signal_date": "2025-10-07T01:43:50+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "FLNC",
+    "tier": "B",
+    "first_signal_date": "2025-10-07T01:43:50+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SEI",
+    "tier": "B",
+    "first_signal_date": "2025-10-07T01:43:50+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AMD",
+    "tier": "B",
+    "first_signal_date": "2025-10-08T14:19:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RDDT",
+    "tier": "B",
+    "first_signal_date": "2025-10-08T14:19:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "WYFI",
+    "tier": "B",
+    "first_signal_date": "2025-10-08T14:19:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "DFLI",
+    "tier": "B",
+    "first_signal_date": "2025-10-08T15:51:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "FLY",
+    "tier": "B",
+    "first_signal_date": "2025-10-08T15:51:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "B",
+    "first_signal_date": "2025-10-08T18:16:50+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "META",
+    "tier": "B",
+    "first_signal_date": "2025-10-10T15:38:20+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SPY",
+    "tier": "B",
+    "first_signal_date": "2025-10-10T15:38:20+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "WLAC",
+    "tier": "B",
+    "first_signal_date": "2025-10-10T15:38:20+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "DKNG",
+    "tier": "B",
+    "first_signal_date": "2025-10-10T18:04:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "DELL",
+    "tier": "B",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GLXY",
+    "tier": "B",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MP",
+    "tier": "B",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MU",
+    "tier": "B",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RBRK",
+    "tier": "B",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SMCI",
+    "tier": "B",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "WULF",
+    "tier": "B",
+    "first_signal_date": "2025-10-11T18:32:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BITF",
+    "tier": "B",
+    "first_signal_date": "2025-10-13T19:01:51+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BZAI",
+    "tier": "B",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GRAB",
+    "tier": "B",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NKLR",
+    "tier": "B",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SEA",
+    "tier": "B",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SLNH",
+    "tier": "B",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AI",
+    "tier": "B",
+    "first_signal_date": "2025-10-17T07:43:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "TE",
+    "tier": "B",
+    "first_signal_date": "2025-10-20T14:59:59+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "TTD",
+    "tier": "B",
+    "first_signal_date": "2025-12-04T14:06:54+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CRCL",
+    "tier": "B",
+    "first_signal_date": "2025-12-12T03:57:31+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LITE",
+    "tier": "B",
+    "first_signal_date": "2025-12-12T03:57:31+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NBIS",
+    "tier": "B",
+    "first_signal_date": "2025-12-14T14:16:58+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AIRO",
+    "tier": "B",
+    "first_signal_date": "2026-01-06T08:24:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "OSS",
+    "tier": "B",
+    "first_signal_date": "2026-01-08T14:48:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AVAV",
+    "tier": "B",
+    "first_signal_date": "2026-01-12T05:51:09+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LPTH",
+    "tier": "B",
+    "first_signal_date": "2026-01-14T15:07:46+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VLN",
+    "tier": "B",
+    "first_signal_date": "2026-01-14T15:07:46+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "B",
+    "first_signal_date": "2026-01-16T18:08:59+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SSYS",
+    "tier": "B",
+    "first_signal_date": "2026-01-16T18:08:59+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "INTC",
+    "tier": "B",
+    "first_signal_date": "2026-01-17T11:48:51+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SAMSUNG",
+    "tier": "B",
+    "first_signal_date": "2026-01-17T12:37:07+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "DPRO",
+    "tier": "B",
+    "first_signal_date": "2026-01-19T22:45:24+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "KTOS",
+    "tier": "B",
+    "first_signal_date": "2026-01-19T22:45:24+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SKYT",
+    "tier": "B",
+    "first_signal_date": "2026-01-20T08:37:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "FIG",
+    "tier": "B",
+    "first_signal_date": "2026-01-20T15:51:42+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VPG",
+    "tier": "B",
+    "first_signal_date": "2026-01-20T17:28:02+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RMBS",
+    "tier": "B",
+    "first_signal_date": "2026-01-22T15:09:55+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "USAR",
+    "tier": "B",
+    "first_signal_date": "2026-01-26T15:43:39+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "000660",
+    "tier": "B",
+    "first_signal_date": "2026-01-27T12:59:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "005930",
+    "tier": "B",
+    "first_signal_date": "2026-01-27T12:59:19+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CRWV",
+    "tier": "B",
+    "first_signal_date": "2026-01-28T04:30:09+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "2408",
+    "tier": "B",
+    "first_signal_date": "2026-01-28T12:22:44+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CPSH",
+    "tier": "B",
+    "first_signal_date": "2026-01-29T17:09:02+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SNDK",
+    "tier": "B",
+    "first_signal_date": "2026-01-29T20:46:32+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NANYA",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T02:37:07+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "2337",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T04:49:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "8299",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T04:49:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "WINBOND",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T05:00:49+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "COIN",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T15:45:18+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SOL",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T15:45:18+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MSTR",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T16:01:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MCB",
+    "tier": "B",
+    "first_signal_date": "2026-01-31T03:44:42+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "EWY",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T01:31:54+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SANDISK",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T01:31:54+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T06:46:01+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "PYPL",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T14:49:32+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CIRCLE",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T17:47:57+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CREDO",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T17:47:57+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "PAYPAL",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T17:47:57+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SK HYNIX",
+    "tier": "B",
+    "first_signal_date": "2026-02-04T20:15:10+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BITCOIN",
+    "tier": "B",
+    "first_signal_date": "2026-02-05T20:59:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "PGY",
+    "tier": "B",
+    "first_signal_date": "2026-02-09T12:44:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AEVA",
+    "tier": "B",
+    "first_signal_date": "2026-02-09T18:24:50+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "U",
+    "tier": "B",
+    "first_signal_date": "2026-02-11T16:28:04+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ACMR",
+    "tier": "B",
+    "first_signal_date": "2026-02-13T19:30:57+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AMKR",
+    "tier": "B",
+    "first_signal_date": "2026-02-13T19:30:57+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RASPBERRYPI",
+    "tier": "B",
+    "first_signal_date": "2026-02-16T08:16:58+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RPI",
+    "tier": "B",
+    "first_signal_date": "2026-02-16T15:12:37+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "RPI.L",
+    "tier": "B",
+    "first_signal_date": "2026-02-16T16:52:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "XLU",
+    "tier": "B",
+    "first_signal_date": "2026-02-17T16:17:03+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VST",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T01:12:08+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "INFQ",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T14:32:51+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "POET",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T15:06:42+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SIMO",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T15:21:48+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NITTOBO",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T16:05:51+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CVX",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T17:42:22+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "XLE",
+    "tier": "B",
+    "first_signal_date": "2026-02-20T09:12:36+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "HY9H",
+    "tier": "B",
+    "first_signal_date": "2026-02-22T03:15:40+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GLW",
+    "tier": "B",
+    "first_signal_date": "2026-02-23T15:29:35+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LASR",
+    "tier": "B",
+    "first_signal_date": "2026-03-02T12:37:30+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BKSY",
+    "tier": "B",
+    "first_signal_date": "2026-03-02T12:51:29+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AAOI",
+    "tier": "B",
+    "first_signal_date": "2026-03-03T16:12:29+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SE",
+    "tier": "B",
+    "first_signal_date": "2026-03-03T18:51:32+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "TSEM",
+    "tier": "B",
+    "first_signal_date": "2026-03-06T17:03:18+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "JETS",
+    "tier": "B",
+    "first_signal_date": "2026-03-09T15:55:02+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "CODA",
+    "tier": "B",
+    "first_signal_date": "2026-03-10T19:15:16+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "KRKNF",
+    "tier": "B",
+    "first_signal_date": "2026-03-10T19:15:16+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SYY",
+    "tier": "B",
+    "first_signal_date": "2026-03-11T07:23:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SLOIF",
+    "tier": "B",
+    "first_signal_date": "2026-03-11T08:28:37+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SOI",
+    "tier": "B",
+    "first_signal_date": "2026-03-12T00:54:56+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SIVE",
+    "tier": "B",
+    "first_signal_date": "2026-03-16T08:42:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "COHR",
+    "tier": "B",
+    "first_signal_date": "2026-03-16T22:41:40+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NOK",
+    "tier": "B",
+    "first_signal_date": "2026-03-16T22:41:40+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 0,
+      "low": 1,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "IBKR",
+    "tier": "B",
+    "first_signal_date": "2026-03-18T19:02:11+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "AIXA",
+    "tier": "B",
+    "first_signal_date": "2026-03-21T16:02:29+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MSFT",
+    "tier": "B",
+    "first_signal_date": "2026-03-24T14:26:00+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VNP",
+    "tier": "B",
+    "first_signal_date": "2026-03-24T15:49:21+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MTSI",
+    "tier": "B",
+    "first_signal_date": "2026-03-25T04:13:56+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ARM",
+    "tier": "B",
+    "first_signal_date": "2026-03-25T09:52:53+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "IQE",
+    "tier": "B",
+    "first_signal_date": "2026-03-25T09:52:53+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VCX",
+    "tier": "B",
+    "first_signal_date": "2026-03-25T10:54:22+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SPX",
+    "tier": "B",
+    "first_signal_date": "2026-03-26T14:31:52+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "3105",
+    "tier": "B",
+    "first_signal_date": "2026-03-27T03:03:35+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "3105.TWO",
+    "tier": "B",
+    "first_signal_date": "2026-03-27T04:34:39+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "WIN",
+    "tier": "B",
+    "first_signal_date": "2026-03-27T08:43:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "FAZ",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T06:31:23+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GUSH",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T06:31:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LCID",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T06:31:23+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T06:31:23+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SQQQ",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T06:31:23+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "UVIX",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T06:31:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LNG",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T17:26:42+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ASML",
+    "tier": "B",
+    "first_signal_date": "2026-04-03T10:05:29+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "HPS.A",
+    "tier": "B",
+    "first_signal_date": "2026-04-06T14:59:16+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SMH",
+    "tier": "B",
+    "first_signal_date": "2026-04-08T04:49:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VECO",
+    "tier": "B",
+    "first_signal_date": "2026-04-08T13:38:35+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "JBL",
+    "tier": "B",
+    "first_signal_date": "2026-04-08T16:54:10+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ALRIB",
+    "tier": "B",
+    "first_signal_date": "2026-04-11T14:04:55+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "6451",
+    "tier": "B",
+    "first_signal_date": "2026-04-13T03:15:13+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "BIRD",
+    "tier": "B",
+    "first_signal_date": "2026-04-15T17:14:30+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "QCOM",
+    "tier": "B",
+    "first_signal_date": "2026-04-16T02:11:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "SWEDISH_STOCK",
+    "tier": "B",
+    "first_signal_date": "2026-04-16T07:18:56+00:00",
+    "direction": "short",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "HSP.A",
+    "tier": "B",
+    "first_signal_date": "2026-04-18T18:26:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ASTS",
+    "tier": "B",
+    "first_signal_date": "2026-04-20T05:27:39+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LPKF",
+    "tier": "B",
+    "first_signal_date": "2026-04-20T11:06:14+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "VICR",
+    "tier": "B",
+    "first_signal_date": "2026-04-21T17:06:45+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "ASMC",
+    "tier": "B",
+    "first_signal_date": "2026-04-22T18:36:46+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "NVTS",
+    "tier": "B",
+    "first_signal_date": "2026-04-22T18:37:22+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MXL",
+    "tier": "B",
+    "first_signal_date": "2026-04-24T15:55:06+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "LPK",
+    "tier": "B",
+    "first_signal_date": "2026-04-27T08:57:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "TOWA",
+    "tier": "B",
+    "first_signal_date": "2026-04-27T08:57:05+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "6830",
+    "tier": "B",
+    "first_signal_date": "2026-04-29T03:54:23+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MSSCORP",
+    "tier": "B",
+    "first_signal_date": "2026-04-30T01:00:27+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "GFS",
+    "tier": "B",
+    "first_signal_date": "2026-05-03T07:11:56+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "PCL",
+    "tier": "B",
+    "first_signal_date": "2026-05-03T20:02:15+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 1,
+      "med": 0,
+      "low": 0,
+      "total": 1
+    }
+  },
+  {
+    "ticker": "MSS",
+    "tier": "B",
+    "first_signal_date": "2026-05-04T01:53:24+00:00",
+    "direction": "long",
+    "counts_at_signal": {
+      "high": 0,
+      "med": 1,
+      "low": 0,
+      "total": 1
+    }
+  }
+]

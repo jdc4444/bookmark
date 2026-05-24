@@ -1,0 +1,32 @@
+{
+  "key": "3363.TWO",
+  "name": "FOCI Fiber Optic Communications, Inc.",
+  "exchange": "Taipei Exchange (TWO)",
+  "blurb": "Not enough public information. The sources confirm the company is named FOCI Fiber Optic Communications, Inc. and is listed on the Taipei Exchange (Taiwan OTC market), but the provided research sources contain only stock-quote page metadata and no substantive description of the company's products, services, or market position.",
+  "recent": "Not enough public information. The provided sources link to real-time quote pages on Yahoo Finance, Reuters, MarketWatch, Investing.com, and MarketScreener but do not contain article text, earnings data, price-action narrative, or news items that can be cited.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/3363.TWO/",
+      "title": "FOCI Fiber Optic Communications, Inc. (3363.TWO) Stock Price, News — Yahoo Finance"
+    },
+    {
+      "url": "https://www.investing.com/equities/foci-fiber-optic-communications",
+      "title": "FOCI Fiber Optic Communications Stock Price Today | TWO: 3363 Live — Investing.com"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/FOCI-FIBER-OPTIC-COMMUNIC-10859592/",
+      "title": "FOCI Fiber Optic Communications, Inc. Stock (3363) — MarketScreener"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/3363?countrycode=TW",
+      "title": "3363 Stock Price | FOCI Fiber Optic Communications Inc. — MarketWatch"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/3363.TWO/all-listings",
+      "title": "3363.TWO | Stock Price & Latest News — Reuters"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-15T08:05:19.595345Z",
+  "backend": "claude-sonnet-subagent"
+}

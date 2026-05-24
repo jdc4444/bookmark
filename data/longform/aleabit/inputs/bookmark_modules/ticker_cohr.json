@@ -1,0 +1,15 @@
+{
+  "key": "COHR",
+  "name": "Coherent Corp.",
+  "exchange": "NYSE",
+  "blurb": "Coherent Corp. (formerly II-VI Incorporated, rebranded after the 2022 acquisition of Lumentum rival Coherent) develops and manufactures engineered materials, optoelectronic components, and laser systems across three segments: Networking, Materials, and Lasers. Its Networking segment — the primary AI data-center play — supplies indium-phosphide chips, transceiver modules, and silicon-photonics sub-assemblies to hyperscalers and networking OEMs. With roughly $5.8 billion in fiscal 2025 revenue, it is one of the largest vertically integrated photonics companies in the world.",
+  "recent": "Coherent joined the S&P 500 in March 2026, the same month it announced general availability of the industry's first dual-laser QSFP28-DCO module — a compact form factor enabling 100G coherent transmission over a single fiber with up to 300 km reach. At OFC 2026 the company showcased an expanded InP portfolio including 400 mW CW lasers, 200G/400G photodiodes, and 800G/1.6T modulators. Fifteen analysts hold an average \"Strong Buy\" rating with a consensus 12-month price target near $278.",
+  "sources": [
+    {"url": "https://www.stocktitan.net/news/COHR/coherent-announces-general-availability-of-industry-s-first-dual-zrmt47vqz9yz.html", "title": "Coherent dual-laser QSFP28-DCO announcement (StockTitan)"},
+    {"url": "https://stockanalysis.com/stocks/cohr/", "title": "Coherent Corp. stock overview (StockAnalysis)"},
+    {"url": "https://finance.yahoo.com/quote/COHR/", "title": "Coherent Corp. (COHR) – Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T08:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

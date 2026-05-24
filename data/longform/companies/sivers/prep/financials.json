@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "currency": "SEK",
+  "headline": "PCAOB restatement made the FY2025 EBIT loss SEK 36M wider than originally reported (-SEK 141M → -SEK 178M). The dual-listing accounting prep has uncovered conservative-by-Swedish-K3, less-conservative-by-PCAOB items: revenue reallocation between periods, inventory revaluation, share-based comp fair value, and impairment of previously capitalized development expenditures.",
+  "fy2025": {
+    "fiscal_year_end": "2025-12-31",
+    "as_reported_swedish_k3": {
+      "net_sales_sek_m": 304.1,
+      "ebit_sek_m": -141.3,
+      "net_result_sek_m": -186.5,
+      "eps_sek": -0.69,
+      "equity_sek_m": 1076.8,
+      "equity_per_share_sek": 3.46
+    },
+    "pcaob_restated": {
+      "net_sales_sek_m": 306.6,
+      "ebit_sek_m": -177.8,
+      "net_result_sek_m": -222.6,
+      "eps_sek": -0.81,
+      "equity_sek_m": 949.8,
+      "equity_per_share_sek": 3.05
+    },
+    "restatement_drivers": [
+      "Reallocation of revenues between reporting periods and to 2026 and later",
+      "Revised inventory valuations",
+      "Updated fair value assumptions for share-based compensation",
+      "Impairment of previously capitalized development expenditures",
+      "Income statement reclassification from 'by nature' to 'by function'"
+    ],
+    "operating_metrics_per_analyst": {
+      "operating_margin_pct": -39,
+      "improvement_from_2022_op_margin_pct": -83,
+      "fcf_sek_m": -66,
+      "fcf_2022_sek_m": -151,
+      "revenue_cagr_2016_2025_pct": 36.7,
+      "10y_revenue_growth_x": 16,
+      "pipeline_usd_m": 453,
+      "pipeline_yoy_pct": 64,
+      "cash_eoy_sek_m": 43.5,
+      "cash_prior_year_sek_m": 18
+    }
+  },
+  "fy2024": {
+    "as_reported_swedish_k3": {
+      "net_sales_sek_m": 243.7,
+      "net_result_sek_m": -116.3
+    },
+    "pcaob_restated": {
+      "net_sales_sek_m": 219.2,
+      "net_result_sek_m": -183.9
+    },
+    "note": "FY2024 PCAOB restatement REDUCED revenue (243.7 → 219.2) and WIDENED loss (-116.3 → -183.9). The net effect of the restatement is reducing 2024 historical performance while bumping 2025 slightly — consistent with the 'revenue reallocation between periods' driver."
+  },
+  "q4_fy2025_standalone": {
+    "net_sales_sek_m": 80.7,
+    "net_sales_yoy_pct": 5,
+    "net_sales_yoy_constant_fx_pct": 17,
+    "product_revenue_qoq_pct": 13,
+    "product_revenue_sek_m": 21.3,
+    "note": "Per analyst writeup; constant FX growth materially higher than reported due to SEK appreciation"
+  },
+  "capital_structure": {
+    "shares_outstanding_m": 311.33,
+    "share_dilution_since_2020_pct": 101.58,
+    "interpretation": "Shares outstanding doubled since 2020 — the cost of staying alive through the growth-stage / pre-profitability period. Continued dilution remains the primary risk for existing holders."
+  },
+  "financing_history_recent": [
+    {"date": "2025", "type": "rights_issue", "amount_sek_m": 95, "dilution_pct": 8},
+    {"date": "2026-02", "type": "term_loan_plus_convertible", "amount_usd_m": 17},
+    {"date": "2026-05-19", "type": "non_dilutive_grant", "amount_usd_m": 6.6, "source": "Microelectronics Commons NEMC Year 2", "purpose": "US Defense Infrastructure modernization"}
+  ],
+  "analyst_valuation_framework": {
+    "market_cap_at_analyst_writeup_sek_b": 3.4,
+    "market_cap_at_analyst_writeup_usd_m": 360,
+    "ps_2026": 7.2,
+    "ps_2028_projected": 4.0,
+    "pocf_2028_projected": 23,
+    "bull_case_2030_model": {
+      "revenue_cagr_pct": 45,
+      "operating_margin_pct": 25,
+      "revenue_2030_sek_b": 2.3,
+      "net_income_2030_sek_m": 404,
+      "implied_fair_value_sek_per_share": 14.52,
+      "note": "Substack analyst's fair value (SEK 14.52) suggests current SEK 72.90 is significantly above their bull case. The market appears to be pricing a much more aggressive ramp or higher terminal margin."
+    },
+    "analyst_consensus_2028": {
+      "revenue_sek_m": 646,
+      "ebit_sek_m": 58.9,
+      "ocf_sek_m": 97,
+      "fcf_sek_m": 12
+    }
+  },
+  "market_context": {
+    "cpo_market_2034_usd_b": 1.055,
+    "cpo_cagr_pct": 30.66,
+    "auto_lidar_2024_usd_b": 1.3,
+    "auto_lidar_2034_usd_b": 10.5,
+    "auto_lidar_cagr_pct": 23
+  }
+}

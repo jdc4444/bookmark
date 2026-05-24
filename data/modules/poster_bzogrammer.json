@@ -1,0 +1,22 @@
+{
+  "key": "bzogrammer",
+  "display_name": "Charles Rosenbauer",
+  "blurb": "The provided research sources yielded no usable content — the X.com profile returned a JavaScript-disabled error page and the LinkedIn source was pure navigation HTML with no biographical detail. Only the display name \"Charles Rosenbauer\" was recoverable. No domain expertise, posting topics, or follower count could be confirmed.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/bzogrammer"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/bzogrammer",
+      "title": "Charles Rosenbauer (@bzogrammer) / Posts / X"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/0asyraf-fauzi0_charles-rosenbauer-bzogrammer-on-x-activity-7452596418533343232-Vc2p",
+      "title": "Charles Rosenbauer (@bzogrammer) on X | Asyraf Fauzi — LinkedIn"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:22:46.205449Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,43 @@
+{
+  "headline": "A Helix in the Browser Reimagines Every Scale of Time",
+  "lede": "Most calendars choose a single granularity and stick to it — month, week, day. A prototype by @codetaur, building on a sketch by @tr_babb, refuses that tradeoff. It renders time as a recursive helix of coils, each nested inside the last, spanning from centuries down to seconds inside a single Three.js/WebGPU scene.",
+  "body": "The central insight is topological. A linear timeline must scroll; a grid calendar must paginate. A helix can zoom. By stacking coils at decreasing time-scales — centuries wrapping into decades, decades into years, years into days, days into hours, hours into minutes, minutes into seconds — the prototype lets a viewer travel from deep antiquity to a precise timestamp without ever leaving the scene. The OCR from the screenshot shows the interface parked at **-45 BCE, 11/17, 10:04:47**, with the annotation \"Augustus becomes Emperor\" floating near the relevant coil — proof of concept that historical events can be pinned to a specific moment at any resolution.\n\nThe controls visible in the UI (focus coil, spacing, tilt, factor, sec/pixel, transition) suggest the viewer can tune which coil is in focus and how the others cascade around it. This is the recursive part: switching focus from the \"decades\" coil to the \"hours\" coil should reorganise the nesting hierarchy rather than simply zooming a flat image.\n\nThe renderer is *Three.js* paired with *WebGPU*. Three.js is the dominant JavaScript library for 3D graphics in the browser, abstracting away raw shader code. WebGPU is its emerging substrate — a low-level graphics API that replaces the aging *WebGL* standard, offering near-native GPU performance and compute shaders in the browser. Combining the two places the prototype at the leading edge of what a web page can render, though WebGPU browser support is still partial as of mid-2026.\n\n@codetaur is candid that labels remain rough and credit belongs substantially to @tr_babb's original sketch. That attribution matters: the hard conceptual work — encoding recursive temporal scale as physical coil geometry — appears to precede the implementation. The prototype is a proof that the idea is buildable, not yet a finished instrument.",
+  "tickers": [],
+  "poster": "codetaur",
+  "concepts": [
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "A JavaScript library that wraps the browser's 3D graphics pipeline into a friendlier API. Developers describe scenes as objects, lights, and cameras rather than raw GPU instructions. It is the most widely used tool for 3D work in the browser."
+    },
+    {
+      "key": "webgpu",
+      "term": "WebGPU",
+      "definition": "The successor to WebGL, the web's older 3D graphics standard. WebGPU gives web applications lower-level, more efficient access to the device GPU — enabling techniques like compute shaders that were impractical on the web before. Browser support is rolling out progressively as of 2025–26."
+    },
+    {
+      "key": "recursive-helix-calendar",
+      "term": "Recursive Time Helix",
+      "definition": "A visualisation strategy in which time is represented as a spiral or helix, with each coil corresponding to one unit of a given scale (a year, a day, an hour). Nesting multiple coils at different scales inside each other allows a single continuous shape to encode both the very long and the very short without switching views."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/codetaur/status/2035575644608975305",
+      "title": "Original tweet by @codetaur",
+      "note": "Primary source; the prototype announcement and description"
+    },
+    {
+      "url": "https://bsky.app/profile/did:plc:dxr2kibhxyzrvhsjz4uahpmg",
+      "title": "@codetard.bsky.social — Bluesky",
+      "note": "Corroborates creator identity; self-described as artist and developer at vibe-coded.com"
+    }
+  ],
+  "bookmark_id": "2035575644608975305",
+  "generated_at": "2026-05-06T19:59:04.351148Z",
+  "backend": "claude"
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://ao-inc.com/about-us/our-leadership/",
+    "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-fourth-quarter-and-full-year-5",
+    "https://www.dcfmodeling.com/blogs/history/aaoi-history-mission-ownership"
+  ],
+  "key_finding": "AAOI is structurally Thompson Lin's company. He founded it in 1997, has been Chairman/President/CEO since inception, and after 28+ years remains the dominant executive presence. The board around him includes a substantive laser/optics-industry veteran (Richard Black, ex-CEO ECRM the laser-imaging company sold to Kodak in 2021) and an Asia-semi industry insider (Che-Wei Lin, President of ASMedia and Corporate VP at ASUSTek). The composition reflects AAOI's actual operating profile — Sugar Land vertical integration plus Taiwan-China-US manufacturing — rather than the financial-engineering board that a near-IPO or pre-listing company would assemble. There is no separate COO. CFO Stefan Murry also serves as Chief Strategy Officer (dual role).",
+  "ceo_founder": {
+    "name": "Dr. Chih-Hsiang \"Thompson\" Lin",
+    "title": "Founder, Chairman, President, and CEO",
+    "founded_company": "1997-02-28",
+    "tenure_years": 28,
+    "education": [
+      "B.S. Nuclear Engineering, National Tsing Hua University (Taiwan)",
+      "M.S., University of Missouri-Columbia",
+      "Ph.D. Electrical and Computer Engineering, University of Missouri-Columbia"
+    ],
+    "pre_company_career": [
+      "1994-1998: Senior Research Scientist, University of Houston",
+      "1998-2000: Research Associate Professor, University of Houston"
+    ],
+    "external_roles": [
+      "University of Missouri Chancellor's Advisory Group (since May 2015)",
+      "Chair, University of Missouri Industrial Advisory Board for College of Engineering (since November 2016)"
+    ],
+    "framing": "Lin is unusual in modern semi: a working scientist who became CEO of the company he founded out of his research lab and has stayed in the role for 28 years. The combination of nuclear-engineering background + electrical-engineering doctorate + decades of laser-component work is what built AAOI's vertically integrated structure. The Missouri ties (his graduate alma mater) recur in the board composition — Che-Wei Lin also has a Missouri MS in EE."
+  },
+  "executive_team": [
+    {"name": "Dr. Stefan Murry", "title": "Chief Financial Officer & Chief Strategy Officer", "note": "Dual CFO/CSO role is structurally significant — suggests financial planning and strategy planning are tightly integrated and likely emanate from one executive close to the CEO"},
+    {"name": "Dr. Fred Chang", "title": "Senior Vice President and North America General Manager"},
+    {"name": "Dr. Klaus Alex Anselm", "title": "Vice President, Semiconductor Products"},
+    {"name": "Shu-Hua (Joshua) Yeh", "title": "Senior Vice President and Asia General Manager"},
+    {"name": "David C. Kuo", "title": "Senior Vice President, Chief Legal and Compliance Officer, and Secretary"},
+    {"name": "Todd McCrum", "title": "Senior Vice President and General Manager, Broadband Access Business Unit"}
+  ],
+  "board_of_directors": [
+    {
+      "name": "Dr. Thompson Lin",
+      "role": "Chairman",
+      "see": "ceo_founder above"
+    },
+    {
+      "name": "William H. Yeh",
+      "role": "Board member; Compensation Committee Chair; Nominating & Corporate Governance Committee member",
+      "career": [
+        "1997-present: CEO and President, Golden Star Management, Inc. (real estate investment/management)",
+        "2005-present: President, Pearlyeh Investments Inc.",
+        "2014-present: President, Stonemetal Capital, LLC (equity financing)",
+        "2014-present: President, Pearl Yeh Charitable Foundation LLC",
+        "1997-2014: Vice Chairman, Central Bancorp, Inc.",
+        "2014-2019: Advisor to Hanmi Bank for Texas region"
+      ],
+      "education": [
+        "B.S., National Cheng Kung University (Taiwan)",
+        "M.S., University of Houston-Clear Lake"
+      ],
+      "framing": "Texas/Taiwan-bridge real-estate and community-banking executive. Brings the Compensation Committee chair credibility and the Houston-area institutional relationships that have underpinned AAOI's Sugar Land base since 2000."
+    },
+    {
+      "name": "Richard B. Black",
+      "role": "Board member; Audit Committee Chair; Nominating & Corporate Governance Committee member",
+      "career": [
+        "1983-2021: CEO and Chairman, ECRM, Incorporated (laser-based imaging equipment) — sold to Eastman Kodak 2021",
+        "2014-2017: President, CEO, and director, CRON-ECRM LLC",
+        "1989-present: Director, Oak Technology, Inc. (President 1998; Vice Chairman 1999-2003)",
+        "1980-1982: President and CEO, AM International",
+        "1972-1979: EVP and President/CEO, Maremont Corporation (Division President 1967-1972)",
+        "1979-1981: President and CEO, Alusuisse of America",
+        "1998-2012: Director and Audit Committee Chairman, GSI Group (Board Chairman 2006-2012)",
+        "2002-2016: Director and Audit Committee Chairman, Alliance Fiber Optics Products, Inc.",
+        "2000-present: Director, TREX Enterprises, Inc.",
+        "January 2023-present: Director and Board Chairman, Hamillroad Software Ltd."
+      ],
+      "education": [
+        "B.S. Engineering, Texas A&M University",
+        "MBA, Harvard University",
+        "Honorary Ph.D., Beloit College"
+      ],
+      "trustee_roles": [
+        "1990-present: Trustee, Institute for Advanced Study at Princeton (Vice Chairman 2006-2012; Trustee Emeritus since 2012)",
+        "Trustee of American Indian College Fund, Beloit College, Bard College",
+        "Board of Governors, University of Chicago's Smart Museum of Art"
+      ],
+      "framing": "The MOST consequential outside director on the board for understanding AAOI's identity. Black ran ECRM — a laser-imaging-equipment company — for 38 years as CEO and Chairman until selling it to Kodak in 2021. He has audit-committee-chair experience at GSI Group (a public optical/photonics company) and Alliance Fiber Optics Products. The institutional knowledge he brings to a laser-and-optics company audit is unmatched on this board. The Princeton IAS trustee role and the Texas A&M / Harvard MBA pedigree mark him as part of the senior US technology-business establishment."
+    },
+    {
+      "name": "Dr. Min-Chu (Mike) Chen",
+      "role": "Board member; Nominating & Corporate Governance Committee Chair; Audit Committee member",
+      "career": [
+        "2001-present: Partner and board member, EverRich Capital Inc. (financial consulting)",
+        "May 2010-present: Executive director, C&C International Services, Inc. (petrochemical equipment)",
+        "2018-present: Co-founder and executive director, EABO Information Technology (Shanghai), Co. Ltd. (IIoT)",
+        "May 2023-present: Co-founder and director, KidTech, Inc.",
+        "March 1994-June 2022: Board member, PCTEL, Inc.",
+        "September 2008-April 2010: CEO, SilverPAC, Inc.",
+        "2011-2018: Asia Pacific Director, U.S. Flow Control Group Pte. Ltd.",
+        "2016-2023: Vice Chairman, Shandong SicerKline Advanced Material Co., Ltd.",
+        "Earlier: Senior Research Engineer at Exxon; Senior Engineer at Transocean"
+      ],
+      "education": [
+        "Ph.D. Ocean Engineering, Oregon State University",
+        "B.S. Naval Architecture, National Ocean University (Taiwan)"
+      ],
+      "framing": "Asia/Pacific industrial cross-border investor and operator. Long tenure at PCTEL (28 years) is the institutional-board signal. The petrochemical-equipment + IIoT mix is unusual for an optics-company board but consistent with AAOI's Asia-manufacturing-footprint reality."
+    },
+    {
+      "name": "Che-Wei Lin",
+      "role": "Board member; Compensation Committee member",
+      "career": [
+        "November 2007-present: President, ASMedia Technology Inc. (chipset manufacturer)",
+        "November 2009-present: Corporate Vice President, Motherboard Business Unit, ASUSTek Computer Inc.",
+        "1993-2007: VIA Technologies, Inc. — various roles including President of Desktop Platform Business Unit, VP of System Platform Division, VP of OEM and Chipset Product Marketing"
+      ],
+      "education": [
+        "B.S. Electrical Engineering, Fu Jen University (Taiwan)",
+        "M.S. Electrical Engineering, University of Missouri"
+      ],
+      "framing": "The Asia-semi industry insider. As President of ASMedia (a Taiwan-listed chipset maker owned by ASUSTek) and Corporate VP at ASUSTek, Che-Wei Lin is connected to the exact ecosystem AAOI's Taiwan/China manufacturing operates in. The Missouri MS connection to the CEO (also Missouri MS/PhD) is the kind of personal-network detail that explains long board tenures in Asia-headquartered semi companies."
+    },
+    {
+      "name": "Dr. Elizabeth Loboa",
+      "role": "Board member; Nominating and Corporate Governance Committee member",
+      "career": [
+        "2020-present: Provost and Vice President for Academic Affairs, Southern Methodist University",
+        "2018-2020: Vice Chancellor for Strategic Partnerships and Dean, University of Missouri",
+        "2003-2015: Director, Cell Mechanics Laboratory, UNC-Chapel Hill and NC State University"
+      ],
+      "education": [
+        "B.S. Mechanical Engineering, University of California, Davis",
+        "M.S.E. Biomechanical Engineering, Stanford University",
+        "Ph.D. Mechanical Engineering, Stanford University"
+      ],
+      "framing": "Academic-research-administration governance. Stanford PhD, UC Davis BS, R1 university provost. The Missouri tenure (2018-2020 as VC for Strategic Partnerships) overlaps with Thompson Lin's Chancellor's Advisory Group role (since May 2015). University-affiliated governance brings independence + research-network access; she is the board member most clearly outside the operating-company ecosystem."
+    },
+    {
+      "name": "Cynthia (Cindy) DeLaney",
+      "role": "Board member; Audit Committee member",
+      "career": [
+        "January 2014-present: Global Fuel Oil commodity trading manager, Shell Trading",
+        "2005-2013: Manager, Americas Fuel Oil Trading team, Shell Trading",
+        "1999-2005: Fuel oil, VGO, gasoline and gasoline components trader",
+        "October 2016-present: Director and Vice President, Shell Trading US Company (STUSCo)",
+        "1991: Started career as Electrical Engineer at Arco Chemical Company",
+        "Earlier: MTBE and gasoline component trading at Arco and Koch Industries"
+      ],
+      "education": ["B.S. Electrical Engineering, Louisiana State University"],
+      "framing": "Shell global fuel-oil trading executive with EE background. Audit-committee technical depth plus 25+ years of commodity-market and risk-management experience. The energy-industry / Texas connection (Shell US trading is Houston-based, AAOI is Sugar Land) is the geographic bond."
+    }
+  ],
+  "board_composition_observation": "The board is unusually substantive for a sub-$1B small-cap that operates in optical/photonics. Three directors — Black (laser imaging), Che-Wei Lin (Asia semi/chipsets), DeLaney (Shell trading/EE) — carry deep technical and operating experience in adjacent industries; Loboa brings academic rigor; Yeh brings community-banking and real-estate stability; Chen brings cross-border industrial experience. There is no separate financial-engineering board member of the kind Sivers assembled (no ex-Citi CFO, no ex-Deutsche Bank Head of Corporate Finance) — AAOI's board is built for OPERATIONAL governance of a vertically-integrated semi company, not for a pending US listing or transformative M&A. That difference matters. AAOI is run by a founder-CEO who is also chairman. The board is configured to advise and audit, not to drive strategic change."
+}

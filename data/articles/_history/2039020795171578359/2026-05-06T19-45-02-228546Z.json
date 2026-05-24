@@ -1,0 +1,43 @@
+{
+  "headline": "Sync-3 Builds a Lip Sync Model for Cinematic Conditions",
+  "lede": "AI lip sync — the technology that re-animates a speaker's mouth to match new or translated audio — has quietly become a building block of the dubbing industry. Most models, however, were trained on clean, well-lit footage of a single face talking straight to camera. Sync Labs argues that sync-3 is the first to handle the messy conditions that actually define professional video.",
+  "body": "The central technical claim is architectural. Earlier lip sync systems processed video in short, independent snippets and stitched the results together, which produced inconsistencies whenever lighting, angle, or speaker identity shifted mid-clip. Sync-3 instead builds what the company calls a **global understanding** of a person across an entire shot, generating all frames simultaneously rather than in sequence. The analogy is the difference between translating a document sentence-by-sentence versus reading it whole before writing a word.\n\nThe capabilities this unlocks are specific and, if accurate, commercially significant. The model includes *active speaker detection* — the ability to identify and isolate each voice in a multi-speaker scene so that only the mouth of the person currently talking is re-rendered. Overlapping dialogue and interruptions, the company says, are handled without manual annotation. Low-light preservation is handled separately: grain, contrast, and shadow are maintained rather than washed out, which matters for any content that was shot to look cinematic.\n\nObstruction detection is another stated feature. When a hand, microphone, or scarf crosses the lower half of a face — common in interview and documentary footage — sync-3 is supposed to generate around the obstruction automatically. Extreme angles, profile shots, and partially cropped faces are also listed as supported cases where previous models broke.\n\nThe commercial package is relatively straightforward. Sync-3 is priced at roughly **$0.107–$0.133 per second** of output at 25 frames per second, supports more than 95 languages, and produces faces at 4K native resolution. It is available through the company's API, its web studio, and an Adobe Premiere plugin — which positions it squarely at post-production workflows rather than real-time applications.\n\nThe broader context is a dubbing industry under significant pressure to lower costs and turnaround times for streaming localization. Whether sync-3 actually performs at the level claimed in uncontrolled professional settings remains to be verified independently; the sources here are the company's own documentation and promotional materials.",
+  "tickers": [],
+  "poster": "synclabs_so",
+  "concepts": [
+    {
+      "key": "ai-lip-sync",
+      "term": "AI lip sync",
+      "definition": "A category of video AI that re-animates a speaker's mouth movements to match a new or translated audio track. It is used primarily in dubbing to avoid the uncanny mismatch between original lip movements and a dubbed language."
+    },
+    {
+      "key": "active-speaker-detection",
+      "term": "active speaker detection",
+      "definition": "A signal-processing technique that identifies which person in a multi-speaker scene is talking at any given moment. In lip sync, it is used to ensure only the correct speaker's face is modified, leaving others untouched."
+    },
+    {
+      "key": "global-frame-generation",
+      "term": "global frame generation",
+      "definition": "An approach where a model processes an entire video shot as a unified sequence before producing output, rather than working in short independent windows. It improves temporal consistency — the appearance of a face stays stable across lighting changes and motion."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://sync.so/docs/models/sync-3",
+      "title": "sync-3 | Sync",
+      "note": "Official technical documentation for the sync-3 model, including pricing, capabilities, and architectural description"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/synclabs-ai_most-lipsync-models-break-the-moment-a-scene-activity-7444789682560929792-_tp7",
+      "title": "Revolutionizing Visual Dubbing with sync-3 | sync. — LinkedIn",
+      "note": "Company promotional post with expanded description of active speaker detection and low-light handling"
+    }
+  ],
+  "bookmark_id": "2039020795171578359",
+  "generated_at": "2026-05-06T19:45:02.228546Z",
+  "backend": "claude"
+}

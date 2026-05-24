@@ -1,0 +1,11 @@
+{
+  "slug": "appendices",
+  "title": "Appendices",
+  "order": 13,
+  "target_words": 200,
+  "word_count": 214,
+  "body": "The tables and reference materials that follow are organised to let readers pressure-test the arguments made in the preceding chapters against the underlying numbers and primary sources.\n\n## Financial Tables\n\nThe financial appendix presents three years of income-statement and balance-sheet data in parallel columns — Swedish K3 as filed and PCAOB-restated — so the SEK 36.5M gap in FY2025 EBIT (–141.3M reported vs. –177.8M restated) and the FY2024 revenue compression (243.7M → 219.2M) are visible at a glance alongside the five restatement drivers.\n\n## Leadership Graph\n\nThe leadership appendix maps board tenure, departure dates, and the professional lineage connecting Vickram Vathulya, Bami Bastani, and the incoming AGM nominees — tracing the organisational logic of the US-listing preparation from the August 2023 strategic advisor appointment through the June 2026 board reshuffle.\n\n## Counterparty Map\n\nThe counterparty appendix organises named partners, named customers, implied indirect customers, and creditors into a single reference table, with segment, scope, and confirmation status flagged for each relationship.\n\n## Press Release Index\n\nChronological index of material company announcements from 2023 through the snapshot date, with direct links.\n\n## Aleabit Primary-Source Notes\n\nRaw excerpts and commentary from the Aleabit research thread that surfaced several claims — including the Apple/SiPH reference — not yet confirmed in official Sivers filings. Treat as unverified leads.",
+  "generated_at": "2026-05-23T11:01:19Z",
+  "model": "claude-sonnet-4-6",
+  "via": "claude -p (CLI)"
+}

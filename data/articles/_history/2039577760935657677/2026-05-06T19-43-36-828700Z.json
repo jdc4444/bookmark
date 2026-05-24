@@ -1,0 +1,62 @@
+{
+  "headline": "Vitalik Buterin Makes the Case for a Sovereign Local AI Stack",
+  "lede": "Ethereum co-founder Vitalik Buterin published a detailed account of the AI stack he runs entirely on local hardware — no cloud dependencies, no third-party data exposure, no outbound messages or crypto transactions without explicit human sign-off. The impetus is a security landscape around agentic AI that he considers dangerously cavalier, illustrated at length by vulnerabilities accumulating around OpenClaw, the fastest-growing GitHub repository in history.",
+  "body": "The catalyst is **OpenClaw**, an agentic AI framework — meaning one where the AI autonomously uses hundreds of tools to complete tasks rather than simply answering questions. Cybersecurity firm Gen found roughly 15% of community-built skills on OpenClaw's ClawHub marketplace contained malicious instructions, some silently exfiltrating user data or deploying *reverse shells* (covert backdoors giving an attacker remote control). Researchers at Oasis Security found that any website a developer visits can silently take over a local OpenClaw instance through a WebSocket connection to localhost, with no plugins and no user interaction required. A Cisco audit found a third-party skill that invisibly routed user data to an external server via a curl command the user never saw.\n\nButerin's response is architectural. He runs all inference locally — no API calls to Anthropic, OpenAI, or any hosted service — using **Qwen3.5:35B**, a 35-billion-parameter open-weight model. His hardware is either an NVIDIA 5090 laptop or an AMD Ryzen AI Max Pro with 128GB unified memory, benchmarking at 90 and 51 tokens per second respectively. He sets a personal floor of 50 tok/sec: below that, the daily experience becomes too slow to tolerate. Notably, NVIDIA's own DGX Spark underperformed both machines despite heavy marketing.\n\nThe structural defense against *prompt injection* — attacks where malicious text embedded in a webpage or document instructs the agent to take unauthorized actions — is mandatory sandboxing via *bubblewrap*, a Linux containerization tool. Agents run in filesystem sandboxes that can only access whitelisted directories and network ports. A malicious website processed inside the sandbox cannot reach the wallet, the home directory, or system configuration. He chose *llama-server* over the more popular Ollama because it fits larger models into GPU memory and exposes a local HTTP endpoint compatible with any OpenAI-format client, including Claude Code.\n\nAt the action layer, a custom messaging daemon enforces explicit permissions. The LLM can message Buterin freely; messaging anyone else requires human confirmation. Crypto wallet transactions are fully gated. A 1TB local Wikipedia dump plus local manuals reduces the number of queries that must leave the machine at all — each external search request is a potential data leak. He flags the remaining gap: he wants someone to build a Tor-wrapped search skill for queries that still need to go out.\n\nButerin is candid about what the setup cannot yet do. Qwen3.5:35B one-shots simple apps and games reliably but struggles with domain-specific cryptographic implementations. He frames the post explicitly as a starting point, not a finished product, and warns against copying the techniques wholesale and assuming they are secure. The argument is ultimately structural: the shift from chatbots to autonomous agents is not reversible, and the choice is whether to build privacy and security in from the start or inherit an ecosystem where convenience was assumed to come first.",
+  "tickers": [
+    "NVDA",
+    "AMD"
+  ],
+  "poster": "VitalikButerin",
+  "concepts": [
+    {
+      "key": "agentic-ai",
+      "term": "Agentic AI",
+      "definition": "AI systems that autonomously execute multi-step tasks using external tools — browsing the web, writing and running code, sending messages — rather than just responding to a single question. The distinction matters for security: a chatbot's blast radius is limited to the conversation window, while an agent can act on the real world without a human approving each step."
+    },
+    {
+      "key": "prompt-injection",
+      "term": "Prompt injection",
+      "definition": "An attack in which malicious text embedded in content the AI reads — a webpage, email, or document — instructs the model to ignore its original instructions and take unauthorized actions. The AI cannot reliably distinguish legitimate instructions from injected ones, making any agent that reads untrusted external content potentially vulnerable."
+    },
+    {
+      "key": "bubblewrap-sandboxing",
+      "term": "Bubblewrap sandboxing",
+      "definition": "A Linux containerization tool (bubblewrap) that creates a restricted filesystem and network environment. A process inside the sandbox can only access files and ports that have been explicitly whitelisted, so a compromised AI agent cannot reach sensitive directories, wallet keys, or arbitrary network destinations."
+    },
+    {
+      "key": "reverse-shell",
+      "term": "Reverse shell",
+      "definition": "A network connection initiated from a victim's machine to an attacker's server, giving the attacker a remote command prompt. Unlike a conventional intrusion, the victim machine makes the outbound call, which bypasses many firewalls. In the OpenClaw context, malicious skills were found to deploy reverse shells silently during normal agent operation."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "summary": "OpenClaw is an agentic AI framework that lets an LLM autonomously execute tasks using hundreds of community-built skills. It became the fastest-growing GitHub repository in history by early 2026 and sits at the center of Buterin's security critique: its ClawHub marketplace has been found to host malicious skills, and its architecture permits agents to modify their own system prompts without user confirmation."
+    }
+  ],
+  "fact_check": "The description of OpenClaw as 'the fastest-growing GitHub repository in history' originates in Buterin's blog post and is repeated by secondary sources; no independent third-party ranking is cited in the available research. The claim may be accurate but should be treated as asserted rather than independently verified.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://vitalik.eth.limo/general/2026/04/02/secure_llms.html",
+      "title": "My self-sovereign / local / private / secure LLM setup, April 2026",
+      "note": "Primary source: Buterin's original blog post detailing hardware, software, and security architecture"
+    },
+    {
+      "url": "https://rexliu.io/lab/digest/2026-04-03-vitalik-self-sovereign-llm-setup/",
+      "title": "My Self-Sovereign / Local / Private / Secure LLM Setup — Digest",
+      "note": "Structured summary of key takeaways including hardware benchmarks and agent permission model"
+    },
+    {
+      "url": "https://aihola.com/article/vitalik-buterin-local-llm-setup",
+      "title": "Vitalik Buterin's Local LLM Setup: No Cloud, No Compromise",
+      "note": "Detailed secondary account including specific security research citations from Gen, Oasis Security, Aikido, Cisco, and HiddenLayer"
+    }
+  ],
+  "bookmark_id": "2039577760935657677",
+  "generated_at": "2026-05-06T19:43:36.828700Z",
+  "backend": "claude"
+}

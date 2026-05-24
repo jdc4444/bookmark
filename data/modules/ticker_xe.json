@@ -1,0 +1,24 @@
+{
+  "key": "XE",
+  "name": "X-Energy, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "X-Energy, Inc. is a nuclear reactor technology company founded in 2009 and headquartered in Rockville, Maryland. Its flagship product is the Xe-100, a small modular reactor (SMR) designed to generate 80 megawatts of electric power or 200 megawatts of thermal output. The company also manufactures TRISO-X fuel, a high-assay low-enriched uranium pebble fuel designed for advanced reactors. With 889 employees and a market capitalization of approximately $12.2 billion, X-Energy is one of the leading pure-play SMR developers in the United States.",
+  "recent": "X-Energy completed its IPO on April 24, 2026, making it one of the most closely watched nuclear energy listings of the year. The stock has traded in a range of roughly $29.45–$37.10 since its debut, closing at $30.99 on May 13, 2026 — a decline of 2.36% on the day, with pre-market weakness continuing into May 14. The company's next earnings report is scheduled for May 30, 2026; trailing twelve-month revenue stands at $94.26 million (+12.2% year-over-year) against a net loss of $389.78 million.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/xe/",
+      "title": "X-Energy (XE) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/XE/news/",
+      "title": "XE News Today | X-Energy Stock News — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/XE/",
+      "title": "X-Energy, Inc. (XE) Stock Price, News, Quote & History — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:47:58.878464Z",
+  "backend": "claude-sonnet-subagent"
+}

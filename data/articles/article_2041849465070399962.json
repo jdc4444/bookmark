@@ -1,0 +1,127 @@
+{
+  "headline": "Truth Comes Second: The Science Behind the Us/Them Filter",
+  "lede": "A self-described anarchist and podcaster named Michael Malice has a pithy theory of mind that upends how most people imagine they think: not through a true/false filter, but an us/them one. The claim, circulated widely on X in 2024, is less an original insight than a restatement — in a polemicist's prose — of conclusions that experimental psychologists have been accumulating since the 1960s. The science is, inconveniently, quite good.",
+  "body": "Malice (born Michael Krechmer, Ukrainian-born and Brooklyn-raised) is best known for books on North Korea and the American far right, and for a podcast that rotates among libertarian-anarchist commentary and celebrity interviews. His aphorisms travel widely without the scaffolding of methodology. The September 2024 tweet this screenshot captures is more complete than most renditions: the full text adds “Data from thems can be dismissed,” which converts an observation about cognition into a description of a **motivated rejection mechanism** — not mere favoritism toward one’s group, but the active discounting of evidence that arrives from outside it.\n\nThe claim has deep academic support. Ziva Kunda’s landmark 1990 paper established *motivated reasoning* — the finding that people selectively deploy evidence and inferential rules to reach conclusions they are already inclined to prefer. Henri Tajfel’s *social identity theory*, developed through experiments in the 1970s, found something more radical: even arbitrary group assignment generates in-group bias. In the *minimal group paradigm*, subjects randomly sorted into groups allocated more resources to anonymous in-group strangers than out-group strangers — without having met, spoken to, or shared any interest with either. The us/them filter, in other words, precedes any evaluation of substance; it is activated by the mere fact of categorization.\n\nThe most discomfiting evidence comes from Dan Kahan at Yale Law School. His *motivated numeracy* studies gave participants identical statistical data. When the data concerned a skin-cream trial, more analytically skilled subjects performed better. When the same numbers were reframed as gun-control evidence, high-numeracy subjects diverged sharply by political identity: each camp solved the problem correctly only when the answer supported their group’s prior position. Greater analytical skill, on identity-laden questions, produced more efficient tribal filtering, not less. This is *identity-protective cognition* — the phenomenon where the faculties of reason are not a counterweight to tribal sorting but its instrument.\n\nJonathan Haidt’s *The Righteous Mind* (2012) synthesized this into a theory he calls *moral intuitionism*: intuitions arrive first, and strategic reasoning is recruited afterward to justify them. The conscious mind operates less as a judge than as a press secretary. David Roberts, writing in Vox in 2017, coined *tribal epistemology* for the political manifestation: information evaluated not against shared evidential standards but by whether it supports the tribe’s values — “good for our side” and “true” begin to blur. Lilliana Mason’s *Uncivil Agreement* (2018) added longitudinal evidence: American voters increasingly shift their policy views to match their partisan identity, not the other way around. Identity drives belief; belief does not determine identity.\n\nMalice’s binary — either true/false or us/them — is a simplification. Both filters operate simultaneously; on topics remote from group identity, accuracy-seeking commonly prevails. The research establishes domain-dependence, not universality. Philip Converse’s older finding from 1964 adds a quieter complication: most citizens hold what he called *non-attitudes* — political opinions so unstable and incoherent that they resemble less a filter than a reflex of delegation. On that view, many people are not actively running a tribal filter; they are simply deferring to whoever their group trusts. The effect looks identical. The mechanism is different.",
+  "tickers": [],
+  "companies": [],
+  "poster": "AppaGarg",
+  "concepts": [
+    {
+      "key": "motivated-reasoning",
+      "term": "Motivated Reasoning",
+      "definition": "The psychological tendency to selectively seek out, evaluate, and remember information in ways that support a conclusion one is already inclined to reach. Established by Ziva Kunda in 1990, it shows that people are not passive evidence-weighers but active advocates for preferred conclusions — constrained only by the need to construct a plausible-seeming justification."
+    },
+    {
+      "key": "identity-protective-cognition",
+      "term": "Identity-Protective Cognition",
+      "definition": "Dan Kahan’s term for the process by which analytical reasoning is deployed in service of group identity rather than accuracy. On questions where group membership is at stake, more analytically skilled people use their skills to filter evidence tribally more efficiently — so greater intelligence amplifies, rather than corrects, tribal bias."
+    },
+    {
+      "key": "social-identity-theory",
+      "term": "Social Identity Theory",
+      "definition": "Henri Tajfel and John Turner’s theory that a significant portion of self-concept derives from group membership, and that people systematically favor in-group members to maintain positive self-esteem. The theory predicts that merely being assigned to a group — without shared history, interests, or contact — is enough to generate discriminatory behavior toward out-group members."
+    },
+    {
+      "key": "minimal-group-paradigm",
+      "term": "Minimal Group Paradigm",
+      "definition": "Tajfel’s experimental design showing that trivial, arbitrary group assignment (e.g., preference for one painter over another) is sufficient to induce in-group favoritism. Participants who had never met allocated more resources to anonymous in-group strangers than out-group strangers — demonstrating that the us/them cognitive reflex requires no substantive basis to activate."
+    },
+    {
+      "key": "motivated-numeracy",
+      "term": "Motivated Numeracy",
+      "definition": "Kahan’s finding that quantitative reasoning ability does not immunize people against tribal bias — and may worsen it on contested topics. When statistical problems touch on politically charged questions, high-numeracy subjects use their skills to reach the tribally correct answer rather than the statistically correct one, diverging more sharply from each other than lower-numeracy subjects do."
+    },
+    {
+      "key": "tribal-epistemology",
+      "term": "Tribal Epistemology",
+      "definition": "A term coined by journalist David Roberts in 2017 to describe an information environment where truth is determined not by shared evidential standards but by what the tribe endorses. Under tribal epistemology, “good for our side” and “true” become operationally equivalent, and factual claims are evaluated by their source’s group membership, not their accuracy."
+    },
+    {
+      "key": "moral-intuitionism",
+      "term": "Moral Intuitionism",
+      "definition": "Jonathan Haidt’s model of moral psychology in which emotional intuitions generate moral judgments rapidly and automatically, while conscious reasoning operates as post-hoc justification. The rational mind, on this view, is less a judge than a press secretary — constructing arguments for verdicts already reached by intuition."
+    },
+    {
+      "key": "non-attitudes",
+      "term": "Non-Attitudes",
+      "definition": "Philip Converse’s 1964 term for the unstable, internally inconsistent political opinions held by most citizens — opinions that change near-randomly when re-surveyed over time, suggesting they are not genuine beliefs at all but responses generated on the fly. Citizens without coherent ideological frameworks navigate politics primarily through partisan loyalty and group cues, not belief evaluation."
+    }
+  ],
+  "books": [
+    {
+      "key": "the-righteous-mind",
+      "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+      "author": "Jonathan Haidt",
+      "summary": "Published in 2012, this book argues that moral and political reasoning is driven primarily by gut-level intuitions, with conscious reasoning serving as post-hoc rationalization. Haidt draws on evolutionary psychology and cross-cultural research to show that humans have an innate “hive switch” — a capacity for self-subordination to group identity — that underpins both religious experience and political tribalism. It is the most widely read popular synthesis of the case that humans are not truth-seeking animals in moral and political life, but tribal ones."
+    },
+    {
+      "key": "uncivil-agreement",
+      "title": "Uncivil Agreement: How Politics Became Our Identity",
+      "author": "Lilliana Mason",
+      "summary": "Published in 2018 by the University of Chicago Press, this political science monograph documents how partisan identity in America has fused with social identities based on race, religion, education, and geography. Mason’s central empirical finding is that partisan prejudice and emotional reactivity flow primarily from social sorting — aligned identities — rather than substantive policy disagreement. She shows that people shift their policy views to match their party identity, not the reverse, providing direct longitudinal evidence for the causal priority of the us/them filter over factual reasoning."
+    }
+  ],
+  "repos": [],
+  "fact_check": "Malice presents a binary — either true/false or us/them — that the academic literature would soften. Both filters operate simultaneously; on topics remote from group identity, accuracy-seeking commonly prevails. The universality of the claim (“the average human” in all contexts) somewhat overstates the evidence, which is strongest in politically charged, identity-laden domains. That said, no specific factual assertion is wrong: in the domain the aphorism implicitly targets, the claim is well-supported and the causal direction is confirmed. The Kahan paradox — that smarter people deploy the us/them filter more efficiently, not less — actually strengthens rather than complicates Malice’s point.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/michaelmalice/status/1832100038354292859",
+      "title": "Michael Malice — original tweet, September 7, 2024",
+      "note": "Primary source of the aphorism, including the full addendum “Data from thems can be dismissed”"
+    },
+    {
+      "url": "https://www.triggerpod.co.uk/p/michael-malice-cf0",
+      "title": "TRIGGERnometry — “Is MAGA Falling Apart?” (March 2026)",
+      "note": "Contains a closely related formulation of the same claim in a long-form podcast context"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2270237/",
+      "title": "Kunda (1990) — “The Case for Motivated Reasoning,” Psychological Bulletin",
+      "note": "Foundational empirical paper establishing motivated reasoning as a systematic psychological phenomenon"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/behavioural-public-policy/article/abs/motivated-numeracy-and-enlightened-selfgovernment/EC9F2410D5562EF10B7A5E2539063806",
+      "title": "Kahan et al. (2017) — “Motivated Numeracy and Enlightened Self-Government,” Behavioural Public Policy",
+      "note": "Key study showing analytical skill amplifies tribal filtering on identity-relevant questions"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2973067",
+      "title": "Kahan (2017) — “Misconceptions, Misinformation, and the Logic of Identity-Protective Cognition,” Yale Law School Working Paper",
+      "note": "Defines identity-protective cognition and contrasts it with accuracy motivation"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Righteous_Mind",
+      "title": "Wikipedia — The Righteous Mind (Jonathan Haidt, 2012)",
+      "note": "Overview of Haidt’s moral intuitionism thesis and the hive-switch concept"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Social_identity_theory",
+      "title": "Wikipedia — Social Identity Theory (Tajfel & Turner, 1979)",
+      "note": "Overview of social identity theory and the minimal group paradigm"
+    },
+    {
+      "url": "https://www.vox.com/policy-and-politics/2017/3/22/14762030/donald-trump-tribal-epistemology",
+      "title": "Roberts (2017) — “Donald Trump and the Rise of Tribal Epistemology,” Vox",
+      "note": "Coins the term “tribal epistemology” as the political condition Malice’s aphorism describes"
+    },
+    {
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/U/bo27527354.html",
+      "title": "Mason (2018) — Uncivil Agreement, University of Chicago Press",
+      "note": "Political science evidence that identity drives policy belief, not the reverse"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9342595/",
+      "title": "Jost, Baldassarri & Druckman (2022) — “Cognitive-Motivational Mechanisms of Political Polarization,” Nature Reviews Psychology",
+      "note": "Up-to-date synthesis confirming three motivational systems that all serve in-group interests over truth-seeking"
+    },
+    {
+      "url": "https://web.ics.purdue.edu/~hoganr/Soc%20312/The%20nature%20of%20belief%20systems%20in%20mass%20publics%201964.pdf",
+      "title": "Converse (1964) — “The Nature of Belief Systems in Mass Publics”",
+      "note": "Establishes that most citizens hold unstable “non-attitudes” and navigate politics through group cues rather than belief systems"
+    }
+  ],
+  "bookmark_id": "2041849465070399962",
+  "generated_at": "2026-05-07T08:41:25.356473Z",
+  "backend": "claude-sonnet-subagent"
+}

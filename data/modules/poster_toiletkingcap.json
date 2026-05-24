@@ -1,0 +1,13 @@
+{
+  "key": "toiletkingcap",
+  "display_name": "@toiletkingcap",
+  "blurb": "An anonymous account on X (formerly Twitter) posting in the informal, self-deprecating register common to finance-adjacent corners of the platform. The handle's name and posting style suggest a deliberate irreverence toward financial solemnity. Based on available public posts, the account comments on equities, commodities (notably uranium), and the structural absurdities of retail investing — with a recurring theme of mocking the mismatch between effort and outcome in niche-sector stock-picking. No verified real-world identity or institutional affiliation is publicly associated with the account.",
+  "credibility_note": "Anonymous retail or semi-professional investor account. Posts reflect personal opinion and are not investment advice. No auditable track record. Account should be read as market commentary and humor, not research.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/toiletkingcap"}
+  ],
+  "sources": [],
+  "type": "poster",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

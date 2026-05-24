@@ -1,0 +1,137 @@
+{
+  "slug": "what_didnt_work",
+  "title": "What hasn't worked",
+  "lede": "A strategy built on identifying structural chokepoints in the AI supply chain carries within it three trades that went wrong in instructively different ways. The losses — headlined by an 84-percent wipeout in a lithium-battery meme stock — are modest in aggregate against a book of 160 trades, but their patterns reveal more than their magnitudes. They mark the outer edges of a framework: the places where Serenity stepped outside it, and what happened next.",
+  "body": "**The worst trade on the board** is Dragonfly Energy Holdings (DFLI), a Nevada-based maker of lithium-ion batteries for the RV and marine markets, entered in October 2025. It sits at the opposite end of the portfolio from everything else: no photonics, no substrate monopoly, no data-centre supply chain. The thesis was blunt:\n\n> Saw they had military contracts, lithium battery stocks have been mooning, small 81m market cap. 28.75m raise around current prices is usually a great sign.\n\nIt was not a great sign. The $28.75 million equity raise had priced the day before at $1.25 per share — the peak of a tenfold move from summer lows. Serenity entered as the stock began its long unwinding, a descent interrupted only by a one-for-ten reverse split in December 2025. By mid-2026 the position had lost roughly 84 percent. Dragonfly's full-year 2025 results told the underlying story: revenue of $58.6 million against a net loss of $70.8 million, with *direct-to-consumer* sales falling 18 percent in the fourth quarter. No post-mortem tweet on DFLI has appeared on Serenity's feed; the silence is its own form of testimony.\n\nThe VST position — expressed not directly in Vistra Corp (VST) shares but through long-dated options on the utilities exchange-traded fund XLU — came with unusual self-awareness baked in. On entering in February 2026, they wrote:\n\n> I'm doing DCA options because I don't know individual companies like VST well enough to pick which one is the best. But energy/utilities sector as a whole should go up as AI DCs use up a ton.\n\nThe framing was honest: buy the sector, not the stock, using XLU's unusually low *implied volatility* (roughly 14 percent) as a structural argument for cheap optionality. The thesis — that AI data-centre electricity demand represented a secular re-rating of the US utility sector — was coherent. When DeepSeek's efficient inference architecture rattled power-demand assumptions in early 2026, VST fell roughly 25 percent from its highs and the XLU options position ended underwater by roughly nine percent. The thesis may not be wrong; it may simply be early, and expensive on the way.\n\n## The most revealing loss\n\nInfleqtion (INFQ), a *neutral-atom* quantum-computing company that listed via a SPAC merger in February 2026, produced Serenity's most candid reckoning. They entered at $15.50 on the second day of trading, framing the stock as the first public pure-play in neutral-atom architecture — reasonably priced, they argued, against trapped-ion peers IonQ (IONQ) and Rigetti (RGTI). Within seven weeks the position was down 30 percent. On April 8th they wrote:\n\n> my $INFQ position was down 30% or something, was a small concentration thankfully, finx influencers kept trying to convince me to go long and i gave in. should have done more dd, found much more compelling names in the sector after doing more research by myself.\n\nThe admission is striking in its precision. Serenity does not blame the market, the macro, or bad luck. They identify a process failure: social influence — the pull of their extended X network — substituted for independent analysis. The contrast with their best trades is pointed: Aehr Test Systems (AEHR), AXT (AXTI), Soitec (SOI.PA) — all were supply-chain bottleneck calls developed, as far as the record shows, ahead of crowd consensus. INFQ was the reverse: a name that arrived through the crowd.\n\nTaken together, the three losses sketch a consistent pattern. Serenity's framework degrades predictably when they depart from it: momentum-chasing without a supply-chain anchor (DFLI), macro conviction substituting for company-level research (VST/XLU), and social consensus overriding independent work (INFQ). That they diagnose two of the three explicitly, in their own words and without much delay, suggests the lesson has landed.",
+  "tickers": [
+    "DFLI",
+    "VST",
+    "XLU",
+    "INFQ",
+    "IONQ",
+    "RGTI",
+    "AEHR",
+    "AXTI",
+    "SOI.PA"
+  ],
+  "companies": [
+    {
+      "name": "Dragonfly Energy Holdings",
+      "ticker": "DFLI"
+    },
+    {
+      "name": "Vistra Corp",
+      "ticker": "VST"
+    },
+    {
+      "name": "Infleqtion",
+      "ticker": "INFQ"
+    },
+    {
+      "name": "IonQ",
+      "ticker": "IONQ"
+    },
+    {
+      "name": "Rigetti Computing",
+      "ticker": "RGTI"
+    },
+    {
+      "name": "Aehr Test Systems",
+      "ticker": "AEHR"
+    },
+    {
+      "name": "AXT Inc",
+      "ticker": "AXTI"
+    },
+    {
+      "name": "Soitec",
+      "ticker": "SOI.PA"
+    },
+    {
+      "name": "SPDR Select Sector Utilities ETF",
+      "ticker": "XLU"
+    },
+    {
+      "name": "Churchill Capital Corp X",
+      "ticker": null
+    }
+  ],
+  "concepts": [
+    {
+      "key": "neutral-atom-qubits",
+      "term": "Neutral-atom quantum computing",
+      "definition": "A qubit architecture that encodes quantum information in individual neutral atoms held in optical tweezers generated by lasers, as opposed to superconducting or trapped-ion approaches. Proponents argue it scales more cleanly to larger arrays and operates at room temperature, avoiding the extreme cooling needed by superconducting rivals."
+    },
+    {
+      "key": "spac-merger",
+      "term": "SPAC merger",
+      "definition": "A Special Purpose Acquisition Company is a listed blank-cheque vehicle that raises money in an IPO solely to acquire a private target. The merger with that target serves as the de facto public listing for the operating company, often at a pre-negotiated valuation and with less regulatory scrutiny than a traditional IPO."
+    },
+    {
+      "key": "leaps-options",
+      "term": "LEAPS",
+      "definition": "Long-term Equity AnticiPation Securities — exchange-listed options contracts with expiration dates more than one year away. Traders use them to express directional views with defined downside risk and embedded leverage, particularly when expecting slow-moving macro trends to play out over a multi-year horizon."
+    },
+    {
+      "key": "implied-volatility",
+      "term": "Implied volatility",
+      "definition": "The options market's forward-looking estimate of how much an asset will move, derived from current option prices rather than historical data. Low implied volatility signals that options are relatively cheap, making them attractive to buyers who anticipate an eventual large move the market has not yet priced in."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/10/06/3161606/0/en/Dragonfly-Energy-Announces-Pricing-of-25-0-Million-Underwritten-Offering-of-Common-Stock.html",
+      "title": "Dragonfly Energy Announces Pricing of $25.0 Million Underwritten Offering",
+      "note": "Primary source for DFLI October 2025 dilutive offering pricing at $1.25/share — establishes the exact entry-point context"
+    },
+    {
+      "url": "https://dragonflyenergy.com/dragonfly-energy-announces-1-for-10-reverse-stock-split/",
+      "title": "Dragonfly Energy Announces 1-for-10 Reverse Stock Split",
+      "note": "IR announcement of December 18, 2025 reverse split — marks the structural midpoint of DFLI's decline"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260213539055/en/Infleqtion-and-Churchill-Capital-Corp-X-Complete-Business-Combination",
+      "title": "Infleqtion and Churchill Capital Corp X Complete Business Combination",
+      "note": "Merger closing date February 13, 2026 — establishes INFQ first-trading context and PIPE investor composition"
+    },
+    {
+      "url": "https://infleqtion.com/infleqtion-and-cccx/",
+      "title": "Infleqtion SPAC Merger Announcement",
+      "note": "Company IR page: $1.8B pre-money valuation, $540M gross proceeds — basis for Serenity's valuation comparison with IONQ and RGTI"
+    },
+    {
+      "url": "https://investor.vistracorp.com/2026-01-09-Vistra-and-Meta-Announce-Agreements-to-Support-Nuclear-Plants-in-PJM-and-Add-New-Nuclear-Generation-to-the-Grid",
+      "title": "Vistra and Meta Announce 20-Year Nuclear Power Purchase Agreements",
+      "note": "VST IR — 2,609 MW of contracted nuclear output underpinning the AI-power thesis Serenity expressed via XLU"
+    },
+    {
+      "url": "https://www.insidermonkey.com/blog/vistra-corp-vst-stock-plunges-over-20-amid-deepseek-ai-concerns-and-uncertainty-over-future-power-demand-1437120/",
+      "title": "Vistra Corp Stock Plunges Over 20% Amid DeepSeek AI Concerns",
+      "note": "Documents the 21-percent single-day VST decline on DeepSeek AI efficiency concerns — direct headwind to the XLU options position"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/vistra-reports-first-quarter-2026-results-302765015.html",
+      "title": "Vistra Reports First Quarter 2026 Results",
+      "note": "VST Q1 2026 record $1.494B adjusted EBITDA — context for whether the AI-power thesis is impaired or merely delayed"
+    }
+  ],
+  "serenity_quotes_used": [
+    {
+      "tweet_id": "1975954160949551426",
+      "url": "https://x.com/aleabitoreddit/status/1975954160949551426",
+      "context": "DFLI entry rationale — military contracts, small market cap, dilutive offering read as bullish signal"
+    },
+    {
+      "tweet_id": "2023928484415107360",
+      "url": "https://x.com/aleabitoreddit/status/2023928484415107360",
+      "context": "VST/XLU entry — explicit acknowledgment of limited single-stock conviction, macro-via-ETF rationale"
+    },
+    {
+      "tweet_id": "2041862450543210564",
+      "url": "https://x.com/aleabitoreddit/status/2041862450543210564",
+      "context": "INFQ post-mortem — attributes the loss to finx influencer social pressure overriding independent research"
+    }
+  ],
+  "generated_at": "2026-05-08T11:33:31Z",
+  "backend": "claude-sonnet-subagent"
+}

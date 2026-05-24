@@ -1,0 +1,32 @@
+{
+  "key": "3436.T",
+  "name": "Sumco Corporation",
+  "exchange": "Tokyo Stock Exchange",
+  "blurb": "Sumco Corporation is a Japanese semiconductor materials company that manufactures and sells silicon wafers used in chip fabrication. Its product portfolio spans polished, annealed, epitaxial, junction-isolated, silicon-on-insulator, and reclaimed polished wafers, as well as monocrystalline ingots. The company operates globally across Japan, the United States, China, Taiwan, South Korea, and Europe. Formerly known as Sumitomo Mitsubishi Silicon Corp., it rebranded as Sumco in August 2005 and is headquartered in Minato, Tokyo.",
+  "recent": "Sumco reported earnings on May 12, 2026, with trailing twelve-month net income remaining negative at -¥23.27B and EPS of -¥66.53, reflecting continued softness in the silicon wafer market. Morningstar noted that forward guidance remains weak but raised its fair value estimate to ¥1,440, signaling an upbeat longer-term outlook. The stock has surged roughly 241% over the past year, trading around ¥3,427 on May 14, 2026, with a 52-week range of ¥937–¥3,859.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/3436.T/",
+      "title": "Sumco Corporation (3436.T) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/tyo/3436/",
+      "title": "Sumco (TYO:3436) Stock Price & Overview - Stock Analysis"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xtks/3436/quote",
+      "title": "3436 Stock Price Quote - Morningstar"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/3436.T/",
+      "title": "Sumco Corp (3436.T) Stock Price & Latest News - Reuters"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/3436?countrycode=jp",
+      "title": "3436 Stock Price | Sumco Corp. Stock Quote (Japan: Tokyo) - MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:22:11.823201Z",
+  "backend": "claude-sonnet-subagent"
+}

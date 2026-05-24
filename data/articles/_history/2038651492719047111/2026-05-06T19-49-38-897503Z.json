@@ -1,0 +1,53 @@
+{
+  "headline": "A Free, Local AI Pipeline Designed for Working VFX Artists",
+  "lede": "Most AI video tools treat professional VFX artists as an afterthought — the outputs are pretty but uncontrollable, the pipelines are cloud-locked, and the results rarely survive contact with a real compositing suite. A new free workflow built by @mickmumpitz, demonstrated in a 2026 masterclass, aims to change that by integrating local AI video generation directly into a node-based ComfyUI setup. The pitch is control: artists drive the tool rather than prompting into a black box.",
+  "body": "**ComfyUI** is a free, open-source interface for running Stable Diffusion models that organises operations as a visual graph of connected nodes — closer in spirit to a compositing application like Nuke than to a consumer image generator. Because it runs locally, it keeps footage and assets off third-party servers and imposes no usage caps, which matters when client NDAs or bandwidth constraints are involved.\n\nThe workflow demonstrated in the tutorial extends ComfyUI beyond still-image generation into video, a substantially harder problem. AI video generation is computationally expensive and prone to temporal flickering — the model has no innate understanding that frame 47 should look like frame 46. Production-ready pipelines must account for this through techniques like optical-flow warping, temporal attention conditioning, or frame-by-frame guidance from reference imagery.\n\nThe tutorial draws on the same family of tools that ActionVFX's course covers for VFX image work: *ControlNet* (a technique that conditions generation on structural cues such as depth maps or edge detection), *LoRAs* (Low-Rank Adaptation — small, composable model fine-tunes that steer style or subject without retraining the whole model), and *IP Adapters* (Image Prompt Adapters, which let a reference image guide generation rather than relying solely on text). Together these give an artist levers that a simple text-prompt interface does not.\n\nThe output side matters as much as the generation side for professional work. VFX pipelines do not consume flattened video; they consume layered *EXR* files (the OpenEXR format, the industry standard for high-dynamic-range, multi-channel image sequences) that preserve depth, alpha, and lighting passes separately. The ActionVFX course, which targets similar ground, explicitly covers exporting EXRs ready for Nuke, After Effects, or DaVinci Resolve — suggesting the broader ecosystem is converging on this integration point.\n\nRunning everything locally has a real cost: consumer hardware capable of generating video at useful resolutions (a high-VRAM GPU, typically 16 GB or more) is not cheap. But for studios already equipped for on-premise rendering, the absence of per-frame cloud fees and the ability to iterate without internet latency represents a meaningful operational shift. The broader signal is that the tools for professional AI-assisted VFX are maturing past the hobbyist proof-of-concept stage.",
+  "tickers": [],
+  "poster": "mickmumpitz",
+  "concepts": [
+    {
+      "key": "comfyui",
+      "term": "ComfyUI",
+      "definition": "A free, open-source graphical interface for running Stable Diffusion image and video models locally. Operations are arranged as a node graph — similar to a visual effects compositing application — which lets users build reproducible, inspectable workflows rather than relying on a single prompt box."
+    },
+    {
+      "key": "controlnet",
+      "term": "ControlNet",
+      "definition": "A neural network extension for Stable Diffusion that conditions image generation on structural inputs such as depth maps, edge-detection outlines, or pose skeletons. It gives artists spatial control over where objects appear and how the scene is structured, rather than leaving layout entirely to chance."
+    },
+    {
+      "key": "lora",
+      "term": "LoRA",
+      "definition": "Low-Rank Adaptation — a technique for fine-tuning a large AI model by training only a small set of additional weight adjustments. LoRAs are compact files that can be layered onto a base model to steer its style or subject matter without the cost of full retraining."
+    },
+    {
+      "key": "ip-adapter",
+      "term": "IP Adapter",
+      "definition": "Image Prompt Adapter — a module that lets a reference photograph or frame guide AI image generation alongside (or instead of) a text prompt. Useful in VFX when the artist has a specific look or subject to match rather than a verbal description."
+    },
+    {
+      "key": "openexr",
+      "term": "EXR / OpenEXR",
+      "definition": "The industry-standard file format for visual effects image sequences. EXR files store high-dynamic-range data and support multiple channels in a single file — colour, depth, alpha, lighting passes — so compositors can manipulate layers independently in applications like Nuke or After Effects."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=_n0ir5V5tX4",
+      "title": "I Built a FREE VFX Pipeline with Local AI [2026 Masterclass]",
+      "note": "Primary tutorial video by @mickmumpitz demonstrating the workflow"
+    },
+    {
+      "url": "https://www.actionvfx.com/blog/comfyui-for-vfx",
+      "title": "ComfyUI For VFX | ActionVFX",
+      "note": "Industry context on ComfyUI adoption in professional VFX, covering ControlNet, LoRAs, IP Adapters, and EXR export"
+    }
+  ],
+  "bookmark_id": "2038651492719047111",
+  "generated_at": "2026-05-06T19:49:38.897503Z",
+  "backend": "claude"
+}

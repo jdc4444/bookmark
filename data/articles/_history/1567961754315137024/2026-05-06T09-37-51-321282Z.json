@@ -1,0 +1,48 @@
+{
+  "headline": "Translating Neural Activations Into Natural Language",
+  "lede": "Ilya Sutskever, co-founder of OpenAI, proposed an intriguing idea: apply neural machine translation to the internal activations of neural networks, effectively verbalizing what a model is \"thinking.\" The tweet is a concise research prompt, not a joke, and points toward a frontier in automated interpretability.",
+  "body": "The core insight is to treat a neural network's internal activations—the numerical states of its neurons as it processes input—as a foreign language. Just as unsupervised neural machine translation (NMT) can learn to map between languages without parallel corpora, a translator model could learn to map activations to natural language descriptions. This would allow researchers to ask a model what it is \"thinking\" and receive a human-readable answer.\n\nRecent work on Automated Interpretability Modelling (AIM) has begun to realize this vision. AIM uses a pre-trained vision-language model to extract sparse representations, assess circuit activations, and compose experiments, matching or surpassing human experts in decoding neural features. The approach builds on unsupervised NMT techniques, such as denoising and backtranslation, which have achieved over 15 BLEU points on WMT benchmarks without any parallel data.\n\nIf successful, this method could dramatically scale mechanistic interpretability—the effort to reverse-engineer neural networks. Current approaches require intensive human expertise and do not keep pace with model complexity. An automated translator could democratize interpretability, allowing non-specialists to audit models for bias, errors, or architectural flaws. However, the challenge remains formidable: activations are high-dimensional, context-dependent, and lack a fixed vocabulary, making the translation task fundamentally different from natural language.",
+  "tickers": [],
+  "poster": "ilyasut",
+  "concepts": [
+    {
+      "key": "mechanistic-interpretability",
+      "term": "mechanistic interpretability",
+      "definition": "The field of reverse-engineering neural networks to understand their internal computations, such as which neurons or circuits perform specific functions. It is analogous to neuroscience but for artificial systems."
+    },
+    {
+      "key": "unsupervised-neural-machine-translation",
+      "term": "unsupervised neural machine translation",
+      "definition": "A technique for training a neural network to translate between languages without using parallel corpora (paired sentences). It relies on monolingual data and methods like denoising autoencoders and backtranslation."
+    },
+    {
+      "key": "activations",
+      "term": "activations",
+      "definition": "The numerical values output by neurons in a neural network in response to an input. They represent the network's internal state and are the target of interpretability analysis."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://glebrazgar.github.io/AIM-Automated-Interpretability-Modelling/",
+      "title": "Automated Interpretability Modelling | Gleb's Neo Cortex",
+      "note": "Describes AIM, a method that uses neural models to automate mechanistic interpretability, directly relevant to Sutskever's idea."
+    },
+    {
+      "url": "https://openreview.net/forum?id=Sy2ogebAW",
+      "title": "Unsupervised Neural Machine Translation - OpenReview",
+      "note": "Foundational paper on unsupervised NMT, the technique Sutskever proposes to apply to activations."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666651020300024",
+      "title": "Neural machine translation: A review of methods, resources, and tools",
+      "note": "Broad review of NMT methods, providing context for the translation approach."
+    }
+  ],
+  "bookmark_id": "1567961754315137024",
+  "generated_at": "2026-05-06T09:37:51.321282Z",
+  "backend": "deepseek"
+}

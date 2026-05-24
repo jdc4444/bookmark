@@ -1,0 +1,40 @@
+{
+  "key": "HyperTechInvest",
+  "display_name": "Daniel Romero (HyperTechInvest)",
+  "blurb": "Daniel Romero writes HyperTechInvest, a Substack-hosted research letter focused on long-term tech investing with a heavy semiconductor and AI supply-chain bias. His recurring themes include identifying \"bottlenecks\" in the chip stack — glass substrates, advanced packaging, silicon photonics, optical networking — and surfacing under-followed small- and mid-cap names with exposure to those choke points. The publication claims north of 7,000 readers and runs a model portfolio with periodic holdings updates. Romero's voice on X (@HyperTechInvest) is brief and promotional, often paired with stock-card screenshots celebrating moves in his published names.",
+  "credibility_note": "A paid newsletter author with a clear book of disclosed positions. His semiconductor calls are research-driven rather than day-trade signals, but the format is advocacy: posts highlight winners and rarely revisit losers in the same medium. Treat as informed sector commentary, not independent analysis.",
+  "links": [
+    {
+      "url": "https://hypertechinvest.com/",
+      "title": "HyperTechInvest — Substack"
+    },
+    {
+      "url": "https://hypertechinvest.com/about",
+      "title": "About — Daniel Romero"
+    },
+    {
+      "url": "https://x.com/HyperTechInvest",
+      "title": "@HyperTechInvest on X"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://hypertechinvest.com/about",
+      "title": "About page",
+      "note": "Self-description of investing approach."
+    },
+    {
+      "url": "https://hypertechinvest.com/p/semiconductor-holdings-update",
+      "title": "Semiconductor Holdings Update",
+      "note": "Representative post on portfolio composition and themes."
+    },
+    {
+      "url": "https://substack.com/@hypertechinvest/note/c-230806509",
+      "title": "HyperTechInvest Substack note on photonics picks",
+      "note": "Sample of public commentary covering Lumentum, Tower Semi, BE Semiconductor, Veeco."
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T15:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

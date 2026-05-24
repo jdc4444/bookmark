@@ -1,0 +1,24 @@
+{
+  "key": "5274.TWO",
+  "name": "ASPEED Technology Inc.",
+  "exchange": "TPEX",
+  "blurb": "ASPEED Technology Inc. (TPEX: 5274) is a Taiwanese fabless IC design company headquartered in Hsinchu that dominates the global market for baseboard management controller (BMC) chips — dedicated microcontrollers embedded on server motherboards to handle out-of-band management, hardware health monitoring, remote console access (IPMI/KVM), and firmware updates independently of the host CPU. Because every data-centre server requires at least one BMC, ASPEED's revenue scales almost linearly with server build rates. The company holds an estimated 80%+ share of the merchant BMC chip market.",
+  "recent": "ASPEED reported FY2025 revenue of NT$9.08 billion, up 40.6% year-over-year, as hyperscaler and ODM customers ramped AI server builds. The company's eighth-generation AST2700 BMC SoC (a system-on-chip, integrating multiple functions on a single die), built on a 12nm process and featuring quad-core ARM Cortex-A35 processors, entered mass production in 2025 and is the reference BMC for major ODM AI server designs. The stock moved from NT$11,465 to NT$16,085 over the March–April 2026 period covered in the @zephyr_z9 report.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/quote/tpex/5274/company/",
+      "title": "ASPEED Technology (TPEX:5274) Company Profile — Stock Analysis"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/aspeed-technology-unveils-next-generation-bmc-ast2700-series-at-computex-2024-and-showcases-cupola360-panoramic-smart-remote-management-solution-302161204.html",
+      "title": "ASPEED Unveils AST2700 BMC SoC at Computex 2024 — PR Newswire"
+    },
+    {
+      "url": "https://www.taipeitimes.com/News/biz/archives/2025/05/23/2003837336",
+      "title": "Aspeed Expects Revenue Boost on Server Demand — Taipei Times"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

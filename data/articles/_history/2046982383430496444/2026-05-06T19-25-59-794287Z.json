@@ -1,0 +1,48 @@
+{
+  "headline": "Flipbook Replaces the Web Browser with a Pixel-Streaming AI",
+  "lede": "Three engineers — Zain Shah (ex-OpenAI, Y Combinator S13), Eddie Jiao (ex-Humane, Slack), and Drew O'Carr (ex-Apple) — unveiled a prototype on April 23, 2026 that discards the entire web rendering stack. Flipbook streams a live, fully AI-generated video feed directly to the browser: no HTML, no CSS, no layout engine, no fixed elements of any kind. Every visible pixel is drawn on demand by a generative model.",
+  "body": "The conventional web is built on layers of abstraction — markup, stylesheets, a layout engine, a JavaScript runtime — that translate developer instructions into pixels. Flipbook collapses that stack entirely. When a user types a request, the system produces a full-screen illustrated page as a video stream, at 1080p and 24 frames per second, delivered over *WebSockets* (a persistent, low-latency connection that keeps the channel open rather than opening a new request for each update). A Paris travel planner was the demo scenario: the model generated maps, labels, ticket prices, and landmark illustrations without a single HTML element beneath the canvas.\n\nInteractivity works by regeneration rather than event-handling. Clicking the Eiffel Tower does not fire a JavaScript listener bound to a DOM node; there is no DOM. Instead, the click coordinates are sent back to the model, which repaints the entire scene — zooming in, reshaping the layout, opening a notional booking panel — as a new stream of frames. The absence of a layout engine also means the image automatically reshapes to any window size without responsive CSS, because the model simply redraws to fit.\n\nThe underlying video model is **LTX Studio**, an open-source *DiT* (Diffusion Transformer — a generative architecture that applies the transformer attention mechanism to video diffusion, enabling coherent multi-frame output) built by Israeli company Lightricks. The team optimized it to stream output in near-real-time; the demo takes roughly 40 seconds to produce an initial page. Compute runs on Modal Labs, a *serverless GPU* platform — meaning the team rents GPU capacity by the second rather than maintaining dedicated hardware, which makes the prototype viable at demonstration scale without large infrastructure costs.\n\nFlibook landed in the middle of a live debate among developers about whether AI-native interfaces will eventually displace hand-coded front ends. Earlier experiments from companies including Anthropic and Google generated UI components or layout code from prompts; Flipbook pushes the idea further by removing the code layer altogether. Critics on X noted the obvious limitations: 40-second load times, no accessibility tree for screen readers, no indexable text, and a generation cost per page-view that would be prohibitive at web scale. The team frames it as a prototype to test whether the underlying idea is technically feasible, not a shipping product.",
+  "tickers": [],
+  "poster": "zan2434",
+  "concepts": [
+    {
+      "key": "diffusion-transformer-dit",
+      "term": "Diffusion Transformer (DiT)",
+      "definition": "A generative model architecture that applies the transformer's attention mechanism — originally developed for language — to the denoising process used in diffusion-based image and video generation. DiT models tend to scale more predictably than earlier convolutional approaches and are the basis for several leading video generation systems, including LTX Studio."
+    },
+    {
+      "key": "websockets",
+      "term": "WebSockets",
+      "definition": "A protocol that opens a persistent, bidirectional connection between a browser and a server, allowing data to flow continuously without the overhead of opening a new HTTP request for each message. Flipbook uses WebSockets to push successive video frames from the GPU backend to the browser in real time."
+    },
+    {
+      "key": "serverless-gpu",
+      "term": "Serverless GPU",
+      "definition": "A cloud compute model in which GPU capacity is allocated and billed by the second, spun up on demand and released when idle. Unlike renting a dedicated server, serverless GPU platforms like Modal Labs let small teams run expensive inference workloads without maintaining persistent infrastructure — practical for prototypes and bursty workloads, but typically more costly per hour than reserved capacity at scale."
+    },
+    {
+      "key": "layout-engine",
+      "term": "Layout Engine",
+      "definition": "The component inside a web browser — in Chrome and Edge, it is called Blink — that reads HTML and CSS, computes where every element sits on screen, and hands a pixel-accurate frame to the GPU for display. Flipbook bypasses this entirely: there is no markup to parse and no style rules to compute, because the model produces pixels directly."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": "The five-tweet thread by Zain Shah announces Flipbook and walks through the motivation and technical approach. The opening tweet frames the core premise — every pixel streamed live from a model, no HTML or layout engine. Subsequent tweets, referenced in coverage, detail the LTX Studio video model, the Modal Labs GPU backend, and the interactive click-to-regenerate mechanic, illustrated with the Paris travel-planner demo.",
+  "sources": [
+    {
+      "url": "https://noqta.tn/en/news/flipbook-ai-pixel-streaming-web-interface-2026",
+      "title": "Flipbook Prototype Streams Every Pixel from AI, Replaces HTML",
+      "note": "Primary news writeup; source of team bios, technical specs (1080p/24fps, WebSockets, Modal Labs), and demo description"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LOy0GvD3djY",
+      "title": "Every Pixel Streamed Live From an AI Model — No HTML, No Code (Flipbook)",
+      "note": "Video demo of the Flipbook prototype"
+    }
+  ],
+  "bookmark_id": "2046982383430496444",
+  "generated_at": "2026-05-06T19:25:59.794287Z",
+  "backend": "claude"
+}

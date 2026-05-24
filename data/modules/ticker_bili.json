@@ -1,0 +1,28 @@
+{
+  "key": "BILI",
+  "name": "Bilibili Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Bilibili Inc. is a leading Chinese online entertainment platform that offers a wide range of content including video streaming, live broadcasting, and mobile games. It is particularly popular among Generation Z users in China, known for its community-driven ecosystem and bullet-commenting feature. The company generates revenue through mobile games, value-added services, advertising, and e-commerce. Bilibili competes with other Chinese video platforms like iQiyi and Tencent Video, and has been expanding its content offerings to include more professional and original programming.",
+  "recent": "In the past 30 days, Bilibili's stock has experienced volatility amid broader market concerns about Chinese regulatory crackdowns and economic slowdown. The company reported mixed quarterly earnings, with revenue growth slowing but user engagement metrics remaining strong. Analysts have noted potential catalysts from new game approvals and advertising recovery, though near-term outlook remains cautious.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BILI/",
+      "title": "Bilibili Inc. (BILI) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/bili",
+      "title": "BILI Stock Price | Bilibili Inc. ADR Stock Quote (U.S.: Nasdaq ..."
+    },
+    {
+      "url": "https://ir.bilibili.com/en/stock-information/",
+      "title": "Stock Information - bilibili"
+    },
+    {
+      "url": "https://www.google.com/finance/quote/BILI:NASDAQ",
+      "title": "Bilibili Inc - ADR (BILI) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:59:41.452136Z",
+  "backend": "deepseek"
+}

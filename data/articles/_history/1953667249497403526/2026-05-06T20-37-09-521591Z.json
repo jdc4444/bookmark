@@ -1,0 +1,38 @@
+{
+  "headline": "Karpathy's Three Rules for Building Real Expertise",
+  "lede": "Andrej Karpathy, whose AI tutorials have built him a devoted following on YouTube, distilled his approach to mastering a field into three rules. The framework is a rebuke of the dominant mode of self-education—video courses, quick blog posts, breadth-first surveys—and argues that nearly all of it is entertainment masquerading as learning.",
+  "body": "Karpathy draws a sharp line between consuming content to be entertained and consuming it to learn. Most digital education, he writes, flatters both parties: viewers feel productive, creators get engagement, and no genuine learning occurs. His test is blunt—declare your intent as a binary at the start. He compares real learning to a serious gym session; the primary sensation should be effort. 'You want the mental equivalent of sweating.' He advises closing tabs of 'Learn XYZ in 10 minutes' and instead allocating four-hour blocks for textbooks, documentation, and papers.\n\nThe first rule is **depth-first, project-based learning**: take on a concrete goal and acquire knowledge only as the project demands it. This inverts the conventional sequence—survey the whole field before touching a problem. Karpathy calls the alternative *learning on demand*: start with a goal, encounter a gap, fill it, continue. Material you never need never gets learned, which turns out to be most material in a breadth-first curriculum. Retention improves because knowledge enters through application rather than anticipation.\n\nThe second rule is to teach. Summarizing what you have learned in your own words forces you to distinguish what you genuinely understand from what you merely recognized on the page. Rephrasing something exposes the gaps that passive reading papers over. The rule has nothing to do with having an audience; writing notes to yourself counts, provided the words are yours and not the source's.\n\nThe third rule governs motivation: compare yourself only to your past self, never to others. Measuring against experts who are years ahead returns a signal that is accurate but useless—it reveals distance without direction. Measuring against your earlier self returns progress, which is the only metric that can actually guide the next step. The advice sounds like a cliché, but the mechanism behind it is precise.\n\nWhat makes the framework worth attention is the source. Karpathy's pedagogical reputation rests partly on his ability to teach hard things clearly—a practitioner describing how he would learn carries different weight than a productivity creator describing how you should. The three rules are not original to him; versions appear across the literature on skill acquisition. But his phrasing is unusually clean, and the context—an AI researcher who has publicly worked through the same learning problems he is describing—gives the framework credibility it might otherwise lack.",
+  "tickers": [],
+  "poster": "aaditsh",
+  "concepts": [
+    {
+      "key": "depth-first-learning",
+      "term": "depth-first learning",
+      "definition": "An approach to acquiring a skill by pursuing a concrete project and learning only what the project requires, as opposed to surveying a field comprehensively before attempting anything. The term borrows from computer science, where depth-first search explores one branch fully before backtracking, rather than sampling every branch at the same level."
+    },
+    {
+      "key": "learning-on-demand",
+      "term": "learning on demand",
+      "definition": "Karpathy's label for the knowledge-acquisition pattern inside depth-first learning: you do not pre-study a topic exhaustively but instead encounter a specific gap mid-project and fill it at that moment. The framing treats understanding as something pulled by need rather than pushed by a syllabus."
+    },
+    {
+      "key": "breadth-first-learning",
+      "term": "breadth-first learning",
+      "definition": "The conventional alternative Karpathy argues against: covering a subject survey-style—watching all the lectures, reading all the introductory chapters—before attempting any real application. The approach feels thorough but often leaves knowledge inert because it was never tested against a problem."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://petar.dev/notes/learning-is-supposed-to-be-difficult/",
+      "title": "Embrace the Challenge of Learning: Insights from Andrej Karpathy",
+      "note": "Contains Karpathy's full original quote including the entertainment-vs-learning distinction and the four-hour block recommendation, which the tweet's OCR omits"
+    }
+  ],
+  "bookmark_id": "1953667249497403526",
+  "generated_at": "2026-05-06T20:37:09.521591Z",
+  "backend": "claude"
+}

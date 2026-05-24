@@ -1,0 +1,95 @@
+{
+  "headline": "Teaching Three.js by Breaking It in Real Time",
+  "lede": "Three.js is the JavaScript library that turns the browser into a 3D canvas, abstracting WebGL — the low-level graphics API native to modern browsers — into something developers can actually build with. Learning it has long meant choosing between dense official documentation and expensive video courses. Hasan Aboul Hasan, a developer-educator with over a million YouTube subscribers, has built a third option: a free, browser-native interactive guide with live playgrounds on every page.",
+  "body": "**Three.js** — released by Ricardo Cabello (online: mrdoob) and now at version r184 — has become the de facto standard for web 3D. NASA's Mars mission visualizations, creative developer portfolios, and product configurators used by major retailers all run on it. The library abstracts the *WebGL* draw calls, shader programs, and GPU buffer management that would otherwise demand deep graphics programming knowledge. Its popularity has spawned a small industry of courses; the dominant paid resource, Three.js Journey by Bruno Simon, runs 66 lessons across 93 hours of video for $95.\n\nHasan's guide currently spans twenty chapters — the eight the tweet describes reflect its state at launch; the published version has since grown. The syllabus runs from introductory geometry and *PBR* materials through raycasting, particle systems, and shadow-map configuration, and into territory most courses have not yet incorporated: *WebGPU*, Three.js's next-generation GPU backend, and *TSL* (Three Shading Language), a cross-renderer abstraction for custom shader programs. The format is the point. Every chapter ships a live browser demo in which parameters update the scene in real time. Swapping a *MeshPhongMaterial* — which approximates highlights using a fixed “shininess” value — for a *MeshStandardMaterial* — which models physically accurate roughness and metalness — produces an immediate, visible difference, with no local setup required.\n\nThis immediacy matters more in 3D than in most programming domains. The core intuition for 3D graphics is built through the feedback loop of adjusting a number and watching a scene respond: narrowing a camera's field of view, repositioning a directional light, adding a bloom pass to a *post-processing* pipeline. Static documentation breaks that loop; a live playground preserves it. Research on interactive coding environments in computer science education finds meaningfully better project outcomes compared with static examples — a finding that applies with particular force to a domain where the mental model is visual and spatial rather than logical.\n\nThe guide occupies a real gap. The official Three.js documentation is authoritative but reference-oriented — good for API lookups, not for guided learning. Three.js Journey is comprehensive, linear, and costs money. Hasan's guide is free, chapter-navigable, and useful to revisit mid-project when a specific concept becomes relevant. Its WebGPU and TSL chapters give it a forward-looking edge over most paid alternatives.\n\nThe project fits a recognizable pattern: Hasan builds things, then teaches what he learned. His other products include SimplerLLM, a Python library that provides a unified interface to multiple AI providers, and VidTSX, an AI-driven video platform. The Three.js guide probably cost more to build than it will earn directly. That is the logic of audience-building at scale — and one reason the guide is free.",
+  "tickers": [],
+  "companies": [],
+  "poster": "hasan_ab_hasan",
+  "concepts": [
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "WebGL (Web Graphics Library) is a JavaScript API that lets browsers draw hardware-accelerated 3D graphics by communicating directly with the GPU. It requires writing low-level shader code in GLSL and managing geometry buffers manually — the work that Three.js abstracts away behind a friendlier interface."
+    },
+    {
+      "key": "pbr",
+      "term": "PBR (Physically-Based Rendering)",
+      "definition": "A rendering approach in which surface materials follow real-world physics rather than artistic shortcuts. Instead of a single shininess dial, PBR materials expose roughness (how matte or mirror-smooth a surface is) and metalness (whether it behaves like a conductor or an insulator), producing results that stay consistent across any lighting environment."
+    },
+    {
+      "key": "meshphongmaterial",
+      "term": "MeshPhongMaterial",
+      "definition": "A Three.js material that simulates shiny surfaces using the Phong reflection model — a fast approximation that adds a specular highlight controlled by a single shininess value. It is not physically accurate: the same surface can look inconsistent when moved between different lighting rigs."
+    },
+    {
+      "key": "meshstandardmaterial",
+      "term": "MeshStandardMaterial",
+      "definition": "Three.js's standard PBR material. It uses roughness and metalness parameters grounded in real-world physics, making surfaces look consistent under any lighting condition — at a higher computational cost than Phong-based materials. It is the practical default for realistic scenes."
+    },
+    {
+      "key": "webgpu",
+      "term": "WebGPU",
+      "definition": "The successor to WebGL, giving browsers a more modern, lower-overhead interface to the GPU — closer in design to Vulkan or Metal than to OpenGL. Three.js introduced an experimental WebGPU backend that enables compute shaders and more efficient rendering pipelines not possible under WebGL."
+    },
+    {
+      "key": "tsl",
+      "term": "TSL (Three Shading Language)",
+      "definition": "A high-level shading language built into Three.js that compiles to both WebGL's GLSL and WebGPU's WGSL, letting developers write custom visual effects once and run them across both backends. It abstracts away the syntax differences between the two graphics APIs."
+    },
+    {
+      "key": "post-processing",
+      "term": "Post-Processing",
+      "definition": "Image-space effects applied after a 3D scene is rendered — analogous to Photoshop filters on a finished photograph. In Three.js, an EffectComposer chains passes (bloom, glitch, film grain) that each modify the rendered texture before it appears on screen. Because this bypasses the GPU's built-in anti-aliasing, a separate AA pass must usually be added back into the pipeline."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "hassancs91-simplerllm",
+      "url": "https://github.com/hassancs91/simplerllm",
+      "summary": "SimplerLLM is an open-source Python library by Hasan Aboul Hasan that provides a unified interface to eight AI providers including OpenAI, Anthropic, Gemini, DeepSeek, and Ollama. It handles automatic failover, structured outputs, and ships with fifteen-plus built-in utility tools aimed at developers who want to build AI applications without managing each provider SDK separately."
+    }
+  ],
+  "fact_check": "The tweet and accompanying LinkedIn post describe eight chapters; the published guide at learnwithhasan.com has since expanded to twenty. The count was accurate at time of posting and reflects the guide's launch state, not a false claim.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://learnwithhasan.com/threejs-guide/",
+      "title": "Three.js Interactive Guide — LearnWithHasan",
+      "note": "The guide itself; used to verify chapter count, content scope, and chapter structure"
+    },
+    {
+      "url": "https://threejs.org/",
+      "title": "Three.js — JavaScript 3D Library",
+      "note": "Official homepage; version r184 and ecosystem overview"
+    },
+    {
+      "url": "https://threejs-journey.com/",
+      "title": "Three.js Journey by Bruno Simon",
+      "note": "Primary paid alternative; used for competitive positioning and price verification"
+    },
+    {
+      "url": "https://learnwithhasan.com/",
+      "title": "LearnWithHasan — Main Platform",
+      "note": "Hasan's main site; background on products and audience size"
+    },
+    {
+      "url": "https://learnwithhasan.com/simplerllm",
+      "title": "SimplerLLM — LearnWithHasan",
+      "note": "Product page for SimplerLLM, mentioned in body"
+    },
+    {
+      "url": "https://github.com/hassancs91",
+      "title": "hassancs91 — GitHub Profile",
+      "note": "Hasan's GitHub; source for SimplerLLM repo details"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/h-educate_i-wanted-to-learn-threejs-properly-so-i-activity-7444429664992878592-o8YZ",
+      "title": "LinkedIn post by Hasan about the Three.js guide",
+      "note": "Original launch description with 8-chapter context and pedagogical motivation"
+    }
+  ],
+  "bookmark_id": "2038662746598723907",
+  "generated_at": "2026-05-07T09:20:11.218615Z",
+  "backend": "claude-sonnet-subagent"
+}

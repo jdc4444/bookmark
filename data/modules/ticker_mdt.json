@@ -1,0 +1,28 @@
+{
+  "key": "MDT",
+  "name": "Medtronic plc",
+  "exchange": "NYSE",
+  "blurb": "Medtronic is one of the world's largest medical device companies, developing and selling device-based therapies across cardiovascular, surgical, neuroscience, and diabetes segments to health systems and clinicians globally. Its Cardiovascular Portfolio includes implantable pacemakers, defibrillators, cardiac ablation products, and aortic valves, while other segments address spinal, surgical navigation, and neuromodulation needs. Founded in 1949 and headquartered in Dublin, Ireland, the company employs roughly 95,000 people and generates approximately $35.5 billion in trailing twelve-month revenue. Medtronic is a Dividend Aristocrat, offering a ~3.7% yield, and holds a market capitalization near $98 billion.",
+  "recent": "MDT shares fell to a 52-week low near $75.91 in early May 2026, pressured by pre-earnings caution ahead of Q4 FY2026 results scheduled for June 3, 2026. On April 20, Medtronic closed its $585 million acquisition of CathWorks, adding real-time coronary imaging technology to its cath lab portfolio. The company also received CE Mark approval for its Stealth AXiS Surgical System for precision navigation in neurosurgery and ENT procedures; despite these catalysts, analysts trimmed price targets while maintaining a moderate-buy consensus around $108.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/mdt/",
+      "title": "Medtronic (MDT) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://tickeron.com/ticker/MDT/",
+      "title": "MDT stock forecast, quote, news & analysis — Tickeron"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/MDT/news/",
+      "title": "Medtronic plc (MDT) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/mdt",
+      "title": "MDT Stock Price | Medtronic PLC Stock Quote — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-09T05:38:52.026073Z",
+  "backend": "claude-sonnet-subagent"
+}

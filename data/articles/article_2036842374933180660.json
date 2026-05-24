@@ -1,0 +1,172 @@
+{
+  "headline": "Dev-Browser Lets Agents Script Their Way Through Chrome",
+  "lede": "Sawyer Hood, a former Figma senior staff engineer, has released dev-browser — a CLI that lets AI agents control a browser by writing short Playwright scripts rather than navigating it one click at a time. The tool's core bet is that code-generation is faster, cheaper, and more reliable than both screenshot-based computer-use and step-by-step MCP tool calls. A demo in the announcement shows Claude Code using it to create a Google Sheet of popular movies against a live Chrome session.",
+  "body": "The standard complaint about coding agents is that they can write tests, run builds, and read logs — but they cannot see what a user sees. Hood describes this as the unclosed loop: “For any app with a frontend, the loop never closes.” **dev-browser**, installable with `npm i -g dev-browser`, is his attempt to seal it. The tool turns the browser into a scriptable primitive: instead of commanding Chrome one click at a time, an agent writes short *Playwright* scripts — a browser-automation library maintained by Microsoft (MSFT) — which execute in an isolated QuickJS WASM sandbox against a persistent browser session.\n\nThe architecture reflects deliberate choices about what goes wrong with the alternatives. *Computer-use* approaches — where an agent reads screenshots and moves a cursor — generate enormous context and are slow. *MCP servers* stream a live accessibility tree into the agent’s context window on every turn, multiplying API calls. Hood’s synthesis uses persistent pages that survive across script executions, so an agent navigates once and operates across many focused scripts. A `snapshotForAI()` method returns a compact semantic *accessibility snapshot* rather than raw *DOM*. A Chrome extension lets the agent attach to the user’s real logged-in browser rather than a sandboxed Chromium instance. Execution happens inside a QuickJS WASM sandbox with no access to the host filesystem.\n\nHood published benchmark results comparing dev-browser to three alternatives on a game-tracker task. His numbers: 3 minutes 53 seconds, $0.88, and 29 *turns* (discrete agent steps) per run, at 100% completion. Playwright MCP required 51 turns, $1.45, and 4 minutes 31 seconds. Anthropic’s Chrome extension, which relies on computer-use, required 80 turns, $2.81, and nearly 13 minutes. The caveats matter: Hood ran the benchmark himself, against a task he designed, with three runs per method. Independent reviewers have not consistently reproduced his rankings; some prefer Vercel’s *agent-browser* (a Rust implementation using unique element identifiers rather than CSS selectors) or Browserbase’s *Stagehand* (a TypeScript SDK layered over Playwright with AI-native `act`, `observe`, and `extract` primitives).\n\nThe deeper claim in Hood’s writing concerns design principle rather than performance metrics. In “The Bitter Lesson of LLM Extensions,” he argues that the history of LLM customization — from ChatGPT plugins through *MCP* to purpose-built CLIs — consistently shows that general-purpose tools plus a capable model outperform elaborate bespoke protocols. Models already know Playwright’s API; the trick is not teaching them a new *DSL* but giving them a better runtime: small scripts, persistent state, iterative correction. The repo has accumulated 6,100 GitHub stars since its March 2026 launch.\n\nHood is not simply releasing open-source tooling. Do Browser, his commercial product, packages the same architecture as a consumer-facing Chrome extension at up to $100 per month — positioning dev-browser as an open-source proof-of-concept that validates the underlying design. The pattern echoes his earlier *draw-a-ui* (2023), a project converting hand-drawn wireframes to HTML via GPT-4 Vision that reached 13,600 GitHub stars. At Figma, Hood was the first engineer on FigJam. His current bet is that the agent layer between human intent and browser is valuable enough to own.",
+  "tickers": [
+    "MSFT"
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Vercel",
+      "ticker": null
+    },
+    {
+      "name": "Browserbase",
+      "ticker": null
+    },
+    {
+      "name": "Figma",
+      "ticker": null
+    },
+    {
+      "name": "Do Browser",
+      "ticker": null
+    }
+  ],
+  "poster": "sawyerhood",
+  "concepts": [
+    {
+      "key": "computer-use",
+      "term": "computer-use",
+      "definition": "An AI agent approach where the model interprets screenshots and issues cursor movements and keystrokes to interact with software, rather than calling APIs or writing code. Anthropic popularized the term; it trades generality for slowness and high token cost."
+    },
+    {
+      "key": "mcp",
+      "term": "MCP (Model Context Protocol)",
+      "definition": "An open standard developed by Anthropic for connecting AI models to external tools and data sources. In browser automation, an MCP server translates browser state — typically an accessibility tree — into structured tool calls the agent can read and act on, one step per turn."
+    },
+    {
+      "key": "playwright",
+      "term": "Playwright",
+      "definition": "An open-source browser-automation library maintained by Microsoft, used by developers to write scripts that control Chrome, Firefox, and Safari. Widely used in software testing; dev-browser uses it as the underlying runtime for agent-generated browser scripts."
+    },
+    {
+      "key": "quickjs-wasm-sandbox",
+      "term": "QuickJS WASM sandbox",
+      "definition": "A JavaScript execution environment that runs inside a WebAssembly (WASM) module. QuickJS is a compact, fast JS engine; isolating it inside WASM prevents scripts from accessing the host filesystem or making arbitrary network requests."
+    },
+    {
+      "key": "accessibility-snapshot",
+      "term": "accessibility snapshot",
+      "definition": "A structured, semantic representation of a web page derived from the browser’s accessibility tree — the same data screen readers use. Far more compact than raw HTML or a screenshot while still giving an AI agent enough information to locate and interact with page elements."
+    },
+    {
+      "key": "turns",
+      "term": "turns (agent turns)",
+      "definition": "In an agentic AI system, a turn is one complete cycle of the model reading its context, reasoning, and issuing an action or tool call. Fewer turns mean lower latency and lower cost, since each turn typically incurs an API call."
+    },
+    {
+      "key": "dom",
+      "term": "DOM",
+      "definition": "The Document Object Model: a browser’s in-memory tree representation of a web page’s HTML elements. Raw DOM output can be very large and verbose; most agent tools return a filtered or summarized version instead."
+    },
+    {
+      "key": "dsl",
+      "term": "DSL (domain-specific language)",
+      "definition": "A programming language or notation designed for one narrow purpose. Hood’s argument is that inventing a new DSL for agents to describe browser interactions is unnecessary when they already have deep familiarity with a general-purpose library like Playwright."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "SawyerHood-dev-browser",
+      "url": "https://github.com/SawyerHood/dev-browser",
+      "summary": "The main dev-browser repository: a CLI tool that lets AI agents control a browser by writing Playwright scripts executed in a QuickJS WASM sandbox. Includes a persistent browser daemon, a Chrome extension for attaching to the user’s own browser session, and a `snapshotForAI()` accessibility helper. MIT licence; 6,100 stars as of May 2026."
+    },
+    {
+      "key": "SawyerHood-dev-browser-eval",
+      "url": "https://github.com/SawyerHood/dev-browser-eval",
+      "summary": "A benchmarking suite comparing dev-browser against Playwright MCP, Playwright CLI, and Anthropic’s Chrome extension on a standardized game-tracker task. Each method is run three times and results are averaged; findings are published in benchmark-comparison.md. Primary source for Hood’s performance claims."
+    },
+    {
+      "key": "SawyerHood-draw-a-ui",
+      "url": "https://github.com/SawyerHood/draw-a-ui",
+      "summary": "Hood’s 2023 viral project that converted hand-drawn wireframes into HTML and Tailwind CSS using GPT-4 Vision. Reached 13,600 GitHub stars and foreshadowed AI design features later added to Figma. Demonstrates Hood’s pattern of building open-source proofs-of-concept that validate commercial ideas."
+    }
+  ],
+  "fact_check": "Hood’s benchmark comparisons are self-published: he ran each test himself, against a task he designed, with three runs per method. The numbers appear in a repository he controls and have not been independently replicated. Community reviewers evaluating browser-automation tools for Claude Code have not consistently ranked dev-browser first, with some preferring Vercel’s agent-browser or Browserbase’s Stagehand. The headline efficiency figures — 39% cost reduction, 43% fewer turns relative to Playwright MCP — should be treated as indicative rather than third-party-verified.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/SawyerHood/dev-browser",
+      "title": "GitHub — SawyerHood/dev-browser",
+      "note": "Primary repository: architecture, README, install instructions"
+    },
+    {
+      "url": "https://github.com/SawyerHood/dev-browser/releases",
+      "title": "dev-browser releases",
+      "note": "Version history from v0.2.0 to v0.2.7; release cadence and changelog"
+    },
+    {
+      "url": "https://github.com/SawyerHood/dev-browser-eval",
+      "title": "GitHub — SawyerHood/dev-browser-eval",
+      "note": "Benchmark suite and comparative results table"
+    },
+    {
+      "url": "https://www.sawyerhood.com/blog/closing-the-agent-loop",
+      "title": "Closing the Agent Loop — Sawyer Hood",
+      "note": "Hood’s design manifesto on the unclosed frontend loop and dev-browser’s architecture"
+    },
+    {
+      "url": "https://www.sawyerhood.com/blog/llm-extension",
+      "title": "The Bitter Lesson of LLM Extensions — Sawyer Hood",
+      "note": "Design-philosophy post arguing general-purpose tools outperform bespoke protocols"
+    },
+    {
+      "url": "https://dobrowser.io",
+      "title": "Do Browser — AI Browser Agent",
+      "note": "Commercial product built on dev-browser’s architecture; pricing tiers"
+    },
+    {
+      "url": "https://www.sawyerhood.com",
+      "title": "Sawyer Hood — Software Engineer",
+      "note": "Author’s personal site and employment history (Facebook, Figma, independent)"
+    },
+    {
+      "url": "https://github.com/SawyerHood/draw-a-ui",
+      "title": "GitHub — SawyerHood/draw-a-ui",
+      "note": "Prior viral project establishing Hood’s public profile"
+    },
+    {
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "title": "GitHub — microsoft/playwright-mcp",
+      "note": "Primary competitor: Microsoft’s official MCP server for Playwright"
+    },
+    {
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "title": "GitHub — vercel-labs/agent-browser",
+      "note": "Rust-based competitor using unique element references"
+    },
+    {
+      "url": "https://github.com/browserbase/stagehand",
+      "title": "GitHub — browserbase/stagehand",
+      "note": "TypeScript competitor with AI-native browser primitives"
+    },
+    {
+      "url": "https://stevekinney.com/writing/driving-vs-debugging-the-browser",
+      "title": "Driving vs. Debugging the Browser — Steve Kinney",
+      "note": "Contextual framing of the two design paradigms in browser automation"
+    },
+    {
+      "url": "https://dev.to/minatoplanb/i-tested-every-browser-automation-tool-for-claude-code-heres-my-final-verdict-3hb7",
+      "title": "I Tested Every Browser Automation Tool for Claude Code — DEV Community",
+      "note": "Independent community review; does not rank dev-browser first"
+    },
+    {
+      "url": "https://x.com/sawyerhood/status/2036842374933180660",
+      "title": "dev-browser announcement tweet — @sawyerhood",
+      "note": "Source bookmark"
+    }
+  ],
+  "bookmark_id": "2036842374933180660",
+  "generated_at": "2026-05-07T09:40:56.256481Z",
+  "backend": "claude-sonnet-subagent"
+}

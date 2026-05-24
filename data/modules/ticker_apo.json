@@ -1,0 +1,24 @@
+{
+  "key": "APO",
+  "name": "Apollo Global Management, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Apollo Global Management is a leading alternative asset manager specializing in private equity, credit, infrastructure, secondaries, and real estate. The firm invests across private and public markets, focusing on buyouts, distressed assets, and special situations. As of 2026, Apollo manages over $70 billion in market capitalization and is recognized as one of the largest asset managers globally.",
+  "recent": "In the past 30 days, Apollo reported earnings on May 6, 2026, with net income declining 68.2% year-over-year to $1.16 billion, though revenue grew 28.3% to $31.29 billion. The stock traded in a 52-week range of $99.56 to $157.28, closing at $127.79 on May 7, 2026. Analysts maintain a Buy rating with a price target of $147.27.",
+  "sources": [
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/APO/news/",
+      "title": "Apollo Global Management (APO) News Today - MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/APO/",
+      "title": "Apollo Global Management, Inc. (APO) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/apo/",
+      "title": "Apollo Global Management (APO) Stock Price & Overview - Stock Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:26:04.192776Z",
+  "backend": "deepseek"
+}

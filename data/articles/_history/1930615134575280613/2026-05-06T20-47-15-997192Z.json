@@ -1,0 +1,54 @@
+{
+  "headline": "A Million-Particle Ocean Renders in Real Time in Your Browser",
+  "lede": "A developer has built a real-time 3D fluid simulation — complete with spray, foam, and bubbles — that runs entirely in the browser at over one million particles. The project uses WebGPU, the web's new direct-access GPU API, paired with Three.js for rendering. It represents a meaningful leap in what interactive physics simulations can achieve without leaving a browser tab.",
+  "body": "The simulation's foundation is **Position-Based Fluids** (PBF), a technique introduced by Miles Macklin and Matthias Müller in 2013. Rather than solving the full Navier-Stokes equations — the classical description of fluid motion — PBF enforces density constraints on each particle iteratively, achieving stability and speed at the cost of some physical fidelity. It has become a workhorse of real-time fluid graphics.\n\nThe visual richness — the white froth, airborne droplets, and submerged fizz — comes from a second layer called *diffuse particles*, a concept codified in a 2012 paper by Ihmsen et al., *Unified Spray, Foam and Bubbles for Particle-Based Fluids*. The idea is to identify regions where the fluid is turbulent (measured by local energy and surface curvature) and spawn secondary particles there. These are classified by position: spray flies above the surface, foam floats on it, and bubbles travel through the bulk below. Each class follows different physics rules, but a single unified system generates and manages all three.\n\nWhat makes the demonstration notable is where it runs. **WebGPU** — the successor to WebGL, now shipping by default in Chrome and Edge — exposes GPU compute shaders directly to browser code. This allows the physics update loop, which must evaluate millions of particle interactions per frame, to execute on the graphics card rather than the CPU. Without compute shaders, a simulation at this scale would be impossible in real time on the web.\n\nThree.js, a widely used JavaScript library that abstracts 3D scene management, now supports WebGPU as a rendering backend. Crossing one million particles at interactive frame rates in a browser is the kind of benchmark that shifts expectations — what looked like research-demo territory a few years ago now runs in a consumer tab without a plugin.",
+  "tickers": [],
+  "poster": "onirenaud",
+  "concepts": [
+    {
+      "key": "position-based-fluids",
+      "term": "Position-Based Fluids",
+      "definition": "A real-time fluid simulation method introduced by Macklin and Müller (2013). Instead of solving Navier-Stokes differential equations directly, it represents the fluid as particles and iteratively adjusts their positions each frame to satisfy a density constraint. The result is stable, controllable, and fast enough for interactive use — properties that make it popular in games and real-time graphics."
+    },
+    {
+      "key": "diffuse-particles",
+      "term": "Diffuse Particles",
+      "definition": "Secondary particles spawned in regions of high fluid turbulence to simulate spray, foam, and bubbles — collectively called 'diffuse' because they represent air-water mixtures rather than pure fluid. Each type follows its own physics: spray is airborne, foam rides the surface, and bubbles travel through the bulk. The concept was formalized by Ihmsen et al. in 2012."
+    },
+    {
+      "key": "webgpu",
+      "term": "WebGPU",
+      "definition": "A browser API that gives JavaScript code direct access to the GPU, including compute shaders for general-purpose GPU computation. It succeeds WebGL, offering lower overhead and far more flexibility for tasks like large-scale physics simulation. As of 2025, it ships by default in Chrome and Edge, with Firefox support advancing."
+    },
+    {
+      "key": "marching-cubes",
+      "term": "Marching Cubes",
+      "definition": "An algorithm that converts a volumetric field — such as the density of a particle cloud — into a polygon mesh by stepping through a 3D grid and approximating a surface at each cell. Fluid simulators use it to turn particles into a water-surface mesh suitable for lighting and rendering."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "matsuoka-601-webgpu-ocean",
+      "url": "https://github.com/matsuoka-601/webgpu-ocean",
+      "summary": "A real-time 3D ocean fluid simulation implemented in WebGPU. The repository applies particle-based fluid methods and GPU compute shaders to achieve interactive frame rates in the browser. It appears in the research sources as a closely related or reference implementation for the technique demonstrated in the post."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/matsuoka-601/webgpu-ocean",
+      "title": "matsuoka-601/webgpu-ocean",
+      "note": "Reference WebGPU ocean simulation repo; context for the rendering and physics techniques used"
+    },
+    {
+      "url": "https://joshua16266261.github.io/184-water-sim/final-report/index.html",
+      "title": "Realistic Water Simulation with Spray, Foam, and Bubbles — CS184",
+      "note": "Academic implementation report detailing Position-Based Fluids and the Ihmsen et al. diffuse-particle system, including pseudocode for both simulation loops"
+    }
+  ],
+  "bookmark_id": "1930615134575280613",
+  "generated_at": "2026-05-06T20:47:15.997192Z",
+  "backend": "claude"
+}

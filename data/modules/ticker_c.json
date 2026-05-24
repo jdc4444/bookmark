@@ -1,0 +1,32 @@
+{
+  "key": "C",
+  "name": "Citigroup Inc.",
+  "exchange": "NYSE",
+  "blurb": "Citigroup Inc. is a diversified financial services holding company providing a range of financial products and services to consumers, corporations, governments, and institutions worldwide. It operates through five segments: Services, Markets, Banking, U.S. Personal Banking, and Wealth. With a market capitalization of approximately $220 billion and over 226,000 employees, Citigroup is one of the largest banking institutions globally.",
+  "recent": "As of May 7, 2026, Citigroup's stock closed at $129.09, up 1.17% on the day, with a 52-week range of $69.65 to $135.29. The company reported earnings on April 14, 2026, and has a forward P/E of 11.73. Analysts have a buy rating with a price target of $136.34.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/C/news/",
+      "title": "Citigroup Inc. (C) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/C/",
+      "title": "Citigroup (C) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/c/",
+      "title": "Citigroup (C) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/c/overview",
+      "title": "C Stock Price | Citigroup Inc. Stock Quote (U.S.: NYSE) | MarketWatch"
+    },
+    {
+      "url": "https://edition.cnn.com/markets/stocks/C",
+      "title": "C Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:14:24.789343Z",
+  "backend": "deepseek"
+}

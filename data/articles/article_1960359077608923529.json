@@ -1,0 +1,78 @@
+{
+  "headline": "The Insight Industrial Complex, Stitched on a $29 T-Shirt",
+  "lede": "A shirt bearing the words “ever since i was young / i wanted to transform / unstructured data / into actionable business insights” sold out online after the phrase went viral. Originally posted as a standalone tweet by @netcapgirl in October 2024, it works as a single-panel satire: the grammar of sincere childhood longing enlisted in service of the emptiest possible corporate aspiration. That it was then screen-printed, sold out, and widely counterfeited suggests the joke resonates beyond the timeline.",
+  "body": "The joke turns on a single formal inversion. “Ever since I was young / I wanted to” is the grammar of genuine longing—the opening of Oscar speeches, college application essays, and the earnest LinkedIn post in which a thirty-something data engineer traces their career to a childhood fascination with spreadsheets. What follows—“transform **unstructured data** (raw, free-form information—text, images, social posts—as opposed to neatly organized database records) into *actionable business insights*”—belongs to an entirely different register: the ritual vocabulary of enterprise analytics, the kind of language that populates job descriptions, consulting pitch decks, and vendor homepages across the industry. The collision is the joke. The joke is also the critique.\n\n“Actionable business insights” has been flagged as a hollow compound almost since it entered common usage. A market-research trade publication called it “fast on its way to topping this decade’s list of meaningless marketing buzzwords” as far back as 2010–2011. The diagnosis is structural: *insight* is supposed to denote a genuine flash of understanding—something that changes how you see a problem—while *actionable* was appended to distinguish useful intelligence from mere observation. In practice the compound has been repeated so many thousands of times, in so many decks and press releases, that it now signals little beyond a speaker’s familiarity with the genre’s conventions.\n\nThe broader target is a posture endemic to the tech and data industries: the idea that performing analytics work is not merely a job but a vocation, discoverable in childhood, legible as a calling. LinkedIn is this posture’s native habitat. The r/LinkedInLunatics subreddit—which documents its most florid expressions—had grown to 670,000 members by October 2024. *Bloomberg* noted that posts increasingly depicted workers photographing themselves in hospital beds with laptops to perform dedication. *Fortune* had reported the year before that LinkedIn had “entered its cringe era” and that the cringe was working, because engagement was rising. The shirt’s mock-earnest form reproduces the posture faithfully enough that it stings on contact.\n\nThe specific phrase was coined by @netcapgirl—the X handle of a writer identified as Sophie—in a standalone tweet in October 2024 that drew approximately 2.5 million views. Shirts That Go Hard, whose founder John started the account by photographing mistranslated graphic tees while living in Vietnam, converted the phrase into a $29 garment. It sold out across all colors and sizes; counterfeit listings appeared almost immediately on print-on-demand platforms.\n\nThe brand’s approach is consistently formal: find a register—the retirement plaque, the motivational poster, the mission statement—and load it with content whose mismatch exposes how empty that register’s conventions are. The data-insight shirt is the brand’s most pointed example because the conventions it targets—performative vocation, jargon as identity—are still treated with apparent sincerity by a significant portion of the professional class.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Shirts That Go Hard",
+      "ticker": null
+    },
+    {
+      "name": "LinkedIn",
+      "ticker": null
+    }
+  ],
+  "poster": "shirtsthtgohard",
+  "concepts": [
+    {
+      "key": "unstructured-data",
+      "term": "Unstructured Data",
+      "definition": "Raw digital information that has not been organized into a predefined format—free text, images, audio, social media posts—as opposed to structured data arranged neatly in database rows and columns. Extracting meaning from it requires additional processing steps, which is why “transforming” it is treated as the analyst’s central task."
+    },
+    {
+      "key": "actionable-business-insights",
+      "term": "Actionable Business Insights",
+      "definition": "A phrase from the enterprise analytics lexicon meaning data-derived findings intended to guide specific decisions, as opposed to observations that are merely interesting. The compound has been criticized since at least 2010 as a hollow buzzword: in practice it tends to mean whatever the speaker wants the data to support."
+    },
+    {
+      "key": "linkedin-ification",
+      "term": "LinkedIn-ification",
+      "definition": "The spread of LinkedIn’s distinctive professional register into other contexts. On the platform, ordinary career events are narrated as journeys, setbacks become lessons, and jobs are framed as callings with origin stories in childhood. Critics use the term to describe any context where this performative sincerity crowds out straightforward communication."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/netcapgirl/status/1846233047273754673",
+      "title": "@netcapgirl original tweet (October 2024)",
+      "note": "The phrase’s origin; drew approximately 2.5M views before the shirt was made"
+    },
+    {
+      "url": "https://shirtsthatgohard.com/products/ever-since-i-was-young-i-wanted-to-transform-unstructured-data-into-actionable-business-insights-1",
+      "title": "Shirts That Go Hard — product page",
+      "note": "Confirms sold-out status across all colors; $29 price point"
+    },
+    {
+      "url": "https://www.vice.com/en/article/an-interview-with-the-shirts-that-go-hard-guy/",
+      "title": "Vice — An Interview With The Shirts That Go Hard Guy",
+      "note": "Background on the founder and the brand’s origin photographing mistranslated tees in Vietnam"
+    },
+    {
+      "url": "https://fortune.com/2023/02/27/linkedin-evolution-networking-job-site-cringe-posts/",
+      "title": "Fortune — LinkedIn has officially entered its cringe era, and it’s working (Feb 2023)",
+      "note": "Documents the LinkedIn performative-aspiration phenomenon and rising engagement"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2024-10-18/why-cringe-worthy-linkedin-posts-are-on-the-rise",
+      "title": "Bloomberg — Why LinkedIn Posts Are Getting Too Personal, Political and Cringe (Oct 2024)",
+      "note": "Cites r/LinkedInLunatics at 670,000 members; hospital-bed laptop anecdote"
+    },
+    {
+      "url": "https://www.greenbook.org/marketing-research/actionable-insights-watchword-or-buzzword-04106",
+      "title": "Greenbook — Actionable Insights: Watchword or Buzzword? (c. 2010–2011)",
+      "note": "Early trade-press critique of “actionable insights” as a hollow compound"
+    },
+    {
+      "url": "https://thevarsity.ca/2024/11/03/opinion-linkedin-ification-is-ruining-the-university-experience/",
+      "title": "The Varsity — ‘LinkedIn-ification’ is ruining the university experience (Nov 2024)",
+      "note": "Demonstrates the term entering campus-press discourse"
+    }
+  ],
+  "bookmark_id": "1960359077608923529",
+  "generated_at": "2026-05-11T13:25:48.668304Z",
+  "backend": "claude-sonnet-subagent"
+}

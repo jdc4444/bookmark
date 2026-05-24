@@ -1,0 +1,45 @@
+{
+  "headline": "Claude as Director: Stitching Endless Video From One Frame",
+  "lede": "Designer Fabian Stelzer has wired Claude into Google's Veo 3 video model to produce continuously extending footage from a single seed image — each clip's final frame becoming the next clip's starting point. He calls the rig \"Genie 3-mini,\" a pun on Google's Gemini brand, with an asterisk delivering the punchline: the creative intelligence is Anthropic's, not Google's.",
+  "body": "The technique turns on Veo 3's *image-to-video* (img2video) mode, in which a still photograph or rendered frame serves as the visual anchor from which the model extrapolates motion, lighting, and scene progression. Google's Veo 3.1 supports both a start frame and an optional end frame, giving users fine-grained control over a clip's arc within its generation window.\n\nWhat distinguishes Stelzer's workflow is the loop: once a clip finishes rendering, its final frame is extracted and passed back to Veo 3 as the opening image for the next shot. Claude supplies each successive prompt — deciding camera movement, subject action, atmospheric shift — and Veo 3 renders it. The chain is, in principle, unbounded.\n\nThis pattern is sometimes called *latent continuation*: using the terminal state of one generative pass as the conditioning input for the next. Its main virtue is seam suppression. Because every new clip is anchored to the last frame of its predecessor, the spatial and chromatic discontinuities that would otherwise betray a cut are minimized, producing the illusion of a single unbroken take.\n\nThe \"Genie 3-mini\" framing is pointed. **Gemini** is Google's flagship AI family; *Genie* is Google DeepMind's separate project for generating interactive virtual environments. By slotting Claude into the orchestration role — the component that reasons about narrative and writes prompts — Stelzer demonstrates that creative direction and video synthesis are modular: Google renders, Anthropic directs.\n\nThe open question Stelzer flags in the tweet itself is control. His workflow is generative in both senses: productive and improvisatory. Steering it toward a specific narrative outcome — rather than an interesting but unpredictable drift — depends on how tightly the Claude-side prompting can be constrained. That problem, prompt engineering for multi-shot coherence, is now the binding constraint in AI video production generally.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "poster": "fabianstelzer",
+  "concepts": [
+    {
+      "key": "img2video",
+      "term": "image-to-video (img2video)",
+      "definition": "A video-generation mode in which a still image is provided as the first frame, and the model synthesizes the motion and scene that follows. It anchors the clip visually, preventing the model from inventing a starting state from scratch."
+    },
+    {
+      "key": "latent-continuation",
+      "term": "latent continuation",
+      "definition": "A chaining technique in generative AI where the output of one model pass — the final frame of a video, the last token of text — becomes the input condition for the next pass. The goal is to maintain coherence across an otherwise discontinuous sequence of generations."
+    },
+    {
+      "key": "veo-3",
+      "term": "Veo 3",
+      "definition": "Google DeepMind's video generation model, capable of producing high-resolution footage from text prompts or reference images. Its current version, Veo 3.1, supports start and end frame conditioning and vertical video output for social media formats."
+    },
+    {
+      "key": "orchestration-layer",
+      "term": "orchestration layer",
+      "definition": "In an AI pipeline, the component that coordinates other models — deciding what to ask them, in what sequence, and with what inputs. Here, Claude acts as the orchestrator: it writes the prompts that direct Veo 3, while Veo 3 does the actual rendering."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://gemini.google/us/overview/video-generation/?hl=en",
+      "title": "Gemini AI video generator powered by Veo 3.1",
+      "note": "Confirms Veo 3.1 feature set including multi-reference-image upload and start/end frame conditioning"
+    }
+  ],
+  "bookmark_id": "1953164225964065177",
+  "generated_at": "2026-05-06T20:37:17.108866Z",
+  "backend": "claude"
+}

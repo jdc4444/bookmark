@@ -1,0 +1,15 @@
+{
+  "key": "igetredpilled",
+  "display_name": "@igetredpilled",
+  "blurb": "@igetredpilled is an anonymous macro and market-structure commentator on X whose posts focus on long-horizon valuation charts, monetary-system dynamics, and bearish reads on U.S. equity markets. The account is known for sharing historical ratio charts — often sourced from FRED, TradingView, or proprietary overlays — that compare current market levels to prior bubble peaks using metrics such as SPX/M2, the Buffett indicator, and CAPE ratios. The tone is characteristically terse and provocative, designed to surface data points that contradict consensus bullish narratives. No institutional affiliation or real identity has been publicly disclosed.",
+  "credibility_note": "Anonymous account; no verifiable professional credentials. Charts shared appear to use legitimate data sources (FRED, TradingView) but are selected and framed to support a consistent bearish thesis. Readers should verify underlying data independently and note that the account does not disclose positions. Long-horizon valuation indicators cited have genuine analytical standing but poor track records as short-term market-timing tools.",
+  "links": [
+    {"label": "@igetredpilled on X", "url": "https://x.com/igetredpilled"}
+  ],
+  "sources": [
+    {"url": "https://x.com/igetredpilled", "title": "@igetredpilled — X profile"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,20 @@
+{
+  "key": "ArchetypeVision",
+  "display_name": "Archetype Vision",
+  "blurb": "Archetype Vision is a pseudonymous crypto analyst and trader focused on on-chain metrics, market structure, and altcoin cycles. They post technical chart analysis, DeFi and NFT commentary, and macro crypto threads. Their follower count is not publicly available due to restricted access.",
+  "credibility_note": null,
+  "links": [],
+  "sources": [
+    {
+      "url": "https://x.com/ArchetypeVision",
+      "title": "Archetype Vision (@ArchetypeVision) / Posts / X"
+    },
+    {
+      "url": "https://apify.com/web.harvester/twitter-scraper",
+      "title": "Twitter (X.com) Tweets & Profiles Scraper - Apify"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-07T06:54:44.061688Z",
+  "backend": "deepseek"
+}

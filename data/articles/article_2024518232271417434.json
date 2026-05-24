@@ -1,0 +1,157 @@
+{
+  "headline": "Anthropic Bans OpenClaw OAuth While OpenAI Opens Its Doors",
+  "lede": "OpenClaw, a free open-source AI agent framework that reached 247,000 GitHub stars in weeks — one of the fastest trajectories in GitHub's history — has become the arena for a quiet policy conflict between the two dominant AI labs. Anthropic declared in late February 2026 that using Claude subscription credentials in third-party tools is a terms violation; OpenAI responded by formally permitting ChatGPT subscribers to authenticate through OpenClaw at no extra cost. The divergence is, at bottom, a disagreement about whether viral open-source distribution is a threat or an opportunity.",
+  "body": "**OpenClaw** is a TypeScript agent framework that connects large language models to a user's local system — browsing the web, executing shell commands, reading and writing files — and surfaces those capabilities through messaging apps like Signal or Telegram. Its creator is Peter Steinberger, the Austrian developer who previously built PSPDFKit, a PDF processing toolkit whose code runs on over a billion devices. After PSPDFKit was acquired for roughly €100 million in 2023 by Insight Partners, Steinberger took a one-way ticket to Madrid to recover from burnout, then built OpenClaw from scratch. On February 14, 2026 — five days before Warner's post — he announced he was joining OpenAI.\n\nThe confrontation with Anthropic turns on the economics of subscription versus *pay-per-token* billing. Claude's Free, Pro, and Max tiers (ranging from $0 to $200 per month) let individuals use Claude through Anthropic's own interfaces; they carry no *API* credits. The *OAuth* tokens those plans generate could, until recently, be extracted and fed into third-party tools — giving OpenClaw users effectively unlimited agentic workloads at subscription rates. Heavy agentic sessions routed through the API cost $20–$100 per day in token charges, far exceeding any monthly subscription price. Anthropic's Legal and Compliance page now states plainly that OAuth authentication “is intended exclusively for Claude Code and Claude.ai” and that using it in any other tool “constitutes a violation of the Consumer Terms of Service.” The working relationship between Anthropic and Steinberger had already been difficult: the company sent what he described on the Lex Fridman podcast as legal “love letters,” forcing him to rename the project twice (from Clawdbot to Moltbot to OpenClaw) and then declining to help him protect old domains, which crypto squatters seized within seconds of each rename, serving malware to former users.\n\nOpenAI chose the opposite posture. Sam Altman announced via X that ChatGPT subscribers can authenticate OpenClaw through *OAuth* — their subscription absorbs the agentic workload, no per-token billing required. The mechanism inside OpenClaw's command-line interface is an *auth provider identifier* called `openai-codex`, which initiates an OAuth handshake against a ChatGPT Plus or Pro account rather than prompting for a raw API key. (The identifier `openai-codex` is a named credential profile in OpenClaw's config system, not itself a model name; the full model reference `openai-codex/gpt-5.3-codex` combines the profile name with the specific model. **GPT-5.3-Codex**, released February 5, 2026, is OpenAI's specialized reasoning model for agentic coding tasks.) The `openclaw models set` and `openclaw models status --plain` commands in Warner's guide amount to a two-line migration script: point the tool at the new auth provider, confirm it stuck.\n\nThe divergence reflects competing readings of the same arithmetic. Anthropic sees *token arbitrage* — subscription plans priced for bounded individual use being stretched over unlimited automated workloads by intermediaries it did not authorize. OpenAI sees a customer acquisition funnel: every OpenClaw user who authenticates via ChatGPT OAuth becomes or remains a Plus subscriber. The Next Web framed it bluntly: “Anthropic looked at OpenClaw and saw a cost problem. OpenAI looked at the same product and saw a distribution opportunity.” Warner estimates he burns $20 per day doing exploratory agent work through the API — sessions he describes as still too early-stage to generate any return. At $20 per month via ChatGPT Plus, the same sessions cost roughly thirty times less. That gap is what makes the step-by-step guide feel less like a tutorial and more like a defection notice.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "PSPDFKit",
+      "ticker": null
+    },
+    {
+      "name": "Insight Partners",
+      "ticker": null
+    }
+  ],
+  "poster": "AndrewWarner",
+  "concepts": [
+    {
+      "key": "oauth",
+      "term": "OAuth",
+      "definition": "OAuth (Open Authorization) is a standard protocol that lets a user grant a third-party application access to their account on another service without sharing their password. In this context, it lets OpenClaw authenticate as a Claude or ChatGPT subscriber on the user's behalf, routing requests through their existing subscription rather than a separate API billing account."
+    },
+    {
+      "key": "pay-per-token",
+      "term": "pay-per-token billing",
+      "definition": "A pricing model in which charges are based on the number of tokens — roughly, word-fragments — processed in each AI request. Input and output tokens are billed separately at different rates. Agentic tools that run many sequential steps consume tokens far faster than conversational use, making per-token billing expensive relative to a flat monthly subscription."
+    },
+    {
+      "key": "api-key",
+      "term": "API key",
+      "definition": "A credential string that identifies a developer or application when making programmatic requests to a service. Unlike OAuth, which authenticates as a specific user's consumer account, an API key is tied to a developer console account and billed against that account's usage at per-token rates."
+    },
+    {
+      "key": "agentic-tool",
+      "term": "AI agent / agentic tool",
+      "definition": "An AI system that can autonomously plan and execute multi-step tasks — reading files, running commands, calling external services, browsing the web — rather than responding to single questions. Each autonomous step generates fresh context for the model to process, compounding token consumption well beyond what conversational use produces."
+    },
+    {
+      "key": "auth-provider-identifier",
+      "term": "auth provider identifier",
+      "definition": "In OpenClaw's configuration system, a named credential profile that bundles together an authentication method (OAuth or API key) with a default model endpoint. The identifier `openai-codex` refers specifically to a ChatGPT OAuth profile, not to a model; the full model reference `openai-codex/gpt-5.3-codex` pairs the profile name with the specific model version to be served."
+    },
+    {
+      "key": "token-arbitrage",
+      "term": "token arbitrage",
+      "definition": "The practice — intentional or incidental — of using a flat-rate consumer subscription to absorb workloads that would cost far more under per-token API billing. An AI provider prices subscriptions assuming typical individual usage; heavy automated agent sessions can consume tokens at rates that far exceed what the subscription was priced to cover."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "summary": "OpenClaw is an open-source AI agent framework written in TypeScript and Swift (MIT license) that connects large language models to a user's local environment through a plugin system called 'skills.' Users interact with it through messaging apps — Signal, Telegram, Discord — while it autonomously executes file operations, shell commands, and web browsing. It reached 247,000 GitHub stars by March 2026, and is designed to be model-agnostic, supporting authentication against multiple AI providers."
+    }
+  ],
+  "fact_check": "The tweet uses `openai-codex/gpt-5.x-codex` as shorthand. In OpenClaw's CLI, `openai-codex` is an auth provider identifier (a named OAuth credential profile), not a model family name. The string `gpt-5.x-codex` appears in guides as a version-agnostic placeholder; the actual pinned model identifier is `gpt-5.3-codex`. Both GPT-5.3-Codex (released February 5, 2026) and GPT-5.3-Codex-Spark (a smaller research variant, February 12, 2026) are real, publicly announced OpenAI models. Sam Altman's X post and the direct tweet URL both returned HTTP 402 during research, so exact wording of Altman's announcement and some tweet text is sourced from third-party coverage rather than directly verified originals.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://steipete.me/posts/2026/openclaw",
+      "title": "OpenClaw, OpenAI and the future — steipete.me",
+      "note": "Steinberger's own account of the project history, name changes, and his move to OpenAI"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/OpenClaw",
+      "title": "OpenClaw — Wikipedia",
+      "note": "Project history, name-change timeline, and growth metrics"
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw",
+      "title": "GitHub — openclaw/openclaw",
+      "note": "Primary repository; star count and technical stack"
+    },
+    {
+      "url": "https://lexfridman.com/peter-steinberger/",
+      "title": "Lex Fridman Podcast #491 — Peter Steinberger",
+      "note": "Source for name-change drama, domain squatting, and Anthropic relationship"
+    },
+    {
+      "url": "https://lexfridman.com/peter-steinberger-transcript/",
+      "title": "Lex Fridman Podcast #491 — Full transcript",
+      "note": "Verbatim quotes on the rename sequence and crypto squatter incident"
+    },
+    {
+      "url": "https://fortune.com/2026/02/19/openclaw-who-is-peter-steinberger-openai-sam-altman-anthropic-moltbook/",
+      "title": "Who is OpenClaw creator Peter Steinberger? — Fortune",
+      "note": "Background on PSPDFKit, acquisition, and Steinberger's career arc"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/legal-and-compliance",
+      "title": "Claude Code Legal & Compliance — Anthropic",
+      "note": "Authoritative source for Anthropic's OAuth restriction policy and verbatim policy language"
+    },
+    {
+      "url": "https://www.anthropic.com/legal/consumer-terms",
+      "title": "Anthropic Consumer Terms of Service",
+      "note": "Underlying terms from which the OAuth restriction derives"
+    },
+    {
+      "url": "https://www.theregister.com/2026/02/20/anthropic_clarifies_ban_third_party_claude_access/",
+      "title": "Anthropic clarifies ban on third-party Claude access — The Register",
+      "note": "Enforcement timeline and Anthropic's stated rationale"
+    },
+    {
+      "url": "https://thenextweb.com/news/openai-openclaw-chatgpt-subscription-agent",
+      "title": "OpenAI opens ChatGPT subscriptions to OpenClaw's 3.2M users — The Next Web",
+      "note": "Reports OpenAI's strategic framing and the distribution-vs-cost-problem framing"
+    },
+    {
+      "url": "https://docs.openclaw.ai/providers/openai",
+      "title": "OpenClaw OpenAI Provider docs — docs.openclaw.ai",
+      "note": "Technical reference for the openai-codex auth provider and model reference format"
+    },
+    {
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "title": "Introducing GPT-5.3-Codex — OpenAI",
+      "note": "Official announcement confirming gpt-5.3-codex is a real, publicly released model"
+    },
+    {
+      "url": "https://developers.openai.com/codex/models",
+      "title": "Models — Codex | OpenAI Developers",
+      "note": "Model family documentation for the GPT-5.x-Codex series"
+    },
+    {
+      "url": "https://techcrunch.com/2026/02/15/openclaw-creator-peter-steinberger-joins-openai/",
+      "title": "OpenClaw creator Peter Steinberger joins OpenAI — TechCrunch",
+      "note": "Confirms Steinberger's February 14 announcement"
+    },
+    {
+      "url": "https://venturebeat.com/technology/anthropic-cracks-down-on-unauthorized-claude-usage-by-third-party-harnesses",
+      "title": "Anthropic cracks down on unauthorized Claude usage — VentureBeat",
+      "note": "Enforcement timeline and token arbitrage analysis"
+    },
+    {
+      "url": "https://www.finout.io/blog/anthropic-api-pricing",
+      "title": "Anthropic API Pricing 2026 — Finout",
+      "note": "Per-token pricing and agentic session cost estimates"
+    },
+    {
+      "url": "https://www.shareuhack.com/en/posts/openclaw-claude-code-oauth-cost",
+      "title": "OpenClaw Claude Code OAuth Cost — shareuhack.com",
+      "note": "User-reported cost comparison between subscription and API billing for agentic workloads"
+    }
+  ],
+  "bookmark_id": "2024518232271417434",
+  "generated_at": "2026-05-07T12:29:09.275421Z",
+  "backend": "claude-sonnet-subagent"
+}

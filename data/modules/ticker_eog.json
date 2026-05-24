@@ -1,0 +1,14 @@
+{
+  "key": "EOG",
+  "name": "EOG Resources, Inc.",
+  "exchange": "NYSE",
+  "blurb": "EOG Resources is one of the largest U.S. independent oil-and-gas producers, with a dominant acreage position in the Permian Basin and the Eagle Ford Shale, as well as operations in the DJ Basin, Dorado dry-gas play, and international assets in Trinidad and Bahrain. EOG is known for its premium-return drilling inventory and operational efficiency — typically achieving well costs and production rates that outperform peers — and operates with a conservative balance sheet and a track record of returning capital through a base dividend plus variable supplements.",
+  "recent": "EOG has beaten the Zacks consensus EPS estimate in each of the last four quarters, with an average surprise of 6.1%. The company's Q1 2026 earnings call was scheduled for May 6, with the Street expecting results that benefit from Brent crude averaging well above $80/barrel through the quarter. Analysts noted upward estimate revisions in the days immediately preceding the print, reflecting the gap between oil price realizations and consensus models built on more conservative price decks. EOG's Dorado dry-gas assets provide incremental exposure to elevated Henry Hub prices driven by data-center power demand.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/sectors/energy/articles/bp-q1-earnings-beat-estimates-174200975.html", "title": "BP Q1 Earnings Beat Estimates — Yahoo Finance (EOG context)"},
+    {"url": "https://www.investing.com/analysis/why-the-energy-sectors-april-pullback-could-be-a-major-buying-opportunity-200678152", "title": "Why the Energy Sector's April Pullback Could Be a Major Buying Opportunity — Investing.com"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

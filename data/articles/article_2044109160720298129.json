@@ -1,0 +1,159 @@
+{
+  "headline": "Gaussian Splatting Arrives in the Browser, Photorealistic and Streamable",
+  "lede": "Spark 2.0, an open-source library from AI startup World Labs, can stream photorealistic three-dimensional scenes of more than 100 million data points to an ordinary smartphone browser — no download, no native app, no desktop GPU required. The release is the first time the engineering needed to deliver captured, photo-real environments at web scale has been assembled in a single open package. Tech blogger Robert Scoble, who spent the mid-2000s building rudimentary virtual spaces inside Second Life for Microsoft, called it the arrival of the Holodeck.",
+  "body": "Spark 2.0 is built on *Three.js*, the dominant 3D JavaScript framework, and runs entirely inside *WebGL2* — the graphics API baked into every modern browser. The library was created by **World Labs**, the spatial-intelligence startup founded by AI researcher Fei-Fei Li, which has raised $1 billion and sells a commercial generative-3D tool called Marble. Open-sourcing Spark is a recognizable ecosystem play: embed into Three.js's millions-strong developer base, seed demand for content that only World Labs's platform can generate at scale. GitHub named the project one of its twelve most influential open-source repositories of 2025 at GitHub Universe.\n\nThe underlying representation is *3D Gaussian Splatting* (3DGS), introduced in a landmark paper by Bernhard Kerbl and colleagues at Inria — the French national computer-science research institute — at SIGGRAPH 2023, the field's premier annual computer-graphics conference. Rather than rendering polygons or running the per-pixel ray-marching of *NeRF* (neural radiance field) methods, 3DGS encodes a scene as millions of tiny, semi-transparent, color-bearing ellipsoids — informally called **splats**. Each splat has a position, orientation, size, color, and opacity. Projecting them onto a screen uses the same GPU rasterization pipeline as traditional graphics, which is why the original paper achieved real-time 1080p rendering where earlier photorealistic methods were slower by an order of magnitude.\n\nSpark's defining innovation is a hierarchical *Level-of-Detail* (LoD) tree that solves the last-mile delivery problem. Each parent node holds a merged, lower-resolution version of its children; the renderer streams only what the current viewpoint requires, keeping a fixed GPU splat budget — 500,000 on mobile, 2.5 million on desktop — regardless of how large the total scene is. A new file format, `.RAD`, uses columnar encoding and compression to shrink 10 million splats from 2.3 GB to roughly 200 MB. The first transmitted chunk always carries the 64,000 largest splats, so a recognizable image appears almost immediately. On the GPU side, a *virtual memory* scheme pre-allocates a fixed pool of 16 million splats managed with least-recently-used eviction — borrowing the logic of an operating-system memory manager to stitch together scenes that dwarf what any single device could hold. Real-world deployments already include *Starspeed*, a multiplayer browser game streaming 100 million splats, and a Hololive demo running 40 million splats on smartphones and Quest headsets.\n\nScoble's historical reference is apt. **Microsoft** (MSFT) maintained a presence inside Second Life around 2003–2006 — when Scoble worked there as a technology evangelist — and the platform, built by Linden Lab, was the first mainstream attempt at a persistent, navigable virtual world. Second Life had a functioning internal economy and user-owned intellectual property rights, but its polygon graphics were blocky and its bandwidth demands severe. The dream of photo-real shared environments remained conceptually obvious and technically distant for two decades. Spark 2.0 does not cross the threshold Scoble invokes — it streams captured reality, not arbitrarily generated environments — but it closes the gap in a measurable way: photorealistic scenes, running in a browser tab, on a phone, in 2026.",
+  "tickers": [
+    "MSFT"
+  ],
+  "companies": [
+    {
+      "name": "World Labs",
+      "ticker": null
+    },
+    {
+      "name": "Inria",
+      "ticker": null
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Linden Lab",
+      "ticker": null
+    }
+  ],
+  "poster": "Scobleizer",
+  "concepts": [
+    {
+      "key": "3d-gaussian-splatting",
+      "term": "3D Gaussian Splatting (3DGS)",
+      "definition": "A scene representation technique introduced at SIGGRAPH 2023 that encodes real-world environments as millions of semi-transparent, colored ellipsoids called Gaussians or splats. Unlike polygon meshes or NeRF methods, 3DGS is photorealistic and renders in real time because it uses standard GPU rasterization — the same hardware path as conventional video games. The original paper demonstrated 30fps at 1080p where prior photorealistic methods fell well short."
+    },
+    {
+      "key": "splat",
+      "term": "Splat",
+      "definition": "Informal term for a single 3D Gaussian in a Gaussian Splatting scene. Each splat is a tiny, semi-transparent, color-bearing ellipsoid defined by its position, shape, orientation, and opacity. A typical photorealistic scene contains millions to hundreds of millions of them."
+    },
+    {
+      "key": "nerf",
+      "term": "NeRF (Neural Radiance Field)",
+      "definition": "A family of machine-learning methods that represent 3D scenes as neural networks. Given a viewpoint, a NeRF queries the network to determine what color each pixel should be — a per-pixel computation that produces high-quality results but is too slow for real-time rendering without significant hardware. 3D Gaussian Splatting emerged partly as a faster alternative that achieves comparable visual quality."
+    },
+    {
+      "key": "level-of-detail",
+      "term": "Level-of-Detail (LoD)",
+      "definition": "A technique in 3D graphics where nearby or prominent objects are rendered at high detail while distant or peripheral ones use simpler versions, saving computation. Spark's LoD system organizes splats into a tree where each parent node is a merged, lower-resolution version of its children, allowing the renderer to stream only the resolution the current viewpoint actually requires."
+    },
+    {
+      "key": "webgl2",
+      "term": "WebGL2",
+      "definition": "The second version of the Web Graphics Library, a JavaScript API that gives web browsers direct access to the GPU for rendering 2D and 3D graphics without plugins. It is supported natively by all major modern browsers and is the standard foundation for in-browser 3D applications."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "The most widely used 3D graphics library for the web, wrapping WebGL in a developer-friendly JavaScript API. It has millions of users and a large ecosystem of plugins and tools. Spark is built as a Three.js plugin, giving it immediate access to this existing developer base rather than requiring a new ecosystem to form around it."
+    },
+    {
+      "key": "rad-format",
+      "term": ".RAD (RADiance field) Format",
+      "definition": "Spark's proprietary file format for storing Gaussian Splatting scenes, optimized for web streaming. It uses columnar encoding and compression to shrink 10 million splats from roughly 2.3 GB to about 200 MB, and structures the data so that the coarsest version of the scene is always in the first chunk transmitted — meaning something recognizable appears almost immediately on load."
+    },
+    {
+      "key": "virtual-memory-gpu",
+      "term": "Virtual Memory (GPU context)",
+      "definition": "In Spark's usage, a technique borrowed from operating-system design: a fixed pool of GPU memory is pre-allocated and divided into pages, and the renderer swaps pages in and out using a least-recently-used strategy as the user navigates. This allows exploration of scenes far larger than the GPU's physical memory, in the same way an OS allows programs to use more RAM than is physically present."
+    },
+    {
+      "key": "siggraph",
+      "term": "SIGGRAPH",
+      "definition": "The ACM Special Interest Group on Computer Graphics and Interactive Techniques, which organizes the most prestigious annual conference and paper track in computer graphics research. A result published at SIGGRAPH is considered top-tier; the 2023 Gaussian Splatting paper by Kerbl et al. appeared there before being published in ACM Transactions on Graphics."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "sparkjsdev-spark",
+      "url": "https://github.com/sparkjsdev/spark",
+      "summary": "The Spark library: a Three.js plugin for rendering and streaming 3D Gaussian Splatting scenes in the browser. Written primarily in TypeScript with a Rust core compiled to WebAssembly for LoD tree traversal, it supports multiple splat file formats (.PLY, .SPZ, .SPLAT, .KSPLAT, .SOG, .RAD) and ships both browser-side tools for real-time LoD generation and a command-line tool for offline pre-processing of large scenes. MIT-licensed, approximately 2,900 GitHub stars as of May 2026."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/sparkjsdev/spark",
+      "title": "sparkjsdev/spark — GitHub",
+      "note": "Primary source for architecture, file format support, language breakdown, license, and star count"
+    },
+    {
+      "url": "https://www.worldlabs.ai/blog/spark-2.0",
+      "title": "Streaming 3DGS Worlds on the Web — World Labs",
+      "note": "Official launch post; densest source of technical architecture detail including .RAD compression ratios, GPU budgets, and LoD tree design"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.04079",
+      "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering — Kerbl et al.",
+      "note": "Foundational SIGGRAPH 2023 paper that defines the 3DGS technique all downstream tools including Spark build upon"
+    },
+    {
+      "url": "https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/",
+      "title": "3D Gaussian Splatting — INRIA Project Page",
+      "note": "Official project page with supplementary material and demos for the original paper"
+    },
+    {
+      "url": "https://sparkjs.dev/docs/new-features-2.0/",
+      "title": "New Features in 2.0 — Spark Docs",
+      "note": "Authoritative technical changelog; source for LoD generation methods, ExtSplats format, WebAssembly architecture, and XR integration"
+    },
+    {
+      "url": "https://x.com/sparkjsdev/status/2044090505982816449",
+      "title": "@sparkjsdev — Spark 2.0 announcement thread (16 tweets)",
+      "note": "Primary public launch announcement; the original post Scoble bookmarked"
+    },
+    {
+      "url": "https://x.com/theworldlabs/status/2044096996148171035",
+      "title": "@theworldlabs — Spark 2.0 announcement",
+      "note": "World Labs's own launch post confirming corporate authorship and framing"
+    },
+    {
+      "url": "https://x.com/Scobleizer/status/2044109160720298129",
+      "title": "@Scobleizer — Second Life / Holodeck reaction",
+      "note": "The bookmarked tweet providing the historical frame and editorial hook"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robert_Scoble",
+      "title": "Robert Scoble — Wikipedia",
+      "note": "Background on Scoble's Microsoft tenure (2003–2006), blogging role, and ongoing spatial-computing commentary"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Second_Life",
+      "title": "Second Life — Wikipedia",
+      "note": "Context for the 2003–2006 virtual world reference: scale, economy, and corporate presence including Microsoft"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=44249565",
+      "title": "Show HN: Spark — Hacker News",
+      "note": "Community reception; confirms mobile performance claims and identifies creator (A-Frame co-creator dmarcos) working with World Labs"
+    },
+    {
+      "url": "https://radiancefields.com/world-labs-releases-spark-v2.0",
+      "title": "World Labs Releases Spark V2.0 — Radiance Fields",
+      "note": "Trade-press coverage confirming launch date and positioning within the broader 3DGS ecosystem"
+    },
+    {
+      "url": "https://radiancefields.com/spark-recognized-as-influential-project-by-github",
+      "title": "Spark Recognized as Influential Project by GitHub — Radiance Fields",
+      "note": "Source for GitHub Universe 'most influential repositories of 2025' citation"
+    },
+    {
+      "url": "https://www.vp-land.com/p/world-labs-streams-3d-gaussian-splatting-worlds-on-the-web-with-spark-2-0",
+      "title": "World Labs Streams 3DGS Worlds on the Web — VP-Land",
+      "note": "Virtual production trade coverage noting URL-based sharing and implications for collaborative 3D workflows"
+    }
+  ],
+  "bookmark_id": "2044109160720298129",
+  "generated_at": "2026-05-07T07:48:10.023661Z",
+  "backend": "claude-sonnet-subagent"
+}

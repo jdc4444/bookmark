@@ -1,0 +1,15 @@
+{
+  "key": "VST",
+  "name": "Vistra Corp.",
+  "exchange": "NYSE",
+  "blurb": "Vistra is the largest competitive power generator in the United States, operating approximately 44,000 megawatts of total capacity including 24,000 MW of natural-gas generation, 6,400 MW of nuclear, and substantial coal and battery storage assets. It is the second-largest nuclear operator in the U.S. behind Constellation Energy. Vistra operates primarily in restructured, deregulated power markets including ERCOT (Texas), PJM (Mid-Atlantic/Midwest), ISO-NE, MISO, and CAISO — markets where electricity prices clear at the margin and where data-center load growth has dramatically tightened supply/demand balances.",
+  "recent": "Vistra issued 2026 adjusted EBITDA guidance of $6.8 to $7.6 billion — roughly $1 billion above its 2025 range — anchored by three 20-year power-purchase agreements with Meta covering 2.6 gigawatts of nuclear output that lock in contracted cash flows through the 2050s. The company acquired 5.5 GW of dispatchable gas assets via a $4.7 billion Cogentrix deal, strengthening its position in PJM and ISO-NE where data-center load growth is most acute. Gas turbine equipment lead times stretching into the early 2030s make Vistra's existing gas fleet increasingly difficult to replicate, supporting a structural re-rating argument. The stock sold off approximately 25% from its highs in early 2026, which some analysts characterized as a buying opportunity given the contracted earnings profile.",
+  "sources": [
+    {"url": "https://www.enverus.com/blog/vistra-doubles-down-on-data-centers/", "title": "Vistra Doubles Down on Data Centers — Enverus"},
+    {"url": "https://naturalgasintel.com/news/vistra-betting-on-us-natural-gas-fueled-future-with-19b-lotus-deal/", "title": "Vistra Betting on U.S. Natural Gas-Fueled Future With $1.9B Lotus Deal — NGI"},
+    {"url": "https://www.fool.com/investing/2026/04/18/crowd-dumping-vistra-why-buy-stock-down/", "title": "The Crowd Is Dumping Vistra. Here's Why I'd Be Buying the Stock Down 25% — Motley Fool"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

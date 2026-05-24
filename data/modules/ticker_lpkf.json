@@ -1,0 +1,20 @@
+{
+  "key": "LPKF",
+  "name": "LPKF Laser & Electronics SE",
+  "exchange": "XETRA",
+  "blurb": "LPKF Laser & Electronics is a German manufacturer of laser systems for electronics production, best known in the semiconductor packaging world for its proprietary LIDE (Laser-Induced Deep Etching) process. LIDE uses an ultrashort-pulse laser followed by a selective wet etch to create precise through-glass vias (TGVs) and complex 3D structures in glass panels without cracking or thermal damage. Glass substrates processed with LIDE can carry both electrical interconnects and optical waveguides in the same package — a property directly relevant to co-packaged optics (CPO) architectures. The company is headquartered in Garbsen, Germany and listed on the Frankfurt Stock Exchange.",
+  "recent": "LPKF reported a slight improvement in full-year 2025 earnings while announcing a broader group realignment as it pivots its commercial focus toward advanced semiconductor packaging, particularly glass substrates for AI infrastructure. In April 2025, the company announced a collaboration with Onto Innovation aimed at accelerating mass production of glass core substrates. As of early 2026, the LIDE process has moved from customer demonstrations into initial production qualifications at several advanced packaging customers, though volume revenue from glass substrates remained limited and management guided that a full commercial ramp would extend into 2027.",
+  "sources": [
+    {
+      "url": "https://lide.lpkf.com/en/technology",
+      "title": "LPKF LIDE Technology Overview — lide.lpkf.com"
+    },
+    {
+      "url": "https://www.lpkf.com/en/news-press/press-releases-teaser/lpkf-reports-slight-improvement-in-earnings-in-2025-and-initiates-group-realignment",
+      "title": "LPKF 2025 Full-Year Results and Group Realignment — lpkf.com"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

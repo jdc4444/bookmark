@@ -1,0 +1,33 @@
+{
+  "poster_id": "James56487175",
+  "handle": "@James56487175",
+  "platform": "X (Twitter)",
+  "profile_url": "https://x.com/James56487175",
+  "display_name": null,
+  "bio_summary": "Anonymous retail investor / trader. Identity unverified. No disclosed institutional affiliation, registered advisory status, or regulatory filings found as of May 2026.",
+  "known_focus": [
+    "Junior mining / TSX Venture exploration stocks",
+    "Copper and gold porphyry developers",
+    "Small-cap contrarian long positions"
+  ],
+  "disclosed_positions": [
+    {
+      "ticker": "DBG.V",
+      "otc": "DBLVF",
+      "name": "Doubleview Gold Corp",
+      "disclosed_as": "largest position by far",
+      "sold_on_run_up": false,
+      "source_tweet_id": "2038744912543891240"
+    }
+  ],
+  "credibility_notes": [
+    "Account is anonymous; no verifiable identity, track record, or regulatory registration",
+    "Promotional language ('nobody talks about it,' 'HILARIOUS,' 'dirt cheap') is consistent with motivated promotion of a personal holding",
+    "Canadian securities rules require 10%+ ownership disclosure, but do not regulate retail promotional tweets",
+    "No corroborating institutional coverage or third-party analysis of the 5x–15x return claim found",
+    "The underlying asset (Doubleview Hat Project) is genuine with NI 43-101 compliant resources, but the return timeline is not independently supported"
+  ],
+  "first_seen": "2038744912543891240",
+  "articles": ["2038744912543891240"],
+  "generated_at": "2026-05-05T18:00:00Z"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "IFX.DE",
+  "name": "Infineon Technologies AG",
+  "exchange": "Xetra",
+  "blurb": "Infineon Technologies AG is a German semiconductor manufacturer that provides microelectronics solutions for automotive, industrial, and security applications. The company is a leading supplier of power semiconductors and microcontrollers, particularly for electric vehicles and renewable energy systems. Infineon operates globally with a strong market position in the automotive and industrial sectors.",
+  "recent": "In the past 30 days, Infineon's stock has shown moderate volatility amid broader market trends. The company released its Q1 fiscal 2025 earnings, reporting revenue of €3.4 billion, slightly above expectations, driven by strong demand in automotive and green energy segments. Analysts have maintained a positive outlook on the stock due to its exposure to electrification and decarbonization trends.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/IFX.DE/",
+      "title": "Infineon Technologies AG (IFX.DE) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/ifx?countryCode=DE&iso=XFRA",
+      "title": "IFX Stock Price | Infineon Technologies AG Stock Quote (Germany ..."
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/IFXGn.DE/",
+      "title": "(IFXGn.DE) | Stock Price & Latest News | Reuters"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T13:27:13.453667Z",
+  "backend": "deepseek"
+}

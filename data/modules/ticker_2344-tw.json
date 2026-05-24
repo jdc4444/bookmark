@@ -1,0 +1,32 @@
+{
+  "key": "2344.TW",
+  "name": "Winbond Electronics Corp",
+  "exchange": "Taiwan Stock Exchange",
+  "blurb": "Winbond Electronics Corp is a Taiwanese semiconductor company specializing in memory IC products, including DRAM, NOR Flash, and SLC NAND Flash. It is one of the leading memory manufacturers in Taiwan, with a focus on specialty DRAM and code storage flash memory. The company serves various markets such as automotive, industrial, and consumer electronics.",
+  "recent": "In the past 30 days, Winbond's stock price has risen significantly, closing at NT$114.0 on May 7, 2026, up 5.07% from the previous close. The stock has been on a three-day winning streak with a cumulative gain of 20.82%. News highlights include potential benefits from a Samsung strike, which could boost DRAM prices and benefit Winbond and Nanya Technology.",
+  "sources": [
+    {
+      "url": "https://tw.stock.yahoo.com/quote/2344.TW",
+      "title": "華邦電 (2344.TW) 走勢圖 - Yahoo股市"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/2344.TW/all-listings",
+      "title": "2344.TW - | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://pchome.megatime.com.tw/stock/sid2344.html",
+      "title": "(2344)華邦電價量走勢圖 - PChome Online 股市"
+    },
+    {
+      "url": "https://www.ctee.com.tw/market-stock/2344",
+      "title": "華邦電（2344） - 行情 - 工商時報"
+    },
+    {
+      "url": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2344",
+      "title": "2344 華邦電 - 股價行情概況 - Goodinfo!台灣股市資訊網"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:42:31.126021Z",
+  "backend": "deepseek"
+}

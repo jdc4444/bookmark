@@ -1,0 +1,24 @@
+{
+  "key": "LEU",
+  "name": "Centrus Energy Corp.",
+  "exchange": "NYSE",
+  "blurb": "Centrus Energy Corp. is a leading supplier of nuclear fuel and services for the nuclear power industry. The company provides enriched uranium, uranium hexafluoride, and related services to utilities and other customers globally. Centrus is also advancing its American Centrifuge technology to produce high-assay low-enriched uranium (HALEU) for next-generation reactors, positioning itself as a key player in the U.S. nuclear fuel supply chain.",
+  "recent": "In the past 30 days, Centrus Energy stock has seen increased volatility amid growing interest in nuclear energy as a clean power source. The company has been in the news for its role in developing HALEU fuel for advanced reactors, supported by U.S. government contracts. Price action has been positive, reflecting investor optimism about nuclear fuel demand.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/LEU/",
+      "title": "Centrus Energy Corp. (LEU) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/LEU/news/",
+      "title": "LEU News Today | Why did Centrus Energy stock go up today?"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/LEU:NYSE",
+      "title": "Centrus Energy Corp (LEU) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T12:18:15.673188Z",
+  "backend": "deepseek"
+}

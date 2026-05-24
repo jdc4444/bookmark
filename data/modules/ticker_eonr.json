@@ -1,0 +1,28 @@
+{
+  "key": "EONR",
+  "name": "EON Resources Inc.",
+  "exchange": "NYSE American",
+  "blurb": "EON Resources Inc. is a small independent oil and natural gas company focused on the acquisition, development, exploration, and production of hydrocarbons in the Permian Basin. The company holds a 100% working interest in a single contiguous property spanning approximately 13,700 acres, encompassing 342 producing wells, 207 water injection wells, and one water source well. Formerly known as HNR Acquisition Corp, it rebranded as EON Resources Inc. in September 2024. With only 12 employees and a market cap of roughly $31.6 million, it operates as a micro-cap pure-play Permian Basin producer.",
+  "recent": "Shares closed at $0.6325 on May 13, 2026, down 8.56% on the session, with trailing-twelve-month revenue of $17.31 million (down ~20% year-over-year) and a net loss of $2.11 million. The stock's 52-week high of $1.58 was reached on March 13, 2026, and it has since pulled back significantly. An earnings release is scheduled for May 20, 2026, which is the next major near-term catalyst; the sole analyst covering the stock carries a Strong Buy rating with a $2.00 price target.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/eonr/",
+      "title": "EON Resources (EONR) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/EONR",
+      "title": "EONR: EON Resources Inc — Stock Price, Quote and News — CNBC"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/EONR/",
+      "title": "EON Resources (EONR) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/EONR/news/",
+      "title": "EON Resources Inc. (EONR) Latest Stock News & Headlines — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:32:15.431461Z",
+  "backend": "claude-sonnet-subagent"
+}

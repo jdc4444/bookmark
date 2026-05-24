@@ -1,0 +1,24 @@
+{
+  "key": "COIN",
+  "name": "Coinbase Global, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Coinbase Global, Inc. operates a platform for crypto assets in the United States and internationally. It provides a primary financial account for consumers, a brokerage platform for institutions, and a suite of products for developers to build onchain. Founded in 2012 and headquartered in New York, the company is a leading cryptocurrency exchange with a market cap of approximately $52.15 billion.",
+  "recent": "In the past 30 days, Coinbase's stock has traded between $193.25 and $198.50, with a 52-week range of $139.36 to $444.65. The company is set to report earnings on May 7, 2026, with analysts giving a consensus price target of $303.87, representing a potential upside of 53.5%.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/COIN/",
+      "title": "Coinbase Global, Inc. (COIN) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/coin/",
+      "title": "Coinbase Global (COIN) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/COIN/",
+      "title": "Coinbase Global (COIN) Stock Price, News & Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:46:10.965174Z",
+  "backend": "deepseek"
+}

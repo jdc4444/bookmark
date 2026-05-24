@@ -1,0 +1,14 @@
+{
+  "key": "CEG",
+  "name": "Constellation Energy Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Constellation Energy is the largest producer of carbon-free electricity in the United States and the largest nuclear power operator, with approximately 21,000 megawatts of nuclear capacity across 11 plants operating 21 reactors. It was spun off from Exelon in February 2022. Its nuclear fleet — operating in PJM, MISO, and other restructured markets — has become a prime beneficiary of hyperscaler power-purchase agreement demand: nuclear's ability to deliver around-the-clock, carbon-free power at contracted prices makes it the only source that simultaneously satisfies AI data-center load and corporate sustainability commitments.",
+  "recent": "Constellation reaffirmed full-year 2026 adjusted EPS guidance of $8.90 to $9.60 per share, having beat the Q1 2026 consensus of $1.84 with adjusted EPS of $1.91. The company's 20-year PPAs with Microsoft (to restart Three Mile Island Unit 1) and Meta (Clinton Clean Energy Center, starting June 2027) have been held up as the template for nuclear-powered AI infrastructure. Constellation's EBITDA margin profile — among the highest in the power sector given the near-zero marginal cost of existing nuclear assets — makes each incremental contract enormously accretive to earnings per share.",
+  "sources": [
+    {"url": "https://www.nasdaq.com/articles/nuclear-stocks-ceg-and-vst-power-ai-boom", "title": "Nuclear Stocks CEG and VST Power the AI Boom — Nasdaq"},
+    {"url": "https://www.tikr.com/blog/constellation-energy-vs-vistra-which-nuclear-powered-utility-has-more-upside", "title": "Constellation Energy vs. Vistra: Which Nuclear-Powered Utility Has More Upside? — TIKR"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

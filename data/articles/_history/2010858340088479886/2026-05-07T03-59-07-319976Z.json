@@ -1,0 +1,73 @@
+{
+  "headline": "From Manifesto to Mini-App: Andreessen Demos His Own Build Thesis",
+  "lede": "In April 2020, Marc Andreessen published 'It's Time to Build,' a widely circulated essay arguing that Western societies had stagnated through an unwillingness to create. Six years later, in a single tweet, he offered a demonstration of what he believes has changed: a plain-English prompt, sent to an AI app-builder, is now sufficient to commission working software. The implication is that the barrier separating an idea from a product has effectively collapsed.",
+  "body": "The tweet performs a recursive loop. By opening with 'It's time to build' — the title of his 2020 essay — and then immediately issuing a natural-language directive to @Wabi, Andreessen stages a live proof of his own argument. The update to the thesis sits in the next five words: 'now everyone can.' The friction that once confined software creation to engineers has, the tweet implies, been engineered away.\n\n**Wabi** was founded by Eugenia Kuyda, who previously built *Replika*, an AI companionship app that amassed 40 million users. In November 2025 the company raised $20 million in pre-seed funding led by Andreessen Horowitz (a16z), the firm Andreessen co-founded. Wabi positions itself as a *user-generated software* platform: a user describes an app in a sentence, and the system handles icon design, database setup, and interface layout automatically, then publishes the result to a shared social graph. Andreessen Horowitz has compared the model to what Alphabet (GOOGL)'s YouTube did for video — anyone can now not just distribute software but create it.\n\nReaders should note that Andreessen is endorsing a company his own firm funded. The tweet functions simultaneously as manifesto and portfolio promotion. That does not invalidate the broader thesis, which has wide industry support, but it supplies the commercial context for the demonstration.\n\nThe specific app Andreessen commissions — one that recommends films and novels with **techno-optimist** themes — ties the demo to his October 2023 essay of the same name: a 5,200-word argument that technological progress is the primary driver of human well-being and must be accelerated rather than constrained. The requested app is also an artefact: software designed to propagate a worldview that, by Andreessen's own live demonstration, anyone can now instantiate in minutes.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Andreessen Horowitz",
+      "ticker": null
+    },
+    {
+      "name": "Wabi",
+      "ticker": null
+    },
+    {
+      "name": "Replika",
+      "ticker": null
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    }
+  ],
+  "poster": "pmarca",
+  "concepts": [
+    {
+      "key": "techno-optimism",
+      "term": "Techno-Optimism",
+      "definition": "The belief that technological progress is the primary driver of human well-being, and that societies should actively accelerate — rather than restrain — technological development. Andreessen formalized his version in a 5,200-word October 2023 manifesto, which frames skepticism of technology as the principal threat to human flourishing."
+    },
+    {
+      "key": "user-generated-software",
+      "term": "User-Generated Software",
+      "definition": "A category of software creation in which non-technical users produce functional applications via natural-language prompts rather than code. Analogous to user-generated content on video platforms, UGS platforms handle all underlying technical infrastructure — databases, UI, hosting — automatically. The term is closely associated with Wabi's product positioning."
+    },
+    {
+      "key": "pre-seed-funding",
+      "term": "Pre-Seed Funding",
+      "definition": "The earliest formal round of venture capital investment, typically raised before a product has launched at scale or demonstrated commercial traction. It is used to fund initial product development and team-building, and usually comes from a single lead investor alongside angels."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://techcrunch.com/2025/11/05/replika-founder-raises-20m-pre-seed-for-wabi-the-youtube-of-apps/",
+      "title": "Replika founder raises $20M pre-seed for Wabi, the 'YouTube of apps'",
+      "note": "Primary source on Wabi's founding, Kuyda's background, and pre-seed funding details"
+    },
+    {
+      "url": "https://a16z.com/announcement/investing-in-wabi/",
+      "title": "Investing in Wabi | Andreessen Horowitz",
+      "note": "a16z's investment announcement confirming their lead in Wabi's pre-seed round and their 'YouTube of apps' framing"
+    },
+    {
+      "url": "https://a16z.com/podcast/its-time-to-build/",
+      "title": "IT'S TIME TO BUILD — Andreessen Horowitz",
+      "note": "The original April 2020 essay establishing the 'It's Time to Build' phrase"
+    },
+    {
+      "url": "https://a16z.com/the-techno-optimist-manifesto/",
+      "title": "The Techno-Optimist Manifesto | Andreessen Horowitz",
+      "note": "Andreessen's October 2023 manifesto defining the techno-optimist worldview referenced in the tweet"
+    }
+  ],
+  "bookmark_id": "2010858340088479886",
+  "generated_at": "2026-05-07T03:59:07.319976Z",
+  "backend": "claude"
+}

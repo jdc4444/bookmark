@@ -1,0 +1,32 @@
+{
+  "key": "ENR.DE",
+  "name": "Siemens Energy AG",
+  "exchange": "Deutsche Börse (Xetra), Frankfurt",
+  "blurb": "Siemens Energy AG is a global energy technology company spun off from Siemens AG in September 2020 and headquartered in Munich, Germany. The company operates across power generation (gas turbines, steam turbines, compressors), energy transmission (transformers, switchgear, HVDC), and renewable energy through its majority-owned subsidiary Siemens Gamesa Renewable Energy. It serves utilities, industrial customers, and oil & gas operators across more than 90 countries. By revenue it ranks among the largest energy technology companies in the world, with its grid technology and electrification businesses positioned as key beneficiaries of global energy-transition infrastructure investment.",
+  "recent": "Not enough public information — the research sources provided contain only page-level metadata from financial aggregators (Yahoo Finance, MarketWatch, Google Finance, Barron's, MarketScreener) without article body content, and my knowledge does not extend to the 30-day window ending May 14, 2026. No specific earnings releases, price catalysts, or material news can be confirmed from these sources alone.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ENR.DE/",
+      "title": "Siemens Energy AG (ENR.DE) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/enr?countrycode=xe",
+      "title": "ENR Stock Price | Siemens Energy AG Stock Quote — MarketWatch"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/ENR:ETR",
+      "title": "Siemens Energy AG (ENR) Stock Price & News — Google Finance"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/enr?countrycode=de&iso=xfra",
+      "title": "ENR | Siemens Energy AG Stock Overview — Barron's"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/SIEMENS-ENERGY-AG-113080700/",
+      "title": "Siemens Energy AG Stock (ENR) — MarketScreener"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:46:55.305250Z",
+  "backend": "claude-sonnet-subagent"
+}

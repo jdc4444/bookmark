@@ -1,0 +1,24 @@
+{
+  "key": "3103.T",
+  "name": "Unitika Ltd.",
+  "exchange": "TSE",
+  "blurb": "Unitika Ltd. (TSE: 3103) is a Japanese industrial materials company founded in 1889 and headquartered in Osaka. Its business spans three segments: polymer resins (engineering plastics), functional materials (including glass fibres and activated carbon), and textiles. Within the semiconductor supply chain, Unitika is significant as one of a small number of manufacturers of E-glass yarn — the borosilicate glass fibre woven into the laminate substrates used in printed circuit boards and ABF packaging. Because semiconductor-grade E-glass requires tight compositional and dimensional tolerances, the qualified supplier base is narrow, giving Unitika structural pricing power when substrate demand surges.",
+  "recent": "Unitika's stock reached an all-time high of ¥3,085 in April 2026, having traded as low as ¥124 in April 2025 — a roughly 25-fold move in twelve months. Supply-chain analysts following the AI hardware build-out have flagged Unitika's E-glass business as a sleeper beneficiary of ABF substrate capacity expansions at Ibiden and Unimicron. The stock entered the @zephyr_z9 watchlist at ¥1,327 and was tracked to ¥2,835 over the report period.",
+  "sources": [
+    {
+      "url": "https://www.tradingview.com/symbols/TSE-3103/",
+      "title": "Unitika Ltd. (TSE:3103) — TradingView"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/3103.T/",
+      "title": "Unitika Ltd. (3103.T) — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/UNITIKA-LTD-6493641/news/Unitika-Ltd-TSE-3103-dropped-from-Nikkei-225-Index-41923759/",
+      "title": "Unitika Ltd. (TSE:3103) — MarketScreener"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

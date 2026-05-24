@@ -1,0 +1,17 @@
+{
+  "key": "WOLF",
+  "name": "Wolfspeed, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Wolfspeed designs and manufactures silicon carbide (SiC) power devices and substrates, positioning itself as the only vertically integrated producer at 200mm SiC wafer scale. Carved out of Cree in 2021, the company bet heavily on the EV and industrial power transition, sinking billions into the John Palmour Manufacturing Center in North Carolina and the Mohawk Valley Fab in New York. The ambition was sound; the balance sheet was not. After accumulating roughly $4.6 billion in debt and missing the expected CHIPS Act funding of $750 million, Wolfspeed filed for Chapter 11 bankruptcy protection on June 30, 2025. It emerged ninety-one days later in a prepackaged restructuring that eliminated ~70% of its debt, extended maturities to 2030, and cut annual cash interest expense by roughly 60%. Existing shareholders received only 3–5% of the reorganised equity; the bulk went to convertible noteholders (56.3%) and strategic investor Renesas (38.7%), who received new common stock plus warrants.",
+  "recent": "Post-emergence, the reorganised Wolfspeed trades on NYSE under WOLF. The company's enterprise value at emergence was estimated at $2.35–2.85 billion (midpoint $2.6B), implying equity of $850M–$1.35B. As of May 2026 shares trade near $38. A December 2025 IRS settlement worth roughly $698 million provided unexpected cash relief. Chinese SiC substrate producers SICC (688234.SS) and TanKeBlue have gained market share during Wolfspeed's restructuring, while Infineon, STMicroelectronics, onsemi, and Rohm continue to invest in competing SiC capacity.",
+  "sources": [
+    {"url": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-successfully-completes-financial-restructuring-emerges-as-financially-stronger-company-well-positioned-in-silicon-carbide-market/", "title": "Wolfspeed completes financial restructuring — Wolfspeed"},
+    {"url": "https://elevenflo.com/blog/wolfspeed-bankruptcy-46b-debt-restructuring", "title": "Wolfspeed: 91-Day Prepack Cuts $4.6B in Chapter 11 — ElevenFlo"},
+    {"url": "https://stockanalysis.com/stocks/wolf/", "title": "Wolfspeed (WOLF) Stock Price & Overview — StockAnalysis"},
+    {"url": "https://ts2.tech/en/wolfspeed-wolf-stock-outlook-december-6-2025-698m-irs-windfall-post-bankruptcy-reboot-and-what-comes-next/", "title": "Wolfspeed $698M IRS windfall, post-bankruptcy reboot — ts2.tech"},
+    {"url": "https://finance.yahoo.com/quote/WOLF/", "title": "Wolfspeed, Inc. (WOLF) — Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T22:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

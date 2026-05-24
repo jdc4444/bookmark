@@ -1,0 +1,28 @@
+{
+  "key": "ABT",
+  "name": "Abbott Laboratories",
+  "exchange": "NYSE",
+  "blurb": "Abbott Laboratories is a diversified global healthcare company headquartered in North Chicago, Illinois, operating across four segments: Medical Devices, Diagnostics, Established Pharmaceuticals, and Nutrition. Its Medical Devices segment is anchored by the FreeStyle Libre continuous glucose monitoring system, one of the world's best-selling diabetes management products, alongside cardiovascular and neuromodulation devices. Its Diagnostics division produces rapid and laboratory testing systems, while its Nutrition segment markets brands including Similac (infant formula) and Ensure (adult nutrition). Abbott is a member of the S&P 500 and a Dividend Aristocrat with decades of consecutive dividend increases.",
+  "recent": "Abbott shares hit a new 52-week low of $84.08 on May 8, 2026, closing down 3.09% at $84.32 on heavy volume of over 10 million shares — the stock has shed roughly 40% from its 52-week high of $139.06 reached in June 2025. Abbott was cited among the stocks making the biggest midday moves on April 16, 2026, coinciding with the broader Q1 2026 earnings season. The prolonged selloff reflects sector-wide pressure on large-cap healthcare names amid shifting tariff and trade policy concerns.",
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/quotes/ABT",
+      "title": "ABT: Abbott Laboratories Stock Price, Quote and News — CNBC"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/ABT/news/",
+      "title": "ABT News Today — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/ABT/news/",
+      "title": "Abbott Laboratories (ABT) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/abt",
+      "title": "ABT | Abbott Laboratories Stock Overview — Barron's"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-09T05:37:42.991556Z",
+  "backend": "claude-sonnet-subagent"
+}

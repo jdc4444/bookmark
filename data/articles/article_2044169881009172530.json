@@ -1,0 +1,129 @@
+{
+  "headline": "Richard Hamming's Prescription for Doing Work That Matters",
+  "lede": "The occasion is casual — a book stolen from a friend, not coming back. Richard Hamming's *The Art of Doing Science and Engineering: Learning to Learn* began as thirty lectures at the Naval Postgraduate School in Monterey during the 1990s, was published in 1997, and spent two decades in relative obscurity before Stripe reissued it in 2020. Hamming himself spent thirty years at Bell Telephone Laboratories, won the 1968 ACM Turing Award, and gave his name to the error-correcting codes that underpin virtually every digital communications system.",
+  "body": "The book's animating premise is that exceptional scientific performance is learnable. Hamming had watched enough colleagues succeed and fail over thirty years to form a view: roughly half of what gets formally taught becomes obsolete within fifteen years, making teaching facts a fool's errand. What separates great careers from good ones is a *style of thinking* — a capacity for continuous intellectual renewal he called “learning to learn.”\n\nThe book's final chapter, a transcript of a 1986 lecture Hamming delivered at Bellcore, crystallizes this argument most memorably. Titled “You and Your Research,” it asks why so few scientists make contributions the world still remembers. His answer centers on **working on important problems** — not prestigious ones, but problems that matter and have a *reasonable line of attack*. Without the latter, effort goes nowhere regardless of the problem's grandeur. Hamming kept a mental list of roughly twelve such problems in his field and turned them over constantly. He also noticed that scientists with open office doors ultimately outperformed those with closed ones: the interruptions cost short-term output, but staying calibrated to what colleagues actually cared about kept them aimed correctly. He called this the *open-door principle*.\n\nA second observation is geometric. A career with vision advances in direct proportion to effort; one without it wanders — and the distance covered grows only as the square root of steps taken. It is the mathematics of a *random walk*, and Hamming used the contrast to argue for deliberate direction-setting. His own practice was to reserve every Friday for what he called *Great Thoughts Time*: not the next paper or the next bug, but the larger question of what computing meant for science as a whole.\n\nStripe reissued the book in 2020 with a foreword by designer and engineer Bret Victor and newly redrawn diagrams — the originals were low-resolution photocopies of lecture slides. Victor's foreword argues that Hamming's conception of greatness was inseparable from Bell Telephone Laboratories' public-service mandate: the ambition to do significant work was also a duty to do it for others. *The New Yorker* named it one of the best books of 2020. Non-specialists who find the middle sections on *digital signal processing* — Fourier analysis, filter design — impenetrable are in good company; those chapters reward engineers who know the territory, and can safely be skimmed by everyone else.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Bell Telephone Laboratories",
+      "ticker": null
+    },
+    {
+      "name": "Bellcore",
+      "ticker": null
+    },
+    {
+      "name": "Stripe",
+      "ticker": null
+    }
+  ],
+  "poster": "parmita",
+  "concepts": [
+    {
+      "key": "hamming-codes",
+      "term": "Hamming codes",
+      "definition": "Error-detecting and error-correcting codes invented by Richard Hamming in 1950. They allow a receiver to detect and correct single-bit errors in transmitted or stored data without requiring retransmission — a foundational technique now embedded in nearly every digital communications system, from memory chips to network protocols."
+    },
+    {
+      "key": "learning-to-learn",
+      "term": "learning to learn",
+      "definition": "Hamming's term for the meta-skill of continuous intellectual self-renewal. Because roughly half of any technical education becomes obsolete within fifteen years, he argued that cultivating the habit of acquiring new knowledge effectively — rather than accumulating particular facts — is the durable advantage that separates great careers from good ones."
+    },
+    {
+      "key": "reasonable-line-of-attack",
+      "term": "reasonable line of attack",
+      "definition": "Hamming's criterion for separating tractable important problems from romantic but hopeless ones. A problem is worth sustained effort only if it is both significant and has a plausible method of approach — without the latter, ambition goes nowhere regardless of the problem's importance."
+    },
+    {
+      "key": "open-door-principle",
+      "term": "open-door principle",
+      "definition": "Hamming's observation that scientists who kept their office doors open were less productive day-to-day but more productive over careers, because open doors kept them calibrated to what problems actually mattered. Closed doors optimized for current tasks at the cost of long-run direction."
+    },
+    {
+      "key": "great-thoughts-time",
+      "term": "Great Thoughts Time",
+      "definition": "Hamming's practice of reserving a fixed block each week — he used Fridays — to think about the biggest questions in his field rather than immediate deliverables. The discipline was meant to force strategic perspective before daily tasks consumed all available attention."
+    },
+    {
+      "key": "random-walk",
+      "term": "random walk",
+      "definition": "A mathematical model of a path made up of successive random steps. In Hamming's career metaphor, a researcher without guiding vision moves like a random walk: on average they get no closer to important results no matter how hard they work, because the steps cancel out. Distance from the origin grows only as the square root of the number of steps — far slower than directed progress."
+    },
+    {
+      "key": "digital-signal-processing",
+      "term": "digital signal processing",
+      "definition": "The manipulation of signals — audio, images, communications — represented as sequences of numbers, using mathematical tools such as the Fourier transform and digital filters. Hamming contributed foundational work in filter design and used DSP extensively as a teaching vehicle in the book's more technical middle chapters."
+    },
+    {
+      "key": "turing-award",
+      "term": "ACM Turing Award",
+      "definition": "The Association for Computing Machinery's highest honor in computer science, often called the Nobel Prize of computing. Awarded annually since 1966 for lasting technical contributions to the field. Hamming received it in 1968, as only the third-ever recipient."
+    }
+  ],
+  "books": [
+    {
+      "key": "art-of-doing-science-and-engineering",
+      "title": "The Art of Doing Science and Engineering: Learning to Learn",
+      "author": "Richard W. Hamming",
+      "summary": "A compilation of thirty lectures Hamming delivered at the Naval Postgraduate School in Monterey during the 1990s. The book argues that great scientific and engineering performance is a learnable style of thinking rather than innate genius, and ranges from hands-on digital signal processing to the philosophy of research careers. Originally published in 1997 by Gordon and Breach; reissued by Stripe Press in 2020 with a foreword by Bret Victor and redrawn diagrams."
+    }
+  ],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://press.stripe.com/the-art-of-doing-science-and-engineering",
+      "title": "The Art of Doing Science and Engineering — Stripe Press",
+      "note": "Publisher page for the 2020 reissue; edition details and promotional materials"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/The_Art_of_Doing_Science_and_Engineering",
+      "title": "The Art of Doing Science and Engineering — Wikipedia",
+      "note": "Overview of the book's publication history and reception"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Richard_Hamming",
+      "title": "Richard Hamming — Wikipedia",
+      "note": "Comprehensive biography including Bell Labs career and major contributions"
+    },
+    {
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamming/",
+      "title": "Richard Hamming — MacTutor Biography",
+      "note": "Academic biography with educational background and research chronology"
+    },
+    {
+      "url": "https://amturing.acm.org/award_winners/hamming_1000652.cfm",
+      "title": "Richard W. Hamming — ACM Turing Award",
+      "note": "Official ACM citation for Hamming's 1968 Turing Award"
+    },
+    {
+      "url": "https://worrydream.com/HammingForeword/",
+      "title": "Bret Victor's Foreword — worrydream.com",
+      "note": "Primary text of Victor's foreword; his argument about Hamming's public-service ethic"
+    },
+    {
+      "url": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+      "title": "You and Your Research — Hamming (University of Virginia transcript)",
+      "note": "Full transcript of the 1986 Bellcore lecture reprinted as the book's final chapter"
+    },
+    {
+      "url": "https://corinwagen.github.io/public/blog/20230516_hamming.html",
+      "title": "Book Review: The Art of Doing Science and Engineering — Corin Wagen",
+      "note": "Detailed critical review noting the book's accessibility profile and coining its 'wisdom literature' framing"
+    },
+    {
+      "url": "https://faculty.nps.edu/brutzman/hamming/hamming.html",
+      "title": "Hamming Course Resources — Naval Postgraduate School",
+      "note": "Original NPS course page with details on lecture recording and MBone delivery"
+    },
+    {
+      "url": "https://www.goodreads.com/book/show/530415.The_Art_of_Doing_Science_and_Engineering",
+      "title": "The Art of Doing Science and Engineering — Goodreads",
+      "note": "Community ratings and review aggregation"
+    }
+  ],
+  "bookmark_id": "2044169881009172530",
+  "generated_at": "2026-05-07T12:06:53.543908Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,44 @@
+{
+  "headline": "Core.so Bets That AI Agents Need a Unified Workspace",
+  "lede": "Blake Anderson (@blakeandersonw) has released core.so, an open-source workspace that collapses Slack, Linear, and Notion into a single environment, under the Apache 2.0 licence. The framing from his admirer @im_roy_lee — who places Anderson in his personal pantheon of inspiring people — is secondary to the product argument itself. The thesis: scattered context is the bottleneck when small teams try to work alongside AI agents.",
+  "body": "The three tools core.so targets each own a distinct slice of team cognition. *Slack* holds real-time conversation; *Linear* tracks issues and roadmaps; *Notion* stores documents and wikis. Individually they are well-designed, but **information fragments across them** — a decision made in Slack may never surface in a Linear ticket, and an agent querying any one system sees only part of the picture. Core.so's stated goal is to collapse that fragmentation into a single context store.\n\nThe phrase *AI-native workspace* carries a specific architectural claim: rather than bolting an AI assistant onto an existing tool, the product is designed from the start with agents as first-class participants. In practice this means the data model — messages, tasks, documents — is structured so that an agent can traverse it without the scraping or integration hacks required when connecting, say, a GPT plugin to a Notion database.\n\nThe open-source release under Apache 2.0 is a deliberate strategic choice. Proprietary all-in-one tools (Notion chief among them) have historically struggled with enterprise trust around data portability. An open licence lets teams self-host and inspect the code, lowering the adoption barrier for organisations unwilling to route sensitive project context through a third-party SaaS.\n\nThe competitive landscape is crowded. Notion has been adding AI features aggressively; Linear has stayed narrowly focused on engineering workflows; and a cohort of startups — including Coda, Fibery, and Height — have attempted similar unifications with mixed results. What distinguishes Anderson's pitch is the explicit framing around *agents* rather than humans as the primary beneficiaries of consolidation. Whether that framing translates into a technically differentiated product is not yet verifiable from the announcement alone.\n\n@im_roy_lee describes Anderson as being in his early twenties, which, if accurate, makes the scope of the ambition notable on its own terms. The effusive personal endorsement — \"top 4 people I've met in my life\" — tells the reader something about the startup network dynamics at play, even if it adds little to the product analysis.",
+  "tickers": [],
+  "poster": "im_roy_lee",
+  "concepts": [
+    {
+      "key": "ai-native-workspace",
+      "term": "AI-native workspace",
+      "definition": "A productivity environment designed from the ground up to treat AI agents as active participants rather than add-on features. Unlike a traditional tool with an AI assistant layered on top, an AI-native workspace structures its data model so agents can read, write, and reason across all content without custom integrations."
+    },
+    {
+      "key": "context-centralization",
+      "term": "Context centralization",
+      "definition": "The practice of storing all project-relevant information — conversations, tasks, documents — in one queryable place. The problem it solves: when context is split across Slack, Linear, and Notion, any automated system (or new team member) must stitch it together manually, creating gaps and inconsistencies."
+    },
+    {
+      "key": "apache-2-licence",
+      "term": "Apache 2.0 licence",
+      "definition": "A permissive open-source licence that allows anyone to use, modify, and distribute the software, including in commercial products, without paying royalties. It requires preservation of copyright notices. It is distinct from copyleft licences (like GPL) in that derivative works do not need to be open-sourced."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "blakeandersonw-core",
+      "url": "https://core.so",
+      "summary": "Core.so is an open-source, Apache 2.0-licenced workspace that consolidates the functionality of Slack (messaging), Linear (project and issue tracking), and Notion (documents and wikis) into a single environment. Its design emphasis is on centralising context so that AI agents can operate across the full information surface of a small team. The repository and product were announced publicly in May 2026 by Blake Anderson."
+    }
+  ],
+  "fact_check": "The claims in the tweet are aspirational product positioning rather than verifiable technical facts. The research sources did not return information about core.so or Blake Anderson (@blakeandersonw) beyond the tweet itself, so specific claims about funding, team size, or technical implementation cannot be independently confirmed or refuted at this time.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/im_roy_lee/status/2038400170518331627",
+      "title": "Original bookmark tweet by @im_roy_lee quoting @blakeandersonw",
+      "note": "Primary source: the announcement of core.so and the personal endorsement framing the post"
+    }
+  ],
+  "bookmark_id": "2038400170518331627",
+  "generated_at": "2026-05-06T19:50:33.974612Z",
+  "backend": "claude"
+}

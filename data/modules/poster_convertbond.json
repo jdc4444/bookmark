@@ -1,0 +1,17 @@
+{
+  "key": "convertbond",
+  "display_name": "Lawrence McDonald (@Convertbond)",
+  "blurb": "Lawrence G. McDonald is a former high-yield bond trader at Lehman Brothers, where he worked until the firm's bankruptcy in September 2008. He subsequently wrote 'A Colossal Failure of Common Sense' (2009), a widely-read insider account of Lehman's collapse that became a New York Times bestseller. McDonald later founded The Bear Traps Report, a subscription macro-research service aimed at institutional investors, and built a significant following on financial Twitter (now X) under the handle @Convertbond. His commentary spans US macro, credit markets, convertible bonds, and increasingly equity-market sentiment. The handle reflects his professional background in convertible-bond markets — hybrid securities sitting at the intersection of corporate debt and equity. McDonald's voice on X tends toward sober pattern-recognition: he favours charts, data lists, and rhetorical questions over hot takes, making him a reliable signal among finance-Twitter's noisier participants.",
+  "credibility_note": "McDonald's market commentary draws on genuine institutional fixed-income experience and a credible track record of identifying credit-market stress signals. His public calls are not audited, and like most macro commentators he has a mix of correct and incorrect directional calls; he is better understood as a lens for credit-and-equity risk framing than as a precise market timer. His Lehman memoir has been praised for accuracy by other participants but is necessarily a partial account. His work through The Bear Traps Report is paywalled; the X feed represents a curated sample of his output.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://twitter.com/Convertbond"},
+    {"label": "The Bear Traps Report", "url": "https://www.thebeartrapsreport.com/"}
+  ],
+  "sources": [
+    {"title": "Lawrence McDonald (@Convertbond) — StockTwits", "url": "https://stocktwits.com/Convertbond"},
+    {"title": "Lawrence McDonald — Twitter / X profile", "url": "https://twitter.com/Convertbond"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

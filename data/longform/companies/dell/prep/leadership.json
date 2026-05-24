@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001571996/000119312526226734/d132444ddef14a.htm",
+    "https://www.dell.com/en-us/dt/corporate/newsroom/announcements/detailpage.press-releases~usa~2025~09~dell-technologies-announces-cfo-transition.htm",
+    "https://investors.delltechnologies.com/news-releases/news-release-details/dell-technologies-board-unanimously-recommends-redomestication",
+    "https://digitaldefynd.com/IQ/meet-the-c-suite-executive-team-of-dell-technologies/"
+  ],
+  "key_finding": "Dell Technologies is the founder-CEO-controlled franchise of Michael Dell (1984-present, 42-year continuous role as founder and CEO except for the 1995 demotion to Chairman briefly), now operating at $113.5B FY26 revenue. The board pairs Michael Dell as Chairman/CEO with Egon Durban (Silver Lake Co-CEO, on the board since October 2013 through the original Dell take-private LBO and EMC acquisition cycle) as the most consequential non-founder director, Ellen Kullman (Lead Independent Director, ex-DuPont CEO, Carbon Inc. Executive Chair) as the senior outside leadership voice, William Green (ex-Accenture Chairman) as Audit Committee Chair, David Dorman (Centerview Capital Technology Founding Partner) as the deep-tech-investing veteran, David Grain (Grain Management founder/CEO, infrastructure investor), Steven Mollenkopf (ex-Qualcomm CEO bringing direct semi-customer-relationship pattern recognition), and Lynn Vojvodich Radakovich. The executive team is structurally led by Jeff Clarke (Vice Chairman + COO since December 2019; runs CSG + ISG + Global Supply Chain) — the most operationally-empowered non-Dell executive — plus Chuck Whitten as Co-COO with Bain consulting pedigree, Bill Scannell as 30+ year Dell sales chief, and David Kennedy as interim CFO from September 2025 after Yvonne McGill's transition (search for permanent CFO underway).",
+  "founder_chairman_ceo": {
+    "name": "Michael S. Dell",
+    "title": "Chairman and Chief Executive Officer",
+    "founded_company": "1984",
+    "tenure_summary": "Founder; CEO 1984-2004 and from 2007-present; Chairman continuously since 1984",
+    "framing": "Dell founded the original Dell Computer Corporation in his University of Texas at Austin dorm room in 1984 at age 19. The company went public in 1988, became the dominant US PC manufacturer in the 1990s, took itself private in a $24.4B leveraged buyout in 2013 (with Silver Lake), acquired EMC in 2016 in a $67B transaction (then the largest tech deal in history), and relisted publicly in December 2018 via a complex VMware-tracking-stock exchange. Dell's ownership and operational control through these structural transformations is the single longest founder-CEO continuous franchise in US large-cap technology. He continues to chair the board and run the company day-to-day at the snapshot date."
+  },
+  "executive_team": [
+    {
+      "name": "Jeff Clarke",
+      "title": "Vice Chairman and Chief Operating Officer (since December 2019)",
+      "framing": "Clarke is the single most operationally empowered non-Dell executive. As COO he runs Client Solutions Group, Infrastructure Solutions Group, and Global Supply Chain — effectively all of Dell's product and supply organisations. His role coordinating with VMware CEO (during the period Dell held VMware tracking stock) made him the integration architect for the multi-platform technology stack. The Vice Chairman title in addition to COO is the structural signal that he is the heir-apparent operating leader if Michael Dell were to transition."
+    },
+    {
+      "name": "Chuck Whitten",
+      "title": "Co-Chief Operating Officer (joined Dell 2021)",
+      "framing": "Whitten came from Bain & Company with consulting analytic-mindset depth. Since joining in 2021 he has focused on customer-centric and data-driven transformation, sales execution refinement, and competitive positioning in enterprise IT. The Co-COO arrangement with Clarke is unusual; suggests workload diversification across geography or product line."
+    },
+    {
+      "name": "Bill Scannell",
+      "title": "President, Global Sales and Customer Operations",
+      "career": "30+ years at Dell, originally joining the company's commercial sales organisation in the 1990s",
+      "framing": "Scannell is the institutional-memory commercial leader. His mandate covers enterprise, commercial, and public sector accounts, with strategic focus on AI infrastructure, cloud, cybersecurity, and digital transformation. The 30-year tenure means he has personally led the relationship architecture with major enterprise customers across the EMC integration and the AI server ramp."
+    },
+    {
+      "name": "David Kennedy",
+      "title": "Interim Chief Financial Officer (since September 9, 2025)",
+      "career": "27 years at Dell including prior roles as CFO of Client Solutions Group and COO of Dell Global Sales; previously SVP Dell Global Business Operations and Finance",
+      "framing": "Kennedy's interim CFO appointment followed Yvonne McGill's transition announcement on September 8 2025. The 27-year Dell career with prior CSG CFO and Global Sales COO credentials provides institutional continuity. Dell has launched a comprehensive search for a permanent CFO successor."
+    },
+    {
+      "name": "Yvonne McGill",
+      "title": "Former Chief Financial Officer (2023-September 2025); transitioning to advisor through Q3 fiscal 2026",
+      "framing": "McGill served as CFO since 2023 after a near-30-year career at Dell across FP&A, services finance, and global operations, including CFO of Dell's Infrastructure Solutions Group prior to the corporate CFO role. Named 'CFO AI-Champion of the Year' by Gartner for AI integration in the finance function. Her departure was characterised by both Michael Dell and Jeff Clarke as concluding 'tremendous contribution' across nearly all parts of the company. Remains in advisory role through Q3 fiscal 2026."
+    }
+  ],
+  "board_of_directors": [
+    {
+      "name": "Michael S. Dell",
+      "role": "Chairman of the Board and Chief Executive Officer",
+      "see": "founder_chairman_ceo above"
+    },
+    {
+      "name": "Ellen J. Kullman",
+      "role": "Lead Independent Director",
+      "current_position": "Executive Chair, Carbon, Inc.",
+      "earlier_position": "Former Chair and CEO, DuPont (E. I. du Pont de Nemours and Company)",
+      "framing": "Kullman is the most senior single ex-public-company CEO on the board. The DuPont CEO tenure (2008-2015) covered the period in which DuPont was reorganised before its merger with Dow Chemical. The Carbon Inc. Executive Chair role keeps her active in 3D printing / advanced manufacturing. Lead Independent Director status is the formal seat for governance oversight outside the founder-CEO."
+    },
+    {
+      "name": "Egon Durban",
+      "role": "Director (since October 2013)",
+      "current_position": "Co-Chief Executive Officer, Silver Lake Management",
+      "framing": "Durban joined the board concurrent with the original 2013 Dell take-private LBO by Silver Lake. Silver Lake remains the most consequential institutional shareholder relationship outside the Dell family. As Co-CEO of Silver Lake (one of the most consequential US technology private equity firms), Durban's board seat carries deep capital-markets and structural-transaction pattern recognition. He has been on the board through every major corporate transaction in Dell's modern history — the EMC acquisition, the 2018 relisting, the VMware spin, the AI server ramp."
+    },
+    {
+      "name": "David W. Dorman",
+      "role": "Director",
+      "current_position": "Founding Partner, Centerview Capital Technology",
+      "earlier_positions": "Former Chairman and CEO of AT&T; former President of Hutchinson Holdings (US); former CEO of PointCast",
+      "framing": "Dorman's former AT&T Chairman/CEO credential plus the contemporary Centerview Capital Technology founding partner role provides telecommunications + tech-investing depth. Centerview is one of the highest-quality boutique investment banks in US technology."
+    },
+    {
+      "name": "William D. Green",
+      "role": "Independent Director; Audit Committee Chair",
+      "age": 72,
+      "director_since": "2016",
+      "earlier_position": "Former Chairman of Accenture plc; former CEO of Accenture",
+      "framing": "Green's Accenture chairmanship and CEO tenure (one of the world's largest professional services firms) provides the deepest single global-consulting / enterprise-IT-services credential on the board. Audit Committee Chair role is the highest-stakes governance function on a public company of Dell's scale."
+    },
+    {
+      "name": "David Grain",
+      "role": "Director",
+      "current_position": "Founder and CEO, Grain Management LLC",
+      "framing": "Grain Management is an infrastructure-focused private equity firm. Grain's seat brings the infrastructure-investor pattern recognition that maps onto Dell's exposure to data center capex and AI infrastructure customer base."
+    },
+    {
+      "name": "Steven M. Mollenkopf",
+      "role": "Director",
+      "earlier_position": "Former CEO, Qualcomm Inc. (2014-2021)",
+      "framing": "Mollenkopf brings the only direct semiconductor-CEO peer-credential on the board. As ex-Qualcomm CEO, he ran one of the most strategically-important US semiconductor companies through the 2010s including the failed Broadcom hostile takeover attempt 2017-2018. His pattern recognition on chip supply, hyperscaler customer dynamics, and mobile-to-AI transitions is the single most relevant ex-CEO credential on the board for Dell's AI server thesis."
+    },
+    {
+      "name": "Lynn Vojvodich Radakovich",
+      "role": "Director (Group IV)",
+      "framing": "Vojvodich Radakovich brings additional independent governance and customer-experience depth. Detailed prior career not fully surfaced in the bounded primary-source set at snapshot — flag honestly as a limitation rather than padding."
+    }
+  ],
+  "redomestication_to_texas": "The board has unanimously recommended Dell Technologies' redomestication to Texas, consistent with the broader trend of large US companies moving from Delaware to Texas through 2025-2026. The transaction reflects Dell's Texas operating headquarters (Round Rock, TX) being the appropriate domicile rather than Delaware corporate formation.",
+  "board_composition_observation": "Dell's eight-director board (Group I nominees) pairs the founder-CEO-Chairman (Michael Dell) with the Silver Lake institutional shareholder representative (Durban) and six independents. The independents are unusually weighted toward operational-CEO experience (Kullman ex-DuPont, Green ex-Accenture, Mollenkopf ex-Qualcomm, Dorman ex-AT&T) rather than financial-engineering or pure capital-markets credentials. This composition reflects Dell's operating posture as the integrated technology hardware franchise rather than as a transactional or capital-structure-driven company. The redomestication to Texas is the contemporary governance event that further aligns the corporate form with the operating reality."
+}

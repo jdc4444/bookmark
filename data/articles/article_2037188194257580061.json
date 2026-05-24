@@ -1,0 +1,102 @@
+{
+  "headline": "dmux Frees AI Coding Agents From the Terminal Window",
+  "lede": "Every developer who has handed a long task to an AI coding agent knows the dread of closing the wrong terminal. dmux, an open-source tool by Justin Schroeder of Standard Agents, solves this by combining tmux’s persistent session model with git-worktree isolation — letting agents run unattended and in parallel without colliding on shared code.",
+  "body": "The friction is small but constant: an *AI coding agent* starts a long task — refactoring, a test-suite pass, a benchmark run — and somewhere in the next hour the developer closes the terminal, the laptop sleeps, or the SSH connection drops. The agent dies mid-flight. **dmux** eliminates that failure mode by resting on tmux’s client-server architecture, where the server is a background daemon entirely decoupled from any terminal window.\n\nThe mechanism is tmux’s own design. When a terminal window closes, the operating system sends a *SIGHUP* signal to the shell, which cascades to every child process and kills them. tmux breaks that cascade by sitting between a persistent server process and thin client views. Close the client and the server — along with every agent session inside it — continues uninterrupted. Type ‘dmux’ in any new terminal and the session reattaches exactly where it left off, agents mid-task.\n\nBut dmux adds a second layer that plain ‘tmux attach’ does not provide: *git worktree* isolation. Worktrees let a single repository check out multiple branches simultaneously into separate directories. Without this, parallel agents sharing the same working directory overwrite each other’s edits, producing collisions that force sequential execution. dmux automatically creates a new worktree and branch for each pane it opens, so five agents can work on five tasks at once without touching the same files. A built-in pane menu handles merging finished work back to the main branch or opening a pull request.\n\nThe screenshot accompanying the tweet shows this in practice: a dmux session named ‘agentbuilder-coordinator’ with several hidden panes, one running what appears to be Anthropic’s **Claude Code** benchmarking Arrow.js against Vue.js — a long-running task that would be a casualty of a stray terminal close without tmux underneath. Schroeder is himself the author; dmux began as an internal tool at **Standard Agents**, his agent-tooling company (legal copyright: FormKit, Inc.), before being open-sourced in early 2026 with support for eleven agent command-line interfaces, among them Claude Code and OpenAI Codex.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Standard Agents",
+      "ticker": null
+    },
+    {
+      "name": "FormKit",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    }
+  ],
+  "poster": "jpschroeder",
+  "concepts": [
+    {
+      "key": "ai-coding-agent",
+      "term": "AI coding agent",
+      "definition": "A large-language-model-based program that can plan, write, test, and iterate on code autonomously, using tools such as file read/write, shell execution, and web search. Tasks can run for minutes or hours without human intervention. Examples include Claude Code and OpenAI Codex."
+    },
+    {
+      "key": "terminal-multiplexer",
+      "term": "terminal multiplexer",
+      "definition": "A program that manages multiple terminal sessions through a persistent background server. Users can detach from a session — or lose their network connection — and later reattach, finding every process exactly where they left it. tmux and GNU Screen are the two most common examples."
+    },
+    {
+      "key": "sighup",
+      "term": "SIGHUP",
+      "definition": "A Unix signal (number 1) historically sent when a modem connection hung up, and today sent to a shell process when its controlling terminal closes. By default it cascades to all child processes, killing them. tmux intercepts this signal so its managed processes never receive it."
+    },
+    {
+      "key": "git-worktree",
+      "term": "git worktree",
+      "definition": "A Git feature that allows a single repository to check out multiple branches into separate directories simultaneously. Each directory has its own working tree, so changes in one branch do not affect any other — essential for running parallel tasks that would otherwise collide on the same files."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "standardagents-dmux",
+      "url": "https://github.com/standardagents/dmux",
+      "summary": "dmux is an npm-installable Node.js TUI that orchestrates parallel AI coding agent sessions inside tmux. It creates a new tmux pane and an isolated git worktree for each agent task, ensuring parallel agents never overwrite each other’s files. A built-in menu handles merging completed work back to the main branch or opening a pull request. Eleven agent CLIs are supported, including Claude Code and OpenAI Codex."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://dmux.ai",
+      "title": "dmux — official site",
+      "note": "Primary source confirming tool description and Standard Agents / FormKit copyright"
+    },
+    {
+      "url": "https://github.com/standardagents/dmux",
+      "title": "standardagents/dmux — GitHub",
+      "note": "Source for install instructions, agent support list, version history, and star count"
+    },
+    {
+      "url": "https://x.com/jpschroeder/status/2024507517359788224",
+      "title": "Justin Schroeder open-sourcing announcement (X)",
+      "note": "Confirms Schroeder as author and internal origin at Standard Agents / FormKit"
+    },
+    {
+      "url": "https://github.com/justin-schroeder",
+      "title": "Justin Schroeder — GitHub profile",
+      "note": "Background on OSS portfolio and development context"
+    },
+    {
+      "url": "https://blog.brightcoding.dev/2026/03/21/dmux-the-revolutionary-dev-agent-multiplexer-for-parallel-ai",
+      "title": "dmux: The Revolutionary Dev Agent Multiplexer for Parallel AI — Bright Coding",
+      "note": "Technical explanation of worktree isolation versus plain tmux attach"
+    },
+    {
+      "url": "https://rywalker.com/research/dmux",
+      "title": "dmux Research Analysis — Ry Walker",
+      "note": "Competitive landscape mapping and honest assessment of terminal-only limitations"
+    },
+    {
+      "url": "https://agents-ui.com/blog/persistent-terminal-sessions-tmux-zellij-guide/",
+      "title": "Persistent Terminal Sessions with tmux — Agents UI",
+      "note": "Detailed explanation of tmux SIGHUP mechanism and client-server architecture"
+    },
+    {
+      "url": "https://medium.com/@sean0628/parallel-coding-agents-with-git-worktree-x-tmux-be2a5a290f18",
+      "title": "Parallel Coding Agents with Git Worktree × tmux — Medium",
+      "note": "Independent corroboration of the conflict and pane-management problems dmux addresses"
+    }
+  ],
+  "bookmark_id": "2037188194257580061",
+  "generated_at": "2026-05-07T09:40:46.829045Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,14 @@
+OCR targets: 160 images across 137 bookmarks
+Downloading 160 unique images with 16 workers...
+  download progress: ok=0 cached=100 err=0
+Download done in 0.9s — downloaded=20, cached=140, errors=0
+Running OCR on 160 images with 4 workers x 12 batch...
+  OCR progress: 60/160  elapsed=8s eta=13s
+  OCR progress: 108/160  elapsed=11s eta=5s
+  OCR progress: 160/160  elapsed=16s eta=0s
+OCR done in 15.9s
+
+Wrote data/x-bookmarks.json.
+  filled (text found):    145
+  no_text (image, blank): 15
+  failed:                 0

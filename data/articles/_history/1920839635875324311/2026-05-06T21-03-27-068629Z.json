@@ -1,0 +1,59 @@
+{
+  "headline": "Browser Tool Promises Cleaner Pipeline from Mixamo to GLB",
+  "lede": "A developer has released an early alpha of Mesh2Motion, a browser-based, open-source utility for selecting, correcting, and exporting character animations in the GLB format. Built with Three.js, it targets artists and game developers who use Mixamo — Adobe's auto-rigging and animation platform — but find its export workflow awkward for web-based or engine-specific pipelines.",
+  "body": "**Mixamo**, acquired by Adobe in 2015, has become a default shortcut for independent developers: upload a humanoid mesh, receive an automatically rigged character, then pull from a library of motion-capture clips — walks, attacks, idles — without touching a rigging tool. The catch is that Mixamo's export options are blunt. Getting multiple animations onto a single character, handling *root motion* (where the root bone actually moves through space rather than running in place), and correcting pose mismatches requires extra steps in Blender or a comparable DCC tool.\n\nMesh2Motion tries to absorb those steps in the browser. The interface visible in the alpha shows a skeleton viewer, a checklist of named animations — the demo includes Sword_Attack, Sword_Attack_RM, Walk_Loop, and Walk_Formal_Loop — and a single Download GLB button. The distinction between Sword_Attack and Sword_Attack_RM reflects the root-motion split: one animation plays in-place while the other drives the character's position through space, a choice that matters significantly to game-engine physics and network synchronization.\n\nThe most substantive feature on display is *A-Pose correction*. Mixamo delivers characters in A-Pose — arms angled roughly 45 degrees downward — while many rigs and retargeting systems expect T-Pose, arms horizontal. Mismatch between rest poses causes shoulder and elbow deformation when animations are applied across skeletons. An \"Open Arms\" percentage slider suggests Mesh2Motion can interpolate the correction at export rather than requiring manual adjustment in Blender.\n\n**GLB**, the binary packaging of the *glTF* (GL Transmission Format) standard, is the natural output here: Three.js loads it natively, as do Babylon.js, Godot, and most modern game engines. Combining multiple animations into one GLB file with corrected poses is exactly the kind of plumbing Mixamo leaves to the user. Whether Mesh2Motion handles complex edge cases — non-standard bone hierarchies, blendshapes, or physics constraints — is still an open question at alpha stage, but the scope is clear and the workflow gap it targets is real.",
+  "tickers": [],
+  "poster": "scottpetrovic",
+  "concepts": [
+    {
+      "key": "auto-rigging",
+      "term": "auto-rigging",
+      "definition": "The process of automatically fitting a skeletal armature — a hierarchy of virtual bones — to a 3D character mesh. Mixamo popularized browser-based auto-rigging: the user marks a few anatomical landmarks and the software generates a ready-to-animate skeleton, bypassing what is otherwise a skilled, time-consuming task."
+    },
+    {
+      "key": "root-motion",
+      "term": "root motion",
+      "definition": "In character animation, root motion means the displacement of a character through the scene is baked into the animation's root bone rather than handled separately by game-engine code. A Walk_Loop with root motion moves the character's origin forward each cycle; without it the character runs in place and the engine is responsible for moving the transform. The distinction affects physics, networking, and how animations blend at transitions."
+    },
+    {
+      "key": "a-pose",
+      "term": "A-Pose",
+      "definition": "A rest or bind pose for humanoid rigs in which the arms hang at roughly 45 degrees from the body, forming a loose 'A' shape. Mixamo uses A-Pose as its default. Many rigs and retargeting systems expect T-Pose (arms fully horizontal), and mismatching rest poses between a skeleton and an animation causes visible joint deformation at the shoulders and elbows."
+    },
+    {
+      "key": "gltf-glb",
+      "term": "glTF / GLB",
+      "definition": "glTF (GL Transmission Format) is an open standard for 3D scenes and models optimized for real-time rendering. GLB is its binary-packed variant — everything including textures and animation data in a single file. It is natively supported by Three.js, Babylon.js, Godot, and most game engines, making it the practical interchange format for web-based 3D."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "A JavaScript library that provides a high-level API over WebGL, the browser's low-level 3D graphics interface. Three.js handles scene graphs, cameras, lights, materials, and animation rigs, making it the dominant toolkit for interactive 3D experiences on the web."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "scottpetrovic-mesh2motion",
+      "url": "https://github.com/scottpetrovic/mesh2motion",
+      "summary": "Mesh2Motion is an open-source, browser-based tool for selecting and exporting Mixamo-compatible character animations into GLB format. It provides a skeleton viewer, per-animation export selection, and an A-Pose correction slider. The project is in early alpha (version 0.1) and is actively seeking feedback from Mixamo users."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://rigorousthemes.com/blog/best-mixamo-alternatives/",
+      "title": "15 Best Mixamo Alternatives 2026 — Rigorous Themes",
+      "note": "Background on Mixamo's capabilities, Adobe acquisition (2015), and workflow limitations that drive demand for alternative tools."
+    },
+    {
+      "url": "https://alternativeto.net/software/mixamo/",
+      "title": "Mixamo Alternatives: Top 11 3D Animators & 3D Modelers",
+      "note": "Landscape of tools competing in the Mixamo space, confirming the market gap Mesh2Motion targets."
+    }
+  ],
+  "bookmark_id": "1920839635875324311",
+  "generated_at": "2026-05-06T21:03:27.068629Z",
+  "backend": "claude"
+}

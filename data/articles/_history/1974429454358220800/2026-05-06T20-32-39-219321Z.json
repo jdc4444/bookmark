@@ -1,0 +1,73 @@
+{
+  "headline": "How Language Models Actually Work: A Map for Self-Taught Builders",
+  "lede": "A thread by @TheAhmadOsman maps the full technical architecture of large language models — from the moment text becomes floating-point numbers to the moment a model selects the next word. The intended reader is anyone who has felt shut out of AI discourse by jargon and assumed credentials. The ambition is to compress a two-year self-study into a single scrollable outline.",
+  "body": "The pipeline begins with *tokenization* — breaking raw text into subword chunks that become integers — before those tokens are converted into *embeddings*, dense vectors of floating-point numbers that encode meaning as geometry across hundreds of dimensions. Position must also be injected: older models used absolute indices, but **rotary positional embeddings** (RoPE), now standard in models like LLaMA and Mistral, represent position as a rotation in high-dimensional space, allowing better generalization to sequences longer than those seen during training. ALiBi takes a different route, penalizing attention scores by distance rather than embedding position directly.\n\nThe core of the *transformer* is self-attention, a mechanism that lets every token weigh how much it should attend to every other token when computing its own representation. The **query-key-value** (QKV) framework formalizes this: queries ask questions, keys broadcast what each token offers, and values carry the retrieved information. Multi-head attention runs this in parallel across several independent heads, each learning different relational patterns. The *KV cache* is the practical optimization that makes long-context generation tractable: by saving computed keys and values from earlier tokens, the model avoids re-processing the full context at every generation step — the difference between usable and unusable latency on large models.\n\nFor models too large to attend to everything, *Mixture of Experts* (MoE) routes each token to a small subset of specialized sub-networks, keeping most weights dormant during any given inference pass. *Grouped Query Attention* (GQA) trims memory further by sharing key-value heads across multiple query heads, trading a modest accuracy cost for meaningfully faster inference. Long-context strategies — sliding-window attention, sparse approaches like infini-attention — extend a transformer's effective reach beyond what full quadratic attention could afford at scale.\n\nTraining objectives define the learning task. **Causal language modeling** — predict the next token given all prior tokens — is how most generative models are pre-trained. Alignment is layered on afterward: instruction tuning teaches the model to follow directions; **RLHF** (reinforcement learning from human feedback) uses human preference rankings to steer outputs toward the helpful and away from the harmful; **DPO** (direct preference optimization) achieves similar results without a separate reward model, treating preference pairs as a direct training signal. *Scaling laws*, first systematized by Kaplan et al. in 2020, show that loss falls predictably as compute, data, and parameter count increase — making capability, at least partially, a budget and engineering problem.\n\nDeployment adds its own vocabulary. *Quantization* compresses model weights from 16- or 32-bit floats to lower precision — 4-bit is now common — shrinking memory requirements with modest accuracy loss. Formats like GGUF and AWQ are packaging and compression conventions, not novel architectures. Inference stacks such as vLLM, TGI (Text Generation Inference), and TensorRT-LLM handle batching and throughput at scale. The thread's closing argument — that all of this is self-teachable in roughly two years without a doctorate — is plausible for motivated practitioners, though mathematical background determines how steep the climb is. What the map genuinely provides is sequence: knowing what to learn next, and in what order, is itself a meaningful advantage.",
+  "tickers": [],
+  "poster": "TheAhmadOsman",
+  "concepts": [
+    {
+      "key": "tokenization",
+      "term": "Tokenization",
+      "definition": "The process of breaking raw text into discrete units — often subwords rather than whole words — that a model processes as integers. A word like \"unbelievable\" might become two or three tokens. The tokenizer's vocabulary determines what the model sees and affects efficiency across different languages and domains."
+    },
+    {
+      "key": "embeddings",
+      "term": "Embeddings",
+      "definition": "Dense vectors of floating-point numbers that represent tokens in a high-dimensional space, where similar meanings cluster nearby. A model learns these representations during training; they encode semantic relationships as geometry. When the thread says \"you are now a floating point number in 4D space,\" it is gesturing at this idea — though real embedding spaces have hundreds or thousands of dimensions, not four."
+    },
+    {
+      "key": "self-attention",
+      "term": "Self-Attention",
+      "definition": "A mechanism that lets each token in a sequence weigh how much it should attend to every other token when forming its own representation. It is what allows a transformer to model long-range dependencies — a pronoun's reference to a noun dozens of words earlier, for instance — rather than processing text strictly left to right with a fixed memory window."
+    },
+    {
+      "key": "kv-cache",
+      "term": "KV Cache",
+      "definition": "A memory optimization in which a model stores the computed key and value vectors for each past token rather than recomputing them at every generation step. This converts what would be expensive repeated computation into an incremental lookup, making real-time generation on large models practical without degrading quality."
+    },
+    {
+      "key": "mixture-of-experts",
+      "term": "Mixture of Experts (MoE)",
+      "definition": "An architecture in which a model's weights are divided into multiple specialized sub-networks called experts, and a learned routing layer selects only a small subset of them for each token. The result is a large total parameter count — associated with higher capability — while keeping the compute cost per inference pass manageable."
+    },
+    {
+      "key": "rlhf",
+      "term": "RLHF",
+      "definition": "Reinforcement Learning from Human Feedback. A training method in which human raters rank model outputs by preference; those rankings train a reward model, which then guides further fine-tuning via reinforcement learning. It is the principal technique used to make generative models more helpful and less harmful after initial pre-training on raw text."
+    },
+    {
+      "key": "dpo",
+      "term": "Direct Preference Optimization (DPO)",
+      "definition": "An alignment method that fine-tunes a language model directly on pairs of preferred and dispreferred responses, without training a separate reward model. It is computationally simpler than RLHF and has become a widely used alternative for instruction-tuning pipelines, producing comparable alignment results with less engineering overhead."
+    },
+    {
+      "key": "scaling-laws",
+      "term": "Scaling Laws",
+      "definition": "Empirical relationships, first described systematically by Kaplan et al. (2020) at OpenAI, showing that a model's test loss decreases predictably as compute budget, dataset size, and parameter count increase. They allow practitioners to forecast model performance and allocate compute optimally between model size and data quantity — though whether this continues to hold at the frontier is actively debated."
+    },
+    {
+      "key": "quantization",
+      "term": "Quantization",
+      "definition": "The compression of a trained model's weights from high-precision floats (16 or 32 bits) to lower precision (8 or 4 bits), reducing memory footprint and speeding up inference at a modest cost to accuracy. Post-training quantization applies after training; quantization-aware training bakes the compression into the training loop itself to minimize quality loss."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet's claim that MoE models \"only activate ~3B params out of 80B\" is an illustrative approximation rather than a reference to a specific model. Real activation ratios vary considerably: Mixtral 8x7B activates roughly 13 billion of its ~47 billion total parameters per token; DeepSeek-V2 activates ~21 billion of 236 billion. The framing is directionally correct — sparse activation is the defining property of MoE — but the numbers should not be read as describing any particular system. The dismissal of beam search as something never to ask about is also a slight overstatement: while it is rarely used in open-ended generative tasks (where it tends toward repetitive, generic output), it remains standard in constrained generation settings such as machine translation.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/TheAhmadOsman/status/1974429454358220800",
+      "title": "Original post by @TheAhmadOsman",
+      "note": "Primary source — full thread text"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/flamegreat_you-are-a-random-cs-grad-with-0-clue-activity-7384130972457361408-A_aK",
+      "title": "LinkedIn mirror of the thread",
+      "note": "Verbatim repost confirming thread text"
+    }
+  ],
+  "bookmark_id": "1974429454358220800",
+  "generated_at": "2026-05-06T20:32:39.219321Z",
+  "backend": "claude"
+}

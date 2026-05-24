@@ -1,0 +1,22 @@
+{
+  "key": "LIWEI_TWCapital",
+  "display_name": "LIWEI_TW Capital",
+  "blurb": "Insufficient data to write a reliable bio. The provided research sources returned no readable content — both URLs hit X.com's JavaScript-required wall and yielded no profile text, bio, follower count, or post content.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/LIWEI_TWCapital"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/LIWEI_TWCapital",
+      "title": "LIWEI_TW Capital profile — content not retrievable (JS disabled)"
+    },
+    {
+      "url": "https://x.com/LIWEI_TWCapital/status/2052675931819626932",
+      "title": "Post — content not retrievable (JS disabled)"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:30:55.189367Z",
+  "backend": "claude-sonnet-subagent"
+}

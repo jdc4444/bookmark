@@ -1,0 +1,28 @@
+{
+  "key": "LSCC",
+  "name": "Lattice Semiconductor Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Lattice Semiconductor Corporation develops and sells field programmable gate arrays (FPGAs) and related development hardware. The company offers small FPGA platforms like Lattice Nexus and Lattice Nexus 2, as well as mid-range platforms such as Lattice Avant. Lattice is a key player in the low-power FPGA market, competing with larger rivals by focusing on edge computing and AI applications.",
+  "recent": "In the past 30 days, Lattice Semiconductor announced a $1.65 billion acquisition of AMI, which led to a stock decline as investors digested the terms. The stock has been volatile, trading near its 52-week high of $127.95, with a market cap of $16.43 billion. Analysts remain bullish with a Strong Buy consensus and a price target of $130.58.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/LSCC/news/",
+      "title": "Lattice Semiconductor Corporation (LSCC) Latest Stock News & Headlines"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/LSCC/news/",
+      "title": "LSCC News Today | Why did Lattice Semiconductor stock go up today? $LSCC"
+    },
+    {
+      "url": "https://www.quiverquant.com/news/Lattice+Semiconductor+falls+as+investors+digest+%241.65B+AMI+acquisition+terms",
+      "title": "Lattice Semiconductor falls as investors digest $1.65B AMI acquisition terms"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/lscc/",
+      "title": "Lattice Semiconductor (LSCC) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:14:04.035511Z",
+  "backend": "deepseek"
+}

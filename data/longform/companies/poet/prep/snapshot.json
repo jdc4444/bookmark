@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "headline_summary": "POET Technologies is a pre-commercial photonics platform company that designs and licenses the POET Optical Interposer — a wafer-level photonic integration architecture positioned for hyperscaler co-packaged optics (CPO) and external light source (ELS) applications. FY2025 produced essentially no revenue (~$1.2M of NRE-and-product receipts) against a $62.96M net loss, but the company closed FY2025 with $313.4M of cash and short-term investments — funded by a $250M institutional equity raise. The investment proposition is binary: if hyperscalers adopt CPO at scale and POET is qualified as a component in those supply chains, the platform thesis is durable; if not, the cash buys multi-year runway against a thesis that may not crystallise inside it.",
+  "headquarters": "Toronto, Ontario, Canada (corporate); Singapore (POET Singapore Pte. Ltd. — wafer-level photonic integration line)",
+  "founded": "Pre-1990s as POET Inc.; reincorporated and relisted multiple times; current corporate form as POET Technologies Inc.",
+  "exchange_listings": "NASDAQ (POET) and TSX (POET)",
+  "filing_basis": "20-F (foreign private issuer)",
+  "chairman_ceo": "Dr. Suresh Venkatesan (joined as Chairman and CEO 2015)",
+  "lead_independent_director": "Jean-Louis Malinge (joined September 2017)",
+  "fy2025_revenue_usd_millions_approx": 1.2,
+  "fy2025_net_loss_usd_millions": -62.96,
+  "fy2025_rd_expense_usd_millions": 18.08,
+  "balance_sheet_total_assets_usd_millions": 328.6,
+  "balance_sheet_cash_and_short_term_investments_usd_millions": 313.4,
+  "share_count_common_outstanding_millions": 132.3,
+  "share_count_options_outstanding_millions": 5.79,
+  "share_count_warrants_outstanding_millions": 37.36,
+  "derivative_warrant_liability_usd_millions": -135.6,
+  "key_strategic_partnership": "Sivers Semiconductors (September 2025) — external light sources for co-packaged optics",
+  "structural_thesis_in_one_paragraph": "POET is the rare equity that compresses an entire decade of platform-development losses and a multi-billion-dollar architectural debate (CPO vs pluggable, interposer-based vs monolithic-silicon-photonic, ELS vs in-package laser) into a single small-cap with $313M of cash and no commercial revenue. The investment question is not about quarterly execution but about whether the Optical Interposer wins enough qualified positions in hyperscaler CPO supply chains in 2026-2028 to convert the platform thesis into a revenue line, before either competing interposer architectures lock POET out or pluggable optics continue to dominate the addressable market. The board composition (Venkatesan's GlobalFoundries-process pedigree, Malinge's Kotura-sold-to-Mellanox operating precedent, Lan Ende's working Arista CPO seat, Riley's 32 years of optoelectronics-GM experience, Khan's Coherent-SiC EVP credential) is calibrated for governing through that architectural debate."
+}

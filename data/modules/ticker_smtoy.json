@@ -1,0 +1,15 @@
+{
+  "key": "SMTOY",
+  "name": "Sumitomo Electric Industries, Ltd.",
+  "exchange": "OTC (ADR) / Tokyo Stock Exchange: 5802",
+  "blurb": "Sumitomo Electric Industries is one of the world's largest manufacturers of electric wire, optical fiber cable, and wiring harnesses for the automotive industry. Its optical-communications division supplies fiber cable and connectors to telecom carriers and hyperscale data centers globally. In February 2026 the company co-led an industry collaboration to define a new multicore fiber (SDM4 MCF) standard optimized for AI data-center campus interconnects, underscoring its positioning as a critical supplier to the AI buildout.",
+  "recent": "As of early May 2026, the Tokyo-listed shares (5802.T) traded near JPY 9,900, with a consensus analyst price target of approximately JPY 11,900–16,700 and a buy rating from seven analysts covering the stock. The company is one of the major players in the optical interconnect market, which analysts value at roughly USD 21.9 billion in 2026. Its 32-fiber MMC connector technology — designed to support 1.6T Ethernet upgrades in AI data centers — received recognition in the 2026 Lightwave Innovation Reviews.",
+  "sources": [
+    {"url": "https://sumitomoelectric.com/press/2026/02/prs011", "title": "Sumitomo Electric multicore fiber AI data center collaboration press release", "note": "SDM4 MCF MSA announcement, Feb 2026"},
+    {"url": "https://finance.yahoo.com/quote/5802.T/", "title": "Sumitomo Electric Industries (5802.T) – Yahoo Finance", "note": "Stock quote and analyst data"},
+    {"url": "https://blog.sumitomoelectriclightwave.com/2026-lightwave-innovation-reviews", "title": "Sumitomo Electric Lightwave 2026 Lightwave Innovation Reviews", "note": "32-fiber MMC connector recognition"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

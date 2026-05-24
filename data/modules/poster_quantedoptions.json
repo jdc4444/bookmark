@@ -1,0 +1,17 @@
+{
+  "key": "quantedoptions",
+  "display_name": "QuantData / @quantedOptions",
+  "blurb": "QuantedOptions is the X/Twitter presence for QuantData, a market-data vendor that distributes CBOE-licensed options analytics — including dealer gamma exposure (GEX), vanna, and charm surfaces — via REST API at intraday (one-minute) cadence. The account targets quantitative developers, systematic traders, and retail options traders under the tagline 'quant, vibe coder, Python trader.' Its product is in the same commercial category as SpotGamma, MenthorQ, and Tier1Alpha: structured dealer-positioning data sold as an analytical layer on top of public CBOE open-interest and quote feeds.",
+  "credibility_note": "QuantData advertises its data as CBOE-licensed, which implies a direct data-distribution agreement rather than self-calculated Greeks from free end-of-day files — a meaningful but unauditable distinction from the outside. The company's exact founding date and team composition are not publicly disclosed. Free-trial API access was available as of April 2026. The account's engagement pattern (promotional charts, data samples, API pitch) is consistent with a data-vendor marketing account rather than original research. Treat product claims about data quality and latency as unverified marketing.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/quantedOptions"},
+    {"label": "Help Center", "url": "https://help.quantdata.us/"}
+  ],
+  "sources": [
+    {"title": "What is Gamma Exposure (GEX)? — Quant Data Help Center", "url": "https://help.quantdata.us/en/articles/7852449-what-is-gamma-exposure-gex"},
+    {"title": "@quantedOptions on X", "url": "https://x.com/quantedOptions"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

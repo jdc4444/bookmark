@@ -1,0 +1,126 @@
+{
+  "headline": "One App to Replace Three: Blake Anderson's AI Workspace Bet",
+  "lede": "Blake Anderson, a 24-year-old serial consumer-app founder with $11.5 million in peak annual revenue, launched core.so in March 2026 — an open-source workspace designed to consolidate Slack, Linear, and Notion into a single interface. The thesis is less about features than about data: that fragmenting team context across three separate tools is a solvable problem, and that solving it matters more than it used to now that AI agents are becoming routine collaborators. The project is live at github.com/10xapp/core-oss under an Apache 2.0 licence, offered free, with no revenue model yet announced.",
+  "body": "When @im_roy_lee calls Blake Anderson one of the four people he most deeply admires, the substance of the bookmark is Anderson's launch of **core.so** — and the thesis behind it.\n\nThe problem core.so targets is familiar to anyone working in a modern software team. Slack — owned by Salesforce (CRM) — handles messages, Linear tracks tasks, and Notion stores specifications. Each tool has its own search index and permission model; nothing federates cleanly across the others. Anderson's argument is that this fragmentation becomes uniquely expensive when *AI agents* — software that autonomously plans and executes multi-step tasks — enter the workflow, because an agent limited to a single tool has only a partial view of what the team is doing and why. *Context centralization*, in his framing, is not a productivity tweak but a prerequisite for human-agent collaboration.\n\nAnderson's path to this thesis is unusual. His earlier products — RizzGPT (an AI dating-message assistant), Umax (a facial analysis app for the *looksmaxxing* self-improvement subculture), and Cal AI (a meal-photo calorie counter) — were all consumer apps assembled without a formal engineering background, using ChatGPT to generate code. Together they reached a combined peak run rate of roughly $11.5 million a year and earned him a Forbes 30 Under 30 spot in 2026. Core.so is his first B2B product.\n\nThe platform is a genuine full-stack build: Python 3.12 and FastAPI on the backend, React 19 and TypeScript on the front end, and Supabase for authentication and real-time PostgreSQL storage. The AI layer is model-agnostic, routing to OpenAI, Anthropic, or local open-weight models via Ollama — which matters for teams that need sensitive data to stay out of third-party inference pipes. Published under *Apache 2.0* (the most permissive major open-source licence, which lets anyone fork and commercialise without open-sourcing their modifications), the project signals adoption velocity over the protective moat that *AGPL* — which requires publishing source for any SaaS fork — would provide. Core.so's closest open-source rival in the same space, Huly, has been building longer and commands a substantially larger install base.\n\nThe incumbents are not standing still. Notion launched an agents layer in late 2025; OpenAI introduced Workspace Agents in April 2026, threading into Slack and Salesforce. The counter-thesis core.so represents is that those are retrofits — AI overlaid on tools designed for human-only workflows rather than rebuilt from scratch with the agent model in mind. With 430 GitHub stars a few weeks out of the gate and no press coverage yet, the project is early. What it has is a clear thesis and a founder whose previous pattern has been to ship quickly and find product-market fit faster than the resume would suggest.",
+  "tickers": [
+    "CRM"
+  ],
+  "companies": [
+    {
+      "name": "Salesforce",
+      "ticker": "CRM"
+    },
+    {
+      "name": "Linear",
+      "ticker": null
+    },
+    {
+      "name": "Notion",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Huly",
+      "ticker": null
+    },
+    {
+      "name": "Supabase",
+      "ticker": null
+    }
+  ],
+  "poster": "im_roy_lee",
+  "concepts": [
+    {
+      "key": "ai-agents",
+      "term": "AI Agents",
+      "definition": "Software systems that autonomously plan and execute multi-step tasks on a user's behalf, beyond simply responding to a single prompt. In a team-productivity context, agents might triage email, update tickets, or draft documents without constant human instruction — but only if they can see the full team context."
+    },
+    {
+      "key": "context-centralization",
+      "term": "Context Centralization",
+      "definition": "The practice of consolidating all team data — messages, tasks, documents, calendar events — into a single unified data model with one search index and one permission layer. The argument is that AI agents perform better when they can see everything at once, rather than being siloed to one tool at a time."
+    },
+    {
+      "key": "apache-2-0",
+      "term": "Apache 2.0",
+      "definition": "A permissive open-source licence that allows anyone to use, modify, and distribute the code — including in commercial products — without being required to publish their modifications. It also includes an explicit patent grant, protecting adopters from patent claims by contributors. It is the most permissive of the major open-source licences."
+    },
+    {
+      "key": "agpl",
+      "term": "AGPL",
+      "definition": "The GNU Affero General Public License, a copyleft licence stricter than Apache 2.0. Anyone who runs a modified version of AGPL-licensed code as a network service must publish their source code. Many open-source companies choose AGPL to prevent cloud providers from building proprietary SaaS products on top of their work."
+    },
+    {
+      "key": "looksmaxxing",
+      "term": "Looksmaxxing",
+      "definition": "A self-improvement subculture, popularized on social media, focused on optimizing physical appearance through grooming, fitness, cosmetic procedures, and behavioral change. Blake Anderson's Umax app used AI facial analysis to give users personalized feedback within this subculture."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "10xapp-core-oss",
+      "url": "https://github.com/10xapp/core-oss",
+      "summary": "The open-source monorepo for core.so, licensed under Apache 2.0. It contains three packages: a Python/FastAPI backend, a React 19 TypeScript frontend with 34 feature modules covering email, calendar, chat, documents, and kanban, and a Cloudflare Worker image proxy. Supabase is the only required dependency for self-hosting; the AI layer is model-agnostic and supports OpenAI, Anthropic, Ollama, and OpenRouter."
+    }
+  ],
+  "fact_check": "The announcement claims Anderson's team \"rebuilt functionality from Slack, Linear, and Notion.\" The GitHub repository confirms features analogous to all three categories — channels and real-time messaging, kanban boards with issue tracking, and a rich-text document editor. The phrasing is promotional: this is a v1 with substantially less depth and ecosystem integration than any of the incumbents. That gap is normal for an early open-source launch but worth noting for readers who might interpret \"rebuilt\" as parity.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/10xapp/core-oss",
+      "title": "core-oss GitHub Repository",
+      "note": "Primary technical source: README, feature list, tech stack, licence, contributor and star data"
+    },
+    {
+      "url": "https://picklerooms.com/blogs/origin-stories/blake-anderson-building-rizzgpt-and-umax",
+      "title": "Blake Anderson: Building RizzGPT and Umax — Pickle Rooms",
+      "note": "Founder background, early app history, and development approach"
+    },
+    {
+      "url": "https://whop.com/blog/looksmaxxing-blake-anderson/",
+      "title": "Looksmaxxing and Blake Anderson — Whop",
+      "note": "Umax app context and revenue figures"
+    },
+    {
+      "url": "https://www.moneymakingstory.com/p/from-attic-coding-to-10m-in-sales-blake-s-incredible-journey",
+      "title": "From Attic Coding to $10M in Sales — Money Making Story",
+      "note": "Cumulative revenue figures and career arc"
+    },
+    {
+      "url": "https://scalenuggets.beehiiv.com/p/23yearold-whos-making-11myear-ai-apps",
+      "title": "23-Year-Old Making $11M/Year in AI Apps — Scale Nuggets",
+      "note": "Peak annual revenue run-rate and app history"
+    },
+    {
+      "url": "https://startupseries.io/how-blake-anderson-made-5-million-in-apps-using-chatgpt/",
+      "title": "How Blake Anderson Made $5M in Apps Using ChatGPT — Startup Series",
+      "note": "No-code, ChatGPT-assisted development background"
+    },
+    {
+      "url": "https://fossa.com/blog/open-source-licenses-101-apache-license-2-0/",
+      "title": "Open Source Licenses 101: Apache License 2.0 — FOSSA",
+      "note": "Apache 2.0 licence implications for commercial use and patent grants"
+    },
+    {
+      "url": "https://x.com/blakeandersonw/status/2038276867464061056",
+      "title": "core.so Announcement — @blakeandersonw on X",
+      "note": "Primary source: the quoted announcement tweet"
+    },
+    {
+      "url": "https://x.com/im_roy_lee/status/2038400170518331627",
+      "title": "Original Bookmark — @im_roy_lee on X",
+      "note": "Source bookmark with personal endorsement framing"
+    }
+  ],
+  "bookmark_id": "2038400170518331627",
+  "generated_at": "2026-05-07T09:27:04.159412Z",
+  "backend": "claude-sonnet-subagent"
+}

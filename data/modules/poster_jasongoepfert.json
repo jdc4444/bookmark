@@ -1,0 +1,27 @@
+{
+  "key": "jasongoepfert",
+  "display_name": "Jason Goepfert",
+  "blurb": "Jason Goepfert is the founder of SentimenTrader (sentimentrader.com), a quantitative research service specializing in market sentiment analysis and historical pattern studies. He is widely cited in financial media for his work on investor sentiment indicators — put/call ratios, fund flows, breadth data, and crowd-behavior extremes. His posts blend rigorous historical backtests with real-time market observations, aimed at identifying when sentiment has reached actionable extremes. He has tens of thousands of followers among traders, portfolio managers, and financial journalists.",
+  "credibility_note": "Goepfert has a long track record of publishing reproducible, data-backed research rather than narrative-driven calls, which gives him high credibility in the quant/sentiment community. His work is generally descriptive and probabilistic rather than directional prediction, so 'miss' claims are less applicable; no major public controversies or corrections are on record.",
+  "links": [
+    "https://sentimentrader.com",
+    "https://x.com/jasongoepfert"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/jasongoepfert/",
+      "title": "Jason Goepfert (@jasongoepfert) / Posts / X — did not load (JS required)"
+    },
+    {
+      "url": "https://x.com/jasongoepfert/status/2052828444136718627",
+      "title": "Post by @jasongoepfert — did not load (JS required)"
+    },
+    {
+      "url": "https://sentimentrader.com",
+      "title": "SentimenTrader — training-data knowledge, not fetched"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-09T04:56:44.382578Z",
+  "backend": "claude-sonnet-subagent"
+}

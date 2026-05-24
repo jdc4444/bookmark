@@ -1,0 +1,32 @@
+{
+  "key": "0020.HK",
+  "name": "SenseTime Group Inc.",
+  "exchange": "Hong Kong Stock Exchange",
+  "blurb": "SenseTime Group Inc. is an investment holding company that researches, develops, and sells artificial intelligence software platforms, primarily in Mainland China and other regions. It is a leading AI software company focused on computer vision and deep learning, serving sectors such as smart city, finance, and autonomous driving. Despite its technological leadership, the company has faced profitability challenges, with negative earnings per share and net margins.",
+  "recent": "Over the past 30 days, SenseTime's stock has traded between a 52-week low of 1.33 and high of 2.94, with a recent price around 2.09. The company reported a market cap of approximately HK$88 billion and a negative P/E ratio, reflecting ongoing losses. No major earnings or news catalysts were identified in the immediate period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/0020.HK/",
+      "title": "SenseTime Group Inc. (0020.HK) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.investing.com/equities/sensetime-group-inc",
+      "title": "SenseTime Group Inc Class B Stock Price Today | HK: 0020 Live"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/20?countrycode=hk",
+      "title": "SenseTime Group Inc. Stock Quote (Hong Kong) - MarketWatch"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/0020.HK",
+      "title": "0020.HK: SenseTime Group Inc - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://simplywall.st/stocks/hk/software/hkg-20/sensetime-group-shares",
+      "title": "SenseTime Group (SEHK:20) - Stock Analysis - Simply Wall St"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:39:49.991418Z",
+  "backend": "deepseek"
+}

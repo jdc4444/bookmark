@@ -1,0 +1,166 @@
+{
+  "headline": "S&P Call Skew at Historic Highs as Options Traders Chase Upside",
+  "lede": "The S&P 500 options market has turned itself inside out. Traders are paying record premiums for call options — bets on further gains — while interest in downside protection has sunk to historically low levels, a configuration that options professionals call extreme *call skew*. The result is an unusual regime where *implied volatility* rises alongside stock prices, a dynamic that historically precedes sharp reversals.",
+  "body": "*Volatility skew* is the premium that options at different strike prices command relative to each other on the same expiry. In normal equity markets, *put options* — contracts that pay off when stocks fall — have carried higher implied volatility than equivalent calls since Black Monday 1987; four decades of institutional demand for crash insurance entrenched the bias. The charts Zero Hedge published show two deviations from that norm. The first tracks the one-year percentile rank of SPX call and put vol skew; by mid-2026, call skew sits near its 99th-plus percentile while put skew is near a floor. The second plots the 3-month **25-delta** call-to-*ATM* ratio for individual stocks back to 2017, now at or near an all-time high — meaning *out-of-the-money* calls are priced nearly as expensively as equivalent puts, an inversion that typically signals speculative fever rather than strategic positioning.\n\nThe mechanics driving this are well-documented, if rarely this vivid. When dealers sell call options in bulk, they become *short gamma* — their risk exposure grows as markets rise, forcing them to buy equities and futures to stay *delta-neutral*. That buying lifts prices, which attracts more call buyers, which forces more dealer buying: a self-reinforcing *gamma squeeze*. Nomura (8604.T) cross-asset strategist Charlie McElligott has called the current episode “one of the most powerful gamma squeezes ever.” On approximately May 7, 2026, S&P 500 call options traded a record $2.6 trillion in notional value in a single session — the highest ever recorded. Calls accounted for roughly 58% of all SPX options flow, and retail traders, now representing about 53% of *0DTE* (same-day-expiry) SPX options volume, supplied much of the demand.\n\nThe trigger is not obscure. The S&P 500 rose more than 10% in April 2026 — its strongest month since late 2020 — as first-quarter earnings came in sharply above expectations: 84% of reporting companies beat estimates by an average of 12.3%, nearly double the historical norm. The artificial-intelligence spending boom has turbocharged the narrative; Microsoft (MSFT), Amazon (AMZN), Alphabet (GOOGL), and Meta Platforms (META) collectively guided toward $710 billion in AI infrastructure investment for 2026, and Nvidia (NVDA) captured much of the resulting enthusiasm. Dealers who had been net-short gamma through the Q1 pullback saw their positions flip violently as the rally took hold, amplifying every uptick through forced hedging. Goldman Sachs (GS) strategist Rich Privorotsky summarized the mood tersely: the market has entered “a semi-irrational chasing phase.”\n\nThe historical parallels are uncomfortable. The **Shiller CAPE** — a price-to-earnings ratio that averages ten years of inflation-adjusted earnings to smooth out cycles — reached 40.3 in mid-May 2026, a level only previously achieved during the 1999–2000 dot-com peak. That era ended with the S&P 500 shedding 47% over three years. Paul Tudor Jones, in a May 7 television appearance, invoked 1999 explicitly, warning of “breathgaking kinds of corrections” — while disclosing he was still buying AI stocks. The structural risk is as mechanical as it is fundamental: when the record outstanding call positions expire or are closed, the forced dealer buying supporting prices evaporates, and the same hedging math can rapidly reverse into forced selling.",
+  "tickers": [
+    "8604.T",
+    "MSFT",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "NVDA",
+    "GS"
+  ],
+  "companies": [
+    {
+      "name": "Nomura Holdings",
+      "ticker": "8604.T"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS"
+    }
+  ],
+  "poster": "zerohedge",
+  "concepts": [
+    {
+      "key": "volatility-skew",
+      "term": "Volatility Skew",
+      "definition": "The difference in implied volatility between options at different strike prices on the same expiry date. In equity markets, options well below the current price (puts) normally carry higher implied volatility than options well above it (calls) — a pattern called put skew. When call skew rises, it means upside options have become unusually expensive, typically reflecting speculative demand rather than hedging."
+    },
+    {
+      "key": "implied-volatility",
+      "term": "Implied Volatility",
+      "definition": "The market's expectation of future price swings, backed out from current options prices. Higher implied volatility means options buyers are paying more for the chance of large moves. It reflects supply and demand in the options market as much as actual uncertainty, so extreme readings can themselves be a market signal."
+    },
+    {
+      "key": "put-options",
+      "term": "Put Options",
+      "definition": "Contracts giving the holder the right to sell an asset at a specified price before expiry. For equity investors, puts function as insurance: they pay off when markets fall. Institutional demand for index puts — to protect large equity portfolios — has historically been the structural force behind put skew in index options markets."
+    },
+    {
+      "key": "25-delta",
+      "term": "25-Delta Options",
+      "definition": "Options whose price changes by 25 cents for every $1 move in the underlying — roughly equivalent to being about 5–8% out-of-the-money for typical index options. The 25-delta strike is the standard reference for measuring volatility skew because it captures meaningful tail exposure while remaining liquid enough to trade reliably."
+    },
+    {
+      "key": "atm",
+      "term": "At-the-Money (ATM)",
+      "definition": "An option whose strike price equals (or is closest to) the current market price of the underlying. ATM options are the most actively traded and serve as the baseline against which skew is measured. The call-to-ATM ratio compares the implied volatility of out-of-the-money calls to ATM options; a ratio approaching 1.0 signals extreme speculative demand for upside."
+    },
+    {
+      "key": "out-of-the-money",
+      "term": "Out-of-the-Money (OTM)",
+      "definition": "An option whose strike price has not yet been reached by the underlying asset's price. For a call, OTM means the market is still below the strike; for a put, the market is above it. OTM options cost less than at-the-money ones but provide leverage if the market moves sharply, making them the preferred instrument for directional speculation."
+    },
+    {
+      "key": "short-gamma",
+      "term": "Short Gamma",
+      "definition": "The risk profile of a party — typically a dealer — that has sold options and whose losses accelerate as the market moves against them. A short-gamma dealer must continuously buy into rising markets or sell into falling ones to stay hedged, mechanically amplifying the underlying trend in both directions."
+    },
+    {
+      "key": "delta-neutral",
+      "term": "Delta-Neutral Hedging",
+      "definition": "A strategy of balancing an options position with an offsetting stake in the underlying asset so that small price moves produce no net gain or loss. Dealers running delta-neutral books must rebalance constantly as prices shift — this ongoing rebalancing transmits options market imbalances into actual stock-price pressure."
+    },
+    {
+      "key": "gamma-squeeze",
+      "term": "Gamma Squeeze",
+      "definition": "A self-reinforcing feedback loop in which heavy call-option buying forces dealers to purchase the underlying asset to stay hedged, lifting prices further, which attracts more call buyers and forces more hedging. Unlike a short squeeze (which involves borrowed shares), a gamma squeeze operates entirely through the mechanics of options dealer hedging and can accelerate rapidly."
+    },
+    {
+      "key": "spot-up-vol-up",
+      "term": "Spot Up, Vol Up",
+      "definition": "An unusual regime in which equity prices and implied volatility both rise simultaneously. Normally they move inversely — calm markets produce low volatility. When both rise together it signals that options mechanics (forced dealer buying from short-gamma positions) rather than improving fundamentals are driving the move, implying a structurally fragile rally."
+    },
+    {
+      "key": "0dte",
+      "term": "0DTE Options",
+      "definition": "Options that expire on the same day they are traded (zero days to expiry). They carry extreme gamma — small price moves can produce large swings in their value — making them powerful amplifiers of intraday market moves. Since 2022 they have become the dominant product in S&P 500 options markets by volume, with retail traders now supplying a majority of the flow."
+    },
+    {
+      "key": "shiller-cape",
+      "term": "Shiller CAPE",
+      "definition": "The Cyclically Adjusted Price-to-Earnings ratio, developed by economist Robert Shiller, which divides the S&P 500's current price by ten years of inflation-adjusted average earnings. By smoothing out single-year earnings distortions it offers a longer-horizon valuation gauge. Readings above 40 have historically been rare, appearing only at the height of the 1999–2000 dot-com bubble."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Zero Hedge's claim that 'nobody has any downside protection' is rhetorical exaggeration. The charts show put vol skew at low but non-zero percentile ranks, and institutional investors still hold put positions as a matter of policy. The substantive point — that relative demand has shifted dramatically from puts to calls, leaving the market asymmetrically exposed to downside — is well-supported by the data.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://finance.biggo.com/news/mftYBZ4B-PfaobXfGlJl",
+      "title": "Goldman Sachs: Semi-Irrational Chasing Warning (May 2026)",
+      "note": "Source for Rich Privorotsky quote on 'semi-irrational chasing' and spot up, vol up confirmation"
+    },
+    {
+      "url": "https://www.coindesk.com/markets/2026/05/08/s-and-p-500-call-options-volume-surges-to-record-usd2-6-trillion-here-s-what-it-means-for-bitcoin",
+      "title": "S&P 500 Call Options Volume Surges to Record $2.6 Trillion — CoinDesk",
+      "note": "Source for May 7, 2026 record single-day call notional volume and 58% call share"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/04/30/stock-market-today-live-updates.html",
+      "title": "S&P 500 Closes at New Record to Usher in May — CNBC",
+      "note": "Source for April 2026 +10.5% monthly gain and all-time high context"
+    },
+    {
+      "url": "https://fortune.com/2026/05/13/robert-shiller-cape-index-overvalued-dot-com-craze/",
+      "title": "Shiller CAPE at 40.3: Overvalued Like the Dot-Com Craze — Fortune",
+      "note": "Source for CAPE ratio reaching 40.3 and historical rarity of that level"
+    },
+    {
+      "url": "https://menthorq.com/guide/spot-up-vol-up-a-warning/",
+      "title": "Spot Up, Vol Up: A Warning Guide — MenthorQ",
+      "note": "Source for mechanics and market interpretation of the spot up, vol up regime"
+    },
+    {
+      "url": "https://www.zerohedge.com/markets/nomuras-mcelligott-reveals-trigger-blows-markets-self-referential-meltup-feedback-loop",
+      "title": "Nomura's McElligott: Self-Referential Meltup Feedback Loop — ZeroHedge",
+      "note": "Source for McElligott's gamma squeeze characterization and dealer hedging mechanics"
+    },
+    {
+      "url": "https://mottcapitalmanagement.com/gamma-squeeze/",
+      "title": "Gamma Squeeze Explained — Mott Capital Management",
+      "note": "Source for step-by-step gamma squeeze mechanics and spot up, vol up identification"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/05/07/paul-tudor-jones-says-ai-bull-market-has-another-year-or-two-to-run.html",
+      "title": "Paul Tudor Jones: AI Bull Market Has Another Year or Two to Run — CNBC",
+      "note": "Source for Jones's 1999 comparison and breathtaking corrections warning"
+    },
+    {
+      "url": "https://www.crestwoodadvisors.com/may-2026-economic-and-market-update/",
+      "title": "May 2026 Economic and Market Update — Crestwood Advisors",
+      "note": "Source for Q1 earnings beat statistics (84% beat rate, 12.3% average beat)"
+    },
+    {
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-10-the-gamma-rocket-how-a-75-billion-options-trap-propelled-the-s-and-p-500-past-6500",
+      "title": "The Gamma Rocket: How a -$7.5 Billion Options Trap Propelled the S&P 500 Past 6,500",
+      "note": "Source for April 1 dealer net gamma exposure and initial squeeze mechanics"
+    }
+  ],
+  "bookmark_id": "2053674371206599103",
+  "generated_at": "2026-05-14T11:17:16.952549Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,13 @@
+{
+  "key": "0981.HK",
+  "name": "Semiconductor Manufacturing International Corporation (SMIC)",
+  "exchange": "HKEX (Hong Kong Stock Exchange); secondary: 688981.SS (STAR Market)",
+  "blurb": "SMIC is China's largest and most advanced domestic semiconductor foundry, manufacturing chips for Chinese fabless companies and serving as a critical node in China's self-sufficiency strategy. SMIC's most advanced publicly disclosed process is 7nm (N+2), though the company faces severe restrictions on accessing advanced equipment from ASML (EUV is banned for China) and Western tool suppliers, limiting its ability to reach 5nm or below using conventional lithography. SMIC plays a strategic role for Huawei's Kirin chips and domestic AI chipmakers like Biren and Cambricon.",
+  "recent": "SMIC (0981.HK ticker; also 688981.SS on STAR Market — note the table uses 0981.HK, different from the STAR Market listing) has been investing heavily in domestic equipment and alternative lithography techniques to extend its process roadmap under export constraints. Forward P/E of ~46.4x on 29.5% projected EPS growth yields a PEG of 1.57. Revenue growth is driven by domestic substitution demand as Chinese chip companies have no alternative to SMIC for advanced Chinese foundry services.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/688981.SS/key-statistics/", "title": "SMIC Valuation Measures — Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

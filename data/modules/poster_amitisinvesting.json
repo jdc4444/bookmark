@@ -1,0 +1,32 @@
+{
+  "key": "amitisinvesting",
+  "display_name": "Amit Kukreja",
+  "blurb": "Amit Kukreja is a New York-based financial content creator and entrepreneur who publishes under the handle @amitisinvesting across X, YouTube (approximately 117,000 subscribers), and Substack. A Rutgers Business School graduate, he transitioned from finance to digital media around 2021, building a following focused on growth-stock analysis — particularly technology companies and AI plays such as Palantir. He hosts the Basis Points podcast, has made angel investments in private companies, and previously founded Audea, an AI-powered search engine for spoken-word audio. His congressional-trading posts, which parse freshly filed Periodic Transaction Reports, are among his most widely shared content.",
+  "credibility_note": "Kukreja presents himself as a financial educator and market commentator rather than a licensed investment adviser. His congressional-trading posts aggregate public disclosure data rather than offering original analytical claims; the underlying PTR filings are verifiable through the House Clerk's public database. His technology-sector commentary reflects a bullish growth-stock orientation.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/amitisinvesting"
+    },
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@amitinvesting"
+    },
+    {
+      "label": "Website",
+      "url": "https://akmedia.news/"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://grokipedia.com/page/Amit_Kukreja_content_creator",
+      "title": "Amit Kukreja — Grokipedia"
+    },
+    {
+      "url": "https://tradersunion.com/persons/amit-kukreja/",
+      "title": "Amit Kukreja Biography — Traders Union"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,50 @@
+{
+  "headline": "Among AI's Builders, AGI Has Become a Matter of Faith",
+  "lede": "Karen Hao, a journalist who spent years reporting inside the AI industry, argues in her book *Empire of AI* that the pursuit of **artificial general intelligence** has ceased to be an engineering project and become something closer to a religious vocation. The people building it, she found, are not merely optimistic or worried — they are believers. The object of belief is a machine that may not yet exist, but whose coming feels, to many in the field, as inevitable as prophecy.",
+  "body": "The term *AGI* — artificial general intelligence, meaning a system capable of performing any intellectual task a human can — has been technically contested for decades. What Hao documents is something different: its transformation into a theological category. Among true believers, AGI is not a product milestone but an eschatological event, a rupture that will remake civilization. The camps that have formed around it map, as she observes, onto the oldest split in apocalyptic thinking: those who expect salvation and those who expect annihilation.\n\nOn one side are the accelerationists, who hold that sufficiently advanced AI will solve disease, poverty, and scientific stagnation — a secular rapture. On the other are the doomers, who calculate a meaningful probability that a superintelligent system will kill everyone. Both camps share a premise that outsiders often miss: they take the imminence of AGI as a given. The theological flavor follows from that shared premise. If the stakes are literally infinite, ordinary cost-benefit reasoning feels inadequate, and what fills the gap is something more like faith.\n\nWhat most unsettled Hao was not the debate itself but its sincerity. **Many engineers and researchers inside leading AI labs genuinely believe they are building either God or the devil** — her words, drawn from interviews. This is not performance or marketing. It is a lived conviction that shapes how people justify urgency, sacrifice, and the subordination of ordinary ethical checks to the higher purpose of getting there first, or getting there safely, depending on which church they attend.\n\nThe framing carries real institutional weight. Labs that operate under eschatological assumptions tend to treat external scrutiny as a distraction from the mission, and internal dissent as a failure of faith rather than a legitimate signal. Whether one finds the underlying beliefs plausible or absurd, their grip on the industry's culture is, on Hao's account, the salient fact about how consequential AI decisions are actually being made.",
+  "tickers": [],
+  "poster": "vitrupo",
+  "concepts": [
+    {
+      "key": "artificial-general-intelligence",
+      "term": "Artificial General Intelligence (AGI)",
+      "definition": "A hypothetical AI system capable of performing any cognitive task a human can, at or above human level. Unlike today's narrow AI tools, which excel at specific tasks, AGI would be broadly flexible. No system meeting this definition has been demonstrated; researchers disagree sharply on how to define it and how close we are."
+    },
+    {
+      "key": "ai-doomerism",
+      "term": "AI Doomerism",
+      "definition": "The view that sufficiently advanced AI poses an existential risk to humanity — that a superintelligent system, if misaligned with human values, could pursue goals catastrophic to human survival. Prominent in academic circles around 'AI safety' and among some researchers at labs like DeepMind and Anthropic."
+    },
+    {
+      "key": "effective-accelerationism",
+      "term": "Effective Accelerationism (e/acc)",
+      "definition": "A techno-optimist stance, popularized in AI circles around 2023, holding that rapid AI development should be embraced and that slowing it down is both futile and harmful. Its adherents argue that powerful AI will solve humanity's major problems; critics say it dismisses safety concerns as obstacles to progress."
+    },
+    {
+      "key": "eschatological-thinking",
+      "term": "Eschatological Thinking",
+      "definition": "From theology: reasoning organized around a final, transformative, world-ending or world-saving event. Applied to tech, it describes the habit of treating a future technology as an imminent civilizational rupture — either utopia or catastrophe — rather than a gradual development with mixed effects."
+    }
+  ],
+  "books": [
+    {
+      "key": "empire-of-ai",
+      "title": "Empire of AI",
+      "author": "Karen Hao",
+      "summary": "A reported account by journalist Karen Hao examining the culture, power, and belief systems inside the artificial intelligence industry. Based on interviews and access to people building the technology, the book argues that AGI development has taken on quasi-religious dimensions, with builders divided between utopian and apocalyptic visions. The excerpt visible in the tweet's image suggests Hao endorses the framing of AI development as something 'exactly right to think of' in non-standard terms, though the full sentence is cut off."
+    }
+  ],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/vitrupo/status/1928683687157039211",
+      "title": "Tweet by @vitrupo quoting Karen Hao",
+      "note": "Primary source; all quoted claims drawn directly from this post and the visible book cover in the attached image"
+    }
+  ],
+  "bookmark_id": "1928683687157039211",
+  "generated_at": "2026-05-06T20:50:13.793650Z",
+  "backend": "claude"
+}

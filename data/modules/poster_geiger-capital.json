@@ -1,0 +1,23 @@
+{
+  "key": "Geiger_Capital",
+  "display_name": "Geiger Capital",
+  "blurb": "Geiger Capital runs a Substack newsletter called \"Geiger's Capital Gains\" with over 8,000 subscribers. The account focuses on individual stocks with asymmetric upside potential, macro market and economic analysis, and occasional political commentary. Content is oriented toward retail and semi-professional investors looking for high-conviction equity ideas.",
+  "credibility_note": "No verifiable real name, institutional affiliation, or audited track record found in available sources. Self-described focus is capital appreciation; treat individual stock calls as opinion, not professional advice.",
+  "links": [
+    "https://www.geigercap.com/",
+    "https://x.com/Geiger_Capital"
+  ],
+  "sources": [
+    {
+      "url": "https://www.geigercap.com/",
+      "title": "Geiger's Capital Gains | Substack"
+    },
+    {
+      "url": "https://x.com/Geiger_Capital",
+      "title": "Geiger Capital (@Geiger_Capital) / Posts / X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-09T05:02:44.569455Z",
+  "backend": "claude-sonnet-subagent"
+}

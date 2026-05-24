@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "fiscal_year_end": "December 31",
+  "currency": "USD",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001736297/000173629726000010/alab-20251231.htm",
+    "https://www.stocktitan.net/sec-filings/ALAB/8-k-astera-labs-inc-reports-material-event-dabe0036422b.html",
+    "https://www.stocktitan.net/news/ALAB/astera-labs-reports-fourth-quarter-and-full-year-2025-financial-ienkrljwop14.html",
+    "https://www.asteralabs.com/news/astera-labs-announces-financial-results-for-the-third-quarter-of-fiscal-year-2025/"
+  ],
+  "key_finding": "Astera Labs delivered the textbook AI-connectivity print in FY2025: $852.5M revenue (+115% YoY), 75.7% GAAP gross margin (a structural-margin level), $219.1M GAAP net income, $331.0M non-GAAP net income, $319.3M operating cash flow. The Q4 print of $270.6M (+92% YoY, +17% sequential) and the Q1 2026 guide of $286-297M imply continued mid-single-digit sequential growth into the next architecture generation. The balance sheet is fortress: $167.6M cash + $1.02B marketable securities = $1.19B liquid against essentially no debt. The 75.7% GAAP gross margin is the headline — that level of pricing power on small-die semi product is the structural difference between Astera and a typical fabless chip-design business at this scale.",
+  "annual_revenue_history_usd_millions": {
+    "2024": 396.3,
+    "2025": 852.5,
+    "yoy_growth_2025": 1.151
+  },
+  "fy2025_profitability": {
+    "gaap_gross_margin": 0.757,
+    "nongaap_gross_margin": 0.758,
+    "operating_expenses_usd_millions": 471.8,
+    "gaap_net_income_usd_millions": 219.1,
+    "gaap_diluted_eps_usd": 1.22,
+    "nongaap_net_income_usd_millions": 331.0,
+    "nongaap_diluted_eps_usd": 1.84
+  },
+  "q4_2025_metrics": {
+    "revenue_usd_millions": 270.6,
+    "yoy_growth": 0.92,
+    "sequential_growth": 0.17,
+    "gaap_gross_margin": 0.756,
+    "nongaap_gross_margin": 0.757,
+    "gaap_net_income_usd_millions": 45.0,
+    "gaap_diluted_eps_usd": 0.25,
+    "nongaap_net_income_usd_millions": 104.8,
+    "nongaap_diluted_eps_usd": 0.58
+  },
+  "balance_sheet_dec_31_2025": {
+    "cash_and_equivalents_usd_millions": 167.6,
+    "marketable_securities_usd_millions": 1020.0,
+    "total_liquid_usd_millions": 1187.6,
+    "operating_cash_flow_fy2025_usd_millions": 319.3
+  },
+  "fy2026_q1_guidance": {
+    "revenue_usd_millions_low": 286,
+    "revenue_usd_millions_high": 297,
+    "midpoint": 291.5,
+    "gaap_diluted_eps_usd_low": 0.36,
+    "gaap_diluted_eps_usd_high": 0.38,
+    "implied_sequential_growth_midpoint": 0.077
+  },
+  "compensation_2025": {
+    "ceo_mohan_base_salary_usd": 615000,
+    "ceo_mohan_cash_bonus_usd": 1332725,
+    "coo_gajendra_base_salary_usd": 615000,
+    "coo_gajendra_cash_bonus_usd": 1332725,
+    "annual_incentive_payout_factor": 1.80586,
+    "bonus_metric_split": "50/50 to revenue and non-GAAP operating margin",
+    "non_employee_director_annual_equity_grant_usd_low": 200000,
+    "non_employee_director_annual_equity_grant_usd_high": 210000
+  },
+  "structural_observations": [
+    "75.7% GAAP gross margin in FY2025 places Astera in the top decile of fabless semiconductor companies on margin — a level associated with software more than silicon.",
+    "Revenue growing 115% while OpEx grew at a much lower rate is the operating-leverage signature of a connectivity-silicon company moving from design-in to volume.",
+    "$1.19B liquid balance sheet against essentially no debt means the company can execute M&A or weather a multi-quarter AI capex pause without near-term financing risk.",
+    "Non-GAAP net income $331M vs GAAP $219M — the gap is meaningful and dominated by stock-based compensation, a typical signature of a recently-IPO'd silicon company."
+  ]
+}

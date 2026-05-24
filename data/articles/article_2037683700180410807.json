@@ -1,0 +1,143 @@
+{
+  "headline": "The AI Memorization Problem Extends Well Beyond Books",
+  "lede": "A research paper published in March 2026 showed that fine-tuning commercial AI models on a single author's work can unlock near-verbatim reproduction of copyrighted books by dozens of unrelated authors — a result directly at odds with what AI companies have argued in copyright litigation. The finding lands alongside a parallel question in video: whether the same structural conditions apply to moving images. An open-source video model now capable of running on consumer hardware has sharpened that question for a medium that has largely escaped the scrutiny aimed at text.",
+  "body": "The paper, titled *Alignment Whack-a-Mole*, was produced by researchers at Stony Brook University, Carnegie Mellon University, and Columbia Law School. Its method exploits a commercially ordinary task: it *fine-tuned* three frontier models — **GPT-4o**, Gemini-2.5-Pro from Alphabet (GOOGL), and DeepSeek-V3.1 — to expand plot summaries of novels into full prose, the kind of writing-assistant feature many consumers already use. That fine-tuning (adapting a pretrained model to a new task through additional training) reactivated *latent memorization* — verbatim content the models absorbed during pretraining and then suppressed behind safety filters. Before fine-tuning, the aligned models reproduced roughly 7% of test passages by the study's metric. After it, extraction climbed to 85–90%, with individual verbatim runs exceeding 460 words.\n\nMore striking is what the cross-model data implies. Across three models from three separate companies, the same books leaked in the same passages, with a statistical correlation of r ≥ 0.90. Near-identical leakage across independent architectures points to a shared training source: *LibGen* and *Books3*, pirated digital libraries totaling more than 190,000 titles, whose use by OpenAI was confirmed in internal documents produced during litigation discovery. The paper argues this evidence is legally significant because courts have recently conditioned fair-use rulings on the adequacy of *safety alignment* — the combination of reinforcement-learning feedback, system prompts, and output filters that AI companies deploy to prevent models from reproducing training data verbatim. The study shows that alignment can be undone, inexpensively, by anyone with API access.\n\nThe video side of this bookmark arrives through *LTX-Video 2.3*, released by the Israeli software company Lightricks in March 2026. The model carries 22 billion parameters and can generate 4K footage with synchronized audio in a single forward pass, running on consumer hardware with as little as 12 gigabytes of video memory. The @RoyalCities comment — “it’s not hard to guess what it’s trained on” — assumes the model’s output quality implies unlicensed training data, a reasonable inference for much of the video-generation landscape. But LTX-2.3 is an outlier: Lightricks has publicly disclosed a training-data partnership with Shutterstock (SSTK), whose *research license* program provides licensed footage to AI developers at preferential rates. An earlier model generation also drew from Getty Images data. LTX-2.3 is one of the few video generators with a documented chain of provenance for its training material.\n\nOpenAI’s own video product, Sora, exited the consumer market on March 27, 2026. The proximate cause was economic: reporting attributed the service’s collapse to operating costs of roughly $15 million per day against lifetime consumer revenue of $2.1 million. A planned $1-billion licensing deal with Walt Disney (DIS) — which would have allowed users to generate clips featuring characters from Disney, Marvel, and Pixar — unwound before any money changed hands. OpenAI has not disclosed what video content Sora trained on, and is now developing a successor internally codenamed “Spud.”\n\n@MagisFuturum’s observation — “This isn’t ChatGPT but it probably is not just books” — is the animating insight here. The structural conditions that produced the book-memorization result exist across modalities: massive undisclosed training corpora assembled under cost pressure, layered safety controls that fine-tuning can circumvent. The *Alignment Whack-a-Mole* paper tested text across 81 copyrighted works. The same logic applies wherever a model has internalized more than its guardrails were built to contain, and video — where high-quality labeled data is scarcer and costlier to license — may have been assembled under even greater pressure to cut corners on provenance.",
+  "tickers": [
+    "GOOGL",
+    "SSTK",
+    "DIS"
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "DeepSeek",
+      "ticker": null
+    },
+    {
+      "name": "Lightricks",
+      "ticker": null
+    },
+    {
+      "name": "Shutterstock",
+      "ticker": "SSTK"
+    },
+    {
+      "name": "Getty Images Holdings",
+      "ticker": null
+    },
+    {
+      "name": "Walt Disney Company",
+      "ticker": "DIS"
+    }
+  ],
+  "poster": "MagisFuturum",
+  "concepts": [
+    {
+      "key": "fine-tuning",
+      "term": "Fine-tuning",
+      "definition": "The process of taking a pretrained AI model and continuing to train it on a smaller, task-specific dataset to adapt it to a new purpose. Fine-tuning changes the model’s internal weights and can surface latent capabilities — including memorized training content — that the base model’s safety systems ordinarily suppress."
+    },
+    {
+      "key": "latent-memorization",
+      "term": "Latent memorization",
+      "definition": "Verbatim text that a language model absorbed during large-scale pretraining and which is ordinarily blocked from appearing in outputs by safety filters. The Alignment Whack-a-Mole study shows that fine-tuning can lower the activation threshold for this stored content, causing it to re-emerge in model outputs even when the original text is never shown as a prompt."
+    },
+    {
+      "key": "safety-alignment",
+      "term": "Safety alignment",
+      "definition": "The suite of techniques — including reinforcement learning from human feedback (RLHF), system prompts, and output filters — that AI developers apply after pretraining to steer model behavior and prevent reproduction of harmful or copyrighted material. Courts in recent fair-use rulings have treated the effectiveness of these measures as a legally significant factor."
+    },
+    {
+      "key": "libgen-books3",
+      "term": "LibGen / Books3",
+      "definition": "Shadow libraries: online repositories that aggregate pirated copies of books without authorization from rights holders. Library Genesis (LibGen) and Books3 together contained over 190,000 copyrighted titles and have been identified in litigation as training-data sources for multiple frontier AI models. Internal OpenAI documents produced in discovery confirmed an employee downloaded LibGen collections in 2018."
+    },
+    {
+      "key": "research-license",
+      "term": "Research license",
+      "definition": "A licensing arrangement under which stock-media companies such as Shutterstock provide AI developers access to proprietary image and video assets at preferential rates, in exchange for attribution and usage restrictions. Designed as a lawful alternative to scraping content from the open web, it became the basis for Lightricks’s disclosed training-data agreement for LTX-Video."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "Lightricks-LTX-Video",
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "summary": "The official open-source repository for LTX-Video, Lightricks’s video generation model family. Contains model weights, inference code, and training utilities for LTX-Video 2.3 (22 billion parameters). The repo enables local video generation without cloud dependencies, supports LoRA fine-tuning, and includes quantized fp8 variants optimized for consumer-grade GPU hardware."
+    }
+  ],
+  "fact_check": "The viral @heynavtoor tweet deserves correction on three points. First, the 85–90% extraction figure applies to a specific experimental condition — cross-author generalization after fine-tuning — not to ordinary ChatGPT use; baseline aligned models in the study reproduced only around 7% of test passages without the fine-tuning technique. Second, the tweet’s claim that copyrighted books are sitting inside ChatGPT “word for word” overstates what the study measured: researchers tested 81 books using a specific extraction methodology, not the entirety of published literature. Third, the claim that OpenAI “told a judge” that memorization was “impossible” appears to be a characterization of the company’s broader legal posture — that models “do not store copies of training data” — rather than a verbatim court filing; the study challenges this position without citing a specific brief or hearing transcript. Separately, @RoyalCities’s implication that LTX-2.3 was trained on unlicensed content is contradicted by Lightricks’s publicly disclosed Shutterstock research license and a prior Getty Images data agreement.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2603.20957",
+      "title": "Alignment Whack-a-Mole: Finetuning Activates Verbatim Recall of Copyrighted Books in Large Language Models",
+      "note": "Primary paper; full methodology, quantitative findings, and legal significance arguments"
+    },
+    {
+      "url": "https://arxiv.org/html/2603.20957v2",
+      "title": "Alignment Whack-a-Mole (full HTML text, revised version)",
+      "note": "Complete text including abstract, experimental setup, and BMC@k metric definition"
+    },
+    {
+      "url": "https://cauchy221.github.io/Alignment-Whack-a-Mole/",
+      "title": "Alignment Whack-a-Mole — project page",
+      "note": "Author-maintained page with supplementary materials and visualizations"
+    },
+    {
+      "url": "https://www.inkl.com/news/researchers-challenge-openai-defence-after-claiming-chatgpt-can-output-near-verbatim-copies-of-published-books",
+      "title": "Researchers challenge OpenAI defence after claiming ChatGPT can output near-verbatim copies of published books",
+      "note": "News coverage contextualizing the study’s legal challenge to OpenAI’s court arguments"
+    },
+    {
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "title": "LTX-2.3 model card — Hugging Face",
+      "note": "Official model card with parameter counts, hardware requirements, and variant descriptions"
+    },
+    {
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "title": "Lightricks/LTX-Video — GitHub",
+      "note": "Open-source repository for the full LTX-Video model family including LTX-2.3"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/lightricks-partners-with-shutterstock-for-video-training-data-to-advance-open-source-ltxv-video-ai-generative-video-model-302331526.html",
+      "title": "Lightricks Partners with Shutterstock for Video Training Data",
+      "note": "Primary source confirming LTX-Video’s licensed training-data arrangement with Shutterstock"
+    },
+    {
+      "url": "https://variety.com/2026/digital/news/openai-shutting-down-sora-video-disney-1236698277/",
+      "title": "OpenAI Shutting Down Sora Video; Disney Deal Unwinds — Variety",
+      "note": "Primary reporting on Sora’s discontinuation and the collapse of the Disney licensing partnership"
+    },
+    {
+      "url": "https://variety.com/2026/digital/news/why-openai-shut-down-sora-sam-altman-felt-terrible-disney-ceo-josh-damaro-1236705497/",
+      "title": "Why OpenAI Shut Down Sora: Sam Altman Interview — Variety",
+      "note": "Sam Altman on the economics and decision-making behind Sora’s closure"
+    },
+    {
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "title": "Why OpenAI Really Shut Down Sora — TechCrunch",
+      "note": "Cost and revenue figures for Sora’s consumer service"
+    },
+    {
+      "url": "https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026",
+      "title": "AI in Litigation: An Update on AI Copyright Cases in 2026 — Norton Rose Fulbright",
+      "note": "Legal landscape overview covering Bartz v. Anthropic, Kadrey v. Meta, and video-generation cases"
+    },
+    {
+      "url": "https://www.twobirds.com/en/insights/2025/landmark-ruling-of-the-munich-regional-court-(gema-v-openai)-on-copyright-and-ai-training",
+      "title": "Landmark ruling of the Munich Regional Court (GEMA v. OpenAI) on copyright and AI training — Bird & Bird",
+      "note": "Analysis of the German court’s acceptance of AI memorization as factual, rejecting OpenAI’s statistical-correlation defense"
+    }
+  ],
+  "bookmark_id": "2037683700180410807",
+  "generated_at": "2026-05-07T09:37:57.642135Z",
+  "backend": "claude-sonnet-subagent"
+}

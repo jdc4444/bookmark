@@ -1,0 +1,16 @@
+{
+  "key": "FI",
+  "name": "Fiserv, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Fiserv is one of the world's largest financial technology companies, providing payment processing infrastructure, core banking software, and merchant services to banks, credit unions, and small businesses. Its Clover point-of-sale platform competes with Square and Toast in the small-business payments market. The stock traded under the ticker FISV on NASDAQ until June 2023, when the company transferred its listing to the NYSE and adopted the ticker FI.",
+  "recent": "Fiserv lost nearly 70% of its value over the twelve months ending May 2026, falling from an all-time high of $237.79 in March 2025 to roughly $55–63 by May 2026. The collapse was triggered by a 44% single-day drop on October 29, 2025, after the company slashed its full-year earnings guidance from $10.15–$10.30 to $8.50–$8.60 per share and reported Q3 revenue of $4.9 billion against a $5.36 billion forecast. The root cause was the evaporation of Argentina-driven growth tailwinds that had masked mid-single-digit core organic growth behind double-digit reported figures. Q1 2026 results (reported May 5, 2026) showed GAAP operating margins compressing from 27.2% to 18.3% year-over-year and organic revenue declining 4%, sending the stock down an additional 8.6%. The company is in the midst of a leadership overhaul and is expected to present a recovery plan at its May 2026 investor day.",
+  "sources": [
+    {"url": "https://www.cnbc.com/2025/10/29/fiserv-stock-guidance-earnings.html", "title": "Fiserv stock craters 44% for worst day ever — CNBC"},
+    {"url": "https://www.globenewswire.com/news-release/2026/05/05/3287513/0/en/Fiserv-Reports-First-Quarter-2026-Results.html", "title": "Fiserv Q1 2026 Earnings Release — GlobeNewswire"},
+    {"url": "https://investors.fiserv.com/newsroom/detail/2872/fiserv-announces-transfer-of-stock-exchange-listing-to-nasdaq", "title": "Fiserv NYSE Listing Transfer Announcement — Fiserv IR"},
+    {"url": "https://www.tikr.com/blog/why-fiserv-nasdaq-fisv-stock-tanked-65-in-2025", "title": "Why Fiserv Stock Tanked 65% in 2025 — TIKR"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

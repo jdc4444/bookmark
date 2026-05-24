@@ -1,0 +1,71 @@
+{
+  "bookmark_id": "2014031188680130621",
+  "headline": "Four Trillion Dollars of Value, Gone Nowhere at All",
+  "lede": "A finance-Twitter scorecard of peak-to-trough declines across nine mega-cap technology names — from Oracle's brutal 50% fall to Google's comparatively genteel 4% — raises a question that answers itself: market-cap losses don't go anywhere, because they were never really there.",
+  "body": "The tweet, posted by Lawrence McDonald — the former Lehman Brothers trader who now writes about convertible bonds (hybrid securities that combine a corporate loan with an option to convert into stock) and occasionally editorialises on equity markets — is a neat piece of financial theatre. List the carnage, add up the implied destruction of wealth, and let the rhetorical question land: where did the $4 trillion go? The answer, of course, is nowhere. Market capitalisation is not a pool of money waiting to be redistributed; it is a collective judgment about what all outstanding shares would fetch if sold simultaneously, a transaction that can never actually occur. When that judgment revises downward, the \"losses\" are accounting entries, not cash transfers. Nobody received the $4 trillion. It was a number that a great many people agreed to, and then agreed to no longer agree to.\n\nWhat they stopped agreeing to, in rough terms, is the AI-capex story as originally priced. Beginning in late 2024 and accelerating through 2025, equity investors had assigned extraordinarily high multiples to companies that were either building artificial-intelligence infrastructure at industrial scale or stood to profit from those who did. Oracle, once a stolid database-software incumbent, became one of the wilder beneficiaries: its shares climbed to $345.72 in September 2025 as investors priced in the company's role supplying cloud-computing capacity to OpenAI and other hyperscale clients through the Stargate consortium. The subsequent 50% drawdown — roughly confirmed by the stock's position near $175 in April 2026 — reflected a sober re-examination of how much debt Oracle had issued to fund that ambition, and whether the contracted backlog of $553 billion would ever translate into the free cash flow the price had implied.\n\nThe reappraisal was not uniform, which is part of what makes McDonald's list interesting to read sideways. Palantir, the data-analytics and defence-software company that was carried to $207 per share in November 2025 largely on AI enthusiasm and a devoted retail-investor following, shed roughly 22% by the time of the post — though it had touched a maximum drawdown closer to 38% in early April before recovering somewhat. Netflix, whose 39% decline looks startling in isolation, must be understood in the context of a stock that had run extraordinarily hard on the back of password-sharing crackdowns and advertising-tier adoption; some portion of its fall is mean reversion after a very large run-up, not purely macro sentiment. Meta's 24% drawdown is perhaps the most instructive: the company raised its 2026 capital expenditure guidance to as much as $145 billion, a figure that caused investors — previously delighted by the company's discipline — to question whether the returns would justify it. The market's answer, at least provisionally, was no.\n\nThe broader context is what analysts began calling, with varying degrees of deadpan, \"AI capex fatigue.\" The thesis that justified astronomical valuations for semiconductor companies, cloud providers, and software platforms rested on a chain of assumptions: that AI would rapidly generate revenue at scale, that the infrastructure buildout would compound returns rather than merely consume capital, and that hyperscale companies would maintain pricing power over their GPU-dependent supply chains. Each of those assumptions began to fray at different moments for different companies. Nvidia and Apple, both off roughly 15% from highs, suffered less than Oracle or Netflix, reflecting their more defensible positions — Nvidia as the principal supplier of the chips on which the whole edifice runs, Apple as a consumer hardware company with only tangential AI exposure at the infrastructure level. Google, down just 4%, benefited from being both a large AI spender and a large AI revenue earner, its search and cloud businesses insulating it from the pure-infrastructure anxiety that afflicted Oracle and Broadcom (whose 21% decline reflected investor concern about the sustainability of custom-chip demand from hyperscalers).\n\nFor McDonald — a figure whose professional formation is in convertible bonds, an asset class that by design lives at the intersection of debt and equity — there is a certain structural logic in noticing these drawdowns collectively. Convertible-bond investors price the equity volatility of their issuers; when equity volatility rises and equity prices fall, the convexity of the instrument (its tendency to participate in upside while limiting downside) becomes both more valuable and more tested. Several of the companies on his list are active convertible issuers. The post is thus less a lament and more a data point: a compact, shareable summary of how violently the equity-market consensus about AI's near-term economics has shifted. The $4 trillion didn't go anywhere. The story changed.",
+  "tickers": ["ORCL", "NFLX", "META", "PLTR", "AVGO", "MSFT", "AAPL", "NVDA", "GOOGL"],
+  "poster": "Convertbond",
+  "concepts": [
+    {
+      "key": "drawdown",
+      "term": "Drawdown",
+      "definition": "The peak-to-trough percentage decline in an asset's price from its highest recorded value to a subsequent low. A 50% drawdown means the price fell by half from its peak, requiring a 100% subsequent gain just to return to even."
+    },
+    {
+      "key": "market_cap",
+      "term": "Market Capitalisation",
+      "definition": "The total implied value of a company, calculated by multiplying the current share price by the number of shares outstanding. It is a collective market judgment, not a reserve of actual cash; it can evaporate without any money changing hands."
+    },
+    {
+      "key": "ai_capex",
+      "term": "AI Capital Expenditure (Capex)",
+      "definition": "The large-scale spending on data centres, graphics processing units (GPUs), networking equipment, and real estate that technology companies are undertaking to build and operate artificial-intelligence systems. In 2025–2026, the scale of these commitments — running to tens of billions of dollars annually at individual companies — became a central source of investor anxiety."
+    },
+    {
+      "key": "convertible_bond",
+      "term": "Convertible Bond",
+      "definition": "A corporate debt instrument that pays regular interest like a bond but grants the holder the option to convert it into shares at a predetermined price. It thus behaves partly like a bond (with downside protection) and partly like an equity option (with upside participation)."
+    },
+    {
+      "key": "paper_loss",
+      "term": "Paper Loss",
+      "definition": "An unrealised decline in the value of an investment that exists only as an accounting entry until the asset is actually sold. Large aggregate paper losses in market capitalisation do not represent cash leaving the economy — only a revision in the price at which willing buyers and sellers agree to transact."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Oracle's all-time high of approximately $345.72 (September 2025) and subsequent decline to the $170–185 range in April 2026, implying roughly 46–50% drawdown, is corroborated by multiple sources including Motley Fool (April 6 2026) and Trefis. Palantir's all-time high near $207 (November 2025) and a drawdown of 22–38% depending on the measurement date is consistent with TIKR.com data showing 31% by late March and a maximum intraday drawdown of 38% on April 10, 2026. Meta's all-time high near $796 (September 2025) and approximately 24–28% decline is consistent across NAI500 and stockanalysis.com data. Netflix's 39% drawdown from its 2025 high is broadly consistent with reported year-to-date declines of 20%+ by early 2026 and additional pullback from a mid-2025 peak; the precise figure of 39% could not be independently verified to the day but is plausible given published 52-week ranges. The $4 trillion aggregate figure is a rhetorical estimate derived from summing individual market-cap losses; no independent source has published this exact aggregate, and it should be understood as an order-of-magnitude claim rather than a precise accounting.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.fool.com/investing/2026/04/06/oracle-shares-are-down-24-so-far-in-2026-amid-ai/",
+      "title": "Oracle Shares Are Down 24% So Far in 2026 Amid AI Bubble Fears — Motley Fool"
+    },
+    {
+      "url": "https://www.trefis.com/stock/orcl/articles2/594025/stress-testing-orcl-historical-drawdowns-and-macro-risks/2026-03-18",
+      "title": "Stress Testing ORCL: Historical Drawdowns and Macro Risks — Trefis"
+    },
+    {
+      "url": "https://www.tikr.com/blog/palantir-has-fallen-31-from-its-peak-is-pltr-stock-a-buy-in-2026",
+      "title": "Palantir Has Fallen 31% From Its Peak — TIKR"
+    },
+    {
+      "url": "https://nai500.com/blog/2026/04/is-the-sharp-decline-of-metas-stock-in-2026-a-buying-opportunity-or-a-falling-knife/",
+      "title": "Is the Sharp Decline of Meta's Stock a Buying Opportunity or a Falling Knife? — NAI500"
+    },
+    {
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-3-the-great-rotation-small-cap-stocks-surge-as-tech-giants-falter-in-early-2026",
+      "title": "The Great Rotation: Small-Cap Stocks Surge as Tech Giants Falter — MarketMinute"
+    },
+    {
+      "url": "https://moccet.ai/news/tech/meta-just-bumped-its-2026-capex-forecast-up-to-as-much-as-145-billion-for-the-ai",
+      "title": "Meta 2026 Capex Forecast Up to $145 Billion — Moccet"
+    },
+    {
+      "url": "https://twitter.com/Convertbond",
+      "title": "Lawrence McDonald (@Convertbond) — X / Twitter"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

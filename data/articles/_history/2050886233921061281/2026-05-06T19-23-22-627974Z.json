@@ -1,0 +1,66 @@
+{
+  "headline": "JP Morgan's Ask David Codifies the Emerging Multi-Agent Playbook",
+  "lede": "JP Morgan has detailed the architecture behind 'Ask David,' its internal AI system for investment research — and the design reads like a template. A supervisor agent orchestrates a bench of specialized subagents, the answer passes through an *LLM-as-judge* review layer, and a human retains the final call. The pattern is appearing across enterprise AI at speed.",
+  "body": "Ask David is built to do what junior analysts spend much of their careers on: synthesizing market data, pulling structured financials, and surfacing relevant research from unstructured documents. Its architecture reflects a clear division of labour. A **supervisor agent** sits at the top, routing queries and assembling outputs. Beneath it, specialized subagents handle discrete tasks — retrieving documents via *RAG* (retrieval-augmented generation, the technique of grounding an LLM's answers in a live document store rather than its training data), querying structured databases, and running quantitative analytics. No single agent tries to do everything.\n\nBefore an answer reaches a user, it passes through what the team calls a reflection node — a second LLM invocation that acts as an independent judge of the first output's quality and accuracy. This *LLM-as-judge* step catches reasoning errors and gaps that slip past a single model pass, adding a quality gate without requiring a human to review every query.\n\nThe last mile is where the system deliberately steps back. A **human-in-the-loop** checkpoint means a trained professional reviews outputs before they inform decisions that move money. This is not an admission of failure; it is an architectural choice that reflects where model reliability currently sits. In a domain where a fabricated statistic or a miscited filing could have material consequences, the cost of false confidence is high enough that the automation-plus-review hybrid makes more sense than full autonomy.\n\nWhat makes the tweet worth noting is not the novelty of any individual component — RAG, multi-agent orchestration, and reflection loops are all well-documented techniques — but the convergence. JP Morgan, according to LangChain's presentation at its Interrupt conference, built Ask David on **LangGraph**, an open-source framework for stateful agent workflows. The fact that one of the world's largest financial institutions is using the same open tooling that a startup might reach for is a meaningful signal about where the enterprise AI stack is settling.",
+  "tickers": [
+    "JPM"
+  ],
+  "poster": "adamghowiba",
+  "concepts": [
+    {
+      "key": "multi-agent-system",
+      "term": "Multi-agent system",
+      "definition": "An AI architecture where multiple specialized models or 'agents' collaborate on a task, each handling a distinct sub-problem. A supervisor agent typically routes work and assembles final outputs from the specialists beneath it."
+    },
+    {
+      "key": "rag",
+      "term": "Retrieval-augmented generation (RAG)",
+      "definition": "A technique that gives a language model access to a live document store at inference time, so its answers draw on retrieved evidence rather than solely on what it learned during training. Widely used to reduce hallucination and keep responses current."
+    },
+    {
+      "key": "llm-as-judge",
+      "term": "LLM-as-judge",
+      "definition": "A quality-control pattern in which a second language model evaluates the output of the first — scoring it for accuracy, completeness, or reasoning quality — before the answer is delivered. Acts as an automated peer review without human labour per query."
+    },
+    {
+      "key": "human-in-the-loop",
+      "term": "Human-in-the-loop",
+      "definition": "A system design in which a human reviewer is embedded at a defined checkpoint in an otherwise automated pipeline. Commonly used where errors carry high cost or where model confidence is not yet sufficient for full autonomy."
+    },
+    {
+      "key": "supervisor-agent-pattern",
+      "term": "Supervisor-agent pattern",
+      "definition": "An orchestration design in which one 'supervisor' agent decomposes a user query, delegates sub-tasks to specialist agents, and aggregates their outputs into a final response. Mirrors how a manager delegates to a team of domain experts."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "summary": "LangGraph is an open-source library for building stateful, multi-actor applications with LLMs, developed by the team behind LangChain. It models agent workflows as directed graphs, making it straightforward to define loops, branching logic, and human-in-the-loop checkpoints. JP Morgan used it as the underlying framework for Ask David, according to a LangChain Interrupt conference presentation."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.geeky-gadgets.com/ai-investment-research-tool/",
+      "title": "AI Investment Research Agent 'Ask David' Built by JP Morgan — Geeky Gadgets",
+      "note": "Detailed breakdown of Ask David's purpose, architecture, and the challenges JP Morgan faced building it"
+    },
+    {
+      "url": "https://www.zenml.io/llmops-database/multi-agent-investment-research-assistant-with-rag-and-human-in-the-loop",
+      "title": "J.P. Morgan Chase: Multi-Agent Investment Research Assistant with RAG and Human-in-the-Loop — ZenML LLMOps Database",
+      "note": "ZenML's catalogued entry confirming the RAG and human-in-the-loop components of the system"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yMalr0jiOAc",
+      "title": "How JP Morgan Built An AI Agent for Investment Research with LangGraph | LangChain Interrupt",
+      "note": "Primary source presentation confirming LangGraph as the underlying framework"
+    }
+  ],
+  "bookmark_id": "2050886233921061281",
+  "generated_at": "2026-05-06T19:23:22.627974Z",
+  "backend": "claude"
+}

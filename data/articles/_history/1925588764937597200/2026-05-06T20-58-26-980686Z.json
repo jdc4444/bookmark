@@ -1,0 +1,38 @@
+{
+  "headline": "The Freudian Roots of the Algorithm That Powers Modern AI",
+  "lede": "Backpropagation — the learning algorithm at the heart of virtually every deep neural network today — was originally developed to put Sigmund Freud's notion of psychic energy on a mathematical footing. The man who did it spent years unable to get the work published. The tweet is a wry note of humility: the ideas that look most eccentric sometimes turn out to matter most.",
+  "body": "**Backpropagation** is the method by which a neural network learns: it measures the error in the network's output and then propagates a correction signal backwards through each layer, adjusting the weights of every connection in proportion to its contribution to that error. Without it, training deep networks would be computationally intractable. Today it is so foundational that it is taught in introductory machine-learning courses as if it were always obvious.\n\nIt was not. Paul Werbos, working on his doctorate in 1971, developed the algorithm not to advance computer science but to mathematicize *Triebenergie* — Freud's concept of a psychic force that flows through the mind the way current flows through a circuit. The analogy sounds fanciful, but the underlying mathematical structure Werbos worked out was perfectly general. When mapped onto artificial neural networks, it became the training procedure the field had been missing.\n\nThe institutional reception was unkind. Werbos struggled for a decade to publish the work, finally succeeding in 1981. His first claimed practical application was a dynamic model for predicting nationalism and social communications in 1974 — an application in social science, not engineering, which further distanced the work from the audiences who might have acted on it. It was only in 1982 that the method was applied to *multilayer perceptrons* (neural networks with one or more hidden layers between input and output) in the form that became standard.\n\nThe episode illustrates a recurring pattern in intellectual history: genuinely useful machinery, developed under motivations that seem at best eccentric, dismissed for years, then rediscovered and celebrated once the field had caught up to it. Werbos was not wrong; he was early and unusual. The poster's reaction — \"never laughing at crackpots again\" — captures the lesson economically. The line between crackpot and pioneer is often legible only in retrospect.",
+  "tickers": [],
+  "poster": "mattecapu",
+  "concepts": [
+    {
+      "key": "backpropagation",
+      "term": "Backpropagation",
+      "definition": "Short for 'backpropagation of errors,' this is the algorithm used to train neural networks. It computes how much each connection weight contributed to the network's mistake, then adjusts those weights to reduce the error. The computation flows backwards from the output layer to the input layer, hence the name."
+    },
+    {
+      "key": "multilayer-perceptron",
+      "term": "Multilayer Perceptron (MLP)",
+      "definition": "A class of artificial neural network with at least one 'hidden' layer between the inputs and the output — meaning it can learn non-linear relationships in data. MLPs are the architecture for which backpropagation proved most consequential, enabling networks to model complex patterns that a single-layer network could not."
+    },
+    {
+      "key": "freudian-psychic-energy",
+      "term": "Freudian Psychic Energy (Triebenergie)",
+      "definition": "A concept from Sigmund Freud's metapsychology, positing that psychological drives involve a quantity of mental energy that can be directed, blocked, or discharged. Freud borrowed the idea loosely from 19th-century thermodynamics. Werbos attempted to give this intuition a rigorous mathematical form, which led him to the gradient-flow machinery that backpropagation uses."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/mattecapu/status/1925588764937597200",
+      "title": "Original bookmark",
+      "note": "OCR of image containing passage on Werbos and the history of backpropagation; all factual claims in the brief derive from this text."
+    }
+  ],
+  "bookmark_id": "1925588764937597200",
+  "generated_at": "2026-05-06T20:58:26.980686Z",
+  "backend": "claude"
+}

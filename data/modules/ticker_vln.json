@@ -1,0 +1,28 @@
+{
+  "key": "VLN",
+  "name": "Valens Semiconductor Ltd.",
+  "exchange": "NYSE",
+  "blurb": "Valens Semiconductor is an Israeli fabless semiconductor company founded in 2006 that designs chips enabling high-bandwidth, long-reach connectivity over standard cables. Its flagship HDBaseT technology delivers simultaneous 4K/8K video, audio, Ethernet, USB, and power over a single cable, serving enterprise AV, education, industrial, and digital signage markets. The company also has an automotive segment targeting in-vehicle connectivity for advanced driver-assistance systems (ADAS) and autonomous driving applications. With ~233 employees and trailing revenue of roughly $70.7 million, it competes in the broader semiconductor connectivity market against companies such as Parade Technologies and Analogix.",
+  "recent": "Valens reported Q1 2026 earnings on May 13, 2026, with trailing twelve-month revenue up ~11.9% year-over-year to $70.66 million, though the company remains unprofitable with a net loss of $31.57 million. The stock surged 9.26% on earnings day to close at $2.95, continuing a recovery from its 52-week low of $1.10 hit on March 30, 2026. As of the May 14 pre-market, shares were trading around $3.01, and analysts carry a consensus Strong Buy rating with a $3.50 price target.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/vln/",
+      "title": "Valens Semiconductor (VLN) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/VLN/news/",
+      "title": "Valens Semiconductor Ltd. (VLN) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/VLN",
+      "title": "VLN: Valens Semiconductor Ltd — CNBC"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/VLN/news/",
+      "title": "VLN News Today — MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:36:59.736423Z",
+  "backend": "claude-sonnet-subagent"
+}

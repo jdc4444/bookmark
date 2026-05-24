@@ -1,0 +1,25 @@
+{
+  "key": "2408_tw",
+  "name": "Nanya Technology Corporation",
+  "exchange": "TWSE",
+  "blurb": "Nanya Technology is Taiwan's second-largest DRAM maker, operating a 60,000-wafer-per-month fab in Taioyuan that focuses on commodity DDR4 and specialty DRAM. Unlike Samsung, SK Hynix, and Micron, Nanya has not pursued high-bandwidth memory (HBM), positioning it as a late-cycle beneficiary: as the three majors redirect wafer capacity toward AI-stacked memory, Nanya fills the resulting gap in conventional DRAM supply at sharply higher prices.",
+  "recent": "In Q1 2026, Nanya reported a 583% year-on-year revenue surge to NT$49 billion, with a gross margin of 68% and net income of NT$26 billion — the best quarter in the company's history. Average selling prices rose more than 70% quarter-on-quarter as DDR4 tightened dramatically. Management guided Q2 2026 ASPs to rise further 'in the few tens of percent' range. The company is advancing DDR5 transition (16Gb DDR5-5600 now at roughly 10% of shipments) and progressing 1C/1D-nanometre process development on schedule.",
+  "sources": [
+    {
+      "title": "Nanya Technology Q1 2026 Earnings Call Highlights: Record Revenue Surge (GuruFocus)",
+      "url": "https://www.gurufocus.com/news/8793663/nanya-technology-corp-tpe2408-q1-2026-earnings-call-highlights-record-revenue-surge-and-strategic-growth-initiatives"
+    },
+    {
+      "title": "Nanya Q1 2026: Record 582% YoY Revenue, Margins Soar to 68% (BigGo Finance)",
+      "url": "https://finance.biggo.com/news/TW_2408.TW_2026-04-13"
+    },
+    {
+      "title": "Memory Giants' HBM Focus Limits DRAM Growth; Taiwan Firms Boost DDR4 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2025/10/17/news-memory-giants-hbm-focus-could-limit-dram-growth-through-2026-taiwan-firms-boost-ddr4/"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent",
+  "ticker": "2408.TW"
+}

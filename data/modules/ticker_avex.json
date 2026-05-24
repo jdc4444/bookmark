@@ -1,0 +1,27 @@
+{
+  "ticker": "AVEX",
+  "exchange": "NYSE",
+  "company": "Aevex Corp.",
+  "sector": "Defense",
+  "description": "Aevex Corp. (not to be confused with AeroVironment AVAV) is a Solana Beach, California-based defense drone company specializing in airborne ISR (intelligence, surveillance, and reconnaissance) systems for the U.S. military, Special Operations Forces, and allied governments. The company offers a 'full drone stack' spanning unmanned aircraft, software, services, and in-theater manufacturing. Aevex IPO'd on the NYSE in April 2026 at $20/share, raising $312 million; shares doubled within two trading sessions. Madison Dearborn Partners retains 79% voting control post-IPO. Roughly 78% of 2025 revenue came from the U.S. government.",
+  "ipo_date": "2026-04-16",
+  "ipo_price_usd": 20.0,
+  "ipo_proceeds_usd": 312000000,
+  "key_products": [
+    "ISR unmanned aerial systems",
+    "airborne surveillance platforms",
+    "in-theater drone manufacturing services"
+  ],
+  "market_cap_usd": 3190000000,
+  "market_cap_date": "2026-05-04",
+  "revenue_fy2025_usd": 432930000,
+  "backlog_usd": 503100000,
+  "identified_pipeline_usd": 8100000000,
+  "pe_sponsor": "Madison Dearborn Partners",
+  "pe_voting_control_pct": 79.1,
+  "clarification": "AVEX = Aevex Corp., a standalone defense ISR drone company. It is NOT an AeroVironment (AVAV) ADR, not Avant Communications, and not otherwise related to AVAV.",
+  "last_updated": "2026-05-05",
+  "key": "AVEX",
+  "blurb": "Aevex Corp. (not to be confused with AeroVironment AVAV) is a Solana Beach, California-based defense drone company specializing in airborne ISR (intelligence, surveillance, and reconnaissance) systems for the U.S. military, Special Operations Forces, and allied governments. The company offers a 'full drone stack' spanning unmanned aircraft, software, services, and in-theater manufacturing. Roughly 78% of 2025 revenue came from the U.S. government, and Madison Dearborn Partners retains 79% voting control post-IPO.",
+  "recent": "Aevex IPO'd on the NYSE in April 2026 at $20/share, raising $312 million; shares doubled within two trading sessions, putting the market cap at roughly $3.2 billion. FY2025 revenue was $433 million against a $503 million backlog and an identified pipeline of $8.1 billion."
+}

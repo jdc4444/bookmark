@@ -1,0 +1,32 @@
+{
+  "key": "CON.DE",
+  "name": "Continental AG",
+  "exchange": "XETRA",
+  "blurb": "Continental AG is a German automotive manufacturing company specializing in tires, brake systems, automotive electronics, and powertrain components. It is one of the world's largest automotive suppliers, with a strong market position in tire technology and vehicle safety systems. The company operates through four sectors: Automotive, Tires, ContiTech, and Powertrain, serving both original equipment manufacturers and the replacement market.",
+  "recent": "In the past 30 days, Continental's stock has traded within a 52-week range of €52.53 to €75.36, with recent price around €69.78. The company has been affected by European market volatility due to trade tensions, including potential US auto tariffs. Bank of America highlighted Continental as a top European auto pick for 2026, reflecting positive analyst sentiment.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CON.DE/",
+      "title": "Continental Aktiengesellschaft (CON.DE) Stock Price, News, Quote ..."
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/CONG.DE/",
+      "title": "(CONG.DE) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/CON-DE",
+      "title": "CON-DE: Continental AG - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/CON:ETR",
+      "title": "Continental AG (CON) Stock Price & News - Google Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/Stock/CON?countrycode=DE&iso=XFRA",
+      "title": "CON Stock Price | Continental AG Stock Quote (Germany: Frankfurt ..."
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T12:10:10.813612Z",
+  "backend": "deepseek"
+}

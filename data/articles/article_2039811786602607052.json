@@ -1,0 +1,162 @@
+{
+  "headline": "The LLM as Librarian: Andrej Karpathy's Self-Writing Wiki",
+  "lede": "Andrej Karpathy, the AI researcher who co-founded OpenAI and built Tesla's (TSLA) Autopilot vision stack, published an architecture for a personal knowledge base that inverts the usual relationship between human and machine: the LLM writes and maintains the wiki; the human just reads it. The post attracted roughly 19 million views and spawned dozens of open-source implementations within days.",
+  "body": "The system has three layers. A raw/ folder holds immutable source material — articles, papers, repos, datasets, web clips, transcripts — which the *LLM engine* reads but never modifies. The engine runs three named operations: **ingest** (a new source triggers updates across roughly ten to fifteen wiki pages), **query** (user questions are answered by synthesis across relevant pages, with valuable answers filed back as new wiki articles), and **lint** (automated health checks that surface contradictions, orphaned pages, and knowledge gaps). The output is a wiki/ folder of about 100 Markdown articles totalling 400,000 words for a single research topic, browsable in Obsidian (a local-first note-taking app) and exportable as slides via *Marp* (a Markdown-to-presentation tool) or charts via Matplotlib.\n\nThe conceptual claim that made the post viral was its implicit critique of *RAG* — retrieval-augmented generation, the standard technique for grounding LLM answers in a document corpus. RAG retrieves relevant chunks at query time; the model “rediscovers knowledge from scratch on every question.” Karpathy’s alternative is to compile once: the LLM reads all the sources, synthesises them into coherent cross-referenced wiki pages, and answers from that compiled representation. His analogy: “Obsidian is the IDE; the LLM is the programmer; the wiki is the codebase.” At the scale of a personal research sprint — weeks of reading, dozens of papers — maintaining plain Markdown files is plausibly simpler than spinning up and querying a *vector database*.\n\nEqually remarked-upon was his decision not to publish code. Instead he released an *idea file*: a structured Markdown description of the architecture, on the reasoning that in the agent era “you just share the idea, then the other person’s agent customises and builds it for your specific needs.” This is a quiet provocation about how software gets distributed when everyone has an agent that can implement from a spec. Within days, the community produced open-source implementations for Obsidian, Claude Code, and locally-run language models. Karpathy also highlighted “Farzapedia,” a personal Wikipedia built by a user named Farza from 2,500 diary entries, notes, and iMessages that produced 400 articles — a demonstration that the pattern scales to personal rather than merely intellectual material.\n\nThe broader backdrop is the long-running *PKM* (personal knowledge management) industry — Obsidian, Notion, Roam Research, and Tiago Forte’s “second brain” methodology — which has always crashed against the same failure mode: elaborate capture systems that humans abandon because maintenance outpaces value. Karpathy’s formulation delegates maintenance to the LLM, which does not tire. Whether this holds at team scale, with fast-changing operational data, or over years of accumulated material remains untested. His company Eureka Labs is building AI-native education tools; the wiki pattern reads less like a product roadmap and more like a signal of how a technically sophisticated individual researcher operates now.",
+  "tickers": [
+    "TSLA"
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA"
+    },
+    {
+      "name": "Eureka Labs",
+      "ticker": null
+    },
+    {
+      "name": "Obsidian",
+      "ticker": null
+    },
+    {
+      "name": "Notion",
+      "ticker": null
+    },
+    {
+      "name": "Roam Research",
+      "ticker": null
+    }
+  ],
+  "poster": "himanshustwts",
+  "concepts": [
+    {
+      "key": "rag",
+      "term": "RAG",
+      "definition": "Retrieval-augmented generation: a technique for grounding LLM answers in a document corpus by retrieving relevant text chunks at query time and passing them as context. Common but criticised for re-deriving the same synthesis on every request rather than building a persistent, compiled representation."
+    },
+    {
+      "key": "llm-engine",
+      "term": "LLM engine",
+      "definition": "In Karpathy’s architecture, the agentic component that reads raw sources and writes, updates, and queries the wiki. Analogous to a compiler: it processes raw inputs into a structured, cross-referenced output that is more useful than the sum of its parts."
+    },
+    {
+      "key": "ingest",
+      "term": "Ingest",
+      "definition": "One of three core operations in the wiki system. When a new source document enters raw/, the LLM reads it, extracts key claims, and updates all relevant wiki pages — potentially touching ten to fifteen articles per source."
+    },
+    {
+      "key": "lint",
+      "term": "Lint",
+      "definition": "Borrowed from software development (where a linter performs static analysis on code), lint in Karpathy’s system means automated health checks run by the LLM on the wiki to find internal contradictions, stale claims, orphaned pages, and missing cross-references."
+    },
+    {
+      "key": "marp",
+      "term": "Marp",
+      "definition": "A Markdown-based presentation tool that converts .md files into slide decks rendered in reveal.js format. Karpathy uses it as an output channel so the LLM can produce slide-ready summaries of wiki content without a separate authoring step."
+    },
+    {
+      "key": "idea-file",
+      "term": "Idea file",
+      "definition": "A structured Markdown document that describes an architecture or system in enough detail for an AI agent to implement it, deliberately published without runnable code. The concept holds that in an agentic era, sharing intent and schema is more useful than sharing a specific implementation."
+    },
+    {
+      "key": "pkm",
+      "term": "PKM",
+      "definition": "Personal knowledge management: the practice of capturing, organising, and retrieving information for individual use. Tools include Obsidian, Notion, and Roam Research; methodologies include Tiago Forte’s PARA system and the ‘second brain’ metaphor. The field has long struggled with maintenance burden."
+    },
+    {
+      "key": "vector-database",
+      "term": "Vector database",
+      "definition": "A database optimised for storing and querying high-dimensional vector embeddings — numerical representations of text that capture semantic meaning. Standard infrastructure in RAG pipelines for retrieving relevant document chunks; Karpathy’s wiki pattern sidesteps the need for one at personal-research scale."
+    },
+    {
+      "key": "backlinks",
+      "term": "Backlinks",
+      "definition": "In note-taking systems, a backlink is a reference from page B to page A that is automatically surfaced when viewing A, showing which other pages link to it. Obsidian’s backlink graph is a core feature; the LLM engine in Karpathy’s system builds and maintains these cross-references as it writes the wiki."
+    },
+    {
+      "key": "obsidian-app",
+      "term": "Obsidian",
+      "definition": "A local-first, Markdown-based note-taking application with a graph-based backlink visualiser, widely used in personal knowledge management. In Karpathy’s architecture, Obsidian serves as the ‘IDE’ for browsing the LLM-maintained wiki — a read interface the human uses, not a writing environment."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "karpathy-autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "summary": "Karpathy’s autonomous ML experimentation agent, released March 2026. An LLM agent modifies a training script, runs short experiments, measures validation loss, and keeps or discards changes overnight. An earlier demonstration of the same ‘LLM as autonomous worker’ philosophy that underpins the wiki pattern."
+    },
+    {
+      "key": "ar9av-obsidian-wiki",
+      "url": "https://github.com/Ar9av/obsidian-wiki",
+      "summary": "A community implementation of Karpathy’s wiki pattern built within days of the original post. Adds delta tracking, multi-agent history mining, and provenance tagging (extracted/inferred/ambiguous). Compatible with Claude Code, Cursor, and Codex."
+    },
+    {
+      "key": "khoj-ai-khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "summary": "A self-hostable AI ‘second brain’ that pre-dates Karpathy’s post. Indexes personal notes, documents, and calendars and answers questions over them. Often positioned alongside the wiki pattern as the nearest prior-art alternative."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/karpathy/status/2039805659525644595",
+      "title": "Karpathy original LLM Knowledge Bases tweet",
+      "note": "Primary source; the originating post with approximately 19.6 million views"
+    },
+    {
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+      "title": "karpathy/llm-wiki.md — GitHub Gist",
+      "note": "The idea file: canonical technical description of the full architecture"
+    },
+    {
+      "url": "https://x.com/karpathy/status/2040470801506541998",
+      "title": "Karpathy idea-file follow-up tweet",
+      "note": "Karpathy’s commentary on the viral response and the idea-file distribution philosophy"
+    },
+    {
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "title": "Karpathy Farzapedia follow-up tweet",
+      "note": "Karpathy highlighting Farzapedia as a concrete personal-data implementation"
+    },
+    {
+      "url": "https://github.com/karpathy/autoresearch",
+      "title": "karpathy/autoresearch — GitHub",
+      "note": "Earlier agentic project establishing Karpathy’s autonomous-agent workflow philosophy"
+    },
+    {
+      "url": "https://eurekalabs.ai/",
+      "title": "Eureka Labs",
+      "note": "Karpathy’s current company; context for his ongoing work in AI-native education"
+    },
+    {
+      "url": "https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an",
+      "title": "VentureBeat: Karpathy shares LLM Knowledge Base architecture",
+      "note": "Tech media coverage; frames the anti-RAG angle that dominated the reaction"
+    },
+    {
+      "url": "https://academy.dair.ai/blog/llm-knowledge-bases-karpathy",
+      "title": "DAIR.AI Academy: LLM Knowledge Bases breakdown",
+      "note": "In-depth architectural analysis by Elvis Saravia"
+    },
+    {
+      "url": "https://github.com/Ar9av/obsidian-wiki",
+      "title": "Ar9av/obsidian-wiki — GitHub",
+      "note": "Notable community implementation of the pattern for Obsidian"
+    },
+    {
+      "url": "https://github.com/khoj-ai/khoj",
+      "title": "khoj-ai/khoj — GitHub",
+      "note": "Prior-art self-hostable AI second brain for comparison"
+    }
+  ],
+  "bookmark_id": "2039811786602607052",
+  "generated_at": "2026-05-07T08:53:00.039020Z",
+  "backend": "claude-sonnet-subagent"
+}

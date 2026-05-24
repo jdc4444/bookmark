@@ -1,0 +1,32 @@
+{
+  "key": "GS",
+  "name": "The Goldman Sachs Group, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Goldman Sachs is a leading global financial institution offering investment banking, securities, asset management, and wealth management services to corporations, governments, and individuals. It operates through three segments: Global Banking & Markets, Asset & Wealth Management, and Platform Solutions. The firm is a dominant player in M&A advisory, trading, and underwriting, with a strong presence in the Americas, Europe, and Asia.",
+  "recent": "As of May 6, 2026, GS shares closed at $937.35, up 2.01% on the day, with a market cap of $287.39B. The stock has rallied over 70% in the past year, reaching a 52-week high of $984.70. Recent news includes analyst ratings and earnings reports, though no major catalysts were highlighted in the past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/GS/news/",
+      "title": "The Goldman Sachs Group, Inc. (GS) Latest Stock News & Headlines"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/GS/news/",
+      "title": "The Goldman Sachs Group (GS) News Today - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/gs/",
+      "title": "The Goldman Sachs Group (GS) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/gs",
+      "title": "GS Stock Price | Goldman Sachs Group Inc. Stock Quote (U.S.: NYSE)"
+    },
+    {
+      "url": "https://edition.cnn.com/markets/stocks/GS",
+      "title": "GS Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:33:05.691141Z",
+  "backend": "deepseek"
+}

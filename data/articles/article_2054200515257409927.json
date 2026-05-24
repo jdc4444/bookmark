@@ -1,0 +1,135 @@
+{
+  "headline": "Micron's AI Memory Boom and the Chart Bulls Cannot Dismiss",
+  "lede": "@qcapital2020 posted a Koyfin drawdown chart showing Micron Technology's complete stock history since 1985 — a landscape of 70% to 98% peak-to-trough crashes — alongside a sardonic recitation of every current bull talking point: the HBM backlog, the AI demand thesis, the single-digit forward earnings multiple. The juxtaposition is the argument: history suggests that “this time is different” is the most expensive phrase in semiconductor investing.",
+  "body": "The case for **Micron** (MU) rests on what may genuinely be a structural shift in memory demand. *High Bandwidth Memory* (HBM) — a packaging technology that stacks multiple DRAM dies vertically on a silicon interposer, giving AI accelerators up to 4.8 terabytes per second of memory bandwidth versus roughly 70 gigabytes per second for conventional server DRAM — has become the critical constraint in AI infrastructure. A single NVIDIA (NVDA) H200 GPU requires 141 gigabytes of HBM3E; the B200 uses 192 gigabytes. Micron’s fiscal second-quarter 2026 results were staggering: $23.86 billion in revenue, up 196% year-over-year, with gross margins of 74.4%. The company guided its next quarter to $33.5 billion in revenue at 81% gross margins. On a forward twelve-month basis, shares trade at roughly 7.7 to 11 times estimated earnings — a multiple that implies either terminal pessimism or an earnings peak in sight.\n\nThe Koyfin chart explains why the market is reluctant to award a growth multiple. From its dot-com peak in 2000 to the Global Financial Crisis trough in November 2008, Micron’s stock fell 98.25% — a near-total wipeout measured across that full span. Every subsequent cycle produced drawdowns of 50% to 75%: roughly 75% from 2014 to 2016; 57% from peak to trough in 2018; 51% from January to December 2022. The mechanism is always the same. *DRAM* (dynamic random-access memory), the commodity chip at the core of Micron’s business, is subject to violent boom-bust cycles driven by the inherent lag between investment decisions and capacity coming online. Manufacturers commit capital at cycle peaks; fabs take two to three years to build; by the time the silicon is flowing, demand has often rolled over. In fiscal 2023 Micron posted a $2.31 billion net loss in a single quarter and cut its workforce by 10%.\n\nAt every prior cycle peak, a structural demand shift was invoked to explain why things would be different. In 2014 it was cloud data center build-out. In 2018 it was the smartphone and data center supercycle. In both cases the cycle turned anyway — and the pattern that skeptics find most instructive is the multiple at the 2018 peak: Micron (MU) traded at roughly 4.5 times forward earnings and still fell 57%. The market was already pricing in catastrophic mean reversion, and it arrived. Today’s 7–11 times forward multiple is actually *higher* than that 2018 peak by the same metric. That could indicate this cycle is genuinely different. Or it could mean the market is simply being slower to price in what history says is inevitable.\n\nThe structural bear risks are not purely pattern-matching. Micron is raising capital expenditure to $20 billion in fiscal 2026 and signaling a ‘meaningful step-up’ in fiscal 2027, with new fab campuses under construction in Idaho and New York. SK Hynix (000660.KS) and Samsung (005930.KS) are spending at comparable scale. New fabs take two to three years from groundbreaking to volume production; if AI capital expenditure plateaus in 2027 — even modestly — the industry could face its familiar oversupply dynamic at precisely the moment that silicon starts shipping. SK Hynix reportedly cut its own 2027 HBM investment by 50%, a telling signal from the HBM market leader. China’s ChangXin Memory Technologies (CXMT), backed by state capital, is scaling conventional DRAM, compressing commodity pricing even if premium HBM tiers remain tight. Micron’s top ten customers account for more than half its revenue — concentration that creates asymmetric downside if any major hyperscaler throttles AI infrastructure spend.\n\nThere is, however, a real structural argument embedded in the bull case that prior cycles lacked. Producing one unit of HBM capacity consumes roughly three times the silicon wafers of standard DDR5 DRAM — a ratio known as the **3-to-1 wafer trade ratio** — meaning every wafer shifted into HBM simultaneously tightens supply of conventional memory. This is a self-reinforcing scarcity mechanism without obvious historical precedent. Micron says its entire 2026 HBM output is already sold under multi-year contracts at locked pricing, and the company can currently meet only 50% to 66% of customer demand. The *HBM total addressable market* is projected to grow at roughly 40% per year through 2028, reaching an estimated $100 billion. Whether that demand is durable or front-loaded ahead of a capex air pocket is the question the drawdown chart cannot answer — and the one that has always separated the believers from the wreckage.",
+  "tickers": [
+    "MU",
+    "NVDA",
+    "000660.KS",
+    "005930.KS"
+  ],
+  "companies": [
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Samsung",
+      "ticker": "005930.KS"
+    },
+    {
+      "name": "ChangXin Memory Technologies",
+      "ticker": null
+    }
+  ],
+  "poster": "qcapital2020",
+  "concepts": [
+    {
+      "key": "high-bandwidth-memory",
+      "term": "High Bandwidth Memory (HBM)",
+      "definition": "A memory architecture that stacks multiple DRAM dies vertically and connects them via thousands of microscopic conductors called Through-Silicon Vias, then places the stack directly adjacent to a processor on a silicon interposer. The result is a bus interface up to 2,048 bits wide — versus 64 bits for conventional DDR5 — delivering terabytes per second of memory bandwidth at lower power than traditional memory. HBM is essential for AI accelerators because large language models require moving billions of parameters through memory faster than conventional chips allow."
+    },
+    {
+      "key": "dram",
+      "term": "DRAM",
+      "definition": "Dynamic random-access memory: the dominant form of volatile computer memory, used in servers, PCs, and smartphones. DRAM cells must be continuously refreshed with electrical charge, making them fast but power-hungry relative to storage. The DRAM market — dominated by Micron, SK Hynix, and Samsung — is historically one of the most cyclical in technology, prone to violent swings between oversupply and shortage because capital-intensive fabs take years to build while market conditions can shift in months."
+    },
+    {
+      "key": "wafer-trade-ratio",
+      "term": "Wafer trade ratio",
+      "definition": "The number of standard commodity memory wafers that must be consumed to produce one wafer’s worth of a more advanced product. Because HBM stacks require additional process steps, tighter yields, and more complex bonding than plain DRAM, converting wafer capacity to HBM requires roughly three times the raw silicon input per unit. This means ramping HBM production simultaneously tightens supply of conventional DRAM, supporting pricing across both markets."
+    },
+    {
+      "key": "forward-pe",
+      "term": "Forward P/E",
+      "definition": "A valuation ratio comparing the current stock price to estimated earnings per share over the next twelve months. A low forward P/E can signal either genuine undervaluation or that analysts expect earnings to fall sharply — distinguishing between the two is the central challenge in cyclical-stock investing, where low multiples at peak earnings often precede the sharpest drawdowns."
+    },
+    {
+      "key": "memory-cycle",
+      "term": "Memory cycle",
+      "definition": "The recurring boom-bust pattern in DRAM and NAND flash markets, driven by the mismatch between fast-moving demand and slow-moving supply. When prices rise, manufacturers simultaneously announce new fab capacity; two to three years later that capacity arrives together, floods the market, and crashes prices — often below the cost of production. Micron has experienced at least five such cycles since 2000, with peak-to-trough stock declines ranging from 50% to 98%."
+    },
+    {
+      "key": "hbm-total-addressable-market",
+      "term": "HBM total addressable market",
+      "definition": "An estimate of the total annual revenue available to sellers of High Bandwidth Memory if they captured all potential demand. Micron projects this figure to grow from roughly $35 billion in 2025 to approximately $100 billion by 2028, at roughly 40% per year, driven almost entirely by AI accelerator deployments in hyperscaler data centers."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet’s ‘7x P/E’ figure is approximately accurate: independent sources place Micron’s forward earnings multiple at between 7.7 and 11.2 times, depending on whether one uses next-twelve-month consensus or a specific fiscal year estimate. The range reflects genuine analyst uncertainty about earnings trajectories, not a material distortion by the poster.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://ycharts.com/companies/MU/max_drawdown_5y",
+      "title": "Micron Technology Max Drawdown — YCharts",
+      "note": "Quantified the all-time maximum drawdown of 98.25% from dot-com peak to November 2008 GFC trough"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/02/10/how-high-can-micron-go-in-the-memory-supercycle-he/",
+      "title": "How High Can Micron Go In the Memory Supercycle? — Motley Fool",
+      "note": "Historical trough-to-peak cycle gains and current supercycle framing"
+    },
+    {
+      "url": "https://www.trefis.com/stock/mu/articles/599100/micron-stock-surged-9x-but-history-suggests-caution/2026-05-12",
+      "title": "Micron Stock Surged 9x But History Suggests Caution — Trefis",
+      "note": "Bear case built on historical drawdown pattern and valuation analysis"
+    },
+    {
+      "url": "https://investors.micron.com/static-files/088991c5-a249-4f66-a0a6-258d9b66f3f9",
+      "title": "Micron Q1 FY2026 Earnings Call Prepared Remarks — Micron IR",
+      "note": "Primary source: CEO confirmation that all 2026 HBM supply is contracted at locked pricing"
+    },
+    {
+      "url": "https://investors.micron.com/static-files/e089f8c0-065d-47b8-9d02-bfa863cdb357",
+      "title": "Micron Q2 FY2026 Earnings Call Prepared Remarks — Micron IR",
+      "note": "Primary source: Q2 FY2026 results ($23.86B revenue, 74.4% gross margin) and Q3 guidance ($33.5B, 81% margins)"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/mu-20251127.htm",
+      "title": "Micron Technology FY2025 10-K — SEC EDGAR",
+      "note": "Primary source: FY2025 financials, CHIPS Act grants, HBM roadmap, and risk factors including CXMT competition"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2025/12/18/news-micron-hikes-capex-to-20b-with-2026-hbm-supply-fully-booked-hbm4-ramps-2q26/",
+      "title": "Micron Hikes CapEx to $20B, 2026 HBM Supply Fully Booked — TrendForce",
+      "note": "HBM supply dynamics, capex plans, and HBM4 ramp timeline"
+    },
+    {
+      "url": "https://globalsemiresearch.substack.com/p/2026-memory-industry-insights",
+      "title": "2026 Memory Industry Insights — Global Semi Research",
+      "note": "SK Hynix 50% HBM investment reduction for 2027; broader memory supply/demand outlook"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4871883-micron-melt-up-looks-late-cycle-dont-chase-this-rally-any-further",
+      "title": "Micron: Melt-Up Looks Late Cycle — Seeking Alpha",
+      "note": "Skeptical cycle analysis; sold-out HBM4 but normalization risk flagged for post-2027"
+    },
+    {
+      "url": "https://intuitionlabs.ai/articles/hbm-vs-ddr-memory-comparison",
+      "title": "HBM vs. DDR: Key Differences in Memory Technology — IntuitionLabs",
+      "note": "Technical explanation of HBM architecture, bandwidth figures, and AI use cases"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/mu/forecast/",
+      "title": "Micron Technology FY2026 Revenue Estimates — StockAnalysis",
+      "note": "Forward earnings estimates and revenue forecasts for FY2026 and FY2027"
+    },
+    {
+      "url": "https://www.tipranks.com/news/micron-stock-mu-slipped-after-a-blowout-quarter-why-the-dip-is-a-gift",
+      "title": "Micron Stock (MU) Slipped after a Blowout Quarter — TipRanks",
+      "note": "Forward P/E analysis: 7.7x on FY2026, 4.7x on FY2027 earnings estimates"
+    }
+  ],
+  "bookmark_id": "2054200515257409927",
+  "generated_at": "2026-05-14T10:45:49.605328Z",
+  "backend": "claude-sonnet-subagent"
+}

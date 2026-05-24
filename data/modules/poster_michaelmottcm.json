@@ -1,0 +1,41 @@
+{
+  "key": "michaelmottcm",
+  "display_name": "@MichaelMOTTCM",
+  "blurb": "Michael J. Kramer is the founder and CEO of Mott Capital Management, LLC, an independent research firm he established in June 2014. He is a former buy-side trader, analyst, and portfolio manager with approximately 30 years of experience tracking equity market technicals, fundamentals, and options positioning. Early in his career he traded US and international equities at US Trust and Gilder, Gagnon, Howe & Co. He holds an MS in Investment Management from Pace University and a Certificate in Risk Management from New York University. Kramer publishes daily, data-driven macro and options-structure analysis — covering dealer gamma exposure, volatility surfaces, and price-volume relationships — across Seeking Alpha, Substack, and X, where he has built an audience exceeding 200,000 followers. His MOTTCM handle is an abbreviation of Mott Capital Management. He is an SEC-registered investment adviser (IARD/CRD on file). His research is distributed across free and premium subscription tiers.",
+  "credibility_note": "Verified: SEC-registered investment adviser. Founder and sole principal of Mott Capital Management, LLC. Institutional background at US Trust and Gilder Gagnon confirmed. Credentials (MS, NYU certificate) independently sourced. He is not affiliated with Piper Sandler or Michael Kantrowitz — a common point of confusion given similar first names and finance prominence.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/MichaelMOTTCM"
+    },
+    {
+      "label": "Mott Capital Management",
+      "url": "https://mottcapitalmanagement.com/"
+    },
+    {
+      "label": "SEC Adviser Info",
+      "url": "https://adviserinfo.sec.gov/individual/summary/3246428"
+    },
+    {
+      "label": "Seeking Alpha",
+      "url": "https://seekingalpha.com/author/mott-capital-management"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://mottcapitalmanagement.com/",
+      "title": "Mott Capital Management — About"
+    },
+    {
+      "url": "https://adviserinfo.sec.gov/individual/summary/3246428",
+      "title": "Michael J. Kramer — SEC Investment Adviser Info"
+    },
+    {
+      "url": "https://talkmarkets.com/contributor/michael-j-kramer/",
+      "title": "Michael J. Kramer — TalkMarkets Profile"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

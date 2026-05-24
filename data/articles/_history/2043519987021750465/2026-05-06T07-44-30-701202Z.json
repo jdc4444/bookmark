@@ -1,0 +1,39 @@
+{
+  "headline": "Charcutrie Lets You Explore Unicode by Visual Similarity",
+  "lede": "A new tool called Charcutrie, built by designer and developer David (known as @meodai), lets you browse Unicode characters by how they look rather than by name or codepoint. The project addresses a long-standing gap in how we navigate the sprawling Unicode standard.",
+  "body": "Unicode contains over 150,000 characters spanning scripts, symbols, and emoji, but most search tools rely on textual metadata. Charcutrie flips that: you can browse characters that look alike, search across scripts, or even sketch a rough shape to find matching glyphs. The sketch feature is still experimental, but the core idea is powerful.\n\nFor designers, linguists, and typographers, visual similarity search opens up new ways to discover obscure characters, identify lookalikes that cause security issues (like homoglyph attacks), or simply find the right symbol when you don't know its name. The tool is web-based and free.\n\nCharcutrie is a reminder that the interface to our digital writing system is still primitive. By making Unicode browsable by sight, it fills a real need — and does so with a playful, exploratory spirit.",
+  "tickers": [],
+  "poster": "gentlycarved",
+  "concepts": [
+    {
+      "key": "unicode",
+      "term": "Unicode",
+      "definition": "A universal character encoding standard that assigns a unique number to every character across languages, scripts, and symbols. It enables consistent representation of text across different systems and platforms."
+    },
+    {
+      "key": "homoglyph",
+      "term": "homoglyph",
+      "definition": "Characters that look visually identical or very similar but have different meanings or codepoints. For example, the Latin letter 'A' and the Cyrillic 'А' are homoglyphs. They can be exploited in phishing attacks (homoglyph attacks) to create deceptive URLs."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "meodai-charcutrie",
+      "url": "https://github.com/meodai/charcutrie",
+      "summary": "A web tool for exploring Unicode characters by visual similarity. Users can search by drawing a shape, browse lookalikes, and filter across scripts. The project is open source and built with JavaScript."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/gentlycarved/status/2043519987021750465",
+      "title": "Original tweet by @gentlycarved quoting @meodai",
+      "note": "The bookmark itself, containing the quote-tweet that describes Charcutrie."
+    }
+  ],
+  "bookmark_id": "2043519987021750465",
+  "generated_at": "2026-05-06T07:44:30.701202Z",
+  "backend": "deepseek"
+}

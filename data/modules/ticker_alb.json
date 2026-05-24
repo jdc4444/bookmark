@@ -1,0 +1,13 @@
+{
+  "key": "ALB",
+  "name": "Albemarle Corporation",
+  "exchange": "NYSE",
+  "blurb": "Albemarle is one of the world's largest producers of lithium compounds, supplying battery-grade lithium hydroxide and carbonate to electric-vehicle and energy-storage markets. It also produces bromine and specialty chemicals. The company holds roughly 16% of global lithium market share and operates mines in Chile, Australia, and the United States. Its AI revenue exposure is indirect — lithium's primary demand driver remains EV batteries — but data-center battery backup systems and robotics batteries create a secondary link.",
+  "recent": "Albemarle has faced significant margin pressure through 2025 and into 2026 as lithium spot prices remained well below 2022 peaks amid a supply glut and slower-than-expected EV adoption in key markets. The company has responded by curtailing production and deferring expansion projects. AI-related demand for lithium is real but remains a small fraction of total consumption.",
+  "sources": [
+    {"url": "https://www.grandviewresearch.com/industry-analysis/neodymium-market-report", "title": "Neodymium Market Size & Share | Grand View Research"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

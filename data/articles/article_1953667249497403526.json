@@ -1,0 +1,127 @@
+{
+  "headline": "Karpathy's Three Rules for Building Expertise, With Evidence",
+  "lede": "In a 2020 post that has since circulated widely in technical and educational circles, Andrej Karpathy — a founding research scientist at OpenAI, former Director of AI at Tesla, and founder of the AI-native education startup Eureka Labs — condensed his philosophy of skill acquisition into three spare instructions. The advice looks deceptively simple; its intellectual roots run considerably deeper.",
+  "body": "The first rule advocates **depth-first, project-driven learning**: take on a concrete project, then acquire whatever knowledge that project demands, in the order it demands it. This is the practitioner's formulation of what educational researchers call *project-based learning* — a pedagogy whose academic foundations date to a 1991 paper by Blumenfeld and colleagues demonstrating that knowledge acquired while solving real problems adheres differently than knowledge accumulated in anticipation of hypothetical future tests. Karpathy expanded on this in a widely shared 2024 post: \"Close those tabs of 'Learn XYZ in 10 minutes.' Consider the opportunity cost of snacking and seek the meal — the textbooks, docs, papers, manuals.\" The operative phrase in his original instruction is *on demand*: the project determines what you learn, and when.\n\nThe second rule — teach and summarize everything you learn in your own words — is a lay description of the *Feynman technique*, named for Nobel laureate Richard Feynman's stated test of understanding: if you cannot explain something simply, you do not yet understand it. Contemporary research supports this through what psychologists call the *protégé effect*: the mere expectation of having to teach material measurably improves how well a student learns it in advance. The act of externalizing knowledge forces the learner to confront where borrowed vocabulary is concealing a genuine gap. Karpathy's own \"Zero to Hero\" neural-network lecture series — watched by millions — may have sharpened his understanding as much as it benefited viewers.\n\nThe third rule engages directly with *social comparison theory*, Leon Festinger's 1954 framework explaining why people default to evaluating their abilities against others. The research literature consistently finds that upward social comparisons — measuring yourself against more accomplished peers — undermine well-being and self-assessment. A 2020 controlled experiment by Gürel and colleagues found that *temporal self-comparison*, evaluating yourself against your own past self rather than against peers, produced stronger improvement-oriented goals and durable pride without the shame responses that social comparison reliably generates. For domains where visible talent density is unusually high — machine learning being a clear example — tracking the distance between where you are and where you were six months ago is, statistically, a more effective motivational strategy than benchmarking against a peer's visible output.\n\nKarpathy's authority here is not merely theoretical. He built Stanford's CS 231n from a seminar of 150 students to a course of 750, created one of the most-watched sequences of AI tutorial videos on the internet, and in July 2024 founded **Eureka Labs**, an AI-native education company whose stated mission is to deploy AI teaching assistants at scale — applying the same principles to pedagogy that he had been articulating in tweets since 2018. The three-step framework reads like a tweet; it describes a practice he has iterated on for over a decade.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA"
+    },
+    {
+      "name": "Eureka Labs",
+      "ticker": null
+    }
+  ],
+  "poster": "aaditsh",
+  "concepts": [
+    {
+      "key": "project-based-learning",
+      "term": "Project-Based Learning",
+      "definition": "A teaching approach in which students acquire knowledge by working on a complex, real-world project rather than through direct instruction followed by exercises. Knowledge acquisition is tied to the needs of the project — you learn what the problem requires, when it requires it. Foundational research by Blumenfeld and colleagues (1991) showed it produces deeper conceptual mastery than traditional breadth-first curricula, because students who score well on standardized tests often lack genuine understanding of the material."
+    },
+    {
+      "key": "feynman-technique",
+      "term": "Feynman Technique",
+      "definition": "A self-testing method attributed to physicist Richard Feynman: choose a concept, explain it as simply as if teaching someone who knows nothing about it, identify where your explanation breaks down, and return to source material to fill the gap. The technique exploits the fact that passive reading creates an illusion of understanding that only evaporates when you are forced to produce an explanation from memory."
+    },
+    {
+      "key": "protégé-effect",
+      "term": "Protégé Effect",
+      "definition": "The cognitive and motivational boost that learners receive from the expectation of having to teach or explain material to someone else. Even before any teaching occurs, research shows that students who know they will need to explain content learn it more thoroughly, identifying gaps in their own understanding that passive study obscures."
+    },
+    {
+      "key": "social-comparison-theory",
+      "term": "Social Comparison Theory",
+      "definition": "Leon Festinger's 1954 framework proposing that individuals have a drive to evaluate their opinions and abilities, and do so by comparing themselves to others when objective benchmarks are unavailable. Upward social comparisons — against people perceived as more capable — tend to be self-undermining, lowering self-assessment and well-being rather than motivating improvement."
+    },
+    {
+      "key": "temporal-self-comparison",
+      "term": "Temporal Self-Comparison",
+      "definition": "Evaluating one's current abilities or progress by reference to one's own past self, rather than to peers or external benchmarks. Research by Gürel and colleagues (2020) found this produces improvement-oriented goals and sustained pride without the shame responses that social comparison characteristically generates."
+    },
+    {
+      "key": "depth-first-learning",
+      "term": "Depth-First Learning",
+      "definition": "A metaphor borrowed from computer-science graph traversal: depth-first search fully explores one branch before backtracking, as opposed to breadth-first search, which scans all immediate neighbors before going deeper. Applied to learning, it describes the approach of pursuing mastery through a single concrete project, acquiring adjacent knowledge on demand as the project requires it rather than surveying a field broadly before attempting anything."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/karpathy/status/1325154823856033793",
+      "title": "Andrej Karpathy — original tweet (Nov 7, 2020)",
+      "note": "Primary verbatim source for the three-step framework"
+    },
+    {
+      "url": "https://karpathy.ai/tweets.html",
+      "title": "Karpathy: Fave Tweets archive",
+      "note": "Karpathy's own curated collection of his most important tweets; establishes multi-year consistency of the philosophy"
+    },
+    {
+      "url": "https://twitter.com/karpathy/status/1756380066580455557",
+      "title": "Karpathy: On the shortification of learning (Feb 2024)",
+      "note": "Extended elaboration of the depth-first and anti-snacking principles from the original tweet"
+    },
+    {
+      "url": "https://karpathy.github.io/2016/09/07/phd/",
+      "title": "A Survival Guide to a PhD — Andrej Karpathy (2016)",
+      "note": "Longer essay establishing the philosophical foundations: project-driven effort, communication, intrinsic vs social measurement"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Andrej_Karpathy",
+      "title": "Andrej Karpathy — Wikipedia",
+      "note": "Credentials, career timeline, and context for why his opinions on learning carry weight"
+    },
+    {
+      "url": "https://www.deeplearning.ai/blog/hodl-andrej-karpathy/",
+      "title": "Heroes of Deep Learning: Andrej Karpathy — DeepLearning.AI",
+      "note": "Interview containing direct quotes on the importance of not abstracting away foundational understanding"
+    },
+    {
+      "url": "https://venturebeat.com/ai/ex-openai-and-tesla-engineer-andrej-karpathy-announces-ai-native-school-eureka-labs",
+      "title": "Karpathy launches Eureka Labs — VentureBeat (2024)",
+      "note": "Source for Eureka Labs founding and mission, showing the three-step philosophy operationalized as a company"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00461520.1991.9653139",
+      "title": "Blumenfeld et al., 'Motivating Project-Based Learning' — Educational Psychologist (1991)",
+      "note": "Foundational academic paper establishing PBL as a pedagogy and its advantage over breadth-first curricula"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/358237141_Feynman_Technique_as_a_Heutagogical_Learning_Strategy_for_Independent_and_Remote_Learning",
+      "title": "Feynman Technique as Heutagogical Learning Strategy — Recoletos Multidisciplinary Research Journal (2022)",
+      "note": "Experimental evidence for the learning gains produced by the teach-back method described in Step 2"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/001872675400700202",
+      "title": "Festinger, 'A Theory of Social Comparison Processes' — Human Relations (1954)",
+      "note": "Foundational theoretical source for Step 3's implicit critique of peer benchmarking"
+    },
+    {
+      "url": "https://eddiebrummelman.com/wp-content/uploads/2020/07/gc3bcrel-et-al.-2020-j-exp-psychol-gen.pdf",
+      "title": "Gürel et al., 'Better Than My Past Self' — Journal of Experimental Psychology: General (2020)",
+      "note": "Controlled experiment directly validating temporal self-comparison over social comparison for motivation and well-being"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8543006/",
+      "title": "Current Perspectives on Social Comparisons — Frontiers in Psychology (2021)",
+      "note": "Meta-analytic review confirming that upward social comparisons undermine well-being and ability self-evaluations"
+    },
+    {
+      "url": "https://petar.dev/notes/learning-is-supposed-to-be-difficult/",
+      "title": "Embrace the Challenge of Learning: Insights from Andrej Karpathy — Petar Radošević",
+      "note": "Contains full transcription of Karpathy's longer 2024 post on learning vs entertainment"
+    }
+  ],
+  "bookmark_id": "1953667249497403526",
+  "generated_at": "2026-05-07T06:44:30.554269Z",
+  "backend": "claude-sonnet-subagent"
+}

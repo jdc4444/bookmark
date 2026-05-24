@@ -1,0 +1,28 @@
+{
+  "key": "EA",
+  "name": "Electronic Arts Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Electronic Arts Inc. is a global leader in digital interactive entertainment, developing and publishing games, content, and online services for consoles, PCs, and mobile devices. The company is best known for franchises such as EA Sports FC (formerly FIFA), Madden NFL, Battlefield, Apex Legends, and The Sims. EA holds a strong market position in the sports and action gaming segments, with a growing focus on live services and esports.",
+  "recent": "In the past 30 days, EA's stock has traded in a range around $130-$140, with analysts revising forecasts ahead of its upcoming earnings report. The company continues to benefit from strong engagement in its live-service titles like Apex Legends and EA Sports FC, though investor sentiment remains cautious amid broader market volatility.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/EA/",
+      "title": "Electronic Arts Inc. (EA) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/05/52280854/electronic-arts-earnings-are-imminent-these-most-accurate-analysts-revise-forecasts-ahead-of-earnings-call",
+      "title": "Electronic Arts Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call - Benzinga"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/EA",
+      "title": "EA Stock Price | Electronic Arts Inc. Stock Quote (U.S.: Nasdaq) - MarketWatch"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/EA",
+      "title": "EA Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T09:32:11.066096Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,104 @@
+{
+  "ticker": "DBG.V",
+  "name": "Doubleview Gold Corp",
+  "exchange": "TSX Venture Exchange (TSXV)",
+  "otc_equivalent": "DBLVF",
+  "sector": "Materials",
+  "industry": "Gold & Silver Mining / Copper Exploration",
+  "country": "Canada",
+  "description": "Doubleview Gold Corp is a Canadian junior mineral exploration company focused on the Hat polymetallic porphyry deposit in the Golden Triangle of northwestern British Columbia. The deposit contains copper, gold, cobalt, silver, and scandium. The company is pre-revenue and pre-production, relying on equity financing to advance the project toward a Prefeasibility Study.",
+  "flagship_project": {
+    "name": "Hat Polymetallic Project",
+    "location": "Telegraph Creek, northwestern British Columbia, Canada",
+    "type": "Copper-gold porphyry (polymetallic)",
+    "ownership": "100%",
+    "area_hectares": 18114,
+    "stage": "PEA completed March 2026; Prefeasibility Study not yet initiated"
+  },
+  "resource_estimate": {
+    "effective_date": "2026-02-04",
+    "standard": "NI 43-101",
+    "measured_and_indicated": {
+      "tonnes_mt": 609,
+      "cueq_pct": 0.43,
+      "cueq_billion_lbs": 5.82,
+      "copper_billion_lbs": 2.42,
+      "gold_moz": 3.22,
+      "cobalt_million_lbs": 80.1,
+      "silver_moz": 5.05,
+      "scandium_oxide_tonnes": 2415
+    },
+    "inferred": {
+      "tonnes_mt": 503,
+      "cueq_pct": 0.41,
+      "cueq_billion_lbs": 4.57,
+      "scandium_oxide_tonnes": 1996
+    },
+    "drill_holes": 97,
+    "core_metres": 49548
+  },
+  "pea_summary": {
+    "published": "2026-03",
+    "mine_life_years": 25,
+    "throughput_tpd": 120000,
+    "base_case_npv5_cad_b": 6.73,
+    "base_case_irr_pct": 23,
+    "payback_years": 5,
+    "initial_capex_cad_b": 3.6,
+    "sustaining_capex_cad_b": 2.755,
+    "spot_price_npv5_cad_b": 13.5,
+    "metal_price_assumptions": {
+      "copper_usd_lb": 4.88,
+      "gold_usd_oz": 3272.6,
+      "silver_usd_oz": 50.22,
+      "cobalt_usd_lb": 19.57,
+      "scandium_oxide_usd_kg": 1500
+    },
+    "annual_production": {
+      "copper_kt": 70.8,
+      "gold_koz": 183.1,
+      "silver_koz": 271.3,
+      "cobalt_kt": 1.0
+    }
+  },
+  "market_data": {
+    "as_of": "2026-05-05",
+    "price_cad": 2.74,
+    "shares_outstanding_m": 233.0,
+    "market_cap_cad_m": 661.7,
+    "enterprise_value_cad_m": 653.7,
+    "cash_cad_m": 7.98,
+    "week_52_high_cad": 3.5,
+    "week_52_low_cad": 0.465,
+    "ytd_change_pct": null,
+    "one_year_change_pct": 285.9,
+    "beta_5y": 1.59,
+    "p_nav_base_case": 0.1
+  },
+  "ev_per_cueq_lb_usd": 0.08,
+  "risks": [
+    "Resources not yet converted to reserves; no construction decision",
+    "C$3.6B initial capex exceeds enterprise value 5x — requires major-company financing or partnership",
+    "BC permitting for large open-pit mines typically takes a decade or more",
+    "Scandium market is thin and illiquid; offtake relationships undeveloped",
+    "Cobalt faces long-term demand headwinds from battery chemistry shifts",
+    "No revenue; ongoing equity dilution to fund exploration and studies",
+    "Single-asset company; all value concentrated in Hat Project"
+  ],
+  "catalysts": [
+    "Prefeasibility Study (PFS) initiation and completion",
+    "Strategic partner or acquisition interest from a major copper producer",
+    "Continued drilling expanding the resource envelope",
+    "Copper price appreciation improving project economics",
+    "Critical minerals designation accelerating federal/provincial permitting"
+  ],
+  "sources": [
+    "https://www.doubleview.ca/doubleview-gold-corp-reports-updated-mineral-resource-estimate-as-of-february-25-2026-including-a-copper-equivalent-mineral-resource-609-mt-of-measured-and-indicated-resources-at-0-43-cueq-contai/",
+    "https://finance.yahoo.com/news/doubleview-gold-corp-announces-positive-163500606.html",
+    "https://stockanalysis.com/quote/tsxv/DBG/statistics/"
+  ],
+  "generated_at": "2026-05-05T18:00:00Z",
+  "key": "DBG.V",
+  "blurb": "Doubleview Gold Corp is a Canadian junior mineral exploration company focused on the Hat polymetallic porphyry deposit in the Golden Triangle of northwestern British Columbia. The deposit contains copper, gold, cobalt, silver, and scandium. The company is pre-revenue and pre-production, relying on equity financing to advance the project toward a Prefeasibility Study.",
+  "recent": "An updated NI 43-101 resource estimate (effective February 4, 2026) reports 609 Mt of Measured & Indicated at 0.43% CuEq — containing 2.42 billion lbs of copper, 3.22 Moz of gold, 80.1 Mlbs of cobalt, 5.05 Moz of silver, and 2,415 tonnes of scandium oxide — plus 503 Mt of Inferred at 0.41% CuEq. The March 2026 PEA outlined a 25-year, 120,000 tpd open pit with a base-case after-tax NPV5 of C$6.73 billion at a 23% IRR and 5-year payback, against C$3.6 billion of initial capex; the spot-price NPV5 rises to C$13.5 billion. As of May 5, 2026 the stock traded at C$2.74 (52-week range C$0.465–C$3.50; +285.9% one-year), giving a market cap of C$662 million on 233 million shares and an enterprise value-to-CuEq-pound ratio of US$0.08. Key risks include a C$3.6B initial capex five times enterprise value and BC permitting timelines that typically run a decade or more."
+}

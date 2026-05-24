@@ -1,0 +1,17 @@
+{
+  "key": "RohOnChain",
+  "display_name": "Roan",
+  "blurb": "Backend developer and quantitative researcher focused on prediction market mechanics, HFT-style execution on Polymarket, and the mathematics of arbitrage. Publishes detailed technical threads and articles on market microstructure, algorithmic trading, and the gap between retail intuition and systematic edge on platforms like Polymarket.",
+  "credibility_note": "Demonstrates working knowledge of market microstructure, Kelly sizing, and algorithmic trading concepts. Threads cite specific optimization algorithms (Bregman projections, Frank-Wolfe). No verified institutional affiliation; treat as informed practitioner voice rather than academic authority.",
+  "links": [
+    "https://x.com/RohOnChain"
+  ],
+  "sources": [
+    "https://x.com/RohOnChain/status/2017314080395296995",
+    "https://x.com/RohOnChain/status/2017497517555171479",
+    "https://x.com/RohOnChain/status/2018041418573623617"
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

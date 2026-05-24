@@ -1,0 +1,16 @@
+{
+  "key": "OSCR",
+  "name": "Oscar Health, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Oscar Health is a technology-oriented health insurer that operates exclusively on the Affordable Care Act individual marketplace — the government-subsidized exchange where Americans who lack employer-sponsored coverage shop for plans. Founded in 2012, it built a reputation for a cleaner app and lighter administrative friction than legacy insurers, but spent years losing money as it learned the brutal actuarial realities of insuring a volatile, cost-heavy population.",
+  "recent": "Oscar reached 2.0 million members by end of 2025, with roughly 93% of premiums flowing through government advance tax credits — a financial structure that makes it exquisitely sensitive to ACA subsidy policy. Medical costs rose faster than expected in 2025, driving a quarterly operating loss of ~$129 million. For 2026 the company has raised premiums by roughly 28% year-over-year and projected membership growth of ~58% alongside a return to operating profitability. The fate of enhanced ACA subsidies — debated in Congress — is its single largest macro risk: the company estimates a 20–30% market contraction if subsidies lapse.",
+  "sources": [
+    {"title": "Oscar Health ACA enrollment expansion (Seeking Alpha)", "url": "https://seekingalpha.com/article/4850863-oscar-health-banking-on-the-aca-enrollment-expansion"},
+    {"title": "Oscar Health Q4 2025 earnings deep dive (Seeking Alpha)", "url": "https://seekingalpha.com/article/4868801-oscar-health-q4-tricky-2025-promising-2026-long-term-bull-thesis-attractive"},
+    {"title": "Oscar Health 10-K SEC filing overview (StockTitan)", "url": "https://www.stocktitan.net/sec-filings/OSCR/10-k-oscar-health-inc-files-annual-report-c710f1352194.html"},
+    {"title": "Oscar Health valuation and ACA risks (TheSmartFin)", "url": "https://thesmartfin.com/blog/oscar-health-deep-dive"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T03:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

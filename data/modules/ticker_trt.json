@@ -1,0 +1,14 @@
+{
+  "key": "TRT",
+  "name": "Trio-Tech International",
+  "exchange": "NYSE American (AMEX)",
+  "blurb": "Trio-Tech International provides burn-in and reliability testing equipment and services for the back-end semiconductor manufacturing process. Burn-in testing stresses chips under elevated voltage and temperature to flush out early failures before they reach end users — a quality step used for memory, logic, and increasingly AI GPU silicon. The company also operates test service centres in Southeast Asia. It is an indirect beneficiary of AI infrastructure buildout through the semiconductor testing supply chain rather than a photonics company per se.",
+  "recent": "In March 2026, Trio-Tech secured a $5.3M order for burn-in boards for a next-generation AI GPU platform, signalling direct involvement in the GPU production supply chain. The stock gained approximately 421% over the trailing twelve months as of early May 2026, trading near $13.36. The gain reflects both the AI-hardware testing demand surge and the company's small-cap status, which magnifies price moves on modest volume increases.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/TRT/", "title": "Trio-Tech International (TRT) — Yahoo Finance"},
+    {"url": "https://www.tradingview.com/symbols/AMEX-TRT/", "title": "TRT stock chart — TradingView"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

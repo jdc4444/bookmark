@@ -1,0 +1,13 @@
+{
+  "ticker": "IBKR",
+  "name": "Interactive Brokers Group, Inc.",
+  "exchange": "NASDAQ",
+  "sector": "Financials",
+  "industry": "Capital Markets / Institutional & Advanced Retail Brokerage",
+  "description": "Interactive Brokers is an electronic brokerage serving active traders, hedge funds, RIAs, and sophisticated retail investors. It is best known for industry-leading margin rates, which are priced as a benchmark rate (tracking SOFR / fed funds) plus a spread of 0.5%–1.5% depending on balance tier. IBKR Pro accounts access lower spreads; IBKR Lite accounts carry higher spreads but commission-free equity trades.",
+  "notes": "USD margin rates as of May 2026: SOFR ~3.63%. IBKR Pro spread: ~1.5% on balances under $100K, declining to ~0.5% on very large balances. All-in rates historically 5.1%–5.8% for mid-range accounts. Rates are benchmark-linked and adjust with Fed policy in near real time, unlike Robinhood's fixed tiers.",
+  "added_at": "2026-05-05T00:00:00Z",
+  "key": "IBKR",
+  "blurb": "Interactive Brokers is an electronic brokerage serving active traders, hedge funds, RIAs, and sophisticated retail investors. It is best known for industry-leading margin rates, which are priced as a benchmark rate (tracking SOFR / fed funds) plus a spread of 0.5%–1.5% depending on balance tier. IBKR Pro accounts access lower spreads; IBKR Lite accounts carry higher spreads but commission-free equity trades.",
+  "recent": "As of May 2026, USD margin rates use SOFR around 3.63% as the benchmark; the IBKR Pro spread runs roughly 1.5% on balances under $100K and declines to ~0.5% on very large balances, with all-in rates historically 5.1%–5.8% for mid-range accounts. Rates adjust with Fed policy in near real time, unlike Robinhood's fixed tiers."
+}

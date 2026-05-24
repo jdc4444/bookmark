@@ -1,0 +1,3433 @@
+[
+  {
+    "ticker": "SIVE",
+    "tier": "S",
+    "score": 43,
+    "total_mentions": 117,
+    "tier_counts": {
+      "NEUTRAL": 92,
+      "B": 14,
+      "A": 9,
+      "S": 1,
+      "BEAR": 1
+    },
+    "first_mention": "2026-03-18",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-03-19",
+      "exit_date": "2026-04-22",
+      "entry": 9.31,
+      "exit": 31.8,
+      "pct": 2.4175
+    },
+    "spy_over_same_window": 0.0717,
+    "alpha": 2.3458
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "S",
+    "score": 24,
+    "total_mentions": 68,
+    "tier_counts": {
+      "B": 13,
+      "NEUTRAL": 52,
+      "S": 1,
+      "A": 2
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-22",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 38.19,
+      "exit": 74.97,
+      "pct": 0.9631
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.9308
+  },
+  {
+    "ticker": "IQE",
+    "tier": "S",
+    "score": 11,
+    "total_mentions": 21,
+    "tier_counts": {
+      "NEUTRAL": 16,
+      "A": 1,
+      "S": 1,
+      "B": 3
+    },
+    "first_mention": "2026-03-18",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-03-19",
+      "exit_date": "2026-04-22",
+      "entry": 25.0,
+      "exit": 65.7,
+      "pct": 1.628
+    },
+    "spy_over_same_window": 0.0717,
+    "alpha": 1.5563
+  },
+  {
+    "ticker": "SOI",
+    "tier": "S",
+    "score": 10,
+    "total_mentions": 23,
+    "tier_counts": {
+      "NEUTRAL": 19,
+      "B": 2,
+      "S": 1,
+      "A": 1
+    },
+    "first_mention": "2026-03-26",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-03-27",
+      "exit_date": "2026-04-22",
+      "entry": 53.38,
+      "exit": 107.2,
+      "pct": 1.0082
+    },
+    "spy_over_same_window": 0.0958,
+    "alpha": 0.9124
+  },
+  {
+    "ticker": "ALRIB",
+    "tier": "S",
+    "score": 8,
+    "total_mentions": 10,
+    "tier_counts": {
+      "NEUTRAL": 6,
+      "B": 3,
+      "S": 1
+    },
+    "first_mention": "2026-04-11",
+    "last_mention": "2026-04-20",
+    "return": null,
+    "spy_over_same_window": 0.0394,
+    "alpha": null
+  },
+  {
+    "ticker": "MRVL",
+    "tier": "A",
+    "score": 22,
+    "total_mentions": 53,
+    "tier_counts": {
+      "NEUTRAL": 41,
+      "A": 5,
+      "B": 7
+    },
+    "first_mention": "2025-08-25",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-08-26",
+      "exit_date": "2026-04-21",
+      "entry": 72.99,
+      "exit": 151.31,
+      "pct": 1.073
+    },
+    "spy_over_same_window": 0.0964,
+    "alpha": 0.9766
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "A",
+    "score": 16,
+    "total_mentions": 38,
+    "tier_counts": {
+      "NEUTRAL": 28,
+      "B": 7,
+      "A": 3
+    },
+    "first_mention": "2026-03-30",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-03-31",
+      "exit_date": "2026-04-21",
+      "entry": 33.51,
+      "exit": 93.72,
+      "pct": 1.7968
+    },
+    "spy_over_same_window": 0.102,
+    "alpha": 1.6948
+  },
+  {
+    "ticker": "LITE",
+    "tier": "A",
+    "score": 13,
+    "total_mentions": 69,
+    "tier_counts": {
+      "NEUTRAL": 54,
+      "B": 10,
+      "A": 3,
+      "BEAR": 2
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 644.72,
+      "exit": 836.92,
+      "pct": 0.2981
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.2658
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "A",
+    "score": 13,
+    "total_mentions": 40,
+    "tier_counts": {
+      "NEUTRAL": 33,
+      "A": 3,
+      "B": 4
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 177.96,
+      "exit": 199.88,
+      "pct": 0.1232
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": 0.0202
+  },
+  {
+    "ticker": "NBIS",
+    "tier": "A",
+    "score": 11,
+    "total_mentions": 25,
+    "tier_counts": {
+      "A": 2,
+      "NEUTRAL": 18,
+      "B": 5
+    },
+    "first_mention": "2025-09-29",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-09-30",
+      "exit_date": "2026-04-21",
+      "entry": 113.44,
+      "exit": 156.55,
+      "pct": 0.38
+    },
+    "spy_over_same_window": 0.0621,
+    "alpha": 0.3179
+  },
+  {
+    "ticker": "AAOI",
+    "tier": "A",
+    "score": 9,
+    "total_mentions": 66,
+    "tier_counts": {
+      "B": 11,
+      "NEUTRAL": 52,
+      "A": 1,
+      "DISMISS": 1,
+      "BEAR": 1
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-19",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 97.49,
+      "exit": 150.57,
+      "pct": 0.5445
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.5122
+  },
+  {
+    "ticker": "CRCL",
+    "tier": "A",
+    "score": 9,
+    "total_mentions": 10,
+    "tier_counts": {
+      "NEUTRAL": 5,
+      "A": 2,
+      "B": 3
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 134.36,
+      "exit": 96.02,
+      "pct": -0.2854
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": -0.3786
+  },
+  {
+    "ticker": "AVGO",
+    "tier": "A",
+    "score": 8,
+    "total_mentions": 16,
+    "tier_counts": {
+      "NEUTRAL": 12,
+      "A": 2,
+      "B": 2
+    },
+    "first_mention": "2025-09-30",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-10-01",
+      "exit_date": "2026-04-21",
+      "entry": 328.15,
+      "exit": 402.17,
+      "pct": 0.2256
+    },
+    "spy_over_same_window": 0.0617,
+    "alpha": 0.1639
+  },
+  {
+    "ticker": "TSEM",
+    "tier": "A",
+    "score": 8,
+    "total_mentions": 19,
+    "tier_counts": {
+      "NEUTRAL": 13,
+      "B": 5,
+      "A": 1
+    },
+    "first_mention": "2026-03-19",
+    "last_mention": "2026-04-17",
+    "return": {
+      "entry_date": "2026-03-20",
+      "exit_date": "2026-04-21",
+      "entry": 173.51,
+      "exit": 216.72,
+      "pct": 0.249
+    },
+    "spy_over_same_window": 0.0725,
+    "alpha": 0.1765
+  },
+  {
+    "ticker": "POET",
+    "tier": "A",
+    "score": 8,
+    "total_mentions": 19,
+    "tier_counts": {
+      "B": 5,
+      "NEUTRAL": 13,
+      "A": 1
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-07",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 6.58,
+      "exit": 10.25,
+      "pct": 0.5578
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.5255
+  },
+  {
+    "ticker": "SNDK",
+    "tier": "A",
+    "score": 7,
+    "total_mentions": 11,
+    "tier_counts": {
+      "NEUTRAL": 8,
+      "A": 2,
+      "B": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-04-13",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 612.0,
+      "exit": 903.49,
+      "pct": 0.4763
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.4411
+  },
+  {
+    "ticker": "ARM",
+    "tier": "A",
+    "score": 6,
+    "total_mentions": 5,
+    "tier_counts": {
+      "A": 2,
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 144.1,
+      "exit": 175.49,
+      "pct": 0.2178
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.1179
+  },
+  {
+    "ticker": "TSM",
+    "tier": "A",
+    "score": 6,
+    "total_mentions": 7,
+    "tier_counts": {
+      "NEUTRAL": 3,
+      "A": 1,
+      "B": 3
+    },
+    "first_mention": "2025-09-30",
+    "last_mention": "2026-04-18",
+    "return": {
+      "entry_date": "2025-10-01",
+      "exit_date": "2026-04-21",
+      "entry": 278.44,
+      "exit": 368.08,
+      "pct": 0.3219
+    },
+    "spy_over_same_window": 0.0617,
+    "alpha": 0.2602
+  },
+  {
+    "ticker": "META",
+    "tier": "A",
+    "score": 6,
+    "total_mentions": 18,
+    "tier_counts": {
+      "NEUTRAL": 14,
+      "B": 3,
+      "A": 1
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2026-04-15",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 720.0,
+      "exit": 668.84,
+      "pct": -0.0711
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": -0.1741
+  },
+  {
+    "ticker": "AMD",
+    "tier": "A",
+    "score": 5,
+    "total_mentions": 11,
+    "tier_counts": {
+      "B": 2,
+      "NEUTRAL": 8,
+      "A": 1
+    },
+    "first_mention": "2025-10-10",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2025-10-13",
+      "exit_date": "2026-04-21",
+      "entry": 220.2,
+      "exit": 284.49,
+      "pct": 0.292
+    },
+    "spy_over_same_window": 0.0657,
+    "alpha": 0.2263
+  },
+  {
+    "ticker": "HOOD",
+    "tier": "A",
+    "score": 4,
+    "total_mentions": 6,
+    "tier_counts": {
+      "NEUTRAL": 4,
+      "B": 1,
+      "A": 1
+    },
+    "first_mention": "2025-07-31",
+    "last_mention": "2026-04-18",
+    "return": {
+      "entry_date": "2025-08-01",
+      "exit_date": "2026-04-21",
+      "entry": 97.8,
+      "exit": 86.43,
+      "pct": -0.1163
+    },
+    "spy_over_same_window": 0.1242,
+    "alpha": -0.2405
+  },
+  {
+    "ticker": "KSPI",
+    "tier": "A",
+    "score": 4,
+    "total_mentions": 3,
+    "tier_counts": {
+      "B": 1,
+      "A": 1,
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-07-31",
+    "last_mention": "2025-08-25",
+    "return": {
+      "entry_date": "2025-08-01",
+      "exit_date": "2026-04-21",
+      "entry": 78.97,
+      "exit": 88.9,
+      "pct": 0.1257
+    },
+    "spy_over_same_window": 0.1242,
+    "alpha": 0.0015
+  },
+  {
+    "ticker": "INTC",
+    "tier": "A",
+    "score": 3,
+    "total_mentions": 7,
+    "tier_counts": {
+      "NEUTRAL": 6,
+      "A": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 45.93,
+      "exit": 66.26,
+      "pct": 0.4426
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.4074
+  },
+  {
+    "ticker": "JBL",
+    "tier": "A",
+    "score": 3,
+    "total_mentions": 16,
+    "tier_counts": {
+      "NEUTRAL": 15,
+      "A": 1
+    },
+    "first_mention": "2026-03-19",
+    "last_mention": "2026-04-19",
+    "return": {
+      "entry_date": "2026-03-20",
+      "exit_date": "2026-04-21",
+      "entry": 265.78,
+      "exit": 333.68,
+      "pct": 0.2555
+    },
+    "spy_over_same_window": 0.0725,
+    "alpha": 0.183
+  },
+  {
+    "ticker": "IBIT",
+    "tier": "A",
+    "score": 3,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 2,
+      "A": 1
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 67.61,
+      "exit": 42.51,
+      "pct": -0.3712
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": -0.4742
+  },
+  {
+    "ticker": "RDDT",
+    "tier": "A",
+    "score": 1,
+    "total_mentions": 11,
+    "tier_counts": {
+      "NEUTRAL": 8,
+      "B": 1,
+      "BEAR": 1,
+      "A": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-04-15",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 138.2,
+      "exit": 156.82,
+      "pct": 0.1347
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.0995
+  },
+  {
+    "ticker": "CVX",
+    "tier": "A",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "A": 1,
+      "NEUTRAL": 1,
+      "BEAR": 1
+    },
+    "first_mention": "2026-03-19",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-20",
+      "exit_date": "2026-04-21",
+      "entry": 201.4,
+      "exit": 185.98,
+      "pct": -0.0766
+    },
+    "spy_over_same_window": 0.0725,
+    "alpha": -0.1491
+  },
+  {
+    "ticker": "LNG",
+    "tier": "B",
+    "score": 4,
+    "total_mentions": 2,
+    "tier_counts": {
+      "A": 1,
+      "B": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 300.89,
+      "exit": 257.78,
+      "pct": -0.1433
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.2432
+  },
+  {
+    "ticker": "MXL",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 1,
+    "tier_counts": {
+      "A": 1
+    },
+    "first_mention": "2026-04-21",
+    "last_mention": "2026-04-21",
+    "return": null,
+    "spy_over_same_window": null,
+    "alpha": null
+  },
+  {
+    "ticker": "GOOGL",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 19,
+    "tier_counts": {
+      "NEUTRAL": 16,
+      "B": 3
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 192.43,
+      "exit": 332.29,
+      "pct": 0.7268
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": 0.6238
+  },
+  {
+    "ticker": "SOFI",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 1,
+      "A": 1
+    },
+    "first_mention": "2025-07-31",
+    "last_mention": "2026-04-04",
+    "return": {
+      "entry_date": "2025-08-01",
+      "exit_date": "2026-04-21",
+      "entry": 21.7,
+      "exit": 18.83,
+      "pct": -0.1323
+    },
+    "spy_over_same_window": 0.1242,
+    "alpha": -0.2565
+  },
+  {
+    "ticker": "MU",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 6,
+    "tier_counts": {
+      "NEUTRAL": 3,
+      "B": 3
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 362.66,
+      "exit": 449.38,
+      "pct": 0.2391
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.1392
+  },
+  {
+    "ticker": "ACMR",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 1,
+    "tier_counts": {
+      "A": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-02-13",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 64.3,
+      "exit": 51.21,
+      "pct": -0.2036
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": -0.2388
+  },
+  {
+    "ticker": "PINS",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 1,
+      "A": 1
+    },
+    "first_mention": "2025-12-31",
+    "last_mention": "2026-02-13",
+    "return": {
+      "entry_date": "2026-01-02",
+      "exit_date": "2026-04-21",
+      "entry": 26.18,
+      "exit": 20.62,
+      "pct": -0.2124
+    },
+    "spy_over_same_window": 0.0268,
+    "alpha": -0.2392
+  },
+  {
+    "ticker": "DJT",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 1,
+      "A": 1
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2025-08-31",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 18.65,
+      "exit": 9.82,
+      "pct": -0.4735
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": -0.5765
+  },
+  {
+    "ticker": "BULL",
+    "tier": "B",
+    "score": 3,
+    "total_mentions": 1,
+    "tier_counts": {
+      "A": 1
+    },
+    "first_mention": "2025-07-31",
+    "last_mention": "2025-07-31",
+    "return": {
+      "entry_date": "2025-08-01",
+      "exit_date": "2026-04-21",
+      "entry": 13.47,
+      "exit": 7.02,
+      "pct": -0.4786
+    },
+    "spy_over_same_window": 0.1242,
+    "alpha": -0.6028
+  },
+  {
+    "ticker": "LPK",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 4,
+    "tier_counts": {
+      "B": 2,
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-22",
+    "return": {
+      "error": "yfinance returned no data for LPKKN.AS"
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": null
+  },
+  {
+    "ticker": "HPS",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 6,
+    "tier_counts": {
+      "B": 2,
+      "NEUTRAL": 4
+    },
+    "first_mention": "2026-04-07",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-04-08",
+      "exit_date": "2026-04-21",
+      "entry": 14.67,
+      "exit": 14.58,
+      "pct": -0.0061
+    },
+    "spy_over_same_window": 0.0409,
+    "alpha": -0.047
+  },
+  {
+    "ticker": "MSFT",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 27,
+    "tier_counts": {
+      "NEUTRAL": 25,
+      "B": 2
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 515.53,
+      "exit": 424.16,
+      "pct": -0.1772
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": -0.2802
+  },
+  {
+    "ticker": "AMZN",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 14,
+    "tier_counts": {
+      "NEUTRAL": 12,
+      "B": 2
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2026-04-19",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 234.15,
+      "exit": 249.91,
+      "pct": 0.0673
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": -0.0357
+  },
+  {
+    "ticker": "COIN",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 4,
+    "tier_counts": {
+      "NEUTRAL": 2,
+      "B": 2
+    },
+    "first_mention": "2025-08-25",
+    "last_mention": "2026-04-13",
+    "return": {
+      "entry_date": "2025-08-26",
+      "exit_date": "2026-04-21",
+      "entry": 304.0,
+      "exit": 195.95,
+      "pct": -0.3554
+    },
+    "spy_over_same_window": 0.0964,
+    "alpha": -0.4518
+  },
+  {
+    "ticker": "CRWV",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 8,
+    "tier_counts": {
+      "B": 2,
+      "NEUTRAL": 6
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2026-04-06",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 94.0,
+      "exit": 115.16,
+      "pct": 0.2251
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": 0.1319
+  },
+  {
+    "ticker": "SNAP",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 5,
+    "tier_counts": {
+      "NEUTRAL": 3,
+      "B": 2
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2026-03-29",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 7.15,
+      "exit": 5.64,
+      "pct": -0.2112
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": -0.3044
+  },
+  {
+    "ticker": "VCX",
+    "tier": "B",
+    "score": 2,
+    "total_mentions": 4,
+    "tier_counts": {
+      "NEUTRAL": 2,
+      "B": 2
+    },
+    "first_mention": "2026-03-26",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-27",
+      "exit_date": "2026-04-21",
+      "entry": 188.84,
+      "exit": 89.0,
+      "pct": -0.5287
+    },
+    "spy_over_same_window": 0.0958,
+    "alpha": -0.6245
+  },
+  {
+    "ticker": "IREN",
+    "tier": "BEAR",
+    "score": 1,
+    "total_mentions": 36,
+    "tier_counts": {
+      "A": 1,
+      "NEUTRAL": 29,
+      "BEAR": 2,
+      "B": 4
+    },
+    "first_mention": "2025-08-31",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-09-02",
+      "exit_date": "2026-04-21",
+      "entry": 25.59,
+      "exit": 45.17,
+      "pct": 0.7651
+    },
+    "spy_over_same_window": 0.1044,
+    "alpha": 0.6607
+  },
+  {
+    "ticker": "COHR",
+    "tier": "BEAR",
+    "score": 0,
+    "total_mentions": 19,
+    "tier_counts": {
+      "NEUTRAL": 15,
+      "B": 3,
+      "BEAR": 1
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-11",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 262.71,
+      "exit": 343.79,
+      "pct": 0.3086
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.2763
+  },
+  {
+    "ticker": "NVO",
+    "tier": "BEAR",
+    "score": -2,
+    "total_mentions": 5,
+    "tier_counts": {
+      "NEUTRAL": 3,
+      "BEAR": 1,
+      "B": 1
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2026-04-17",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 57.43,
+      "exit": 39.42,
+      "pct": -0.3136
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": -0.4068
+  },
+  {
+    "ticker": "PLTR",
+    "tier": "BEAR",
+    "score": -2,
+    "total_mentions": 3,
+    "tier_counts": {
+      "B": 1,
+      "NEUTRAL": 1,
+      "BEAR": 1
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2025-08-25",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 158.71,
+      "exit": 145.97,
+      "pct": -0.0803
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": -0.1833
+  },
+  {
+    "ticker": "HIMS",
+    "tier": "BEAR",
+    "score": -3,
+    "total_mentions": 12,
+    "tier_counts": {
+      "B": 3,
+      "NEUTRAL": 7,
+      "BEAR": 2
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 57.6,
+      "exit": 29.76,
+      "pct": -0.4833
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": -0.5863
+  },
+  {
+    "ticker": "ETH",
+    "tier": "BEAR",
+    "score": -3,
+    "total_mentions": 5,
+    "tier_counts": {
+      "A": 1,
+      "BEAR": 2,
+      "NEUTRAL": 2
+    },
+    "first_mention": "2025-11-30",
+    "last_mention": "2026-04-04",
+    "return": {
+      "entry_date": "2025-12-01",
+      "exit_date": "2026-04-21",
+      "entry": 26.59,
+      "exit": 21.82,
+      "pct": -0.1794
+    },
+    "spy_over_same_window": 0.0372,
+    "alpha": -0.2166
+  },
+  {
+    "ticker": "NEXT",
+    "tier": "BEAR",
+    "score": -3,
+    "total_mentions": 1,
+    "tier_counts": {
+      "BEAR": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 8.37,
+      "exit": 7.51,
+      "pct": -0.1027
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.2026
+  },
+  {
+    "ticker": "BMNR",
+    "tier": "BEAR",
+    "score": -3,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 1,
+      "BEAR": 1
+    },
+    "first_mention": "2025-11-30",
+    "last_mention": "2025-11-30",
+    "return": {
+      "entry_date": "2025-12-01",
+      "exit_date": "2026-04-21",
+      "entry": 30.51,
+      "exit": 21.71,
+      "pct": -0.2884
+    },
+    "spy_over_same_window": 0.0372,
+    "alpha": -0.3256
+  },
+  {
+    "ticker": "MTSI",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 12,
+    "tier_counts": {
+      "NEUTRAL": 11,
+      "B": 1
+    },
+    "first_mention": "2026-03-26",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-03-27",
+      "exit_date": "2026-04-21",
+      "entry": 225.07,
+      "exit": 285.71,
+      "pct": 0.2694
+    },
+    "spy_over_same_window": 0.0958,
+    "alpha": 0.1736
+  },
+  {
+    "ticker": "RPI",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 20,
+    "tier_counts": {
+      "NEUTRAL": 19,
+      "B": 1
+    },
+    "first_mention": "2026-03-19",
+    "last_mention": "2026-04-21",
+    "return": {
+      "error": "yfinance returned no data for RPI"
+    },
+    "spy_over_same_window": 0.0725,
+    "alpha": null
+  },
+  {
+    "ticker": "ORCL",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 5,
+    "tier_counts": {
+      "B": 1,
+      "NEUTRAL": 4
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 152.59,
+      "exit": 181.17,
+      "pct": 0.1873
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.155
+  },
+  {
+    "ticker": "ASTS",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 6,
+    "tier_counts": {
+      "B": 1,
+      "NEUTRAL": 5
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 80.87,
+      "exit": 80.01,
+      "pct": -0.0106
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": -0.0458
+  },
+  {
+    "ticker": "TSLA",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 2,
+      "B": 1
+    },
+    "first_mention": "2025-08-25",
+    "last_mention": "2026-04-18",
+    "return": {
+      "entry_date": "2025-08-26",
+      "exit_date": "2026-04-21",
+      "entry": 344.93,
+      "exit": 386.42,
+      "pct": 0.1203
+    },
+    "spy_over_same_window": 0.0964,
+    "alpha": 0.0239
+  },
+  {
+    "ticker": "BKKT",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 7,
+    "tier_counts": {
+      "NEUTRAL": 6,
+      "B": 1
+    },
+    "first_mention": "2025-08-31",
+    "last_mention": "2026-04-12",
+    "return": {
+      "entry_date": "2025-09-02",
+      "exit_date": "2026-04-21",
+      "entry": 8.51,
+      "exit": 8.67,
+      "pct": 0.0188
+    },
+    "spy_over_same_window": 0.1044,
+    "alpha": -0.0856
+  },
+  {
+    "ticker": "VIRT",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 2,
+    "tier_counts": {
+      "B": 1,
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-09-30",
+    "last_mention": "2026-04-12",
+    "return": {
+      "entry_date": "2025-10-01",
+      "exit_date": "2026-04-21",
+      "entry": 35.0,
+      "exit": 47.79,
+      "pct": 0.3654
+    },
+    "spy_over_same_window": 0.0617,
+    "alpha": 0.3037
+  },
+  {
+    "ticker": "IBKR",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 5,
+    "tier_counts": {
+      "NEUTRAL": 4,
+      "B": 1
+    },
+    "first_mention": "2026-03-18",
+    "last_mention": "2026-04-07",
+    "return": {
+      "entry_date": "2026-03-19",
+      "exit_date": "2026-04-21",
+      "entry": 67.48,
+      "exit": 79.62,
+      "pct": 0.1799
+    },
+    "spy_over_same_window": 0.0717,
+    "alpha": 0.1082
+  },
+  {
+    "ticker": "GME",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 2,
+      "B": 1
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-06",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 23.8,
+      "exit": 24.46,
+      "pct": 0.0277
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": -0.0046
+  },
+  {
+    "ticker": "ALM",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-04-04",
+    "last_mention": "2026-04-04",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 15.62,
+      "exit": 21.94,
+      "pct": 0.4046
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.3311
+  },
+  {
+    "ticker": "VELO",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 1,
+      "B": 1
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-04-04",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 12.24,
+      "exit": 15.3,
+      "pct": 0.25
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.2177
+  },
+  {
+    "ticker": "LASR",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 2,
+      "B": 1
+    },
+    "first_mention": "2026-03-31",
+    "last_mention": "2026-04-02",
+    "return": {
+      "entry_date": "2026-04-01",
+      "exit_date": "2026-04-21",
+      "entry": 58.88,
+      "exit": 72.22,
+      "pct": 0.2266
+    },
+    "spy_over_same_window": 0.0767,
+    "alpha": 0.1499
+  },
+  {
+    "ticker": "VIAV",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-04-01",
+    "last_mention": "2026-04-01",
+    "return": {
+      "entry_date": "2026-04-02",
+      "exit_date": "2026-04-21",
+      "entry": 33.59,
+      "exit": 44.26,
+      "pct": 0.3177
+    },
+    "spy_over_same_window": 0.0892,
+    "alpha": 0.2285
+  },
+  {
+    "ticker": "QLCM",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-03-29",
+    "last_mention": "2026-03-29",
+    "return": {
+      "error": "yfinance returned no data for QLCM"
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": null
+  },
+  {
+    "ticker": "BE",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 133.32,
+      "exit": 220.91,
+      "pct": 0.6569
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.557
+  },
+  {
+    "ticker": "MOG",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "error": "yfinance returned no data for MOG"
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": null
+  },
+  {
+    "ticker": "MTRN",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 143.93,
+      "exit": 178.36,
+      "pct": 0.2392
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.1393
+  },
+  {
+    "ticker": "MA",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-03-19",
+    "last_mention": "2026-03-19",
+    "return": {
+      "entry_date": "2026-03-20",
+      "exit_date": "2026-04-21",
+      "entry": 492.47,
+      "exit": 511.35,
+      "pct": 0.0383
+    },
+    "spy_over_same_window": 0.0725,
+    "alpha": -0.0342
+  },
+  {
+    "ticker": "AXIA",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2026-03-18",
+    "last_mention": "2026-03-18",
+    "return": {
+      "entry_date": "2026-03-19",
+      "exit_date": "2026-04-21",
+      "entry": 10.67,
+      "exit": 12.78,
+      "pct": 0.1978
+    },
+    "spy_over_same_window": 0.0717,
+    "alpha": 0.1261
+  },
+  {
+    "ticker": "SMCI",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 1,
+      "B": 1
+    },
+    "first_mention": "2025-12-31",
+    "last_mention": "2025-12-31",
+    "return": {
+      "entry_date": "2026-01-02",
+      "exit_date": "2026-04-21",
+      "entry": 29.96,
+      "exit": 28.43,
+      "pct": -0.0511
+    },
+    "spy_over_same_window": 0.0268,
+    "alpha": -0.0779
+  },
+  {
+    "ticker": "UPWK",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 5,
+    "tier_counts": {
+      "NEUTRAL": 4,
+      "B": 1
+    },
+    "first_mention": "2025-08-06",
+    "last_mention": "2025-08-31",
+    "return": {
+      "entry_date": "2025-08-07",
+      "exit_date": "2026-04-21",
+      "entry": 13.63,
+      "exit": 11.08,
+      "pct": -0.1871
+    },
+    "spy_over_same_window": 0.1066,
+    "alpha": -0.2937
+  },
+  {
+    "ticker": "UNH",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 3,
+    "tier_counts": {
+      "B": 1,
+      "NEUTRAL": 2
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2025-08-25",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 308.49,
+      "exit": 346.01,
+      "pct": 0.1216
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": 0.0284
+  },
+  {
+    "ticker": "SG",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 2,
+    "tier_counts": {
+      "B": 1,
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2025-08-25",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 9.32,
+      "exit": 6.7,
+      "pct": -0.2811
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": -0.3743
+  },
+  {
+    "ticker": "DUOL",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 2,
+    "tier_counts": {
+      "B": 1,
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2025-08-25",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 331.83,
+      "exit": 102.63,
+      "pct": -0.6907
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": -0.7839
+  },
+  {
+    "ticker": "IONQ",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2025-08-25",
+    "last_mention": "2025-08-25",
+    "return": {
+      "entry_date": "2025-08-26",
+      "exit_date": "2026-04-21",
+      "entry": 38.85,
+      "exit": 46.28,
+      "pct": 0.1912
+    },
+    "spy_over_same_window": 0.0964,
+    "alpha": 0.0948
+  },
+  {
+    "ticker": "OKLO",
+    "tier": "C",
+    "score": 1,
+    "total_mentions": 1,
+    "tier_counts": {
+      "B": 1
+    },
+    "first_mention": "2025-08-25",
+    "last_mention": "2025-08-25",
+    "return": {
+      "entry_date": "2025-08-26",
+      "exit_date": "2026-04-21",
+      "entry": 73.85,
+      "exit": 62.61,
+      "pct": -0.1522
+    },
+    "spy_over_same_window": 0.0964,
+    "alpha": -0.2486
+  },
+  {
+    "ticker": "GFS",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 6,
+    "tier_counts": {
+      "NEUTRAL": 6
+    },
+    "first_mention": "2026-03-31",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-04-01",
+      "exit_date": "2026-04-21",
+      "entry": 45.04,
+      "exit": 59.24,
+      "pct": 0.3154
+    },
+    "spy_over_same_window": 0.0767,
+    "alpha": 0.2387
+  },
+  {
+    "ticker": "CAR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-21",
+    "last_mention": "2026-04-21",
+    "return": null,
+    "spy_over_same_window": null,
+    "alpha": null
+  },
+  {
+    "ticker": "BIRD",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-04-15",
+    "last_mention": "2026-04-21",
+    "return": {
+      "entry_date": "2026-04-16",
+      "exit_date": "2026-04-21",
+      "entry": 14.4,
+      "exit": 8.5,
+      "pct": -0.4095
+    },
+    "spy_over_same_window": 0.0043,
+    "alpha": -0.4138
+  },
+  {
+    "ticker": "LPKK",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-21",
+    "last_mention": "2026-04-21",
+    "return": {
+      "error": "yfinance returned no data for LPKKN.AS"
+    },
+    "spy_over_same_window": null,
+    "alpha": null
+  },
+  {
+    "ticker": "ONTO",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-21",
+    "last_mention": "2026-04-21",
+    "return": null,
+    "spy_over_same_window": null,
+    "alpha": null
+  },
+  {
+    "ticker": "CDNS",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-20",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-21",
+      "exit_date": "2026-04-21",
+      "entry": 319.75,
+      "exit": 325.84,
+      "pct": 0.019
+    },
+    "spy_over_same_window": -0.0087,
+    "alpha": 0.0277
+  },
+  {
+    "ticker": "SEIGY",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-20",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-21",
+      "exit_date": "2026-04-21",
+      "entry": 3.78,
+      "exit": 3.78,
+      "pct": 0.0
+    },
+    "spy_over_same_window": -0.0087,
+    "alpha": 0.0087
+  },
+  {
+    "ticker": "SNPS",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-20",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-21",
+      "exit_date": "2026-04-21",
+      "entry": 464.27,
+      "exit": 467.58,
+      "pct": 0.0071
+    },
+    "spy_over_same_window": -0.0087,
+    "alpha": 0.0158
+  },
+  {
+    "ticker": "KEYS",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-20",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-21",
+      "exit_date": "2026-04-21",
+      "entry": 335.09,
+      "exit": 339.3,
+      "pct": 0.0126
+    },
+    "spy_over_same_window": -0.0087,
+    "alpha": 0.0213
+  },
+  {
+    "ticker": "ATEYY",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-20",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-21",
+      "exit_date": "2026-04-21",
+      "entry": 171.23,
+      "exit": 167.21,
+      "pct": -0.0235
+    },
+    "spy_over_same_window": -0.0087,
+    "alpha": -0.0148
+  },
+  {
+    "ticker": "GLW",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-03-30",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-03-31",
+      "exit_date": "2026-04-21",
+      "entry": 131.4,
+      "exit": 165.45,
+      "pct": 0.2591
+    },
+    "spy_over_same_window": 0.102,
+    "alpha": 0.1571
+  },
+  {
+    "ticker": "FN",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-04-17",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-20",
+      "exit_date": "2026-04-21",
+      "entry": 694.75,
+      "exit": 695.52,
+      "pct": 0.0011
+    },
+    "spy_over_same_window": -0.0066,
+    "alpha": 0.0077
+  },
+  {
+    "ticker": "ASX",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-17",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-20",
+      "exit_date": "2026-04-21",
+      "entry": 29.15,
+      "exit": 29.6,
+      "pct": 0.0154
+    },
+    "spy_over_same_window": -0.0066,
+    "alpha": 0.022
+  },
+  {
+    "ticker": "TTD",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-20",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-21",
+      "exit_date": "2026-04-21",
+      "entry": 23.92,
+      "exit": 23.2,
+      "pct": -0.0303
+    },
+    "spy_over_same_window": -0.0087,
+    "alpha": -0.0216
+  },
+  {
+    "ticker": "KLAC",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-20",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2026-04-21",
+      "exit_date": "2026-04-21",
+      "entry": 1814.0,
+      "exit": 1785.37,
+      "pct": -0.0158
+    },
+    "spy_over_same_window": -0.0087,
+    "alpha": -0.0071
+  },
+  {
+    "ticker": "RKLB",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 10,
+    "tier_counts": {
+      "NEUTRAL": 10
+    },
+    "first_mention": "2025-08-31",
+    "last_mention": "2026-04-20",
+    "return": {
+      "entry_date": "2025-09-02",
+      "exit_date": "2026-04-21",
+      "entry": 46.75,
+      "exit": 86.64,
+      "pct": 0.8533
+    },
+    "spy_over_same_window": 0.1044,
+    "alpha": 0.7489
+  },
+  {
+    "ticker": "VSH",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-18",
+    "last_mention": "2026-04-18",
+    "return": {
+      "entry_date": "2026-04-20",
+      "exit_date": "2026-04-21",
+      "entry": 26.34,
+      "exit": 26.91,
+      "pct": 0.0216
+    },
+    "spy_over_same_window": -0.0066,
+    "alpha": 0.0282
+  },
+  {
+    "ticker": "ASML",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 4,
+    "tier_counts": {
+      "NEUTRAL": 4
+    },
+    "first_mention": "2026-04-02",
+    "last_mention": "2026-04-18",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 1315.11,
+      "exit": 1458.97,
+      "pct": 0.1094
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.0359
+  },
+  {
+    "ticker": "UMC",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-18",
+    "last_mention": "2026-04-18",
+    "return": {
+      "entry_date": "2026-04-20",
+      "exit_date": "2026-04-21",
+      "entry": 12.49,
+      "exit": 12.33,
+      "pct": -0.0128
+    },
+    "spy_over_same_window": -0.0066,
+    "alpha": -0.0062
+  },
+  {
+    "ticker": "SIVEF",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 7,
+    "tier_counts": {
+      "NEUTRAL": 7
+    },
+    "first_mention": "2026-03-19",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2026-03-23",
+      "exit_date": "2026-04-21",
+      "entry": 1.07,
+      "exit": 3.41,
+      "pct": 2.1869
+    },
+    "spy_over_same_window": 0.0725,
+    "alpha": 2.1144
+  },
+  {
+    "ticker": "EWY",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 10,
+    "tier_counts": {
+      "NEUTRAL": 10
+    },
+    "first_mention": "2026-02-12",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2026-02-13",
+      "exit_date": "2026-04-21",
+      "entry": 131.69,
+      "exit": 146.79,
+      "pct": 0.1147
+    },
+    "spy_over_same_window": 0.0328,
+    "alpha": 0.0819
+  },
+  {
+    "ticker": "OSS",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 8.54,
+      "exit": 9.93,
+      "pct": 0.1628
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.1276
+  },
+  {
+    "ticker": "GDRZF",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-16",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2026-04-17",
+      "exit_date": "2026-04-21",
+      "entry": 4.26,
+      "exit": 4.21,
+      "pct": -0.0117
+    },
+    "spy_over_same_window": -0.0029,
+    "alpha": -0.0088
+  },
+  {
+    "ticker": "LWLG",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-13",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2026-04-14",
+      "exit_date": "2026-04-21",
+      "entry": 11.68,
+      "exit": 12.91,
+      "pct": 0.1053
+    },
+    "spy_over_same_window": 0.0238,
+    "alpha": 0.0815
+  },
+  {
+    "ticker": "RGTI",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 15.53,
+      "exit": 18.25,
+      "pct": 0.1748
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.1396
+  },
+  {
+    "ticker": "VECO",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-04",
+    "last_mention": "2026-04-16",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 34.71,
+      "exit": 47.83,
+      "pct": 0.378
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.3045
+  },
+  {
+    "ticker": "FORM",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-14",
+    "last_mention": "2026-04-14",
+    "return": {
+      "entry_date": "2026-04-15",
+      "exit_date": "2026-04-21",
+      "entry": 125.66,
+      "exit": 142.04,
+      "pct": 0.1304
+    },
+    "spy_over_same_window": 0.0127,
+    "alpha": 0.1177
+  },
+  {
+    "ticker": "TER",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-01",
+    "last_mention": "2026-04-14",
+    "return": {
+      "entry_date": "2026-04-02",
+      "exit_date": "2026-04-21",
+      "entry": 290.0,
+      "exit": 379.93,
+      "pct": 0.3101
+    },
+    "spy_over_same_window": 0.0892,
+    "alpha": 0.2209
+  },
+  {
+    "ticker": "ASST",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-12",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 9.99,
+      "exit": 15.31,
+      "pct": 0.5325
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.459
+  },
+  {
+    "ticker": "ENAFF",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-11",
+    "last_mention": "2026-04-11",
+    "return": {
+      "entry_date": "2026-04-13",
+      "exit_date": "2026-04-21",
+      "entry": 2.5,
+      "exit": 2.5,
+      "pct": 0.0
+    },
+    "spy_over_same_window": 0.0394,
+    "alpha": -0.0394
+  },
+  {
+    "ticker": "ENVX",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-11",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 5.09,
+      "exit": 6.53,
+      "pct": 0.2842
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.2107
+  },
+  {
+    "ticker": "ASE",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-11",
+    "last_mention": "2026-04-11",
+    "return": {
+      "error": "yfinance returned no data for ASE"
+    },
+    "spy_over_same_window": 0.0394,
+    "alpha": null
+  },
+  {
+    "ticker": "AAPL",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-03-18",
+    "last_mention": "2026-04-07",
+    "return": {
+      "entry_date": "2026-03-19",
+      "exit_date": "2026-04-21",
+      "entry": 249.4,
+      "exit": 266.17,
+      "pct": 0.0672
+    },
+    "spy_over_same_window": 0.0717,
+    "alpha": -0.0045
+  },
+  {
+    "ticker": "AMC",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-06",
+    "last_mention": "2026-04-06",
+    "return": {
+      "entry_date": "2026-04-07",
+      "exit_date": "2026-04-21",
+      "entry": 1.25,
+      "exit": 1.67,
+      "pct": 0.336
+    },
+    "spy_over_same_window": 0.0722,
+    "alpha": 0.2638
+  },
+  {
+    "ticker": "EQR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-04",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 60.16,
+      "exit": 61.85,
+      "pct": 0.0281
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": -0.0454
+  },
+  {
+    "ticker": "MSR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-04",
+    "last_mention": "2026-04-04",
+    "return": {
+      "error": "yfinance returned no data for MSR"
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": null
+  },
+  {
+    "ticker": "AIXA",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-04",
+    "last_mention": "2026-04-04",
+    "return": {
+      "error": "yfinance returned no data for AIXA"
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": null
+  },
+  {
+    "ticker": "SPY",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 4,
+    "tier_counts": {
+      "NEUTRAL": 4
+    },
+    "first_mention": "2026-03-26",
+    "last_mention": "2026-04-04",
+    "return": {
+      "entry_date": "2026-03-27",
+      "exit_date": "2026-04-21",
+      "entry": 642.5,
+      "exit": 704.08,
+      "pct": 0.0958
+    },
+    "spy_over_same_window": 0.0958,
+    "alpha": -0.0
+  },
+  {
+    "ticker": "TRT",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 6.0,
+      "exit": 7.05,
+      "pct": 0.175
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.1015
+  },
+  {
+    "ticker": "HGRAF",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 4.41,
+      "exit": 5.0,
+      "pct": 0.1338
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.0603
+  },
+  {
+    "ticker": "QURE",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 17.25,
+      "exit": 17.45,
+      "pct": 0.0116
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": -0.0619
+  },
+  {
+    "ticker": "ASPI",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 4.26,
+      "exit": 5.06,
+      "pct": 0.1878
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.1143
+  },
+  {
+    "ticker": "EONR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 0.87,
+      "exit": 0.8,
+      "pct": -0.0816
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": -0.1551
+  },
+  {
+    "ticker": "MITK",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 13.79,
+      "exit": 15.25,
+      "pct": 0.1059
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.0324
+  },
+  {
+    "ticker": "WATT",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 15.81,
+      "exit": 23.53,
+      "pct": 0.4883
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.4148
+  },
+  {
+    "ticker": "DRAM",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 29.28,
+      "exit": 34.93,
+      "pct": 0.193
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.1195
+  },
+  {
+    "ticker": "WDC",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-03",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 303.18,
+      "exit": 383.81,
+      "pct": 0.2659
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.1924
+  },
+  {
+    "ticker": "SMTC",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-02",
+    "last_mention": "2026-04-02",
+    "return": {
+      "entry_date": "2026-04-06",
+      "exit_date": "2026-04-21",
+      "entry": 82.65,
+      "exit": 103.48,
+      "pct": 0.252
+    },
+    "spy_over_same_window": 0.0735,
+    "alpha": 0.1785
+  },
+  {
+    "ticker": "EOS",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-01",
+    "last_mention": "2026-04-02",
+    "return": {
+      "entry_date": "2026-04-02",
+      "exit_date": "2026-04-21",
+      "entry": 20.5,
+      "exit": 21.94,
+      "pct": 0.0702
+    },
+    "spy_over_same_window": 0.0892,
+    "alpha": -0.019
+  },
+  {
+    "ticker": "NKE",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-04-01",
+    "last_mention": "2026-04-01",
+    "return": {
+      "entry_date": "2026-04-02",
+      "exit_date": "2026-04-21",
+      "entry": 43.76,
+      "exit": 46.39,
+      "pct": 0.0601
+    },
+    "spy_over_same_window": 0.0892,
+    "alpha": -0.0291
+  },
+  {
+    "ticker": "LMT",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-03-26",
+    "last_mention": "2026-04-01",
+    "return": {
+      "entry_date": "2026-03-27",
+      "exit_date": "2026-04-21",
+      "entry": 625.7,
+      "exit": 571.95,
+      "pct": -0.0859
+    },
+    "spy_over_same_window": 0.0958,
+    "alpha": -0.1817
+  },
+  {
+    "ticker": "AVAV",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-04-01",
+    "last_mention": "2026-04-01",
+    "return": {
+      "entry_date": "2026-04-02",
+      "exit_date": "2026-04-21",
+      "entry": 176.62,
+      "exit": 210.07,
+      "pct": 0.1894
+    },
+    "spy_over_same_window": 0.0892,
+    "alpha": 0.1002
+  },
+  {
+    "ticker": "VNP",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-31",
+    "last_mention": "2026-03-31",
+    "return": {
+      "error": "yfinance returned no data for VNP"
+    },
+    "spy_over_same_window": 0.0767,
+    "alpha": null
+  },
+  {
+    "ticker": "MP",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-03-30",
+    "last_mention": "2026-03-30",
+    "return": {
+      "entry_date": "2026-03-31",
+      "exit_date": "2026-04-21",
+      "entry": 46.08,
+      "exit": 65.76,
+      "pct": 0.4271
+    },
+    "spy_over_same_window": 0.102,
+    "alpha": 0.3251
+  },
+  {
+    "ticker": "USAR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-03-30",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 19.25,
+      "exit": 22.85,
+      "pct": 0.187
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.1518
+  },
+  {
+    "ticker": "QCOM",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-03-29",
+    "last_mention": "2026-03-30",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 127.45,
+      "exit": 135.56,
+      "pct": 0.0636
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.0363
+  },
+  {
+    "ticker": "CIEN",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-30",
+    "last_mention": "2026-03-30",
+    "return": {
+      "entry_date": "2026-03-31",
+      "exit_date": "2026-04-21",
+      "entry": 373.77,
+      "exit": 505.93,
+      "pct": 0.3536
+    },
+    "spy_over_same_window": 0.102,
+    "alpha": 0.2516
+  },
+  {
+    "ticker": "NOK",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 3,
+    "tier_counts": {
+      "NEUTRAL": 3
+    },
+    "first_mention": "2026-03-18",
+    "last_mention": "2026-03-30",
+    "return": {
+      "entry_date": "2026-03-19",
+      "exit_date": "2026-04-21",
+      "entry": 8.04,
+      "exit": 10.4,
+      "pct": 0.2935
+    },
+    "spy_over_same_window": 0.0717,
+    "alpha": 0.2218
+  },
+  {
+    "ticker": "TEM",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-29",
+    "last_mention": "2026-03-29",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 42.36,
+      "exit": 55.15,
+      "pct": 0.3019
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.202
+  },
+  {
+    "ticker": "LCID",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-29",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 9.51,
+      "exit": 7.11,
+      "pct": -0.2524
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.3523
+  },
+  {
+    "ticker": "GLNG",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 55.41,
+      "exit": 52.83,
+      "pct": -0.0466
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.1465
+  },
+  {
+    "ticker": "NOC",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 689.04,
+      "exit": 611.13,
+      "pct": -0.1131
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.213
+  },
+  {
+    "ticker": "CNEX",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "error": "yfinance returned no data for CNEX"
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": null
+  },
+  {
+    "ticker": "AA",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 64.0,
+      "exit": 67.15,
+      "pct": 0.0492
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.0507
+  },
+  {
+    "ticker": "PL",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 30.85,
+      "exit": 38.03,
+      "pct": 0.2327
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.1328
+  },
+  {
+    "ticker": "ATRO",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 65.04,
+      "exit": 75.88,
+      "pct": 0.1667
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.0668
+  },
+  {
+    "ticker": "DCO",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 121.74,
+      "exit": 141.48,
+      "pct": 0.1621
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.0622
+  },
+  {
+    "ticker": "HEI",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 273.9,
+      "exit": 276.02,
+      "pct": 0.0077
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.0922
+  },
+  {
+    "ticker": "ATI",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 142.41,
+      "exit": 158.95,
+      "pct": 0.1161
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.0162
+  },
+  {
+    "ticker": "FAZ",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 54.54,
+      "exit": 42.7,
+      "pct": -0.2171
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.317
+  },
+  {
+    "ticker": "GUSH",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 48.42,
+      "exit": 35.97,
+      "pct": -0.2571
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.357
+  },
+  {
+    "ticker": "SQQQ",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 85.27,
+      "exit": 57.59,
+      "pct": -0.3246
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.4245
+  },
+  {
+    "ticker": "UVIX",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 9.98,
+      "exit": 5.97,
+      "pct": -0.4018
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": -0.5017
+  },
+  {
+    "ticker": "XLU",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-03-18",
+    "last_mention": "2026-03-28",
+    "return": {
+      "entry_date": "2026-03-19",
+      "exit_date": "2026-04-21",
+      "entry": 46.65,
+      "exit": 44.95,
+      "pct": -0.0364
+    },
+    "spy_over_same_window": 0.0717,
+    "alpha": -0.1081
+  },
+  {
+    "ticker": "PYPL",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-27",
+    "last_mention": "2026-03-27",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 44.0,
+      "exit": 50.88,
+      "pct": 0.1564
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.0565
+  },
+  {
+    "ticker": "VPG",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-19",
+    "last_mention": "2026-03-19",
+    "return": {
+      "entry_date": "2026-03-20",
+      "exit_date": "2026-04-21",
+      "entry": 42.67,
+      "exit": 54.42,
+      "pct": 0.2754
+    },
+    "spy_over_same_window": 0.0725,
+    "alpha": 0.2029
+  },
+  {
+    "ticker": "FLY",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-03-04",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 21.1,
+      "exit": 42.09,
+      "pct": 0.9943
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.962
+  },
+  {
+    "ticker": "LUNR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-04",
+    "last_mention": "2026-03-04",
+    "return": {
+      "entry_date": "2026-03-05",
+      "exit_date": "2026-04-21",
+      "entry": 18.48,
+      "exit": 27.82,
+      "pct": 0.5058
+    },
+    "spy_over_same_window": 0.0323,
+    "alpha": 0.4735
+  },
+  {
+    "ticker": "AMKR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-02-13",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 46.92,
+      "exit": 70.21,
+      "pct": 0.4964
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.4612
+  },
+  {
+    "ticker": "APPL",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 2,
+    "tier_counts": {
+      "NEUTRAL": 2
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-02-13",
+    "return": {
+      "error": "yfinance returned no data for APPL"
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": null
+  },
+  {
+    "ticker": "LPTH",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-02-13",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 11.5,
+      "exit": 14.19,
+      "pct": 0.2339
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.1987
+  },
+  {
+    "ticker": "APP",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-02-13",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 384.0,
+      "exit": 473.18,
+      "pct": 0.2322
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.197
+  },
+  {
+    "ticker": "DNKG",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-02-13",
+    "return": {
+      "error": "yfinance returned no data for DNKG"
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": null
+  },
+  {
+    "ticker": "RDW",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-02-13",
+    "last_mention": "2026-02-13",
+    "return": {
+      "entry_date": "2026-02-17",
+      "exit_date": "2026-04-21",
+      "entry": 7.77,
+      "exit": 10.31,
+      "pct": 0.3269
+    },
+    "spy_over_same_window": 0.0352,
+    "alpha": 0.2917
+  },
+  {
+    "ticker": "MCB",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-01-31",
+    "last_mention": "2026-01-31",
+    "return": {
+      "entry_date": "2026-02-02",
+      "exit_date": "2026-04-21",
+      "entry": 92.42,
+      "exit": 88.85,
+      "pct": -0.0386
+    },
+    "spy_over_same_window": 0.021,
+    "alpha": -0.0596
+  },
+  {
+    "ticker": "CREDO",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-08-31",
+    "last_mention": "2025-08-31",
+    "return": {
+      "error": "yfinance returned no data for CREDO"
+    },
+    "spy_over_same_window": 0.1044,
+    "alpha": null
+  },
+  {
+    "ticker": "TSSI",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-08-31",
+    "last_mention": "2025-08-31",
+    "return": {
+      "entry_date": "2025-09-02",
+      "exit_date": "2026-04-21",
+      "entry": 13.21,
+      "exit": 14.48,
+      "pct": 0.0961
+    },
+    "spy_over_same_window": 0.1044,
+    "alpha": -0.0083
+  },
+  {
+    "ticker": "BMBL",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-08-31",
+    "last_mention": "2025-08-31",
+    "return": {
+      "entry_date": "2025-09-02",
+      "exit_date": "2026-04-21",
+      "entry": 6.03,
+      "exit": 4.47,
+      "pct": -0.2587
+    },
+    "spy_over_same_window": 0.1044,
+    "alpha": -0.3631
+  },
+  {
+    "ticker": "ETOR",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-08-23",
+    "last_mention": "2025-08-23",
+    "return": {
+      "entry_date": "2025-08-25",
+      "exit_date": "2026-04-21",
+      "entry": 46.52,
+      "exit": 37.36,
+      "pct": -0.1969
+    },
+    "spy_over_same_window": 0.0932,
+    "alpha": -0.2901
+  },
+  {
+    "ticker": "ALAB",
+    "tier": "C",
+    "score": 0,
+    "total_mentions": 1,
+    "tier_counts": {
+      "NEUTRAL": 1
+    },
+    "first_mention": "2025-07-28",
+    "last_mention": "2025-07-28",
+    "return": {
+      "entry_date": "2025-07-29",
+      "exit_date": "2026-04-21",
+      "entry": 124.87,
+      "exit": 191.97,
+      "pct": 0.5374
+    },
+    "spy_over_same_window": 0.103,
+    "alpha": 0.4344
+  },
+  {
+    "ticker": "MSTR",
+    "tier": "SKIP",
+    "score": 0,
+    "total_mentions": 6,
+    "tier_counts": {
+      "DISMISS": 1,
+      "NEUTRAL": 3,
+      "B": 2
+    },
+    "first_mention": "2025-08-25",
+    "last_mention": "2026-04-03",
+    "return": {
+      "entry_date": "2025-08-26",
+      "exit_date": "2026-04-21",
+      "entry": 341.81,
+      "exit": 163.97,
+      "pct": -0.5203
+    },
+    "spy_over_same_window": 0.0964,
+    "alpha": -0.6167
+  },
+  {
+    "ticker": "HIMX",
+    "tier": "SKIP",
+    "score": -1,
+    "total_mentions": 3,
+    "tier_counts": {
+      "B": 1,
+      "DISMISS": 1,
+      "NEUTRAL": 1
+    },
+    "first_mention": "2026-03-28",
+    "last_mention": "2026-04-15",
+    "return": {
+      "entry_date": "2026-03-30",
+      "exit_date": "2026-04-21",
+      "entry": 8.12,
+      "exit": 11.64,
+      "pct": 0.4335
+    },
+    "spy_over_same_window": 0.0999,
+    "alpha": 0.3336
+  }
+]

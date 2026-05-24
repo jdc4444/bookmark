@@ -1,0 +1,133 @@
+{
+  "headline": "The Bots Extracting Millions From Polymarket's Panic Pricing",
+  "lede": "A viral post on X claims to have uncovered a mysterious Polymarket wallet — *distinct-baguette* — that turned an algorithmic quirk into $441,000 in guaranteed profits. The wallet is real, its gains verified on-chain, and the underlying strategy — buying both sides of a binary prediction market when their combined price slips below one dollar — is genuine and well-documented. The story wrapped around it, from deleted Reddit threads to theatrical C++ source code, is a content format, not an investigation.",
+  "body": "**Polymarket** is a decentralized *prediction market* — a platform where users buy and sell contracts on the outcomes of real-world events, from elections to cryptocurrency prices — running on Polygon, an Ethereum scaling network. Each contract is an *outcome token*: a YES or NO share that settles at exactly one dollar if correct and zero if wrong. In any binary market, this creates a mathematical constraint that is also an opportunity: the combined price of YES and NO must, at equilibrium, sum to one dollar. When panic, volatility, or thin liquidity pushes the combined price below that threshold — say, YES at 52 cents and NO at 45 cents — a buyer who purchases both sides locks in a guaranteed profit regardless of outcome. Three cents per pair is nothing. Repeat it across 26,000 trades and it compounds.\n\nThe wallet at the center of @marlowxbt's post — username *distinct-baguette* — is real. On-chain records confirm it exists on Polygon's blockchain, and Polymarket's own leaderboard places it among the platform's top twenty earners. The tweet's figures ($441,263 profit, 26,293 trades) are an early snapshot; the profile now shows over $812,000 in profit across 46,118 predictions. But distinct-baguette is not unusual. A parallel account, *gabagool22*, active since the same period, has logged over $788,000 profit at a 99.5% win rate. A better-documented case is *0x8dxd*, which reportedly converted $313 into roughly $438,000 in one month by monitoring Coinbase (COIN) and Binance spot prices to front-run Polymarket's slower repricing — a related but distinct flavor of *latency arbitrage*. Researchers studying the platform estimated that such bots extracted approximately $40 million from Polymarket between April 2024 and April 2025, and fourteen of the twenty most profitable Polymarket wallets are identified on the leaderboard as automated.\n\nThe tweet's narrative scaffolding is fabricated. Distinct-baguette's own Polymarket profile carries a pinned notice: \"This account has no social media or other online presence. No code has been or will ever be released. Any post or article claiming otherwise is almost certainly a scam.\" The Reddit-discovery story — anonymous commenter, deleted thread, forty-seven upvotes — follows a template @marlowxbt deploys across multiple posts, each featuring a different mysterious wallet and the same dramatic arc. The C++ code shown in the tweet's image, including a header `#include <polymarket/clob.h>`, does not correspond to any official or community SDK; Polymarket publishes clients in TypeScript, Python, and Rust. It is set-dressing, not source code.\n\nPolymarket itself has moved to choke the arbitrage. In early 2026 the platform introduced dynamic *taker fees* on fifteen-minute crypto markets, peaking at roughly 1.8 percent of position size at even odds, with a corresponding rebate for *makers* — traders who post limit orders rather than taking from the order book. A three-cent gross spread on a one-dollar position now yields roughly 1.2 cents after fees, before slippage. The company framed the change explicitly as redirecting value \"from latency arbitrage toward genuine liquidity provision.\" Whether sophisticated bots simply adapt by posting as makers rather than takers remains an open question.\n\nA secondary industry has grown around distinct-baguette's notoriety. Multiple websites sell purported bot software under the wallet's name. A February 2026 security incident found malicious Polymarket-bot repositories distributed through a hijacked GitHub organization; the code stole wallet private keys via an npm post-install hook targeting anyone who ran the installation. The wallet is real, the arithmetic is real, and the profits are real. The story the tweet tells about how you discover them is a content format, not an investigation.",
+  "tickers": [
+    "COIN"
+  ],
+  "companies": [
+    {
+      "name": "Polymarket",
+      "ticker": null
+    },
+    {
+      "name": "Coinbase",
+      "ticker": "COIN"
+    },
+    {
+      "name": "Binance",
+      "ticker": null
+    },
+    {
+      "name": "GitHub",
+      "ticker": null
+    }
+  ],
+  "poster": "marlowxbt",
+  "concepts": [
+    {
+      "key": "prediction-market",
+      "term": "Prediction Market",
+      "definition": "A marketplace where participants buy and sell contracts on the outcomes of future events. Prices reflect collective probability estimates — a contract priced at 70 cents implies the crowd believes the event has a 70% chance of occurring. Each contract pays exactly $1 if the predicted outcome happens and $0 if it does not."
+    },
+    {
+      "key": "outcome-token",
+      "term": "Outcome Token",
+      "definition": "In a prediction market, a token representing one possible result of an event — typically YES or NO for a binary question. Buying a YES token means you profit if the event occurs; a NO token pays off if it does not. At settlement, exactly one side pays one dollar and the other pays nothing, so together they are always worth one dollar."
+    },
+    {
+      "key": "latency-arbitrage",
+      "term": "Latency Arbitrage",
+      "definition": "A trading strategy that exploits speed differences between markets. In the Polymarket context, a bot monitoring real-time price feeds on major exchanges can detect that Bitcoin has moved before Polymarket's slower order book has repriced, then trade against the stale price. The edge is purely informational and technical — no prediction of future events is required."
+    },
+    {
+      "key": "taker-fee",
+      "term": "Taker Fee",
+      "definition": "A charge levied on traders who remove liquidity from an order book by immediately accepting existing offers. Taker fees are a common mechanism exchanges use to discourage high-frequency strategies that consume liquidity without adding it. The counterpart — makers who post new limit orders — typically pay lower fees or receive rebates."
+    },
+    {
+      "key": "market-maker",
+      "term": "Market Maker",
+      "definition": "A participant who provides liquidity by continuously posting buy and sell orders rather than immediately accepting existing offers. Market makers earn the spread between their posted prices and typically pay lower fees — or receive rebates — as an incentive to keep order books populated with tradeable prices."
+    },
+    {
+      "key": "polygon-network",
+      "term": "Polygon Network",
+      "definition": "A Layer 2 scaling solution built on top of Ethereum, designed to process transactions faster and more cheaply than the Ethereum mainnet. Polymarket uses Polygon for on-chain settlement of trades and positions, denominated in the USDC stablecoin. Transactions cost fractions of a cent, which is what makes sub-penny arbitrage economically viable."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet's profit figure ($441,263) and trade count (26,293) are early-period snapshots, not current data; Polymarket's leaderboard now shows the wallet at over $812,000 in profit across 46,118 predictions. The Reddit-discovery narrative is almost certainly invented: the wallet's own Polymarket profile carries a pinned notice stating it 'has no social media or other online presence' and that 'any post or article claiming otherwise is almost certainly a scam.' The C++ code in the accompanying image, including `#include <polymarket/clob.h>`, does not exist in any official or known community SDK — Polymarket's official clients are written in TypeScript, Python, and Rust; the code appears constructed for visual effect. Finally, framing distinct-baguette as a hidden discovery contradicts documented evidence that the wallet had already appeared in multiple crypto-Twitter discussions months before this post.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://polymarket.com/leaderboard/crypto/all/profit",
+      "title": "Polymarket Leaderboard",
+      "note": "Confirms distinct-baguette's current profit figure of $812K+ and top-20 ranking"
+    },
+    {
+      "url": "https://polymarket.com/@distinct-baguette",
+      "title": "distinct-baguette Polymarket Profile",
+      "note": "Primary subject; includes pinned disclaimer denying any social media presence or code release"
+    },
+    {
+      "url": "https://polygonscan.com/address/0xe00740bce98a594e26861838885ab310ec3b548c",
+      "title": "PolygonScan — distinct-baguette Wallet",
+      "note": "On-chain verification of wallet existence on Polygon blockchain"
+    },
+    {
+      "url": "https://arxiv.org/html/2605.00864",
+      "title": "Arbitrage Analysis in Polymarket Markets (arxiv, May 2026)",
+      "note": "Academic study of 75M+ order-book snapshots confirming arbitrage opportunities exist but are rare and short-lived"
+    },
+    {
+      "url": "https://www.theblock.co/post/384461/polymarket-adds-taker-fees-to-15-minute-crypto-markets-to-fund-liquidity-rebates",
+      "title": "The Block — Polymarket Adds Taker Fees to 15-Minute Crypto Markets",
+      "note": "Confirms introduction of dynamic taker fees and maker rebate program to counter latency arbitrage"
+    },
+    {
+      "url": "https://www.financemagnates.com/cryptocurrency/polymarket-introduces-dynamic-fees-to-curb-latency-arbitrage-in-short-term-crypto-markets/",
+      "title": "Finance Magnates — Polymarket Introduces Dynamic Fees",
+      "note": "Details fee structure: ~1.8% taker fee at 50/50 odds, explicitly targeting arbitrage bots"
+    },
+    {
+      "url": "https://0xinsider.com/research/gabagool22-polymarket-trader-analysis",
+      "title": "0xInsider — gabagool22 Trader Analysis",
+      "note": "Independent analysis of a parallel arbitrage wallet with near-identical strategy to distinct-baguette"
+    },
+    {
+      "url": "https://finbold.com/trading-bot-turns-313-into-438000-on-polymarket-in-a-month/",
+      "title": "Finbold — Trading Bot Turns $313 into $438,000 on Polymarket",
+      "note": "Documents the 0x8dxd wallet using latency arbitrage against Polymarket crypto markets"
+    },
+    {
+      "url": "https://www.stepsecurity.io/blog/malicious-polymarket-bot-hides-in-hijacked-dev-protocol-github-org-and-steals-wallet-keys",
+      "title": "StepSecurity — Malicious Polymarket Bot Security Incident (Feb 2026)",
+      "note": "Documents scam ecosystem exploiting distinct-baguette's fame to distribute key-stealing malware"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/arbitrage-bots-dominate-polymarket-millions-100000888.html",
+      "title": "Yahoo Finance — Arbitrage Bots Dominate Polymarket",
+      "note": "Overview of bot dominance; $40M extraction estimate for 2024–2025 period"
+    },
+    {
+      "url": "https://docs.polymarket.com/quickstart/reference/endpoints",
+      "title": "Polymarket CLOB API Documentation",
+      "note": "Confirms clob.polymarket.com is a real endpoint; official SDKs listed as TypeScript, Python, Rust — no C++"
+    },
+    {
+      "url": "https://ariverwhale.substack.com/p/polymarket-faq",
+      "title": "A River Whale — Polymarket FAQ",
+      "note": "Practitioner explanation of YES/NO pricing mechanics and settlement logic"
+    },
+    {
+      "url": "https://dailycoin.com/polymarket-betters-are-overwhelmingly-losing-money-heres-why/",
+      "title": "DailyCoin — Polymarket Bettors Are Overwhelmingly Losing Money",
+      "note": "Only 12.7% of wallets show profit; contextualizes who is on the losing side of these bot trades"
+    }
+  ],
+  "bookmark_id": "2015251253681361009",
+  "generated_at": "2026-05-07T05:36:19.650269Z",
+  "backend": "claude-sonnet-subagent"
+}

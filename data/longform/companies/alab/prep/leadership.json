@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001736297/000114036125015443/ny20044823x1_def14a.htm",
+    "https://www.asteralabs.com/about/team/",
+    "https://asteralabs.gcs-web.com/corporate-governance/board-of-directors",
+    "https://www.businesswire.com/news/home/20240624816408/en/Astera-Labs-Appoints-Bethany-Mayer-to-Board-of-Directors"
+  ],
+  "key_finding": "Astera Labs is structurally a three-founder Texas-Instruments-alumni company built into a public AI-connectivity semiconductor with a board that has executed a clean IPO and is now configured for ongoing public-company governance through what will be a multi-cycle compute-architecture transition. The three co-founders (Mohan, Gajendra, Morrison) remain in their operating roles; Jitendra Mohan as CEO, Sanjay Gajendra as President/COO, Casey Morrison as Chief Product Officer. Manuel Alba — co-founder of Galileo Technology (sold to Marvell in 2001) — chairs the board and provides the deepest semiconductor M&A and connectivity-architecture pattern recognition. Craig Barratt (joined March 2025, days after stepping out of Intel CEO transition committee work, now Intel chairman-elect for May 2026) brings the most consequential single addition. Michael Hurlston (currently CEO of Lumentum, previously Synaptics, Finisar) connects the board to the optical and silicon CEO peer network. Stefan Dyckerhoff (Sutter Hill Ventures, the Series A lead) is the venture anchor with chip-systems operating credibility (Juniper EVP, Cisco VP/GM). Jack Lazar (ex-GoPro CFO, ex-Atheros CFO, current GlobalFoundries director) is the audit-committee chair. Bethany Mayer (ex-Ixia CEO, current Box chair, HPE and LAM Research director) brings the most cross-board breadth. Composition reads: founder-operators + four semiconductor-CEO-credentialed independents + one venture chair-of-Sutter + one full-time audit-grade CFO veteran. There is no special-purpose financial-engineering board member because IPO execution is already done.",
+  "ceo_founder": {
+    "name": "Jitendra Mohan",
+    "title": "Co-Founder, Chief Executive Officer, Director",
+    "age": 52,
+    "director_since": "2017-11",
+    "founded_company": "2017-11",
+    "education": [
+      "B.Tech. Electrical Engineering, Indian Institute of Technology Bombay",
+      "M.S. Electrical Engineering, Stanford University"
+    ],
+    "career": [
+      "2017-present: Co-Founder and CEO, Astera Labs",
+      "2012-2017: Product Line Manager, Texas Instruments",
+      "1996-2012: Various technical roles ending as Design Director, National Semiconductor (acquired by TI 2011)"
+    ],
+    "framing": "Mohan is a Stanford-trained design-engineer who became a chip-product-line manager at the most disciplined US semiconductor company (TI) and then founded Astera Labs with two TI colleagues. The IIT Bombay + Stanford EE pedigree and the National Semiconductor / TI tenure track is the most common origin profile of a successful connectivity-chip startup CEO of his generation."
+  },
+  "executive_team": [
+    {
+      "name": "Sanjay Gajendra",
+      "title": "Co-Founder, President and Chief Operating Officer, Director",
+      "age": 51,
+      "director_since": "2017-11",
+      "education": ["Master of Engineering in Engineering Management, University of Colorado Boulder"],
+      "career": [
+        "2017-present: Co-Founder, COO since 2017, President since November 2023, Astera Labs",
+        "2014-2017: Product leadership, Texas Instruments",
+        "2006-2011: Product roles, National Semiconductor",
+        "1996-2000: Principal and Senior Software Engineer, Wipro Limited"
+      ],
+      "framing": "Gajendra is the operations co-founder. The TI + NatSemi + Wipro track is unusual for being heavy on India-and-US operational scaling rather than pure design — which is why he runs operations and the GTM organisation rather than engineering."
+    },
+    {
+      "name": "Casey Morrison",
+      "title": "Co-Founder, Chief Product Officer",
+      "framing": "Co-founder. Owns product strategy and roadmap. Less publicly profiled than the CEO/COO pair but is the third founding signature on the company's IPO documents."
+    },
+    {
+      "name": "Desmond Lynch",
+      "title": "Chief Financial Officer",
+      "age": 46,
+      "officer_since": "2026-03",
+      "education": ["B.A. Accounting and Finance, University of Glasgow", "Chartered Accountant, Institute of Chartered Accountants of Scotland"],
+      "career": [
+        "2026-present: CFO, Astera Labs",
+        "2022-2026: SVP Finance and CFO, Rambus Inc.",
+        "2020-2022: VP Finance and Investor Relations, Rambus",
+        "2019-2020: VP Finance, Knowles Corporation",
+        "2016-2019: VP Finance / Senior Director FP&A, Renesas Electronics / IDT",
+        "2010-2016: Director FP&A, Atmel Corporation"
+      ],
+      "framing": "Lynch joined March 2026 from Rambus — the most semiconductor-IP-heavy mid-cap CFO seat in the industry. He replaces Mike Tate who retired March 2, 2026 with transition services through September 1, 2026. Choosing a Rambus CFO signals continued focus on royalty / IP-style economics within Astera's product mix as the company moves up the connectivity stack."
+    },
+    {"name": "Germaine Cota", "title": "Chief Accounting Officer"},
+    {
+      "name": "Philip Mazzara",
+      "title": "General Counsel and Secretary",
+      "age": 47,
+      "officer_since": "2022-09",
+      "education": ["J.D./M.B.A., Stanford Law School and Stanford Graduate School of Business"],
+      "career": [
+        "2022-present: General Counsel and Corporate Secretary, Astera Labs (VP Legal Feb-Aug 2022)",
+        "2018-2021: VP, General Counsel and Corporate Secretary, Innovium Inc. (acquired by Marvell)",
+        "2015-2018: Director of Legal, Innovium"
+      ],
+      "framing": "Mazzara's Innovium tenure is meaningful — Innovium was the high-bandwidth switch silicon company Marvell acquired in 2021. A JD/MBA from Stanford running corporate-secretary and legal for a connectivity-silicon company that just IPO'd is the right operating profile for the IP-and-litigation density of the AI silicon ecosystem."
+    },
+    {"name": "Adit Narasimha", "title": "SVP and GM, Signal Connectivity Group"},
+    {"name": "Aleksandr Oysgelt", "title": "SVP, Hardware Engineering"},
+    {"name": "Guy Azrad", "title": "SVP, Engineering and GM, Astera Labs Israel"},
+    {"name": "Kalyan Mulam", "title": "SVP, ASIC Engineering"},
+    {"name": "Nick Aberle", "title": "SVP, Finance and Investor Relations"},
+    {"name": "Ryan Wade", "title": "SVP, Global Sales"},
+    {"name": "Shivananda R. Koteshwar", "title": "SVP, IT and Managing Director, India"},
+    {"name": "Thad Omura", "title": "SVP and GM, Compute Connectivity Group"},
+    {"name": "Alice Zhang", "title": "VP, Operations"},
+    {"name": "Ari Rubin", "title": "VP, Corporate Development"}
+  ],
+  "board_of_directors": [
+    {
+      "name": "Manuel Alba",
+      "role": "Chair of the Board",
+      "age": 70,
+      "director_since": "2018-03",
+      "career": [
+        "1994-2001: Co-founder and Director, Galileo Technology (sold to Marvell 2001)",
+        "Director roles spanning: Marvell Technology, Annapurna Labs (sold to Amazon 2015), Habana Labs (sold to Intel 2019), Banias Labs, Kardium, Lightbits, Xsight Labs, Lyte.ai, Element Labs, Pixer, Copperleaf Technologies",
+        "Earlier: design engineer and technical marketing roles"
+      ],
+      "education": [
+        "B.S. Electrical Engineering, National Polytechnic Institute Mexico City",
+        "M.S. Computer Engineering, University of Southern California",
+        "M.S. Engineering Management, University of Southern California",
+        "M.B.A., University of Santa Clara"
+      ],
+      "framing": "Alba's CV is the single deepest connectivity-and-acceleration M&A pattern recognition on the board. He co-founded Galileo (which became part of Marvell), sat on Annapurna Labs (Amazon's chip arm) and Habana Labs (Intel's accelerator) through their respective acquisitions, and runs a wide portfolio of next-generation infrastructure boards. The chairman seat on an AI-connectivity silicon company is exactly the position to deploy that pattern recognition."
+    },
+    {
+      "name": "Craig Barratt",
+      "role": "Director; Audit Committee",
+      "age": 63,
+      "director_since": "2025-03",
+      "career": [
+        "2019-2020: SVP and General Manager, Intel Connectivity Group",
+        "2017-2019: President and CEO, Barefoot Networks (acquired by Intel 2019)",
+        "2013-2017: SVP roles, Google (including Senior Vice President of Access)",
+        "2011-2013: President, Qualcomm Atheros",
+        "2003-2011: President and CEO, Atheros Communications (acquired by Qualcomm 2011)",
+        "Earlier: technical and product roles at AT&T Bell Labs"
+      ],
+      "education": [
+        "Ph.D. Electrical Engineering, Stanford University",
+        "M.S. Electrical Engineering, Stanford University",
+        "B.E. Electrical Engineering and B.S. Mathematics/Physics, University of Sydney"
+      ],
+      "other_boards": [
+        "Intel Corporation — Director since November 2025; designated as next Chairman effective May 13, 2026",
+        "Intuitive Surgical — Director since April 2011; Lead Director 2020-2025",
+        "Formerly IonQ — Director 2021-2024"
+      ],
+      "framing": "Barratt is the most consequential single board addition of the past 18 months. He joined the Astera board in March 2025 and was simultaneously the lead board figure in the Intel succession process — designated as incoming Intel Chairman effective May 13, 2026. The Stanford EE PhD + Sydney undergraduate pedigree + Atheros (Qualcomm) + Barefoot (Intel) + Google Access background is precisely the experience set for an AI-rack-connectivity company. The Intel chairmanship overhang means he will likely manage time between Astera, Intel chair, and Intuitive Surgical — but as Astera's intersect with the Intel ecosystem grows, having him on the board matters."
+    },
+    {
+      "name": "Michael Hurlston",
+      "role": "Director; Compensation Committee Chair",
+      "age": 59,
+      "director_since": "2022",
+      "career": [
+        "2025-present: President and CEO, Lumentum Holdings",
+        "2019-2025: President and CEO, Synaptics",
+        "2018-2019: CEO, Finisar Corporation",
+        "2001-2017: Various SVP roles, Broadcom",
+        "1991-2001: Marketing and engineering positions across multiple semiconductor firms"
+      ],
+      "education": ["B.S. and M.S. Electrical Engineering, M.B.A., UC Davis"],
+      "other_boards": ["Flextronics International (since September 2020)", "UC Davis Foundation board and university committees"],
+      "framing": "Hurlston has been CEO of three public semiconductor companies in seven years — Finisar (sold to II-VI), Synaptics (sold-as-CEO), and now Lumentum. He chairs Astera's Compensation Committee, which is where the link between AI-server connectivity and AI-server optics (Lumentum's transceiver components business) creates the highest information flow on the board. Triple-public-company-CEO pattern at his age is rare."
+    },
+    {
+      "name": "Stefan Dyckerhoff",
+      "role": "Director; Nominating and Corporate Governance Committee Chair",
+      "age": 53,
+      "director_since": "2019",
+      "career": [
+        "2012-present: Managing Director, Sutter Hill Ventures",
+        "2011-2012: EVP and General Manager, Juniper Networks",
+        "2007-2009: VP and General Manager roles, Cisco Systems"
+      ],
+      "education": [
+        "B.S. Electrical Engineering and Computer Science, Duke University",
+        "M.S. Electrical Engineering, Stanford University"
+      ],
+      "other_boards": ["SiFive (since September 2015)", "Atmosic Technologies (since April 2017)", "Formerly Enfabrica (2020-2025)"],
+      "framing": "Dyckerhoff is the Sutter Hill Ventures partner who led the Astera Series A. Sutter Hill is the most consequential silicon-systems investor on Sand Hill Road in this cycle (Snowflake, SiFive, Astera). His prior operating credentials at Juniper and Cisco mean his board contribution is system-architecture pattern-matching rather than financial-engineering. Chairing nom/gov is the structural-governance position. The Enfabrica exit (2025) is notable — Enfabrica is a direct adjacent competitor for parts of Astera's roadmap."
+    },
+    {
+      "name": "Bethany Mayer",
+      "role": "Director; Audit Committee; Compensation Committee",
+      "age": 64,
+      "director_since": "2024-06",
+      "career": [
+        "2018-2019: EVP Corporate Development and Technology, Sempra Energy",
+        "2014-2017: President and CEO, Ixia (acquired by Keysight 2017)",
+        "2011-2014: SVP roles, HP (HP Networking Software / Network Function Virtualization)",
+        "Earlier: leadership roles at Blue Coat Systems, Cisco Systems, and Apple"
+      ],
+      "education": [
+        "B.S. Political Science, Santa Clara University",
+        "M.B.A., California State University-Monterey Bay",
+        "M.S. Cybersecurity, New York University"
+      ],
+      "other_boards": [
+        "Hewlett Packard Enterprise — Director since June 2023",
+        "Box, Inc. — Director since April 2020, currently Chair",
+        "LAM Research Corporation — Director since May 2019",
+        "Formerly Sempra Energy, Ixia, Delphi Automotive, Marvell Technology"
+      ],
+      "framing": "Mayer is the broadest current public-company director on the Astera board: HPE board + Box chair + LAM Research board, all currently active. Designated audit committee financial expert. The Ixia CEO tenure (network test and visibility company) maps directly onto Astera's connectivity-validation customer base. Marvell board (formerly) gives semi-industry pattern recognition. The combination of HPE (server OEM) + LAM (semiconductor capital equipment) + Box (cloud-software governance) is the kind of cross-industry breadth that gives a director real information about the AI-server end market without being on a single supply-chain participant."
+    },
+    {
+      "name": "Jack Lazar",
+      "role": "Director; Audit Committee Chair; Nominating and Corporate Governance Committee",
+      "age": 60,
+      "director_since": "2022-12",
+      "career": [
+        "2025-present: CEO, Razal Ventures",
+        "2016-present: Independent business consultant",
+        "2014-2016: CFO, GoPro",
+        "2011-2013: SVP Corporate Development, Qualcomm",
+        "2003-2011: SVP Corporate Development, CFO, and Secretary at Atheros Communications (acquired by Qualcomm 2011)"
+      ],
+      "education": ["B.S. Commerce with Accounting Emphasis, Santa Clara University"],
+      "other_boards": ["Resideo Technologies (since September 2018)", "Box, Inc. (since March 2020)", "GlobalFoundries (since July 2021)", "Formerly ThredUp, Silicon Laboratories, Casper Sleep"],
+      "framing": "Lazar is the audit-committee-chair financial expert. The Atheros CFO and then Qualcomm SVP Corp Dev sequence (Atheros sold to Qualcomm 2011 — note he overlaps Craig Barratt at Atheros) is the most direct path to understanding how a connectivity-silicon company transitions through scale. The GlobalFoundries board seat brings foundry-cost pattern recognition; the Box board seat (with Mayer also on Box) is the most direct director-to-director information channel on this board."
+    }
+  ],
+  "named_executive_officer_compensation_2025": {
+    "ceo_mohan_base_salary": 615000,
+    "ceo_mohan_cash_bonus": 1332725,
+    "coo_gajendra_base_salary": 615000,
+    "coo_gajendra_cash_bonus": 1332725,
+    "annual_incentive_payout_factor": "180.586% of target",
+    "bonus_calculation": "50/50 to revenue and non-GAAP operating margin",
+    "ceo_coo_equity_2025": "No new equity grants in 2025; prior 2024 IPO-era awards provide ongoing incentive",
+    "non_employee_director_annual_equity_grant_usd": "200,000 to 210,000"
+  },
+  "board_composition_observation": "The Astera board pairs three founder-operators with five independents whose CVs are concentrated in semiconductor/connectivity CEO experience and venture investing. Three of the five independents (Alba, Hurlston, Barratt) have personally led connectivity or accelerator silicon companies through full M&A or scale-up cycles. One (Dyckerhoff) is the lead investor partner with Cisco/Juniper operating experience. One (Lazar) is the public-company-CFO veteran. One (Mayer) is the most cross-board-experienced. The composition reflects a company that has already executed its IPO (March 2024) and is now configured for cycle-compression governance through the Rubin / next-Nvidia-architecture transition rather than for additional financial-engineering or M&A. The absence of an investment-banking or specialist-restructuring board member is not a gap — it is a confirmation that the operating model is what the company is running on."
+}

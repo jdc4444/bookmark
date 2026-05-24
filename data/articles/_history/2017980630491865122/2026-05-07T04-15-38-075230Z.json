@@ -1,0 +1,66 @@
+{
+  "headline": "Washington Turns Equity Investor in Rare Earths and Semiconductors",
+  "lede": "The @unusual_whales account, which monitors investment disclosures from U.S. officials, assembled a basket of equities in which the Trump administration has taken stakes — and that basket is now valued at roughly $21.5 billion, up 167 percent over roughly six months. CNBC reported in early 2026 that the administration had made equity investments or obtained stakes in at least ten companies, a depth of direct government shareholding that experts describe as unprecedented outside wartime or economic crisis. The portfolio's two primary themes are critical minerals and semiconductors, with **Intel** (INTC) named among the holdings.",
+  "body": "The strategic logic is explicit: reduce American dependence on China for materials and manufacturing capabilities that Washington considers essential to national security. China dominates both the mining and refining of *rare earth elements*, accounting for the majority of global output in both steps. Rather than relying solely on tariffs or subsidies, the administration has moved to take direct equity positions — using government capital as venture backing for domestic supply chains. That approach mirrors the *industrial-policy* playbooks long practiced in Japan, South Korea, and, most pointedly, China itself, where patient state investment built dominant processing industries over decades.\n\nTrump's offhand remark that rare earth is \"actually not that rare\" is geologically defensible but economically beside the point. Rare earth elements — 17 metals including neodymium, dysprosium, and cerium, used in everything from electric motors to missile guidance systems — are indeed more crustal-abundant than the name implies; the \"rare\" historically referred to the difficulty of finding them in economically recoverable concentrations, not their absolute scarcity. The real bottleneck is processing: China spent decades and significant state capital building a refining infrastructure that Western countries largely ceded. Having ore in the ground is irrelevant without the capacity to separate and purify it at industrial scale.\n\nIntel (INTC) sits at the semiconductor end of the portfolio. The company has been a major recipient of funding under the *CHIPS and Science Act*, the 2022 law that appropriated roughly $52 billion in federal subsidies to rebuild domestic chip manufacturing. Any government stake in Intel may reflect terms negotiated alongside that subsidy rather than a straightforward open-market purchase — a structural distinction that matters when interpreting the portfolio's headline return.\n\nThe 167 percent figure reflects appreciation in the market value of the underlying stocks, not necessarily realized fiscal gains for taxpayers. The government's actual economic position in each holding depends on deal structure: whether stakes were taken as warrants, below-market equity grants tied to subsidy agreements, or arm's-length purchases. Rising stock prices for companies that received government backing is also not unambiguously good news — it can equally reflect the market pricing in future subsidy flows. The number is striking; the terms of each individual deal would tell a more complete story.",
+  "tickers": [
+    "INTC"
+  ],
+  "companies": [
+    {
+      "name": "Intel",
+      "ticker": "INTC"
+    }
+  ],
+  "poster": "legen_eth",
+  "concepts": [
+    {
+      "key": "rare-earth-elements",
+      "term": "Rare Earth Elements",
+      "definition": "A group of 17 metallic elements — including neodymium, dysprosium, and cerium — used in high-tech applications from electric motors to missile guidance systems. Despite the name, most are geologically abundant; the 'rare' originally referred to the difficulty of finding them in economically recoverable concentrations. China dominates both global mining and, more critically, the refining of these materials."
+    },
+    {
+      "key": "critical-minerals",
+      "term": "Critical Minerals",
+      "definition": "Raw materials deemed strategically essential to national security, clean-energy infrastructure, and advanced manufacturing. The U.S. government maintains a formal list that includes rare earths, lithium, and cobalt. Dependence on foreign suppliers — particularly China — has driven bipartisan policy concern and, increasingly, direct government investment."
+    },
+    {
+      "key": "industrial-policy",
+      "term": "Industrial Policy",
+      "definition": "Government intervention to shape the structure of a national economy — directing capital, subsidies, or regulation toward targeted industries rather than leaving allocation to markets alone. Long practiced across East Asia, it has returned to U.S. policy debates in the context of semiconductor and critical-minerals supply chains."
+    },
+    {
+      "key": "chips-act",
+      "term": "CHIPS and Science Act",
+      "definition": "A 2022 U.S. law that appropriated roughly $52 billion in federal subsidies to support domestic semiconductor manufacturing and research. It also included provisions allowing the government to take equity stakes or warrants in some funded companies, giving Washington a direct financial interest in chipmaker success."
+    },
+    {
+      "key": "unusual-whales",
+      "term": "unusual_whales",
+      "definition": "A financial data platform and social-media account that aggregates and publishes trading and investment disclosures from U.S. politicians and government officials. It has built a wide following by surfacing patterns in official activity and constructing composite 'portfolios' to track aggregate performance over time."
+    },
+    {
+      "key": "warrants",
+      "term": "Warrants (equity)",
+      "definition": "Contracts that give the holder the right to purchase shares at a fixed price before a set expiration date. Governments sometimes receive warrants — rather than direct equity — as a condition of providing loans or subsidies, allowing them to share in future upside without an upfront purchase at current prices."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The 167 percent figure reflects appreciation in the market value of the government's reported stakes, not confirmed fiscal gains for American taxpayers. Actual economic benefit depends on each deal's structure — cost basis, whether instruments are warrants or direct equity, and conditions attached to accompanying subsidy agreements. Additionally, Trump's claim that rare earth is 'not that rare' is geologically partly accurate but misleads about the real constraint, which is refining and processing capacity rather than geological abundance; China's dominance stems from industrial investment in processing infrastructure, not from owning uniquely large ore deposits.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2026/02/07/trump-administration-equity-portfolio-grows-these-are-investments-so-far.html",
+      "title": "Trump administration equity portfolio grows — CNBC",
+      "note": "Primary source: confirms at least 10 company stakes, critical minerals and semiconductor focus, 'unprecedented outside wartime' framing"
+    },
+    {
+      "url": "https://finbold.com/trump-administration-stock-portfolio-soars-169-in-2025/",
+      "title": "Trump Administration stock portfolio soars 169% in 2025 — Finbold",
+      "note": "Corroborates the headline return figure and portfolio composition"
+    }
+  ],
+  "bookmark_id": "2017980630491865122",
+  "generated_at": "2026-05-07T04:15:38.075230Z",
+  "backend": "claude"
+}

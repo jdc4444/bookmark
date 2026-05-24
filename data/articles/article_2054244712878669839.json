@@ -1,0 +1,135 @@
+{
+  "headline": "Historic AI Infrastructure Spending Leaves Energy as the Overlooked Trade",
+  "lede": "Ronald-Peter Stöferle, managing partner of Incrementum AG and author of the widely-cited annual 'In Gold We Trust' report, packages a striking historical comparison and a market-positioning trade into a single post. The AI infrastructure buildout, he argues, represents the largest concentrated capital mobilization in American history — and the market has priced the technology stack while leaving the physical infrastructure to power it nearly unowned.",
+  "body": "The chart at the center of this post compares planned AI *data center* *capex* — physical spending on servers, cooling, and power by Amazon (AMZN), Microsoft (MSFT), Alphabet (GOOGL), Meta Platforms (META), and Oracle (ORCL) — against the inflation-adjusted cost of great American megaprojects. The underlying numbers are credible: Epoch AI, which extracts standardized figures directly from SEC filings, estimates the five *hyperscalers* spent roughly $500 billion on infrastructure in 2025 alone, with 2026 *forward guidance* pushing combined commitments past $700 billion. A six-year cumulative total near $930 billion is plausible under reasonable definitions of the time window and which companies to include.\n\nThe specific claim that this sum exceeds the Marshall Plan, Apollo Program, Manhattan Project, and Interstate Highway System *combined* is, however, sensitive to inflation methodology — and the chart's own figures create a problem. Its stated figures ($170 billion for the Marshall Plan, $252 billion for Apollo, $36 billion for the Manhattan Project, and $620 billion for the Interstate) sum to roughly **$1.08 trillion**, which is larger than $930 billion, not smaller. The claim holds only under more conservative inflation adjustments that peg the Interstate at around $500 billion and the Marshall Plan near $130 billion, yielding a combined figure of about $880 billion. Neither interpretation is obviously wrong — inflation methodology is a legitimate variable — but as presented, the tweet overstates the comparison against the chart's own numbers. The broader narrative — that this cycle is mobilizing capital at a pace without peacetime precedent — stands on its own without the contested arithmetic.\n\nThe more original observation is the equity-positioning argument. Information Technology and Communication Services together represent roughly 43 percent of the S&P 500 by *sector weight* — the sectors containing the hyperscalers, the *GPU* supply chain, and the software platforms built atop AI. **Energy** represents approximately 4 percent. The ratio is about eleven to one. Stöferle's thesis is that markets have bid up the consumers of electricity while largely ignoring the producers and distributors of it.\n\nThe demand case for energy is well-grounded. The International Energy Agency reported in early 2026 that global data center electricity consumption surged 17 percent in 2025, with AI-focused facilities accounting for roughly half of that growth. AI data center power use is projected to triple by 2030. New data center construction currently in progress could add 140 gigawatts of load to the grid — approximately ten times current data center consumption. Hyperscalers are already shifting from passive utility customers to active partners in power generation, negotiating private nuclear and natural-gas agreements precisely because the grid cannot absorb demand at the rate they require.\n\nStöferle's prior is relevant context. As an Austrian School economist and a vocal gold and Bitcoin advocate, his analytical lens consistently favors real assets over financial claims — and the energy trade fits that worldview neatly. The thesis does not depend on his authority alone: Morgan Stanley (MS) and BlackRock (BLK) have published substantially similar energy-bottleneck arguments in 2026, and the IEA's demand data is primary evidence independent of any investor's prior. The question this post actually raises — whether equity markets are systematically underpricing physical constraints on digital growth — is a serious one, whatever one thinks of the messenger.",
+  "tickers": [
+    "AMZN",
+    "MSFT",
+    "GOOGL",
+    "META",
+    "ORCL",
+    "MS",
+    "BLK"
+  ],
+  "companies": [
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "name": "Oracle",
+      "ticker": "ORCL"
+    },
+    {
+      "name": "Morgan Stanley",
+      "ticker": "MS"
+    },
+    {
+      "name": "BlackRock",
+      "ticker": "BLK"
+    },
+    {
+      "name": "Incrementum AG",
+      "ticker": null
+    }
+  ],
+  "poster": "RonStoeferle",
+  "concepts": [
+    {
+      "key": "capex",
+      "term": "Capital Expenditure (Capex)",
+      "definition": "Money a company spends on physical long-term assets — servers, buildings, power equipment — rather than day-to-day operating costs. In the AI buildout context, capex tracks how much hyperscalers are investing in the physical infrastructure that runs AI models, and is reported in SEC filings and quarterly earnings."
+    },
+    {
+      "key": "hyperscaler",
+      "term": "Hyperscaler",
+      "definition": "A cloud computing company that operates data centers at a scale large enough to achieve significant cost efficiencies and reshape adjacent markets — typically Amazon Web Services, Microsoft Azure, Google Cloud, Meta, and Oracle. The term implies sufficient bargaining power to move electricity prices, real estate markets, and chip supply chains."
+    },
+    {
+      "key": "gpu",
+      "term": "GPU (Graphics Processing Unit)",
+      "definition": "Originally designed for rendering video game graphics, GPUs are now the dominant hardware for training and running AI models because their massively parallel architecture handles the matrix mathematics of neural networks far more efficiently than conventional CPUs. Nvidia supplies the dominant share of AI GPUs."
+    },
+    {
+      "key": "sector-weight",
+      "term": "Sector Weight",
+      "definition": "The proportion of a stock market index — such as the S&P 500 — represented by companies classified in a given industry sector. A sector weight of 43 percent for technology means 43 cents of every dollar invested in the index goes to technology companies. Weights shift automatically as market capitalizations change."
+    },
+    {
+      "key": "forward-guidance",
+      "term": "Forward Guidance",
+      "definition": "Company-issued statements about expected future financial performance, typically shared during quarterly earnings calls. Capital expenditure guidance is closely watched in the AI sector because it signals how aggressively a company plans to invest in infrastructure over the coming year, and often moves related stocks — chip makers, utilities, real estate investment trusts — on publication."
+    },
+    {
+      "key": "gigawatt",
+      "term": "Gigawatt (GW)",
+      "definition": "A unit of power equal to one billion watts, used to describe large-scale electricity generation and consumption. A single gigawatt can power roughly 750,000 average American homes. Modern hyperscale AI data centers can consume one gigawatt or more each — a scale that strains regional power grids built over decades for far smaller loads."
+    },
+    {
+      "key": "austrian-school",
+      "term": "Austrian School (Economics)",
+      "definition": "A tradition in economic thought, associated with economists including Ludwig von Mises and Friedrich Hayek, that emphasizes the role of individual action, skepticism of central bank intervention, and preference for hard-money assets like gold over paper or credit-based wealth. Investors in this tradition tend to favor commodities and real assets as hedges against monetary expansion."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet claims the six-year AI data center capex of approximately $930 billion exceeds the combined inflation-adjusted cost of the Marshall Plan, Apollo Program, Manhattan Project, and Interstate Highway System. The claim is contestable on its own chart's numbers. The chart assigns those four programs $170 billion, $252 billion, $36 billion, and $620 billion respectively — a sum of roughly $1.08 trillion, which is larger than $930 billion, not smaller. The tweet's claim holds only under more conservative inflation adjustments (Interstate at ~$500 billion, Marshall Plan at ~$130 billion), yielding a combined total of roughly $880 billion. Inflation methodology is a genuine variable and neither the high nor low estimates are wrong per se, but the tweet presents the comparison as settled when it is sensitive to which deflator is applied. The broader narrative — that this investment cycle is historically unprecedented in pace — is supported by Epoch AI's SEC-filing data and does not require the 'exceeds all combined' framing to be persuasive.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://epoch.ai/data-insights/hyperscaler-capex-trend/",
+      "title": "Hyperscaler capex has quadrupled since GPT-4's release — Epoch AI",
+      "note": "Primary dataset: SEC-standardized capex figures for five hyperscalers; approximately $500B in 2025, $770B projected for 2026"
+    },
+    {
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "title": "Data centre electricity use surged in 2025 — International Energy Agency",
+      "note": "Primary IEA finding: 17% consumption growth in 2025; AI data centers projected to triple power use by 2030"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/why-ai-companies-may-invest-more-than-500-billion-in-2026",
+      "title": "Why AI Companies May Invest More than $500 Billion in 2026 — Goldman Sachs",
+      "note": "Institutional capex projection: total hyperscaler spend 2025–2027 estimated at $1.15 trillion"
+    },
+    {
+      "url": "https://fortune.com/2026/04/30/big-tech-hyperscalers-will-spend-700-billion-on-ai-infrastructure-this-year-with-no-clear-end-in-sight-eye-on-ai/",
+      "title": "Big Tech hyperscalers will spend $700 billion on AI infrastructure this year — Fortune",
+      "note": "2026 individual company guidance and Q1 2026 combined capex exceeding $130B in a single quarter"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/articles/powering-ai-energy-market-outlook-2026",
+      "title": "Energy Markets Race to Solve the AI Power Bottleneck — Morgan Stanley",
+      "note": "Institutional energy investment thesis; frames power infrastructure as the defining constraint on AI growth"
+    },
+    {
+      "url": "https://www.brookings.edu/the-costs-of-the-manhattan-project/",
+      "title": "The Costs of the Manhattan Project — Brookings Institution",
+      "note": "Primary source for inflation-adjusted Manhattan Project cost: $1.89B original, $21.6B in 1996 dollars"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/04/29/technology/ai-spending-tech-data-centers.html",
+      "title": "A.I. Spending Sets a Record, With No End in Sight — The New York Times",
+      "note": "Q1 2026 earnings coverage: Alphabet, Amazon, Microsoft, Meta reported over $130B in quarterly capex combined"
+    },
+    {
+      "url": "https://www.wired.com/story/data-center-ai-boom-us-economy-jobs/",
+      "title": "The AI Data Center Boom Is Warping the US Economy — WIRED",
+      "note": "Macroeconomic context: AI data center investment accounted for nearly all US GDP growth in H1 2025 per Harvard economist Jason Furman"
+    }
+  ],
+  "bookmark_id": "2054244712878669839",
+  "generated_at": "2026-05-14T10:34:35.760489Z",
+  "backend": "claude-sonnet-subagent"
+}

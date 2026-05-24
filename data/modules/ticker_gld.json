@@ -1,0 +1,21 @@
+{
+  "key": "GLD",
+  "name": "SPDR Gold Shares",
+  "exchange": "NYSE Arca",
+  "type": "etf",
+  "note": "ETF — exception to standard no-ETF rule; included because GLD is a central subject of this bookmark.",
+  "blurb": "SPDR Gold Shares (GLD), launched in November 2004 by State Street Global Advisors and the World Gold Council, is the world's largest gold-backed exchange-traded fund by assets under management. Each share represents approximately 0.0926 troy ounces of gold held in allocated vaults, providing investors with direct economic exposure to spot gold prices without the logistical burden of physical ownership. GLD is widely used as a safe-haven hedge against equity-market volatility, U.S. dollar weakness, and inflation expectations. Its 52-week range through May 2026 spans $291.78 to $509.70, reflecting gold's dramatic bull run as central bank demand and geopolitical uncertainty drove the metal to successive records. Expense ratio: 0.40% annually.",
+  "recent": "GLD traded at $433.25 on April 24, 2026 — up 0.51% on the session and maintaining levels near multi-year highs after a 40%-plus gain over the prior twelve months. The fund had pulled back from a peak near $509 in January, logging a roughly 27% drawdown into a March trough, before partially recovering through April. By early May 2026 GLD was trading near $419. Gold's relative resilience during the equity turbulence of early 2026 reinforced its correlation-breaking role in diversified portfolios and drew comparisons with semiconductor equities to highlight divergent risk appetite.",
+  "sources": [
+    {
+      "url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld",
+      "title": "SPDR Gold Shares — State Street Global Advisors"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/GLD/",
+      "title": "GLD — Yahoo Finance"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

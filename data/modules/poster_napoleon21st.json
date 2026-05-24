@@ -1,0 +1,14 @@
+{
+  "key": "napoleon21st",
+  "display_name": "napoleon21st (display name not verifiable)",
+  "blurb": "Public information about @napoleon21st is thin. The X profile is login-walled to anonymous web fetches and the handle does not appear in indexed lists of small-cap or photonics commentators, in financial press citations, or in cached search results that would normally surface a high-engagement account. The post in question reads as that of an active retail investor with concentrated positions in three specialist semiconductor and photonics small-caps (SIVE, SILC, LPK) who is comfortable using LLM 'thinking models' as a sanity-check on his own theses.",
+  "credibility_note": "No verifiable track record was located through public web search. Treat the account as an unfamiliar retail voice rather than an established analyst or fund manager. The post itself is candid - it labels the LLM output as 'not necessarily true' - which argues against treating it as a recommendation, but readers should not infer authority where the public record does not establish it.",
+  "links": [],
+  "sources": [
+    {"url": "https://x.com/napoleon21st", "title": "X profile (login-walled to anonymous fetch)"},
+    {"url": "https://x.com/napoleon21st/status/2051507041617969351", "title": "Original post (5 May 2026)"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

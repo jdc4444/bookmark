@@ -1,0 +1,32 @@
+{
+  "key": "WMT",
+  "name": "Walmart Inc.",
+  "exchange": "NYSE",
+  "blurb": "Walmart Inc. is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. It is the world's largest company by revenue and the largest private employer. Walmart also runs Sam's Club retail warehouses and has expanded into e-commerce, advertising, and supply chain services.",
+  "recent": "In the past 30 days, Walmart stock has seen mixed performance amid shareholder proposals to reduce the Walton family's voting power. The company announced a $350 million investment in a new milk processing facility in Texas and formed a 'Human Intelligence Team' to boost beauty sales. Analysts remain focused on Walmart's ad growth and competitive positioning against Costco and Amazon.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/WMT/news/",
+      "title": "Walmart Inc. (WMT) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/WMT/news/",
+      "title": "WMT News Today | Why did Walmart stock go down today? - MarketBeat"
+    },
+    {
+      "url": "https://www.wsj.com/market-data/quotes/US/XNAS/WMT",
+      "title": "WMT | Walmart Inc. Stock Price & News - WSJ"
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/wmt?op=1",
+      "title": "Walmart News | Markets Insider"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/WMT/news",
+      "title": "Walmart Inc. (WMT) Latest Stock News | Seeking Alpha"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:46:21.296959Z",
+  "backend": "deepseek"
+}

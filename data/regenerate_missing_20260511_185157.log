@@ -1,0 +1,17 @@
+[2026-05-11T18:51:57] start: missing-only n=29 concurrency=4
+[2026-05-11T19:01:42] ok 2053696568944120176
+[2026-05-11T19:01:51] ok 2053707362775466461
+[2026-05-11T19:01:57] exc 2053674761721450801 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053674761721450801', '--prefer', 'claude']' timed out after 600 seconds
+[2026-05-11T19:01:57] exc 2053674371206599103 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053674371206599103', '--prefer', 'claude']' timed out after 600 seconds
+[2026-05-11T19:09:23] ok 2053650310854328729
+[2026-05-11T19:10:42] ok 2053439521178751453
+[2026-05-11T19:11:51] exc 2053625578780086655 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053625578780086655', '--prefer', 'claude']' timed out after 600 seconds
+[2026-05-11T19:11:57] exc 2053601586501579250 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053601586501579250', '--prefer', 'claude']' timed out after 600 seconds
+[2026-05-11T19:18:22] ok 2053300899913859411
+[2026-05-11T19:19:43] ok 2053236293371674693
+[2026-05-11T19:20:42] exc 2053290202995564782 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053290202995564782', '--prefer', 'claude']' timed out after 600 seconds
+[2026-05-11T19:21:51] exc 2053279575270969437 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053279575270969437', '--prefer', 'claude']' timed out after 600 seconds
+[2026-05-11T19:28:22] exc 2053227694549057847 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053227694549057847', '--prefer', 'claude']' timed out after 600 seconds
+[2026-05-11T19:28:29] ok 2053022747765457005
+[2026-05-11T19:29:06] ok 2053143268452622477
+[2026-05-11T19:29:43] exc 2053222352301727763 TimeoutExpired: Command '['/opt/homebrew/opt/python@3.14/bin/python3.14', '/Users/alphaone/Documents/Code/Bookmark/article_generator.py', '--bookmark-id', '2053222352301727763', '--prefer', 'claude']' timed out after 600 seconds

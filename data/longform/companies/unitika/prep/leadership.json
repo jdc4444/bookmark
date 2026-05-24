@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.unitika.co.jp/company/executive/",
+    "https://www.unitika.co.jp/sustainability/governance/corporate/",
+    "https://www.unitika.co.jp/news/ir/post_238.html",
+    "https://www.unitika.co.jp/news/ir/post_246.html",
+    "https://www.unitika.co.jp/news/ir/post_304.html",
+    "https://kitaishihon.com/company/3103/board-of-director",
+    "https://www.kitahama.or.jp/professionals/keiko-horino/",
+    "https://ja.wikipedia.org/wiki/古川実",
+    "https://diamond.jp/articles/-/32712",
+    "https://www.nikkei.com/article/DGKDZO26825060V10C11A4TJP000/",
+    "https://www.jiji.com/jc/article?k=2025060200622&g=leaders"
+  ],
+  "key_finding": "REVIC didn't just take 66.76% of the votes — it deployed its own Managing Director (Kashiwagi Hisami) inside Unitika as Vice President to run structural reform, paired a career engineer CEO (Fujii) with a former Hitachi Zosen turnaround president (Furukawa) and a Kitahama insolvency partner (Horino) as outside directors. The April 2025 board reconstitution was a professional restructuring team assembly, not a governance reshuffle. April 2026 announcement: Kashiwagi pulled back to part-time as 'business recovery progressing smoothly; structural reforms largely complete' — confirms the deployment pattern was time-boxed.",
+  "board_april_2025": {
+    "directors": [
+      {
+        "name_ja": "藤井 実",
+        "name_romanized": "Fujii Minoru",
+        "title": "Representative Director, President & CEO",
+        "inside_outside": "inside",
+        "age": 64,
+        "born": null,
+        "joined_unitika": 1987,
+        "education": "Kyoto Institute of Technology — Graduate School of Textile Science (M.A. fiber science)",
+        "career_inside_unitika": [
+          "1987: Joined as fiber engineer",
+          "2008: Head of Nylon Fiber Manufacturing Division (Unitika Fiber Production Development HQ)",
+          "2012: Glass Fiber plant director",
+          "2019: Glass Fiber Business Division head + Executive Officer",
+          "Oct 2023: Senior Executive Officer; Head of Technology Supervision Division",
+          "Apr 30, 2025: Representative Director, President & CEO"
+        ],
+        "self_description": "'The only career employee in management'",
+        "framing_signal": "38-year Unitika lifer at the helm = continuity message to workforce; technologist message to REVIC."
+      },
+      {
+        "name_ja": "柏木 寿深",
+        "name_romanized": "Kashiwagi Hisami",
+        "alt_romanized": "Kashiwagi Toshimi",
+        "title": "Representative Director, Vice President — Structural Reform Promotion Office (until April 27 2026)",
+        "inside_outside": "inside",
+        "age": 47,
+        "born": "1977-10-27",
+        "is_revic_operative": true,
+        "career_pre_unitika": [
+          "2000-04: Joined Daiwa Securities",
+          "2010-02: Joined Corporate Revitalization Support Organization (predecessor of REVIC)",
+          "2011-08: Yamgiwa Corporation — Executive Officer, Production Distribution Division",
+          "2015-10: Kabe no Ana Corporation — Director, Management Division",
+          "2018-01: REVIC — Managing Director appointment",
+          "2019-03: Outside Director, Chushigai Corporation",
+          "2021-09: Outside Director, Iwai Corporation",
+          "2021-12: REVIC — Current Managing Director (concurrent with Unitika)"
+        ],
+        "career_at_unitika": [
+          "2025-04-30: Joined as Representative Director, Vice President — running Structural Reform Promotion Office; also industrial fiber and non-woven business divisions",
+          "2026-04-27 announcement: Pulled back to part-time (non-executive) Director effective 2026-06-26 — stated reason: 'business recovery plan progressing smoothly; structural reforms largely complete; enabling new management to focus on growth strategy'"
+        ],
+        "stock_holdings": "Zero shares as of 2025-02-27 — confirms operative rather than aligned shareholder",
+        "significance": "Kashiwagi is the REVIC playbook. A REVIC Managing Director deployed inside the portfolio company as Vice President with explicit responsibility for structural reform. His pullback to part-time in one year mirrors PE-style deployment — drop in the operator, execute the playbook, exit when stabilized."
+      },
+      {
+        "name_ja": "三須 修一",
+        "name_romanized": "Misu Shuichi",
+        "title": "Director, Senior Managing Executive Officer",
+        "inside_outside": "inside",
+        "age": 56,
+        "responsibilities": "Finance, legal compliance, IT systems, sustainability promotion",
+        "career_detail_known": false,
+        "note": "CFO equivalent — owns the financial reporting + compliance stack. Career bio thin in public sources."
+      },
+      {
+        "name_ja": "小林 瑛二",
+        "name_romanized": "Kobayashi Eiji",
+        "title": "Director, Senior Managing Executive Officer",
+        "inside_outside": "inside",
+        "age": 43,
+        "responsibilities_april_2025": "Fiber segment + business planning",
+        "responsibilities_june_2026": "Strategic Planning; IR/Communications; Functional Materials; Related Businesses",
+        "career_detail_known": false,
+        "note": "Inherits the Strategic Planning + IR portfolio when Kashiwagi steps back."
+      },
+      {
+        "name_ja": "藤本 慎司",
+        "name_romanized": "Fujimoto Shinji",
+        "title": "Director, Senior Managing Executive Officer",
+        "inside_outside": "inside",
+        "age": 48,
+        "responsibilities_april_2025": "Polymer segment, glass fiber, ACF, glass beads",
+        "responsibilities_june_2026": "Polymer Segment; Glass Fiber; ACF; Glass Beads; Procurement/Logistics; Global Planning; Reform Implementation",
+        "career_detail_known": false,
+        "note": "Effectively runs the post-divestiture core operating businesses. His responsibility envelope expands in June 2026 to include Reform Implementation — taking over what was Kashiwagi's domain."
+      },
+      {
+        "name_ja": "奥 大和",
+        "name_romanized": "Oku Yamato",
+        "title": "Director, Senior Executive Officer",
+        "inside_outside": "inside",
+        "age": 36,
+        "responsibilities_april_2025": "HR + finance oversight",
+        "career_detail_known": false,
+        "note": "Notably young; leaves the board in June 2026 reorganization (not on post_304 director list)."
+      },
+      {
+        "name_ja": "古川 実",
+        "name_romanized": "Furukawa Minoru",
+        "title": "Outside Director (non-executive); Chair of Nomination & Compensation Committees (until 2025-04-30 dissolution)",
+        "inside_outside": "outside",
+        "age": 82,
+        "born": "1943-06-13",
+        "career": [
+          "1966: Graduated Osaka University, Faculty of Economics",
+          "1966: Joined Hitachi Zosen Corporation (now Canadebis)",
+          "1976: Singapore posting",
+          "2005-2013: 17th President of Hitachi Zosen",
+          "Until 2025-04-30: Chair, Nomination & Compensation Committees, Unitika (committee dissolved at REVIC capital event)",
+          "Concurrent: Non-Executive Director, Ikeda Senshu Bank",
+          "Concurrent: Senior positions, Osaka Chamber of Commerce and Industry + Kansai Economic Federation"
+        ],
+        "the_hitachi_zosen_precedent": "Furukawa is on the Unitika board because he has done this once before. As Hitachi Zosen's 17th president he led the company's transformation from a struggling 130-year-old shipbuilder into an environmental-technology business he repeatedly described as 'the land-based Hitachi Zosen.' His public framing of that turnaround — 'a ¥1 trillion company by 2030' built on a 130th-anniversary 'second founding' — is the exact intellectual template REVIC is trying to apply to Unitika's 137-year history.",
+        "exits_board": "2026-06-26 (per post_304); presumably retirement at 83. Replaced by Hakomori Kazuaki."
+      },
+      {
+        "name_ja": "石川 路子",
+        "name_romanized_professional": "Ishikawa Michiko",
+        "name_romanized_alt": "Ishikawa Noriko",
+        "name_koseki": "伊藤 路子 (Ito Noriko)",
+        "title": "Outside Director (non-executive)",
+        "inside_outside": "outside",
+        "age": 54,
+        "career": [
+          "University of the Ryukyus — College of Law and Letters",
+          "University of the Ryukyus Law School",
+          "2021: Kanagawa Bar Association registration (73rd registration period)",
+          "Yokohama Minami Law Office — practicing attorney"
+        ],
+        "expertise": "Attorney; specific specialty not publicly detailed beyond general legal practice",
+        "exits_board": "Conspicuously absent from the post_304 June 2026 board list. Has likely been replaced.",
+        "note": "Substantive bio detail is thin in public sources — 73rd-period bar registration is relatively recent (2021), suggesting a less senior practitioner than her two outside-director peers. Her exit from the June 2026 board may signal REVIC was rotating to a more senior outside director profile."
+      },
+      {
+        "name_ja": "堀野 桂子",
+        "name_romanized": "Horino Keiko",
+        "title": "Outside Director (non-executive)",
+        "inside_outside": "outside",
+        "age": 43,
+        "career": [
+          "2004-03: Osaka University, Faculty of Law (B.A.)",
+          "2005-10: Completed Judicial Training Institute (58th cohort)",
+          "2005-10: Bar admission, Osaka Bar Association",
+          "2005-10: Joined Kitahama Law Offices (Osaka office)",
+          "2013-01: Partner, Kitahama Law Offices",
+          "2017–: Mediator, Civil Conciliation Center",
+          "2021–: Guest Professor, Osaka University Graduate School of Advanced Judicial Studies (trust law)",
+          "2009-2023: Part-time lecturer, Osaka University of Economics Graduate School",
+          "2021–: Outside Director, Medical Ichiko Group",
+          "2023–: Outside Director, Orbis System Corporation",
+          "2025–: Outside Director, Unitika"
+        ],
+        "practice_areas": [
+          "Finance",
+          "Business restructuring (private restructuring; civil rehabilitation; corporate reorganization; bankruptcy liquidation)",
+          "M&A",
+          "Real estate",
+          "Energy",
+          "Trust law (specialism)",
+          "Structured finance / project finance / FinTech compliance"
+        ],
+        "professional_associations": [
+          "Trust Law Society",
+          "Japan Real Estate Finance Engineering Society",
+          "National Insolvency Practice Network",
+          "Osaka Bar Association committees"
+        ],
+        "the_kitahama_signal": "Horino is a corporate-rehabilitation specialist from Kitahama Law Offices — one of Osaka's senior business law firms with a substantial insolvency practice. She handles civil rehabilitation, corporate reorganization, and bankruptcy procedures professionally. Her appointment to the Unitika board as a 43-year-old senior partner — concurrent with REVIC's capital injection — is a working appointment, not a ceremonial one. She continues on the board after the June 2026 transition."
+      }
+    ],
+    "auditors": [
+      {
+        "name_ja": "中野 信介",
+        "name_romanized": "Nakano Shinsuke",
+        "title": "Standing (full-time) Auditor",
+        "inside_outside": "inside",
+        "age": 40,
+        "career_detail_known": false,
+        "june_2026_transition": "Promoted to Director, Senior Executive Officer (HR/Administration primary, Finance/Reform secondary) — moves from audit to executive function"
+      },
+      {
+        "name_ja": "福原 哲晃",
+        "name_romanized": "Fukuhara Tetsuaki",
+        "title": "Outside Auditor",
+        "inside_outside": "outside",
+        "age": 78,
+        "career_detail_known": false,
+        "exits_board": "Conspicuously absent from the post_304 June 2026 auditor list; appears replaced by Murase Kenichi (or Murase moving from interim to formal slot)"
+      },
+      {
+        "name_ja": "佐野 誠",
+        "name_romanized": "Sano Makoto",
+        "title": "Outside Auditor",
+        "inside_outside": "outside",
+        "age": 66,
+        "career_detail_known": false,
+        "continues": true
+      },
+      {
+        "name_ja": "村瀬 謙一",
+        "name_romanized": "Murase Kenichi",
+        "title": "Outside Auditor",
+        "inside_outside": "outside",
+        "career_detail_known": false,
+        "appears_in_governance_page": true,
+        "appears_in_post_304": true,
+        "note": "Listed on Unitika's sustainability governance page and in the post_304 June 2026 auditor list. Took (or is taking) the outside auditor slot Fukuhara is vacating."
+      }
+    ]
+  },
+  "board_june_2026_pending": {
+    "announcement_date": "2026-04-27",
+    "effective_date": "2026-06-26",
+    "stated_rationale": "Business recovery plan progressing smoothly; structural reforms largely complete; enabling new management to focus on growth strategy",
+    "changes": [
+      "Kashiwagi Hisami: Representative Director, Vice President → part-time Director (non-executive) — REVIC operative pulled back",
+      "Furukawa Minoru: Outside Director → exits (retirement at 83)",
+      "Ishikawa Michiko: Outside Director → exits",
+      "Oku Yamato: Director → exits",
+      "Nakano Shinsuke: Standing Auditor → Director, Senior Executive Officer (HR/Admin + Finance/Reform)",
+      "Fukuhara Tetsuaki: Outside Auditor → exits",
+      "Hakomori Kazuaki (箱守 一昭): NEW Outside Director",
+      "Iwafuji Atsushi (岩藤 篤): NEW Standing Auditor (concurrent Executive Officer for Corporate Planning)",
+      "Horino Keiko: Outside Director → continues",
+      "Sano Makoto: Outside Auditor → continues",
+      "Murase Kenichi: Outside Auditor → continues"
+    ],
+    "interpretation": "REVIC's 'restructuring team' phase is ending. Kashiwagi-the-operative becomes Kashiwagi-the-observer. Furukawa (who lent precedent expertise) retires. The next phase is led by Fujii + three career-Unitika executives (Misu, Kobayashi, Fujimoto), with Horino retained for ongoing legal/restructuring expertise. The Standing Auditor concurrently being an executive (Iwafuji as Corporate Planning EO + auditor) is an unusual structure — flag this for governance observers."
+  },
+  "previous_president": {
+    "name_ja": "上埜 修司",
+    "name_romanized": "Ueno Shuji",
+    "stepped_down": "2025-04 (around capital restructuring)",
+    "context": "Resigned 'taking responsibility' for the textile business withdrawal decision he authorized — formulation typical of Japanese industrial governance accountability"
+  },
+  "executive_officers_above_board_level": [
+    {"name": "Morita Masahiro", "responsibility": "Film Division"},
+    {"name": "Ashida Naohiko", "responsibility": "Functional Materials"},
+    {"name": "Ozaki Tatsuhiro", "responsibility": "Personnel & Uji Site"},
+    {"name": "Murakami Koji", "responsibility": "Planning & Reform"}
+  ],
+  "central_thesis_for_chapter": "REVIC didn't just take control of Unitika — it assembled a professional restructuring team and embedded it inside the company for an explicit, time-boxed deployment. The April 2025 board was a PE-style operational team (career-engineer CEO + REVIC-deployed VP + Hitachi-Zosen-turnaround alumnus outside director + Kitahama insolvency partner outside director). The April 2026 announcement that Kashiwagi is being pulled back to part-time confirms the deployment was time-boxed at roughly one year. Whether the next phase succeeds depends less on continued REVIC oversight than on the three career-Unitika executives — Misu, Kobayashi, Fujimoto — proving they can run a smaller, higher-margin specialty-materials business without the restructuring scaffolding."
+}

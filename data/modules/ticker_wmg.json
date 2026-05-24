@@ -1,0 +1,32 @@
+{
+  "key": "WMG",
+  "name": "Warner Music Group Corp.",
+  "exchange": "NASDAQ",
+  "blurb": "Warner Music Group Corp. is a global music entertainment company operating in recorded music and music publishing. It is one of the three major record labels, alongside Universal Music Group and Sony Music Entertainment. The company owns a vast catalog of recordings and songs, and works with artists across all genres. WMG generates revenue through streaming, physical sales, licensing, and artist services.",
+  "recent": "In the past 30 days, Warner Music Group announced a strategic investment, though details are limited. The stock has been trading near its 52-week range, with analysts providing mixed ratings. No major earnings or price-moving catalysts have been reported in the immediate period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/WMG/",
+      "title": "Warner Music Group Corp. (WMG) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/WMG/",
+      "title": "Warner Music Group (WMG) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/WMG",
+      "title": "WMG Stock Price | Warner Music Group Corp. Stock Quote (U.S.: Nasdaq)"
+    },
+    {
+      "url": "https://edition.cnn.com/markets/stocks/WMG",
+      "title": "WMG Stock Quote Price and Forecast | CNN"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/WMG/",
+      "title": "Warner Music Group Corp. Stock Price, News & Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:41:45.813107Z",
+  "backend": "deepseek"
+}

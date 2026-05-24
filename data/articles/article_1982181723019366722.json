@@ -1,0 +1,48 @@
+{
+  "headline": "Viral Claim That Sonnet 4.5 Weights Leaked Finds No Credible Support",
+  "lede": "A post by @taker_of_whizz asserts that the base-model weights for Anthropic's Claude Sonnet 4.5 were leaked months ago, and that this leak quietly underpins most of the new Chinese open-source models now circulating. The claim spread quickly in AI circles — but the evidence does not back it up.",
+  "body": "The post pairs a dramatic assertion with an image of a file called `bobcat.bin` weighing 531 gigabytes, tagged as 'Pic unrelated' — a wink-wink disclaimer that lets the implication hang without quite making it explicit. That rhetorical move is worth naming: the image does the argumentative work the text disavows.\n\n**Claude Sonnet 4.5** is Anthropic's September 2025 frontier model, designed for long-running agentic coding tasks. Its system card describes a full safety-evaluation process, and Anthropic has not acknowledged any weight leak. A Manifold prediction market created specifically in response to this tweet — asking whether credible evidence of the leak would surface before October 2025 — resolved **No** in March 2026. The resolution criteria required confirmation from Anthropic, a security firm, or independent technical verification; none came.\n\nThe second claim — that Chinese open-source models are 'in some way derived' from the leaked weights — is equally unsupported. Models such as Alibaba's Qwen3.5-Medium have reached performance levels comparable to Sonnet 4.5 on standard benchmarks, but the research attributing that progress points to architectural improvements, *quantization* (compressing weights to 4-bit precision without significant accuracy loss), and large-scale supervised training — not illicit copying.\n\nModel weight theft is a real and serious concern in the industry: a 500-plus-gigabyte blob of floats represents billions of dollars of compute. But the fact that a rumor is plausible does not make it true. The machinery of extraordinary claims — a suggestive image, a knowing aside, the word 'almost' doing heavy lifting — can travel much faster than verification.",
+  "tickers": [],
+  "poster": "taker_of_whizz",
+  "concepts": [
+    {
+      "key": "model-weights",
+      "term": "model weights",
+      "definition": "The numerical parameters — billions of floating-point values — that encode what a neural network has learned during training. Weights are what you need to run a model locally; without them, you have only an API. Stealing weights is equivalent to stealing the trained model itself."
+    },
+    {
+      "key": "weight-quantization",
+      "term": "weight quantization",
+      "definition": "A compression technique that represents each weight using fewer bits (e.g., 4-bit integers instead of 16-bit floats). This shrinks file size and memory footprint dramatically, often with minimal accuracy loss, allowing large models to run on consumer hardware."
+    },
+    {
+      "key": "distillation",
+      "term": "knowledge distillation",
+      "definition": "A training technique in which a smaller 'student' model learns to mimic the outputs of a larger 'teacher' model. The student can reach near-teacher performance at a fraction of the compute cost. Legitimate distillation uses only the teacher's outputs, not its weights."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The core claim — that Claude Sonnet 4.5 base-model weights were leaked and underpin Chinese open-source models — is not supported by any credible evidence. A Manifold prediction market created specifically around this tweet resolved No in March 2026 after no verification emerged from Anthropic, security researchers, or independent technical analysis. The suggestion that Chinese models are 'derived from' the alleged leak ignores documented legitimate explanations for their performance gains. The post hedges throughout ('in some way derived', 'almost all'), but the cumulative impression conveyed is stronger than the evidence warrants.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://manifold.markets/Medo/have-claude-sonnet-45-model-weights",
+      "title": "Have Claude Sonnet 4.5 model weights leaked before October 2025?",
+      "note": "Prediction market created in direct response to this tweet; resolved No in March 2026 — no credible evidence of a leak emerged"
+    },
+    {
+      "url": "https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf",
+      "title": "Claude Sonnet 4.5 System Card — Anthropic",
+      "note": "Official model documentation; Anthropic makes no mention of a weight leak"
+    },
+    {
+      "url": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
+      "title": "Alibaba's Qwen3.5-Medium models offer Sonnet 4.5 performance",
+      "note": "Attributes Chinese model performance gains to quantization and architectural work, not leaked weights"
+    }
+  ],
+  "bookmark_id": "1982181723019366722",
+  "generated_at": "2026-05-06T20:30:02.111501Z",
+  "backend": "claude"
+}

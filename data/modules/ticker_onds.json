@@ -1,0 +1,15 @@
+{
+  "key": "ONDS",
+  "name": "Ondas Holdings, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Ondas Holdings is an autonomous systems and drone technology company operating through two main segments: Ondas Autonomous Systems (drone and counter-drone platforms) and Ondas Networks (industrial wireless communications). Its Iron Drone Raider counter-UAS system and Optimus autonomous drone platforms serve defence, homeland security, and industrial customers in the US, Europe, Israel, and the UAE.",
+  "recent": "Ondas delivered 605% revenue growth in 2025, with Q4 2025 revenue of $30.1 million — up 629% year-over-year. A pending $175 million merger with Mistral, a Bethesda, MD-based prime contractor with over $1 billion in existing DoD IDIQ (indefinite-delivery, indefinite-quantity) contracts, was announced. The company secured US border-security drone contracts. Stock rallied over 1,000% from 52-week lows, driven by defence-drone demand and the Mistral deal, before analysts cautioned on execution risk at elevated multiples.",
+  "sources": [
+    {"title": "Ondas drone maker 1-year return analysis (247wallst.com)", "url": "https://247wallst.com/investing/2026/04/10/drone-maker-ondas-would-have-turned-1000-one-year-ago-into-how-much/"},
+    {"title": "Ondas winning the drone wars in 2026 (Seeking Alpha)", "url": "https://seekingalpha.com/article/4855914-ondas-winning-the-drone-wars-in-2026"},
+    {"title": "Ondas border-drone contract and 700% rally (ts2.tech)", "url": "https://ts2.tech/en/ondas-holdings-onds-stock-new-border%E2%80%91drone-contract-700-rally-and-2025-2026-forecasts/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,29 @@
+{
+  "key": "285a_t",
+  "name": "Kioxia Holdings Corporation",
+  "exchange": "TSE Prime",
+  "blurb": "Kioxia Holdings is Japan's largest and the world's third-largest NAND flash manufacturer, carved out of Toshiba's memory division by a Bain Capital-led consortium in 2018 and listed on the Tokyo Stock Exchange Prime Market in December 2024. It operates jointly with SanDisk (formerly Western Digital's NAND unit) across shared fabs in Yokkaichi and Kitakami. Kioxia's product range spans 3D NAND BiCS flash for enterprise SSDs, mobile storage, and data-centre applications, with a growing focus on high-capacity QLC (quad-level cell) flash for AI inference and cloud storage.",
+  "recent": "Kioxia's December 2024 IPO priced at ¥1,455 per share (valuing the company at approximately ¥784 billion / $5.2 billion) and won the DealWatch IPO of the Year award in the Equity category. Trading volume exceeded ¥1 trillion on two consecutive debut days. The company is actively signing long-term enterprise supply contracts extending to 2028 and 2029 with hyperscale cloud providers. Industry forecasters project AI inference servers will account for over 40% of flash memory demand by 2029, a dynamic that structurally underpins Kioxia's long-cycle capital planning. Merger speculation with SanDisk persists; the two share fab infrastructure and a planned combination would create a strong NAND challenger to Samsung.",
+  "sources": [
+    {
+      "title": "Kioxia Shares Climb 10% on Debut in Tokyo After $800M IPO (CNBC)",
+      "url": "https://www.cnbc.com/2024/12/18/kioxia-shares-climb-slightly-on-debut-in-tokyo-after-800-million-ipo.html"
+    },
+    {
+      "title": "Kioxia Wins IPO of the Year Award at DealWatch Awards 2024 (BusinessWire)",
+      "url": "https://www.businesswire.com/news/home/20250523319080/en/Kioxia-Holdings-Corporation-Wins-IPO-of-the-Year-Award-in-the-Equity-Category-at-the-DealWatch-Awards-2024"
+    },
+    {
+      "title": "Kioxia's IPO and Western Digital's Split: NAND Industry Consolidation Looms (Yole Group)",
+      "url": "https://www.yolegroup.com/strategy-insights/kioxias-ipo-and-western-digitals-split-nand-industry-consolidation-looms/"
+    },
+    {
+      "title": "NAND Demand Stays Strong as Chip Sales Slump — SanDisk or Kioxia? (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/nand-demand-stays-strong-chip-140003403.html"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent",
+  "ticker": "285A.T"
+}

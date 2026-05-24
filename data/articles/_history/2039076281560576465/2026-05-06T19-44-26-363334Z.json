@@ -1,0 +1,43 @@
+{
+  "headline": "ReSplat Adds Recurrent Learning to Gaussian Splatting Scene Reconstruction",
+  "lede": "A research team has open-sourced ReSplat, a method that applies recurrent learning to *3D Gaussian Splatting* — a leading technique for reconstructing scenes from images and rendering them from novel viewpoints. The release, from the Computer Vision and Geometry group (cvg) on GitHub, includes both code and pretrained models. The \"recurrent\" framing suggests the system processes sequential frames rather than treating each view in isolation.",
+  "body": "**3D Gaussian Splatting** (3DGS), introduced in 2023, represents a scene as millions of small, semi-transparent ellipsoids — Gaussians — whose colour, opacity, and shape are optimised to reproduce a set of training photographs. At render time, these blobs are \"splatted\" onto the image plane, producing photorealistic results in real time. The technique displaced earlier *Neural Radiance Field* (NeRF) methods on speed benchmarks and quickly became the default for novel-view synthesis research.\n\nStandard Gaussian Splatting is a per-scene optimisation: given a new scene, you run gradient descent from scratch for minutes or hours to fit the Gaussians. The industry term for this limitation is *generalisation* — the model learns one scene perfectly but carries nothing to the next. ReSplat's \"learning\" framing indicates it trains a neural network to *predict* Gaussian parameters directly from input images, skipping the per-scene optimisation entirely or using it only as a refinement step.\n\nThe word *recurrent* is the more specific claim. A recurrent architecture — whether an LSTM, GRU, or a modern state-space equivalent — processes frames in sequence, maintaining a hidden state that accumulates information across time. Applied to Gaussian Splatting, this would allow the model to refine its scene representation as it observes more views, rather than committing all at once. This is particularly relevant for video, monocular depth estimation, or sparse-view reconstruction, where information arrives incrementally.\n\nThe GitHub repository lives under the **cvg** organisation, which corresponds to the Computer Vision and Geometry group, a research unit associated with ETH Zurich and known for foundational work in visual localisation and reconstruction. Because no research paper or benchmark numbers were provided in the tweet, specific performance claims — speed, quality, dataset — cannot be reported here. Interested readers should consult the project page directly for methodology details and results.",
+  "tickers": [],
+  "poster": "haofeixu",
+  "concepts": [
+    {
+      "key": "3d-gaussian-splatting",
+      "term": "3D Gaussian Splatting",
+      "definition": "A scene-representation technique that models a physical environment as a cloud of 3D Gaussian blobs, each with colour, opacity, and shape parameters. The blobs are rendered by projecting them onto a 2D image plane — \"splatting\" — and compositing front-to-back, enabling real-time photorealistic novel-view synthesis without ray marching."
+    },
+    {
+      "key": "novel-view-synthesis",
+      "term": "Novel-View Synthesis",
+      "definition": "The task of generating a photorealistic image of a scene from a camera position not present in the training data. Given a set of photographs, the model must infer 3D geometry and appearance well enough to render plausible images from arbitrary new angles."
+    },
+    {
+      "key": "recurrent-neural-network",
+      "term": "Recurrent Neural Network",
+      "definition": "A class of neural network designed for sequential data, where the output at each step depends on both the current input and a hidden state carried forward from previous steps. This memory mechanism makes RNNs and their successors (LSTMs, GRUs) well-suited to video, text, and other time-ordered inputs."
+    },
+    {
+      "key": "generalisation-novel-view",
+      "term": "Generalisation (in scene reconstruction)",
+      "definition": "The ability of a model trained on many scenes to reconstruct *new* scenes it has never seen, without scene-specific optimisation. Per-scene methods like vanilla 3DGS do not generalise; feed-forward or learning-based methods attempt to amortise that cost by learning priors from a large training corpus."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "cvg-resplat",
+      "url": "https://github.com/cvg/resplat",
+      "summary": "ReSplat is a research codebase from ETH Zurich's Computer Vision and Geometry group implementing recurrent Gaussian Splatting for scene reconstruction. It provides pretrained models alongside training and inference code, allowing researchers to reproduce results or adapt the method to new tasks. The repository follows the group's tradition of releasing clean, reusable implementations alongside publications."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2039076281560576465",
+  "generated_at": "2026-05-06T19:44:26.363334Z",
+  "backend": "claude"
+}

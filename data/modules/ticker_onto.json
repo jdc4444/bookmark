@@ -1,0 +1,23 @@
+{
+  "ticker": "ONTO",
+  "exchange": "NYSE",
+  "company": "Onto Innovation Inc.",
+  "sector": "Semiconductors",
+  "description": "Onto Innovation is a semiconductor process-control equipment company providing inspection, metrology (precision measurement), lithography, and software solutions used to verify and control chip fabrication at the nanometer scale. Its systems are used at leading-edge fabs to measure structural dimensions in gate-all-around transistors, high-bandwidth memory cells, and advanced packaging interconnects. In 2025-2026, Onto invested $710 million for a 27% equity stake in Rigaku Holdings to expand into hybrid X-ray metrology, targeting a $1 billion+ addressable market. The company's flagship Atlas G6 OCD metrology platform targets second-generation GAA logic and DRAM nodes for AI chips.",
+  "key_products": [
+    "Atlas G6 OCD metrology system",
+    "Inspection systems",
+    "Lithography systems (advanced packaging)",
+    "Process control software",
+    "Hybrid metrology (via Rigaku partnership)"
+  ],
+  "market_cap_usd": null,
+  "market_cap_date": "2026-05-05",
+  "revenue_ttm_usd": null,
+  "rigaku_stake_usd": 710000000,
+  "rigaku_stake_pct": 27,
+  "last_updated": "2026-05-05",
+  "key": "ONTO",
+  "blurb": "Onto Innovation is a semiconductor process-control equipment company providing inspection, metrology (precision measurement), lithography, and software solutions used to verify and control chip fabrication at the nanometer scale. Its systems are used at leading-edge fabs to measure structural dimensions in gate-all-around transistors, high-bandwidth memory cells, and advanced packaging interconnects. The company's flagship Atlas G6 OCD metrology platform targets second-generation GAA logic and DRAM nodes for AI chips.",
+  "recent": "In 2025–2026, Onto invested $710 million for a 27% equity stake in Rigaku Holdings to expand into hybrid X-ray metrology, targeting a $1 billion+ addressable market."
+}

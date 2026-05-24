@@ -1,0 +1,150 @@
+{
+  "headline": "A Stock Picker Bets Biology Is the Next AI",
+  "lede": "A Spanish retail investor named Antonio Linares, posting on X as @alc2022, promoted what he called 'the best article on peptides and the longevity explosion' — without disclosing that he wrote it himself. The article argues that engineered peptides will reorder medicine the way artificial intelligence reshaped software, a thesis Linares anchors partly in his own claim of curing Lyme disease and Long Covid. The rhetorical maneuver — credentialing a medical argument with a stock-picking record — illuminates both the genuine ferment in longevity science and the considerable hype that now surrounds it.",
+  "body": "Linares has built a following by narrating his investment thesis in plain language: AMD at $4.20, Tesla at $13, then **Palantir Technologies (PLTR)** at roughly $7 during the 2022 growth-stock collapse. The trades were real — PLTR did trade around that level before its all-time closing low of $6 in December 2022, and anyone who held to today has been handsomely rewarded; the stock closed near $134 in May 2026. But the self-description as \"the guy who called Palantir at $7\" compresses a messier story: a buyer at $7 would have ridden a further 14% drawdown before any recovery, a detail that *survivorship-bias* narratives routinely omit.\n\nThe article itself — \"Peptides Are the Tip of the Iceberg,\" published free on his Substack in March 2026 — is a macro investment thesis more than a clinical guide. Linares argues that the body is a *proteomic* system: a network of proteins whose interactions are becoming computationally legible, thanks in large part to DeepMind's *AlphaFold* protein-structure models. He points to the falling cost of *GLP-1 agonists* — drugs such as semaglutide that mimic a gut hormone controlling blood sugar and appetite — as evidence that peptide manufacturing broadly will converge on commodity economics. The underlying logic is not absurd: AI-accelerated drug discovery is real, and GLP-1s have demonstrated efficacy well beyond their original diabetes indication.\n\nThe specific peptides circulating in longevity clinics and gym locker rooms occupy a very different evidentiary tier. **BPC-157** (*body protection compound*), a short compound derived from gastric juice proteins, has roughly 150 animal studies but only three published human trials, all lacking control groups. *TB-500* — a fragment of thymosin beta-4, a protein involved in tissue repair — has zero published human trials. *CJC-1295* and *ipamorelin*, paired *growth hormone secretagogues* that stimulate the pituitary to release GH, have Phase 2 body-composition data but no longevity evidence. They also face a biological paradox flagged by clinicians: higher *IGF-1* (insulin-like growth factor 1) levels — the downstream signal these compounds amplify — are associated in most animal models with shorter lifespans, not longer ones. A 2026 peer-reviewed survey in *Frontiers in Aging* concluded that existing data should be treated as \"hypothesis-generating rather than practice-defining.\"\n\nThe regulatory picture is in flux. The FDA placed BPC-157, TB-500, *epithalon* (a pineal tetrapeptide studied mainly in rodents), and several other compounds on a Category 2 list in 2023, barring them from the *compounding pharmacies* — specialist dispensaries that prepare custom formulations outside the standard drug-approval track — that had been their main legal channel. An advisory committee is due to revisit that list in July 2026 amid political signals that restrictions may ease. U.S. imports of peptide compounds reached $328 million in the first three quarters of 2025 alone, roughly double the prior year's full-year total. Into that market, **Hims & Hers Health (HIMS)** — a telehealth company and a declared long position of Linares — is expanding its peptide offerings in 2026, a financial entanglement his promotional writing does not consistently foreground.\n\nA 2025 MIT Technology Review investigation found that some commercially sold BPC-157 vials contained no active compound at all; 8% of tested samples carried measurable *endotoxin* — a bacterial membrane toxin capable of triggering fever or septic shock — at potentially dangerous levels. Users are, as one scientist put it, \"essentially volunteering as test subjects in an uncontrolled experiment.\" That is a defensible choice for an informed adult. It is less defensible when mediated by someone who conflates financial foresight with biological expertise, promotes his own article as a stranger's recommendation, and holds equity in the market he is helping to grow.",
+  "tickers": [
+    "PLTR",
+    "HIMS"
+  ],
+  "companies": [
+    {
+      "name": "Palantir Technologies",
+      "ticker": "PLTR"
+    },
+    {
+      "name": "DeepMind",
+      "ticker": null
+    },
+    {
+      "name": "Hims & Hers Health",
+      "ticker": "HIMS"
+    }
+  ],
+  "poster": "alc2022",
+  "concepts": [
+    {
+      "key": "survivorship-bias",
+      "term": "Survivorship Bias",
+      "definition": "The logical error of focusing on successful outcomes while ignoring failures. In investing, it means celebrating a winning trade without accounting for the losing ones — giving the impression of consistent prescience when the full track record may be far more mixed."
+    },
+    {
+      "key": "proteomics",
+      "term": "Proteomics",
+      "definition": "The large-scale study of proteins — their structures, functions, and interactions — within a biological system. A proteomic view of disease treats illness as dysfunction in protein networks rather than as isolated molecular failures, and underpins the argument that AI-readable protein maps could unlock new therapies."
+    },
+    {
+      "key": "alphafold",
+      "term": "AlphaFold",
+      "definition": "A deep-learning system developed by DeepMind that predicts the three-dimensional structure of proteins from their amino-acid sequence alone. Released openly in 2021, it solved a problem that had stumped structural biologists for decades and has since become a foundational tool in drug discovery."
+    },
+    {
+      "key": "glp-1-agonist",
+      "term": "GLP-1 Agonist",
+      "definition": "A class of drugs that mimics glucagon-like peptide-1, a hormone produced in the gut that regulates blood sugar and appetite. Semaglutide (Ozempic, Wegovy) and tirzepatide (Mounjaro) are the most prominent examples; originally approved for type-2 diabetes, they have shown striking efficacy for obesity and cardiovascular disease."
+    },
+    {
+      "key": "bpc-157",
+      "term": "BPC-157",
+      "definition": "Body Protection Compound-157, a short peptide derived from a protein found in gastric juice. Widely used off-label for injury recovery and gut healing, it has roughly 150 animal studies but only three published human trials, all without control groups. The FDA placed it on a banned-from-compounding list in 2023."
+    },
+    {
+      "key": "tb-500",
+      "term": "TB-500",
+      "definition": "A synthetic fragment of thymosin beta-4, a protein that regulates actin — the scaffold giving cells their shape — and promotes tissue repair. Despite extensive animal data, it has no published human clinical trials. The FDA classifies it as presenting significant safety risks."
+    },
+    {
+      "key": "gh-secretagogue",
+      "term": "Growth Hormone Secretagogue",
+      "definition": "A compound that stimulates the pituitary gland to release growth hormone rather than supplying GH directly. CJC-1295 and ipamorelin are the most commonly paired examples in the longevity market, used together to amplify and sustain natural GH pulses."
+    },
+    {
+      "key": "cjc-1295",
+      "term": "CJC-1295",
+      "definition": "A synthetic analog of growth hormone-releasing hormone (GHRH). A single dose can sustain elevated GH levels for up to a week and raise IGF-1 for over a week. It has Phase 2 data for body composition but no long-term safety or longevity evidence, and is prohibited by WADA for athletes."
+    },
+    {
+      "key": "ipamorelin",
+      "term": "Ipamorelin",
+      "definition": "A selective growth hormone secretagogue that triggers GH release without significantly raising cortisol or ACTH, giving it a cleaner side-effect profile than older GH-stimulating drugs. Frequently stacked with CJC-1295 in off-label longevity protocols."
+    },
+    {
+      "key": "igf-1",
+      "term": "IGF-1",
+      "definition": "Insulin-like Growth Factor 1, a hormone produced mainly by the liver in response to growth hormone, mediating many of GH's anabolic effects. Paradoxically, lower IGF-1 levels — not higher — are associated with longer lifespans in most animal models, including findings in humans with GH-receptor defects (Laron syndrome) who show very low cancer rates."
+    },
+    {
+      "key": "epithalon",
+      "term": "Epithalon",
+      "definition": "A synthetic tetrapeptide (four amino acids) originally isolated from the pineal gland, studied since the 1970s by Russian researchers. Rodent studies suggest modest lifespan extension; in-vitro data show effects on telomere length. No randomized controlled human trials exist, and the FDA has flagged safety concerns over impurities in commercial preparations."
+    },
+    {
+      "key": "compounding-pharmacy",
+      "term": "Compounding Pharmacy",
+      "definition": "A pharmacy licensed to prepare customized medications not commercially available — mixing specific dosages or formulations for individual patients. Under Section 503A of U.S. federal law, compounding pharmacies may use bulk drug substances unless the FDA specifically prohibits them; BPC-157, TB-500, and several other peptides were added to the prohibited list in 2023."
+    },
+    {
+      "key": "endotoxin",
+      "term": "Endotoxin",
+      "definition": "A toxin derived from the outer membrane of certain bacteria. Introduced into the bloodstream via an improperly prepared injectable, even small quantities can trigger fever, chills, septic shock, or multi-organ failure — a particular risk with research-grade peptides produced outside pharmaceutical-grade facilities."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet implies the article was written by a third party — 'the best article on peptides... was written by a guy' — when it is Linares' own Substack piece, promoted through deliberate third-person framing. The PLTR '$7 call' is verifiable (the stock traded around that level in autumn 2022) but the narrative omits that the stock continued falling to an all-time closing low of $6 in December 2022 before its eventual recovery. Linares' claim that he used peptides to cure Lyme disease and Long Covid is entirely anecdotal — he names no specific compounds, no supervising physician, and no objective outcome data in any reviewed article. His framing of Long Covid as 'primarily driven by a chronic Lyme infection following vaccination' is not a recognized clinical syndrome. Most significantly, Linares holds a disclosed long position in Hims & Hers Health (HIMS), a company actively expanding into the peptide market in 2026; this financial conflict of interest is not consistently disclosed in his peptide promotional writing.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://antoniolinares.substack.com/p/peptides-are-the-tip-of-the-iceberg",
+      "title": "Peptides Are the Tip of the Iceberg — Antonio Linares / Substack",
+      "note": "The article being promoted; written by Linares himself and published free on his Substack in March 2026"
+    },
+    {
+      "url": "https://antoniolinares.substack.com/p/hims-reinventing-healthcare",
+      "title": "Hims: Reinventing Healthcare — Antonio Linares / Substack",
+      "note": "Discloses Linares' HIMS long position and his personal peptide recovery narrative"
+    },
+    {
+      "url": "https://www.statmuse.com/money/ask/all-time-low-pltr",
+      "title": "Palantir All-Time Low — StatMuse Money",
+      "note": "Confirms PLTR all-time closing low of $6.00 on December 27, 2022"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2026.1790247/full",
+      "title": "Therapeutic Peptides in Gerontology — Frontiers in Aging (2026)",
+      "note": "Peer-reviewed survey concluding longevity peptide findings are 'hypothesis-generating rather than practice-defining'"
+    },
+    {
+      "url": "https://content.atria.org/article/peptides-for-longevity/",
+      "title": "The Real Science of Peptides for Longevity — Atria Health",
+      "note": "Clinical overview; source of the IGF-1/lifespan paradox finding and regulatory status breakdown"
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/02/23/1133522/peptides-are-everywhere-heres-what-you-need-to-know/",
+      "title": "Peptides Are Everywhere. Here's What You Need to Know — MIT Technology Review",
+      "note": "Documents product quality failures: empty vials and endotoxin contamination in commercial BPC-157"
+    },
+    {
+      "url": "https://theconversation.com/peptides-performance-boosting-anti-ageing-drugs-or-dangerous-snake-oil-259531",
+      "title": "Peptides: Performance-Boosting Anti-Ageing Drugs or Dangerous Snake Oil? — The Conversation",
+      "note": "Prof. Adam Taylor (Lancaster University); adverse event data, TB-500 cancer concern, gym-use prevalence"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks",
+      "title": "Bulk Drug Substances That May Present Significant Safety Risks — FDA",
+      "note": "Authoritative source for FDA's Category 2 classification of BPC-157, TB-500, epithalon, and others"
+    },
+    {
+      "url": "https://lengealaw.com/fda-puts-bpc-157-tb-500-and-5-other-peptides-under-the-microscope-what-prescribers-need-to-know-about-the-503a-review/",
+      "title": "FDA Puts BPC-157, TB-500 Under the Microscope — Lengea Law",
+      "note": "Details on the July 23–24, 2026 PCAC advisory committee review and public comment process"
+    },
+    {
+      "url": "https://www.usnews.com/news/us/articles/2025-11-14/americans-are-injecting-themselves-with-unproven-peptides-sold-by-influencers-and-rfk-jr-allies",
+      "title": "Americans Are Injecting Themselves with Unproven Peptides — US News & World Report",
+      "note": "Documents the influencer-driven demand surge and political dynamics shaping FDA enforcement posture"
+    }
+  ],
+  "bookmark_id": "2041135011718463756",
+  "generated_at": "2026-05-07T05:13:02.481760Z",
+  "backend": "claude-sonnet-subagent"
+}

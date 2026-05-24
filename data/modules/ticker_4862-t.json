@@ -1,0 +1,32 @@
+{
+  "key": "4862.T",
+  "name": "AT&T Inc.",
+  "exchange": "NYSE",
+  "blurb": "AT&T Inc. is a multinational telecommunications conglomerate headquartered in Dallas, Texas. It provides wireless and wireline communications, broadband internet, and video services to consumers and businesses across the United States. As one of the largest telecom companies in the world, AT&T holds a significant market position in mobile and fixed-line services.",
+  "recent": "In the past 30 days, AT&T stock has been influenced by broader market trends and sector news. The company continues to focus on debt reduction and network investments, with analysts monitoring its free cash flow and subscriber growth. No major earnings or catalysts were reported in the immediate period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/T/news/",
+      "title": "AT&T Inc. (T) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/T/news/",
+      "title": "T News Today | Why did AT&T stock go down today? - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/t",
+      "title": "T Stock Price | AT&T Inc. Stock Quote (U.S.: NYSE) | MarketWatch"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/T",
+      "title": "T Stock Quote Price and Forecast | CNN"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/T:NYSE",
+      "title": "AT&T Inc (T) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:44:12.594915Z",
+  "backend": "deepseek"
+}

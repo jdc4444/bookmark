@@ -1,0 +1,200 @@
+{
+  "headline": "Washington Bets on Pre-Ordering Nuclear Parts to Beat the Clock",
+  "lede": "The U.S. Energy Department is weighing a plan to offer loan guarantees to utilities so they can pre-purchase the most time-consuming nuclear reactor components before construction permits arrive. The goal is to break the supply-chain bottleneck that helped push the country's last large reactor project seven years behind schedule. A cluster of nuclear and uranium stocks sold off sharply the same week — but the policy backstory is arguably more bullish than the price action suggests.",
+  "body": "The U.S. Department of Energy is weighing a plan to extend loan guarantees to a group of five or six utilities, enabling them to pre-purchase the *long-lead components* of large nuclear reactors — principally *reactor pressure vessels* and steam generators — before those projects have full regulatory approval. These parts take 42 to 54 months to manufacture and can be sourced only at a handful of specialized facilities worldwide, none currently in the United States. By financing the parts queue ahead of permits, the government aims to compress overall build timelines by years.\n\nThe move draws directly on lessons from Plant Vogtle, the two **AP1000** reactors completed in Georgia in 2023 and 2024 — the last large commercial units built in the country. Those reactors ran roughly seven years behind their original construction schedule and cost approximately $35 billion against an original estimate of $14 billion, partly because critical components were not ordered until after regulatory milestones arrived. The Nuclear Energy Institute has confirmed that binding term-sheet discussions are underway at the DOE loan office, with a potential $80 billion development program for up to ten new AP1000 units as the broader target. Grant Isaac, president and COO of Cameco (CCJ) — which owns 49% of Westinghouse Electric, the AP1000's designer — has said utilities in advanced talks are “interested in advancing project delivery by considering things like ordering the long lead items ahead of time.”\n\nAgainst that policy backdrop, the sector absorbed a sharp one-day selloff around May 12 that sent most nuclear and uranium names down 6–12%. The proximate triggers were paired: NuScale Power (SMR) had just reported first-quarter revenue of $565,000 against analyst expectations of $14.8 million — an almost total miss — while Oklo (OKLO) disclosed quarterly losses that had widened to $33.1 million from $7 million a year earlier. A simultaneous U.S.–China tariff truce triggered a *risk-on rotation* in broader markets, pulling capital out of alternative-energy positions. Neither two pre-revenue companies missing forecasts nor a trade deal materially alters the demand thesis for nuclear baseload power.\n\nCameco (CCJ) reported earnings up 87% year-over-year in its most recent quarter; its Westinghouse stake makes it a direct play on any AP1000 new-build wave. Energy Fuels (UUUU), the largest licensed uranium processor in the United States, posted first-quarter revenue up 112%, selling uranium at $70 per pound. Centrus Energy (LEU) holds the only U.S. license to produce *HALEU* — high-assay low-enriched uranium — the advanced fuel required by next-generation designs including Oklo’s Aurora and X-Energy’s (XE) Xe-100; Centrus enters 2026 with a $3.8 billion revenue backlog extending through 2040. BWX Technologies (BWXT), the only large commercial nuclear equipment manufacturer in North America, signed a manufacturing agreement with Westinghouse in late 2024 specifically for AP1000 and AP300 pressure vessels, and carries a $7.3 billion order backlog.\n\nThe less settled question is how long the pre-revenue *microreactor* developers — Oklo (OKLO), NuScale Power (SMR), NANO Nuclear Energy (NNE) — can sustain their current valuations. Oklo’s first Aurora powerhouse broke ground in September 2025, with grid power targeted for 2028; NuScale holds NRC design certification but has no finalized commercial project site; NNE remains in early design review. The DOE long-lead financing plan, if it proceeds, benefits the established AP1000 value chain most directly — uranium miners, enrichers, and component manufacturers. For concept-stage plays, the policy environment is as favorable as it has been in decades; the timeline to revenue is not.",
+  "tickers": [
+    "CCJ",
+    "SMR",
+    "OKLO",
+    "UUUU",
+    "LEU",
+    "XE",
+    "BWXT",
+    "NNE"
+  ],
+  "companies": [
+    {
+      "name": "Cameco Corporation",
+      "ticker": "CCJ"
+    },
+    {
+      "name": "Westinghouse Electric",
+      "ticker": null
+    },
+    {
+      "name": "NuScale Power Corporation",
+      "ticker": "SMR"
+    },
+    {
+      "name": "Oklo Inc.",
+      "ticker": "OKLO"
+    },
+    {
+      "name": "Energy Fuels Inc.",
+      "ticker": "UUUU"
+    },
+    {
+      "name": "Centrus Energy Corp.",
+      "ticker": "LEU"
+    },
+    {
+      "name": "X-Energy",
+      "ticker": "XE"
+    },
+    {
+      "name": "BWX Technologies",
+      "ticker": "BWXT"
+    },
+    {
+      "name": "NANO Nuclear Energy",
+      "ticker": "NNE"
+    }
+  ],
+  "poster": "itschrisray",
+  "concepts": [
+    {
+      "key": "long-lead-components",
+      "term": "long-lead components",
+      "definition": "Critical reactor parts — chiefly reactor pressure vessels and steam generators — whose manufacturing timelines are so long that they must be ordered years before construction begins. For AP1000-scale reactors, lead times run 42–54 months. If a utility waits for regulatory approval before ordering, the delivery date will delay the entire project by exactly that lag."
+    },
+    {
+      "key": "reactor-pressure-vessel",
+      "term": "reactor pressure vessel",
+      "definition": "The heavy steel container that encloses the nuclear fuel core and primary coolant under high pressure and temperature. It is one of the most specialized components in a reactor plant, requiring large-scale precision forging and welding at facilities that exist in only a handful of countries."
+    },
+    {
+      "key": "ap1000",
+      "term": "AP1000",
+      "definition": "A pressurized-water reactor design by Westinghouse Electric rated at roughly 1,100 megawatts of electricity. It is the only large commercial reactor design currently licensed for construction in the United States. Georgia’s Plant Vogtle Units 3 and 4 are the only two AP1000s in commercial operation worldwide."
+    },
+    {
+      "key": "loan-guarantee",
+      "term": "loan guarantee",
+      "definition": "A government commitment to repay a lender if the borrower defaults, allowing developers to secure financing on better terms than private markets alone would offer. The DOE has used this tool for large energy projects — including Plant Vogtle — under authority granted by the Energy Policy Act of 2005."
+    },
+    {
+      "key": "risk-on-rotation",
+      "term": "risk-on rotation",
+      "definition": "A market dynamic in which investors shift capital from defensive or speculative alternative assets toward more cyclical positions in response to improved macro sentiment — such as a trade-war ceasefire. The rotation can cause sharp single-day moves in sectors that had been held as hedges against geopolitical or economic uncertainty."
+    },
+    {
+      "key": "haleu",
+      "term": "HALEU",
+      "definition": "High-assay low-enriched uranium: uranium enriched to between 5% and 20% uranium-235, compared with the roughly 3–5% used in conventional light-water reactors. Most advanced reactor designs — including small modular reactors and microreactors — require HALEU because their smaller cores need denser fuel to sustain a chain reaction."
+    },
+    {
+      "key": "small-modular-reactor",
+      "term": "small modular reactor (SMR)",
+      "definition": "A nuclear reactor design producing less than 300 megawatts of electricity, intended to be factory-built in standardized modules and shipped to site. SMRs promise lower upfront capital costs and faster construction than large conventional plants, though very few have yet entered commercial operation."
+    },
+    {
+      "key": "microreactor",
+      "term": "microreactor",
+      "definition": "A nuclear reactor generating under roughly 20 megawatts of electricity, designed for off-grid, remote, or distributed applications such as military bases, data centers, or remote industrial sites. Microreactors are a subset of small modular reactors but are even smaller — some designed to be transportable by truck or aircraft."
+    },
+    {
+      "key": "nrc-design-certification",
+      "term": "NRC design certification",
+      "definition": "Formal approval from the U.S. Nuclear Regulatory Commission (NRC) that a reactor design meets federal safety requirements. A certified design can be referenced in construction permit applications without re-litigating design-level safety questions — a significant regulatory shortcut that can shave years off a project timeline."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/electric-power/050726-us-doe-might-finance-long-lead-nuclear-reactor-components-for-utility-group",
+      "title": "US DOE Might Finance Long-Lead Nuclear Reactor Components for Utility Group",
+      "note": "S&P Global primary report on the DOE financing plan, May 7, 2026"
+    },
+    {
+      "url": "https://www.investing.com/news/commodities-news/us-considers-financing-billions-of-dollars-for-nuclear-plant-parts-industry-group-says-4681890",
+      "title": "US Considers Financing Billions of Dollars for Nuclear Plant Parts, Industry Group Says",
+      "note": "Reuters report confirming NEI disclosure and AP1000 lead-time data, May 12, 2026"
+    },
+    {
+      "url": "https://energynews.oedigital.com/crude-oil/2026/05/12/nei-us-considers-financing-billions-in-parts-for-nuclear-reactors-with-long-lead-times",
+      "title": "NEI: US Considers Financing Billions in Parts for Nuclear Reactors with Long Lead Times",
+      "note": "NEI-sourced detail on 42–54-month manufacturing lead times"
+    },
+    {
+      "url": "https://nucleartownhall.com/us-doe-might-finance-long-lead-nuclear-reactor-components-for-utility-group/",
+      "title": "US DOE Might Finance Long-Lead Nuclear Reactor Components for Utility Group",
+      "note": "NuclearTownhall report; source for Grant Isaac quotes"
+    },
+    {
+      "url": "https://www.usnews.com/news/top-news/articles/2026-05-12/us-considers-financing-billions-of-dollars-for-nuclear-plant-parts-industry-group-says",
+      "title": "US Considers Financing Billions of Dollars for Nuclear Plant Parts",
+      "note": "US News & World Report wire coverage of DOE financing plan"
+    },
+    {
+      "url": "https://www.chartmill.com/news/SMR/Chartmill-47869-NuScale-Power-SMR-Shares-Slide-87-After-Q1-Revenue-and-Earnings-Miss-Estimates",
+      "title": "NuScale Power (SMR) Shares Slide 8.7% After Q1 Revenue and Earnings Miss Estimates",
+      "note": "NuScale Q1 2026 revenue miss details — $565K actual vs $14.8M expected"
+    },
+    {
+      "url": "https://www.benzinga.com/markets/earnings/26/05/52507685/oklo-reports-q1-earnings-shares-slide",
+      "title": "Oklo Reports Q1 Earnings, Shares Slide",
+      "note": "Oklo Q1 2026 loss figures ($33.1M) and stock reaction"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/13/why-oklo-stock-is-sinking-today/",
+      "title": "Why Oklo Stock Is Sinking Today",
+      "note": "Motley Fool analysis of May 13 Oklo selloff and sector context"
+    },
+    {
+      "url": "https://www.benzinga.com/markets/earnings/26/05/52395422/nuscale-shares-sink-after-q1-report-heres-why",
+      "title": "NuScale Shares Sink After Q1 Report — Here's Why",
+      "note": "Benzinga on NuScale Q1 miss and broader selloff context"
+    },
+    {
+      "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Nuclear-Stocks-Crash-With-A-Potential-Payoff-Still-Years-Away.html",
+      "title": "Nuclear Stocks Crash With a Potential Payoff Still Years Away",
+      "note": "OilPrice sector correction analysis with percentage-from-peak data"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/CCJ/cameco-reports-first-quarter-2026-results-financial-results-and-4kqsyou4khms.html",
+      "title": "Cameco Reports First Quarter 2026 Results",
+      "note": "Cameco Q1 2026 earnings; 87% year-over-year earnings increase"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/13/this-nuclear-stock-controls-the-only-large-reactor/",
+      "title": "This Nuclear Stock Controls the Only Large Reactor Manufacturing Facility in North America",
+      "note": "Motley Fool profile of BWXT’s North American manufacturing position"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/BWXT/bwxt-canada-and-westinghouse-sign-mou-for-ap1000-and-ap300tm-pykvtfiiceio.html",
+      "title": "BWXT Canada and Westinghouse Sign MOU for AP1000 and AP300",
+      "note": "BWXT-Westinghouse manufacturing partnership announcement, December 2024"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260504964337/en/BWX-Technologies-Reports-First-Quarter-2026-Results",
+      "title": "BWX Technologies Reports First Quarter 2026 Results",
+      "note": "BWXT Q1 2026 backlog data ($7.3B)"
+    },
+    {
+      "url": "https://www.energy.gov/ne/articles/9-key-takeaways-president-trumps-executive-orders-nuclear-energy",
+      "title": "9 Key Takeaways from President Trump's Executive Orders on Nuclear Energy",
+      "note": "DOE summary of May 2025 nuclear executive orders; administration policy context"
+    },
+    {
+      "url": "https://www.tradingview.com/news/zacks:7273e0f1a094b:0-should-you-buy-hold-or-sell-uuuu-stock-post-q1-earnings/",
+      "title": "Should You Buy, Hold, or Sell UUUU Stock Post Q1 Earnings?",
+      "note": "Energy Fuels Q1 2026 revenue (+112%) and uranium price ($70/lb) data"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/03/24/better-nuclear-energy-stock-cameco-ccj-vs-leu/",
+      "title": "Better Nuclear Energy Stock: Cameco vs. Centrus Energy",
+      "note": "Centrus $3.8B revenue backlog and HALEU license details"
+    },
+    {
+      "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/",
+      "title": "X-Energy Announces Pricing of Upsized Initial Public Offering",
+      "note": "X-Energy IPO pricing and April 2026 NASDAQ listing details"
+    }
+  ],
+  "bookmark_id": "2054236870649721074",
+  "generated_at": "2026-05-14T10:45:01.447839Z",
+  "backend": "claude-sonnet-subagent"
+}

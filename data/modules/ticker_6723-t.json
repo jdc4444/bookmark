@@ -1,0 +1,32 @@
+{
+  "key": "6723.T",
+  "name": "Renesas Electronics Corporation",
+  "exchange": "Tokyo Stock Exchange",
+  "blurb": "Renesas Electronics Corporation is a Japanese semiconductor company founded in 2002, specializing in the design, development, manufacturing, and sale of microcontrollers, microprocessors, and system-on-chip solutions. The company operates through two segments: Automotive Business and Industrial/Infrastructure/IoT Business, serving customers across Japan, China, the rest of Asia, Europe, and North America. With roughly 21,900 employees and a market cap of approximately ¥6.99 trillion, Renesas holds a leading global position in automotive semiconductors and embedded processing, competing with NXP, Infineon, and STMicroelectronics.",
+  "recent": "Renesas reported robust Q1 2026 earnings on April 24–27, 2026, driven by strong demand from AI and automotive applications, though analysts flagged its expansion plan as carrying elevated risk. The stock surged roughly 7.8% on May 14, 2026, touching a 52-week high of ¥4,183, and has more than doubled over the trailing twelve months (+105.77%). The rally reflects renewed investor confidence in semiconductor cycle recovery and Renesas's exposure to AI-adjacent industrial and automotive design wins.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/6723.T/",
+      "title": "Renesas Electronics Corporation (6723.T) Stock Price, News, Quote — Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/tyo/6723/",
+      "title": "Renesas Electronics (TYO:6723) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xtks/6723/quote",
+      "title": "Renesas Electronics Corp 6723 Stock Price Quote — Morningstar"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/6723.T/profile/",
+      "title": "Renesas Electronics Corp (6723.T) Profile — Reuters"
+    },
+    {
+      "url": "https://www.bloomberg.com/quote/6723:JP",
+      "title": "Renesas Electronics Corp Stock Price Quote — Bloomberg"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:28:21.741671Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,157 @@
+{
+  "headline": "Shannon Brings Autonomous AI to Offensive Security Testing",
+  "lede": "A San Francisco security startup called Keygraph has released an open-source tool that reads source code, maps the attack surface, and then attempts to prove every vulnerability it finds through live exploitation. Shannon Lite accumulated more than 41,000 GitHub stars within months of launch. The viral tweet claiming it stole a database and created admin accounts in 90 minutes is technically accurate — but the target was a training application designed to be broken.",
+  "body": "**Shannon Lite**, an open-source tool from Keygraph — a San Francisco security startup founded in 2024 by Varun Sivamani, formerly an engineering lead at HR software company Lattice — is an autonomous *pentester* for web applications and APIs. Released under the AGPL-3.0 licence and built in TypeScript, it had accumulated more than 41,000 GitHub stars and nearly 5,000 forks by early May 2026 — a trajectory that reflects genuine technical novelty alongside the hype that attaches to anything combining AI with hacking.\n\nWhat separates Shannon from earlier automated scanning tools is its *white-box* approach: rather than probing a running application blindly, it reads the source code first, maps routes, middleware, and database queries, then dispatches five parallel AI agents — each targeting a distinct *OWASP* vulnerability class: injection, cross-site scripting, *SSRF* (server-side request forgery, where an attacker tricks a server into making requests on their behalf), broken authentication, and broken authorization. Only confirmed, reproducible exploits appear in the final report, a philosophy the company calls *No Exploit, No Report*. The LLM layer runs on Anthropic's Claude models, with Amazon Web Services (AMZN) Bedrock and Alphabet (GOOGL) Vertex AI as alternative inference backends. A full scan costs roughly $40–55 in API credits.\n\nThe tweet's viral claim — that Shannon “stole the entire user database, created admin accounts, and bypassed login, all by itself, in 90 minutes” — is technically accurate but editorially incomplete. The target was *OWASP Juice Shop*, a free, intentionally vulnerable Node.js application distributed specifically for security training. Running an autonomous pentester against Juice Shop is analogous to demonstrating a lockpick set on a practice lock sold for that exact purpose. The login bypass itself takes roughly ten seconds via classic *SQL injection*, inserting a payload such as `admin@juice-sh.op' OR 1=1--` into the login form; the 90 minutes covers the complete assessment sweep. Shannon claims a 96.15% success rate on the *XBOW benchmark*, a controlled capture-the-flag evaluation — a figure that has not been independently verified.\n\nThe genuine concern raised by security researchers is not whether Shannon works on training apps. Cisco (CSCO) Talos flagged the more consequential risk: Shannon's white-box model requires operators to hand source code, API credentials, and repository layout to an external LLM service. “Feeding highly private information to an agentic engine is nine times out of ten a terrible idea,” Talos wrote. The tool also mutates application state during testing — creating accounts, modifying data — which the README warns makes it unsuitable for production environments. The *No Exploit, No Report* policy, while tidy for reports, may cause security teams to dismiss vulnerabilities requiring multi-step privilege-escalation chains that Shannon's agents cannot yet replicate.\n\nShannon sits at the leading edge of a rapidly crowding field. XBOW, a commercial autonomous agent, reached the top of HackerOne's global *bug-bounty* leaderboard in April 2026, and several open-source multi-agent alternatives have emerged alongside it. The underlying economics are striking: a 2025 ARTEMIS study found an AI agent outperformed nine of ten human pentesters on a live network at an estimated $18 per hour, against roughly $60 for a human contractor — though the top human tester still found more vulnerabilities than the AI. Shannon does not yet include a formal authorization enforcement mechanism or a published responsible-disclosure policy, leaving the question of misuse largely to the user's conscience.",
+  "tickers": [
+    "AMZN",
+    "GOOGL",
+    "CSCO"
+  ],
+  "companies": [
+    {
+      "name": "Keygraph",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Amazon Web Services",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Cisco",
+      "ticker": "CSCO"
+    },
+    {
+      "name": "Lattice",
+      "ticker": null
+    },
+    {
+      "name": "HackerOne",
+      "ticker": null
+    },
+    {
+      "name": "XBOW",
+      "ticker": null
+    }
+  ],
+  "poster": "chiefofautism",
+  "concepts": [
+    {
+      "key": "pentester",
+      "term": "Pentester",
+      "definition": "Short for penetration tester: a security professional — or, increasingly, an automated tool — that probes systems by simulating real-world attacks to discover exploitable weaknesses before a malicious actor does. Ethical pentesting requires explicit written authorization from the system owner."
+    },
+    {
+      "key": "white-box-testing",
+      "term": "White-box testing",
+      "definition": "A security assessment method in which the tester has full access to internal artifacts — source code, architecture diagrams, credentials — before beginning. Contrasted with black-box testing, where the system is probed with no prior knowledge. White-box access lets an AI agent trace vulnerabilities directly to their code origin rather than guessing from external behavior."
+    },
+    {
+      "key": "owasp",
+      "term": "OWASP",
+      "definition": "The Open Web Application Security Project, a nonprofit that publishes and maintains the OWASP Top 10 — an authoritative list of the most critical web application security risk categories. Organizations worldwide use the Top 10 as a baseline checklist for secure development and security testing."
+    },
+    {
+      "key": "ssrf",
+      "term": "SSRF",
+      "definition": "Server-side request forgery. An attack where a malicious actor tricks a server into making HTTP requests on their behalf, often to reach internal services — databases, cloud metadata endpoints — not directly exposed to the public internet. A successful SSRF can allow an attacker to bypass firewall rules or extract cloud-provider credentials."
+    },
+    {
+      "key": "sql-injection",
+      "term": "SQL injection",
+      "definition": "An attack technique in which malicious SQL code is inserted into an input field that is passed directly to a database without sanitization. A payload like `' OR 1=1--` can force a database to return all rows or skip password verification entirely. SQL injection has appeared in the OWASP Top 10 since the list began."
+    },
+    {
+      "key": "owasp-juice-shop",
+      "term": "OWASP Juice Shop",
+      "definition": "A free, deliberately vulnerable Node.js e-commerce application maintained by OWASP for security training and practice. It is intentionally riddled with exploitable vulnerabilities across every OWASP Top 10 category and is the most widely used target for security tool demonstrations — meaning a successful attack against it is a baseline expectation, not evidence of novel capability."
+    },
+    {
+      "key": "xbow-benchmark",
+      "term": "XBOW benchmark",
+      "definition": "A capture-the-flag–style evaluation suite used to measure the performance of autonomous security agents on a standardized set of web-application exploits. Scores indicate the percentage of known vulnerabilities successfully identified and exploited. Because it uses controlled, synthetic targets, performance on XBOW does not directly predict effectiveness against real-world production systems."
+    },
+    {
+      "key": "capture-the-flag",
+      "term": "Capture-the-flag (CTF)",
+      "definition": "A competitive security challenge format in which participants exploit deliberately vulnerable systems to retrieve hidden tokens called flags. CTF environments use purpose-built targets that tend to be simpler and more consistently exploitable than production systems, making benchmark scores on CTF suites a ceiling, not a floor, for real-world performance."
+    },
+    {
+      "key": "agpl-3-0",
+      "term": "AGPL-3.0",
+      "definition": "The GNU Affero General Public License version 3, a strong copyleft open-source licence. Unlike the standard GPL, it requires that modified versions made available over a network also be released under the same licence — a clause that affects SaaS products built on AGPL code, since running a modified version on a server for others triggers the source-disclosure requirement."
+    },
+    {
+      "key": "bug-bounty",
+      "term": "Bug bounty",
+      "definition": "A program in which a company pays independent security researchers a monetary reward for responsibly disclosing valid vulnerabilities. Platforms like HackerOne aggregate these programs and maintain public leaderboards ranking researchers by points or severity of findings."
+    },
+    {
+      "key": "no-exploit-no-report",
+      "term": "No Exploit, No Report",
+      "definition": "Shannon's stated policy of including only confirmed, copy-paste–reproducible exploits in its final assessment report. The intent is to eliminate false positives — vulnerabilities flagged theoretically but never actually triggered — at the cost of potentially missing attack chains too complex for the current AI agent to replicate end-to-end."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "KeygraphHQ-shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "summary": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It ingests source code, maps the attack surface using browser automation, then dispatches parallel AI agents to identify and actively exploit OWASP vulnerability categories — outputting only confirmed, reproducible findings with copy-paste proof-of-concept payloads. As of May 2026 the repo had more than 41,000 GitHub stars and nearly 5,000 forks."
+    }
+  ],
+  "fact_check": "The tweet's claim that Shannon “stole the entire user database, created admin accounts, and bypassed login in 90 minutes” is technically accurate but missing critical context: the target was OWASP Juice Shop, a free, open-source application distributed specifically for security training and explicitly designed to be exploited. No verified public report of Shannon compromising a real production application exists. The login bypass itself takes roughly ten seconds; the 90 minutes is the full assessment sweep, not the time to a single exploit. The 96.15% XBOW benchmark score is self-reported by Keygraph and has not been independently verified; XBOW is also a controlled CTF environment, not a proxy for real-world effectiveness.",
+  "thread_summary": "In an eight-tweet thread from February 2026, @chiefofautism introduced Shannon as an autonomous AI hacking tool analogous to Claude Code for offensive security. The thread described a demo run against a test application — specifically OWASP Juice Shop — claiming Shannon independently stole a user database, created admin accounts, and bypassed authentication in 90 minutes, then linked to the KeygraphHQ/shannon GitHub repository. The thread attracted 218,000 views and substantial reply activity combining enthusiasm about the capability with concern about misuse.",
+  "sources": [
+    {
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "title": "KeygraphHQ/shannon — GitHub",
+      "note": "Primary source for architecture, README, licence, star and fork counts, and official description"
+    },
+    {
+      "url": "https://github.com/KeygraphHQ/shannon/blob/main/sample-reports/shannon-report-juice-shop.md",
+      "title": "Shannon sample report — OWASP Juice Shop",
+      "note": "Confirms specific exploits (SQL injection bypass, admin role injection, credential extraction) claimed in the viral tweet"
+    },
+    {
+      "url": "https://blog.talosintelligence.com/hand-over-the-keys-for-shannons-shenanigans/",
+      "title": "Hand Over the Keys for Shannon's Shenanigans — Cisco Talos",
+      "note": "Source for the white-box data-privacy risk critique and quoted warning about feeding private code to an external LLM"
+    },
+    {
+      "url": "https://dev.to/bhavishya_aggarwal_2651e7/i-let-an-ai-pentester-shannon-on-my-vulnerable-go-app-heres-what-happened-1p09",
+      "title": "I Let an AI Pentester Shannon on My Vulnerable Go App — DEV.to",
+      "note": "Independent tester confirming 90-minute runtime and that the auth bypass itself takes about 10 seconds"
+    },
+    {
+      "url": "https://medium.com/@barbarossa.alagoz/shannon-and-the-rise-of-proof-by-exploitation-ai-pentesting-67b0aadb2c49",
+      "title": "Shannon and the Rise of Proof-by-Exploitation — Medium",
+      "note": "Source for the No Exploit, No Report critique regarding multi-step vulnerability chains"
+    },
+    {
+      "url": "https://keygraph.io/about",
+      "title": "About — Keygraph",
+      "note": "Source for founder background, company origin story, and investor confirmation"
+    },
+    {
+      "url": "https://1337skills.com/blog/2026-04-25-ai-powered-pentesting-tools-reshaping-offensive-security/",
+      "title": "AI-Powered Pentesting Tools Reshaping Offensive Security — 1337skills",
+      "note": "Source for dual-use risk framing, XBOW leaderboard context, and ARTEMIS study economics"
+    },
+    {
+      "url": "https://medium.com/@parathan/proof-by-exploitation-shannons-approach-to-autonomous-penetration-testing-010eac3588d3",
+      "title": "Proof by Exploitation: Shannon's Approach — Medium",
+      "note": "Technical walkthrough confirming the five-phase architecture and parallel agent model"
+    }
+  ],
+  "bookmark_id": "2019608146692673886",
+  "generated_at": "2026-05-07T12:34:04.805314Z",
+  "backend": "claude-sonnet-subagent"
+}

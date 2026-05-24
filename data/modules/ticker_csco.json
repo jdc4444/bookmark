@@ -1,0 +1,28 @@
+{
+  "key": "CSCO",
+  "name": "Cisco Systems, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Cisco Systems, Inc. is a multinational technology conglomerate that designs, manufactures, and sells networking hardware, software, telecommunications equipment, and other high-technology services and products. The company is a leading provider of networking solutions for the internet, data centers, and enterprise communications, and has been expanding into cybersecurity, cloud, and AI infrastructure. Cisco holds a dominant market position in the networking industry, competing with companies like Juniper Networks and Arista Networks.",
+  "recent": "In the past 30 days, Cisco's stock has been influenced by broader market trends in AI and data center spending, with analysts highlighting its role as an AI beneficiary. Jim Cramer included Cisco in a list of AI winners for 2026, and the stock has traded near its 52-week high of $94.72, reflecting investor optimism about its networking and security solutions for AI workloads.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CSCO/news/",
+      "title": "Cisco Systems, Inc. (CSCO) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/csco",
+      "title": "CSCO: Cisco Systems Inc - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/CSCO",
+      "title": "CSCO Stock Price | Cisco Systems Inc. Stock Quote (U.S.: Nasdaq ..."
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/CSCO/news",
+      "title": "Cisco Systems, Inc. (CSCO) Latest Stock News | Seeking Alpha"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:36:50.446540Z",
+  "backend": "deepseek"
+}

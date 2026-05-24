@@ -1,0 +1,151 @@
+{
+  "headline": "Neural Networks Think in Shapes — Goodfire Is Mapping Them",
+  "lede": "When a large language model generates text, it does not retrieve stored facts from a lookup table; it navigates a vast internal landscape of structured geometry. Goodfire, an AI interpretability startup, this week launched a research series arguing that understanding the *shapes* those representations take — circles, trees, curved surfaces — is the right foundation for explaining, debugging, and precisely controlling AI models. The series opens a direct challenge to the sparse-autoencoder methods currently dominant in the field.",
+  "body": "The core claim is more concrete than it first sounds. Researchers have long known that neural network activations can be probed as high-dimensional vectors, and that concepts tend to cluster in those spaces. What **neural geometry** adds is an argument about *how* that clustering is organized. Days of the week, it turns out, arrange themselves as a ring inside language models — continuous around a circle, with Monday adjacent to both Tuesday and Sunday. Colors form a surface mirroring the *HSL* (hue-saturation-lightness) wheel. A genomic foundation model trained by Arc Institute encodes the evolutionary tree of life on a complex manifold; Alzheimer's biomarkers trace a smooth curve. The geometry, Goodfire's researchers argue, is not incidental noise — it is the model's implicit theory of the world, encoded in shape.\n\nThis framing sets up a pointed critique of the current dominant methodology. *Sparse autoencoders* (SAEs) — championed by Anthropic and others for decomposing neural network activations into interpretable features — work by finding many discrete linear directions in activation space. Goodfire argues that approach “shatters manifolds into many small and apparently-unrelated pieces,” turning a unified continuous structure into fragments that look unrelated to one another. The analogy the researchers offer: trying to understand a sorting algorithm without knowing that computers store numbers in binary. You might label individual bits, but the higher-order structure — and thus the computational logic — stays invisible.\n\nGoodfire's companion paper, published simultaneously, measures the consequences of that invisibility. The team shows that the *activation manifold* (the curved geometry of internal representations) and the *behavior manifold* (how model outputs vary) are approximately *isometric* — they share essentially the same shape. On a weekday-generation task, geodesic distances on the two manifolds correlate at r = 0.99; for months, r = 0.89. Steering a model by following the curved manifold — *manifold steering* — rather than cutting a straight line through activation space, produces **2.8 times more natural behavioral trajectories**. The practical implication: interventions used for alignment, fine-tuning, and behavior editing become more surgical and predictable when they respect the underlying geometry.\n\nThe work sits within *mechanistic interpretability*, a field that attempts to reverse-engineer what neural networks actually compute rather than merely what they output. The central challenge has been *polysemanticity* — individual neurons respond to many unrelated stimuli, making it difficult to assign stable meanings. SAEs were the leading proposed solution, splitting polysemantic neurons into pseudo-monosemantic features. Goodfire's program does not discard that work but frames it as incomplete: features may appear locally linear, but the concepts they encode are organized along curved paths through high-dimensional space. The *Platonic Representation Hypothesis* — published at ICML 2024 by MIT researchers — provides suggestive background: as models scale, their internal geometries appear to converge on a shared statistical structure, as if different architectures are independently discovering the same underlying terrain.\n\nGoodfire was founded in June 2024 and has raised roughly $207 million, reaching a reported valuation of $1.25 billion after a Series B in February 2026. Its chief scientist, Tom McGrath, founded the interpretability team at Google DeepMind, a division of Alphabet (GOOGL); research advisor Nick Cammarata co-founded the mechanistic interpretability effort at OpenAI. The company's products — **Ember**, a platform for decoding internal model features, and **Silico**, an agent-assisted interpretability environment — target practitioners who need to audit, debug, and edit model behavior in production. Partnerships with Rakuten (4755.T), Mayo Clinic, and Arc Institute suggest the commercial thesis being assembled: interpretability as infrastructure, not just academic curiosity.",
+  "tickers": [
+    "GOOGL",
+    "4755.T"
+  ],
+  "companies": [
+    {
+      "name": "Goodfire",
+      "ticker": null
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Rakuten",
+      "ticker": "4755.T"
+    },
+    {
+      "name": "Arc Institute",
+      "ticker": null
+    },
+    {
+      "name": "Mayo Clinic",
+      "ticker": null
+    }
+  ],
+  "poster": "GoodfireAI",
+  "concepts": [
+    {
+      "key": "neural-geometry",
+      "term": "Neural Geometry",
+      "definition": "The study of the geometric structures that neural networks develop in their internal activation spaces. Rather than treating representations as unstructured clouds of vectors, neural geometry asks what shapes those vectors form — rings, manifolds, trees — and how those shapes encode conceptual relationships between ideas."
+    },
+    {
+      "key": "activation-manifold",
+      "term": "Activation Manifold",
+      "definition": "A curved, lower-dimensional surface embedded in a neural network's high-dimensional activation space. When a model represents a continuous concept — the days of a week, positions along a scale — the activations corresponding to that concept trace out a smooth curved surface rather than a flat plane or a set of isolated points."
+    },
+    {
+      "key": "behavior-manifold",
+      "term": "Behavior Manifold",
+      "definition": "The geometric structure of a model's outputs, analogous to the activation manifold for internal representations. Goodfire's research found that the behavior manifold and activation manifold are approximately isometric — nearly the same shape — meaning the internal geometry directly constrains what outputs are achievable under intervention."
+    },
+    {
+      "key": "manifold-steering",
+      "term": "Manifold Steering",
+      "definition": "A technique for intervening on a neural network's behavior by moving activations along the curved surface of the activation manifold, rather than along a straight linear direction. By following the manifold's intrinsic geometry, interventions stay in regions the model has learned and produce more coherent, targeted behavioral changes than conventional linear steering vectors."
+    },
+    {
+      "key": "sparse-autoencoder",
+      "term": "Sparse Autoencoder (SAE)",
+      "definition": "A neural network architecture trained to decompose the activations of a larger model into a large, sparse set of interpretable linear features. SAEs are the dominant tool in mechanistic interpretability for identifying what concepts a model has encoded; Goodfire argues they miss higher-order manifold structure by forcing curved geometry into flat, discrete directions."
+    },
+    {
+      "key": "mechanistic-interpretability",
+      "term": "Mechanistic Interpretability",
+      "definition": "A subfield of AI research focused on reverse-engineering the internal computations of neural networks into human-understandable algorithms and representations. Unlike behavioral evaluations, which test what a model does, mechanistic interpretability asks how and why — tracing specific internal pathways and features that produce given outputs."
+    },
+    {
+      "key": "polysemanticity",
+      "term": "Polysemanticity",
+      "definition": "The phenomenon where a single neuron in a neural network activates in response to many apparently unrelated concepts or inputs. It complicates interpretability because neurons cannot be assigned a single stable meaning. Sparse autoencoders were developed partly as a solution, finding directions in activation space that are more selectively responsive to individual concepts."
+    },
+    {
+      "key": "isometric",
+      "term": "Isometric",
+      "definition": "Two geometric spaces are isometric when they have the same intrinsic shape — one can be mapped onto the other without stretching or compressing any distances. Goodfire's finding that the activation and behavior manifolds are approximately isometric means the model's internal geometry is a faithful, distance-preserving map of its output geometry."
+    },
+    {
+      "key": "geodesic-distance",
+      "term": "Geodesic Distance",
+      "definition": "The shortest path between two points measured along a curved surface, analogous to the great-circle route on a globe. On a flat surface, geodesic distance equals straight-line distance; on a curved manifold, the shortest path curves with the surface. Goodfire's results compare geodesic distances to straight-line Euclidean distances to demonstrate that following the manifold's curvature better predicts how model behavior changes under intervention."
+    },
+    {
+      "key": "platonic-representation-hypothesis",
+      "term": "Platonic Representation Hypothesis",
+      "definition": "A hypothesis published at ICML 2024 by MIT researchers proposing that as neural networks scale up, their internal representations converge toward a universal statistical model of reality. Vision models and language models trained on entirely different data and tasks appear to organize their representations in increasingly similar ways, as if independently discovering the same underlying geometric structure."
+    },
+    {
+      "key": "hsl",
+      "term": "HSL (Hue-Saturation-Lightness)",
+      "definition": "A cylindrical color model that describes colors by three dimensions: hue (position on the color wheel), saturation (intensity or purity), and lightness (brightness from black to white). Used here as a reference for the curved surface that neural network activations for color appear to form — not a flat grid but a shape that mirrors the cylindrical geometry of the HSL model."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.goodfire.ai/research/neural-geometry",
+      "title": "Neural Geometry Series — Goodfire AI",
+      "note": "Series landing page; frames the research agenda and lists all published posts as of May 2026"
+    },
+    {
+      "url": "https://www.goodfire.ai/research/the-world-inside-neural-networks",
+      "title": "The World Inside Neural Networks — Goodfire AI",
+      "note": "Inaugural series post by Geiger et al.; source for the ring, HSL, tree-of-life, and Alzheimer examples"
+    },
+    {
+      "url": "https://arxiv.org/html/2605.05115v1",
+      "title": "Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior",
+      "note": "Companion paper by Wurgaft et al.; source for r=0.99 isometry result and 2.8x steering improvement"
+    },
+    {
+      "url": "https://www.goodfire.ai/blog/our-series-b",
+      "title": "Goodfire Series B Announcement",
+      "note": "Source for $150M Series B at $1.25B valuation, February 2026"
+    },
+    {
+      "url": "https://menlovc.com/perspective/leading-goodfires-50m-series-a-to-interpret-how-ai-models-think/",
+      "title": "Leading Goodfire's $50M Series A — Menlo Ventures",
+      "note": "Investor perspective; background on founders, research pedigree, and company mission"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.07987",
+      "title": "The Platonic Representation Hypothesis",
+      "note": "Huh et al., ICML 2024; backdrop for convergence of neural representations across architectures as models scale"
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.03658",
+      "title": "The Linear Representation Hypothesis and the Geometry of Large Language Models",
+      "note": "Park et al., ICML 2024; formalizes the linear-direction baseline that Goodfire's manifold work extends and critiques"
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.18235",
+      "title": "The Origins of Representation Manifolds in LLMs",
+      "note": "Modell et al., 2025; theoretical grounding for why LLM representations form continuous manifolds rather than discrete directions"
+    },
+    {
+      "url": "https://arxiv.org/html/2404.14082v1",
+      "title": "Mechanistic Interpretability for AI Safety: A Review",
+      "note": "Comprehensive field review; situates Goodfire's neural geometry program within the broader mechanistic interpretability agenda"
+    }
+  ],
+  "bookmark_id": "2052420446910644616",
+  "generated_at": "2026-05-08T10:11:51.005276Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,28 @@
+{
+  "key": "EVR",
+  "name": "Evercore Inc.",
+  "exchange": "NYSE",
+  "blurb": "Evercore Inc. is an independent investment banking advisory firm, providing strategic advisory services including mergers and acquisitions, restructuring, and capital markets advice to corporations, governments, and financial sponsors. The company operates through two segments: Investment Banking & Equities and Investment Management. With a strong focus on advisory rather than lending or trading, Evercore is recognized as a leading independent investment bank globally.",
+  "recent": "In the past 30 days, Evercore reported strong quarterly earnings on April 29, 2026, with revenue up 47.2% year-over-year and net income up 70.2%. The stock has traded in a range of $328.78 to $343.20, closing at $341.19 on May 8, 2026, reflecting a 2.99% gain for the day. Analysts maintain a Buy rating with a price target of $361.50.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/EVR/",
+      "title": "Evercore Inc. (EVR) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/EVR/",
+      "title": "Evercore (EVR) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/EVR:NYSE",
+      "title": "Evercore Inc (EVR) Stock Price & News - Google Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/evr/",
+      "title": "Evercore (EVR) Stock Price & Overview - Stock Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T12:18:05.875083Z",
+  "backend": "deepseek"
+}

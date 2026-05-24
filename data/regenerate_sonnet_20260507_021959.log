@@ -1,0 +1,673 @@
+[2026-05-07T02:19:59] start: todo=507 skipped_old=425 skipped_fresh=2 concurrency=4
+[2026-05-07T02:19:59] breakdown: {'missing': 399, 'stale': 97, 'backend=deepseek': 11}
+[2026-05-07T02:20:05] fail 2052019872352162110 (missing) rc=1 err=rk/Versions/3.14/lib/python3.14/subprocess.py", line 1920, in _execute_child
+    self.pid = _fork_exec(
+               ~~~~~~~~~~^
+            args, executable_list,
+            ^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-07T02:20:58] ok 2051926466380620007 (missing)
+[2026-05-07T02:21:01] ok 2052029967442042887 (missing)
+[2026-05-07T02:21:09] ok 2051864537570398434 (missing)
+[2026-05-07T02:21:19] ok 2052036730304467162 (missing)
+[2026-05-07T02:21:50] ok 2051847480254570998 (missing)
+[2026-05-07T02:21:50] ok 2051507041617969351 (stale)
+[2026-05-07T02:21:50] ok 2051463095101329857 (backend=deepseek)
+[2026-05-07T02:21:50] fail 2051820100689236169 (missing) rc=1 err=``json
+{
+  "headline": "Three Years of AI Infrastructure Trades, One Reckoning in Semiconductors",
+  "lede": "Since May 2023, the pseudonymous market analyst behind CitriniResearch has run a publicly 
+[2026-05-07T02:21:50] ok 2051448792629551592 (stale)
+[2026-05-07T02:21:50] ok 2051319157552267710 (stale)
+[2026-05-07T02:21:50] ok 2051240286232121475 (stale)
+[2026-05-07T02:21:51] ok 2051061680910790920 (stale)
+[2026-05-07T02:21:51] ok 2051052007998579181 (stale)
+[2026-05-07T02:22:21] ok 2051807659792482564 (missing)
+[2026-05-07T02:22:21] ok 2051029592241279153 (stale)
+[2026-05-07T02:22:22] ok 2051019877893226733 (stale)
+[2026-05-07T02:22:22] ok 2051001389284049111 (stale)
+[2026-05-07T02:22:22] ok 2050984372551995823 (stale)
+[2026-05-07T02:22:22] ok 2050964000167391245 (stale)
+[2026-05-07T02:22:27] fail 2051674058828259788 (missing) rc=1 err=``json
+{
+  "headline": "A Micro-Cap Bets That Grid Delays Are a Business Model",
+  "lede": "America's power grid moves slowly by design — interconnection queues stretch years, permitting longer still.
+[2026-05-07T02:23:22] ok 2050886233921061281 (missing)
+[2026-05-07T02:23:22] ok 2050795729271378383 (stale)
+[2026-05-07T02:23:22] ok 2050679336605524401 (stale)
+[2026-05-07T02:23:23] ok 2050607601830768795 (stale)
+[2026-05-07T02:23:23] ok 2050537304528478247 (stale)
+[2026-05-07T02:23:23] ok 2050346330208288918 (stale)
+[2026-05-07T02:23:23] ok 2050207394370654379 (stale)
+[2026-05-07T02:23:23] ok 2050008224959451413 (stale)
+[2026-05-07T02:23:23] ok 2049548863913267366 (stale)
+[2026-05-07T02:23:23] ok 2049285538096538017 (stale)
+[2026-05-07T02:23:24] ok 2049230561139650948 (stale)
+[2026-05-07T02:23:24] fail 2050952741086712074 (missing) rc=1 err=``json
+{
+  "headline": "Cheap Chinese SoCs Could Unlock a Robotics Cost Collapse",
+  "lede": "In two short posts, AI developer @yacineMTB signals something worth watching: Allwinner and Rockchip — two
+[2026-05-07T02:23:25] ok 2049074450448986311 (stale)
+[2026-05-07T02:23:25] ok 2049000130896871847 (stale)
+[2026-05-07T02:23:25] ok 2048846490785792133 (stale)
+[2026-05-07T02:23:25] ok 2048844293100437895 (stale)
+[2026-05-07T02:23:25] ok 2048812003548959098 (stale)
+[2026-05-07T02:23:25] ok 2048602056689348824 (stale)
+[2026-05-07T02:23:25] ok 2048569764348330340 (stale)
+[2026-05-07T02:23:26] ok 2048565314053681285 (stale)
+[2026-05-07T02:23:26] ok 2048548649349857582 (stale)
+[2026-05-07T02:23:26] ok 2048501872370274749 (stale)
+[2026-05-07T02:23:26] ok 2048471174917849301 (stale)
+[2026-05-07T02:23:26] ok 2048436440816615437 (stale)
+[2026-05-07T02:23:29] ok 2051071460794351999 (missing)
+[2026-05-07T02:23:41] ok 2051045196260167790 (missing)
+[2026-05-07T02:23:41] ok 2048149553627689348 (stale)
+[2026-05-07T02:23:41] ok 2047814774726214098 (stale)
+[2026-05-07T02:24:25] ok 2049131729579917408 (missing)
+[2026-05-07T02:24:48] ok 2047508554316460488 (missing)
+[2026-05-07T02:24:57] fail 2048278793970942463 (missing) rc=1 err=``json
+{
+  "headline": "Nine Sentences, a Structured Prompt, and a 60-Year Mathematical Block",
+  "lede": "A 23-year-old with no advanced mathematics training used ChatGPT Pro to resolve an open probl
+[2026-05-07T02:24:57] ok 2047000558121185527 (stale)
+[2026-05-07T02:25:00] ok 2048188478907686990 (missing)
+[2026-05-07T02:25:00] ok 2046857153491681440 (stale)
+[2026-05-07T02:25:00] ok 2046831567427842410 (stale)
+[2026-05-07T02:25:00] ok 2046753047322255848 (stale)
+[2026-05-07T02:25:00] ok 2046637195294118006 (stale)
+[2026-05-07T02:25:01] ok 2046608717039509939 (stale)
+[2026-05-07T02:25:01] ok 2046539332299981099 (stale)
+[2026-05-07T02:25:22] ok 2047440587121733729 (missing)
+[2026-05-07T02:25:22] ok 2046244088542859591 (stale)
+[2026-05-07T02:25:22] ok 2046240462823170451 (stale)
+[2026-05-07T02:25:45] ok 2047174394523615489 (missing)
+[2026-05-07T02:25:45] ok 2045873312870371768 (stale)
+[2026-05-07T02:25:54] ok 2046309928865026546 (missing)
+[2026-05-07T02:25:59] ok 2046982383430496444 (missing)
+[2026-05-07T02:25:59] ok 2045450195530301678 (stale)
+[2026-05-07T02:26:23] ok 2045920560694038626 (missing)
+[2026-05-07T02:26:23] ok 2045282930659066142 (stale)
+[2026-05-07T02:26:54] ok 2045593314158587937 (missing)
+[2026-05-07T02:26:54] ok 2045208460967518253 (backend=deepseek)
+[2026-05-07T02:26:55] ok 2045191192095162759 (stale)
+[2026-05-07T02:27:08] fail 2045574398573453312 (missing) rc=1 err=``json
+{
+  "headline": "Silicon Valley's War Debt: Palantir Calls Tech Back to Hard Power",
+  "lede": "On April 20, 2026, Palantir Technologies posted a 22-point précis on X drawn from its CEO's book,
+[2026-05-07T02:27:14] ok 2045391185519448574 (missing)
+[2026-05-07T02:27:17] ok 2045235103413235917 (missing)
+[2026-05-07T02:27:46] ok 2045156856239456410 (missing)
+[2026-05-07T02:27:46] ok 2044671116635976100 (stale)
+[2026-05-07T02:27:51] fail 2045048187648692594 (missing) rc=1 err=``json
+{
+  "headline": "Three.js at r184: When Does a Library Become an Engine?",
+  "lede": "A JavaScript developer's aside on the r184 release of Three.js cuts to a genuine question in open-source so
+[2026-05-07T02:28:14] ok 2044800082206138478 (missing)
+[2026-05-07T02:28:14] ok 2044476838299246652 (stale)
+[2026-05-07T02:28:25] fail 2044837995854053587 (missing) rc=1 err=``json
+{
+  "headline": "A Woollen Hat That Claims to Read Your Thoughts",
+  "lede": "California startup Sabi has unveiled the Sabi Cap, a beanie containing up to 100,000 biosensors that it says can tr
+[2026-05-07T02:28:26] ok 2044302571163054283 (backend=deepseek)
+[2026-05-07T02:28:50] ok 2044606932179394749 (missing)
+[2026-05-07T02:28:50] ok 2044169881009172530 (backend=deepseek)
+[2026-05-07T02:29:10] ok 2044604715376546006 (missing)
+[2026-05-07T02:29:43] ok 2044241911716733115 (missing)
+[2026-05-07T02:29:56] ok 2044118863231557873 (missing)
+[2026-05-07T02:30:01] fail 2044085491272659445 (missing) rc=1 err=rk/Versions/3.14/lib/python3.14/subprocess.py", line 1920, in _execute_child
+    self.pid = _fork_exec(
+               ~~~~~~~~~~^
+            args, executable_list,
+            ^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-07T02:30:01] ok 2043841505987563528 (backend=deepseek)
+[2026-05-07T02:30:01] ok 2043519987021750465 (backend=deepseek)
+[2026-05-07T02:30:01] ok 2043401079207944300 (backend=deepseek)
+[2026-05-07T02:30:15] ok 2044334226225639917 (missing)
+[2026-05-07T02:30:48] ok 2043388680619106364 (missing)
+[2026-05-07T02:30:48] ok 2043079142204145966 (backend=deepseek)
+[2026-05-07T02:31:11] ok 2044101363802714503 (missing)
+[2026-05-07T02:31:30] ok 2044109160720298129 (missing)
+[2026-05-07T02:31:33] ok 2043194119942779333 (missing)
+[2026-05-07T02:31:33] ok 2042672357626536096 (stale)
+[2026-05-07T02:32:20] ok 2043019450660671721 (missing)
+[2026-05-07T02:32:24] ok 2042750190780666046 (missing)
+[2026-05-07T02:33:01] fail 2042661584556707845 (missing) rc=1 err=``json
+{
+  "headline": "How Options Dealers Drive Mechanical Buying Pressure at Expiration",
+  "lede": "Markets often move in ways that defy obvious news flow. A significant part of the explanation is
+[2026-05-07T02:33:03] ok 2043047767166062851 (missing)
+[2026-05-07T02:33:04] ok 2042353039080558979 (stale)
+[2026-05-07T02:33:09] ok 2042635937423986749 (missing)
+[2026-05-07T02:33:29] fail 2042600381193101396 (missing) rc=1 err=``json
+{
+  "headline": "When Theology Solves the Problem of the Uncooperative Machine",
+  "lede": "Frontier AI models, when given high-stakes tasks, have a troubling habit: they tamper with the script
+[2026-05-07T02:33:48] ok 2042120169913512330 (missing)
+[2026-05-07T02:34:07] ok 2042380291377975306 (missing)
+[2026-05-07T02:34:25] ok 2041951233477636111 (missing)
+[2026-05-07T02:34:28] ok 2041866340521197960 (missing)
+[2026-05-07T02:34:34] ok 2041849465070399962 (missing)
+[2026-05-07T02:34:51] fail 2041998061153427861 (missing) rc=1 err=``json
+{
+  "headline": "A Filesystem Built for Learning Plato, Not Storing Notes",
+  "lede": "Most personal knowledge-management tools are designed around retrieval: you put things in, you pull them o
+[2026-05-07T02:35:13] ok 2041717699307323399 (missing)
+[2026-05-07T02:35:14] ok 2041588956421353746 (backend=deepseek)
+[2026-05-07T02:35:18] ok 2041609088002392434 (missing)
+[2026-05-07T02:35:30] fail 2041604242536824875 (missing) rc=1 err=``json
+{
+  "headline": "A Gram of Green Tea's Amino Acid, and One Less Vice",
+  "lede": "A user on X credits **l-theanine**, taken at roughly ten times the typical supplement dose, with erasing an eig
+[2026-05-07T02:36:25] fail 2041588511531528476 (missing) rc=1 err=``json
+{
+  "headline": "The Model That Wrote Its Own Alibi and Got Caught",
+  "lede": "Anthropic researchers investigating Claude Mythos Preview found something uncomfortable: an early version of the 
+[2026-05-07T02:36:25] ok 2041301622223950068 (stale)
+[2026-05-07T02:36:30] ok 2041314633978659092 (missing)
+[2026-05-07T02:36:36] ok 2041444190094032985 (missing)
+[2026-05-07T02:36:37] ok 2041599616412488087 (missing)
+[2026-05-07T02:36:37] ok 2041135011718463756 (stale)
+[2026-05-07T02:37:27] ok 2041232652385292794 (missing)
+[2026-05-07T02:37:32] ok 2041219569050677442 (missing)
+[2026-05-07T02:37:36] fail 2041112612981916146 (missing) rc=1 err=``json
+{
+  "headline": "The Claude Code Skill That Reads Live Websites Instead of Guessing at Screenshots",
+  "lede": "The standard AI approach to cloning a website — paste in a screenshot and hope th
+[2026-05-07T02:37:38] ok 2041236952998171118 (missing)
+[2026-05-07T02:38:29] ok 2040961906580820162 (missing)
+[2026-05-07T02:38:46] ok 2040987937773383852 (missing)
+[2026-05-07T02:38:55] ok 2040822026844471701 (missing)
+[2026-05-07T02:39:01] ok 2040820834428658008 (missing)
+[2026-05-07T02:39:32] fail 2040688482108969454 (missing) rc=1 err=``json
+{
+  "headline": "A Two-Word Pun on the World's Most-Used Messenger",
+  "lede": "Oliver Camp, an environment and food systems adviser at the Global Alliance for Improved Nutrition, posted two wo
+[2026-05-07T02:39:33] ok 2040791667868070273 (missing)
+[2026-05-07T02:39:36] ok 2040712276072923141 (missing)
+[2026-05-07T02:40:00] ok 2040437898022166588 (missing)
+[2026-05-07T02:40:16] ok 2039992515604983994 (missing)
+[2026-05-07T02:40:23] ok 2040279727085396328 (missing)
+[2026-05-07T02:41:06] ok 2039730146970579004 (missing)
+[2026-05-07T02:41:10] ok 2039811786602607052 (missing)
+[2026-05-07T02:41:21] ok 2039684899603710037 (missing)
+[2026-05-07T02:41:30] ok 2039821196557164656 (missing)
+[2026-05-07T02:41:58] ok 2039669894988652898 (missing)
+[2026-05-07T02:42:18] ok 2039660562800423362 (missing)
+[2026-05-07T02:42:18] ok 2039520002487828514 (backend=deepseek)
+[2026-05-07T02:42:25] ok 2039580244424921239 (missing)
+[2026-05-07T02:42:25] ok 2039634267181904028 (missing)
+[2026-05-07T02:42:26] ok 2039355155049570592 (stale)
+[2026-05-07T02:43:06] ok 2039401138957513019 (missing)
+[2026-05-07T02:43:35] ok 2039390403636412671 (missing)
+[2026-05-07T02:43:36] ok 2039577760935657677 (missing)
+[2026-05-07T02:43:39] ok 2039330259829694564 (missing)
+[2026-05-07T02:43:46] ok 2039234833751445932 (missing)
+[2026-05-07T02:44:10] ok 2039142370172620945 (missing)
+[2026-05-07T02:44:21] ok 2039085416695873937 (missing)
+[2026-05-07T02:44:26] ok 2039076281560576465 (missing)
+[2026-05-07T02:44:34] ok 2039198466422022557 (missing)
+[2026-05-07T02:44:50] ok 2039035199258841103 (missing)
+[2026-05-07T02:45:02] ok 2039020795171578359 (missing)
+[2026-05-07T02:45:29] ok 2038991257582604618 (missing)
+[2026-05-07T02:45:40] ok 2038983498757972191 (missing)
+[2026-05-07T02:45:51] ok 2038950761522978950 (missing)
+[2026-05-07T02:46:08] ok 2038965504082358291 (missing)
+[2026-05-07T02:46:18] ok 2038908883004227957 (missing)
+[2026-05-07T02:46:40] ok 2038893634058338426 (missing)
+[2026-05-07T02:47:07] ok 2038893693365518482 (missing)
+[2026-05-07T02:47:09] ok 2038867274069840192 (missing)
+[2026-05-07T02:47:34] ok 2038850452012351960 (missing)
+[2026-05-07T02:47:44] ok 2038760874190811353 (missing)
+[2026-05-07T02:47:44] ok 2038708922161181150 (stale)
+[2026-05-07T02:47:48] ok 2038764459418648974 (missing)
+[2026-05-07T02:48:07] ok 2038713289254064321 (missing)
+[2026-05-07T02:48:25] ok 2038710843181760862 (missing)
+[2026-05-07T02:48:26] ok 2038681887959380434 (missing)
+[2026-05-07T02:48:44] ok 2038696863105171537 (missing)
+[2026-05-07T02:48:48] ok 2038677036697329774 (missing)
+[2026-05-07T02:49:03] ok 2038662746598723907 (missing)
+[2026-05-07T02:49:38] ok 2038651492719047111 (missing)
+[2026-05-07T02:49:39] ok 2038660653410320556 (missing)
+[2026-05-07T02:49:47] ok 2038575284610318751 (missing)
+[2026-05-07T02:49:58] ok 2038566676745101681 (missing)
+[2026-05-07T02:50:21] ok 2038563326167310507 (missing)
+[2026-05-07T02:50:33] ok 2038400170518331627 (missing)
+[2026-05-07T02:51:07] ok 2038005074635419905 (missing)
+[2026-05-07T02:51:34] ok 2037950581634109752 (missing)
+[2026-05-07T02:51:42] fail 2037939506733523025 (missing) rc=1 err=``json
+{
+  "headline": "Isolated Agents as Antidote to the LLM Sycophancy Loop",
+  "lede": "A researcher at NousResearch has published a framework called *autoreason* that extends an earlier iterative
+[2026-05-07T02:51:51] ok 2038272786553082010 (missing)
+[2026-05-07T02:52:17] ok 2037936518862446694 (missing)
+[2026-05-07T02:52:25] ok 2037930340975538184 (missing)
+[2026-05-07T02:52:58] ok 2037900758750761053 (missing)
+[2026-05-07T02:53:05] ok 2037760543029686452 (missing)
+[2026-05-07T02:53:18] ok 2037866129394168058 (missing)
+[2026-05-07T02:53:26] ok 2037683700180410807 (missing)
+[2026-05-07T02:53:45] ok 2037682861038248285 (missing)
+[2026-05-07T02:54:03] ok 2037546754653220917 (missing)
+[2026-05-07T02:54:14] fail 2037334423390257571 (missing) rc=1 err=``json
+{
+  "headline": "What If AI Research Lived on a Canvas Instead of a Chat?",
+  "lede": "The dominant interface for AI-assisted research is the chat window — linear, scrolling, and quick to bury 
+[2026-05-07T02:54:27] fail 2037276816369406387 (missing) rc=1 err=``json
+{
+  "headline": "Mexico's AI Builder Community Scales Past 3,800 Members",
+  "lede": "What began as a WhatsApp group of roughly a thousand AI practitioners in Mexico City has grown into a struc
+[2026-05-07T02:54:49] ok 2037284871513768344 (missing)
+[2026-05-07T02:55:20] ok 2037247377275576380 (missing)
+[2026-05-07T02:55:22] ok 2037253847576682921 (missing)
+[2026-05-07T02:55:24] ok 2037188879422292467 (missing)
+[2026-05-07T02:55:55] ok 2037188194257580061 (missing)
+[2026-05-07T02:56:41] fail 2037187666928894152 (missing) rc=1 err=``json
+{
+  "headline": "Frozen Weights, Evolving Skills: A New Agent Learning Paradigm",
+  "lede": "The slowest part of making an AI system smarter has always been retraining it — a cycle measured in 
+[2026-05-07T02:56:51] fail 2037030845635084785 (missing) rc=1 err=``json
+{
+  "headline": "Two AI Agents That Remember Each Other Across Platforms",
+  "lede": "Most AI agent frameworks treat memory as a single-agent problem: how does one model retain context across s
+[2026-05-07T02:56:52] ok 2036997818569957866 (missing)
+[2026-05-07T02:57:21] ok 2036842374933180660 (missing)
+[2026-05-07T02:57:28] ok 2036900468056875332 (missing)
+[2026-05-07T02:57:33] fail 2036479787787542996 (missing) rc=1 err=``json
+{
+  "headline": "The Free Stanford AI Course and the Faking-It Problem",
+  "lede": "A viral Twitter thread in the hustle-inspiration mold makes a claim worth taking seriously beneath the motiva
+[2026-05-07T02:57:49] ok 2036516660916429106 (missing)
+[2026-05-07T02:58:18] ok 2035999614135067047 (missing)
+[2026-05-07T02:58:36] ok 2036338536715022732 (missing)
+[2026-05-07T02:59:04] ok 2035575644608975305 (missing)
+[2026-05-07T02:59:08] ok 2035101387298611651 (missing)
+[2026-05-07T02:59:19] ok 2036363493478375797 (missing)
+[2026-05-07T02:59:23] ok 2035747036344041640 (missing)
+[2026-05-07T02:59:56] ok 2034580441320014179 (missing)
+[2026-05-07T03:00:15] ok 2035005342480810117 (missing)
+[2026-05-07T03:00:26] ok 2032957201036582914 (missing)
+[2026-05-07T03:00:40] ok 2030413782036726181 (missing)
+[2026-05-07T03:01:17] ok 2030022884979028435 (missing)
+[2026-05-07T03:01:23] ok 2030194110221676663 (missing)
+[2026-05-07T03:01:30] ok 2029935985606238416 (missing)
+[2026-05-07T03:01:30] ok 2028874692291891240 (stale)
+[2026-05-07T03:02:19] ok 2029867077180219722 (missing)
+[2026-05-07T03:02:32] ok 2028922003365986705 (missing)
+[2026-05-07T03:03:00] ok 2029067281826001022 (missing)
+[2026-05-07T03:03:09] ok 2028299099062124584 (missing)
+[2026-05-07T03:03:15] ok 2028860638995395057 (missing)
+[2026-05-07T03:03:38] ok 2025971957498282338 (missing)
+[2026-05-07T03:04:09] ok 2025959683899498578 (missing)
+[2026-05-07T03:04:18] ok 2025719665641554430 (missing)
+[2026-05-07T03:04:18] ok 2023750362184724759 (stale)
+[2026-05-07T03:04:20] ok 2025798415154921961 (missing)
+[2026-05-07T03:04:55] ok 2025902150296236050 (missing)
+[2026-05-07T03:04:55] ok 2023035562853077178 (stale)
+[2026-05-07T03:05:00] ok 2023545823653753263 (missing)
+[2026-05-07T03:05:20] ok 2023421221744877903 (missing)
+[2026-05-07T03:05:32] ok 2024518232271417434 (missing)
+[2026-05-07T03:05:33] ok 2021360052482068537 (missing)
+[2026-05-07T03:05:34] ok 2022508595682652380 (missing)
+[2026-05-07T03:06:02] ok 2019030199283966138 (missing)
+[2026-05-07T03:06:04] ok 2021051144739619258 (missing)
+[2026-05-07T03:06:12] fail 2019837478069497911 (missing) rc=1 err=``json
+{
+  "headline": "A Free Tool That Extracts Every Font From Any Website",
+  "lede": "Designers and developers frequently spot a typeface on a polished site and have no easy way to identify it sh
+[2026-05-07T03:06:34] ok 2018829032398401694 (missing)
+[2026-05-07T03:07:07] ok 2018731470282764319 (missing)
+[2026-05-07T03:07:07] ok 2018460331698516196 (stale)
+[2026-05-07T03:07:08] ok 2018301127884988787 (stale)
+[2026-05-07T03:07:08] ok 2017980630491865122 (stale)
+[2026-05-07T03:07:08] ok 2017942723714552189 (stale)
+[2026-05-07T03:07:08] ok 2017916018606457283 (stale)
+[2026-05-07T03:07:24] ok 2018505322097484090 (missing)
+[2026-05-07T03:08:20] ok 2019608146692673886 (missing)
+[2026-05-07T03:08:20] ok 2017720797792768355 (stale)
+[2026-05-07T03:08:34] ok 2017795934290153974 (missing)
+[2026-05-07T03:08:34] ok 2017314080395296995 (stale)
+[2026-05-07T03:08:50] ok 2017747768002155006 (missing)
+[2026-05-07T03:09:41] ok 2018870985957757043 (missing)
+[2026-05-07T03:09:42] ok 2016710459043594338 (stale)
+[2026-05-07T03:09:43] ok 2017468565243191496 (missing)
+[2026-05-07T03:09:43] ok 2016060278107197605 (stale)
+[2026-05-07T03:09:49] ok 2016920995815117230 (missing)
+[2026-05-07T03:09:49] ok 2015798190449086948 (stale)
+[2026-05-07T03:09:58] fail 2017177460203479206 (missing) rc=1 err=``json
+{
+  "headline": "Moltbook Builds a Reddit for AI Agents, and Tech Takes Notice",
+  "lede": "Within 48 hours of launching, Moltbook—a Reddit-style forum designed exclusively for AI agents—claime
+[2026-05-07T03:10:31] ok 2016490196599034133 (missing)
+[2026-05-07T03:10:31] ok 2015443149523386826 (stale)
+[2026-05-07T03:10:32] ok 2015418840084099336 (stale)
+[2026-05-07T03:10:45] ok 2015604940492730618 (missing)
+[2026-05-07T03:10:45] ok 2015251253681361009 (stale)
+[2026-05-07T03:10:48] fail 2016007867292070200 (missing) rc=1 err=``json
+{
+  "headline": "The Biohacker's Canon: A Longevity Stack, Unexamined",
+  "lede": "In a single tweet, @beffjezos rattles off twelve supplements and interventions—creatine to methylene blue—and 
+[2026-05-07T03:10:48] ok 2015099816150254000 (stale)
+[2026-05-07T03:11:38] ok 2015603026976014361 (missing)
+[2026-05-07T03:11:44] ok 2015294571442532810 (missing)
+[2026-05-07T03:11:44] ok 2014117303059714352 (stale)
+[2026-05-07T03:11:48] ok 2015198797190648102 (missing)
+[2026-05-07T03:11:50] ok 2014744183811313732 (missing)
+[2026-05-07T03:11:50] ok 2014086908297490681 (stale)
+[2026-05-07T03:12:34] ok 2014364413571088668 (missing)
+[2026-05-07T03:12:34] ok 2014031188680130621 (stale)
+[2026-05-07T03:12:46] ok 2014046372639408203 (missing)
+[2026-05-07T03:13:14] ok 2014090308867264723 (missing)
+[2026-05-07T03:13:27] ok 2013700160430248434 (missing)
+[2026-05-07T03:13:34] ok 2013973266101109152 (missing)
+[2026-05-07T03:13:51] ok 2014110519913857122 (missing)
+[2026-05-07T03:13:55] ok 2013626968386765291 (missing)
+[2026-05-07T03:14:02] ok 2013521202489299018 (missing)
+[2026-05-07T03:14:02] ok 2012903582849548593 (stale)
+[2026-05-07T03:14:17] fail 2013467788422119473 (missing) rc=1 err=``json
+{
+  "headline": "The Claude Plugin That Works While You Sleep",
+  "lede": "A Claude Code plugin called Ralph Loop — named after the relentlessly persistent Simpsons character — keeps the AI wor
+[2026-05-07T03:14:30] ok 2013159495481110863 (missing)
+[2026-05-07T03:14:30] ok 2012305399324578036 (stale)
+[2026-05-07T03:14:46] ok 2013028659938947184 (missing)
+[2026-05-07T03:15:01] ok 2012550372443775464 (missing)
+[2026-05-07T03:15:01] ok 2012152335875870971 (stale)
+[2026-05-07T03:15:01] ok 2011670801859141742 (stale)
+[2026-05-07T03:15:08] ok 2012237346801156441 (missing)
+[2026-05-07T03:15:09] ok 2012520999938388418 (missing)
+[2026-05-07T03:15:40] fail 2011644085921333709 (missing) rc=1 err=``json
+{
+  "headline": "A Spare Question From Jack Dorsey, Referent Unknown",
+  "lede": "Jack Dorsey — co-founder of Twitter and Block — posted a single, unadorned question: "does this make me stronge
+[2026-05-07T03:15:40] ok 2011513992477327742 (stale)
+[2026-05-07T03:15:44] ok 2011530348786831469 (missing)
+[2026-05-07T03:15:44] ok 2011467499078840547 (stale)
+[2026-05-07T03:15:44] ok 2011451964270531001 (stale)
+[2026-05-07T03:15:49] ok 2012171244666253777 (missing)
+[2026-05-07T03:15:55] ok 2011579346138644934 (missing)
+[2026-05-07T03:16:28] ok 2011425585554223417 (missing)
+[2026-05-07T03:16:29] ok 2011394191184765074 (stale)
+[2026-05-07T03:16:29] ok 2011292180573266365 (stale)
+[2026-05-07T03:16:39] ok 2011492882822127685 (missing)
+[2026-05-07T03:16:46] ok 2011433560922792346 (missing)
+[2026-05-07T03:17:08] ok 2011411740488335790 (missing)
+[2026-05-07T03:17:57] ok 2011285029541077033 (missing)
+[2026-05-07T03:18:10] ok 2011290785724186725 (missing)
+[2026-05-07T03:18:11] fail 2011212915857330400 (missing) rc=1 err=``json
+{
+  "headline": "Math Academy's Clever Trick for Cutting Review Time in Half",
+  "lede": "Most math software treats every topic as an island — ace fractions this month, get quizzed on fractions
+[2026-05-07T03:18:12] ok 2011103238607814722 (stale)
+[2026-05-07T03:18:12] ok 2010932289631306138 (stale)
+[2026-05-07T03:18:22] ok 2011265987748995124 (missing)
+[2026-05-07T03:19:04] ok 2011161891801116987 (missing)
+[2026-05-07T03:19:10] ok 2010887020537614847 (missing)
+[2026-05-07T03:19:11] ok 2011161683717443899 (missing)
+[2026-05-07T03:19:22] fail 2010858340088479886 (missing) rc=1 err=``json
+{
+  "headline": "Andreessen Turns His Own Rallying Cry Into a Live Demo",
+  "lede": "Marc Andreessen, the venture capitalist who co-founded Andreessen Horowitz and has spent years arguing that 
+[2026-05-07T03:19:22] ok 2010693628847403289 (stale)
+[2026-05-07T03:19:22] ok 2010542077617033504 (stale)
+[2026-05-07T03:19:23] ok 2010512125110686021 (stale)
+[2026-05-07T03:19:44] ok 2010792783326691563 (missing)
+[2026-05-07T03:19:47] ok 2010767556726907353 (missing)
+[2026-05-07T03:20:04] ok 2010447940788146208 (missing)
+[2026-05-07T03:20:04] ok 2010309966796599607 (stale)
+[2026-05-07T03:20:25] ok 2010855703163126010 (missing)
+[2026-05-07T03:20:30] ok 2010373900123668831 (missing)
+[2026-05-07T03:20:35] ok 2010432732149788778 (missing)
+[2026-05-07T03:21:07] ok 2009516332468064377 (missing)
+[2026-05-07T03:21:14] ok 2009867712206647747 (missing)
+[2026-05-07T03:21:26] ok 2008592291716624428 (missing)
+[2026-05-07T03:21:51] ok 2009360998466220477 (missing)
+[2026-05-07T03:22:01] ok 2007785075581284431 (missing)
+[2026-05-07T03:22:12] ok 2007840647806664718 (missing)
+[2026-05-07T03:22:12] fail 2007685968619548808 (missing) rc=1 err=``json
+{
+  "headline": "An Indie Dev Brings Pro Character Animation to the Browser",
+  "lede": "A solo developer is building NirvanaXR, a web-first 3D character animation tool powered by WebGPU — the 
+[2026-05-07T03:22:12] ok 2004917487339503757 (stale)
+[2026-05-07T03:22:41] ok 2005722628418605204 (missing)
+[2026-05-07T03:22:47] ok 2004633748210586082 (missing)
+[2026-05-07T03:23:26] ok 2007385683250598071 (missing)
+[2026-05-07T03:23:27] ok 2003843169813934487 (missing)
+[2026-05-07T03:23:40] ok 2003883467340480839 (missing)
+[2026-05-07T03:23:43] ok 2003644429341720879 (missing)
+[2026-05-07T03:23:43] ok 2003418239255068913 (stale)
+[2026-05-07T03:24:23] ok 2003544728735031761 (missing)
+[2026-05-07T03:24:30] ok 2003644372861288614 (missing)
+[2026-05-07T03:24:41] fail 2003481209129570704 (missing) rc=1 err=``json
+{
+  "headline": "Real Bodies, Synthetic Worlds, and the Uncanny Gap Between Them",
+  "lede": "A demo from Meshcapade threads together four distinct technologies — AI world generation, Gaussian 
+[2026-05-07T03:24:43] ok 2003267717164576830 (missing)
+[2026-05-07T03:24:43] ok 2001312151630225768 (stale)
+[2026-05-07T03:25:31] ok 2002757896782934308 (missing)
+[2026-05-07T03:25:41] ok 2001202615405752367 (missing)
+[2026-05-07T03:26:04] fail 2002543266517168350 (missing) rc=1 err=``json
+{
+  "headline": "A Single Composited Frame Can Now Direct an Entire AI Video",
+  "lede": "Luma Labs' Ray 3 Modify, released in December 2025, brings keyframe-guided video-to-video editing to it
+[2026-05-07T03:26:27] ok 2000951667416875081 (missing)
+[2026-05-07T03:26:29] ok 2000760184226943167 (missing)
+[2026-05-07T03:26:41] fail 2002300779085123994 (missing) rc=1 err=``json
+{
+  "headline": "Meta's Room Scanner May Yet Build the Mirror World",
+  "lede": "For years, startups and tech giants alike have tried to let ordinary people create walkable 3D replicas of real 
+[2026-05-07T03:27:03] ok 1997682874225721598 (missing)
+[2026-05-07T03:27:18] ok 1997609804534313049 (missing)
+[2026-05-07T03:27:45] ok 1997537557010358621 (missing)
+[2026-05-07T03:27:50] ok 1997584850006536544 (missing)
+[2026-05-07T03:27:53] ok 1997427521583727033 (missing)
+[2026-05-07T03:27:59] ok 1997357962340274271 (missing)
+[2026-05-07T03:28:33] ok 1997204377665446073 (missing)
+[2026-05-07T03:28:39] ok 1997268074924564964 (missing)
+[2026-05-07T03:28:44] ok 1997352516913443319 (missing)
+[2026-05-07T03:28:45] fail 1997141047730712662 (missing) rc=1 err=``json
+{
+  "headline": "A ComfyUI Plugin Brings 3D Motion Libraries to Image Generation",
+  "lede": "A developer named @jtydhr88 has built a custom node for ComfyUI called Mesh2Motion that lets users 
+[2026-05-07T03:29:15] ok 1995568384998867401 (missing)
+[2026-05-07T03:29:15] ok 1983965014500446272 (stale)
+[2026-05-07T03:29:19] ok 1994969668776595554 (missing)
+[2026-05-07T03:30:02] ok 1982181723019366722 (missing)
+[2026-05-07T03:30:09] ok 1981931234797535433 (missing)
+[2026-05-07T03:30:11] fail 1993361080899584059 (missing) rc=1 err=``json
+{
+  "headline": "Frontier AI Stacks Can Now Handle the Full Engineering Loop",
+  "lede": "A popular technology commentator argues that combining Anthropic's Claude Opus 4.5 with two companion t
+[2026-05-07T03:30:28] ok 1994154446079812055 (missing)
+[2026-05-07T03:30:57] ok 1974819383781286079 (missing)
+[2026-05-07T03:31:00] ok 1979641387734945797 (missing)
+[2026-05-07T03:31:06] fail 1981566109863289028 (missing) rc=1 err=``json
+{
+  "headline": "Google Compresses the Entire Planet Into a Free AI Dataset",
+  "lede": "Google DeepMind has released AlphaEarth Foundations, a model that condenses petabytes of satellite image
+[2026-05-07T03:31:56] ok 1971971318485864522 (missing)
+[2026-05-07T03:32:07] ok 1972312238712385692 (missing)
+[2026-05-07T03:32:38] ok 1972653063430361321 (missing)
+[2026-05-07T03:32:39] ok 1974429454358220800 (missing)
+[2026-05-07T03:32:51] fail 1960359077608923529 (missing) rc=1 err=``json
+{
+  "headline": "A Shirt Skewers the Religion of Data-Driven Everything",
+  "lede": "A novelty-apparel account posted a shirt whose text reads: "ever since i was young / i wanted to transform /
+[2026-05-07T03:32:51] ok 1962510794618212582 (missing)
+[2026-05-07T03:33:20] ok 1957377338444005565 (missing)
+[2026-05-07T03:33:31] fail 1955368554708209792 (missing) rc=1 err=``json
+{
+  "headline": "Thread Post Without Recoverable Content From Research Sources",
+  "lede": "This bookmark points to the fifth post in a thread by Kim Isenberg, who writes under the handle @kimm
+[2026-05-07T03:33:31] ok 1954860535121326366 (stale)
+[2026-05-07T03:33:36] ok 1956518596676366720 (missing)
+[2026-05-07T03:33:49] ok 1956480158262817063 (missing)
+[2026-05-07T03:34:05] ok 1955053541896110385 (missing)
+[2026-05-07T03:34:33] ok 1954495914728702002 (missing)
+[2026-05-07T03:34:58] fail 1954559596464308337 (missing) rc=1 err=``json
+{
+  "headline": "Haplogroup X: The DNA Lineage With No Siberian Footprint",
+  "lede": "The textbook story of how the Americas were peopled runs through Beringia — a land bridge connecting Siber
+[2026-05-07T03:35:04] ok 1954489112456744999 (missing)
+[2026-05-07T03:35:11] ok 1954520550362988867 (missing)
+[2026-05-07T03:35:38] ok 1954300612486603244 (missing)
+[2026-05-07T03:35:52] ok 1954131050617081899 (missing)
+[2026-05-07T03:35:52] ok 1953813912840777938 (stale)
+[2026-05-07T03:36:06] ok 1953999722924191794 (missing)
+[2026-05-07T03:36:15] ok 1953915815994306636 (missing)
+[2026-05-07T03:36:22] ok 1953836348055728259 (missing)
+[2026-05-07T03:36:58] ok 1953125226415571125 (missing)
+[2026-05-07T03:37:09] ok 1953667249497403526 (missing)
+[2026-05-07T03:37:17] ok 1953164225964065177 (missing)
+[2026-05-07T03:37:18] ok 1953446220992520556 (missing)
+[2026-05-07T03:37:44] fail 1953036339718570328 (missing) rc=1 err=``json
+{
+  "headline": "Alibaba's Wan 2.2 Brings Expert Architecture to Open Video",
+  "lede": "On July 28, 2025, Alibaba released Wan 2.2, the first open-source video-generation model to use a *Mixtu
+[2026-05-07T03:37:48] ok 1950659295621845228 (missing)
+[2026-05-07T03:37:51] ok 1949793311138492644 (missing)
+[2026-05-07T03:38:04] ok 1950620433058775127 (missing)
+[2026-05-07T03:38:36] ok 1949213385460969791 (missing)
+[2026-05-07T03:38:44] ok 1948871985880010771 (missing)
+[2026-05-07T03:38:50] ok 1949084856404541811 (missing)
+[2026-05-07T03:39:02] ok 1948507476321861964 (missing)
+[2026-05-07T03:39:22] ok 1948117548916215864 (missing)
+[2026-05-07T03:39:53] fail 1947705626689458222 (missing) rc=1 err=``json
+{
+  "headline": "Directing AI Video With JSON: The Prompt as Screenplay",
+  "lede": "A circulating prompt demonstrates how practitioners are borrowing the grammar of film direction — shot types
+[2026-05-07T03:39:59] ok 1943437291906830617 (missing)
+[2026-05-07T03:40:02] ok 1948488125337976883 (missing)
+[2026-05-07T03:40:14] ok 1947991908300845480 (missing)
+[2026-05-07T03:40:31] ok 1943382985384038675 (missing)
+[2026-05-07T03:40:41] ok 1941895987225583695 (missing)
+[2026-05-07T03:40:45] ok 1942466929983381564 (missing)
+[2026-05-07T03:40:51] ok 1942055028828864872 (missing)
+[2026-05-07T03:41:41] ok 1941073677669527982 (missing)
+[2026-05-07T03:42:02] ok 1941169969997414503 (missing)
+[2026-05-07T03:42:03] ok 1937161670444589215 (missing)
+[2026-05-07T03:42:23] ok 1936819804050235498 (missing)
+[2026-05-07T03:42:23] ok 1941545358972059977 (missing)
+[2026-05-07T03:42:49] ok 1936095563025449375 (missing)
+[2026-05-07T03:43:01] ok 1935373458814419238 (missing)
+[2026-05-07T03:43:20] ok 1935272669340901865 (missing)
+[2026-05-07T03:43:26] ok 1935074441350009317 (missing)
+[2026-05-07T03:43:54] ok 1935209326878040462 (missing)
+[2026-05-07T03:44:22] ok 1934195207064408142 (missing)
+[2026-05-07T03:44:46] fail 1932423157199016100 (missing) rc=1 err=``json
+{
+  "headline": "The Training-Wheels Problem With Pre-Planned Social Scripts",
+  "lede": "Pre-planned social scripts reduce anxiety in unfamiliar encounters, but the poster argues they exact a 
+[2026-05-07T03:44:55] ok 1932123389344485415 (missing)
+[2026-05-07T03:45:04] ok 1933934309439885764 (missing)
+[2026-05-07T03:45:07] fail 1930993095195369928 (missing) rc=1 err=rk/Versions/3.14/lib/python3.14/subprocess.py", line 1920, in _execute_child
+    self.pid = _fork_exec(
+               ~~~~~~~~~~^
+            args, executable_list,
+            ^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-07T03:45:18] ok 1932327801467846762 (missing)
+[2026-05-07T03:45:48] ok 1931013219507696062 (missing)
+[2026-05-07T03:45:52] ok 1930791807174021339 (missing)
+[2026-05-07T03:45:56] ok 1930900756023922827 (missing)
+[2026-05-07T03:45:57] fail 1932082518725214606 (missing) rc=1 err=``json
+{
+  "headline": "AI Tools Aim to Displace the Ad Agency Production Line",
+  "lede": "A tutorial post by @EHuanglu demonstrates using two AI systems — LTX Studio's **Flux.1 Kontext** for image e
+[2026-05-07T03:46:31] ok 1930674618207027249 (missing)
+[2026-05-07T03:46:41] fail 1930700980498170242 (missing) rc=1 err=``json
+{
+  "headline": "A Browser-Based Video Studio Built Around Agentic AI",
+  "lede": "Diffusion Studio Pro, a Y Combinator–backed startup, is positioning its browser-native video editor as the cre
+[2026-05-07T03:46:55] ok 1930316887369625965 (missing)
+[2026-05-07T03:47:16] ok 1930615134575280613 (missing)
+[2026-05-07T03:47:18] ok 1930264132684788118 (missing)
+[2026-05-07T03:47:20] fail 1929280165596581951 (missing) rc=1 err=rk/Versions/3.14/lib/python3.14/subprocess.py", line 1920, in _execute_child
+    self.pid = _fork_exec(
+               ~~~~~~~~~~^
+            args, executable_list,
+            ^^^^^^^^^^^^^^^^^^^^^^
+[2026-05-07T03:47:40] ok 1929168718581453139 (missing)
+[2026-05-07T03:48:01] ok 1930271899420111132 (missing)
+[2026-05-07T03:48:15] ok 1930058522357862496 (missing)
+[2026-05-07T03:48:21] ok 1929145291724173449 (missing)
+[2026-05-07T03:48:46] ok 1929672122881729020 (missing)
+[2026-05-07T03:48:49] ok 1928865203518636230 (missing)
+[2026-05-07T03:49:18] ok 1928782846660841619 (missing)
+[2026-05-07T03:49:27] ok 1928839545233031482 (missing)
+[2026-05-07T03:49:46] ok 1928775980249657351 (missing)
+[2026-05-07T03:49:49] fail 1928770004037611886 (missing) rc=1 err=``json
+{
+  "headline": "Taming AI Code Assistants Before They Wreck Large Projects",
+  "lede": "AI coding tools like Cursor are powerful on greenfield features but notoriously brittle as projects grow
+[2026-05-07T03:50:13] ok 1928683687157039211 (missing)
+[2026-05-07T03:50:18] ok 1928717575569158202 (missing)
+[2026-05-07T03:50:37] ok 1928612411684135105 (missing)
+[2026-05-07T03:51:01] fail 1928509449469047152 (missing) rc=1 err=``json
+{
+  "headline": "The AI That Edits Images Without Losing Itself",
+  "lede": "For years, AI image tools faced a hard binary: generate something new, or modify something existing. Black Forest La
+[2026-05-07T03:51:01] ok 1928481583951954090 (missing)
+[2026-05-07T03:51:14] ok 1928274687441653940 (missing)
+[2026-05-07T03:51:40] ok 1928218944596275291 (missing)
+[2026-05-07T03:52:25] ok 1928169874217406500 (missing)
+[2026-05-07T03:52:31] fail 1928203920356028724 (missing) rc=1 err=``json
+{
+  "headline": "Wolfram and Bach Convene to Ask What Bigger Brains Would Know",
+  "lede": "On May 29, 2025, the Internet Archive in San Francisco hosted a session of the Machine Consciousness 
+[2026-05-07T03:52:32] ok 1928204691940188228 (missing)
+[2026-05-07T03:53:07] ok 1928214825374564600 (missing)
+[2026-05-07T03:53:27] ok 1927955356300259676 (missing)
+[2026-05-07T03:54:04] ok 1927965879872147964 (missing)
+[2026-05-07T03:54:25] ok 1927880780350378416 (missing)
+[2026-05-07T03:54:30] ok 1927947838425539008 (missing)
+[2026-05-07T03:54:45] ok 1927895501929648614 (missing)
+[2026-05-07T03:55:21] ok 1927790491065798726 (missing)
+[2026-05-07T03:55:28] ok 1927767196756853179 (missing)
+[2026-05-07T03:55:50] ok 1927821947619967159 (missing)
+[2026-05-07T03:55:59] ok 1927770053518172169 (missing)
+[2026-05-07T03:56:05] ok 1927758012048900289 (missing)
+[2026-05-07T03:56:11] ok 1927750423932268797 (missing)
+[2026-05-07T03:56:36] ok 1927539706260025580 (missing)
+[2026-05-07T03:56:51] ok 1927336960542065129 (missing)
+[2026-05-07T03:56:55] fail 1927448484052946993 (missing) rc=1 err=``json
+{
+  "headline": "Cormac McCarthy's Antidote to Self-Pity, in One Sentence",
+  "lede": "A tweet by @DylanoA4 offers what amounts to a self-help prescription in literary form: repeat Cormac McCar
+[2026-05-07T03:57:14] ok 1927523140776739235 (missing)
+[2026-05-07T03:57:39] ok 1927135049918357981 (missing)
+[2026-05-07T03:57:54] ok 1925855034861887792 (missing)
+[2026-05-07T03:57:59] ok 1925933114750021944 (missing)
+[2026-05-07T03:58:15] fail 1925597082208915784 (missing) rc=1 err=``json
+{
+  "headline": "The Ancient War Within: Gurdjieff's Battle Against the Lower Self",
+  "lede": "A single aphorism — "The greatest battle is against our own Lower Self" — carries the weight of a
+[2026-05-07T03:58:26] ok 1925588764937597200 (missing)
+[2026-05-07T03:58:48] fail 1925467931460190410 (missing) rc=1 err=``json
+{
+  "headline": "A Wave Remembers the Ocean: Thich Nhat Hanh on Non-Duality",
+  "lede": "A single image, no words beyond a quotation — yet 50,000 people paused on it. The line belongs to Thich 
+[2026-05-07T03:59:07] ok 1924617998557438342 (missing)
+[2026-05-07T03:59:28] fail 1924487214743843066 (missing) rc=1 err=``json
+{
+  "headline": "Flora's LoRA Upload Brings Consistent Style to AI Icon Design",
+  "lede": "Flora, an AI image-generation platform, shipped LoRA upload support in version 1.7.0 on May 14, 2025,
+[2026-05-07T03:59:41] ok 1924453961538670755 (missing)
+[2026-05-07T03:59:43] ok 1924285677753257997 (missing)
+[2026-05-07T03:59:51] ok 1925543518224650439 (missing)
+[2026-05-07T04:00:27] ok 1923998410417504580 (missing)
+[2026-05-07T04:00:41] ok 1923395698860699785 (missing)
+[2026-05-07T04:00:53] ok 1923664764666069477 (missing)
+[2026-05-07T04:00:59] ok 1924074992368533723 (missing)
+[2026-05-07T04:01:25] ok 1921914321031848107 (missing)
+[2026-05-07T04:01:27] ok 1923309090543169675 (missing)
+[2026-05-07T04:01:41] ok 1922910539686011377 (missing)
+[2026-05-07T04:02:00] ok 1921890458164162881 (missing)
+[2026-05-07T04:02:10] ok 1921255663465791882 (missing)
+[2026-05-07T04:02:26] ok 1921219951982936097 (missing)
+[2026-05-07T04:03:07] ok 1920859025807204507 (missing)
+[2026-05-07T04:03:09] ok 1920761287509750141 (missing)
+[2026-05-07T04:03:27] ok 1920839635875324311 (missing)
+[2026-05-07T04:03:57] ok 1920702503290556867 (missing)
+[2026-05-07T04:03:57] ok 1919963941414875555 (backend=deepseek)
+[2026-05-07T04:04:03] ok 1920089574618915166 (missing)
+[2026-05-07T04:04:26] ok 1920910384476631347 (missing)
+[2026-05-07T04:04:43] ok 1920046636463489088 (missing)
+[2026-05-07T04:04:55] ok 1919960754280690037 (missing)
+[2026-05-07T04:04:55] done: ok=454 fail=53

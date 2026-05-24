@@ -1,0 +1,16 @@
+{
+  "key": "MXL",
+  "name": "MaxLinear, Inc.",
+  "exchange": "Nasdaq",
+  "blurb": "MaxLinear designs mixed-signal semiconductors for broadband access, wired and wireless infrastructure, and — increasingly — optical data-centre connectivity. Its Keystone optical transceiver chip and Annapurna signal retimer are aimed at the 400G and 800G pluggable market serving hyperscalers and NeoClouds. The company pivoted aggressively toward AI optical infrastructure after years of relying on broadband and wireless revenue.",
+  "recent": "MaxLinear reported Q1 2026 revenue of $137.2M (+43% YoY), with its infrastructure segment — primarily optical connectivity — growing 136% year-over-year. The stock surged approximately 80–84% in a single session on April 24, 2026, and gained nearly 200% across April. The company raised its full-year 2026 optical data-centre revenue guidance by $30–40M to a range of $150–170M, citing improved hyperscaler program visibility. Production ramps in optical products are expected to begin late 2026 and accelerate through 2027.",
+  "sources": [
+    {"url": "https://investors.maxlinear.com/press-releases/detail/607/maxlinear-inc-announces-first-quarter-2026-financial", "title": "MaxLinear Q1 2026 financial results"},
+    {"url": "https://news.alphastreet.com/maxlinear-mxl-surges-on-ai-optical-traction-as-infrastructure-revenue-more-than-doubles-in-q1-2026/", "title": "MaxLinear surges on AI optical traction — Alphastreet"},
+    {"url": "https://www.fool.com/investing/2026/04/24/why-maxlinear-stock-soared-more-than-80-today/", "title": "Why MaxLinear stock soared more than 80% today — Motley Fool"},
+    {"url": "https://www.tikr.com/blog/maxlinear-stock-jumped-76-after-q1-earnings-can-the-ai-data-center-ramp-justify-the-new-price", "title": "MaxLinear stock jumped 76% after Q1 earnings — TIKR"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

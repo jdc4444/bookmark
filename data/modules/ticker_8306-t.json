@@ -1,0 +1,32 @@
+{
+  "key": "8306.T",
+  "name": "Mitsubishi UFJ Financial Group, Inc.",
+  "exchange": "Tokyo Stock Exchange",
+  "blurb": "Mitsubishi UFJ Financial Group, Inc. (MUFG) is Japan's largest financial group, offering banking, trust, securities, and asset management services through its subsidiaries, including MUFG Bank. It operates globally with a strong presence in Asia, the Americas, and Europe. As of 2026, MUFG is one of the world's largest financial institutions by assets, and its earnings are influenced by Japan's rising policy rates and cost reduction efforts.",
+  "recent": "In the past 30 days, MUFG's stock price has shown slight volatility, trading around ¥2,806.50 as of May 8, 2026. A Morningstar report from February 2026 highlighted that MUFG's earnings are riding on Japan's policy rate rise and lower costs. No major recent news or earnings releases were identified in the provided sources.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/8306.T/",
+      "title": "Mitsubishi UFJ Financial Group, Inc. (8306.T) - Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/8306.T/",
+      "title": "(8306.T) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/stockdetails/8306-JP-stock/fi-a9hpmw",
+      "title": "Mitsubishi UFJ Financial Group, Inc. (8306) Stock, Price, News, Quotes ..."
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/XTKS/8306/quote",
+      "title": "8306 Stock Price Quote | Morningstar"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/MITSUBISHI-UFJ-FINANCIAL--6492551/",
+      "title": "Mitsubishi UFJ Financial Group, Inc. Stock (8306) - Quote Japan Exchange- MarketScreener"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:25:54.502640Z",
+  "backend": "deepseek"
+}

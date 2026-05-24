@@ -1,0 +1,33 @@
+{
+  "key": "maxjanderson",
+  "display_name": "Max Anderson (@maxjanderson)",
+  "blurb": "Max Anderson is a self-taught macro investor and entrepreneur who built an audience on X by popularising the *Fed Net Liquidity* indicator — a measure of freely circulating dollars derived from the Federal Reserve's balance sheet minus funds absorbed by the Treasury General Account and Reverse Repo facility. He describes having bootstrapped a SaaS company to $15 million in annual recurring revenue and helped take a second company from zero to a NASDAQ IPO. His X presence focuses on long-term macro cycles, Federal Reserve policy, US fiscal trajectories, and portfolio strategy, with a particular emphasis on the structural case for real assets (equities, commodities, crypto) as hedges against currency debasement. He is not a credentialed economist or academic researcher; his following stems from synthesising institutional macro research into accessible, chart-driven threads.",
+  "credibility_note": "Anderson's historical macro claims are generally directionally accurate and consistent with mainstream academic literature on financial repression and postwar debt reduction. His forward-looking predictions — particularly the 10-percent return threshold and the inevitability of Fed monetisation — are confident extrapolations from historical analogies, not empirically testable forecasts. His Fed Net Liquidity indicator has attracted both genuine adoption (it is referenced in professional market commentary) and criticism that the correlation with equity prices is unstable and overfitted to the 2020-2022 QE period. Readers should treat his macro frameworks as informed priors rather than established predictions.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/maxjanderson"
+    },
+    {
+      "label": "Thread Reader",
+      "url": "https://threadreaderapp.com/user/maxjanderson"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Max Anderson thread on debt-to-GDP cycle — Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/1875283650713153714.html"
+    },
+    {
+      "title": "Max Anderson on Net Liquidity — X / Twitter",
+      "url": "https://x.com/maxjanderson/status/1546473237491716096"
+    },
+    {
+      "title": "Max Anderson — Physik Invest",
+      "url": "https://physikinvest.com/tag/max-anderson/"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

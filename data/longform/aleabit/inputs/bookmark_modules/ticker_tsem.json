@@ -1,0 +1,24 @@
+{
+  "key": "TSEM",
+  "name": "Tower Semiconductor",
+  "exchange": "NASDAQ",
+  "blurb": "Tower Semiconductor is an Israeli specialty foundry that fabricates analogue, mixed-signal, and photonic chips across 200mm and 300mm wafer lines. Unlike pure-play logic foundries such as TSMC, Tower focuses on differentiated process technologies where customers need more than commodity nodes — silicon photonics, silicon-germanium (SiGe), radio-frequency CMOS, and power management. Tower's silicon photonics platform (SiPho) is widely regarded as one of the most mature independent photonics foundry offerings, supporting both passive waveguide structures and active electro-optic components on the same wafer. The company operates fabs in Israel, the United States, Japan, and Italy.",
+  "recent": "Tower committed $920 million in capital expenditure to silicon photonics and SiGe capacity — a 40% increase from a plan announced just three months earlier — with over 70% of that reserved or prepaid by customers through 2028. In November 2025, the company launched a dedicated CPO Foundry offering with 300mm wafer-bonding technology and targeted more than quintupling its monthly SiPho wafer shipments between Q4 2025 and late 2026. In March 2026, Tower announced full ownership of its 300mm Fab 7 facility in Japan to support this expansion, positioning itself to challenge GlobalFoundries for the top-ranked independent silicon photonics foundry slot.",
+  "sources": [
+    {
+      "url": "https://towersemi.com/2025/11/12/11122025/",
+      "title": "Tower Semiconductor Announces CPO Foundry Technology — towersemi.com"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20251111PD239/tower-semiconductor-siph-expansion-wafer.html",
+      "title": "Tower Semiconductor Tops Forecasts, Invests in Silicon Photonics — Digitimes"
+    },
+    {
+      "url": "https://towersemi.com/2026/03/25/03252026_300mm/",
+      "title": "Tower Announces 300mm Capacity Expansion in Japan — towersemi.com"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

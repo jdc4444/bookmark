@@ -1,0 +1,12 @@
+{
+  "handle": "aleabitoreddit",
+  "is_finx": true,
+  "class": "finx",
+  "source": "llm_v1",
+  "reason": "Trader and supply chain analyst focused on AI/semiconductor stocks, with extensive stock picks and financial analysis.",
+  "bio_source": "profile.json",
+  "n_tweets_sampled": 15,
+  "classified_at": "2026-05-06T01:30:12+00:00",
+  "previous_class": "finx",
+  "previous_source": "llm_v1"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "AIXA",
+  "name": "Aixtron SE",
+  "exchange": "Frankfurt XETRA (AIXA.DE); OTC: AIXXF",
+  "blurb": "Aixtron SE is the dominant supplier of metal-organic chemical vapour deposition (MOCVD) reactors — the industrial ovens that grow compound semiconductor films atom-by-atom onto wafers. With a 70–90% market share across most of its product portfolio, Aixtron equipment is found in the fabs of virtually every laser diode manufacturer. The company is based in Herzogenrath, Germany, and its technology is material-agnostic across arsenides, phosphides, nitrides, and carbides, spanning markets from telecoms lasers to power electronics.",
+  "recent": "Aixtron's Q1 2026 revenue fell 47% year-over-year to €59 million due to seasonal delivery timing, but order intake surged 30% to €171 million with optoelectronics comprising nearly 70% of new orders. The company subsequently raised its full-year 2026 revenue guidance to €560 million (±€30 million) with an EBIT margin of 17–20%, up from prior guidance of €520 million. Its G10-AsP platform, designed for arsenide/phosphide lasers used in AI data-centre transceivers, was the primary volume driver.",
+  "sources": [
+    {"url": "https://www.semiconductor-today.com/news_items/2026/may/aixtron-040526.shtml", "title": "Aixtron Q1 2026 results and guidance raise — Semiconductor Today"},
+    {"url": "https://www.semiconductor-today.com/news_items/2025/may/aixtron-smartphotonics-070525.shtml", "title": "SMART Photonics buys Aixtron G10-AsP MOCVD system"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

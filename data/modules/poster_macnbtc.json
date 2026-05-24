@@ -1,0 +1,20 @@
+{
+  "key": "macnbtc",
+  "display_name": "Mac (@MacnBTC)",
+  "name": "MacnBTC",
+  "exchange": null,
+  "blurb": "A trading-focused account active on X since May 2018, with a follower count in the high hundreds of thousands. The byline is 'Mac' and the avatar a wolf; content centres on chart-based trade ideas across both crypto and US equities, including past calls on Bitcoin macro levels, altcoins (SOL, MATIC), and large-cap stocks (TSLA, AAPL).",
+  "recent": "The bookmarked tweet recommends a basket of AI-infrastructure names — Sivers Semiconductors (SIVE), Lumentum (LITE), Applied Optoelectronics (AAOI), and Micron (MU) — accompanied by screenshots showing strong daily moves and a single line: 'still not too late to buy these btw.' The account historically promotes free trading content rather than paid groups, and its style leans short and chart-driven rather than analytical.",
+  "credibility_note": "MacnBTC is a personality-led trading account, not a research shop. Calls are short-form and lack the company-level financial analysis or risk caveats one would expect from a sell-side note. The four names selected are real and the underlying AI-optics/memory thesis is mainstream; the question of 'too late' is a judgement call the tweet does not engage with.",
+  "links": [
+    {"title": "X profile", "url": "https://x.com/MacnBTC"},
+    {"title": "Bookmarked tweet", "url": "https://x.com/MacnBTC/status/2051240286232121475"}
+  ],
+  "sources": [
+    {"title": "MacnBTC X profile", "url": "https://x.com/MacnBTC"},
+    {"title": "DropsTab profile coverage", "url": "https://dropstab.com/investors/macnbtc/twitter"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

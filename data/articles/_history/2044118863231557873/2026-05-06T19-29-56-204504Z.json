@@ -1,0 +1,43 @@
+{
+  "headline": "The $30 Million Grocery Store and Government's Buy-vs-Build Problem",
+  "lede": "A pointed tweet from @michelletandler asks an obvious question that government officials rarely seem to ask themselves: if functioning supermarkets can be purchased on the open market for under $5 million, why is New York City spending an estimated $30 million and three years constructing one from scratch in Harlem? The attached screenshot from BizBuySell — a commercial business-for-sale marketplace — shows the private-market alternative in plain numbers.",
+  "body": "The borough of Harlem and much of upper Manhattan have long been classified as *food deserts*, neighbourhoods where residents lack convenient access to fresh, affordable groceries. The problem is real, the policy interest is legitimate, and various city and state programmes have tried to address it for decades. The question @michelletandler raises is not whether government should act, but whether it is choosing the most absurd possible method of acting.\n\nThe BizBuySell listings she screenshots are instructive. A 11,000-square-foot supermarket in Brooklyn asks $2.25 million. A well-established Bronx supermarket doing $6.15 million in gross annual revenue carries a $1.8 million asking price. A profitable Brooklyn store with roughly $400,000 in *SDE* (seller's discretionary earnings — the cash a buyer can expect to pocket annually after operating costs) lists at $1.5 million. These are not distressed husks; they are going concerns with staff, supply chains, and established customer bases.\n\nThe implicit argument is a version of the **buy-vs-build problem** that any competent corporate finance team would work through before a capital decision. Building from scratch means acquiring a site, navigating city permitting and environmental review, construction (subject to New York's notoriously expensive prevailing-wage requirements and contractor relationships), fit-out, and then the years it takes to build a customer base. Purchasing an operating business collapses most of that timeline and eliminates much of the execution risk. The gap between $1.5 million and $30 million — a factor of twenty — is the premium that public-sector process apparently commands.\n\nThe reasons government projects cost this much more are well-documented, if rarely fixed. Procurement rules designed to prevent corruption add layers of specification, competitive bidding, and oversight. Construction in New York City is among the most expensive in the world, driven by union labour agreements, a constrained contractor market, and regulatory complexity. Community-benefit requirements and *ULURP* (Uniform Land Use Review Procedure) — the city's mandatory land-use review process — can add years even to simple projects. The $30 million figure, if accurate, almost certainly reflects all of these forces compounding.\n\n@michelletandler's 'scam or vanity project' framing is rhetorically sharp, and the frustration is understandable. The likelier explanation, however, is less dramatic and more depressing: institutional inertia, misaligned incentives, and a procurement machinery that was never designed to ask whether the thing being built should be built at all. Whether the city could legally acquire a private grocery business with public funds, and under what terms it would operate, are genuine policy complications — but they are the kind of complications that $30 million ought to be enough to solve.",
+  "tickers": [],
+  "poster": "michelletandler",
+  "concepts": [
+    {
+      "key": "food-desert",
+      "term": "food desert",
+      "definition": "A neighbourhood — typically low-income and urban — where residents have limited access to affordable, nutritious food, usually because large grocery chains find the economics unattractive. The term is contested: some researchers prefer 'food swamp' when cheap fast food is abundant but produce is not."
+    },
+    {
+      "key": "sde",
+      "term": "SDE (seller's discretionary earnings)",
+      "definition": "The standard cash-flow metric used to value small businesses for sale. It takes net profit and adds back the owner's salary, depreciation, and one-time expenses, giving a buyer a sense of what the business actually generates. A store listing at three times SDE is considered reasonably priced in most markets."
+    },
+    {
+      "key": "ulurp",
+      "term": "ULURP",
+      "definition": "The Uniform Land Use Review Procedure — New York City's mandated public review process for changes in land use, including new facilities. It involves community boards, borough presidents, the City Planning Commission, and sometimes the full City Council. The process typically takes seven to ten months at minimum, and often longer for contested projects."
+    },
+    {
+      "key": "prevailing-wage",
+      "term": "prevailing wage",
+      "definition": "A legally mandated minimum wage rate for construction workers on public projects, set to match the local union scale. In New York City, prevailing-wage requirements significantly increase labour costs relative to comparable private-sector construction, and apply to virtually all city-funded building work."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The $30 million price tag and three-year timeline for the Harlem grocery project are asserted in the tweet but could not be independently verified from the research sources provided. The BizBuySell listings shown are real — the platform is a legitimate business-for-sale marketplace — and the asking prices quoted are consistent with what comparable stores trade for in New York City boroughs. The core contrast the tweet draws is directionally accurate, but readers should note that the specific government project figure is unverified here.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/michelletandler/status/2044118863231557873",
+      "title": "Original tweet by @michelletandler",
+      "note": "Primary source: the bookmark itself, including the BizBuySell screenshot"
+    }
+  ],
+  "bookmark_id": "2044118863231557873",
+  "generated_at": "2026-05-06T19:29:56.204504Z",
+  "backend": "claude"
+}

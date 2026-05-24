@@ -1,0 +1,15 @@
+{
+  "key": "ASOL",
+  "name": "21Shares Solana Staking ETP",
+  "exchange": "SIX Swiss Exchange / Euronext Amsterdam (ASOL.AS / ASOL.PA)",
+  "blurb": "ASOL is a European exchange-traded product (ETP) issued by 21Shares that provides physically-backed exposure to Solana (SOL), a proof-of-stake blockchain. The product passes staking yields to holders. It is not a photonics or semiconductor company. Its inclusion in @Ren_aramb's list alongside photonics names suggests it is being held as part of a broader AI/crypto/growth basket rather than a pure photonics play.",
+  "recent": "As of late April 2026, ASOL was trading near 57.06 (in ETP units), with approximately $1.45B in assets under management. Solana has benefited from sustained institutional interest in proof-of-stake networks and the broader crypto risk-on environment of 2025–2026. Coverage note: this is a European ETP, not a US-listed equity.",
+  "sources": [
+    {"url": "https://www.21shares.com/en-eu/product/asol", "title": "21Shares Solana Staking ETP — 21Shares product page"},
+    {"url": "https://finance.yahoo.com/quote/ASOL.AS/", "title": "ASOL.AS — Yahoo Finance"},
+    {"url": "https://www.investing.com/etfs/asol", "title": "ASOL ETF — Investing.com"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

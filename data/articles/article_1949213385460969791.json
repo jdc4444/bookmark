@@ -1,0 +1,43 @@
+{
+  "headline": "The Account That Curates Midjourney's Hidden Style Codebook",
+  "lede": "Every day, a pseudonymous account on X posts a number. The number is a *style reference code* — a numeric key that, when passed to the AI image generator Midjourney, reproduces a specific visual aesthetic on demand. The code here, 1995773328, unlocks something dark, typographic, and layered with Cyrillic and Latin fragments.",
+  "body": "Midjourney's `--sref` parameter — short for *style reference* — lets users pin a generation to a particular look without writing long prose descriptions. Rather than prompting 'gritty Cold War poster with monochrome tones and distressed lettering,' you append `--sref 1995773328` and the model does the translation for you. The codes function like presets: reproducible, shareable, and combinable by blending multiple numbers at once.\n\nThe account @sergeantsref exists entirely to surface these codes. It posts roughly three per day — individual codes and blended combinations — accompanied by example images that demonstrate the resulting aesthetic. According to a Medium survey of the feed, the account has accumulated dozens of codes covering styles from painterly to cyberpunk, serving as a community reference library for Midjourney practitioners.\n\nThe image attached to this post illustrates what the code actually does. The OCR reveals layered, fractured text in both Latin and Cyrillic scripts — words like 'JOURNEY,' 'HOLD,' and 'RESAN' colliding across the frame in what reads as a dark, collage-poster aesthetic. According to promptsref.com, SREF 1995773328 blends **cyberpunk and dark-aesthetic design** with strong typographic and monochromatic elements, making it well-suited for concept art, editorial illustration, and dystopian world-building.\n\nThe practice points to an emerging form of creative curation in generative AI: not prompting from scratch, but cataloguing and remixing the latent style space that models have already internalized. Style reference libraries like @sergeantsref's are, in effect, a new kind of design asset — numeric handles on aesthetics that would take paragraphs of prose to describe imprecisely.",
+  "tickers": [],
+  "poster": "sergeantsref",
+  "concepts": [
+    {
+      "key": "sref-style-reference",
+      "term": "Style Reference (--sref)",
+      "definition": "A Midjourney parameter that accepts a numeric code and constrains the model's output to match a specific visual aesthetic. The codes are derived from existing images or discovered by community experimentation, and can be blended by chaining multiple numbers together. They function as reproducible style presets, shareable across users."
+    },
+    {
+      "key": "midjourney",
+      "term": "Midjourney",
+      "definition": "A commercial AI image-generation service accessible primarily through Discord. Users submit text prompts and optional parameters — like --sref for style, --ar for aspect ratio, or --v for model version — and the system returns images. Version 7 (v7) is the current generation as of early 2026."
+    },
+    {
+      "key": "sref-blending",
+      "term": "SREF Blending",
+      "definition": "The practice of combining two or more style reference codes in a single Midjourney prompt to produce a hybrid aesthetic. For example, --sref 1995773328 2770200552 would interpolate between the visual character of both codes. Blended SREFs are popular for producing novel styles that no single code achieves alone."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://medium.com/enthusiastically-midjourney/sergeant-sref-presents-52-v7-sref-codes-29e3e5a0fba1",
+      "title": "Sergeant SREF Presents 52 V7 SREF Codes — Medium",
+      "note": "Documents @sergeantsref's posting cadence and the scope of their SREF library"
+    },
+    {
+      "url": "https://promptsref.com/srefcodedetail/--sref%201995773328%202770200552%202252466948",
+      "title": "Use SREF Code --sref 1995773328 — Promptsref",
+      "note": "Describes the aesthetic character of SREF 1995773328 as cyberpunk and dark-aesthetic with monochromatic elements"
+    }
+  ],
+  "bookmark_id": "1949213385460969791",
+  "generated_at": "2026-05-06T20:38:36.523435Z",
+  "backend": "claude"
+}

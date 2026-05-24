@@ -1,0 +1,159 @@
+{
+  "headline": "Moonvalley's Marey Promises the Camera Precision AI Video Has Lacked",
+  "lede": "Paul Trillo, who directed the first music video ever made with OpenAI's Sora, is publicly demonstrating Marey — a video-generation model from Moonvalley that lets a filmmaker specify exact camera moves at exact moments in a generated clip. The feature, keyframe-accurate camera control, addresses the limitation that has kept AI video at arm's length from professional production: until now, the camera did whatever it liked. The demo lands with an unusual legal footnote: Moonvalley trained its model exclusively on licensed footage and indemnifies users against copyright claims, a distinction that matters in a field currently in active litigation.",
+  "body": "Moonvalley, a Toronto-and-Los-Angeles startup that has raised roughly $154 million from investors including General Catalyst, Khosla Ventures, Comcast (CMCSA), and Creative Artists Agency, named its flagship video-generation model *Marey* after Étienne-Jules Marey — the French physiologist whose *chronophotography* predated cinema itself, capturing motion in sequences of still images more than a decade before the Lumière Brothers' first public projection. The gesture is deliberate: **Moonvalley's central claim is that it has rebuilt cinema's foundational problem — the controlled capture of motion — for the generative-AI era.** The company further distinguishes itself by training exclusively on licensed footage, including content acquired through Vimeo (VMEO), and by offering commercial copyright indemnification to users — a contrast to Runway, OpenAI's Sora, and others that face active litigation over their training data.\n\nThe feature Trillo demonstrates — *keyframe-accurate camera control* — addresses what has been the central limitation of AI video since the medium emerged. Earlier models accepted a starting frame and a text prompt, then generated all subsequent frames probabilistically: the camera might pan left or right, a character's hand might drift, a background element might dissolve without warning. Directors had no reliable control over what would happen at second three of a five-second clip. Marey's system changes that contract. Users place reference images or video frames at specific points on a timeline; the model must honor every anchor and construct a physically coherent path between them. A cursor-based interface then lets a director draw the precise camera trajectory — *dolly* speed, pan arc, zoom rate — through a three-dimensional space the model infers from the input image. The result is a shot that is repeatable and specifiable: the two things a working production most needs.\n\nThe significance is less technical than structural. Frame-precise control is what moves AI video from a demonstration medium to a production tool. Director Ángel Manuel Soto credited Marey with cutting his production costs by 20 to 40 percent — a credible figure when you consider what it replaces: location scouts, camera operators, and full crew rates for *pre-visualization* shots that no audience ever sees. Edward Ulbrich, the visual-effects pioneer behind *Titanic* and *The Curious Case of Benjamin Button*, joined Moonvalley partly on the strength of that precision argument. Adobe (ADBE) integrated Marey into its Firefly Boards platform in late 2025, placing it alongside Runway as one of two dominant generation engines available to enterprise creative teams.\n\nThe choice of messenger matters. Trillo is not an AI evangelist — he is a working director who built a 50-Nokia-phone bullet-time rig and directed a drone-only single-take film long before generative AI existed. In 2024 he directed the music video for Washed Out's \"The Hardest Part,\" the first officially commissioned video made with OpenAI's unreleased Sora model, generating roughly 700 clips over six weeks and editing 55 into a continuous-zoom illusion tracking a couple across decades. He has since become a formal partner in Asteria, Moonvalley's in-house production studio. His public endorsement of Marey's camera-control system carries a weight that conventional influencer promotion would not.\n\nThe broader market is fragmenting fast. Runway is pivoting toward editorial manipulation of existing footage rather than generation from scratch. Kling, the model from Kuaishou (1024.HK), has found a market in performance-marketing automation at scale. Sora, despite its brand recognition, remains slow and expensive for professional use. Moonvalley is betting that the segment willing to pay for precision — narrative filmmakers, brand studios, streaming platforms — is large enough to sustain a distinct company, particularly one that can offer what the others cannot: a clear legal *chain of title* over its training data.",
+  "tickers": [
+    "CMCSA",
+    "VMEO",
+    "ADBE",
+    "1024.HK"
+  ],
+  "companies": [
+    {
+      "name": "Moonvalley",
+      "ticker": null
+    },
+    {
+      "name": "General Catalyst",
+      "ticker": null
+    },
+    {
+      "name": "Khosla Ventures",
+      "ticker": null
+    },
+    {
+      "name": "Comcast",
+      "ticker": "CMCSA"
+    },
+    {
+      "name": "Creative Artists Agency",
+      "ticker": null
+    },
+    {
+      "name": "Vimeo",
+      "ticker": "VMEO"
+    },
+    {
+      "name": "Runway",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Adobe",
+      "ticker": "ADBE"
+    },
+    {
+      "name": "Kuaishou",
+      "ticker": "1024.HK"
+    },
+    {
+      "name": "Asteria",
+      "ticker": null
+    }
+  ],
+  "poster": "paultrillo",
+  "concepts": [
+    {
+      "key": "chronophotography",
+      "term": "Chronophotography",
+      "definition": "A 19th-century photographic technique that captured successive phases of motion in a sequence of images taken at rapid, regular intervals. Étienne-Jules Marey perfected the method with his 'chronophotographic gun' in 1882, enabling scientists and artists to study movement — of birds, horses, and humans — in ways the naked eye could not perceive. It is a direct ancestor of cinema, and the namesake of Moonvalley's model."
+    },
+    {
+      "key": "keyframe-accurate-camera-control",
+      "term": "Keyframe-accurate camera control",
+      "definition": "In traditional animation, a keyframe marks a moment in time where a visual property — position, lighting, camera angle — is explicitly defined; software interpolates everything in between. In AI video generation, 'keyframe accuracy' means the model is constrained to produce specific, user-specified frames at particular timestamps, rather than generating all motion probabilistically from a single starting image. This transforms the model from a creative suggester into a precision executor."
+    },
+    {
+      "key": "dolly",
+      "term": "Dolly (camera move)",
+      "definition": "A camera movement in which the camera itself physically moves forward or backward along a track, creating a sense of depth and immersion distinct from a zoom, which changes only the focal length. In AI video, simulating a dolly move requires the model to infer a three-dimensional scene from a two-dimensional image and render the parallax and perspective shifts that real camera motion would produce."
+    },
+    {
+      "key": "pre-visualization",
+      "term": "Pre-visualization (previz)",
+      "definition": "A production technique in which rough approximations of planned shots — animations, storyboards, or video sketches — are created before principal photography begins. Previz lets directors, cinematographers, and editors work through shot design, timing, and blocking without the cost of a full crew. AI video generation can now serve as a high-fidelity previz tool, replacing work traditionally done by specialized studios."
+    },
+    {
+      "key": "chain-of-title",
+      "term": "Chain of title",
+      "definition": "A legal term for the documented sequence of copyright ownership, licensing agreements, and permissions that establishes who holds the rights to a piece of creative work. In AI, a 'clean' chain of title over training data means every piece of content used to train a model was licensed with permission — critical for commercial users who need legal protection against copyright infringement claims."
+    },
+    {
+      "key": "copyright-indemnification",
+      "term": "Copyright indemnification",
+      "definition": "A legal guarantee offered by a vendor to its customers that the vendor will cover legal costs and damages if the customer's use of the vendor's product results in a copyright infringement claim. In AI video, this matters because models trained on unlicensed content expose users to liability; indemnification shifts that risk back to the AI company, making the product viable for large commercial productions."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.moonvalley.com/marey",
+      "title": "Marey — Moonvalley",
+      "note": "Official product page detailing features, pricing, and technical capabilities"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20250312838355/en/Introducing-Marey-the-Most-Powerful-AI-Video-Model-Trained-Exclusively-on-Clean-Data",
+      "title": "Introducing Marey — BusinessWire (March 2025)",
+      "note": "Official beta launch announcement with licensing claims and technical specs"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20250708099256/en/Moonvalley-Releases-First-Fully-Licensed-AI-Video-Model-for-Professional-Production",
+      "title": "Moonvalley Releases First Fully-Licensed AI Video Model — BusinessWire (July 2025)",
+      "note": "Full public launch press release"
+    },
+    {
+      "url": "https://techcrunch.com/2025/07/08/moonvalleys-ethical-ai-video-model-for-filmmakers-is-now-publicly-available/",
+      "title": "Moonvalley's 'ethical' AI video model for filmmakers is now publicly available — TechCrunch",
+      "note": "Editorial coverage of public launch and competitive positioning"
+    },
+    {
+      "url": "https://techcrunch.com/2024/11/18/moonvalley-wants-to-build-more-ethical-video-models/",
+      "title": "Moonvalley wants to build more ethical video models — TechCrunch",
+      "note": "Founder profiles, DeepMind lineage, and company origin story"
+    },
+    {
+      "url": "https://motionographer.com/2025/05/20/paul-trillo-hacking-cinemas-next-level/",
+      "title": "Paul Trillo: Hacking Cinema's Next Level — Motionographer",
+      "note": "In-depth profile of Trillo's filmmaking approach and AI video work"
+    },
+    {
+      "url": "https://nofilmschool.com/ai-music-video",
+      "title": "How Paul Trillo Made the First AI Music Video with Sora — No Film School",
+      "note": "Detailed breakdown of Washed Out 'The Hardest Part' production process"
+    },
+    {
+      "url": "https://venturebeat.com/ai/the-first-music-video-generated-with-openais-unreleased-sora-model-is-here/",
+      "title": "The First Music Video Generated with OpenAI's Unreleased Sora — VentureBeat",
+      "note": "Establishes Trillo's credentials as the director of the first Sora-generated music video"
+    },
+    {
+      "url": "https://www.cined.com/moonvalley-releases-marey-a-commercially-safe-ai-video-model-tailored-for-professional-filmmakers/",
+      "title": "Moonvalley Releases Marey — CineD",
+      "note": "Technical review of Marey features and professional use cases including Soto cost savings figure"
+    },
+    {
+      "url": "https://www.vp-land.com/p/we-talked-to-bryn-mooser-about-moonvalley-s-marey",
+      "title": "We Talked to Bryn Mooser About Moonvalley's Marey — VP-Land",
+      "note": "Interview with co-founder on pricing, production strategy, and Asteria studio"
+    },
+    {
+      "url": "https://blog.adobe.com/en/publish/2025/09/24/firefly-boards-launches-globally-now-with-runway-aleph-moonvalley-marey-models-new-powerful-ideation-features-flexible-offers",
+      "title": "Firefly Boards Launches Globally with Marey and Runway Aleph — Adobe Blog",
+      "note": "Confirms Marey integration into Adobe's enterprise creative platform"
+    },
+    {
+      "url": "https://variety.com/2025/digital/news/moonvalley-comcast-caa-funding-investement-ai-video-1236459594/",
+      "title": "Moonvalley Lands Strategic Round from Comcast and CAA — Variety",
+      "note": "Strategic funding details and Hollywood investor rationale"
+    }
+  ],
+  "bookmark_id": "1950659295621845228",
+  "generated_at": "2026-05-07T06:34:14.336529Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,16 @@
+{
+  "key": "HIMS",
+  "name": "Hims & Hers Health, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Hims & Hers Health is a telehealth platform that sells branded personal-care and prescription products — hair loss, erectile dysfunction, anxiety, skincare — through a direct-to-consumer subscription model. It became a high-profile case study in pharmaceutical compounding: during the years-long shortage of semaglutide (the active ingredient in Ozempic and Wegovy), the company produced and sold cheaper copycat formulations legally permitted under FDA shortage rules, turning a niche clinical carve-out into a headline growth engine.",
+  "recent": "The FDA declared semaglutide no longer in shortage in early 2025, effectively terminating the legal basis for Hims's compounded GLP-1 business and triggering a roughly 20% stock drop. The company pivoted: it entered a distribution agreement with Novo Nordisk to sell branded Ozempic directly through its platform (lower-margin but legitimate), acquired an Australian telehealth company, Eucalyptus, for $1.15 billion, and launched a testosterone-therapy product. An SEC investigation into its GLP-1 marketing practices was disclosed in early 2026. Full-year 2025 revenue reached $2.35 billion; the company guided to $2.7–$2.9 billion for 2026.",
+  "sources": [
+    {"title": "Hims & Hers GLP-1 reckoning (FinancialContent)", "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-2-9-the-glp-1-reckoning-why-hims-and-hers-hims-pivoted-and-shed-20-of-its-value"},
+    {"title": "Hims & Hers Q4 earnings vs SEC investigation (FinancialContent)", "url": "https://www.financialcontent.com/article/finterra-2026-2-24-hims-and-hers-health-hims-decoding-the-q4-earnings-beat-vs-the-sec-glp-1-investigation"},
+    {"title": "RFK Jr. peptide policy and Hims (CNBC)", "url": "https://www.cnbc.com/2026/04/16/rfk-jr-peptides-hims-hers-glp-1.html"},
+    {"title": "Hims & Hers 2026 outlook (STAT News)", "url": "https://www.statnews.com/2026/02/23/him-hers-earnings-2026-outlook-compounded-semaglutide/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T03:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

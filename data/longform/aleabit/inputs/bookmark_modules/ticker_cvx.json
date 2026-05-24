@@ -1,0 +1,14 @@
+{
+  "key": "CVX",
+  "name": "Chevron Corporation",
+  "exchange": "NYSE",
+  "blurb": "Chevron is the second-largest U.S. integrated oil-and-gas company, with major upstream positions in the Permian Basin, Kazakhstan (Tengiz), and the deepwater Gulf of Mexico, as well as refining and chemicals operations through its Oronite subsidiary. It holds roughly 17% of the XLE energy-sector ETF. Chevron's strategy emphasizes capital discipline, an expanding free-cash-flow return program, and selective growth in LNG.",
+  "recent": "Chevron reported Q1 2026 adjusted EPS of $1.41, substantially beating the Wall Street consensus of $0.95 — the company's largest EPS beat since October 2020 — though it missed revenue expectations by approximately $2.4 billion. Upstream earnings benefited materially from elevated oil prices, with sell-side analysts estimating a $1.6 to $2.2 billion uplift in upstream earnings versus prior-year levels. The company and ExxonMobil together are expected to return over $60 billion in capital within the next year through dividends and buybacks. Chevron was among the top performers in the energy sector's 36% year-to-date gain through late April 2026.",
+  "sources": [
+    {"url": "https://www.cnbc.com/2026/05/01/exxon-xom-chevron-cvx-q1-2026-earnings.html", "title": "Exxon (XOM), Chevron (CVX) Q1 2026 earnings — CNBC"},
+    {"url": "https://www.investing.com/analysis/why-the-energy-sectors-april-pullback-could-be-a-major-buying-opportunity-200678152", "title": "Why the Energy Sector's April Pullback Could Be a Major Buying Opportunity — Investing.com"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

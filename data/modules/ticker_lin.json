@@ -1,0 +1,24 @@
+{
+  "key": "LIN",
+  "name": "Linde plc",
+  "exchange": "NASDAQ",
+  "blurb": "Linde plc is a global industrial gas company that supplies atmospheric gases (oxygen, nitrogen, argon, rare gases) and process gases (hydrogen, helium, carbon dioxide, electronic gases, specialty gases, acetylene). It also designs and constructs turnkey process plants for third-party customers, including air separation, hydrogen, synthesis, olefin, and natural gas plants. Serving healthcare, chemicals, energy, and other industries, Linde is one of the largest industrial gas companies in the world, with a market capitalization of approximately $234 billion and over 65,000 employees.",
+  "recent": "As of May 15, 2026, Linde's stock price was $506.11, down 1.08% on the day, with a 52-week range of $387.78 to $521.28. The company reported earnings on May 1, 2026, and has a forward P/E of 27.69. Analysts rate the stock a Strong Buy with a price target of $546.63, representing an 8.01% upside.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/LIN/",
+      "title": "Linde plc (LIN) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/LIN/",
+      "title": "Linde (LIN) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/lin/",
+      "title": "Linde (LIN) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-17T08:44:58.344076Z",
+  "backend": "deepseek"
+}

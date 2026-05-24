@@ -1,0 +1,32 @@
+{
+  "key": "PL",
+  "name": "Planet Labs PBC",
+  "exchange": "NYSE",
+  "blurb": "Planet Labs PBC designs, builds, and operates the world's largest commercial Earth-observation satellite constellation, anchored by its SuperDove fleet of small satellites that image the entire planet daily at up to 3.5-meter ground sampling distance. The company delivers this high-cadence geospatial data to government, agriculture, forestry, infrastructure, and financial-intelligence customers through a cloud-based subscription platform. Founded in 2010 and headquartered in San Francisco, Planet went public via SPAC in December 2021 and employs roughly 1,000 people. Despite strong revenue growth—trailing-twelve-month revenue of ~$308M, up ~26% year-over-year—the company remains unprofitable, posting a net loss of ~$247M (EPS –$0.80).",
+  "recent": "PL shares closed at $40.74 on May 13, 2026, just below their 52-week high of $43.12 and far above the 52-week low of $3.47, reflecting a staggering ~1,268% appreciation in market capitalization over the past year. The rally appears driven by renewed investor appetite for commercial space and geospatial-intelligence assets, though specific catalysts within the past 30 days are not detailed in available sources. The company's next earnings report is scheduled for June 4, 2026, and analyst consensus price targets (~$27.64) trail the current price significantly, suggesting the market is pricing in substantial forward growth expectations.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/pl/",
+      "title": "Planet Labs PBC (PL) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/PL/news/",
+      "title": "PL News Today | Planet Labs PBC Stock News — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/PL/news/",
+      "title": "Planet Labs PBC (PL) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/pl",
+      "title": "PL Stock Price | Planet Labs PBC Stock Quote — MarketWatch"
+    },
+    {
+      "url": "https://edition.cnn.com/markets/stocks/PL",
+      "title": "PL Stock Quote Price and Forecast — CNN Markets"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:30:06.218149Z",
+  "backend": "claude-sonnet-subagent"
+}

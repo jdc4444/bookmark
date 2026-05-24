@@ -1,0 +1,12 @@
+.x_tokens.json
+.env
+.env.*
+.chrome_profile/
+.playwright_profile/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+.deepseek_key
+
+.DS_Store

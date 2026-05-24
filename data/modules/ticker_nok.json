@@ -1,0 +1,15 @@
+{
+  "key": "NOK",
+  "name": "Nokia Corporation",
+  "exchange": "NYSE / Nasdaq Helsinki",
+  "blurb": "Nokia is a Finnish telecommunications-equipment maker whose Network Infrastructure division designs optical networking hardware — coherent transceivers, optical line systems, and optical amplifiers — used by carriers and data-centre operators globally. The 2024 acquisition of Infinera, a specialist in coherent digital signal processing and indium phosphide photonic integrated circuits, gave Nokia one of the more vertically integrated optical stacks in the industry.",
+  "recent": "In March 2026, Nokia launched a suite of AI-era optical solutions including a 1.6T coherent pluggable for data-centre interconnect and a 2.4T pluggable for subsea and terrestrial transport, alongside four new digital signal processors built on both indium phosphide and silicon photonics. Nokia cited up to 70% total-cost-of-ownership savings versus prior-generation products. New line systems are expected in H2 2026; advanced coherent sampling begins mid-2027. At OFC 2026, Nokia emphasised that the Infinera acquisition provides the vertical integration needed to address the widening gap between AI compute and networking capacity.",
+  "sources": [
+    {"url": "https://www.nokia.com/newsroom/nokia-launches-suite-of-applicationoptimized-optical-solutions-for-ai-era-networks/", "title": "Nokia launches AI-era optical solutions — Nokia Newsroom, March 2026"},
+    {"url": "https://www.nokia.com/blog/ofc-2026-takeaways-pluggables-multi-rail-hcf-and-ai/", "title": "OFC 2026 trends shaping AI-ready networks — Nokia Blog"},
+    {"url": "https://www.networkworld.com/article/4150576/the-optical-imperative-and-nokias-vision-to-close-the-ai-gap.html", "title": "The optical imperative and Nokia's vision to close the AI gap — Network World"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

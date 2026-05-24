@@ -1,0 +1,25 @@
+{
+  "key": "URNM",
+  "name": "Sprott Uranium Miners ETF",
+  "exchange": "NYSE Arca",
+  "type": "etf",
+  "note": "ETF — included because URNM is a central subject of this uranium-sector bookmark.",
+  "blurb": "The Sprott Uranium Miners ETF (URNM) tracks the North Shore Global Uranium Mining Index and focuses specifically on companies deriving the majority of their revenue from uranium mining. Its expense ratio is 0.75%. A structurally distinctive feature is an approximately 11% allocation to the Sprott Physical Uranium Trust (SRUUF / U.UN), giving holders simultaneous exposure to mining equity and physical uranium in trust — effectively a hybrid miner-plus-commodity vehicle. URNM is more concentrated than URA, with higher sensitivity to uranium spot prices and lower exposure to utilities or reactor-equipment firms. It pays a dividend yield of approximately 1.69%. The fund is managed by Sprott Asset Management and is part of a broader uranium-focused product suite that also includes URNJ (junior miners) and the Physical Uranium Trust itself.",
+  "recent": "URNM rose more than 93% over the twelve months through late 2025, though it lagged URA on a year-to-date basis through November 2025. Uranium spot prices rebounded toward and above $100/lb in early 2026 after a volatile 2025 that saw the spot price dip to the low $60s/lb.",
+  "sources": [
+    {
+      "url": "https://sprottetfs.com/urnm-sprott-uranium-miners-etf/",
+      "title": "URNM Sprott Uranium Miners ETF — Sprott ETFs"
+    },
+    {
+      "url": "https://www.etf.com/tools/etf-comparison/URA-vs-URNM",
+      "title": "URA vs URNM ETF Comparison — ETF.com"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/URNM/",
+      "title": "Sprott Uranium Miners ETF (URNM) — Yahoo Finance"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

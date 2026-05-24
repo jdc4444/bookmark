@@ -1,0 +1,32 @@
+{
+  "key": "000660",
+  "name": "SK hynix Inc.",
+  "exchange": "KRX",
+  "blurb": "SK hynix Inc. is a South Korean semiconductor company that researches, develops, manufactures, and sells memory chips, including DRAM and NAND flash products. It is one of the world's largest memory chipmakers, serving markets such as servers, mobile devices, PCs, and automotive applications. The company holds a dominant position in the global memory market alongside Samsung Electronics.",
+  "recent": "In the past 30 days, SK hynix reported strong earnings for the quarter ended March 2026, driven by a memory price upcycle that exceeded expectations. The stock surged to a 52-week high of 1,653,000 KRW, reflecting investor optimism about continued demand for memory chips in AI and data center applications.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/000660.KS/",
+      "title": "SK hynix Inc. (000660.KS) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/000660?countrycode=kr",
+      "title": "000660 | SK Hynix Inc. Stock Overview (S. Korea: KRX) | Barron's"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/000660?countryCode=KR",
+      "title": "000660 Stock Price | SK Hynix Inc. Stock Quote (S. Korea: KRX ...)"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xkrx/000660/quote",
+      "title": "000660 Stock Price Quote | Morningstar"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/krx/000660/",
+      "title": "SK hynix (KRX:000660) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:40:47.458036Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "headline_summary": "Astera Labs is the connectivity-silicon company built by three TI alumni in November 2017, IPO'd on NASDAQ in March 2024, that in FY2025 doubled revenue to $852.5M at 75.7% GAAP gross margin and $219M GAAP net income — a structural-margin level associated with software more than silicon. The board has been assembled with rare deliberation (chair Manuel Alba ex-Galileo/Marvell, Craig Barratt incoming Intel chairman, Michael Hurlston current Lumentum CEO, Stefan Dyckerhoff of Sutter Hill, Bethany Mayer ex-Ixia/Box chair, Jack Lazar ex-GoPro CFO) and the balance sheet carries $1.19B of liquid against essentially no debt.",
+  "headquarters": "Santa Clara, California, USA",
+  "founded": "2017-11",
+  "ipo_date": "2024-03-20",
+  "ticker_exchange": "ALAB / NASDAQ",
+  "founder_ceo": "Jitendra Mohan (Co-Founder, CEO, Director)",
+  "cofounders": ["Jitendra Mohan (CEO)", "Sanjay Gajendra (President/COO)", "Casey Morrison (Chief Product Officer)"],
+  "board_chair": "Manuel Alba (since March 2018)",
+  "fy2025_revenue_usd_millions": 852.5,
+  "fy2025_yoy_growth": 1.151,
+  "fy2025_gaap_gross_margin": 0.757,
+  "fy2025_gaap_net_income_usd_millions": 219.1,
+  "fy2025_nongaap_net_income_usd_millions": 331.0,
+  "balance_sheet_liquid_usd_millions": 1187.6,
+  "q1_2026_guidance_revenue_midpoint_usd_millions": 291.5,
+  "product_families": ["Aries (PCIe/CXL retimers)", "Taurus (Ethernet smart cable modules)", "Leo (CXL memory controllers)", "Scorpio (PCIe/CXL fabric switches)"],
+  "structural_thesis_in_one_paragraph": "Astera Labs is the rare connectivity-silicon company that has reached $850M+ of annual revenue at 75.7% GAAP gross margin within seven years of founding and two years of being public. The investment question is whether the FY25 result — 115% revenue growth, structural-margin discipline, GAAP profitability, fortress balance sheet — sustains through the Nvidia Rubin / AMD MI400 architecture transition where design-in position must be re-won at a new generation of accelerator GPU. The board composition (chair Manuel Alba's connectivity-M&A pattern recognition, Craig Barratt's incoming Intel chairmanship, Michael Hurlston's current Lumentum CEO seat, Stefan Dyckerhoff's Sutter Hill venture chair, Jack Lazar's audit-grade CFO experience, Bethany Mayer's HPE/Box/LAM Research breadth) is configured for cycle-compression governance through that transition rather than for additional IPO-execution or financial engineering."
+}

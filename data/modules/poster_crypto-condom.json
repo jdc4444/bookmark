@@ -1,0 +1,23 @@
+{
+  "key": "crypto_condom",
+  "display_name": "CryptoCondom",
+  "blurb": "Pseudonymous crypto/DeFi commentator active on X (Twitter) since at least 2022–2023. Posts focus on DeFi yield strategies — particularly delta-neutral vaults and GLP-adjacent products — as well as seed/angel investing in crypto projects. Known for frank, opinion-heavy takes; e.g., openly advising against seed investments in favor of simply holding ETH, and publishing post-mortems on failed DeFi vault protocols. Follower count is not available from the provided sources.",
+  "credibility_note": "Content is editorial and opinionated rather than formally researched. Covers niche DeFi topics (delta-neutral, liquidity vaults) with apparent hands-on experience, but identity and track record are unverified from available sources.",
+  "links": [
+    "https://x.com/crypto_condom",
+    "https://threadreaderapp.com/user/crypto_condom"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/crypto_condom",
+      "title": "CryptoCondom (@crypto_condom) / Posts / X"
+    },
+    {
+      "url": "https://threadreaderapp.com/user/crypto_condom",
+      "title": "CryptoCondom's Threads – Thread Reader App"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T11:02:53.977608Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,136 @@
+{
+  "headline": "A Patent Licensor's Gains Are the Market's Work, Not Its Own",
+  "lede": "Adeia (ADEA), a pure-play intellectual-property licensing company, returned 33% over the past 30 days — yet a quantitative return-attribution dashboard shows the company's own fundamentals subtracted value over that stretch. @tomhou101 is responding to @pennycheck with a pointed observation: how much of the gain belongs to Adeia's specific story, and how much is the stock simply being carried by macro and sector tailwinds?",
+  "body": "Adeia (ADEA) was spun out of Xperi (XPER) in October 2022 and now holds roughly 13,750 patents across media-entertainment and semiconductor technologies. It does not manufacture anything — it invents, then charges manufacturers, streaming platforms, and chipmakers to use those inventions. Revenue hit a record $443 million in full-year 2025, up 18% year-over-year, with Advanced Micro Devices (AMD) and Microsoft (MSFT) signing multi-year licenses in early 2026. A Google (GOOGL) renewal announced May 12 sent the stock up roughly 14% in the following week, helping drive the 33% 30-day return shown on the dashboard.\n\nThe tool being discussed is CapitalFlowsResearch, a macro-quant research publication that provides daily factor-attribution charts for individual equities. Its model applies **multi-factor OLS return attribution**: total stock return is decomposed by regressing daily returns against systematic factor returns over a rolling 30-day window. Here the market-beta component contributes +12.14%, sector flows +13.57%, sub-sector flows +12.10% — together more than accounting for the full 33.12% total. The *fundamental/idiosyncratic* residual, the portion belonging to Adeia's own story, lands at **-4.00%**. Whatever is specific to the company's patent pipeline, licensing cadence, or earnings trajectory is, at the margin, a headwind.\n\nFor a portfolio manager the distinction is consequential. A stock outperforming purely on *systematic* factor exposure — market beta, sector tilts — is not generating alpha; it is generating beta in alpha's clothing. If those tailwinds reverse — a tech de-rating, rising rates, *IP licensing* multiple compression — there is no company-specific cushion. The poster's principle is standard risk discipline: wait until fundamental contribution turns positive, the signal that the market is beginning to assign value to the company's own cash flows rather than just riding a macro wave. Until then the long is effectively a leveraged sector trade.\n\nIn Adeia's (ADEA) case the negative idiosyncratic contribution has a specific explanation. Despite a strong Q1 2026 print — revenue $104.8 million, up 20% year-over-year — the company simultaneously announced that CEO Paul Davis would depart by Q4 2026 for personal reasons, triggering a 13–17% single-day sell-off on May 4. The 30-day attribution window likely spans that sell-off alongside the subsequent Google (GOOGL) recovery: sector and sub-sector flows drove the large absolute gain, while the CEO-succession overhang subtracted at the idiosyncratic level.\n\nOne caveat deserves notice: the model's *R-squared* of 0.058 means the factor regression explains barely 6% of Adeia's daily return variance. That is not unusual for a concentrated IP licensor whose price moves are driven by discrete deal announcements rather than continuous macro tracking. Low R-squared means the beta estimates are noisy and attribution boundaries are wide. The poster's disposition nonetheless holds as a practical heuristic: if the market is pricing a stock primarily as a macro vehicle, a fundamentals-driven long is fighting the crowd — and in the short run, the crowd sets the price.",
+  "tickers": [
+    "ADEA",
+    "XPER",
+    "AMD",
+    "MSFT",
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Adeia",
+      "ticker": "ADEA"
+    },
+    {
+      "name": "Xperi",
+      "ticker": "XPER"
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    }
+  ],
+  "poster": "tomhou101",
+  "concepts": [
+    {
+      "key": "return-attribution",
+      "term": "Return Attribution",
+      "definition": "A framework for decomposing a stock's total return into contributions from separate risk factors — market, sector, sub-sector, and company-specific fundamentals. It answers the question: of the gain or loss, how much belongs to the macro environment versus the individual company's story?"
+    },
+    {
+      "key": "ols-beta",
+      "term": "OLS Beta",
+      "definition": "A measure of a stock's sensitivity to a risk factor, estimated by ordinary least squares regression of daily stock returns against the factor's returns over a rolling window. A market beta of 0.81 means the stock historically moves about 81 cents for every dollar the broader market moves."
+    },
+    {
+      "key": "idiosyncratic-return",
+      "term": "Idiosyncratic Return",
+      "definition": "The portion of a stock's total return that remains after stripping out all systematic factor betas. It captures what the stock did because of company-specific news, earnings, management changes, or mispricing — not because of broad macro or industry moves. A negative idiosyncratic contribution means company-specific factors were a net drag."
+    },
+    {
+      "key": "systematic-factor",
+      "term": "Systematic Factor",
+      "definition": "A source of return that moves many stocks at once — the broad market, a sector rotation, a momentum tilt. Systematic returns are not alpha (skill-based) but beta (exposure-based); they cannot be diversified away without hedging the factor directly."
+    },
+    {
+      "key": "r-squared",
+      "term": "R-Squared",
+      "definition": "A statistical measure (0 to 1) of how well a regression model explains the variance in the data being studied. An R-squared of 0.058 means the multi-factor model accounts for only about 6% of the stock's daily return variance; the remaining 94% is idiosyncratic and unexplained by the factors in the model."
+    },
+    {
+      "key": "ip-licensing",
+      "term": "IP Licensing",
+      "definition": "A business model in which a company owns patents or other intellectual property and charges other firms — manufacturers, technology platforms, chip designers — a recurring fee to use those inventions. The licensor earns royalties without needing factories or a distribution network."
+    },
+    {
+      "key": "cross-sectional-momentum",
+      "term": "Cross-Sectional Momentum (CS Momentum)",
+      "definition": "A factor that ranks stocks relative to each other by recent price performance: stocks that have outperformed their peers over the past 3–12 months tend to continue outperforming in the near term. In the CapitalFlowsResearch dashboard it appears as a separate attribution signal alongside market and sector flows."
+    },
+    {
+      "key": "re-pricing",
+      "term": "Re-Pricing",
+      "definition": "In attribution terms, the moment when a stock's idiosyncratic (fundamental) contribution turns positive — signaling that the market has begun assigning value to the company's own earnings and growth prospects rather than simply riding sector or market waves. Practitioners treat this shift as a more durable basis for a long position."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.stocktitan.net/news/ADEA/adeia-announces-first-quarter-2026-financial-63e5qfj96v8k.html",
+      "title": "Adeia Q1 2026 Earnings Release",
+      "note": "Primary source for Q1 2026 revenue, EPS, and AMD/Microsoft license details"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/05/04/3287151/0/en/Adeia-Announces-CEO-Paul-Davis-to-Step-Down-by-the-Fourth-Quarter-of-2026-Board-Launches-Search-Process.html",
+      "title": "Adeia CEO Departure Announcement — GlobeNewswire",
+      "note": "Primary source for Paul Davis step-down news and board succession process"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/05/12/3292813/0/en/Adeia-and-Google-Renew-Multi-Year-IP-License-Agreement.html",
+      "title": "Adeia-Google License Renewal Press Release — GlobeNewswire",
+      "note": "Confirms May 12 renewal and long-standing Google licensing relationship since 2012"
+    },
+    {
+      "url": "https://finance.yahoo.com/sectors/technology/articles/adeia-ceo-highlights-patent-growth-174725493.html",
+      "title": "Adeia CEO at Roth Conference 2026 — Yahoo Finance",
+      "note": "Patent portfolio size (~13,750 assets), semiconductor revenue trajectory, OTT diversification strategy"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/adea/",
+      "title": "ADEA Stock Overview — StockAnalysis.com",
+      "note": "52-week range, market cap, analyst targets, and P/E multiples"
+    },
+    {
+      "url": "https://www.benzinga.com/trading-ideas/movers/26/05/52495681/what-adeias-renewed-google-agreement-means-for-the-stock",
+      "title": "Benzinga: What Adeia's Google Renewal Means for the Stock",
+      "note": "Post-deal price action: ~14% gain in the week following the announcement"
+    },
+    {
+      "url": "https://www.capitalflowsresearch.com/",
+      "title": "CapitalFlowsResearch — Substack",
+      "note": "Platform providing the return attribution dashboard shown in the tweet"
+    },
+    {
+      "url": "https://medium.com/@humblebeyondx/barra-risk-model-776eb1e48024",
+      "title": "Barra Risk Model Explained — Medium",
+      "note": "Methodology reference for multi-factor OLS return attribution architecture"
+    },
+    {
+      "url": "https://www.simcorp.com/resources/insights/industry-articles/2024/Breaking-down-performance-attribution",
+      "title": "Breaking Down Performance Attribution — SimCorp",
+      "note": "Practitioner reference on systematic vs. idiosyncratic attribution decomposition"
+    },
+    {
+      "url": "https://quantpedia.com/strategies/momentum-factor-effect-in-stocks",
+      "title": "Momentum Factor Effect in Stocks — Quantpedia",
+      "note": "Academic background on cross-sectional momentum as a systematic equity factor"
+    }
+  ],
+  "bookmark_id": "2054526603238232262",
+  "generated_at": "2026-05-14T10:20:22.585562Z",
+  "backend": "claude-sonnet-subagent"
+}

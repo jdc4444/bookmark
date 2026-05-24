@@ -1,0 +1,123 @@
+{
+  "headline": "A Screen-Aware AI Tutor That Points at Exactly What It Means",
+  "lede": "Farza Majeed — founder of the developer-education platform buildspace, which closed in 2024 — has released Clicky, an open-source macOS tool that pairs a large language model's vision with animated on-screen cursor pointing to serve as a real-time software tutor. The app floats permanently near the cursor, captures a screenshot on every spoken query, and replies out loud while guiding a blue animated cursor to the exact UI element under discussion. Majeed says he used it to learn DaVinci Resolve.",
+  "body": "Clicky is a macOS *menu bar app* that sits 35 pixels to the right of your cursor at all times. Hold a *push-to-talk* hotkey, speak a question, and within roughly two seconds the app has captured a screenshot of every connected monitor, sent it alongside your transcript to Claude — Anthropic's *multimodal* large language model — and begun reading the reply aloud via ElevenLabs voice synthesis. The signature feature is cursor animation: when Claude refers to a button, slider, or menu, it embeds pixel coordinates inline in its response, and a **blue animated cursor** arcs across the screen to the exact element on any display, at any resolution.\n\nWritten in Swift using SwiftUI and AppKit, the app requires macOS 14.2 or newer for *ScreenCaptureKit* access — Apple's framework for low-overhead, permissioned screen capture. API calls route through a Cloudflare (NET) Worker proxy so that Claude, AssemblyAI (real-time speech-to-text), and ElevenLabs credentials never ship inside the binary — a considered choice for open-source software where private keys would otherwise be trivially extractable. A security researcher publicly noted, shortly after launch, that the initial release did expose keys client-side before the proxy was in place.\n\nMajeed previously ran buildspace, a developer-education platform that raised $10 million from Andreessen Horowitz at a reported $100 million valuation in 2022 and drew 125,000 participants through six-week cohorts called \"Nights & Weekends.\" buildspace closed in August 2024; Majeed cited personal rather than financial reasons. Clicky is, in this sense, a return to the question that animated buildspace: how do people actually learn to use complex software when no human teacher is available?\n\nThe launch post drew roughly fifteen thousand likes and an estimated three million views. Majeed open-sourced the full repository within about 48 hours, and community uptake was fast: one developer ported it to Windows in what he called \"a couple of hours\" using Claude Code; at least two derivative apps appeared within days. The MIT-licensed repository is fully intact on GitHub.\n\nWithin three weeks, Majeed announced that active development would move to a private commercial successor at heyclicky.com, which adds *agentic* capabilities — spawning sub-agents, interacting with Apple Notes and Calendar, executing research tasks autonomously. The arc is familiar: viral open-source release, fast community adoption, rapid commercial pivot. The speed reflects both genuine enthusiasm for screen-aware AI tutoring and the difficulty of sustaining open development without a revenue model.",
+  "tickers": [
+    "NET"
+  ],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "ElevenLabs",
+      "ticker": null
+    },
+    {
+      "name": "AssemblyAI",
+      "ticker": null
+    },
+    {
+      "name": "Cloudflare",
+      "ticker": "NET"
+    },
+    {
+      "name": "Andreessen Horowitz",
+      "ticker": null
+    }
+  ],
+  "poster": "FarzaTV",
+  "concepts": [
+    {
+      "key": "menu-bar-app",
+      "term": "menu bar app",
+      "definition": "A macOS application that runs persistently in the system menu bar — the strip of icons at the top-right of the screen — rather than as a conventional windowed app. Menu bar apps have no visible window unless the user clicks their icon, making them useful for always-on utilities that need to stay out of the way."
+    },
+    {
+      "key": "push-to-talk",
+      "term": "push-to-talk",
+      "definition": "A voice-activation mode in which the microphone is live only while a specific key or button is held down. Contrasted with wake-word detection (always listening) or manual record-start/stop. Push-to-talk reduces accidental activations and avoids continuous audio capture."
+    },
+    {
+      "key": "multimodal",
+      "term": "multimodal AI",
+      "definition": "A large language model that can process multiple types of input — typically text alongside images, audio, or video — rather than text alone. Clicky exploits this image-understanding capability by sending a screenshot with each query, letting the model reason about whatever is currently on screen."
+    },
+    {
+      "key": "screencapturekit",
+      "term": "ScreenCaptureKit",
+      "definition": "Apple's framework, introduced in macOS 12.3 and substantially expanded in 14.x, for capturing screen content with system-enforced user-permission prompts. It is faster and more privacy-aware than older approaches and supports capturing individual windows, specific displays, or particular applications."
+    },
+    {
+      "key": "agentic-ai",
+      "term": "agentic AI",
+      "definition": "An AI system that can take sequences of actions autonomously — calling tools, spawning sub-processes, reading and writing files — rather than simply responding to a single prompt. Agentic systems typically involve a loop of observation, planning, and execution, and can operate across multiple steps without constant human instruction."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "farzaa-clicky",
+      "url": "https://github.com/farzaa/clicky",
+      "summary": "The open-source MIT-licensed Swift codebase for Clicky, Farza Majeed's macOS AI tutor app. The repository includes the SwiftUI/AppKit client, a Cloudflare Worker API proxy that keeps credentials out of the binary, and detailed setup instructions. Active development has since moved to the commercial heyclicky.com, but the repo remains fully functional and forkable."
+    }
+  ],
+  "fact_check": "No factual errors in the tweet itself. Worth noting for readers: the open-source repository has been superseded by a commercial product at heyclicky.com as of late April 2026 — the 'I built this thing' framing slightly undersells a project that has already transitioned to a paid product. Separately, the Windows app at clicky.foo is an unrelated derivative by a different developer and should not be confused with Majeed's original.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/farzaa/clicky",
+      "title": "farzaa/clicky — GitHub",
+      "note": "Primary source: README, CLAUDE.md, full codebase architecture and tech stack"
+    },
+    {
+      "url": "https://x.com/FarzaTV/status/2041314633978659092",
+      "title": "Original Clicky tweet — @FarzaTV",
+      "note": "The bookmarked post; includes the DaVinci Resolve use-case claim"
+    },
+    {
+      "url": "https://x.com/FarzaTV/status/2041691382008705321",
+      "title": "Open-source announcement — @FarzaTV",
+      "note": "Farza announces MIT open-sourcing within ~48 hours of launch"
+    },
+    {
+      "url": "https://www.xda-developers.com/someone-built-tiny-ai-that-lives-next-to-your-cursor-the-most-useful-thing-ive-tried-this-year/",
+      "title": "XDA Developers hands-on review",
+      "note": "Third-party test confirming feature claims; source for ~15k likes, ~3M views figures"
+    },
+    {
+      "url": "https://www.crunchbase.com/person/farza-majeed-2063",
+      "title": "Farza Majeed — Crunchbase",
+      "note": "Background on buildspace, Andreessen Horowitz raise, biographical details"
+    },
+    {
+      "url": "https://x.com/FarzaTV/status/1827030900456169849",
+      "title": "buildspace closure announcement — @FarzaTV",
+      "note": "First-person account of why buildspace closed in August 2024"
+    },
+    {
+      "url": "https://x.com/buildwithumair/status/2041447733467500907",
+      "title": "Security researcher API key disclosure — @buildwithumair",
+      "note": "Documents that initial release exposed API keys client-side before the Cloudflare proxy was in place"
+    },
+    {
+      "url": "https://x.com/MushtaqBilalPhD/status/2041966322788266295",
+      "title": "Windows port in 'a couple of hours' — @MushtaqBilalPhD",
+      "note": "Documents fast community fork to Windows using Claude Code"
+    },
+    {
+      "url": "https://www.clicky.so/",
+      "title": "Clicky — original download page",
+      "note": "Original free macOS download; precursor to the commercial heyclicky.com"
+    },
+    {
+      "url": "https://www.heyclicky.com/",
+      "title": "heyclicky.com — commercial successor",
+      "note": "Confirms commercial pivot and agentic feature additions announced April 2026"
+    }
+  ],
+  "bookmark_id": "2041314633978659092",
+  "generated_at": "2026-05-07T08:02:00.283933Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "JPM",
+  "name": "JPMorgan Chase & Co.",
+  "exchange": "NYSE",
+  "blurb": "JPMorgan Chase & Co. is a leading global financial services firm and one of the largest banking institutions in the United States. It operates through four major segments: Consumer & Community Banking, Corporate & Investment Bank, Commercial Banking, and Asset & Wealth Management. The company provides a wide range of services including investment banking, financial transaction processing, asset management, and retail banking. As of 2025, it is the largest bank in the U.S. by assets and a component of the Dow Jones Industrial Average.",
+  "recent": "In the past 30 days, JPMorgan Chase's stock has shown positive momentum, driven by strong quarterly earnings and favorable interest rate expectations. The company reported better-than-expected revenue and profit, benefiting from higher net interest income and robust investment banking fees. Analysts have raised price targets, citing the bank's diversified business model and capital strength.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/JPM/",
+      "title": "JPMorgan Chase & Co. (JPM) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/JPM/news/",
+      "title": "JPM News Today | Why did JPMorgan Chase & Co. stock go up today? $JPM"
+    },
+    {
+      "url": "https://www.google.com/finance/quote/JPM:NYSE",
+      "title": "JPMorgan Chase & Co (JPM) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:47:06.055504Z",
+  "backend": "deepseek"
+}

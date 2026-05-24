@@ -1,0 +1,24 @@
+{
+  "key": "BZAI",
+  "name": "Blaize Holdings, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Blaize Holdings is a Santa Clara-based AI edge computing company founded in 2010 that designs programmable AI processors and computing platforms targeting smart city, defense, retail, and enterprise verticals. Its hardware enables computer vision, advanced video analytics, and AI inference workloads at the edge without requiring cloud connectivity. The company also offers no-code software tooling that lets non-expert users deploy AI applications on Blaize hardware without writing source code. With roughly 254 employees and a ~$206M market cap, it competes in the growing edge AI inference silicon market against larger incumbents.",
+  "recent": "As of mid-May 2026, BZAI trades near $1.68, close to its 52-week low of $1.00 and well off its 52-week high of $6.76, reflecting sustained selling pressure since its public debut. Trailing-twelve-month revenue reached $38.6M, a reported 2,386% year-over-year increase, though the company still posted a net loss of ~$207M. Earnings for the quarter are scheduled for May 14, 2026; analysts carry a consensus Strong Buy rating with a $4.67 price target, implying roughly 179% upside from current levels.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/bzai/",
+      "title": "Blaize Holdings (BZAI) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/BZAI/news/",
+      "title": "BZAI News Today — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/BZAI/",
+      "title": "Blaize Holdings, Inc. (BZAI) Stock Price, News, Quote & History — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:31:20.710578Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Palantir Technologies, founded in 2003 by Peter Thiel, Alex Karp, and others, builds large-scale data-analytics and AI platforms for government intelligence agencies and commercial enterprises. Its flagship products are Gotham (for government and defence clients), Foundry (for commercial enterprises), and the Artificial Intelligence Platform (AIP), launched in 2023, which allows organisations to deploy large language models within their existing data infrastructure. The company is headquartered in Denver, Colorado, and is unusual among technology companies in that it derives a substantial share of revenue from classified US government contracts — a relatively insulated revenue stream that also limits disclosure. Palantir built a large retail-investor following due to its association with AI, US defence spending growth, and the outspoken, unconventional public persona of CEO Alex Karp.",
+  "recent": "Palantir's shares reached an all-time high of approximately $207.52 in November 2025, having risen more than 300% from January 2025 on a combination of AI-platform enthusiasm and accelerating commercial revenue growth. The stock suffered a drawdown of roughly 22–38% from that peak through April 2026 — the range reflecting how rapidly sentiment shifted during the broad mega-cap sell-off. As of early May 2026, shares had retraced to around $136, representing a drawdown of more than 34% from the November high.",
+  "sources": [
+    {
+      "url": "https://www.tikr.com/blog/palantir-has-fallen-31-from-its-peak-is-pltr-stock-a-buy-in-2026",
+      "title": "Palantir Has Fallen 31% From Its Peak — TIKR"
+    },
+    {
+      "url": "https://www.tikr.com/blog/palantir-stock-has-dropped-31-from-its-peak-heres-where-pltr-could-go-in-2026",
+      "title": "Palantir Stock Dropped 31% From Peak — TIKR"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/PLTR/",
+      "title": "Palantir (PLTR) Quote — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

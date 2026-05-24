@@ -1,0 +1,13 @@
+{
+  "key": "NXPI",
+  "name": "NXP Semiconductors N.V.",
+  "exchange": "NASDAQ",
+  "blurb": "NXP Semiconductors is a Dutch-American chip designer specialising in automotive semiconductors, industrial microcontrollers, and secure connectivity. It is the largest automotive semiconductor supplier globally by revenue, with chips embedded in powertrain systems, ADAS (advanced driver assistance), vehicle networking (CAN/LIN/Ethernet), and EV battery management. NXP also produces i.MX applications processors and S32 automotive compute platforms. The company was spun out of Philips in 2006 and is headquartered in Eindhoven.",
+  "recent": "NXP has navigated automotive inventory corrections that pressured the sector in 2024–2025. A recovery in automotive chip demand is underpinning 20.9% forward EPS growth estimates for the next fiscal year. The company trades at a forward P/E of ~17.4x with a PEG of 0.83 — reasonable for a business with deep automotive design-win moats and long product lifecycle revenue. NXP is investing in software-defined vehicle platforms as OEMs consolidate their supplier relationships.",
+  "sources": [
+    {"url": "https://www.ainvest.com/news/undervalued-semiconductor-stocks-2026-wall-street-strategic-outlook-2601/", "title": "Undervalued Semiconductor Stocks 2026 — AInvest"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

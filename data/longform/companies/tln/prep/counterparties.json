@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-expands-nuclear-energy-relationship-amazon",
+    "https://www.utilitydive.com/news/talen-amazon-aws-susquehanna-nuclear-data-centert/750440/",
+    "https://www.stocktitan.net/sec-filings/TLN/10-k-talen-energy-corp-files-annual-report-d8a48267db5f.html"
+  ],
+  "key_finding": "Talen's counterparty map is reshaping in 2024-2026 from a PJM merchant IPP into a long-term-contracted carbon-free baseload supplier to hyperscaler data centers. The single most consequential counterparty is Amazon (AWS) under the expanded June 2025 PPA — up to 1,920 MW carbon-free nuclear power through 2042. The reliability-must-run (RMR) contracts on Brandon Shores ($145M/year) and H.A. Wagner ($35M/year) plants provide an additional layer of contracted revenue stability through May 2029. PJM Interconnection remains the dominant wholesale market counterparty, with 8,745 MW cleared in the 2027/2028 capacity auction at $333.44/MW-day. Three pending or recently closed acquisitions (Freedom + Guernsey closed, Cornerstone agreed) bring additional gas-generation counterparties.",
+  "primary_customer_counterparties": [
+    {
+      "name": "Amazon Web Services / Amazon.com Inc.",
+      "type": "Hyperscaler data center customer",
+      "contract_volume_max_mw": 1920,
+      "contract_term_year": 2042,
+      "contract_signed": "March 2024 initial; June 2025 expansion",
+      "delivery_location": "Susquehanna-adjacent Amazon data center campus + other Pennsylvania sites",
+      "framing": "Largest single carbon-free baseload data center PPA in US history. The PPA prices Susquehanna nuclear capacity at AI-workload-buyer rates significantly above the ~$27/MWh production cost — the spread is the structural economic improvement for Talen. The contract has a ramp schedule potentially reaching full 1,920 MW by 2032. Co-development of small modular reactors (SMRs) is a long-term option."
+    },
+    {
+      "name": "PJM Interconnection (capacity market)",
+      "type": "Regional transmission organisation / wholesale capacity buyer",
+      "auction_year": "2027/2028",
+      "cleared_capacity_mw": 8745,
+      "clearing_price_usd_per_mw_day": 333.44,
+      "framing": "PJM's capacity auctions provide multi-year revenue visibility. The 2027/2028 clearing price of $333.44/MW-day on 8,745 MW of Talen capacity implies roughly $1.06B of annual capacity payments at that price level."
+    },
+    {
+      "name": "PJM RMR Counterparties (Brandon Shores)",
+      "type": "Reliability Must Run contract",
+      "annual_payment_usd_millions": 145,
+      "term_through": "May 2029",
+      "framing": "RMR contracts pay generators to keep otherwise-uneconomic plants available for grid reliability. Brandon Shores' $145M/year is among the largest RMR commitments in the PJM region."
+    },
+    {
+      "name": "PJM RMR Counterparties (H.A. Wagner)",
+      "type": "Reliability Must Run contract",
+      "annual_payment_usd_millions": 35,
+      "term_through": "May 2029"
+    }
+  ],
+  "fleet_acquisitions": [
+    {
+      "name": "Freedom and Guernsey",
+      "capacity_gw": 2.8,
+      "transaction_value_usd_billions": 3.8,
+      "status": "Closed FY2025",
+      "type": "Natural gas combined-cycle generation",
+      "framing": "Adds gas baseload capacity to complement the Susquehanna nuclear anchor. The combined gas fleet provides dispatchable capacity for periods when nuclear is constrained or when Amazon PPA delivery requires firming."
+    },
+    {
+      "name": "Cornerstone",
+      "capacity_combined_cycle_gw": 2.0,
+      "capacity_peaking_mw": 456,
+      "transaction_value_usd_billions": 3.45,
+      "status": "Agreed",
+      "type": "Natural gas combined-cycle plus peaking"
+    }
+  ],
+  "supply_chain_observations": {
+    "fuel_uranium": "Susquehanna nuclear fuel supply chain handled through long-term contracts with major fuel cycle suppliers — specifics not separately broken out in available filings at snapshot",
+    "fuel_natural_gas": "Pipeline gas supply for combined-cycle assets sourced through regional pipeline counterparties in the PJM region",
+    "interconnection": "Susquehanna and major gas assets interconnect directly to PJM transmission",
+    "operations_and_maintenance": "Talen operates its own nuclear and gas assets with internal O&M teams; some specialty services contracted to vendors"
+  },
+  "competitor_set_for_reference": [
+    {"name": "Constellation Energy (CEG)", "framing": "Largest US nuclear IPP; competing for hyperscaler data center PPAs. Director Joseph Nigro was previously CEO of Constellation."},
+    {"name": "Vistra Corp (VST)", "framing": "Texas-anchored IPP with growing nuclear and gas fleet; competing in PJM and ERCOT capacity markets."},
+    {"name": "NRG Energy (NRG)", "framing": "Retail electricity + power generation IPP."},
+    {"name": "Dominion Energy (D)", "framing": "Regulated utility with significant Virginia data center exposure; competing for Virginia hyperscaler PPAs."},
+    {"name": "PSEG (PEG)", "framing": "New Jersey utility with nuclear fleet; competes in PJM."},
+    {"name": "Exelon (EXC)", "framing": "Regulated utility holding company; Constellation Energy spun out 2022. Mac McFarland and Joseph Nigro have Exelon roots."}
+  ],
+  "broader_ai_electricity_thesis": "Talen sits at the intersection of two demand cycles: (a) hyperscaler AI data center power demand, which is growing at 25-40% annually in 2024-2026 in the PJM region; and (b) PJM capacity-market tightening, which is producing record clearing prices. The combination of (a) baseload nuclear capacity at low marginal cost, (b) gas capacity for dispatchable firming, and (c) RMR + capacity-market revenue layers makes Talen one of the cleanest pure-play AI electricity exposures available in the listed IPP universe."
+}

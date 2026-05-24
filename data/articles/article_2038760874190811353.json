@@ -1,0 +1,132 @@
+{
+  "headline": "The Local Video Search Engine That Never Calls Home",
+  "lede": "SentrySearch, an open-source project by UC Santa Cruz graduate student Soham Rajadhyaksha, lets users search any video collection with a natural-language phrase and jump to the exact timestamp — no cloud, no transcription, no data leaving the machine. The tool feeds raw video directly into a local AI embedding model, placing clips and text queries into the same mathematical space so they can be compared without any intermediate language step. The repository has drawn nearly 4,000 GitHub stars since release.",
+  "body": "**SentrySearch** works by slicing video files into 30-second segments — each downscaled to 480p at five frames per second, reducing a raw 19MB dashcam chunk to roughly 1MB — and passing them through **Qwen3-VL-Embedding**, a *multimodal embedding model* released in early 2026 by Alibaba Group's (BABA) Qwen team. Rather than transcribing audio or generating text captions of frames, the model encodes raw video pixels and natural-language queries into the same high-dimensional *vector space*, so a phrase like “person walking a dog near a lake” is mathematically comparable to a video clip without any intermediate language step. The resulting vectors are stored in a local *ChromaDB* database; at query time, *cosine similarity* between the query’s embedding and every stored chunk determines the best match, and the winning segment is automatically trimmed and saved as a standalone clip via ffmpeg.\n\nStorage and retrieval efficiency draw on *Matryoshka Representation Learning* (MRL), a training technique that nests progressively smaller representations inside a single model output. SentrySearch uses only the first 768 of the model’s 4,096 available dimensions, L2-normalised, cutting storage and distance-computation cost without retraining. Indexing speed on local hardware sits at roughly 2–5 seconds per 30-second chunk on an NVIDIA (NVDA) A100 and 3–8 seconds on a T4; a consumer RTX 4090 running the 8B model in full bf16 precision lands in the low single digits. The 8B model requires at least 18GB of VRAM at full precision; 4-bit quantisation, via bitsandbytes, brings that down to 6–8GB with, the README claims, minimal quality loss.\n\nFor users without a capable GPU, the tool offers a cloud backend: Google’s (GOOGL) Gemini Embedding 2 API, which indexes an hour of footage at roughly $2.84 (30-second chunks at 3,600 frames times $0.00079 per frame). The fully local path is the product’s core proposition, particularly for users indexing dashcam or security footage. A companion project, *SentryBlur*, handles face and licence-plate redaction before storage.\n\nThe Qwen3-VL-Embedding-8B model scores 80.1 overall on *MMEB-v2*, a benchmark spanning 78 datasets across image, video, and document retrieval. Alibaba claims it surpasses all prior open-source multimodal embedding models on the video retrieval portion. A 2B-parameter variant exists for more constrained hardware. Rajadhyaksha—studying at UC Santa Cruz and open to software-engineering roles by his own GitHub bio—did not build the tool with dedicated infrastructure: the terminal screenshot that circulated on social media shows a single laptop session, the machine named “SSR-IP,” initials matching his GitHub handle.",
+  "tickers": [
+    "BABA",
+    "NVDA",
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Alibaba Group",
+      "ticker": "BABA"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Google",
+      "ticker": "GOOGL"
+    }
+  ],
+  "poster": "om_patel5",
+  "concepts": [
+    {
+      "key": "multimodal-embedding-model",
+      "term": "Multimodal Embedding Model",
+      "definition": "An AI model that encodes different types of input — text, images, video — into the same high-dimensional coordinate system, enabling direct comparison across modalities. Unlike systems that convert one modality into another first (e.g., captioning a frame, then searching the caption), a multimodal embedding model makes the comparison in a shared mathematical space without that intermediate step."
+    },
+    {
+      "key": "vector-space",
+      "term": "Vector Space",
+      "definition": "A high-dimensional coordinate system in which an AI model places data points so that semantically similar items end up near each other. Each item — a sentence, an image, a video clip — becomes a list of numbers (a vector); the angle or distance between vectors is used as a proxy for relevance."
+    },
+    {
+      "key": "cosine-similarity",
+      "term": "Cosine Similarity",
+      "definition": "A measure of the angle between two vectors in a high-dimensional space, used to gauge how similar two items are regardless of their magnitude. A score of 1 means the vectors point in the same direction (highly similar); 0 means they are orthogonal (unrelated). It is the standard distance metric for semantic search over embedding databases."
+    },
+    {
+      "key": "chromadb",
+      "term": "ChromaDB",
+      "definition": "An open-source vector database designed for storing and querying high-dimensional embeddings locally. It provides fast nearest-neighbour search without a cloud service, making it a common choice for on-device AI applications that need to match queries against large collections of pre-computed vectors."
+    },
+    {
+      "key": "matryoshka-representation-learning",
+      "term": "Matryoshka Representation Learning (MRL)",
+      "definition": "A training technique, named after the Russian nesting doll, that embeds multiple representation sizes within a single model output. A model trained with MRL can yield 64-, 256-, 768-, or 4,096-dimensional vectors from the same weights; users can truncate to a smaller size at inference time without retraining, saving storage and compute."
+    },
+    {
+      "key": "mmeb-v2",
+      "term": "MMEB-v2",
+      "definition": "Massive Multimodal Embedding Benchmark version 2, a standardised evaluation suite covering 78 datasets across image, video, and document retrieval tasks. It is the primary leaderboard used to compare multimodal embedding models across modalities and task types."
+    },
+    {
+      "key": "bf16",
+      "term": "bf16 (bfloat16)",
+      "definition": "A 16-bit floating-point number format used in AI model inference and training. It uses the same number of exponent bits as 32-bit floats (preserving numerical range) but fewer mantissa bits (reducing memory). Running a model in bf16 roughly halves VRAM usage compared with 32-bit, with negligible accuracy loss for most tasks."
+    },
+    {
+      "key": "4-bit-quantization",
+      "term": "4-bit Quantisation",
+      "definition": "A technique that compresses each model weight from 16 or 32 bits down to 4 bits, reducing memory footprint by roughly 75 percent at the cost of a small quality degradation. It allows large models that would otherwise require a high-end GPU to run on consumer hardware with 8–16GB of VRAM."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "ssrajadh-sentrysearch",
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "summary": "SentrySearch indexes video files locally using Qwen3-VL or Gemini embeddings, stores vectors in ChromaDB, and returns the exact timestamp and a trimmed clip for any natural-language query. Built by Soham Rajadhyaksha, an MSCS student at UC Santa Cruz, it targets dashcam, security, and personal video archives where privacy matters. A companion repo, SentryBlur, adds face and licence-plate redaction."
+    },
+    {
+      "key": "qwenlm-qwen3-vl-embedding",
+      "url": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+      "summary": "The official repository for Qwen3-VL-Embedding, Alibaba Cloud’s multimodal embedding model family (2B and 8B parameters). It supports text, image, video, and mixed inputs in a shared vector space, with flexible embedding dimensions via Matryoshka Representation Learning. The repo includes inference code, evaluation scripts, and MMEB-v2 benchmark results."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "title": "ssrajadh/sentrysearch — GitHub",
+      "note": "Primary repo; architecture, benchmarks, hardware table, cost calculations, and companion project links"
+    },
+    {
+      "url": "https://github.com/ssrajadh",
+      "title": "ssrajadh — GitHub profile",
+      "note": "Confirms builder identity: Soham Rajadhyaksha, MSCS at UC Santa Cruz"
+    },
+    {
+      "url": "https://github.com/QwenLM/Qwen3-VL-Embedding",
+      "title": "QwenLM/Qwen3-VL-Embedding — GitHub",
+      "note": "Official embedding model repo; architecture details, benchmark results, usage examples"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-8B",
+      "title": "Qwen3-VL-Embedding-8B — Hugging Face",
+      "note": "Model card: dimension options, MMEB-v2 scores, quantisation support"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-Embedding-2B",
+      "title": "Qwen3-VL-Embedding-2B — Hugging Face",
+      "note": "Smaller local variant for constrained hardware"
+    },
+    {
+      "url": "https://www.alibabacloud.com/blog/qwen3-vl-embedding-and-qwen3-vl-reranker-for-the-next-generation-of-multimodal-retrieval_602796",
+      "title": "Qwen3-VL-Embedding and Reranker — Alibaba Cloud Blog",
+      "note": "Official architectural description and MMEB-v2 scores"
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.21631",
+      "title": "Qwen3-VL Technical Report — arXiv",
+      "note": "64-author paper detailing base model architecture: Interleaved-MRoPE, DeepStack, Text-Timestamp Alignment"
+    },
+    {
+      "url": "https://gigazine.net/gsc_news/en/20260330-sentrysearch/",
+      "title": "SentrySearch — Gigazine",
+      "note": "Press coverage confirming dashcam demo and $2.84/hr Gemini cost figure"
+    },
+    {
+      "url": "https://pythonlibraries.substack.com/p/this-open-source-tool-makes-videos",
+      "title": "This open-source tool makes videos searchable like Google — Pythonlibraries Substack",
+      "note": "Community coverage confirming star count and project positioning"
+    }
+  ],
+  "bookmark_id": "2038760874190811353",
+  "generated_at": "2026-05-07T09:18:20.662271Z",
+  "backend": "claude-sonnet-subagent"
+}

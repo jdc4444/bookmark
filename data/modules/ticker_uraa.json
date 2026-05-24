@@ -1,0 +1,29 @@
+{
+  "key": "URAA",
+  "name": "Direxion Daily Uranium Industry Bull 2X ETF",
+  "exchange": "NYSE Arca",
+  "type": "etf",
+  "note": "ETF — included because URAA is the actively trading 2x leveraged uranium vehicle referenced in this bookmark. The earlier Defiance 2x ETF (URAX) ceased trading April 16, 2025.",
+  "blurb": "The Direxion Daily Uranium Industry Bull 2X ETF (URAA) seeks daily investment results of 200% of the performance of the Solactive United States Uranium and Nuclear Energy ETF Select Index. Launched June 26, 2024 and managed by Rafferty Asset Management, URAA is the primary surviving 2x leveraged uranium vehicle after Defiance's URAX closed in April 2025. AUM is approximately $48 million as of April 2026. Like all leveraged ETFs, URAA resets its exposure daily, which creates volatility decay — a compounding drag that erodes returns for holders who maintain positions across volatile days even if the underlying index trends upward. The fund is designed for short-term tactical trading, not buy-and-hold investing. The predecessor URAX (Defiance Daily Target 2x Long Uranium ETF, tracking URA) launched May 2024 and closed April 16, 2025, its final share price near $7.94 versus a 52-week high of $21.09.",
+  "recent": "URAA remains active as of May 2026, with AUM near $48 million. Uranium equities have recovered with spot prices above $100/lb, but volatility decay continues to make the fund a poor vehicle for investors seeking long-term uranium exposure.",
+  "sources": [
+    {
+      "url": "https://www.direxion.com/product/daily-uranium-industry-bull-2x-etf",
+      "title": "URAA: Uranium Industry Bull 2X ETF — Direxion"
+    },
+    {
+      "url": "https://etfdb.com/etf/URAA/",
+      "title": "URAA Direxion Daily Uranium Industry Bull 2X ETF — ETF Database"
+    },
+    {
+      "url": "https://etfgi.com/news/stories/2024/05/defiance-launches-first-2x-leveraged-uranium-etf-urax",
+      "title": "Defiance Launches the First 2X Leveraged Uranium ETF (URAX) — ETFGI"
+    },
+    {
+      "url": "https://robinhood.com/us/en/stocks/URAX/",
+      "title": "Defiance Daily Target 2x Long Uranium ETF (URAX) — Robinhood (last traded April 2025)"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

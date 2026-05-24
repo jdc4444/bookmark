@@ -1,0 +1,32 @@
+{
+  "headline": "The AI Get-Rich-Quick Tweet as a Genre Unto Itself",
+  "lede": "A post circulating on X promises that anyone can become a millionaire in three months, starting from nothing, by asking Claude to write a Polymarket trading bot. The claim is not a strategy — it is a template, one of the most recognizable forms of engagement-farming on financial social media.",
+  "body": "The tweet belongs to a well-worn format: combine a credible-sounding technology (a capable AI model), a real platform (Polymarket, a decentralized *prediction market* where users stake cryptocurrency on the outcomes of real-world events), and an income claim calibrated to feel just achievable enough. The formula reliably harvests likes, reposts, and follows from people who share the underlying desire even if they suspect the math.\n\nThe substance collapses quickly. Asking any AI assistant to produce a \"prediction bot\" yields code that can place bets mechanically — it does not yield an *edge*, which is the only thing that makes a trading strategy profitable over time. Prediction markets are adversarial: for every dollar won, a dollar is lost on the other side. Automated participants compete against sophisticated forecasters, professional arbitrageurs, and market-makers. Code is not scarcity; insight is.\n\nThe \"start from $0\" framing is doubly misleading. Polymarket operates on USDC (a dollar-pegged stablecoin) settled on the Polygon blockchain, so a user needs real capital, a cryptocurrency wallet, and enough to cover gas fees before a single trade is placed. Zero dollars buys zero positions.\n\nNone of this means prediction markets lack value. Polymarket gained genuine attention during the 2024 US election cycle as a real-time aggregator of crowd probability estimates, and researchers study such markets as forecasting tools. The platform is a legitimate and interesting object. The claim wrapped around it here is not.",
+  "tickers": [],
+  "poster": "lorden_eth",
+  "concepts": [
+    {
+      "key": "prediction-market",
+      "term": "prediction market",
+      "definition": "A marketplace where participants buy and sell contracts whose value depends on whether a specified future event occurs. Prices reflect the crowd's implied probability of that outcome. Polymarket is one of the best-known decentralized versions, running on the Polygon blockchain and settling in USDC."
+    },
+    {
+      "key": "trading-edge",
+      "term": "trading edge",
+      "definition": "A systematic advantage that causes a strategy to win more than chance would predict over a large number of trades. In any zero-sum market, automation alone provides no edge — the edge must come from better information, better models, or faster execution than competitors."
+    },
+    {
+      "key": "usdc",
+      "term": "USDC",
+      "definition": "A dollar-pegged stablecoin (one USDC ≈ one US dollar) issued by Circle. Polymarket uses it as its settlement currency, meaning users must hold USDC in a compatible crypto wallet to participate."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet's core claim — that a single AI-generated prompt can produce a bot that turns $0 into $1,000,000 in three months — is false and structurally impossible. Profitability in any competitive market requires a genuine forecasting advantage that no code generation, however fluent, can supply on its own. The \"start from $0\" claim is also false in practice: Polymarket requires funded cryptocurrency wallets before any position can be opened.",
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2011530348786831469",
+  "generated_at": "2026-05-06T20:15:44.216697Z",
+  "backend": "claude"
+}

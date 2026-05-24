@@ -1,0 +1,58 @@
+{
+  "headline": "A Practical Shader Primer for the AI-Assisted Game Builder",
+  "lede": "Browser-based 3D games have a perpetual image problem: the polygon count is fine, but the lighting looks flat and the water looks painted on. A developer building a cosy flyer game for #vibejam argues the fix is surprisingly accessible — a handful of *shader* types that run on the GPU and cost almost nothing once you know what to ask for.",
+  "body": "The post is a practical field note from inside **#vibejam**, a 2025 game jam organised around *vibe coding* — the practice of describing software in natural language and letting AI tools generate the implementation. The author is building a Three.js game; *Three.js* is a JavaScript library that wraps WebGL, the browser's native 3D graphics API, and has become the default choice for browser-based 3D work because it abstracts away most of the boilerplate.\n\nThe advice turns on a key distinction the post leaves implicit. The shader types described divide into two families. *Vertex shaders* run once per geometric point and can push those points around in space — which is how swaying trees and wobbling objects work: the geometry stays the same on disk, but the GPU displaces each vertex according to a noise function before drawing. *Fragment shaders* (also called pixel shaders) run once per screen pixel and decide its colour; noise-based water shimmer and the Fresnel rim-lighting effect both live here.\n\nPost-processing shaders are a third category, applied after the scene has already been rendered into a texture. The colour-grading shader mentioned — dynamically shifting the game's overall palette — and the **VHS effect** cited from @levelsio's drone flyer are both post-processing passes. They are especially powerful for establishing visual identity because they require no changes to individual 3D assets.\n\nThe **Fresnel effect** deserves a note. Named after the 19th-century French physicist Augustin-Jean Fresnel, it describes the real optical phenomenon where surfaces appear more reflective at shallow viewing angles. In a fragment shader, it produces a bright rim around objects as the camera angle grazes their edges — a cheap approximation of how light actually behaves on curved surfaces.\n\nThe broader point the post makes, without quite stating it, is that shaders are unusually well-suited to the vibe-coding workflow. They are self-contained, their inputs and outputs are well-defined, and decades of tutorials and GLSL snippets exist online. An AI code generator given a specific shader type — Fresnel, noise-based water, VHS — has substantial training material to draw on, making this one of the cleaner cases where natural-language prompting reliably produces working GPU code.",
+  "tickers": [],
+  "poster": "DannyLimanseta",
+  "concepts": [
+    {
+      "key": "vertex-shader",
+      "term": "Vertex Shader",
+      "definition": "A small program that runs on the GPU once for each vertex (corner point) of a 3D mesh, before the mesh is rasterised to pixels. By offsetting vertex positions with a mathematical function — often a noise function — developers create effects like swaying foliage or undulating water surfaces without altering the underlying geometry data."
+    },
+    {
+      "key": "fragment-shader",
+      "term": "Fragment Shader",
+      "definition": "A GPU program that runs once per screen pixel (fragment) during rasterisation, determining the pixel's final colour. It has access to texture data, lighting calculations, and arbitrary uniform values. Water shimmer, Fresnel rim lighting, and most surface-appearance effects are implemented here."
+    },
+    {
+      "key": "post-processing-shader",
+      "term": "Post-Processing Shader",
+      "definition": "A full-screen effect applied after the 3D scene has been rendered into an offscreen texture. The texture is then passed through one or more fragment shaders before being displayed. VHS grain, chromatic aberration, bloom, and dynamic colour grading are all post-processing techniques — they affect the entire image uniformly and do not require changes to 3D assets."
+    },
+    {
+      "key": "fresnel-effect",
+      "term": "Fresnel Effect",
+      "definition": "The physical phenomenon, described by Augustin-Jean Fresnel, whereby a surface's reflectivity increases at glancing viewing angles. In real-time graphics, a Fresnel shader approximates this by brightening pixels at the silhouette edges of an object relative to the camera, producing a characteristic 'rim light' glow that makes objects read as three-dimensional and physically plausible."
+    },
+    {
+      "key": "noise-based-shader",
+      "term": "Noise-Based Shader",
+      "definition": "A shader that uses a procedural noise function — commonly Perlin or Simplex noise — to generate irregular, organic-looking variation in colour, displacement, or transparency. Because the noise is computed mathematically rather than sampled from a texture, it can animate smoothly over time, making it the standard tool for water, fire, fog, and shimmer effects."
+    },
+    {
+      "key": "vibe-coding",
+      "term": "Vibe Coding",
+      "definition": "An informal term for a development practice in which the programmer describes desired behaviour in natural language and delegates implementation to an AI code-generation tool. The developer steers by intent rather than syntax. The term gained currency in early 2025 and gave its name to several game jams premised on the approach."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.24vids.com/video/i-am-having-a-lot-of-fun-with-this-threejs-game-will-probably-be-spending-more-p-tw-2040791667868070273",
+      "title": "Tweet mirror — DannyLimanseta on ThreeJS shaders",
+      "note": "Mirror of the original tweet text, used as primary source for the post's content"
+    },
+    {
+      "url": "https://www.beggarkings.com/gamejam",
+      "title": "2025 Vibe Coding Game Jam — Beggar Kings",
+      "note": "Confirms #vibejam as a named 2025 game jam built around vibe coding"
+    }
+  ],
+  "bookmark_id": "2040791667868070273",
+  "generated_at": "2026-05-06T19:39:33.805244Z",
+  "backend": "claude"
+}

@@ -1,0 +1,57 @@
+{
+  "report_id": "aleabit",
+  "handle": "aleabitoreddit",
+  "display_name": "Serenity",
+  "discovery_method": "manual_migration",
+  "chapters": [
+    {
+      "slug": "profile",
+      "title": "Who Serenity is",
+      "n_words": 750,
+      "theme_slug": null,
+      "brief": "Profile @aleabitoreddit (display name 'Serenity'). Attached data: profile.json (3,568 tweets 2025-07-02 → 2026-05-08, monthly cadence, follow graph, reply graph, dossier), corpus_mentions.json (46 accounts in the broader xalpha corpus that mention them, with tweet samples), and the cached poster_aleabitoreddit module as starting context (200 words — verify, don't paraphrase). Read enough of the source posts and the corpus mentions to form a reported picture of who this person is and how they write. Verify any biographical claim (Reddit-WSB origin, RISC-V FDN, AI research scientist) against external sources before asserting it. The chapter should feel reported, not summarized."
+    },
+    {
+      "slug": "worldview",
+      "title": "The 'functional monopolies' worldview",
+      "n_words": 700,
+      "theme_slug": null,
+      "brief": "Serenity uses the term 'functional monopolies' across the post corpus. Find the original uses (search tweets.json for the phrase and adjacent constructs like 'monopoly', 'chokepoint', 'bottleneck'), read them in context, and describe what the term actually means in their usage — what names it covers, what it excludes, what claim it makes about each name's moat. Trace intellectual priors in the open literature (semianalysis, sell-side photonics initiations, the Aschenbrenner essay, kb_sources entries that overlap). Note where the framing stretches or substitutes for fundamental analysis."
+    },
+    {
+      "slug": "photonics",
+      "title": "The photonics supercycle",
+      "n_words": 1500,
+      "theme_slug": "photonics",
+      "brief": "The deepest chapter. Cluster: SIVE, SOI, IQE, AXTI, TSEM, AAOI, LITE, COHR, FN, POET, ALAB, CRDO. 210 posts in the cluster, 197 YTD, 60 in the last 4 weeks (themes.json -> chapters.photonics has per-ticker representative posts). Read the technical literature — OFC papers, JEDEC, IEEE, vendor IR pages, sell-side photonics initiations, the Sivers Q4 2025 interim report, the Sumitomo / Soitec / Coherent analyst-day decks where available. For each name in the cluster, explain to a smart non-specialist what the company does in the AI-data-centre optical link, why the chokepoint is where it is, and what Serenity claimed about the name (block-quote where it makes the strongest claim). Then check those claims against the technical record. Define every acronym the first time."
+    },
+    {
+      "slug": "hbm_packaging",
+      "title": "HBM and advanced packaging",
+      "n_words": 1000,
+      "theme_slug": "hbm_packaging",
+      "brief": "Cluster: AEHR, TOWA (Tokyo 6315), MSSCorp (Tokyo 6830), SNDK, MU, KLAC, ONTO, AMAT, LRCX, TSEM. 55 posts in the cluster, 54 YTD, 8 in the last 4 weeks. Read the JEDEC HBM3E / HBM4 specifications, TSMC's CoWoS-L capex disclosures, sell-side advanced-packaging coverage (especially the kb_sources tsmc_ir / sell_side_chan / sell_side_rasgon entries), vendor IR. For each name, explain what it does in the HBM transition and the CoWoS ramp, what Serenity has said, and how the technical record compares."
+    },
+    {
+      "slug": "ai_infra",
+      "title": "AI infrastructure and the neoclouds",
+      "n_words": 800,
+      "theme_slug": "ai_infra",
+      "brief": "Cluster: NBIS, CRWV, IREN, APLD, VRT, EQIX, DLR, TLN, CEG, VST, CIFR, CORZ. 79 posts in the cluster, 21 YTD, 0 in the last 4 weeks. The posting-cadence drop is a fact in the data — describe it, but draw no conclusion until the source supports one. Read the GPU-rental coverage and the power/data-centre coverage; explain what these companies do; lay out what Serenity has claimed about them and check against subsequent disclosures."
+    },
+    {
+      "slug": "hyperscaler_sovereign",
+      "title": "Hyperscalers and sovereign AI",
+      "n_words": 800,
+      "theme_slug": "hyperscaler_sovereign",
+      "brief": "Cluster: NVDA, MRVL, AVGO, AMD, TSM, ASML, META, GOOGL, MSFT, AMZN, ARM, ORCL, KSPI, EWY. 114 posts in the cluster, 77 YTD, 16 in the last 4 weeks. The institutional research surface here is enormous; the chapter's value is in showing where Serenity's read overlaps or diverges from sell-side consensus and from the kb_sources entries (anthropic_*, sell_side_chan, sell_side_rasgon, semianalysis). Cover sovereign build-outs as adjacent context only where Serenity has actually commented on them in the post corpus."
+    },
+    {
+      "slug": "what_didnt_work",
+      "title": "What hasn't worked",
+      "n_words": 500,
+      "theme_slug": "bear_book",
+      "brief": "Cluster: DFLI (-84% per portfolio.json — Serenity's worst trade), VST, INFQ. Read Serenity's posts about each of these names from start to finish. What did they say going in, what happened to the name, what did they say after. The chapter is about how Serenity behaves when wrong, drawn from the posts themselves."
+    }
+  ]
+}

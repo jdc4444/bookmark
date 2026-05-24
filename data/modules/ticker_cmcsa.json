@@ -1,0 +1,24 @@
+{
+  "key": "CMCSA",
+  "name": "Comcast Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Comcast Corporation is a global media and technology company operating through five segments: Residential Connectivity & Platforms, Business Services Connectivity, Media, Studios, and Theme Parks. It provides broadband, wireless, and video services to residential and business customers, along with content production and theme park operations. With a market cap of about $94.45 billion and revenue of $125.28 billion (TTM), Comcast is a leading player in the telecommunications and media industry.",
+  "recent": "As of May 6, 2026, CMCSA stock closed at $26.44, near its 52-week low of $25.75, reflecting a 27% decline from its high. The company reported earnings on April 23, 2026, with net income up 19.7% year-over-year. Analysts have a buy rating with a price target of $34.54, suggesting potential upside of over 30%.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CMCSA/",
+      "title": "Comcast Corporation (CMCSA) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CMCSA/news/",
+      "title": "CMCSA News Today | Why did Comcast stock go down today?"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/cmcsa/",
+      "title": "Comcast (CMCSA) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:34:24.096417Z",
+  "backend": "deepseek"
+}

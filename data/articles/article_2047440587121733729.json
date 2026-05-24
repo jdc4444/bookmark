@@ -1,0 +1,183 @@
+{
+  "headline": "When AI Models Hack Like Experts, Human Benchmarks Break Down",
+  "lede": "Two frontier AI models — OpenAI's GPT-5.5 and Anthropic's Claude Mythos Preview — have effectively tied on the UK government's elite offensive-security evaluation, each scoring above 70 percent on expert-level tasks that stopped every earlier system cold. Their immediate predecessors scored roughly twenty percentage points lower, the steepest single-cycle jump ever recorded in any AI capability domain. A biotech investor's offhand observation captures the implication: once models can hack at this level, the natural next benchmark is having them hack each other.",
+  "body": "The UK AI Security Institute (AISI) — the government body tasked with evaluating frontier models for dangerous capabilities before and after deployment — ran **OpenAI**'s GPT-5.5 and **Anthropic**'s Claude Mythos Preview through 95 *capture-the-flag* tasks at four difficulty tiers. At the Expert level, GPT-5.5 scored 71.4% and Mythos Preview scored 68.6%; the gap falls within both models' margins of error. Their immediate predecessors — GPT-5.4 and Claude Opus 4.7 — scored approximately 52% and 49% respectively. A twenty-point generational leap in a single model cycle is not incremental progress.\n\nThe more telling measure is *The Last Ones*, a 32-step simulated corporate network intrusion built with SpecterOps, a specialist offensive-security firm. The scenario runs from initial reconnaissance through credential theft, lateral movement across *Active Directory* forests, a supply-chain pivot through a *CI/CD pipeline*, and database exfiltration — roughly twenty hours of work for a skilled human. Mythos Preview completed it in three of ten attempts; GPT-5.5 in two. No prior AI model had finished it at all. In a separate spotlight task, GPT-5.5 solved a stripped-binary reverse-engineering challenge — a custom virtual machine with unknown bytecode, compiled in Rust with symbols stripped — in ten minutes and twenty-two seconds, for $1.73 in compute costs. AISI estimated twelve human hours for the same task.\n\nThe two models are comparable in capability but radically different in access. Anthropic gates Mythos Preview through *Project Glasswing*, a controlled-access initiative whose twelve founding corporate partners include Amazon (AMZN), Cisco (CSCO), CrowdStrike (CRWD), Microsoft (MSFT), and Palo Alto Networks (PANW). GPT-5.5, with nearly equivalent scores, is broadly available through ChatGPT and the API. OpenAI initially criticized Anthropic's restricted-release approach — Sam Altman called it \"fear-based marketing\" — but within weeks announced its own gated \"Trusted Access for Cyber\" programme for GPT-5.5. The asymmetry was itself a marketing position rather than a stable security posture.\n\nAISI also uncovered a *universal jailbreak* that bypassed every content block OpenAI had configured for malicious cyber requests, developed through roughly six hours of expert *red-teaming*. OpenAI updated its safety stack, but a configuration issue left AISI unable to verify whether the fix held. Neither model crossed the threshold OpenAI's *Preparedness Framework* designates \"Critical\" — autonomous creation of *zero-day* exploits against critical infrastructure without human assistance — though AISI noted no performance plateau in sight. The institute's structural finding: offensive cyber capability appears to be an emergent property of general improvements in code comprehension and tool-chaining, not the result of security-specific training. You do not need to build a dedicated hacking model; a model that is very good at reading code and persisting through multi-step problems is already most of the way there.\n\nThat emergent quality is the crux of @WestleyDang's observation, amplified by economist and *Noahpinion* Substack author Noah Smith as \"The War of the New Gods.\" If hacking ability falls out of raw reasoning power, then every frontier model release is also an unintentional weapons test, and the CTF benchmark — a suite of static human-designed puzzles — looks increasingly inadequate as a measure of AI danger. The natural endpoint, as @WestleyDang implied, is evaluation by adversarial AI combat: models attacking each other's live infrastructure in real time, producing co-adaptive dynamics no human-curated test suite currently captures. That is what the next generation of AI safety evaluation may have to reckon with.",
+  "tickers": [
+    "AMZN",
+    "CSCO",
+    "CRWD",
+    "MSFT",
+    "PANW"
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "SpecterOps",
+      "ticker": null
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Cisco",
+      "ticker": "CSCO"
+    },
+    {
+      "name": "CrowdStrike",
+      "ticker": "CRWD"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Palo Alto Networks",
+      "ticker": "PANW"
+    }
+  ],
+  "poster": "Noahpinion",
+  "concepts": [
+    {
+      "key": "capture-the-flag",
+      "term": "Capture the Flag (CTF)",
+      "definition": "A competitive cybersecurity format in which participants solve discrete, self-contained security puzzles — reverse engineering a binary, cracking a cipher, exploiting a web vulnerability — against isolated simulated targets. In AI evaluation, CTF tasks serve as standardized, reproducible tests of offensive capability because each puzzle has an objective, verifiable answer."
+    },
+    {
+      "key": "the-last-ones",
+      "term": "The Last Ones (TLO)",
+      "definition": "A 32-step simulated corporate network intrusion benchmark developed by AISI in collaboration with SpecterOps. It requires an AI agent to execute end-to-end: reconnaissance, credential theft, lateral movement across multiple network segments, a supply-chain pivot, and data exfiltration — a complete attack chain estimated at roughly twenty hours of work for a skilled human professional."
+    },
+    {
+      "key": "active-directory",
+      "term": "Active Directory",
+      "definition": "Microsoft's enterprise directory service, used by most large organisations to manage user identities and access permissions across networked computers. Compromising Active Directory typically gives an attacker control over any user account or machine on the corporate network, making it a central objective in advanced intrusions."
+    },
+    {
+      "key": "ci-cd-pipeline",
+      "term": "CI/CD pipeline",
+      "definition": "Continuous Integration/Continuous Deployment infrastructure — the automated systems that build, test, and ship software from source code to production. Pivoting through a CI/CD pipeline in a cyberattack is a supply-chain technique that can propagate malicious code to every downstream user or system that receives the resulting software."
+    },
+    {
+      "key": "project-glasswing",
+      "term": "Project Glasswing",
+      "definition": "Anthropic's controlled-access initiative providing early, gated access to Claude Mythos Preview exclusively to vetted defensive cybersecurity organisations. Twelve founding corporate partners — spanning cloud, enterprise software, and security firms — received access alongside roughly forty additional vetted organisations, each provided with significant model usage credits for research use."
+    },
+    {
+      "key": "preparedness-framework",
+      "term": "Preparedness Framework",
+      "definition": "OpenAI's internal policy document that classifies AI models' dangerous capabilities on a four-tier scale — Low, Medium, High, and Critical — and specifies what risk mitigations are required before deployment. The Critical threshold in cybersecurity means the ability to autonomously create functional zero-day exploits against hardened critical infrastructure without human assistance; neither GPT-5.5 nor Mythos Preview has crossed it."
+    },
+    {
+      "key": "zero-day",
+      "term": "zero-day exploit",
+      "definition": "A functional attack that exploits a software vulnerability unknown to the vendor and therefore unpatched — 'zero days' of warning before the attack is viable. Zero-days are highly valuable to attackers because no existing defense can stop them until the vendor discovers and patches the flaw."
+    },
+    {
+      "key": "universal-jailbreak",
+      "term": "universal jailbreak",
+      "definition": "A prompt or interaction sequence that systematically bypasses an AI model's built-in content refusals across a broad range of restricted topics or request types. 'Universal' distinguishes it from narrow workarounds that defeat only a single content category — it defeats the model's entire safety-filter stack within scope."
+    },
+    {
+      "key": "aisi",
+      "term": "AI Security Institute (AISI)",
+      "definition": "The UK government body, housed within the Department of Science, Innovation and Technology, that evaluates frontier AI models for potentially dangerous capabilities before and after public deployment. AISI shares findings with developers and publishes reports to inform national and international AI safety policy."
+    },
+    {
+      "key": "red-teaming",
+      "term": "red-teaming",
+      "definition": "A structured adversarial testing method in which a dedicated team deliberately tries to break or circumvent a system's defenses, mimicking real-world attacker behavior. In AI safety, red-teaming is used to discover jailbreaks, elicit harmful outputs, and probe the outer limits of model capability before public release."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Claude Mythos Preview's Expert-level score appears as 68.6% in AISI's GPT-5.5 comparative report but as approximately 73% in AISI's earlier Mythos-specific report; AISI attributes the discrepancy to testing different model snapshots at different times, not methodological error — journalists should note this distinction rather than treating the figures as contradictory. Separately, the specific @WestleyDang tweet quoted in the source post and @Noahpinion's \"War of the New Gods\" framing could not be independently verified through open indexed sources due to X.com's paywall; the claims are plausible and consistent with the documented conversation around these evaluations, but cannot be confirmed from open sources alone. Westley Dang is a biotech venture capitalist and neuroscientist, not a cybersecurity practitioner — his observation is an informed lay investor's inference, not a technical finding.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
+      "title": "AISI: Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+      "note": "Primary source for GPT-5.5 scores, The Last Ones results, and the universal jailbreak finding"
+    },
+    {
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities",
+      "title": "AISI: Our evaluation of Claude Mythos Preview's cyber capabilities",
+      "note": "Primary source for Mythos evaluation methodology and earlier score snapshot"
+    },
+    {
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "title": "Anthropic red team: Mythos Preview",
+      "note": "Anthropic's own capability disclosure, including Firefox vulnerability count and OSS-Fuzz results"
+    },
+    {
+      "url": "https://www.anthropic.com/glasswing",
+      "title": "Project Glasswing — Anthropic",
+      "note": "Official page listing Glasswing founding partners and access terms"
+    },
+    {
+      "url": "https://deploymentsafety.openai.com/gpt-5-5",
+      "title": "GPT-5.5 System Card — OpenAI",
+      "note": "OpenAI's own Preparedness Framework classification and cybersecurity assessment for GPT-5.5"
+    },
+    {
+      "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
+      "title": "Fortune: Anthropic confirms Mythos after data leak",
+      "note": "Covers the CMS misconfiguration that exposed Mythos before its official announcement"
+    },
+    {
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "title": "TechCrunch: Anthropic Mythos Preview announcement",
+      "note": "Coverage of official Mythos Preview launch and Project Glasswing structure"
+    },
+    {
+      "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+      "title": "TechCrunch: OpenAI restricts GPT-5.5 cyber access after criticising Anthropic",
+      "note": "Documents OpenAI's reversal on restricted access and the TAC programme"
+    },
+    {
+      "url": "https://xbow.com/blog/mythos-like-hacking-open-to-all",
+      "title": "XBOW: Mythos-like hacking, open to all",
+      "note": "Practitioner analysis of GPT-5.5 performance in real-world automated penetration testing"
+    },
+    {
+      "url": "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html",
+      "title": "D. Breunig: Cybersecurity Is Proof of Work Now",
+      "note": "Analysis of the computational arms-race dynamic that AI-level offensive capability creates"
+    },
+    {
+      "url": "https://theconversation.com/mythos-ai-is-a-cybersecurity-threat-but-it-doesnt-rewrite-the-rules-of-the-game-281268",
+      "title": "The Conversation: Mythos is a threat but doesn't rewrite the rules",
+      "note": "Academic counterpoint arguing Mythos automates known vulnerability classes rather than creating novel threat types"
+    },
+    {
+      "url": "https://www.bankinfosecurity.com/gpt-55-mythos-reach-hacking-parity-but-reasoning-falters-a-31594",
+      "title": "Bank Info Security: GPT-5.5 and Mythos reach hacking parity but reasoning falters",
+      "note": "Covers ARC Prize Foundation findings on systematic reasoning failures in both models"
+    },
+    {
+      "url": "https://www.noahpinion.blog/p/roundup-80-all-ai-all-the-time",
+      "title": "Noahpinion Substack roundup #80",
+      "note": "Noah Smith's own coverage of the Mythos cybersecurity story and his defense-vs-offense framing"
+    },
+    {
+      "url": "https://arstechnica.com/ai/2026/05/amid-mythos-hyped-cybersecurity-prowess-researchers-find-gpt-5-5-is-just-as-good/",
+      "title": "Ars Technica: GPT-5.5 matches Mythos in cybersecurity tests",
+      "note": "Secondary synthesis with AISI score comparison and access-asymmetry discussion"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/gpt-5-5-vs-claude-mythos-cybersecurity-benchmark-comparison",
+      "title": "MindStudio: GPT-5.5 vs Claude Mythos on cybersecurity",
+      "note": "Includes The Last Ones completion rates and the $1.73 reverse-engineering cost figure"
+    }
+  ],
+  "bookmark_id": "2047440587121733729",
+  "generated_at": "2026-05-07T07:36:30.191757Z",
+  "backend": "claude-sonnet-subagent"
+}

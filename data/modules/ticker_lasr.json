@@ -1,0 +1,28 @@
+{
+  "key": "LASR",
+  "name": "nLIGHT, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "nLIGHT, Inc. is a Vancouver, Washington-based manufacturer of high-power semiconductor and fiber lasers used in industrial, microfabrication, and aerospace/defense applications. The company designs its own laser chips and integrates them into complete laser systems, giving it vertical integration advantages over competitors. nLIGHT serves both commercial markets (sheet-metal cutting, welding) and growing defense markets (directed-energy weapons, beam-control systems). Its defense segment has become an increasingly important revenue driver as U.S. military demand for high-energy laser systems expands.",
+  "recent": "nLIGHT reported a Q1 2026 earnings beat driven by surging defense demand and the launch of a new laser platform, sending shares sharply higher. Management issued upbeat guidance, citing defense-driven momentum as a key catalyst for the near-term outlook. The stock jumped following the print as investors reacted positively to both the outperformance and the forward visibility provided by growing government contracts.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lasr-q1-deep-dive-defense-223655101.html",
+      "title": "LASR Q1 Deep Dive: Defense Demand and New Laser Platform Drive Outperformance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/LASR/",
+      "title": "nLight (LASR) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/lasr",
+      "title": "LASR Stock Price | nLIGHT Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch"
+    },
+    {
+      "url": "https://www.quiverquant.com/news/nLIGHT+shares+jump+as+investors+digest+Q1+beat%2C+upbeat+guidance%2C+and+defense-driven+momentum",
+      "title": "nLIGHT shares jump as investors digest Q1 beat, upbeat guidance, and defense-driven momentum"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:34:34.791687Z",
+  "backend": "claude-sonnet-subagent"
+}

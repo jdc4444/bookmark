@@ -1,0 +1,54 @@
+{
+  "headline": "Clicky Is an Open-Source AI Tutor That Watches Your Screen",
+  "lede": "Farza (@FarzaTV), a developer and educator, has built and open-sourced Clicky, a macOS application that acts as a personalized AI teacher positioned alongside the user's cursor. It watches the screen in real time, listens through the microphone, and talks the user through whatever they are working on — Farza used it himself to learn DaVinci Resolve.",
+  "body": "The idea is deceptively simple: instead of alt-tabbing to a chatbot and typing a description of your problem, you just speak. Clicky uses macOS's *accessibility API* and screen-capture permissions to observe exactly what is on screen — which panel is open, which menu is highlighted, which error is showing — and responds with context-aware guidance. The screenshot in the post shows the app negotiating `accessibility: true`, `screen: true`, and `mic: true` permissions at startup, confirming it reads live screen state rather than working from a static image the user pastes in.\n\nA second mode, triggered by saying \"clicky agent,\" spins up an autonomous background agent. The project's website lists use cases ranging from converting a Figma mockup into a working webpage to summarizing a PDF and emailing it to a team. This distinction matters: passive tutoring answers questions as you work, while active delegation hands a task off entirely. Most AI assistants collapse the two; Clicky separates them by voice command.\n\nThe code visible in the post is Swift, written for macOS using Apple's `@ObservableObject` pattern. That it is a **native macOS application** — not a browser overlay or an Electron wrapper — is significant. Native apps can hook into the accessibility APIs more deeply and with lower latency than browser-based alternatives, which is precisely what makes pointing at on-screen elements feel responsive rather than laggy. A Windows waitlist exists on the project's website, suggesting a port is planned but not shipped.\n\nThe project is open-source on GitHub under Farza's account. The pitch on the project's site is unadorned: \"clicky sits right next to your cursor and sees everything you see.\" Whether this approach scales to complex professional workflows — or whether the latency of a vision-capable model examining live screen content becomes the bottleneck — remains to be seen, but the concept of a screenside tutor rather than a sidebar chatbot is a meaningful reframe of how AI assistants might sit inside a creative or technical workflow.",
+  "tickers": [],
+  "poster": "FarzaTV",
+  "concepts": [
+    {
+      "key": "accessibility-api",
+      "term": "Accessibility API",
+      "definition": "A macOS (and Windows) system framework that lets one application observe and interact with the UI elements of other applications — reading button labels, field values, selected text, and layout — without requiring those apps to expose any special integration. Screen readers use it; so does Clicky, to understand context without being built into every app it tutors."
+    },
+    {
+      "key": "screen-aware-ai",
+      "term": "Screen-aware AI",
+      "definition": "An AI assistant that receives a live image or structured description of what is currently on the user's display as part of its context. This lets it answer questions about what the user is *actually* seeing rather than relying on the user to describe the problem in text, reducing the translation burden on the user and improving answer relevance."
+    },
+    {
+      "key": "agent-mode",
+      "term": "Agent mode",
+      "definition": "A mode in which an AI assistant takes autonomous, multi-step actions — browsing the web, writing and running code, sending messages — in the background, rather than simply responding to a single question. The user delegates a goal; the agent figures out the steps. Clicky surfaces this via a voice trigger ('clicky agent'), keeping it distinct from its tutoring mode."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "farzaa-clicky",
+      "url": "https://github.com/farzaa/clicky",
+      "summary": "Clicky is an open-source macOS application that embeds an AI assistant directly alongside the user's cursor, using screen capture and the accessibility API to observe whatever the user is working on. It supports voice interaction and a background agent mode for autonomous task execution. The project is written in Swift and requires accessibility, screen recording, and microphone permissions."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/farzaa/clicky",
+      "title": "GitHub — farzaa/clicky",
+      "note": "Confirms open-source status, Swift implementation, and macOS target"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZX9A31WoBEs",
+      "title": "Clicky — Open Source AI Teacher That Lives Next to Your Cursor",
+      "note": "Official demo video confirming core feature set"
+    },
+    {
+      "url": "https://www.heyclicky.com/",
+      "title": "clicky — an ai buddy that lives on your mac",
+      "note": "Official site confirming use cases, agent mode, macOS release, and Windows waitlist"
+    }
+  ],
+  "bookmark_id": "2041314633978659092",
+  "generated_at": "2026-05-06T19:36:30.309674Z",
+  "backend": "claude"
+}

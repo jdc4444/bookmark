@@ -1,0 +1,20 @@
+{
+  "key": "NANC",
+  "name": "Unusual Whales Subversive Democratic Trading ETF",
+  "exchange": "NYSE Arca",
+  "blurb": "NANC is an exchange-traded fund launched in February 2023 by Unusual Whales (a financial-data firm known for tracking options flow and congressional trading activity) in partnership with Subversive Capital. The fund replicates the disclosed stock trades of Democratic members of Congress and their spouses, weighted and rebalanced according to publicly filed Periodic Transaction Reports. Its ticker is an explicit reference to Nancy Pelosi, whose trading disclosures have attracted outsized public attention. A companion fund, GOP, tracks Republican members' trades.",
+  "recent": "As of early 2026, NANC holds approximately $258 million in assets under management and has returned roughly 74% since its February 2023 inception, outpacing both the S&P 500 and its GOP counterpart over the same period. The fund's portfolio is heavily weighted toward mega-cap technology names — Nvidia, Microsoft, and Alphabet feature prominently — reflecting the actual disclosed trades of Democratic members. A structural lag exists: the mandatory 30-to-45-day reporting window means the fund buys disclosed positions after the fact, preventing it from fully replicating the returns of the members it tracks. Expense ratio: 0.75%.",
+  "sources": [
+    {
+      "url": "https://247wallst.com/investing/2025/01/10/this-innovative-etf-lets-you-follow-democrat-politicians-trades-nanc-etf/",
+      "title": "The NANC ETF Explained — 24/7 Wall St."
+    },
+    {
+      "url": "https://unusualwhales.com/nancy-pelosi",
+      "title": "Nancy Pelosi Trading Activity — Unusual Whales"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

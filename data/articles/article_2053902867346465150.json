@@ -1,0 +1,199 @@
+{
+  "headline": "QQQ Call Skew Hits an All-Time High as AI Euphoria Peaks",
+  "lede": "Options pricing on the Nasdaq-100 ETF has reached a historically extreme configuration: call skew at its all-time highest percentile while put skew sits at its all-time lowest, simultaneously. The data, drawn from Nomura's volatility desk and attributed to cross-asset macro strategist Charlie McElligott, was shared by the fintwit account @JoeyGEX. It is not a forecast but a positioning map — the market is running maximum-conviction long into mega-cap technology and artificial intelligence, with near-zero downside hedge, at the arithmetically most expensive moment in the recorded data to hold that view.",
+  "body": "*Options skew* describes how **implied volatility** — the market's expectation of future price swings, priced into options contracts — varies across strike prices at a given expiry. In normal equity markets, put options trade at a volatility premium to equivalent calls, because institutions chronically seek downside protection. The standard gauge is the **25-delta risk reversal**: the implied volatility of the 25-delta put minus the implied volatility of the 25-delta call, both for the same expiry. A 25-delta option sits roughly 10–15% out of the money on a three-month tenor — meaningful tail territory, not the catastrophic-tail range. When Nomura Holdings' (8604.T) charts show index skew at the 0th percentile, put skew at the 0th percentile, and call skew at the 100th percentile simultaneously, they are capturing the opposite of the market's normal configuration: downside protection has never been cheaper, and upside participation has never been more expensive. The 81st-percentile *at-the-money volatility* reading confirms this is not the complacency of a low-vol drift — absolute premiums are elevated — but all the directional bet is channeled into calls, with nothing left to hedge the other side.\n\nCharlie McElligott, Nomura Holdings' managing director for cross-asset macro strategy, has spent a career translating options-dealer mechanics into macro narrative. His core concept is *dealer gamma exposure* (GEX): when dealers sell call options to clients, they must buy the underlying to *delta-hedge* the position; as the underlying rises, they must buy more to maintain that hedge, feeding the very rally that validates the original call buyers and draws in fresh demand. This reflexive loop is both a symptom and a partial cause of the extreme reading it documents — a 100th-percentile call skew is not simply a photograph of sentiment but itself a source of upward price pressure, at least while the loop remains intact.\n\nThe extreme arrived after a compressed, historically anomalous cycle. The April 2025 “Liberation Day” tariff shock sent the Nasdaq-100 down more than 10% in two sessions; the subsequent 90-day pause triggered the index's largest single-day gain since January 2001. A secondary correction in late March 2026 reversed in eleven trading sessions — the fastest oversold-to-overbought *RSI* reversal in the Nasdaq-100's 40-year history. Throughout, the AI infrastructure narrative remained intact: Apple (AAPL), Microsoft (MSFT), Alphabet (GOOGL), Amazon (AMZN), and Meta (META) committed more than $650 billion in aggregate AI capital expenditure, driving QQQ to record highs near $716 by mid-May 2026. Investors who missed either rally leg reached for out-of-the-money calls to catch up; those already long declined to hedge, confident the AI structural thesis justified an unprotected position.\n\nThe historical analogues are instructive if not precise. Cboe Global Markets (CBOE) data shows that retail call-buying into mega-cap technology names has reached its highest intensity since the 2021 meme-stock era — over 52% of retail opening activity in these stocks consisting of calls, at the 98th percentile of dispersion between index-implied volatility and single-stock implied volatility. The Nasdaq-100 peaked in November 2021 and fell roughly 33% into October 2022. The dot-com parallel is rougher but structurally legible: at the March 2000 peak, the seven largest Nasdaq-100 constituents held approximately 41% of index weight — essentially identical to the current combined weight of Apple (AAPL), Microsoft (MSFT), Nvidia (NVDA), Alphabet (GOOGL), Amazon (AMZN), Meta (META), and Tesla (TSLA) at approximately 41.7%. The Nasdaq-100 subsequently fell 78% over 30 months. SpotGamma, an options-analytics firm that has built its framework on McElligott's dealer-gamma concepts, noted that comparable call-skew extremes in Nvidia's options preceded stalling momentum in both November 2021 and June 2023.\n\nA 100th-percentile reading is not a calendar date. Marquette Associates' analysis found that average one-month returns following spikes in the Cboe SKEW Index to the 90th percentile remain modestly positive — the loop can persist as long as each new buyer validates the one before. The signal is better read as a measure of **fragility**: the more crowded the long-call position, the more abrupt the unwind when a catalyst — an earnings miss, a macro shock, or exhaustion of the marginal buyer — severs the dealer-hedging feedback. Broadcom (AVGO), a key AI-chip supply-chain name that tracks the broader “Mag7+” cluster, saw its options behavior mirror this dynamic through the period, illustrating how deeply concentration risk runs through the index. What McElligott's data captures is a structure, not a trigger: maximum conviction, zero hedge, at the most expensive moment in this data set's history to express that view.",
+  "tickers": [
+    "8604.T",
+    "AAPL",
+    "MSFT",
+    "GOOGL",
+    "AMZN",
+    "META",
+    "NVDA",
+    "TSLA",
+    "AVGO",
+    "CBOE"
+  ],
+  "companies": [
+    {
+      "name": "Nomura Holdings",
+      "ticker": "8604.T"
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA"
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO"
+    },
+    {
+      "name": "Cboe Global Markets",
+      "ticker": "CBOE"
+    },
+    {
+      "name": "SpotGamma",
+      "ticker": null
+    },
+    {
+      "name": "Marquette Associates",
+      "ticker": null
+    }
+  ],
+  "poster": "JoeyGEX",
+  "concepts": [
+    {
+      "key": "implied-volatility",
+      "term": "Implied Volatility (IV)",
+      "definition": "The market's forward-looking estimate of how much an asset's price will swing, extracted from the price of an options contract. Higher implied volatility means options are more expensive. Unlike historical volatility, which looks backward, IV reflects what buyers and sellers currently expect — and is therefore a direct measure of market fear or greed at a given moment."
+    },
+    {
+      "key": "options-skew",
+      "term": "Options Skew",
+      "definition": "The pattern by which implied volatility differs across strike prices for options at the same expiry. In most equity markets, out-of-the-money puts carry higher IV than equivalent calls — a negative skew reflecting institutional demand for crash insurance. When skew inverts — calls more expensive than puts — it signals unusual demand for upside speculation relative to downside protection."
+    },
+    {
+      "key": "25-delta-risk-reversal",
+      "term": "25-Delta Risk Reversal",
+      "definition": "A standard skew measure: the difference in implied volatility between a 25-delta put and a 25-delta call at the same expiry. A 25-delta option has roughly a 25% probability of finishing in the money, placing it approximately 10–15% out of the money for a 3-month tenor on a large index. When this measure is near zero or inverted (calls more expensive than puts), the market is pricing upside risk more heavily than downside."
+    },
+    {
+      "key": "at-the-money-volatility",
+      "term": "At-the-Money Volatility (ATM Vol)",
+      "definition": "The implied volatility of options struck at or near the current price of the underlying asset. ATM vol is the market's most direct reading of expected near-term move magnitude, without the directional bias embedded in skew. At the 81st historical percentile, ATM vol is elevated — large moves are expected — but the skew data shows that those moves are being bet on overwhelmingly in one direction."
+    },
+    {
+      "key": "dealer-gamma-exposure",
+      "term": "Dealer Gamma Exposure (GEX)",
+      "definition": "The aggregate of hedging obligations held by options market-makers (dealers) across all the contracts they have sold. When dealers carry net negative gamma — having sold more calls than they have bought — rising prices force them to buy the underlying to stay delta-neutral, amplifying the rally. Charlie McElligott of Nomura popularized this framework as a tool for explaining reflexive feedback loops in equity markets."
+    },
+    {
+      "key": "delta-hedging",
+      "term": "Delta-Hedging",
+      "definition": "The practice by which options dealers continuously buy or sell the underlying asset to offset the directional exposure (delta) of the options they have written. Because delta changes as the underlying price moves, this hedging must be adjusted dynamically — and the aggregate of all dealers adjusting simultaneously can itself move prices, creating feedback effects independent of fundamental news."
+    },
+    {
+      "key": "call-skew",
+      "term": "Call Skew",
+      "definition": "The implied volatility of the 25-delta call relative to at-the-money implied volatility. High call skew means out-of-the-money calls are expensive relative to ATM options — a sign that participants are paying a premium to speculate on large upside moves. At the 100th historical percentile, call skew has never been higher in Nomura's dataset."
+    },
+    {
+      "key": "put-skew",
+      "term": "Put Skew",
+      "definition": "The implied volatility of the 25-delta put relative to at-the-money implied volatility. Low put skew means downside protection is cheap relative to ATM options. At the 0th historical percentile, put skew has never been lower — meaning the market has essentially stopped paying for crash insurance on the Nasdaq-100."
+    },
+    {
+      "key": "mag7-plus",
+      "term": "Magnificent Seven (Mag7+)",
+      "definition": "The informal label for the seven largest U.S. technology mega-caps — Apple, Microsoft, Nvidia, Alphabet, Amazon, Meta, and Tesla — coined by Bank of America analyst Michael Hartnett in 2023. The “plus” suffix extends the group to include AI-infrastructure adjacents such as Broadcom, AMD, and Taiwan Semiconductor. Together the core seven represent approximately 41.7% of QQQ's index weight, meaning their price action dominates the ETF's implied volatility."
+    },
+    {
+      "key": "rsi",
+      "term": "RSI (Relative Strength Index)",
+      "definition": "A momentum oscillator that measures the speed and magnitude of recent price changes, producing a value between 0 and 100. Readings above 70 are conventionally overbought; below 30 is oversold. Technicians use it to gauge whether a move is extended relative to its own recent history. An RSI reversal from below 30 to above 70 in eleven sessions is, by historical comparison, extremely rapid."
+    },
+    {
+      "key": "liberation-day",
+      "term": "Liberation Day",
+      "definition": "The informal name for April 2, 2025, when President Trump announced sweeping reciprocal tariffs — a 10% global baseline and duties up to 50% on specific trading partners. The announcement triggered a sharp equity sell-off; a 90-day pause announced on April 9 triggered an immediate rebound, producing the largest single-day Nasdaq-100 gain since January 2001."
+    },
+    {
+      "key": "iv-historical-percentile",
+      "term": "IV Historical Percentile",
+      "definition": "A ranking of the current implied volatility or skew reading against all prior readings in the dataset, expressed as a percentile. A 100th-percentile reading means the current value exceeds every prior observation in the history; 0th percentile means it is lower than all prior observations. Used to contextualize whether current options pricing is historically cheap, normal, or expensive."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/nomura-hires-cross-asset-strategist-charlie-mcelligott-300589671.html",
+      "title": "Nomura Hires Charlie McElligott (PR Newswire)",
+      "note": "Confirms McElligott's role, RBC background, and Nomura hire date"
+    },
+    {
+      "url": "https://spotgamma.com/call-skew-max-bullishness/",
+      "title": "SpotGamma: Call Skew and Max Bullishness",
+      "note": "Explains call-skew mechanics and historical context for extreme readings, including NVDA 2021 and 2023 comparisons"
+    },
+    {
+      "url": "https://www.cboe.com/insights/posts/upside-chasing-in-tech-stocks-surges-to-covid-extremes",
+      "title": "Cboe Insights: Upside Chasing in Tech Stocks Surges to Covid Extremes",
+      "note": "Quantifies 2026 retail call-buying extremes and 98th-percentile dispersion reading"
+    },
+    {
+      "url": "https://marketchameleon.com/Learn/Skew",
+      "title": "Market Chameleon: Volatility Skew Explainer",
+      "note": "Options skew mechanics and put-call skew definitions"
+    },
+    {
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-cvol/introduction-to-cvol-skew.html",
+      "title": "CME Group: Introduction to CVOL Skew",
+      "note": "Authoritative CME definition of skew measures and risk reversal construction"
+    },
+    {
+      "url": "https://support.spotgamma.com/hc/en-us/articles/15249660292627-Skew",
+      "title": "SpotGamma Support: Understanding Skew",
+      "note": "Detailed skew reference including risk-reversal construction and dealer hedging implications"
+    },
+    {
+      "url": "https://www.marquetteassociates.com/turn-of-the-skew/",
+      "title": "Marquette Associates: The Turn of the SKEW",
+      "note": "Empirical analysis of forward equity returns following Cboe SKEW Index spikes to the 90th percentile"
+    },
+    {
+      "url": "https://www.benzinga.com/markets/equities/26/04/51843973/nasdaq-100-fastest-snapback-rally-history-rsi",
+      "title": "Benzinga: Nasdaq-100 Fastest Snapback Rally in History",
+      "note": "Source for the 11-session RSI reversal claim and 40-year historical comparison"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/07/should-you-buy-invesco-qqq-etf-nasdaq-record-high/",
+      "title": "Motley Fool: Should You Buy QQQ at Nasdaq Record High?",
+      "note": "QQQ price context and record-high levels in May 2026"
+    },
+    {
+      "url": "https://stockanalysis.com/etf/qqq/holdings/",
+      "title": "StockAnalysis: QQQ Holdings",
+      "note": "Current Mag7 component weights in QQQ, confirming approximately 41.7% combined weight"
+    },
+    {
+      "url": "https://spotgamma.com/tag/nomura/",
+      "title": "SpotGamma: Nomura Research Tag Archive",
+      "note": "Contextualizes McElligott's influence on the dealer-gamma analytical community"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/stocks-plunge-late-wednesday-liberation-day-tariff-announcement",
+      "title": "Nasdaq.com: Liberation Day Tariff Announcement",
+      "note": "Primary source on the April 2025 tariff shock and market context"
+    }
+  ],
+  "bookmark_id": "2053902867346465150",
+  "generated_at": "2026-05-14T11:07:27.155146Z",
+  "backend": "claude-sonnet-subagent"
+}

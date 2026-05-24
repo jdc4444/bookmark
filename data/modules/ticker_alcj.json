@@ -1,0 +1,32 @@
+{
+  "key": "ALCJ",
+  "name": "Crossject S.A.",
+  "exchange": "Euronext Paris (XPAR)",
+  "blurb": "Not enough public information — the provided sources are financial-data index pages (Yahoo Finance, MarketWatch, Morningstar, Barron's, MarketScreener) with no substantive company description in their scraped content.",
+  "recent": "As of May 14, 2026, ALCJ traded at approximately €1.91, down €0.01 (−0.42%) on the session per Morningstar. No earnings announcements, press releases, or other catalysts are discernible from the source excerpts provided.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ALCJ.PA/news/",
+      "title": "Crossject Société Anonyme (ALCJ.PA) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/alcj?countrycode=fr",
+      "title": "ALCJ Stock Price | Crossject S.A. — MarketWatch"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xpar/alcj/quote",
+      "title": "ALCJ Stock Price Quote — Morningstar"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/alcj?countrycode=fr",
+      "title": "ALCJ | Crossject S.A. Stock Overview — Barron's"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/CROSSJECT-15844218/",
+      "title": "Crossject Stock (ALCJ) — MarketScreener"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:30:24.555661Z",
+  "backend": "claude-sonnet-subagent"
+}

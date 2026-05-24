@@ -1,0 +1,32 @@
+{
+  "key": "VOW.DE",
+  "name": "Volkswagen AG",
+  "exchange": "XETRA",
+  "blurb": "Volkswagen AG is a German multinational automotive manufacturer headquartered in Wolfsburg, Germany. It designs, manufactures, and sells passenger and commercial vehicles, as well as related parts and services, under brands including Volkswagen, Audi, Porsche, Škoda, and SEAT. As one of the world's largest automakers, Volkswagen is a key player in the global automotive industry, with a significant market position in Europe, China, and the Americas.",
+  "recent": "In the past 30 days, Volkswagen's stock traded in a range of approximately €85 to €110, with a 52-week high of €110.20 reached in December 2025. Recent news includes Citi's analysis suggesting a defense pivot could revive the struggling company, and Volkswagen's push into driver-assist EVs without Nvidia. The stock has been volatile amid broader European market movements and ongoing industry challenges.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/VOW.DE/",
+      "title": "Volkswagen AG (VOW.DE) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/vow?countrycode=xe",
+      "title": "VOW Stock Price | Volkswagen AG Stock Quote (Germany: Xetra ) | MarketWatch"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/VOW-DE",
+      "title": "VOW-DE: Volkswagen AG - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.tipranks.com/stocks/de:vow",
+      "title": "VOW Stock | Volkswagen Price, Quote, News & Analysis - TipRanks.com"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/VOW:ETR",
+      "title": "Volkswagen AG (VOW) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T12:10:23.230284Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.stocktitan.net/sec-filings/POET/20-f-poet-technologies-inc-files-annual-report-foreign-issuer-eeda6513f179.html",
+    "https://www.poet-technologies.com/news/poet-technologies-and-sivers-semiconductors-collaborate-on-external-light-sources-for-co-packaged-optics-and-next-generation-ai-market"
+  ],
+  "key_finding": "POET's customer-and-partner map at the snapshot date is a pipeline rather than a revenue base. The FY25 20-F filing explicitly notes 'No major customers, partners, or design wins explicitly named' — POET is qualifying with customers but has not yet disclosed concrete commercial design wins of the kind a connectivity-silicon company at AAOI or ALAB scale carries. The most visible strategic partnership disclosure is the Sivers Semiconductors collaboration (September 2025) on external light sources for co-packaged optics, where POET's optical interposer and Sivers' DFB lasers are positioned as complementary upstream components for hyperscaler CPO supply chains. The Singapore-based POET silicon photonics fabrication base (POET Singapore Pte. Ltd.) sits adjacent to the broader Singapore semiconductor manufacturing cluster and provides geographic insulation from US-China trade friction.",
+  "product_pipeline": [
+    {
+      "name": "POET Optical Interposer",
+      "description": "Wafer-level photonic integration platform enabling multiple optical components (lasers, modulators, photodetectors, filters) to be assembled onto a single passive substrate with minimal optical loss. The platform technology supports 800G and 1.6T optical transceiver applications and is positioned for co-packaged optics (CPO) and external light source (ELS) module architectures.",
+      "framing": "This is the core IP and platform around which the entire POET investment thesis rotates."
+    },
+    {
+      "name": "800G Transceiver Modules",
+      "description": "Optical transceiver modules built on the Optical Interposer platform for hyperscaler datacenter interconnect.",
+      "status_at_snapshot": "Customer qualification stage; no disclosed volume design wins"
+    },
+    {
+      "name": "1.6T Transceiver Modules",
+      "description": "Higher line-rate transceiver modules targeting next-generation AI server interconnect.",
+      "status_at_snapshot": "Development stage"
+    },
+    {
+      "name": "External Light Sources (ELS) for CPO",
+      "description": "Modules combining lasers (e.g., Sivers DFB) with POET's interposer, designed to sit external to the GPU/switch package and feed light into co-packaged optical engines.",
+      "partnership": "Sivers Semiconductors collaboration announced September 2025"
+    }
+  ],
+  "named_strategic_partners": [
+    {
+      "name": "Sivers Semiconductors",
+      "type": "Strategic technology collaboration",
+      "announced": "2025-09",
+      "scope": "External light sources for co-packaged optics and next-generation AI market",
+      "framing": "Sivers' UK subsidiary Sivers Photonics designs custom high-power InP DFB lasers; combining those with POET's Optical Interposer creates an ELS module candidate for hyperscaler CPO supply chains. The collaboration is the most concrete disclosed partner relationship POET has at the snapshot date and pairs two pre-revenue platform companies aiming at the same emerging market."
+    }
+  ],
+  "supply_chain": {
+    "manufacturing_geography": "POET Singapore Pte. Ltd. operates the wafer-level photonic integration line in Singapore. Additional operations footprint includes China and Malaysia per the 20-F geopolitical risk disclosure.",
+    "process_dependencies": "Specifics not publicly disclosed at snapshot date. Optical interposer fabrication likely combines silicon photonics process flows with III-V device attach and packaging.",
+    "geopolitical_exposure": "20-F discloses geopolitical exposure in Asia operations (China, Singapore, Malaysia) as a risk factor."
+  },
+  "competitor_set_for_reference": [
+    {"name": "Intel Silicon Photonics", "framing": "Internal Intel silicon photonics organisation; competing approach at the integrated-platform layer"},
+    {"name": "Marvell (Inphi acquisition)", "framing": "PAM-DSP and coherent optics IP plus optical engine acquisitions"},
+    {"name": "Broadcom Tomahawk CPO", "framing": "Broadcom is actively shipping CPO-enabled switch ASICs (Tomahawk 5 CPO) — the most consequential demand-side validator AND the most consequential competitor for whoever supplies the optical-engine component"},
+    {"name": "Coherent (II-VI)", "framing": "Large vertically integrated photonics company with InP and silicon photonics components"},
+    {"name": "Lumentum", "framing": "Pluggable optics-component supplier; competing as the architectural alternative if pluggable wins versus CPO"},
+    {"name": "Ayar Labs", "framing": "Venture-backed CPO competitor with intra-chip optical I/O focus"},
+    {"name": "Lightmatter", "framing": "Photonic compute / interposer competitor; raised significant venture funding through 2024-2025"},
+    {"name": "Celestial AI", "framing": "Venture-backed photonic interconnect competitor"},
+    {"name": "AAOI (Applied Optoelectronics)", "framing": "AAOI's vertically-integrated transceiver business is the alternative POET must displace if CPO architecture wins — note this is the competitive flip side of being on the same supply chain for some hyperscalers"}
+  ],
+  "supplier_qualification_pattern": "POET's go-to-market is qualifying with hyperscaler-customer programs through OEM/ODM channels (Supermicro, Dell, HPE, Foxconn-FII) and direct hyperscaler engineering teams (Microsoft, AWS, Meta, Google). The qualification cycle for novel photonic-integration architectures is typically 18-36 months from engagement through volume — longer than the standard PCIe retimer or pluggable transceiver design-in cycle."
+}

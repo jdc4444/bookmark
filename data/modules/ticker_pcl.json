@@ -1,0 +1,15 @@
+{
+  "key": "PCL",
+  "name": "PCL Technologies, Inc.",
+  "exchange": "Taiwan Stock Exchange (4977.TW)",
+  "blurb": "PCL Technologies (TWSE: 4977), headquartered in Taipei and founded in 2007, researches, manufactures, and sells optical transceiver products including fiber-channel modules, TO-Can packages, and optical sub-assemblies for the data-center and telecommunications markets. Unlike the large vertically integrated players, PCL focuses on module-level integration rather than upstream chip fabrication, giving it flexibility to source components while competing on assembly cost and qualification speed.",
+  "recent": "PCL Technologies hit an all-time high of TWD 257 on April 23, 2026, reflecting a broader rally in Taiwan-listed optical transceiver names on AI data-center demand. Market capitalization stood near TWD 17 billion as of late April 2026, with an upcoming earnings release scheduled for May 19, 2026. Dividend yield for 2025 was approximately 1.58%, with a payout ratio near 50%.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/4977.TW/", "title": "PCL Technologies Inc (4977.TW) – Yahoo Finance"},
+    {"url": "https://www.investing.com/equities/f-pcl", "title": "PCL Technologies Inc – Investing.com"},
+    {"url": "https://www.tradingview.com/symbols/TWSE-4977/", "title": "PCL Technologies (TWSE:4977) – TradingView"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T08:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

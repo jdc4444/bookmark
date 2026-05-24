@@ -1,0 +1,24 @@
+{
+  "key": "DDOG",
+  "name": "Datadog, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Datadog is a cloud-based monitoring and analytics platform for developers, IT operations teams, and business users. It provides observability and security tools that help organizations understand and optimize their infrastructure and application performance. The company is a leader in the observability market, competing with firms like New Relic and Splunk.",
+  "recent": "Datadog shares have climbed ahead of its upcoming quarterly earnings report, with investors optimistic about the results. The company is expected to report earnings tomorrow, and analysts are watching for updates on revenue growth and customer adoption. The stock has seen positive momentum in the past month as the market anticipates strong performance.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/DDOG/",
+      "title": "Datadog, Inc. (DDOG) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.quiverquant.com/news/Datadog+shares+climb+as+investors+look+ahead+to+next+week%E2%80%99s+quarterly+results",
+      "title": "Datadog shares climb as investors look ahead to next week's quarterly results"
+    },
+    {
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-5-6-datadog-ddog-reports-earnings-tomorrow-what-to-expect",
+      "title": "Datadog (DDOG) Reports Earnings Tomorrow: What To Expect"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:46:20.448344Z",
+  "backend": "deepseek"
+}

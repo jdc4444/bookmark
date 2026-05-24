@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookmark Atlas</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-mark">X</div>
+          <div>
+            <h1>Bookmark Atlas</h1>
+            <p id="statusLine">Loading archive</p>
+          </div>
+        </div>
+        <nav class="app-tabs" aria-label="Views">
+          <button class="nav-tab active" type="button" data-view="libraryView">Bookmarks</button>
+          <button class="nav-tab" type="button" data-view="insightsView">Insights</button>
+          <button class="nav-tab" type="button" data-view="reportView">Report</button>
+          <button class="nav-tab" type="button" data-view="backendView">Backend</button>
+        </nav>
+      </header>
+
+      <main>
+        <section id="insightsView" class="screen">
+          <section class="hero-panel">
+            <div>
+              <p class="eyebrow">Per-bookmark Codex CLI analysis</p>
+              <h2 id="heroTitle">Loading bookmark analysis</h2>
+              <p id="heroSubtitle">The archive is local; each saved post can get its own Codex CLI read.</p>
+            </div>
+            <div class="hero-actions">
+              <button id="quickAnalyzeButton" class="button primary" type="button">Analyze Recent 5</button>
+              <button id="quickSafariButton" class="button" type="button">Safari Import</button>
+              <button id="quickRefreshButton" class="button" type="button">Refresh</button>
+            </div>
+          </section>
+
+          <section class="metric-strip" aria-label="Bookmark summary">
+            <div class="metric">
+              <span class="metric-label">Bookmarks</span>
+              <strong id="bookmarkCount">0</strong>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Authors</span>
+              <strong id="authorCount">0</strong>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Themes</span>
+              <strong id="themeCount">0</strong>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Linked saves</span>
+              <strong id="linkedCount">0</strong>
+            </div>
+          </section>
+
+          <section class="insight-grid">
+            <article class="panel span-12">
+              <div class="panel-heading">
+                <h2>Read</h2>
+                <span id="analysisMeta" class="muted"></span>
+              </div>
+              <div id="openaiAnalysis" class="analysis-copy empty-state">No OpenAI CLI analysis yet.</div>
+            </article>
+
+            <article class="panel span-7">
+              <div class="panel-heading">
+                <h2>Archive Theme Map</h2>
+                <span id="themeCaption" class="muted"></span>
+              </div>
+              <div id="themeBars" class="bar-list"></div>
+            </article>
+
+            <article class="panel span-5">
+              <div class="panel-heading">
+                <h2>Top Authors</h2>
+                <span id="authorCaption" class="muted"></span>
+              </div>
+              <div id="authorList" class="rank-list"></div>
+            </article>
+
+            <article class="panel span-6">
+              <div class="panel-heading">
+                <h2>Time Pattern</h2>
+                <span id="dateRange" class="muted"></span>
+              </div>
+              <div id="timeline" class="timeline"></div>
+            </article>
+
+            <article class="panel span-6">
+              <div class="panel-heading">
+                <h2>High-Signal Saves</h2>
+                <span id="scoreCaption" class="muted"></span>
+              </div>
+              <div id="highSignalList" class="bookmark-list compact"></div>
+            </article>
+          </section>
+        </section>
+
+        <section id="libraryView" class="screen active">
+          <section class="library-shell">
+            <aside class="filter-panel">
+              <div class="panel-heading">
+                <h2>Filters</h2>
+                <button id="clearFiltersButton" class="icon-button" type="button" title="Clear filters" aria-label="Clear filters">C</button>
+              </div>
+              <label>
+                <span>Search</span>
+                <input id="bookmarkSearch" type="search" placeholder="Search text or author">
+              </label>
+              <label>
+                <span>Theme</span>
+                <select id="categoryFilter" aria-label="Theme filter">
+                  <option value="">All themes</option>
+                </select>
+              </label>
+              <div class="filter-stat">
+                <span>Matched</span>
+                <strong id="matchedCount">0</strong>
+              </div>
+              <button id="quickAnalyzeBookmarksButton" class="button primary full-width" type="button">Analyze Recent 5</button>
+            </aside>
+            <section class="bookmark-workbench">
+              <section class="panel library-panel">
+                <div class="panel-heading">
+                  <h2>Bookmarks</h2>
+                  <span id="libraryCaption" class="muted"></span>
+                </div>
+                <div id="bookmarkRows" class="bookmark-list selectable"></div>
+              </section>
+              <aside class="panel bookmark-analysis-panel">
+                <div class="panel-heading">
+                  <h2>Analysis</h2>
+                  <span id="bookmarkAnalysisState" class="muted"></span>
+                </div>
+                <div id="selectedBookmarkDetail" class="selected-bookmark empty-state">Select a bookmark.</div>
+                <div id="bookmarkAnalysis" class="analysis-copy bookmark-analysis-copy empty-state">No per-bookmark analysis loaded.</div>
+              </aside>
+            </section>
+          </section>
+        </section>
+
+        <section id="reportView" class="screen">
+          <section class="panel">
+            <div class="panel-heading">
+              <h2>Markdown Report</h2>
+              <span id="fileLine" class="muted">No files yet.</span>
+            </div>
+            <div id="reportContent" class="markdown empty-state">No report yet.</div>
+          </section>
+        </section>
+
+        <section id="backendView" class="screen">
+          <section class="backend-layout">
+            <aside class="settings-panel">
+              <form id="settingsForm" autocomplete="off">
+                <div class="panel-heading">
+                  <h2>Backend</h2>
+                  <button id="refreshButton" class="icon-button" type="button" title="Refresh status" aria-label="Refresh status">R</button>
+                </div>
+
+                <label>
+                  <span>OpenAI model</span>
+                  <input id="openaiModel" name="openaiModel" type="text" spellcheck="false">
+                </label>
+
+                <div class="field-grid">
+                  <label>
+                    <span>Recent analysis count</span>
+                    <input id="perBookmarkLimit" name="perBookmarkLimit" type="number" min="1" max="25" step="1">
+                  </label>
+                  <label>
+                    <span>Replies per post</span>
+                    <input id="replyContextLimit" name="replyContextLimit" type="number" min="0" max="25" step="1">
+                  </label>
+                </div>
+                <div class="field-grid">
+                  <label>
+                    <span>Context scrolls</span>
+                    <input id="contextScrolls" name="contextScrolls" type="number" min="1" max="8" step="1">
+                  </label>
+                  <label>
+                    <span>Context pause</span>
+                    <input id="contextPause" name="contextPause" type="number" min="0.2" max="5" step="0.1">
+                  </label>
+                </div>
+                <div class="field-grid">
+                  <label>
+                    <span>Max bookmarks</span>
+                    <input id="openaiMaxBookmarks" name="openaiMaxBookmarks" type="number" min="1" step="100">
+                  </label>
+                  <label>
+                    <span>Chunk chars</span>
+                    <input id="openaiChunkChars" name="openaiChunkChars" type="number" min="12000" step="5000">
+                  </label>
+                </div>
+                <div class="field-grid">
+                  <label>
+                    <span>Bookmark analysis file</span>
+                    <input id="bookmarkAnalysesPath" name="bookmarkAnalysesPath" type="text" spellcheck="false">
+                  </label>
+                  <label>
+                    <span>Archive analysis file</span>
+                    <input id="openaiAnalysisPath" name="openaiAnalysisPath" type="text" spellcheck="false">
+                  </label>
+                </div>
+
+                <details>
+                  <summary>X API settings</summary>
+                  <label>
+                    <span>Client ID</span>
+                    <input id="clientId" name="clientId" type="password" spellcheck="false">
+                  </label>
+                  <label>
+                    <span>Client Secret</span>
+                    <input id="clientSecret" name="clientSecret" type="password" spellcheck="false">
+                  </label>
+                  <label>
+                    <span>Redirect URI</span>
+                    <input id="redirectUri" name="redirectUri" type="text" spellcheck="false">
+                  </label>
+                  <label>
+                    <span>Scopes</span>
+                    <input id="scopes" name="scopes" type="text" spellcheck="false">
+                  </label>
+                </details>
+
+                <details>
+                  <summary>Import and paths</summary>
+                  <div class="field-grid">
+                    <label>
+                      <span>Fetch limit</span>
+                      <input id="limit" name="limit" type="number" min="0" step="1">
+                    </label>
+                    <label>
+                      <span>Index rows</span>
+                      <input id="indexLimit" name="indexLimit" type="number" min="0" step="25">
+                    </label>
+                  </div>
+                  <div class="field-grid">
+                    <label>
+                      <span>Max scrolls</span>
+                      <input id="maxScrolls" name="maxScrolls" type="number" min="1" step="25">
+                    </label>
+                    <label>
+                      <span>Scroll pause</span>
+                      <input id="scrollPause" name="scrollPause" type="number" min="0.1" step="0.05">
+                    </label>
+                  </div>
+                  <label>
+                    <span>Token</span>
+                    <input id="tokenFile" name="tokenFile" type="text" spellcheck="false">
+                  </label>
+                  <label>
+                    <span>JSON</span>
+                    <input id="jsonPath" name="jsonPath" type="text" spellcheck="false">
+                  </label>
+                  <label>
+                    <span>CSV</span>
+                    <input id="csvPath" name="csvPath" type="text" spellcheck="false">
+                  </label>
+                  <label>
+                    <span>Report</span>
+                    <input id="reportPath" name="reportPath" type="text" spellcheck="false">
+                  </label>
+                </details>
+              </form>
+            </aside>
+
+            <section class="workspace">
+              <section class="backend-actions">
+                <button id="analyzeButton" class="button primary" type="button">Analyze Recent 5</button>
+                <button id="archiveAnalyzeButton" class="button" type="button">Analyze Archive</button>
+                <button id="safariButton" class="button" type="button">Safari Import</button>
+                <button id="reportButton" class="button" type="button">Rebuild Report</button>
+                <button id="authButton" class="button" type="button">Connect X API</button>
+                <button id="runButton" class="button" type="button">X API Fetch</button>
+              </section>
+
+              <section class="panel run-panel">
+                <div class="panel-heading">
+                  <h2>Run Log</h2>
+                  <div id="jobBadge" class="badge">Idle</div>
+                </div>
+                <pre id="jobLog" class="log-output">No active job.</pre>
+              </section>
+
+              <section class="panel file-panel">
+                <div class="panel-heading">
+                  <h2>System</h2>
+                  <span id="tokenState" class="badge">Checking</span>
+                </div>
+                <div id="fileDetails" class="file-list"></div>
+              </section>
+            </section>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "key": "NET",
+  "name": "Cloudflare, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Cloudflare operates a global cloud services platform that provides security, performance, and reliability solutions for businesses. Its offerings include content delivery network (CDN), DDoS mitigation, web application firewall, bot management, and API security. The company serves a wide range of clients from small businesses to large enterprises and is a leader in the edge computing and cybersecurity space.",
+  "recent": "Cloudflare's stock has seen significant gains over the past month, trading near its 52-week high. The company is set to report earnings on May 7, 2026, with analysts expecting continued revenue growth. Recent news highlights strong demand for its security and AI-related services.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/NET/news/",
+      "title": "Cloudflare, Inc. (NET) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/NET/news/",
+      "title": "NET News Today | Why did Cloudflare stock go up today? - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/net/",
+      "title": "Cloudflare (NET) Stock Price & Overview"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/NET/news",
+      "title": "Cloudflare, Inc. (NET) Latest Stock News | Seeking Alpha"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/NET",
+      "title": "NET Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:47:39.054858Z",
+  "backend": "deepseek"
+}

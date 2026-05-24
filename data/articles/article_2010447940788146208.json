@@ -1,0 +1,37 @@
+{
+  "headline": "Using Organic Signals to Cheaply Validate Paid Creative",
+  "lede": "Most app marketers spend money to learn what creative works. This approach inverts the order: use free organic posts to surface winners, then pay only to amplify them. The loop is old in principle but newly practical at the scale social platforms allow.",
+  "body": "The framework described is a stripped-down version of what performance-marketing teams call *creative testing at scale* — the systematic use of many short-lived content experiments to identify a small number of high-signal winners. The twist here is that the testing medium is organic social, not paid media. Posting *UGC* (user-generated content — short videos made to look like personal posts rather than advertisements) across multiple accounts costs only time, which makes failure cheap and iteration fast.\n\nThe choice of saves and comments as the primary signals is deliberate and reasonably well-grounded. Saves indicate that a viewer found the content worth returning to — a stronger signal of genuine interest than a passive view or even a like. Comments, particularly questions about a product, suggest purchase intent. Together they approximate the kind of engaged audience a paid campaign would want to reach, before any money changes hands.\n\nConverting the top 10% of organic posts into paid ads is sometimes called *whitelisting* or *dark posting* in agency parlance: running the same creative through paid channels while preserving its organic feel. The logic is that content which already earned attention without algorithmic support is more likely to perform when amplified. Killing underperformers quickly — the \"kill losers fast\" instruction — reflects the same logic that governs any portfolio approach: don't let sunk cost bias keep bad creative on life support.\n\nThe claim that \"no fancy dashboards\" are needed is the shaky edge of an otherwise sensible framework. At low volume, a spreadsheet suffices. As the number of accounts and posts grows, tracking performance across platforms without tooling becomes error-prone and time-consuming. The real point is probably that the decision rule is simple — saves and comments, top 10%, weekly cadence — not that the underlying data collection is trivial. Marketers scaling this approach will eventually need infrastructure, however minimal.",
+  "tickers": [],
+  "poster": "lottsnomad",
+  "concepts": [
+    {
+      "key": "ugc",
+      "term": "UGC (user-generated content)",
+      "definition": "Content produced to resemble an ordinary person's post rather than a branded advertisement. In performance marketing, brands either source it from real users or create it in-house to mimic that aesthetic. It tends to perform better on social feeds because it blends with organic content and carries an implicit social proof signal."
+    },
+    {
+      "key": "growth-loop",
+      "term": "growth loop",
+      "definition": "A self-reinforcing cycle in which one stage of a product or marketing process generates the inputs for the next stage. Unlike a simple funnel (one-directional), a loop compounds: each iteration ideally produces more output than the last. Here, weekly creative cycles feed learnings back into the next round of posts."
+    },
+    {
+      "key": "creative-testing",
+      "term": "creative testing",
+      "definition": "The systematic practice of running many ad or content variants simultaneously, measuring performance against defined signals, and concentrating spend or effort on the winners. It borrows from A/B testing but often involves far more variants and faster kill decisions than traditional split tests."
+    },
+    {
+      "key": "saves-as-signal",
+      "term": "saves as a leading indicator",
+      "definition": "On platforms like TikTok and Instagram, saving a post requires deliberate action and implies the user intends to return — a higher-intent signal than a view or like. Marketers increasingly treat saves as a proxy for purchase consideration, particularly for products that require some research before buying."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that \"no fancy dashboards\" are needed understates the operational complexity of tracking engagement signals across multiple posting accounts at meaningful volume. The framework is sound in its logic, but the manual-spreadsheet implication does not survive scaling past a handful of accounts without some tooling. Everything else in the post is directionally consistent with standard performance-creative methodology.",
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2010447940788146208",
+  "generated_at": "2026-05-06T20:20:04.749244Z",
+  "backend": "claude"
+}

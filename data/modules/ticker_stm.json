@@ -1,0 +1,17 @@
+{
+  "key": "stm",
+  "name": "STMicroelectronics N.V.",
+  "exchange": "NYSE / Euronext Paris",
+  "blurb": "STMicroelectronics is a global semiconductor group covering microcontrollers, sensors (MEMS), and — most relevant to the AI power-plumbing thesis — a broad power-semiconductor portfolio spanning SiC MOSFETs (STPOWER Gen 4), GaN devices, silicon IGBTs, and power-management ICs. ST is one of only a handful of vendors with an end-to-end 800 VDC power-conversion solution for AI data centres, offering complete reference designs from 800V bus-to-50V, 12V, and 6V conversion using its own SiC and GaN silicon. The company serves automotive, industrial, and, increasingly, hyperscale data-centre customers.",
+  "recent": "ST reported Q1 2026 revenue of $3.10 billion, up 23% year-over-year and above consensus of $3.04 billion, with Q2 2026 guidance of ~$3.45 billion. In March 2026 the company announced expanded 800 VDC power-conversion products (12V and 6V architectures) developed to the NVIDIA 800 VDC reference design and showcased at NVIDIA GTC 2026. In February 2026 ST disclosed a multi-year, multi-billion-dollar engagement with Amazon Web Services to supply semiconductors for AWS compute and AI data-centre infrastructure. Management projects data-centre revenue exceeding $500 million in 2026 and surpassing $1 billion in 2027.",
+  "sources": [
+    {"url": "https://www.powersemiconductorsweekly.com/2026/04/23/stmicroelectronics-reports-strong-q1-2026-growth-driven-by-ai-and-consumer-demand/", "title": "STMicroelectronics Q1 2026 Growth Driven by AI — Power Semiconductors Weekly"},
+    {"url": "https://www.globenewswire.com/news-release/2026/03/17/3256868/0/en/STMicroelectronics-expands-800-VDC-AI-datacenter-power-conversion-portfolio-with-new-12V-and-6V-architectures-in-collaboration-with-NVIDIA.html", "title": "ST Expands 800 VDC Portfolio with NVIDIA — GlobeNewswire"},
+    {"url": "https://newsroom.st.com/media-center/press-item.html/t4766.html", "title": "ST 800 VDC AI Datacenter Portfolio Expansion — ST Newsroom"},
+    {"url": "https://www.investing.com/news/company-news/stmicroelectronics-q1-2026-slides-revenue-surges-ai-bets-pay-off-93CH-4631450", "title": "STMicroelectronics Q1 2026: Revenue Surges, AI Bets Pay Off — Investing.com"},
+    {"url": "https://blog.st.com/800-v-hvdc-data-center/", "title": "800V HVDC for AI Data Centers — ST Blog"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

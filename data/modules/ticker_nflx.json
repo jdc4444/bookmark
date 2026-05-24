@@ -1,0 +1,20 @@
+{
+  "key": "NFLX",
+  "name": "Netflix, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Netflix is the world's largest subscription video-on-demand service, headquartered in Los Gatos, California, with over 300 million paid memberships globally as of early 2026. The company transformed from a DVD-rental-by-mail business into the dominant streaming platform by investing heavily in original content (films, series, live events) and expanding internationally. Recent growth drivers include a crackdown on password sharing that forced freeloading households onto paid plans, the launch of an advertising-supported tier that meaningfully expanded its addressable market, and tentative moves into live sports and gaming. Netflix does not operate large AI-compute infrastructure at the scale of cloud hyperscalers; its AI use is concentrated in content recommendation and advertising targeting.",
+  "recent": "Netflix peaked near $1,000–$1,050 per share in mid-2025 following strong subscriber growth and the success of its password-sharing enforcement globally. The stock had advanced more than 90% from its 2024 lows. Through early 2026, shares gave back roughly 30–39% from those highs as the market reassessed whether the password-sharing-driven growth surge was a one-time pull-forward and as broader mega-cap sentiment soured on AI-spending uncertainty. The company remains profitable and cash-generative, with annual revenue exceeding $40 billion.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/NFLX/",
+      "title": "Netflix (NFLX) Quote — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NFLX/forecast/",
+      "title": "Netflix Stock Forecast and Price Target 2026 — MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

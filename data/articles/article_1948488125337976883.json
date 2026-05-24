@@ -1,0 +1,48 @@
+{
+  "headline": "Numeric Style Codes Carry a Blueprint Aesthetic into AI Video",
+  "lede": "Midjourney, the AI image-generation service, lets users steer visual style through numeric codes appended to any prompt — a single number that reproduces a coherent aesthetic across entirely different subjects. The post demonstrates code 3743853584, which yields a meticulous technical-drawing style, applied here to *Midjourney Video V1*, the service's first video generation model. A Coca-Cola can rendered as an engineering schematic is the test subject; the style, not the brand, is the point.",
+  "body": "The **--sref** parameter (short for *style reference*) was introduced to solve a persistent frustration: users would see a compelling image but lack the vocabulary to describe its visual qualities to an AI. Instead of requiring that description, Midjourney lets you attach a reference — either an uploaded image or, in shorthand, a numeric seed. That seed encodes a position in Midjourney's style-vector space; with over 4.2 billion possible values, the codes function less like options in a menu and more like coordinates on a vast aesthetic map.\n\nThe code 3743853584 corresponds to what the poster calls a 'meticulous schematic aesthetic' — something between an engineering blueprint and a product cross-section diagram. Rendering a Coca-Cola can in this style produces precise line work and annotated geometry, the vocabulary of industrial illustration rather than photographic realism. The style travels intact to any subject; whether you prompt 'a cat' or 'a city skyline,' the underlying visual grammar stays constant.\n\nWhat distinguishes this post is the pairing with *Midjourney Video V1*. Applying a style reference code to video extends the consistency promise from a still frame to a sequence — the aesthetic persists across motion. Most discussion of sref codes has focused on still images; the transferability of a numeric style code into temporal media is an early proof-of-concept that the system's design is format-agnostic.\n\nCommunities have formed around cataloguing and trading these codes. At least one library claims over 4,800 v7 codes with new entries added weekly. The act of sharing a code rather than a prompt or a technique represents a compressed form of artistic knowledge transfer: unlike a verbal style description, which degrades in translation, a numeric code is exact. The limitation is opacity — you cannot inspect what a code encodes the way you might read a recipe.",
+  "tickers": [],
+  "poster": "Morph_VGart",
+  "concepts": [
+    {
+      "key": "sref-code",
+      "term": "sref code",
+      "definition": "A numeric parameter added to a Midjourney prompt (e.g. --sref 3743853584) that applies a consistent artistic style to any generated image or video. The number acts as a coordinate in Midjourney's style-vector space, allowing artists to share and reproduce a specific aesthetic without describing it in words. Over 4.2 billion possible codes exist."
+    },
+    {
+      "key": "midjourney-video-v1",
+      "term": "Midjourney Video V1",
+      "definition": "The first publicly available video generation model from Midjourney, allowing the platform's prompt-based tools — including style reference parameters — to be applied to animated sequences rather than single still frames."
+    },
+    {
+      "key": "schematic-aesthetic",
+      "term": "schematic aesthetic",
+      "definition": "A visual style drawn from engineering and technical illustration: precise line work, annotated geometry, cross-section diagrams, and blueprint-like composition. In AI-generated imagery, it refers to outputs resembling technical drawings or industrial schematics rather than photographs or painted art."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32180011136653-Style-Reference",
+      "title": "Style Reference – Midjourney",
+      "note": "Official documentation on the --sref parameter, V6/V7 compatibility, and how style references work."
+    },
+    {
+      "url": "https://srefcodes.com/",
+      "title": "Midjourney Sref Codes Library – v7 Style Codes",
+      "note": "Community library of 4,800+ v7 sref codes; source for code-volume figures and the distinction between numeric codes and image-based references."
+    },
+    {
+      "url": "https://promptsref.com/guide/How-to-Use-Style-Reference-and-Style-Reference-Codes",
+      "title": "How to Use Style Reference (--SREF) in Midjourney V7/V6.1/V6/niji 6",
+      "note": "Usage guide explaining the --sref workflow and the difference between image-based and code-based style references."
+    }
+  ],
+  "bookmark_id": "1948488125337976883",
+  "generated_at": "2026-05-06T20:40:02.937761Z",
+  "backend": "claude"
+}

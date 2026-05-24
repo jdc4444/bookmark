@@ -1,0 +1,48 @@
+{
+  "SOI": {
+    "symbol": "SOI.PA",
+    "currency": "EUR",
+    "name": "Soitec"
+  },
+  "SIVE": {
+    "symbol": "SIVE.ST",
+    "currency": "SEK",
+    "name": "Sivers Semiconductors",
+    "notes": "Stay native Stockholm; do not substitute OTC SIVEF."
+  },
+  "TOWA": {
+    "symbol": "6315.T",
+    "currency": "JPY",
+    "name": "TOWA"
+  },
+  "MSS": {
+    "symbol": "6830.TW",
+    "currency": "TWD",
+    "name": "Msscorps"
+  },
+  "MSSCORP": {
+    "symbol": "6830.TW",
+    "currency": "TWD",
+    "name": "Msscorps"
+  },
+  "MSSCORPS": {
+    "symbol": "6830.TW",
+    "currency": "TWD",
+    "name": "Msscorps"
+  },
+  "SAMSUNG": {
+    "symbol": "005930.KS",
+    "currency": "KRW",
+    "name": "Samsung Electronics"
+  },
+  "SK HYNIX": {
+    "symbol": "000660.KS",
+    "currency": "KRW",
+    "name": "SK Hynix"
+  },
+  "SKHYNIX": {
+    "symbol": "000660.KS",
+    "currency": "KRW",
+    "name": "SK Hynix"
+  }
+}

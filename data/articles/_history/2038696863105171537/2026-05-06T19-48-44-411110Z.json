@@ -1,0 +1,43 @@
+{
+  "headline": "A Hippo and 100 Million Particles Push GPU Fluid Simulation",
+  "lede": "A VFX artist has demonstrated a fluid simulation of a hippo submerged in water, rendered at 100 million particles — a scale that tests the ceiling of what GPU hardware can sustain in a single pass. The clip, produced with a commercial tool called HydroFX, treats foam, bubbles, and spray as one unified physical system rather than separately composited layers, which changes how secondary water behaviour interacts and reads on screen.",
+  "body": "Fluid simulation has long been one of the most computationally expensive tasks in visual-effects production. Traditional solvers run on the CPU and typically require overnight farm renders even for modest water shots. Offloading that work to the GPU compresses iteration time from hours to minutes, which alters what is creatively feasible: an artist can test a major change and see a plausible result the same afternoon.\n\nThe particle count matters because each of those 100 million points carries position, velocity, and secondary attributes — foam density, air entrainment, surface tension proxies — and multiplying those across the full count quickly saturates GPU memory. Keeping foam, bubbles, and spray inside **one simulation system** is technically harder than running them separately, but the reward is coherent inter-phase behaviour: foam can realistically suppress spray, bubbles can seed foam at the surface, and the whole result reads as water rather than water-plus-effects.\n\nThe pipeline here is a familiar hybrid that shows how specialist tools divide labour. HydroFX runs the particle simulation; *Houdini* — the industry-standard VFX environment built by SideFX — receives the particle cloud, converts it to a polygon mesh (the mathematical surface that renderers need), and handles additional sand interaction. *Blender*, an open-source 3D suite, then takes over for *lookdev* — look development, the stage where materials, lighting, and shading are defined before the final render pass.\n\n@gleb_alexandrov, a Blender educator and 3D artist with a substantial following in the CG community, described the result as 'generational' — a signal that this sits above the normal ceiling of what hobbyist or mid-tier pipelines typically achieve. HydroFX is a commercial product sold through storm-vfx.com; beyond what the tweet states, its technical specifications are not independently verifiable from available sources.",
+  "tickers": [],
+  "poster": "gleb_alexandrov",
+  "concepts": [
+    {
+      "key": "gpu-fluid-simulation",
+      "term": "GPU Fluid Simulation",
+      "definition": "Running physics calculations for water, smoke, or fire on a graphics card (GPU) rather than a central processor (CPU). GPUs excel at massively parallel arithmetic, which suits fluid solvers well; the trade-off is limited memory compared with CPU-based setups. The approach can cut simulation time from many hours to minutes."
+    },
+    {
+      "key": "particle-fluid-sim",
+      "term": "Particle-Based Fluid Simulation",
+      "definition": "A technique where a fluid is represented as millions of discrete points, each carrying physical attributes like velocity and density. Methods such as SPH (Smoothed Particle Hydrodynamics) or FLIP (Fluid-Implicit Particle) calculate forces between neighbouring particles to approximate fluid behaviour. The particles are later converted to a visible surface for rendering."
+    },
+    {
+      "key": "meshing",
+      "term": "Meshing (Particle to Surface)",
+      "definition": "The post-simulation step that converts a raw particle cloud into a continuous polygon mesh — the closed surface that a renderer can shade and illuminate. Without meshing, fluid simulations appear as a scatterplot of dots rather than a coherent liquid surface. Houdini is widely used for this step because of its flexible VDB-based toolset."
+    },
+    {
+      "key": "lookdev",
+      "term": "Look Development (Lookdev)",
+      "definition": "The production stage where materials, lighting, and shading are defined to give a 3D object its final visual character — colour, reflectivity, translucency, and so on. Lookdev happens after simulation and modelling are complete and directly precedes the final render. It is roughly analogous to a photographer setting up studio lighting and lens choices before shooting."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claims of 100 million particles and full GPU acceleration come directly from the artist's own post and cannot be independently verified from the available research sources, all of which returned inaccessible pages. The figures are technically plausible but should be treated as the creator's self-reported specifications rather than third-party-validated benchmarks.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/jeremywhitefx",
+      "title": "Original post by @jeremywhitefx (quoted in bookmark)",
+      "note": "Primary source: the artist's own description of the simulation pipeline and tooling used"
+    }
+  ],
+  "bookmark_id": "2038696863105171537",
+  "generated_at": "2026-05-06T19:48:44.411110Z",
+  "backend": "claude"
+}

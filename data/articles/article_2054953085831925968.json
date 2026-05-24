@@ -1,0 +1,136 @@
+{
+  "headline": "Record Index, Hollow Rally: The S&P 500's Breadth Problem",
+  "lede": "The S&P 500 closed at 7,508 on May 14, 2026 — a new all-time high, powered by a US-China tariff truce that had sent markets sharply higher for a second consecutive week. A Bloomberg market breadth dashboard shared that evening by finance commentator @EffMktHype told a different story: on the same session the index set records, more of its member stocks declined than advanced, new lows outnumbered new highs, and fewer than half traded above their own medium-term trend. The six-word caption — “lmao i give this a week” — was less a forecast than a diagnosis.",
+  "body": "The dashboard captures the tail end of a thirteen-month recovery from one of the sharpest peacetime selloffs in recent memory. President Trump’s April 2, 2025 *Liberation Day* tariff announcement — sweeping levies on virtually all US trading partners — knocked the S&P 500 more than 12% in seven trading sessions, briefly tipping it into bear market territory. The reversal was equally violent: a 90-day pause on most tariffs, declared on April 9, triggered a 9.5% single-session surge. By May 2026, a US-China breakthrough — American tariffs on Chinese goods slashed from 145% to 30%, and Chinese retaliatory tariffs trimmed from 125% to 10% — delivered the final thrust above 7,500.\n\nThe internals, however, were striking for all the wrong reasons. On a session when the **index** closed at an all-time high, more S&P 500 constituents declined than advanced: the advancers-minus-decliners reading printed at –151. Fewer than half the index’s members sat above their *50-day moving average* (46.2%), and barely a majority cleared their *200-day moving average* (54.8%). Most telling: new 52-week *lows* (9.36% of members) outnumbered new 52-week *highs* (7.37%) — a configuration that Goldman Sachs (GS) had separately flagged, just days earlier, as “one of the narrowest breadth readings in recent decades outside of the Dot-Com Bubble.” The bank estimated roughly 40% of S&P 500 earnings growth in 2026 accrues to approximately a dozen AI-adjacent companies — a concentration that explains how a headline index can set records while most of its members drift quietly sideways or lower.\n\nTwo additional gauges reinforced the picture. The S&P 500 Dispersion Index (DSPX), published by Cboe Global Markets (CBOE) and sitting at 41.28 near the top of its trailing-year range, measures not index-level volatility — that is *VIX*’s domain — but the expected spread of returns among individual constituents over the next 30 days. A high DSPX alongside a calm aggregate index is the signature of a market lifted by a narrow cohort while most stocks move idiosyncratically and, in this case, mostly downward. The Cboe *put/call ratio*, at 0.89, added a further note: more calls (bullish bets) than puts (hedges) were changing hands, meaning investors were leaning into the rally rather than protecting against a reversal.\n\n*Breadth divergences* of this character have appeared at several historical market peaks. The *advance-decline line* — a cumulative running sum of daily advancers minus decliners — deteriorated roughly six months before the 1987 crash and four months before the 2008 financial crisis deepened; a similar narrowing preceded the late-2021 peak, after which the S&P 500 fell 25% through October 2022. The obvious historical parallel, and the one Goldman Sachs explicitly invoked, is 1999–2000: the Nasdaq was carried by a handful of large-cap technology names while the median stock peaked far earlier, leaving the index with no broad floor when the leaders finally faltered. The main counterargument is 2023, when a similarly concentrated rally eventually broadened into wider participation rather than unwinding. *Market breadth* divergence is directionally meaningful as a warning signal; as a timing tool, it is notoriously imprecise. Whether the poster’s “one week” proves prescient or premature, the dashboard’s diagnosis of a structurally hollow rally is not seriously in dispute.",
+  "tickers": [
+    "GS",
+    "CBOE"
+  ],
+  "companies": [
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS"
+    },
+    {
+      "name": "Cboe Global Markets",
+      "ticker": "CBOE"
+    }
+  ],
+  "poster": "EffMktHype",
+  "concepts": [
+    {
+      "key": "market-breadth",
+      "term": "Market Breadth",
+      "definition": "A measure of how many individual stocks are participating in a market move, as opposed to the index-level headline number. When an index rises but most constituent stocks decline, breadth is described as narrow or negative, and treated as a sign the rally lacks durable underlying support."
+    },
+    {
+      "key": "200-day-moving-average",
+      "term": "200-Day Moving Average (200 DMA)",
+      "definition": "The average closing price of a security over the previous 200 trading sessions, roughly one calendar year. It is widely used as a long-term trend benchmark; the proportion of S&P 500 stocks trading above their own 200 DMAs is a standard gauge of how broadly a bull market is supported."
+    },
+    {
+      "key": "50-day-moving-average",
+      "term": "50-Day Moving Average (50 DMA)",
+      "definition": "The average closing price of a security over the previous 50 trading sessions, roughly one quarter. It serves as a medium-term trend indicator and is more responsive to recent price action than the 200 DMA. Analysts watch the percentage of index members above their 50 DMA as a near-term pulse on market participation."
+    },
+    {
+      "key": "advance-decline-line",
+      "term": "Advance-Decline Line (A-D Line)",
+      "definition": "A cumulative running total calculated by adding advancing stocks and subtracting declining stocks each session. When the A-D Line diverges from the price index — moving lower even as the index rises — it signals the advance is driven by a shrinking number of stocks, a pattern that has historically preceded significant market corrections."
+    },
+    {
+      "key": "breadth-divergence",
+      "term": "Breadth Divergence",
+      "definition": "The condition in which a market index sets new highs while the majority of its constituent stocks are moving in the opposite direction. It indicates the index is being driven by a narrow cohort of large-cap names rather than broad participation, and is historically associated with late-stage bull market conditions or distribution phases that can precede corrections."
+    },
+    {
+      "key": "dispersion-index",
+      "term": "Cboe S&P 500 Dispersion Index (DSPX)",
+      "definition": "A forward-looking index that measures the expected spread of returns among individual S&P 500 stocks over the next 30 days, using a methodology similar to VIX but applied to single-stock options. Unlike VIX, which tracks expected volatility of the index as a whole, DSPX rises when individual stocks are priced to diverge widely from one another — a common signature of concentrated, narrow markets driven by a handful of outsized names."
+    },
+    {
+      "key": "put-call-ratio",
+      "term": "Put/Call Ratio",
+      "definition": "The ratio of put option volume (contracts that profit if a security falls) to call option volume (contracts that profit if it rises), tracked across exchange-listed options. Used as a contrarian sentiment gauge: readings below 1.0 imply more calls than puts are being bought, signaling bullish positioning. Extremely low readings are often interpreted as complacency; high readings indicate fear-driven hedging."
+    },
+    {
+      "key": "vix",
+      "term": "VIX",
+      "definition": "The Cboe Volatility Index, informally called the market’s fear gauge. It derives the S&P 500’s expected 30-day price volatility from index option prices. A low VIX implies expected calm in the aggregate index; it does not capture how much individual stocks within the index are expected to diverge from one another, which is what DSPX measures."
+    },
+    {
+      "key": "liberation-day-tariffs",
+      "term": "Liberation Day Tariffs",
+      "definition": "Sweeping US import tariffs on virtually all trading partners, announced by President Trump on April 2, 2025. They triggered one of the sharpest peacetime selloffs in S&P 500 history — more than 12% over seven sessions — before a 90-day pause on most tariffs was announced on April 9, sparking a 9.5% single-day surge. The episode set the stage for the 2025–2026 market cycle captured in the dashboard."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2026/05/15/dow-sp500-record-trump-xi-trade-us-china-.html",
+      "title": "S&P 500 closes above 7,500 as Trump and Xi ease trade tensions",
+      "note": "Confirms the US-China tariff cuts on May 14–15, 2026 as the catalyst for the index’s new all-time high."
+    },
+    {
+      "url": "https://www.benzinga.com/markets/economic-data/26/05/52210245/sp-500-market-breadth-narrowest-since-dot-com-goldman-sachs-warns",
+      "title": "S&P 500 Breadth Narrowest Since Dot-Com, Goldman Sachs Warns",
+      "note": "Source for Goldman Sachs analyst Ben Snider’s warning and the dot-com-era comparison."
+    },
+    {
+      "url": "https://pro.thestreet.com/market-commentary/235-new-lows-vs-120-new-highs-is-the-real-story",
+      "title": "235 New Lows vs 120 New Highs Is the Real Story",
+      "note": "Contemporaneous data confirming new lows outnumbering new highs on a record-index session in mid-May 2026."
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-05-05/dot-com-bubble-flashbacks-triggered-by-lack-of-s-p-500-breadth",
+      "title": "Dot-Com Bubble Flashbacks Triggered by Lack of S&P 500 Breadth",
+      "note": "Bloomberg coverage from May 5, 2026 confirming breadth concerns were building before the May 14 chart."
+    },
+    {
+      "url": "https://realinvestmentadvice.com/resources/blog/breadth-is-lacking-is-the-rally-sustainable/",
+      "title": "Breadth Is Lacking — Is the Rally Sustainable?",
+      "note": "Technical analysis confirming sub-60% 200-DMA and sub-55% 50-DMA breadth readings contemporaneous with the chart."
+    },
+    {
+      "url": "https://www.investing.com/analysis/sp-500-narrow-rally-masks-weak-breadth-as-risks-build-beneath-200679255",
+      "title": "S&P 500 Narrow Rally Masks Weak Breadth as Risks Build Beneath",
+      "note": "Analysis of the RSI divergence pattern and its historical parallels at prior market tops."
+    },
+    {
+      "url": "https://www.cboe.com/us/indices/dispersion/",
+      "title": "Cboe S&P 500 Dispersion Index",
+      "note": "Official Cboe page defining DSPX methodology and what the index measures."
+    },
+    {
+      "url": "https://www.spglobal.com/spdji/en/education/article/faq-cboe-sp-500-dispersion-index/",
+      "title": "FAQ — Cboe S&P 500 Dispersion Index",
+      "note": "S&P Dow Jones Indices FAQ explaining DSPX construction and its relationship to implied correlation."
+    },
+    {
+      "url": "https://chartschool.stockcharts.com/table-of-contents/market-indicators/advance-decline-line",
+      "title": "Advance-Decline Line — StockCharts ChartSchool",
+      "note": "Reference for historical A-D line divergences preceding the 1987 crash and 2008 crisis."
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Liberation_Day_tariffs",
+      "title": "Liberation Day tariffs — Wikipedia",
+      "note": "Background on the April 2, 2025 tariff announcement and the subsequent market reaction."
+    },
+    {
+      "url": "https://articles.stockcharts.com/article/market-breadth-fears-are-everywhere-but-data-tells-a-more-nuanced-story/",
+      "title": "Market Breadth Fears Are Everywhere, But Data Tells a More Nuanced Story",
+      "note": "Counterargument citing small-cap outperformance as evidence the breadth concerns may be overstated."
+    },
+    {
+      "url": "https://www.investing.com/analysis/market-correction-risk-why-summer-2026-looks-risky-200679612",
+      "title": "Market Correction Risk — Why Summer 2026 Looks Risky",
+      "note": "Additional technical analysis of the concentration risk and RSI negative divergence pattern."
+    }
+  ],
+  "bookmark_id": "2054953085831925968",
+  "generated_at": "2026-05-15T08:19:04.617507Z",
+  "backend": "claude-sonnet-subagent"
+}

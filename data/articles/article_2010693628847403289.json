@@ -1,0 +1,53 @@
+{
+  "bookmark_id": "2010693628847403289",
+  "headline": "Prediction markets replay equity history, at double speed",
+  "lede": "Scott Stevenson, CEO of the legal-AI firm Spellbook, argues that today's prediction markets — Polymarket, Kalshi, and their on-chain cousins — are living through the same brief golden age that rewarded quick-fingered retail stock traders in the early 1990s, just before sophisticated capital arrived and the lights went out.",
+  "body": "The analogy has genuine texture. When NASDAQ introduced its Small Order Execution System (SOES) in the late 1980s — a mechanism originally designed to protect retail investors during the chaos of the 1987 crash — a roving band of day traders discovered they could exploit it to snatch profitable fills from slow-footed market makers who were still quoting prices by telephone. These so-called *SOES bandits* were briefly minting money, with median round-trip profits documented in academic research at roughly $63 per trade. The window lasted perhaps a decade before decimalization of share prices in 2001, the spread of electronic communication networks (ECNs), and eventually full-bore *high-frequency trading* (HFT) — the use of co-located computer servers to execute orders in microseconds — compressed the inefficiency to near zero. The retail traders did not evolve; the market did.\n\nPrediction markets now inhabit an eerily similar moment. Between April 2024 and April 2025, researchers estimate that arbitrageurs extracted roughly $40 million in near-riskless profits from Polymarket alone, exploiting pricing lags between the platform and underlying asset markets. One widely circulated case: a trading bot deposited $313 and accumulated approximately $437,600 in a single month by watching Bitcoin's spot price on Binance and Coinbase and betting on Polymarket outcomes that were already foregone conclusions before the platform's prices caught up. The structural similarity to early SOES exploitation is hard to miss — a new electronic venue, a lag in information flow, and nimble participants cleaning up at the expense of slower ones.\n\nThe sophisticated capital has, however, already noticed. An address linked in blockchain analysis to Jane Street — the quantitative trading firm that intermediates roughly a fifth of all U.S. equity-options flow — reportedly netted close to $360,000 on Polymarket's short-dated crypto price markets through high-frequency strategies. Intercontinental Exchange, the company that owns the New York Stock Exchange, announced in October 2025 a strategic investment in Polymarket valuing it at roughly $8 billion. Fourteen of the twenty most profitable wallets on Polymarket's public leaderboard are now bots; the median arbitrage window has shrunk from 12.3 seconds in 2024 to 2.7 seconds by early 2026, with 73 percent of arbitrage profits captured by sub-100-millisecond execution systems. These are not retail timescales.\n\nThe counterargument — and Stevenson's framing leaves room for it — is that prediction markets are not equity markets, and the analogy breaks down at the edges. Stock prices are continuous; binary outcome markets have a terminal resolution that no bot can delay. Domain expertise still matters enormously on longer-horizon questions: elections, central-bank decisions, geopolitical events. A well-read political analyst who caught the first-round polling anomaly before an election market shifted has an edge that no latency advantage can replicate. Only 0.51 percent of Polymarket wallets have ever recorded profits exceeding $1,000, which sounds grim until you notice that the same is true of most speculative markets at any point in their maturation — the losers have always outnumbered the winners; what changes is *who* the winners are.\n\nWhat history suggests, though, is that the transition from the retail-edge phase to the institutional-dominance phase tends to be faster than participants expect and more complete than they hope. The SOES bandits lasted roughly ten years; cryptocurrency's early arbitrage windows closed in under five; the prediction-market window, if the pace of institutional entry is any guide, may be measurable in quarters rather than years. The Kalshi-Polymarket duopoly recorded $8.6 billion in combined volume during April 2026 alone — a fourfold increase from 2024's annual pace — which is precisely the kind of scale that makes it worth a Jane Street's time to deploy serious infrastructure. Markets, as a rule, become efficient roughly as fast as it becomes profitable to make them so.",
+  "tickers": [],
+  "poster": "scottastevenson",
+  "concepts": [
+    {
+      "key": "high-frequency-trading",
+      "term": "High-Frequency Trading",
+      "definition": "Automated trading strategy using co-located servers and low-latency connections to execute orders in microseconds, exploiting tiny price discrepancies that exist for fractions of a second — invisible to any human trader."
+    },
+    {
+      "key": "market-microstructure",
+      "term": "Market Microstructure",
+      "definition": "The academic study of how trading rules, information flow, and the mechanics of order execution affect prices — essentially, the plumbing beneath a market's surface that determines who profits and who gets picked off."
+    },
+    {
+      "key": "soes-bandits",
+      "term": "SOES Bandits",
+      "definition": "Day traders in the late 1980s and 1990s who exploited NASDAQ's Small Order Execution System — a retail-protection mechanism — to electronically front-run slower, phone-bound market makers, earning short-lived but real profits before the market closed around them."
+    },
+    {
+      "key": "prediction-market",
+      "term": "Prediction Market",
+      "definition": "A financial market where participants trade contracts whose payoff depends on the outcome of a future event (an election, a Fed rate decision, a sports result). Prices aggregate crowd beliefs into a probability — 65 cents on a contract paying $1 if an event occurs implies a 65% market-implied probability."
+    },
+    {
+      "key": "arbitrage",
+      "term": "Arbitrage",
+      "definition": "The near-simultaneous purchase and sale of equivalent assets in different markets to profit from a price discrepancy — the textbook definition of 'riskless profit,' though in practice execution risk and fees mean it is rarely truly riskless."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The $40 million in Polymarket arbitrage profits (April 2024–April 2025) is sourced from blockchain analysis reported across multiple industry outlets. The Jane Street attribution is based on on-chain address labeling and has not been officially confirmed by Jane Street. The ICE investment valuation ($8 billion pre-money, up to $2 billion investment) is from ICE's official October 7, 2025 press release. SOES bandit profit figures ($63 median round-trip) are from Harris & Schultz (1998), a peer-reviewed Journal of Financial Economics study. The 2.7-second average arbitrage window and 73% bot-capture figure originate from industry analysis pieces and should be treated as estimates rather than audited data.",
+  "thread_summary": null,
+  "sources": [
+    "https://www.financemagnates.com/trending/prediction-markets-are-turning-into-a-bot-playground/",
+    "https://finance.yahoo.com/news/arbitrage-bots-dominate-polymarket-millions-100000888.html",
+    "https://ir.theice.com/press/news-details/2025/ICE-Announces-Strategic-Investment-in-Polymarket/default.aspx",
+    "https://www.sciencedirect.com/science/article/pii/S0304405X98000312",
+    "https://en.wikipedia.org/wiki/Small_Order_Execution_System",
+    "https://cryptonews.net/news/analytics/32808938/",
+    "https://www.theblock.co/post/383733/prediction-markets-kalshi-polymarket-duopoly-2025",
+    "https://www.quantvps.com/blog/polymarket-hft-traders-use-ai-arbitrage-mispricing",
+    "https://medium.com/illumination/beyond-simple-arbitrage-4-polymarket-strategies-bots-actually-profit-from-in-2026-ddacc92c5b4f",
+    "https://www.htx.com/news/polymarket-2025-in-depth-report-on-six-profit-models-startin-505NYdQo/"
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,105 @@
+{
+  "headline": "A Developer Built Claude Code From Anthropic's Leaked Source",
+  "lede": "A Munich software developer compiled Anthropic's proprietary CLI into a working Windows binary after the company accidentally published its full TypeScript source to npm in March 2026. The exuberant tweet — “IT WORKED” — marks the personal build succeeding, not any announcement from Anthropic.",
+  "body": "The tweet belongs to a cluster of activity that followed the most consequential accidental disclosure in **Anthropic**’s history. On March 30, 2026, the company published `@anthropic-ai/claude-code` v2.1.88 to *npm* — the JavaScript package registry — with a missing `.npmignore` entry for *source-map* files. The result was a 59.8 MB `cli.js.map` containing 1,884 TypeScript files, the full source of Claude Code, bundled into an otherwise routine update. Within hours the leak had propagated across mirrors, and before the week was out one repository had accumulated more than 41,500 forks before DMCA takedowns arrived.\n\nLeon Lin, a Munich-based developer publishing under @LexnLin, was among the first to act. The directory visible in his screenshot — `LeonxInx-claude-code` — is a local Windows build folder, not a published GitHub repository. His method, which he described in adjacent tweets, was to feed the leaked source to a coding LLM to patch any gaps, then compile using *Bun*’s `--compile` flag, which produces a self-contained native executable without requiring a separate runtime. The “API Usage Billing” note in the terminal footer indicates the binary authenticates against Anthropic’s servers via a raw API key rather than the standard *OAuth* flow used by paying Claude Max subscribers — a practical workaround for an unofficial build.\n\n“IT WORKED” refers to that binary launching and greeting him by name. Precision matters, though. This is not a *clean-room rewrite* — Lin did not reconstruct Claude Code’s logic independently. It is not an official open-source release — **Anthropic** has made no such announcement and the software remains proprietary, subject to active DMCA enforcement. It is a personal compilation of legally contested source code, packaged into a Windows executable using freely available tooling.\n\n“Opensource full claude code soon” is Lin’s own stated intention to publish his build scripts or the resulting binary — not a statement attributable to Anthropic. Whether such a release would survive DMCA scrutiny is an open question. The more durable community response to the leak has been *claw-code* (ultraworkers/claw-code), an independently written Rust reimplementation that makes no claim to the leaked source and had accumulated 190,000 GitHub stars by early May 2026.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    }
+  ],
+  "poster": "LexnLin",
+  "concepts": [
+    {
+      "key": "npm",
+      "term": "npm (Node Package Manager)",
+      "definition": "The default package registry for JavaScript and TypeScript software. Developers publish packages to npm so others can install them. Claude Code was distributed this way, which is how the source leak became globally accessible within minutes of upload."
+    },
+    {
+      "key": "source-map",
+      "term": "source map",
+      "definition": "A file (usually `.js.map`) that maps minified or compiled JavaScript back to the original source code, enabling readable debugging. Source maps are meant for development environments only. Shipping one in a production npm package accidentally exposed Claude Code’s full TypeScript source."
+    },
+    {
+      "key": "bun-compile",
+      "term": "Bun compile",
+      "definition": "A feature of Bun — a fast JavaScript runtime that Anthropic uses to build Claude Code — that bundles an entire TypeScript project into a single self-contained native binary. No separate runtime installation is required. This is what allowed Leon Lin to produce a working `claude-local.cmd` for Windows from the leaked source."
+    },
+    {
+      "key": "clean-room-rewrite",
+      "term": "clean-room rewrite",
+      "definition": "A software reimplementation created without access to the original proprietary source code, relying only on observed external behavior, documentation, and independent engineering. Courts generally regard clean-room rewrites as legally distinct from derivative works. The claw-code project claims this status; Leon Lin’s build does not."
+    },
+    {
+      "key": "dmca",
+      "term": "DMCA takedown",
+      "definition": "A legal notice under the U.S. Digital Millennium Copyright Act requiring a platform to remove allegedly infringing content. Anthropic sent DMCA notices to GitHub and npm to suppress mirrors of the leaked source, though the initial campaign mistakenly flagged thousands of unrelated repositories."
+    },
+    {
+      "key": "oauth",
+      "term": "OAuth",
+      "definition": "An open standard for authorization that lets users grant third-party applications access to their accounts without sharing passwords. Claude Code normally authenticates via an OAuth flow tied to a user’s Anthropic subscription. Using a raw API key — as Lin’s binary does — routes billing through pay-as-you-go metering instead."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "ultraworkers-claw-code",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "summary": "A Rust-language clean-room reimplementation of Claude Code’s CLI, written without reference to Anthropic’s leaked source. It reached 190,000 GitHub stars within weeks of the March 2026 npm leak, placing it among the fastest-growing repositories in GitHub history. It supports the same Anthropic API and MCP server protocols as the official tool but is independently licensed."
+    }
+  ],
+  "fact_check": "The phrase “opensource full claude code soon” is easily misread as a promise from Anthropic. It is not. Anthropic has made no announcement to open-source Claude Code; the software remains proprietary as of May 2026. Leon Lin is announcing his own intention to publish a build derived from the company’s accidentally leaked source — a legally distinct and contested act.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://dev.to/kolkov/we-reverse-engineered-12-versions-of-claude-code-then-it-leaked-its-own-source-code-pij",
+      "title": "We Reverse-Engineered 12 Versions of Claude Code. Then It Leaked Its Own Source Code",
+      "note": "Primary account of the reverse-engineering effort and the March 2026 npm leak by Andrey Kolkov"
+    },
+    {
+      "url": "https://github.com/Leonxlnx",
+      "title": "Leon Lin — GitHub profile",
+      "note": "Author’s public GitHub; confirms background in AI tools and Claude Code system-prompt reconstruction"
+    },
+    {
+      "url": "https://x.com/LexnLin/status/2039458989822419186",
+      "title": "@LexnLin tweet — how to rebuild Claude Code from leaked source",
+      "note": "Adjacent tweet where Lin instructs others to use GPT-5.4/Codex to rebuild from the leaked source"
+    },
+    {
+      "url": "https://x.com/LexnLin/status/2038946791320637926",
+      "title": "@LexnLin tweet — Claude Code system prompts repo",
+      "note": "Lin sharing his reconstructed-prompts repository on the day of the leak"
+    },
+    {
+      "url": "https://layer5.io/blog/engineering/the-claude-code-source-leak-512000-lines-a-missing-npmignore-and-the-fastest-growing-repo-in-github-history",
+      "title": "The Claude Code Source Leak: 512,000 Lines, a Missing .npmignore, and the Fastest-Growing Repo in GitHub History",
+      "note": "Comprehensive account of the leak mechanics, DMCA aftermath, and community response"
+    },
+    {
+      "url": "https://claudefa.st/blog/guide/mechanics/claude-code-source-leak",
+      "title": "Claude Code Source Leak — Mechanics and Feature Inventory",
+      "note": "Detailed inventory of what the leaked source exposed, including the KAIROS daemon and hidden feature flags"
+    },
+    {
+      "url": "https://github.com/ultraworkers/claw-code",
+      "title": "ultraworkers/claw-code — Rust clean-room reimplementation",
+      "note": "The 190k-star Rust rewrite; represents the legitimate open-source response to demand for an open Claude Code alternative"
+    },
+    {
+      "url": "https://github.com/winfunc/claude-code-single-binary",
+      "title": "winfunc/claude-code-single-binary — Bun compile build scripts",
+      "note": "Community project demonstrating the exact Bun --compile technique likely used by Lin to produce his Windows binary"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code/issues/20976",
+      "title": "GitHub issue #20976: Max plan displays as API Usage Billing",
+      "note": "Explains the billing display artifact visible in Lin’s terminal screenshot"
+    }
+  ],
+  "bookmark_id": "2038991257582604618",
+  "generated_at": "2026-05-07T09:10:29.158267Z",
+  "backend": "claude-sonnet-subagent"
+}

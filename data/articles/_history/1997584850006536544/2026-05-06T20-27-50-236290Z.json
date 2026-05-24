@@ -1,0 +1,64 @@
+{
+  "headline": "Splitting Robot Physics from Browser Rendering via WebSocket",
+  "lede": "A developer has built a proof-of-concept that runs **MuJoCo** physics simulation on a server while the browser handles only rendering, with a WebSocket stream carrying robot state between them. The demo features a Unitree G1 humanoid robot — a 29-degree-of-freedom biped — walking in synchronized views across both environments. The architecture is a deliberate inversion of the now-common approach of compiling physics engines to WebAssembly for fully in-browser execution.",
+  "body": "The three-layer stack works as follows. *MuJoCo*, the physics engine, runs on the server where it has unrestricted access to memory and compute. At each simulation step it emits the robot's joint positions, velocities, and contact forces. A WebSocket connection — a persistent, full-duplex channel that lets the server push data continuously without waiting for browser requests — carries that state to the client. *Three.js*, a JavaScript library that wraps WebGL for 3D rendering, receives the stream and updates the scene geometry accordingly. Physics and visuals never share a process.\n\nThe practical alternative is to compile MuJoCo to WebAssembly and run the whole loop inside the browser, which the open-source `mujoco_wasm` project (zalo/mujoco_wasm) already does. That approach has real appeal — no server required, trivially shareable via URL — but it comes with constraints. Browser WebAssembly address spaces are bounded, typically to a few gigabytes, which matters for complex multi-body scenes or batch simulation. Bundling the compiled physics binary also ties the client to a specific MuJoCo version; upgrading means recompiling and redeploying.\n\nThe server-side approach cleanly separates those concerns. Swapping MuJoCo for a different physics backend — *Bullet*, *Isaac Lab*, or a custom solver — requires no changes to the renderer. Scaling up the simulation (more robots, longer horizons, GPU-accelerated dynamics) is a server decision invisible to the browser. The renderer, in turn, can be swapped or skinned independently: replace Three.js with a native OpenGL client or a WebXR headset view without touching the physics layer.\n\nThe demo subject is the **Unitree G1**, a commercially available humanoid robot from the Chinese firm Unitree Robotics. The MuJoCo scene file shown in the screenshot is labeled `g1_29dof`, indicating the 29-degree-of-freedom configuration — 29 independently actuated joints spanning hips, knees, ankles, shoulders, elbows, and wrists. Simulating a system this mechanically complex tests both the fidelity of the physics and the latency budget of the stream.\n\nThe author notes the protocol is still rough — the proof-of-concept works but a clean, documented streaming standard remains ahead. That is the harder engineering problem: deciding what state to transmit (full joint arrays? compressed deltas?), how to handle network jitter, and whether to add interpolation on the client to smooth choppy frames. The architecture is sound; the plumbing is the work.",
+  "tickers": [],
+  "poster": "JerryHan_og",
+  "concepts": [
+    {
+      "key": "mujoco",
+      "term": "MuJoCo",
+      "definition": "MuJoCo (Multi-Joint dynamics with Contact) is a physics engine originally developed by roboticist Emo Todorov, acquired by DeepMind in 2021, and subsequently open-sourced. It is widely used in robotics research and reinforcement learning for its accurate contact and joint dynamics and its computational efficiency on articulated bodies."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "Three.js is a JavaScript library that provides a higher-level API over WebGL, the browser's low-level 3D graphics interface. It handles meshes, materials, lights, cameras, and animation loops, making browser-based 3D visualization accessible without writing raw shader code."
+    },
+    {
+      "key": "websocket",
+      "term": "WebSocket",
+      "definition": "WebSocket is a network protocol that upgrades an HTTP connection into a persistent, full-duplex channel over a single TCP socket. Unlike ordinary HTTP, where the client must ask and the server must respond, WebSocket lets the server push data to the browser continuously — suitable for streaming real-time simulation state."
+    },
+    {
+      "key": "degrees-of-freedom",
+      "term": "Degrees of Freedom (DOF)",
+      "definition": "In robotics, a degree of freedom is one independently actuated axis of motion — a hinge joint contributes one, a ball-and-socket joint contributes three. A robot with 29 DOF has 29 such axes, giving it fine-grained, human-like mobility across its limbs and torso."
+    },
+    {
+      "key": "webassembly",
+      "term": "WebAssembly (WASM)",
+      "definition": "WebAssembly is a binary instruction format that browsers can execute at near-native speed. It allows programs originally written in C or C++ — such as MuJoCo — to be compiled once and run inside a browser tab, without plugins or server round-trips."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "zalo-mujoco_wasm",
+      "url": "https://github.com/zalo/mujoco_wasm",
+      "summary": "mujoco_wasm compiles MuJoCo 2.3.1 to WebAssembly so physics simulation runs entirely inside a browser tab alongside Three.js for rendering. It is the in-browser counterpart to the server-side architecture the tweet describes — both pipelines use Three.js for visuals, but mujoco_wasm bundles physics with the client rather than streaming it from a server. The project is used for interactive robotics and reinforcement-learning demonstrations that need no server infrastructure."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/zalo/mujoco_wasm",
+      "title": "zalo/mujoco_wasm — GitHub",
+      "note": "Documents the in-browser MuJoCo + Three.js architecture that the tweet's server-side approach is an alternative to"
+    },
+    {
+      "url": "https://deepwiki.com/zalo/mujoco_wasm",
+      "title": "zalo/mujoco_wasm — DeepWiki",
+      "note": "Describes the layered physics/rendering/UI architecture of mujoco_wasm, useful for comparing client-side vs. server-side separation"
+    },
+    {
+      "url": "https://dev.to/googleai/building-a-gemini-powered-robotics-simulator-in-the-browser-with-mujoco-wasm-hjj",
+      "title": "Building a Gemini-Powered Robotics Simulator in the Browser with MuJoCo WASM — DEV Community",
+      "note": "Illustrates how MuJoCo WASM is used in practice for browser-based robot simulation, establishing the baseline the tweet's architecture diverges from"
+    }
+  ],
+  "bookmark_id": "1997584850006536544",
+  "generated_at": "2026-05-06T20:27:50.236290Z",
+  "backend": "claude"
+}

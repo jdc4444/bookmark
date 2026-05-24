@@ -1,0 +1,32 @@
+{
+  "key": "1211.HK",
+  "name": "BYD Company Limited",
+  "exchange": "Hong Kong Stock Exchange",
+  "blurb": "BYD Company Limited is a Shenzhen-based conglomerate founded in 1994 that operates across two primary segments: new energy vehicles (NEVs) and related products, and mobile handset components and assembly services. It is one of the world's largest manufacturers of electric and plug-in hybrid vehicles, selling across China, Europe, Southeast Asia, and other international markets. BYD also remains a major supplier of lithium-ion batteries to the consumer electronics industry, with a global workforce of approximately 869,600 employees and a Hong Kong-listed market capitalization near HKD 976 billion.",
+  "recent": "BYD reported earnings on April 28, 2026, posting trailing-twelve-month revenue of approximately HKD 891–902 billion and net income of HKD 30.98 billion (EPS: HKD 3.40), reflecting notable year-over-year pressure on margins. The stock has declined roughly 25.6% over the past year, trading at HKD 98.15 as of May 14, 2026 — well below its 52-week high of HKD 159.27 reached in May 2025 and hovering above the 52-week low of HKD 88.50 set in February 2026. Forward PE of approximately 19x suggests analysts expect earnings recovery, though near-term sentiment remains cautious amid global EV pricing competition.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/1211.HK/",
+      "title": "BYD Company Limited (1211.HK) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/1211.HK/",
+      "title": "BYD Co Ltd (1211.HK) Stock Price & Latest News — Reuters"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/hkg/1211/",
+      "title": "BYD Company (HKG:1211) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/1211.HK",
+      "title": "BYD Co Ltd 1211.HK Stock Price, Quote and News — CNBC"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/1211?countrycode=hk",
+      "title": "BYD Co. Ltd. Stock Quote (Hong Kong) — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:27:58.667534Z",
+  "backend": "claude-sonnet-subagent"
+}

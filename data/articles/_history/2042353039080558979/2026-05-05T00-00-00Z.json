@@ -1,0 +1,62 @@
+{
+  "bookmark_id": "2042353039080558979",
+  "headline": "The Floor That Almost Never Holds: MSFT Touches Its 200-Week Moving Average",
+  "lede": "For the first time in thirteen years, Microsoft's share price fell to — and briefly through — its 200-week moving average, a technical threshold so rarely tested that most investors had never had the chance to act on it. The moment was almost immediately followed by an 18 percent rally. Almost nobody bought.",
+  "body": "Charlie Munger, the late vice-chairman of Berkshire Hathaway and perhaps the most intellectually rigorous investor of the twentieth century, once offered a deceptively simple prescription: \"If all you ever did was buy high-quality stocks on the 200-week moving average, you would beat the S&P 500 by a large margin over time. The problem is, few human beings have that kind of discipline.\" The quote — origin uncertain, most likely from a late-career interview or shareholder gathering — circulates endlessly on financial social media, yet almost no one acts on it. In early 2026, Microsoft handed investors the precise setup Munger described. Almost to the week, almost nobody bought.\n\nThe 200-week moving average is exactly what it sounds like: the arithmetic mean of a stock's closing price across the preceding two hundred weeks, or roughly four years of trading history. On a long-compounding franchise like Microsoft, that number functions less as a technical line in the sand than as a proxy for the stock's long-run cost basis — the average price paid by investors who entered over the previous economic cycle. When a quality compounder falls to that level, it implies the market has, in aggregate, given back every gain earned over four years. Historically, those moments have been brief and violent. For Microsoft they have also been extraordinarily rare: prior sustained contacts with the 200-week average occurred around the financial crisis lows of 2009, the late-2018 growth scare, the COVID crash of March 2020, and the rate-shock selloff of late 2022. Each proved to be a generational entry point.\n\nThis cycle's episode began with Microsoft's all-time high of $555.45 on July 31, 2025. The decline that followed was not a typical tech rotation; it was a structural repricing. Investors grew uncomfortable with a transformation story that was consuming capital at an unprecedented rate — $190 billion in projected capital expenditure for calendar 2026, up from $64.5 billion in fiscal 2025 — as Microsoft pivoted from a capital-light software licensor into a hyperscale infrastructure provider competing directly with Amazon Web Services and Google Cloud. Free cash flow fell 22 percent year-over-year even as revenue grew 18 percent, a compression that unnerved growth investors accustomed to Microsoft's famously elastic operating model. By late March 2026, the stock had reached $356.07, a 36 percent drawdown from the July peak and the first weekly close below the 200-week moving average in more than thirteen years.\n\nThe tweet from @r6ride_87 captures the moment accurately, if incompletely. Microsoft at or near its 200-week moving average in early May 2026 — trading around $413, having bounced sharply from the March low — does constitute the event Munger described. But a critical distinction applies: the stock touched and then quickly reclaimed the moving average rather than grinding along it. Microsoft reported exceptional quarterly results on April 29, including 18 percent revenue growth, a 40 percent surge in Azure cloud services, and AI revenue at a $37 billion annualized run rate. The technical event, in other words, was real; the opportunity window was approximately three weeks long and required both the conviction to buy into a 36 percent decline and the stomach to hold through what looked, in late March, like an ongoing breakdown.\n\nThe backtesting case for the Munger strategy is anecdotal but suggestive. Apple tested its 200-week moving average five times in the 2000s and each instance preceded a sustained advance. Nvidia fell to the level in late 2022 — having lost two-thirds of its value — and subsequently became the most valuable company on earth. Microsoft itself bounced off the 200-week average in late 2022 and subsequently doubled. No formal, peer-reviewed backtest of this strategy exists in the public literature; the claim of large-margin outperformance remains an attributed aphorism rather than a documented study. The honest framing is that the 200-week average on a quality compounder tends to coincide with moments of broad market distress or sector-specific panic — conditions that historically reward patient buyers. Whether the discipline required is behavioral (holding through fear) or analytical (distinguishing temporary drawdowns from permanent impairment) is, in practice, the same discipline.\n\nThe fact-check on the tweet is favorable. Microsoft did trade in the vicinity of its 200-week moving average in early 2026. The 200-week moving average stood in the approximate range of $360–$380 at the time of the March low, and the stock's subsequent bounce to $413 means it is now modestly above that level — close enough that the tweet's framing is fair. The harder question, and the one Munger's quote quietly poses, is not whether the setup existed but whether anyone acted. Thirteen years of uninterrupted appreciation above the line had, in a very Munger sense, trained the very discipline out of the market.",
+  "tickers": ["MSFT"],
+  "poster": "r6ride_87",
+  "concepts": [
+    {
+      "key": "200-week-ma",
+      "term": "200-week moving average",
+      "definition": "The arithmetic mean of a stock's weekly closing prices over the prior 200 weeks (roughly four years), widely used as a proxy for a long-run cost-basis equilibrium and a threshold for gauging extreme multi-year drawdowns in quality compounders."
+    },
+    {
+      "key": "discipline-vs-process",
+      "term": "trading discipline",
+      "definition": "In the Munger sense, the psychological and analytical capacity to buy a high-quality business during a sharp multi-year drawdown — when fear is highest — and hold through continued volatility toward eventual recovery; distinct from mere rule-following, it requires distinguishing temporary impairment from permanent business deterioration."
+    },
+    {
+      "key": "capital-light-vs-hyperscaler",
+      "term": "hyperscaler capex transition",
+      "definition": "The structural shift Microsoft undertook from a capital-light software-licensing model (high free-cash-flow margins) to a capital-intensive cloud infrastructure provider, requiring tens of billions in annual data-center and AI chip spending, which compressed near-term free cash flow and drove the 2025–26 multiple re-rating."
+    },
+    {
+      "key": "quality-compounder",
+      "term": "quality compounder",
+      "definition": "A business characterized by durable competitive advantages, strong and recurring revenue, high returns on invested capital, and a track record of sustained earnings growth that tends to compound shareholder wealth over multi-year horizons, making temporary drawdowns potentially recoverable."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "VERIFIED WITH NUANCE. Microsoft did trade at and briefly below its 200-week moving average in late March / early April 2026 — the first such event in over 13 years. The March 28, 2026 intraday low was $356.07; the 200-week MA was estimated in the $360–$380 range at that time, meaning the stock did touch or slightly breach it. By early May 2026, MSFT had recovered to approximately $413, putting it modestly above the moving average. The tweet's framing ('MSFT at the weekly 200ma') is slightly imprecise for the early May date — the stock had already bounced 15–16% above the March low — but the underlying event was real and recent. The Munger quote is widely attributed but lacks a verified primary source citation; it circulates as an 'old Munger quote' with no confirmed interview, speech, or letter of origin.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.quiverquant.com/news/Microsoft+Stock+(MSFT)+Opinions+on+Breaching+200-Week+Moving+Average",
+      "title": "Microsoft Stock (MSFT) Opinions on Breaching 200-Week Moving Average | Quiver Quantitative"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/charlie-munger-strategy-buy-quality-140000015.html",
+      "title": "Charlie Munger Strategy: Buy Quality Stocks at 200-Week Moving Average | Yahoo Finance"
+    },
+    {
+      "url": "https://www.barchart.com/story/news/31126675/charlie-munger-strategy-buy-quality-stocks-at-200-week-moving-average",
+      "title": "Charlie Munger Strategy: Buy Quality Stocks at 200-Week Moving Average | Barchart"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/04/microsoft-buy-avoid-growth-stock-may/",
+      "title": "Microsoft Is a Mess. Is the Magnificent Seven Stock a Buy in May or Better Avoided? | Motley Fool"
+    },
+    {
+      "url": "https://www.threads.com/@barchartofficial/post/DVqKCGJD46d/microsoft-msft-hasnt-closed-below-its-week-moving-average-in-more-than-years",
+      "title": "Barchart on Threads: MSFT hasn't closed below 200-week MA in more than 12 years"
+    },
+    {
+      "url": "https://x.com/SJosephBurns/status/1832696475312091552",
+      "title": "Steve Burns on X: Charlie Munger 200-week MA quote"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

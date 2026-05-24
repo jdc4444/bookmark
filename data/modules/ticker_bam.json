@@ -1,0 +1,28 @@
+{
+  "key": "BAM",
+  "name": "Brookfield Asset Management Ltd.",
+  "exchange": "NYSE",
+  "blurb": "Brookfield Asset Management Ltd. is a leading global alternative asset manager with over $900 billion in assets under management. The company invests across real assets, including real estate, infrastructure, renewable power, private equity, and credit. It is known for its long-term, value-oriented investment approach and operates through a global network of offices.",
+  "recent": "In the past 30 days, BAM stock has shown moderate volatility amid broader market trends. The company reported strong quarterly earnings, driven by growth in its infrastructure and insurance solutions segments. Analysts remain positive on the stock, citing its diversified portfolio and consistent fee-related earnings.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BAM/",
+      "title": "Brookfield Asset Management Ltd. (BAM) Stock Price, News, Quote ..."
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BAM/",
+      "title": "Brookfield Asset Management (BAM) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.google.com/finance/quote/BAM:NYSE",
+      "title": "BROOKFIELD ASSET MANAGEMENT LTD (BAM) Stock Price & News - Google"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/BAM",
+      "title": "BAM Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T12:38:11.585333Z",
+  "backend": "deepseek"
+}

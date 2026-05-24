@@ -1,0 +1,28 @@
+{
+  "key": "WATT",
+  "name": "Energous Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Not enough public information — the provided research sources confirm Energous Corporation trades on NASDAQ under the ticker WATT but contain no readable business description.",
+  "recent": "Not enough public information — the provided research sources do not contain readable news, earnings data, or price-action summaries for the past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/WATT/",
+      "title": "Energous Corporation (WATT) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/WATT/news/",
+      "title": "WATT News Today | Why did Energous stock go up today? - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/WATT",
+      "title": "WATT Stock Price | Energous Corp. Stock Quote (U.S.: Nasdaq) - MarketWatch"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/WATT",
+      "title": "WATT Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:37:29.957737Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,173 @@
+{
+  "headline": "The Joints That Matter: Inside the Humanoid Supply Chain",
+  "lede": "Citrini Research's thematic primer on humanoid robotics starts from a single arresting figure: **actuators** — the motorized joints that give a robot its range of motion — account for 56 percent of the *bill of materials* cost for Tesla's Optimus, a claim widely attributed to Elon Musk. That figure, if accurate, concentrates the investment thesis. Rather than betting on which robot platform wins the coming hardware race, the more tractable question is who supplies the mechanical backbone that every humanoid builder must buy.",
+  "body": "A humanoid robot requires 28 or more structural actuators — each integrating a motor, a precision gearbox, and positional sensors — plus dozens more in each hand. Industrial servos cannot do the job: too heavy, too slow to recover from impact, and too inefficient at the duty cycles a walking gait demands. Current-generation robots like Tesla's (TSLA) Optimus solve this with *strain-wave gearboxes* (flexible metal deformation achieving near-zero backlash in a compact form) for rotary joints and *planetary roller screws* for linear ones. Harmonic Drive Systems (6324.T) holds roughly 85 percent of the global strain-wave reducer market and has guided for humanoid-specific revenue to at least double in the fiscal year ending March 2027, as builders across the industry place production orders.\n\nCompetitive pressure from Chinese manufacturers is already eroding that near-monopoly. Unitree, a private Chinese firm, now sells its G1 research robot for $16,000 — a 97 percent drop from the $500,000 industrial humanoids of three years ago — partly by substituting domestic reducers for Japanese equivalents at 40 to 60 percent of the price. Sanhua Intelligent Controls (002601.SZ) received a reported $685 million linear-actuator order from Tesla. Chinese suppliers are estimated to control roughly 70 percent of Tesla's Optimus supply chain by value. Nabtesco (6268.T), whose competing *RV reducer* technology dominates industrial robot arms, and Nidec (6594.T), a motor specialist with formalized humanoid product lines, are navigating similar price pressure.\n\nActual deployment remains modest. Agility Robotics, owned by Amazon (AMZN), has a handful of its Digit units doing paid logistics work at a Toyota (7203.T) plant in Canada under a *robot-as-a-service* model — the clearest instance yet of a humanoid earning commercial revenue. Figure AI's second-generation prototype helped assemble 30,000 BMW (BMW.DE) X3 vehicles at Spartanburg before being retired in favour of the newer generation. Tesla's Optimus, despite aggressive public targets, had no units performing meaningful production work through 2025; commercial deliveries are now guided for late summer 2026. Unitree shipped roughly 5,500 units last year, largely to research labs.\n\nCitrini's primer — representing around 1,000 hours of research across a five-person team, covering roughly 280 companies — is built on the *picks-and-shovels* logic: the actuator supply chain profits regardless of which robot platform wins. Goldman Sachs (GS) projects humanoid robots reaching $38 billion by 2035 in its base case; Morgan Stanley (MS) extends the model to $5 trillion by 2050, a figure spanning five decades that reflects theoretical scale rather than near-term visibility.",
+  "tickers": [
+    "TSLA",
+    "6324.T",
+    "002601.SZ",
+    "6268.T",
+    "6594.T",
+    "AMZN",
+    "7203.T",
+    "BMW.DE",
+    "GS",
+    "MS"
+  ],
+  "companies": [
+    {
+      "name": "Tesla",
+      "ticker": "TSLA"
+    },
+    {
+      "name": "Harmonic Drive Systems",
+      "ticker": "6324.T"
+    },
+    {
+      "name": "Sanhua Intelligent Controls",
+      "ticker": "002601.SZ"
+    },
+    {
+      "name": "Nabtesco",
+      "ticker": "6268.T"
+    },
+    {
+      "name": "Nidec",
+      "ticker": "6594.T"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Agility Robotics",
+      "ticker": null
+    },
+    {
+      "name": "Toyota Motor",
+      "ticker": "7203.T"
+    },
+    {
+      "name": "Figure AI",
+      "ticker": null
+    },
+    {
+      "name": "BMW",
+      "ticker": "BMW.DE"
+    },
+    {
+      "name": "Unitree Robotics",
+      "ticker": null
+    },
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS"
+    },
+    {
+      "name": "Morgan Stanley",
+      "ticker": "MS"
+    }
+  ],
+  "poster": "citrini",
+  "concepts": [
+    {
+      "key": "actuator",
+      "term": "Actuator",
+      "definition": "The electromechanical joint that converts electrical power into mechanical motion at each degree of freedom in a robot. A full-size humanoid typically requires 28 or more structural actuators, each combining a motor, gearbox, and sensors to close the control loop."
+    },
+    {
+      "key": "bill-of-materials",
+      "term": "Bill of Materials (BOM)",
+      "definition": "An itemised list of every component and its cost required to manufacture a product. In hardware development the BOM is the primary lens for identifying where cost reduction is possible and which suppliers carry pricing power."
+    },
+    {
+      "key": "strain-wave-gearbox",
+      "term": "Strain-Wave Gearbox",
+      "definition": "A precision gear reduction mechanism — sold commercially as a Harmonic Drive — that uses the controlled elastic deformation of a thin metal cup to achieve near-zero backlash and high torque density in a compact form. Widely used in robot rotary joints. Zero backlash means no lost motion when a joint reverses direction."
+    },
+    {
+      "key": "planetary-roller-screw",
+      "term": "Planetary Roller Screw",
+      "definition": "A linear-motion transmission that converts rotary motor output into linear displacement using threaded rollers arranged around a central screw. Compared with conventional ball screws, roller screws distribute loads across more contact points, survive higher shock loads, and tolerate the heel-strike forces in bipedal walking."
+    },
+    {
+      "key": "rv-reducer",
+      "term": "RV Reducer",
+      "definition": "Short for Rotate Vector reducer, a compact precision gearbox using an eccentric cam mechanism to achieve high gear ratios and torque density. The dominant technology in industrial robot arms; increasingly used in humanoid hip and knee joints."
+    },
+    {
+      "key": "picks-and-shovels",
+      "term": "Picks-and-Shovels Investing",
+      "definition": "An investment strategy that favours component suppliers and infrastructure providers over the primary product makers — on the theory that suppliers profit regardless of which end-product platform wins. The metaphor comes from the California Gold Rush, where merchants selling tools to miners often outperformed the miners themselves."
+    },
+    {
+      "key": "robot-as-a-service",
+      "term": "Robot-as-a-Service (RaaS)",
+      "definition": "A commercial model in which robots are leased rather than sold outright, with the provider responsible for operation and maintenance. It shifts capital expenditure from buyer to supplier, ties revenue to utilisation, and lowers the adoption barrier for enterprise customers."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The 56 percent actuator figure is widely attributed to Musk and Tesla but cannot be traced to a specific public statement — earnings call, tweet, or filing — as of May 2026. Every traceable citation leads back to secondary analysts, including Citrini Research itself. A separate Chinese teardown analysis assigns actuators roughly 35 percent of Optimus's bill of materials, with roller screws (18 percent) and precision reducers (15 percent) counted as separate line items; the higher 56 percent figure may aggregate these categories under a broader definition of 'actuator.' The claim is directionally plausible — actuators are the dominant cost category in humanoid hardware — but should be treated as unverified until a primary Tesla source is identified.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/citrini/status/2051071460794351999",
+      "title": "Citrini Research on X — original post",
+      "note": "The bookmark itself; primary framing for the brief"
+    },
+    {
+      "url": "https://www.citriniresearch.com/p/thematic-primer-humanoid-robots",
+      "title": "Citrini Research: Thematic Primer — Humanoid Robots",
+      "note": "The primer being linked; source of the 280-company universe and 1,000-hour research claim"
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/01/29/tesla-tsla-q4-2024-earnings-call-transcript/",
+      "title": "Tesla Q4 2024 Earnings Call Transcript — Motley Fool",
+      "note": "Checked for primary sourcing of the 56% actuator BOM claim; not confirmed in this transcript"
+    },
+    {
+      "url": "https://electrek.co/2026/01/28/musk-admits-no-optimus-robots-are-doing-useful-work-at-tesla-after-claiming-otherwise/",
+      "title": "Electrek: Musk Admits No Optimus Robots Are Doing Useful Work at Tesla",
+      "note": "Source for Optimus deployment status through 2025"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035",
+      "title": "Goldman Sachs: Global Robot Market Could Reach $38 Billion by 2035",
+      "note": "Source for base-case humanoid market size projection to 2035"
+    },
+    {
+      "url": "https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050",
+      "title": "Morgan Stanley: Humanoid Robot Market $5 Trillion by 2050",
+      "note": "Source for long-term TAM projection"
+    },
+    {
+      "url": "https://eu.36kr.com/en/p/3780414717129481",
+      "title": "36Kr: Chinese Humanoid Robot Supply Chain Analysis",
+      "note": "Source for Chinese supplier dominance and alternative BOM breakdown placing actuators at 35%"
+    },
+    {
+      "url": "https://www.dividendjapan.com/p/humanoids-growth-market-japan-stocks",
+      "title": "Dividend Japan: Humanoid Growth Market — Japan Stocks",
+      "note": "Source for Harmonic Drive revenue guidance and ~85% global market share"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/this-japanese-stock-is-surging-on-positive-outlook-for-humanoid-robot-orders-4367329",
+      "title": "Investing.com: Japanese Stock Surges on Humanoid Robot Orders",
+      "note": "Corroborating source for Harmonic Drive humanoid order momentum"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/humanoid-robot-actuator-market-reach-122200605.html",
+      "title": "Yahoo Finance: Humanoid Robot Actuator Market Size Forecast",
+      "note": "Market size and CAGR projections for the actuator sub-market"
+    },
+    {
+      "url": "https://www.firgelli.com/pages/humanoid-robot-actuators",
+      "title": "Firgelli: Humanoid Robot Actuators Engineering Guide",
+      "note": "Technical background on actuator types, performance requirements, and trade-offs"
+    }
+  ],
+  "bookmark_id": "2051071460794351999",
+  "generated_at": "2026-05-07T07:31:30.386303Z",
+  "backend": "claude-sonnet-subagent"
+}

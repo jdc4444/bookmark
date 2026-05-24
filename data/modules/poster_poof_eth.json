@@ -1,0 +1,13 @@
+{
+  "key": "poof_eth",
+  "display_name": "@poof_eth",
+  "blurb": "Crypto-adjacent anonymous account on X known for long-form satirical fiction about finance and trading culture. Posts tend toward absurdist vignettes—imagined interviews at prop trading firms, surreal takes on quant recruiting, and deadpan dissections of financial industry mythology. Writing style combines close familiarity with actual quant-finance mechanics (ETF arbitrage, market-making game theory, execution strategies) with deliberately unhinged narrative framing. Follower base skews toward finance Twitter, crypto Twitter, and readers who find the Wall Street-to-Discord pipeline both baffling and hilarious.",
+  "credibility_note": "Satire account — content is intended as fiction and humor rather than factual reporting or investment commentary. The underlying structural observations about prop trading firms are often accurate; the scenarios themselves are invented. No verified real-world identity.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/poof_eth"}
+  ],
+  "sources": [],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,15 @@
+{
+  "key": "TE",
+  "name": "TE Connectivity plc",
+  "exchange": "NYSE",
+  "blurb": "TE Connectivity is one of the world's largest manufacturers of electrical connectors, sensors, and related components, serving transportation, industrial, energy, and data-communications markets. Often invisible to the end consumer, its products appear wherever electricity or data must cross a physical boundary reliably — from the high-voltage harness inside an electric vehicle to the subsea cable splice deep on the ocean floor.",
+  "recent": "In February 2025 TE announced the acquisition of Richards Manufacturing, a maker of overhead and underground electrical distribution hardware, for approximately $2.3 billion — signalling an expansion into grid infrastructure beyond its traditional connector product lines. The company has also been investing in 800V and 1000V EV connector architectures, where content-per-vehicle is estimated to run roughly 30% above internal-combustion equivalents. A presence at DISTRIBUTECH 2026 underscores its grid-modernisation push.",
+  "sources": [
+    {"title": "TE Connectivity acquires EV charging inlet business from Phoenix Contact", "url": "https://evchargingstations.com/chargingnews/te-connectivity-charging-inlet/"},
+    {"title": "TE Connectivity Wikipedia", "url": "https://en.wikipedia.org/wiki/TE_Connectivity"},
+    {"title": "TE DISTRIBUTECH 2026", "url": "https://www.te.com/en/about-te/events/distributech-2026.html"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

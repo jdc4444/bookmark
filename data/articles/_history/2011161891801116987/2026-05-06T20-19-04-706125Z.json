@@ -1,0 +1,48 @@
+{
+  "headline": "An Old Antihistamine as the Bluntest Cure for Compulsive Scrolling",
+  "lede": "Most remedies for doomscrolling are behavioral: timers, app blockers, friction installed between thumb and feed. Palmer Prescott proposes something stranger — a prescription antihistamine that happens to muffle serotonin, leaving the urge to scroll oddly quiet. The claim is anecdotal, but the pharmacological angle it opens is one behavioral tools rarely bother to ask.",
+  "body": "Cyproheptadine is a first-generation *antihistamine* that, unlike newer allergy drugs, also antagonises serotonin receptors — specifically the *5-HT2* family, which is involved in mood, appetite, and impulsive behavior. Doctors prescribe it mostly for allergies, appetite stimulation, and occasionally as a hedge against *serotonin syndrome* in patients on heavy serotonergic regimens. It is sedating and cheap; the image in the post shows a small dropper bottle, consistent with the compounded liquid forms used when precise low doses are wanted.\n\nPrescott's implicit theory is that serotonin underlies the reward-seeking loop of compulsive scrolling. Block the receptors, and the pull weakens. The observation echoes a broader category of self-experimenter reports — people who find that cyproheptadine blunts not just itching but restlessness, rumination, and the semi-conscious reach for a phone.\n\nThe framing deserves one flag: **dopamine**, not serotonin, is the neurotransmitter most prominently linked to compulsive reward-seeking and the variable-ratio reinforcement that makes social feeds hard to leave. Serotonin does modulate impulse control and satiety, and 5-HT2C antagonism in particular has been studied in relation to compulsive behavior — so the claim is not simply wrong, but it is compressed. Saying doomscrolling is \"driven by serotonin\" glosses over a more tangled interaction between the two systems.\n\nWhat makes the post interesting is the contrast it implies with the standard toolkit. The research on anti-doomscrolling apps — blockers, friction tools, replacement habit builders — treats the problem as one of environment and cue management. Prescott's approach treats it as a receptor-level itch. Neither framing excludes the other, but the pharmacological one is almost entirely absent from mainstream conversation about screen time.",
+  "tickers": [],
+  "poster": "_palmerprescott",
+  "concepts": [
+    {
+      "key": "serotonin-antagonist",
+      "term": "serotonin antagonist",
+      "definition": "A compound that binds to serotonin receptors without activating them, blocking the effect of serotonin at those sites. Cyproheptadine targets the 5-HT2 subfamily, which is involved in mood, impulsivity, and appetite regulation. Antagonising these receptors is distinct from reducing serotonin levels — the signal is blocked at the lock, not removed at the source."
+    },
+    {
+      "key": "5-ht2-receptors",
+      "term": "5-HT2 receptors",
+      "definition": "A family of serotonin receptors found throughout the brain and gut. The 5-HT2A subtype is associated with perception and cognition; 5-HT2C with appetite and impulsive behavior. Many psychiatric drugs — and several recreational substances — act partly by modulating these receptors."
+    },
+    {
+      "key": "doomscrolling",
+      "term": "doomscrolling",
+      "definition": "The compulsive habit of scrolling through negative or emotionally activating social-media content well past the point of interest or wellbeing. The behavior is reinforced by variable-ratio reward schedules — the same mechanism behind slot machines — making it self-sustaining even when the content is unpleasant."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet's core claim — that doomscrolling is driven by serotonin — is an oversimplification. The neuroscience literature more consistently implicates dopamine in compulsive, reward-seeking scroll behavior (variable-ratio reinforcement, novelty-seeking). Serotonin does modulate impulse control and satiety, and 5-HT2C antagonism has genuine relevance to compulsive behavior research, so the claim is not baseless; it is, however, compressed in a way that could mislead. The personal observation that cyproheptadine reduced scrolling urges remains anecdotal.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://makeheadway.com/blog/apps-to-stop-doomscrolling/",
+      "title": "12 Best Apps to Stop Doomscrolling Today",
+      "note": "Provides context on the behavioral/app-based anti-doomscrolling ecosystem that Prescott's pharmacological approach implicitly contrasts with; does not address cyproheptadine."
+    },
+    {
+      "url": "https://tech.co/news/best-anti-doomscrolling-apps-mental-health",
+      "title": "6 Best Anti-Doomscrolling Apps to Save Your Mental Health",
+      "note": "Background on prevalence of doomscrolling (31% of US adults) and the standard intervention landscape; does not address pharmacological approaches."
+    },
+    {
+      "url": "https://geekvibesnation.com/12-best-apps-to-replace-doomscrolling-with-self-improvement-in-2025/",
+      "title": "12 Best Apps To Replace Doomscrolling With Self-Improvement In 2025",
+      "note": "Cites Pew Research and McKinsey data on social media use and mood; confirms behavioral tools dominate the space."
+    }
+  ],
+  "bookmark_id": "2011161891801116987",
+  "generated_at": "2026-05-06T20:19:04.706125Z",
+  "backend": "claude"
+}

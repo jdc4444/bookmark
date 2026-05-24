@@ -1,0 +1,32 @@
+{
+  "key": "BMW.DE",
+  "name": "Bayerische Motoren Werke Aktiengesellschaft",
+  "exchange": "XETRA",
+  "blurb": "Bayerische Motoren Werke AG (BMW) is a German multinational manufacturer of luxury vehicles and motorcycles. The company operates through automotive, motorcycles, and financial services segments, with a strong global market position in the premium automotive sector. BMW is known for its focus on innovation, including electric mobility and digitalization.",
+  "recent": "In the past 30 days, BMW reported first-quarter earnings showing cost discipline mitigating margin headwinds and a recovery in cash flow. The stock has seen modest gains, trading around €82.80 as of May 7, 2026, with investors monitoring the transition to electric vehicles and supply chain developments.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BMW.DE/",
+      "title": "Bayerische Motoren Werke Aktiengesellschaft (BMW.DE) Stock Price, News ..."
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/BMW?countrycode=xe",
+      "title": "BMW Stock Price | Bayerische Motoren Werke AG Stock Quote (Germany ..."
+    },
+    {
+      "url": "https://www.bmwgroup.com/en/investor-relations.html",
+      "title": "BMW Group Investor Relations - Reports, share prices & dividends"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/BMWG.DE/",
+      "title": "(BMWG.DE) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/XETR/BMW/quote",
+      "title": "BMW Stock Price Quote | Morningstar"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:32:55.485712Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "company": {"name": "Nebius Group N.V.", "ticker": "NBIS", "exchange": "NASDAQ", "slug": "nbis"},
+  "report_title": "Nebius Group — what was Yandex N.V., reborn as an AI infrastructure company",
+  "report_subtitle": "Arkady Volozh's post-Yandex relisting on NASDAQ, $3.7B of cash, 547% Q4 revenue growth, and a 2026 target of $7-9B ARR — how a corporate reorganisation became one of the most aggressive AI-cloud expansion stories of the cycle",
+  "voice_and_style": "Financial-Times / Bloomberg long-form. Primary sources only (SEC EDGAR 20-F + 6-K filings, IR press releases on group.nebius.com / nebius.com, primary industry coverage at The Information, Lightreading, Data Center Dynamics, Semi Engineering). Past-tense narrative voice. Quote management from earnings releases or investor letters verbatim. Do not extrapolate beyond the snapshot date 2026-05-23. Treat Nebius as a corporate-restructuring + AI-infrastructure-capacity-ramp story explicitly; the equity contains both a balance-sheet reconstitution narrative AND an operating-capacity-build narrative. The reader is a sophisticated investor who already knows what an AI GPU cloud is. No Aleabit / Substack / X commentary as primary source; bounded to ≤200 word subsection in news_catalysts only.",
+  "target_total_word_count": 18000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {"slug": "snapshot", "title": "Snapshot", "order": 1, "target_words": 750,
+     "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Open with the most arresting fact: Nebius's Q4 2025 core AI cloud segment grew 802% year-over-year, total Q4 revenue $227.7M (+547% YoY), and exit-2025 ARR is $1.25B with management guiding $7-9B ARR by end-2026 (more than half already contracted).",
+       "State the ticker (NBIS, NASDAQ), Netherlands corporate domicile, foreign-private-issuer 20-F filing basis, founder/CEO Arkady Volozh (Yandex CEO 2000-2022, returned 2024).",
+       "Two-sentence framing: Nebius Group is the Netherlands-domiciled successor to Yandex N.V., reborn through a 2024 corporate restructuring that separated the Russian operating business and refocused the surviving listed parent on AI infrastructure. Core AI cloud business plus three smaller branded subsidiaries (Toloka AI human-data labelling, TripleTen online tech education, Avride autonomous driving).",
+       "FY25 detail: Q4 revenue $227.7M, Q4 net loss $249.6M, Q4 operating cash flow $834M (customer-prepayment signature), Q4 capex ~$2B, exit cash $3.7B, exit ARR $1.25B, 170MW power active vs >2GW contracted.",
+       "FY26 guidance: revenue $3.0-3.4B (~7x FY25), adj EBITDA margin ~40%, capex $16-20B, ARR $7-9B with >50% contracted, connected power 800MW-1GW.",
+       "August 2025 $700M strategic equity placement from Accel + Nvidia + Orbis — Nvidia is dual GPU supplier and equity investor; Accel's Matt Weigand joined the board.",
+       "Close with the central tension: can Volozh's team convert >50%-contracted FY26 ARR into deployed capacity inside the guidance window, against CoreWeave/Lambda/Crusoe/hyperscaler-internal AI cloud competition, while maintaining the Nvidia strategic-supplier-and-investor alignment? Frame this; don't pretend to answer."
+     ]},
+    {"slug": "corporate_history", "title": "From CompTek to Yandex to Nebius", "order": 2, "target_words": 1400,
+     "use_prep_files": ["history.md", "snapshot.json", "leadership.json"],
+     "directives": [
+       "Anchor in three eras: (1) 1990-2024 Yandex (CompTek 1990 incubator, Yandex 2000 founding, 2011 NASDAQ IPO, 2010s build-out of dominant Russian internet platform, 2022 Volozh steps down post-invasion). (2) 2024 corporate restructuring (Russian operating business sold to Russian consortium, Netherlands holdco rebranded Nebius Group N.V., Volozh resumes CEO, board reconfigured). (3) 2024-2026 AI infrastructure pivot (Q4 2025 revenue $227.7M +547%, capex ramp to $2B Q4, $3.7B cash exit-2025, $700M strategic placement Aug 2025).",
+       "Detail the Yandex board legacy carried forward: John Boynton (CompTek co-founder 1990, Yandex board since 2000, chairman since 2016) and Charles Ryan (UFG founder, sponsored ru-Net Holdings Yandex investment in 1998, board since 2011 IPO).",
+       "The post-restructuring board additions: Ophir Nave (COO May 2024, Executive Director Aug 2024), Elena Bunina (Aug 2024), Kira Radinsky (2024), Arne Grimme + Matthew Weigand (both Aug 2025 AGM).",
+       "Quote any public statements from Volozh's quarterly shareholder letters about the strategic transformation.",
+       "Close on what the seven-year arc means: a corporate-restructuring story now compressed into the most aggressive AI-infra capacity ramp in the listed peer set."
+     ]},
+    {"slug": "business_segments", "title": "Core AI cloud plus three branded subsidiaries", "order": 3, "target_words": 1500,
+     "use_prep_files": ["counterparties.json", "snapshot.json", "financials.json"],
+     "directives": [
+       "Frame the segment structure: (a) Core AI cloud — Nvidia GPU clusters in Nebius-built data centers; +802% Q4 YoY; the dominant revenue contributor and the strategic thesis. (b) Toloka AI — human-data labelling platform with global crowd-sourced labour network for vision/language/multimodal AI training datasets. (c) TripleTen — online tech education for data science, software engineering, AI/ML skills. (d) Avride — autonomous driving R&D as a long-cycle moonshot holding.",
+       "Core AI cloud detail: full-stack AI infrastructure from GPU procurement through cooling, networking, software, OS layers. Customer access via Nebius AI Studio and direct enterprise contracting. European data center footprint with US expansion underway through 2025-2026.",
+       "Revenue mix: Nebius does not separately disclose product-line revenue at the snapshot date in the publicly summarised filings — flag honestly. The Q4 core AI segment +802% YoY framing is the cleanest disclosed breakdown.",
+       "The structural advantage versus pure-play AI cloud competitors: $3.7B cash + $834M Q4 operating cash flow + Nvidia strategic-investor relationship. The structural disadvantage: scaled from a post-restructuring base, not from operating-company history.",
+       "Source explicitly to the FY2025 6-K Q4 earnings release, Volozh shareholder letters, and Nebius IR product pages."
+     ]},
+    {"slug": "financial_deep_dive", "title": "$3.7B cash and the $20B capex bar", "order": 4, "target_words": 1700,
+     "use_prep_files": ["financials.json", "snapshot.json"],
+     "directives": [
+       "Open with the FY2025 inflection: Q4 revenue $227.7M (+547% YoY), core AI cloud +802% YoY, ARR exit $1.25B, cash exit $3.7B, capex ~$2B Q4, 170MW active power vs >2GW contracted.",
+       "The customer-prepayment signature: $834M Q4 operating cash flow vs $227.7M Q4 revenue is a ~3.7x ratio, indicating hyperscaler-style customers prepay AI compute. This is structurally important — operating cash flow is materially ahead of recognised revenue.",
+       "Q4 net loss $249.6M reflects depreciation + stock-comp impact of the scale-up; the cash dynamics are very different from the GAAP P&L.",
+       "FY2026 guidance arithmetic: revenue $3-3.4B (~7x FY25), capex $16-20B, ARR $7-9B with >50% contracted, connected power 800MW-1GW. Walk through each line.",
+       "Capex-to-revenue ratio analysis: $16-20B capex against $3-3.4B revenue is a 5-6x ratio — this is build-ahead-of-demand infrastructure spending at extreme scale.",
+       "Financing stack: $3.7B exit-2025 cash + $700M August 2025 strategic placement + expected customer prepayments + potential additional debt/equity financing. The capex bar exceeds the cash on hand — additional financing will be required in FY2026.",
+       "Adjusted EBITDA margin trajectory: 19% Q3 2025 → 24% Q4 2025 → ~40% FY2026 target. The 16 percentage point margin expansion in 12 months requires both revenue growth and operating leverage as fixed costs spread across the ramp.",
+       "Connected power dynamics: 170MW active end-2025 → 800MW-1GW target end-2026 = 5-6x physical capacity expansion in one year. Power utility agreements, real estate, GPU allocations, and customer ramp must all align.",
+       "Source numbers exclusively to the 6-K Q4 2025 earnings release and the prior 6-K quarterly disclosures."
+     ]},
+    {"slug": "earnings_story", "title": "From restructuring print to first-billion ARR", "order": 5, "target_words": 1400,
+     "use_prep_files": ["financials.json", "snapshot.json", "history.md"],
+     "directives": [
+       "Frame as the cumulative quarterly narrative from the post-restructuring opening prints through Q4 2025.",
+       "Pull quotes from Volozh's quarterly shareholder letters (issued with each 6-K). Use his framing on capacity, customer demand, and the FY2026 trajectory.",
+       "Q1, Q2, Q3, Q4 2025 quarterly revenue numbers: Q3 ARR roughly $700M (approximate), exit-2025 ARR $1.25B; Q4 revenue $227.7M (the disclosed figure). Earlier 2025 quarters scaled from a much smaller base.",
+       "The Q4 2025 earnings call (February 12, 2026 release) was the inflection event — the $1.25B ARR exit and the FY2026 guidance set the trajectory.",
+       "The August 2025 $700M strategic equity placement (Accel/Nvidia/Orbis) was the most consequential single capital-markets event of the year, alongside the August 2025 AGM that elected Grimme and Weigand to the board.",
+       "Stock-price reaction series through 2025-2026: NBIS has been volatile around each quarterly disclosure and the financing announcement. Reference current trading without overweighting.",
+       "Close on the cumulative observation: in seven public quarters under the Nebius brand, the company has executed a corporate restructuring, a balance-sheet rebuild, and a 7x-revenue acceleration into FY2026 guidance — an exceptionally compressed transformation."
+     ]},
+    {"slug": "leadership", "title": "Yandex legacy plus the Accel-and-Nvidia-aligned new arrivals", "order": 6, "target_words": 1800,
+     "use_prep_files": ["leadership.json", "snapshot.json"],
+     "directives": [
+       "Open with Arkady Volozh: founder and CEO 2000-2022; resumed CEO role in 2024. Yandex CEO through the 2011 NASDAQ IPO and 2010s build-out; stepped down in 2022 in the post-invasion context; returned to run the post-restructuring AI infrastructure pivot.",
+       "Ophir Nave (COO since May 2024, Executive Director since August 2024): Harvard SJD, LL.B. Tel Aviv, B.Sc.; Lead Partner Corporate and M&A at Arnon Tadmor-Levy (Israel); Wachtell Lipton (NY); Israeli Supreme Court clerkship; Tel Aviv University corporate-finance lecturer. The legal-architecture credential behind the post-restructuring corporate form.",
+       "Elena Bunina (Head of Science and Education, Non-Executive Director since August 2024): Israel-based academic and mathematician with ~70 research publications; ex-Yandex Head of Academic and Educational Services; ex-General Director and Director of HR at Yandex LLC until April 2022. Now leads Nebius Science and Education + connection to TripleTen.",
+       "John Boynton (Independent Non-Executive Chairman; Yandex board since 2000, chairman since 2016): co-founder of CompTek International 1990 (which incubated Yandex), Forrester Research VP M&A and Corporate Strategy 1997-2001, Mercer strategy consultant, Wilson Alan LLC managing director, Firehouse Capital founder, Litix co-founder (vertical SaaS AI for public sector), sports-tech and women's professional sports holdings.",
+       "Charles E. Ryan (Independent Non-Executive Director since Yandex 2011 IPO): co-founder and CEO of UFG 1994-2005, Deutsche Bank Russia CEO 2005-2008, UFG Asset Management Chairman 2008-present, Almaz Capital Partners General Partner, sponsored ru-Net Holdings Yandex investment in 1998. CS First Boston financial analyst 1989, EBRD London 1991-1994 (led St. Petersburg privatization program).",
+       "Kira Radinsky (Independent Non-Executive Director since 2024): CEO and Chairwoman Diagnostic Robotics (AI for healthcare), Founder Mana Bio (AI drug delivery), co-founder SalesPredict (sold eBay 2016), eBay Director of Data Science and IL Chief Scientist post-acquisition.",
+       "Arne Grimme (Independent Non-Executive Director since August 2025 AGM): Partner since 2003 at De Brauw Blackstone Westbroek (leading Dutch law firm), Head of Corporate M&A practice. Anchors Netherlands-domicile governance.",
+       "Matthew (Matt) Weigand (Independent Non-Executive Director since August 2025 AGM): Partner at Accel since 2013 (focus enterprise software, financial technology, security); pre-Accel William Blair technology investment banking. Joined concurrent with Accel's participation in the $700M strategic equity placement (alongside Nvidia and Orbis).",
+       "Board composition observation: eight-director board pairs three Yandex-legacy figures (Boynton chairman, Ryan independent, Volozh executive) with five newer arrivals calibrated for the AI-infrastructure pivot (Radinsky AI domain, Grimme Dutch M&A, Weigand Accel/VC, Bunina science/education, Nave COO/legal-architecture). The composition reads: institutional-memory anchor + Russia-finance bridge + AI-domain expert + Netherlands-domicile specialist + venture co-investor + legal-architecture COO + science/education leader + founder-CEO.",
+       "DO NOT punt on any of the eight directors. Every name has substantive material in prep/leadership.json — use it. If a sentence would say 'limited public profile,' rewrite to use the data."
+     ]},
+    {"slug": "customers_supply_chain", "title": "Hyperscaler-adjacent customers, Nvidia-aligned supply", "order": 7, "target_words": 1500,
+     "use_prep_files": ["counterparties.json", "financials.json", "snapshot.json"],
+     "directives": [
+       "Customer landscape framing: Nebius's customer base is structurally hyperscaler-adjacent enterprise AI — AI labs and ML model developers, multi-cloud hyperscaler customers, enterprise AI customers running training and inference. Specific customer names are not publicly disclosed at the snapshot date.",
+       "ARR contracting visibility: 'more than half' of the FY26 $7-9B ARR target is already contracted. This is multi-year commercial commitment from credit-worthy buyers — a structurally different revenue-visibility profile from spot AI cloud pricing.",
+       "Nvidia relationship: dual GPU supplier AND $700M strategic equity investor (August 2025 placement). The implied allocation priority for Nvidia GPU output (H100, H200, B100/B200, Rubin generation) flows from the equity alignment. Specific GPU allocations not publicly disclosed.",
+       "Power and real estate supply: connected power 170MW active vs >2GW contracted at end-2025; 800MW-1GW target at end-2026. Utility agreements + site acquisitions + cooling + interconnect — the operational dependency that takes longest to scale.",
+       "Hardware supply chain: server / networking / cooling vendors not separately disclosed but likely Supermicro, Dell, HPE, Foxconn-FII, ODM suppliers.",
+       "Strategic investor list — Accel + Nvidia + Orbis Investments (certain accounts) — each profiled briefly.",
+       "Competitive set: CoreWeave (CRWV, public), Lambda (private), Crusoe (private), Microsoft Azure AI / Google Cloud / AWS, Vultr/DigitalOcean Nimbus.",
+       "Close on the structural observation: Nebius is differentiated by the cash position + Nvidia alignment, not by an irreplaceable proprietary moat. The FY26 capacity ramp is the test of whether the strategic alignments convert into deployed capacity at the scale guided."
+     ]},
+    {"slug": "competitive_position", "title": "Where Nebius sits in the AI cloud landscape", "order": 8, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "counterparties.json", "financials.json"],
+     "directives": [
+       "Frame the competitive landscape across three tiers: (a) Pure-play AI GPU cloud — CoreWeave (public CRWV), Nebius, Lambda, Crusoe, Vultr. (b) Hyperscaler-internal AI cloud — Microsoft Azure AI, Google Cloud, AWS. (c) Specialty/regional — Foxconn-FII cloud, Equinix AI labs, Telefonica/Orange/etc national champion clouds.",
+       "Nebius's structural advantages: (a) $3.7B cash + $834M Q4 operating cash flow provides multi-year balance-sheet stability, (b) Nvidia strategic-investor alignment provides GPU allocation priority, (c) European headquarter + Netherlands domicile insulates from US-China trade friction, (d) >50% of FY26 ARR contracted provides revenue visibility competitors don't all have.",
+       "Nebius's structural disadvantages: (a) shorter operating history under the AI-infrastructure brand than competitors with longer track records, (b) requires ~$16-20B additional capex in FY26 against $3.7B starting cash — additional financing required, (c) Avride / TripleTen / Toloka subsidiaries dilute managerial focus from the core AI cloud, (d) corporate-restructuring overhang remains relevant for some institutional buyers.",
+       "Comparison with CoreWeave specifically: both pure-play AI GPU clouds; CoreWeave has larger active capacity but more leveraged balance sheet; Nebius has cleaner balance sheet but smaller current scale; both Nvidia-aligned.",
+       "The FY26 execution bar is the competitive crucible: if Nebius hits the 800MW-1GW power and $7-9B ARR targets, it leapfrogs into the top tier of pure-play AI GPU clouds. If it misses, the Nvidia alignment and the cash position remain but the operational thesis is dented."
+     ]},
+    {"slug": "news_catalysts", "title": "From restructuring close to $700M financing", "order": 9, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "history.md", "counterparties.json"],
+     "directives": [
+       "Build the news timeline from primary sources: 2024 corporate restructuring close (Russian business sold, Volozh returns); August 2024 board additions (Nave, Bunina); 2024 Radinsky board addition; March 2025 6-K quarterly disclosure; mid-2025 quarterly cadence; August 2025 $700M strategic placement (Accel + Nvidia + Orbis); August 2025 AGM (Grimme + Weigand elected); November 2025 Q3 6-K; February 12, 2026 Q4 2025 / FY2025 print; subsequent disclosures.",
+       "Quote Volozh's shareholder letters at each major milestone.",
+       "Forward catalysts from snapshot date: Q1 2026 6-K (~May/June 2026), Q2 2026 6-K (~August 2026), capacity-build progress signals (data center commissioning announcements), customer-name design-wins, additional strategic financings or debt facilities, Nvidia roadmap-aligned announcements.",
+       "Bound the Aleabit / X commentary discussion to a single subsection at the bottom titled 'Specialist-commentary subsection: how the AI-infra bull case is framed.' Limit to 200 words. If Aleabit has published a price target for NBIS in the prep data, cite as one data point with explicit caveat. Otherwise write 'Specialist commentary framing of NBIS by Aleabit was not surfaced in the bounded primary-source set used for this report' and do not invent.",
+       "DO NOT use Aleabit, Substack, X as primary source anywhere else in this chapter."
+     ]},
+    {"slug": "ip_rd", "title": "From Yandex Cloud to full-stack AI infrastructure", "order": 10, "target_words": 1100,
+     "use_prep_files": ["snapshot.json", "financials.json"],
+     "directives": [
+       "Open with the technology stack inherited from Yandex Cloud: software, OS, networking, and orchestration layers honed during Yandex's Russian-internet operations. The 2024 restructuring kept the international engineering team and the core cloud product, divesting the Russia-specific operating layer.",
+       "Engineering geography: Netherlands corporate, Finland legacy data center footprint, US expansion underway, plus engineering teams in Israel (where COO Nave's network sits) and other European locations.",
+       "Toloka AI is itself a meaningful AI-data IP holder — global crowd-sourced data labelling at scale is a non-trivial capability that complements the core AI cloud.",
+       "Avride is the long-cycle R&D bet — autonomous driving requires multi-year capital commitment with low near-term commercial revenue. R&D treatment is treated as operating expense.",
+       "R&D and engineering headcount not separately disclosed in the available summary at snapshot date — flag honestly. Total Nebius Group consolidated employee count is meaningful but not parsed from primary sources here.",
+       "Patent portfolio: Yandex-legacy patents flow into Nebius post-restructuring. Specific count and category breakdown not surfaced — flag honestly.",
+       "The Nvidia relationship as IP-leverage: customers run their own AI workloads on Nvidia hardware; Nebius's IP value is in the orchestration, infrastructure, and operational layers, not in the underlying GPU silicon. This is structurally similar to CoreWeave / Lambda / Crusoe.",
+       "Close on the strategic-IP question: Nebius's defensible technology layer is operational excellence at AI cloud scale plus the Nvidia GPU allocation pipeline. Whether that converts to durable competitive moat at $7-9B ARR is the open question."
+     ]},
+    {"slug": "risks", "title": "Capex bar, customer concentration, and the restructuring overhang", "order": 11, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json"],
+     "directives": [
+       "Eight categorical risks: (1) Capex execution — $16-20B FY26 capex against $3.7B starting cash requires additional financing. (2) Customer concentration — 'over half' of FY26 ARR contracted but specific customer names not publicly disclosed; sensitivity to any single large customer is real. (3) Nvidia GPU allocation — Nebius's competitive position depends on Nvidia GPU allocation priority; any shift in Nvidia's allocation priority across customers (CoreWeave, hyperscalers, Lambda, etc) materially affects Nebius's capacity ramp. (4) Power infrastructure — connected power scaling from 170MW to 800MW-1GW depends on utility agreements that are slow to deploy and difficult to accelerate. (5) Corporate-restructuring overhang — institutional investors who care about Russia-related governance history may treat the post-restructuring entity differently from a de novo AI infrastructure company. (6) AI capex cycle — broad AI infrastructure demand depends on hyperscaler AI capex sustaining at the current trajectory; any pull-back compresses demand. (7) Avride / TripleTen / Toloka management bandwidth dilution. (8) Regulatory and tax risk — Netherlands corporate domicile, multiple operating geographies, EU AI Act emerging requirements.",
+       "For each risk, walk through (a) the specific exposure, (b) what management has said publicly about mitigation, and (c) what the leading-indicator signal would be.",
+       "The customer-concentration nuance: 'over half contracted' implies multi-year commercial commitment but the contracts are typically pre-paid or staged-payment; sensitivity to single-customer cancellation or renegotiation is real.",
+       "The Nvidia-strategic-alignment nuance: Nvidia's equity stake aligns interests but does not guarantee allocation; if Nvidia faces customer-allocation conflicts, the strategic-investor relationship may not deliver allocation priority.",
+       "Source claims to the 20-F risk factors section (when filed), quarterly 6-K commentary, and Volozh shareholder letters."
+     ]},
+    {"slug": "outlook", "title": "The FY2026 execution test", "order": 12, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json", "leadership.json"],
+     "directives": [
+       "Open with the visible FY2026 setup: revenue $3-3.4B guidance (~7x FY25), capex $16-20B, ARR $7-9B with >50% contracted, connected power 800MW-1GW, adj EBITDA margin ~40%.",
+       "Capex execution path: $16-20B capex / 4 quarters = $4-5B per quarter average; Q4 2025 was already at ~$2B/quarter. The implication is that Q2-Q4 2026 capex pace will be roughly double the Q4 2025 pace.",
+       "Financing roadmap: $3.7B starting cash + customer prepayments (Q4 2025 was $834M operating cash flow) + additional equity or debt financing required. Expect at least one additional capital-raise transaction in 2026.",
+       "Power ramp: 170MW (end-2025) → 800-1000MW (end-2026) implies 4-5 new data center sites coming online through the year. Specific commissioning timeline not publicly disclosed at snapshot.",
+       "Operating leverage math: at $3.2B FY26 revenue midpoint and ~40% adj EBITDA margin, adjusted EBITDA reaches ~$1.3B. GAAP profitability is unlikely in FY26 given depreciation on $16-20B capex.",
+       "Strategic-corporate-action overhang: Nebius could pursue (a) additional strategic financings to extend capex runway, (b) M&A of smaller competitors (e.g. acquiring regional AI clouds), or (c) spin-out of subsidiary brands (Toloka / TripleTen / Avride). No public signal at snapshot — board composition (Boynton/Ryan legacy, Grimme M&A specialist, Weigand Accel-VC) is the kind that could execute corporate transactions.",
+       "Close on the central question the report has built toward: can Volozh's team convert >50%-contracted FY26 ARR into deployed capacity at $7-9B ARR exit-2026, given $16-20B capex execution, 5-6x power ramp, and Nvidia GPU allocation priority? Frame the question; don't pretend to answer."
+     ]},
+    {"slug": "appendices", "title": "Appendices", "order": 13, "target_words": 800,
+     "use_prep_files": ["snapshot.json", "financials.json"],
+     "directives": [
+       "Three subsections: (a) Glossary of AI cloud and AI infrastructure terminology (ARR, capex, MW of connected power, GPU cluster, foundation model training, multi-cloud, AI Studio, customer prepayment, Nvidia H100 / H200 / B100 / B200 / Rubin, hyperscaler-adjacent). (b) Quarterly revenue and capacity table 2024 Q4 through 2025 Q4 plus FY26 guidance. (c) Source list — every SEC EDGAR filing referenced, every press release URL, every primary news article referenced.",
+       "Source list must be exhaustive and link-by-link. Reference 20-F when available, 6-K quarterly filings, Volozh shareholder letters, the August 2025 $700M placement announcement, the August 2025 AGM results announcement.",
+       "Glossary entries should be 1-2 sentences each, sophisticated-investor refresh-level."
+     ]}
+  ]
+}

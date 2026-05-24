@@ -1,0 +1,191 @@
+{
+  "headline": "Feynman Brings Multi-Agent Rigour to the Research Pipeline",
+  "lede": "Advait Paliwal, a serial builder in his early twenties best known for Einstein — an AI that autonomously submitted university assignments — has released Feynman, an open-source CLI agent positioned at the opposite end of the academic spectrum: making research harder to fake, not easier to circumvent. Released under the MIT licence and built atop an extensible terminal agent framework, Feynman orchestrates four specialised agents — gathering evidence, critiquing methodology, verifying citations, and writing polished briefs — and returns a cited meta-analysis in roughly thirty minutes.",
+  "body": "Feynman runs from a single command-line installation and dispatches a four-part agent team: a Researcher that hunts for evidence across preprints, code repositories, and the web; a Reviewer that grades claims by severity before writing begins; a Verifier that checks every citation link after writing ends; and a Writer that produces paper-style drafts from verified notes. The entire stack is built on the *Pi* framework — a minimal, extensible terminal agent runtime created by Mario Zechner — and integrates with **alphaXiv**, a discovery layer on top of arXiv that raised a $7 million seed round from Menlo Ventures and Haystack in late 2025. Feynman's research “skills” are Markdown instruction files, not compiled logic, so the community can inspect, fork, or replace any agent behaviour without touching the underlying TypeScript.\n\nThe central architectural bet is that keeping evidence-gathering, criticism, and prose separate produces better output than collapsing all three into a single model pass — what the project's documentation calls a “monologue.” Tools like Perplexity AI or the standard Elicit workflow synthesise results in seconds but in a single pass, with no internal critique step; a weak retrieval phase contaminates the writing phase undetected. Published sensitivity data found Elicit averaged only 39.5% recall against human-conducted *systematic reviews* — meaning more than 60% of the relevant literature never surfaced — a result that prompted calls for mandatory human oversight. Feynman sacrifices speed for thoroughness: the announcement tweet itself notes a thirty-minute turnaround for a meta-analysis.\n\nThe most technically distinctive — and most easily oversold — capability is experiment replication. The `/replicate` command reads a paper via alphaXiv, extracts the methodology, provisions a sandboxed Docker container or a RunPod GPU cloud pod, executes the experiment, and returns a structured report. In practice this works when the target paper includes a public code repository, which is routine in machine-learning research but rare in biology or chemistry. The `/audit` command — which compares a paper's stated claims against its existing public codebase to flag mismatches and omissions — is arguably more reliable, verifying code that already exists rather than generating and running new code from scratch.\n\nWithin the landscape of AI-assisted research tools, Feynman occupies a distinct gap. Consensus (220 million papers, with a consensus-meter for binary yes/no questions) and Elicit (structured extraction tables for systematic reviews) handle bibliometric tasks but neither executes code nor audits reproducibility. OpenScholar, published in *Nature* in February 2026 by the Allen Institute for Artificial Intelligence and the University of Washington, achieved citation accuracy on par with human experts using *retrieval-augmented generation* (RAG) over 45 million open-access papers — but it is a research model, not a runnable agent, and has no experiment-execution capability. Feynman sits between general-purpose coding agents like Cursor and domain-specific literature tools: it assumes the user has a research question, a tolerance for thirty-minute waits, and access to GPU credentials.\n\nPaliwal, who holds a 1517 Medici Grant and received O-1A (“extraordinary ability”) visa approval in late 2024, has built a series of AI products that test the boundary between human and automated academic work. Einstein provoked educators by logging into learning-management systems and submitting assignments autonomously; Paliwal positioned it as a conversation-starter rather than a product. Feynman reverses the polarity: instead of automating compliance with academic form, it tries to automate the quality controls — citation checking, claim auditing, peer-review simulation — that give academic claims their value. The GitHub repository reached 6,800 stars within weeks of launch, suggesting the research-rigour framing is resonating more broadly than the cheating-bot framing ever did.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Companion AI",
+      "ticker": null
+    },
+    {
+      "name": "alphaXiv",
+      "ticker": null
+    },
+    {
+      "name": "Menlo Ventures",
+      "ticker": null
+    },
+    {
+      "name": "Haystack",
+      "ticker": null
+    },
+    {
+      "name": "RunPod",
+      "ticker": null
+    },
+    {
+      "name": "Elicit",
+      "ticker": null
+    },
+    {
+      "name": "Allen Institute for Artificial Intelligence",
+      "ticker": null
+    },
+    {
+      "name": "Perplexity AI",
+      "ticker": null
+    },
+    {
+      "name": "Cursor",
+      "ticker": null
+    },
+    {
+      "name": "1517 Fund",
+      "ticker": null
+    }
+  ],
+  "poster": "advaitpaliwal",
+  "concepts": [
+    {
+      "key": "multi-agent-orchestration",
+      "term": "Multi-agent orchestration",
+      "definition": "A system architecture where a coordinating agent delegates subtasks to specialised subagents rather than handling everything in a single model pass. In research workflows, this separates evidence-gathering, critique, and writing into distinct agents so errors in one phase do not silently contaminate the next."
+    },
+    {
+      "key": "pi-framework",
+      "term": "Pi framework",
+      "definition": "An open-source, minimal terminal agent framework by Mario Zechner that provides a model-agnostic agent loop, tool execution, and a skills system for loading capabilities as Markdown instruction files. Feynman wraps Pi rather than reimplementing the core agent logic, and its research workflows are Pi skills."
+    },
+    {
+      "key": "alphaxiv",
+      "term": "alphaXiv",
+      "definition": "A discovery and interaction platform layered on top of arXiv — the preprint repository used across physics, mathematics, computer science, and quantitative biology — that adds semantic search, per-passage Q&A, citation tracking, and GitHub code linking. It is not officially affiliated with arXiv. Feynman uses it as its primary academic paper search backend."
+    },
+    {
+      "key": "systematic-review-sensitivity",
+      "term": "Systematic review sensitivity",
+      "definition": "In evidence synthesis, sensitivity measures what fraction of all relevant studies a search strategy actually retrieves. A sensitivity of 39.5% means a tool is missing more than 60% of the relevant literature — a serious problem for meta-analyses and clinical guidelines that depend on comprehensive coverage."
+    },
+    {
+      "key": "retrieval-augmented-generation",
+      "term": "Retrieval-augmented generation (RAG)",
+      "definition": "A technique in which an AI system fetches relevant documents from an external knowledge base at query time and incorporates them into its context before generating a response. This allows the model to cite specific sources and reduces hallucination compared to relying on memorised training-data knowledge alone."
+    },
+    {
+      "key": "paper-to-code-audit",
+      "term": "Paper-to-code audit",
+      "definition": "A verification workflow that compares the claims and methodology described in a published research paper against the actual code in its accompanying public repository, flagging discrepancies, undocumented assumptions, and reproducibility risks. Feynman's /audit command automates this check."
+    },
+    {
+      "key": "runpod",
+      "term": "RunPod",
+      "definition": "A GPU cloud marketplace offering per-second billing across 30-plus global regions, with SSH access to persistent virtual machines. Priced significantly below major cloud providers (roughly $0.39–$2.99 per hour depending on hardware), it is commonly used for machine-learning training and inference workloads. Feynman uses RunPod for stateful experiment-replication workloads that require persistent storage."
+    },
+    {
+      "key": "mit-licence",
+      "term": "MIT licence",
+      "definition": "A permissive open-source software licence that allows anyone to use, copy, modify, distribute, sublicense, or sell the software with minimal restrictions. The only requirement is retaining the copyright notice. It is among the most permissive standard licences and facilitates broad commercial and academic reuse without copyleft obligations."
+    },
+    {
+      "key": "meta-analysis",
+      "term": "Meta-analysis",
+      "definition": "A quantitative research method that pools and statistically combines the results of multiple independent studies on the same question, with the aim of producing a more precise or generalisable estimate than any single study could. Meta-analyses sit at the top of the evidence hierarchy in medicine and social science."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "getcompanion-ai-feynman",
+      "url": "https://github.com/getcompanion-ai/feynman",
+      "summary": "The Feynman open-source AI research agent: a CLI tool that orchestrates four specialised agents (Researcher, Reviewer, Verifier, Writer) to return cited research briefs, literature reviews, paper-to-code audits, and experiment replication reports. Built in TypeScript on the Pi framework, MIT-licensed, with 6,800 GitHub stars as of May 2026. Research workflows are delivered as Markdown skill files, making the agent logic inspectable and forkable without modifying compiled code."
+    }
+  ],
+  "fact_check": "The announcement tweet's claim that Feynman “can replicate experiments on RunPod” warrants a qualifier: the capability works reliably only for machine-learning papers that have accompanying public code repositories. Papers in biology, chemistry, or experimental fields without public code artifacts cannot be executed by the tool. The tweet does not make this scope clear, and “replication” in scientific discourse carries a broader meaning than the tool currently supports.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/getcompanion-ai/feynman",
+      "title": "Feynman — GitHub Repository",
+      "note": "Primary technical source: architecture, agent design, command surface, licence, version history"
+    },
+    {
+      "url": "https://www.feynman.is/",
+      "title": "Feynman — The open source AI research agent",
+      "note": "Official site: canonical workflow descriptions and compute backend integrations"
+    },
+    {
+      "url": "https://x.com/advaitpaliwal/status/2036900468056875332",
+      "title": "Advait Paliwal — Feynman announcement tweet",
+      "note": "Primary source: the bookmark itself, including the 30-minute meta-analysis claim"
+    },
+    {
+      "url": "https://www.advaitpaliwal.com/experience",
+      "title": "Advait Paliwal — experience page",
+      "note": "Biographical background: project history, Einstein, Friday, Companion"
+    },
+    {
+      "url": "https://www.alphaxiv.org/",
+      "title": "alphaXiv",
+      "note": "Feynman's primary paper search and per-passage Q&A backend"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/alphaxiv-raises-7m-seed-round-to-bridge-the-ai-research-to-practice-divide-302619615.html",
+      "title": "alphaXiv raises $7M seed round — PR Newswire",
+      "note": "Funding details: Menlo Ventures and Haystack co-led; Eric Schmidt and Sebastian Thrun as angels"
+    },
+    {
+      "url": "https://pi.dev/",
+      "title": "Pi framework",
+      "note": "The agent runtime Feynman wraps; skills system and model-agnostic design"
+    },
+    {
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+      "title": "Pi Coding Agent — Mario Zechner",
+      "note": "Creator's explanation of Pi's design philosophy and TerminalBench benchmark results"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12483133/",
+      "title": "Elicit sensitivity study — PMC",
+      "note": "Source for the 39.5% sensitivity figure for Elicit versus human-conducted systematic reviews"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-025-10072-4",
+      "title": "OpenScholar — Nature (2026)",
+      "note": "Peer-reviewed benchmark establishing OpenScholar's citation accuracy on par with human experts"
+    },
+    {
+      "url": "https://www.runpod.io/",
+      "title": "RunPod — GPU cloud",
+      "note": "Feynman's persistent GPU backend for experiment replication; pricing reference"
+    },
+    {
+      "url": "https://modal.com/",
+      "title": "Modal — serverless GPU compute",
+      "note": "Feynman's burst/serverless GPU backend for short-duration jobs"
+    },
+    {
+      "url": "https://elicit.com/",
+      "title": "Elicit",
+      "note": "Competitive landscape: systematic review extraction tool with 125M+ papers"
+    },
+    {
+      "url": "https://virtualuncle.com/feynman-ai-research-agent-2026/",
+      "title": "Feynman AI Research Agent — virtualuncle.com",
+      "note": "Launch reception: 2,300+ stars at launch, high bookmark-to-like ratio analysis"
+    },
+    {
+      "url": "https://openflows.org/currency/currents/feynman/",
+      "title": "Feynman — openflows.org analysis",
+      "note": "Technical positioning analysis: niche between coding agents and domain-specific literature tools"
+    },
+    {
+      "url": "https://futurism.com/artificial-intelligence/ai-agent-canvas-homework",
+      "title": "Einstein / Canvas homework agent — Futurism",
+      "note": "Background on Paliwal's prior provocative AI project: the cheating agent that preceded Feynman"
+    }
+  ],
+  "bookmark_id": "2036900468056875332",
+  "generated_at": "2026-05-07T09:40:55.473307Z",
+  "backend": "claude-sonnet-subagent"
+}

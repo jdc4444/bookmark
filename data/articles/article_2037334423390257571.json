@@ -1,0 +1,130 @@
+{
+  "headline": "Mapping the Gap in Claude's Research Workflow",
+  "lede": "A product designer's “what if” post sketches a two-pane Claude interface where research findings flow into a visual canvas rather than a prose report. The image is almost certainly a concept mockup — Claude does not yet ship this feature — but it names a real and acknowledged gap in how the model presents knowledge. The observation arrives as a growing category of AI mind-mapping tools fills exactly that space.",
+  "body": "A designer identified as likely Victoria Se Kim, a product designer at Replit, posted an image of a split-screen Claude interface: a chat panel on the left initiates a “research thread,” while a canvas on the right populates with connected nodes as findings arrive — mind-map style rather than a scrolling prose report. The interface copy (“Start a research thread to populate your canvas,” “New research”) reads as polished product language, suggesting either a high-fidelity mockup or a prototype assembled inside *Claude Artifacts* itself. The question in the tweet is a precise product-gap observation, not a discovery claim.\n\nClaude’s actual *Research* feature, available on paid Pro, Max, Team, and Enterprise tiers, is capable but linear. It dispatches autonomous sub-queries across the web, integrates with Google Workspace and enterprise tools expanded in May 2025, and returns a written report with inline citations after five to forty-five minutes of crawling. **Anthropic** has kept the output format as a text document. Its separate *Artifacts* workspace renders code, SVGs, and interactive applications in a side panel — including Mermaid-syntax diagrams that approximate mind maps — but these are static objects generated on demand, not live canvases fed by ongoing research threads. In April 2026, Anthropic Labs released *Claude Design*, a two-pane visual interface co-built with Canva’s rendering engine for generating prototypes and slide decks; it is a visual tool, but its subject is design generation, not research synthesis.\n\nThe category the tweet points at already exists in standalone products. Tools like MyMap.AI, MindMax (from FunBlocks), Knowing, and the AI layer inside Miro all route AI-generated research into explorable spatial layouts — nodes, branches, and relationship edges on an infinite canvas. Perplexity’s Spaces feature is the most research-complete environment among the large AI platforms, though it also stops at text output. *ChatGPT Canvas*, launched in October 2024 by OpenAI, is the nearest competitor to Claude’s Artifacts, but is better understood as a collaborative text-and-code editor — a word processor with AI inline edits — than a mind-mapping tool. The tweet locates a precise gap: Claude has strong research depth and a capable visual layer, but no pipeline connecting the two.\n\nThe observation carries weight because it names a documented friction in AI-assisted research. Linear chat interfaces create what cognitive scientists call *retrieval friction*: findings pile up in a scrolling thread, making it hard to see relationships, revisit sub-questions, or restructure an emerging understanding. Mind mapping — long practised in knowledge-management tools like Notion — aids the associative reasoning that research requires, because spatial layout encodes structure that text must laboriously describe. Routing Claude’s *agentic* output into a visual canvas would let a researcher see the shape of a topic rather than read through it sequentially. Whether this is a feature request, a design provocation, or something Replit is prototyping internally is unstated — but as a product observation it is clean and well-targeted.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Replit",
+      "ticker": null
+    },
+    {
+      "name": "Canva",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "FunBlocks",
+      "ticker": null
+    },
+    {
+      "name": "Miro",
+      "ticker": null
+    },
+    {
+      "name": "Perplexity",
+      "ticker": null
+    },
+    {
+      "name": "MyMap.AI",
+      "ticker": null
+    },
+    {
+      "name": "Knowing",
+      "ticker": null
+    },
+    {
+      "name": "Notion",
+      "ticker": null
+    }
+  ],
+  "poster": "victoriakimse",
+  "concepts": [
+    {
+      "key": "claude-research-feature",
+      "term": "Claude Research",
+      "definition": "An agentic capability in Claude’s paid tiers (Pro, Max, Team, Enterprise) that breaks a complex question into sub-queries, crawls the web and connected enterprise tools autonomously, and returns a comprehensive written report with cited sources. It can run for five to forty-five minutes and integrates with Google Workspace, Jira, Confluence, and other third-party services added in 2025."
+    },
+    {
+      "key": "claude-artifacts",
+      "term": "Claude Artifacts",
+      "definition": "A side-panel workspace within the Claude interface where Claude renders code, documents, SVGs, interactive applications, and diagrams. It is distinct from the chat thread and acts as a persistent, inspectable output layer — analogous to a live preview window beside the conversation. Mermaid-syntax diagrams can approximate mind maps inside Artifacts, but they are static objects rather than live canvases."
+    },
+    {
+      "key": "claude-design",
+      "term": "Claude Design",
+      "definition": "A visual generation tool launched by Anthropic Labs in April 2026, built with Canva’s rendering engine. It presents a two-pane interface — chat on the left, canvas on the right — for generating prototypes, pitch decks, and UI mockups from text prompts. It is a design generation tool, not a research synthesis tool."
+    },
+    {
+      "key": "mind-mapping",
+      "term": "mind mapping",
+      "definition": "A visual technique for organizing information radially around a central concept, with branches for sub-topics and connecting lines for relationships. It externalizes the structure of a body of knowledge so that a thinker can see and manipulate the shape of an idea, rather than reading through it linearly. The technique is common in brainstorming, note-taking, and research workflows."
+    },
+    {
+      "key": "agentic-ai",
+      "term": "agentic AI",
+      "definition": "An AI system that pursues a goal through a sequence of autonomous steps — searching, reading, deciding, and acting — rather than responding once to a single prompt. Claude’s Research feature is agentic in this sense: given a question, it plans and executes a multi-step investigation without per-step human instruction."
+    },
+    {
+      "key": "retrieval-friction",
+      "term": "retrieval friction",
+      "definition": "The cognitive cost of finding and re-engaging with information buried in a long linear document or chat thread. High retrieval friction slows research because the thinker must re-read to relocate earlier findings rather than scanning a spatial layout where position and proximity encode structure."
+    },
+    {
+      "key": "mermaid-syntax",
+      "term": "Mermaid syntax",
+      "definition": "A text-based diagramming language that renders flowcharts, sequence diagrams, and mind maps from structured plain-text markup. Claude can generate Mermaid code inside an Artifact, producing a rendered diagram — but the diagram is a static snapshot, not an interactive canvas updated in real time."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://support.claude.com/en/articles/11088861-using-research-on-claude",
+      "title": "Using Research on Claude — Anthropic Help Center",
+      "note": "Official documentation of Claude’s Research feature, capabilities, and tier availability"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "title": "Introducing Claude Design — Anthropic Labs",
+      "note": "Official announcement of Claude Design, the April 2026 visual two-pane tool built with Canva’s engine"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/what-is-claude-generative-ui-vs-canvas-artifacts",
+      "title": "What Is Claude’s Generative UI vs Canvas and Artifacts — MindStudio",
+      "note": "Comparative analysis confirming Claude has no Canvas equivalent to ChatGPT’s as of 2026"
+    },
+    {
+      "url": "https://altar.io/next-gen-of-human-ai-collaboration/",
+      "title": "Claude AI vs ChatGPT vs Perplexity: Research Tools Compared — Altar.io",
+      "note": "Identifies Perplexity Spaces as most research-complete and maps Claude’s gaps"
+    },
+    {
+      "url": "https://siliconangle.com/2025/05/01/anthropic-updates-claude-new-integrations-feature-upgraded-research-tool/",
+      "title": "Anthropic Updates Claude With New Integrations and Upgraded Research Tool — SiliconAngle",
+      "note": "Reports May 2025 expansion of Claude Research to Jira, Confluence, and Google Workspace"
+    },
+    {
+      "url": "https://blog.knowing.app/posts/top-ai-powered-mindmap-tools-2025/",
+      "title": "Top AI-Powered Mind Mapping Tools of 2025 — Knowing Blog",
+      "note": "Survey of the AI canvas/mind-map category including MyMap, MindMax, and Miro AI"
+    },
+    {
+      "url": "https://www.linkedin.com/in/victoriasekim/",
+      "title": "Victoria Se Kim — LinkedIn",
+      "note": "Profile of the likely poster: Product Designer at Replit, UBC graduate, active in AI-product design community"
+    }
+  ],
+  "bookmark_id": "2037334423390257571",
+  "generated_at": "2026-05-07T09:32:33.206299Z",
+  "backend": "claude-sonnet-subagent"
+}

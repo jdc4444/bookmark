@@ -1,0 +1,17 @@
+{
+  "key": "300502.SZ",
+  "name": "Eoptolink Technology Inc., Ltd.",
+  "exchange": "SZSE",
+  "blurb": "Eoptolink Technology (SZSE: 300502), founded in 2008 and headquartered in Chengdu, Sichuan, designs and manufactures optical transceiver modules and components for data-centre and telecom networks. The company's product range spans point-to-point modules, 400G/800G SFP datacom transceivers, silicon photonics modules, coherent optical modules, and 800G LPO (linear-drive pluggable optics). Alongside the unlisted InnoLight Technology, Eoptolink supplies roughly 60% of Nvidia's 800G SFP optical module orders, making it one of the principal upstream beneficiaries of the AI-cluster build-out. The company appeared as a named competitor in Coherent Corp.'s 2022 10-K filing under Photonic Solutions when its shares were a fraction of their current level; by 2025 its net profit had surged 236% year-over-year.",
+  "recent": "Eoptolink's 2025 annual net profit surged 236% year-over-year. First-quarter 2026 net profit attributable to shareholders declined 13% sequentially, missing market expectations primarily due to foreign-exchange losses, and the stock fell 11.7% in a single session on April 24, 2026, briefly wiping out over 700 billion yuan in market value. As of late April 2026, shares trade near 535 CNY with a market cap around 531 billion CNY. Management guided for first-half 2026 net profit growth of 328–385% year-over-year (3.7–4.2 billion yuan), underpinned by continued Nvidia order growth expected to rise 35% in 2026.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/300502.SZ/", "title": "Eoptolink Technology (300502.SZ) — Yahoo Finance"},
+    {"url": "https://stockanalysis.com/quote/she/300502/", "title": "Eoptolink Technology (SHE:300502) Stock Price & Overview — StockAnalysis"},
+    {"url": "https://ip-fiber.com/blogs/news/nvidia-orders-surge-innolight-and-eoptolink-dominate-60-of-800g-sfp-optical-modules-supply", "title": "Nvidia orders surge: InnoLight and Eoptolink dominate 800G supply — IP-Fiber"},
+    {"url": "https://finance.biggo.com/news/uy-Zwp0BNZYCTTDvTdAM", "title": "Eoptolink loses $10.2B in market cap in a single day — BigGo Finance"},
+    {"url": "https://stockanalysis.com/quote/she/300502/", "title": "Eoptolink Technology — StockAnalysis"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T22:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

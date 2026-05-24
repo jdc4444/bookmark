@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001571996/000119312526226755/d341553dars.pdf",
+    "https://hyperframeresearch.com/2026/02/27/dells-record-breaking-fiscal-2026-and-the-50-billion-strategic-shift-the-ai-foundry-transition/"
+  ],
+  "key_finding": "Dell's FY2026 customer base is the broadest in US enterprise IT, but the AI server cycle has concentrated incremental revenue toward a smaller set of hyperscaler buyers (xAI, CoreWeave, Microsoft, AWS, Meta, Google, Oracle, Tesla, plus enterprise AI buyers). Supply-chain alignment with Nvidia (the dominant accelerator GPU supplier for AI server platforms) and AMD (alternative accelerator GPU and EPYC CPU supplier) is the dominant strategic relationship. Dell's AI Factory initiative — high-performance computing and liquid-cooled servers optimised for Nvidia and AMD silicon — is the product framework for hyperscaler design-in.",
+  "business_segments": [
+    {
+      "name": "Infrastructure Solutions Group (ISG)",
+      "fy26_q4_revenue_usd_billions": 18.82,
+      "fy26_q4_yoy_growth": 0.66,
+      "products": ["AI-optimised servers (PowerEdge)", "Traditional enterprise servers", "Storage (PowerStore, PowerMax, PowerScale, Isilon, Unity)", "Networking", "Dell AI Factory (integrated AI infrastructure stack)"],
+      "fy26_full_year_ai_server_revenue_usd_billions": 24.6,
+      "fy26_full_year_ai_server_orders_usd_billions": 64,
+      "fy26_full_year_ai_server_shipments_usd_billions": 25,
+      "year_end_ai_backlog_usd_billions": 43
+    },
+    {
+      "name": "Client Solutions Group (CSG)",
+      "fy26_q4_revenue_usd_billions": 13.5,
+      "fy26_q4_yoy_growth": 0.14,
+      "products": ["Commercial PCs (Latitude, OptiPlex, Precision)", "Consumer PCs (Inspiron, XPS, Alienware)", "AI PCs with Neural Processing Units", "Workstations", "Monitors and peripherals"],
+      "commercial_q4_revenue_usd_billions": 11.6,
+      "consumer_q4_revenue_usd_billions": 1.9
+    }
+  ],
+  "key_customer_segments": [
+    {
+      "name": "Hyperscalers and AI cloud customers",
+      "examples_publicly_disclosed_or_inferred": ["xAI", "CoreWeave", "Microsoft", "AWS", "Meta", "Google", "Oracle", "Tesla"],
+      "framing": "Dell does not separately disclose AI server revenue by named customer. xAI and CoreWeave have been publicly identified as Dell AI server customers; the larger hyperscalers (Microsoft, AWS, Meta, Google) procure AI infrastructure from multiple OEMs including Dell, Supermicro, HPE, and ODMs. The $64B of AI server orders closed during FY26 implies a small set of very large buyers — concentration risk is real even if not separately disclosed."
+    },
+    {
+      "name": "Enterprise customers",
+      "framing": "Traditional Dell enterprise customer base — large enterprises across financial services, government, healthcare, manufacturing, retail. CSG commercial and ISG traditional server/storage revenue flows largely through this base."
+    },
+    {
+      "name": "Federal government / public sector",
+      "framing": "Dell is a major US federal IT supplier — defense, intelligence, civilian agencies. Bill Scannell's sales leadership includes public sector."
+    },
+    {
+      "name": "Consumer and small business",
+      "framing": "CSG consumer line includes Inspiron, XPS, Alienware. Q4 FY26 consumer revenue flat YoY at $1.9B."
+    }
+  ],
+  "key_supplier_relationships": [
+    {
+      "name": "Nvidia",
+      "role": "Dominant accelerator GPU supplier for AI server platforms (H100, H200, B100, B200, Rubin generation)",
+      "framing": "The single most strategically consequential supplier relationship. Dell AI Factory is explicitly Nvidia-optimised. GPU allocation priority is the rate-limiting factor for AI server revenue scaling."
+    },
+    {
+      "name": "AMD",
+      "role": "Alternative accelerator GPU (MI300X, MI325X, MI350, MI400 series) plus EPYC CPU supplier",
+      "framing": "AMD is the meaningful #2 accelerator vendor and the dominant data center CPU supplier alongside Intel. Dell's portfolio spans both Nvidia and AMD AI server SKUs."
+    },
+    {
+      "name": "Intel",
+      "role": "x86 CPU supplier (Xeon) for traditional enterprise servers; Gaudi accelerator (smaller AI volume)",
+      "framing": "Long-standing supplier across CSG (Intel Core/Xeon CPUs) and ISG (Xeon server CPUs). AI server share with Intel Gaudi has been less material than Nvidia or AMD volumes."
+    },
+    {
+      "name": "Samsung, SK Hynix, Micron",
+      "role": "Memory and HBM supply for AI servers",
+      "framing": "HBM (high-bandwidth memory) supply is structurally tight; AI server cost is significantly HBM-dependent."
+    },
+    {
+      "name": "TSMC, Samsung Foundry",
+      "role": "Indirect via Nvidia/AMD/Intel chip supply",
+      "framing": "Foundry capacity for advanced nodes is the broader supply-chain constraint feeding into Dell's AI server inputs."
+    },
+    {
+      "name": "Foxconn, Wistron, Compal, Quanta",
+      "role": "Contract manufacturing partners",
+      "framing": "Dell uses ODM/JDM partners for portions of its server manufacturing. Foxconn-FII is structurally consequential for the AI server ramp."
+    }
+  ],
+  "competitive_set": [
+    {"name": "Hewlett Packard Enterprise (HPE)", "framing": "Direct enterprise server / storage / networking competitor; smaller AI server volume than Dell"},
+    {"name": "Supermicro (SMCI)", "framing": "Pure-play AI server competitor; smaller scale but high AI server revenue concentration; subject of accounting concerns in 2024"},
+    {"name": "Lenovo", "framing": "Global PC and server competitor; CSG-focused with growing data center business"},
+    {"name": "Cisco Systems", "framing": "Networking + UCS server competitor"},
+    {"name": "ODM direct suppliers (Inventec, Quanta, Wiwynn)", "framing": "Hyperscaler self-sourcing through Taiwan ODMs is a structural competitive threat — hyperscalers can bypass OEMs like Dell on standard configurations"},
+    {"name": "IBM", "framing": "Enterprise IT competitor at the higher-touch services / mainframe level"}
+  ]
+}

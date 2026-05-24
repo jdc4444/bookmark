@@ -1,0 +1,28 @@
+{
+  "key": "BE",
+  "name": "Bloom Energy Corporation",
+  "exchange": "NYSE",
+  "blurb": "Bloom Energy manufactures solid-oxide fuel cells — electrochemical devices that convert natural gas or hydrogen into electricity on-site through a chemical reaction rather than combustion, producing lower emissions than conventional generators and requiring no grid connection. The company sells its 'Energy Servers' primarily to data centres, utilities, and industrial customers seeking dispatchable, grid-independent power. Bloom's technology can also run on hydrogen, positioning it as a longer-term clean-energy play as the hydrogen economy matures.",
+  "recent": "Bloom Energy became one of the defining AI-power stocks of 2025-2026 after Oracle announced it would power its Project Jupiter AI data centre campus entirely with Bloom fuel cells. Q1 2026 revenue rose 130% year-on-year; management raised full-year 2026 guidance to $3.40–3.80 billion and guided adjusted EPS of $1.85–2.25, well above consensus. The stock ran from a 2025 low of approximately $16 to $295 by early May 2026, a gain exceeding 1,700%. Total backlog stands at roughly $20 billion ($6 billion product, $14 billion service). The valuation is extreme: the stock trades at a near-incalculable trailing P/E and analyst consensus price targets (~$180) imply roughly 39% downside, yet the stock continues to attract momentum buyers on the AI-power narrative. Beta stands at 3.83, reflecting the name's status as a high-conviction, high-volatility AI infrastructure speculation.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/be/",
+      "title": "Bloom Energy (BE) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/04/14/bloom-energy-rockets-23-as-fuel-cell-tech-becomes-the-ai-data-center-power-play-of-2026/",
+      "title": "Bloom Energy Rockets 23% as Fuel Cell Tech Becomes AI Data Center Power Play — 24/7 Wall St."
+    },
+    {
+      "url": "https://www.cnbc.com/2026/04/14/oracle-orcl-bloom-energy-be-stock-data-center-ai-power.html",
+      "title": "Oracle Jumps, Bloom Energy Soars 22% on AI Data Center Power Deal — CNBC"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/01/11/bloom-energy-ai-data-center-power-stock-bubble.html",
+      "title": "How the AI Data Center Bubble Story Is Playing Out Inside One Booming Energy Stock — CNBC"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

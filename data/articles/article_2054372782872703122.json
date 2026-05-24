@@ -1,0 +1,209 @@
+{
+  "headline": "Serenity Maps the Next Rotation in AI Infrastructure Investing",
+  "lede": "A chart circulating in AI-investment circles distils analyst Serenity's view of where the asymmetric opportunities in the AI hardware build-out lie — and which bets are already too crowded to bother with. Serenity, the X handle of a supply-chain analyst who built a following of roughly 130,000 by front-running institutional capital into semiconductor chokepoints, has sequenced four investment horizons from 'the edge is already gone' to 'the edge hasn't formed yet.' The poster, @LIWEI_TWCapital, amplifies the framework without commentary; the substance is Serenity's.",
+  "body": "Serenity (@aleabitoreddit), known on Reddit's r/WallStreetBets as u/AleaBito, describes himself as an AI and semiconductor supply-chain analyst and former AI research scientist. His core framework — which he calls *AI Supply Chain Structural Bottleneck* analysis — involves reverse-engineering production chains to find the single irreplaceable node that cannot scale as fast as demand. Rather than buying obvious beneficiaries, he hunts for what he terms \"functional monopolies\": critical inputs trading at compressed valuations before fund managers discover them. His most-cited call was AXT Inc. (AXTI), an indium-phosphide substrate maker he identified at $12; the stock eventually reached $70 and the thesis earned him a ban from r/WallStreetBets.\n\n**HBM** — *High Bandwidth Memory* — anchors the chart's 'present, boom ending' zone. HBM is DRAM stacked vertically using *through-silicon vias* (TSVs) and bonded directly to a GPU interposer, delivering four to eight times the bandwidth of standard DRAM at lower power. Every NVIDIA (NVDA) AI accelerator ships with it, making the three producers — SK Hynix (000660.KS), Samsung Electronics (005930.KS), and Micron Technology (MU) — the most supply-constrained nodes in the 2024 AI build-out. SK Hynix reported a 405 percent year-over-year operating-profit increase in Q1 2026, with HBM supply sold out through year-end. Serenity's call is not that HBM demand is collapsing; it is that the asymmetric investor edge has already been captured. New fab capacity from SK Hynix's M15X facility (mid-2027) and Samsung's Pyeongtaek expansion threaten the oversupply that has historically ended semiconductor supercycles.\n\nOptical communication occupies the same 'boom ending' bucket — the category Serenity credits as his most profitable thesis of 2024 and 2025. As AI clusters scale from thousands to millions of GPUs, copper interconnects become prohibitively power-hungry. Pluggable optical transceivers solved the immediate bottleneck; *co-packaged optics* (CPO), where the photonic die is integrated directly alongside the switching chip, is the next generation. In March 2026, NVIDIA committed $4 billion split between Coherent Corp. (COHR) and Lumentum Holdings (LITE) to secure priority CPO production capacity. Applied Optoelectronics (AAOI) reported Q1 2026 revenue up 51 percent year-over-year as data-center shipments more than doubled. Serenity's earlier substrate plays — AXTI for indium phosphide, Soitec (SOI.PA) for *silicon-on-insulator* (SOI) wafers — reflect his preference for raw-material chokepoints that are less visible to generalist investors. His current focus has migrated further down the stack toward *external light sources* (ELS) and companies such as Sivers Semiconductors (SIVE.ST), a sub-$300 million-market-cap ELS laser maker.\n\nSpace exploration and infrastructure occupies the five-to-ten-year 'long-term opportunity' band. The connection to AI is not primarily about satellite imagery: it is about **power arbitrage**. Terrestrial data-center buildout is constrained by power-grid capacity — gas turbine backlogs currently run roughly seven years — while orbit offers uninterrupted solar exposure at roughly eight times the ground-level flux. NVIDIA in 2026 launched its Space-1 Vera Rubin module for orbital compute, claiming 25 times the AI throughput of an H100, with early partners including Planet Labs (PL) and Starcloud. Starcloud raised $170 million in a March 2026 Series A to put GPU clusters in orbit, but current orbital rack costs sit around $3.5 million per month — orders of magnitude above ground-based colocation. The five-to-ten-year horizon reflects the cost curves that must close before the economics make commercial sense.\n\nHumanoid robots sit at the furthest horizon: future growth over five to ten years. Tesla (TSLA) had deployed more than 1,000 Optimus Gen 3 units inside its Gigafactories by early 2026, but CEO Elon Musk acknowledged on the Q4 2025 earnings call that they were \"not doing useful work\" yet. Figure AI, backed by NVIDIA and valued at $39 billion after its Series C, generated its first commercial revenue only in January 2025. Goldman Sachs projects 1.4 million humanoid shipments industry-wide by 2035. The gap between convincing demonstrations and reliable autonomous performance in unstructured environments remains the central engineering problem, and Serenity's 5-10-year framing aligns with where most professional forecasts cluster.",
+  "tickers": [
+    "AXTI",
+    "NVDA",
+    "000660.KS",
+    "005930.KS",
+    "MU",
+    "COHR",
+    "LITE",
+    "AAOI",
+    "SOI.PA",
+    "SIVE.ST",
+    "PL",
+    "TSLA"
+  ],
+  "companies": [
+    {
+      "name": "AXT Inc.",
+      "ticker": "AXTI"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "Coherent Corp.",
+      "ticker": "COHR"
+    },
+    {
+      "name": "Lumentum Holdings",
+      "ticker": "LITE"
+    },
+    {
+      "name": "Applied Optoelectronics",
+      "ticker": "AAOI"
+    },
+    {
+      "name": "Soitec",
+      "ticker": "SOI.PA"
+    },
+    {
+      "name": "Sivers Semiconductors",
+      "ticker": "SIVE.ST"
+    },
+    {
+      "name": "Planet Labs",
+      "ticker": "PL"
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA"
+    },
+    {
+      "name": "Starcloud",
+      "ticker": null
+    },
+    {
+      "name": "Figure AI",
+      "ticker": null
+    }
+  ],
+  "poster": "LIWEI_TWCapital",
+  "concepts": [
+    {
+      "key": "hbm",
+      "term": "High Bandwidth Memory (HBM)",
+      "definition": "A type of DRAM in which multiple chips are stacked vertically and connected by through-silicon vias, then bonded directly to a GPU interposer. The result is four to eight times the memory bandwidth of conventional DRAM at lower power — essential for AI accelerators that must shuttle enormous datasets between compute and memory."
+    },
+    {
+      "key": "through-silicon-via",
+      "term": "Through-Silicon Via (TSV)",
+      "definition": "A vertical electrical channel drilled through a silicon chip, allowing stacked dies to communicate without external wiring. TSVs are the enabling manufacturing technology for HBM and advanced 3D chip packaging more broadly."
+    },
+    {
+      "key": "co-packaged-optics",
+      "term": "Co-Packaged Optics (CPO)",
+      "definition": "An interconnect approach in which photonic components — lasers and modulators that transmit data as pulses of light — are integrated into the same package as the network switch chip, rather than connected via pluggable external transceivers. CPO cuts power consumption dramatically and is widely seen as mandatory for next-generation AI cluster interconnects at terabit-scale."
+    },
+    {
+      "key": "external-light-source",
+      "term": "External Light Source (ELS)",
+      "definition": "In a co-packaged optics system, the laser that generates the optical signal is sometimes kept physically separate from the switch package and fed in via fiber. This preserves thermal isolation and makes the laser replaceable independently of the switch. Companies specialising in ELS components — such as Sivers Semiconductors — occupy a narrow chokepoint in the CPO supply chain."
+    },
+    {
+      "key": "silicon-on-insulator",
+      "term": "Silicon-on-Insulator (SOI)",
+      "definition": "A wafer technology in which a thin crystalline silicon layer sits atop an insulating layer of silicon dioxide. SOI reduces parasitic capacitance and electrical leakage, making it well suited for the high-speed photonic chips used in optical interconnects. Soitec holds a dominant position in SOI wafer production."
+    },
+    {
+      "key": "supply-chain-structural-bottleneck",
+      "term": "Supply Chain Structural Bottleneck Analysis",
+      "definition": "Serenity's investment framework: rather than buying the dominant final product (e.g., NVIDIA GPUs), identify the single most concentrated, irreplaceable upstream input whose capacity cannot grow as fast as end demand. The thesis is that these chokepoints trade at depressed valuations before institutions discover them, producing asymmetric risk-reward for early movers."
+    },
+    {
+      "key": "functional-monopoly",
+      "term": "Functional Monopoly",
+      "definition": "Serenity's term for a supplier that is the only practical source of a critical input within the relevant time horizon — not legally protected, but effectively uncontestable because of technical complexity, long capital cycles, or customer qualification barriers. The investment thesis requires that the monopoly position is real and durable enough to extract pricing power as demand surges."
+    },
+    {
+      "key": "institutional-rotation",
+      "term": "Institutional Rotation",
+      "definition": "The sequential movement of large professional investors from one sector or theme to another as prior trades become crowded. Serenity's framework assumes that investors who identify each rotation early can buy ahead of the institutional wave and exit into the liquidity that large fund inflows provide."
+    },
+    {
+      "key": "power-arbitrage-orbital",
+      "term": "Power Arbitrage (orbital)",
+      "definition": "The economic argument for placing compute infrastructure in Earth orbit: satellites receive uninterrupted solar power at roughly eight times the flux available at the ground, potentially allowing AI data centres to bypass terrestrial grid constraints and multi-year interconnection queues. The arbitrage is real in principle but requires orbital rack costs to fall by orders of magnitude before it becomes commercially competitive."
+    },
+    {
+      "key": "indium-phosphide",
+      "term": "Indium Phosphide (InP)",
+      "definition": "A compound semiconductor with properties that make it superior to silicon for high-speed and photonic applications. InP substrates are the raw material for the laser diodes and photodetectors at the heart of optical transceivers, making substrate producers a foundational chokepoint in the photonics supply chain."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The chart's sequencing is broadly defensible, but two points deserve scrutiny. First, labelling HBM 'boom ending' overstates the fundamental demand picture: SK Hynix's HBM allocation is sold out through end-2026 and the company has described customer reservations extending three years forward. The 'ending' applies to the investor edge — institutions are now crowded in — not to the underlying shortage, which persists until new fab capacity arrives in 2027-2028. Second, Serenity's portfolio-return figures (variously cited on his own feed as +316% to +501% to +1,116% year-to-date at different moments) are entirely self-reported and unaudited. Individual directional calls have been documented, but aggregate performance numbers should be treated as illustrative rather than verified fact.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://singularityresearchfund.substack.com/p/inside-the-mind-of-serenity-aleabitoreddit",
+      "title": "Inside the Mind of Serenity (@aleabitoreddit) — Singularity Research Fund",
+      "note": "Primary profile of Serenity's methodology, supply-chain rotation framework, and documented track record"
+    },
+    {
+      "url": "https://x.com/aleabitoreddit/status/2038440978777034988",
+      "title": "Serenity on X — institutional rotation thesis",
+      "note": "Primary source: Serenity's own articulation of the memory → photonics → CPO/ELS rotation sequence"
+    },
+    {
+      "url": "https://www.datacenterdynamics.com/en/news/samsung-and-sk-hynix-to-scale-up-memory-production-capacity-in-2026-to-meet-ai-demand/",
+      "title": "Samsung and SK Hynix to scale up memory production in 2026 — Data Center Dynamics",
+      "note": "HBM capacity expansion timelines and potential oversupply risk in 2027-2028"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten",
+      "title": "Samsung and SK Hynix warn AI-driven memory shortages could last until 2027 — Tom's Hardware",
+      "note": "Current HBM supply-demand dynamics and reservation pipeline"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2025/12/24/news-samsung-sk-hynix-reportedly-plan-20-hbm3e-price-hike-for-2026-as-nvidia-h200-asic-demand-rises/",
+      "title": "Samsung, SK Hynix reportedly plan 20% HBM3E price hike for 2026 — TrendForce",
+      "note": "HBM pricing power as a signal of how crowded institutional demand already is"
+    },
+    {
+      "url": "https://www.genaitech.net/p/nvidias-4b-cpo-bet-scaleout-first",
+      "title": "NVIDIA's $4B CPO Bet — GenAITech",
+      "note": "NVIDIA's March 2026 $2B + $2B commitments to Coherent and Lumentum for co-packaged optics"
+    },
+    {
+      "url": "https://www.tomshardware.com/networking/nvidia-outlines-plans-for-using-light-for-communication-between-ai-gpus-by-2026-silicon-photonics-and-co-packaged-optics-may-become-mandatory-for-next-gen-ai-data-centers",
+      "title": "Nvidia outlines plans for optical GPU communication — Tom's Hardware",
+      "note": "NVIDIA's silicon photonics roadmap and CPO necessity at next-generation switch bandwidths"
+    },
+    {
+      "url": "https://semiengineering.com/all-ai-data-center-interconnects-will-be-optical-within-5-years/",
+      "title": "All AI Data Center Interconnects Will Be Optical Within 5 Years — SemiEngineering",
+      "note": "Jensen Huang's stated roadmap; corroborates the optical trade timeline"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/13/optics-stock-rally-continues-applied-optoelectronics-surges-9-lumentum-and-coherent-rise-4/",
+      "title": "Optics stock rally continues — 247 Wall St.",
+      "note": "AAOI Q1 2026 earnings: revenue +51% YoY, data-center shipments more than doubled"
+    },
+    {
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Space-Computing-Rocketing-AI-Into-Orbit/default.aspx",
+      "title": "NVIDIA Launches Space Computing: Rocketing AI Into Orbit — NVIDIA IR",
+      "note": "Official press release for Space-1 Vera Rubin module, partners, and orbital compute thesis"
+    },
+    {
+      "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+      "title": "Starcloud raises $170M Series A to build data centers in space — TechCrunch",
+      "note": "Starcloud funding round, GPU satellite plans, and orbital cost figures"
+    },
+    {
+      "url": "https://www.fool.com/investing/2025/10/25/tesla-optimus-humanoid-robot-3q-earnings-call/",
+      "title": "Tesla Optimus Q3 2025 Earnings — The Motley Fool",
+      "note": "Tesla factory deployment status and Musk's own qualifications about Optimus utility"
+    },
+    {
+      "url": "https://www.figure.ai/news/series-c",
+      "title": "Figure AI Series C — Figure.ai",
+      "note": "Figure AI $39B valuation, NVIDIA backing, and commercial revenue start date"
+    },
+    {
+      "url": "https://www.ark-invest.com/newsletters/issue-487",
+      "title": "ARK Invest Newsletter #487: Will Data Centers Orbit In Space?",
+      "note": "ARK's $40B 2030 TAM forecast for space-based AI computing and SpaceX orbital datacenter thesis"
+    }
+  ],
+  "bookmark_id": "2054372782872703122",
+  "generated_at": "2026-05-14T10:29:02.166980Z",
+  "backend": "claude-sonnet-subagent"
+}

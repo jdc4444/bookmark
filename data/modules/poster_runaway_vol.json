@@ -1,0 +1,17 @@
+{
+  "key": "runaway_vol",
+  "display_name": "Blair Dulder CPA / @runaway_vol",
+  "blurb": "@runaway_vol is Blair Dulder, a CPA who self-identifies as the top-ranked inflation trader on Kalshi, a CFTC-regulated prediction-market exchange where participants bet on macroeconomic outcomes such as monthly CPI prints. Despite the volatility-trading connotations of the handle, Dulder's disclosed edge is macroeconomic rather than options-specific: he describes his approach as reading BLS and Fed releases carefully. He is also building markets.sh and perchpad, both early-stage fintech projects. His X posting style is irreverent, self-aware, and aphoristic — mixing genuine market commentary with humor and motivational one-liners. The account has approximately 14,000 followers and was created in April 2012.",
+  "credibility_note": "Dulder's claim to be the #1 inflation trader on Kalshi is self-reported and unverified from primary sources; Kalshi does not publish public leaderboards for individual market categories. His CPA credential is plausible given the handle's accounting-adjacent humor, but is also unverified. His posting style includes a mix of substantive market commentary and performative brevity — the latter genre makes specific claims difficult to evaluate. Treat individual trade calls and performance claims as unaudited.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/runaway_vol"},
+    {"label": "Kalshi Inflation Markets", "url": "https://kalshi.com/category/economics/inflation"}
+  ],
+  "sources": [
+    {"title": "@runaway_vol on X (profile indexed via search)", "url": "https://twitter.com/runaway_vol"},
+    {"title": "Blair Dulder CPA tweet snippets (indexed)", "url": "https://x.com/runaway_vol/status/1988403884323467647"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

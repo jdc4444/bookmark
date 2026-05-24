@@ -1,0 +1,22 @@
+{
+  "key": "zerohedge",
+  "display_name": "zerohedge",
+  "blurb": "Zero Hedge is a widely followed financial blog and Twitter account known for its contrarian, often bearish commentary on markets, economics, and geopolitics. The account posts breaking news, analysis, and opinion pieces that frequently challenge mainstream narratives. It has amassed over 1.5 million followers on X.",
+  "credibility_note": "Zero Hedge has been criticized for publishing unverified or sensational claims, and its anonymous authorship raises accountability concerns. It has been banned from advertising on platforms like Google and Facebook for policy violations.",
+  "links": [
+    "https://www.zerohedge.com"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/zerohedge/with_replies",
+      "title": "zerohedge (@zerohedge) / Posts and Replies / X"
+    },
+    {
+      "url": "https://x.com/ZeroHedge_",
+      "title": "Wick (@ZeroHedge_) / Posts / X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-08T10:26:27.889562Z",
+  "backend": "deepseek"
+}

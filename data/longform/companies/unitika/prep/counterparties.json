@@ -1,0 +1,81 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-05-23",
+  "divestiture_buyers": [
+    {
+      "buyer": "Seiren Co., Ltd.",
+      "ticker": "3569.T",
+      "what_acquired": "Textile business at Okazaki Plant (jointly from Unitika + Nippon Ester Co., Ltd.)",
+      "structure": "Share acquisition in new company formed from joint Unitika + Nippon Ester split",
+      "status": "Announced; closing in progress",
+      "source": "https://www.tipranks.com/news/company-announcements/seiren-co-to-acquire-new-textile-business-from-unitika-and-nippon-ester"
+    },
+    {
+      "buyer": "Shikibo Ltd.",
+      "ticker": "3109.T",
+      "what_acquired": "Part of the fiber business (apparel-related)",
+      "status": "Announced",
+      "source": "JP search reaitimenews.com"
+    },
+    {
+      "buyer": "Kawabo (Kawashima Textile? — TBC)",
+      "what_acquired": "Part of the fiber business",
+      "status": "Announced — buyer name needs verification",
+      "needs_research": true,
+      "source": "JP search reaitimenews.com"
+    },
+    {
+      "buyer": "Zuiko Corporation",
+      "ticker": "6279.T",
+      "what_acquired": "Spunlace cotton nonwovens business (COTEX is likely a Zuiko/related entity per LinkedIn)",
+      "status": "Acquired 2025",
+      "source": "https://www.linkedin.com/posts/zuiko-corporation_cotton-spunlace-nonwovens-activity-7343573455486783489-r33y"
+    },
+    {
+      "buyer": "Boken Quality Evaluation Organization (一般財団法人ボーケン品質評価機構)",
+      "what_acquired": "Part of the fiber-quality-evaluation related business",
+      "status": "Announced",
+      "needs_research": true,
+      "source": "JP search reaitimenews.com"
+    },
+    {
+      "buyer": "TUSCO (Thailand polyester spunbond) — NOT YET SOLD",
+      "what_acquired": "n/a",
+      "status": "Still seeking buyer as of October 2025",
+      "source": "https://www.nonwovens-industry.com/breaking-news/unitika-seeking-buyer-for-nonwovens-business/"
+    }
+  ],
+  "joint_development_partners": [
+    {
+      "partner": "DIC Corporation",
+      "ticker": "4631.T",
+      "scope": "Polyphenylene sulfide (PPS) film co-development for millimeter-wave PCBs and mmWave radar",
+      "announced": "2025-12 (CES 2026)",
+      "source": "DIC BusinessWire release"
+    }
+  ],
+  "creditor_banks_debt_forgiveness": [
+    {"name": "MUFG Bank", "role": "Debt forgiveness participant"},
+    {"name": "Mizuho Bank", "role": "Debt forgiveness participant"},
+    {"name": "Sumitomo Mitsui Trust Bank", "role": "Debt forgiveness participant"}
+  ],
+  "majority_shareholder": {
+    "name": "REVIC (Regional Economic Vitalization Corporation of Japan / 株式会社地域経済活性化支援機構)",
+    "stake_pct": 66.76,
+    "instrument": "Class C preferred shares (voting)",
+    "via": "Third-party allotment ¥20B capital injection on 2025-04-30",
+    "additional_financing": "¥15B (¥150億 financing line / loan separate from equity)",
+    "support_decision_date": "2024-11-28",
+    "investment_decision_date": "2025-02-13",
+    "capital_completion_date": "2025-04-30",
+    "official_page": "https://www.revic.co.jp/business/regen/Unitika.html"
+  },
+  "key_customer_signals_from_segment_commentary": [
+    "Food packaging (domestic Japan) — driver of Emblem HG and high-polymer segment growth",
+    "Semiconductor manufacturers — adopting UniPeel silicone-free release film for substrate/capacitor processing",
+    "Mobile memory manufacturers (high-end smartphones) — adopting ultra-thin Low CTE Glass Fabrics and ultra-thin E Glass Fabrics",
+    "Telecommunications + automotive radar — via DIC PPS film joint development",
+    "Public-sector uniform buyers — stable but small",
+    "Civil engineering + agricultural — industrial fibers, spunbond non-woven applications"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "bookmark_id": "2041301622223950068",
+  "headline": "The Shoeshine Boy Has a Bloomberg Terminal Now",
+  "lede": "An Uber driver's claim to have turned modest capital into a million dollars using three moving averages ought, by historical precedent, to herald imminent catastrophe. That it no longer obviously does tells you more about the post-2023 American market than any indicator could.",
+  "body": "The story goes — and it is almost certainly apocryphal — that Joseph Kennedy Sr. knew it was time to sell his stocks in 1929 when the boy shining his shoes began dispensing tips. The anecdote, which appears to originate not in any contemporaneous source but in Bernard Baruch's 1957 memoirs, has since calcified into one of finance's most durable folk theorems: when the unsophisticated are euphoric, the sophisticated should be afraid. The underlying logic is sound even if the provenance is murky. Mass participation by people with no particular edge is a reasonable proxy for a market that has been fully priced by optimism, leaving little room for further surprise on the upside.\n\nThe modern shoeshine boy, it seems, drives for Uber. The tweet in question reports an encounter with a driver who claims to have compounded roughly $40,000 into $1 million over two years — a 24-fold return — by trading the 9-period exponential moving average, the 21-period exponential moving average, and by buying equities when they touch the 200-week moving average. These are not obscure instruments. The 9/21 EMA crossover (in which a buy signal fires whenever the faster nine-period average crosses above the slower twenty-one-period one) is among the most widely disseminated strategies in retail trading circles, the kind of technique explained in free YouTube tutorials and rehearsed on Reddit forums. The 200-week moving average — a long-term trend gauge that smooths out roughly four years of weekly price data — is similarly a standard fixture of amateur technical analysis. None of this is secret knowledge. All of it is noise, most of the time.\n\nAnd yet the poster's wry observation is the genuinely interesting part: that this is no longer a reliable top signal — it is just the American economy now. The comment lands because it is at least partially true. The S&P 500 rose 26.3% in 2023 and 25.0% in 2024, capping what RBC Wealth Management later characterised as one of the strongest consecutive two-year stretches since the late 1990s. A melt-up — the term Wall Street applies to a self-reinforcing late-cycle rally in which rising prices attract fresh capital, which drives prices higher still, independent of any change in underlying fundamentals — does not merely reward the talented. It rewards the present. A driver who bought US equities on dips to the 200-week moving average in late 2022 and held through the subsequent recovery would, arithmetically, have done very well indeed. The strategy did not work because it was clever. It worked because the market went up.\n\nRetail participation has expanded dramatically enough that its explanatory power as a contrarian signal has become genuinely ambiguous. Retail investors now account for roughly 23% of US equity trading volume, up from around 10% in 2010, and Robinhood alone reported $324 billion in assets under custody by January 2026. Bank of America noted in mid-2025 that retail investors had been net buyers of equities for twenty-two consecutive weeks — the longest such streak since 2008. Zero-day-to-expiration options, derivatives that expire the same day they are purchased and were barely a rounding error a few years ago, accounted for 67% of S&P 500 options volume on a single day in May 2025. This is not the quiet accumulation of cautious savers. It is the unmistakable texture of euphoria.\n\nThe problem is that euphoria has been persistently early as a timing device. When Alan Greenspan warned of \"irrational exuberance\" in December 1996, the market proceeded to gain another 115% before eventually collapsing. The meme-stock mania of 2021 did precede a brutal 2022 correction — the S&P 500 fell roughly 19% that year — but the subsequent recovery was so swift and complete that anyone who sold on the shoeshine-boy signal and waited for the all-clear missed much of the subsequent 50%-plus run. The indicator has a better record of identifying eventual tops than actionable ones. Markets can remain more exuberant than the sophisticated investor's patience for far longer than his liquidity.\n\nWhat the Uber driver anecdote actually captures is a structural feature of the post-pandemic regime that defies easy resolution: in a melt-up, dumb indicators work. Not because they contain information, but because everyone using them is buying at the same time, which makes the price go up, which validates the indicator, which attracts more buyers. This is reflexivity — the feedback loop between market prices and the beliefs that drive them, a concept associated with George Soros — operating at retail scale. The shoeshine boy is no longer a warning that the smart money should exit. He may be a constituent of the momentum itself. Whether that distinction survives the next significant down-cycle is the question on which rather a lot of retirement accounts now quietly depend.",
+  "tickers": [],
+  "poster": "based16z",
+  "concepts": [
+    {
+      "key": "shoeshine-boy",
+      "term": "shoeshine boy indicator",
+      "definition": "An apocryphal contrarian sell signal, attributed to Joseph Kennedy Sr. in 1929, holding that when unsophisticated members of the public begin offering stock tips it signals that retail euphoria has fully priced the market and a top is near. Historical record suggests the story originates in Bernard Baruch's 1957 memoirs rather than contemporary sources."
+    },
+    {
+      "key": "ema-crossover",
+      "term": "9/21 EMA crossover",
+      "definition": "A widely used retail technical-analysis strategy that generates a buy signal when the 9-period exponential moving average — a price average that weights recent data more heavily — crosses above the 21-period EMA, and a sell signal on the reverse. Often paired with the 200-week moving average as a long-term trend filter."
+    },
+    {
+      "key": "melt-up",
+      "term": "melt-up regime",
+      "definition": "A self-reinforcing late-cycle rally in which rising prices attract fresh capital independently of changes in underlying corporate fundamentals, driving prices higher still. Associated with broad retail participation, narrowing market leadership, and the eventual exhaustion of momentum buyers."
+    },
+    {
+      "key": "reflexivity",
+      "term": "reflexivity",
+      "definition": "George Soros's concept describing the feedback loop between market participants' beliefs and asset prices: rising prices reinforce bullish beliefs, which drive further buying, which raises prices further — a cycle that can persist well past any fundamental justification until it abruptly reverses."
+    },
+    {
+      "key": "0dte-options",
+      "term": "zero-day-to-expiration (0DTE) options",
+      "definition": "Options contracts that expire on the same calendar day they are purchased, offering extreme leverage and near-total loss of premium if the trade moves against the buyer. Their rising share of S&P 500 options volume — reaching 67% on a single day in May 2025 — is widely cited as a marker of speculative retail intensity."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://awealthofcommonsense.com/2024/12/signs-of-a-top/",
+      "title": "Signs of a Top – A Wealth of Common Sense"
+    },
+    {
+      "url": "https://www.investing.com/analysis/retail-traders-are-driving-euphoria-200664333",
+      "title": "S&P 500: Euphoria From Retail Investors Meets Rising Risks – Investing.com"
+    },
+    {
+      "url": "https://markets.financialcontent.com/wral/article/predictstreet-2025-12-18-the-redemption-of-robinhood-a-deep-dive-into-hoods-100-billion-comeback",
+      "title": "The Redemption of Robinhood: A Deep-Dive into HOOD's $100 Billion Comeback"
+    },
+    {
+      "url": "https://www.rbcwealthmanagement.com/en-us/insights/us-equity-returns-in-2025-record-breaking-resilience",
+      "title": "U.S. equity returns in 2025: Record-breaking resilience – RBC Wealth Management"
+    },
+    {
+      "url": "https://www.quantifiedstrategies.com/9-ema-strategy/",
+      "title": "9 EMA Trading Strategy: Rules, Setup, Performance And Backtest – QuantifiedStrategies"
+    },
+    {
+      "url": "https://internationalman.com/articles/watch-out-for-the-shoeshine-boys/",
+      "title": "Watch Out for the Shoeshine Boys – Doug Casey's International Man"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

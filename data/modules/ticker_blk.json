@@ -1,0 +1,24 @@
+{
+  "key": "BLK",
+  "name": "BlackRock, Inc.",
+  "exchange": "NYSE",
+  "blurb": "BlackRock, Inc. is a publicly owned investment manager that provides services to institutional, intermediary, and individual investors, including pension plans, insurance companies, and governments. The firm manages a wide range of equity, fixed income, and balanced portfolios, and also offers global risk management and advisory services. As of May 2026, BlackRock has a market capitalization of approximately $174 billion and employs over 21,000 people. It is one of the world's largest asset managers, with a strong market position in the financial services industry.",
+  "recent": "In the past 30 days, BlackRock's stock has traded in a range of $1,058.49 to $1,080.74, with a recent price of $1,067.74 as of May 7, 2026. The company reported earnings on April 14, 2026, and analysts maintain a Strong Buy rating with a price target of $1,275.21. The stock has shown a year-to-date increase of 25.6% in market cap, despite a slight decline in net income year-over-year.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BLK/",
+      "title": "BlackRock, Inc. (BLK) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BLK/news/",
+      "title": "BLK News Today | Why did BlackRock stock go down today?"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/blk/",
+      "title": "BlackRock (BLK) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:14:13.492537Z",
+  "backend": "deepseek"
+}

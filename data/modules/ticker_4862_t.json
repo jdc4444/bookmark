@@ -1,0 +1,24 @@
+{
+  "key": "4862.T",
+  "name": "Ibiden Co., Ltd.",
+  "exchange": "TSE",
+  "blurb": "Ibiden Co., Ltd. (TSE: 4862) is a Japanese manufacturer headquartered in Ogaki, Gifu Prefecture, whose semiconductor packaging division produces ABF (Ajinomoto Build-up Film) IC substrates — the multi-layer organic structures that connect high-end processor dies to circuit boards. Ibiden is one of only five companies in the world with the process capability to manufacture these substrates at scale, making it a structural chokepoint for AI GPU supply. The company also produces industrial ceramics and electronic components, but its substrate business drives valuation.",
+  "recent": "Ibiden opened its new Ono Plant in October 2025, its largest domestic production facility, designed specifically for AI server IC substrate production. The facility began at 25% capacity, with a ramp to 50% targeted by March 2026. Ibiden had previously announced plans for a 40% output increase in AI-server substrates over 2025. The company's substrate revenue is closely correlated with Nvidia GPU shipment volumes, as Ibiden is among Nvidia's primary ABF substrate suppliers.",
+  "sources": [
+    {
+      "url": "https://www.ibiden.com/company/2025/10/notice-regarding-the-opening-ceremony-of-the-ono-plant.html",
+      "title": "Ibiden Opens Ono Plant — Ibiden.com"
+    },
+    {
+      "url": "https://iconnect007.com/article/147290/ibiden-opens-ono-plant-to-expand-ai-server-ic-substrate-production-capacity/147287/ein",
+      "title": "Ibiden Opens Ono Plant for AI Server IC Substrate Production — I-Connect007"
+    },
+    {
+      "url": "https://apps.digitimes.com/news/a20241203PD209/ibiden-production-demand-2025-ic.html",
+      "title": "Ibiden Plans 40% Output Boost for AI Server IC Substrates in 2025 — Digitimes"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

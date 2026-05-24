@@ -1,0 +1,106 @@
+{
+  "headline": "The Hidden Bear Market Beneath the Dot-Com Boom",
+  "lede": "In the spring of 1998, the S&P 500 was climbing toward new records and the NASDAQ was accelerating into one of history's most spectacular bull runs. Yet one measure most investors ignored — the NYSE *advance-decline line* — had already peaked and begun a two-year decline. Walter Deemer, a founding member of what is now the CMT Association and a 52-year veteran of institutional technical analysis, posted this historical chart in May 2026 with no commentary: the timing speaks for itself.",
+  "body": "The *advance-decline line* is a *breadth indicator* built on a deceptively simple daily count: the number of NYSE-listed stocks that closed higher minus the number that closed lower, accumulated into a running cumulative total. Each stock counts identically — one advancing issue or one declining issue — regardless of market capitalization. A small regional bank and **Microsoft** (MSFT) contribute the same weight. Cap-weighted indexes like the S&P 500, by contrast, are dominated by their largest constituents; a single mega-cap stock can lift the headline number while hundreds of smaller names quietly deteriorate. The A/D line exists precisely to expose that gap.\n\nThe gap that opened in April 1998 was extraordinary. The NYSE cumulative A/D line peaked around April 3, 1998 — approximately 23 months before the NASDAQ reached its all-time high of 5,048.62 on March 10, 2000. As the S&P 500 rose steadily to new records and the NASDAQ surged 85.6% in 1999 alone, the A/D line ground steadily lower. What the headline indexes registered as a roaring bull market was, for the median NYSE-listed stock, already a bear market — declining since spring 1998.\n\nThe mechanism was extreme concentration. **Qualcomm** (QCOM) rose 2,619% in 1999; a dozen other large-cap technology and internet names each rose more than 1,000% the same year. By mid-2000, the information technology sector represented 33% of S&P 500 market capitalization against roughly half that share of actual S&P earnings. The top 15 performers accounted for an estimated 70% of the index's entire annual gain in 1999. Wikipedia's entry on the dot-com bubble states the structural paradox plainly: “More stocks fell in value than rose in value as investors sold stocks in slower-growing companies to invest in Internet stocks.” The A/D line counted every one of those losers.\n\nThe divergence resolved in the only way it could. The S&P 500 fell approximately 46% from its March 2000 peak to its October 2002 trough; the NASDAQ collapsed 78%. In retrospect the A/D line's warning had been legible, and consistently negative, for nearly two years before the crash — one of the longest breadth divergences in market history. Deemer posted this chart in May 2026, weeks after Bloomberg reported that current S&P 500 breadth had narrowed to its slimmest margin since the dot-com era, and as **Goldman Sachs** (GS) issued a comparable public caution. He offered no caption. The chart supplies its own.",
+  "tickers": [
+    "MSFT",
+    "QCOM",
+    "GS"
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Qualcomm",
+      "ticker": "QCOM"
+    },
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS"
+    }
+  ],
+  "poster": "WalterDeemer",
+  "concepts": [
+    {
+      "key": "advance-decline-line",
+      "term": "Advance-Decline Line",
+      "definition": "Each trading day, the number of NYSE-listed stocks that closed higher (advancing issues) minus those that closed lower (declining issues) is calculated as net advances. Those daily figures are then added together into a running cumulative total — the A/D line — which rises when breadth is healthy and falls when more stocks are declining than advancing, regardless of what cap-weighted indexes show."
+    },
+    {
+      "key": "breadth-divergence",
+      "term": "Breadth Divergence",
+      "definition": "A divergence occurs when a price index makes new highs but its advance-decline line fails to confirm — meaning fewer stocks are participating in the rally. Technicians treat a sustained bearish divergence as a warning: a narrow rally supported by only a handful of large-cap names tends to be fragile and has historically preceded significant market corrections."
+    },
+    {
+      "key": "breadth-indicator",
+      "term": "Breadth Indicator",
+      "definition": "A measurement that tracks how widely a market move is shared across all securities in an index, rather than being driven by the performance of a few large constituents. Breadth indicators are designed to reveal whether a rally or decline has broad participation or is concentrated in a small number of names."
+    },
+    {
+      "key": "cap-weighted-index",
+      "term": "Cap-Weighted Index",
+      "definition": "A stock market index in which each component's influence is proportional to its total market capitalization — the share price multiplied by shares outstanding. A company worth $3 trillion affects the index far more than one worth $300 million. This structure means a cap-weighted index can rise while the majority of its component stocks are declining, if the largest names outperform strongly enough."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "http://www.walterdeemer.com/bio.htm",
+      "title": "Walter Deemer — Biography",
+      "note": "Primary source on Deemer's career: Merrill Lynch under Bob Farrell 1964-66, Putnam SVP 1970-80, founded Deemer Technical Research 1980"
+    },
+    {
+      "url": "https://cmtassociation.org/presenter/walter-deemer/",
+      "title": "Walter Deemer — CMT Association Presenter Page",
+      "note": "Confirms founding MTA membership and 2015 CMT Annual Award for lifetime achievement"
+    },
+    {
+      "url": "https://chartschool.stockcharts.com/table-of-contents/market-indicators/advance-decline-line",
+      "title": "Advance-Decline Line — StockCharts ChartSchool",
+      "note": "Authoritative explanation of A/D line construction, divergence interpretation; StockCharts is the source of the chart itself"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Advance%E2%80%93decline_line",
+      "title": "Advance-Decline Line — Wikipedia",
+      "note": "Documents the April 1998 A/D line peak and approximately two-year divergence from the NYSE Composite's September 2000 top"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+      "title": "Dot-Com Bubble — Wikipedia",
+      "note": "Source for concentration data: Qualcomm 2,619% gain in 1999; NASDAQ +85.6% in 1999; quote on more stocks falling than rising"
+    },
+    {
+      "url": "https://sentimentrader.com/blog/nyse-advance-decline-line-divergence-risk-off-model",
+      "title": "NYSE A/D Line Divergence Risk-Off Model — SentimenTrader",
+      "note": "Documents the January 2000 divergence signal and its historical hit rate for identifying bear markets since 1928"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/is-advance-decline-line-divergence-a-big-deal-044107242.html",
+      "title": "Is A/D Line Divergence a Big Deal? — Yahoo Finance",
+      "note": "Confirms 1998 A/D peak and the two-year divergence from the NYSE Composite top"
+    },
+    {
+      "url": "https://www.mcoscillator.com/learning_center/weekly_chart/a-d_line_divergence",
+      "title": "A/D Line Divergence — McClellan Financial",
+      "note": "Most authoritative breadth indicator source; confirms April 2-3 1998 peak and the A/D 200-day moving average breach in June 1998"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-05-05/dot-com-bubble-flashbacks-triggered-by-lack-of-s-p-500-breadth",
+      "title": "Dot-Com Bubble Flashbacks Triggered by Lack of S&P 500 Breadth — Bloomberg, May 5 2026",
+      "note": "Contemporary context establishing why Deemer posted this chart now: analysts drawing explicit parallel to 1998-2000 breadth divergence"
+    },
+    {
+      "url": "https://www.benzinga.com/markets/economic-data/26/05/52210245/sp-500-market-breadth-narrowest-since-dot-com-goldman-sachs-warns",
+      "title": "S&P 500 Breadth Narrowest Since Dot-Com, Goldman Sachs Warns — Benzinga",
+      "note": "Goldman Sachs public warning on narrow S&P 500 breadth in May 2026, context for Deemer's posting timing"
+    }
+  ],
+  "bookmark_id": "2055354371211215184",
+  "generated_at": "2026-05-17T08:38:38.804959Z",
+  "backend": "claude-sonnet-subagent"
+}

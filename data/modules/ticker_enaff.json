@@ -1,0 +1,28 @@
+{
+  "key": "ENAFF",
+  "name": "Enablence Technologies Inc.",
+  "exchange": "OTC Markets (U.S. OTC)",
+  "blurb": "Enablence Technologies Inc. is a Canadian photonics company focused on optical chips and integrated photonics components for datacom, telecom, artificial intelligence infrastructure, automotive sensing, and LiDAR applications. The company develops planar lightwave circuit (PLC) technology used to route and split optical signals in fiber-optic networks. Its products target the intersection of growing AI compute interconnect demand and next-generation optical networking. Enablence trades in the U.S. over-the-counter market under the ticker ENAFF.",
+  "recent": "In recent weeks, Enablence announced the appointment of Dr. James Gyarmathy to a senior leadership role (full title not confirmed in available sources). Beyond this leadership development, specific earnings releases, price action, or other material catalysts within the past 30 days are not clearly documented in the provided sources.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ENAFF/",
+      "title": "Enablence Technologies Inc. (ENAFF) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/ENAFF/",
+      "title": "Latest ENAFF News — StockTitan"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/enaff",
+      "title": "ENAFF Stock Price | Enablence Technologies Inc. — MarketWatch"
+    },
+    {
+      "url": "https://www.google.com/finance/quote/ENAFF:OTCMKTS",
+      "title": "Enablence Technologies Inc. (ENAFF) Stock Price & News — Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:31:48.911198Z",
+  "backend": "claude-sonnet-subagent"
+}

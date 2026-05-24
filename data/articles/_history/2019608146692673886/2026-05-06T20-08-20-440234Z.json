@@ -1,0 +1,79 @@
+{
+  "headline": "An AI Agent That Breaks Into Web Apps, Not Just Flags Them",
+  "lede": "Most security scanners report what might be wrong. Shannon Lite, an open-source autonomous pentester released in early 2026 by Keygraph, goes further: it reads your source code, maps attack surfaces, attempts real exploits, and files a report only when it has already broken in. The project accumulated over 10,000 GitHub stars quickly and prompted serious questions about the future of the human security auditor.",
+  "body": "The distinction that matters here is *white-box* versus *black-box* testing. A black-box scanner probes a running application from the outside, seeing only what an anonymous attacker sees. White-box testing means the auditor — or in this case, the agent — has full access to the source code, repository layout, and configuration. Shannon combines both: it reads the codebase to understand the application's logic, then uses browser automation and command-line tools to actually execute exploits against the live system. Its guiding rule is blunt: no working proof-of-concept, no report entry.\n\nThe multi-agent pipeline runs in four phases — reconnaissance (using tools like Nmap and Subfinder to map the attack surface), vulnerability analysis (scanning code for exploitable patterns), exploitation (attempting real attacks), and reporting (delivering only confirmed findings with copy-paste exploit code). The whole process takes roughly one to one-and-a-half hours for a medium-complexity web application, at a cost of around $40–55 in API credits. The primary model underneath is **Claude 3.5 Sonnet**, running on Anthropic's agent SDK with a ceiling of 10,000 turns per session.\n\nOn the *XBOW benchmark* — a standardised set of 104 hint-free, source-aware exploit challenges — Shannon achieved a 96.15% success rate, completing 100 of 104 challenges. For context, conventional *DAST* (Dynamic Application Security Testing) tools, which probe running apps without source-code access, typically score 30–40% on comparable evaluations. That gap is the practical argument for the tool: it finds the things static scanners miss and confirms them in a way that humans can act on immediately.\n\nThe security community's reception has been enthusiastic and anxious in roughly equal measure. The enthusiasm is easy to explain: Shannon targets the vulnerabilities that routinely end up in breach post-mortems — SQL injection, XSS, SSRF, broken authentication, and application-specific business logic errors. The anxiety centres on two concerns. The first is operational: handing an autonomous agent your source code, API keys, and repository structure is a significant trust decision that many organisations are not ready to govern. The second is existential: if a tool running for ninety minutes and $50 can do what a junior penetration tester does in a week, the economics of that profession change quickly.\n\nKeygraph ships two tiers. Shannon Lite is open source under the AGPL-3.0 licence and available via `npx @keygraph/shannon@beta`. Shannon Pro is a commercial product with SAST, software composition analysis, secrets scanning, and CI/CD integration. The poster, @chiefofautism, framed the whole thing with a three-word analogy: *Claude Code but for hacking* — a comparison that captures both the agentic architecture and the sense that AI-assisted security testing has crossed from research demo into usable tool.",
+  "tickers": [],
+  "poster": "chiefofautism",
+  "concepts": [
+    {
+      "key": "white-box-pentesting",
+      "term": "white-box penetration testing",
+      "definition": "A security audit in which the tester has full access to an application's source code, architecture, and configuration — as opposed to black-box testing, where the tester sees only the running application's external interface. White-box testing can find logic errors and code-level vulnerabilities that external probing would miss."
+    },
+    {
+      "key": "dast",
+      "term": "DAST (Dynamic Application Security Testing)",
+      "definition": "A category of security tools that test a running application by sending crafted inputs and observing outputs, without access to the underlying source code. DAST tools are widely deployed but tend to miss vulnerabilities that only reveal themselves through code-path analysis."
+    },
+    {
+      "key": "autonomous-pentester",
+      "term": "autonomous pentester",
+      "definition": "An AI agent that conducts penetration testing — probing a system for exploitable vulnerabilities — without continuous human guidance. Rather than flagging potential issues for a human to investigate, an autonomous pentester attempts to complete the full exploit chain itself and reports only confirmed, working attacks."
+    },
+    {
+      "key": "no-exploit-no-report",
+      "term": "no exploit, no report",
+      "definition": "Shannon's core philosophy: a vulnerability does not appear in the final report unless the tool has successfully exploited it with a working proof-of-concept. This eliminates the false-positive problem common to traditional scanners, which flag theoretical risks that may not be practically exploitable."
+    },
+    {
+      "key": "xbow-benchmark",
+      "term": "XBOW benchmark",
+      "definition": "A standardised evaluation suite of 104 web-security exploit challenges designed to measure the capability of automated penetration-testing tools. It tests in a hint-free, source-aware mode — meaning the tool receives source code but no hints about where vulnerabilities lie."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "KeygraphHQ-shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "summary": "Shannon Lite is an autonomous, white-box AI penetration tester for web applications and APIs, built by Keygraph. It runs a multi-agent pipeline — reconnaissance, vulnerability analysis, exploitation, and reporting — powered primarily by Claude 3.5 Sonnet. The open-source tier is licensed under AGPL-3.0; a commercial Shannon Pro tier adds CI/CD integration and additional scanning capabilities."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": "The poster shared the Shannon Lite GitHub link with the framing 'CLAUDE CODE but for HACKING,' positioning it as an agentic AI tool for security professionals analogous to Claude Code for software engineers. The nine-tweet thread elaborated on the tool's capabilities and provoked significant engagement, accumulating 218.8K views and nearly 4,000 bookmarks.",
+  "sources": [
+    {
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "title": "GitHub - KeygraphHQ/shannon",
+      "note": "Primary source: official repository with architecture description and licensing"
+    },
+    {
+      "url": "https://lalatenduswain.medium.com/shannon-the-autonomous-ai-pentester-that-changes-web-security-in-2026-da9111be8357",
+      "title": "Shannon: The Autonomous AI Pentester That Changes Web Security in 2026",
+      "note": "Overview of capabilities, benchmark results, and cost metrics"
+    },
+    {
+      "url": "https://medium.com/@shrutipokale2016/i-tested-shannon-ai-pentester-by-keygraph-on-a-vulnerable-node-js-app-heres-what-i-found-15d80ee6dab8",
+      "title": "I Tested Shannon, AI Pentester by Keygraph on a Vulnerable Node.js App",
+      "note": "Independent real-world test results on a vulnerable application"
+    },
+    {
+      "url": "https://medium.com/@parathan/proof-by-exploitation-shannons-approach-to-autonomous-penetration-testing-010eac3588d3",
+      "title": "Proof by Exploitation: Shannon's Approach to Autonomous Penetration Testing",
+      "note": "Analysis of the no-exploit, no-report philosophy and multi-agent architecture"
+    },
+    {
+      "url": "https://blog.talosintelligence.com/hand-over-the-keys-for-shannons-shenanigans/",
+      "title": "Hand over the keys for Shannon's shenanigans — Talos Intelligence",
+      "note": "Cisco Talos security community review"
+    },
+    {
+      "url": "https://betterstack.com/community/guides/ai/shannon-ai/",
+      "title": "AI Penetration Testing with Shannon — Better Stack",
+      "note": "Technical walkthrough including model choices and deployment via npx"
+    }
+  ],
+  "bookmark_id": "2019608146692673886",
+  "generated_at": "2026-05-06T20:08:20.440234Z",
+  "backend": "claude"
+}

@@ -1,0 +1,28 @@
+{
+  "key": "CSGP",
+  "name": "CoStar Group, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "CoStar Group is a leading provider of commercial real estate information, analytics, and online marketplaces. Its platforms include CoStar, LoopNet, and Apartments.com, serving brokers, investors, and property managers. The company holds a dominant market position in property data and listing services.",
+  "recent": "In the past 30 days, CoStar Group reported Q4 2024 earnings that beat estimates, with revenue growth driven by its residential platform. The stock has shown volatility amid broader market trends but remains a key player in real estate tech.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CSGP/",
+      "title": "CoStar Group, Inc. (CSGP) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/csgp",
+      "title": "CSGP Stock Price | CoStar Group Inc. Stock Quote (U.S.: Nasdaq ...)"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CSGP/",
+      "title": "CoStar Group (CSGP) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/CSGP",
+      "title": "CSGP Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:42:48.025400Z",
+  "backend": "deepseek"
+}

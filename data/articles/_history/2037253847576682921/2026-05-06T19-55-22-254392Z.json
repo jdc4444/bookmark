@@ -1,0 +1,43 @@
+{
+  "headline": "From Demo to Shipped: Vibe Coding's Expensive Last Mile",
+  "lede": "Artificial intelligence has made building a convincing prototype startlingly cheap. What it has not solved is the unglamorous gap between a demo that works in a founder's browser and a product that holds up under real users, app-store reviewers, and security audits. A consultancy pitch from @chrismaconi frames this gap as a business — a two-week, $10,000 sprint to take what AI built and make it shippable.",
+  "body": "**Vibe coding** — the practice of describing software to an AI and iterating until something functional emerges — was coined in early 2025 by AI researcher Andrej Karpathy, who urged developers to 'fully give in to the vibes, embrace exponentials, forget that the code even exists.' Collins English Dictionary named it its Word of the Year for 2025. By 2026, by some estimates, 92 percent of US developers had adopted the practice in some form, and roughly 60 percent of new code was AI-generated.\n\nThe case for it is hard to argue with on speed: tasks that once took weeks — a working dashboard, a mobile prototype, a data-driven landing page — can collapse into hours. What suffers is the layer below the visible surface. AI-generated code tends to optimise for functionality under the conditions it was tested in, not the conditions real products face: traffic spikes, adversarial input, platform compliance gatekeepers, and the slow entropy of a codebase maintained by people who didn't write it.\n\nThe tweet names specific failure modes: *UX*, *scalability*, *security*, and *app store review*. None is cosmetic. A mobile app that handles a thousand users but not a hundred thousand may require architectural changes that break what was built. App store review — Apple's in particular — rejects apps for everything from missing privacy disclosures to UI elements that resemble system components. Security is especially fraught: large language models have a documented tendency to produce code that looks correct but introduces SQL injection points, insecure credential handling, or absent input validation.\n\nThe consultancy model the tweet sells — a fixed-scope, CTO-led engagement to harden a vibe-coded foundation — is a recognisable service type, offered informally for years under names like 'technical due diligence' or 'engineering rescue.' What is new is the scale of the market for it. When the barrier to building a demo falls to near-zero, the number of founders holding a demo but not a product rises accordingly, and the gap between the two becomes a product category in itself.",
+  "tickers": [],
+  "poster": "chrismaconi",
+  "concepts": [
+    {
+      "key": "vibe-coding",
+      "term": "Vibe Coding",
+      "definition": "A development practice in which a programmer describes what they want software to do in plain language, lets an AI model generate the code, and iterates on the result — often without reading or fully understanding the underlying implementation. Coined by Andrej Karpathy in early 2025 and named Collins Word of the Year for that year."
+    },
+    {
+      "key": "production-grade",
+      "term": "Production-Grade",
+      "definition": "Software described as production-grade has been hardened for real-world deployment: it handles error conditions, unexpected traffic loads, security threats, and compliance requirements, not just the happy path a demo is built around. The distinction matters because code that appears to work in testing can fail badly once real users and adversarial conditions arrive."
+    },
+    {
+      "key": "app-store-review",
+      "term": "App Store Review",
+      "definition": "The process by which Apple (App Store) or Google (Play Store) evaluates a submitted app before approving it for public distribution. Review can reject apps for technical failures, policy violations, or UI guideline infractions — each rejection adds days or weeks to a launch timeline and requires a resubmission cycle."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The '90 percent' claim is rhetorical shorthand, not a measured figure. AI-generated code can embed structural problems — poorly chosen data models, missing authentication layers, synchronous bottlenecks — that are invisible in a demo and may require near-complete rewrites to fix, making the 'last 10%' framing misleadingly optimistic in harder cases. The tweet also discloses nothing about @chrismaconi's identity or track record, so the pitch cannot be independently evaluated from this post alone.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://lushbinary.com/blog/vibe-coding-developer-guide-ai-first-development/",
+      "title": "Vibe Coding 2026: Complete Developer Guide to AI-First Development",
+      "note": "Source for adoption statistics (92% of US developers), AI code-share figure (60%), and Karpathy origin quote"
+    },
+    {
+      "url": "https://techticsolutionsinc.medium.com/vibe-coding-explained-benefits-use-cases-and-how-its-changing-app-development-72c9d87129ed",
+      "title": "Vibe Coding Explained: Speed, Risks & Best Practices",
+      "note": "Covers the documented risks — security, scalability, and code quality — that inform the 'last mile' framing"
+    }
+  ],
+  "bookmark_id": "2037253847576682921",
+  "generated_at": "2026-05-06T19:55:22.254392Z",
+  "backend": "claude"
+}

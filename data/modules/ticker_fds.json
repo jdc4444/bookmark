@@ -1,0 +1,32 @@
+{
+  "key": "FDS",
+  "name": "FactSet Research Systems Inc.",
+  "exchange": "NYSE",
+  "blurb": "FactSet Research Systems Inc. is a financial digital platform and enterprise solutions provider serving the investment community. The company delivers data, analytical applications, workstations, portfolio analytics, and enterprise data solutions, along with managed services supporting data, performance, risk, and reporting workflows. It offers subscription-based financial data and market intelligence covering securities, companies, industries, and individuals, enabling buy-side and sell-side professionals to research investments and manage portfolios. With roughly 12,800 employees and a trailing-twelve-month revenue of approximately $2.40 billion, FactSet competes directly with Bloomberg and Refinitiv (LSEG) in the financial data terminal and analytics market.",
+  "recent": "As of mid-May 2026, FDS shares trade near $199.86 — close to their 52-week low of $185.00 and down sharply from a 52-week high of $474.79, reflecting a market-cap contraction of roughly 55.6% over the past year. The analyst consensus stands at Hold with an average price target of $284.80, implying significant upside from current levels but signaling caution. The company has a quarterly earnings report scheduled for June 22, 2026, and an ex-dividend date of May 29, 2026 for its $4.40 annual dividend.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/fds/",
+      "title": "FactSet Research Systems (FDS) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/FDS/",
+      "title": "FactSet Research Systems (FDS) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/FDS/",
+      "title": "FactSet Research Systems Inc. (FDS) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/FDS/",
+      "title": "(FDS) Stock Price & Latest News — Reuters"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/fds",
+      "title": "FDS Stock Price | FactSet Research Systems Inc. — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-15T08:12:18.865731Z",
+  "backend": "claude-sonnet-subagent"
+}

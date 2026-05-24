@@ -1,0 +1,15 @@
+{
+  "key": "QBTS",
+  "name": "D-Wave Quantum Inc.",
+  "exchange": "NYSE",
+  "blurb": "D-Wave Quantum is a Canadian-founded quantum computing company that commercialises quantum annealing — a technique suited to combinatorial optimisation problems — and, after its January 2026 acquisition of Quantum Circuits Inc. (QCI) for $550 million, also operates gate-model quantum hardware. It is one of the few publicly traded pure-play quantum computing companies.",
+  "recent": "QBTS reached an all-time high of $46.75 in October 2025 partly on a sentiment surge following Nvidia's release of Ising quantum AI models, before retreating to roughly $21 by May 2026. Full-year 2025 revenue was $24.6 million (up 179% year-over-year) but the company reported losses of $355 million. D-Wave closed the year with $884.5 million in cash, providing runway despite deep unprofitability. Analyst views are sharply split: median price targets imply substantial upside while some analysts cite extreme overvaluation versus near-term fundamentals.",
+  "sources": [
+    {"title": "D-Wave Quantum extreme valuation vs execution (Seeking Alpha)", "url": "https://seekingalpha.com/article/4890681-d-wave-quantum-extreme-valuation-meets-execution-reality"},
+    {"title": "QBTS stock price and 2026 outlook (blockchainreporter.net)", "url": "https://blockchainreporter.net/qbts-stock/"},
+    {"title": "D-Wave Quantum stock forecast and price target 2026 (MarketBeat)", "url": "https://www.marketbeat.com/stocks/NYSE/QBTS/forecast/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

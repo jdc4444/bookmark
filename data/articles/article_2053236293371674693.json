@@ -1,0 +1,127 @@
+{
+  "headline": "Why Frontier AI Models All Sound Like the Same Person",
+  "lede": "Roon, an OpenAI staffer who posts as @tszzl, observes that frontier language models — across competing labs and geopolitical borders — have converged on an identical worldview. Empirical surveys of twenty-six models back the claim: nearly every tested system clusters in the libertarian-left quadrant of the Political Compass. The mechanism turns out to be the alignment process itself.",
+  "body": "Roon — the pseudonym of a staffer at OpenAI who posts under @tszzl and coined the “wordcel vs. shape rotator” meme that briefly consumed tech Twitter — is not worried about models going rogue. He is worried about something more mundane: that they have all become the same person. His epithet, *neobuddhist neolib*, is a precise cultural compound — a sensibility that pairs Buddhist epistemics about impermanence and the dissolution of self with centrist-progressive policy priors. The worry is that every major lab has trained this same character into its systems, regardless of stated ideology or national origin.\n\nThe empirical record is more unsettling than a one-liner suggests. A 26-model audit (arXiv:2601.06194) found **96.3%** of large language models cluster in the libertarian-left quadrant of the Political Compass; no tested model occupied right-leaning territory at all. A separate PoliticsBench study from March 2026 tested eight frontier systems across multi-turn roleplay scenarios and found seven of the eight leaning left, with Alphabet (GOOGL)’s Gemini, OpenAI’s GPT series, and Anthropic’s Claude clustering together. A Promptfoo evaluation of four leading models placed all of them left of center on a 0–1 political-alignment scale, GPT-4.1 at 0.745 and Claude Opus 4 at 0.646. Crucially, the 26-model audit found that closed, safety-fine-tuned proprietary models score dramatically higher on cultural progressivism than open-weight alternatives — suggesting that the alignment process, not merely the underlying training data, is doing the ideological work.\n\nThe mechanism has a name: **RLHF preference collapse**. *Reinforcement learning from human feedback* trains models to produce outputs that human annotators prefer, and the dominant mathematical implementation — KL-divergence regularization — algorithmically suppresses minority viewpoints during optimization. If the annotator pool is drawn from a demographically similar population, as it largely has been, the effect concentrates further. A separate research thread deepens the puzzle: the *Platonic Representation Hypothesis*, advanced by MIT researchers and published at ICML 2024, proposes that as neural networks grow more powerful, they converge not just in political outputs but in the underlying representations they use to encode reality. Structural convergence and ideological convergence may be products of the same pressure.\n\nThe *neobuddhist* half of the epithet rewards examination. *Anatta* — the Buddhist doctrine of no-self, which holds that there is no permanent, unchanging essence beneath the flow of thoughts and sensations — is an unusual charge to level at a machine, but not an incoherent one. The alignment literature has increasingly borrowed Buddhist vocabulary: impermanence, non-attachment, interdependence as ethical frameworks. And large language models are, in a meaningful technical sense, anatta-compliant entities: no persistent memory, no continuous identity across sessions, no unified agent. When the same models are asked about housing policy, they tend toward the *YIMBY* position — supply-side reform through deregulation of zoning and permitting — which critics from both left and right have labeled *neoliberal*: it trusts markets to deliver what public provision does not.\n\nThe “including Grok and the Chinese models” provocation is the tweet’s most pointed move, and the data here is more complicated than the dismissal requires. xAI’s Grok is actually the most right-leaning of the major Western models in the bias audits, displaying what researchers call bipolar behavior — generating extreme outputs in both directions on 67.9% of questions rather than settling into a centrist-left groove. Alibaba (BABA)’s Qwen and DeepSeek score measurably lower on cultural progressivism than Western proprietary counterparts; the gap is statistically significant. The convergence is real, but it is a tendency rather than an identity. What makes Roon’s observation stick is not that every model is identical — it is that deviation from the pattern requires deliberate effort, and the reward function pushes against it. The default, as he drily notes, is boring.",
+  "tickers": [
+    "GOOGL",
+    "BABA"
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "xAI",
+      "ticker": null
+    },
+    {
+      "name": "Alibaba Group",
+      "ticker": "BABA"
+    },
+    {
+      "name": "DeepSeek",
+      "ticker": null
+    }
+  ],
+  "poster": "tszzl",
+  "concepts": [
+    {
+      "key": "rlhf-preference-collapse",
+      "term": "RLHF preference collapse",
+      "definition": "Reinforcement learning from human feedback (RLHF) trains models by rewarding outputs that human annotators prefer. The dominant optimization method — KL-divergence regularization — mathematically suppresses minority viewpoints in the process, collapsing the distribution of outputs toward whatever the annotator pool collectively finds agreeable. A 2024 paper (arXiv:2405.16455) found this causes measurable ideological homogenization and proposed a ‘Preference Matching’ alternative."
+    },
+    {
+      "key": "platonic-representation-hypothesis",
+      "term": "Platonic Representation Hypothesis",
+      "definition": "A hypothesis from MIT researchers (published at ICML 2024) proposing that as neural networks grow more powerful, they converge on similar internal representations of reality — regardless of whether they were trained on text, images, or other modalities. The name invokes Plato’s cave: all models are shadows of the same underlying world-structure. Follow-up experiments in 2026 found that more capable models show stronger cross-model representational alignment."
+    },
+    {
+      "key": "anatta",
+      "term": "Anatta (no-self)",
+      "definition": "One of the Three Marks of Existence in Buddhism, alongside impermanence and suffering. Anatta (Pali; Sanskrit: anat̄man) is the doctrine that there is no permanent, unchanging essence — no soul — beneath the flow of thoughts and sensations. The self is a process, not a substance. Some researchers have noted that large language models are structurally anatta-compliant: no persistent memory, no continuous identity between sessions, no unified agent."
+    },
+    {
+      "key": "yimby",
+      "term": "YIMBY",
+      "definition": "Yes In My Back Yard — a housing policy stance that attributes unaffordability to insufficient supply caused by over-regulation: single-family zoning, parking minimums, permitting delays. YIMBY advocates argue for upzoning and letting the market build. Critics characterize it as neoliberal because it prioritizes market-driven supply solutions over rent regulation, public housing, or redistributive programs."
+    },
+    {
+      "key": "political-compass",
+      "term": "Political Compass",
+      "definition": "A two-axis political classification tool that separates economic views (left vs. right) from social views (authoritarian vs. libertarian). Unlike simple left-right scales, it places entities in one of four quadrants. AI bias researchers have adopted it as a standardized benchmark for comparing model political orientations across studies — the libertarian-left quadrant, where most LLMs cluster, combines market-skeptical economics with socially progressive or permissive values."
+    },
+    {
+      "key": "neoliberalism",
+      "term": "Neoliberalism",
+      "definition": "A political-economic philosophy that emphasizes free markets, deregulation, private enterprise, and reduced state intervention. In housing policy, neoliberal positions favor supply-side solutions — enabling developers to build — over rent control, public housing subsidies, or redistributive programs. The term is far more commonly used by critics than by adherents."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that ‘even Grok’ has converged on the same neobuddhist-neolib worldview is an overstatement. Empirical bias audits consistently find Grok to be the most right-leaning of the major Western models; one March 2026 study identified it as the sole right-leaning outlier among eight tested systems. Its behavior is better characterized as erratic — generating extreme outputs in both directions on nearly 70% of questions — than as ideologically convergent with Claude or Gemini. The claim about Chinese models (Qwen, DeepSeek) is directionally supported but overstated: they lean left, but measurably less so than Western proprietary models, and the gap in cultural progressivism is statistically large.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2603.23841",
+      "title": "PoliticsBench: Benchmarking Political Values in Large Language Models with Multi-Turn Roleplay",
+      "note": "March 2026; found 7 of 8 frontier LLMs lean left across multi-turn roleplay scenarios"
+    },
+    {
+      "url": "https://arxiv.org/html/2601.06194v1",
+      "title": "Political Alignment Audit of 26 LLMs (2025)",
+      "note": "Found 96.3% of LLMs in the libertarian-left quadrant; proprietary models more progressive than open-weight"
+    },
+    {
+      "url": "https://www.promptfoo.dev/blog/grok-4-political-bias/",
+      "title": "Evaluating Political Bias in LLMs — Promptfoo (2026)",
+      "note": "Quantitative left-right scores for GPT-4.1, Gemini 2.5 Pro, Grok 4, Claude Opus 4; all left of center"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.07987",
+      "title": "The Platonic Representation Hypothesis — MIT / ICML 2024",
+      "note": "Foundational paper arguing powerful models converge on similar internal representations of reality"
+    },
+    {
+      "url": "https://www.quantamagazine.org/distinct-ai-models-seem-to-converge-on-how-they-encode-reality-20260107/",
+      "title": "Distinct AI Models Seem To Converge On How They Encode Reality — Quanta Magazine",
+      "note": "January 2026 follow-up on the Platonic Representation Hypothesis with new experimental confirmation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.16455",
+      "title": "On the Algorithmic Bias of Aligning LLMs with RLHF: Preference Collapse and Matching Regularization",
+      "note": "Identifies KL-divergence regularization as the mechanism suppressing minority viewpoints in RLHF"
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.13041",
+      "title": "LLM Political Bias and German Election Study (2024)",
+      "note": "Cross-model convergence documented using identical political test instruments"
+    },
+    {
+      "url": "https://www.britannica.com/topic/anatta",
+      "title": "Anatta — Encyclopaedia Britannica",
+      "note": "Authoritative definition of the Buddhist doctrine of no-self"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/YIMBY",
+      "title": "YIMBY — Wikipedia",
+      "note": "Overview of supply-side housing movement and neoliberal critiques"
+    },
+    {
+      "url": "https://goldsguide.com/roon-tszzl-2023/",
+      "title": "Roon is Every AI Enthusiast's Favorite Anon — Gold's Guide",
+      "note": "Profile of @tszzl / Roon, including OpenAI affiliation and community background"
+    }
+  ],
+  "bookmark_id": "2053236293371674693",
+  "generated_at": "2026-05-11T12:19:43.753595Z",
+  "backend": "claude-sonnet-subagent"
+}

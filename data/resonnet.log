@@ -1,0 +1,20 @@
+ok 2015251253681361009
+ok 2015443149523386826
+fail 2028874692291891240 (rc=1)
+              preexec_fn)
+              ^^^^^^^^^^^
+  ValueError: embedded null byte
+ok 2017980630491865122
+ok 2046244088542859591
+ok 1870876644614775213
+ok 2051001389284049111
+ok 2042353039080558979
+ok 2051019877893226733
+ok 2050964000167391245
+ok 2010309966796599607
+fail 2049285538096538017 (rc=1)
+    File "/Users/alphaone/Documents/Code/Bookmark/article_generator.py", line 562, in generate_article
+      raise ValueError(f"Could not parse {backend} output. First 400 chars: {raw[:400]}")
+  ValueError: Could not parse claude-sonnet-subagent output. First 400 chars: {"headline":"Volatility, Not Time, Is the True Enemy of Leverage","lede":"A prize-winning 2016 research paper by two American market technicians makes a disciplined, evidence-backed case that leveraged equity investing can enhance long-run returns and reduce drawdowns — provided investors deploy leverage only when market conditions make it favorable. The mechanism proposed is disarmingly simple: a
+ok 2041135011718463756
+DONE ok=11 fail=2

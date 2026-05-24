@@ -1,0 +1,24 @@
+{
+  "key": "BRK.B",
+  "name": "Berkshire Hathaway Inc. Class B",
+  "exchange": "NYSE",
+  "blurb": "Berkshire Hathaway is a multinational conglomerate holding company headquartered in Omaha, Nebraska, led for decades by chairman Warren Buffett. It owns a diverse portfolio of wholly-owned subsidiaries spanning insurance (GEICO, General Re), railroads (BNSF), energy (Berkshire Hathaway Energy), manufacturing, retail, and services. The company also holds large equity positions in publicly traded companies including Apple, Bank of America, Coca-Cola, and American Express. BRK.B shares represent 1/1,500th of a BRK.A share and trade at a price accessible to retail investors, making Berkshire one of the largest companies by market capitalization in the world.",
+  "recent": "Not enough public information from the provided sources to detail specific news, earnings, or price action from the past 30 days.",
+  "sources": [
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BRK-B/news/",
+      "title": "BRK.B News Today | Why did Berkshire Hathaway stock go down today?"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/BRK-B/",
+      "title": "Berkshire Hathaway Inc. (BRK-B) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/BRK.B:NYSE",
+      "title": "Berkshire Hathaway Inc Class B (BRK.B) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T09:37:24.141674Z",
+  "backend": "claude-sonnet-subagent"
+}

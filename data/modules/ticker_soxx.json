@@ -1,0 +1,29 @@
+{
+  "key": "SOXX",
+  "name": "iShares Semiconductor ETF",
+  "exchange": "NASDAQ",
+  "type": "etf",
+  "note": "ETF — exception to standard no-ETF rule; included because SOXX is a central subject of this bookmark.",
+  "blurb": "The iShares Semiconductor ETF (SOXX) tracks the ICE Semiconductor Index, a modified market-capitalisation-weighted benchmark of 34 companies spanning the full semiconductor value chain: chip designers (fabless), integrated device manufacturers, equipment makers, and electronic design automation software firms. BlackRock launched the fund in 2001 under ticker SOXX (previously SOXX tracked the PHLX SOX index). A distinctive capping rule limits the top five holdings to a maximum 8% weight and all others to 4%, preventing any single mega-cap from dominating the basket. As of May 2026 the fund's top ten holdings are AMD (8.10%), Broadcom (7.95%), Micron Technology (7.93%), NVIDIA (6.75%), Intel (6.58%), Marvell Technology (6.09%), Applied Materials (4.70%), Monolithic Power Systems (4.18%), Texas Instruments (3.99%), and NXP Semiconductors (3.92%) — collectively 60% of a $30 billion AUM. Expense ratio: 0.35% annually. SOXX is widely used as a proxy for the broader semiconductor cycle and is the most closely watched chip-sector ETF alongside the VanEck Semiconductor ETF (SMH).",
+  "recent": "SOXX posted its largest monthly return in the fund's 25-year history in April 2026, gaining approximately 40% — a pace not seen since the dot-com peak of February 2000. The rally was broad-based rather than Nvidia-driven: Intel surged 131%, AMD gained ~75%, Marvell exceeded 64%, Credo Technology rose 88%, and Astera Labs 84%, while Nvidia gained a comparatively modest 22%. SOXX's capping methodology meant it benefited fully from breadth rotation, outpacing SMH (which gained 32%) whose 18% Nvidia weight acted as a relative drag. From its March 30 trough of ~$310 to its April 23 high near $463, SOXX logged 17 consecutive up days — its longest ever winning streak. Year-to-date through early May 2026, SOXX is up roughly 50%. RSI readings above 80 signal technically overbought conditions. The AI-infrastructure buildout and tariff exemptions on advanced semiconductors were primary fundamental catalysts.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/etf/soxx/holdings/",
+      "title": "SOXX Holdings List — Stock Analysis"
+    },
+    {
+      "url": "https://www.benzinga.com/etfs/sector-etfs/26/05/52217332/soxx-smh-best-month-ever-april-2026-nvidia-lagged-chip-rally",
+      "title": "SOXX +40%, SMH +32% In April: Best Month Ever For Chip ETFs — Benzinga"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/02/semiconductor-etf-soxx-delivers-50-ytd-reddit-retail-cautious-despite-record-breaking-run/",
+      "title": "Semiconductor ETF SOXX Delivers 50% YTD — 24/7 Wall St."
+    },
+    {
+      "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf",
+      "title": "iShares Semiconductor ETF | SOXX — BlackRock"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

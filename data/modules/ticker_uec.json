@@ -1,0 +1,32 @@
+{
+  "key": "UEC",
+  "name": "Uranium Energy Corp.",
+  "exchange": "NYSE American",
+  "blurb": "Uranium Energy Corp. is a US-based uranium mining and development company focused on low-cost, environmentally friendly In Situ Recovery (ISR) extraction technology. The company holds a diversified portfolio of projects across Wyoming, Texas, New Mexico, and Arizona in the United States, as well as assets in Canada and Paraguay. With a market capitalization of approximately $7.6 billion, UEC is one of the larger pure-play uranium producers publicly traded in North America. The company currently operates at a net loss, reflecting the capital-intensive nature of uranium development and production ramp-up.",
+  "recent": "As of mid-May 2026, UEC shares trade around $15.37, above their 50-day moving average of $14.13, suggesting positive near-term momentum. The stock's 52-week range of $5.03–$20.34 reflects the high volatility typical of uranium equities amid shifting energy policy sentiment. Specific news catalysts or earnings releases from the past 30 days are not discernible from the available sources.",
+  "sources": [
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/UEC/",
+      "title": "Uranium Energy (UEC) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://stocktwits.com/symbol/UEC",
+      "title": "UEC: Uranium Energy Corp Latest Stock Price, Analysis, News — StockTwits"
+    },
+    {
+      "url": "https://www.uraniumenergy.com/news/releases/",
+      "title": "News Releases — Uranium Energy Corporation"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/UEC/news/",
+      "title": "Uranium Energy Corp. (UEC) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/UEC",
+      "title": "UEC Stock Price | Uranium Energy Corp. — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:02:30.018390Z",
+  "backend": "claude-sonnet-subagent"
+}

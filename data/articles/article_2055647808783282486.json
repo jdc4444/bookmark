@@ -1,0 +1,195 @@
+{
+  "headline": "Inside Aschenbrenner's AGI Fund: What Moved and What Held",
+  "lede": "Tweet 4/6 in a thread from @BlackPantherCap dissects what Leopold Aschenbrenner's Situational Awareness LP likely did with its holdings in its latest quarterly 13F filing. Aschenbrenner, a 25-year-old former OpenAI researcher who launched the fund in September 2024, runs a concentrated book organized around a single mandate: find the physical constraint that capital cannot route around, and buy the company that controls it. The analysis separates probable profit-taking from structural conviction holds.",
+  "body": "Situational Awareness LP entered 2026 with a disclosed U.S. equity book of roughly $5.5–7 billion spread across fewer than 30 stocks — a concentration that makes each position a deliberate thesis, not a hedge. The fund's defining posture is anti-consensus: it exited Nvidia (NVDA) and Broadcom (AVGO) early, dismissing both as too widely owned, and instead concentrated in the physical substrate of *AGI* — power generation, optical interconnects, *NAND flash* memory, and former bitcoin-mining facilities repurposed as compute campuses.\n\nBlackPantherCap's analysis identifies three probable trims. Bloom Energy (BE) — which sells *solid-oxide fuel cells*, electrochemical devices that convert natural gas or hydrogen into electricity on-site without combustion — is flagged as likely partially trimmed after a gain the poster places at 191% year-to-date. (Calendar-year 2026 data is somewhat murkier; the stock's 52-week run from a 2025 trough near $17 to an all-time high above $310 is extraordinary by any standard, but the exact YTD figure depends heavily on the measurement date and reference price.) SanDisk (SNDK), a pure-play NAND flash memory company spun off from Western Digital (WDC) in February 2025, ran roughly 816% over the trailing twelve months on surging AI-infrastructure storage demand — making some profit-taking, as the poster notes, basic *portfolio hygiene*. The most technically interesting item involves Intel (INTC) call options: if those were exercised into direct shares during the Q1 2026 rally, the 13F would reclassify the line from \"call\" to \"SH\" (shares held), and outside observers parsing the filing could misread a conversion as a new purchase — a subtle distinction the analysis flags explicitly.\n\nThe held positions carry a different logic. Lumentum Holdings (LITE) is treated as untouchable because Nvidia structurally locked its supply chain in March 2026: Nvidia invested $2 billion in LITE alongside a multi-year purchase commitment for *co-packaged optics* — advanced assemblies that place laser and photodetector components directly inside AI switch packages, slashing networking power consumption by as much as 40% and enabling far denser bandwidth. Simultaneously, Nvidia made an identical $2 billion investment in Coherent (COHR), cementing a two-supplier photonics duopoly at the heart of next-generation AI factory interconnects. Selling a structural position after that kind of procurement commitment, BlackPantherCap argues, is a category error — Nvidia has effectively pre-contracted the supply chain.\n\nIREN Limited (IREN), Core Scientific (CORZ), and Cipher Digital (CIFR) are grouped as \"AI compute campuses\" — former bitcoin miners that converted power-dense, low-cost-energy facilities into *GPU colocation* and hyperscaler data center hosting. Core Scientific pivoted after emerging from bankruptcy in January 2024, signing 12-year agreements with CoreWeave (CRWV) for 590 megawatts of capacity worth over $10 billion in contracted revenue, then raising $3.3 billion in *high-yield bonds* in April 2026 to fund further buildout across a three-gigawatt pipeline. BlackPantherCap treats all three as early-innings bets on the scarcest AI resource — energized, contracted power — whose thesis, the analysis concludes, is not yet close to played out.",
+  "tickers": [
+    "NVDA",
+    "AVGO",
+    "BE",
+    "SNDK",
+    "WDC",
+    "INTC",
+    "LITE",
+    "COHR",
+    "IREN",
+    "CORZ",
+    "CIFR",
+    "CRWV"
+  ],
+  "companies": [
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO"
+    },
+    {
+      "name": "Bloom Energy",
+      "ticker": "BE"
+    },
+    {
+      "name": "SanDisk",
+      "ticker": "SNDK"
+    },
+    {
+      "name": "Western Digital",
+      "ticker": "WDC"
+    },
+    {
+      "name": "Intel",
+      "ticker": "INTC"
+    },
+    {
+      "name": "Lumentum Holdings",
+      "ticker": "LITE"
+    },
+    {
+      "name": "Coherent",
+      "ticker": "COHR"
+    },
+    {
+      "name": "IREN Limited",
+      "ticker": "IREN"
+    },
+    {
+      "name": "Core Scientific",
+      "ticker": "CORZ"
+    },
+    {
+      "name": "Cipher Digital",
+      "ticker": "CIFR"
+    },
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV"
+    },
+    {
+      "name": "Situational Awareness LP",
+      "ticker": null
+    }
+  ],
+  "poster": "BlackPantherCap",
+  "concepts": [
+    {
+      "key": "13f-filing",
+      "term": "13F filing",
+      "definition": "A quarterly disclosure that U.S. institutional investment managers with over $100 million in assets must file with the SEC, listing their long equity positions as of the quarter-end date. It does not show short positions, unexercised options, or non-equity holdings, making it an incomplete — and frequently misread — snapshot of a fund's actual book."
+    },
+    {
+      "key": "agi",
+      "term": "AGI (Artificial General Intelligence)",
+      "definition": "A hypothetical level of machine intelligence capable of performing any intellectual task a human can, across arbitrary domains, without task-specific training. Distinguished from today's narrow AI systems — which excel at specific tasks but fail outside their training distribution — by genuine generality. The timeline for AGI is fiercely debated; Situational Awareness LP is explicitly premised on its arrival this decade."
+    },
+    {
+      "key": "solid-oxide-fuel-cell",
+      "term": "solid-oxide fuel cell",
+      "definition": "An electrochemical device that generates electricity by oxidizing a fuel — typically natural gas or hydrogen — across a ceramic electrolyte, without combustion. Produces lower emissions than gas turbines, generates negligible NOx, and can operate entirely off-grid. AI data centers prize them for dispatchable, grid-independent power at scale."
+    },
+    {
+      "key": "nand-flash-memory",
+      "term": "NAND flash memory",
+      "definition": "A type of non-volatile semiconductor storage that retains data without power by trapping electric charge in floating-gate transistors. The dominant technology in solid-state drives, smartphones, and data center storage arrays. AI training and inference workloads require vast amounts of fast, high-density NAND to store model weights, datasets, and intermediate activations."
+    },
+    {
+      "key": "portfolio-hygiene",
+      "term": "portfolio hygiene",
+      "definition": "Informal term for routine position management — trimming holdings that have grown outsized relative to their original thesis weight, taking profits after extreme runs, or reducing exposure where the risk/reward has shifted. The goal is to prevent any single position from dominating the book in a way the manager did not intend, regardless of conviction."
+    },
+    {
+      "key": "co-packaged-optics",
+      "term": "co-packaged optics (CPO)",
+      "definition": "An advanced photonic integration approach that places optical components — lasers, modulators, photodetectors — inside the same chip package as a high-speed network switch or AI accelerator, rather than in a separate pluggable module. Reducing the electrical connection distance from centimeters to millimeters cuts power consumption by up to 40% and enables much higher bandwidth density, which is critical as AI clusters scale to hundreds of thousands of GPUs."
+    },
+    {
+      "key": "gpu-colocation",
+      "term": "GPU colocation",
+      "definition": "A data center business model in which an operator builds and manages the physical facility — power infrastructure, cooling, networking — and leases space and capacity to clients who own or deploy GPU clusters. Former bitcoin miners are advantaged here because they already control high-power-density sites with established energy contracts and grid connections."
+    },
+    {
+      "key": "high-yield-bonds",
+      "term": "high-yield bonds",
+      "definition": "Corporate debt rated below investment grade (below BBB– by S&P or Baa3 by Moody's), also called junk bonds. They carry higher interest rates to compensate for greater default risk. Companies in capital-intensive buildout phases — like AI data center operators converting from crypto mining — frequently issue high-yield debt to fund infrastructure before revenues are fully established."
+    },
+    {
+      "key": "13f-options-reclassification",
+      "term": "13F options reclassification",
+      "definition": "When a fund holds call options on a stock and exercises them to receive the underlying shares, the position type changes from 'call' to 'SH' (shares held) in the subsequent 13F filing. Outside observers parsing the filing may interpret this shift as a new long position being opened, when it actually represents a conversion of an existing derivative into direct equity — no net new capital deployed."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The '191% YTD' figure for Bloom Energy (BE) is imprecise. Calendar-year 2026 data places the stock's year-to-date gain through mid-May 2026 somewhere between approximately 70% and 165% depending on source and snapshot date — the wide range reflects BE's extreme volatility and the difficulty of pinning a clean January 1 reference price. The figure may represent Aschenbrenner's entry-price return rather than strict calendar-year performance. The '816% 1Y' figure for SanDisk (SNDK) is broadly consistent with a trailing-twelve-month window from approximately May 2025 (when SNDK was trading near $155 after its February spinoff) to May 2026 prices above $1,400; the figure is not wrong per se, but the stock's actual one-year return by some calculations is significantly higher still, depending on the precise baseline date used.",
+  "thread_summary": "This is tweet 4/6 in a thread by @BlackPantherCap analyzing Leopold Aschenbrenner's Situational Awareness LP quarterly 13F filing. The thread reconstructs what the fund likely trimmed — positions up 100–800%+ where basic risk management or position-structure shifts apply — versus what it held firm, where a structural procurement lock-in or an early-innings thesis argues against selling. The overarching frame is Aschenbrenner's anti-consensus discipline: he invests in physical bottlenecks, not consensus chip plays, and holds until the thesis breaks rather than until the stock runs.",
+  "sources": [
+    {
+      "url": "https://www.fool.com/investing/2026/04/25/artificial-intelligence-ai-prodigy-leopold-aschenb/",
+      "title": "Motley Fool — Leopold Aschenbrenner Top 7 Holdings",
+      "note": "13F holdings breakdown and fund overview"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/05/leopold-aschenbrenners-situational-awareness-fund/",
+      "title": "Motley Fool — Situational Awareness Fund and Bloom Energy",
+      "note": "Fund thesis and BE position context"
+    },
+    {
+      "url": "https://fortune.com/2026/03/05/leopold-aschenbrenner-ai-hedge-fund-superintelligence-agi-power-companies-crypto-miners/",
+      "title": "Fortune — Leopold Aschenbrenner AGI hedge fund profile",
+      "note": "Fund mandate, investment philosophy, biography"
+    },
+    {
+      "url": "https://hedgefollow.com/funds/Situational+Awareness",
+      "title": "HedgeFollow — Situational Awareness LP 13F",
+      "note": "Quarterly 13F position data and portfolio weights"
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-strategic-partnership-with-lumentum-to-develop-state-of-the-art-optics-technology",
+      "title": "NVIDIA Newsroom — Strategic Partnership with Lumentum",
+      "note": "$2B investment and CPO purchase commitment announcement, March 2026"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/03/02/nvidia-investment-coherent-lumentum.html",
+      "title": "CNBC — Nvidia $4B photonics investment in Coherent and Lumentum",
+      "note": "Simultaneous $2B investment in Coherent confirmed"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/",
+      "title": "NVIDIA Developer Blog — Co-Packaged Optics for AI Factories",
+      "note": "Technical explanation of CPO and its AI networking power benefits"
+    },
+    {
+      "url": "https://www.coindesk.com/business/2026/04/21/core-scientific-seeks-usd3-3-billion-bond-sale-to-further-ai-data-center-pivot",
+      "title": "CoinDesk — Core Scientific $3.3B bond sale",
+      "note": "High-yield bond raise to fund AI data center expansion, April 2026"
+    },
+    {
+      "url": "https://www.investing.com/news/company-news/core-scientific-q1-fy2026-slides-10b-ai-contracts-3-gw-pipeline-93CH-4665996",
+      "title": "Investing.com — Core Scientific Q1 FY2026 slides",
+      "note": "$10B AI contracts, 3 GW pipeline, 350 MW energized"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/be/",
+      "title": "StockAnalysis — Bloom Energy (BE)",
+      "note": "YTD performance data and 52-week price history"
+    },
+    {
+      "url": "https://www.tikr.com/blog/bloom-energy-stock-is-up-134-in-2026-heres-why-be-is-surging",
+      "title": "TIKR — Bloom Energy up 134% in 2026",
+      "note": "YTD 2026 performance benchmark and key catalysts"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/sndk/",
+      "title": "StockAnalysis — SanDisk (SNDK)",
+      "note": "Historical price data used to assess 1Y return figure"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Core_Scientific",
+      "title": "Wikipedia — Core Scientific",
+      "note": "Company history, bankruptcy emergence, and HPC pivot timeline"
+    }
+  ],
+  "bookmark_id": "2055647808783282486",
+  "generated_at": "2026-05-17T08:34:48.167788Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,48 @@
+{
+  "headline": "Context Fatigue Is Real, and /clear Is the Cure",
+  "lede": "A developer's wry confession — three months of declining AI output, traced finally to a full context window rather than a dumber model — captures something genuine about how large-language-model coding assistants actually work. The discovery of a single command, `/clear`, restored performance. The real story is why that happens, and what else most users are missing.",
+  "body": "Every AI coding assistant runs against a hard ceiling called the **context window** — the total number of tokens (roughly, word-fragments) the model can hold in its working memory at once. Claude Code, Anthropic's terminal-based coding agent, is no exception. As a conversation grows — accumulated file reads, error traces, half-finished refactors, earlier questions — the window fills. The model isn't growing worse; it's being asked to reason coherently across an increasingly cluttered table. Old context crowds out fresh signal, and responses can become vaguer, more repetitive, or simply less sharp.\n\nThe `/clear` command solves this by wiping the session history and starting a blank conversation. The model's capabilities are unchanged; what changed is the noise-to-signal ratio. This is not a bug so much as a structural property of *transformer* architectures, which attend to all tokens in the window simultaneously — more tokens means more interference from irrelevant material. Power users have long known to clear aggressively; most newcomers don't realize the option exists.\n\nFor sessions where history matters but the window is straining, Claude Code offers `/compact` — a middle path that summarizes prior context into a condensed form before continuing, preserving meaningful state without keeping every token verbatim. The image attached to the post reveals other commands: `CLAUDE.md`, a project-level instruction file the model reads on startup; *hooks*, shell commands wired to events like file saves or tool calls; and `--max-budget-usd`, a cost ceiling per session. Each represents a different surface for shaping model behavior rather than fighting it.\n\nThe broader lesson the tweet dramatizes is one of *tool literacy* — the gap between using a sophisticated tool as a chatbot that happens to live in the terminal versus actually reading its interface. Claude Code was designed around a command vocabulary. Ignoring that vocabulary and then attributing degraded output to model quality is a pattern that recurs across developer tools: blame the instrument before checking the manual.\n\nNone of this is to say context-window limits are a minor inconvenience. For large codebases, they remain a genuine constraint. But the specific frustration the post describes — a slow degradation the user attributed to the model itself — is almost always context saturation, and it's almost always fixable in under three seconds.",
+  "tickers": [],
+  "poster": "zodchiii",
+  "concepts": [
+    {
+      "key": "context-window",
+      "term": "context window",
+      "definition": "The maximum number of tokens — fragments of text — a language model can process in a single pass. Everything the model 'remembers' during a conversation must fit inside this window. When it fills, older material competes with new input, which can make responses feel less focused or coherent."
+    },
+    {
+      "key": "slash-clear",
+      "term": "/clear",
+      "definition": "A built-in Claude Code command that erases the current conversation history and starts a fresh session. The model's weights and abilities are unchanged; only the accumulated context is discarded, freeing the full window for new work."
+    },
+    {
+      "key": "slash-compact",
+      "term": "/compact",
+      "definition": "A Claude Code command that condenses the existing conversation into a shorter summary before continuing. It preserves meaningful context without keeping every prior token verbatim, offering a middle path between a full /clear and an overloaded session."
+    },
+    {
+      "key": "claude-md",
+      "term": "CLAUDE.md",
+      "definition": "A markdown file placed in a project's root directory that Claude Code reads automatically at session start. It lets developers embed standing instructions, conventions, or context into every conversation without repeating them manually."
+    },
+    {
+      "key": "hooks",
+      "term": "hooks (Claude Code)",
+      "definition": "Shell commands configured to run automatically in response to events inside a Claude Code session — for example, after a file is written or a tool is called. They allow automated, repeatable behaviors without prompting the model each time."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that output quality 'doubles' after /clear is anecdotal shorthand, not a measured figure. The underlying observation — that context saturation degrades response quality — is well-documented as a real phenomenon, but the magnitude varies by session length, task type, and model. The framing is vivid rather than precise.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/zodchiii/status/2038950761522978950",
+      "title": "Original tweet by @zodchiii",
+      "note": "Primary source; the tweet and its attached image are the basis for all claims in this brief"
+    }
+  ],
+  "bookmark_id": "2038950761522978950",
+  "generated_at": "2026-05-06T19:45:51.861622Z",
+  "backend": "claude"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "2454.TW",
+  "name": "MediaTek Inc.",
+  "exchange": "Taiwan Stock Exchange",
+  "blurb": "MediaTek Inc. is a Taiwanese fabless semiconductor company that designs system-on-chip (SoC) solutions for mobile devices, smart TVs, networking, and IoT. It is one of the world's largest chip designers, competing with Qualcomm in the smartphone processor market. The company also supplies chips for AI, automotive, and edge computing applications.",
+  "recent": "In the past 30 days, MediaTek's stock traded near its 52-week high of TWD 3,470, reflecting strong demand for its smartphone and AI chips. The company has been gaining market share in mid-range 5G chipsets and expanding into automotive and AI edge computing. No major earnings or news were reported in the last month.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/2454.TW/",
+      "title": "MediaTek Inc. (2454.TW) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/MEDIATEK-INC-6495333/",
+      "title": "MediaTek Inc. Stock (2454) - Quote Taiwan S.E.- MarketScreener"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/2454?countrycode=tw",
+      "title": "2454 Stock Price | MediaTek Inc. Stock Quote (Taiwan) | MarketWatch"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/2454-TW",
+      "title": "2454-TW: MediaTek Inc - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/2454:TPE",
+      "title": "MediaTek Inc (2454) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:42:52.286308Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,13 @@
+{
+  "key": "KLAC",
+  "name": "KLA Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "KLA Corporation is the global leader in process control and yield management equipment for semiconductor manufacturing — the tools that inspect wafers and detect defects at every stage of chip fabrication. As process nodes shrink and pattern complexity increases, process control becomes more critical: a single undetected defect layer can ruin an entire wafer lot. KLA's near-monopoly in wafer inspection and metrology gives it unusually stable revenue even during equipment spending downturns, as chipmakers cannot defer defect inspection without catastrophic yield losses. KLA also supplies equipment for PCB, LED, and solar manufacturing.",
+  "recent": "KLA trades at a forward P/E of ~35.3x on 31.1% projected EPS growth, yielding a PEG of 1.14 — modest for a company with near-monopoly process control positioning. Revenue has grown steadily as the number of inspection steps per wafer increases with each new process node generation. KLA's recurring service revenue (parts, software) provides a stable base around which equipment revenue cycles.",
+  "sources": [
+    {"url": "https://companiesmarketcap.com/semiconductors/semiconductor-companies-ranked-by-pe-ratio/", "title": "Semiconductor Companies Ranked by PE Ratio — CompaniesMarketCap"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

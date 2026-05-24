@@ -1,0 +1,131 @@
+{
+  "headline": "Newton's Most Expensive Trade, and What It Means for Hynix",
+  "lede": "In the spring of 1720, Isaac Newton sold his South Sea stock at a tidy profit, then watched his friends grow rich as the price doubled again. He bought back in, with everything, at the top. A chart circulated by Marc Faber of the *Gloom, Boom & Doom Report* makes the sequence exquisitely legible — and a trader's one-line caption, \"Re-enter Hynix with a lot?\", plants the same question squarely in the present.",
+  "body": "The **South Sea Company** was a British joint-stock enterprise chartered in 1711 to convert government war debt into equity and hold a monopoly on trade with Spanish Latin America. Its actual commercial revenues were minimal; the shares were priced on narrative and sustained by insider manipulation. The stock rose from £128 in January 1720 to more than £1,000 by August. Newton had owned shares since at least 1713, and early in 1720 he sold — pocketing what historian Andrew Odlyzko, drawing on Bank of England archives, estimates as roughly £7,000 in profit. Then the stock kept climbing.\n\nBy late spring Newton had re-entered, concentrating \"essentially all of his capital into a single stock\" at prices roughly double his exit. His loss when the bubble collapsed that autumn is traditionally stated as £20,000 — a figure tracing to family oral history recorded seventy-seven years after the fact. Odlyzko's 2019 paper in the *Royal Society Journal of the History of Science* puts the loss at \"almost surely\" above £10,000 and potentially near £20,000. The quote popularly assigned to Newton — \"I can calculate the motions of the heavenly bodies, but not the madness of the people\" — is almost certainly apocryphal; it was popularized by Benjamin Graham in *The Intelligent Investor* and cannot be traced to any contemporary source.\n\nMarc Faber, the Swiss contrarian economist who has published the *Gloom, Boom & Doom Report* since 1990, rendered Newton's four trades as annotations on the price chart and labeled them with telegraphic clarity: *invests a bit, exits happy, watches friends get rich, re-enters with a lot, exits broke*. The chart reached a wider audience when GMO's Jeremy Grantham featured it in a 2011 quarterly investment letter. Its pedagogical power lies in naming a behavioral sequence the finance literature has since formalized. The *disposition effect* — identified by economists Hersh Shefrin and Meir Statman in 1985 and confirmed empirically by Terrance Odean across ten thousand brokerage accounts — describes investors' systematic tendency to exit winning positions too early. That early exit then triggers *regret aversion*: watching others profit from a stock you sold creates intense pressure to re-enter. The re-entry, driven by FOMO (*fear of missing out*), typically arrives at a larger size and a worse price — Newton's second bet was his entire fortune.\n\n**SK Hynix** (000660.KS) is not an obvious bubble candidate on the fundamentals. It is the world's dominant supplier of *HBM* — *High Bandwidth Memory*, a stacked *DRAM* architecture used in Nvidia (NVDA) AI accelerators — with roughly 62 percent of global shipments. The stock fell below 80,000 won in 2023 during a memory-chip industry downturn; by early May 2026 it had risen to approximately 1,654,000 won, a gain approaching 800 percent in the trailing year alone. In the first quarter of 2026 the company reported revenue up 198 percent year-on-year and operating margins of 72 percent — numbers more commonly associated with enterprise software than a commodity chipmaker. Capacity is reportedly sold out through the end of 2026.\n\nWhat Faber's chart cannot resolve — and what the poster's one-line caption deliberately leaves open — is whether this is a genuine structural shift in the economics of memory chips or a momentum narrative that has already priced in years of perfection. Newton's error was not in recognizing the South Sea Company's government connections; it was in letting social comparison override his own earlier judgment and in concentrating dangerously at the top. The chart is not a prediction. It is a prompt to notice that the psychological conditions for Newton's trade are now precisely in place: an early exit, friends who held on, and an asset that has already made them very rich indeed.",
+  "tickers": [
+    "000660.KS",
+    "NVDA"
+  ],
+  "companies": [
+    {
+      "name": "South Sea Company",
+      "ticker": null
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Grantham, Mayo, Van Otterloo & Co.",
+      "ticker": null
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    }
+  ],
+  "poster": "valuedrift",
+  "concepts": [
+    {
+      "key": "south-sea-bubble",
+      "term": "South Sea Bubble",
+      "definition": "A speculative mania that inflated shares of England's South Sea Company from roughly £128 in January 1720 to over £1,000 by August of that year before collapsing to around £100 by year-end. The bubble was sustained by insider manipulation and narrative rather than commercial substance, and it is considered one of the earliest and most studied financial collapses in history. Its aftermath contributed to early securities regulation in Britain."
+    },
+    {
+      "key": "disposition-effect",
+      "term": "Disposition Effect",
+      "definition": "The tendency of investors to sell winning positions too early (locking in a gain) while holding losing positions too long (hoping for a recovery). First characterized by economists Hersh Shefrin and Meir Statman in 1985, it is driven by loss aversion and mental accounting. Newton's early exit from South Sea stock is a textbook illustration of the sell-winners-too-soon side of this effect."
+    },
+    {
+      "key": "regret-aversion",
+      "term": "Regret Aversion",
+      "definition": "A behavioral bias in which investors make decisions primarily to minimize the anticipated pain of a wrong choice in hindsight. In markets it often manifests as the compulsion to re-enter an asset after selling it early — because watching others profit from it generates the sense of a mistake made. This mechanism is distinct from rational updating: the investor is responding to social comparison, not new information about value."
+    },
+    {
+      "key": "fomo",
+      "term": "FOMO (Fear of Missing Out)",
+      "definition": "In financial markets, the anxiety of missing further gains after having exited a position, driven by observing others profit. FOMO is a manifestation of regret aversion and often prompts investors to buy into assets late in a rally at elevated prices and with larger-than-usual position sizes. It is the emotional engine behind Newton's fatal South Sea re-entry."
+    },
+    {
+      "key": "hbm",
+      "term": "HBM (High Bandwidth Memory)",
+      "definition": "A type of high-performance memory chip built by stacking multiple DRAM dies vertically and connecting them with microscopic pathways called through-silicon vias, achieving far greater data throughput than conventional flat DRAM while consuming less power per bit. HBM is the memory architecture of choice for AI accelerators such as Nvidia's H100, H200, and Blackwell-series GPUs, making it a central bottleneck in the AI supply chain."
+    },
+    {
+      "key": "dram",
+      "term": "DRAM (Dynamic Random-Access Memory)",
+      "definition": "The most common type of volatile computer memory, where each bit of data is stored in a tiny capacitor that must be continuously refreshed. DRAM underpins the main memory in most computers and servers; in stacked form it becomes High Bandwidth Memory. The global DRAM market is dominated by three companies: Samsung, SK Hynix, and Micron."
+    }
+  ],
+  "books": [
+    {
+      "key": "the-intelligent-investor",
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "summary": "First published in 1949, this is the foundational text of value investing — the discipline of buying securities at a price significantly below their intrinsic worth. Graham distinguishes between investing (systematic analysis aimed at safety and adequate return) and speculation (everything else). The book popularized the Newton South Sea anecdote and the apocryphal quote about calculating heavenly bodies but not the madness of people. Warren Buffett called it the best book on investing ever written."
+    }
+  ],
+  "repos": [],
+  "fact_check": "Two widely repeated facts require qualification. The £20,000 loss figure originates not from Newton's own accounts but from an anecdote recorded in 1797 — seventy-seven years after the event — by William Seward, who attributed it to Newton's niece. Andrew Odlyzko's 2019 archival study establishes that Newton's losses 'almost surely exceeded £10,000' and may have approached £20,000, but the precise figure cannot be confirmed from primary sources. Separately, the famous quote — 'I can calculate the motions of the heavenly bodies, but not the madness of the people' — is apocryphal: it appears in no contemporary document and was popularized by Benjamin Graham in 1949. A related sentiment was recorded by Lord Radnor via Joseph Spence, but the familiar verbatim wording is a later embellishment. Marc Faber's annotated chart is also a stylized editorial interpretation of Newton's trades, not a verbatim historical record; the underlying trade sequence is reconstructed from archival documents.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://royalsocietypublishing.org/rsnr/article/73/1/29/48674/Newton-s-financial-misadventures-in-the-South-Sea",
+      "title": "Newton's financial misadventures in the South Sea Bubble — Royal Society (Odlyzko, 2019)",
+      "note": "Primary scholarly source on Newton's actual trading history based on Bank of England archive documents"
+    },
+    {
+      "url": "https://www-users.cse.umn.edu/~odlyzko/doc/mania13c.pdf",
+      "title": "Isaac Newton and the Perils of the Financial South Sea — Odlyzko (preprint)",
+      "note": "Companion paper with detail on Newton's re-entry and capital concentration"
+    },
+    {
+      "url": "https://newtonandthemint.history.ox.ac.uk/global-financial-world/newton-and-the-south-sea-bubble",
+      "title": "Newton and the South Sea Bubble — Oxford University Newton and the Mint Project",
+      "note": "Peer-reviewed scholarly database on Newton's financial activities at the Royal Mint"
+    },
+    {
+      "url": "https://www.smithsonianmag.com/smart-news/market-crash-cost-newton-fortune-180961655/",
+      "title": "The Market Crash That Cost Newton a Fortune — Smithsonian Magazine",
+      "note": "Reputable science journalism synthesizing Odlyzko's findings for a general audience"
+    },
+    {
+      "url": "https://bambooinnovator.com/2013/04/04/isaac-newtons-nightmare-during-the-south-sea-stock-bubble-dec-1718-dec-1721/",
+      "title": "Isaac Newton's Nightmare During the South Sea Stock Bubble — Bamboo Innovator",
+      "note": "Documents the chart's provenance and its circulation via Grantham's GMO quarterly letter"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marc_Faber",
+      "title": "Marc Faber — Wikipedia",
+      "note": "Background on the chart's creator, his career history, and the Gloom Boom Doom Report"
+    },
+    {
+      "url": "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/",
+      "title": "2026 Market Outlook: Focus on the HBM-led Memory Supercycle — SK Hynix Newsroom",
+      "note": "Company's own analysis of HBM market dynamics and demand outlook for 2026"
+    },
+    {
+      "url": "https://www.datacenterdynamics.com/en/news/sk-hynix-confirms-hbm-chips-sold-out-for-2024-limited-supply-left-for-2025/",
+      "title": "SK Hynix confirms HBM chips sold out for 2024 — Data Center Dynamics",
+      "note": "Primary reporting on HBM capacity constraints driving pricing and stock performance"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/krx/000660/",
+      "title": "SK Hynix (000660) Stock Data — Stock Analysis",
+      "note": "Current stock price data and trailing return figures for SK Hynix on the Korea Exchange"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1540-6261.1985.tb05002.x",
+      "title": "The Disposition to Sell Winners Too Early and Ride Losers Too Long — Shefrin & Statman (1985)",
+      "note": "Original academic paper defining and theorizing the disposition effect"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/0022-1082.00072",
+      "title": "Are Investors Reluctant to Realize Their Losses? — Odean (1998)",
+      "note": "Large-sample empirical study confirming the disposition effect across 10,000 brokerage accounts"
+    }
+  ],
+  "bookmark_id": "2051864537570398434",
+  "generated_at": "2026-05-07T07:27:54.523852Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,65 @@
+{
+  "headline": "Three.js at r184: A Library That Outgrew Its Label",
+  "lede": "When a JavaScript project reaches its 184th sequential release and ships its own scene editor, a complete asset-loading pipeline, and a post-processing stack, the word 'library' starts to feel like calling a cathedral a shed. @JohnissacJ82143's one-sentence take on the Three.js r184 announcement lands on a real tension in how the web-development world classifies mature creative tools.",
+  "body": "**Three.js** began as a thin wrapper around *WebGL* — the browser API that exposes the GPU for 3D rendering — making it approachable without writing raw shader code. That original premise still holds: you drop in the package, define a scene, a camera, and a renderer, and three-dimensional geometry appears in a `<canvas>` element. The project has been open-source since 2010 under the handle mrdoob (Ricardo Cabello) and has accumulated well over 100,000 GitHub stars, making it one of the most followed JavaScript repositories in existence.\n\nThe case for reclassifying it as an *engine* rests on what it has quietly accumulated. The library now ships a *scene graph* — a hierarchical structure of objects, lights, and cameras that the renderer traverses — alongside loaders for dozens of 3D file formats (glTF, OBJ, FBX, and more), a skeletal animation system, physically based rendering materials, a post-processing pipeline for effects like bloom and depth-of-field, and a standalone browser-based editor for assembling and exporting scenes. That is the functional surface area of a game engine. The distinction between 'library you wire up' and 'runtime you build inside' is genuinely blurry here.\n\nThe debate is partly semantic. Game engines like Unity and Unreal add built-in physics simulation, audio routing, scripting lifecycles, and deployment targets beyond the browser — things Three.js still delegates to companion packages or leaves to the developer. A purist would say Three.js remains a rendering library that happens to be very large. But the poster's instinct reflects something real: when a tool ships its own editor and manages the entire frame-update loop for you, calling it a library undersells the cognitive model shift required to use it well.\n\nThe r184 version number is itself a signal. Three.js uses sequential 'r'-prefixed releases rather than semantic versioning, a choice that keeps contributors focused on forward progress rather than compatibility promises. One hundred and eighty-four releases of sustained, non-breaking improvement to a single creative runtime is unusual in an ecosystem that routinely rewrites itself. The longevity alone has pushed Three.js past the threshold where 'library' conveys its actual weight.",
+  "tickers": [],
+  "companies": [],
+  "poster": "JohnissacJ82143",
+  "concepts": [
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "A browser API that allows JavaScript to talk directly to the device's GPU, enabling hardware-accelerated 2D and 3D rendering inside a standard HTML canvas element without plugins. Writing raw WebGL requires managing shaders in GLSL, a low-level C-like language, which is why wrapper libraries like Three.js exist."
+    },
+    {
+      "key": "scene-graph",
+      "term": "scene graph",
+      "definition": "A hierarchical data structure used in 3D engines to organize objects, lights, cameras, and their spatial relationships. Parent-child relationships mean moving or transforming a parent automatically affects all its children, which is how complex scenes stay manageable."
+    },
+    {
+      "key": "gltf",
+      "term": "glTF",
+      "definition": "GL Transmission Format, a compact, open standard for transmitting 3D models and scenes. Often called the 'JPEG of 3D' because it has become the dominant interchange format for real-time graphics on the web."
+    },
+    {
+      "key": "physically-based-rendering",
+      "term": "physically based rendering (PBR)",
+      "definition": "A shading model that simulates how light actually interacts with surfaces — roughness, metalness, reflectance — rather than using ad hoc tricks. PBR materials look consistent across different lighting conditions and have become the standard in both game engines and real-time web graphics."
+    },
+    {
+      "key": "post-processing-pipeline",
+      "term": "post-processing pipeline",
+      "definition": "A chain of full-screen image effects applied after the 3D scene has been rendered, such as bloom, motion blur, depth-of-field, and color grading. These are layered onto the final frame rather than computed per-object."
+    },
+    {
+      "key": "semantic-versioning",
+      "term": "semantic versioning",
+      "definition": "A versioning scheme (MAJOR.MINOR.PATCH) where the number itself signals the nature of changes: a major bump means breaking changes, a minor bump adds features, a patch fixes bugs. Three.js uses sequential 'r' numbers instead, deliberately sidestepping compatibility promises."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "mrdoob-three.js",
+      "url": "https://github.com/mrdoob/three.js/",
+      "summary": "The canonical Three.js repository, maintained by Ricardo Cabello (mrdoob) since 2010. It bundles the core rendering engine, hundreds of examples, loaders for major 3D file formats, a post-processing stack, and a browser-based scene editor. With over 100,000 GitHub stars it is one of the most-used creative-coding repositories in the JavaScript ecosystem."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://threejs.org/",
+      "title": "Three.js – JavaScript 3D Library",
+      "note": "Official homepage confirming r184 as the current release and listing the project's tooling surface (editor, devtools, examples)."
+    },
+    {
+      "url": "https://github.com/mrdoob/three.js/",
+      "title": "GitHub – mrdoob/three.js: JavaScript 3D Library",
+      "note": "Source repository confirming open-source status and project scope."
+    }
+  ],
+  "bookmark_id": "2045048187648692594",
+  "generated_at": "2026-05-07T03:47:36.042421Z",
+  "backend": "claude"
+}

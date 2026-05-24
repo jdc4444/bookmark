@@ -1,0 +1,164 @@
+{
+  "headline": "Fifty Tickers in Search of the Humanoid Robot Supply Chain",
+  "lede": "A fifty-ticker crowdsourced list of stocks with 'humanoid exposure' is circulating on X, assembled through community contributions and curated by @aleabitoreddit. The exercise captures a genuine investment impulse: as commercial humanoid robotics edges toward mass production, investors are racing to map supply-chain chokepoints before institutional research catches up. The poster's own top-mentioned names — Harmonic Drive, Ouster, RoboStrategy, Vishay Precision Group, Mobileye, and Ubtech — offer a useful cross-section of the thesis's strongest and most questionable links.",
+  "body": "The humanoid robot investment thesis rests on a familiar logic: when a transformative platform scales, the chokepoint components often deliver superior returns compared with the assemblers themselves. Analysts estimate a $38 billion humanoid robot market by 2035, from roughly zero commercial revenue today. Investors are attempting to map that supply chain before positions are established.\n\nThe name that appeared most consistently in community contributions is **Harmonic Drive Systems** (6324.T), Japan's dominant manufacturer of *strain wave gearing* — the precision joint technology that allows each degree of freedom in a humanoid arm or leg to move without backlash (the tiny positional error that compounds across a gear train). A single humanoid robot requires roughly twenty to forty such reducers, and Harmonic Drive holds an estimated 70% global share in this specific mechanism. The market for harmonic-type reducers was roughly $539 million in 2025 and is forecast to compound at nearly 25% annually through 2032. The company reported revenue of ¥55.6 billion (~$370 million) in fiscal 2025, though operating profit fell sharply as semiconductor-market softness weighed on near-term results; management targets ¥90 billion in sales by fiscal 2027.\n\nAmong the less-obvious names, **Vishay Precision Group** (VPG) stands out because its humanoid exposure is no longer speculative. VPG makes precision resistors and *force/torque sensors* — the wrist-level feedback devices that allow a robot hand to modulate grip and detect slippage without crushing what it holds. In fiscal 2025, its humanoid and semiconductor-equipment initiatives generated $37.8 million, exceeding a $30 million internal target; management expects $45 million in 2026 from confirmed orders across multiple early-production customers. At the OEM end of the list, **Ubtech Robotics** (9880.HK), China's leading publicly-traded humanoid maker, entered mass production of its Walker S2 in November 2025, with cumulative Walker-series orders exceeding RMB 800 million (~$112 million) and full-year 2025 revenue of RMB 2 billion (~$275 million), up 53% year-over-year.\n\nThe most structurally interesting pivot belongs to **Mobileye Global** (MBLY), an automotive-chip company that acquired Israeli humanoid startup Mentee Robotics for $900 million at CES in January 2026. Mobileye's heritage is the *EyeQ* vision-processor — embedded in hundreds of millions of vehicles for lane-keeping and automatic braking — an architecture that translates naturally to a robot's visual-perception stack. First on-site customer deployments are targeted for 2026, with series production in 2028. The transaction drew governance scrutiny because Mobileye CEO Amnon Shashua co-founded both companies and stood to collect approximately $341 million from the deal.\n\nThe list also has its signal-and-noise problems. Nabtesco (6268.T), which commands roughly 60% of the global *RV reducer* market, is a legitimate robotics supplier but arguably a weaker fit for humanoids specifically — its cycloidal precision gearing excels in high-load industrial arms rather than the lightweight, dexterous joints that humanoids require. **RoboStrategy** (BOT), which debuted on Nasdaq only days before this list circulated, is a holding fund offering public-market access to private humanoid names like Figure AI — not a direct component supplier. Brookfield Asset Management (BAM) is an alternative asset manager with no discernible robotics exposure. And **Terrestrial Energy** (IMSR), a molten-salt nuclear reactor developer, appears to be an outright misclassification. Ouster (OUST), the digital *LiDAR* maker with 52% overall revenue growth in fiscal 2025 and robotics as its largest vertical, occupies a grayer zone: its sensors are credibly useful for humanoid perception, but no supply relationship with a named humanoid OEM has been publicly confirmed.",
+  "tickers": [
+    "6324.T",
+    "VPG",
+    "9880.HK",
+    "MBLY",
+    "6268.T",
+    "BOT",
+    "BAM",
+    "IMSR",
+    "OUST"
+  ],
+  "companies": [
+    {
+      "name": "Harmonic Drive Systems",
+      "ticker": "6324.T"
+    },
+    {
+      "name": "Vishay Precision Group",
+      "ticker": "VPG"
+    },
+    {
+      "name": "Ubtech Robotics",
+      "ticker": "9880.HK"
+    },
+    {
+      "name": "Mobileye Global",
+      "ticker": "MBLY"
+    },
+    {
+      "name": "Mentee Robotics",
+      "ticker": null
+    },
+    {
+      "name": "Nabtesco",
+      "ticker": "6268.T"
+    },
+    {
+      "name": "RoboStrategy",
+      "ticker": "BOT"
+    },
+    {
+      "name": "Figure AI",
+      "ticker": null
+    },
+    {
+      "name": "Brookfield Asset Management",
+      "ticker": "BAM"
+    },
+    {
+      "name": "Terrestrial Energy",
+      "ticker": "IMSR"
+    },
+    {
+      "name": "Ouster",
+      "ticker": "OUST"
+    }
+  ],
+  "poster": "aleabitoreddit",
+  "concepts": [
+    {
+      "key": "strain-wave-gearing",
+      "term": "Strain Wave Gearing",
+      "definition": "A precision mechanical gear system (also called a harmonic drive) in which a thin, elliptical flexspline meshes with a rigid circular spline via a rotating wave generator. This produces very high gear-reduction ratios in a compact, lightweight package with near-zero backlash — making it the dominant joint-actuator technology in collaborative and humanoid robots."
+    },
+    {
+      "key": "backlash",
+      "term": "Backlash",
+      "definition": "In a gear train, backlash is the small gap between meshing teeth that causes a brief uncontrolled movement when direction reverses. In precision robotics, backlash accumulates across multiple joints and degrades positioning accuracy; strain wave and cycloidal gears are valued partly because they minimize or eliminate it."
+    },
+    {
+      "key": "force-torque-sensor",
+      "term": "Force/Torque Sensor",
+      "definition": "A sensor, typically mounted at a robot's wrist or fingertip, that measures the forces and torques applied to an end effector in up to six axes. The data allows a robot to regulate grip pressure, detect contact, and respond safely to unexpected resistance — essential for dexterous manipulation, which remains one of the hardest unsolved problems in humanoid robotics."
+    },
+    {
+      "key": "rv-reducer",
+      "term": "RV Reducer",
+      "definition": "A rotary-vector (cycloidal-pin) precision gearbox widely used in industrial robot arms. RV reducers handle high overload torques well and are favored for proximal, high-load joints like shoulders and waist pivots. They compete with strain wave gears but are generally heavier and considered less suited to the distal, lightweight joints typical of humanoid designs."
+    },
+    {
+      "key": "lidar",
+      "term": "LiDAR",
+      "definition": "Light Detection and Ranging: a sensor that fires rapid laser pulses and times their return to build a real-time 3D point cloud of the surroundings. Used in autonomous vehicles and increasingly in robotics for localization, obstacle avoidance, and terrain mapping — especially useful in low-light or visually ambiguous environments where cameras alone are unreliable."
+    },
+    {
+      "key": "eyeq",
+      "term": "EyeQ",
+      "definition": "Mobileye's proprietary system-on-chip for vehicle perception. EyeQ processors handle camera and radar data to enable automatic emergency braking, lane keeping, and driver monitoring; the EyeQ6 generation is embedded in vehicles from more than thirty OEM partners. Following Mobileye's acquisition of Mentee Robotics, the architecture is now being adapted for humanoid robot perception."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Three tickers on the crowdsourced list appear to be misclassifications. $BAM (Brookfield Asset Management) is an alternative asset manager with no meaningful humanoid robotics exposure. $IMSR (Terrestrial Energy) is a molten-salt fission reactor developer with no apparent connection to the humanoid supply chain — almost certainly a ticker confusion. $BOT (RoboStrategy) is technically a humanoid-theme vehicle, but it is a closed-end holding fund that invests in private humanoid companies like Figure AI, not a direct component or OEM supplier; treating it as equivalent to the hardware names on the list overstates its supply-chain specificity. Separately, $HLIT (Harmonic Inc.) appears on the list and may be confused with Harmonic Drive Systems (6324.T) due to the similar name; Harmonic Inc. makes video infrastructure and encoding software and has no connection to precision reduction gears.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.tipranks.com/news/company-announcements/harmonic-drive-systems-reports-fiscal-year-2025-financial-results",
+      "title": "Harmonic Drive Systems FY2025 Financial Results",
+      "note": "Revenue and operating-profit data for Harmonic Drive fiscal 2025"
+    },
+    {
+      "url": "https://www.marketresearchfuture.com/reports/harmonic-drive-market-41032",
+      "title": "Harmonic Drive Market Size Forecast 2025–2032",
+      "note": "$539M base and 24.9% CAGR projection for harmonic reducers"
+    },
+    {
+      "url": "https://www.stocktitan.net/news/VPG/vpg-reports-fiscal-2025-fourth-quarter-and-twelve-months-1ymme277n5vn.html",
+      "title": "Vishay Precision Group FY2025 Earnings",
+      "note": "Confirmed $37.8M in humanoid/semi-equipment revenue; $45M 2026 target"
+    },
+    {
+      "url": "https://citronresearch.com/wp-content/uploads/2025/04/Citron-Research-Long-Vishay-Precision-Group.pdf",
+      "title": "Citron Research — Long VPG Thesis",
+      "note": "Independent analysis of VPG's humanoid force/torque sensor opportunity"
+    },
+    {
+      "url": "https://www.roboticstomorrow.com/story/2025/11/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan/25810/",
+      "title": "Ubtech Walker S2 Begins Mass Production",
+      "note": "RMB 800M+ cumulative orders; Walker S2 mass-production start November 2025"
+    },
+    {
+      "url": "https://techcrunch.com/2026/01/06/mobileye-acquires-humanoid-robot-startup-mentee-robotics-for-900m/",
+      "title": "Mobileye Acquires Mentee Robotics for $900M",
+      "note": "TechCrunch coverage of January 2026 acquisition details and governance issues"
+    },
+    {
+      "url": "https://www.mobileye.com/news/mobileye-to-acquire-mentee-robotics-to-accelerate-physical-ai-leadership/",
+      "title": "Mobileye Official Acquisition Announcement",
+      "note": "Mobileye press release on the Mentee Robotics deal"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/05/11/3291751/0/en/RoboStrategy-Inc-Lists-on-Nasdaq-Under-Ticker-BOT-Enabling-Investors-to-Access-a-Portfolio-of-Robotics-and-Physical-AI-Companies-in-a-Single-Stock.html",
+      "title": "RoboStrategy Lists on Nasdaq as BOT",
+      "note": "Confirms BOT is a holding fund for private humanoid companies, not a component maker"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260505128191/en/Ouster-Announces-Results-for-First-Quarter-2026",
+      "title": "Ouster Q1 2026 Earnings Release",
+      "note": "52% overall revenue growth in FY2025; robotics as top vertical context"
+    },
+    {
+      "url": "https://stockanalysis.com/etf/humn/holdings/",
+      "title": "Roundhill HUMN ETF Holdings",
+      "note": "ETF composition and top holdings for supply-chain cross-reference"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035",
+      "title": "Goldman Sachs: Humanoid Robot Market $38B by 2035",
+      "note": "Primary source for the market-size estimate used in the brief"
+    },
+    {
+      "url": "https://nabtesco-ventures.com/precision-reduction-gears/",
+      "title": "Nabtesco Precision Reduction Gears Overview",
+      "note": "Product overview confirming Nabtesco's RV reducer technology and industrial-arm focus"
+    }
+  ],
+  "bookmark_id": "2054335940026573222",
+  "generated_at": "2026-05-14T10:31:42.884623Z",
+  "backend": "claude-sonnet-subagent"
+}

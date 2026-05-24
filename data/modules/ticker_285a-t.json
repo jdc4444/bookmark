@@ -1,0 +1,28 @@
+{
+  "key": "285A.T",
+  "name": "Kioxia Holdings Corporation",
+  "exchange": "Tokyo Stock Exchange",
+  "blurb": "Kioxia Holdings Corporation is a Japanese memory solutions provider, known for its NAND flash memory and solid-state drives (SSDs). The company was spun off from Toshiba in 2018 and is one of the world's largest NAND flash memory manufacturers. It competes with industry leaders like Samsung and Western Digital in the semiconductor memory market.",
+  "recent": "In the past 30 days, Kioxia's stock price has shown volatility amid broader semiconductor market trends. The company has benefited from increased NAND demand visibility and disciplined capital spending, as noted by Morningstar. No major earnings or news events were reported in the last month.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/285A.T/",
+      "title": "KIOXIA HOLDINGS CORPORATION (285A.T) - Yahoo Finance"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xtks/285a/quote",
+      "title": "285A Stock Price Quote | Morningstar"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/285A.T/",
+      "title": "(285A.T) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/285a?countrycode=jp",
+      "title": "285A Stock Price | Kioxia Holdings Corp. Stock Quote (Japan: Tokyo ..."
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:43:03.194144Z",
+  "backend": "deepseek"
+}

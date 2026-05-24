@@ -1,0 +1,51 @@
+{
+  "headline": "Google Brings No-Code Agent Orchestration to the Enterprise",
+  "lede": "At Cloud Next on April 22, 2026, Google unveiled the Gemini Enterprise Agent Platform, with **Agent Designer** as its centerpiece — a drag-and-drop canvas that lets business users wire together AI agents without writing a line of code. The pitch is familiar from the robotic-process-automation wave of the 2010s, but the underlying substrate has changed considerably.",
+  "body": "Gemini Enterprise is itself a rebrand: Google called the product *AgentSpace* until late 2024, when it folded the service into the broader Gemini umbrella. Agent Designer sits inside that platform as a no-code *orchestration layer* — meaning its job is not to run a single AI model but to sequence, route between, and supervise multiple specialized agents. The drag-and-drop interface exposes nodes for triggers, data connectors, and individual agents, which users connect visually rather than through configuration files or API calls.\n\nThe agent gallery Google ships out of the box includes recognizable branded tools — Deep Research, NotebookLM, and an Idea Generation agent described as a \"competitive, multi-agent tournament\" that pits candidate solutions against each other before surfacing a winner. Organizations can also define custom agents that reach into internal systems: the image accompanying the post shows examples tapping BigQuery sales data, scraping competitor TikTok and Pinterest feeds for trend signals, and routing tasks across team communication channels.\n\nThe competitive frame matters. Microsoft's *Copilot Studio*, Salesforce's *Einstein* platform, and AWS's *Bedrock AgentCore* are all targeting the same buyer: the enterprise IT department that wants AI automation without a team of ML engineers. Google's differentiator, at least on paper, is native integration with its own data stack — BigQuery, Google Drive, and Google Workspace — which many large organizations already run. Whether that integration depth proves decisive or merely table-stakes will depend on how quickly the other platforms close the gap.\n\nFor builders who outgrow the no-code canvas, Google offers a code-first path through the *Agent Development Kit* (ADK) and deployment via Vertex AI Agent Builder. The two surfaces share the same runtime, so an agent prototyped in Agent Designer can, in principle, be handed off to an engineering team for extension — a design choice that distinguishes it from earlier no-code tools that created hard handoff cliffs.",
+  "tickers": [
+    "GOOGL",
+    "MSFT"
+  ],
+  "poster": "googlecloud",
+  "concepts": [
+    {
+      "key": "agent-orchestration",
+      "term": "agent orchestration",
+      "definition": "The practice of coordinating multiple AI agents so they hand tasks to one another in a defined sequence or in parallel, with one agent's output becoming another's input. Orchestration handles routing logic, error recovery, and result aggregation that a single model could not manage alone."
+    },
+    {
+      "key": "no-code-builder",
+      "term": "no-code builder",
+      "definition": "A visual development environment where users assemble software behavior by connecting graphical components rather than writing source code. No-code tools lower the barrier to building automations but typically impose limits on customization compared with hand-written code."
+    },
+    {
+      "key": "multi-agent-system",
+      "term": "multi-agent system",
+      "definition": "An AI architecture in which several specialized models or agents operate concurrently or in sequence, each handling a subtask it is optimized for. The Idea Generation agent described here is one example: it runs multiple agents in competition before producing a consolidated answer."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://docs.cloud.google.com/gemini/enterprise/docs/agent-designer",
+      "title": "Agent Designer overview | Gemini Enterprise | Google Cloud Documentation",
+      "note": "Primary product documentation for Agent Designer features and capabilities"
+    },
+    {
+      "url": "https://findskill.ai/blog/gemini-enterprise-agent-designer-5-minute-tutorial/",
+      "title": "Gemini Enterprise Agent Designer Tutorial (Apr 2026)",
+      "note": "Builder-focused walkthrough confirming Cloud Next April 22 launch date and UI panel details"
+    },
+    {
+      "url": "https://raphaelmansuy.github.io/adk_training/docs/google_agentspace/",
+      "title": "Tutorial 26: Gemini Enterprise (formerly AgentSpace) — Google ADK Training Hub",
+      "note": "Confirms AgentSpace-to-Gemini-Enterprise rebrand timeline and ADK integration path"
+    }
+  ],
+  "bookmark_id": "2010792783326691563",
+  "generated_at": "2026-05-06T20:19:44.887604Z",
+  "backend": "claude"
+}

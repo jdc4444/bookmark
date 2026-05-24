@@ -1,0 +1,16 @@
+{
+  "key": "aosl",
+  "name": "Alpha and Omega Semiconductor Limited",
+  "exchange": "NASDAQ",
+  "blurb": "A mid-cap supplier of discrete power devices, wide-bandgap (silicon-carbide and gallium-nitride) transistors, power-management integrated circuits and modules. AOSL is the kind of name Citrini groups under 'AI power plumbing': it does not appear on any AI-headline list, but its MOSFETs and gate drivers sit inside intermediate-bus converters and point-of-load stages on AI server boards, where current densities now exceed 400 amps per device. The company operates a hybrid manufacturing model, with internal fabs in Oregon and joint-venture capacity in China.",
+  "recent": "In October 2025 AOSL announced a portfolio of silicon-carbide and gallium-nitride parts aimed at Nvidia's 800-volt-DC rack architecture, the next generation of power distribution for megawatt-scale AI factories. In March 2026 it introduced 25-volt and 80-volt MOSFETs in advanced packaging targeting AI-server intermediate-bus and point-of-load applications, with continuous current ratings up to 405 amps. The stock has been volatile but is among the smaller analog names that have not yet rerated as aggressively as TXN or MPWR, leaving more headline AI optionality.",
+  "sources": [
+    {"title": "AOSL supports Nvidia 800V DC architecture — Business Wire", "url": "https://www.businesswire.com/news/home/20251013852482/en/Alpha-and-Omega-Semiconductor-Supports-800-VDC-Power-Architecture-for-Next-Generation-AI-Factories-with-Innovative-SiC-and-GaN-Power-MOSFET-and-Power-IC-Solutions"},
+    {"title": "AOSL 25V/80V MOSFETs for AI servers — Business Wire", "url": "https://www.businesswire.com/news/home/20260317779286/en/Alpha-and-Omega-Semiconductor-Introduces-25V-and-80V-MOSFETs-in-State-of-the-Art-Packaging-that-Meets-Increasing-AI-Server-Power-Demands"},
+    {"title": "AOSL at APEC 2026 — Business Wire", "url": "https://www.businesswire.com/news/home/20260311085516/en/At-APEC-2026-Alpha-and-Omega-Semiconductor-to-Showcase-Advanced-Solutions-for-AI-Core-Power-AI-Factory-and-Industrial-Power"},
+    {"title": "AOSL Gen3 1200V SiC MOSFETs — StockTitan", "url": "https://www.stocktitan.net/news/AOSL/alpha-and-omega-semiconductor-introduces-gen3-1200v-si-c-mosfe-ts-7ezv64zd4xw4.html"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "fiscal_year_end": "December 31",
+  "currency": "USD",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001844452/000162828026019865/lunr-20251231.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001844452/000119312525263400/d17822dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/0001844452/000162828026027026/lunr-20251231annualreportf.pdf"
+  ],
+  "key_finding": "LUNR is a transformation story: FY25 revenue of $250-300M with Q4 at $44.8M and 19% Q4 gross margin gave way to an FY26 outlook of $900M-$1B revenue with positive Adjusted EBITDA — implied 3-4x revenue growth driven by Lanteris acquisition closing (Q1 2026) and NASA CLPS task-order ramp. Total backlog $943M post-Lanteris. NASA CLPS contract ceiling $4.82B with $150M guaranteed near-term. The $800M Lanteris acquisition ($450M cash + $350M stock) is the single most consequential transaction in the company's history.",
+  "fy2025_metrics": {
+    "q4_revenue_usd_millions": 44.8,
+    "q4_yoy_growth": -0.1807,
+    "q4_gross_margin": 0.19,
+    "fy2025_revenue_range_usd_millions": [250, 300]
+  },
+  "fy2026_outlook": {
+    "revenue_range_usd_millions": [900, 1000],
+    "adjusted_ebitda_target": "Positive",
+    "implied_yoy_growth_approx": 3.3
+  },
+  "backlog": {
+    "total_backlog_post_lanteris_usd_millions": 943,
+    "nasa_clps_contract_ceiling_usd_billions": 4.82,
+    "nasa_clps_guaranteed_near_term_usd_millions": 150,
+    "nasa_clps_im5_task_order_usd_millions": 180.4
+  },
+  "lanteris_acquisition": {
+    "transaction_value_usd_millions": 800,
+    "cash_consideration_usd_millions": 450,
+    "stock_consideration_usd_millions": 350,
+    "expected_close": "Q1 2026",
+    "strategic_rationale": "Transforms Intuitive Machines from pure-play lunar delivery specialist to full space prime contractor",
+    "leadership": "Chris Johnson (ex-CEO Lanteris, ex-President Boeing Satellite Systems International) becomes President of Lanteris Space Systems within Intuitive Machines"
+  },
+  "structural_observations": [
+    "Q4 2025 revenue down -18% YoY reflects the lumpy NASA milestone-payment recognition pattern — IM-1 mission revenue was recognised in FY24 and FY25 has mostly been preparation for IM-2 and IM-3 deliveries.",
+    "FY26 outlook of $900M-$1B revenue requires both Lanteris contribution AND organic lunar-mission contract revenue ramp; the 3-4x growth is more a function of acquisition close than organic operating leverage.",
+    "Positive Adjusted EBITDA in FY26 is the operating-profitability inflection — until now Intuitive Machines has been a cash-burning venture-scale operator.",
+    "NASA CLPS contract ceiling of $4.82B with $150M guaranteed near-term implies large potential revenue stream contingent on continued task-order awards.",
+    "The IM-5 task order ($180.4M) is the largest single CLPS task order awarded to date — uses the larger cargo-class Nova-D lander rather than the Nova-C class used for IM-1 and IM-2."
+  ]
+}

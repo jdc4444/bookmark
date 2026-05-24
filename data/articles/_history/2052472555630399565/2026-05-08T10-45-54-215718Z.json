@@ -1,0 +1,156 @@
+{
+  "headline": "Chips on Order: The Lead-Time Signal That Moves Semi Stocks",
+  "lede": "Among practitioners on finance Twitter, a deceptively simple rule has circulated for years: buy semiconductor stocks when lead times lengthen, sell when they compress. A post by the anonymous buy-side account @justbrosef, amplified by @PythiaR, restates it tersely and appends a market call: “Lead times still going out folks.” The data, across multiple independent supply-chain surveys, strongly supports the call.",
+  "body": "The aphorism is deceptively simple. **Lead time** — the interval between a customer placing a purchase order and receiving delivery — is the semiconductor industry’s real-time fever chart. In normal conditions, distributors buffer inventory and ship within a few weeks. When demand overwhelms that buffer, customers are quoted the full manufacturing cycle: 26, 40, even 52 weeks. The number measures the gap between what the world wants and what fabs can make.\n\nThe mechanism connecting lead-time length to stock performance runs through *operating leverage*. Semiconductor manufacturers carry enormous fixed costs — *wafer starts*, cleanroom depreciation, engineer salaries — that barely move whether volumes are high or low. When tight supply extends lead times, manufacturers gain pricing power, raising *average selling prices* (ASPs) without proportionate cost increases. That pricing power drops almost entirely into operating income, expanding margins sharply. Investors, reading the physical signal before it surfaces in quarterly filings, bid equities higher in anticipation.\n\nThe current signal, by multiple measures, is unambiguous. Baird’s semiconductor lead-time survey found *DRAM* delivery windows at 41 weeks in early 2026 — the longest in Baird’s dataset — alongside *FPGA* lead times at 40 weeks and power-conversion chips from Monolithic Power Systems (MPWR) at 33 weeks. Sourceability’s Semiconductor Lead Time Index surged 13.7% sequentially in Q1 2026, while the companion inventory index fell 24.2%, signaling that distribution-channel buffers are draining fast. Part of the tightness is structural: Taiwan Semiconductor Manufacturing (TSM) is directing wafer capacity toward *high bandwidth memory* (HBM) stacks for AI accelerators, leaving less room for conventional DRAM and logic. SK Hynix (000660.KS) has reportedly allocated its entire 2026 memory capacity, and HBM orders for the year are fully booked.\n\nThe heuristic has a reasonably clean historical track record, with one critical caveat. During the 2020–2021 super-cycle, lead times for some automotive and analog chips stretched past 52 weeks, and the Philadelphia Semiconductor Index (SOXX) returned over 44% in 2021. The 2022 reversal was equally violent: the index fell 45% from January to October, even as physical lead times were only beginning to compress. That episode illustrates the framework’s central limitation: because semiconductor stocks are a *leading indicator* while published lead-time surveys are coincident or lagging, investors who wait for confirmed lead-time compression to sell will sell into a market already 20–30% off its highs. @justbrosef’s formulation captures the direction correctly but understates the timing precision required to act on it profitably.\n\nThe risk in the current cycle is that the equity market may already be pricing in considerable optimism. Advanced equipment makers such as ASML (ASML), Lam Research (LRCX), and Applied Materials (AMAT) have run sharply since the AI-driven upcycle began. Taiwan Semiconductor Manufacturing (TSM) guided capital expenditure roughly 32% higher in 2026, to an estimated $54 billion — aggressive expansion that historically foreshadows oversupply when it arrives simultaneously with competitors. The lead-time signal says the cycle has legs. Whether the next 12 months belong to the bulls or to inventory normalization depends on whether AI demand continues absorbing capacity faster than new fabs can be built.",
+  "tickers": [
+    "MPWR",
+    "TSM",
+    "000660.KS",
+    "ASML",
+    "LRCX",
+    "AMAT"
+  ],
+  "companies": [
+    {
+      "name": "Monolithic Power Systems",
+      "ticker": "MPWR"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "ASML Holding",
+      "ticker": "ASML"
+    },
+    {
+      "name": "Lam Research",
+      "ticker": "LRCX"
+    },
+    {
+      "name": "Applied Materials",
+      "ticker": "AMAT"
+    }
+  ],
+  "poster": "PythiaR",
+  "concepts": [
+    {
+      "key": "lead-time",
+      "term": "Lead Time",
+      "definition": "In semiconductors, the elapsed time from a purchase order to delivery. Short lead times indicate ample inventory; extended lead times signal that demand is outrunning supply and customers must wait for chips to be manufactured from scratch — a process that can take three to four months at advanced nodes. Lead-time data is reported by distributors such as Avnet and Arrow and tracked quarterly by research firms like Sourceability."
+    },
+    {
+      "key": "operating-leverage",
+      "term": "Operating Leverage",
+      "definition": "The degree to which a company’s earnings amplify changes in revenue, because a large share of costs are fixed rather than variable. Semiconductor fabs have very high operating leverage: once fixed costs such as depreciation and engineering salaries are covered, each additional unit of revenue converts richly into profit, making margins extremely sensitive to volume and pricing swings."
+    },
+    {
+      "key": "asp",
+      "term": "Average Selling Price (ASP)",
+      "definition": "The average price a semiconductor company receives per unit shipped. Rising ASPs during tight-supply cycles are a key driver of margin expansion, because fixed production costs stay roughly constant while revenue per chip climbs. ASP compression — the reverse — is the hallmark of oversupply."
+    },
+    {
+      "key": "dram",
+      "term": "DRAM",
+      "definition": "Dynamic Random-Access Memory, the workhorse volatile memory used in servers, PCs, and smartphones. DRAM is one of the most cyclically volatile semiconductor segments, prone to extreme price and lead-time swings as capacity is added in large, lumpy increments by a small number of producers."
+    },
+    {
+      "key": "fpga",
+      "term": "FPGA",
+      "definition": "Field-Programmable Gate Array — an integrated circuit that can be reconfigured after manufacturing to perform different logic functions. FPGAs are used in networking, aerospace, and AI inference; their lead times serve as a useful barometer for demand in specialized compute markets, where customers tend to book well in advance."
+    },
+    {
+      "key": "hbm",
+      "term": "High Bandwidth Memory (HBM)",
+      "definition": "A premium DRAM architecture that stacks chips vertically and connects them with high-speed channels, achieving far greater bandwidth than conventional DRAM at lower power. HBM is essential to AI accelerators such as Nvidia’s H- and B-series GPUs, and its production monopolizes a significant and growing share of wafer capacity at leading memory makers."
+    },
+    {
+      "key": "soxx",
+      "term": "SOXX / Philadelphia Semiconductor Index",
+      "definition": "A market index tracking the 30 largest US-listed semiconductor companies, maintained by ICE and tracked by the iShares Semiconductor ETF (ticker: SOXX). It is the standard benchmark for semiconductor sector performance and is closely watched as a proxy for the chip cycle."
+    },
+    {
+      "key": "leading-indicator",
+      "term": "Leading Indicator",
+      "definition": "A metric that tends to move before the broader economic or market trend it predicts. Semiconductor stock prices function as a leading indicator of the physical supply cycle: equities typically peak and trough months before distributor lead-time surveys or earnings reports confirm the turn, because markets price expectations rather than current conditions."
+    },
+    {
+      "key": "wafer-start",
+      "term": "Wafer Start",
+      "definition": "The initiation of a batch of silicon wafers into the fab’s production process. A wafer — a thin disk of purified silicon — is the substrate onto which transistors and circuits are etched. Fabs schedule wafer starts weeks or months in advance; the number of starts per week is a key capacity metric, and the cost of tooling and materials committed at this stage is a major fixed-cost driver."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The heuristic is directionally sound but somewhat misleading in its simplicity. Semiconductor stocks are themselves a *leading indicator* — they typically move 6–12 months before the physical lead-time data visibly turns. In the 2022 downcycle, the SOX index peaked in January and fell 45% even while distributor lead times were still quoted at elevated levels. Investors who applied the rule literally — waiting for lead times to visibly “come in” before selling — would have sold deep into the correction. The signal is best understood as a directional framework, not a precise timing tool.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.investing.com/news/stock-market-news/semiconductor-lead-times-surge-across-multiple-segments-baird-reports-93CH-4605978",
+      "title": "Semiconductor Lead Times Surge Across Multiple Segments, Baird Reports",
+      "note": "Primary source for current (early 2026) segment-level lead-time readings including DRAM at 41 weeks"
+    },
+    {
+      "url": "https://sourceability.com/post/q1-2026-lead-time-report-highlights",
+      "title": "Sourceability Q1 2026 Lead Time Report Highlights",
+      "note": "Quarterly industry index showing 13.7% sequential lead-time surge and 24.2% inventory decline"
+    },
+    {
+      "url": "https://blog.findchips.com/semiconductor-demand-rises-at-record-pace-in-q1-portending-booming-growth-in-2026/",
+      "title": "Semiconductor Demand Rises at Record Pace in Q1 2026 — Findchips",
+      "note": "SupplyFrame commodity demand index showing largest Q1 sequential jump in at least five years"
+    },
+    {
+      "url": "https://nand-research.com/analyst-note-semiconductor-memory-market-supply-constraints-and-rising-prices/",
+      "title": "Semiconductor Memory Market Supply Constraints and Rising Prices — NAND Research",
+      "note": "Analysis of HBM capacity allocation squeezing conventional DRAM supply at SK Hynix, Micron, and Samsung"
+    },
+    {
+      "url": "https://polyelectronics.us/semiconductor-lead-times-are-moving-toward-42-weeks-why-a-u-s-ems-partner-matters-more-than-ever-in-2026/",
+      "title": "Semiconductor Lead Times Are Moving Toward 42 Weeks — Poly Electronics",
+      "note": "Distributor-channel intelligence on microcontroller and analog lead-time trends in 2026"
+    },
+    {
+      "url": "https://my.avnet.com/silica/resources/article/semiconductor-market-pulse-insights/",
+      "title": "Avnet Silica Semiconductor Market Pulse Q1 2026",
+      "note": "Distributor-level data on automotive and industrial SRAM lead times and memory pricing pressure"
+    },
+    {
+      "url": "https://simplywall.st/article/investing-throughout-semiconductor-market-cycles/",
+      "title": "Investing Throughout Semiconductor Market Cycles — Simply Wall St",
+      "note": "Framework mapping four-phase semiconductor cycle to investment positioning; historical SOX returns by phase"
+    },
+    {
+      "url": "https://www.techinsights.com/blog/chip-insiderr-cyclical-history-semiconductor-industry",
+      "title": "Cyclical History of the Semiconductor Industry — TechInsights",
+      "note": "Historical cycle data identifying 14 recessive periods since 1963 and average cycle length"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html",
+      "title": "Deloitte 2026 Semiconductor Industry Outlook",
+      "note": "Industry-wide growth projections, TSMC capex guidance, and global sales trajectory toward $1 trillion"
+    },
+    {
+      "url": "https://www.nomadsemi.com/p/state-of-the-semiconductor-cycle",
+      "title": "State of the Semiconductor Cycle — Nomad Semi",
+      "note": "Bear-case counterpoint predicting cycle peak in Q3 2025 due to tariff shock and AI inventory correction"
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/semiconductors/our-insights/right-product-right-time-right-location-quantifying-the-semiconductor-supply-chain",
+      "title": "Quantifying the Semiconductor Supply Chain — McKinsey",
+      "note": "Foundational analysis of how fab-to-distribution lead times are structurally produced and why they amplify"
+    },
+    {
+      "url": "https://x.com/justbrosef",
+      "title": "@justbrosef on X",
+      "note": "Source account for the original heuristic; anonymous former buy-side TMT investor based in England"
+    }
+  ],
+  "bookmark_id": "2052472555630399565",
+  "generated_at": "2026-05-08T10:45:54.215718Z",
+  "backend": "claude-sonnet-subagent"
+}

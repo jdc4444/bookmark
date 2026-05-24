@@ -1,0 +1,828 @@
+{
+  "handle": "aleabitoreddit",
+  "display_name": "Serenity",
+  "bio": "That famous @Reddit WSB Trader now on X. AI/Semi Supply Chain Analyst ex. RISC-V FDN, AI research scientist; now trading unknown bottlenecks.",
+  "profile_scraped_at": "2026-05-08T07:12:30.634076+00:00",
+  "tweet_volume": {
+    "total": 3568,
+    "by_month": {
+      "2025-07": 40,
+      "2025-08": 10,
+      "2025-09": 195,
+      "2025-10": 205,
+      "2025-11": 34,
+      "2025-12": 13,
+      "2026-01": 332,
+      "2026-02": 692,
+      "2026-03": 994,
+      "2026-04": 960,
+      "2026-05": 93
+    },
+    "first_tweet_date": "2025-07-02",
+    "last_tweet_date": "2026-05-08"
+  },
+  "style": {
+    "avg_text_len": 199.8,
+    "with_image_pct": 29.3,
+    "row_type_distribution": {
+      "thesis_or_opinion": 1598,
+      "non_market_or_ignore": 670,
+      "trade_call": 377,
+      "portfolio_update": 214,
+      "retrospective": 197,
+      "macro_news": 139,
+      "catalyst_news": 126,
+      "sector_theme": 115,
+      "watchlist_setup": 55,
+      "promo_or_tease": 42,
+      "technical_setup": 27,
+      "earnings_data": 8
+    },
+    "conviction_on_trade_calls": {
+      "med": 458,
+      "high": 343,
+      "low": 23
+    }
+  },
+  "network": {
+    "n_following": 53,
+    "follows": [
+      "0xkyle__",
+      "alc2022",
+      "antonlavay",
+      "aphysicist",
+      "arronwei3n",
+      "babybluecream",
+      "billackman",
+      "blinklebloop",
+      "bskypia59338",
+      "chinoalemano",
+      "counterpointtr",
+      "dannycheng2022",
+      "degentradinglsd",
+      "dnystedt",
+      "elonmusk",
+      "evan126888",
+      "fabknowledge",
+      "firisis_",
+      "firmamentx337",
+      "fundaai",
+      "genzinvest0r",
+      "georgedoubleuu",
+      "hell_inflection",
+      "jasons_chips",
+      "jimmyhuli",
+      "jkeynesalpha",
+      "kaizen_investor",
+      "latent_value7",
+      "macnbtc",
+      "maurobianchi24",
+      "michaelsikand",
+      "minnvestor",
+      "mr_derivatives",
+      "mylesmcnulty",
+      "paradislabs",
+      "pelositracker",
+      "pennyhunter_sub",
+      "philogroves",
+      "phuguo",
+      "plaskpojken",
+      "qq_timmy",
+      "ren_aramb",
+      "rklb_invest",
+      "rob__ernst",
+      "sama",
+      "sean14978416",
+      "sssjeffpu",
+      "stocktwits",
+      "stormdirac",
+      "susiewiles47",
+      "thesarge_",
+      "tradexwhisperer",
+      "xtinefang"
+    ],
+    "top_replied_to": [
+      {
+        "handle": "soulbiri1",
+        "n": 189
+      },
+      {
+        "handle": "platochi",
+        "n": 147
+      },
+      {
+        "handle": "photoncap",
+        "n": 125
+      },
+      {
+        "handle": "beauty_oe",
+        "n": 115
+      },
+      {
+        "handle": "crux_capital_",
+        "n": 102
+      },
+      {
+        "handle": "pepemoonboy",
+        "n": 100
+      },
+      {
+        "handle": "thevalueist",
+        "n": 85
+      },
+      {
+        "handle": "zephyr_z9",
+        "n": 83
+      },
+      {
+        "handle": "deepvaluebagger",
+        "n": 79
+      },
+      {
+        "handle": "halldj00",
+        "n": 74
+      },
+      {
+        "handle": "stormdirac",
+        "n": 69
+      },
+      {
+        "handle": "pennycheck",
+        "n": 68
+      },
+      {
+        "handle": "jornka329996",
+        "n": 67
+      },
+      {
+        "handle": "ren_aramb",
+        "n": 64
+      },
+      {
+        "handle": "digestingx",
+        "n": 62
+      },
+      {
+        "handle": "bennybigbull",
+        "n": 58
+      },
+      {
+        "handle": "jukan05",
+        "n": 56
+      },
+      {
+        "handle": "thatisit11",
+        "n": 56
+      },
+      {
+        "handle": "__visionxry__",
+        "n": 55
+      },
+      {
+        "handle": "daniel_koss",
+        "n": 51
+      },
+      {
+        "handle": "babyfolio",
+        "n": 50
+      },
+      {
+        "handle": "mattia030339",
+        "n": 50
+      },
+      {
+        "handle": "gubloinvestor",
+        "n": 47
+      },
+      {
+        "handle": "yolo365247isme",
+        "n": 44
+      },
+      {
+        "handle": "yuntungshieh",
+        "n": 43
+      }
+    ],
+    "top_mentioned": [
+      {
+        "handle": "thevalueist",
+        "n": 52
+      },
+      {
+        "handle": "fundstrat",
+        "n": 15
+      },
+      {
+        "handle": "plaskpojken",
+        "n": 9
+      },
+      {
+        "handle": "rjccapital",
+        "n": 9
+      },
+      {
+        "handle": "acce",
+        "n": 7
+      },
+      {
+        "handle": "brian_g_peters",
+        "n": 7
+      },
+      {
+        "handle": "deepvaluebagger",
+        "n": 7
+      },
+      {
+        "handle": "kevinxu",
+        "n": 7
+      },
+      {
+        "handle": "martinshkreli",
+        "n": 7
+      },
+      {
+        "handle": "pennycheck",
+        "n": 7
+      },
+      {
+        "handle": "skereere",
+        "n": 7
+      },
+      {
+        "handle": "vitalikbuterin",
+        "n": 7
+      },
+      {
+        "handle": "latent_value7",
+        "n": 6
+      },
+      {
+        "handle": "nikitabier",
+        "n": 6
+      },
+      {
+        "handle": "roundhill",
+        "n": 6
+      },
+      {
+        "handle": "danroberts0101",
+        "n": 5
+      },
+      {
+        "handle": "matthew_sigel",
+        "n": 5
+      },
+      {
+        "handle": "chamath",
+        "n": 4
+      },
+      {
+        "handle": "markosaaig",
+        "n": 4
+      },
+      {
+        "handle": "neat_lama",
+        "n": 4
+      },
+      {
+        "handle": "vladtenev",
+        "n": 4
+      },
+      {
+        "handle": "brian_armstrong",
+        "n": 3
+      },
+      {
+        "handle": "broadcom",
+        "n": 3
+      },
+      {
+        "handle": "drdebuneko",
+        "n": 3
+      },
+      {
+        "handle": "elonmusk",
+        "n": 3
+      }
+    ],
+    "reposted_from": {
+      "stormdirac": 6
+    }
+  },
+  "portfolio_summary": {
+    "n_trades": 160,
+    "n_unique_tickers": 200,
+    "selectivity": 0.1536,
+    "win_rate": 0.6,
+    "equal_weight_return": 0.1875,
+    "signal_weighted_return": 0.2446,
+    "best_trade": "SIVE",
+    "best_return": 5.0,
+    "worst_trade": "DFLI",
+    "worst_return": -0.842
+  },
+  "top_dossiers": [
+    {
+      "ticker": "SIVE",
+      "tier": "S",
+      "score": 43,
+      "mentions": 117,
+      "first_mention": "2026-03-18",
+      "last_mention": "2026-04-21",
+      "alpha": 2.4175,
+      "spy_window_alpha": 2.3458
+    },
+    {
+      "ticker": "AXTI",
+      "tier": "S",
+      "score": 24,
+      "mentions": 68,
+      "first_mention": "2026-03-04",
+      "last_mention": "2026-04-22",
+      "alpha": 0.9631,
+      "spy_window_alpha": 0.9308
+    },
+    {
+      "ticker": "MRVL",
+      "tier": "A",
+      "score": 22,
+      "mentions": 53,
+      "first_mention": "2025-08-25",
+      "last_mention": "2026-04-20",
+      "alpha": 1.073,
+      "spy_window_alpha": 0.9766
+    },
+    {
+      "ticker": "AEHR",
+      "tier": "A",
+      "score": 16,
+      "mentions": 38,
+      "first_mention": "2026-03-30",
+      "last_mention": "2026-04-20",
+      "alpha": 1.7968,
+      "spy_window_alpha": 1.6948
+    },
+    {
+      "ticker": "LITE",
+      "tier": "A",
+      "score": 13,
+      "mentions": 69,
+      "first_mention": "2026-03-04",
+      "last_mention": "2026-04-21",
+      "alpha": 0.2981,
+      "spy_window_alpha": 0.2658
+    },
+    {
+      "ticker": "NVDA",
+      "tier": "A",
+      "score": 13,
+      "mentions": 40,
+      "first_mention": "2025-07-28",
+      "last_mention": "2026-04-20",
+      "alpha": 0.1232,
+      "spy_window_alpha": 0.0202
+    },
+    {
+      "ticker": "IQE",
+      "tier": "S",
+      "score": 11,
+      "mentions": 21,
+      "first_mention": "2026-03-18",
+      "last_mention": "2026-04-20",
+      "alpha": 1.628,
+      "spy_window_alpha": 1.5563
+    },
+    {
+      "ticker": "NBIS",
+      "tier": "A",
+      "score": 11,
+      "mentions": 25,
+      "first_mention": "2025-09-29",
+      "last_mention": "2026-04-20",
+      "alpha": 0.38,
+      "spy_window_alpha": 0.3179
+    },
+    {
+      "ticker": "SOI",
+      "tier": "S",
+      "score": 10,
+      "mentions": 23,
+      "first_mention": "2026-03-26",
+      "last_mention": "2026-04-21",
+      "alpha": 1.0082,
+      "spy_window_alpha": 0.9124
+    },
+    {
+      "ticker": "AAOI",
+      "tier": "A",
+      "score": 9,
+      "mentions": 66,
+      "first_mention": "2026-03-04",
+      "last_mention": "2026-04-19",
+      "alpha": 0.5445,
+      "spy_window_alpha": 0.5122
+    },
+    {
+      "ticker": "CRCL",
+      "tier": "A",
+      "score": 9,
+      "mentions": 10,
+      "first_mention": "2025-08-23",
+      "last_mention": "2026-04-16",
+      "alpha": -0.2854,
+      "spy_window_alpha": -0.3786
+    },
+    {
+      "ticker": "ALRIB",
+      "tier": "S",
+      "score": 8,
+      "mentions": 10,
+      "first_mention": "2026-04-11",
+      "last_mention": "2026-04-20",
+      "alpha": null,
+      "spy_window_alpha": null
+    },
+    {
+      "ticker": "AVGO",
+      "tier": "A",
+      "score": 8,
+      "mentions": 16,
+      "first_mention": "2025-09-30",
+      "last_mention": "2026-04-20",
+      "alpha": 0.2256,
+      "spy_window_alpha": 0.1639
+    },
+    {
+      "ticker": "TSEM",
+      "tier": "A",
+      "score": 8,
+      "mentions": 19,
+      "first_mention": "2026-03-19",
+      "last_mention": "2026-04-17",
+      "alpha": 0.249,
+      "spy_window_alpha": 0.1765
+    },
+    {
+      "ticker": "POET",
+      "tier": "A",
+      "score": 8,
+      "mentions": 19,
+      "first_mention": "2026-03-04",
+      "last_mention": "2026-04-07",
+      "alpha": 0.5578,
+      "spy_window_alpha": 0.5255
+    },
+    {
+      "ticker": "SNDK",
+      "tier": "A",
+      "score": 7,
+      "mentions": 11,
+      "first_mention": "2026-02-13",
+      "last_mention": "2026-04-13",
+      "alpha": 0.4763,
+      "spy_window_alpha": 0.4411
+    },
+    {
+      "ticker": "ARM",
+      "tier": "A",
+      "score": 6,
+      "mentions": 5,
+      "first_mention": "2026-03-28",
+      "last_mention": "2026-04-21",
+      "alpha": 0.2178,
+      "spy_window_alpha": 0.1179
+    },
+    {
+      "ticker": "TSM",
+      "tier": "A",
+      "score": 6,
+      "mentions": 7,
+      "first_mention": "2025-09-30",
+      "last_mention": "2026-04-18",
+      "alpha": 0.3219,
+      "spy_window_alpha": 0.2602
+    },
+    {
+      "ticker": "META",
+      "tier": "A",
+      "score": 6,
+      "mentions": 18,
+      "first_mention": "2025-07-28",
+      "last_mention": "2026-04-15",
+      "alpha": -0.0711,
+      "spy_window_alpha": -0.1741
+    },
+    {
+      "ticker": "AMD",
+      "tier": "A",
+      "score": 5,
+      "mentions": 11,
+      "first_mention": "2025-10-10",
+      "last_mention": "2026-04-21",
+      "alpha": 0.292,
+      "spy_window_alpha": 0.2263
+    },
+    {
+      "ticker": "HOOD",
+      "tier": "A",
+      "score": 4,
+      "mentions": 6,
+      "first_mention": "2025-07-31",
+      "last_mention": "2026-04-18",
+      "alpha": -0.1163,
+      "spy_window_alpha": -0.2405
+    },
+    {
+      "ticker": "KSPI",
+      "tier": "A",
+      "score": 4,
+      "mentions": 3,
+      "first_mention": "2025-07-31",
+      "last_mention": "2025-08-25",
+      "alpha": 0.1257,
+      "spy_window_alpha": 0.0015
+    },
+    {
+      "ticker": "LNG",
+      "tier": "B",
+      "score": 4,
+      "mentions": 2,
+      "first_mention": "2026-03-28",
+      "last_mention": "2026-03-28",
+      "alpha": -0.1433,
+      "spy_window_alpha": -0.2432
+    },
+    {
+      "ticker": "INTC",
+      "tier": "A",
+      "score": 3,
+      "mentions": 7,
+      "first_mention": "2026-02-13",
+      "last_mention": "2026-04-20",
+      "alpha": 0.4426,
+      "spy_window_alpha": 0.4074
+    },
+    {
+      "ticker": "JBL",
+      "tier": "A",
+      "score": 3,
+      "mentions": 16,
+      "first_mention": "2026-03-19",
+      "last_mention": "2026-04-19",
+      "alpha": 0.2555,
+      "spy_window_alpha": 0.183
+    },
+    {
+      "ticker": "IBIT",
+      "tier": "A",
+      "score": 3,
+      "mentions": 3,
+      "first_mention": "2025-07-28",
+      "last_mention": "2026-04-03",
+      "alpha": -0.3712,
+      "spy_window_alpha": -0.4742
+    },
+    {
+      "ticker": "MXL",
+      "tier": "B",
+      "score": 3,
+      "mentions": 1,
+      "first_mention": "2026-04-21",
+      "last_mention": "2026-04-21",
+      "alpha": null,
+      "spy_window_alpha": null
+    },
+    {
+      "ticker": "GOOGL",
+      "tier": "B",
+      "score": 3,
+      "mentions": 19,
+      "first_mention": "2025-07-28",
+      "last_mention": "2026-04-20",
+      "alpha": 0.7268,
+      "spy_window_alpha": 0.6238
+    },
+    {
+      "ticker": "SOFI",
+      "tier": "B",
+      "score": 3,
+      "mentions": 2,
+      "first_mention": "2025-07-31",
+      "last_mention": "2026-04-04",
+      "alpha": -0.1323,
+      "spy_window_alpha": -0.2565
+    },
+    {
+      "ticker": "MU",
+      "tier": "B",
+      "score": 3,
+      "mentions": 6,
+      "first_mention": "2026-03-28",
+      "last_mention": "2026-04-03",
+      "alpha": 0.2391,
+      "spy_window_alpha": 0.1392
+    }
+  ],
+  "first_mention_by_ticker": {
+    "IBIT": "2025-07-02",
+    "UPWK": "2025-07-02",
+    "ETORO": "2025-07-02",
+    "OSCR": "2025-07-02",
+    "GOOGL": "2025-07-03",
+    "TSSI": "2025-07-03",
+    "BKKT": "2025-07-03",
+    "BKSY": "2025-07-03",
+    "HIMS": "2025-07-07",
+    "SG": "2025-07-07",
+    "BULL": "2025-07-07",
+    "GME": "2025-07-07",
+    "ALAB": "2025-07-21",
+    "CRDO": "2025-07-21",
+    "DNUT": "2025-07-23",
+    "PLTR": "2025-07-28",
+    "DJT": "2025-07-28",
+    "KSPI": "2025-07-31",
+    "SNAP": "2025-08-23",
+    "UNH": "2025-08-23",
+    "ETOR": "2025-08-23",
+    "NVO": "2025-08-23",
+    "CRWV": "2025-08-23",
+    "MRVL": "2025-09-02",
+    "HOOD": "2025-09-05",
+    "CREDO": "2025-09-08",
+    "NBIS": "2025-09-09",
+    "TSM": "2025-09-10",
+    "AAPL": "2025-09-10",
+    "RUM": "2025-09-15",
+    "NFE": "2025-09-17",
+    "LTC": "2025-09-18",
+    "TGT": "2025-09-18",
+    "LUNR": "2025-09-24",
+    "ETH": "2025-09-26",
+    "AVGO": "2025-09-26",
+    "AMZN": "2025-09-26",
+    "IREN": "2025-09-26",
+    "CIFR": "2025-09-26",
+    "GEMI": "2025-09-26",
+    "ORCL": "2025-09-26",
+    "BRK": "2025-09-26",
+    "ASTS": "2025-09-27",
+    "BTC": "2025-09-27",
+    "MSTR": "2025-09-29",
+    "VIRT": "2025-09-29",
+    "RKLB": "2025-09-30",
+    "DOCN": "2025-10-02",
+    "SEI": "2025-10-07",
+    "FLNC": "2025-10-07",
+    "EOSE": "2025-10-07",
+    "UNKNOWN": "2025-10-07",
+    "RDDT": "2025-10-08",
+    "NVDA": "2025-10-08",
+    "AMD": "2025-10-08",
+    "WYFI": "2025-10-08",
+    "FLY": "2025-10-08",
+    "DFLI": "2025-10-08",
+    "NEE": "2025-10-08",
+    "CEG": "2025-10-08",
+    "META": "2025-10-10",
+    "WLAC": "2025-10-10",
+    "DKNG": "2025-10-10",
+    "SPY": "2025-10-10",
+    "SMCI": "2025-10-11",
+    "WULF": "2025-10-11",
+    "RBRK": "2025-10-11",
+    "GLXY": "2025-10-11",
+    "MP": "2025-10-11",
+    "DELL": "2025-10-11",
+    "MU": "2025-10-11",
+    "GRRR": "2025-10-12",
+    "BITF": "2025-10-13",
+    "BZAI": "2025-10-15",
+    "NKLR": "2025-10-15",
+    "SLNH": "2025-10-15",
+    "GRAB": "2025-10-15",
+    "SEA": "2025-10-15",
+    "AI": "2025-10-17",
+    "TE": "2025-10-20",
+    "T1": "2025-10-28",
+    "TTD": "2025-12-04",
+    "LITE": "2025-12-12",
+    "CRCL": "2025-12-12",
+    "AIRO": "2026-01-06",
+    "OSS": "2026-01-08",
+    "AXTI": "2026-01-09",
+    "SOFI": "2026-01-09",
+    "AVAV": "2026-01-12",
+    "LPTH": "2026-01-14",
+    "VLN": "2026-01-14",
+    "SSYS": "2026-01-16",
+    "INTC": "2026-01-17",
+    "SAMSUNG": "2026-01-17",
+    "DPRO": "2026-01-19",
+    "KTOS": "2026-01-19",
+    "VPG": "2026-01-20",
+    "FIG": "2026-01-20",
+    "SKYT": "2026-01-20",
+    "RMBS": "2026-01-22",
+    "USAR": "2026-01-26",
+    "005930": "2026-01-27",
+    "000660": "2026-01-27",
+    "2408": "2026-01-28",
+    "SNDK": "2026-01-29",
+    "CPSH": "2026-01-29",
+    "COIN": "2026-01-30",
+    "SOL": "2026-01-30",
+    "WINBOND": "2026-01-30",
+    "8299": "2026-01-30",
+    "2337": "2026-01-30",
+    "NANYA": "2026-01-30",
+    "MCB": "2026-01-31",
+    "AEHR": "2026-02-03",
+    "EWY": "2026-02-03",
+    "PYPL": "2026-02-03",
+    "PAYPAL": "2026-02-03",
+    "CIRCLE": "2026-02-03",
+    "SANDISK": "2026-02-03",
+    "SK HYNIX": "2026-02-04",
+    "ENPH": "2026-02-04",
+    "BITCOIN": "2026-02-05",
+    "DUOL": "2026-02-07",
+    "SAMSUNG ELECTRONICS": "2026-02-07",
+    "AEVA": "2026-02-09",
+    "PGY": "2026-02-09",
+    "U": "2026-02-11",
+    "AMKR": "2026-02-13",
+    "ACMR": "2026-02-13",
+    "RPI": "2026-02-16",
+    "RPI.L": "2026-02-16",
+    "RASPBERRYPI": "2026-02-16",
+    "XLU": "2026-02-17",
+    "CVX": "2026-02-18",
+    "POET": "2026-02-18",
+    "NITTOBO": "2026-02-18",
+    "SIMO": "2026-02-18",
+    "INFQ": "2026-02-18",
+    "VST": "2026-02-18",
+    "XLE": "2026-02-20",
+    "QQQ": "2026-02-22",
+    "HY9H": "2026-02-22",
+    "GLW": "2026-02-23",
+    "MSFT": "2026-02-25",
+    "LASR": "2026-03-02",
+    "AAOI": "2026-03-03",
+    "SE": "2026-03-03",
+    "TSEM": "2026-03-06",
+    "JETS": "2026-03-09",
+    "CODA": "2026-03-10",
+    "KRKNF": "2026-03-10",
+    "SOI": "2026-03-11",
+    "SLOIF": "2026-03-11",
+    "SYY": "2026-03-11",
+    "SIVE": "2026-03-16",
+    "COHR": "2026-03-16",
+    "NOK": "2026-03-16",
+    "IBKR": "2026-03-18",
+    "AIXA": "2026-03-21",
+    "VNP": "2026-03-24",
+    "IQE": "2026-03-25",
+    "ARM": "2026-03-25",
+    "VCX": "2026-03-25",
+    "MTSI": "2026-03-25",
+    "SPX": "2026-03-26",
+    "WIN": "2026-03-27",
+    "3105": "2026-03-27",
+    "3105.TWO": "2026-03-27",
+    "LNG": "2026-03-28",
+    "FAZ": "2026-03-28",
+    "GUSH": "2026-03-28",
+    "LCID": "2026-03-28",
+    "SQQQ": "2026-03-28",
+    "UVIX": "2026-03-28",
+    "ASML": "2026-04-03",
+    "HPS.A": "2026-04-06",
+    "VECO": "2026-04-08",
+    "JBL": "2026-04-08",
+    "SMH": "2026-04-08",
+    "ALRIB": "2026-04-11",
+    "6451": "2026-04-13",
+    "BIRD": "2026-04-15",
+    "QCOM": "2026-04-16",
+    "SWEDISH_STOCK": "2026-04-16",
+    "HSP.A": "2026-04-18",
+    "LPKF": "2026-04-20",
+    "MXL": "2026-04-21",
+    "VICR": "2026-04-21",
+    "NVTS": "2026-04-22",
+    "ASMC": "2026-04-22",
+    "AMSC": "2026-04-24",
+    "PLPC": "2026-04-24",
+    "SHUNSIN": "2026-04-25",
+    "TOWA": "2026-04-27",
+    "LPK": "2026-04-27",
+    "6830": "2026-04-29",
+    "MSSCORP": "2026-04-30",
+    "PCL": "2026-05-03",
+    "GFS": "2026-05-03",
+    "MSS": "2026-05-04"
+  }
+}

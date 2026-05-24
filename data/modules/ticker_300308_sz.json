@@ -1,0 +1,17 @@
+{
+  "key": "300308.SZ",
+  "name": "Zhongji Innolight Co., Ltd.",
+  "exchange": "SZSE",
+  "blurb": "Zhongji Innolight Co., Ltd. (SZSE: 300308), headquartered in Longkou, Shandong, is the publicly listed parent of InnoLight Technology — one of the world's largest manufacturers of datacom optical transceiver modules. The company researches, designs, packages, and sells optical communication transceivers and devices for data-centre interconnects and telecom networks, with a deep cooperative relationship with North American hyperscalers. Its product roadmap spans 100G through 1.6T solutions, including silicon photonics, LPO (linear-drive pluggable), and CPO (co-packaged optics) platforms. Alongside Eoptolink (300502.SZ), InnoLight commands roughly 60% of Nvidia's 800G SFP optical module supply. The company appeared as a named competitor in Coherent Corp.'s 10-K filing.",
+  "recent": "As of May 2026, Zhongji Innolight carries a market capitalisation of approximately 955 billion CNY, making it one of the largest listed photonics companies in China. At OFC 2025, InnoLight's subsidiary showcased 1.6T-DR8 and 2xFR4 OSFP modules using a 3nm DSP chip and 1.6T-2xLR4 modules based on TFLN MZM technology. Nvidia is expected to increase its 800G module orders to Innolight suppliers by 35% in 2026. Analyst consensus from Chinese brokerages is broadly Buy, with the stock rated a beneficiary of the strongest certainty of AI-driven demand.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/300308.SZ/", "title": "Zhongji Innolight (300308.SZ) — Yahoo Finance"},
+    {"url": "https://stockanalysis.com/quote/she/300308/", "title": "Zhongji Innolight (SHE:300308) Stock Price & Overview — StockAnalysis"},
+    {"url": "https://ip-fiber.com/blogs/news/nvidia-orders-surge-innolight-and-eoptolink-dominate-60-of-800g-sfp-optical-modules-supply", "title": "Nvidia orders surge: InnoLight and Eoptolink dominate 800G supply — IP-Fiber"},
+    {"url": "https://www.innolight.com/data-center-networking", "title": "InnoLight AI and Data Center Networking"},
+    {"url": "https://news.futunn.com/en/post/49613927/china-securities-co-ltd-maintaining-a-buy-rating-on-zhongji", "title": "China Securities maintaining Buy on Zhongji Innolight — Futunn"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T22:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

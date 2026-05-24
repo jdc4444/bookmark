@@ -1,0 +1,56 @@
+{
+  "bookmark_id": "2051061680910790920",
+  "headline": "Citrini's Boring Bet: The Analog Stack Between the Grid and the GPU",
+  "lede": "For two years, the loud trade in artificial-intelligence equities has been compute, optics and memory. A research shop on Substack argues the quietest corner of the supply chain — the capacitors, magnetics and power-conversion chips that sit between a wall socket and a Blackwell die — has finally begun to re-rate, and that most investors still are not paying attention.",
+  "body": "On the third of May, Citrini Research's account on X claimed that its 'AI Power Plumbing' basket — a portfolio of analog semiconductor and passive-component names — was the best-performing thematic basket in its universe since the recent equity-market lows, with a chart marking a 163.55 percent gain. The thesis, the post says, was first laid out in late 2024, when the firm flagged the 'analog stack between the grid and the GPU' as 'boring, deeply cyclical, and an asymmetric corner of the AI buildout the market kept ignoring.'\n\nA brief glossary is in order, because the names on Citrini's list are mostly unfamiliar outside specialist desks. Analog semiconductors do not crunch ones and zeros; they translate between the messy physical world (voltage, current, heat, motion) and the digital logic that consumes them. Inside any AI server, the journey from a 13.8-kilovolt feeder line to the 0.65-volt rail that actually feeds an Nvidia GPU passes through several stages of conversion. Each stage requires power-management integrated circuits, discrete power transistors (so-called MOSFETs), inductors and magnetics to store and shape current, and capacitors — chiefly multi-layer ceramic capacitors, or MLCCs — to smooth voltage transients. A modern Nvidia GB300 rack is reported to contain roughly thirty thousand MLCCs and dedicates close to half the volume of its power shelves to capacitor-based energy storage, used to absorb the millisecond-scale current spikes that come when thousands of GPU cores wake at once. That is what Citrini calls 'plumbing.'\n\nThe 'dual China/Auto-cycle overhang' Citrini referenced has a concrete meaning. Through 2023 and 2024 the analog sector was punished twice over. First, automotive and industrial customers — historically the most reliable buyers of analog chips — worked off the inventory they had hoarded during the pandemic shortage, sending revenues sharply lower at companies such as STMicroelectronics, ON Semiconductor and Analog Devices. Second, a wave of Chinese domestic competitors, supported by Beijing's drive for semiconductor self-sufficiency, began pricing aggressively in commodity power devices, compressing margins for incumbents. Investors treated the entire group as a value trap: cheap, but tied to two cycles that refused to turn.\n\nThat appears to have changed. Texas Instruments — at roughly twenty percent share, the largest pure-play analog maker — reported first-quarter 2026 revenue of $4.83 billion, with the analog segment up 22 percent year-on-year and data-centre revenue up roughly 90 percent, according to coverage by 24/7 Wall St. and Manufacturing Dive. Murata Manufacturing, the Japanese MLCC giant, has reportedly moved to raise prices on AI-server and automotive-grade capacitors by 15 to 35 percent and projects fiscal-2030 AI-server MLCC demand at 3.3 times fiscal-2025 levels. Monolithic Power Systems, which displaced Vicor as the dominant supplier of high-density power modules to Nvidia's H100 generation, has guided its enterprise-data segment to 50-percent-plus growth and is positioning to capture roughly 70 percent of sockets on Nvidia's forthcoming Vera Rubin platform.\n\nThe interesting question, and the one Citrini's post implicitly raises, is which names have already re-rated and which have not. Texas Instruments and Monolithic Power are no longer cheap on any conventional measure. The smaller names on the list — Alpha and Omega Semiconductor, Vishay, Diodes Incorporated, Allegro MicroSystems — and the Japanese passives houses Murata, TDK, Nippon Chemicon and Sumida have moved less, in part because their exposure to AI is diluted by automotive and industrial revenue that is only beginning to recover. Wolfspeed, the silicon-carbide specialist, is a separate story altogether: it emerged from a Chapter 11 restructuring in late 2025 after Chinese substrate competition collapsed pricing on six-inch wafers from roughly $1,500 to $500.\n\nA caveat on Citrini's headline number. Citrini Research, founded in 2023 by James van Geelen, a former independent analyst whose early calls on Silicon Valley Bank, GLP-1 obesity drugs and Nvidia gave the firm its reputation, sells most basket-level performance behind a paid Substack. The 163 percent figure shown in the chart cannot be independently verified from public sources, and 'since the recent market lows' is an unspecified start date that flatters any rebound. Whether the analog cycle has another leg or has already done most of its work is, as ever, a question the prices themselves will eventually answer.",
+  "tickers": ["TXN", "MCHP", "STM", "ON", "AOSL", "VSH", "DIOD", "ADI", "IFNNY", "MPWR", "VICR", "ALGM", "WOLF"],
+  "poster": "citrini",
+  "concepts": [
+    {
+      "key": "ai-power-plumbing",
+      "term": "AI Power Plumbing",
+      "definition": "Citrini Research's coinage for the chain of unglamorous components that step electricity down from a data-centre's high-voltage feed to the sub-1-volt rail consumed by an AI accelerator: power-management ICs, discrete transistors, inductors, magnetics and bulk and ceramic capacitors. None of it computes, but none of it can be skipped."
+    },
+    {
+      "key": "content-per-server",
+      "term": "content per server",
+      "definition": "Industry shorthand for the dollar value of components a given supplier sells into a single server. As AI racks have grown denser and more power-hungry, the analog and passive-component bill of materials per rack has risen sharply — the GB300 generation, for example, uses roughly thirty thousand MLCCs, several times a conventional server."
+    },
+    {
+      "key": "mlcc",
+      "term": "MLCC (Multi-Layer Ceramic Capacitor)",
+      "definition": "A small ceramic component that stores and releases tiny amounts of electrical energy on demand, smoothing voltage on a circuit board. AI servers consume them in the tens of thousands per unit because GPU power draws spike and collapse on millisecond timescales; high-capacitance, low-resistance grades dominate the high-end segment supplied chiefly by Murata, TDK, Samsung Electro-Mechanics and Taiyo Yuden."
+    },
+    {
+      "key": "psu",
+      "term": "PSU (Power Supply Unit)",
+      "definition": "The block in a server or rack that converts incoming AC mains into the regulated DC voltages the rest of the system uses. In an AI rack a PSU is largely full of bulk capacitors and discrete power semiconductors; Nvidia's GB300 design dedicates roughly half the internal volume of its power shelves to capacitor-based energy storage."
+    },
+    {
+      "key": "dual-cycle-overhang",
+      "term": "China/Auto-cycle overhang",
+      "definition": "The combination of two headwinds that depressed analog-semiconductor stocks through 2023-2024: a deep inventory correction in their largest end markets, automotive and industrial, and aggressive price competition from Chinese domestic suppliers benefiting from state-supported capacity expansion."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The 163.55% return figure shown on the basket chart is sourced from Citrini Research's internal performance attribution and is not independently verifiable from public filings. The phrase 'since the recent market lows' does not specify a start date. Citrini's claim that the firm flagged the analog/AI-power thesis at the end of 2024 cannot be confirmed without a paid Substack subscription, but is consistent with the firm's published cadence of 'State of the Themes' notes and with their public Q4 2024 review. Texas Instruments Q1 2026 results, Murata's price-increase reporting, the GB300 MLCC and capacitor figures, and Wolfspeed's late-2025 restructuring are well-documented in the trade press.",
+  "thread_summary": null,
+  "sources": [
+    {"title": "Citrini Research — about", "url": "https://www.citrini.com/about"},
+    {"title": "James van Geelen / Citrini — eFinancialCareers profile", "url": "https://www.efinancialcareers.com/news/alap-shah-citrini-research"},
+    {"title": "Texas Instruments Q1 2026 — Manufacturing Dive", "url": "https://www.manufacturingdive.com/news/texas-instruments-q4-2025-data-center-semiconductor-market-recovery/810672/"},
+    {"title": "TXN vs ON: April 2026 — 24/7 Wall St.", "url": "https://247wallst.com/investing/2026/05/04/texas-instruments-or-on-semiconductor-which-analog-chip-stock-won-in-april/"},
+    {"title": "Murata MLCC price hikes / AI-server demand — Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-17/murata-explores-raising-prices-of-ai-server-ceramic-capacitors"},
+    {"title": "MLCC AI-server demand — DigiTimes", "url": "https://www.digitimes.com/news/a20260225PD215/mlcc-demand-murata-price-capacity.html"},
+    {"title": "GB300 power shelf and capacitors — Nvidia developer blog", "url": "https://developer.nvidia.com/blog/how-new-gb300-nvl72-features-provide-steady-power-for-ai/"},
+    {"title": "Supercapacitors and GB300 — Astute Group", "url": "https://www.astutegroup.com/news/general/supercapacitors-gain-momentum-in-ai-data-centres-nvidias-gb300-driving-investment/"},
+    {"title": "MPWR / Vicor power-delivery competition — SemiAnalysis", "url": "https://newsletter.semianalysis.com/p/energizing-ai-power-delivery-competition"},
+    {"title": "Wolfspeed restructuring — EDN", "url": "https://www.edn.com/the-truth-about-wolfspeeds-bankruptcy-chatter/"},
+    {"title": "Wolfspeed emergence — company release", "url": "https://www.wolfspeed.com/company/news-events/news/wolfspeed-successfully-completes-financial-restructuring-emerges-as-financially-stronger-company-well-positioned-in-silicon-carbide-market/"},
+    {"title": "AOSL 800V architecture for AI factories", "url": "https://www.businesswire.com/news/home/20251013852482/en/Alpha-and-Omega-Semiconductor-Supports-800-VDC-Power-Architecture-for-Next-Generation-AI-Factories-with-Innovative-SiC-and-GaN-Power-MOSFET-and-Power-IC-Solutions"},
+    {"title": "Analog semiconductor cycle 2023-2024 — Nomad Semi", "url": "https://www.nomadsemi.com/p/state-of-the-semiconductor-cycle"}
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,54 @@
+{
+  "headline": "A Curated Guide to Ancient Mexico's Civilizations",
+  "lede": "A Twitter user known for deep dives into Mesoamerican history has compiled a directory of his detailed posts on the region's pre-Columbian cultures. The thread serves as a gateway to understanding the engineering, astronomy, and societal complexity of civilizations that flourished long before European contact.",
+  "body": "The bookmark links to a thread by @Majora__Z, an enthusiast who has produced a series of multi-paragraph posts on Ancient Mexico. The thread itself is a directory, pointing to earlier breakdowns of Mesoamerican engineering—such as aqueducts and waterworks—and recommending external resources like the Mexicolore website and YouTube channels by Ancient Americas, AztlanHistorian, ArtsQ, and Matt Gush.\n\nThe substance lies in the referenced posts, which tackle notably complex examples of Mesoamerican engineering. These include the *chinampa* system—artificial islands used for agriculture in the Valley of Mexico—and the sophisticated aqueducts of Teotihuacan and the Aztec capital Tenochtitlan. The poster emphasizes that these achievements were not primitive but reflected deep knowledge of hydraulics and urban planning.\n\nMesoamerica, a term for the cultural region spanning central Mexico to northern Costa Rica, saw the rise of the Olmecs (c. 1500 BCE), Maya (c. 2000 BCE to 900 CE), Teotihuacan (c. 100 BCE to 650 CE), Toltecs (c. 900–1150 CE), and Aztecs (c. 1300–1521 CE). Each contributed distinct innovations: the Olmecs' colossal stone heads and early writing, the Maya's advanced calendar and mathematics, and the Aztecs' vast tribute networks and hydraulic works.\n\nThe thread's value is as a curated entry point for nonspecialists. It avoids hype, instead directing readers to vetted sources and the poster's own detailed analyses. For those seeking to understand pre-Columbian societies on their own terms—rather than through colonial lenses—this directory is a useful starting point.",
+  "tickers": [],
+  "companies": [],
+  "poster": "Majora__Z",
+  "concepts": [
+    {
+      "key": "mesoamerica",
+      "term": "Mesoamerica",
+      "definition": "A historical and cultural region in the Americas, extending from central Mexico through Belize, Guatemala, El Salvador, Honduras, Nicaragua, and northern Costa Rica, where several pre-Columbian civilizations flourished. It is defined by shared cultural traits such as pyramid-building, a 260-day ritual calendar, and a ballgame."
+    },
+    {
+      "key": "chinampa",
+      "term": "chinampa",
+      "definition": "A type of Mesoamerican agriculture using small, rectangular artificial islands built on freshwater lakes. These fertile plots were used for intensive farming, especially by the Aztecs in the Valley of Mexico, and allowed year-round crop production."
+    },
+    {
+      "key": "teotihuacan",
+      "term": "Teotihuacan",
+      "definition": "A major pre-Columbian city in the Basin of Mexico, at its peak around 450 CE. It was one of the largest cities in the world at the time, known for its monumental pyramids (Pyramid of the Sun and Pyramid of the Moon) and grid-like urban layout."
+    },
+    {
+      "key": "tenochtitlan",
+      "term": "Tenochtitlan",
+      "definition": "The capital of the Aztec Empire, founded in 1325 on an island in Lake Texcoco. It was a highly organized city with causeways, aqueducts, and a complex water management system, destroyed by Spanish conquistadors in 1521."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": "The thread is a directory of the poster's own in-depth posts on Mesoamerican history and archaeology, focusing on engineering achievements like aqueducts and waterworks. It also recommends external resources such as Mexicolore and several YouTube channels.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Pre-Columbian_Mexico",
+      "title": "Pre-Columbian Mexico - Wikipedia",
+      "note": "Overview of pre-Columbian civilizations in Mexico"
+    },
+    {
+      "url": "https://www.britannica.com/place/Mexico/History",
+      "title": "Mexico - Pre-Columbian, Conquest, Revolution | Britannica",
+      "note": "Historical context of Mexico's pre-Columbian period"
+    },
+    {
+      "url": "https://globhistory.org/en/article/meksika/drevnie_civilizacii_v_meksike",
+      "title": "Ancient civilizations in Mexico - globhistory.org",
+      "note": "Summary of Olmec, Maya, Toltec, and Aztec achievements"
+    }
+  ],
+  "bookmark_id": "2028860638995395057",
+  "generated_at": "2026-05-07T04:33:08.403373Z",
+  "backend": "deepseek"
+}

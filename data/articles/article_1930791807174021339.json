@@ -1,0 +1,27 @@
+{
+  "headline": "Bookmark Retrieved Without Recoverable Tweet Text",
+  "lede": "The saved post from @0ccultbot (June 6, 2025) could not be reconstructed from the available data. The bookmark record contains only engagement metadata — 9 replies, 31 reposts, 145 likes, 8.4K views — but no tweet body, image description, or linked content. All three research sources returned JavaScript-disabled errors from X.com and yielded no readable text.",
+  "body": "Without the tweet's actual text or attached media, there is nothing substantive to brief. The account handle — **0ccultbot** (zero, not the letter O) — suggests a feed oriented toward esoteric, occult, or algorithmically surfaced obscure content, but that is inference from the name alone, not verified fact.\n\nThe engagement figures (8.4K views, 145 likes) indicate the post resonated modestly but not virally. That context is noted here only because it is the sole data available; it says nothing about the post's substance.\n\nA brief cannot be written honestly without knowing what the post said or showed. Rather than invent plausible content for an account with this name, this entry is left as a placeholder pending source recovery.",
+  "tickers": [],
+  "poster": "0ccultbot",
+  "concepts": [],
+  "books": [],
+  "repos": [],
+  "fact_check": "No claims can be assessed because the tweet body was not captured in the bookmark and all web sources failed to load (X.com returned JavaScript-disabled errors for all three URLs).",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/0ccultbot/status/1930791807174021339",
+      "title": "Original tweet (unrecovered)",
+      "note": "Primary source; returned no readable content due to JavaScript requirement"
+    },
+    {
+      "url": "https://x.com/0ccultbot",
+      "title": "occultbot profile",
+      "note": "Profile page; also unreadable for the same reason"
+    }
+  ],
+  "bookmark_id": "1930791807174021339",
+  "generated_at": "2026-05-06T20:45:52.112316Z",
+  "backend": "claude"
+}

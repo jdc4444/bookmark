@@ -1,0 +1,180 @@
+{
+  "headline": "Anthropic Ships Its Own Source Code, Accidentally, via npm",
+  "lede": "On March 31, 2026, Anthropic's Claude Code command-line tool shipped a debugging artifact that embedded the tool's entire original source. The file — a 59.8-megabyte JavaScript source map — contained roughly 512,000 lines of commented TypeScript and sat on the public npm registry for hours. By the time Anthropic pulled the package, thousands of mirrors existed.",
+  "body": "The mechanism is both mundane and unforgiving. Anthropic compiles Claude Code with the Bun JavaScript runtime, which generates *source maps* by default in production builds. A source map is a JSON debugging file whose `sourcesContent` array stores the literal text of every original pre-compiled source file — not a pointer to it, but the full code, inline. Because `.npmignore` did not exclude `*.map` files, version 2.1.88 of `@anthropic-ai/claude-code` shipped with `cli.js.map` intact. Chaofan Shou, a Chinese security researcher and co-founder of the Web3 security firm Fuzzland, spotted it, posted to X, and linked to a ZIP archive hosted on Anthropic's own Cloudflare (NET) R2 storage bucket. The tweet accumulated 34 million views.\n\nThe leak exposed roughly 1,906 TypeScript files containing Claude Code's full internal architecture. Independent analysts catalogued a 46,000-line query engine handling API calls and streaming, a *multi-agent orchestration* layer capable of spawning sub-agent swarms, and 44 feature flags, more than 20 of them unshipped. Three undisclosed features attracted particular attention. **KAIROS** is an autonomous background-daemon mode with nightly memory distillation and GitHub webhook subscriptions. An **anti-distillation layer** injects fake tool definitions into outbound API requests when a specific flag is active, explicitly designed to contaminate training data scraped by competitors monitoring API traffic. **Undercover Mode** strips internal Anthropic codenames from AI-authored commits so they appear indistinguishable from human work; its source comment reads: “There is NO force-OFF. This guards against model codename leaks.”\n\nAnthropicconfirmed the incident the same day: “This was a release packaging issue caused by human error, not a security breach. No sensitive customer data or credentials were involved.” Boris Cherny, Claude Code’s creator, said deployment requires manual steps that were not executed. Anthropic filed a *DMCA* takedown notice with GitHub, owned by Microsoft (MSFT), targeting the primary mirror and its 8,100-fork network; the action inadvertently swept up legitimate forks of Anthropic’s own public repositories before being narrowed to roughly 96. The irony was widely noted: Anthropic had settled a $1.5 billion copyright lawsuit in 2025 over training Claude on pirated books before asserting aggressive IP protection over code it had inadvertently published itself.\n\nSigrid Jin, a Korean developer notable for consuming more than 25 billion Claude Code tokens annually, built an independent reimplementation of the tool’s architecture — using Anthropic’s published design as inspiration rather than copying proprietary source — and posted it as `ultraworkers/claw-code`. The repository reached 100,000 GitHub stars faster than any in GitHub’s recorded history and subsequently surpassed 190,000 stars and 110,000 forks. Because Jin’s code contains no proprietary material, it falls outside the DMCA’s reach. The episode illustrates a persistent vulnerability in developer tooling: a routine debugging artifact, if not excluded from a package manifest, can hand the world a full architectural blueprint.",
+  "tickers": [
+    "NET",
+    "MSFT"
+  ],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Cloudflare",
+      "ticker": "NET"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Fuzzland",
+      "ticker": null
+    }
+  ],
+  "poster": "realsigridjin",
+  "concepts": [
+    {
+      "key": "source-map",
+      "term": "source map",
+      "definition": "A JSON debugging artifact generated during JavaScript/TypeScript compilation. Its `sourcesContent` array embeds the literal text of every original source file inline — not pointers but the code itself. If included in a published npm package, it allows anyone who installs the package to reconstruct the full original codebase in seconds."
+    },
+    {
+      "key": "npmignore",
+      "term": ".npmignore",
+      "definition": "A configuration file in a Node.js project that tells the npm registry which files to exclude when publishing a package, similar in syntax to .gitignore. Failing to list debugging artifacts such as source maps causes them to be bundled with the published package and downloadable by anyone who runs npm install."
+    },
+    {
+      "key": "bun-runtime",
+      "term": "Bun runtime",
+      "definition": "A JavaScript runtime and bundler positioned as a faster alternative to Node.js. Bun generates source map files by default during production builds — a convenience for developers that must be explicitly disabled to avoid shipping debugging artifacts with published packages."
+    },
+    {
+      "key": "multi-agent-orchestration",
+      "term": "multi-agent orchestration",
+      "definition": "An AI architecture in which a primary agent spawns and coordinates multiple sub-agents to work on parallelizable subtasks simultaneously. The coordinating agent dispatches work, collects results, and synthesizes a final output, allowing complex tasks to be decomposed and completed faster than a single agent could manage."
+    },
+    {
+      "key": "kairos",
+      "term": "KAIROS",
+      "definition": "An unshipped Claude Code feature found in the leaked source. It describes an autonomous background-daemon mode that would run nightly memory distillation, subscribe to GitHub webhooks, and maintain persistent agent workers — essentially an always-on AI assistant operating without user invocation."
+    },
+    {
+      "key": "anti-distillation",
+      "term": "anti-distillation layer",
+      "definition": "A technique in which an AI system injects deliberately false or misleading tool definitions into its own API outputs when it suspects a competitor is monitoring traffic to train a rival model. The goal is to contaminate the competitor's training data without affecting legitimate users."
+    },
+    {
+      "key": "undercover-mode",
+      "term": "Undercover Mode",
+      "definition": "An unshipped Claude Code feature discovered in the leaked source that strips internal Anthropic codenames and identifying markers from AI-authored git commits. Its source comment states the purpose is preventing model codename leaks in external-repository commits."
+    },
+    {
+      "key": "dmca",
+      "term": "DMCA takedown",
+      "definition": "A formal removal request filed under the Digital Millennium Copyright Act, asking a platform such as GitHub to disable access to allegedly infringing content. Platforms must comply to retain safe-harbor protections. GitHub’s network-takedown policy means a valid notice targeting one repository can disable all forks of that repository simultaneously."
+    },
+    {
+      "key": "clean-room-rewrite",
+      "term": "clean-room rewrite",
+      "definition": "A software implementation built from scratch without copying proprietary source code, using only published documentation, architectural observation, or independent engineering. Because no protected expression is copied, a clean-room rewrite generally falls outside the reach of copyright or DMCA claims."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "ultraworkers-claw-code",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "summary": "A clean-room reimplementation of Claude Code created by Sigrid Jin, initially published as instructkr/claw-code and later migrated to the ultraworkers organization as the project expanded into a Rust port. The repository explicitly disclaims any use of Anthropic’s proprietary source code and was not subject to DMCA action. It became one of the fastest-growing repositories in GitHub history, surpassing 190,000 stars and 110,000 forks within days of its public launch."
+    }
+  ],
+  "fact_check": "The bookmark tweet’s framing — 'i backed the source up on my github' — is misleading. Sigrid Jin did not host Anthropic’s proprietary leaked source. Jin’s repository (ultraworkers/claw-code) is an independent clean-room rewrite that explicitly disclaims any use of the leaked material and was not targeted by DMCA action. Direct mirrors of the raw leak were posted by separate accounts (notably nirholas/claude-code) and taken down via the DMCA network takedown. The 'fastest repo in history to surpass 100K stars' claim is widely repeated across news coverage but is not verified by any official GitHub statistic, which the company does not publish for historical comparison. The characterisation of Undercover Mode as designed to make AI-authored commits indistinguishable from human work is one reading; the source comment attributes its purpose specifically to preventing internal model codename leaks in external-repository commits, which is a narrower claim.",
+  "thread_summary": "The exchange begins with security researcher Chaofan Shou (@Fried_rice) announcing that Anthropic’s Claude Code npm package version 2.1.88 contained a source map file exposing the full TypeScript source. Sigrid Jin (@realsigridjin) replied indicating they had posted a GitHub project in response — though that project is a clean-room rewrite, not a direct copy of the leaked code.",
+  "sources": [
+    {
+      "url": "https://x.com/Fried_rice/status/2038894956459290963",
+      "title": "Chaofan Shou — original leak announcement",
+      "note": "Primary source; first public disclosure of the Claude Code npm source map leak"
+    },
+    {
+      "url": "https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know",
+      "title": "VentureBeat — Claude Code’s source code appears to have leaked",
+      "note": "First major English-language news report; contains Anthropic’s official statement"
+    },
+    {
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
+      "title": "BleepingComputer — Claude Code source code accidentally leaked in NPM package",
+      "note": "Timeline and Anthropic confirmation"
+    },
+    {
+      "url": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+      "title": "The Hacker News — Claude Code leaked via npm packaging error",
+      "note": "Technical detail on features found and feature flag count"
+    },
+    {
+      "url": "https://www.infoq.com/news/2026/04/claude-code-source-leak/",
+      "title": "InfoQ — Anthropic Accidentally Exposes Claude Code Source via npm Source Map File",
+      "note": "Root-cause analysis; Bun default behaviour identified"
+    },
+    {
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+      "title": "Alex Kim — The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "note": "Deep technical analysis of specific features in the leaked source"
+    },
+    {
+      "url": "https://layer5.io/blog/engineering/the-claude-code-source-leak-512000-lines-a-missing-npmignore-and-the-fastest-growing-repo-in-github-history/",
+      "title": "Layer5 — 512,000 Lines, a Missing .npmignore, and the Fastest-Growing Repo in GitHub History",
+      "note": "Technical primer on sourcesContent mechanism; fastest-growing repo context"
+    },
+    {
+      "url": "https://blog.kilo.ai/p/claude-code-source-leak-a-timeline",
+      "title": "Kilo Blog — Claude Code Source Leak: A Timeline",
+      "note": "Clean event timeline; Bun open issue context"
+    },
+    {
+      "url": "https://github.com/github/dmca/blob/master/2026/03/2026-03-31-anthropic.md",
+      "title": "GitHub DMCA — Anthropic takedown notice, March 31 2026",
+      "note": "Official DMCA filing; 8,100-fork network targeted"
+    },
+    {
+      "url": "https://piunikaweb.com/2026/04/01/anthropic-dmca-claude-code-leak-github/",
+      "title": "Piunikaweb — GitHub enforces Anthropic DMCA notices on leaked code",
+      "note": "Boris Cherny statement on accidental sweep of legitimate Anthropic forks"
+    },
+    {
+      "url": "https://futurism.com/artificial-intelligence/anthropic-suddenly-cares-about-intellectual-property-claude-leak",
+      "title": "Futurism — Anthropic Suddenly Cares Intensely About Intellectual Property",
+      "note": "IP irony framing; Anthropic pirated-books settlement context"
+    },
+    {
+      "url": "https://decrypt.co/362917/anthropic-accidentally-leaked-claude-code-source-internet-keeping-forever",
+      "title": "Decrypt — Anthropic Accidentally Leaked Claude Code’s Source — The Internet Is Keeping It Forever",
+      "note": "Surviving mirrors and decentralised persistence"
+    },
+    {
+      "url": "https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo",
+      "title": "DEV Community — Claude Code’s Entire Source Code Was Just Leaked via npm Source Maps",
+      "note": "Architectural breakdown; 1,906 file count confirmed"
+    },
+    {
+      "url": "https://www.zscaler.com/blogs/security-research/anthropic-claude-code-leak",
+      "title": "Zscaler ThreatLabz — Anthropic Claude Code Leak",
+      "note": "Security research perspective; 44 feature flags confirmed"
+    },
+    {
+      "url": "https://github.com/ultraworkers/claw-code",
+      "title": "ultraworkers/claw-code on GitHub",
+      "note": "The live clean-room rewrite; not DMCA’d; explicit Anthropic disclaimer in README"
+    },
+    {
+      "url": "https://eu.36kr.com/en/p/3750770295898630",
+      "title": "36KR — Chinese Dropout Doctor Finds Claude Code Source Code Leak",
+      "note": "Chaofan Shou background; 34.07M tweet views; Boris Cherny statements"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=47584540",
+      "title": "Hacker News — Claude Code source map leak thread",
+      "note": "Community technical analysis; 3,167-line function discussion"
+    },
+    {
+      "url": "https://cybernews.com/tech/claude-code-leak-spawns-fastest-github-repo/",
+      "title": "Cybernews — Leaked Claude Code source spawns fastest growing repository in GitHub’s history",
+      "note": "Star count velocity and fastest-repo claim context"
+    }
+  ],
+  "bookmark_id": "2038908883004227957",
+  "generated_at": "2026-05-07T09:14:54.086355Z",
+  "backend": "claude-sonnet-subagent"
+}

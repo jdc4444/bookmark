@@ -1,0 +1,63 @@
+{
+  "headline": "A Stem Player Clone Built from Equations, Not Polygons",
+  "lede": "A developer recreated a working prototype of Kanye West's Stem Player — the puck-shaped device for mixing separated audio tracks — in under 48 hours, with no 3D models, no imported assets, and no polygons of any kind. Every surface, hole, and glowing LED exists only as math, computed live on the GPU. The project is a compact demonstration of a rendering philosophy that predates modern game engines but has rarely been applied to interactive audio tools.",
+  "body": "The **Stem Player** was released in 2021 as a $200 hardware device designed to let listeners remix music in real time by isolating and blending vocal, drum, bass, and sample stems. It became notable both as a piece of consumer electronics and as the exclusive distribution vehicle for Ye's album *Donda*. The device's tactile appeal — its smooth puck form, its capacitive strips, its constellation of LEDs — is precisely what makes it an interesting target for a purely mathematical recreation.\n\nConventional 3D graphics pipelines build scenes from *polygons*: meshes of triangles stored in files (commonly *.gltf* or *.glb*) that the GPU rasterises into pixels. This project uses a fundamentally different approach. **Signed Distance Fields**, or SDFs, are mathematical functions that answer a simple question: how far is this point in space from the nearest surface? Stack and combine enough SDF primitives — spheres, capsules, toruses — and you can describe almost any shape without a single vertex. *Raymarching* is the complementary rendering technique: the GPU fires a ray from each pixel and steps incrementally along it, checking the SDF at each position until it finds a surface. The result looks three-dimensional and can support lighting, reflections, and soft shadows, all derived from derivatives of the same equations.\n\nRunning this entirely inside a *fragment shader* — the GPU program responsible for coloring individual pixels — means the scene exists nowhere except in arithmetic. There is no scene graph, no physics engine, no asset pipeline. The geometry is, as the post puts it, \"pure math.\" This approach has deep roots in the *demoscene*, a subculture of programmers who have competed for decades to produce elaborate visuals inside impossibly small executables, and in the online shader community built around platforms like Shadertoy. What is less common is marrying it to generative audio in a usable, real-time interface.\n\nThe creator frames the project as *system sculpting*, a deliberate rebranding of *vibe coding* — the AI-assisted, intent-driven style of software development popularized by researcher Andrej Karpathy. Where vibe coding connotes improvisation, the new label suggests something more structural: composing systems from mathematical primitives rather than assembling libraries. Whether the label sticks is another matter, but the prototype itself is a genuine proof of concept: a hardware-inspired instrument whose aesthetic and audio logic emerge from the same generative substrate.",
+  "tickers": [],
+  "poster": "ty_kra_lab",
+  "concepts": [
+    {
+      "key": "signed-distance-field",
+      "term": "Signed Distance Field (SDF)",
+      "definition": "A mathematical function that takes any point in space and returns how far that point is from the nearest surface — positive outside the surface, negative inside. By combining simple SDF primitives (spheres, boxes, cylinders), programmers can describe complex 3D shapes without polygon meshes. The sign of the returned value tells you which side of the surface you're on."
+    },
+    {
+      "key": "raymarching",
+      "term": "Raymarching",
+      "definition": "A rendering technique that shoots a ray from the camera through each pixel and advances along it in small steps, using an SDF to check at each step whether the ray has hit a surface. Because the SDF tells you the minimum safe distance to march without missing a surface, the steps can be large far from geometry and small near it, making the method efficient. It produces photorealistic lighting and shadowing entirely from math, with no polygon geometry."
+    },
+    {
+      "key": "fragment-shader",
+      "term": "Fragment Shader",
+      "definition": "A small program that runs on the GPU once per screen pixel (or 'fragment') to determine that pixel's final color. In standard rendering, shaders receive geometry from the CPU; in SDF raymarching, the fragment shader itself contains the entire scene description, computing geometry on the fly. Running a full interactive 3D world inside a fragment shader on a flat 2D canvas is a hallmark of the demoscene tradition."
+    },
+    {
+      "key": "vibe-coding",
+      "term": "Vibe Coding",
+      "definition": "A style of software development, coined by AI researcher Andrej Karpathy, in which a developer describes desired behavior in natural language and lets an AI assistant generate most of the implementation. The developer steers by intent rather than syntax, running and adjusting outputs rather than writing code line by line. Critics note it can produce brittle or unmaintainable results; proponents argue it dramatically accelerates prototyping."
+    },
+    {
+      "key": "stem-player",
+      "term": "Stem Player",
+      "definition": "A handheld music device released in 2021 that separates any song into four component stems — vocals, drums, bass, and samples — and lets the user mix them in real time via touch-sensitive strips. It was sold exclusively through Ye's own website and used as the primary distribution format for his album Donda. The device was developed in collaboration with Kano Computing and priced at $200."
+    },
+    {
+      "key": "demoscene",
+      "term": "Demoscene",
+      "definition": "A subculture of programmers and artists, dating to the 1980s, who compete to produce impressive real-time audio-visual demonstrations within extreme size constraints — often a few kilobytes. The community pioneered many GPU techniques, including SDF raymarching, that later migrated into mainstream graphics research and online shader communities."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/ty_kra_lab/status/2039390403636412671",
+      "title": "Original tweet by @ty_kra_lab",
+      "note": "Primary source: description of the build, technique, and framing"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vibe_coding",
+      "title": "Vibe coding — Wikipedia",
+      "note": "Background on vibe coding as a practice and its reception"
+    },
+    {
+      "url": "https://medium.com/electronic-life/vibe-coding-explained-e3632b8ce1bf",
+      "title": "Vibe Coding, Explained — Medium / Electronic Life",
+      "note": "Attribution of the term to Andrej Karpathy and description of the method"
+    }
+  ],
+  "bookmark_id": "2039390403636412671",
+  "generated_at": "2026-05-06T19:43:35.872055Z",
+  "backend": "claude"
+}

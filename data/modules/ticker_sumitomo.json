@@ -1,0 +1,15 @@
+{
+  "key": "SUMITOMO",
+  "name": "Sumitomo Electric Industries, Ltd.",
+  "exchange": "Tokyo Stock Exchange (5802.T); ADR: SMTOY (OTC)",
+  "blurb": "Sumitomo Electric Industries is one of Japan's largest diversified electrical manufacturers, with major businesses in wiring harnesses, power cables, electronics, and information and communications equipment — the last of which includes optical fibers, cables, optical devices, and telecommunications components. As one of the top global fiber-optic cable suppliers alongside Corning and Prysmian, Sumitomo benefits directly from hyperscaler spending on backbone and data-center interconnect cabling for AI infrastructure.",
+  "recent": "Shares traded near JPY 9,900 in early May 2026, within a 52-week range of JPY 2,330–11,495, reflecting a sharp re-rating as fiber-cable demand accelerated. The ADR (SMTOY) traded near USD 62. Goldman Sachs, Nomura, UBS, and Jefferies all carried buy ratings in spring 2026, with a consensus 12-month target near JPY 11,896. The global fiber optic cable market is projected to grow from USD 14.2 billion in 2026 to USD 22.7 billion by 2031.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/5802.T/", "title": "Sumitomo Electric Industries (5802.T) – Yahoo Finance"},
+    {"url": "https://finance.yahoo.com/quote/SMTOY/", "title": "Sumitomo Electric Industries ADR (SMTOY) – Yahoo Finance"},
+    {"url": "https://sumitomoelectric.com/products/fiber-optic-products/optical-fibers-cables", "title": "Sumitomo Electric – Optical Fibers & Cables product page"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T08:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

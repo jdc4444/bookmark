@@ -1,0 +1,132 @@
+{
+  "headline": "An AI Skill That Clones Any Website in One Prompt",
+  "lede": "A pseudonymous developer has published an open-source Claude Code skill that reconstructs any website — fonts, colors, layout, and animations intact — from a single slash command. The tool harnesses Claude Code's built-in Chrome browser extension to pull live assets directly from a running browser session, bypassing the guesswork of screenshot-based cloning. Within six weeks, the GitHub repository had accumulated more than 14,000 stars.",
+  "body": "The skill, `/clone-website`, is distributed as part of an MIT-licensed *Next.js* template on GitHub, built by a pseudonymous developer known as JCodesMore. Its enabling technology is Claude Code's *Chrome MCP* — a browser extension that exposes twenty-nine automation tools to the AI agent, including DOM inspection, navigation, full-page screenshots, and network monitoring. Because the agent reads computed styles from the live page using JavaScript's `getComputedStyle()` rather than inferring them from screenshots, it recovers exact hexadecimal colors, precise pixel measurements, and actual font-stack declarations — not estimates.\n\nThe pipeline unfolds in five phases. Reconnaissance first: the agent navigates to the target, captures screenshots at multiple viewport widths, and performs an interaction sweep — scrolling, hovering, clicking — to surface behaviors invisible in a static frame, such as a header that shrinks on scroll or a carousel that auto-advances. It extracts *design tokens* — named colors, typography scales, icon assets — as it goes. In the foundation phase, it writes layout configuration, global CSS, TypeScript interfaces, and SVG components, verifying the build compiles before continuing. The third phase dispatches specialized **builder agents** in parallel *git worktrees*, each responsible for a single page section and each given a complete specification document drawn from `getComputedStyle()` output; complex sections must be split further rather than bundled. A final visual-QA pass runs a side-by-side *perceptual diff* before the worktrees are merged.\n\nThe demo target appears to be Instruct (instruct.ai), a London-based no-code AI automation platform backed by Creandum that lets users build autonomous agents through natural-language instructions. The cloner's output reproduces Instruct's dark-themed *SaaS* landing page — task-card grid, feature copy, and all — presumably chosen to demonstrate the tool on a commercially polished design.\n\nThe ethical charge is real even if the capability is not new. Website-cloning tools have existed for years; what is novel here is the degree of automation and fidelity. A February 2026 Malwarebytes report documented more than 18,000 holiday-themed impersonation domains registered in three months, and a 2025 phishing study found that 82.6% of analyzed phishing emails contained AI-generated content. JCodesMore's README explicitly prohibits phishing and impersonation, citing legitimate uses — recovering lost source code, migrating legacy platforms, studying responsive design patterns — but those caveats sit uneasily next to a tool that, by design, removes the friction that once made large-scale brand impersonation operationally difficult. Anthropic's own Chrome MCP documentation acknowledges that browser-using agents remain vulnerable to *prompt injection*, in which malicious page content attempts to redirect the agent's behavior; its mitigations reduce but do not eliminate the risk.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Instruct",
+      "ticker": null
+    },
+    {
+      "name": "Creandum",
+      "ticker": null
+    },
+    {
+      "name": "Malwarebytes",
+      "ticker": null
+    }
+  ],
+  "poster": "oliviscusAI",
+  "concepts": [
+    {
+      "key": "claude-code-skill",
+      "term": "Claude Code skill",
+      "definition": "A packaged slash command for the Claude Code CLI, defined by a SKILL.md file containing YAML frontmatter (name, allowed tools, invocation controls) and markdown instructions. Skills live in ~/.claude/skills/ for personal use or .claude/skills/ for project scope, and are invoked by typing /skill-name. They can auto-trigger on relevant context or require explicit user invocation."
+    },
+    {
+      "key": "chrome-mcp",
+      "term": "Chrome MCP",
+      "definition": "Claude Code's browser automation layer, delivered as a Chrome extension called \"Claude in Chrome\" that communicates with the CLI via a native messaging host. It exposes twenty-nine tools — navigation, DOM inspection, screenshots, network monitoring, form interaction — and uses the browser's existing authenticated sessions, so the agent can act on sites the user is already logged into without requiring separate API credentials."
+    },
+    {
+      "key": "design-tokens",
+      "term": "design tokens",
+      "definition": "Named, platform-agnostic variables that encode the visual decisions of a design system — specific colors (as hex or HSL values), typography scales, spacing units, border radii. Storing design as tokens rather than hard-coded literals makes a codebase easier to theme, audit, and maintain consistently across components."
+    },
+    {
+      "key": "git-worktrees",
+      "term": "git worktrees",
+      "definition": "A Git feature that lets a single repository maintain multiple checked-out working directories simultaneously, each on a different branch. The website cloner uses worktrees so that parallel builder agents can compile and test their sections in isolation without file conflicts, then merges all worktrees once each section passes its checks."
+    },
+    {
+      "key": "get-computed-style",
+      "term": "getComputedStyle()",
+      "definition": "A JavaScript browser API that returns the final, resolved CSS property values actually applied to a DOM element after all stylesheets, inheritance, and browser defaults have been applied — including values not explicitly declared in any stylesheet. The cloner uses it to extract exact pixel measurements and hexadecimal colors rather than relying on source CSS or screenshot estimates."
+    },
+    {
+      "key": "perceptual-diff",
+      "term": "perceptual diff",
+      "definition": "A comparison technique that measures visible pixel-level differences between two screenshots, weighted by how noticeable the differences would be to the human eye. Used in UI testing to catch visual regressions that code assertions miss — a perceptual diff can flag a subtle color shift or spacing error that an exact byte comparison would not surface."
+    },
+    {
+      "key": "prompt-injection",
+      "term": "prompt injection",
+      "definition": "An attack in which malicious content embedded in a web page, document, or data source attempts to override or redirect the instructions given to an AI agent processing that content. For browser-using agents, a hostile website could include hidden text instructing the agent to take unintended actions — submitting forms, exfiltrating data — on the user's behalf."
+    },
+    {
+      "key": "saas",
+      "term": "SaaS",
+      "definition": "Software-as-a-Service: a software delivery model in which an application is hosted centrally and accessed over the internet via subscription, rather than installed locally. The term is used here as shorthand for a category of commercially polished web product with recognizable UI conventions — hero sections, pricing grids, feature-card layouts."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "JCodesMore-ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "summary": "An MIT-licensed Next.js 16 / React 19 / TypeScript / Tailwind CSS v4 template that ships a Claude Code skill — /clone-website — for one-command website cloning. The skill drives Claude Code's Chrome MCP to extract design tokens and component specifications from a live browser session, then dispatches parallel builder agents in git worktrees to reconstruct each page section. The repository accumulated roughly 14,100 stars and 2,100 forks within its first six weeks of publication."
+    }
+  ],
+  "fact_check": "The promotional claim that the tool clones websites \"perfectly\" is marketing shorthand. The skill aims for high visual fidelity and runs a perceptual-diff QA pass, but dynamic server-rendered content, user-specific data, and complex JavaScript-heavy single-page applications will not be reproduced faithfully from a static snapshot. \"One prompt\" is accurate in spirit — the user runs a single /clone-website command — though the Chrome browser extension must be installed separately and a target URL must be supplied as an argument.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "title": "ai-website-cloner-template — GitHub",
+      "note": "Primary source: open-source repo, README, and five-phase pipeline documentation"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/JCodesMore/ai-website-cloner-template/master/.claude/skills/clone-website/SKILL.md",
+      "title": "SKILL.md — clone-website",
+      "note": "Full skill definition confirming the five-phase pipeline and specification requirements"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/chrome",
+      "title": "Claude Code Chrome MCP documentation — Anthropic",
+      "note": "Official documentation on the Chrome browser extension and its 29 automation tools"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/skills",
+      "title": "Claude Code Skills documentation — Anthropic",
+      "note": "Official documentation on creating and distributing slash-command skills"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/charlywargnier_holy-cow-someone-literally-built-a-claude-activity-7442932090943287296-8t1P",
+      "title": "Charly Wargnier — LinkedIn post on the cloner",
+      "note": "Detailed five-step breakdown and ethical disclaimer context"
+    },
+    {
+      "url": "https://www.malwarebytes.com/blog/news/2026/02/criminals-are-using-ai-website-builders-to-clone-major-brands",
+      "title": "Malwarebytes: Criminals are using AI website builders to clone major brands",
+      "note": "February 2026 threat report on AI-assisted brand impersonation at scale"
+    },
+    {
+      "url": "https://instruct.ai/",
+      "title": "Instruct AI homepage",
+      "note": "Likely demo target of the cloner's promotional video"
+    },
+    {
+      "url": "https://creandum.com/stories/backing-instruct/",
+      "title": "Creandum: Backing Instruct",
+      "note": "Venture backing context for Instruct AI"
+    },
+    {
+      "url": "https://github.com/JCodesMore",
+      "title": "JCodesMore GitHub profile",
+      "note": "Builder's GitHub profile and repository list"
+    },
+    {
+      "url": "https://x.com/oliviscusAI",
+      "title": "oliviscusAI on X",
+      "note": "Poster's X profile for follower count and editorial style context"
+    }
+  ],
+  "bookmark_id": "2041112612981916146",
+  "generated_at": "2026-05-07T08:04:19.495771Z",
+  "backend": "claude-sonnet-subagent"
+}

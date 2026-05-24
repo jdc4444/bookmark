@@ -1,0 +1,32 @@
+{
+  "key": "BX",
+  "name": "Blackstone Inc.",
+  "exchange": "NYSE",
+  "blurb": "Blackstone Inc. is a leading global alternative asset management firm specializing in private equity, real estate, credit, and hedge fund solutions. With over $1 trillion in assets under management, it is one of the largest and most influential investment firms in the world. The company serves institutional and individual investors through a diversified range of investment strategies.",
+  "recent": "As of May 7, 2026, Blackstone's stock closed at $122.33, down 1.89% on the day, with a market cap of approximately $150.5 billion. The company reported earnings on April 23, 2026, showing revenue of $14.40 billion (up 16.4% year-over-year) and net income of $3.05 billion (up 20.1%). The stock has a 52-week range of $101.73 to $190.09 and an analyst price target of $156.53.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BX/news/",
+      "title": "Blackstone Inc. (BX) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BX/",
+      "title": "Blackstone (BX) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/bx",
+      "title": "BX Stock Price | Blackstone Inc. Stock Quote (U.S.: NYSE) | MarketWatch"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/bx/",
+      "title": "Blackstone (BX) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xnys/bx/quote",
+      "title": "BX Stock - Blackstone Inc Stock Price Quote - NYSE - Morningstar"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:28:16.730888Z",
+  "backend": "deepseek"
+}

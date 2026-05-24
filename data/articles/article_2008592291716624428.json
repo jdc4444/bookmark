@@ -1,0 +1,48 @@
+{
+  "headline": "Higgsfield's Relight Brings Studio Lighting to Post-Production",
+  "lede": "A new AI tool from Higgsfield lets users reposition, recolor, and reshape the light in a photograph after it has been taken — simulating the effect of a physical studio setup without one. The tool, called Relight, launched in January 2026 and uses generative AI paired with depth-mapping to infer a scene's geometry before re-rendering illumination. The result is less a filter than a simulation: shadows fall where physics would put them, not where a brush has been dragged.",
+  "body": "Conventional photo editing treats lighting as pixels to push around. Dodge, burn, adjust a curve — the tools are powerful but they operate in two dimensions, with no awareness of where a nose ends and a cheek begins. **Relight** takes a different approach by first estimating the three-dimensional structure of a scene and then re-rendering a simulated light source within that structure. According to Higgsfield's own documentation, the tool supports directional control (a drag gesture sets the angle), adjustable intensity via a brightness slider, a soft-to-hard continuum governing shadow edge quality, and hex-code color input for light temperature and tint.\n\nThe practical applications are easier to describe than the underlying engineering. A backlit portrait — subject dark, sky blown out — can be corrected by placing a front-fill light after the fact. Flat product shots can gain lateral depth. The same controls that would, on a film set, require a gaffer, stands, gels, and diffusion silk can, in principle, be dialed in through a web interface. That compression of the production chain is genuinely significant for small studios, independent creators, and e-commerce teams working without lighting rigs.\n\nThe broader claim in the tweet — that Hollywood is \"terrified\" — is the kind of shorthand that flatters a tool while misrepresenting an industry. Feature film lighting involves *cinematographers* making thousands of decisions about what story light should tell, not merely where it should fall. Relighting a still photograph and lighting a moving scene with motivated, emotionally coherent sources are different problems by orders of magnitude. What tools like Relight do threaten is the lower tier of commercial work: catalogue photography, influencer content, real-estate imagery — categories where the brief is competence, not artistry.\n\nHiggsfield positions itself as a platform for generative image, video, and audio production. Relight is one feature among many, and it remains a closed commercial product rather than an open model. The depth-mapping and generative relighting techniques it draws on have academic lineage stretching back years — the novelty is in the packaging and accessibility, not the underlying science. That distinction matters when evaluating the breathless framing that tends to accompany each new tool's launch.",
+  "tickers": [],
+  "poster": "EHuanglu",
+  "concepts": [
+    {
+      "key": "depth-mapping",
+      "term": "Depth mapping",
+      "definition": "A technique in which software estimates how far each part of an image is from the camera, constructing a rough three-dimensional model of the scene. AI systems use this model to apply effects — like lighting — that respect the geometry of objects rather than treating the image as a flat grid of pixels."
+    },
+    {
+      "key": "relighting",
+      "term": "Relighting",
+      "definition": "The process of changing the apparent light source in a photograph or video frame after capture. Traditional relighting is done on set or through laborious compositing; AI-based relighting synthesizes plausible shadows and highlights by inferring scene structure from a single image."
+    },
+    {
+      "key": "soft-hard-light",
+      "term": "Soft vs. hard light",
+      "definition": "A fundamental distinction in photography and cinematography. Hard light comes from a small, distant, or direct source and produces sharp-edged shadows; soft light comes from a large or diffused source and wraps around subjects with gradual shadow transitions. The quality of shadows is often more expressive than their direction."
+    },
+    {
+      "key": "color-temperature",
+      "term": "Color temperature",
+      "definition": "A measure, in Kelvin, of a light source's warmth or coolness. Candles sit around 1800K (amber); midday sun around 5500K (white); open shade around 7000K (blue). In post-production, shifting color temperature can change the mood of a scene — warmer for intimacy, cooler for alienation."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that Hollywood is \"terrified\" of this tool is marketing hyperbole dressed as analysis. Higgsfield Relight works on still images; professional cinematography involves continuous, motivated, scene-consistent lighting across moving frames — a far harder problem that current tools do not approach. The tool is genuinely capable within its domain (portrait and product photography), but framing it as an existential threat to feature film production overstates the case considerably.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://higgsfield.ai/blog/Relight-Director-Style-Cinematic-Lighting",
+      "title": "Add Director-Style Cinematic Lighting with Relight — Higgsfield AI",
+      "note": "Official product announcement; describes feature set, depth-mapping approach, and intended use cases"
+    },
+    {
+      "url": "https://www.aitoolcurator.com/blog/higgsfield-relight/",
+      "title": "Higgsfield Relight: AI Cinematic Lighting Control — AI Tool Curator",
+      "note": "Independent overview contrasting Relight with traditional filter-based editing; explains depth-aware rendering"
+    }
+  ],
+  "bookmark_id": "2008592291716624428",
+  "generated_at": "2026-05-06T20:21:26.014388Z",
+  "backend": "claude"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "BB",
+  "name": "BlackBerry Limited",
+  "exchange": "NYSE",
+  "blurb": "BlackBerry Limited is a cybersecurity software and services company, known for its transition from smartphone hardware to enterprise software. It specializes in secure communications, endpoint security, and embedded software for the Internet of Things (IoT). The company's QNX platform is widely used in automotive and industrial systems. BlackBerry competes in the cybersecurity market with a focus on government and regulated industries.",
+  "recent": "In the past 30 days, BlackBerry reported its fiscal third-quarter results, with revenue slightly above expectations but continuing declines in its legacy licensing business. The stock has been volatile amid broader tech sell-offs and mixed analyst ratings. No major catalysts have emerged, and the company continues to execute its turnaround strategy under new leadership.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BB/news/",
+      "title": "BlackBerry Limited (BB) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/bb",
+      "title": "BB Stock Price | BlackBerry Ltd. Stock Quote (U.S.: NYSE) | MarketWatch"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/BB/",
+      "title": "BlackBerry (BB) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/BB",
+      "title": "BB Stock Quote Price and Forecast | CNN"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/BB",
+      "title": "BlackBerry Limited (BB) Stock Price, Quote, News & Analysis | Seeking Alpha"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T12:09:59.266716Z",
+  "backend": "deepseek"
+}

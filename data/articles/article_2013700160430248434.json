@@ -1,0 +1,153 @@
+{
+  "headline": "Google's Midnight Globe Maps the World's 7,000 Languages",
+  "lede": "Language Explorer, a project from Google Research, is an interactive 3D globe that maps speaker counts, writing systems, and UNESCO endangerment status for more than 7,000 living languages. The poster @Aurelien_Gz holds it up as a masterclass in premium dark-mode web design — and the design awards agree. The more interesting story is what sits underneath the visual polish.",
+  "body": "Language Explorer won Awwwards' *Site of the Day* on January 16, 2026 — the web-design industry's most-watched daily recognition — with its animation category scoring 8.2 out of 10, the highest mark from the developer jury. The design was built by external agencies Hook and Blinkk for Google Research (GOOGL). The aesthetic is stark: a black background, white typography, and a *WebGL*-rendered 3D globe as the primary navigation surface. Spatial sound design is layered in, an unusual choice for a data tool. The momentum physics of the globe's rotation and the slide-in data sheets when language pins are clicked create the sense that information is being revealed, not merely displayed.\n\nEach language pin opens a structured data sheet. The screenshot in the tweet shows English: 1.3 billion-plus speakers, not-endangered status, Latin script, and a *BCP-47* code of “en.” Every entry also carries an ISO 639-3 identifier, a *Glottocode*, and a Wikidata ID — a multi-key schema built for interoperability with *NLP* pipelines. Endangerment follows the *UNESCO endangerment scale*, a six-level taxonomy running from Safe through Vulnerable, Definitely Endangered, Severely Endangered, and Critically Endangered to Extinct. Of roughly 7,000 living languages on Earth, the majority sit somewhere below Safe. The globe makes that asymmetry viscerally legible in a way no table can.\n\nThe visual front-end runs on *LinguaMeta*, a unified language-metadata repository published as an academic paper at *LREC-COLING* 2024 by Google Research (GOOGL) authors Sandy Ritchie, Daan van Esch, Uche Okonkwo, Shikhar Vashishth, and Emily Drummond. LinguaMeta aggregates *Glottolog*, Unicode *CLDR*, IETF BCP-47 registries, and the SIL ISO 639 authority into a single JSON structure covering roughly 83 per cent of known languages with speaker-population figures. Released on GitHub under Creative Commons licensing, it is designed to lower the barrier for extending machine-learning models to low-resource languages — the hundreds of tongues for which even basic training data remains scarce.\n\nThat mission has already produced a measurable product impact. Google Research (GOOGL) says the Language Inclusion initiative, of which Language Explorer is the public face, directly contributed to **110 new languages** being added to Google Translate — the company's largest-ever expansion — extending translation access to an estimated 614 million additional speakers. The prior expansion cycle added 24 languages; the jump to 110 was made possible by the same metadata infrastructure that Language Explorer now visualises.\n\nThe tweet's design-appreciation framing is accurate but incomplete. What makes Language Explorer genuinely rare is that the visual ambition serves the data rather than obscuring it. The dark aesthetic forces the globe's geographic pins and colored endangerment indicators to carry the entire information load. That is a harder design problem than a light-mode dashboard, and the agencies solved it well. The deeper achievement is that a dataset built for NLP engineers got wrapped in a consumer-grade interface, making the world's linguistic diversity legible to anyone with a browser.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Hook",
+      "ticker": null
+    },
+    {
+      "name": "Blinkk",
+      "ticker": null
+    },
+    {
+      "name": "SIL International",
+      "ticker": null
+    },
+    {
+      "name": "Awwwards",
+      "ticker": null
+    }
+  ],
+  "poster": "Aurelien_Gz",
+  "concepts": [
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "Web Graphics Library — a JavaScript API that allows browsers to render interactive 2D and 3D graphics using the device's GPU, without plugins. It powers the Language Explorer globe's real-time 3D rendering."
+    },
+    {
+      "key": "bcp-47",
+      "term": "BCP-47",
+      "definition": "A standard from the IETF (Internet Engineering Task Force) for language tags, such as “en” for English or “zh-Hant” for Traditional Chinese. BCP-47 codes are the labels software systems use to identify languages in localisation, web headers, and NLP pipelines."
+    },
+    {
+      "key": "linguameta",
+      "term": "LinguaMeta",
+      "definition": "A unified language-metadata repository created by Google Research and published at LREC-COLING 2024. It aggregates data from Glottolog, CLDR, IETF, and SIL into a single JSON dataset covering more than 7,000 languages, and is the source data powering Language Explorer."
+    },
+    {
+      "key": "glottolog",
+      "term": "Glottolog",
+      "definition": "An academic reference catalog of the world's languages, maintained by the Max Planck Institute for Evolutionary Anthropology. It assigns each language a unique Glottocode and is one of the main alternatives to the SIL's Ethnologue for linguistic classification."
+    },
+    {
+      "key": "glottocode",
+      "term": "Glottocode",
+      "definition": "A unique identifier assigned to each language or dialect in the Glottolog database. LinguaMeta includes Glottocodes alongside ISO 639-3 codes and BCP-47 tags so records can be cross-referenced across multiple linguistic databases."
+    },
+    {
+      "key": "cldr",
+      "term": "CLDR",
+      "definition": "Unicode Common Locale Data Repository — a database maintained by the Unicode Consortium that standardises locale-specific data (date formats, currency symbols, language names) for software internationalisation."
+    },
+    {
+      "key": "nlp",
+      "term": "NLP",
+      "definition": "Natural Language Processing — the branch of artificial intelligence concerned with enabling computers to understand and generate human language. NLP models require large amounts of text data per language; LinguaMeta was designed to help teams extend NLP tools to languages where such data is scarce."
+    },
+    {
+      "key": "lrec-coling",
+      "term": "LREC-COLING",
+      "definition": "The joint conference of the Language Resources and Evaluation Conference (LREC) and the International Conference on Computational Linguistics (COLING) — one of the top academic venues for language-data and NLP research. The 2024 edition was held in Torino, Italy."
+    },
+    {
+      "key": "iso-639-3",
+      "term": "ISO 639-3",
+      "definition": "An international standard that assigns a unique three-letter code to every known human language. Maintained by SIL International, it is the most widely used language-identification standard in linguistics and computational language tools."
+    },
+    {
+      "key": "awwwards-sotd",
+      "term": "Site of the Day (SOTD)",
+      "definition": "A daily award given by Awwwards, a competition platform that judges websites for design, creativity, and technical innovation. Awarded by a developer jury and community votes, it is one of the most recognised distinctions in front-end and UX design."
+    },
+    {
+      "key": "unesco-endangerment-scale",
+      "term": "UNESCO Endangerment Scale",
+      "definition": "A six-level classification system for assessing how threatened a language is: Safe, Vulnerable, Definitely Endangered, Severely Endangered, Critically Endangered, and Extinct. Introduced in the 2010 UNESCO Atlas of the World's Languages in Danger, it is the standard framework for language vitality assessment."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "google-research/url-nlp",
+      "url": "https://github.com/google-research/url-nlp",
+      "summary": "A Google Research monorepo containing NLP datasets and tools, including the LinguaMeta language-metadata repository in its /linguameta subfolder. LinguaMeta provides unified JSON records — speaker counts, scripts, BCP-47 codes, and endangerment status — for thousands of languages. Released under Creative Commons licences, it is intended as a foundation for teams extending machine-learning models to low-resource languages."
+    }
+  ],
+  "fact_check": "The tweet credits the design to Google, but Language Explorer was built by external agencies Hook and Blinkk working on behalf of Google Research. Attributing it purely to Google overlooks the creative studios responsible for the visual and interaction work.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://sites.research.google/languages/language-explorer",
+      "title": "Language Explorer — Google Research",
+      "note": "The live tool; primary source for feature set and data displayed"
+    },
+    {
+      "url": "https://www.awwwards.com/sites/language-explorer",
+      "title": "Language Explorer — Awwwards SOTD",
+      "note": "Design award record with jury scores by category"
+    },
+    {
+      "url": "https://www.cssdesignawards.com/sites/language-explorer/48525",
+      "title": "Language Explorer — CSS Design Awards",
+      "note": "Second design award with judge scores and innovation notes"
+    },
+    {
+      "url": "https://shortyawards.com/18th/google-language-explorer",
+      "title": "Google Language Explorer — 18th Annual Shorty Awards",
+      "note": "Award submission with UX rationale and Google Translate impact figures"
+    },
+    {
+      "url": "https://research.google/pubs/linguameta-unified-metadata-for-thousands-of-languages/",
+      "title": "LinguaMeta: Unified Metadata for Thousands of Languages — Google Research",
+      "note": "Academic paper describing the underlying dataset"
+    },
+    {
+      "url": "https://aclanthology.org/2024.lrec-main.921/",
+      "title": "LinguaMeta — ACL Anthology (LREC-COLING 2024)",
+      "note": "Published paper with full author list and methodology"
+    },
+    {
+      "url": "https://github.com/google-research/url-nlp/blob/main/linguameta/README.md",
+      "title": "LinguaMeta README — GitHub",
+      "note": "Technical documentation of dataset structure, sources, and licences"
+    },
+    {
+      "url": "https://googlemapsmania.blogspot.com/2026/01/meet-language-explorer-googles-new-open.html",
+      "title": "Meet Language Explorer — Google Maps Mania",
+      "note": "Independent writeup covering features and launch context"
+    },
+    {
+      "url": "https://www.webgpu.com/showcase/googles-language-explorer/",
+      "title": "Google's Language Explorer — WebGPU Showcase",
+      "note": "Technical community feature noting the WebGL/WebGPU shader architecture"
+    },
+    {
+      "url": "https://sites.research.google/languages/",
+      "title": "Language Inclusion Initiative — Google Research",
+      "note": "Parent initiative page connecting Language Explorer to the Google Translate expansion"
+    }
+  ],
+  "bookmark_id": "2013700160430248434",
+  "generated_at": "2026-05-07T12:57:01.936695Z",
+  "backend": "claude-sonnet-subagent"
+}

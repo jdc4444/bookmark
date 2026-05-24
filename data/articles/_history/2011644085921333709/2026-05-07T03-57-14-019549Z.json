@@ -1,0 +1,49 @@
+{
+  "headline": "Jack Dorsey Turns His Auditing Instinct on Himself",
+  "lede": "Jack Dorsey, co-founder of Twitter (now the private X Corp.) and Block (SQ), posted a two-word question to his followers: \"does this make me stronger or weaker?\" Whatever the specific provocation — the tweet's attached content was not recoverable from available research sources — the question crystallises a mode of public self-examination Dorsey has cultivated for years of visible personal experimentation.",
+  "body": "Dorsey has been unusually candid about his personal regimen. He has spoken publicly about daily ice baths, one-meal-a-day *intermittent fasting*, ten-day silent *vipassana* retreats, and pre-dawn walks timed to sunrise. These are framed not as indulgences but as deliberate stressors — the implicit logic being that voluntary hardship trains adaptive capacity over time.\n\nThe \"stronger or weaker\" framing maps neatly onto *hormesis*, a biological principle holding that a small dose of a stressor can trigger a beneficial adaptive response, while a larger dose causes outright harm. The concept underpins much of the *biohacking* and longevity discourse that Dorsey has absorbed and amplified to his audience. Whether a given practice lands on the helpful or damaging side of that curve depends on dose, recovery time, and individual physiology — which makes the question genuinely open rather than rhetorical.\n\nWithout access to the tweet's referenced content, no specific factual claim can be assessed. The post reads less as an assertion than as a founder applying his own auditing instincts to himself: the same question he might ask about a product feature or a company policy, turned inward. It is a posture that has made Dorsey one of tech's more unusual public figures — less the visionary CEO archetype than a practitioner publicly unsure whether the practice is working.",
+  "tickers": [
+    "SQ"
+  ],
+  "companies": [
+    {
+      "name": "Block",
+      "ticker": "SQ"
+    },
+    {
+      "name": "X Corp.",
+      "ticker": null
+    }
+  ],
+  "poster": "jack",
+  "concepts": [
+    {
+      "key": "hormesis",
+      "term": "hormesis",
+      "definition": "A dose-response phenomenon in biology where a small amount of a stressor — cold, fasting, exercise — triggers a beneficial adaptive response, while a larger dose causes harm. It is the theoretical basis behind many biohacking and longevity practices."
+    },
+    {
+      "key": "vipassana",
+      "term": "vipassana",
+      "definition": "A form of silent insight meditation rooted in the Theravāda Buddhist tradition. Practitioners typically attend ten-day residential retreats during which speaking, reading, and electronic devices are prohibited."
+    },
+    {
+      "key": "biohacking",
+      "term": "biohacking",
+      "definition": "A broad term for self-directed experiments in personal biology and performance — ranging from dietary protocols and wearable sensors to cold exposure and sleep optimisation. The goal is to improve measurable markers of health or capability outside of conventional medical settings."
+    },
+    {
+      "key": "intermittent-fasting",
+      "term": "intermittent fasting",
+      "definition": "A dietary pattern that cycles between defined periods of eating and fasting. One popular variant, OMAD (one meal a day), confines all caloric intake to a single window each day. Dorsey has publicly described following this protocol."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet's attached content was not available from the research sources provided, which returned results irrelevant to this post. No specific factual claim in the tweet text itself could be assessed. Background characterisations of Dorsey's publicly discussed practices (ice baths, vipassana, OMAD fasting) are drawn from prior interviews and reporting; they are representative context, not claims specific to this post.",
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2011644085921333709",
+  "generated_at": "2026-05-07T03:57:14.019549Z",
+  "backend": "claude"
+}

@@ -1,0 +1,86 @@
+{
+  "bookmark_id": "2011670801859141742",
+  "headline": "The Millionaire List That Forgets Its Casualties",
+  "lede": "Every bull market produces its retrospective roster of life-changing winners. What it does not produce — not willingly, anyway — is the much longer list of names that promised the same journey and delivered something else entirely.",
+  "body": "The post from @futurist_lens follows a well-worn format: three undeniable victories are stacked in ascending order of cultural resonance — *NVDA*, *TSLA*, *PLTR* — and then a new cohort of candidates is offered as their rightful heirs. The construction is clean and the logic feels intuitive. NVIDIA went public in 1999 at twelve dollars a share; a thousand dollars invested then would, after six stock splits and twenty-six years of patience, be worth well over half a million today. Tesla's 2010 IPO at seventeen dollars produced a return of roughly twenty-two thousand percent for those who held through the years of production hell and Twitter storms. Palantir, which went public by direct listing in 2020, has accelerated sharply, with quarterly revenue growth hitting eighty-five percent year-over-year in early 2026. The victories are real. The framing around them is the problem.\n\nWhat the format exploits is *survivorship bias* — the cognitive habit of drawing lessons exclusively from the entities that made it through a selection process, while the far larger population of those that did not simply ceases to exist in the rearview. A database study covering twenty-nine thousand US-listed stocks over ninety-eight years found that more than half produced negative cumulative returns over their entire trading lives, with a median compound return of negative seven percent. Every retrospective list of stock-market millionaires is an exercise in selecting the survivors and presenting them as evidence that the game is predictable. The companies that were, in their day, equally compelling stories — with equally urgent social-media threads — are simply gone.\n\nThe space-economy cohort the post gestures toward is genuinely interesting on its merits, which makes it worth examining with some care. Rocket Lab (*RKLB*) reported 2025 revenue of six hundred and two million dollars, up thirty-eight percent, with a backlog of 1.85 billion dollars and a reusable medium-lift rocket on track to debut later this year. AST SpaceMobile (*ASTS*), which is building a network of satellites designed to deliver broadband directly to standard mobile phones, generated seventy million dollars in 2025 revenue and has guided for up to two hundred million in 2026. Intuitive Machines (*LUNR*), which lands spacecraft on the Moon under NASA's Artemis program, guided for nine hundred million to one billion dollars in 2026 revenue — nearly five times its trailing figure. These are not vaporous promises; they are companies with contracts, launch records, and hardware in orbit.\n\nBut for every RKLB there is a Virgin Orbit, which took the SPAC route to public markets, burned through its capital base, and filed for Chapter Eleven bankruptcy in April 2023 after a high-profile launch failure. Redwire (*RDW*), a manufacturer of spacecraft components that also went public via *SPAC* (a *special-purpose acquisition company*, a blank-check vehicle that merged with an operating business to list it without a traditional IPO), is down roughly twenty-two percent over the past year even as the broader space sector rallied. By 2023, more companies that had gone public through SPACs between 2020 and 2022 were trading below one dollar per share than above ten. The space SPAC class of 2020-2021 is, as a cohort, one of the more instructive recent examples of survivorship bias in formation: the names that made it are now used to argue that the next cohort will also make it, while the names that didn't are quietly unavailable for comment.\n\nThe pattern itself is worth naming: *speculative-theme rotation*, the recurring social-media cycle in which a sector is identified as the locus of the next generation of life-altering returns, a handful of publicly traded names are assembled as proxies for the thesis, and the argument is packaged in a format optimized for virality. The format typically features a proven past winner (or three), a credible structural narrative, and a call to action calibrated just short of explicit financial advice. It recurs because the underlying human appetite for a legible path from ordinary means to extraordinary wealth is essentially inexhaustible, and because the format is genuinely difficult to falsify in advance: you cannot know, in May 2026, which of the space-economy names will look, in 2036, like NVDA from the perspective of 2024.\n\nThe honest version of the thesis would go something like this: the commercial space economy is a real and expanding industry, several publicly traded companies in it have legitimate revenue growth and defensible competitive positions, and some of them may produce extraordinary returns over a decade. It would also note that many will not, that the ones that do will require either extraordinary foresight or extraordinary patience (or both), and that the act of buying something because a tweet placed it on the same list as NVIDIA is not a strategy. The millionaire-list format is not designed to deliver that version. It is designed to be shared.",
+  "tickers": [
+    "NVDA",
+    "TSLA",
+    "PLTR",
+    "RKLB",
+    "ASTS",
+    "LUNR",
+    "RDW"
+  ],
+  "poster": "futurist_lens",
+  "concepts": [
+    {
+      "key": "survivorship-bias",
+      "term": "Survivorship Bias",
+      "definition": "The cognitive error of drawing conclusions only from the entities that survived a selection process — winners, listed companies, successful funds — while ignoring the larger, invisible population that failed. In investing, it makes past returns look more achievable and predictable than they actually were."
+    },
+    {
+      "key": "spac",
+      "term": "SPAC (Special-Purpose Acquisition Company)",
+      "definition": "A blank-check shell company that raises money through an IPO with the sole purpose of merging with a private operating business, thereby taking it public without the scrutiny of a traditional IPO. Popular with space-economy companies during the 2020-2021 boom; the cohort as a whole subsequently performed poorly."
+    },
+    {
+      "key": "speculative-theme-rotation",
+      "term": "Speculative-Theme Rotation",
+      "definition": "The recurring social-media cycle in which a macro narrative (AI, space, biotech, crypto) is packaged with a short list of stock-market proxies and circulated as the site of the next generation of outsized returns, typically just after a prior theme has already produced its visible winners."
+    },
+    {
+      "key": "direct-listing",
+      "term": "Direct Listing",
+      "definition": "A method of going public in which existing shareholders sell shares directly on an exchange without the company issuing new shares or hiring underwriters, as Palantir did in September 2020. Avoids underwriter fees but also forgoes the price stabilization of a traditional IPO."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "NVIDIA's 1999 IPO price and subsequent split-adjusted returns are well-documented; the $1,000-to-$560,000 figure refers to a twenty-year window (2006-2026) per U.S. News & World Report. Tesla's 2010 IPO price of $17 and the approximately 22,000% total return figure are per Motley Fool and Pocket Option historical analyses. Palantir's 85% year-over-year revenue growth in Q1 2026 is per Motley Fool's May 2026 earnings report coverage. RKLB's 2025 revenue ($602M, +38%) and backlog ($1.85B) are per 24/7 Wall St. and MarketBeat as of May 2026. ASTS's $70.9M 2025 revenue and 2026 guidance of $150M-$200M are per the same sources. LUNR's 2026 revenue guidance of $900M-$1B is per MarketBeat and 24/7 Wall St., April 2026. Virgin Orbit's April 2023 Chapter 11 filing is publicly documented. The finding that more 2020-2022 SPAC-listed companies traded below $1 than above $10 by April 2023 is per Skadden's quarterly insights report. The 29,000-stock / 98-year study with median return of -7.41% is per Benzinga/Yahoo Finance citing academic research on US equity survivorship bias.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://goodlifewealth.com/what-is-survivorship-bias-2/",
+      "title": "What is Survivorship Bias? — Good Life Wealth Management"
+    },
+    {
+      "url": "https://www.benzinga.com/general/education/20/12/18880053/survivorship-bias-may-be-tricking-you-into-taking-too-many-investing-risks",
+      "title": "Survivorship Bias May Be Tricking You Into Taking Too Many Investing Risks — Benzinga"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/04/19/spacexs-2-trillion-ipo-is-coming-these-6-stocks-will-ride-the-new-space-economy-into-orbit/",
+      "title": "SpaceX's $2 Trillion IPO Is Coming: These 6 Stocks Will Ride the New Space Economy Into Orbit — 24/7 Wall St."
+    },
+    {
+      "url": "https://www.marketbeat.com/stock-ideas/5-space-stocks-already-climbing-ahead-of-the-spacex-ipo/",
+      "title": "RKLB, ASTS, LUNR, PL, RDW: 5 Space Stocks to Buy Before the SpaceX IPO — MarketBeat"
+    },
+    {
+      "url": "https://spacenews.com/spac-class-of-covid-19-where-are-they-now/",
+      "title": "SPAC Class of COVID-19: Where Are They Now? — SpaceNews"
+    },
+    {
+      "url": "https://www.skadden.com/insights/publications/2023/04/quarterly-insights/as-spac-boom-subsides",
+      "title": "As SPAC Boom Subsides, Some De-SPACed Companies Seek Chapter 11 Protection — Skadden"
+    },
+    {
+      "url": "https://www.fool.com/investing/2026/05/04/palantir-stock-with-a-fresh-earnings-report-showin/",
+      "title": "Palantir Stock: With a Fresh Earnings Report Showing Even Faster Growth — The Motley Fool"
+    },
+    {
+      "url": "https://money.usnews.com/investing/articles/nvidia-corp-nvda-stock-investment-worth-today",
+      "title": "How Much Would $10,000 Invested in Nvidia Stock 20 Years Ago Be Worth Today? — U.S. News"
+    },
+    {
+      "url": "https://pocketoption.com/blog/en/knowledge-base/trading/how-much-was-tesla-stock-in-2010/",
+      "title": "How Much Was Tesla Stock in 2010: The $17 Share That Created Millionaires — Pocket Option"
+    },
+    {
+      "url": "https://www.cnbc.com/2023/10/12/investing-in-space-a-reality-check-on-spac-frenzy-revenue-projections.html",
+      "title": "Investing in Space: A Reality Check on SPAC Frenzy Revenue Projections — CNBC"
+    }
+  ],
+  "generated_at": "2026-05-05T23:55:23.927071Z",
+  "backend": "claude-sonnet-subagent"
+}

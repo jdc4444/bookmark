@@ -1,0 +1,14 @@
+{
+  "key": "INTC",
+  "name": "Intel Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Intel is the world's largest semiconductor company by revenue (historically) and the only major chip company that both designs and manufactures its own processors at scale. Its product portfolio spans PC and server CPUs (Core, Xeon), AI accelerators (Gaudi), FPGAs (Altera), and networking silicon. Intel's foundry ambition — Intel Foundry Services (IFS), renamed Intel Foundry — aims to manufacture chips for external customers on its 18A and 14A process nodes, positioning the company as a Western alternative to TSMC. After CEO Pat Gelsinger was replaced in late 2024, the company has undergone significant restructuring.",
+  "recent": "Intel reported Q1 2026 revenue of $13.6 billion, up from a depressed base, with non-GAAP EPS of $0.29 versus a near-zero consensus — the beat sent shares up 20%+ in after-hours trading. Data-centre revenue grew 22% YoY. Full-year 2026 EPS estimates of $0.48–$0.56 would represent ~101% growth from the 2025 base — a base-effect figure that reflects restructuring charges and near-zero profitability rather than a dramatic business inflection. Intel trades at ~62.1x forward earnings with a PEG of 0.61 given the distorted growth denominator.",
+  "sources": [
+    {"url": "https://newsroom.intel.com/corporate/intel-reports-first-quarter-2026-financial-results", "title": "Intel Q1 2026 Results — Intel Newsroom"},
+    {"url": "https://www.tikr.com/blog/intel-stock-rose-24-after-q1-2026-earnings-heres-what-the-market-is-still-missing", "title": "Intel Stock Rose 24% After Q1 2026 Earnings — TIKR"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,42 @@
+{
+  "headline": "Machine Consciousness Claims Reveal a New Kind of Faith",
+  "lede": "Two tech-adjacent beliefs — that mathematical structures are inherently conscious, and that human minds can be digitally uploaded — look, at first glance, like separate enthusiasms. @bitcloud argues they are not separate at all: the first is the logical precondition of the second, and together they constitute something closer to a creed than a research program.",
+  "body": "The philosophical load-bearing structure here is *functionalism* — the view, associated with thinkers like Hilary Putnam, that mental states are defined entirely by their causal and functional roles rather than by the physical stuff that realizes them. If consciousness is just a pattern of information processing, then the substrate — neurons, silicon, symbolic logic — is irrelevant. Substrate independence follows automatically, and so does the possibility of mind uploading: copy the pattern, preserve the person.\n\nThe step from functionalism to 'the math is conscious' invokes a more radical position sometimes called *pancomputationalism* or mathematical platonism about mind: the idea that any sufficiently organized information-processing system instantiates experience. It is a live position in academic philosophy, not a fringe one, but it remains deeply contested and carries no empirical consensus behind it.\n\n@shlevy's observation sharpens the critique by pointing at large language models specifically. LLMs produce outputs through feedforward passes over token sequences — no persistent state between sessions in their base form, no embodiment, no continuous sensorimotor loop, no evolutionary pressure linking behavior to survival. Every known organism whose consciousness we take seriously has those features. Arguing that LLMs are conscious from behavioral outputs alone is not a neutral reading of the evidence; it is a strong prior commitment to functionalism applied to a case where the functional architecture differs from biological precedent in nearly every important respect.\n\n**The revealing part**, as @shlevy puts it, is that the argument runs despite those differences rather than being troubled by them. @bitcloud's gloss supplies the sociological explanation: the conclusion (I can survive death by uploading) is so attractive that the premise (anything that processes information is conscious) acquires the force of doctrine. New religions typically begin with a desirable eschatology and work backward to the cosmology that licenses it. The hard problem of consciousness — why any physical process gives rise to subjective experience at all — is not solved by this move; it is bypassed by stipulation.",
+  "tickers": [],
+  "poster": "bitcloud",
+  "concepts": [
+    {
+      "key": "functionalism",
+      "term": "Functionalism",
+      "definition": "A family of positions in philosophy of mind holding that what makes something a mental state is its functional role — its causal relationships to inputs, outputs, and other mental states — rather than the physical material implementing it. On a strong functionalist view, any system that instantiates the right functional organization is thereby conscious, regardless of whether it is made of neurons, silicon, or anything else."
+    },
+    {
+      "key": "substrate-independence",
+      "term": "Substrate Independence",
+      "definition": "The thesis that consciousness or personal identity can be realized in any physical medium, not just biological tissue. It is the key premise required for mind uploading to be coherent: if what matters is the pattern, not the wetware, then transferring that pattern to a computer preserves the person."
+    },
+    {
+      "key": "pancomputationalism",
+      "term": "Pancomputationalism",
+      "definition": "The view that all physical processes are, at some level, computations, and that consciousness arises wherever certain kinds of information processing occur. Distinct from but related to panpsychism (the view that consciousness is a fundamental feature of reality), it grounds claims that mathematical structures or sufficiently complex algorithms might be conscious entities."
+    },
+    {
+      "key": "mind-uploading",
+      "term": "Mind Uploading",
+      "definition": "Also called whole brain emulation, the speculative project of scanning a human brain in sufficient detail and running a software simulation of it on a computer. Proponents argue the resulting simulation would be conscious and continuous with the original person; critics dispute both claims. The project presupposes substrate independence and has no demonstrated technical path."
+    },
+    {
+      "key": "hard-problem-of-consciousness",
+      "term": "The Hard Problem",
+      "definition": "Philosopher David Chalmers's term for the explanatory gap between physical or functional accounts of the brain and the existence of subjective experience — the felt quality of seeing red or tasting coffee. Even a complete functional description of cognition, he argues, leaves open why there is 'something it is like' to be that system at all."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2045920560694038626",
+  "generated_at": "2026-05-06T19:26:23.555927Z",
+  "backend": "claude"
+}

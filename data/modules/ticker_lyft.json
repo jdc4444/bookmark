@@ -1,0 +1,28 @@
+{
+  "key": "LYFT",
+  "name": "Lyft, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Lyft, Inc. operates a peer-to-peer ridesharing platform in the United States and Canada, connecting drivers with passengers via a mobile app. The company also offers bikes, scooters, and transit partnerships. As the second-largest ridesharing company in the U.S., Lyft competes primarily with Uber and has been focusing on profitability and autonomous vehicle partnerships.",
+  "recent": "In the past 30 days, Lyft reported better-than-expected Q4 2024 earnings, with revenue growing 15% year-over-year and the company achieving its first full-year positive free cash flow. The stock rose on the news, but remains volatile amid competition and regulatory concerns. Analysts have mixed ratings, with some citing improved margins and others cautious on growth.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/LYFT/",
+      "title": "Lyft, Inc. (LYFT) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/lyft",
+      "title": "LYFT Stock Price | Lyft Inc. Cl A Stock Quote (U.S.: Nasdaq ... - MarketWatch"
+    },
+    {
+      "url": "https://investor.lyft.com/news-events-presentations/press-releases",
+      "title": "Press releases :: Lyft, Inc. (LYFT)"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/LYFT/",
+      "title": "Lyft (LYFT) Stock Price, News & Analysis - MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:13:53.805275Z",
+  "backend": "deepseek"
+}

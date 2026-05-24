@@ -1,0 +1,43 @@
+{
+  "headline": "A YouTube Analytics Tool Plugs Live Data Into Claude",
+  "lede": "Large language models give notoriously stale advice about YouTube: they recommend posting consistently, engaging with your audience, and often suggest MrBeast regardless of context. Algrow, a YouTube channel-growth platform, now offers an *MCP* integration that feeds Claude live platform data — channel metrics, trending formats, transcript content — at query time rather than from training memory.",
+  "body": "The underlying problem is structural. Models like Claude are trained on snapshots of the web, meaning their \"knowledge\" of YouTube reflects whatever was documented and indexed months or years before the model's cutoff. YouTube's algorithm, trending formats, and channel landscape shift constantly. A model asked to find channels similar to yours in a niche it doesn't recognise will pattern-match to whatever large channels it knows — the Algrow blog's example shows Claude returning generic commentary-channel names like h3h3Productions for a query about a specific POV-ranking format.\n\n**MCP**, or *Model Context Protocol*, is an open standard that lets external services expose tools to Claude as structured function calls. Instead of the model hallucinating facts from training, it can invoke a live API — in this case Algrow's — and receive structured results mid-conversation. The integration appears directly on Claude.ai (web and mobile) with no additional software to install.\n\nWith the integration active, the same channel-similarity prompt returned results ranked by actual similarity score (83%, 80%, 78%) with current subscriber counts and view averages attached. That specificity — Mr. POV Explainer, 25K subscribers, same POV/rank explainer format — is not something a language model could derive from training data alone. It comes from Algrow querying live YouTube metadata and handing structured results back to Claude.\n\nAccording to Algrow's announcement, the integration exposes 19 distinct tools within a single conversation: searching shorts and longform channels, finding viral videos, scraping channel pages, reading transcripts, and filtering by thumbnail type, among others. The practical effect is that YouTube-strategy conversations can switch between research tasks without the user leaving Claude or copying data between tabs.\n\nOne caveat worth noting: @samgrows appears to be affiliated with Algrow — this is a product launch announcement, not independent reporting. The comparison demo is self-administered, and the \"19 tools\" figure comes from Algrow's own marketing copy. The underlying approach — live tool-call injection via MCP — is real and well-documented, but the performance claims have not been independently verified.",
+  "tickers": [],
+  "poster": "samgrows",
+  "concepts": [
+    {
+      "key": "model-context-protocol",
+      "term": "Model Context Protocol (MCP)",
+      "definition": "An open standard, introduced by Anthropic in late 2024, that lets external services register callable tools with Claude. When a user sends a message, Claude can invoke those tools — querying a live database, running a search, reading a file — and incorporate the results before responding. It is roughly analogous to plugins or function-calling in other AI systems, but with a standardised wire format."
+    },
+    {
+      "key": "training-data-cutoff",
+      "term": "Training data cutoff",
+      "definition": "The date after which new information was not included in a model's training corpus. Facts, trends, and entities that emerged or changed after this date are effectively invisible to the model unless supplied externally at inference time. For fast-moving domains like social media, even a six-month gap can make model knowledge practically useless."
+    },
+    {
+      "key": "channel-similarity-scoring",
+      "term": "Channel similarity scoring",
+      "definition": "A metric used by YouTube analytics tools to estimate how closely two channels overlap in format, audience, and content type. Typically derived from embeddings of video titles, thumbnails, transcripts, and audience engagement patterns rather than simple keyword matching."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The Algrow blog claims Claude 'has never watched a single YouTube video in its life,' which overstates the gap. Claude's training corpus almost certainly includes YouTube transcripts, closed captions, video descriptions, and commentary indexed across the web. The accurate and more defensible claim is that Claude lacks live YouTube analytics — real-time subscriber counts, view velocities, channel growth trajectories — not all YouTube knowledge whatsoever.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.algrow.online/blog/claude-can-now-search-youtube",
+      "title": "Claude Can Now Search YouTube For You — Algrow Blog",
+      "note": "Primary source; Algrow's own announcement of the MCP integration with demo comparisons and tool list"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oykuPzdY1SU",
+      "title": "Claude AI Can Now Search YouTube LIVE with Algrow",
+      "note": "Short-form demo video confirming the integration exists and is live"
+    }
+  ],
+  "bookmark_id": "2041219569050677442",
+  "generated_at": "2026-05-06T19:37:32.010214Z",
+  "backend": "claude"
+}

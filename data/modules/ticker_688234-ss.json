@@ -1,0 +1,32 @@
+{
+  "key": "688234.SS",
+  "name": "SICC Co., Ltd.",
+  "exchange": "Shanghai Stock Exchange (STAR Market)",
+  "blurb": "SICC Co., Ltd. is a Chinese semiconductor materials company specializing in the research, development, and manufacture of silicon carbide (SiC) substrates and epitaxial wafers, which are critical inputs for power electronics, electric vehicles, and RF devices. Listed on Shanghai's STAR Market (科创板) — China's Nasdaq-style board for high-tech innovators — SICC is considered one of China's leading domestic suppliers of SiC substrates, a segment historically dominated by foreign firms such as Wolfspeed. The company serves downstream chipmakers producing power devices for EV drivetrains, industrial power supplies, and 5G infrastructure.",
+  "recent": "As of May 14, 2026, SICC shares were trading at CN¥169.00, up 22.37 points (+15.26%) in a single session, suggesting a significant catalyst such as an earnings beat, contract announcement, or sector-wide momentum in the Chinese SiC space. The provided research sources do not include the specific news driver behind this sharp move; beyond the price action, detailed recent corporate announcements are not available from the supplied sources.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/688234.SS/",
+      "title": "SICC Co., Ltd. (688234.SS) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/688234.SS/",
+      "title": "SICC Co Ltd (688234.SS) — Reuters"
+    },
+    {
+      "url": "https://www.investing.com/equities/sicc",
+      "title": "Sicc Co Ltd Stock Price Today | SS: 688234 — Investing.com"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/688234?countrycode=cn",
+      "title": "SICC Co. Ltd. A Stock Overview (China: Shanghai) — Barron's"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xshg/688234/quote",
+      "title": "688234 Stock Price Quote — Morningstar"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:29:03.936003Z",
+  "backend": "claude-sonnet-subagent"
+}

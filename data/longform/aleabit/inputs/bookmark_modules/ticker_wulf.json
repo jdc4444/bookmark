@@ -1,0 +1,15 @@
+{
+  "key": "WULF",
+  "name": "TeraWulf Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "TeraWulf is a power-infrastructure company that began as a renewable-energy-powered bitcoin miner and has pivoted toward high-performance computing (HPC) and AI data-centre hosting. It operates the Lake Mariner facility in New York and the Nautilus Cryptomine joint venture in Pennsylvania, with a focus on nuclear- and hydro-powered compute capacity — a differentiator in an era of AI-driven power scarcity.",
+  "recent": "By early 2026, more than 50% of TeraWulf's revenue derived from HPC hosting, up from approximately zero two years prior, anchored by multi-year contracts with Core42 and Fluidstack. In April 2026, the company raised over $900 million in a common-stock offering to fund Lake Mariner HPC build-out phase 3 and retire convertible debt. The stock moved from a 52-week low near $3.18 to a high of roughly $19.31, a gain of approximately 507% over the trailing twelve months, though at a price-to-book ratio far above industry norms.",
+  "sources": [
+    {"title": "TeraWulf HPC contracted cash flows analysis (Seeking Alpha)", "url": "https://seekingalpha.com/article/4855062-terawulf-turning-scarce-megawatts-into-contracted-ai-cash-flows"},
+    {"title": "TeraWulf $900M HPC equity offering (investors.terawulf.com)", "url": "https://investors.terawulf.com/news-events/press-releases/detail/128/terawulf-and-fluidstack-announce-successful-pricing-of"},
+    {"title": "Bitcoin miners beat bitcoin by 70% in 2026 as TeraWulf locks AI contracts (bitcoin.com)", "url": "https://news.bitcoin.com/miners-beat-bitcoin-by-70-in-2026-as-terawulf-locks-12-8b-in-ai-contracts/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

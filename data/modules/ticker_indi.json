@@ -1,0 +1,32 @@
+{
+  "key": "INDI",
+  "name": "indie Semiconductor, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "indie Semiconductor is a fabless designer of mixed-signal chips for the automotive market, headquartered in Aliso Viejo, California. Its products span ADAS radar and vision system-on-chips, in-cabin sensing, connectivity, and wireless charging, with newer adjacencies in photonics for quantum computing and silicon for humanoid robotics. The company went public via SPAC merger in 2021 and remains structurally unprofitable, with revenue of roughly $217 million on a trailing basis against deeply negative operating margins. Management's pitch rests on a $7.4 billion strategic backlog of awarded design wins that is expected to convert into revenue over the back half of the decade.",
+  "recent": "INDI rallied roughly 30% in April 2026 and another 17% in the five trading days ending May 4, ahead of its Q1 2026 print scheduled for May 7. Company guidance calls for revenue of $52-58 million with the core ex-Wuxi business growing about 20% sequentially. The pending sale of indie's Wuxi joint-venture stake for approximately $135 million is expected to close later in 2026 and bolster the balance sheet, partially offsetting ongoing cash burn.",
+  "sources": [
+    {
+      "url": "https://investors.indie.inc/financials/quarterly-results/default.aspx",
+      "title": "indie Investor Relations — Quarterly Results",
+      "note": "Primary source for filed financials."
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20251106090312/en/indie-Reports-Third-Quarter-2025-Results",
+      "title": "indie Reports Third Quarter 2025 Results",
+      "note": "Source for $7.4B backlog and design-win disclosures."
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/indi/",
+      "title": "INDI Stock Price & Overview — stockanalysis.com",
+      "note": "Trailing revenue and margin reference."
+    },
+    {
+      "url": "https://www.insidermonkey.com/blog/indie-semiconductor-inc-indi-q1-2026-topline-in-focus-1751115/",
+      "title": "Indie Semiconductor Q1 2026: Topline in Focus",
+      "note": "Q1 guidance details."
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T15:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

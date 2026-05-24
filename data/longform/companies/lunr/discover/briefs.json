@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "company": {"name": "Intuitive Machines, Inc.", "ticker": "LUNR", "exchange": "NASDAQ", "slug": "lunr"},
+  "report_title": "Intuitive Machines — the first private moon-landing company that now wants to be a space prime",
+  "report_subtitle": "From Steve Altemus's NASA JSC engineering office to a $4.82B NASA contract ceiling, an $800M Lanteris acquisition, and a 2026 outlook of $900M-$1B revenue — what does it take to industrialise lunar logistics?",
+  "voice_and_style": "Financial-Times / Bloomberg long-form. Primary sources only (SEC EDGAR 10-K + 10-Q + 8-K + DEF 14A + 6-K, IR press releases on investors.intuitivemachines.com, primary industry coverage at Aviation Week, SpaceNews, Ars Technica). Past-tense narrative voice. Quote management from earnings calls / press releases verbatim. Do not extrapolate beyond snapshot date 2026-05-23. The reader is a sophisticated investor familiar with NASA procurement, the CLPS program, and the commercial space ecosystem. No Aleabit / Substack / X commentary as primary source; bounded to ≤200 word subsection in news_catalysts only.",
+  "target_total_word_count": 17000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {"slug": "snapshot", "title": "Snapshot", "order": 1, "target_words": 750,
+     "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Open with the most arresting fact: Intuitive Machines was the first private company to land a spacecraft on the Moon (IM-1 'Odysseus,' February 22, 2024) — and is now executing an $800M acquisition that transforms it from lunar logistics specialist into space prime contractor with FY26 revenue outlook $900M-$1B and positive Adjusted EBITDA.",
+       "State the ticker (LUNR, NASDAQ), Houston headquarters, de-SPAC date (February 2023 via Inflection Point Acquisition Corp), co-founders (Steve Altemus CEO and Kam Ghaffarian Chairman).",
+       "Two-sentence framing of what they do: Intuitive Machines builds Nova-C class lunar landers and is developing the larger cargo-class Nova-D lander. Customer base is dominated by NASA Commercial Lunar Payload Services (CLPS) program with a $4.82B contract ceiling; the $800M Lanteris Space Systems acquisition (Q1 2026 close) adds Boeing-pedigree satellite systems capability and Lanteris CEO Chris Johnson as President of the acquired business.",
+       "FY25 details: Q4 revenue $44.8M (-18% YoY reflecting lumpy NASA milestone accounting), full-year revenue $250-300M range, Q4 gross margin 19%. FY26 outlook: $900M-$1B revenue with positive Adjusted EBITDA. Total backlog post-Lanteris $943M. IM-5 task order $180.4M for Lunar South Pole delivery on Nova-D.",
+       "Board composition: Ghaffarian (Stinger Ghaffarian Tech founder + Axiom Space + X Energy + Quantum Space + PTX chairman) + Altemus (NASA JSC Deputy Director, Columbia Reconstruction Director) + Liquori (retired LtGen US Space Force, Chief Strategy and Resourcing Officer) + Masson (US Naval Academy + Harvard MBA + Raytheon CFO Naval Aviator) + Blitzer (Kingstown Capital founder, Inflection Point SPAC sponsor, USA Rare Earth Chairman, Merlin Labs lead independent) + Seligman (ex-President Sony Entertainment + Sony Corp of America, ex-Global GC Sony, Harvard Law magna, OpenAI director, Thurgood Marshall clerk).",
+       "Close with the central tension: the company has demonstrated lunar-landing capability twice (IM-1 and IM-2, both with operational complications but functional missions), is executing a transformational acquisition, and is guiding 3-4x revenue growth into FY26. The question is whether NASA Artemis sustains the lunar economy thesis through the late 2020s, whether Lanteris integration achieves the space-prime-contractor positioning, and whether the operational-execution risk of the next lunar missions (IM-3, IM-4, IM-5) clears."
+     ]},
+    {"slug": "corporate_history", "title": "From JSC engineering office to NASDAQ space prime", "order": 2, "target_words": 1400,
+     "use_prep_files": ["history.md", "snapshot.json", "leadership.json"],
+     "directives": [
+       "Three eras: (1) 2013-2023 pre-public: Founded in Houston by Altemus (ex-NASA JSC Deputy Director, Columbia Reconstruction Director) and Ghaffarian (serial space entrepreneur). 2018 CLPS award. 2019-2023 Nova-C lander platform development. (2) February 2023 de-SPAC via Inflection Point Acquisition Corp (Michael Blitzer SPAC sponsor, joined board). June 2023 Nicole Seligman board appointment. (3) 2024-2026 commercial operations: IM-1 'Odysseus' first private lunar landing Feb 22 2024; IM-2 'Athena' Q1 2025; CFO transition to Peter McGrath September 2024; NASA CLPS ceiling expansion to $4.82B; $180.4M IM-5 task order; $800M Lanteris acquisition announced; February 2026 executive realignment (Crain CTO, Jones CLO).",
+       "Quote Altemus and Ghaffarian from press releases / earnings calls on the strategic transformation.",
+       "Detail the Columbia Reconstruction Director credential — Altemus's NASA tenure between 2003 (Columbia disaster) and his JSC Deputy Director role is what gives him the institutional credibility to lead a private space company.",
+       "Close on what the arc means: a NASA-pedigree founded company that lasted long enough through the SPAC cycle to execute two lunar landings and is now using its first major acquisition to position as a full space prime."
+     ]},
+    {"slug": "business_segments", "title": "Lunar landers, NASA CLPS, and the satellite-systems pivot", "order": 3, "target_words": 1500,
+     "use_prep_files": ["counterparties.json", "snapshot.json", "financials.json"],
+     "directives": [
+       "Pre-acquisition (current): three business lines — (a) Lunar Access Services (Nova-C and Nova-D landers under CLPS task orders); (b) Lunar Data Services (in-space communications, Lunar TT&C capability); (c) Orbital Services (broader space-systems engineering services).",
+       "Post-Lanteris (Q1 2026 close): adds satellite-systems product line — Boeing-grade institutional capability via Chris Johnson and the acquired engineering organisation. Total backlog $943M.",
+       "Detail Nova-C lander class (~100kg lunar payload) used for IM-1 and IM-2 missions. Detail Nova-D cargo-class lander (used for IM-5) — significantly larger payload capacity, the platform for the Lunar South Pole delivery.",
+       "Revenue recognition pattern: NASA CLPS task orders pay milestones — significant cash inflows around mission delivery events but lumpy quarterly P&L recognition. FY24 had IM-1 revenue concentration; FY25 prepared for IM-2/IM-3 with lower in-quarter recognition.",
+       "FY26 revenue outlook of $900M-$1B requires: (a) Lanteris contribution (closing Q1 2026), (b) IM-5 task order ramping, (c) continued CLPS task-order awards, (d) commercial satellite revenue through Lanteris customer base.",
+       "Source explicitly to FY25 10-K, quarterly 10-Q filings, NASA CLPS announcement press releases."
+     ]},
+    {"slug": "financial_deep_dive", "title": "From $300M to $1B revenue in twelve months", "order": 4, "target_words": 1500,
+     "use_prep_files": ["financials.json", "snapshot.json"],
+     "directives": [
+       "Open with the financial transition: FY25 revenue $250-300M with Q4 at $44.8M and 19% Q4 gross margin gives way to FY26 outlook $900M-$1B with positive Adjusted EBITDA — a 3-4x revenue ramp.",
+       "Decomposition of the FY26 ramp: organic CLPS task-order ramp + IM-5 contribution + Lanteris consolidation (Q1 2026 close means ~9 months of Lanteris revenue in FY26 P&L).",
+       "Lanteris acquisition financials: $800M total ($450M cash, $350M stock) — close expected Q1 2026. Backlog impact: total backlog post-Lanteris $943M.",
+       "NASA CLPS contract ceiling: $4.82B with $150M guaranteed near-term. The IM-5 task order alone is $180.4M — sizing of single task orders is meaningful.",
+       "Operating-profitability inflection: FY26 positive Adjusted EBITDA implies operating leverage as fixed engineering cost base spreads across the revenue ramp. This is the inflection that defines the next phase of the company's life — from cash-burning venture to operating-profitable space prime.",
+       "Balance sheet: cash position pre-Lanteris and post-acquisition financing. Specifics not surfaced in available summary at snapshot — flag honestly. The $450M cash component of Lanteris is a meaningful balance-sheet event.",
+       "Compensation context: not separately broken out in available proxy summary at snapshot — flag honestly.",
+       "Source numbers exclusively to FY2025 10-K, quarterly 10-Q filings, Lanteris acquisition 8-K, CLPS task-order press releases."
+     ]},
+    {"slug": "earnings_story", "title": "From IM-1 milestone to FY26 inflection guide", "order": 5, "target_words": 1400,
+     "use_prep_files": ["financials.json", "snapshot.json", "history.md"],
+     "directives": [
+       "Frame as the cumulative narrative from de-SPAC February 2023 through the FY25 print.",
+       "Quarterly progression through 2023-2025: post-SPAC initial revenue prints, IM-1 launch and landing (Feb 2024) producing the first major revenue milestone, FY24 full-year results, IM-2 mission (Q1 2025), FY25 quarterly cadence.",
+       "Pull quotes from Altemus and McGrath in earnings calls — on IM-1 achievement, IM-2 mission, CLPS ceiling expansion, Lanteris announcement, FY26 outlook.",
+       "Stock-price reaction series: highly volatile around mission events. The IM-1 landing announcement caused a meaningful price reaction; subsequent earnings prints have moved on operating-profitability progress.",
+       "Close on the cumulative observation: the FY26 outlook of $900M-$1B with positive Adjusted EBITDA is the operating-profitability inflection that defines the next chapter."
+     ]},
+    {"slug": "leadership", "title": "NASA JSC, Sony, Space Force, and Kingstown Capital", "order": 6, "target_words": 1800,
+     "use_prep_files": ["leadership.json", "snapshot.json"],
+     "directives": [
+       "Open with Steve Altemus (CEO/President/Class III Director): age 62. BS Aeronautical Engineering Embry Riddle + MS Engineering Management UCF. Joined NASA 1989 at Kennedy Space Center Space Shuttle Program. Columbia Reconstruction Director after February 1 2003 Space Shuttle Columbia disaster. NASA JSC roles including lead engineer Aeroscience and Flight Mechanics + Director of Engineering + Deputy Director. Co-founded Intuitive Machines 2013.",
+       "Dr. Kamal Ghaffarian (Chairman/Class III Director): age 67. Education: 2 BS degrees + MS Information Management + PhD Management Information Systems + PhD Technology. Career: co-founder Stinger Ghaffarian Technologies (acquired by KBR 2018), founder/chairman IBX, Axiom Space, X Energy, Quantum Space, PTX. Earlier technical and management positions at Lockheed Martin, Ford Aerospace, Loral.",
+       "William J. Liquori (Class I Director): age 57; BA Computer Science Boston University + MS Computer Resources Webster + 3 masters (Airpower Art & Science, Air & Space Power Strategy, Strategic Studies). Retired Lieutenant General US Space Force; Chief Strategy and Resourcing Officer. Chairs Nominating and Corporate Governance + Conflicts Committee. Other boards: True Anomaly, Space Force Association.",
+       "Robert L. Masson (Class I Director): age 57; BS Economics US Naval Academy + MBA Harvard Business School. 1992-2001 Naval Aviator. CFO roles at Raytheon Technologies, Flowserve, Hypertherm, Latham Group. Chairs Audit Committee. Other board: Tech-Etch (Audit Chair).",
+       "Michael Blitzer (Class II Director): age 48; BS Cornell + MBA Columbia Business School. Founder/CEO Kingstown Capital Management 2006-2021/2024 (multi-billion asset manager, endowments and foundations). Chairman and CEO Inflection Point Asset Management since 2024. Earlier J.P. Morgan Securities 1999, Gotham Asset Management (Joel Greenblatt), Columbia Business School investing instructor 5 years. Chairs Compensation Committee and Strategic Transactions Committee. Other boards: USA Rare Earth Chairman (since 2025 listing), Merlin Labs Lead Independent, Inflection Point Acquisition Corp III + V SPAC sponsorships.",
+       "Nicole Seligman (Class II Director): age 69; BA magna Harvard College + JD magna Harvard Law. 2014-2016 President Sony Entertainment; 2012-2016 President Sony Corporation of America; 2005-2014 EVP and Global GC Sony Corporation. Earlier litigation partner Williams & Connolly LLP, law clerk Justice Thurgood Marshall US Supreme Court. Other boards: OpenAI (one of the most consequential contemporary deep-tech governance signals), Meira GTx Holdings plc, Praetorian Acquisition Corp.",
+       "Named executive officers (non-board): Dr. Timothy Crain (co-founder, SVP and CTO since February 2026; PhD Aerospace Engineering UT Austin; ex-NASA JSC Mars Science Lander navigation and Orion spacecraft GNC). Peter McGrath (SVP and CFO since September 2024; 31 years at Boeing; BS and MS Aerospace Engineering + MBA). Anna Jones (SVP, Chief Legal Officer, Corporate Secretary since February 2026; JD Northwestern Law; ex-Paysafe + Marathon Oil + ConocoPhillips + Latham and Watkins). Chris Johnson (President of Lanteris Space Systems since January 2026; ex-CEO Lanteris + ex-President Boeing Satellite Systems International; 20+ years Boeing; BS ME University of Kansas + MS Systems Architecting + MBA USC).",
+       "Board composition observation: six-director structure is unusually deep on national security (Liquori LtGen US Space Force + Masson Naval Aviator), corporate governance (Seligman ex-Sony President + OpenAI director + Harvard Law magna), and financial engineering (Blitzer Kingstown + Inflection Point + USA Rare Earth chair). Ghaffarian + Altemus co-founder pair anchors the operating-and-aerospace pedigree. The composition is calibrated for governance through the Lanteris integration and the NASA CLPS task-order execution.",
+       "DO NOT punt on any director. All 6 directors and 4 named executive officers have substantive material in prep/leadership.json — use it."
+     ]},
+    {"slug": "customers_supply_chain", "title": "NASA, CLPS, and the satellite-systems counterparty addition", "order": 7, "target_words": 1400,
+     "use_prep_files": ["counterparties.json", "financials.json", "snapshot.json"],
+     "directives": [
+       "NASA dominance: CLPS contract ceiling $4.82B, $150M guaranteed near-term, $180.4M IM-5 task order. Detail the CLPS program structure (competitive pool of awardees with task orders awarded for specific missions).",
+       "Mission catalog: IM-1 'Odysseus' (Feb 22 2024 landing, Nova-C class), IM-2 'Athena' (Q1 2025, Nova-C class), IM-3 (in preparation), IM-4 (in planning), IM-5 (Nova-D class cargo, Lunar South Pole, $180.4M task order).",
+       "Secondary customers: DoD, DARPA, US Space Force — national security and dual-use customers. Lanteris customer base adds satellite-systems customers in commercial and government markets.",
+       "Competitive set: Astrobotic Technology (private CLPS awardee, unsuccessful Peregrine attempt 2024), Firefly Aerospace (public FLY ticker, successful Blue Ghost landing 2025), SpaceX (launch services + Starship HLS), Blue Origin (Blue Moon HLS), traditional primes (Lockheed Martin, Northrop Grumman, Boeing, Raytheon — competitive overlap especially post-Lanteris).",
+       "Supply chain: Intuitive Machines designs and builds Nova-C and Nova-D lander platforms in Houston. Launch services from SpaceX Falcon 9 (IM-1) and likely Falcon 9 / Blue Origin New Glenn for subsequent missions.",
+       "Lanteris acquisition strategic rationale: brings Boeing Satellite Systems International institutional relationships and broader space-systems capability — transforms LUNR from lunar specialist to full space prime.",
+       "Close on the structural observation: LUNR's revenue base is heavily NASA-concentrated pre-Lanteris; post-Lanteris the customer mix diversifies but the NASA Artemis program remains the dominant secular driver."
+     ]},
+    {"slug": "competitive_position", "title": "Where Intuitive Machines sits in the commercial space landscape", "order": 8, "target_words": 1400,
+     "use_prep_files": ["snapshot.json", "counterparties.json", "financials.json"],
+     "directives": [
+       "Frame the competitive landscape across three tiers: (a) Lunar payload delivery (CLPS) — Intuitive Machines, Astrobotic, Firefly, Draper Laboratory, Masten Space Systems (acquired by Astrobotic), Ceres Robotics. (b) Lunar infrastructure (Artemis sustained presence) — Lockheed Martin (Orion), Northrop Grumman (Gateway HALO module), SpaceX (Starship HLS), Blue Origin (Blue Moon HLS), Axiom Space (private space station). (c) Broader space prime contractors — Lockheed Martin, Northrop Grumman, Boeing, Raytheon, L3Harris, plus increasingly Intuitive Machines (post-Lanteris).",
+       "LUNR's structural advantages: first commercial lunar landing demonstrated capability (IM-1, IM-2), $4.82B NASA CLPS contract ceiling, board pedigree (LtGen Liquori, ex-Sony Seligman, Kingstown Blitzer), founder credentials (Ghaffarian's serial space entrepreneur network, Altemus's NASA JSC institutional credibility).",
+       "LUNR's structural disadvantages: NASA customer concentration, lunar mission operational risk (IM-1 and IM-2 both had landing complications), capital-intensive ramp into space prime contracting, competition from much larger primes with established satellite systems portfolios.",
+       "Compare with Firefly Aerospace: also CLPS, also recently public; Blue Ghost lunar landing was operationally cleaner than IM-1; competitive dynamic for future CLPS task orders.",
+       "Compare with Astrobotic: private; Peregrine lunar attempt 2024 did not reach lunar surface; LUNR has clear lead in demonstrated lunar landing capability.",
+       "Compare with broader primes: LUNR's $943M backlog post-Lanteris is meaningful but small relative to Lockheed or Northrop. The Lanteris acquisition is the bridge — Boeing satellite systems capability via Johnson is the institutional credibility for space prime contracting.",
+       "Close on the strategic competitive question: can LUNR sustain its CLPS lunar leadership while scaling into space prime contracting through Lanteris integration? The next 18-24 months are the test."
+     ]},
+    {"slug": "news_catalysts", "title": "From IM-1 landing to $800M Lanteris", "order": 9, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "history.md", "counterparties.json"],
+     "directives": [
+       "Build the news timeline: February 2023 de-SPAC + initial board (Ghaffarian, Altemus, Blitzer, Liquori, Masson); June 2023 Seligman appointment; February 15 2024 IM-1 launch; February 22 2024 IM-1 lunar landing announcement; quarterly earnings cadence through 2024-2025; Q1 2025 IM-2 launch and landing; September 2024 McGrath CFO appointment; 2025 NASA CLPS ceiling expansions; $180.4M IM-5 task order announcement; Lanteris acquisition announcement; January 2026 Chris Johnson appointment as President of Lanteris; February 2026 Crain CTO + Jones CLO appointments.",
+       "Quote management on each major announcement.",
+       "Forward catalysts from snapshot date: Lanteris acquisition close (expected Q1 2026); IM-3 mission preparation and launch; IM-5 mission ramp on Nova-D; additional CLPS task-order awards; FY26 quarterly earnings cadence (Q1 May 2026, Q2 August 2026, etc); NASA Artemis program milestones (Artemis II, Artemis III).",
+       "Bound the Aleabit / X commentary discussion to ≤200 word subsection. If Aleabit framing for LUNR not in prep data, write 'Specialist commentary framing of LUNR by Aleabit was not surfaced in the bounded primary-source set used for this report' and do not invent.",
+       "DO NOT use Aleabit, Substack, X as primary source anywhere else."
+     ]},
+    {"slug": "ip_rd", "title": "Lunar lander engineering and the Boeing satellite-systems IP", "order": 10, "target_words": 1100,
+     "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Frame: LUNR's IP is operational-engineering and mission-systems integration, not silicon patents or software-IP-as-products.",
+       "Nova-C lander platform: ~100 kg lunar payload class. Designed and built in-house at Houston facility. Successfully landed IM-1 and IM-2.",
+       "Nova-D lander platform: significantly larger cargo class, used for IM-5 ($180.4M task order, Lunar South Pole). Development continues at the snapshot date.",
+       "Lunar Telemetry, Tracking, and Control (TT&C) capability: proprietary lunar communications platform. Potentially a separate revenue line in lunar data services.",
+       "Engineering personnel: Crain (CTO, NASA Mars Science Lander + Orion GNC heritage), McGrath (CFO with 31 years Boeing including Phantom Works), and the broader engineering team built on NASA JSC alumni pedigree.",
+       "Post-Lanteris IP addition: Lanteris brings Boeing Satellite Systems International institutional engineering capability. Chris Johnson as Lanteris President provides the leadership continuity for that engineering organisation.",
+       "Patent portfolio: precise count not surfaced in available filings — flag honestly. IP value is in lander platforms and mission systems integration capability rather than discrete patents.",
+       "Close on the IP question: LUNR's most defensible asset is the demonstrated lunar-landing capability + the NASA JSC institutional credibility behind the engineering team. The Lanteris addition brings Boeing institutional engineering depth that broadens the platform."
+     ]},
+    {"slug": "risks", "title": "NASA concentration, lunar mission risk, and Lanteris integration", "order": 11, "target_words": 1400,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json"],
+     "directives": [
+       "Six categorical risks: (1) NASA customer concentration — CLPS dominates revenue. (2) Lunar mission operational risk — IM-1 and IM-2 both had landing complications; future missions face same complexity. (3) Lanteris integration risk — $800M acquisition with Boeing-pedigree engineering organisation must be integrated. (4) NASA Artemis program risk — if Artemis program is reprioritised or budgeted down, the lunar economy thesis compresses. (5) Competitive risk from Firefly + Astrobotic + traditional primes. (6) Capital intensity — space prime contracting requires balance sheet capable of multi-year mission preparation cycles.",
+       "Each risk: (a) exposure detail, (b) public management mitigation framing, (c) leading-indicator signal.",
+       "Lunar mission risk specifically: IM-1 landed sideways due to landing-leg complication. IM-2 had operational issues. The platform demonstrated lunar surface arrival but operational precision remains the gap.",
+       "NASA Artemis dependency: Artemis II planned for late 2020s; Artemis III lunar landing dependent on SpaceX Starship HLS readiness; broader Artemis sustained presence depends on multi-agency budgeting through 2030s.",
+       "Source claims to the FY2025 10-K risk factors section, management commentary, and 8-K filings."
+     ]},
+    {"slug": "outlook", "title": "Q1 2026 Lanteris close to the next CLPS task orders", "order": 12, "target_words": 1400,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json", "leadership.json"],
+     "directives": [
+       "Open with visible FY2026 setup: Lanteris acquisition close Q1 2026, FY26 revenue outlook $900M-$1B, positive Adjusted EBITDA target, IM-3 mission in preparation, IM-5 task order ramping on Nova-D.",
+       "Forward catalyst sequence: Lanteris close, Q1 2026 earnings (~May 2026), IM-3 launch, Q2 2026 earnings, additional CLPS task-order awards, Artemis II launch readiness signals, IM-5 mission ramp.",
+       "Operating-profitability inflection: positive FY26 Adjusted EBITDA is the structural moment that defines LUNR's transition from venture to operating-profitable space prime.",
+       "Lanteris integration: Chris Johnson's Boeing pedigree is the leadership signal. The integration risk is real but the strategic logic (lunar specialist + Boeing satellite systems = full space prime) is sound.",
+       "Strategic-corporate-action overhang: LUNR could pursue (a) additional acquisitions to scale space prime positioning, (b) NASA Gateway / Artemis program prime roles, (c) commercial satellite contracts via Lanteris customer base, (d) strategic partnership with traditional prime (Lockheed / Northrop) or hyperscaler customer.",
+       "Close on the central question: does Lanteris integration plus continued CLPS lunar leadership produce a sustainable space prime contractor at $1B+ annual revenue? Frame the question; don't pretend to answer."
+     ]},
+    {"slug": "appendices", "title": "Appendices", "order": 13, "target_words": 700,
+     "use_prep_files": ["snapshot.json", "financials.json"],
+     "directives": [
+       "Three subsections: (a) Glossary (CLPS, Artemis, HLS, Nova-C, Nova-D, lunar TT&C, NASA JSC, KSC, GNC, SLS, lunar lander, cargo class, payload, lunar South Pole). (b) Mission table (IM-1 through IM-5 with dates, lander class, status, task-order value where disclosed). (c) Source list — every SEC EDGAR filing, every IR press release URL, every primary news article.",
+       "Source list exhaustive: FY2025 10-K, DEF 14A 2025 proxy, Lanteris acquisition 8-K, CLPS task-order press releases, quarterly 10-Q filings.",
+       "Glossary entries 1-2 sentences each."
+     ]}
+  ]
+}

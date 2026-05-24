@@ -1,0 +1,33 @@
+{
+  "key": "cremieuxrecueil",
+  "display_name": "Crémieux Recueil (@cremieuxrecueil)",
+  "blurb": "Crémieux Recueil is the pseudonym of Jordan Lasker, an American independent researcher and data scientist known for dense, chart-heavy threads on empirical social science, economics, and statistics. Writing primarily on X and on Substack at cremieux.xyz, Lasker posts on topics ranging from IQ research and behaviour genetics to macroeconomics, finance, and historical demography. His account, which has accumulated roughly 300,000 followers on X, is regularly shared by prominent figures including Paul Graham and Noah Smith. He is a prolific cataloguer of findings from academic literature — often threading obscure studies on quantitative social science with his own commentary and visualisations — and has developed a readership that spans professional researchers, finance practitioners, and engaged generalists.",
+  "credibility_note": "Lasker's empirical posts are generally careful to cite primary literature and acknowledge uncertainty, and his threads on topics like FOIA, market efficiency, and economic history are well-sourced. His reputation is, however, complicated by his parallel work in race-and-intelligence research, which mainstream population geneticists and psychologists have sharply criticised as methodologically flawed and politically motivated. A 2025 Mother Jones investigation identified earlier pseudonymous posts attributed to him containing racist content. Readers should weigh his empirical posts on their individual merits and sourcing rather than treating the account as a uniform authority.",
+  "links": [
+    {
+      "label": "Substack",
+      "url": "https://www.cremieux.xyz/"
+    },
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/cremieuxrecueil"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Crémieux Recueil: US election 2024 analysis — Razib Khan's Unsupervised Learning",
+      "url": "https://www.razibkhan.com/p/cremieux-recueil-us-election-2024"
+    },
+    {
+      "title": "Unmasking Crémieux Recueil — Polemics",
+      "url": "https://www.polemics.md/unmasking-cremieux-recueil/"
+    },
+    {
+      "title": "Jordan Lasker — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jordan_Lasker"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T18:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

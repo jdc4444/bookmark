@@ -1,0 +1,53 @@
+{
+  "headline": "A Free Cloth Simulation Tool That Blender Has Long Needed",
+  "lede": "Daniel Bystedt, a senior concept artist at Goodbye Kansas Studios and one of Blender's most prominent advocates, has released Bystedt's Cloth Builder at no cost. The add-on wraps Blender's native cloth physics in a cleaner interface, bundles readymade garments and collision characters, and removes much of the manual plumbing that slows production pipelines.",
+  "body": "Blender ships with a capable cloth simulator, but setting it up for a real garment — pinning fabric to a shoulder, coaxing a cape to drape believably over a figure — involves assembling several systems by hand: the Cloth modifier, vertex groups to control stiffness, collision objects, weight painting. Bystedt's Cloth Builder automates that scaffolding. Artists choose a quality level, assign colliders, and run the simulation from a single panel rather than hunting across Blender's property tabs.\n\nThe add-on's pinning tools are a particular improvement. **Pinning** locks chosen vertices to a fixed point in space so they don't fall with gravity — the mechanism that holds a shirt collar or a cloak clasp in place. The native workflow requires manually managing vertex groups for this; Bystedt's tool lets artists click any vertex in the viewport and pin or unpin it interactively. The add-on also supports self-collision (preventing cloth from passing through itself) and pressure simulation for inflatable objects.\n\nA practical time-saver is the *Shape Key* workflow. At any frame in a simulation, artists can save the cloth's deformed state as a Shape Key — a stored mesh pose — and use it as the starting shape for a new simulation. This lets a team iterate on mid-simulation poses without re-running the full sequence from the beginning.\n\nThe bundled asset library distinguishes the release from a bare-bones utility. Included are capes, trousers, and sweaters — pre-configured for simulation — alongside male and female armature characters built specifically as collision objects. A **Geometry Nodes** setup accompanies the clothing assets; it procedurally generates cloth thickness, splits garment pieces at their seams, and UV-unwraps them, tasks that would otherwise occupy a rigger for hours.\n\nBystedt has form for this kind of generosity. Bystedt's Blender Baker, his earlier public release, streamlined texture-map baking. Both tools arrive free on Gumroad, and both reflect a pattern in Blender's community: artists who built careers in expensive proprietary software, converted to Blender before its 2.80 overhaul, and now contribute tooling back. The add-on is available directly from the artist's Gumroad page.",
+  "tickers": [],
+  "poster": "3DxDEV7",
+  "concepts": [
+    {
+      "key": "cloth-modifier",
+      "term": "Cloth modifier",
+      "definition": "A physics component in Blender that simulates how a mesh behaves as fabric — responding to gravity, wind, and collisions with other objects. It is computationally expensive and requires careful parameter tuning to produce believable results."
+    },
+    {
+      "key": "collision-object",
+      "term": "Collision object",
+      "definition": "In cloth simulation, a designated mesh that the cloth cannot pass through. A character's body is typically set as a collision object so garments drape over it rather than falling straight through the geometry."
+    },
+    {
+      "key": "shape-key",
+      "term": "Shape Key",
+      "definition": "A stored snapshot of a mesh's vertex positions in Blender. Artists blend between Shape Keys to animate deformations or, as in this add-on, use a mid-simulation pose as the starting point for a new physics run."
+    },
+    {
+      "key": "geometry-nodes",
+      "term": "Geometry Nodes",
+      "definition": "Blender's node-based procedural modelling system, introduced in version 2.92. It allows non-destructive, programmable manipulation of mesh data — thickness, seam splitting, UV layout — without manually editing the underlying geometry."
+    },
+    {
+      "key": "vertex-group",
+      "term": "Vertex group",
+      "definition": "A named selection of vertices on a mesh, each assigned a weight between 0 and 1. Physics modifiers read these weights to vary properties like cloth stiffness or pinning strength across different parts of a garment."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.cgchannel.com/2023/08/download-free-blender-add-on-bystedts-cloth-builder/",
+      "title": "Download free Blender add-on Bystedt's Cloth Builder — CG Channel",
+      "note": "Primary trade-press write-up with technical feature detail and biographical context on Bystedt"
+    },
+    {
+      "url": "https://3dbystedt.gumroad.com/l/bystedtsClothBuilder",
+      "title": "Blender addon — Bystedts cloth builder (Gumroad)",
+      "note": "Official distribution page confirming free availability"
+    }
+  ],
+  "bookmark_id": "1997204377665446073",
+  "generated_at": "2026-05-06T20:28:33.348770Z",
+  "backend": "claude"
+}

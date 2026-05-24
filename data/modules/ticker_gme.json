@@ -1,0 +1,28 @@
+{
+  "key": "GME",
+  "name": "GameStop Corp.",
+  "exchange": "NYSE",
+  "blurb": "GameStop Corp. is a video game and consumer electronics retailer operating both brick-and-mortar stores and e-commerce platforms. The company has been undergoing a digital transformation, focusing on expanding its online presence and diversifying into collectibles and NFTs. Despite facing challenges from digital game downloads, GameStop remains a prominent player in the gaming retail space, often driven by retail investor enthusiasm.",
+  "recent": "In the past 30 days, GameStop stock has experienced volatility, with price movements tied to broader market sentiment and retail trading activity. The company reported mixed quarterly earnings, with revenue slightly below expectations but improved gross margins. No major corporate announcements or catalysts have emerged, leaving the stock to trade on momentum and speculative interest.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/GME/",
+      "title": "GameStop Corp. (GME) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/GME/news/",
+      "title": "GME News Today | Why did GameStop stock go up today?"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/gme",
+      "title": "GME Stock Price | GameStop Corp. Cl A Stock Quote (U.S.: NYSE ..."
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/GME:NYSE",
+      "title": "GameStop Corp (GME) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T12:01:51.725823Z",
+  "backend": "deepseek"
+}

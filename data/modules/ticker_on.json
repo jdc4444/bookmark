@@ -1,0 +1,17 @@
+{
+  "key": "on",
+  "name": "onsemi (ON Semiconductor Corporation)",
+  "exchange": "NASDAQ",
+  "blurb": "onsemi designs and manufactures intelligent power and sensing semiconductors, with a particular focus on silicon carbide (SiC) MOSFETs and modules under the EliteSiC brand, IGBT power modules, intelligent power modules (IPMs), and gate drivers. The company is a dominant SiC supplier to EV traction inverters and has been rapidly expanding into AI data-centre power delivery, supplying high-efficiency SiC and MOSFET solutions for GPU server power stages. Onsemi claims to be the first vendor to scale vertical GaN production, with 700V and 1,200V devices addressing AI server PSU and rack-level power conversion.",
+  "recent": "Onsemi reported Q1 2026 revenue of $1.513 billion, above the guidance midpoint, with non-GAAP EPS of $0.64 versus the $0.61 consensus. CEO Hassane El-Khoury stated AI data-centre revenue grew more than 30% sequentially and more than doubled year-over-year in Q1 2026, well ahead of the company's earlier guidance for high-teens growth. Q2 2026 revenue guidance was set at $1.535–$1.635 billion with non-GAAP EPS of $0.65–$0.77. Management reiterated an expectation that AI data-centre revenue will double year-over-year across all of 2026, supported by broader chip-vendor adoption of EliteSiC and new 900V SiC design wins with EV/ESS customers including Geely, NIO, and Sineng Electric.",
+  "sources": [
+    {"url": "https://www.globenewswire.com/news-release/2026/05/04/3287127/0/en/onsemi-Reports-First-Quarter-2026-Results.html", "title": "onsemi Q1 2026 Results — GlobeNewswire"},
+    {"url": "https://mlq.ai/news/onsemi-projects-ai-data-center-revenue-doubling-and-margin-gains-for-2026/", "title": "onsemi Projects AI Data Center Revenue Doubling — MLQ.ai"},
+    {"url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-reports-fourth-quarter-and-full-year-2025-results-0", "title": "onsemi Q4 and FY2025 Results — investor.onsemi.com"},
+    {"url": "https://www.investing.com/news/company-news/on-semiconductor-q1-2026-slides-ai-data-center-surge-drives-recovery-93CH-4657646", "title": "ON Semiconductor Q1 2026: AI Data Center Surge — Investing.com"},
+    {"url": "https://letsdatascience.com/news/onsemi-expects-q2-2026-eps-ai-data-center-revenue-to-double-ebb1e39f", "title": "onsemi Expects AI Data Center Revenue to Double — Let's Data Science"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

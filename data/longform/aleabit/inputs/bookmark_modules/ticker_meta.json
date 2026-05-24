@@ -1,0 +1,24 @@
+{
+  "key": "META",
+  "name": "Meta Platforms, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Meta Platforms, headquartered in Menlo Park, California, operates Facebook, Instagram, WhatsApp, and Threads — collectively the largest social-media ecosystem in the world by monthly active users. The company generates the vast majority of its revenue through digital advertising, using detailed behavioural data to target ads across its platforms. After a painful 2022 in which shares fell roughly 65% amid a revenue slowdown and ballooning metaverse losses, Meta executed a dramatic turnaround by cutting costs, boosting margins, and rapidly integrating AI-driven ad ranking tools (Advantage+) that demonstrably improved advertiser returns. CEO Mark Zuckerberg declared 2023 a 'Year of Efficiency' and the company followed through. By late 2025 Meta was simultaneously the most profitable it had ever been and the most aggressive in AI infrastructure spending, committing up to $65 billion in capex for 2025 and raising that figure to as much as $145 billion for 2026.",
+  "recent": "Meta reached an all-time high near $796 per share in September 2025. The stock declined approximately 24–28% from that peak through April 2026, with the primary investor concern being the scale of the 2026 capital-expenditure commitment — up to $145 billion — and uncertainty about whether AI-driven revenue would materialise at the pace required to justify it. Quarterly earnings remained strong through the period, but multiple compression drove share-price weakness.",
+  "sources": [
+    {
+      "url": "https://nai500.com/blog/2026/04/is-the-sharp-decline-of-metas-stock-in-2026-a-buying-opportunity-or-a-falling-knife/",
+      "title": "Is the Sharp Decline of Meta's Stock a Buying Opportunity? — NAI500"
+    },
+    {
+      "url": "https://moccet.ai/news/tech/meta-just-bumped-its-2026-capex-forecast-up-to-as-much-as-145-billion-for-the-ai",
+      "title": "Meta 2026 Capex Forecast Up to $145 Billion — Moccet"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/meta/history/",
+      "title": "Meta Platforms Stock Price History — Stock Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

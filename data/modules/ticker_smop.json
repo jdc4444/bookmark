@@ -1,0 +1,14 @@
+{
+  "key": "SMOP",
+  "name": "SmartOptics Group ASA",
+  "exchange": "Oslo Stock Exchange (OB)",
+  "blurb": "SmartOptics is a Norwegian supplier of open optical networking hardware and software — transceivers, optical line systems, and management platforms — used by enterprises, governments, and telecoms carriers to build metro, regional, and data-centre interconnect networks. The company competes in the 'open optical' market where carriers avoid vendor lock-in by disaggregating optical hardware from the control plane. Founded 1990, headquartered in Oslo.",
+  "recent": "As of early May 2026, SMOP.OL was trading at approximately $6.03 (NOK equivalent), with a market capitalisation near $591M and trailing twelve-month revenue of $75.3M. The stock has been caught in the broader photonics sector re-rating driven by AI data-centre optical demand, though SmartOptics is more of an adjacent beneficiary — its open-networking solutions address metro and DCI (data-centre interconnect) use cases rather than the hyperscale co-packaged optics buildout at the centre of the AI optical thesis.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/SMOP.OL/", "title": "SmartOptics Group ASA (SMOP.OL) — Yahoo Finance"},
+    {"url": "https://pitchbook.com/profiles/company/115306-12", "title": "SmartOptics 2026 Company Profile — PitchBook"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

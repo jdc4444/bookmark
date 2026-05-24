@@ -1,0 +1,16 @@
+{
+  "key": "DIS",
+  "name": "The Walt Disney Company",
+  "exchange": "NYSE",
+  "blurb": "Disney is a global media and entertainment conglomerate whose assets span theme parks, film studios (Disney, Pixar, Marvel, Lucasfilm), the ABC broadcast network, ESPN, and the Disney+ and Hulu streaming platforms. The company has undergone significant restructuring under returning CEO Bob Iger, who returned in 2022 to stabilise the company after a turbulent period under his successor. Disney's streaming transition has been costly but Disney+ reached profitability in late 2024.",
+  "recent": "Disney reported FY2025 revenue of approximately $93 billion. The experiences segment (theme parks and cruises) remains the primary profit engine. The company is pursuing ESPN's transition to a direct-to-consumer streaming service and has made moves to consolidate streaming assets. Paul Pelosi sold 10,000 shares of DIS per the January 2026 PTR disclosure.",
+  "sources": [
+    {
+      "url": "https://nancypelosistocktracker.org/",
+      "title": "Nancy Pelosi Stock Tracker"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,54 @@
+{
+  "headline": "What Dedicated Hand Tracking Adds to AI Motion Capture",
+  "lede": "Carlos Eduardo Barreto, a Blender developer known online as carlosedubarret, posted a work-in-progress comparison from CEB HubMocap — his open-source Blender addon that pipes AI-based motion-capture tools into the 3D software. The side-by-side test, rendered without any smoothing pass, asks whether bolting a specialised hand-reconstruction model onto a full-body estimator produces a visible improvement. The question matters: in character animation, plausible hands are notoriously hard to recover from ordinary video.",
+  "body": "*PromptHMR* (abbreviated PHMR in the clip) is a recent *human mesh recovery* model — a class of system that infers a three-dimensional body shape and skeleton from ordinary monocular video, without depth sensors or marker suits. Such models regress pose parameters for a statistical body representation, reconstructing limb positions and joint angles from pixel evidence alone, frame by frame.\n\nThe limitation of whole-body models is that hands are small, fast-moving, and frequently self-occluded — conditions that make their pixel footprint an unreliable anchor for pose estimation. **HaMeR** (Hand Mesh Recovery) addresses this by focusing exclusively on hands, using a dedicated transformer trained on large hand-specific datasets to produce finger articulation more accurate than a general body model manages.\n\nBarreto's test combines the two: PromptHMR handles the torso and limbs while HaMeR refines the hand regions. Blender's *Video Sequence Editor* displays both outputs as labelled strips — PHMR versus PHMR + HaMeR — making frame-by-frame differences immediately visible. The deliberate absence of temporal smoothing is significant: smoothing reduces jitter but can conceal model errors, so raw output is more diagnostic.\n\nCEB HubMocap, available on GitHub, is the addon through which Barreto orchestrates these inference modules inside Blender. Rather than requiring artists to run separate Python scripts and import results by hand, it wraps research-grade pipelines behind a native Blender interface — the kind of integration that makes tools built for machine-learning labs usable by animators who are not.",
+  "tickers": [],
+  "poster": "carlosedubarret",
+  "concepts": [
+    {
+      "key": "human-mesh-recovery",
+      "term": "Human Mesh Recovery (HMR)",
+      "definition": "A family of AI methods that estimate a full 3D body model — pose, shape, joint angles — from a 2D image or video without any depth sensor. The system regresses parameters of a statistical body template such as SMPL, inferring spatial arrangement purely from visual evidence. Frame-by-frame inference tends to produce jitter that is smoothed in post-processing."
+    },
+    {
+      "key": "monocular-video",
+      "term": "Monocular Video",
+      "definition": "Footage captured with a single ordinary camera, as opposed to a stereo rig or depth sensor. Reconstructing 3D information from monocular video is an ill-posed problem — depth must be inferred rather than measured — making it the hardest common setting for motion capture."
+    },
+    {
+      "key": "temporal-smoothing",
+      "term": "Temporal Smoothing",
+      "definition": "A post-processing step applied to per-frame motion estimates to reduce jitter — the rapid, physically implausible oscillations that appear when an AI model makes slightly inconsistent predictions across consecutive frames. Smoothing improves visual quality but can mask underlying model errors, which is why Barreto's comparison omits it."
+    },
+    {
+      "key": "video-sequence-editor",
+      "term": "Blender Video Sequence Editor (VSE)",
+      "definition": "Blender's built-in non-linear editor for compositing video strips, animations, and effects on a timeline. Used here to display two mocap outputs side by side for visual comparison rather than for final film editing."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "carlosedubarreto-ceb_hubmocap",
+      "url": "https://github.com/carlosedubarreto/ceb_hubmocap",
+      "summary": "CEB HubMocap is a Blender addon by Carlos Eduardo Barreto that integrates modular AI-based motion-capture pipelines directly into Blender. It wraps inference tools such as PromptHMR and HaMeR behind a native Blender interface so animators can run video-based mocap without leaving the application or writing Python. The project is under active development, with the author regularly posting work-in-progress comparisons on YouTube."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/carlosedubarreto/ceb_hubmocap",
+      "title": "GitHub — carlosedubarreto/ceb_hubmocap",
+      "note": "Primary source confirming CEB HubMocap is a Blender addon for AI mocap modules"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=S9olJ_8dSs4",
+      "title": "CEB HubMocap WIP prompthmr+hamer #b3d — YouTube",
+      "note": "Author's own video showing the PromptHMR vs PromptHMR+HaMeR comparison in motion"
+    }
+  ],
+  "bookmark_id": "2003883467340480839",
+  "generated_at": "2026-05-06T20:23:40.510819Z",
+  "backend": "claude"
+}

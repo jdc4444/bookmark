@@ -1,0 +1,162 @@
+{
+  "headline": "Hiring for Taste: The Multimodal AI Research Role Takes Shape",
+  "lede": "Nick St. Pierre — Creative Director, AI educator, and the voice behind the widely followed @nickfloats account — is not advertising for a prompt engineer. His announcement of an opening for people to \"prompt all day\" across image, video, music, and language models, with taste and tool obsession as the only requirements, points to something newer and more defensible: an artist-led research role in which the instrument is the prompt and the output is knowledge.",
+  "body": "St. Pierre is a creative director at OCA — an agency whose clients include Meta Platforms (META), Google (GOOGL), and Adobe (ADBE) — who has spent several years building what amounts to a public research practice around AI creative tools, teaching technique at Anderson Ranch Arts Center and to tens of thousands of practitioners through cohort-based courses online. The role he is advertising is an extension of that practice: not operations, not production, but systematic investigation of how image, video, music, and language models behave across inputs, parameters, and compositional styles.\n\nThe distinction matters because the category the announcement superficially resembles — *prompt engineering* — has spent two years being declared obsolete. Fortune reported in May 2025 that a role once advertised at up to $375,000 was \"already obsolete thanks to AI.\" A Microsoft (MSFT) survey of 31,000 workers ranked it second-to-last among roles companies are considering adding. But that obituary applies to a specific version of the work: writing instructions to wring consistent outputs from text language models for business-process automation. Multimodal creative prompting — understanding why Runway's Gen-4 handles camera motion differently from Kuaishou Technology's (1024.HK) Kling, or how Suno's voice-cloning interacts with style prompting — is not something language models can yet do for themselves, and the knowledge is not codified anywhere.\n\nThe tools span four modalities whose simultaneous maturation defines the current moment. In image, **Midjourney** and Black Forest Labs' *FLUX* — founded in 2024, valued at $3.25 billion after a $300 million raise — contest photorealism and aesthetic range. In video, Runway and Google (GOOGL) Veo dominate creative-professional workflows; OpenAI's much-hyped *Sora* shut down entirely in April 2026. In music, Suno and Udio each settled copyright disputes with major labels in 2025 and are now positioned as collaborative rather than replacement tools. *Cross-modal fluency* — knowing how to compose a pipeline from image output through video, narration, and score — remains genuinely rare and underdocumented.\n\nCompanies are already paying for exactly this. ElevenLabs, the voice and audio AI firm, lists an \"AI Creative Producer\" role requiring deep expertise prompting image, video, and audio models — a description that might have been written by St. Pierre. Lightricks, maker of the LTX Studio video tool, advertises an \"AI Creative Technologist\" at $160,000 to $180,000 plus equity. Runway has arguably institutionalized the model through its Creative Partners Program, which treats working artists as a distributed feedback function inside product development. St. Pierre's announcement moves that logic from program to payroll.\n\nWhether the role outlasts the current generation of models turns on what it actually produces. If the output is images, improving models will eventually outprompt any practitioner. If the output is documented frameworks, technique guides, and cross-modal workflow designs — the intellectual infrastructure that helps others work faster — that is research in the traditional sense, and better tools do not make the researcher redundant. A Semafor analysis of Gallup data published in May 2026 found that AI had not reduced artists' employment; artists were working slightly more hours than in 2022. The \"artist-led research\" framing is not semantic sleight of hand. It is the version of this job that might actually last.",
+  "tickers": [
+    "META",
+    "GOOGL",
+    "ADBE",
+    "MSFT",
+    "1024.HK"
+  ],
+  "companies": [
+    {
+      "name": "OCA",
+      "ticker": null
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Adobe",
+      "ticker": "ADBE"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Runway",
+      "ticker": null
+    },
+    {
+      "name": "Kuaishou Technology",
+      "ticker": "1024.HK"
+    },
+    {
+      "name": "Suno",
+      "ticker": null
+    },
+    {
+      "name": "Black Forest Labs",
+      "ticker": null
+    },
+    {
+      "name": "Midjourney",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Udio",
+      "ticker": null
+    },
+    {
+      "name": "ElevenLabs",
+      "ticker": null
+    },
+    {
+      "name": "Lightricks",
+      "ticker": null
+    }
+  ],
+  "poster": "nickfloats",
+  "concepts": [
+    {
+      "key": "prompt-engineering",
+      "term": "Prompt Engineering",
+      "definition": "The practice of designing and refining text instructions — prompts — to elicit specific outputs from AI models. The term peaked as a job title in 2023 as companies sought specialists to optimize AI interactions; by 2025 it had largely collapsed, partly because models became capable enough that precise prompting mattered less for routine tasks, and partly because the skill was absorbed into broader technical and creative roles."
+    },
+    {
+      "key": "multimodal-ai",
+      "term": "Multimodal AI",
+      "definition": "AI systems that process or generate more than one type of media — text, images, audio, and video — rather than being limited to a single data type. The latest generation of tools (2025–2026) can accept or produce combinations of modalities within a single workflow, enabling tasks like turning a text description into a video with synchronized music and narration."
+    },
+    {
+      "key": "cross-modal-fluency",
+      "term": "Cross-Modal Fluency",
+      "definition": "The practical skill of composing workflows that move outputs from one AI modality into inputs for another — for example, generating an image, refining it into a video clip, writing narration, and scoring with AI-generated music. Each model has distinct aesthetic defaults and failure modes, and knowing how to chain them coherently is a competency not taught by any single tool's documentation."
+    },
+    {
+      "key": "artist-led-research",
+      "term": "Artist-Led Research",
+      "definition": "A model for inquiry in which the research agenda is driven by aesthetic and creative questions rather than business-process or engineering goals. In the AI tools context, it means investigating model behavior, failure modes, and creative potential with a practitioner's sensibility — producing frameworks, technique guides, and workflow documentation as primary outputs rather than finished artworks."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://twitter.com/nickfloats",
+      "title": "@nickfloats on X",
+      "note": "Nick St. Pierre's primary public account and source of the bookmark tweet"
+    },
+    {
+      "url": "https://www.linkedin.com/in/nicksp/",
+      "title": "Nick St. Pierre – LinkedIn",
+      "note": "Professional background, OCA affiliation, and client roster"
+    },
+    {
+      "url": "https://www.andersonranch.org/people/nick-st-piere/",
+      "title": "Nick St. Pierre – Anderson Ranch Arts Center",
+      "note": "Describes him as 'a creative director and educator pioneering the intersection of AI and storytelling'"
+    },
+    {
+      "url": "https://outlierventures.io/article/creative-ai-tools-and-techniques-with-nick-st-pierre/",
+      "title": "Creative AI Tools and Techniques, with Nick St. Pierre – Outlier Ventures",
+      "note": "Interview covering his research methodology and teaching philosophy"
+    },
+    {
+      "url": "https://fortune.com/2025/05/07/prompt-engineering-200k-six-figure-role-now-obsolete-thanks-to-ai/",
+      "title": "This six-figure role was predicted to be the next big thing — it's already obsolete – Fortune",
+      "note": "Primary source on prompt engineering job market collapse by May 2025"
+    },
+    {
+      "url": "https://elevenlabs.io/careers/3178581d-ea70-4dee-b018-2ce2d2a18bbe/ai-creative-producer",
+      "title": "AI Creative Producer – ElevenLabs Careers",
+      "note": "Active job listing that closely mirrors the @nickfloats role description"
+    },
+    {
+      "url": "https://talent.headline.com/companies/lightricks/jobs/75361158-ai-creative-technologist",
+      "title": "AI Creative Technologist – Lightricks / Headline",
+      "note": "$160K–$180K role requiring cross-modal AI creative expertise"
+    },
+    {
+      "url": "https://runwayml.com/creative-partners-program",
+      "title": "Creative Partners Program – Runway",
+      "note": "Runway's artist feedback model, referenced as institutional precedent for artist-led research"
+    },
+    {
+      "url": "https://suno.com/blog/v5-5",
+      "title": "Suno v5.5 Launch – Suno Blog",
+      "note": "Suno's philosophical positioning around human creative input: 'The best music starts with a human'"
+    },
+    {
+      "url": "https://www.semafor.com/article/05/04/2026/ai-is-changing-how-artists-work-research-says",
+      "title": "AI is changing how artists work, research says – Semafor",
+      "note": "Gallup polling analysis showing AI has not reduced artists' employment as of 2026"
+    },
+    {
+      "url": "https://bfl.ai/models/flux-2",
+      "title": "FLUX.2 – Black Forest Labs",
+      "note": "Background on FLUX model capabilities and Black Forest Labs valuation"
+    },
+    {
+      "url": "https://www.veo3ai.io/blog/best-sora-alternatives-2026-shutdown",
+      "title": "Best Sora Alternatives 2026 – Veo3AI",
+      "note": "Confirms OpenAI Sora consumer app and API shutdown in April 2026"
+    }
+  ],
+  "bookmark_id": "1920089574618915166",
+  "generated_at": "2026-05-07T06:54:48.467392Z",
+  "backend": "claude-sonnet-subagent"
+}

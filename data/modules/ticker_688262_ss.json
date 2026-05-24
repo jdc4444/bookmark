@@ -1,0 +1,17 @@
+{
+  "key": "688262.SS",
+  "name": "C*Core Technology Co., Ltd.",
+  "exchange": "SSE",
+  "blurb": "C*Core Technology (SSE: 688262), founded in 2001 and headquartered in Suzhou, Jiangsu, is a chip-design house offering IP licensing, custom chip design, and proprietary chip and module products for automotive electronics, advanced computing, biometric identification, and information security applications. The company is listed on the Shanghai STAR Market. Note: the ticker 688262.SS is sometimes confused with TanKeBlue Semiconductor — a Beijing-based silicon carbide substrate maker that appeared in Coherent Corp.'s 2022 10-K competitor list under Materials competitors. TanKeBlue remains a private company; its correct listed SiC peer on the Shanghai STAR Market is SICC (Tianyue Advanced, 688234.SS), which holds the world's leading share in 6-inch and 8-inch SiC substrates as of 2025.",
+  "recent": "C*Core reported 2025 revenue of 531.88 million CNY (down 7.4% year-over-year) and a net loss of 254.13 million CNY, reflecting investment cycles in its automotive and computing chip platforms. As of April 30, 2026, shares trade near 39 CNY with a market cap of approximately 12.8 billion CNY. For exposure to SiC substrates in the context of the Coherent 10-K competitor list, investors should reference 688234.SS (Tianyue Advanced / SICC) rather than this ticker.",
+  "sources": [
+    {"url": "https://stockanalysis.com/quote/sha/688262/", "title": "C*Core Technology (SHA:688262) Stock Price & Overview — StockAnalysis"},
+    {"url": "https://www.bloomberg.com/profile/company/BTHLSZ:CH", "title": "TanKeBlue Semiconductor Co Ltd — Bloomberg Markets"},
+    {"url": "https://en.tankeblue.com/", "title": "TanKeBlue — Official website"},
+    {"url": "https://news.futunn.com/en/post/60378174/a-global-sic-leader-is-on-the-horizon-with-tianyue", "title": "Tianyue Advanced (688234.SH) leading the way in SiC — Futunn"},
+    {"url": "https://www.semiconductor-today.com/news_items/2023/may/infineon-030523.shtml", "title": "China's SICC and TanKeBlue to supply SiC to Infineon — Semiconductor Today"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T22:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

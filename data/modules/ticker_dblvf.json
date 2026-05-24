@@ -1,0 +1,33 @@
+{
+  "ticker": "DBLVF",
+  "name": "Doubleview Gold Corp",
+  "exchange": "OTC Markets (OTCQB)",
+  "primary_listing": "DBG.V",
+  "primary_exchange": "TSX Venture Exchange (TSXV)",
+  "sector": "Materials",
+  "industry": "Gold & Silver Mining / Copper Exploration",
+  "country": "Canada",
+  "description": "DBLVF is the US OTC (OTCQB) trading symbol for Doubleview Gold Corp, a Canadian junior mineral exploration company. It is the same underlying security as DBG.V on the TSX Venture Exchange, quoted in US dollars for American retail investors who cannot access Canadian exchanges directly. Liquidity is materially lower than the primary TSX-V listing; spreads are typically wider and volume thinner.",
+  "note": "All fundamental data — resource estimate, PEA, financials — is identical to the DBG.V primary listing. Refer to ticker_dbg_v.json for full project details.",
+  "market_data": {
+    "as_of": "2026-05-05",
+    "currency": "USD",
+    "price_usd_approx": 2.0,
+    "note": "USD price is approximate; reflects CAD/USD exchange rate applied to DBG.V closing price of C$2.74. OTC spreads vary.",
+    "shares_outstanding_m": 233.0,
+    "primary_listing_market_cap_cad_m": 661.7
+  },
+  "otc_risks": [
+    "Lower liquidity than primary TSX-V listing; wider bid-ask spreads",
+    "Currency risk (CAD/USD) adds a layer of volatility for US holders",
+    "OTC market-maker pricing may lag the primary exchange intraday"
+  ],
+  "sources": [
+    "https://finance.yahoo.com/quote/DBLVF/",
+    "https://stockanalysis.com/quote/tsxv/DBG/statistics/"
+  ],
+  "generated_at": "2026-05-05T18:00:00Z",
+  "key": "DBLVF",
+  "blurb": "DBLVF is the U.S. OTC (OTCQB) trading symbol for Doubleview Gold Corp, a Canadian junior mineral exploration company. It is the same underlying security as DBG.V on the TSX Venture Exchange, quoted in U.S. dollars for American retail investors who cannot access Canadian exchanges directly. Liquidity is materially lower than the primary TSX-V listing; spreads are typically wider and volume thinner.",
+  "recent": "As of early May 2026 the OTC quote was approximately US$2.00, reflecting the CAD/USD-converted DBG.V closing price of C$2.74 against 233 million shares outstanding. All fundamental data — resource estimate, PEA, financials — is identical to the DBG.V primary listing."
+}

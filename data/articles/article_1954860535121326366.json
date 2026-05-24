@@ -1,0 +1,58 @@
+{
+  "bookmark_id": "1954860535121326366",
+  "headline": "Palantir's Earnings Slide Crowns Four Companies the New AI Elite",
+  "lede": "When Palantir published its Q1 2026 results, it slipped in a competitive benchmark that effectively rewrote the grammar of software valuation — and four names came out on top.",
+  "body": "The reference in the post is not to some offhand remark by Alex Karp, Palantir's mercurial chief executive, but to a chart embedded in the company's own Q1 2026 investor slides. Palantir, which reported 85% revenue growth and a 60% adjusted operating margin in the quarter, used the occasion to introduce what it called the *Rule of 80 Frontier* — a stricter cousin of the *Rule of 40*, the standard yardstick used to evaluate software companies. The Rule of 40 holds that a healthy tech company's revenue-growth rate plus its operating-margin percentage should sum to at least 40; cross that threshold and the business is, by industry convention, adequately balancing expansion with profitability. Palantir's composite score came in at 145, which is the kind of number that makes venture capitalists check their spreadsheets twice.\n\nThe Rule of 80 Frontier, by extension, is simply the cohort of large-cap companies whose combined growth-plus-margin scores exceed 80 — a bar that eliminates most of the S&P 500 in one stroke. According to the slides, five companies cleared it among the top 100 by market capitalisation: Nvidia at 122%, Palantir itself at 94%, Eli Lilly at 89%, Taiwan Semiconductor Manufacturing Company at 88%, and Visa at 83%. The poster, Felix Prehn, a former investment banker who runs the Goat Academy retail-investing community, focuses on the top four, noting that all sit above 40 and most crush 80 — a pithy double entendre, since \"40\" and \"80\" are also numerical thresholds that technical traders associate with the *Relative Strength Index* (RSI), a momentum oscillator scaled from 0 to 100 that measures the speed and magnitude of recent price moves. In that reading, staying above 40 signals healthy trend momentum, while surging past 80 marks a stock as emphatically overbought by conventional reckoning. Whether Prehn intended both layers simultaneously, or simply borrowed the framing from Karp's slides, the ambiguity is part of the post's charm.\n\nThe four companies share a structural trait that goes beyond either metric. Nvidia supplies the hardware substrate for the current AI buildout; TSMC (Taiwan Semiconductor Manufacturing Company, the world's dominant contract chipmaker) fabricates the silicon that Nvidia designs; Palantir provides the software layer that turns raw AI inference into operational decisions for governments and corporations; and Eli Lilly's GLP-1 obesity and diabetes drugs represent perhaps the only non-AI sector generating comparable investor excitement right now. Together they form an unintentional coalition of the compounding — businesses where competitive moats are widening at roughly the same pace as revenues.\n\nThere is a subtle vanity in Palantir publishing such a list from fourth place on it. The company ranked itself below Nvidia, a business roughly fifteen times its size by revenue. Critics who note that Palantir still derives a meaningful share of income from government surveillance contracts — and who have questioned whether its AI platform, AIP, generates the durable commercial revenue its slides imply — might observe that designing your own peer group is a time-honoured sport in Silicon Valley. Karp, who has described rivals as running software that simply does not work, and once told investors they could find the exit if they disagreed with his politics, is not a man who shies from self-promotion dressed as analysis.\n\nNevertheless, the underlying numbers are real. Palantir's U.S. commercial revenue grew 133% year-over-year in Q1 2026. Nvidia's data-centre business is approaching $200 billion in annualised revenue. TSMC continues to report record advanced-node utilisation. And Eli Lilly's GLP-1 franchise, led by Mounjaro and Zepbound, has reshaped pharmaceutical revenue expectations globally. That four companies from such disparate corners of the economy — AI silicon, AI software, drug biology — can be meaningfully ranked on the same growth-plus-margin scorecard is itself a data point about how thoroughly the current technology wave has reorganised corporate America's hierarchy of winners.",
+  "tickers": [
+    "NVDA",
+    "PLTR",
+    "LLY",
+    "TSM"
+  ],
+  "poster": "felixprehn",
+  "concepts": [
+    {
+      "key": "rule_of_40",
+      "term": "Rule of 40",
+      "definition": "A benchmark for software companies: revenue-growth rate (%) plus operating-margin (%) should sum to at least 40. Scores above 40 indicate a healthy balance of growth and profitability; Palantir's Q1 2026 score of 145 was exceptional."
+    },
+    {
+      "key": "rule_of_80_frontier",
+      "term": "Rule of 80 Frontier",
+      "definition": "A stricter tier introduced by Palantir in its Q1 2026 earnings slides, identifying large-cap companies whose Rule of 40 composite score exceeds 80. The Q1 2026 list: Nvidia 122%, Palantir 94%, Eli Lilly 89%, TSMC 88%, Visa 83%."
+    },
+    {
+      "key": "rsi",
+      "term": "Relative Strength Index",
+      "definition": "A technical-analysis momentum oscillator scaled from 0 to 100, typically calculated over 14 days. Readings above 70 conventionally signal a stock is overbought; readings above 80 indicate strong upward momentum. The post's 'above 40, most crush 80' phrasing may double as an RSI reading alongside the Rule of 40/80 framing."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The Rule of 80 Frontier list — Nvidia 122%, Palantir 94%, Eli Lilly 89%, TSMC 88%, Visa 83% — is confirmed by multiple sources citing Palantir's Q1 2026 investor slides published May 4, 2026. Palantir's Rule of 40 score of 145% (85% revenue growth + 60% adjusted operating margin) is confirmed in the company's official earnings release. The tweet's claim that all four named companies are 'above 40' and 'most crush 80' is accurate per those slides. No publicly accessible document was found in which Alex Karp personally narrates a ranked list of companies he admires; the 'Karp list' interpretation that best fits the evidence is the Rule of 80 Frontier chart from Palantir's own Q1 2026 earnings presentation. Felix Prehn is a former investment banker and founder of the Goat Academy retail-finance education community, confirmed by public podcast and website records. The RSI double-reading is plausible but speculative — Prehn's post does not explicitly invoke RSI.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/StockMKTNewz/status/1952462417860129191",
+      "title": "Rule of 80 Frontier scores — @StockMKTNewz on X"
+    },
+    {
+      "url": "https://investors.palantir.com/files/Palantir%20-%20Q1%202026%20Business%20Update.pdf",
+      "title": "Palantir Q1 2026 Business Update slides (PDF)"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260503338048/en/Palantir-Reports-Q1-2026-U.S.-Revenue-Growth-of-104-YY-and-Revenue-Growth-of-85-YY-Raises-FY-2026-Revenue-Guidance-to-71-YY-Growth-and-U.S.-Comm-Revenue-Guidance-to-120-YY-Crushing-Consensus-Expectations",
+      "title": "Palantir Q1 2026 official earnings release — BusinessWire"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Relative_strength_index",
+      "title": "Relative Strength Index — Wikipedia"
+    },
+    {
+      "url": "https://podcast.goatacademy.org/",
+      "title": "Felix Prehn — Goat Academy Daily Market News podcast"
+    }
+  ],
+  "generated_at": "2026-05-06T00:06:49Z",
+  "backend": "claude-sonnet-subagent"
+}

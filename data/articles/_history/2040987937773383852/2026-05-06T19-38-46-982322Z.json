@@ -1,0 +1,48 @@
+{
+  "headline": "Always Just Around the Corner: AI and Messianic Time",
+  "lede": "A single dry sentence from @HotForMoot lands a structural observation that scholars have begun to take seriously: the way Silicon Valley reasons about *AGI* — Artificial General Intelligence, a hypothetical system that matches or surpasses human cognition across all domains — maps onto millennia-old patterns of messianic expectation. Both traditions involve a world-altering arrival that is perpetually imminent, perpetually revised, and perpetually believed in with undiminished fervour. The joke is also, quietly, a critique.",
+  "body": "In AI research circles, 'timelines' is a term of art for predictions about when transformative AI will arrive. The debate has run for decades. Marvin Minsky suggested in 1970 that machines would match human intelligence 'within a generation.' Ray Kurzweil famously predicted the *Singularity* — the moment machine intelligence explodes beyond human control or comprehension — by 2045. More recently, leading figures at frontier labs have compressed their estimates to years, not decades. The predictions shift; the conviction that arrival is near does not.\n\nJewish messianism has a comparable internal structure. The *Mashiach* (anointed one) is expected to redeem the world, rebuild the Temple, and inaugurate an era of universal peace — but the timing has always been contested. The Talmud records arguments about the Messiah's arrival conditions in tractate Sanhedrin; Maimonides urged belief in eventual coming without setting a date; and history is littered with specific calculations that did not survive contact with the calendar. The seventeenth-century mass movement around Sabbatai Zevi — whose 1666 arrival was anticipated by hundreds of thousands of Jews across Europe and the Middle East — is the most dramatic example of expectation colliding with disappointment. When Zevi converted to Islam under Ottoman pressure, his followers developed elaborate theologies to explain why the failure was, in fact, part of the plan.\n\nThe parallel the tweet identifies is not merely tonal. Both traditions feature **prophesied discontinuity** — a before and after, separated by a singular event that changes everything. Both generate communities of true believers who revise timelines rather than abandon belief when predictions fail. Researchers have noticed the convergence: a 2025 paper on ResearchGate, 'The Messiah Wars: AI, Media, and the Fermi Paradox,' explicitly frames advanced AI as a 'synthetic messiah' and examines what it means for a civilisation to build the very entity it has long imagined arriving from outside.\n\nThe Future of Life Institute has noted that religious communities, including Jewish ones, are scrambling to develop coherent AI ethics — but slowly, in an industry that rewards speed above all. Scholar David Zvi Kalman, writing for FLI in 2024, observed that it remains unclear whether Jewish, Muslim, or Catholic AI frameworks differ in substantive ways or merely in vocabulary. That uncertainty itself reflects how new the collision between ancient eschatological thinking and present-day engineering timelines actually is.\n\nWhat the tweet captures, in its brevity, is something about *secular eschatology* — the way utopian or catastrophic endpoint-thinking persists in communities that would not describe themselves as religious. AI doomers and AI accelerationists both orient their lives around an imminent transformation of civilisation. The structures of hope, dread, and repeated deferral are older than the transistor.",
+  "tickers": [],
+  "poster": "HotForMoot",
+  "concepts": [
+    {
+      "key": "ai-timelines",
+      "term": "AI timelines",
+      "definition": "A term used in AI research and safety communities to describe predictions about when artificial general intelligence — a system capable of performing any cognitive task a human can — will be developed. Timelines debates concern not just 'when' but whether arrival is decades, years, or centuries away, and carry significant weight in how researchers and investors allocate attention and resources."
+    },
+    {
+      "key": "mashiach",
+      "term": "Mashiach (Messiah)",
+      "definition": "In Jewish tradition, the Mashiach is a future human leader — not a divine figure — who will restore Jewish sovereignty, rebuild the Temple in Jerusalem, and bring about an era of universal peace and knowledge of God. Belief in the Messiah's eventual arrival is one of Maimonides' thirteen principles of Jewish faith, though the timing is considered unknowable by most mainstream authorities."
+    },
+    {
+      "key": "secular-eschatology",
+      "term": "Secular eschatology",
+      "definition": "The tendency of non-religious movements to adopt the structural logic of religious end-times thinking: a present era of struggle leading to a transformative singular event (revolution, singularity, collapse) that ushers in a radically different world. Scholars of religion have traced this pattern through Marxism, transhumanism, and AI accelerationism."
+    },
+    {
+      "key": "singularity",
+      "term": "The Singularity",
+      "definition": "A hypothetical future point, popularised by Ray Kurzweil and Vernor Vinge, at which artificial intelligence surpasses human intelligence and begins improving itself recursively, producing changes so rapid and profound that the future becomes impossible to predict from the present. Kurzweil's widely cited prediction places this around 2045."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://futureoflife.org/religion/ai-in-jewish-thought/",
+      "title": "On AI, Jewish Thought Has Something Distinct to Say",
+      "note": "David Zvi Kalman on the slow development of Jewish AI ethics relative to the industry's pace"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/389590737_The_Messiah_Wars_AI_Media_and_the_Fermi_Paradox-How_Synthetic_Divinity_May_Explain_Our_Cosmic_Silence",
+      "title": "The Messiah Wars: AI, Media, and the Fermi Paradox",
+      "note": "Scholarly paper directly framing advanced AI as 'synthetic messiah' and examining civilisational implications"
+    }
+  ],
+  "bookmark_id": "2040987937773383852",
+  "generated_at": "2026-05-06T19:38:46.982322Z",
+  "backend": "claude"
+}

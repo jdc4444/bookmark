@@ -1,0 +1,124 @@
+{
+  "headline": "Cyproheptadine and the Serotonin Theory of Compulsive Scrolling",
+  "lede": "A post sharing a bottle of cyproheptadine drops calls the old antihistamine “the most effective tool against doomscrolling” — on the grounds that blocking serotonin receptors dissolves the compulsive pull of the phone. The drug’s pharmacology is real and genuinely unusual. The leap to a doomscrolling cure is not yet supported by evidence.",
+  "body": "**Cyproheptadine** is a first-generation antihistamine patented in 1959 and once sold as Periactin, a brand now discontinued though the generic remains on pharmacy shelves. It is prescribed for allergic rhinitis and hives. What makes it pharmacologically unusual is a secondary identity: it is also a potent antagonist at serotonin’s *5-HT2A* and *5-HT2B* receptors, binding them with affinity nearly equal to its antihistamine action. Because it crosses the *blood-brain barrier* — a property that second-generation antihistamines were specifically engineered to eliminate — standard clinical doses of 12–18 mg daily have been shown by *PET imaging* to block 85–95% of brain 5-HT2 receptors. This is why it serves as the standard off-label antidote for *serotonin syndrome*, the dangerous excess-serotonin state produced by certain drug interactions.\n\nThe tweet’s reasoning runs as follows: cyproheptadine blocks most of your brain’s serotonin receptors; compulsive phone use disappears; therefore serotonin was driving the compulsion. The pharmacology is real; the inference is shakier. The neuroscience literature on doomscrolling — the compulsive consumption of distressing news and social feeds — implicates **dopamine** as the primary mechanism. Social media’s infinite scroll exploits *variable-ratio reinforcement*, the same reward schedule as slot machines, which is a dopaminergic circuit. A 2025 public-health review published in SAGE describes the behaviour explicitly as “dopamine-scrolling.” Serotonin’s role in compulsive behaviour is better characterised as a brake on impulsivity than a driver of it; reducing serotonin signalling would theoretically release that brake, not suppress the urge.\n\nSerotonin is not simply “the mood chemical.” Its relationship with dopamine in reward circuits is one of opposition and modulation: a 2017 Frontiers review established that neither neurotransmitter alone produces felt pleasure — only their conjoint rise does. Serotonin counsels patience and restraint; dopamine drives toward immediate reward. Blocking serotonin alters how that balance feels moment-to-moment without addressing the dopaminergic pull of the endless scroll.\n\nThe *off-label* psychiatry literature on cyproheptadine is thin but intriguing. Small trials suggest benefit for *SSRI*-induced sexual dysfunction, PTSD nightmares, and some autism-spectrum behavioural symptoms. A 2024 Cambridge review called it “a psychopharmacological treasure trove” while warning that evidence levels are highly variable. There are zero clinical studies connecting it to phone use or compulsive scrolling. And the drug carries genuine risks: sedation is the most common complaint; rare hepatotoxicity has been documented in French pharmacovigilance databases; and it nullifies SSRIs entirely — an interaction dangerous for anyone being treated for depression or anxiety.\n\nWhat the tweet documents is a pharmacological self-experiment yielding a felt result in search of a mechanism. That is not nothing: individual reports often precede formal research by years, and the drug’s receptor profile raises legitimate questions about serotonin’s role in attention and behavioural regulation. But “most effective tool” implies replicability and a safety profile that the evidence does not yet support.",
+  "tickers": [],
+  "companies": [],
+  "poster": "_palmerprescott",
+  "concepts": [
+    {
+      "key": "cyproheptadine",
+      "term": "Cyproheptadine",
+      "definition": "A first-generation antihistamine (patented 1959, brand name Periactin) that also acts as a potent antagonist at serotonin 5-HT2A and 5-HT2B receptors. Unlike newer antihistamines it crosses the blood-brain barrier freely, producing central sedation and serotonin-blocking effects at standard doses."
+    },
+    {
+      "key": "5-ht2a-receptor",
+      "term": "5-HT2A receptor",
+      "definition": "One of the principal serotonin receptor subtypes in the brain, concentrated on neurons in the prefrontal cortex and striatum. It governs mood, impulse control, and perception. Psychedelics such as LSD and psilocybin activate it; drugs that block it (antagonists) reverse those effects and modulate compulsive behaviour circuits."
+    },
+    {
+      "key": "blood-brain-barrier",
+      "term": "Blood-brain barrier",
+      "definition": "A selective membrane formed by specialised capillary cells that separates the brain from circulating blood, preventing most large or polar molecules from entering. First-generation antihistamines cross it readily (causing sedation and central effects); second-generation ones are designed not to."
+    },
+    {
+      "key": "serotonin-syndrome",
+      "term": "Serotonin syndrome",
+      "definition": "A potentially life-threatening drug reaction caused by excessive serotonin activity, typically from combining two or more serotonin-boosting medications. Symptoms include agitation, rapid heart rate, muscle rigidity, and hyperthermia. Cyproheptadine is used off-label to reverse it by blocking 5-HT2A receptors."
+    },
+    {
+      "key": "doomscrolling",
+      "term": "Doomscrolling",
+      "definition": "The compulsive habit of continuously scrolling through distressing news or social media content, even when it causes anxiety or distress. Research links it to neuroticism, fear of missing out, and dopamine-driven reward-seeking rather than any single neurotransmitter deficit."
+    },
+    {
+      "key": "variable-ratio-reinforcement",
+      "term": "Variable-ratio reinforcement",
+      "definition": "A reward schedule in which a behaviour is reinforced after an unpredictable number of repetitions — the same mechanism that makes slot machines so persistent. Social media feeds use this structure: you scroll not knowing when the next rewarding post will appear, maximising engagement via dopaminergic reward circuits."
+    },
+    {
+      "key": "ssri",
+      "term": "SSRI",
+      "definition": "Selective serotonin reuptake inhibitor — a class of antidepressants (including fluoxetine and sertraline) that raise serotonin levels by blocking its reabsorption into neurons. Cyproheptadine directly counteracts SSRIs by blocking serotonin receptors; the two taken together can eliminate the antidepressant effect."
+    },
+    {
+      "key": "pet-imaging",
+      "term": "PET imaging",
+      "definition": "Positron emission tomography — a brain-scanning technique using radioactive tracers to measure receptor availability and metabolic activity in living tissue. PET studies have quantified what percentage of a brain’s serotonin-2 receptors are occupied (blocked) at a given drug dose, providing direct evidence of cyproheptadine’s central action."
+    },
+    {
+      "key": "off-label",
+      "term": "Off-label use",
+      "definition": "Using a drug for a purpose, patient population, or dosage not specified in its regulatory approval. Off-label prescribing is legal and common in medicine, but it means the specific use has not been formally evaluated for safety and efficacy by a regulatory body."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet implies serotonin is the primary driver of doomscrolling and that blocking it with cyproheptadine resolves the behaviour. The neuroscience literature places dopamine — not serotonin — as the central mechanism in compulsive social media use, operating through variable-ratio reinforcement in dopaminergic reward circuits. Serotonin’s role is better characterised as an impulse-modulating brake; blocking it would theoretically release that brake rather than suppress the urge to scroll. No clinical study connects cyproheptadine to reduced phone use. The poster’s personal experience is real, but the causal attribution to serotonin antagonism is speculative and the framing that behaviour is primarily “driven by serotonin” oversimplifies a deeply interactive neurotransmitter system.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Cyproheptadine",
+      "title": "Cyproheptadine — Wikipedia",
+      "note": "History, receptor binding affinities, approved uses, and PET receptor occupancy data"
+    },
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682541.html",
+      "title": "Cyproheptadine — MedlinePlus",
+      "note": "FDA-approved official drug information, contraindications, and side-effect profile"
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/cns-spectrums/article/cyproheptadine-a-psychopharmacological-treasure-trove/4D1A2DAD89BC07379E6C7D23A9AC5ADF",
+      "title": "Cyproheptadine: A Psychopharmacological Treasure Trove — CNS Spectrums (Cambridge, 2024)",
+      "note": "Comprehensive review of off-label psychiatric uses, evidence grades, and receptor mechanisms"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5641585/",
+      "title": "Serotonin and Dopamine: Unifying Affective, Activational and Decision Functions — Frontiers, 2017",
+      "note": "Role of serotonin and dopamine in reward, motivation, and compulsive behaviour; conjoint-rise finding"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8525494/",
+      "title": "Safety of Cyproheptadine: French Pharmacovigilance Analysis — Frontiers Pediatrics, 2021",
+      "note": "Hepatotoxicity rates and adverse event data"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10251362/",
+      "title": "Neurobiological Risk Factors for Problematic Social Media Use — PMC, 2023",
+      "note": "Serotonin genetics and internet addiction; identifies research gaps in serotonin–scrolling link"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9580444/",
+      "title": "Doomscrolling Scale: Development and Validation — PMC, 2022",
+      "note": "Definition and psychological drivers of doomscrolling; neuroticism and FOMO as primary factors"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329480/",
+      "title": "Social Media and Neurocognitive Impact — PMC, 2025",
+      "note": "Dopamine as primary mechanism in social media compulsion"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/17759139251331914",
+      "title": "Dopamine-Scrolling — SAGE Journals, 2025",
+      "note": "Identifies variable-ratio dopamine reinforcement as the mechanism behind compulsive scrolling"
+    },
+    {
+      "url": "https://poisoncontrol.utah.edu/news/2024/08/cyprohepta-doubts-determining-role-of-cyproheptadine-serotonin-syndrome",
+      "title": "Cyproheptadine in Serotonin Syndrome — University of Utah Poison Control, 2024",
+      "note": "5-HT2A antagonism as antidote mechanism; clinical evidence review"
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2022.791749/full",
+      "title": "Serotonin and Impulsivity — Frontiers in Behavioral Neuroscience, 2022",
+      "note": "Serotonin as drive-and-brake modulator of impulsive behaviour"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7667171/",
+      "title": "Cyproheptadine for Major Depression — PubMed",
+      "note": "Only controlled trial for cyproheptadine as a mood disorder treatment; small n, mixed results"
+    }
+  ],
+  "bookmark_id": "2011161891801116987",
+  "generated_at": "2026-05-07T13:12:15.011055Z",
+  "backend": "claude-sonnet-subagent"
+}

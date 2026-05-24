@@ -1,0 +1,154 @@
+{
+  "headline": "A Contrarian Bet: 6% Treasury Yields as a Tech Catalyst",
+  "lede": "The thirty-year Treasury yield, already above 5 percent for the first time in nearly two decades, is rattling institutional investors who see fiscal excess driving long rates toward new highs. Calvin Froedge, a software entrepreneur, takes a sharply contrarian position: if the thirty-year hits 6 percent, technology stocks will double. The claim inverts textbook financial theory — and has more historical backing than it first appears.",
+  "body": "Tommy Thornton, founder of Hedge Fund Telemetry LLC — an institutional research firm distributing daily newsletters to hedge fund managers — posted a Bloomberg-style yield snapshot showing US Treasury rates climbing in parallel across the entire *yield curve*: the two-year at 4.05%, the ten-year at 4.51%, the thirty-year at 5.05%. The last time the long bond traded consistently above 5% was 2007. The recent push has been fuelled by Moody's stripping the United States of its Aaa credit rating — the last of the three major agencies to do so — after congressional budget projections showed deficits approaching 9% of GDP by 2035. Thornton flagged the move as his biggest macro concern. Froedge's one-line reply was a provocation in the opposite direction.\n\nThe standard framework treats technology stocks as *long-duration* assets: because most of their expected value lies in earnings years or even decades into the future, rising interest rates shrink those earnings' present value by applying a heavier *discount rate* to future cash flows. This is the mechanism that sent the Nasdaq-100 down roughly 33% in 2022 as the Federal Reserve hiked aggressively, and it is why the index lost nearly 80% in the three years after the thirty-year yield last approached 6.5% — during the dot-com collapse of 2000–2002.\n\nYet the 2000 comparison is misleading as a rate story. What cratered the Nasdaq then was not the level of rates but valuation excess — scores of companies trading at triple-digit multiples with no earnings. When the Federal Reserve raised rates seventeen consecutive times between 2004 and 2006, taking the *federal funds rate* from 1% to 5.25% while the thirty-year climbed in tandem, the Nasdaq-100 gained roughly 27% across the entire cycle. Fisher Investments' review of two decades of data finds a weekly correlation of only 0.23 between technology returns and Treasury yield moves — the theory is considerably stronger than the evidence. A second mechanism actively helps the sector: cash. **Apple** (AAPL), holding roughly $160 billion in cash and short-term investments, earns approximately $8 billion in annual interest income at 5% rates — close to 7% of net income, at zero operating cost. **Alphabet** (GOOGL) and **Microsoft** (MSFT) see comparable windfalls. Higher rates, for the most cash-rich companies on earth, are a transfer payment from borrowers to holders.\n\nA third channel runs through fiscal policy. Running deficits of 6–9% of GDP, the US government is in a regime economists call *fiscal dominance* — one where deficit-financed spending outweighs monetary tightening as a driver of aggregate demand. That spending flows disproportionately to technology: the CHIPS and Science Act produced a 580% increase in Commerce Department semiconductor research funding; the Pentagon's AI budget jumped from roughly $10 million to $320 million in a single budget year, with more than 800 active AI projects across the Department of Defense. **Nvidia** (NVDA) and **Palantir** (PLTR) are direct beneficiaries; so is Microsoft through Azure Government contracts. In this frame, high yields do not starve growth — they redistribute income through the fiscal channel while the government simultaneously seeds the next technology cycle.\n\nThe “doubles” claim is speculative in both magnitude and timing, and the scenario that gets rates to 6% matters enormously. If the thirty-year reaches that level through a genuine fiscal confidence crisis — bond markets refusing to fund US deficits at acceptable prices — equity multiples would likely compress and credit conditions would tighten even for profitable technology companies. The bull case requires a world in which yields rise alongside strong nominal growth and accelerating AI earnings: closer to 2004–2007 than to 1999–2002. Froedge’s claim is a conditional bet, and its precision outruns its supporting evidence.",
+  "tickers": [
+    "AAPL",
+    "GOOGL",
+    "MSFT",
+    "NVDA",
+    "PLTR"
+  ],
+  "companies": [
+    {
+      "name": "Hedge Fund Telemetry",
+      "ticker": null
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Palantir",
+      "ticker": "PLTR"
+    },
+    {
+      "name": "Fisher Investments",
+      "ticker": null
+    }
+  ],
+  "poster": "calvinfroedge",
+  "concepts": [
+    {
+      "key": "long-duration-assets",
+      "term": "long-duration assets",
+      "definition": "In finance, “duration” measures how sensitive an asset’s price is to changes in interest rates. Long-duration assets are those whose value depends heavily on cash flows expected far in the future. Growth-oriented technology stocks qualify because investors are pricing in earnings many years out; a higher discount rate compounds over more years, making the present value especially sensitive to rate moves."
+    },
+    {
+      "key": "discount-rate",
+      "term": "discount rate",
+      "definition": "The interest rate used in discounted cash flow analysis to translate a future sum of money into its present-day equivalent. It typically includes a risk-free rate (often a Treasury yield) plus a premium for risk. When Treasury yields rise, discount rates rise with them, mechanically reducing the calculated value of future earnings — and therefore the fair value of growth stocks."
+    },
+    {
+      "key": "fiscal-dominance",
+      "term": "fiscal dominance",
+      "definition": "A macroeconomic regime in which government deficit spending is so large that it overrides the effects of central bank policy. When deficits run at 6–9% of GDP, government outlays keep aggregate demand elevated even as the central bank raises interest rates, blunting the tightening effect on the broader economy."
+    },
+    {
+      "key": "federal-funds-rate",
+      "term": "federal funds rate",
+      "definition": "The overnight interest rate the Federal Reserve targets as its primary monetary policy tool, set at meetings of the Federal Open Market Committee. It directly influences short-term borrowing costs across the economy, though its effect on longer-term Treasury yields (such as the thirty-year) is indirect and mediated by inflation expectations and fiscal conditions."
+    },
+    {
+      "key": "nasdaq-100",
+      "term": "Nasdaq-100",
+      "definition": "A stock index tracking the 100 largest non-financial companies listed on the Nasdaq exchange, heavily concentrated in large-cap technology and consumer-internet firms. It is commonly used as a proxy for “tech stocks” in discussions of market performance and rate sensitivity."
+    },
+    {
+      "key": "yield-curve",
+      "term": "yield curve",
+      "definition": "A chart plotting Treasury bond yields at different maturities — typically 2-year, 5-year, 10-year, and 30-year. When all maturities rise together, as in Thornton’s snapshot, analysts describe it as a parallel upward shift and interpret it as the market pricing in persistently higher rates rather than a near-term recession (which typically inverts the curve, pushing short-term yields above long-term ones)."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim “tech will double again” is a speculative forecast, not an empirical assertion, so there is no direct factual error to flag. The implicit comparison to 2000 — the last time the thirty-year approached 6% — is potentially misleading: the Nasdaq’s 2000–2002 collapse of nearly 80% was driven primarily by extreme valuation excess, not rate levels per se, and was followed by a subsequent 2004–2007 rate-hike cycle during which tech gained roughly 27%. Presenting high rates as categorically bearish for tech, or conversely as categorically bullish, oversimplifies a relationship that historical data shows to be weak and highly context-dependent.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://fred.stlouisfed.org/series/DGS30",
+      "title": "FRED: 30-Year Treasury Constant Maturity Rate (DGS30)",
+      "note": "Authoritative historical data on 30-year Treasury yields for multi-decade context"
+    },
+    {
+      "url": "https://fortune.com/2025/05/19/bond-yields-30-year-treasury-selloff-yippy-moodys-downgrade-trump-tax-cuts/",
+      "title": "Fortune: Bond yields hit new highs after Moody’s downgrade (May 2025)",
+      "note": "Context for why the 30-year crossed 5% and fiscal deficit projections"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/05/19/us-treasury-yields-moodys-downgrades-us-credit-rating.html",
+      "title": "CNBC: 30-year Treasury tops 5% after Moody’s downgrade",
+      "note": "Confirms the specific catalyst and rate level in the Thornton chart"
+    },
+    {
+      "url": "https://www.fisherinvestments.com/en-us/insights/market-commentary/do-rising-yields-trouble-tech",
+      "title": "Fisher Investments: Do Rising Yields Trouble Tech?",
+      "note": "Source for the 0.23 weekly correlation coefficient between tech returns and Treasury yields"
+    },
+    {
+      "url": "https://www.fisherinvestments.com/en-us/insights/market-commentary/why-rising-interest-rates-neednt-stall-big-tech",
+      "title": "Fisher Investments: Why Rising Rates Need Not Stall Big Tech",
+      "note": "Historical data on tech performance during the 2004–2006 rate-hike cycle"
+    },
+    {
+      "url": "https://macdailynews.com/2022/03/18/cash-rich-apple-to-earn-4-billion-more-on-its-cash-by-2023-thanks-to-higher-interest-rates/",
+      "title": "MacDailyNews / Barron’s: Apple to earn $4B more on cash from rate hikes",
+      "note": "Basis for the Apple cash-interest-income calculation, scaled to current rate levels"
+    },
+    {
+      "url": "https://www.cmegroup.com/openmarkets/equity-index/2022/How-Rising-Rates-Could-Influence-Tech-Earnings.html",
+      "title": "CME Group OpenMarkets: How Rising Rates Could Influence Tech Earnings",
+      "note": "Mechanism of cash-pile benefit for mega-cap tech under higher rates"
+    },
+    {
+      "url": "https://www.hedgefundtelemetry.com/author/thomas_thornton/",
+      "title": "Hedge Fund Telemetry: Thomas Thornton author page",
+      "note": "Background on Tommy Thornton’s institutional role and publication history"
+    },
+    {
+      "url": "https://www.lynalden.com/july-2023-newsletter/",
+      "title": "Lyn Alden: July 2023 Newsletter — Fiscal Dominance",
+      "note": "Primary source for the fiscal dominance framework and its implications for rate effectiveness"
+    },
+    {
+      "url": "https://www.cnbc.com/video/2026/04/28/lyn-alden-this-is-an-ongoing-symptom-of-fiscal-dominance.html",
+      "title": "CNBC: Lyn Alden on fiscal dominance (April 2026)",
+      "note": "Recent articulation of fiscal dominance thesis in current rate environment"
+    },
+    {
+      "url": "https://federalbudgetiq.com/insights/federal-ai-and-it-research-and-development-spending-analysis/",
+      "title": "Federal Budget IQ: Federal AI and IT R&D Spending Analysis",
+      "note": "Source for CHIPS Act funding figures and DoD AI budget growth"
+    },
+    {
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2026/04/fiscal-year-2027-topline-fact-sheet.pdf",
+      "title": "White House: FY2027 Defense Budget Topline Fact Sheet",
+      "note": "Confirms $1T+ defense topline and scale of defense-tech spending flowing to contractors"
+    },
+    {
+      "url": "https://www.slickcharts.com/nasdaq100/returns",
+      "title": "Slickcharts: Nasdaq-100 Annual Returns",
+      "note": "Year-by-year NDX performance data including the 2004–2007 rate-hike cycle"
+    },
+    {
+      "url": "https://indexes.nasdaqomx.com/docs/Interest%20rate%20sensitivity%20of%20the%20Nasdaq-100.pdf",
+      "title": "Nasdaq OMX: Interest Rate Sensitivity of the Nasdaq-100",
+      "note": "Formal quantitative analysis of NDX duration and rate sensitivity from the index provider"
+    }
+  ],
+  "bookmark_id": "2055106469981192273",
+  "generated_at": "2026-05-15T08:06:07.455034Z",
+  "backend": "claude-sonnet-subagent"
+}

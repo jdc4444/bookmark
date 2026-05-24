@@ -1,0 +1,54 @@
+{
+  "headline": "4D Gaussian Splatting Comes to the Browser via PlayCanvas",
+  "lede": "A technique for rendering dynamic 3D scenes in real time — previously the domain of research labs and GPU clusters — has been integrated into an open-source web engine, putting photorealistic, time-varying scenes a browser tab away. The announcement, from a figure tied to the PlayCanvas project, pairs the engine with Gracia VR, a platform built around the format. It is a small but meaningful step in closing the gap between cutting-edge graphics research and everyday web delivery.",
+  "body": "**Gaussian splatting** is a rendering method that represents a scene not as polygons or a neural network but as a cloud of overlapping, semi-transparent ellipsoids — Gaussians — each carrying colour and opacity. Unlike mesh-based graphics, the representation is learned directly from photographs, and unlike earlier *neural radiance fields* (NeRFs), it renders in real time because the splats are rasterised rather than ray-marched through a network. The technique became a breakout result in computer graphics in 2023.\n\nThe \"4D\" extension, published at both ICLR 2024 and CVPR 2024 by separate research groups, adds time as a fourth dimension to those primitives. Each Gaussian is parameterised by an anisotropic ellipse that can rotate arbitrarily in space *and* time, with appearance encoded by 4D spherindrical harmonics — a mathematical basis that captures how colour changes across viewing angle and moment. The result is a compact representation of a dynamic scene — a person moving, cloth rippling, a car driving — from which novel views at any desired timestamp can be synthesised on the fly.\n\nThe practical challenge has been delivery. Training a 4D Gaussian scene requires multi-view video and significant compute; playback, while real-time on a discrete GPU, has not been trivially portable to the browser. PlayCanvas is a WebGL-based open-source 3D engine designed for exactly that environment: games and interactive experiences that run without plugins. Wiring 4D Gaussian playback into its rendering pipeline means the format inherits the engine's cross-platform reach — desktop, mobile, and headset browsers alike.\n\nThe image in the post shows a viewer labelled \"Fashion\" with an environment selector, hinting that Gracia VR's use case is styled, volumetric video — virtual try-on, lookbooks, or immersive presentations rather than scientific visualisation. That application niche matters: fashion brands are among the few commercial buyers willing to absorb the capture cost of volumetric video today, making them a plausible beachhead for the technology before it scales to broader media.",
+  "tickers": [],
+  "poster": "willeastcott",
+  "concepts": [
+    {
+      "key": "gaussian-splatting",
+      "term": "Gaussian Splatting",
+      "definition": "A scene-representation method that stores a 3D environment as millions of small, coloured, semi-transparent ellipsoids (Gaussians) learned from photographs. Because the ellipsoids can be sorted and drawn directly by a GPU rasteriser, the method renders in real time — a key advantage over neural radiance fields, which require tracing rays through a neural network for every pixel."
+    },
+    {
+      "key": "4d-gaussian-splatting",
+      "term": "4D Gaussian Splatting",
+      "definition": "An extension of Gaussian splatting that treats time as a fourth dimension alongside the three spatial ones. Each Gaussian primitive can deform and shift in both space and time, allowing a single learned representation to capture a moving scene. Viewers can then request a rendered frame at any moment without replaying the original video."
+    },
+    {
+      "key": "novel-view-synthesis",
+      "term": "Novel View Synthesis",
+      "definition": "The task of generating a photorealistic image of a scene from a camera position and angle that was never photographed. Both NeRFs and Gaussian splatting are trained on multi-view images and then queried to produce views that did not exist in the training set, which is what makes them useful for interactive 3D experiences."
+    },
+    {
+      "key": "webgl-engine",
+      "term": "WebGL Engine",
+      "definition": "A JavaScript-based 3D graphics framework that targets the WebGL API — a browser-native interface to the device GPU. Applications built on WebGL engines run in any modern browser without plugins, making them accessible on phones, tablets, and headsets as well as desktops."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "hustvl-4DGaussians",
+      "url": "https://github.com/hustvl/4DGaussians",
+      "summary": "The official code release for the CVPR 2024 paper \"4D Gaussian Splatting for Real-Time Dynamic Scene Rendering\" by the HUST Vision Lab. The repo implements training and evaluation of 4D Gaussian scenes from multi-view video. It is one of two prominent open-source implementations of 4D Gaussian splatting, alongside the Fudan University group's ICLR 2024 release."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/hustvl/4DGaussians",
+      "title": "hustvl/4DGaussians — GitHub",
+      "note": "CVPR 2024 reference implementation; confirms real-time dynamic scene rendering via 4D Gaussians"
+    },
+    {
+      "url": "https://fudan-zvg.github.io/4d-gaussian-splatting/",
+      "title": "4D Gaussian Splatting — Zhang Vision Group, Fudan University",
+      "note": "ICLR 2024 paper; source for spatio-temporal 4D primitive formulation and spherindrical harmonics details"
+    }
+  ],
+  "bookmark_id": "2039660562800423362",
+  "generated_at": "2026-05-06T19:42:18.119247Z",
+  "backend": "claude"
+}

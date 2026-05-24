@@ -1,0 +1,28 @@
+{
+  "key": "ADSK",
+  "name": "Autodesk, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Autodesk, Inc. provides 3D design, engineering, and entertainment technology solutions worldwide. Its products include AutoCAD, Revit, and Autodesk Build, serving industries such as architecture, engineering, construction, and media. With a market cap of about $51 billion and over 14,000 employees, Autodesk is a leading software company in the design and building information modeling space.",
+  "recent": "In the past 30 days, ADSK stock has traded in a range of $214.10 to $329.09, closing at $243.08 on May 6, 2026. Notable news includes Michael Burry buying the dip in software stocks amid an AI-fueled sell-off, and analyst commentary on software's AI troubles persisting. The company's next earnings report is scheduled for May 28, 2026.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ADSK/news/",
+      "title": "Autodesk, Inc. (ADSK) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ADSK/news/",
+      "title": "ADSK News Today | Why did Autodesk stock go up today?"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/adsk/",
+      "title": "Autodesk (ADSK) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/ADSK",
+      "title": "ADSK: Autodesk Inc - Stock Price, Quote and News - CNBC"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:45:41.312456Z",
+  "backend": "deepseek"
+}

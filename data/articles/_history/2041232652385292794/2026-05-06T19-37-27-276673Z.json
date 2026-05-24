@@ -1,0 +1,56 @@
+{
+  "headline": "One Prompt, One Gallery: Vibe Coding Meets the Third Dimension",
+  "lede": "A developer going by @thebuggeddev built a rotating 3D orbital gallery in the browser and published the result with a pointed boast: one prompt, one iteration, no debugging rounds. The live demo runs on Vercel; the code is open on GitHub under the name Orbix. The claim is provocative precisely because it is checkable.",
+  "body": "\"Vibe coding\" is the shorthand that has settled around a particular workflow: describe what you want in plain language, hand it to a large language model, and ship what comes back with minimal or no manual editing. The phrase is informal and contested — critics argue it conflates genuine one-shot generation with heavily prompted iteration that has been tidied up after the fact — but the demos keep arriving, and this one is among the more visually striking.\n\nThe gallery is built with **Three.js**, a JavaScript library that sits on top of *WebGL*, the browser-native graphics API. WebGL requires developers to reason in terms of shaders, buffers, and the GPU pipeline; Three.js wraps that complexity into objects and methods that feel closer to ordinary programming. Asking a model to generate Three.js code is therefore a more tractable task than asking it to write raw WebGL, which helps explain why the framework appears so often in vibe-coding showcases.\n\nThe model credited is \"Gemini 3.1 Pro\" running inside *Google AI Studio*, a free browser-based interface for experimenting with Google's Gemini family of models. That model name falls outside this publication's verified knowledge — the research sources provided do not mention it — so whether 3.1 Pro is a distinct release or a loose label applied to a newer Gemini version cannot be confirmed here. The tool, whatever its precise version, handled both the 3D geometry logic and the orbital animation in a single exchange, if the creator's account is accurate.\n\nThe deeper question is what \"one prompt\" actually means as an evaluative claim. A sufficiently detailed prompt — one that specifies the camera rig, the animation curve, the number of panels, the lighting model — is itself a form of scaffolding that requires skill and iteration to write. The craft moves earlier in the process rather than disappearing. That said, the output here — smooth orbital rotation, responsive layout, clean aesthetics — represents non-trivial Three.js work that would have taken a competent developer hours to produce manually, which is the point the poster is making.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "poster": "thebuggeddev",
+  "concepts": [
+    {
+      "key": "vibe-coding",
+      "term": "vibe coding",
+      "definition": "An informal workflow in which a developer describes a program in natural language and uses a large language model to generate the full implementation, ideally with little or no manual code editing. The term implies a loose, intuition-driven process rather than formal specification, and is associated with the rise of capable code-generation models in the mid-2020s."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "An open-source JavaScript library that provides a higher-level API over WebGL, the browser's native 3D graphics layer. Where WebGL demands direct management of shaders and GPU buffers, Three.js exposes scenes, cameras, meshes, and lights as ordinary objects. It is the dominant tool for browser-based 3D work."
+    },
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "A browser API that enables hardware-accelerated 2D and 3D graphics inside a web page without plugins. It is derived from OpenGL ES and requires writing in a low-level shading language (GLSL). Its power and complexity are both substantial, which is why abstraction libraries like Three.js exist."
+    },
+    {
+      "key": "google-ai-studio",
+      "term": "Google AI Studio",
+      "definition": "A free, browser-based interface from Google that allows developers and non-developers to send prompts to Gemini models, inspect outputs, adjust parameters, and remix configurations. It is positioned as an on-ramp to the Gemini API rather than a production deployment tool."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "thebuggeddev-orbix",
+      "url": "https://github.com/thebuggeddev/Orbix",
+      "summary": "Orbix is the source code for the 3D orbital gallery demonstrated in the tweet. It is a Three.js project that renders a circular arrangement of image panels that rotate in 3D space in the browser. The repo was created as a proof-of-concept for AI-assisted one-shot development using a Gemini model in Google AI Studio."
+    }
+  ],
+  "fact_check": "The tweet credits \"Gemini 3.1 Pro\" as the model used. This version name does not appear in any of the provided research sources and falls outside verified knowledge (cutoff: August 2025). It may refer to a real model released after that date, or it may be an informal or imprecise label. No other factual claims in the post appear incorrect, though the \"one prompt, one iteration\" assertion is self-reported and unverifiable from external sources.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://news.viverse.com/post/prompt-to-playground-vibe-coding-3d-design-with-ai",
+      "title": "From Prompt to Playground: How Vibe Coding is Reinventing 3D Design with AI",
+      "note": "Background on vibe coding as a methodology and its application to browser-based 3D creation via WebGL and Three.js"
+    },
+    {
+      "url": "https://cloud.google.com/discover/what-is-vibe-coding",
+      "title": "Vibe Coding Explained: Tools and Guides | Google Cloud",
+      "note": "Google's own framing of vibe coding, useful for understanding the ecosystem context around Gemini and AI Studio"
+    }
+  ],
+  "bookmark_id": "2041232652385292794",
+  "generated_at": "2026-05-06T19:37:27.276673Z",
+  "backend": "claude"
+}

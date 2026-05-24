@@ -1,0 +1,13 @@
+{
+  "key": "MP",
+  "name": "MP Materials Corp.",
+  "exchange": "NYSE",
+  "blurb": "MP Materials operates Mountain Pass in California, the only producing rare-earth mining and processing facility in the United States. The company extracts and refines neodymium-praseodymium (NdPr) oxide and in 2025 opened a full-scale permanent magnet manufacturing plant in Fort Worth, Texas. Its customers include General Motors under a long-term supply agreement for electric-vehicle traction motor magnets, and the U.S. government has backed the company with roughly $400 million in strategic investment.",
+  "recent": "In early 2025 MP Materials inaugurated its Fort Worth magnet facility and began commercial NdFeB magnet shipments to GM, a landmark for domestic rare-earth supply-chain independence. The company's AI revenue exposure remains indirect — data-center cooling fans and robotics actuators use its magnets — but the robotics angle is drawing increasing investor attention as humanoid robot programs scale.",
+  "sources": [
+    {"url": "https://www.idtechex.com/en/research-article/2025-to-be-a-defining-year-for-the-rare-earth-magnet-market/33601", "title": "2025 to be a Defining Year for the Rare Earth Magnet Market — IDTechEx"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

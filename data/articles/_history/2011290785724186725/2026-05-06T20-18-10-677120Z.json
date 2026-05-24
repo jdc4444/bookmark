@@ -1,0 +1,54 @@
+{
+  "headline": "A Browser Extension Crowdsources Slop Detection on X",
+  "lede": "As artificial intelligence floods social platforms with low-effort content, a small Chrome extension called SlopWatch is trying a different cure: let the users decide. Launched in January 2026 by developer Nate of MaxBid, it grafts a peer-voting layer onto X's feed — one post, one jury, one threshold before the offending content disappears. @nosilverv's approving quote-tweet captures a mood spreading well beyond the extension's current seven users.",
+  "body": "**Slop** — the informal shorthand for AI-generated filler, engagement bait, and bot-produced posts — has become the dominant complaint about the contemporary social feed. X's algorithm, optimised for raw engagement, has a structural incentive to surface exactly this material: provocative, repetitive, and cheap to produce at scale. SlopWatch's answer is to route around the algorithm entirely.\n\nThe mechanism is deliberately simple. The extension injects a \"Slop\" vote button beneath every post a user encounters while scrolling. When enough people flag the same item — the default threshold is five votes — it vanishes from their feeds automatically. A stats dashboard tracks each voter's *accuracy* (how often their flags align with community consensus) and rewards consistent participation with a daily streak, borrowing the gamification logic of language-learning apps.\n\nThe screenshot attached to the announcement tweet illustrates the scale problem honestly. Community totals show four votes cast and thirty posts flagged, with twenty-nine confirmed as slop — numbers that suggest a community of one or two zealous early adopters rather than a functioning crowd. At that size, \"community consensus\" is a generous description of what is effectively a single person's taste.\n\nSlopWatch is not alone in the space. *SlopMuter*, a parallel project, takes a list-based approach: users subscribe to curated blocklists of known slop accounts, and offending posts are hidden locally without any voting or server-side aggregation. A GitHub project called *zero-slop* occupies similar territory. The proliferation of these tools in early 2026 signals genuine demand, even if no single solution has yet achieved the network density needed to make collective judgment reliable.\n\nThe deeper question is whether crowd-moderation can scale without replicating the problems it sets out to solve. Small, active communities of flaggers tend to reflect their own aesthetic preferences rather than any universal standard. A crypto-sceptic cohort will vote pump.fun posts into oblivion; a crypto-enthusiast cohort will do the opposite. Whether X's terms of service will tolerate a third-party layer that systematically overrides its feed algorithm is a separate, more pressing uncertainty.",
+  "tickers": [],
+  "poster": "nosilverv",
+  "concepts": [
+    {
+      "key": "slop",
+      "term": "slop",
+      "definition": "Informal term for low-quality, high-volume content on social media — AI-generated images or text, engagement bait, and bot posts that prioritise quantity over substance. Originally used in AI art communities to describe repetitive, low-effort generative outputs; by 2025–26 it had broadened to any algorithmically mass-produced or cynically crafted feed content."
+    },
+    {
+      "key": "engagement-bait",
+      "term": "engagement bait",
+      "definition": "Content engineered to trigger reactions — likes, replies, reposts — rather than to inform or entertain. Because platform algorithms reward engagement metrics, there is a structural incentive to produce deliberately provocative or emotionally manipulative posts, even when they carry no informational value."
+    },
+    {
+      "key": "community-moderation",
+      "term": "community moderation",
+      "definition": "A content-governance model in which ordinary users, rather than platform employees or automated systems, flag and remove problematic material. Its effectiveness depends on having enough participants to prevent any single faction from capturing the moderation queue — a threshold SlopWatch has not yet reached."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "woodRock-zero-slop",
+      "url": "https://github.com/woodRock/zero-slop",
+      "summary": "An open-source project aimed at filtering AI-generated slop and low-quality content from X/Twitter feeds. Like SlopMuter, it takes a local, client-side approach rather than relying on community voting. Its existence alongside SlopWatch and SlopMuter reflects the emerging ecosystem of user-built alternatives to platform-native content moderation."
+    }
+  ],
+  "fact_check": "The extension's Chrome Web Store listing shows seven users total and the dashboard in the screenshot reports only four community votes — making the product's framing around \"community consensus\" somewhat aspirational at this stage. The auto-hide feature, while functional, is effectively controlled by a single user's flags at current adoption levels rather than any meaningful crowd signal.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://chromewebstore.google.com/detail/slopwatch/cbhpfcfipgkglniinhifhfigpjmoellj",
+      "title": "SlopWatch - Chrome Web Store",
+      "note": "Official listing; confirms version, user count, developer identity, and privacy policy"
+    },
+    {
+      "url": "https://slopmuter.com/",
+      "title": "SlopMuter — Mute the Slop. Keep the Signal.",
+      "note": "Parallel tool using blocklists rather than voting; establishes the broader ecosystem"
+    },
+    {
+      "url": "https://github.com/woodRock/zero-slop/blob/main/README.md",
+      "title": "zero-slop/README.md at main · woodRock/zero-slop · GitHub",
+      "note": "Third approach in the same space; confirms demand for user-built feed filters"
+    }
+  ],
+  "bookmark_id": "2011290785724186725",
+  "generated_at": "2026-05-06T20:18:10.677120Z",
+  "backend": "claude"
+}

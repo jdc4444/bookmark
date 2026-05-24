@@ -1,0 +1,16 @@
+{
+  "key": "SILC",
+  "name": "Silicom Ltd.",
+  "exchange": "NASDAQ",
+  "blurb": "Silicom is an Israeli supplier of high-performance networking hardware - smart NICs (network interface cards), FPGA-based accelerators, edge appliances and switch fabric components - sold mostly to OEMs that bake the boards into their own cybersecurity, SD-WAN, telecom and cloud-edge products. It is a classic small-cap design-win business: revenue depends on how many customer programs ramp into volume each year. Lod-headquartered, founded 1987.",
+  "recent": "Q1 2026 revenue of $19.1m was up 33% year-over-year and ahead of guidance; Q2 was guided to $20-21m and full-year 2026 to $82-83m. The balance sheet ended Q1 with no debt and about $109m of working capital and marketable securities ($63m cash and equivalents, $63m inventory). Management has banked four design wins in the first four months of 2026 against a target of seven to nine for the year, including a tier-one cybersecurity edge system worth over $1m of 2026 orders and an inference-specific NIC under co-development with one of two large AI compute customers, with hyperscaler proof-of-concept deployments slated for H2 2026.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/markets/stocks/articles/silicom-ltd-q1-2026-earnings-210935553.html", "title": "Silicom Q1 2026 earnings call summary"},
+    {"url": "https://uk.investing.com/news/company-news/silicom-q1-2026-slides-33-growth-ai-inference-momentum-builds-93CH-4641666", "title": "Silicom Q1 2026 slides: 33% growth, AI inference momentum builds"},
+    {"url": "https://www.tipranks.com/news/company-announcements/silicom-wins-new-edge-system-design-from-tier-1-cybersecurity-customer-securing-over-1-million-in-2026-orders", "title": "Silicom wins new edge system design from tier-1 cybersecurity customer"},
+    {"url": "https://www.alphaspread.com/security/nasdaq/silc/summary", "title": "SILC intrinsic valuation - Alpha Spread"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

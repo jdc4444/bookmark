@@ -1,0 +1,25 @@
+{
+  "key": "URA",
+  "name": "Global X Uranium ETF",
+  "exchange": "NYSE Arca",
+  "type": "etf",
+  "note": "ETF — included because URA is a central subject of this uranium-sector bookmark.",
+  "blurb": "The Global X Uranium ETF (URA) tracks the Solactive Global Uranium & Nuclear Components Total Return Index, a broad-market-capitalisation-weighted benchmark spanning roughly fifty companies across the nuclear fuel cycle: uranium mining, milling, refining, enrichment, and reactor-equipment manufacturing. Launched in 2010, URA is the largest and most liquid pure-uranium-exposure ETF by assets, with approximately $5 billion in AUM as of 2025. Its expense ratio is 0.69%. The fund's largest holding is Cameco Corporation at roughly 23% of assets, followed by Oklo Inc. Class A (a small modular reactor developer) at ~11% — an unusual position for a 'miner' ETF that reflects URA's willingness to include the broader nuclear technology value chain. Other top holdings include Uranium Energy Corp., NexGen Energy, and Centrus Energy. URA is widely used as a reference benchmark for the uranium sector and is the underlying vehicle that the now-closed Defiance 2x leveraged ETF (URAX) sought to double.",
+  "recent": "URA posted a year-to-date return of approximately 69% through November 2025, outperforming URNM over that period. It is the primary index vehicle for uranium-sector exposure on US exchanges and continues to trade actively as uranium spot prices rebounded above $100/lb in early 2026 after a volatile 2025 that saw lows near $63/lb.",
+  "sources": [
+    {
+      "url": "https://www.globalxetfs.com/funds/ura",
+      "title": "Global X Uranium ETF (URA) — Global X"
+    },
+    {
+      "url": "https://etfdb.com/tool/etf-comparison/URA-URNM/",
+      "title": "URA vs URNM ETF Comparison — ETF Database"
+    },
+    {
+      "url": "https://www.mezzi.com/blog/ura-vs-urnm-uranium-etf-nuclear-energy-exposure",
+      "title": "URA vs URNM: Best uranium ETF for nuclear energy exposure — Mezzi"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

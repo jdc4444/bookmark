@@ -1,0 +1,23 @@
+{
+  "key": "unusual_whales",
+  "display_name": "unusual_whales",
+  "blurb": "Unusual Whales is a fintech data platform and X account focused on options flow analysis, dark pool activity, and congressional stock trading disclosures. The account aggregates and surfaces unusual or large-volume options trades that may signal informed positioning, alongside real-time tracking of trades filed by U.S. lawmakers under the STOCK Act. It gained mainstream visibility around 2021–2022 during the meme stock era and grew to over one million followers by surfacing politician trades in an accessible, often viral format. The account operates alongside a paid analytics platform at unusualwhales.com.",
+  "credibility_note": "Unusual Whales does not editorialize on individual trades — it surfaces raw STOCK Act filings and options flow data, which limits direct bias, but presentation choices (which trades to highlight) can imply significance that isn't always there. The account is largely anonymous; no individual founder is prominently credited in public sources.",
+  "links": [
+    "https://unusualwhales.com",
+    "https://x.com/unusual_whales"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/unusual_whales",
+      "title": "unusual_whales (@unusual_whales) / X — failed to load (JS disabled)"
+    },
+    {
+      "url": "https://www.linkedin.com/company/unusualwhales",
+      "title": "Unusual Whales — LinkedIn (navigation-only content returned)"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T11:24:21.731414Z",
+  "backend": "claude-sonnet-subagent"
+}

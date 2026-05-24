@@ -1,0 +1,43 @@
+{
+  "key": "02513_HK",
+  "ticker": "02513.HK",
+  "exchange": "HKEX",
+  "official_name": "Knowledge Atlas Technology Joint Stock Co., Ltd.",
+  "also_known_as": ["Zhipu AI", "Z.ai", "ZhipuAI", "智谱AI"],
+  "blurb": "Knowledge Atlas Technology (02513.HK), publicly branded as Z.ai and commonly known as Zhipu AI, became the world's first publicly traded pure-play large-language-model company when it listed on the Hong Kong Stock Exchange on January 8, 2026, raising approximately US$560 million. Founded in 2019 by researchers from Tsinghua University, the company develops the GLM (General Language Model) family of foundation models. Its flagship GLM-5, released in February 2026 with 744 billion parameters and an open-source MIT license, ranked first among open-source models on multiple international benchmarks. The stock surged roughly 30% on February 11, 2026 alone following the GLM-5 launch, and accumulated gains exceeding 250% in its first two months of trading, making it one of the most volatile single-name AI plays in any public market.",
+  "sector": "Artificial Intelligence / Cloud Software",
+  "country": "China",
+  "listing_date": "2026-01-08",
+  "ipo_price_hkd": 116.20,
+  "nickname_in_market": "Chinese Claude (informal, used by Anglophone finance Twitter)",
+  "links": [
+    {
+      "label": "Official site",
+      "url": "https://z.ai"
+    },
+    {
+      "label": "HKEX listing",
+      "url": "https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities?sym=2513&sc_lang=en"
+    },
+    {
+      "label": "Wikipedia — Z.ai",
+      "url": "https://en.wikipedia.org/wiki/Z.ai"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2026/01/08/china-ai-tiger-goes-ipo-zhipu-hong-kong-debut-openai-knowledge-atlas-hsi-hang-seng-listing.html",
+      "title": "The first of China's 'AI tigers' goes public as Zhipu climbs in Hong Kong debut — CNBC"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-01-07/china-s-openai-rival-zhipu-debuts-in-hk-after-558-million-ipo",
+      "title": "China's Zhipu Debuts in HK After $558 Million IPO — Bloomberg"
+    },
+    {
+      "url": "https://www.techloy.com/chinas-zhipu-ai-launches-glm-5-with-30-price-increase-as-stock-jumps-34/",
+      "title": "China's Zhipu AI Launches GLM-5, Stock Jumps 34% — Techloy"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

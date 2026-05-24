@@ -1,0 +1,24 @@
+{
+  "key": "TSLA",
+  "name": "Tesla Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Tesla designs and manufactures battery-electric vehicles, energy storage systems, and solar products. Founded in 2003 and taken public in June 2010 at seventeen dollars per share, it became one of the most spectacular long-term equity stories of the 2010s: every share from the IPO, adjusted for subsequent stock splits, would be worth roughly 6,500 dollars by late 2025 — a return of approximately 22,000 percent. The company's Model S (2012), Model 3 (2017), and Model Y (2020) progressively expanded the addressable market from luxury to mass-market segments. Tesla also operates a global Supercharger network and a large-scale energy storage division (Megapack). CEO Elon Musk's public profile — across social media, SpaceX, and his acquisition of X (formerly Twitter) — has made Tesla one of the more volatile large-cap equities in recent years, as investor sentiment toward the company has become partially indexed to sentiment toward Musk personally.",
+  "recent": "Tesla has faced intensifying competition from Chinese electric-vehicle manufacturers, particularly BYD, which overtook Tesla in global EV sales in 2023. Revenue growth decelerated sharply in 2024, and the company has relied on price cuts to defend market share, compressing margins. Musk's political visibility during the 2024 US election cycle and his role in the DOGE cost-cutting initiative generated significant consumer backlash in some markets, with Tesla registrations declining in Europe and California in early 2025. The stock traded in a wide range through 2025-2026 as investors weighed the autonomous-vehicle (Full Self-Driving) optionality against near-term margin pressure.",
+  "sources": [
+    {
+      "url": "https://pocketoption.com/blog/en/knowledge-base/trading/how-much-was-tesla-stock-in-2010/",
+      "title": "How Much Was Tesla Stock in 2010: The $17 Share That Created Millionaires — Pocket Option"
+    },
+    {
+      "url": "https://money.usnews.com/investing/articles/if-invested-tesla-stock-ipo-worth-today",
+      "title": "How Much Would $10,000 Invested in Tesla Stock at IPO Be Worth Today? — U.S. News"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/TSLA/",
+      "title": "Tesla (TSLA) Quote — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

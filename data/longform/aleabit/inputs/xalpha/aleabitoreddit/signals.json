@@ -1,0 +1,3742 @@
+[
+  {
+    "ticker": "NBIS",
+    "tier": "A",
+    "first_signal_date": "2025-09-10T04:20:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HIMS",
+    "tier": "A",
+    "first_signal_date": "2025-09-10T14:39:52+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 3,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IREN",
+    "tier": "A",
+    "first_signal_date": "2025-09-26T15:44:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "A": 2,
+      "B": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ORCL",
+    "tier": "A",
+    "first_signal_date": "2025-09-26T16:48:45+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ETH",
+    "tier": "A",
+    "first_signal_date": "2025-09-26T19:19:06+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "DISMISS": 1,
+      "NEUTRAL": 2,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0
+    }
+  },
+  {
+    "ticker": "CIFR",
+    "tier": "A",
+    "first_signal_date": "2025-09-26T20:07:49+00:00",
+    "counts_at_signal": {
+      "A": 2,
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "UPWK",
+    "tier": "A",
+    "first_signal_date": "2025-09-29T18:28:33+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "A": 2,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RKLB",
+    "tier": "A",
+    "first_signal_date": "2025-10-08T15:51:03+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "B": 1,
+      "S": 1,
+      "A": 1,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FLY",
+    "tier": "A",
+    "first_signal_date": "2025-10-09T00:02:21+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "NEUTRAL": 3,
+      "B": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMZN",
+    "tier": "A",
+    "first_signal_date": "2025-10-10T18:04:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WLAC",
+    "tier": "A",
+    "first_signal_date": "2025-10-13T23:25:45+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "BEAR": 1,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WYFI",
+    "tier": "A",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "counts_at_signal": {
+      "A": 3,
+      "NEUTRAL": 2,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "OSS",
+    "tier": "A",
+    "first_signal_date": "2026-01-09T09:19:56+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "B": 1,
+      "NEUTRAL": 3,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AIRO",
+    "tier": "A",
+    "first_signal_date": "2026-01-14T15:07:46+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 8,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LPTH",
+    "tier": "A",
+    "first_signal_date": "2026-01-18T10:34:49+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "NEUTRAL": 4,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AVAV",
+    "tier": "A",
+    "first_signal_date": "2026-01-20T19:15:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "INTC",
+    "tier": "A",
+    "first_signal_date": "2026-01-27T16:12:44+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 9,
+      "B": 4,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "META",
+    "tier": "A",
+    "first_signal_date": "2026-01-28T21:21:49+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "A",
+    "first_signal_date": "2026-01-30T17:15:23+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRCL",
+    "tier": "A",
+    "first_signal_date": "2026-02-02T08:22:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HOOD",
+    "tier": "A",
+    "first_signal_date": "2026-02-03T04:14:03+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "A": 1,
+      "B": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SNDK",
+    "tier": "A",
+    "first_signal_date": "2026-02-03T05:37:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 12,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRDO",
+    "tier": "A",
+    "first_signal_date": "2026-02-03T21:12:43+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "NEUTRAL": 4,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AVGO",
+    "tier": "A",
+    "first_signal_date": "2026-02-04T22:48:03+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "NEUTRAL": 4,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VPG",
+    "tier": "A",
+    "first_signal_date": "2026-02-05T07:56:42+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 11,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MSTR",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T01:44:39+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "COIN",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T01:44:39+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PYPL",
+    "tier": "A",
+    "first_signal_date": "2026-02-06T03:05:45+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RDDT",
+    "tier": "A",
+    "first_signal_date": "2026-02-08T00:22:48+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GLXY",
+    "tier": "A",
+    "first_signal_date": "2026-02-08T00:22:48+00:00",
+    "counts_at_signal": {
+      "A": 2,
+      "NEUTRAL": 3,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PLTR",
+    "tier": "A",
+    "first_signal_date": "2026-02-10T02:06:52+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "B": 2,
+      "NEUTRAL": 2,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RPI",
+    "tier": "A",
+    "first_signal_date": "2026-02-16T17:46:23+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 6,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ALAB",
+    "tier": "A",
+    "first_signal_date": "2026-02-17T07:57:22+00:00",
+    "counts_at_signal": {
+      "A": 4,
+      "NEUTRAL": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MRVL",
+    "tier": "A",
+    "first_signal_date": "2026-02-20T12:39:39+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "A": 2,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CVX",
+    "tier": "A",
+    "first_signal_date": "2026-02-21T07:35:22+00:00",
+    "counts_at_signal": {
+      "B": 4,
+      "NEUTRAL": 2,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "XLU",
+    "tier": "A",
+    "first_signal_date": "2026-02-26T20:06:27+00:00",
+    "counts_at_signal": {
+      "B": 4,
+      "NEUTRAL": 20,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AAOI",
+    "tier": "A",
+    "first_signal_date": "2026-03-04T15:37:54+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "BEAR": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SOI",
+    "tier": "A",
+    "first_signal_date": "2026-03-12T19:34:31+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSEM",
+    "tier": "A",
+    "first_signal_date": "2026-03-13T15:18:36+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIVE",
+    "tier": "A",
+    "first_signal_date": "2026-03-17T04:59:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 7,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSM",
+    "tier": "A",
+    "first_signal_date": "2026-03-17T12:38:10+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "NEUTRAL": 4,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MU",
+    "tier": "A",
+    "first_signal_date": "2026-03-18T06:43:17+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "EWY",
+    "tier": "A",
+    "first_signal_date": "2026-03-18T06:43:17+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "A",
+    "first_signal_date": "2026-03-20T01:10:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 12,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AEVA",
+    "tier": "A",
+    "first_signal_date": "2026-03-23T03:10:21+00:00",
+    "counts_at_signal": {
+      "A": 2,
+      "B": 2,
+      "NEUTRAL": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MTSI",
+    "tier": "A",
+    "first_signal_date": "2026-03-25T04:16:12+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LITE",
+    "tier": "A",
+    "first_signal_date": "2026-03-26T05:56:07+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 20,
+      "BEAR": 1,
+      "B": 2,
+      "A": 1,
+      "S": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MSFT",
+    "tier": "A",
+    "first_signal_date": "2026-03-26T14:06:24+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 7,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "JBL",
+    "tier": "A",
+    "first_signal_date": "2026-03-27T08:11:47+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "POET",
+    "tier": "A",
+    "first_signal_date": "2026-04-01T08:05:30+00:00",
+    "counts_at_signal": {
+      "B": 2,
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "A",
+    "first_signal_date": "2026-04-02T14:55:45+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HPS",
+    "tier": "A",
+    "first_signal_date": "2026-04-13T14:50:58+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GFS",
+    "tier": "A",
+    "first_signal_date": "2026-04-20T23:07:57+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMD",
+    "tier": "A",
+    "first_signal_date": "2026-04-21T07:39:31+00:00",
+    "counts_at_signal": {
+      "A": 2,
+      "NEUTRAL": 3,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BIRD",
+    "tier": "A",
+    "first_signal_date": "2026-04-21T18:59:55+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ALRIB",
+    "tier": "A",
+    "first_signal_date": "2026-04-23T00:29:10+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 8,
+      "B": 2,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ARM",
+    "tier": "A",
+    "first_signal_date": "2026-04-24T00:25:53+00:00",
+    "counts_at_signal": {
+      "A": 2,
+      "NEUTRAL": 3,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "tier": "A",
+    "first_signal_date": "2026-04-24T05:45:33+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMSC",
+    "tier": "A",
+    "first_signal_date": "2026-04-24T17:39:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "COHR",
+    "tier": "A",
+    "first_signal_date": "2026-04-28T07:45:54+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIVEF",
+    "tier": "A",
+    "first_signal_date": "2026-05-04T18:17:10+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "UPWK",
+    "tier": "B",
+    "first_signal_date": "2025-07-02T10:48:09+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BULL",
+    "tier": "B",
+    "first_signal_date": "2025-07-03T08:52:35+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "UNH",
+    "tier": "B",
+    "first_signal_date": "2025-07-03T09:57:16+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GME",
+    "tier": "B",
+    "first_signal_date": "2025-07-07T14:02:19+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SG",
+    "tier": "B",
+    "first_signal_date": "2025-07-07T14:02:19+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HIMS",
+    "tier": "B",
+    "first_signal_date": "2025-07-07T14:02:19+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ALAB",
+    "tier": "B",
+    "first_signal_date": "2025-07-21T08:10:50+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRDO",
+    "tier": "B",
+    "first_signal_date": "2025-07-21T14:13:31+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "DNUT",
+    "tier": "B",
+    "first_signal_date": "2025-07-23T05:53:22+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IBIT",
+    "tier": "B",
+    "first_signal_date": "2025-07-28T09:35:15+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "DJT",
+    "tier": "B",
+    "first_signal_date": "2025-07-28T09:35:15+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HOOD",
+    "tier": "B",
+    "first_signal_date": "2025-07-31T08:38:35+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "KSPI",
+    "tier": "B",
+    "first_signal_date": "2025-07-31T08:38:35+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "NEUTRAL": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SOFI",
+    "tier": "B",
+    "first_signal_date": "2025-07-31T08:38:35+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NVO",
+    "tier": "B",
+    "first_signal_date": "2025-08-25T20:41:48+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CREDO",
+    "tier": "B",
+    "first_signal_date": "2025-09-08T16:43:54+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NBIS",
+    "tier": "B",
+    "first_signal_date": "2025-09-09T14:17:58+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSSI",
+    "tier": "B",
+    "first_signal_date": "2025-09-10T14:02:18+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SMCI",
+    "tier": "B",
+    "first_signal_date": "2025-09-10T14:02:18+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSM",
+    "tier": "B",
+    "first_signal_date": "2025-09-10T16:55:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NFE",
+    "tier": "B",
+    "first_signal_date": "2025-09-17T23:13:55+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "OPEN",
+    "tier": "B",
+    "first_signal_date": "2025-09-18T06:11:11+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TGT",
+    "tier": "B",
+    "first_signal_date": "2025-09-18T15:39:18+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RKLB",
+    "tier": "B",
+    "first_signal_date": "2025-09-18T21:45:24+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "S": 1,
+      "B": 1,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BKKT",
+    "tier": "B",
+    "first_signal_date": "2025-09-18T23:03:46+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LTC",
+    "tier": "B",
+    "first_signal_date": "2025-09-18T23:03:46+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMZN",
+    "tier": "B",
+    "first_signal_date": "2025-09-23T18:42:23+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IREN",
+    "tier": "B",
+    "first_signal_date": "2025-09-23T20:25:58+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BMNR",
+    "tier": "B",
+    "first_signal_date": "2025-09-25T00:33:07+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BITF",
+    "tier": "B",
+    "first_signal_date": "2025-09-25T15:36:59+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ETH",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T00:24:17+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "DISMISS": 1,
+      "NEUTRAL": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0
+    }
+  },
+  {
+    "ticker": "CIFR",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T15:37:22+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ORCL",
+    "tier": "B",
+    "first_signal_date": "2025-09-26T16:03:09+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRWV",
+    "tier": "B",
+    "first_signal_date": "2025-09-27T19:11:40+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PLTR",
+    "tier": "B",
+    "first_signal_date": "2025-09-27T21:46:43+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "DUOL",
+    "tier": "B",
+    "first_signal_date": "2025-09-27T21:46:43+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MSFT",
+    "tier": "B",
+    "first_signal_date": "2025-09-29T15:21:16+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VIRT",
+    "tier": "B",
+    "first_signal_date": "2025-09-29T16:42:34+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "B",
+    "first_signal_date": "2025-09-29T21:06:17+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PYPL",
+    "tier": "B",
+    "first_signal_date": "2025-09-29T21:06:17+00:00",
+    "counts_at_signal": {
+      "DISMISS": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0
+    }
+  },
+  {
+    "ticker": "SLNH",
+    "tier": "B",
+    "first_signal_date": "2025-09-29T21:06:17+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AVGO",
+    "tier": "B",
+    "first_signal_date": "2025-09-30T00:55:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GOOGL",
+    "tier": "B",
+    "first_signal_date": "2025-10-01T22:05:36+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BTC",
+    "tier": "B",
+    "first_signal_date": "2025-10-02T19:08:21+00:00",
+    "counts_at_signal": {
+      "DISMISS": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0
+    }
+  },
+  {
+    "ticker": "MSTR",
+    "tier": "B",
+    "first_signal_date": "2025-10-04T01:22:20+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WULF",
+    "tier": "B",
+    "first_signal_date": "2025-10-04T01:22:20+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RGTI",
+    "tier": "B",
+    "first_signal_date": "2025-10-04T20:44:08+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "OKLO",
+    "tier": "B",
+    "first_signal_date": "2025-10-05T07:11:01+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "META",
+    "tier": "B",
+    "first_signal_date": "2025-10-06T14:23:43+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SNAP",
+    "tier": "B",
+    "first_signal_date": "2025-10-06T14:23:43+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RDDT",
+    "tier": "B",
+    "first_signal_date": "2025-10-06T14:23:43+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "EOSE",
+    "tier": "B",
+    "first_signal_date": "2025-10-07T01:43:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FLNC",
+    "tier": "B",
+    "first_signal_date": "2025-10-07T01:43:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FLY",
+    "tier": "B",
+    "first_signal_date": "2025-10-08T15:51:03+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "DFLI",
+    "tier": "B",
+    "first_signal_date": "2025-10-09T00:02:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WYFI",
+    "tier": "B",
+    "first_signal_date": "2025-10-10T00:10:58+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "DKNG",
+    "tier": "B",
+    "first_signal_date": "2025-10-10T18:04:04+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMD",
+    "tier": "B",
+    "first_signal_date": "2025-10-13T19:01:51+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 8,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GLXY",
+    "tier": "B",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RBRK",
+    "tier": "B",
+    "first_signal_date": "2025-10-15T07:42:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ASTS",
+    "tier": "B",
+    "first_signal_date": "2025-10-20T23:18:24+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CLSK",
+    "tier": "B",
+    "first_signal_date": "2025-10-28T16:14:03+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRCL",
+    "tier": "B",
+    "first_signal_date": "2025-11-19T12:09:58+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WLAC",
+    "tier": "B",
+    "first_signal_date": "2025-11-22T10:42:19+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PINS",
+    "tier": "B",
+    "first_signal_date": "2025-12-31T19:30:17+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AIRO",
+    "tier": "B",
+    "first_signal_date": "2026-01-02T15:35:30+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ONDS",
+    "tier": "B",
+    "first_signal_date": "2026-01-06T08:24:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "OSS",
+    "tier": "B",
+    "first_signal_date": "2026-01-07T14:50:19+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "B",
+    "first_signal_date": "2026-01-07T16:08:26+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AVAV",
+    "tier": "B",
+    "first_signal_date": "2026-01-12T05:51:09+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LPTH",
+    "tier": "B",
+    "first_signal_date": "2026-01-14T15:07:46+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VLN",
+    "tier": "B",
+    "first_signal_date": "2026-01-14T15:07:46+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "INTC",
+    "tier": "B",
+    "first_signal_date": "2026-01-17T11:48:51+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSLA",
+    "tier": "B",
+    "first_signal_date": "2026-01-17T13:46:06+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "POET",
+    "tier": "B",
+    "first_signal_date": "2026-01-19T12:55:18+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "DPRO",
+    "tier": "B",
+    "first_signal_date": "2026-01-19T23:22:50+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MU",
+    "tier": "B",
+    "first_signal_date": "2026-01-21T20:04:15+00:00",
+    "counts_at_signal": {
+      "B": 2,
+      "NEUTRAL": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SNDK",
+    "tier": "B",
+    "first_signal_date": "2026-01-23T21:11:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SKYT",
+    "tier": "B",
+    "first_signal_date": "2026-01-23T21:54:56+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LASR",
+    "tier": "B",
+    "first_signal_date": "2026-01-23T22:34:08+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MTRN",
+    "tier": "B",
+    "first_signal_date": "2026-01-23T22:49:34+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FIG",
+    "tier": "B",
+    "first_signal_date": "2026-01-24T16:16:57+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "B",
+    "first_signal_date": "2026-01-24T19:21:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WOLF",
+    "tier": "B",
+    "first_signal_date": "2026-01-24T20:02:52+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "COHR",
+    "tier": "B",
+    "first_signal_date": "2026-01-24T22:18:38+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BBW",
+    "tier": "B",
+    "first_signal_date": "2026-01-25T19:45:52+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IONQ",
+    "tier": "B",
+    "first_signal_date": "2026-01-26T11:18:18+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "USAR",
+    "tier": "B",
+    "first_signal_date": "2026-01-26T15:45:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IBKR",
+    "tier": "B",
+    "first_signal_date": "2026-01-28T12:39:49+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LEU",
+    "tier": "B",
+    "first_signal_date": "2026-01-28T19:13:35+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VPG",
+    "tier": "B",
+    "first_signal_date": "2026-01-29T14:37:18+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "UAMY",
+    "tier": "B",
+    "first_signal_date": "2026-01-29T15:28:54+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "COIN",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T15:45:18+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SLV",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T19:52:48+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ETOR",
+    "tier": "B",
+    "first_signal_date": "2026-01-30T23:25:52+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SOL",
+    "tier": "B",
+    "first_signal_date": "2026-02-02T08:02:41+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "EWY",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T01:31:54+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FLKR",
+    "tier": "B",
+    "first_signal_date": "2026-02-03T02:15:56+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LITE",
+    "tier": "B",
+    "first_signal_date": "2026-02-04T22:48:03+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MRVL",
+    "tier": "B",
+    "first_signal_date": "2026-02-07T02:34:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GLW",
+    "tier": "B",
+    "first_signal_date": "2026-02-07T21:29:56+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PGY",
+    "tier": "B",
+    "first_signal_date": "2026-02-09T12:44:45+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AEVA",
+    "tier": "B",
+    "first_signal_date": "2026-02-09T19:07:35+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "OUST",
+    "tier": "B",
+    "first_signal_date": "2026-02-09T19:07:35+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMKR",
+    "tier": "B",
+    "first_signal_date": "2026-02-12T03:08:09+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ACMR",
+    "tier": "B",
+    "first_signal_date": "2026-02-13T19:30:57+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIMO",
+    "tier": "B",
+    "first_signal_date": "2026-02-15T15:38:53+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "APPL",
+    "tier": "B",
+    "first_signal_date": "2026-02-16T15:09:49+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RPI",
+    "tier": "B",
+    "first_signal_date": "2026-02-16T15:23:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AAPL",
+    "tier": "B",
+    "first_signal_date": "2026-02-17T10:09:43+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "INFQ",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T14:54:07+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WDC",
+    "tier": "B",
+    "first_signal_date": "2026-02-18T15:41:40+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CVX",
+    "tier": "B",
+    "first_signal_date": "2026-02-19T18:11:33+00:00",
+    "counts_at_signal": {
+      "B": 2,
+      "NEUTRAL": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "XLU",
+    "tier": "B",
+    "first_signal_date": "2026-02-19T18:11:33+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VST",
+    "tier": "B",
+    "first_signal_date": "2026-02-19T18:48:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CEG",
+    "tier": "B",
+    "first_signal_date": "2026-02-19T19:04:45+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "XLE",
+    "tier": "B",
+    "first_signal_date": "2026-02-21T12:55:30+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ASST",
+    "tier": "B",
+    "first_signal_date": "2026-03-08T21:58:30+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "DAL",
+    "tier": "B",
+    "first_signal_date": "2026-03-09T15:55:02+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AAL",
+    "tier": "B",
+    "first_signal_date": "2026-03-09T15:55:02+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CODA",
+    "tier": "B",
+    "first_signal_date": "2026-03-10T19:48:32+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "KRKNF",
+    "tier": "B",
+    "first_signal_date": "2026-03-10T20:16:08+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSEM",
+    "tier": "B",
+    "first_signal_date": "2026-03-11T19:53:39+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SOI",
+    "tier": "B",
+    "first_signal_date": "2026-03-11T19:53:39+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AAOI",
+    "tier": "B",
+    "first_signal_date": "2026-03-12T20:54:28+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 10,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IQE",
+    "tier": "B",
+    "first_signal_date": "2026-03-14T22:14:40+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 5,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIVE",
+    "tier": "B",
+    "first_signal_date": "2026-03-16T08:54:18+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIVEF",
+    "tier": "B",
+    "first_signal_date": "2026-03-19T06:58:23+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "JBL",
+    "tier": "B",
+    "first_signal_date": "2026-03-19T07:13:48+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FORM",
+    "tier": "B",
+    "first_signal_date": "2026-03-20T08:56:10+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CIEN",
+    "tier": "B",
+    "first_signal_date": "2026-03-20T08:56:10+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AIXA",
+    "tier": "B",
+    "first_signal_date": "2026-03-20T14:19:51+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "B": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PL",
+    "tier": "B",
+    "first_signal_date": "2026-03-20T16:03:20+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MP",
+    "tier": "B",
+    "first_signal_date": "2026-03-21T15:51:55+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MTSI",
+    "tier": "B",
+    "first_signal_date": "2026-03-23T15:13:37+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SPY",
+    "tier": "B",
+    "first_signal_date": "2026-03-23T23:57:38+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HIMX",
+    "tier": "B",
+    "first_signal_date": "2026-03-24T04:04:09+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VNP",
+    "tier": "B",
+    "first_signal_date": "2026-03-24T15:49:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ARM",
+    "tier": "B",
+    "first_signal_date": "2026-03-24T20:00:22+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VCX",
+    "tier": "B",
+    "first_signal_date": "2026-03-26T13:53:06+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LNG",
+    "tier": "B",
+    "first_signal_date": "2026-03-28T17:26:42+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LMT",
+    "tier": "B",
+    "first_signal_date": "2026-04-01T13:13:17+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ASML",
+    "tier": "B",
+    "first_signal_date": "2026-04-04T12:24:32+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "EQR",
+    "tier": "B",
+    "first_signal_date": "2026-04-04T19:22:41+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "EOS",
+    "tier": "B",
+    "first_signal_date": "2026-04-05T04:56:46+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMC",
+    "tier": "B",
+    "first_signal_date": "2026-04-06T20:55:54+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WIX",
+    "tier": "B",
+    "first_signal_date": "2026-04-08T04:07:07+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VECO",
+    "tier": "B",
+    "first_signal_date": "2026-04-08T13:38:35+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ALRIB",
+    "tier": "B",
+    "first_signal_date": "2026-04-09T08:52:44+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SMTC",
+    "tier": "B",
+    "first_signal_date": "2026-04-09T09:09:03+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HPS",
+    "tier": "B",
+    "first_signal_date": "2026-04-09T20:53:43+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BIRD",
+    "tier": "B",
+    "first_signal_date": "2026-04-15T17:14:30+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRM",
+    "tier": "B",
+    "first_signal_date": "2026-04-15T21:51:58+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LWLG",
+    "tier": "B",
+    "first_signal_date": "2026-04-16T17:01:26+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ALMU",
+    "tier": "B",
+    "first_signal_date": "2026-04-19T21:57:37+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TTD",
+    "tier": "B",
+    "first_signal_date": "2026-04-20T18:42:44+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ASX",
+    "tier": "B",
+    "first_signal_date": "2026-04-20T18:57:12+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FN",
+    "tier": "B",
+    "first_signal_date": "2026-04-20T18:57:12+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GFS",
+    "tier": "B",
+    "first_signal_date": "2026-04-20T18:57:12+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MXL",
+    "tier": "B",
+    "first_signal_date": "2026-04-21T19:46:40+00:00",
+    "counts_at_signal": {
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LPK",
+    "tier": "B",
+    "first_signal_date": "2026-04-22T00:34:42+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "B": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NVTS",
+    "tier": "B",
+    "first_signal_date": "2026-04-22T22:53:35+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMSC",
+    "tier": "B",
+    "first_signal_date": "2026-04-22T22:53:35+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "KLAC",
+    "tier": "B",
+    "first_signal_date": "2026-04-23T05:27:08+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PLPC",
+    "tier": "B",
+    "first_signal_date": "2026-04-24T17:39:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "A": 1,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TOWA",
+    "tier": "B",
+    "first_signal_date": "2026-04-30T00:25:10+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMAT",
+    "tier": "B",
+    "first_signal_date": "2026-04-30T01:00:27+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BKKT",
+    "tier": "BEAR",
+    "first_signal_date": "2025-07-03T08:58:10+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSSI",
+    "tier": "BEAR",
+    "first_signal_date": "2025-07-03T08:58:10+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BKSY",
+    "tier": "BEAR",
+    "first_signal_date": "2025-07-03T08:58:10+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GOOGL",
+    "tier": "BEAR",
+    "first_signal_date": "2025-07-03T09:57:16+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SRPT",
+    "tier": "BEAR",
+    "first_signal_date": "2025-07-03T09:57:16+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "HIMS",
+    "tier": "BEAR",
+    "first_signal_date": "2025-07-28T08:19:39+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "PLTR",
+    "tier": "BEAR",
+    "first_signal_date": "2025-07-28T09:51:44+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GME",
+    "tier": "BEAR",
+    "first_signal_date": "2025-09-16T18:02:36+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NBIS",
+    "tier": "BEAR",
+    "first_signal_date": "2025-09-22T17:32:48+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LUNR",
+    "tier": "BEAR",
+    "first_signal_date": "2025-09-24T16:09:44+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ASTS",
+    "tier": "BEAR",
+    "first_signal_date": "2025-09-24T16:09:44+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TGT",
+    "tier": "BEAR",
+    "first_signal_date": "2025-09-25T18:29:25+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "OKLO",
+    "tier": "BEAR",
+    "first_signal_date": "2025-09-26T02:45:52+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSM",
+    "tier": "BEAR",
+    "first_signal_date": "2025-09-27T17:24:46+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "NEUTRAL": 2,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ORCL",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-06T11:14:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AMD",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-06T11:14:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "FLNC",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-08T14:19:49+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "B": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "GRRR",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-12T23:15:40+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "WLAC",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-12T23:15:40+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRDO",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-15T00:55:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AVGO",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-15T00:55:11+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "EOSE",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-20T14:59:59+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CIFR",
+    "tier": "BEAR",
+    "first_signal_date": "2025-10-31T16:17:12+00:00",
+    "counts_at_signal": {
+      "B": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ETH",
+    "tier": "BEAR",
+    "first_signal_date": "2025-11-30T21:12:46+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "BMNR",
+    "tier": "BEAR",
+    "first_signal_date": "2025-11-30T21:12:46+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "BEAR",
+    "first_signal_date": "2026-01-19T13:49:58+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "B": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "VPG",
+    "tier": "BEAR",
+    "first_signal_date": "2026-01-20T17:35:07+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 3,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LPTH",
+    "tier": "BEAR",
+    "first_signal_date": "2026-01-24T16:16:57+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 8,
+      "B": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "BEAR",
+    "first_signal_date": "2026-02-01T11:14:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 6,
+      "B": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MU",
+    "tier": "BEAR",
+    "first_signal_date": "2026-02-01T11:14:21+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 11,
+      "B": 2,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "META",
+    "tier": "BEAR",
+    "first_signal_date": "2026-02-04T23:00:27+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "NEUTRAL": 3,
+      "B": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "APP",
+    "tier": "BEAR",
+    "first_signal_date": "2026-02-09T03:58:19+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NVO",
+    "tier": "BEAR",
+    "first_signal_date": "2026-02-10T10:45:32+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RDDT",
+    "tier": "BEAR",
+    "first_signal_date": "2026-02-11T09:10:24+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 11,
+      "A": 2,
+      "B": 3,
+      "BEAR": 2,
+      "S": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIMO",
+    "tier": "BEAR",
+    "first_signal_date": "2026-02-18T15:21:48+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AAOI",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-03T18:51:32+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SE",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-03T18:51:32+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LITE",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-17T10:09:44+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 14,
+      "B": 3,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CVX",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-19T01:32:56+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "COHR",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-19T14:13:06+00:00",
+    "counts_at_signal": {
+      "B": 2,
+      "NEUTRAL": 9,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IREN",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-24T18:34:50+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "QLCM",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-24T20:12:35+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ARM",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-24T20:12:35+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 4,
+      "BEAR": 2,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIVE",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-25T10:27:45+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 61,
+      "BEAR": 2,
+      "B": 10,
+      "A": 4,
+      "S": 1,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AVAV",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-25T17:19:06+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NEXT",
+    "tier": "BEAR",
+    "first_signal_date": "2026-03-28T17:17:08+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "BEAR",
+    "first_signal_date": "2026-04-08T13:45:57+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 22,
+      "B": 7,
+      "A": 3,
+      "BEAR": 2,
+      "S": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SNDK",
+    "tier": "BEAR",
+    "first_signal_date": "2026-04-10T16:06:13+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 1,
+      "BEAR": 1,
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NBIS",
+    "tier": "S",
+    "first_signal_date": "2025-09-26T16:33:27+00:00",
+    "counts_at_signal": {
+      "BEAR": 1,
+      "NEUTRAL": 10,
+      "B": 2,
+      "A": 3,
+      "S": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IREN",
+    "tier": "S",
+    "first_signal_date": "2025-09-27T19:11:40+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 6,
+      "A": 3,
+      "B": 1,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CIFR",
+    "tier": "S",
+    "first_signal_date": "2025-09-28T17:20:42+00:00",
+    "counts_at_signal": {
+      "A": 3,
+      "B": 2,
+      "NEUTRAL": 5,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "RKLB",
+    "tier": "S",
+    "first_signal_date": "2025-10-06T21:04:37+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 8,
+      "B": 1,
+      "S": 1,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AXTI",
+    "tier": "S",
+    "first_signal_date": "2026-02-08T10:15:01+00:00",
+    "counts_at_signal": {
+      "B": 4,
+      "A": 3,
+      "NEUTRAL": 3,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "CRDO",
+    "tier": "S",
+    "first_signal_date": "2026-02-09T21:36:15+00:00",
+    "counts_at_signal": {
+      "A": 3,
+      "NEUTRAL": 10,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SIVE",
+    "tier": "S",
+    "first_signal_date": "2026-03-20T01:10:11+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 38,
+      "A": 3,
+      "B": 3,
+      "BEAR": 1,
+      "S": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MU",
+    "tier": "S",
+    "first_signal_date": "2026-03-21T03:13:51+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 10,
+      "B": 1,
+      "A": 3,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "TSEM",
+    "tier": "S",
+    "first_signal_date": "2026-03-21T08:25:06+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 8,
+      "B": 1,
+      "A": 3,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "MRVL",
+    "tier": "S",
+    "first_signal_date": "2026-03-31T12:38:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 20,
+      "B": 2,
+      "A": 3,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "AEHR",
+    "tier": "S",
+    "first_signal_date": "2026-04-07T22:14:47+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 20,
+      "B": 6,
+      "A": 3,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "LITE",
+    "tier": "S",
+    "first_signal_date": "2026-04-11T16:37:58+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 21,
+      "B": 8,
+      "A": 3,
+      "S": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "IQE",
+    "tier": "S",
+    "first_signal_date": "2026-04-15T18:31:20+00:00",
+    "counts_at_signal": {
+      "B": 4,
+      "NEUTRAL": 13,
+      "S": 1,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "ALRIB",
+    "tier": "S",
+    "first_signal_date": "2026-04-15T22:49:40+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 7,
+      "B": 2,
+      "S": 1,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "SOI",
+    "tier": "S",
+    "first_signal_date": "2026-04-16T16:55:53+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 8,
+      "S": 1,
+      "B": 1,
+      "A": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "tier": "S",
+    "first_signal_date": "2026-05-05T01:23:04+00:00",
+    "counts_at_signal": {
+      "NEUTRAL": 8,
+      "A": 3,
+      "S": 0,
+      "B": 0,
+      "BEAR": 0,
+      "DISMISS": 0
+    }
+  }
+]

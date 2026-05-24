@@ -1,0 +1,24 @@
+{
+  "key": "CLF",
+  "name": "Cleveland-Cliffs Inc.",
+  "exchange": "NYSE",
+  "blurb": "Cleveland-Cliffs Inc. is a major integrated steel producer operating in the United States and Canada, founded in 1847 and employing approximately 25,000 people. The company manufactures a broad range of flat-rolled steel products — including hot-rolled, cold-rolled, coated sheet, stainless, electrical, and plate products — serving primarily automotive and industrial customers. It also produces upstream raw materials such as iron ore, HBI, coal, and coke, and downstream non-steelmaking goods including stamped components, tubing, and tool-and-die products.",
+  "recent": "In October 2025, Cleveland-Cliffs executed what analysts described as a 'transformative deal' tied to Trump-era steel tariffs, triggering a sharp stock surge. As of mid-May 2026, shares trade near $10.99 — within a 52-week range of $5.63 to $16.70 — reflecting elevated volatility (beta 2.01) and a trailing net loss of approximately $1.22 billion on $18.9 billion in revenue. The company reported its most recent quarterly results on April 20, 2026; analyst consensus is Hold with a price target of $10.43.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/clf/",
+      "title": "Cleveland-Cliffs (CLF) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/clf",
+      "title": "CLF Stock Price | Cleveland-Cliffs Inc. — MarketWatch"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/CLF/",
+      "title": "Cleveland-Cliffs (CLF) Stock Price, News & Analysis — MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:01:17.496080Z",
+  "backend": "claude-sonnet-subagent"
+}

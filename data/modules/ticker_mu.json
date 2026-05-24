@@ -1,0 +1,16 @@
+{
+  "key": "mu",
+  "name": "Micron Technology, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Micron is the only US-headquartered manufacturer of DRAM and NAND memory at scale, competing with Samsung and SK Hynix. Historically the most cyclical of the three, it has spent the past two years repositioning toward high-bandwidth memory (HBM), the stacked DRAM that pairs with AI accelerators, where pricing is multiples of standard DDR5 and contracts are multi-year rather than spot.",
+  "recent": "In March 2026 Micron began mass production of HBM4 12-Hi 36GB stacks for Nvidia's Vera Rubin platform; management has stated 2026 HBM capacity is sold out under binding agreements. Fiscal Q2 2026 revenue was around $23.9 billion, with non-GAAP gross margin near 75%. The board approved a 30% dividend increase and roughly $25 billion of fiscal-2026 capex. Despite a strong year-to-date move, the forward P/E remains in the high single digits on consensus, reflecting residual cyclicality scepticism.",
+  "sources": [
+    {"title": "Micron HBM4 in mass production for Nvidia Vera Rubin", "url": "https://www.fool.com/investing/2026/03/29/microns-hbm4-is-now-in-mass-production-for-nvidias/"},
+    {"title": "Micron Fiscal Q2 2026 earnings call", "url": "https://investors.micron.com/static-files/e089f8c0-065d-47b8-9d02-bfa863cdb357"},
+    {"title": "Micron HBM analysis (IO Fund)", "url": "https://io-fund.com/ai-stocks/micron-stock-up-100-hbm-leader-2026-plan"},
+    {"title": "Micron $25B capex deep dive (Trefis)", "url": "https://www.trefis.com/stock/mu/articles/595941/can-a-25b-investment-surge-sustain-microns-20-ai-memory-grab/2026-04-07"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

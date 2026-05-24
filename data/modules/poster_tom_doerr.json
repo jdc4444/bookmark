@@ -1,0 +1,20 @@
+{
+  "key": "tom_doerr",
+  "display_name": "Tom Dörr (@tom_doerr)",
+  "blurb": "Tom Dörr is a German open-source developer and curator whose X account (@tom_doerr, ~100k followers) functions as a high-signal discovery feed for noteworthy GitHub repositories. He posts short, stripped-down links to projects across developer tooling, AI frameworks, self-hosted infrastructure, and now fintech — typically without extended commentary, letting the repo speak for itself. Dörr is also the author of several of his own open-source tools, including zsh_codex (an AI-assisted ZSH plugin) and a suite of Codex-powered CLI utilities, and has posted GitHub activity since at least 2020.",
+  "credibility_note": "Dörr is a developer and curator, not a financial analyst or trading practitioner. His posts on financial tooling — such as the Hummingbot link — should be read as repository discovery rather than investment or trading commentary. There is no public track record of strategy performance or institutional affiliation. His signal-to-noise ratio for genuinely notable open-source projects is high; his framing of project categories (e.g., 'high-frequency trading') occasionally prioritises brevity over technical precision.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/tom_doerr"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/tom-doerr"
+    }
+  ],
+  "sources": [],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "DUOL",
+  "name": "Duolingo, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Duolingo is a technology company that develops a mobile learning platform for language education. It is one of the most popular language-learning apps globally, with a freemium model supported by subscriptions and advertising. The company has surpassed $1 billion in revenue and continues to grow its user base, though it faces a competitive edtech landscape.",
+  "recent": "Duolingo shares rebounded in recent weeks ahead of Q1 2026 earnings due May 4, with analysts expecting revenue of $288.54 million and EPS of $0.79. The stock has gained over 36% year-to-date, recovering from earlier pressures on growth guidance. Focus remains on daily active users and subscription trends.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/DUOL/",
+      "title": "Duolingo, Inc. (DUOL) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/DUOL/",
+      "title": "Duolingo (DUOL) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://tickeron.com/ticker/DUOL/",
+      "title": "Duolingo (DUOL) Stock Analysis: Bargain After Steep Sell-Off?"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:37:25.354970Z",
+  "backend": "deepseek"
+}

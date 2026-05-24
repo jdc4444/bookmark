@@ -1,0 +1,163 @@
+{
+  "headline": "S&P Call Skew at All-Time Highs Encodes Its Own Bearish Resolution",
+  "lede": "On May 10, 2026, the S&P 500 closed at a record while call options on the index reached notional volumes without precedent in U.S. market history. Kris Abdelmessih, a former options market maker and author of the Moontower newsletter, looked at a chart showing call skew at all-time highs and offered a three-word reframe: “There’s puts in the calls.” The comment is not wordplay but a structural argument about what extreme call skew encodes in the market’s probability distribution.",
+  "body": "The S&P 500 closed at a record on May 10, 2026, capping a roughly 13% rally from late March driven by Iran ceasefire diplomacy and a blowout AI earnings season — AMD (AMD) surging 19% in a single session, Nvidia (NVDA) reaching new highs. Beneath the headline numbers, the options market was producing figures without precedent: around May 8–9, call options on the index traded approximately $2.6 trillion in notional value in a single session, surpassing even the 2020 “Nasdaq Whale” episode attributed to SoftBank Group (9984.T) by some measures, according to Citadel Securities and multiple market data providers. The index was simultaneously exhibiting a rare *spot up, vol up* regime — equity prices and the CBOE Volatility Index (the *VIX*, a measure of 30-day implied volatility on the S&P 500) rising in tandem, when normally they move inversely.\n\nThe “spot up, vol up” dynamic has a mechanical explanation rooted in *gamma* risk. Market makers who had sold large quantities of call options were net short gamma — the rate of change of their *delta*, their directional exposure to the underlying index. As the S&P 500 climbed, dealers were forced to purchase futures and shares to rebalance their hedges, mechanically amplifying the rally. Goldman Sachs (GS) and Morgan Stanley (MS) were reported to be scrambling to hedge roughly $7.5 billion in net short-gamma exposure. The more the market rose, the more they had to buy; the more they bought, the more it rose. ZeroHedge, relaying data from the market commentary service The Market Ear, labeled this a “buying panic” — and the chart Abdelmessih quoted showed it in index form.\n\nAbdelmessih is unimpressed by the surface narrative. At his Moontower newsletter, he has argued that **extreme positive call skew is a bearish structural signal**. The reasoning turns on how options prices encode probability. An out-of-the-money call commands a higher *implied volatility* than the at-the-money option — that premium is *call skew* — when the market assigns a low probability of finishing above that strike, yet prices in a large payoff if it does. High call skew says: the *modal outcome* is lower, but there is a fat upside tail worth paying a lottery premium for. People are buying calls *instead of stock* precisely because they suspect the asset will probably fall but want a ticket in case of a melt-up. The crowd looks bullish; the distribution they are implicitly funding is not.\n\nThe structural consequence follows from *put-call parity* — the relationship linking puts, calls, and the underlying at equivalent strikes, which requires that expensive out-of-the-money calls imply cheap equivalent puts. Buying a *call spread* (long a lower-strike call, short a higher-strike call above it) in a high-skew environment is economically equivalent to buying a cheap put spread with the same strikes: the short upper-strike call, expensive due to skew, compresses the spread’s value even as the index climbs. Holders watch the S&P 500 rally while their spread barely moves in price. “There’s puts in the calls” is Abdelmessih’s compact formulation for this equivalence: at all-time call skew, those lottery calls contain embedded put-spread payoffs. They reward the modal bearish outcome more cleanly than the melt-up buyers believe they are positioning for.\n\nThe chart Abdelmessih quoted showed *put vol skew* — the demand for downside protection — compressed to multi-year lows at the same moment. Nobody is buying puts while call skew touches records; the asymmetry is as wide as it has ever been measured. That combination arrived alongside a troubling breadth reading: on May 10, the S&P 500 hit a record close while 5.6% of its components simultaneously struck 52-week lows, a divergence reported to have appeared only in July 1929, January 1973, and December 1999. The Shiller P/E ratio sat near its second-highest historical level. The gamma-squeeze feedback loop that powered the rally will reverse when its sustaining conditions unwind; the mechanical buying that amplified the ascent becomes mechanical selling on the descent. The options surface has already priced the resolution: the crowd is buying lottery tickets on a scenario the market’s own skew does not consider the base case.",
+  "tickers": [
+    "AMD",
+    "NVDA",
+    "9984.T",
+    "GS",
+    "MS"
+  ],
+  "companies": [
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "SoftBank Group",
+      "ticker": "9984.T"
+    },
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS"
+    },
+    {
+      "name": "Morgan Stanley",
+      "ticker": "MS"
+    },
+    {
+      "name": "Citadel Securities",
+      "ticker": null
+    },
+    {
+      "name": "ZeroHedge",
+      "ticker": null
+    },
+    {
+      "name": "The Market Ear",
+      "ticker": null
+    }
+  ],
+  "poster": "KrisAbdelmessih",
+  "concepts": [
+    {
+      "key": "call-skew",
+      "term": "call skew / positive call skew",
+      "definition": "The premium that out-of-the-money call options command over at-the-money options, expressed as a difference in implied volatility. Positive call skew means traders are paying up for upside lottery tickets — a condition that, counterintuitively, encodes a bearish modal distribution: the market assigns a low probability to finishing above the expensive strike, yet prices in a large payoff if it does."
+    },
+    {
+      "key": "gamma-squeeze",
+      "term": "gamma squeeze",
+      "definition": "A mechanical feedback loop in which market makers net short gamma (having sold calls to buyers) are forced to purchase the underlying asset as it rises in order to delta-hedge their exposure. Their buying pushes prices higher, forcing more hedging, amplifying the rally beyond what fundamental demand would justify. The loop reverses when the options expire or are unwound."
+    },
+    {
+      "key": "spot-up-vol-up",
+      "term": "spot up, vol up",
+      "definition": "An anomalous market regime in which equity prices and implied volatility rise simultaneously, the opposite of their normal inverse relationship. It signals that options demand — particularly for upside calls — is sustaining elevated vol even as the market climbs, usually a sign of mechanical or fear-driven buying rather than fundamental conviction."
+    },
+    {
+      "key": "vix",
+      "term": "VIX",
+      "definition": "The CBOE Volatility Index, measuring the options market’s 30-day implied volatility expectation for the S&P 500. Often called the market’s “fear gauge,” it typically falls when stocks rise and spikes during selloffs. In a “spot up, vol up” regime, it rises alongside equities, signaling structural stress beneath the headline calm."
+    },
+    {
+      "key": "put-call-parity",
+      "term": "put-call parity",
+      "definition": "A foundational options relationship: for the same underlying, strike, and expiry, the prices of a call and a put are mathematically linked via the current price of the underlying and the risk-free rate. It means expensive out-of-the-money calls imply cheap equivalent puts, and vice versa — so skew in one direction is automatically mirrored in the other."
+    },
+    {
+      "key": "gamma",
+      "term": "gamma",
+      "definition": "A measure of how quickly an option’s delta (its directional sensitivity to the underlying asset) changes as the underlying moves. Dealers who are short gamma must buy when prices rise and sell when prices fall, creating the mechanical amplification that underlies a gamma squeeze."
+    },
+    {
+      "key": "delta",
+      "term": "delta",
+      "definition": "An option’s sensitivity to a one-point move in the underlying asset — roughly, how much the option’s price changes when the stock or index moves by one dollar. A delta of 0.50 means the option gains about 50 cents for every dollar the underlying rises. Market makers continuously adjust their holdings to stay “delta-neutral,” which is the hedging activity that drives gamma squeezes."
+    },
+    {
+      "key": "implied-volatility",
+      "term": "implied volatility",
+      "definition": "The volatility level implied by an option’s market price, derived by working the Black-Scholes pricing formula backwards. It represents the market’s consensus forecast of future price swings and is the primary unit in which options are quoted and compared across strikes and expirations."
+    },
+    {
+      "key": "modal-outcome",
+      "term": "modal outcome",
+      "definition": "In probability, the mode is the single most likely outcome in a distribution. Options prices implicitly define a probability distribution over future asset prices; the modal outcome is where the market assigns its highest probability density. High call skew implies the mode sits below the current price even if the upside tail is fat and attention-grabbing."
+    },
+    {
+      "key": "call-spread",
+      "term": "call spread",
+      "definition": "An options structure consisting of a long call at a lower strike and a short call at a higher strike, both with the same expiry. Buying a call spread costs less than buying a naked call, but the short upper-strike call caps the upside. In a high-call-skew environment, spreads become structurally cheap — equivalent by put-call parity to an expensive put spread — which is the mechanism behind “there are puts in the calls.”"
+    },
+    {
+      "key": "put-vol-skew",
+      "term": "put vol skew",
+      "definition": "The premium that out-of-the-money put options command over at-the-money options — the traditional “fear” skew in equity markets, reflecting demand for downside protection. When put vol skew compresses to multi-year lows while call skew soars, participants have effectively abandoned hedging against a decline in favor of chasing the upside."
+    },
+    {
+      "key": "shiller-pe",
+      "term": "Shiller P/E (CAPE)",
+      "definition": "The Cyclically Adjusted Price-to-Earnings ratio, developed by Nobel laureate Robert Shiller, which compares current stock prices to inflation-adjusted average earnings over the prior ten years. It smooths out single-year distortions and has historically been associated with below-average long-run returns when elevated to near-record levels."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://moontower.substack.com/p/when-vertical-spreads-are-traps",
+      "title": "When vertical spreads are traps — Moontower by Kris Abdelmessih",
+      "note": "Primary source for Abdelmessih’s thesis that expensive call skew encodes a bearish modal distribution; direct quotes on VIX and GME skew mechanics"
+    },
+    {
+      "url": "https://moontower.substack.com/p/face-ripper",
+      "title": "Face-ripper — Moontower by Kris Abdelmessih (May 7, 2026)",
+      "note": "Published three days before the tweet; contextualizes the S&P melt-up and critiques covered-call income strategies in high-skew environments"
+    },
+    {
+      "url": "https://moontower.substack.com/p/a-sense-of-proportion-around-skew",
+      "title": "A sense of proportion around skew — Moontower by Kris Abdelmessih",
+      "note": "Explains how OTM call skew encodes probability and why high skew implies a bearish modal outcome"
+    },
+    {
+      "url": "https://www.zerohedge.com/markets/below-markets-calm-surface-sheer-panic-skew-soars-all-time-high",
+      "title": "Below The Market’s Calm Surface, Sheer Panic: Skew Soars To All-Time High — ZeroHedge",
+      "note": "Source of the chart Abdelmessih quoted; confirms SPX call skew at all-time highs as of May 2026"
+    },
+    {
+      "url": "https://www.zerohedge.com/news/2026-05-09/market-feedback-loop-will-self-destruct",
+      "title": "This Market Feedback Loop Will Self-Destruct — ZeroHedge (May 10, 2026)",
+      "note": "Documents the spot-up, vol-up gamma squeeze and its structural instability; compares magnitude to the 2020 SoftBank episode"
+    },
+    {
+      "url": "https://menthorq.com/guide/spot-up-vol-up-a-warning/",
+      "title": "Spot Up, Vol Up: A Warning — MenthorQ",
+      "note": "Explains the mechanics and drivers of the spot-up, vol-up regime and why it signals structural fragility"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/05/10/the-sp-500-just-did-something-its-only-done-3-times-before-why-trumps-ai-rally-is-in-danger/",
+      "title": "The S&P 500 Just Did Something It’s Only Done 3 Times Before — 24/7 Wall St. (May 10, 2026)",
+      "note": "Documents the breadth divergence: record S&P close with 5.6% of components hitting 52-week lows; historical comparisons to July 1929, January 1973, December 1999"
+    },
+    {
+      "url": "https://www.coindesk.com/markets/2026/05/08/s-and-p-500-call-options-volume-surges-to-record-usd2-6-trillion-here-s-what-it-means-for-bitcoin",
+      "title": "S&P 500 Call Options Volume Surges to Record $2.6 Trillion — CoinDesk (May 8, 2026)",
+      "note": "Documents the unprecedented call options volume and provides Citadel Securities data on institutional demand"
+    },
+    {
+      "url": "https://news.quantosei.com/2026/05/09/stock-market-today-nasdaq-sp-500-score-record-closes-on-iran-hopes-nvidia-hits-highs-live-coverage/",
+      "title": "Nasdaq, S&P 500 Score Record Closes on Iran Hopes, Nvidia Hits Highs — QuantoSei (May 9, 2026)",
+      "note": "Market context for the May 9–10 record closes; Iran ceasefire and AI earnings as the primary rally catalysts"
+    }
+  ],
+  "bookmark_id": "2053696568944120176",
+  "generated_at": "2026-05-11T12:01:22.133039Z",
+  "backend": "claude-sonnet-subagent"
+}

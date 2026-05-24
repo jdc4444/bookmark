@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001736297/000173629726000010/alab-20251231.htm",
+    "https://www.asteralabs.com/products/",
+    "https://www.asteralabs.com/news/"
+  ],
+  "key_finding": "Astera Labs operates in the connectivity-silicon layer of the AI infrastructure stack — its parts go into AI servers and racks built around Nvidia, AMD, and hyperscaler-custom-silicon accelerator GPUs and CPUs. The named customers are not separately disclosed at the >10% level in the FY2025 10-K excerpts reviewed (which would be unusual for a connectivity-silicon company supplying multiple OEM/ODM channels into many hyperscaler programs), but the product family map — Aries PCIe/CXL retimers, Taurus Ethernet smart cable modules, Leo CXL memory controllers, Scorpio fabric switches — is highly specific. The supply chain is fabless: TSMC for advanced-node connectivity ICs, OSAT partners (likely ASE, Amkor) for assembly and test, customers include hyperscalers (Microsoft, Amazon, Meta, Google) and AI infrastructure OEMs (Supermicro, Dell, HPE, Lenovo, Foxconn-FII).",
+  "product_families": [
+    {
+      "name": "Aries",
+      "type": "PCIe and CXL Retimers and Smart Retimers",
+      "framing": "The original Astera Labs product family. Aries retimers are the silicon between an accelerator GPU and the host CPU in modern AI servers. As PCIe Gen5 and Gen6 link rates exceed what passive copper can carry across a server motherboard, retimers become a required component. This is the largest revenue contributor."
+    },
+    {
+      "name": "Taurus",
+      "type": "Ethernet Smart Cable Modules",
+      "framing": "Smart cable modules for high-speed Ethernet (200G/400G/800G) interconnect between racks. The 'smart' positioning means the modules embed monitoring and link-management silicon, which Astera designs."
+    },
+    {
+      "name": "Leo",
+      "type": "CXL Memory Controllers",
+      "framing": "CXL memory expansion controllers. Allow AI servers to use memory pools larger than what a single CPU socket can directly address. Earlier-cycle product family relative to the CPU/memory-disaggregation roadmap of hyperscalers."
+    },
+    {
+      "name": "Scorpio",
+      "type": "Fabric Switches (PCIe / CXL)",
+      "framing": "Higher-level fabric silicon that connects multiple GPUs through PCIe/CXL switching, an alternative to NVLink-style proprietary interconnects. The most strategic upside lever in the product family — direct architecture-level competition with Nvidia NVSwitch and Broadcom equivalents."
+    }
+  ],
+  "customer_landscape": {
+    "framing": "Astera's revenue flows through (a) AI server/system OEM and ODM channel — Supermicro, Dell, HPE, Lenovo, Foxconn-FII, Quanta, Wistron, ZT Systems — into hyperscaler builds, and (b) direct to hyperscalers (Microsoft, AWS, Meta, Google) for their custom AI infrastructure programs. The supplier ecosystem is the GPU vendors (Nvidia, AMD, and the hyperscaler custom-silicon teams — Microsoft Cobalt/Maia, AWS Trainium/Inferentia/Graviton, Google TPU, Meta MTIA). Astera's products are PCIe-spec connectivity, so they are de facto required when those accelerator silicon programs reach AI-server volume.",
+    "named_customers_disclosed_publicly": "Astera has named Nvidia and several hyperscalers as design partners in public commentary, but the FY2025 10-K excerpts reviewed do not include a >10% customer concentration disclosure in the form companies like AAOI carry. This is consistent with a connectivity-silicon supplier whose revenue is fragmented across multiple OEM channels into many hyperscaler programs."
+  },
+  "supply_chain": {
+    "fabrication": "TSMC for advanced-node connectivity ICs. PCIe Gen5/Gen6 retimers require leading-edge process nodes for the analog SerDes IP.",
+    "osat_assembly_test": "ASE Technology Holding and Amkor are the standard OSAT partners for fabless chip companies at Astera's scale; specific contracts not separately disclosed.",
+    "ip_licensing": "PCI-SIG, CXL Consortium, Ethernet standards bodies; Astera holds memberships and contributes to specifications.",
+    "competitors": [
+      {"name": "Broadcom", "framing": "Has competing PCIe retimers and switching silicon at significantly larger scale. The single most consequential competitor for the Scorpio fabric-switch roadmap."},
+      {"name": "Marvell", "framing": "Connectivity-silicon competitor; acquired Innovium 2021 for the switch silicon angle."},
+      {"name": "Microchip", "framing": "Has PCIe retimer parts targeting an overlapping but smaller-volume design-in surface."},
+      {"name": "Enfabrica", "framing": "Venture-backed competitor in PCIe/Ethernet fabric silicon for AI servers. Sutter Hill (Astera's Series A lead) was also an Enfabrica investor — relationship is now ex-board for both companies (Dyckerhoff left Enfabrica 2025)."},
+      {"name": "Credo Technology (CRDO)", "framing": "Public competitor in Ethernet retimers/SerDes silicon (the Taurus product overlap). Active Cable Module business is the most direct overlap."},
+      {"name": "MaxLinear", "framing": "Has Ethernet-side products that overlap with Taurus."},
+      {"name": "Nvidia (internal NVLink/NVSwitch)", "framing": "The strategic substitute for Astera's higher-level fabric-switch story. If Nvidia continues to scale proprietary NVLink fabrics, the addressable market for third-party PCIe/CXL fabric silicon contracts."}
+    ]
+  },
+  "go_to_market_pattern": "Astera's go-to-market is design-in to (a) hyperscaler reference designs and (b) AI-server OEM/ODM platforms. Each design-in cycle runs 18-24 months from spec engagement through qualification, volume ramp, and revenue recognition. This is what makes architecture-transition timing the most important variable for the equity story — the company benefits enormously from being designed into the current-generation platforms (Nvidia Hopper, Blackwell, Blackwell-Ultra) and must also be designed into the next-generation platforms (Nvidia Rubin and AMD MI400-series) to sustain growth into 2027+."
+}

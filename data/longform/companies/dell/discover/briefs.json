@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "company": {"name": "Dell Technologies Inc.", "ticker": "DELL", "exchange": "NYSE", "slug": "dell"},
+  "report_title": "Dell Technologies — Michael Dell's AI server franchise at $113.5B revenue and a $43B backlog",
+  "report_subtitle": "From a 1984 University of Texas dorm room to the post-EMC consolidation, the 2018 VMware-tracking-stock relisting, the 2023 ISG-driven AI server cycle, and the FY2026 $24.6B AI server year — how the most operationally complex US technology company runs at scale",
+  "voice_and_style": "Financial-Times / Bloomberg long-form. Primary sources only (SEC EDGAR 10-K + 10-Q + 8-K + DEF 14A, IR press releases on investors.delltechnologies.com, primary industry coverage at The Wall Street Journal, Bloomberg, Reuters, Futurum Group, Hyperframe Research). Past-tense narrative voice. Quote Michael Dell and Jeff Clarke from earnings calls / press releases verbatim. Do not extrapolate beyond snapshot date 2026-05-23. The reader is a sophisticated investor familiar with enterprise IT hardware and AI infrastructure. No Aleabit / Substack / X commentary as primary source; bounded to ≤200 word subsection in news_catalysts only.",
+  "target_total_word_count": 18000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {"slug": "snapshot", "title": "Snapshot", "order": 1, "target_words": 750,
+     "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Open with the inflection fact: Dell's FY2026 AI server revenue was $24.6 billion (+300%+ YoY); year-end AI backlog was $43 billion; the company closed more than $64 billion in AI server orders during the year and shipped more than $25 billion. This is the single largest annual AI server revenue stream in the US enterprise hardware peer set outside the hyperscalers themselves.",
+       "State the ticker (DELL, NYSE), Round Rock Texas headquarters, founder/CEO/Chairman Michael Dell (42-year continuous founder-chairman tenure since 1984), Vice Chairman + COO Jeff Clarke (since December 2019), interim CFO David Kennedy (September 2025).",
+       "Two-sentence framing of what they do: Dell Technologies operates two reportable segments. Infrastructure Solutions Group (ISG) sells AI-optimised and traditional servers, storage, networking, and the Dell AI Factory; Client Solutions Group (CSG) sells commercial and consumer PCs including the emerging AI PC class with Neural Processing Units.",
+       "FY26 details: Q4 ISG $18.82B (+66% YoY) with server and networking +112%; Q4 CSG $13.5B (+14%); commercial $11.6B (+16%); consumer $1.9B (flat). FY26 total revenue $113.5B.",
+       "Board composition: Michael Dell as Chairman; Ellen Kullman Lead Independent Director (ex-DuPont CEO, Carbon Inc. Executive Chair); Egon Durban (Silver Lake Co-CEO, board since October 2013); William Green (ex-Accenture Chairman, Audit Committee Chair); Steven Mollenkopf (ex-Qualcomm CEO); David Dorman (Centerview Capital Technology Founding Partner, ex-AT&T Chairman/CEO); David Grain (Grain Management); Lynn Vojvodich Radakovich.",
+       "September 2025 CFO transition: Yvonne McGill stepped down after nearly 30 years; David Kennedy interim CFO; permanent CFO search underway. Board has unanimously recommended redomestication to Texas.",
+       "Close with the central tension: can the $43B AI server backlog convert to FY27 revenue at margins that hold against hyperscaler ODM self-sourcing (Inventec, Quanta, Wiwynn) plus competition from Supermicro and HPE? Frame the question; the report exists to give the reader what they need to take a view."
+     ]},
+    {"slug": "corporate_history", "title": "From the UT-Austin dorm room to the AI server giant", "order": 2, "target_words": 1500,
+     "use_prep_files": ["history.md", "snapshot.json", "leadership.json"],
+     "directives": [
+       "Four eras: (1) 1984-2004 founder-led PC dominance: Michael Dell founds Dell Computer Corporation 1984 at age 19 in University of Texas at Austin dorm; NASDAQ IPO June 1988; #1 US PC vendor by late 1990s; stepped down as CEO 2004 (remained Chairman). (2) 2007-2013 return as CEO and take-private prep: returned as CEO January 2007 amid declining margins; pursued enterprise capabilities; October 2013 $24.4B LBO with Silver Lake (Egon Durban joined board). (3) 2016 EMC acquisition + relisting era: September 2016 $67B EMC acquisition (then-largest tech M&A ever) brought EMC + VMware + Pivotal + RSA + VirtuStream; December 2018 relisting on NYSE via VMware tracking stock exchange (DVMT to DELL); November 2021 VMware spin-off. (4) 2024-2026 AI server inflection: FY25 AI server orders ramped; FY26 $24.6B AI server revenue and $43B year-end backlog. September 2025 CFO transition (McGill to Kennedy). Board-recommended redomestication to Texas.",
+       "Quote Michael Dell from earnings calls / press releases on the strategic transformation.",
+       "Detail the take-private rationale: Michael Dell stated publicly that he wanted to invest in enterprise capabilities beyond what public-market quarterly pressures would permit. The 2013-2018 take-private window covered the EMC integration period.",
+       "Detail the September 2025 McGill transition: Yvonne McGill stepped down after nearly 30 years at Dell. Michael Dell characterised her as 'tremendous contributor as CFO and across almost all parts of our company.' Kennedy interim from September 9 2025.",
+       "Close on what 42 years of founder-chairman tenure means for the equity story: this is the longest founder-CEO continuous franchise in US large-cap technology. Dell-family ownership and Silver Lake institutional shareholding together define the cap-table dynamics."
+     ]},
+    {"slug": "business_segments", "title": "ISG, CSG, and the AI Factory", "order": 3, "target_words": 1700,
+     "use_prep_files": ["counterparties.json", "snapshot.json", "financials.json"],
+     "directives": [
+       "Lay out the two reportable segments with FY26 Q4 specifics.",
+       "ISG (Infrastructure Solutions Group): Q4 revenue $18.82B (+66% YoY). Server and networking +112% YoY. Product lines: PowerEdge servers including AI-optimised configurations, PowerStore + PowerMax + PowerScale + Isilon + Unity storage, Dell Networking (legacy Force10, EMC heritage), Dell AI Factory integrated infrastructure stack. FY26 full-year AI server revenue $24.6B (+300%+ YoY); orders closed $64B+; shipments $25B+; year-end backlog $43B.",
+       "CSG (Client Solutions Group): Q4 revenue $13.5B (+14% YoY). Commercial $11.6B (+16%) — Latitude, OptiPlex, Precision, AI PCs with NPUs entering refresh cycle. Consumer $1.9B (flat) — Inspiron, XPS, Alienware.",
+       "Dell AI Factory: the integrated AI infrastructure stack — high-performance computing servers, liquid-cooled servers optimised for Nvidia GPUs (H100, H200, B100, B200, Rubin generation) and AMD GPUs (MI300, MI325, MI400 series). Includes networking, storage, AI software stack integration.",
+       "Storage portfolio: legacy EMC products (Symmetrix → PowerMax, VMAX, CLARiiON, VNX → PowerStore, Isilon → PowerScale, Data Domain, Unity). Networking heritage from Force10 acquisition + EMC networking.",
+       "AI PC refresh cycle: the CSG commercial growth at +16% YoY is partly driven by enterprise AI PC refresh — NPUs in client devices that can run small AI models locally. The consumer segment at flat YoY reflects continued discretionary PC weakness.",
+       "Mix shift implications: ISG +66% vs CSG +14% means Dell's operating gravity has shifted decisively toward ISG within twelve months. By FY27 ISG is likely to exceed CSG in revenue contribution.",
+       "Source explicitly to FY2026 10-K, quarterly 10-Q filings, IR earnings releases."
+     ]},
+    {"slug": "financial_deep_dive", "title": "$113.5B revenue, $43B backlog, and the operating leverage debate", "order": 4, "target_words": 1700,
+     "use_prep_files": ["financials.json", "snapshot.json"],
+     "directives": [
+       "Open with the FY26 headline: revenue $113.5B, AI server revenue $24.6B (+300%+ YoY), AI server orders closed $64B+, AI server shipments $25B+, year-end AI server backlog $43B.",
+       "Backlog dynamics: $64B orders closed during FY26 - $25B shipped = $39B net add to backlog vs $43B year-end backlog suggests there was some pre-FY26 backlog carryover. The $43B year-end backlog implies roughly 1.7x of FY26 AI server shipments is contracted and pending delivery — a strong forward visibility signal but also one that compresses the urgency of new design wins.",
+       "Q4 FY26 segment breakdown: ISG $18.82B (+66%) with server and networking +112%; CSG $13.5B (+14%); commercial CSG $11.6B (+16%); consumer CSG $1.9B (flat).",
+       "Gross margin and operating margin: Dell does not separately disclose AI server gross margin; the company's consolidated gross margin trends through FY26 reflect the mix shift toward lower-gross-margin AI server units (Nvidia and AMD GPU pass-through plus thin assembly markup is the typical AI server margin signature). Whether AI server operating margin compresses or expands as ramp continues is the central FY27 margin debate.",
+       "Operating cash flow and capital allocation: Dell historically generates strong operating cash flow + uses cash for debt service, share repurchases, and dividends. Specific FY26 OCF and capital allocation breakdowns to be sourced from FY26 10-K.",
+       "Balance sheet: Dell carries meaningful debt from the EMC acquisition era; deleveraging through the 2018-2024 period; AI server working capital intensity requires meaningful inventory and AR investment in FY26-27.",
+       "September 2025 CFO transition implications: David Kennedy's interim status creates a leadership-continuity question; permanent CFO search ongoing.",
+       "Source numbers exclusively to FY2026 10-K, quarterly 10-Q filings, 8-K earnings releases."
+     ]},
+    {"slug": "earnings_story", "title": "From $24B FY25 AI ramp to $43B FY27 backlog", "order": 5, "target_words": 1400,
+     "use_prep_files": ["financials.json", "snapshot.json", "history.md"],
+     "directives": [
+       "Frame the FY26 quarterly cadence: Q1 FY26 (announced May 2025), Q2 FY26 (announced August 2025 — 19% revenue jump + AI server shipments surge), Q3 FY26 (announced November 2025 — AI orders + backlog + outlook rise), Q4 FY26 (announced February 27 2026 — record AI server year).",
+       "Pull quotes from Michael Dell and Jeff Clarke through each quarter on the AI server thesis, customer demand, and the FY27 outlook.",
+       "Q2 FY26 specifically: 19% total revenue growth + AI server shipment surge — the inflection quarter when the magnitude of the AI server cycle became visible.",
+       "Q3 FY26: orders + backlog + outlook all rose — the disclosure pattern that signalled FY27 acceleration was contracted, not just speculated.",
+       "Q4 FY26 / FY26 full year (Feb 27 2026): the record year print — $24.6B AI server revenue, $64B orders, $25B shipments, $43B backlog. Quote management framing.",
+       "Stock-price reaction series through FY26: DELL was one of the best-performing US large-cap stocks of 2025-2026. Reference current trading without overweighting.",
+       "Close on the cumulative observation: four consecutive quarters of accelerating AI server signals through FY26 culminated in the record print and the $43B forward visibility entering FY27."
+     ]},
+    {"slug": "leadership", "title": "Michael Dell, Jeff Clarke, and the Silver Lake legacy", "order": 6, "target_words": 1800,
+     "use_prep_files": ["leadership.json", "snapshot.json"],
+     "directives": [
+       "Open with Michael Dell: founder 1984 at age 19 in UT Austin dorm; CEO 1984-2004 and 2007-present; Chairman 1984-present. 42-year continuous founder-chairman franchise — the longest in US large-cap technology.",
+       "Jeff Clarke (Vice Chairman + COO since December 2019): runs CSG, ISG, and Global Supply Chain. The single most operationally-empowered non-Dell executive. The heir-apparent operating leader if Michael Dell were to transition.",
+       "Chuck Whitten (Co-COO, joined 2021): ex-Bain consultant; customer-centric and data-driven transformation focus; sales execution and enterprise IT positioning.",
+       "Bill Scannell (President Global Sales and Customer Operations): 30+ years at Dell. Strategic alignment of go-to-market with AI infrastructure, cloud, cybersecurity, digital transformation.",
+       "David Kennedy (Interim CFO since September 9 2025): 27 years at Dell; prior CSG CFO and Global Sales COO; SVP Dell Global Business Operations and Finance.",
+       "Yvonne McGill (former CFO 2023-September 2025): nearly 30 years at Dell; CFO of ISG prior to corporate CFO role; named Gartner 'CFO AI-Champion of the Year.' Remains in advisory role through Q3 fiscal 2026.",
+       "Board: Michael Dell as Chairman/CEO. Ellen Kullman (Lead Independent Director; Executive Chair of Carbon Inc.; former Chair and CEO of DuPont 2008-2015).",
+       "Egon Durban (Director since October 2013; Co-CEO of Silver Lake Management): joined the board concurrent with the 2013 Dell take-private LBO; on the board through every major corporate transaction in Dell's modern history including EMC acquisition, 2018 relisting, VMware spin, and AI server ramp.",
+       "David Dorman (Director; Founding Partner Centerview Capital Technology; former Chairman and CEO of AT&T): telecommunications + tech-investing depth.",
+       "William Green (Independent Director; Audit Committee Chair; former Chairman of Accenture plc, former CEO of Accenture): age 72; deepest single global-consulting / enterprise-IT-services credential on the board; on the board since 2016.",
+       "David Grain (Director; Founder and CEO of Grain Management LLC): infrastructure-focused private equity firm; infrastructure-investor pattern recognition for Dell's data center capex exposure.",
+       "Steven Mollenkopf (Director; former CEO of Qualcomm 2014-2021): the only direct semiconductor-CEO peer credential on the board; ran one of the most strategically-important US semiconductor companies through the 2010s; pattern recognition on chip supply, hyperscaler customer dynamics, mobile-to-AI transitions.",
+       "Lynn Vojvodich Radakovich (Director, Group IV): independent governance and customer-experience depth.",
+       "Texas redomestication: the board has unanimously recommended Dell Technologies' redomestication from Delaware to Texas, consistent with the broader trend of large US companies moving from Delaware to Texas through 2025-2026.",
+       "Board composition observation: eight-director Group I nominees plus Group IV nominee (Vojvodich Radakovich) pairs founder-CEO-Chairman with Silver Lake institutional representative (Durban) and six independents weighted toward operational-CEO experience (Kullman ex-DuPont, Green ex-Accenture, Mollenkopf ex-Qualcomm, Dorman ex-AT&T). Calibrated for operating governance of the integrated technology franchise.",
+       "DO NOT punt on any director or executive. Material is in prep/leadership.json — use it. If a sentence would say 'limited public profile,' rewrite to use the data."
+     ]},
+    {"slug": "customers_supply_chain", "title": "xAI, CoreWeave, Nvidia, and the ODM competitive threat", "order": 7, "target_words": 1600,
+     "use_prep_files": ["counterparties.json", "financials.json", "snapshot.json"],
+     "directives": [
+       "Customer landscape: ISG AI server revenue flows through hyperscale and AI cloud customers (xAI, CoreWeave publicly identified; Microsoft, AWS, Meta, Google, Oracle, Tesla among inferred buyers based on industry reporting). Dell does not separately disclose AI server revenue by named customer at FY26 disclosure scale.",
+       "Customer concentration: $64B AI server orders closed during FY26 implies a small set of very large buyers — concentration risk is real even if not separately disclosed. Compare to ISG total revenue base where the customer mix is much more diversified across enterprise and government.",
+       "Traditional Dell customer base: large enterprises across financial services, government, healthcare, manufacturing, retail. Federal government / public sector is a meaningful segment.",
+       "CSG customer mix: enterprise commercial (Latitude, OptiPlex, Precision) + consumer (Inspiron, XPS, Alienware) + workstations + monitors.",
+       "Key supplier — Nvidia: dominant accelerator GPU supplier; Dell AI Factory Nvidia-optimised. GPU allocation priority is the rate-limiting factor for AI server revenue scaling. Specific GPU allocations not publicly disclosed.",
+       "Key supplier — AMD: alternative accelerator GPU (MI300/MI400) plus EPYC CPU supplier. Dell's portfolio spans both Nvidia and AMD AI server SKUs.",
+       "Intel: x86 CPU supplier (Xeon) for traditional enterprise servers; Gaudi AI accelerator (smaller AI volume).",
+       "Memory and HBM: Samsung, SK Hynix, Micron. HBM supply structurally tight; AI server cost is significantly HBM-dependent.",
+       "Foundries: TSMC, Samsung Foundry — indirect dependency via Nvidia/AMD/Intel chip supply.",
+       "Contract manufacturing: Foxconn, Wistron, Compal, Quanta. Foxconn-FII is structurally consequential for AI server ramp.",
+       "Competitive set: HPE (direct enterprise server competitor, smaller AI server volume), Supermicro (pure-play AI server competitor, smaller scale but high AI concentration, 2024 accounting concerns), Lenovo (global PC + server), Cisco (UCS server + networking), IBM (higher-touch services + mainframe), ODM direct suppliers (Inventec, Quanta, Wiwynn — hyperscaler self-sourcing structural threat).",
+       "Close on the structural observation: Dell's structural advantage is the integrated platform breadth across CSG + ISG + storage + networking + AI Factory + services. The structural threat is hyperscaler self-sourcing through Taiwan ODMs bypassing OEMs on standard configurations."
+     ]},
+    {"slug": "competitive_position", "title": "Where Dell sits in the AI infrastructure landscape", "order": 8, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "counterparties.json", "financials.json"],
+     "directives": [
+       "Frame the competitive landscape across three tiers: (a) Integrated enterprise IT — Dell, HPE, Lenovo, Cisco, IBM. (b) Pure-play AI server — Supermicro plus emerging players. (c) ODM direct — Inventec, Quanta, Wiwynn, Compal selling directly to hyperscalers.",
+       "Dell's structural advantages: (i) largest US enterprise IT hardware franchise by revenue, (ii) integrated platform breadth from CSG to ISG to AI Factory to services, (iii) Round Rock-based US manufacturing footprint for portions of high-end AI server lines, (iv) decades of enterprise customer relationships through Bill Scannell's sales organisation, (v) Michael Dell's 42-year founder-chairman institutional credibility, (vi) Silver Lake board representation through Egon Durban providing capital-markets depth.",
+       "Dell's structural disadvantages: (i) hyperscaler ODM self-sourcing bypasses OEMs for standard server configurations, (ii) Supermicro's pure-play AI server focus produces higher growth rates from a smaller base, (iii) HPE's GreenLake services + Cray HPC pedigree provides differentiated positioning, (iv) Lenovo's lower-cost manufacturing footprint, (v) CSG consumer business is structurally low-growth and dilutive to consolidated revenue growth rates.",
+       "Compare with HPE specifically: HPE smaller in absolute scale; AI server revenue meaningfully smaller; GreenLake hybrid cloud services positioning differentiates from Dell's hardware-centric posture.",
+       "Compare with Supermicro: pure-play AI server focus produces +50-100% growth rates; 2024 accounting concerns dented institutional credibility; smaller absolute scale.",
+       "ODM threat: hyperscaler internal AI infrastructure procurement increasingly direct from Taiwan ODMs (Inventec, Quanta, Wiwynn). The competitive question is whether Dell's value-add at the AI Factory integration layer justifies the OEM margin versus direct ODM procurement.",
+       "Storage and networking competitive dynamics: NetApp, Pure Storage in storage; Arista, Juniper in networking. Dell's integrated platform spans both, providing solution-bundling advantages.",
+       "Close on the strategic question: can Dell sustain AI server market share against hyperscaler ODM self-sourcing while CSG commercial AI PC refresh provides the second growth engine?"
+     ]},
+    {"slug": "news_catalysts", "title": "From McGill transition to record FY26 print", "order": 9, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "history.md", "counterparties.json"],
+     "directives": [
+       "Build the news timeline: May 2025 Q1 FY26 earnings; August 2025 Q2 FY26 earnings (+19% revenue + AI server shipment surge); September 8 2025 CFO transition announcement (McGill out, Kennedy interim); November 2025 Q3 FY26 earnings (AI orders/backlog/outlook rise); 2025 Texas redomestication recommendation; February 27 2026 Q4 FY26 / FY26 full year print (record AI server year, $24.6B AI server revenue, $43B backlog).",
+       "Quote Michael Dell and Jeff Clarke through each quarter.",
+       "Forward catalysts from snapshot date: Q1 FY27 earnings (~May 2026), permanent CFO appointment, Texas redomestication completion, FY27 AI server delivery against $43B backlog, additional hyperscaler customer disclosures, AI PC refresh cycle progression.",
+       "Bound the Aleabit / X commentary discussion to ≤200 word subsection. If Aleabit framing for DELL not in prep data, write 'Specialist commentary framing of DELL by Aleabit was not surfaced in the bounded primary-source set used for this report' and do not invent.",
+       "DO NOT use Aleabit, Substack, X as primary source anywhere else."
+     ]},
+    {"slug": "ip_rd", "title": "Dell AI Factory IP and the 40-year supply-chain engineering", "order": 10, "target_words": 1100,
+     "use_prep_files": ["snapshot.json", "financials.json", "leadership.json"],
+     "directives": [
+       "Frame Dell's IP as integration-and-supply-chain-engineering rather than pure patents. Dell's most defensible asset is the operating-engineering capability to assemble, test, and ship AI server systems at hyperscaler scale.",
+       "Dell AI Factory: the integrated AI infrastructure stack — server hardware, liquid cooling, networking, storage, software stack integration with Nvidia and AMD. The IP perimeter is around the integration layer rather than the underlying GPU silicon (which is owned by Nvidia/AMD).",
+       "Manufacturing footprint: Round Rock Texas + ODM partnerships with Foxconn, Wistron, Compal, Quanta. Liquid cooling capability is the contemporary AI server engineering differentiator.",
+       "EMC heritage storage IP: PowerStore, PowerMax, PowerScale (Isilon) — significant storage-product IP inherited from the 2016 EMC acquisition.",
+       "Patent portfolio: not separately broken out in available summary at snapshot — flag honestly. Dell carries thousands of US patents across servers, storage, networking, PCs, cooling, power.",
+       "R&D headcount: not separately disclosed at snapshot — flag honestly. R&D is concentrated in Round Rock, North Carolina (former EMC HQ in Hopkinton, MA), and the broader EMC engineering footprint.",
+       "AI software stack: Dell does not have a meaningful proprietary AI software offering — the AI Factory is hardware-and-integration-layer focused with software stack provided by Nvidia (CUDA, NIM, Enterprise AI software) and AMD (ROCm) plus broader open-source ecosystem.",
+       "Close on the strategic IP question: Dell's most durable competitive advantage is the integration-and-supply-chain capability at hyperscaler scale combined with the enterprise customer relationship architecture. The IP value compounds with operating scale rather than with discrete patent inventions."
+     ]},
+    {"slug": "risks", "title": "ODM self-sourcing, AI capex cycle, and the CFO transition", "order": 11, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json", "leadership.json"],
+     "directives": [
+       "Seven categorical risks: (1) ODM hyperscaler self-sourcing — Taiwan ODMs (Inventec, Quanta, Wiwynn) increasingly procure AI server hardware directly with hyperscalers bypassing OEMs. (2) AI capex cycle — Dell's $43B backlog assumes sustained AI infrastructure demand; any pull-back compresses delivery and pricing. (3) Customer concentration — $64B AI server orders implies meaningful concentration in a small buyer set. (4) Supply chain risk — Nvidia GPU allocation priority, HBM supply tightness, geopolitical risk on Taiwan foundries. (5) Gross margin compression — AI server margin pass-through dynamics could compress consolidated margins as AI mix grows. (6) CFO transition — McGill departed September 2025; Kennedy interim; permanent CFO search creates leadership continuity question. (7) Texas redomestication transition — legal and shareholder-approval risk through the redomestication process.",
+       "Each risk: (a) specific exposure, (b) public management mitigation framing, (c) leading-indicator signal.",
+       "ODM risk specifically: this is the largest single structural risk to the AI server thesis. As hyperscalers professionalise internal supply chains, the OEM-to-ODM transition compresses Dell's addressable AI server market. Mitigation is Dell AI Factory integration value-add (cooling, networking, software stack, services).",
+       "Gross margin nuance: Dell does not separately disclose AI server gross margin. Industry framing puts AI server gross margin at 5-15% range depending on configuration — meaningfully below traditional enterprise server margins. Mix shift toward AI server compresses consolidated gross margin even as revenue accelerates.",
+       "Source claims to FY2026 10-K risk factors section, management commentary in earnings calls, and 8-K filings."
+     ]},
+    {"slug": "outlook", "title": "FY27 backlog conversion and the AI PC refresh cycle", "order": 12, "target_words": 1500,
+     "use_prep_files": ["snapshot.json", "financials.json", "counterparties.json", "leadership.json"],
+     "directives": [
+       "Open with the visible FY27 setup: $43B AI server backlog entering the year; AI PC refresh cycle progressing in CSG commercial; ISG mix shift continuing toward AI server; CFO search ongoing; Texas redomestication in process.",
+       "Forward catalyst sequence: Q1 FY27 earnings (~May 2026); permanent CFO appointment; Texas redomestication completion; FY27 AI server backlog delivery cadence; additional hyperscaler customer disclosures; AI PC refresh cycle progression in CSG.",
+       "FY27 operating leverage math: $43B backlog implies meaningful FY27 AI server revenue; if FY27 AI server revenue reaches $40-50B at preserved gross margin, ISG revenue could exceed $80B for the year. CSG commercial at +16% YoY trend implies $45-50B CSG revenue for FY27. Total FY27 revenue at $130-150B is plausible — though this is informed extrapolation, not management guidance.",
+       "Margin trajectory debate: AI server gross margin pass-through dynamics versus operating-leverage uplift from fixed cost spread. The central FY27 question.",
+       "Strategic-corporate-action overhang: Dell could pursue (a) additional acquisitions in adjacent enterprise IT segments, (b) services expansion (closer to HPE GreenLake), (c) software stack proprietary investments, (d) share repurchase / capital return acceleration as operating cash flow grows. Michael Dell's 42-year continuous tenure means transformational corporate actions are unlikely.",
+       "Long-term thesis: Dell is positioned as one of two integrated AI infrastructure OEMs at scale (Dell + HPE), with Supermicro as the pure-play option and Lenovo as the global alternative. The 5-year question is whether Dell sustains AI server market share against ODM self-sourcing while CSG provides the cash-generative base.",
+       "Close on the central question the report has built toward: does the $43B AI server backlog convert to FY27 revenue at margins that justify Dell's positioning, and does the CSG AI PC refresh add a second growth engine? Frame the question; don't pretend to answer."
+     ]},
+    {"slug": "appendices", "title": "Appendices", "order": 13, "target_words": 900,
+     "use_prep_files": ["snapshot.json", "financials.json"],
+     "directives": [
+       "Three subsections: (a) Glossary (ISG, CSG, AI Factory, PowerEdge, PowerStore, PowerMax, PowerScale, Isilon, NPUs, Nvidia GPU generations H100/H200/B100/B200/Rubin, AMD MI300/MI325/MI350/MI400, EPYC, HBM, ODM, OEM, liquid cooling, AI PC). (b) FY26 segment revenue summary table. (c) Source list — every SEC EDGAR filing, every IR press release URL, every primary news article.",
+       "Source list exhaustive: FY2026 10-K, DEF 14A 2026 proxy, September 2025 CFO transition 8-K and press release, quarterly 10-Q filings, FY26 earnings releases.",
+       "Glossary entries 1-2 sentences each."
+     ]}
+  ]
+}

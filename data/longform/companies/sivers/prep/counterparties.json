@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "headline": "Sivers is the upstream chokepoint in the AI co-packaged optics (CPO) supply chain — supplying DFB lasers and laser arrays to the design houses (POET, Ayar Labs, O-Net) that assemble the External Light Source (ELS) and optical interposer modules that hyperscaler customers integrate into their next-generation GPU packages. The customer ecosystem reaches Marvell (via Celestial AI), AAPL (SiPH for consumer devices), AMD, Jabil, Lightmatter, and Lightelligence indirectly. Direct named customer wins to date: POET, Ayar Labs, O-Net/Enablence, an unnamed automotive LiDAR customer ('across all their platforms'), European Space Agency, and Intelsat.",
+  "named_partnerships": [
+    {
+      "partner": "POET Technologies Inc.",
+      "ticker": "POET",
+      "exchange": "NASDAQ + TSX",
+      "announced": "2025-09-29",
+      "type": "strategic_collaboration",
+      "scope": "External Light Source (ELS) modules for Co-Packaged Optics and next-generation AI infrastructure. Combines Sivers' high-power DFB lasers with POET's Optical Interposer platform.",
+      "timeline": "Early prototypes H1 2026; production readiness end-2026",
+      "market_estimate": "$1B+ annual ELS market (per analyst Tim Savageaux); broader AI optical connectivity market >$50B",
+      "ceo_quote_sivers": "We see a highly complementary fit between our high-performance DFB lasers and POET's innovative optical interposer platform. — Vickram Vathulya",
+      "ceo_quote_poet": "Modules optimized for size, performance and cost – exactly what the CPO and AI markets demand. — Dr. Suresh Venkatesan, POET Executive Chairman & CEO"
+    },
+    {
+      "partner": "Ayar Labs",
+      "type": "supplier_relationship",
+      "scope": "Sivers provides DFB laser arrays for Ayar Labs' SuperNova multi-wavelength light source. Demonstrated together at ECOC 2022.",
+      "significance": "Ayar is one of the leading optical interconnect IP companies for AI hyperscale; its SuperNova is the optical engine that may go into the next generation of AI accelerator packages."
+    },
+    {
+      "partner": "O-Net Communications / Enablence Technologies",
+      "type": "supplier_relationship",
+      "scope": "ELS modules with thermal solutions for CPO. Sivers contributes DFB lasers."
+    },
+    {
+      "partner": "imec",
+      "type": "research_collaboration",
+      "scope": "Sivers Photonics (CST Global) + imec joint technology: integrated assemblies of C-band (1530-1565nm) InP DFB lasers onto imec's silicon photonics platform. Began 2019."
+    },
+    {
+      "partner": "DIC Corporation (unconfirmed, indirect)",
+      "type": "ecosystem_adjacency",
+      "scope": "DIC announced PPS film for mmWave at CES 2026 — adjacent to Sivers' mmWave wireless segment but no direct partnership disclosed."
+    }
+  ],
+  "named_customers": [
+    {
+      "name": "European Space Agency",
+      "segment": "Wireless / SATCOM",
+      "scope": "Beamformer customer for satellite communications"
+    },
+    {
+      "name": "Intelsat",
+      "segment": "Wireless / SATCOM",
+      "scope": "Satellite communications customer"
+    },
+    {
+      "name": "Unnamed automotive LiDAR customer",
+      "segment": "Photonics / FMCW LiDAR",
+      "scope": "Strategic customer incorporating Sivers tech 'across all their platforms'; production ramp planned Q4 2026; revenue potential $53-138M over 8-10 year lifecycle (16-44% of 2025 sales)"
+    },
+    {
+      "name": "US Department of Defense (via NEMC)",
+      "segment": "Defense / wireless",
+      "scope": "$6.6M Year 2 funding via Microelectronics Commons program for US Defense Infrastructure modernization (May 19 2026)"
+    }
+  ],
+  "implied_indirect_customers": [
+    "Marvell Technology (via the Celestial AI optical interconnect program — Marvell acquired Celestial 2025)",
+    "Apple (via SiPH for consumer devices — referenced in primary-source Aleabit tweets but not officially confirmed by Sivers)",
+    "AMD",
+    "Jabil (transceiver assembly, downstream of laser supply)",
+    "Lightmatter",
+    "Lightelligence"
+  ],
+  "creditors_recent": [
+    {
+      "type": "term_loan_plus_convertible",
+      "date": "2026-02",
+      "amount_usd_m": 17,
+      "note": "Specific lender not publicly named"
+    }
+  ],
+  "non_dilutive_funding": [
+    {
+      "source": "Microelectronics Commons (NEMC / US DoD)",
+      "type": "grant",
+      "amount_usd_m": 6.6,
+      "year": "Year 2",
+      "purpose": "US Defense Infrastructure modernization",
+      "announced": "2026-05-19"
+    }
+  ],
+  "largest_known_shareholder": {
+    "name": "Erik Fällström / DDM Debt / Fällström Family Office",
+    "stake_voting_pct": 11.8,
+    "context": "Co-founder Erik Fällström controls ~11.8% of votes via DDM Debt (where he is CEO) plus the Fällström Family Office. He is departing the board June 15 2026. His shareholding stays — but DDM has flagged intent to drive Sivers toward a 'broader investment company' which is in tension with the operational-pure-play thesis the US listing prep depends on."
+  }
+}

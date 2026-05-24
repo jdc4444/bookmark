@@ -1,0 +1,48 @@
+{
+  "headline": "The Mitochondrial Theory of Autism and ADHD Gains Ground",
+  "lede": "A growing body of research suggests that autism spectrum disorder (ASD) and attention-deficit/hyperactivity disorder (ADHD) may be rooted in mitochondrial dysfunction. The poster argues that if neurons cannot generate energy properly, a cascade of failures—from impaired signaling to inflammation—ensues, making mitochondrial health a central therapeutic target.",
+  "body": "Mitochondria, the organelles responsible for cellular energy production, are increasingly implicated in neurodevelopmental conditions. A 2024 meta-analysis in *Neurobiology of Disease* found significant elevations in biomarkers of mitochondrial dysfunction in individuals with ASD, while a *Nature* review highlighted the multifaceted role of mitochondria in the disorder. The poster's mechanistic chain—energy deficits leading to failed electrical potentials, impaired neurotransmitter release, disrupted connectivity, and inflammation—is consistent with the literature, though the claim that *all* autism and ADHD are mitochondrial disorders is an oversimplification. Research suggests mitochondrial dysfunction is a *subtype* of ASD, affecting perhaps 30–50% of cases, not a universal feature.\n\nThe poster's linked thread on fatigue extends the logic: if mitochondria are compromised, energy production suffers, explaining chronic tiredness. This resonates with clinical observations that many autistic individuals report fatigue, but it is not yet standard practice to treat these conditions primarily with mitochondrial support. Interventions like coenzyme Q10, carnitine, or dietary modifications have shown promise in small studies, but large-scale trials are lacking.\n\nThe argument is compelling and biologically plausible, but it risks conflating correlation with causation. Mitochondrial dysfunction could be a consequence rather than a cause of the underlying neurobiology, or a secondary effect of other factors such as oxidative stress or immune activation. Nonetheless, the poster's focus on a concrete, testable biological mechanism offers a refreshing alternative to purely behavioral or genetic explanations, and may point toward new therapeutic avenues.",
+  "tickers": [],
+  "poster": "Outdoctrination",
+  "concepts": [
+    {
+      "key": "mitochondrial-dysfunction",
+      "term": "mitochondrial dysfunction",
+      "definition": "A condition in which mitochondria, the energy-producing structures inside cells, fail to generate sufficient adenosine triphosphate (ATP). This can impair cellular functions, especially in energy-hungry tissues like the brain, and is linked to various neurological and metabolic disorders."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that 'autism and ADHD are mitochondrial disorders' is an overgeneralization. While a significant subset of individuals with ASD show biomarkers of mitochondrial dysfunction, it is not universal. The poster's causal chain is plausible but not proven; mitochondrial issues may be a contributing factor rather than the sole cause.",
+  "thread_summary": "The thread expands on the mitochondrial theory, linking it to chronic fatigue and offering lifestyle and dietary strategies to improve mitochondrial function, such as exercise, cold exposure, and specific supplements.",
+  "sources": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0969996124001190",
+      "title": "Biomarkers of mitochondrial dysfunction in autism spectrum disorder: A systematic review and meta-analysis",
+      "note": "Provides quantitative evidence of mitochondrial biomarker differences in ASD."
+    },
+    {
+      "url": "https://www.nature.com/articles/s41380-024-02725-z",
+      "title": "The multifaceted role of mitochondria in autism spectrum disorder",
+      "note": "Comprehensive review of mitochondrial involvement in ASD from a leading journal."
+    },
+    {
+      "url": "https://jamanetwork.com/journals/jamapsychiatry/fullarticle/1859135",
+      "title": "Mitochondrial Dysfunction as a Neurobiological Subtype of Autism Spectrum Disorder",
+      "note": "Establishes mitochondrial dysfunction as a distinct subtype of ASD."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5467355/",
+      "title": "Evidence of Mitochondrial Dysfunction in Autism: Biochemical Links, Genetic-Based Associations, and Non-Energy-Related Mechanisms",
+      "note": "Detailed biochemical and genetic evidence supporting the link."
+    },
+    {
+      "url": "https://neurolaunch.com/mitochondria-autism/",
+      "title": "Mitochondrial Dysfunction in Autism Explained",
+      "note": "Accessible summary of the research and its clinical implications."
+    }
+  ],
+  "bookmark_id": "2043079142204145966",
+  "generated_at": "2026-05-06T07:32:14.895368Z",
+  "backend": "deepseek"
+}

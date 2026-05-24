@@ -1,0 +1,15 @@
+{
+  "key": "IREN",
+  "name": "IREN Limited",
+  "exchange": "NASDAQ",
+  "blurb": "IREN Limited (formerly Iris Energy) is an Australian-founded, NASDAQ-listed company that began as a renewable-energy-powered bitcoin miner and has since pivoted aggressively toward AI and high-performance computing (HPC) infrastructure. The company controls significant power capacity — a scarce resource in the AI data-centre boom — across sites in North America, and rebranded from Iris Energy to IREN in November 2024 to signal the strategic shift.",
+  "recent": "IREN reported its first profitable fiscal year in 2025, with net income of $86.9 million on $501 million in revenue. A $9.7 billion, five-year cloud-computing agreement with Microsoft was signed in late 2025, calling for deployment of 76,000 NVIDIA GB300 GPUs across 200 megawatts at its Childress, Texas campus. The company targets scaling GPU capacity from 23,000 to 140,000 units through 2026, backed by 2,910 megawatts of renewable power infrastructure.",
+  "sources": [
+    {"title": "IREN bitcoin-to-AI pivot deep dive (FinancialContent)", "url": "https://www.financialcontent.com/article/marketminute-2026-1-9-the-great-compute-pivot-how-iren-transformed-from-bitcoin-miner-to-ai-infrastructure-titan"},
+    {"title": "IREN dual-engine growth analysis (FinancialContent)", "url": "https://markets.financialcontent.com/wral/article/predictstreet-2025-10-4-iris-energy-limited-iren-a-deep-dive-into-its-dual-engine-growth-in-bitcoin-mining-and-ai-cloud-services"},
+    {"title": "Why IREN is shifting to data centers (Disruption Banking)", "url": "https://www.disruptionbanking.com/2025/10/04/why-iren-is-shifting-away-from-bitcoin-mining-to-data-centers/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

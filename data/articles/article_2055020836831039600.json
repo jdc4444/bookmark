@@ -1,0 +1,134 @@
+{
+  "headline": "Meta Stock Is Cheap for What It Has Already Built",
+  "lede": "@evergreencap3 makes a direct bull case: **Meta Platforms** (META), trading at roughly 16–17 times consensus 2027 earnings estimates, is mispriced for a company growing revenue at 33% per year and guiding for more than $125 billion in artificial-intelligence infrastructure spending in a single year. The argument rests on two premises — that AI progress is predictable along well-documented *scaling laws*, and that Meta has assembled the personnel and hardware to be on the winning side of it.",
+  "body": "The thesis leans on Alexandr Wang as its central validating figure. Wang co-founded **Scale AI**, the data-annotation company embedded in virtually every major AI training pipeline; when Meta acquired a 49% stake in Scale AI in June 2025 and installed Wang as its first Chief AI Officer, he brought with him a well-documented view that model improvement is not mysterious but mechanical. “Every ten-times increase in model size creates a predictable increase in performance,” he has said. “Most companies are on the record for seeking another roughly a hundred times more compute for their models.” His decision to join Meta, the author implies, is itself a credibility signal — Wang would not have crossed over unless he believed the infrastructure he was inheriting could deliver on that curve.\n\nWang now leads *Meta Superintelligence Labs* (MSL), a division Mark Zuckerberg created in June 2025 with an explicit mandate to build general-purpose AI. MSL’s first major model, *Muse Spark*, shipped in April 2026: natively multimodal — voice, text, and image inputs — with tool-use and multi-agent orchestration included from launch. Meta claimed it delivers comparable performance to older-generation models at over an order of magnitude less compute, an efficiency gain that matters when **Meta Platforms** is guiding for $125–145 billion in *capital expenditure* in 2026 alone. That figure — raised in late April even as the stock fell roughly 24% from its September 2025 all-time high near $796 — is the primary reason the earnings multiple has stayed compressed.\n\nThe market’s scepticism is not irrational. **JPMorgan** (JPM) downgraded the stock after the capex raise, articulating the bear case plainly: the question is not whether Meta can spend on AI but whether it can generate competitive returns beyond advertising. Meta’s business is overwhelmingly an ad business. AI tools like its Advantage+ ad-ranking suite are already producing measurable lift — a $20 billion annualised revenue run-rate, doubling year over year — but the leap from better ads to genuinely new revenue streams, at a scale that justifies nine-figure annual infrastructure spending, remains unproven.\n\nThe valuation, however, makes the trade unusually forgiving. At roughly $618 a share and a 67-analyst consensus 2027 *earnings per share* estimate of about $35, **Meta Platforms** trades at approximately 17–18 times forward earnings — near the low end of the mega-cap technology range. **Alphabet** (GOOGL), growing revenue at roughly half Meta’s pace, trades closer to 30 times. The author’s *re-rating* arithmetic is straightforward: expanding the multiple to 22.5–25 times 2027 earnings gets the stock to $785–$875, a 27–42% return that requires no credit at all for AI-derived revenue streams that do not yet exist. Invoking David Tepper — founder of **Appaloosa Management**, who increased his own Meta stake by 62% in the fourth quarter of 2025 — is a nod to that discipline: the right question is not whether the market likes the multiple today, but whether the stock is cheap relative to what the company will earn. At 17–18 times earnings for a company growing revenue at 33%, the author’s answer is emphatically yes.",
+  "tickers": [
+    "META",
+    "JPM",
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "name": "Scale AI",
+      "ticker": null
+    },
+    {
+      "name": "JPMorgan Chase",
+      "ticker": "JPM"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Appaloosa Management",
+      "ticker": null
+    }
+  ],
+  "poster": "evergreencap3",
+  "concepts": [
+    {
+      "key": "scaling-laws",
+      "term": "Scaling Laws",
+      "definition": "The empirical finding in machine learning that model performance improves reliably and predictably as researchers increase model size, training data volume, and compute — without changing the underlying algorithm. First rigorously documented in 2020, scaling laws became the foundational thesis behind the bigger-models-equal-smarter-models strategy pursued by every major AI lab, and the intellectual backbone of Wang’s public arguments about AI’s trajectory."
+    },
+    {
+      "key": "meta-superintelligence-labs",
+      "term": "Meta Superintelligence Labs (MSL)",
+      "definition": "Meta’s internal AI research and product division, created by Mark Zuckerberg in June 2025 with an explicit mandate to build general-purpose and eventually superintelligent AI. Led by Alexandr Wang, MSL encompasses foundation-model research (including the Llama model family), applied AI products, and AI infrastructure, and produced its first major external model — Muse Spark — in April 2026."
+    },
+    {
+      "key": "capital-expenditure",
+      "term": "Capital Expenditure (Capex)",
+      "definition": "Money a company spends on physical or digital infrastructure assets, such as data centres, servers, and networking equipment. Unlike operating expenses, capex is capitalised on the balance sheet and depreciated over time; a large capex spike can depress near-term free cash flow and compress valuation multiples even when underlying earnings remain strong."
+    },
+    {
+      "key": "forward-pe",
+      "term": "Forward P/E",
+      "definition": "A stock’s current price divided by analysts’ consensus estimate of the company’s earnings per share for a future period — typically the next 12 months or the next full fiscal year. A lower forward P/E generally signals a cheaper valuation relative to expected profitability; the author’s bull case rests on Meta’s forward P/E being anomalously low given its growth rate."
+    },
+    {
+      "key": "re-rating",
+      "term": "Re-rating",
+      "definition": "An upward (or downward) shift in the earnings multiple the market applies to a stock, independent of any change in actual earnings. A re-rating can produce large price gains even without fundamental improvement, simply because investors become willing to pay more per dollar of profit — which is the source of the 35–50% return the author projects without assuming any AI-driven revenue upside."
+    },
+    {
+      "key": "earnings-per-share",
+      "term": "Earnings Per Share (EPS)",
+      "definition": "A company’s net profit divided by its total number of outstanding shares, expressed in dollars per share. EPS is the denominator in the price-to-earnings ratio; forward EPS estimates — produced by sell-side analysts for future fiscal years — are the benchmark against which the author argues Meta’s current stock price is too low."
+    },
+    {
+      "key": "multi-agent-orchestration",
+      "term": "Multi-agent Orchestration",
+      "definition": "A design pattern in AI systems in which multiple specialised AI models or agents coordinate to complete a task — one might search the web, another write code, a third check outputs. It allows complex tasks to be decomposed and parallelised, and is increasingly a benchmark capability that AI labs cite when demonstrating model maturity."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The “~16x 2027e EPS” framing is slightly understated at prevailing prices. At the roughly $618 stock price around the post date and a 67-analyst consensus 2027 EPS estimate of approximately $34.94, the implied multiple is closer to 17.7 times — not 16. The characterisation is directionally accurate (Meta’s forward multiple is unusually low for its growth rate), but the precise “16x” label requires either a meaningfully lower entry price, around $560–580, or a more conservative EPS assumption than the published consensus supports.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/meta/forecast/",
+      "title": "Meta Platforms (META) Analyst Forecasts — StockAnalysis",
+      "note": "2027e EPS consensus ($34.94, 67 analysts) and forward P/E data"
+    },
+    {
+      "url": "https://www.gurufocus.com/term/forward-pe-ratio/META",
+      "title": "Meta Forward P/E Ratio — GuruFocus",
+      "note": "Forward earnings multiple and GF intrinsic-value estimate"
+    },
+    {
+      "url": "https://fortune.com/2026/04/29/meta-zuckerberg-145-billion-ai-spending-roi/",
+      "title": "Meta Raises 2026 Capex Guidance to $145 Billion — Fortune",
+      "note": "Q1 2026 earnings detail and updated capex guidance"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs",
+      "title": "Meta Superintelligence Labs — Wikipedia",
+      "note": "MSL founding, structure, leadership, and mandate"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/06/30/mark-zuckerberg-creating-meta-superintelligence-labs-read-the-memo.html",
+      "title": "Zuckerberg Memo Creating Meta Superintelligence Labs — CNBC",
+      "note": "Primary source on MSL founding and mission statement"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+      "title": "Meta Debuts Muse Spark — CNBC",
+      "note": "MSL first model launch, capabilities, and efficiency claims"
+    },
+    {
+      "url": "https://www.tikr.com/blog/meta-beat-q1-2026-estimates-but-fell-8-55-heres-what-the-selloff-is-missing",
+      "title": "Meta Beat Q1 2026 Estimates but Fell 8.55% — TIKR",
+      "note": "Bull-case context on capex and post-earnings sell-off"
+    },
+    {
+      "url": "https://247wallst.com/investing/2026/02/18/billionaire-david-tepper-goes-big-on-micron-meta-and-alphabet-in-ai-all-in/",
+      "title": "Billionaire David Tepper Goes Big on Meta, Micron, and Alphabet — 24/7 Wall St.",
+      "note": "Tepper Q4 2025 portfolio: 62% increase in META stake"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4886569-meta-platforms-16x-out-year-eps-is-too-cheap",
+      "title": "Meta Platforms: 16x Out-Year EPS Is Too Cheap — Seeking Alpha",
+      "note": "Parallel bull thesis on Meta’s forward P/E compression"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/META/forecast/",
+      "title": "Meta Platforms Analyst Price Targets — MarketBeat",
+      "note": "Range of analyst ratings and price targets, including JPMorgan downgrade"
+    },
+    {
+      "url": "https://www.accel.com/podcast-episodes/scale-alexandr-wang",
+      "title": "Alexandr Wang on Scaling Laws — Accel Podcast",
+      "note": "Wang’s core public statements on AI scaling predictability and compute requirements"
+    }
+  ],
+  "bookmark_id": "2055020836831039600",
+  "generated_at": "2026-05-15T08:10:49.555920Z",
+  "backend": "claude-sonnet-subagent"
+}

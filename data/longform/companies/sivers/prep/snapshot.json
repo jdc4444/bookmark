@@ -1,0 +1,98 @@
+{
+  "company": {
+    "name": "Sivers Semiconductors AB",
+    "legal_name": "Sivers Semiconductors AB (publ)",
+    "ticker": "SIVE.ST",
+    "otc_us_ticker": "SIVEF",
+    "exchange": "Nasdaq Stockholm",
+    "founded": 1951,
+    "founder": "Carl von Sivers (Sivers Lab AB)",
+    "headquartered": "Sweden",
+    "current_president_ceo": "Vickram Vathulya (since 2024-08-19)",
+    "predecessor": "Anders Storm",
+    "subsidiaries": ["Sivers Wireless AB", "Sivers Photonics Ltd."]
+  },
+  "market_snapshot": {
+    "as_of": "2026-05-23",
+    "currency_price": "SEK",
+    "price_sek": 72.90,
+    "5y_low_sek": 1.80,
+    "5y_high_sek": 72.90,
+    "candles_5y_count": 1257,
+    "exchange_code": "STO",
+    "candles_period": "2021-05-24 → 2026-05-22",
+    "5y_move": "40x — currently at 5y high",
+    "shares_outstanding_m": 311.33,
+    "market_cap_sek_b_approx": 22.7,
+    "market_cap_usd_m_approx_at_current_price": 2200,
+    "market_cap_per_substack_writeup_sek_b": 3.4,
+    "market_cap_per_substack_writeup_usd_m": 360,
+    "note": "Substack writeup market cap (~$360M) was based on earlier price; at current SEK 72.90 × 311.33M shares ≈ SEK 22.7B / ~$2.2B (using SEK 10.3/USD). Significant divergence to confirm."
+  },
+  "business_segments": {
+    "wireless": {
+      "subsidiary": "Sivers Wireless AB",
+      "products": [
+        "mmWave beamformers",
+        "Antenna modules",
+        "Phased array ICs"
+      ],
+      "applications": [
+        "Satellite communications (SATCOM)",
+        "Fixed Wireless Access (FWA)",
+        "5G/6G base stations",
+        "Defense and aerospace"
+      ],
+      "key_claim": "Only EU-based commercial provider for certain beamformer types",
+      "named_customers": ["European Space Agency", "Intelsat"]
+    },
+    "photonics": {
+      "subsidiary": "Sivers Photonics Ltd. (UK-based, acquired 2017 as CST Global)",
+      "products": [
+        "High-power DFB lasers",
+        "Laser arrays",
+        "Optical amplifiers",
+        "External Light Source (ELS) modules"
+      ],
+      "applications": [
+        "AI datacenter optical interconnects",
+        "Co-Packaged Optics (CPO)",
+        "FMCW LiDAR for 3D imaging",
+        "Healthcare wearable sensing",
+        "High-Performance Computing (HPC)"
+      ]
+    }
+  },
+  "fy2025_summary": {
+    "revenue_sek_m": 306.6,
+    "revenue_yoy_pct": 25,
+    "revenue_yoy_constant_fx_pct": 33,
+    "product_revenue_sek_m": 85.7,
+    "product_revenue_yoy_constant_fx_pct": 13,
+    "operating_loss_sek_m": -177.8,
+    "operating_margin_pct": -39,
+    "net_loss_sek_m": -222.6,
+    "fcf_loss_sek_m": -66,
+    "cash_sek_m_eoy": 43.5,
+    "pipeline_usd_m": 453,
+    "pipeline_yoy_pct": 64,
+    "note": "PCAOB-restated. Previously reported numbers were Revenue 304.1M, EBIT -141.3M, Net Loss -186.5M."
+  },
+  "recent_corporate_actions": [
+    {"date": "2024-08-19", "type": "ceo_appointment", "detail": "Vickram Vathulya appointed President & CEO; Anders Storm departs"},
+    {"date": "2025-09-29", "type": "partnership", "detail": "POET Technologies strategic collaboration on External Light Source (ELS) modules for CPO + AI infrastructure"},
+    {"date": "2025", "type": "capital_raise", "detail": "SEK 95M share issue (8% dilution)"},
+    {"date": "2026-02", "type": "capital_raise", "detail": "$17M via term loan + convertible debt"},
+    {"date": "2026-02-26", "type": "results", "detail": "Q4 FY2025 / full-year preliminary results published"},
+    {"date": "2026-05-13", "type": "annual_report", "detail": "2025 Annual Report published with PCAOB-aligned restated financials (delayed from original target)"},
+    {"date": "2026-05-19", "type": "grant", "detail": "$6.6M Microelectronics Commons Year 2 funding via NEMC program (US Defense Infrastructure modernization)"},
+    {"date": "2026-05-20", "type": "board_nomination", "detail": "Joakim Nideborn + Helena Svancar nominated to the board"}
+  ],
+  "sources": [
+    "https://www.sivers-semiconductors.com/",
+    "https://www.sivers-semiconductors.com/investors/",
+    "https://www.sivers-semiconductors.com/press/sivers-semiconductors-publishes-the-2025-annual-report-adjusting-prior-reported-financials-as-preparation-for-a-potential-dual-listing-in-the-united-states/",
+    "https://www.poet-technologies.com/news/poet-technologies-and-sivers-semiconductors-collaborate-on-external-light-sources-for-co-packaged-optics-and-next-generation-ai-market",
+    "https://www.globalequitybriefing.com/p/sivers-semiconductors-hype-or-asymmetric"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "key": "adi",
+  "name": "Analog Devices, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Analog Devices is one of the two largest analog semiconductor companies in the world (alongside Texas Instruments), with deep expertise in signal-chain ICs, data converters, and — critical for AI servers — power-management products including hot-swap controllers, multiphase voltage regulators, power-system management ICs (PSMICs), and DC-DC power stages. ADI's LTC4284/4286/4287 hot-swap family protects 48V AI rack infrastructure, while its MAX20790 and related multiphase controllers regulate power to GPUs and accelerators at the point-of-load. The company is also a leading supplier of 800 VDC first-stage conversion solutions designed to NVIDIA's high-voltage DC reference architecture for AI factories.",
+  "recent": "ADI reported Q1 FY2026 (quarter ending January 2026) EPS of $2.46 versus the $2.31 consensus, with revenue of $3.16 billion supported by a 50% year-over-year increase in data-centre revenue. AI and data-centre exposure now accounts for roughly one-fifth of total revenues. Q2 FY2026 guidance was set at $3.5 billion (±$100 million), with non-GAAP EPS of $2.88 (±$0.15) and adjusted operating margin of ~47.5%. In August 2025 ADI announced its first 800 VDC hot-swap and first-stage power solutions targeting NVIDIA intelligent platform management, with >98% conversion efficiency. The company has seen accelerating adoption of 48V/54V intermediate-bus converters and smart power stages for vertical power delivery in AI racks.",
+  "sources": [
+    {"url": "https://www.fool.com/earnings/call-transcripts/2026/02/18/analog-devices-adi-q1-2026-earnings-transcript/", "title": "Analog Devices Q1 FY2026 Earnings Call Transcript — Motley Fool"},
+    {"url": "https://www.analog.com/en/newsroom/press-releases/2025/8-21-2025-powering-the-future-of-ai.html", "title": "ADI Announces 800 VDC Data Center Power Solutions — analog.com"},
+    {"url": "https://futurumgroup.com/insights/analog-devices-q1-fy-2026-broad-based-recovery-with-ai-data-center-upside/", "title": "ADI Q1 FY2026: Broad-Based Recovery with AI Data Center Upside — Futurum"},
+    {"url": "https://www.analog.com/en/resources/analog-dialogue/articles/protection-and-telemetry-in-ai.html", "title": "Protection and Telemetry in AI with 800V Hot Swap — Analog Dialogue"},
+    {"url": "https://finviz.com/news/325084/adis-ai-based-data-center-products-gain-traction-whats-ahead", "title": "ADI AI-Based Data Center Products Gain Traction — Finviz"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

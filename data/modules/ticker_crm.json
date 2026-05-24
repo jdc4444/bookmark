@@ -1,0 +1,32 @@
+{
+  "key": "CRM",
+  "name": "Salesforce, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Salesforce is a leading cloud-based software company specializing in customer relationship management (CRM) solutions. It offers a suite of enterprise applications for sales, service, marketing, analytics, and artificial intelligence. The company has been pivoting to position itself as an AI agent company, integrating generative AI into its platform. Salesforce is a major player in the enterprise software market, competing with the likes of Microsoft and Oracle.",
+  "recent": "In the past 30 days, CRM stock jumped as Salesforce emphasized its transformation into an AI agent company, highlighting new AI-powered features. The company's focus on AI has been a key catalyst for recent price action, with investors reacting positively to its strategic direction. No major earnings reports were released in this period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CRM/news/",
+      "title": "Salesforce, Inc. (CRM) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/markets/crm-stock-jumps-as-salesforce-makes-clear-it-s-an-ai-agent-company-now/ar-AA22nnfe",
+      "title": "CRM stock jumps as Salesforce makes clear it's an AI agent company now"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/CRM/",
+      "title": "Salesforce (CRM) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/crm",
+      "title": "CRM Stock Price | Salesforce Inc. Stock Quote (U.S.: NYSE) | MarketWatch"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/CRM",
+      "title": "CRM Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T09:27:16.752523Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,24 @@
+{
+  "key": "UPWK",
+  "name": "Upwork Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Upwork Inc. operates an online marketplace that connects businesses with independent professionals and freelancers. The platform enables clients to hire talent for a wide range of projects, from software development to creative services. As a leading player in the gig economy, Upwork competes with platforms like Fiverr and has faced challenges in customer growth and revenue expansion.",
+  "recent": "Upwork is set to report earnings on May 7, 2026, with analysts expecting revenue growth of 1.7% year-over-year. The stock has declined 8.7% over the past month, underperforming the consumer internet sector, which rose 11.8% on average. The company's last quarter showed a 3.6% revenue increase but a 5.6% drop in active customers, and guidance missed expectations.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/UPWK/",
+      "title": "Upwork Inc. (UPWK) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/UPWK/news/",
+      "title": "UPWK News Today | Why did Upwork stock go up today? - MarketBeat"
+    },
+    {
+      "url": "https://stockstory.org/us/stocks/nasdaq/upwk/news/earnings/upwork-upwk-reports-earnings-tomorrow-what-to-expect",
+      "title": "Upwork (UPWK) Reports Earnings Tomorrow: What To Expect"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T09:04:23.479804Z",
+  "backend": "deepseek"
+}

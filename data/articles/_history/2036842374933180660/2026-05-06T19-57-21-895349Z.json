@@ -1,0 +1,37 @@
+{
+  "headline": "A New CLI Lets Agents Control Browsers by Writing Code",
+  "lede": "Most AI browser-automation tools work by showing the agent screenshots and asking it to click things. Sawyer Hood's `dev-browser` cli bets on a different architecture: let the agent write and run code against the browser directly, skipping the visual back-and-forth entirely. The result, he claims, is the fastest path to agent-controlled browsing available today.",
+  "body": "The dominant paradigm for giving AI agents a browser — tools like computer-use or most Playwright wrappers — works by capturing a screenshot, sending it to the model, receiving an action (\"click at coordinate 240, 180\"), executing that action, screenshotting again, and repeating. Each loop costs a round-trip to the model and a full image token payload. For anything beyond a few clicks, the latency and cost add up quickly.\n\n`dev-browser` sidesteps this loop by treating the browser as a **code execution environment** rather than a visual surface. The agent is given tools to write code — JavaScript, Playwright calls, or equivalent — that runs directly in or against the browser, rather than narrating its way through a UI frame by frame. One well-formed script can accomplish what might otherwise take a dozen screenshot cycles.\n\nThe demo in the image makes the proposition concrete. Hood asks Claude Code to \"use dev-browser to connect to my Chrome and create a Google Sheet of popular movies.\" The agent does it in a single composed action visible in the terminal, with no screenshot carousel in sight. Connecting to a *running* Chrome instance (rather than spawning a headless one) is significant: it means the agent inherits the user's existing session, cookies, and login state — no re-authentication required.\n\nThe install path is deliberately frictionless: `npm i -g dev-browser`, then instruct your agent to \"use dev-browser.\" That phrasing suggests the tool ships with an *MCP server* or similar integration layer that Claude Code and comparable agents can discover automatically, rather than requiring custom tool-call scaffolding from the developer.\n\nNo research sources were available to confirm implementation details — architecture specifics, whether it uses the *Chrome DevTools Protocol* (*CDP*) under the hood, or how it sandboxes agent-generated code — so those claims rest solely on what the tweet and image show. What is clear is that the code-first framing is a deliberate design statement in a crowded field where screenshot-based agents remain the default.",
+  "tickers": [],
+  "poster": "sawyerhood",
+  "concepts": [
+    {
+      "key": "screenshot-loop-browser-automation",
+      "term": "screenshot-loop browser automation",
+      "definition": "A pattern where an AI agent is shown a screenshot of the current browser state, decides on an action (click, type, scroll), executes it, then receives a new screenshot and repeats. Each iteration requires a full model inference call, making complex tasks slow and expensive."
+    },
+    {
+      "key": "code-based-browser-control",
+      "term": "code-based browser control",
+      "definition": "An alternative to screenshot loops in which the agent writes executable code — JavaScript, Playwright commands, or similar — that acts on the browser directly. A single script can perform many actions in one shot, dramatically reducing round-trips to the model."
+    },
+    {
+      "key": "chrome-devtools-protocol",
+      "term": "Chrome DevTools Protocol (CDP)",
+      "definition": "An API built into Chromium-based browsers that allows external programs to inspect, debug, and control the browser programmatically. Tools like Playwright and Puppeteer use CDP under the hood; connecting via CDP to a live browser lets an agent operate within an existing authenticated session."
+    },
+    {
+      "key": "mcp-server",
+      "term": "MCP server",
+      "definition": "Short for Model Context Protocol server — a small integration layer that exposes tools (file system access, browser control, APIs) to a Claude Code session in a standardized way, so the agent can discover and call them without bespoke scaffolding."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2036842374933180660",
+  "generated_at": "2026-05-06T19:57:21.895349Z",
+  "backend": "claude"
+}

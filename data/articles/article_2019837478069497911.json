@@ -1,0 +1,143 @@
+{
+  "headline": "Font-Stealer Downloads Any Website's Fonts — The Rights Are Murkier",
+  "lede": "A free web tool called Font-Stealer lets anyone enter a website URL and download its typefaces — in standard formats like WOFF2 and TTF — within seconds. The mechanism exploits no vulnerability: web fonts are plain HTTP assets whose addresses are written openly in CSS, visible to any browser or script. The complication is that “technically accessible” and “legally permitted” are rarely the same thing in commercial font licensing.",
+  "body": "**Font-Stealer** is a Next.js web application that, given any website URL, fetches the page, parses its stylesheets, and extracts the file addresses of every typeface in use — then offers those files for download in *WOFF2*, *WOFF*, *TTF*, and *OTF* formats. The tool’s selling point is that it requires no browser extension, no network inspection, and no technical expertise: a URL goes in, downloadable font files come out.\n\nThe mechanism is not a hack. When a browser renders a page using a web font, the file is downloaded as a plain HTTP asset, its address written explicitly in the page’s CSS under an *@font-face* declaration — the standard rule that tells browsers where to fetch custom typefaces. Those addresses are visible in developer tools, and any script that fetches the page and reads its stylesheets can follow them. Google (GOOGL) documents this openly; the exposure is architectural, not accidental.\n\nThe legal picture depends almost entirely on which font is being downloaded. Typefaces released under the *SIL Open Font License* or *Apache 2.0* — essentially all of Google Fonts and much of Font Squirrel’s catalog — carry explicit permission to download, modify, and redistribute. For those, Font-Stealer is a convenient shortcut to something already freely licensed. Commercial fonts are another matter. Adobe (ADBE) explicitly prohibits self-hosting or extracting the font files its Creative Cloud subscription serves. Monotype, whose portfolio spans thousands of commercial typefaces, sells webfont licenses by domain; downloading that WOFF2 file and installing it locally violates the *webfont license*, the *desktop license*, and potentially copyright — simultaneously. Fontspring’s *EULA* makes the restriction explicit: “Make sure that the recipient of your product cannot extract the font file.”\n\nThe broader market of font-discovery tools — WhatFont (a browser extension), Fonts Ninja, WhatTheFont — is built around routing users toward purchase: they identify a typeface and link to a storefront. Font-Stealer skips the storefront entirely, which is both its appeal and its problem. The distinction between identifying a font and downloading its file is roughly analogous to looking up a song title versus copying the audio: one is research, the other copies the protected artifact.\n\nVercel, on whose infrastructure the tool runs, operates a reactive moderation model: it responds to *DMCA* takedown notices from rights holders rather than screening projects for license compliance. No such notice appears to have been filed against Font-Stealer as of this writing. The tool’s MIT-licensed repository has 39 stars on GitHub, and the fonts most likely to be downloaded by its typical user — a designer trying to match a site’s aesthetic — are probably already open-licensed. The legal exposure concentrates at the commercial end of the market, where it is real but enforcement has historically been slow and case-by-case.",
+  "tickers": [
+    "GOOGL",
+    "ADBE"
+  ],
+  "companies": [
+    {
+      "name": "Google",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Adobe",
+      "ticker": "ADBE"
+    },
+    {
+      "name": "Monotype",
+      "ticker": null
+    },
+    {
+      "name": "Fontspring",
+      "ticker": null
+    },
+    {
+      "name": "Font Squirrel",
+      "ticker": null
+    },
+    {
+      "name": "Vercel",
+      "ticker": null
+    }
+  ],
+  "poster": "Ayavanni",
+  "concepts": [
+    {
+      "key": "woff2",
+      "term": "WOFF2",
+      "definition": "Web Open Font Format 2, the dominant file format for web fonts, using Brotli compression to deliver typefaces roughly 30% more efficiently than its predecessor WOFF. Browsers download WOFF2 files as ordinary HTTP assets when rendering pages that call for custom typefaces; the file’s URL is written explicitly in the page’s CSS. WOFF, TTF, and OTF are older or alternative formats serving similar purposes."
+    },
+    {
+      "key": "font-face",
+      "term": "@font-face",
+      "definition": "A CSS at-rule that registers a custom typeface for use on a web page, specifying the font’s name and the URL from which the browser should fetch the font file. Every web font in use today is declared through a @font-face block in a stylesheet; those URLs are plainly readable in browser developer tools and page source, making them accessible to any script that fetches the page."
+    },
+    {
+      "key": "sil-open-font-license",
+      "term": "SIL Open Font License (OFL)",
+      "definition": "A free, open-source license for typefaces developed by SIL International. Fonts under the OFL may be used, modified, and redistributed freely — including in commercial products — provided that derivatives carry the same license. Google Fonts uses the OFL for the majority of its catalog, making those typefaces genuinely free to download and use."
+    },
+    {
+      "key": "apache-2-0",
+      "term": "Apache 2.0",
+      "definition": "A permissive open-source software license that allows free use, modification, and redistribution with minimal conditions — chiefly attribution. Google Fonts applies Apache 2.0 to some typefaces in its catalog, making them effectively free to download and deploy in any context."
+    },
+    {
+      "key": "eula",
+      "term": "EULA",
+      "definition": "End-User License Agreement; the legal contract governing what a licensee may do with software or a font. Font EULAs typically enumerate permitted uses — desktop design, web embedding, app inclusion, broadcast — and explicit prohibitions such as redistribution, extraction from websites, or use beyond the licensed domain or device count."
+    },
+    {
+      "key": "dmca",
+      "term": "DMCA",
+      "definition": "The Digital Millennium Copyright Act, a 1998 U.S. law governing copyright on the internet. Its safe harbor provisions protect platforms such as Vercel from liability for user-uploaded infringing content, provided the platform responds promptly to formal takedown notices from rights holders and removes the offending material."
+    },
+    {
+      "key": "webfont-license",
+      "term": "webfont license",
+      "definition": "A font license that permits a typeface to be embedded in a website’s CSS and served to visitors’ browsers via @font-face, typically priced per domain or per monthly pageview. A webfont license does not authorize installing the font file locally or using it in desktop design applications such as Figma or InDesign — that requires a separate desktop license, sold at a different price point."
+    },
+    {
+      "key": "desktop-license",
+      "term": "desktop license",
+      "definition": "A font license that permits installation on a local machine for use in applications like Adobe InDesign, Figma, or Microsoft Word. Desktop licenses are distinct from webfont licenses and do not authorize serving the font file on a website; the two are typically priced and sold separately by foundries."
+    },
+    {
+      "key": "next-js",
+      "term": "Next.js",
+      "definition": "A React-based web application framework developed by Vercel that supports server-side rendering, static site generation, and integrated API routes within a single project. It is the most widely adopted framework for building production React applications and is the underlying technology stack for Font-Stealer."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "Ayu270/font-stealer",
+      "url": "https://github.com/Ayu270/font-stealer",
+      "summary": "A Next.js and TypeScript application that accepts a website URL, fetches the page and its linked stylesheets, parses @font-face declarations to extract font file URLs, and delivers those files to the user for download in WOFF, WOFF2, TTF, and OTF formats. Licensed under MIT with 39 GitHub stars, it is the codebase behind the Font-Stealer tool promoted by @Shorya_codes. The repository includes React components for font preview and grid display, plus server-side API routes that handle the extraction logic."
+    }
+  ],
+  "fact_check": "The promotional tweet calls Font-Stealer “absolutely free,” which is accurate — the tool itself costs nothing to use. But the name and framing imply that downloading any website’s fonts is consequence-free. That is misleading for commercial typefaces: fonts served by Adobe, Monotype, Fontspring, and most commercial foundries carry EULAs that explicitly prohibit extracting the font file from a live site, regardless of which tool is used to do so. Notably, the tool’s own analyzer version includes a disclaimer stating that identifying a font does not grant usage rights — an acknowledgment that the branding outruns the legal reality.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/Ayu270/font-stealer",
+      "title": "Ayu270/font-stealer — GitHub",
+      "note": "Source code and README confirming Next.js/TypeScript stack and font extraction mechanism"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face",
+      "title": "MDN: @font-face",
+      "note": "Technical specification for the CSS at-rule that exposes web font URLs in plain text"
+    },
+    {
+      "url": "https://developers.google.com/fonts/faq",
+      "title": "Google Fonts FAQ",
+      "note": "Confirms OFL/Apache 2.0 licensing — downloading Google Fonts is explicitly permitted"
+    },
+    {
+      "url": "https://helpx.adobe.com/fonts/using/font-licensing.html",
+      "title": "Adobe Fonts: Font Licensing",
+      "note": "Adobe’s terms prohibiting extraction or self-hosting of Creative Cloud font files"
+    },
+    {
+      "url": "https://www.fontspring.com/terms",
+      "title": "Fontspring EULA v1.7.0",
+      "note": "Source of the explicit prohibition on recipients extracting font files"
+    },
+    {
+      "url": "https://www.type-together.com/understanding-webfont-licensing",
+      "title": "TypeTogether: Understanding Webfont Licensing",
+      "note": "Explainer on the distinction between webfont and desktop font licenses"
+    },
+    {
+      "url": "https://pixelambacht.nl/2017/github-font-piracy/",
+      "title": "GitHub Font Piracy (Pixelambacht, 2017)",
+      "note": "Documents widespread inadvertent font license violations in public code repositories"
+    },
+    {
+      "url": "https://vercel.com/legal/acceptable-use-policy",
+      "title": "Vercel Acceptable Use Policy",
+      "note": "Vercel’s DMCA-reactive moderation model and user content warranties"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=20462629",
+      "title": "HN: GitHub Became the Web’s Largest Font Piracy Site",
+      "note": "Community discussion on copyright status of commercial fonts in public repositories"
+    }
+  ],
+  "bookmark_id": "2019837478069497911",
+  "generated_at": "2026-05-07T12:35:06.300467Z",
+  "backend": "claude-sonnet-subagent"
+}

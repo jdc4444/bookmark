@@ -1,0 +1,70 @@
+{
+  "headline": "Math Academy Bets on Human Content, AI Scheduling to Compress Learning",
+  "lede": "A platform called Math Academy claims to compress a semester of mathematics into 20 to 40 focused hours — not by deploying a chatbot, but by separating what AI is good at from what it reliably gets wrong. Justin Skycak, the platform's Director of Analytics, distills the philosophy in a line: \"The AI handles personalization and pacing. The teaching comes from human expertise embedded in the content.\" OpenEd.co, which surveyed the AI tutoring landscape and spoke with Skycak and teams at several competing platforms, found this division of labor to be the distinguishing feature of tools that actually work.",
+  "body": "The technical engine behind Math Academy's compression claim is a mechanism called **Fractional Implicit Repetition** (*FIRe*). Traditional *spaced repetition* systems — the kind that power flashcard apps — treat every topic as independent: if you haven't reviewed fractions in a month, you get drilled on fractions. Math Academy begins from a different premise: mathematics is hierarchical. Successfully solving algebraic equations demonstrates, by necessity, that arithmetic has not been forgotten. *FIRe* maps those upstream-downstream relationships and credits earlier topics when later ones are mastered, eliminating review sessions the evidence says are redundant while flagging genuine gaps before they compound.\n\nThe contrast with most AI tutoring products is pointed. OpenEd.co found a recurring pathology in the free-tier tutoring market: tools optimized for *engagement* — badges, streaks, the dopamine architecture borrowed from gaming — because millions of casual users are what sustain ad-supported business models. That incentive structure rewards the appearance of learning. Students can navigate their way to \"correct\" answers without understanding having occurred.\n\nMath Academy's response is to keep generative AI entirely out of the explanation layer. Humans craft every lesson until it is, in Skycak's phrase, \"rock solid\"; the AI's role is limited to scheduling — deciding what each student is ready to tackle next and when prior material needs revisiting. This sidesteps the fluency-without-accuracy failure mode that bedevils chatbot-based tutors, which can generate confident but subtly wrong mathematics. The bet is that constrained, human-authored content paired with a smart sequencing engine outperforms an infinitely generative but unreliable one.\n\nThe 20-to-40-hour claim is bold enough to invite skepticism. The research literature on *mastery-based learning* — the broader pedagogical tradition in which students advance only after demonstrating competence, rather than on a fixed calendar — is broadly supportive of efficiency gains. But compression ratios this aggressive are rarely validated at scale in peer-reviewed trials, and the sources here do not cite any. Whether *FIRe*'s implicit-repetition logic holds across all student profiles and course levels is a question the platform has not yet answered publicly with independent data.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Math Academy",
+      "ticker": null
+    },
+    {
+      "name": "Khan Academy",
+      "ticker": null
+    },
+    {
+      "name": "OpenEd.co",
+      "ticker": null
+    },
+    {
+      "name": "Synthesis",
+      "ticker": null
+    },
+    {
+      "name": "Alpha School",
+      "ticker": null
+    }
+  ],
+  "poster": "justinskycak",
+  "concepts": [
+    {
+      "key": "fractional-implicit-repetition",
+      "term": "Fractional Implicit Repetition (FIRe)",
+      "definition": "A scheduling technique developed by Math Academy that exploits the hierarchical structure of mathematics. When a student masters a higher-level skill (say, algebra), the system infers that prerequisite skills (arithmetic) have been retained, and reduces or skips redundant review of those foundations. The 'fractional' part refers to crediting upstream topics only partially — enough to suppress unnecessary drilling without fully marking them as reviewed."
+    },
+    {
+      "key": "spaced-repetition",
+      "term": "spaced repetition",
+      "definition": "A study technique in which material is reviewed at increasing time intervals based on how well the learner recalls it — harder material comes back sooner, easier material later. Popularized by flashcard apps such as Anki. Effective for independent facts but treats every item as equally independent, which FIRe argues is wrong for a subject like mathematics."
+    },
+    {
+      "key": "mastery-based-learning",
+      "term": "mastery-based learning",
+      "definition": "A pedagogical model in which students must demonstrate competence at a given level before advancing to the next, rather than moving forward on a fixed calendar regardless of comprehension. Rooted in Benjamin Bloom's 1960s research; associated with efficiency gains when implemented rigorously because time is not wasted on material already mastered."
+    },
+    {
+      "key": "engagement-optimization",
+      "term": "engagement optimization",
+      "definition": "In edtech, the practice of designing for metrics like daily active users, session length, and return visits — often via game-like rewards (badges, streaks, leaderboards) — rather than for learning outcomes. Critics argue it creates a conflict of interest: the interface incentivizes the feeling of progress over genuine understanding."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that a semester of mathematics can be compressed into 20–40 hours is presented as Math Academy's own figure, not an independently replicated result. The sources consulted do not cite peer-reviewed trials at scale. The architectural argument is internally coherent, and mastery-based learning has a supportive literature, but readers should treat the specific compression ratio as a marketing claim pending external validation.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.linkedin.com/posts/openedhq_how-do-you-compress-a-semester-of-math-into-activity-7416708410940899328-661w",
+      "title": "AI-Powered Math Tutoring: Expert Insights from Justin Skycak | OpenEd.co on LinkedIn",
+      "note": "Primary source; contains Skycak's direct quotes on Math Academy's AI-vs-human content division"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/openedhq_how-do-you-compress-a-semester-of-math-into-activity-7416712146929098752-ifcW",
+      "title": "OpenEd.co AI tutoring landscape survey | LinkedIn",
+      "note": "Companion post; names the platforms surveyed (Math Academy, Synthesis, Khan Academy, Alpha School) and describes engagement-optimization critique"
+    }
+  ],
+  "bookmark_id": "2011212915857330400",
+  "generated_at": "2026-05-07T03:57:19.893112Z",
+  "backend": "claude"
+}

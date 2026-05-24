@@ -1,0 +1,21 @@
+{
+  "key": "SLV",
+  "name": "iShares Silver Trust",
+  "exchange": "NYSE Arca",
+  "type": "etf",
+  "note": "ETF — exception to standard no-ETF rule; included because SLV is a central subject of this bookmark.",
+  "blurb": "The iShares Silver Trust (SLV), managed by BlackRock, is the world's largest silver-backed exchange-traded fund by assets under management. Each share represents approximately 0.926 troy ounces of physical silver held in allocated vaults, giving investors direct economic exposure to spot silver without the logistics of physical ownership. SLV became a flashpoint during the January 2026 silver squeeze, when a confluence of structural deficits, Chinese export restrictions, and speculative momentum drove nearby COMEX silver futures to an all-time high of roughly $121.78 per ounce on January 29, 2026 — before a devastating 30%-plus crash in the subsequent thirty hours. The fund tracks spot silver closely, minus a 0.50% annual expense ratio.",
+  "recent": "Silver experienced one of its most volatile quarters on record in early 2026. After a 72% surge through January, silver crashed to near $63.90 by February 6 following Trump's nomination of hawkish Fed chair candidate Kevin Warsh and CME margin hikes. By mid-February spot silver had recovered to the low-to-mid $80s range (approximately $82.49 on February 12, 2026). By early April 2026 silver had climbed back above $70 per ounce. SLV closely tracks these moves. The structural backdrop — five consecutive years of market deficits, depleted LBMA and COMEX inventories, and strong industrial demand from solar and AI power infrastructure — remains intact but has not produced a sustained delivery crisis.",
+  "sources": [
+    {
+      "url": "https://www.ishares.com/us/products/239855/ISHARES-SILVER-TRUST-FUND",
+      "title": "iShares Silver Trust (SLV) — BlackRock"
+    },
+    {
+      "url": "https://sdbullion.com/blog/silver-rally-january-2026-biggest-intraday-price-drop",
+      "title": "Silver Rally January 2026: Biggest Intraday Price Drop — SD Bullion"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

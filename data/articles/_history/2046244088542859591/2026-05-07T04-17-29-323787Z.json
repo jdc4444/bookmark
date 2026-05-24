@@ -1,0 +1,90 @@
+{
+  "headline": "An AI Agent That Invents Its Own Trading Strategies",
+  "lede": "AutoHypothesis is an open-source framework in which a large-language-model agent proposes, codes, and refines quantitative trading strategies without any human input after initial setup. The project, shared by developer @artemg314, treats alpha discovery — finding systematic edges in stock markets — as a task that can be fully delegated to a machine. The results from a four-hour autonomous run are modest but coherent enough to take seriously as a proof of concept.",
+  "body": "**AutoHypothesis** works through a closed agentic loop: an agent reads a plain-English instructions file, writes Python code for a candidate trading strategy, back-tests it against historical equity data, interprets the results, and revises. No human touches the strategy code between iterations. The developer describes two components — `agent.py`, which holds the evolving strategy, and `program.md`, which the user writes once to define the research mandate.\n\nThe loop enforces a discipline that human quants often struggle to maintain. Training runs on data from 2010 to 2016. Before a strategy is accepted, it must survive two *out-of-sample* windows: 2017–2018 and a *walk-forward* period from 2019 to 2021. Walk-forward validation mimics live deployment — each window uses only data available at that point in time, preventing the agent from peeking ahead. Crucially, **no hyperparameter tuning** is permitted once a strategy enters validation. This rule exists to prevent *curve-fitting*: the tendency for a model to memorize historical noise rather than identify a repeatable pattern.\n\nAfter roughly 135 experiments, the agent converged on a multi-factor strategy. It uses a volume trend signal — the ratio of 60-day to 200-day average daily volume — as a proxy for accumulation or distribution pressure. It weights holdings by *inverse volatility*, allocating more capital to stocks that move less erratically. It buys equal-weight positions in the top *quintile* by combined score and applies turnover smoothing to reduce transaction costs from excessive rebalancing.\n\nThe holdout period — 2022 to 2025, data the agent never saw — produced a **Sharpe ratio of 0.86** against a benchmark of 0.67, with 28.1% annual portfolio turnover and an 11.4% *maximum drawdown*. The attached chart shows the best training-period Sharpe ratios clustering well above the equal-weight buy-and-hold benchmark of 1.08. The developer is candid that the strategy is not deployment-ready; the holdout covers an unusual macro stretch — the 2022 rate shock, the 2023–2024 equity rally — making any stable signal plausible but the sample inherently short.\n\nThe broader ambition is to automate the hypothesis-generation step of quantitative research entirely. The next planned extension would let the agent redesign its own data pipeline, moving from strategy invention to self-directed data engineering. Whether systems like this can reliably find persistent *market inefficiencies* — real edges rather than historical coincidences — remains the central open question in this line of research.",
+  "tickers": [],
+  "companies": [],
+  "poster": "artemg314",
+  "concepts": [
+    {
+      "key": "sharpe-ratio",
+      "term": "Sharpe ratio",
+      "definition": "A measure of risk-adjusted return calculated as a portfolio's excess return over a risk-free rate divided by its return volatility. A higher ratio means more return per unit of risk. Above 1.0 is generally considered good; above 2.0, exceptional."
+    },
+    {
+      "key": "out-of-sample",
+      "term": "out-of-sample validation",
+      "definition": "Testing a model on data it was never trained on, to verify that its performance reflects genuine signal rather than memorized noise. The model has no visibility into this period during the training phase."
+    },
+    {
+      "key": "walk-forward-validation",
+      "term": "walk-forward validation",
+      "definition": "A stricter form of out-of-sample testing that sequences multiple validation windows in chronological order, retraining using only data available up to each window's start. It mimics how a live strategy would actually be updated over time, preventing any inadvertent look-ahead."
+    },
+    {
+      "key": "curve-fitting",
+      "term": "curve-fitting",
+      "definition": "In quantitative finance, the mistake of tuning a model so closely to historical data that it captures random noise rather than persistent patterns. A curve-fitted strategy looks excellent in back-tests but fails on new data."
+    },
+    {
+      "key": "hyperparameter-tuning",
+      "term": "hyperparameter tuning",
+      "definition": "Adjusting a model's configuration settings — thresholds, window lengths, weighting parameters — to improve measured performance. When done on the same data used to evaluate the model, it risks producing curve-fitted results that don't generalize."
+    },
+    {
+      "key": "inverse-volatility-weighting",
+      "term": "inverse volatility weighting",
+      "definition": "A portfolio construction method that allocates more capital to less volatile assets and less to more volatile ones, in inverse proportion to each asset's historical volatility. The goal is to roughly equalize each holding's contribution to overall portfolio risk."
+    },
+    {
+      "key": "quintile",
+      "term": "quintile",
+      "definition": "One of five equal segments produced by ranking a population by some measure. 'Top quintile' means the top 20% of stocks by a given score. Common in factor-investing research as a way to compare the best- versus worst-ranked names."
+    },
+    {
+      "key": "maximum-drawdown",
+      "term": "maximum drawdown",
+      "definition": "The largest peak-to-trough decline in a portfolio's value over a given period, expressed as a percentage. It measures worst-case loss and is widely used as a proxy for downside risk alongside return metrics."
+    },
+    {
+      "key": "turnover",
+      "term": "portfolio turnover",
+      "definition": "The fraction of a portfolio's holdings replaced over a given period, typically annualized. High turnover increases transaction costs and can erode returns; turnover smoothing techniques reduce unnecessary trades between rebalancing periods."
+    },
+    {
+      "key": "market-inefficiency",
+      "term": "market inefficiency",
+      "definition": "A condition in which asset prices do not fully reflect all available information, leaving exploitable patterns or mispricings. Quantitative strategies attempt to profit from these anomalies before the market corrects them. Most academic evidence suggests large, persistent inefficiencies are rare."
+    },
+    {
+      "key": "alpha",
+      "term": "alpha",
+      "definition": "Return in excess of what a benchmark or risk model would predict, attributed to skill or a genuine informational edge rather than market exposure. 'Finding alpha' means identifying a systematic source of above-market returns."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "arteemg-AutoHypothesis",
+      "url": "https://github.com/arteemg/AutoHypothesis",
+      "summary": "AutoHypothesis is an open-source Python framework for autonomous quantitative trading strategy discovery. An LLM agent proposes, codes, and iteratively refines trading hypotheses against historical equity data, enforcing strict out-of-sample and walk-forward validation rules to discourage overfitting. After an initial plain-English research mandate is written by the user, no human input is required during the hypothesis search loop."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/artemg314/status/2046244088542859591",
+      "title": "AutoHypothesis announcement tweet by @artemg314",
+      "note": "Primary source: full description of framework design, agentic loop, and holdout results"
+    },
+    {
+      "url": "https://github.com/arteemg/AutoHypothesis",
+      "title": "AutoHypothesis GitHub repository",
+      "note": "Open-source code referenced in the tweet"
+    }
+  ],
+  "bookmark_id": "2046244088542859591",
+  "generated_at": "2026-05-07T04:17:29.323787Z",
+  "backend": "claude"
+}

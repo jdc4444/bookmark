@@ -1,0 +1,28 @@
+{
+  "key": "EMG.L",
+  "name": "Man Group Plc",
+  "exchange": "London Stock Exchange",
+  "blurb": "Man Group Plc is a global active investment management firm headquartered in London, specializing in quantitative and systematic strategies across equities, fixed income, and alternative assets. As one of the world's largest publicly traded hedge fund managers, it manages over $150 billion in assets under management. The company is known for its flagship AHL and Numeric funds, leveraging data-driven models to generate returns.",
+  "recent": "In the past 30 days, Man Group's stock (EMG.L) has traded near its 52-week high of 281.00 GBp, reaching 268.20 GBp on February 19, 2026, driven by strong performance in its quantitative funds and positive market sentiment. The company reported a dividend yield of 4.75% and a P/E ratio of 23.14, with no major earnings announcements in the period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/EMG.L/",
+      "title": "Man Group Plc (EMG.L) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/EMG.L/",
+      "title": "(EMG.L) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/emg.l",
+      "title": "EMG.L: Man Group PLC - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.investing.com/equities/man-group",
+      "title": "Man Group Stock Price Today | LON: EMG Live - Investing.com"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:10:59.269030Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,20 @@
+{
+  "key": "BOT",
+  "name": "RoboStrategy, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "RoboStrategy, Inc. is a closed-end management investment company headquartered in San Juan, Puerto Rico, designed to give public-market investors concentrated exposure to robotics and physical AI. It is the first public closed-end fund structured specifically around private, pre-IPO, and public robotics companies, bridging a gap previously accessible only to venture capital. Its portfolio includes high-profile private names such as Figure AI, Apptronik, Dyna Robotics, Standard Bots, and Dexmate. Led by CEO Andrew Kang, the fund aims to let institutional and retail investors participate in the robotics revolution through a single listed security.",
+  "recent": "RoboStrategy listed on NASDAQ under ticker BOT on May 11, 2026, marking its first-ever public trading. Within two days of its debut the stock experienced extreme volatility, triggering multiple intraday trading halts on both May 13 and May 14, 2026. On May 13 shares closed at $21.01, down 17.28% on the day, well off the 52-week high of $59.00, with the intraday low of $19.20 setting a new 52-week floor.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/bot/",
+      "title": "Robostrategy (BOT) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://markets.businessinsider.com/news/stocks/robostrategy-inc-lists-on-nasdaq-under-ticker-bot-enabling-investors-to-access-a-portfolio-of-robotics-and-physical-ai-companies-in-a-single-stock-1036136947",
+      "title": "RoboStrategy, Inc. Lists on NASDAQ Under Ticker \"BOT\" — Markets Insider / GlobeNewswire"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:32:35.633026Z",
+  "backend": "claude-sonnet-subagent"
+}

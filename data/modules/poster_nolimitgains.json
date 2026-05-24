@@ -1,0 +1,22 @@
+{
+  "key": "NoLimitGains",
+  "display_name": "NoLimit",
+  "blurb": "Could not be determined from available sources. Both X.com profile pages for @NoLimitGains and the alternate handle @NoLimtGains_ returned no content due to JavaScript being disabled in the scraping environment. No reliable information about their domain expertise, posting focus, or follower count could be retrieved.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/NoLimitGains"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/NoLimitGains",
+      "title": "NoLimit (@NoLimitGains) / Posts / X"
+    },
+    {
+      "url": "https://x.com/NoLimtGains_",
+      "title": "NoLimit (@NoLimtGains_) / Posts / X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:01:34.478555Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "QCOM",
+  "name": "QUALCOMM Incorporated",
+  "exchange": "NASDAQ",
+  "blurb": "QUALCOMM is the dominant designer of smartphone application processors (Snapdragon) and the world leader in mobile baseband modems — the chips that connect phones to cellular networks. The company operates a dual business model: QCT (chip sales) and QTL (technology licensing), with the latter generating high-margin royalties on every 3G/4G/5G handset sold globally. QUALCOMM is actively diversifying into automotive silicon and edge AI processors to reduce dependence on the handset market, particularly following Apple's decision to develop its own modems.",
+  "recent": "Q2 FY2026 revenue reached $10.6 billion with non-GAAP EPS of $2.65. Automotive revenue hit $1.3 billion (+38% YoY), crossing $5 billion annualised for the first time. The expected partial loss of Apple modem business is weighing on forward EPS consensus, producing near-flat EPS growth estimates (-0.3%) for next fiscal year despite strong automotive and IoT momentum. Forward P/E sits at ~15.7x — undemanding for a franchise with durable licensing revenue.",
+  "sources": [
+    {"url": "https://investor.qualcomm.com/files/doc_financials/2026/q2/FY2026-2nd-Quarter-Earnings-Presentation_4-29-26_Final.pdf", "title": "Qualcomm Q2 FY2026 Earnings Presentation"},
+    {"url": "https://www.gurufocus.com/news/8831042/qualcomm-inc-qcom-q2-2026-earnings-call-highlights-record-automotive-revenues-and-strategic-ai-engagements", "title": "QUALCOMM Q2 2026 Earnings Call Highlights — GuruFocus"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

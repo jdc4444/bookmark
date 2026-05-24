@@ -1,0 +1,48 @@
+{
+  "headline": "When Anyone Can Build Software, Only Sales Still Pays",
+  "lede": "A short thread opening from @boneGPT crystallizes an argument spreading quietly through startup circles: that AI-assisted coding has hollowed out the engineering advantage so thoroughly that distribution and sales are now the only durable edges left. The claim is sweeping, partly right, and worth taking seriously even where it overshoots.",
+  "body": "The word the poster uses — *vibecoding* — was coined by AI researcher Andrej Karpathy to describe a mode of software development in which a user describes what they want in plain language and an AI model writes the code. The term stuck because it captured something real: the barrier to producing a working prototype has collapsed to roughly the time it takes to type a prompt. Tools like Cursor, Replit, and Bolt now let people with no formal training ship functional web apps in hours.\n\nThe economic implication @boneGPT draws is a version of a classic argument in industrial history. When a production technique becomes universally accessible — the printing press, the container ship, cloud computing — whatever was scarce before becomes table stakes, and competitive advantage migrates upstream to whoever controls attention and access to buyers. His argument is that code is now in that category. If your competitor can replicate your feature set over a weekend, the feature set is not the moat.\n\nThis is where **distribution** enters as the surviving differentiator. Distribution, in this context, means the owned channels, audiences, and relationships through which a product reaches paying customers — an email list, a social following, a referral network, an ad machine that converts efficiently. Marketing agencies in 2025 monetize through retainers, performance-based deals, and audience-driven content precisely because reaching buyers reliably is harder than building the thing being sold.\n\nThe argument resonates most cleanly for the category of product it describes: simple consumer apps, micro-SaaS tools, productivity utilities — things vibecoding actually produces reliably. It fits less neatly over complex enterprise software, security-critical infrastructure, or anything requiring sustained architectural decisions. A hospital's electronic health record system cannot be vibecoded into existence; the engineering judgment still commands a premium in such domains. The post's breezy *\"anybody can vibecode anything\"* glosses over this ceiling.\n\nStill, the thread lands on a genuine shift in where founders and solopreneurs should allocate scarce time. The global digital advertising market runs into the hundreds of billions of dollars annually precisely because reaching buyers at scale is difficult and expensive. For a solo builder with a functioning product, the bottleneck is almost never the code — it is the next hundred customers. That, at minimum, is the useful and durable kernel inside the provocation.",
+  "tickers": [],
+  "poster": "boneGPT",
+  "concepts": [
+    {
+      "key": "vibecoding",
+      "term": "Vibecoding",
+      "definition": "A term coined by AI researcher Andrej Karpathy for a style of software development in which a user describes desired functionality in natural language and an AI model generates the code. It lowers the entry barrier to shipping working software dramatically, though it works best for simple or prototype-scale applications and struggles with complex, large-scale, or security-sensitive systems."
+    },
+    {
+      "key": "distribution-moat",
+      "term": "Distribution moat",
+      "definition": "A competitive advantage rooted not in a product's features but in the channels through which it reliably reaches buyers — an email list, a social audience, ad systems that convert efficiently, or a referral network. The idea is that if the product itself can be replicated cheaply, whoever owns the customer relationship holds the durable edge."
+    },
+    {
+      "key": "alpha",
+      "term": "Alpha",
+      "definition": "Borrowed from finance, where it means returns in excess of a market benchmark. In startup and creator parlance it has drifted to mean any advantage, insight, or capability that is not yet widely available — something that lets you outperform peers who have access to the same basic resources."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that 'anybody can vibecode anything' overstates AI coding tools' current capabilities. Vibecoding reliably produces simple apps, scripts, and prototypes, but breaks down for systems requiring sustained architectural judgment, security guarantees, high-load performance, or large codebases where context exceeds what models handle well. The broader thesis — that distribution is now more scarce than engineering — is defensible for solo builders and consumer apps, but does not hold uniformly across enterprise software or infrastructure-layer products, where deep technical differentiation still commands meaningful price premiums.",
+  "thread_summary": "The tweet is the opening of a thread in which @boneGPT promises to share everything he knows about selling, marketing, and distribution for software products built in the AI era. The premise is that vibecoding has commoditized building, so the thread's value proposition is tactical: how to find buyers, run ads, and build distribution channels rather than how to write better code.",
+  "sources": [
+    {
+      "url": "https://www.statista.com/topics/990/global-advertising-market/",
+      "title": "Advertising worldwide – statistics & facts | Statista",
+      "note": "Context on the scale and structure of the global advertising market, underscoring why distribution is expensive and valuable."
+    },
+    {
+      "url": "https://www.investopedia.com/stock-analysis/032114/how-facebook-twitter-social-media-make-money-you-twtr-lnkd-fb-goog.aspx",
+      "title": "How Facebook (Meta), X Corp (Twitter), Social Media Make Money From You",
+      "note": "Explains how major platforms monetize attention through ads — the infrastructure underlying the distribution argument."
+    },
+    {
+      "url": "https://gigradar.io/blog/how-do-marketing-agencies-make-money",
+      "title": "How Do Marketing Agencies Make Money in 2025?",
+      "note": "Details current agency revenue models (retainers, performance-based, SaaS), illustrating how the market prices distribution work."
+    }
+  ],
+  "bookmark_id": "1956518596676366720",
+  "generated_at": "2026-05-06T20:33:36.562028Z",
+  "backend": "claude"
+}

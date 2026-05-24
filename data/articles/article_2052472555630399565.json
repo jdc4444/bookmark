@@ -1,0 +1,142 @@
+{
+  "headline": "Citi's Fifteen Rules for Surviving the Semiconductor Cycle",
+  "lede": "A compact set of institutional heuristics for semiconductor investing — attributed to Citigroup's long-tenured chip analyst — has one rule above all others: buy when component delivery times are lengthening, sell when they begin to shrink. As of mid-2026, multiple data sources confirm the signal is firmly in buy territory.",
+  "body": "A research document published by Citigroup (C) — known informally as the '15 Axioms of Semiconductor Investing' and widely attributed to the bank's long-tenured semiconductor equity analyst Christopher Danely — has circulated among institutional fund managers as a compact taxonomy of how chip stocks actually behave. The rules are blunt by design, shaped by decades of boom-and-bust *semiconductor cycles*: don't rely on management to call a downturn, don't buy on valuation, and never assume 'it's different this time.' Distributed to institutional clients through Citi's proprietary research platform, the document is not publicly indexed; its axioms circulate on financial social media as a kind of informal catechism.\n\nAxiom seven — 'buy stocks when lead times go out, sell stocks when lead times come in' — is the most actionable of the fifteen. **Lead times** are the elapsed weeks between placing a component order and receiving it. When customers must book further in advance, it signals that fabrication capacity is being strained by demand. That strain generates a feedback loop: procurement managers place duplicate orders with multiple suppliers as insurance, a phenomenon called *double-ordering*, which artificially inflates apparent demand and accelerates price increases. Chip company earnings revisions follow one or two quarters later, and stocks — which discount future earnings — typically begin moving before revenue data prints.\n\nThe current data is unambiguous. A Baird survey published in April 2026 found lead times surging across major semiconductor categories: *DRAM* (dynamic random-access memory, the dominant form of computer working memory) has stretched to 41 weeks for DDR5 and mobile variants; Xilinx-branded *FPGAs* — reconfigurable logic chips now part of Advanced Micro Devices (AMD) — are quoted at 40 weeks; microcontrollers from STMicroelectronics (STM) are running 55 weeks or longer in some distribution channels. Component distributor Sourceability noted that supply-chain inventory buffers had collapsed from 31 weeks to under eight. Micron Technology (MU) has reportedly sold out its entire 2026 allocation of *high-bandwidth memory* (HBM), the stacked-memory architecture that AI accelerators require in volume.\n\nThe macro context reinforces the signal. The Semiconductor Industry Association reported global chip sales of $791.7 billion in 2025 — a record, up 25.6% year-on-year — with the industry on track to breach $1 trillion in 2026. Deloitte estimated that AI-specific chips will account for roughly half of all semiconductor revenue that year, driven by demand for accelerators and HBM from *hyperscaler* data-centre operators. A KPMG confidence survey reached its third-highest reading in two decades at the end of 2025, with 93% of industry leaders expecting further revenue growth.\n\nThe remaining fourteen axioms function as guardrails rather than entry signals. The list is sceptical of management guidance (axioms two and ten), dismissive of valuation-based trades (axiom one), and pessimistic about corporate pivots away from core businesses (axiom twelve). Axiom thirteen — second-tier companies feel downturns earliest and recover latest — is an asymmetry worth keeping in mind as the upcycle draws attention to smaller names. Axiom fifteen instructs investors to pause when a stock stops reacting rationally to news, a behavioural warning that sentiment has disconnected from fundamentals in either direction. None are novel observations; the document's value lies in assembling them, unadorned, as a single checklist.",
+  "tickers": [
+    "C",
+    "AMD",
+    "STM",
+    "MU"
+  ],
+  "companies": [
+    {
+      "name": "Citigroup",
+      "ticker": "C"
+    },
+    {
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD"
+    },
+    {
+      "name": "STMicroelectronics",
+      "ticker": "STM"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "Baird",
+      "ticker": null
+    },
+    {
+      "name": "Sourceability",
+      "ticker": null
+    },
+    {
+      "name": "Deloitte",
+      "ticker": null
+    },
+    {
+      "name": "KPMG",
+      "ticker": null
+    }
+  ],
+  "poster": "PythiaR",
+  "concepts": [
+    {
+      "key": "semiconductor-cycle",
+      "term": "Semiconductor Cycle",
+      "definition": "The recurring boom-and-bust pattern in chip industry revenue, typically spanning four to five years. It is driven by the multi-year lag between demand signals and new fabrication capacity coming online, which produces alternating periods of shortage and glut. Semiconductor stocks tend to lead the revenue cycle by one to two quarters."
+    },
+    {
+      "key": "lead-times",
+      "term": "Lead Times",
+      "definition": "The elapsed time between placing a purchase order with a chip manufacturer or distributor and receiving the components. In normal conditions this runs eight to sixteen weeks; during supply crunches it can exceed fifty weeks. Expanding lead times signal demand outpacing supply capacity; contracting lead times signal the reverse."
+    },
+    {
+      "key": "double-ordering",
+      "term": "Double-Ordering",
+      "definition": "The practice of placing duplicate purchase orders with multiple chip suppliers simultaneously, typically as insurance when shortages are feared. It inflates apparent industry demand beyond real end-market consumption and can cause severe inventory gluts when the shortage resolves and excess orders are cancelled."
+    },
+    {
+      "key": "dram",
+      "term": "DRAM",
+      "definition": "Dynamic random-access memory — the dominant form of volatile working memory in computers, servers, and smartphones. Unlike flash storage, it must be constantly refreshed with electrical charge to retain data. The primary producers are Micron Technology, SK Hynix, and Samsung."
+    },
+    {
+      "key": "fpga",
+      "term": "FPGA",
+      "definition": "Field-programmable gate array — a semiconductor chip whose logic circuits can be reconfigured by the buyer after manufacture, unlike fixed-function chips such as CPUs or GPUs. FPGAs are used in telecommunications infrastructure, aerospace, and increasingly in AI inference workloads where hardware flexibility matters more than raw throughput."
+    },
+    {
+      "key": "high-bandwidth-memory",
+      "term": "High-Bandwidth Memory (HBM)",
+      "definition": "A type of DRAM in which multiple memory dies are stacked vertically and connected directly to a processor or accelerator via a very wide data interface. It delivers far higher data-transfer rates than conventional DRAM at lower power and is essential for AI accelerators such as Nvidia's H100 and B200 series."
+    },
+    {
+      "key": "hyperscaler",
+      "term": "Hyperscaler",
+      "definition": "A company that operates data centres at the largest scale — typically Amazon, Microsoft, Google, and Meta — and spends tens of billions of dollars annually on server infrastructure including custom and third-party AI chips. Hyperscaler capital-expenditure cycles have become a primary driver of semiconductor demand in the 2020s."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.investing.com/news/stock-market-news/semiconductor-lead-times-surge-across-multiple-segments-baird-reports-93CH-4605978",
+      "title": "Semiconductor Lead Times Surge Across Multiple Segments, Baird Reports",
+      "note": "Baird April 2026 survey confirming broad lead-time expansion across DRAM, FPGAs, MOSFETs, and MCUs"
+    },
+    {
+      "url": "https://sourceability.com/post/q4-2025-lead-time-report-highlights",
+      "title": "Q4 2025 Electronic Component Lead Time Report — Sourceability",
+      "note": "Distributor data showing inventory buffers collapsing to under 8 weeks"
+    },
+    {
+      "url": "https://sourceability.com/post/q1-2026-lead-time-report-highlights",
+      "title": "Q1 2026 Electronic Component Lead Time Report — Sourceability",
+      "note": "Q1 2026 update showing memory allocation-only contracts and broad price increases"
+    },
+    {
+      "url": "https://j2sourcing.com/blog/semiconductor-shortages-50-memory-price-spikes-55-week-lead-times-2026/",
+      "title": "Semiconductor Shortages: 50% Memory Price Spikes, 55+ Week Lead Times in 2026 — J2 Sourcing",
+      "note": "Sourcing intelligence on STMicro MCU lead times and Micron HBM sellout"
+    },
+    {
+      "url": "https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/",
+      "title": "Global Annual Semiconductor Sales Increase 25.6% to $791.7 Billion in 2025 — SIA",
+      "note": "Authoritative SIA revenue figure for 2025"
+    },
+    {
+      "url": "https://www.semiconductors.org/global-semiconductor-sales-increase-25-from-q4-2025-to-q1-2026/",
+      "title": "Global Semiconductor Sales Increase 25% from Q4 2025 to Q1 2026 — SIA",
+      "note": "Continued expansion data confirming the upcycle into Q1 2026"
+    },
+    {
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html",
+      "title": "2026 Semiconductor Industry Outlook — Deloitte Insights",
+      "note": "Deloitte forecast that AI chips will represent roughly half of semiconductor revenue in 2026"
+    },
+    {
+      "url": "https://kpmg.com/us/en/media/news/ai-boom-drives-semiconductor-industry-confidence.html",
+      "title": "AI-Boom Drives Semiconductor Industry Confidence to Near-Record High — KPMG",
+      "note": "KPMG index at third-highest reading in two decades; 93% of executives expecting growth"
+    },
+    {
+      "url": "https://www.tipranks.com/experts/analysts/christopher-danely",
+      "title": "Christopher Danely — Citi Analyst Profile, TipRanks",
+      "note": "Background on Danely as Citi's lead semiconductor equity analyst and likely author of the Axioms"
+    },
+    {
+      "url": "https://www.investing.com/academy/trading/how-to-analyze-semiconductor-stocks/",
+      "title": "How to Analyze Semiconductor Stocks — Investing.com Academy",
+      "note": "Framework for understanding lead-time mechanics and their relationship to semiconductor stock performance"
+    }
+  ],
+  "bookmark_id": "2052472555630399565",
+  "generated_at": "2026-05-08T12:38:04.034036Z",
+  "backend": "claude-sonnet-subagent"
+}

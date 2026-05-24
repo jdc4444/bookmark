@@ -1,0 +1,149 @@
+{
+  "headline": "A Power Inventor's Long Game in the AI Infrastructure Buildout",
+  "lede": "A detailed investment post by @joedab12 makes the case for Vicor Corporation (VICR) as a structural beneficiary of the AI infrastructure boom — not through chip design or software, but through the unglamorous physics of delivering tens of thousands of amperes to a hungry processor. The argument rests on three pillars: a manufacturing ramp linked to the wafer-scale AI accelerator market, an accelerating patent-royalty stream from International Trade Commission victories, and a speculative but technically coherent potential design-in on NVIDIA's next-generation GPU architecture. The poster frames it as a repeat of a prior successful call on Applied Optoelectronics (AAOI), which he claims to have recommended in the $50s before a roughly 300-percent gain.",
+  "body": "The engineering premise is simple to state and hard to commercialise. As AI accelerators push core voltages below 0.85 volts and current demands past tens of thousands of amperes at the die edge, the conventional approach — routing power laterally across a printed circuit board through a *power-distribution network* (PDN) before it descends to the chip — wastes unacceptable fractions of energy to resistance and inductance. Vicor Corporation (VICR) has spent most of a decade building its answer: *vertical power delivery* (VPD), in which a thin current-multiplier module called a *VTM* mounts directly beneath the processor on the underside of the board and pushes current straight up into the chip face. Second-generation VPD, disclosed on Vicor's Q1 2026 earnings call, achieves 3 amperes per square millimetre at a current multiplication factor of up to 40 times inside a 1.5mm package — parameters targeted at 3nm and 5nm process nodes.\n\nThe company that Vicor (VICR) is almost certainly supplying is **Cerebras Systems**, maker of the *Wafer-Scale Engine* (WSE) — a single silicon die roughly the size of a dinner plate, drawing approximately 23 kilowatts per system. At that scale, vertical delivery is not a preference but a necessity; routing power laterally to the edge of a wafer that large would exhaust any practical conductor. Management has described its lead customer in recent earnings calls as \"the maker of a wafer-scale-engine-based AI accelerator,\" while in the same Q1 2026 call citing Cerebras by name as the archetype of the power-density problem VPD is designed to solve. Neither company has issued a press release confirming the relationship; semiconductor analysts who have traced the supply chain independently treat it as established fact. Cerebras does not appear to be publicly traded, making Vicor the most direct listed proxy for this exposure.\n\nThe manufacturing story is real but the timeline is overstated. Vicor (VICR) operates a proprietary *3Di* fabrication process — a form of three-dimensional chip stacking — at its Federal Street fab in Andover, Massachusetts, which the company owns outright. Management has confirmed a long-run annual revenue capacity target of $1.5 billion for the facility, with a second 3Di production line to be installed in the second half of 2026. However, 2026 full-year revenue guidance stands at roughly $570 million, and management on the Q1 2026 earnings call explicitly declined to commit to a year-end 2026 target for the $1.5 billion ceiling, calling such specificity \"unwise.\" What is confirmed: a $301 million backlog as of Q1 2026, up 70% sequentially, and a self-description as \"essentially sold out for the foreseeable future.\" An unnamed major *hyperscaler* is reported to have tested second-generation VPD, with results satisfactory enough to motivate additional capacity commitments at Andover.\n\nA parallel revenue stream from intellectual property may prove as durable as the product business. In February 2025 the *International Trade Commission* (ITC) upheld Vicor's (VICR) power-converter patents in Case 337-TA-1370, issuing a Limited Exclusion Order that bars the importation of infringing modules and computing systems. Delta Electronics (2308.TW) and Quanta Computer (2382.TW) are among the named respondents. Vicor expects nearly $300 million in cumulative settlement and licensing revenues through 2026 from that case. Royalties grew from $2.8 million in 2022 to $57.4 million across full-year 2025 — a compelling trajectory, though the tweet's \"$90 million annual run-rate\" claim is not supported by any public filing or earnings guidance. A second ITC investigation (337-TA-1484), filed in early 2026, names **Monolithic Power Systems (MPWR)** and Delta as respondents — a striking escalation, given that MPWR displaced Vicor at NVIDIA (NVDA) during the H100 generation and now commands roughly 6.7 times Vicor's market capitalisation on approximately 6 times the revenue.\n\nThe thesis closes with its most speculative proposition. \"Feynman\" is a confirmed NVIDIA (NVDA) GPU architecture announced at GTC 2025, planned for 2028 on Taiwan Semiconductor Manufacturing's (TSM) 1.6-nanometre A16 node. At that process node, with three-dimensional die stacking, power density requirements will likely surpass what conventional lateral delivery can sustain — making vertical delivery a logical beneficiary. But no public statement from either company confirms a Vicor (VICR) design engagement, and 2028 is a long way from a confirmed customer win. Undergirding the entire argument is founder Patrizio Vinciarelli, who at 79 holds 27.1% of Vicor's publicly traded common stock and 94.1% of the super-voting Class B shares, translating to 79.1% of total voting power — a degree of founder control essentially without parallel among profitable, publicly traded American semiconductor firms, and a structural shield against the activist pressure that could derail a multi-year manufacturing ramp.",
+  "tickers": [
+    "VICR",
+    "MPWR",
+    "NVDA",
+    "2308.TW",
+    "2382.TW",
+    "TSM"
+  ],
+  "companies": [
+    {
+      "name": "Vicor Corporation",
+      "ticker": "VICR"
+    },
+    {
+      "name": "Applied Optoelectronics",
+      "ticker": "AAOI"
+    },
+    {
+      "name": "Cerebras Systems",
+      "ticker": null
+    },
+    {
+      "name": "Monolithic Power Systems",
+      "ticker": "MPWR"
+    },
+    {
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Delta Electronics",
+      "ticker": "2308.TW"
+    },
+    {
+      "name": "Quanta Computer",
+      "ticker": "2382.TW"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM"
+    }
+  ],
+  "poster": "joedab12",
+  "concepts": [
+    {
+      "key": "vertical-power-delivery",
+      "term": "Vertical Power Delivery (VPD)",
+      "definition": "Vicor's patented power architecture in which a current-multiplier module mounts directly beneath a processor on the underside of a circuit board and delivers current vertically into the chip face, rather than routing it laterally across the board. This eliminates the resistive and inductive losses of conventional power distribution and becomes critical as chip voltages fall below 1 volt and current demands climb into the tens of thousands of amperes per die."
+    },
+    {
+      "key": "power-distribution-network",
+      "term": "Power-Distribution Network (PDN)",
+      "definition": "The network of conductors — copper planes, traces, decoupling capacitors, and voltage regulators — on a circuit board that routes power from a supply to a processor. As chip voltages shrink and current demands grow with each semiconductor generation, the PDN's parasitic resistance and inductance increasingly limit how much power can be delivered efficiently; this is the fundamental constraint Vicor's VPD architecture is designed to overcome."
+    },
+    {
+      "key": "vtm",
+      "term": "VTM (Voltage Transformation Module)",
+      "definition": "Vicor's current-multiplier chip that converts an intermediate bus voltage — typically 48 volts — to the sub-1-volt level a processor requires, while multiplying the delivered current by up to 40 times. In the VPD architecture the VTM is packaged in a 1.5mm-thick module and mounts on the underside of a circuit board directly beneath the processor die, minimising the distance current must travel after voltage transformation."
+    },
+    {
+      "key": "wafer-scale-engine",
+      "term": "Wafer-Scale Engine (WSE)",
+      "definition": "An AI processor built from an entire silicon wafer rather than individual chips diced from it. By eliminating inter-chip boundaries, a WSE removes communication bottlenecks but generates extraordinary power density in the process. Cerebras Systems' CS-3 system draws approximately 23 kilowatts per unit — creating the exact current-delivery challenge Vicor's VPD architecture is engineered to solve."
+    },
+    {
+      "key": "3di-fabrication",
+      "term": "3Di Fabrication",
+      "definition": "Vicor's proprietary three-dimensional chip-stacking and packaging process used to manufacture its power modules. Rather than assembling components on a flat substrate, 3Di stacks power-conversion elements vertically, enabling the high current density and thin form factor that vertical power delivery requires. Vicor operates its 3Di process at its Andover, Massachusetts fab, which the company owns outright — an unusual degree of vertical integration for a semiconductor firm of its size."
+    },
+    {
+      "key": "itc-limited-exclusion-order",
+      "term": "ITC Limited Exclusion Order (LEO)",
+      "definition": "An order issued by the U.S. International Trade Commission prohibiting the importation of products found to infringe a domestic patent holder's rights. Unlike a federal court injunction, a LEO operates at the border and does not require a showing of irreparable harm, making it a potent enforcement tool for patent holders whose competitors manufacture abroad and import into the United States."
+    },
+    {
+      "key": "hyperscaler",
+      "term": "Hyperscaler",
+      "definition": "A company that operates cloud computing infrastructure at the largest scale — Amazon Web Services, Microsoft Azure, Google Cloud, and Meta among the canonical examples. In semiconductor analysis the term doubles as shorthand for the dominant buyers of AI chips and power systems, whose capital expenditure decisions effectively set the volume and trajectory of the entire supply chain."
+    },
+    {
+      "key": "controlled-company",
+      "term": "Controlled Company",
+      "definition": "Under Nasdaq rules, a company qualifies as a controlled company when a single shareholder or group controls more than 50% of total voting power. Controlled companies are exempt from certain board independence requirements. At Vicor, founder Patrizio Vinciarelli controls 79.1% of voting power through Class B super-voting shares (which carry 10 votes each), qualifying it for the designation and giving him effective veto power over all major corporate decisions."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Three claims in the post require qualification. First, 'max capacity by year-end' overstates Vicor's own guidance: the $1.5 billion capacity target for Fab One is real, but management explicitly declined on the Q1 2026 earnings call to commit to a year-end 2026 timeline, calling such specificity unwise; full-year 2026 revenue guidance is approximately $570 million. Second, the '$90 million annual royalty revenue' figure has not been achieved or guided publicly — full-year 2025 royalties totalled $57.4 million, up from $46.6 million in 2024. Third, the claim that Monolithic Power Systems has '13x the market cap' of Vicor is materially overstated; as of May 2026, MPWR trades at approximately 6.7 times Vicor's market capitalisation on roughly 6 times the revenue.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/05/03/vicor-vicr-q1-2026-earnings-transcript/",
+      "title": "Vicor Q1 2026 Earnings Call Transcript (Motley Fool)",
+      "note": "Primary source for $1.5B capacity target, $301M backlog, VPD specifications, and 'essentially sold out' characterisation"
+    },
+    {
+      "url": "https://photoncap.net/p/the-last-15mm-of-ai-power-three-numbers",
+      "title": "The Last 15mm of AI Power: Three Numbers (Photon Cap)",
+      "note": "Q1 2026 earnings analysis with second-generation VPD current-density and package specifications"
+    },
+    {
+      "url": "https://www.vicorpower.com/resource-library/articles/high-performance-computing/powering-clustered-ai-processors",
+      "title": "Powering Clustered AI Processors (Vicor)",
+      "note": "Vicor's own technical documentation on VPD architecture, design rationale, and current-delivery approach"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/02/14/3026816/0/en/ITC-bars-importation-of-power-modules-and-unlicensed-computing-systems-that-infringe-Vicor-patents.html",
+      "title": "ITC Bars Importation of Power Modules Infringing Vicor Patents (GlobeNewswire, Feb 2025)",
+      "note": "Press release confirming ITC Final Determination and Limited Exclusion Order in Case 337-TA-1370"
+    },
+    {
+      "url": "https://www.usitc.gov/secretary/fed_reg_notices/337/337_1484_notice02112026sgl.pdf",
+      "title": "ITC Investigation 337-TA-1484 Notice (USITC, Feb 2026)",
+      "note": "Second ITC case notice naming Monolithic Power Systems and Delta Electronics as respondents"
+    },
+    {
+      "url": "https://www.stocktitan.net/sec-filings/VICR/def-14a-vicor-corp-definitive-proxy-statement-5557c67f1907.html",
+      "title": "Vicor DEF 14A Proxy Statement (StockTitan)",
+      "note": "Source for Vinciarelli ownership percentages, age, voting power breakdown, and controlled-company status"
+    },
+    {
+      "url": "https://www.benzinga.com/insights/news/26/04/51938180/vicor-reports-q1-2026-results-full-earnings-call-transcript",
+      "title": "Vicor Q1 2026 Earnings — Benzinga Transcript",
+      "note": "Confirms Cerebras cited by name by management as archetype of the wafer-scale power-density challenge"
+    },
+    {
+      "url": "https://newsletter.semianalysis.com/p/energizing-ai-power-delivery-competition",
+      "title": "Energizing AI: Power Delivery Competition (SemiAnalysis)",
+      "note": "Independent supply-chain analysis identifying Cerebras as a Vicor VPD customer"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Feynman_(microarchitecture)",
+      "title": "Feynman (microarchitecture) — Wikipedia",
+      "note": "Confirms Feynman as a real NVIDIA GPU architecture planned for 2028 on TSMC A16, with no Vicor connection disclosed"
+    },
+    {
+      "url": "https://www.gurufocus.com/news/8808332/vicor-corp-vicr-q1-2026-earnings-call-highlights-strong-revenue-growth-and-strategic-expansion-plans",
+      "title": "Vicor Q1 2026 Earnings Highlights (GuruFocus)",
+      "note": "Revenue guidance, royalty trajectory, and fab expansion timeline context"
+    }
+  ],
+  "bookmark_id": "2053601586501579250",
+  "generated_at": "2026-05-11T12:42:21.525488Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,22 @@
+{
+  "ticker": "BOXX",
+  "exchange": "NYSE Arca",
+  "company": "Alpha Architect 1-3 Month Box ETF",
+  "sector": "ETF — Ultrashort Bond / Tax-Advantaged Cash Equivalent",
+  "description": "Alpha Architect 1-3 Month Box ETF seeks to replicate T-bill equivalent returns through box spreads — a four-legged options strategy (long call, short put at one strike; long put, short call at a higher strike) that eliminates market-directional risk and produces a synthetic risk-free rate. The fund does not hold actual Treasury bills. Under IRC Section 1256, gains from the strategy receive 60/40 treatment (60% long-term, 40% short-term capital gains) rather than being taxed as ordinary income, as T-bill interest would be. For investors in top federal brackets, the tax advantage can be substantial. Critically, the strategy's tax treatment is contested: IRC Section 1258 (the anti-conversion statute) may allow the IRS to recharacterize gains as ordinary income. As of mid-2026, the IRS has not acted against the fund, which has approximately $11 billion in assets. BOXX is state-tax-disadvantaged relative to T-bill ETFs, whose interest is state-exempt; investors in high-tax states should weigh this carefully.",
+  "key_products": [
+    "Box spread synthetic T-bill strategy",
+    "Tax-advantaged cash equivalent exposure"
+  ],
+  "market_cap_usd": null,
+  "aum_usd": 11000000000,
+  "aum_date": "2026-05",
+  "expense_ratio": 0.0019,
+  "top_holdings": [
+    "SPY options (box spreads)"
+  ],
+  "last_updated": "2026-05-06",
+  "key": "BOXX",
+  "blurb": "Alpha Architect 1-3 Month Box ETF seeks to replicate T-bill equivalent returns through box spreads — a four-legged options strategy (long call, short put at one strike; long put, short call at a higher strike) that eliminates market-directional risk and produces a synthetic risk-free rate. The fund does not hold actual Treasury bills. Under IRC Section 1256, gains from the strategy receive 60/40 treatment (60% long-term, 40% short-term capital gains) rather than being taxed as ordinary income, as T-bill interest would be. For investors in top federal brackets, the tax advantage can be substantial.",
+  "recent": "The strategy's tax treatment is contested: IRC Section 1258 (the anti-conversion statute) may allow the IRS to recharacterize gains as ordinary income. As of mid-2026, the IRS has not acted against the fund, which has approximately $11 billion in assets at a 0.19% expense ratio. BOXX is state-tax-disadvantaged relative to T-bill ETFs, whose interest is state-exempt; investors in high-tax states should weigh this carefully."
+}

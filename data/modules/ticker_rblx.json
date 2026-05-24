@@ -1,0 +1,24 @@
+{
+  "key": "RBLX",
+  "name": "Roblox Corporation",
+  "exchange": "NYSE",
+  "blurb": "Roblox Corporation operates an online platform that allows users to create, share, and play games and experiences. The company generates revenue through the sale of virtual currency (Robux) and in-game purchases. As of early 2025, Roblox has a market capitalization of approximately $31.45 billion and is a leading player in the metaverse and user-generated content space.",
+  "recent": "In the past 30 days, Roblox stock has experienced volatility, with shares trading near $44 as of late February 2025, down from a 52-week high of $150.59. The company reported mixed earnings, with revenue growth but ongoing losses, contributing to a negative P/E ratio of -27.92. Analysts have noted concerns about user growth and monetization, while some remain optimistic about long-term potential.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/RBLX/",
+      "title": "Roblox Corporation (RBLX) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/RBLX/news/",
+      "title": "RBLX News Today | Why did Roblox stock go down today?"
+    },
+    {
+      "url": "https://stocktwits.com/symbol/RBLX",
+      "title": "RBLX: Roblox Corp. Latest Stock Price, Analysis, News and Trading Ideas"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:41:38.059248Z",
+  "backend": "deepseek"
+}

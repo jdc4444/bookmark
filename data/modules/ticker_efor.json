@@ -1,0 +1,33 @@
+{
+  "ticker": "EFOR",
+  "exchange": "NYSE",
+  "company": "Everforth, Inc.",
+  "formerly": "ASGN Incorporated",
+  "ticker_change_date": "2026-04-24",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
+  "founded": 1985,
+  "market_cap_approx": 843000000,
+  "revenue_ttm_approx": 3980000000,
+  "description": "Everforth, Inc. (formerly ASGN Incorporated) is a US-listed IT services and consulting firm providing technology staffing, digital engineering, cybersecurity, AI/data, and cloud solutions to Fortune 1000 companies and federal government agencies. The company operates through Commercial and Federal Government segments and unifies seven subsidiary brands — Apex Systems, Creative Circle, CyberCoders, ECS (now Everforth ECS), GlideFast, TopBloc, and Quinnox — under the Everforth parent identity.",
+  "notes": "Company rebranded from ASGN Incorporated to Everforth, Inc. effective April 24, 2026, concurrent with an NYSE ticker symbol change from ASGN to EFOR. The rebrand was announced November 20, 2025. The April 24 date also marked the end of a post-earnings blackout period, triggering a wave of insider open-market purchases totaling approximately $1.8M with no reported insider sells.",
+  "sources": [
+    {
+      "title": "Everforth (EFOR) Stock Price & Overview — StockAnalysis",
+      "url": "https://stockanalysis.com/stocks/efor/"
+    },
+    {
+      "title": "ASGN Incorporated to Change Corporate Name and NYSE Ticker to Everforth — Business Wire",
+      "url": "https://www.businesswire.com/news/home/20260408311417/en/ASGN-Incorporated-to-Change-Corporate-Name-and-NYSE-Ticker-to-Everforth"
+    },
+    {
+      "title": "Everforth (EFOR) Completes Rebranding from ASGN Incorporated — GuruFocus",
+      "url": "https://www.gurufocus.com/news/8822919/everforth-efor-completes-rebranding-from-asgn-incorporated"
+    }
+  ],
+  "generated_at": "2026-05-05T18:00:00Z",
+  "backend": "claude-sonnet-subagent",
+  "key": "EFOR",
+  "blurb": "Everforth, Inc. (formerly ASGN Incorporated) is a US-listed IT services and consulting firm providing technology staffing, digital engineering, cybersecurity, AI/data, and cloud solutions to Fortune 1000 companies and federal government agencies. The company operates through Commercial and Federal Government segments and unifies seven subsidiary brands — Apex Systems, Creative Circle, CyberCoders, ECS (now Everforth ECS), GlideFast, TopBloc, and Quinnox — under the Everforth parent identity.",
+  "recent": "The rebrand from ASGN Incorporated took effect April 24, 2026, concurrent with the NYSE ticker change from ASGN to EFOR. That same day marked the end of a post-earnings blackout period and triggered a wave of insider open-market purchases totaling approximately $1.8 million, with no reported insider sells. Trailing-twelve-month revenue is roughly $3.98 billion against an approximate $843 million market cap."
+}

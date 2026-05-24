@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "company": {
+    "name": "Applied Optoelectronics, Inc.",
+    "ticker": "AAOI",
+    "exchange": "NASDAQ",
+    "slug": "aaoi"
+  },
+  "report_title": "Applied Optoelectronics \u2014 vertically integrated optics at the moment hyperscalers came to buy",
+  "report_subtitle": "How a 28-year-old Sugar Land laser-and-transceiver maker became a $200M-per-order datacenter supplier \u2014 and whether Amazon's warrant changes who actually owns the upside",
+  "voice_and_style": "Financial-Times / Bloomberg long-form. Primary sources only (SEC filings, IR press releases, company website, NTIA/FCC where relevant, industry primary reporting from Lightreading, ConvergeDigest, Optical Connections). Past-tense narrative voice. Quote management from earnings calls or press releases when paraphrasing claims. Cite numbers to the originating filing. Do not extrapolate beyond the snapshot date 2026-05-23. The reader is a sophisticated investor who already knows what optical transceivers are; do not explain basics.",
+  "target_total_word_count": 18000,
+  "frozen_snapshot_date": "2026-05-23",
+  "chapters": [
+    {
+      "slug": "snapshot",
+      "title": "Snapshot",
+      "order": 1,
+      "target_words": 750,
+      "directives": [
+        "Open with the dual-cycle fact: AAOI did $455.7M of revenue in FY2025, up 82.8% from $249.4M in FY2024, on GAAP gross margin of 30.0% (up from 24.8%). Frame the year as a simultaneous CATV cyclical recovery AND AI-datacenter ramp, with Q4 2025 the first quarter in company history that datacenter revenue ($74.9M) exceeded CATV ($54.0M).",
+        "State the ticker (AAOI, NASDAQ), founder/CEO (Dr. Chih-Hsiang \"Thompson\" Lin, 28+ year continuous tenure since 1997), headquarters (Sugar Land, Texas), employee headcount (4,691: 548 US / 1,262 Taiwan / 2,881 China), and the 5-year stock range ($1.50 to $223.10).",
+        "Two-sentence framing of what they do: AAOI is a vertically-integrated optical components and transceivers maker. It fabricates its own InP and GaAs laser dies using in-house MBE and MOCVD processes, then assembles transceivers (800G OSFP DR8 and 1.6T) and HFC networking equipment across Texas, Taiwan, and China \u2014 a structural difference from pure-play module-assemblers like Innolight and Eoptolink.",
+        "The customer concentration: Digicomm (53.1%) + Microsoft (28.8%) = 81.9% of FY2025 revenue. Amazon was granted a warrant for up to 7.945M shares in March 2025 and is widely understood to be the customer behind the >$324M of orders announced March-April 2026 ($53M + $200M+ for 1.6T + $71M).",
+        "Close with the central tension to be resolved by the rest of the report: FY2025 is the strongest year in company history but the accumulated deficit is $493.1M \u2014 this is a company recently lifted out of an existential trough rather than a maturely profitable franchise. The stock has moved from $1.50 to ~$181 over five years, a ~120x move, and whether that is the beginning of an operating-leverage cycle or a cyclical peak under extreme customer concentration is the question the report exists to answer.",
+        "Tone: declarative, primary-source, no hedging language like 'appears to'. Where management is quoted, quote them verbatim with attribution to the originating earnings call or press release. Do not use Aleabit, X posts, or third-party blogs as primary sources."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "leadership.json"
+      ]
+    },
+    {
+      "slug": "corporate_history",
+      "title": "The 28-year founder-led arc",
+      "order": 2,
+      "target_words": 1400,
+      "directives": [
+        "Anchor the whole chapter in Thompson Lin: founded 1997-02-28 in Sugar Land out of his University of Houston laser research. BS Nuclear Engineering (National Tsing Hua University, Taiwan), MS/PhD ECE (University of Missouri-Columbia). The Missouri tie recurs in the board composition \u2014 Che-Wei Lin has a Missouri MS too.",
+        "Three eras: (1) 1997-2013 pre-IPO \u2014 building the vertically integrated stack from laser-diode components outward to subsystems and transceivers, Texas + Taiwan + China manufacturing layered in. (2) 2013-2017 \u2014 IPO at ~$10 in September 2013, the first hyperscale cycle (Microsoft + Amazon 100G transceivers), peak revenue $382M in 2017, stock to ~$96. (3) 2018-2023 the trough \u2014 Microsoft buying pattern shifts, 400G qualification slips, CATV weakness, revenue falls to ~$187M, accumulated deficit grows to ~$493M, stock collapses 98% to $1.50 in 2023.",
+        "The 2024-2025 dual-cycle recovery: cable industry DOCSIS 4.0 / 1.8 GHz amplifier upgrade cycle drives Digicomm's share from 11.3% (2023) to 34.1% (2024) to 53.1% (2025). Simultaneously the AI buildout drives Microsoft and Amazon into urgent 800G buying. Note explicitly that the two cycles turning in the same year is unusual \u2014 most cyclical optical companies have one engine, not two.",
+        "March 2025 Amazon warrant (up to 7.945M shares) \u2014 describe the structure (volume-vesting purchase warrant), note that Amazon is not yet a >10% customer in the 10-K because the recognition lag tracks purchase cycles, not relationship absence.",
+        "March-April 2026: the order announcement sequence from 'one major hyperscale customer' totalling >$324M ($53M + >$200M for 1.6T first-volume + $71M). Note this is widely understood by analysts to be Amazon. The 1.6T first-volume order in particular marks the generation transition.",
+        "Close on what 28 years of founder-leadership through this kind of cyclical violence means for the equity story. Lin owns a non-trivial stake and runs the company \u2014 this is not a private equity rollup or a turnaround story imposed from outside.",
+        "Sources to cite explicitly: the IPO prospectus (S-1 September 2013), the FY2025 10-K, the FY2025 Q4 press release, the March 2025 Amazon warrant 8-K, the March 2026 / April 2026 hyperscaler order announcements."
+      ],
+      "use_prep_files": [
+        "history.md",
+        "snapshot.json",
+        "financials.json"
+      ]
+    },
+    {
+      "slug": "business_segments",
+      "title": "Three businesses, one cycle each",
+      "order": 3,
+      "target_words": 1700,
+      "directives": [
+        "Lay out the three product lines with FY2025 revenue and share: (a) CATV \u2014 53.8% of FY2025 ($245.2M approx). Products: HFC amplifiers (1.8 GHz / Quantum18), QuantumLink management. Customer concentration: Digicomm channel into Comcast/Charter/Cox. Driver: DOCSIS 4.0 upgrade cycle. (b) Internet Data Center \u2014 42.9% of FY2025 ($195.5M approx). Products: 100G, 400G, 800G OSFP DR8, 1.6T optical transceivers. Customer concentration: Microsoft direct + emerging Amazon. Driver: AI workload growth. (c) Telecom and FTTH \u2014 3.0% + 0.3% combined ~$15M. Vestigial \u2014 historically larger but now a niche tail.",
+        "Within the datacenter segment, walk through the line-rate ladder: 100G (low-margin, declining), 400G (Q3 2025 was actually down 65% YoY to $7.1M \u2014 note this explicitly, the 400G generation is being skipped by some customers), 800G (the FY2025 ramp), 1.6T (first volume order March 2026). The skip-from-400G-to-800G is a strategic positive for AAOI because it concentrated demand at the architecture they qualified for.",
+        "Vertical integration explained in business terms: AAOI's InP and GaAs wafer fabrication using MBE and MOCVD is rare among public optical companies at this scale. The structural advantage is gross-margin stability \u2014 module assemblers (Innolight, Eoptolink) sit at the bottom of the value chain and absorb whatever wafer and DSP pricing the upstream layer dictates.",
+        "Q3 2025 segment snapshot to use as a worked example: CATV $70.6M (record, +>3x YoY, +26% sequential), Datacenter $43.9M (+7% YoY but down sequentially, with 100G +32% YoY but 400G -65% YoY at $7.1M).",
+        "Q4 2025 inflection: Datacenter $74.9M, CATV $54.0M \u2014 first quarter ever where DC > CATV. Note that this happens against a strengthening CATV business \u2014 the inflection comes from datacenter accelerating, not from CATV faltering.",
+        "Close with the structural observation: AAOI is now a 50/50 CATV/datacenter business at the FY level, but inside the year the mix shifted sharply toward datacenter. By FY2026 the company will likely be majority-datacenter for the first time since the 2017 peak. The order book of >$324M from one hyperscale customer is the leading indicator.",
+        "Source explicitly to the FY2025 10-K, Q1-Q4 2025 8-K earnings releases, the FY2024 10-K for comparator data."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "snapshot.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "financial_deep_dive",
+      "title": "Inside the operating leverage",
+      "order": 4,
+      "target_words": 1700,
+      "directives": [
+        "Open with the headline financial summary table in narrative form: FY2025 revenue $455.7M (+82.8%), GAAP gross margin 30.0% (vs 24.8% FY24), GAAP net loss $38.2M (vs $186.7M loss FY24), accumulated deficit $493.1M.",
+        "Quarterly revenue progression: Q3 2024 $65.2M \u2192 Q4 2024 $100.3M \u2192 Q1 2025 $99.9M \u2192 Q2 2025 $103.0M \u2192 Q3 2025 $118.6M \u2192 Q4 2025 $134.3M. Note this is a sequential growth pattern that broke the historical AAOI lumpiness \u2014 six consecutive quarters of growth.",
+        "Gross margin analysis: the 525 bps GAAP improvement YoY is the operating leverage story. Q3 2025 GAAP GM was 28.0%, non-GAAP 31.0%. The gap is meaningful (stock-comp and non-cash items) but the trend in both is upward. Note that 30% GAAP GM is still below where peer Lumentum runs (~35-37%) and substantially below Coherent (~38%) \u2014 there is room to compress further if and when the 1.6T ramp produces volume leverage.",
+        "Operating expense discipline: revenue grew 83% but the company did not double opex. Walk through the implied SG&A and R&D ratios \u2014 the FY24 SG&A burden at the lower revenue line was structurally too high. The 2025 result is partly real margin expansion and partly fixed-cost coverage.",
+        "Accumulated deficit context: $493.1M was built up across the 2018-2023 trough \u2014 impairments, inventory write-downs, equity-funded operating losses. This is a real number that sits between the company and a clean GAAP profitability narrative. The path to it inverting requires multiple years of net income; FY2025 narrowed but did not eliminate the loss.",
+        "Customer concentration math: Digicomm 53.1% = ~$242M of FY2025 revenue. Microsoft 28.8% = ~$131M. The combined $373M from two customers means the OTHER $83M is everything else. Note this honestly: the OTHER bucket is itself >50% of FY2023's total revenue, but at the snapshot date AAOI has effectively two customers above a threshold of materiality.",
+        "Capex and capacity: exit-2025 capacity ~100,000 units/month 800G transceivers (35% from US), targeting 500,000+ units/month combined 800G + 1.6T by end-2026. Capex implication is meaningful and is the explanation for why the company has not used the operating-leverage year to start paying down accumulated deficit.",
+        "Source numbers exclusively to the FY2025 10-K, the four 2025 quarterly 8-Ks, and the FY2025 Q4 press release."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "earnings_story",
+      "title": "Six quarters of upward sequential",
+      "order": 5,
+      "target_words": 1400,
+      "directives": [
+        "Frame as the cumulative narrative of the six consecutive sequential-growth quarters Q3 2024 \u2192 Q4 2025. This is the single most important data series for understanding why the stock moved 120x off the trough.",
+        "Quarter by quarter: Q3 2024 $65.2M \u2014 the trough quarter, CATV recovery just beginning. Q4 2024 $100.3M \u2014 the first $100M+ quarter in years, datacenter early ramp. Q1 2025 $99.9M \u2014 held the $100M base. Q2 2025 $103.0M \u2014 slight sequential. Q3 2025 $118.6M \u2014 CATV record $70.6M, datacenter $43.9M with 400G down 65% but 100G up 32%. Q4 2025 $134.3M \u2014 datacenter $74.9M overtakes CATV $54.0M for the first time.",
+        "Pull at least one quote from each of the FY2024 Q4 (announced February 2025), Q1 2025, Q2 2025, Q3 2025, and Q4 2025 / FY2025 (announced February 26, 2026) earnings calls or press releases. Attribute correctly. Use management's own framing for the dual-cycle story.",
+        "Q3 2025 had a specific framing point worth lifting: management explicitly described 'broad-based demand in both the CATV and datacenter businesses' and called out 'strong demand for 1.8 GHz amplifiers' and 'progress on 800G product qualification.' Use that as the pivot point.",
+        "The FY2025 Q4 release on February 26, 2026 was the first time AAOI talked about FY2026 backlog visibility from hyperscale orders. Reference the >$324M of orders announced between March 23 and early April 2026 \u2014 these came AFTER the FY2025 print, so the narrative builds: the company prints record FY, then weeks later announces orders that imply continued acceleration into FY2026.",
+        "Close with the stock-price reaction series: how the market priced each quarter. From the $1.50 trough in 2023 the stock ran through 2024 and the first half of 2025 in advance of the underlying numbers; the FY2025 print and the March-April 2026 order book have together placed the stock near $181 with a 5-year high of $223.10.",
+        "Source every quote and every number to the originating 8-K or press release. Do not paraphrase from secondary coverage."
+      ],
+      "use_prep_files": [
+        "financials.json",
+        "snapshot.json",
+        "history.md"
+      ]
+    },
+    {
+      "slug": "leadership",
+      "title": "The founder, his board, and the people who built the vertical stack",
+      "order": 6,
+      "target_words": 1800,
+      "directives": [
+        "Open with Thompson Lin. He founded AAOI in 1997 out of University of Houston laser research where he was a Senior Research Scientist (1994-1998) and then a Research Associate Professor (1998-2000). BS Nuclear Engineering, National Tsing Hua University (Taiwan); MS and PhD Electrical and Computer Engineering, University of Missouri-Columbia. He has been Chairman, President, and CEO since inception \u2014 28+ years of continuous combined-role tenure. He sits on the University of Missouri Chancellor's Advisory Group (since May 2015) and chairs Missouri's Industrial Advisory Board for the College of Engineering (since November 2016).",
+        "Stefan Murry \u2014 CFO AND Chief Strategy Officer. The dual role is structurally significant and worth one paragraph: financial planning and strategy planning emanate from one executive close to the CEO. There is no separate COO. This is an unusually flat senior-executive structure for a company at AAOI's revenue scale.",
+        "The other named executives: Dr. Fred Chang (SVP and NA GM), Dr. Klaus Alex Anselm (VP Semiconductor Products), Shu-Hua (Joshua) Yeh (SVP and Asia GM), David C. Kuo (SVP, Chief Legal and Compliance Officer, Secretary), Todd McCrum (SVP and GM Broadband Access). Note that three of the seven executives are PhDs \u2014 this is a technologist-run operating company, not a finance-led platform.",
+        "Board: seven directors. Lin is Chairman. The MOST consequential outside director is Richard B. Black \u2014 Audit Committee Chair, ran ECRM (laser-imaging equipment company) as CEO and Chairman 1983-2021 (38 years), sold to Eastman Kodak 2021. Prior audit-committee-chair experience at GSI Group (public optical/photonics) and Alliance Fiber Optics Products. BS Engineering Texas A&M, MBA Harvard. Trustee Institute for Advanced Study at Princeton (since 1990, Vice Chairman 2006-2012). Frame Black as the most senior US technology-business establishment figure on the board.",
+        "Che-Wei Lin \u2014 board member. President of ASMedia Technology (Taiwan-listed chipset maker owned by ASUSTek) since November 2007. Corporate VP, Motherboard Business Unit, ASUSTek since November 2009. 1993-2007 at VIA Technologies, ending as President of Desktop Platform Business Unit. BS EE Fu Jen University (Taiwan), MS EE University of Missouri (note the Missouri connection to the CEO \u2014 explain that this is the kind of personal-network detail that explains long Asian-semiconductor board tenures).",
+        "Dr. Min-Chu (Mike) Chen \u2014 Nominating & Corporate Governance Chair, Audit Committee member. Partner and board member at EverRich Capital since 2001. 28 years on the PCTEL board (March 1994 - June 2022). PhD Ocean Engineering Oregon State University. Petrochemical-equipment + IIoT background. Asia-Pacific industrial cross-border investor.",
+        "William H. Yeh \u2014 Compensation Committee Chair. CEO and President of Golden Star Management (real estate) since 1997. Vice Chairman, Central Bancorp 1997-2014. BS National Cheng Kung University (Taiwan), MS University of Houston-Clear Lake. Texas/Taiwan-bridge real-estate and community-banking executive.",
+        "Dr. Elizabeth Loboa \u2014 Nominating and Corporate Governance Committee member. Provost and VP for Academic Affairs at Southern Methodist University (since 2020). VC for Strategic Partnerships and Dean at University of Missouri 2018-2020 (overlapping Lin's Missouri Advisory Group role). Stanford PhD Mechanical Engineering. UC Davis BS. Academic-research-administration governance.",
+        "Cynthia (Cindy) DeLaney \u2014 Audit Committee member. Global Fuel Oil commodity trading manager at Shell Trading since January 2014. Director and Vice President at STUSCo since October 2016. Started career as Electrical Engineer at Arco Chemical Company in 1991. BS EE Louisiana State University. Shell US trading is Houston-based \u2014 the Texas geographic bond to Sugar Land HQ is explicit.",
+        "Board composition observation paragraph: this board is built for OPERATIONAL governance of a vertically-integrated semi company, NOT for a financial-engineering transformation. Contrast explicitly with what a Sivers-style US-relisting board looks like: no ex-Citi CFO, no ex-Deutsche Bank Head of Corporate Finance. AAOI's board is configured to advise and audit a founder-CEO who has run the company for 28 years and intends to continue running it. That difference matters for understanding the equity story.",
+        "DO NOT punt on any of the six outside directors. Every name above has substantive material in prep/leadership.json \u2014 use it. If a sentence in this chapter would say 'limited additional detail was available,' rewrite it to use the data in the prep file instead."
+      ],
+      "use_prep_files": [
+        "leadership.json",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "customers_supply_chain",
+      "title": "Two customers, three factories, one warrant",
+      "order": 7,
+      "target_words": 1500,
+      "directives": [
+        "Open with the concentration headline: Digicomm 53.1% + Microsoft 28.8% = 81.9% of FY2025 revenue. Then the three-year trajectory table \u2014 Digicomm: 11.3% (FY23) \u2192 34.1% (FY24) \u2192 53.1% (FY25); Microsoft: 46.6% (FY23) \u2192 43.7% (FY24) \u2192 28.8% (FY25 \u2014 declining share but rising dollars).",
+        "Digicomm International background: privately-held US distributor of broadband network equipment, acquired by The Beekman Group in 2018. The Digicomm channel is how AAOI's HFC amplifier and Quantum18 / QuantumLink products reach Comcast, Charter, Cox, and other Tier-1 MSOs. The DOCSIS 4.0 / 1.8 GHz amplifier upgrade cycle is the driver.",
+        "Microsoft as a direct hyperscale customer: years-long relationship, 400G historical and now 800G OSFP DR8 ramping. Microsoft's qualified position in the 800G ramp is the operational reason AAOI passed the 30% gross-margin threshold.",
+        "The Amazon warrant \u2014 March 2025 \u2014 up to 7.945 million shares of AAOI common stock granted as part of a hyperscale supply relationship. Vesting tied to purchase volume thresholds. Amazon is not yet a >10% customer in the 10-K disclosure but the March-April 2026 order announcements (>$324M from 'one major hyperscale customer') are widely understood to be Amazon. The warrant structure means Amazon participates in AAOI's equity upside as their purchasing scales \u2014 this is an alignment mechanism that few suppliers in the optical components industry have with a hyperscaler.",
+        "Supply side \u2014 vertical integration eliminates the largest upstream dependency: AAOI fabricates its own InP and GaAs laser dies using MBE and MOCVD processes in-house. This eliminates the wafer supply chain dependency that pure-play module-assemblers like Innolight and Eoptolink carry \u2014 they depend on Sumitomo Electric, Coherent/II-VI, and a handful of Asian foundries for their laser dies.",
+        "Remaining external dependencies: OSFP/QSFP-DD cage and connector vendors (TE Connectivity, Amphenol, Molex); optical lenses and isolators (predominantly Japanese \u2014 Hamamatsu, Nichia indirect); DSPs and CDR silicon for higher-line-rate transceivers (Marvell, Maxlinear, Broadcom \u2014 this is the silicon-side dependency AAOI cannot vertically integrate); commodity passive components (Taiwan/China sourcing).",
+        "Manufacturing footprint: Sugar Land Texas (548 employees, HQ + US data center transceiver line, 35% of exit-2025 800G capacity), Taipei Taiwan (1,262 employees, wafer fab + module assembly), Ningbo China (2,881 employees, laser device fabrication + transceiver assembly \u2014 61.4% of total headcount). Discuss the Texas-onshore 800G capability as the strategic hedge against China-US trade friction.",
+        "Close on the structural risk: two customers at 82% of revenue is unusual at this revenue scale. AAOI's defence is that they are upstream enough in the AI optics supply chain \u2014 vertically-integrated, US-onshore-capable, qualified at 800G and starting on 1.6T \u2014 that the two customers cannot easily switch. Whether that is durable through the 1.6T-to-3.2T transition is the open question the report will revisit in outlook."
+      ],
+      "use_prep_files": [
+        "counterparties.json",
+        "financials.json",
+        "snapshot.json"
+      ]
+    },
+    {
+      "slug": "competitive_position",
+      "title": "Where AAOI sits in the optical-AI stack",
+      "order": 8,
+      "target_words": 1500,
+      "directives": [
+        "Frame the competitive landscape by line-rate generation: 100G/400G (commoditising, dominated by Innolight and Eoptolink), 800G (the FY2025 ramp battlefield, AAOI/Innolight/Eoptolink + Coherent and Lumentum supplying to hyperscalers), 1.6T (FY2026-2027 generation, supplier set narrowing because of qualification difficulty).",
+        "AAOI's structural differentiator: vertical integration plus US-onshore manufacturing capability. Compare with each major competitor: Coherent (COHR) is also vertically integrated but much larger (~$5B revenue, ~38% GM) \u2014 operates at a different scale. Lumentum (LITE) is upstream-focused on laser components and competes more directly at the photonics layer. Innolight and Eoptolink (both Shenzhen-listed) are pure-play module assemblers \u2014 they depend on AAOI-class suppliers for laser dies and have China-only manufacturing.",
+        "Adjacent companies to position against: POET Technologies (POET, NASDAQ/TSX) is building an optical interposer platform for co-packaged optics \u2014 emerging competitor at the CPO architecture layer rather than the transceiver layer. Sivers Semiconductors (SIVE.ST) is the closest upstream comparable for the InP DFB laser die piece of AAOI's stack, focused on external light source modules.",
+        "The CPO transition is the strategic uncertainty: co-packaged optics moves the laser and modulator from a pluggable transceiver into the package directly attached to the switch ASIC. If hyperscalers move at scale to CPO, the entire pluggable transceiver value chain compresses. AAOI's position: their vertical integration into laser fab means they could be a supplier of the external light source modules for CPO, but they have not publicly committed to a CPO product roadmap as visibly as POET or Sivers have.",
+        "Hyperscaler-supplier qualification economics: in optical transceivers, the high-volume qualified suppliers for a given hyperscaler tend to be 3-4 names; lower-volume backup suppliers another 3-4. To be in the top 3 at 800G/1.6T is the position AAOI now occupies for at least two of the three (Microsoft + Amazon). This is the moat \u2014 not a technology moat per se, but a qualification-and-yield moat that takes 18-24 months to build with each customer.",
+        "Sources: AAOI 10-K, peer 10-K filings (Coherent, Lumentum), industry primary reporting from Lightreading, Optical Connections, and Converge Digest (cited primary).",
+        "Do NOT cite Aleabit, Substack, or X commentary as primary sources for competitive claims."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "counterparties.json",
+        "financials.json"
+      ]
+    },
+    {
+      "slug": "news_catalysts",
+      "title": "What moved the price and what is next",
+      "order": 9,
+      "target_words": 1600,
+      "directives": [
+        "Build the news timeline from primary sources: March 19, 2025 \u2014 Amazon warrant disclosure (8-K). February 2025 \u2014 FY2024 Q4 print. May 2025 \u2014 Q1 2025 print. August 2025 \u2014 Q2 2025 print. November 2025 \u2014 Q3 2025 print. February 26, 2026 \u2014 FY2025 Q4 print. March 23, 2026 \u2014 $53M 800G order announcement. March 25, 2026 \u2014 >$200M 1.6T first-volume order announcement. Early April 2026 \u2014 additional $71M 800G order announcement. May 2026 \u2014 Q1 2026 print (post-snapshot).",
+        "Quote management framing of each major announcement, attributed to the originating press release or transcript.",
+        "Identify the key forward catalysts from the snapshot date: Q2 2026 print (August 2026 expected), additional hyperscaler order announcements through summer 2026, Microsoft 1.6T qualification timing, any disclosure of Amazon as a >10% customer (this would be the 10-Q for the period in which Amazon crosses the threshold).",
+        "Bound the Aleabit / X commentary discussion to a single subsection at the bottom of the chapter, titled 'Specialist-commentary subsection: how price-target chatter framed the move.' Limit to 200 words. Cite Aleabit's published price target on AAOI as one data point only, with explicit caveat that Aleabit is not used as a primary source for facts elsewhere in this report. If Aleabit's exact published target or framing for AAOI is not in the prep data, write 'Specialist commentary framing of AAOI by Aleabit was not surfaced in the bounded primary-source set used for this report' and do not invent.",
+        "DO NOT use Aleabit, Substack, X, or any third-party commentary as a primary source anywhere else in this chapter."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "history.md",
+        "counterparties.json",
+        "inputs/news/_initial_findings.md"
+      ]
+    },
+    {
+      "slug": "ip_rd",
+      "title": "199 US patents and a wafer fab",
+      "order": 10,
+      "target_words": 1100,
+      "directives": [
+        "Open with the headline patent portfolio: 199 US issued patents, 140 China/Taiwan issued patents, 10 European issued patents as of December 31, 2025. R&D headcount: 425 of 4,691 employees (9.1%), including 14 PhDs.",
+        "R&D geographic locations: Sugar Land Texas, Georgia (note this \u2014 a fourth US R&D location), Taipei Taiwan, Ningbo China.",
+        "Manufacturing process technology: in-house MBE (molecular beam epitaxy) and MOCVD (metal-organic chemical vapour deposition) for InP and GaAs wafer fabrication. These are capital-intensive epitaxial growth technologies that few transceiver-scale companies operate themselves.",
+        "Patent quality observation: a 199-US-patent portfolio at a $455M revenue scale is dense relative to peers. For comparison, look at AAOI's per-employee patent intensity (199 US patents / 425 R&D employees = 0.47 US patents per R&D head, accumulated). This is consistent with a research-led company.",
+        "R&D as percent of revenue: not separately broken out in the prep snapshot \u2014 flag this honestly. The FY25 10-K mentions 'significant ongoing R&D investment' but does not give a clean R&D-as-percent number in the prep summary used here. State the research limitation and do not invent a number.",
+        "Patent themes inferred from the IP portfolio focus areas: laser diode design (DFB, EML, VCSEL variants), wafer-level process patents (MBE / MOCVD recipes), package design for high-speed transceivers (OSFP / QSFP-DD), wavelength-division multiplexing techniques. State explicitly that these are the categories implied by the company's product roadmap, not direct patent-by-patent claims.",
+        "Close on the strategic question: AAOI's IP and R&D positioning is most relevant if the CPO (co-packaged optics) transition forces a re-architecting of the upstream light-source piece. AAOI's wafer fab and laser-die IP could be valuable IF the company commits to an external-light-source product for CPO; that commitment has not been publicly made as of the snapshot."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json"
+      ]
+    },
+    {
+      "slug": "risks",
+      "title": "Two customers, one cycle, $493M of accumulated deficit",
+      "order": 11,
+      "target_words": 1500,
+      "directives": [
+        "Six categorical risks: (1) Customer concentration \u2014 Digicomm + Microsoft 81.9%. (2) Accumulated deficit $493.1M \u2014 even if FY26 produces net income, the path to inverted retained earnings takes years. (3) China manufacturing exposure \u2014 2,881 of 4,691 employees in Ningbo, 61.4% of headcount. (4) AI capex cyclicality \u2014 if hyperscalers slow data center spending the 1.6T order book can be deferred or cancelled. (5) Technology transition risk \u2014 CPO architecture could compress the pluggable transceiver value chain. (6) Equity-funded growth capex \u2014 capacity expansion to 500k units/month by end-2026 is meaningful spending against still-loss-making net income.",
+        "For each risk, walk through (a) the specific exposure, (b) what management has said publicly about mitigation, and (c) what the leading-indicator signal would be that the risk is materialising.",
+        "Microsoft concentration nuance: share declined from 43.7% to 28.8% YoY because total revenue grew faster than Microsoft's dollar spend. This is the GOOD form of customer concentration easing. The risk would be Microsoft dollar spend declining absolutely \u2014 that would show up in a sequential decline in datacenter revenue.",
+        "Amazon warrant overhang: 7.945M shares is ~10% of fully-diluted share count (current shares outstanding ~75M). At vesting this is a meaningful equity dilution. Walk through the volume-vesting structure as it has been disclosed.",
+        "Trade-friction risk specific to Ningbo: any escalation of US tariffs on Chinese-manufactured optical transceivers would force AAOI either to absorb the duty (margin hit) or shift production to Taipei or Texas (capex hit). The Texas-onshore capability is the strategic hedge but it is still only 35% of exit-2025 800G capacity.",
+        "Source claims to the 10-K risk factors section, the Amazon warrant 8-K, and management commentary from earnings calls."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "counterparties.json"
+      ]
+    },
+    {
+      "slug": "outlook",
+      "title": "The 1.6T cycle and the question Lin must answer next",
+      "order": 12,
+      "target_words": 1500,
+      "directives": [
+        "Open with the visible FY2026 setup: capacity target 500,000+ units/month combined 800G + 1.6T by end-2026 (5x the exit-2025 capacity), >$324M of disclosed orders from one hyperscale customer announced March-April 2026, six consecutive sequential growth quarters Q3 2024 - Q4 2025. Note that even with conservative ASP assumptions the announced order book alone (>$324M from one customer) is approaching three-quarters of FY2025's TOTAL revenue.",
+        "The 1.6T transition specifically: AAOI's first-volume 1.6T order in March 2026 is the most important signal in the report. Few suppliers globally have shipped qualified 1.6T product at the snapshot date. If AAOI sustains 1.6T qualification through FY2026, the company will be a top-3 supplier at the leading-edge optical transceiver line rate.",
+        "The CPO question: hyperscaler CPO roadmaps run on different timelines (Nvidia has discussed CPO for late 2027+; Broadcom has signalled CPO Tomahawk switch ASICs). AAOI's product roadmap response is the strategic decision Lin must make in the next 12-18 months. The internal optionality is real (wafer fab + laser IP) but the public commitment is not yet made.",
+        "Operating leverage math: if FY2026 produces $700M-$800M revenue at 30-32% GAAP GM (extrapolating the FY25 exit run-rate, the announced orders, and the capacity ramp), GAAP net income could turn positive for the first time in many years. The accumulated deficit will not invert in one year, but the trajectory matters.",
+        "The strategic-corporate-action overhang: at $181 the stock has compressed a 120x recovery into 30 months. Founder-CEO Thompson Lin is 28 years into running the company. There has been no public signal of an M&A or strategic transaction, but a vertically-integrated optical components company at meaningful scale with 1.6T qualification would be valuable to several potential acquirers (Coherent, Lumentum, even Marvell or Broadcom on the silicon side). The board composition (Black, Yeh, Chen, Loboa, DeLaney, Che-Wei Lin) is built for operational governance, not for deal-execution \u2014 but the option value is real.",
+        "Close on the central question the report has built toward: is FY2025 the start of a multi-year operating-leverage cycle that finally turns the accumulated deficit into book equity, or is it a cyclical peak under extreme customer concentration that will mean-revert? Frame the question; do not pretend to answer it definitively. The reader should have what they need from the report to take a view."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json",
+        "counterparties.json",
+        "leadership.json"
+      ]
+    },
+    {
+      "slug": "appendices",
+      "title": "Appendices",
+      "order": 13,
+      "target_words": 900,
+      "directives": [
+        "Three subsections: (a) Glossary of optical components terminology (DFB, EML, VCSEL, MBE, MOCVD, OSFP, QSFP-DD, DOCSIS, HFC, CATV, CPO, DSP-CDR). (b) Quarterly revenue table for the six-quarter sequential growth period. (c) Source list \u2014 every SEC filing referenced, every press release URL, every primary news article referenced.",
+        "The source list must be exhaustive and link-by-link. Use the FY2025 10-K (https://www.sec.gov/Archives/edgar/data/0001158114/000143774926005875/aaoi20251231_10k.htm), the Q3 2025 10-Q (https://www.sec.gov/Archives/edgar/data/0001158114/000143774925033627/aaoi20250930_10q.htm), and the quarterly 8-K press releases from investors.ao-inc.com.",
+        "The glossary entries should be 1-2 sentences each, written for a sophisticated investor who needs a quick refresher rather than a primer."
+      ],
+      "use_prep_files": [
+        "snapshot.json",
+        "financials.json"
+      ]
+    }
+  ]
+}

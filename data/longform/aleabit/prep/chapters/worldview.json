@@ -1,0 +1,222 @@
+{
+  "slug": "worldview",
+  "title": "The ‘functional monopolies’ worldview",
+  "lede": "The organising principle behind Serenity’s portfolio is not a bet on AI growth but on supply chain geography: the conviction that the compute buildout concentrates economic value at obscure, hard-to-replicate chokepoints that institutional analysts have not yet mapped. The term ‘functional monopolies’ crystallises that conviction into an investable frame. What the frame means, which companies it covers, and where it bends under pressure reveals as much about Serenity’s method as about any individual stock.",
+  "body": "## The anatomy of a chokepoint\n\nSerenity’s self-described investment edge is simple enough to fit in a sentence. “It’s just investing in supply chains and finding chokepoints in them that markets might not realize yet.” What that sentence papers over is a taxonomy and a selection discipline that determine whether any given chokepoint is worth owning — and for how long.\n\nThe shorthand that has come to define the portfolio is “functional monopolies,” a term Serenity first applied to TOWA Corporation (6315.T) and MSSCorp (6830.T) before consolidating the concept into a canonical list on April 29th, 2026:\n\n> I’m personally a fan of the functional monopolies. Here’s 6 of them that I own. 1. $TOWA (6315) — HBM4 Compression 2. MSSCorp (6830) — CPO Inspection 3. $LPK — Glass Core Substrates 4. $SOI — Silicon Photonics Substrates 5. $AXTI — End-to-End (mineral, refinery, production) InP\n\nThe post, truncated at Twitter’s character limit, nominates six positions but reveals only five. Context across the feed — repeated descriptions of Sivers Semiconductors (SIVE.ST) as “the next chokepoint” in continuous-wave DFB lasers for co-packaged optics — suggests SIVE was the intended sixth.\n\nThe word “functional” is doing meaningful work in the phrase. None of these companies holds a legal monopoly. The claim is instead about practical market control at a single indispensable process layer: whether the sole qualified supplier at that layer could be substituted within any commercially relevant timeframe. The geopolitical frame is explicit: “The World is fighting over oil, rare earths, and semiconductors. Every supply chain is being weaponised right now. And it so happens, US biggest geopolitical enemies own most of the chokepoints.”\n\n## Five layers and a taxonomy\n\nThe five disclosed positions span distinct stages of the AI hardware value chain. Serenity draws a further distinction — between a *bottleneck* and a *chokepoint* — that determines holding period. “These are chokepoints over multiple year supercycles not bottlenecks,” Serenity wrote in April. “Stuff like glass core or dfb lasers should scale past 2028 and this is the beginning of the next volume ramp from architectural shifts in photonics.”\n\nA bottleneck, in this taxonomy, is a near-term supply squeeze solvable with capital and time. AXT Inc (AXTI), which supplies *indium phosphide* (InP) substrates — the crystalline base material required for high-speed optical transceivers and photonic integrated circuits — is the clearest example: genuinely scarce today, but expandable in principle. A chokepoint is structural: process IP that takes years to qualify at customer fabrication lines, regardless of competing capital expenditure. LPKF Laser & Electronics (LPK.DE), which controls *laser-induced deep etching* (LIDE) technology for drilling fine vias in glass core substrates, exemplifies the latter. Its largest known production partner is Onto Innovation (ONTO), and the technology is proprietary to a degree that makes qualification timelines — not capital — the binding constraint.\n\nSoitec (SOI.PA) occupies a comparable position at the substrate layer of silicon photonics. Soitec’s management has stated publicly that their Photonics-SOI products are “deployed in 100% of next-generation AI data centers” — a claim Serenity cites repeatedly as straightforward validation. TOWA Corporation, at roughly $1.35 billion in market capitalisation at initiation, dominates compression moulding for HBM4 (*high-bandwidth memory*, fourth generation), with Micron (MU), SK Hynix (000660.KS), and Samsung Electronics (005930.KS) as primary customers. MSSCorp, initiated in late April 2026, targets ninety percent of the *co-packaged optics* (CPO) inspection market — a figure the company itself publicised — and prompted the clearest articulation of the functional-monopoly concept: “This appears to be a functional monopoly in CPO for inspection.”\n\nAXT is analytically the most demanding case. Serenity argues it spans four separate chokepoints under one corporate roof: mineral feedstock procurement, pyrolytic boron nitride crucibles used in substrate growth, bulk InP substrate production, and epiwafer deposition. The analogy deployed is deliberately arresting:\n\n> Introducing the Strait of $AXTI: 20% of the world’s total global oil supply passes through the Strait of Hormuz. It is the single most critical chokepoint in the global energy trade.\n\n## Intellectual priors and the limits of the frame\n\nThe structural insight underlying the thesis — that AI hardware dependency is concentrated in ways not yet reflected in equity prices — overlaps with supply chain mapping published by SemiAnalysis and with Leopold Aschenbrenner’s *Situational Awareness* essay, which Serenity explicitly cites, though with disagreements on specific names. Where the approach diverges is in declining to model the concentration rigorously. “It’s impossible to model forward revenue for new bottlenecks/chokepoints like $AXTI or $SIVE,” Serenity acknowledges; the substitute is qualitative conviction about structural position, amplified by speed of discovery ahead of institutional coverage.\n\nThat argument is exposed to two failure modes Serenity has identified but not fully resolved. The first is design-out risk: Himax Technologies (HIMX) appeared to control the micro-lens array supply chain for early photonics modules, then fell 31.5%. “Chokepoints can be designed out,” was the explicit lesson drawn; so was the corollary that a chokepoint “may not be material enough to translate into revenue like $AXTI.” The second is pricing-power latency. A recurring observation in the AXT threads — part irony, part genuine analysis — is that the company’s structural position would be worth multiples more if management exercised pharmaceutical-style pricing discipline: “I would be more bullish on $AXTI if Martin Shkreli joined the board to show em how it’s done when you have a monopoly.” A functional monopoly that does not extract monopoly rents is, for the equity investor, considerably less interesting than the structural position alone implies.",
+  "tickers": [
+    "6315.T",
+    "6830.T",
+    "LPK.DE",
+    "SOI.PA",
+    "SIVE.ST",
+    "AXTI",
+    "ONTO",
+    "MU",
+    "000660.KS",
+    "005930.KS",
+    "HIMX"
+  ],
+  "companies": [
+    {
+      "name": "TOWA Corporation",
+      "ticker": "6315.T"
+    },
+    {
+      "name": "MSS Group (MSSCorp)",
+      "ticker": "6830.T"
+    },
+    {
+      "name": "LPKF Laser & Electronics",
+      "ticker": "LPK.DE"
+    },
+    {
+      "name": "Soitec",
+      "ticker": "SOI.PA"
+    },
+    {
+      "name": "Sivers Semiconductors",
+      "ticker": "SIVE.ST"
+    },
+    {
+      "name": "AXT Inc",
+      "ticker": "AXTI"
+    },
+    {
+      "name": "Onto Innovation",
+      "ticker": "ONTO"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS"
+    },
+    {
+      "name": "Himax Technologies",
+      "ticker": "HIMX"
+    },
+    {
+      "name": "SemiAnalysis",
+      "ticker": null
+    }
+  ],
+  "concepts": [
+    {
+      "key": "functional-monopoly",
+      "term": "Functional monopoly",
+      "definition": "Serenity’s term for a company that exercises practical market control over a single indispensable process layer of the AI hardware supply chain, even without legal monopoly status. The ‘functional’ qualifier distinguishes structural supply-chain positions — where no qualified substitute exists within a commercially relevant horizon — from transient pricing power or regulatory protection. The critical tests are: Can the position be designed out? Does it translate into material revenue?"
+    },
+    {
+      "key": "chokepoint-vs-bottleneck",
+      "term": "Chokepoint vs. bottleneck",
+      "definition": "In Serenity’s taxonomy, a bottleneck is a near-term supply squeeze tied to demand exceeding existing capacity — solvable with capex and time. A chokepoint is a structural process-IP position that persists across multiple technology generations, where even well-funded competition faces multi-year customer qualification cycles before becoming viable. AXT (AXTI) is classified a bottleneck; LPKF (LPK.DE) and Soitec (SOI.PA) are classified chokepoints."
+    },
+    {
+      "key": "co-packaged-optics",
+      "term": "Co-packaged optics (CPO)",
+      "definition": "An emerging chip packaging architecture in which optical transceivers and switching silicon are integrated into a single package, dramatically reducing the latency and power consumption of data-centre interconnects compared with pluggable optics. CPO is the primary demand driver Serenity cites for photonics substrates, continuous-wave lasers, and inspection equipment in the next architectural cycle."
+    },
+    {
+      "key": "indium-phosphide",
+      "term": "Indium phosphide (InP)",
+      "definition": "A III-V semiconductor compound that forms the crystalline substrate for high-speed optical transceivers and photonic integrated circuits. InP substrates require specialised feedstocks (indium metal, red phosphorus), high-temperature growth crucibles, and epitaxial deposition. AXT’s vertical integration across all four sub-steps is the basis of its functional-monopoly claim."
+    },
+    {
+      "key": "laser-induced-deep-etching",
+      "term": "Laser-induced deep etching (LIDE)",
+      "definition": "LPKF’s proprietary laser process for drilling fine-pitch through-glass vias in glass core substrates — the advanced-packaging layer that succeeds organic ABF cores in high-density interconnect applications. The technology’s long qualification cycle and IP secrecy are the primary basis for LPKF’s chokepoint claim in the next packaging transition."
+    },
+    {
+      "key": "hbm4",
+      "term": "High-bandwidth memory 4 (HBM4)",
+      "definition": "The fourth generation of high-bandwidth memory, used primarily in AI accelerators. HBM4 requires compression moulding of stacked DRAM dies into a single package — the process step TOWA Corporation dominates globally, with Micron, SK Hynix, and Samsung as primary customers."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001051627&type=10-K",
+      "title": "AXT Inc (AXTI) 10-K Annual Reports — SEC EDGAR",
+      "note": "Primary disclosure of AXT’s indium phosphide substrate business, customer concentration, feedstock supply, and competitive position across the InP value chain."
+    },
+    {
+      "url": "https://www.soitec.com/en/investors",
+      "title": "Soitec Investor Relations",
+      "note": "Hub for Soitec’s annual reports, capital markets presentations, and press releases, including the Photonics-SOI positioning and the ‘100% of next-generation AI data centers’ market-share claim."
+    },
+    {
+      "url": "https://ir.lpkf.de/en/",
+      "title": "LPKF Laser & Electronics — Investor Relations",
+      "note": "Annual reports and press releases on LPKF’s LIDE technology for glass core substrates, including qualification progress with Onto Innovation (ONTO) for mass production."
+    },
+    {
+      "url": "https://www.towa.co.jp/english/ir/",
+      "title": "TOWA Corporation — Investor Relations",
+      "note": "TOWA’s annual reports and earnings disclosures describing its dominant position in compression moulding equipment for HBM4 advanced packaging."
+    },
+    {
+      "url": "https://www.ofcconference.org/",
+      "title": "Optical Fiber Communication Conference (OFC)",
+      "note": "Primary technical conference for silicon photonics and CPO; proceedings include supply-chain analyses of InP substrate supply, SOI foundry capacity, and CPO integration milestones."
+    },
+    {
+      "url": "https://www.jedec.org/standards-documents/docs/jesd235d",
+      "title": "JEDEC JESD235D — High Bandwidth Memory (HBM) Standard",
+      "note": "Technical specification for HBM4, which defines the packaging geometry requirements that underpin TOWA’s compression moulding chokepoint."
+    },
+    {
+      "url": "https://www.semianalysis.com/",
+      "title": "SemiAnalysis — CPO and photonics supply chain analysis",
+      "note": "Subscription research Serenity explicitly references as the institutional-grade parallel to their own supply chain mapping, including detailed analyses of CPO substrate and laser supply chains."
+    },
+    {
+      "url": "https://situational-awareness.ai/",
+      "title": "Leopold Aschenbrenner, Situational Awareness: The Decade Ahead (2024)",
+      "note": "The essay Serenity cites as a framing reference for AI hardware supply concentration, while disagreeing with specific portfolio names including CoreWeave and Iris Energy."
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=68",
+      "title": "IEEE Photonics Technology Letters",
+      "note": "Peer-reviewed source for InP substrate material science, photonic integrated circuit yields, and foundry capacity papers underpinning the photonics supercycle thesis."
+    },
+    {
+      "url": "https://investor.axt.com/financial-information/annual-reports",
+      "title": "AXT Inc — Investor Relations Annual Reports",
+      "note": "AXT’s own IR page with annual reports and earnings call transcripts detailing vertical integration across the InP supply chain and customer qualification status."
+    },
+    {
+      "url": "https://ir.coherent.com/financial-information/annual-reports",
+      "title": "Coherent Corp (COHR) Annual Reports",
+      "note": "Coherent’s 10-K disclosures describing its InP substrate sourcing from AXT and vertical integration aspirations, relevant to competitive dynamics around the AXT chokepoint."
+    },
+    {
+      "url": "https://ir.tsmc.com/english/annualReports",
+      "title": "TSMC Annual Report 2025",
+      "note": "TSMC’s disclosures on silicon photonics foundry roadmap and CPO capacity expansion, underpinning the demand-side driver for Soitec substrates and the broader photonics supercycle thesis."
+    }
+  ],
+  "serenity_quotes_used": [
+    {
+      "tweet_id": "2042340467891978422",
+      "url": "https://x.com/aleabitoreddit/status/2042340467891978422",
+      "context": "Self-description of the investment method: supply chain mapping to find chokepoints markets haven’t priced."
+    },
+    {
+      "tweet_id": "2049523399911952597",
+      "url": "https://x.com/aleabitoreddit/status/2049523399911952597",
+      "context": "The canonical ‘functional monopolies’ list — six positions spanning HBM4 compression, CPO inspection, glass core substrates, silicon photonics substrates, and InP."
+    },
+    {
+      "tweet_id": "2046896671775494625",
+      "url": "https://x.com/aleabitoreddit/status/2046896671775494625",
+      "context": "The bottleneck vs. chokepoint taxonomy — glass core and DFB lasers are multi-year chokepoints, not near-term bottlenecks."
+    },
+    {
+      "tweet_id": "2035739495031792031",
+      "url": "https://x.com/aleabitoreddit/status/2035739495031792031",
+      "context": "Geopolitical framing: US enemies own most of the semiconductor supply chain chokepoints."
+    },
+    {
+      "tweet_id": "2048914800533721376",
+      "url": "https://x.com/aleabitoreddit/status/2048914800533721376",
+      "context": "TOWA described as ‘a rare, living definition of monopoly over HBM4 compression molding.’"
+    },
+    {
+      "tweet_id": "2049655082250314014",
+      "url": "https://x.com/aleabitoreddit/status/2049655082250314014",
+      "context": "MSSCorp initiation and first explicit use of ‘functional monopoly in CPO for inspection.’"
+    },
+    {
+      "tweet_id": "2046408704573292659",
+      "url": "https://x.com/aleabitoreddit/status/2046408704573292659",
+      "context": "Soitec cited as ‘a true monopoly’; includes the Soitec EVP quote about Photonics-SOI being deployed in 100% of next-generation AI data centers."
+    },
+    {
+      "tweet_id": "2038876668765610085",
+      "url": "https://x.com/aleabitoreddit/status/2038876668765610085",
+      "context": "The ‘Strait of AXTI’ analogy comparing AXT’s InP position to the Strait of Hormuz chokepoint in global oil supply."
+    },
+    {
+      "tweet_id": "2036245604393951613",
+      "url": "https://x.com/aleabitoreddit/status/2036245604393951613",
+      "context": "Admission that forward revenue modeling is impossible for new chokepoints; qualitative structural positioning replaces DCF."
+    },
+    {
+      "tweet_id": "2037698708612210693",
+      "url": "https://x.com/aleabitoreddit/status/2037698708612210693",
+      "context": "HIMX failure case study: ‘Chokepoints can be designed out’ and may not translate into material revenue."
+    },
+    {
+      "tweet_id": "2019189066546442296",
+      "url": "https://x.com/aleabitoreddit/status/2019189066546442296",
+      "context": "Shkreli comment on AXTI pricing power: the monopoly exists but management has not chosen to extract monopoly rents."
+    }
+  ],
+  "generated_at": "2026-05-08T09:57:47Z",
+  "backend": "claude-sonnet-subagent"
+}

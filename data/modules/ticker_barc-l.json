@@ -1,0 +1,28 @@
+{
+  "key": "BARC.L",
+  "name": "Barclays PLC",
+  "exchange": "London Stock Exchange",
+  "blurb": "Barclays PLC is a British multinational universal bank, headquartered in London. It operates in retail banking, credit cards, corporate and investment banking, and wealth management, with a strong presence in the UK, US, and Europe. As of early 2026, its market capitalization is approximately £61 billion, making it one of the largest banks in the UK.",
+  "recent": "In the past 30 days, Barclays stock has traded near its 52-week high of 506.40 GBp, reached on February 4, 2026. The stock has shown positive momentum, with a recent price of 447.15 GBp, up 1.02% on the day. No major earnings or news catalysts were reported in the immediate period.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/BARC.L/news/",
+      "title": "Barclays PLC (BARC.L) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/BARC.L",
+      "title": "BARC.L: Barclays PLC - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/BARC.L/",
+      "title": "(BARC.L) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/BARCLAYS-PLC-9583556/",
+      "title": "Barclays PLC Stock (BARC) - Quote London S.E.- MarketScreener"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:32:42.544384Z",
+  "backend": "deepseek"
+}

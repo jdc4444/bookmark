@@ -1,0 +1,135 @@
+{
+  "headline": "How Karpathy's ML Loop Became a Prompt Optimizer",
+  "lede": "Andrej Karpathy's autoresearch — a March 2026 tool that runs AI-driven hypothesis-test cycles on machine-learning code overnight, unattended — has been adapted by a practitioner-educator into a method for automatically sharpening Claude prompt 'skills.' Ole Lehmann, a non-technical German creator, reports a landing-page skill climbing from a 56% pass rate to 92% with zero manual work. The core claim: any measurable Claude skill can be optimized on autopilot, given nothing more than a short yes/no scoring checklist.",
+  "body": "Andrej Karpathy released **autoresearch** on March 7, 2026 — a Python tool that assigns an AI coding agent a live single-GPU training rig and instructs it to run propose-train-evaluate cycles overnight, unattended. The loop is spare: propose a hypothesis, mutate one file, run a five-minute training session, measure *val_bpb* (validation bits-per-byte, a model-agnostic quality score), keep the change if the metric improves, otherwise revert. Over two days, roughly 700 automated experiments on Karpathy's own nanochat codebase surfaced twenty genuine improvements that manual review had missed. Karpathy, who co-founded OpenAI and later directed AI at Tesla (TSLA) before working independently, coined *vibe coding* in February 2025 — the practice of delegating software development entirely to an AI without examining the result. autoresearch, released exactly a year later, is the corrective: delegation with measurement.\n\nOle Lehmann, who publishes the *AI Solopreneur* newsletter for non-technical founders, mapped Karpathy's three-part architecture onto Anthropic's **skill** system. A skill is a folder inside `.claude/skills/` containing a `SKILL.md` file: versioned, git-trackable prompt instructions for a reusable task pattern, invocable as a slash command. Skills run identically in Claude Code (Anthropic's developer CLI) and Claude Cowork (Anthropic's desktop agent for knowledge workers). Structurally, `SKILL.md` is what `train.py` is in Karpathy's setup — a discrete, mutable, testable artifact with a clear boundary between what the human defines and what the agent improves.\n\nLehmann's adaptation requires one human input: a **scoring checklist** of three to six yes/no questions defining what good output looks like ('Does the headline include a specific number?', 'Is the call to action in the first paragraph?'). The agent then runs the loop — form a hypothesis about why the skill underperforms, mutate one section of `SKILL.md`, execute the skill several times, score each output against the checklist, keep or revert. His landing-page copy skill went from 56% to 92% pass rate, halting after three consecutive experiments above 95%, at a compute cost of roughly $15.\n\nThe principle has deep academic roots. *DSPy*, a Stanford framework from 2023, uses Bayesian optimizers to automatically tune LLM prompt instructions against a defined metric. *PromptBreeder* from Google DeepMind (GOOGL) and Google's *OPRO* explored evolutionary and gradient-free loops for automatic prompt improvement before that. Lehmann's contribution is not the principle but the packaging: no training datasets, no Python environment, no research infrastructure — just a `SKILL.md` file and a short checklist, running natively inside Claude. The **prompt optimization** research field has long argued that prompts should be treated as learnable parameters rather than manually tuned prose; what Lehmann has built is a zero-infrastructure instantiation of that argument, accessible to a non-technical practitioner in an afternoon.",
+  "tickers": [
+    "TSLA",
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Tesla",
+      "ticker": "TSLA"
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    }
+  ],
+  "poster": "iruletheworldmo",
+  "concepts": [
+    {
+      "key": "autoresearch",
+      "term": "autoresearch",
+      "definition": "Andrej Karpathy's March 2026 open-source method for autonomous improvement of code. An AI agent proposes a hypothesis, mutates one target file, runs a short evaluation, and keeps or reverts the change based on whether a defined metric improved. Designed to run overnight across roughly 100 experiments without human intervention."
+    },
+    {
+      "key": "claude-skill",
+      "term": "Claude skill",
+      "definition": "A versioned, git-trackable prompt artifact in Anthropic's Claude ecosystem, stored as a SKILL.md file inside a .claude/skills/ directory. Skills encode reusable task patterns and are invoked as slash commands in Claude Code and Claude Cowork. More structured than plain prompts — they can bundle supporting scripts and are testable against defined quality criteria."
+    },
+    {
+      "key": "vibe-coding",
+      "term": "vibe coding",
+      "definition": "A term coined by Andrej Karpathy in February 2025 describing the practice of delegating software development entirely to an AI without closely examining the output. Named Collins Dictionary Word of the Year for 2025 and listed by Merriam-Webster as a trending term."
+    },
+    {
+      "key": "val-bpb",
+      "term": "val_bpb",
+      "definition": "Validation bits-per-byte: a metric for evaluating language model quality during training. Lower is better. Used in Karpathy's autoresearch as the keep/revert criterion because it works across different model architectures without modification, making it a clean, universal signal."
+    },
+    {
+      "key": "scoring-checklist",
+      "term": "scoring checklist",
+      "definition": "In Lehmann's autoresearch adaptation, the human-supplied set of three to six yes/no questions that define what a good skill output looks like. It replaces val_bpb as the evaluation signal: each output is scored by counting how many binary criteria it passes, yielding a comparable keep/revert decision."
+    },
+    {
+      "key": "prompt-optimization",
+      "term": "prompt optimization",
+      "definition": "A subfield of ML research that treats prompt text as a learnable parameter to be improved automatically, rather than a fixed artifact tuned manually. Academic methods include DSPy, PromptBreeder, APE, and OPRO; the field argues that automated search over prompt space reliably outperforms human iteration."
+    },
+    {
+      "key": "dspy",
+      "term": "DSPy",
+      "definition": "A Stanford NLP framework (2023) for building modular LLM programs where prompt instructions and few-shot examples are automatically optimized against a defined metric, using methods such as Bayesian search (MIPROv2) or stochastic mini-batch sampling (SIMBA). Widely used in LLM application research."
+    },
+    {
+      "key": "claude-cowork",
+      "term": "Claude Cowork",
+      "definition": "Anthropic's desktop agent product for non-technical knowledge workers — researchers, analysts, legal and finance professionals. It has file-system access and completes multi-step tasks autonomously. Skills are the shared reusable-task module system between Cowork and Claude Code."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "karpathy-autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "summary": "The original autoresearch tool by Andrej Karpathy. A Python setup that gives an AI coding agent a single-GPU training rig and instructs it to run hypothesis-driven experiments overnight. The three-file architecture — train.py as mutable target, prepare.py as immutable scorer, program.md as human instructions — is the structural template Lehmann adapted for Claude skills. Accumulated 21,000 GitHub stars within days of its March 2026 release."
+    },
+    {
+      "key": "olelehmann1337-autoresearch-skill",
+      "url": "https://github.com/olelehmann1337/autoresearch-skill",
+      "summary": "Ole Lehmann's Claude skill implementation of the autoresearch loop. The SKILL.md encodes a five-stage process: analyze failures, form a hypothesis, mutate the target skill, test outputs against a binary checklist, keep or revert. Runs autonomously until it achieves a 95% pass rate for three consecutive experiments or the user manually stops it."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/karpathy/autoresearch",
+      "title": "karpathy/autoresearch",
+      "note": "Primary source for the original autoresearch method, loop mechanics, and three-file architecture"
+    },
+    {
+      "url": "https://www.threads.com/@itsolelehmann/post/DWHFWK0CY4R/",
+      "title": "Ole Lehmann on Threads — autoresearch-skill announcement",
+      "note": "Primary accessible source for Lehmann's method, the 56% to 92% claim, and the Karpathy adaptation mapping"
+    },
+    {
+      "url": "https://github.com/olelehmann1337/autoresearch-skill",
+      "title": "olelehmann1337/autoresearch-skill",
+      "note": "The skill implementation itself; source for five-stage loop, scoring format, and stop conditions"
+    },
+    {
+      "url": "https://x.com/itsolelehmann/status/2033919415771713715",
+      "title": "Ole Lehmann on X — original thread",
+      "note": "The bookmarked source post; links to the newsletter article"
+    },
+    {
+      "url": "https://x.com/karpathy/status/1886192184808149383",
+      "title": "Karpathy on X — vibe coding coinage",
+      "note": "Primary source for the vibe coding term and date (Feb 2, 2025)"
+    },
+    {
+      "url": "https://dspy.ai/",
+      "title": "DSPy — Programming with Foundation Models",
+      "note": "Prior art: academic prompt-optimization framework from Stanford NLP"
+    },
+    {
+      "url": "https://github.com/stanfordnlp/dspy",
+      "title": "stanfordnlp/dspy",
+      "note": "DSPy GitHub repo — source for optimizer details including MIPROv2 and SIMBA"
+    },
+    {
+      "url": "https://github.com/MosherJ/researchX/blob/main/skills-and-knowledge/10x-claude-skills-karpathy-autoresearch/summary.md",
+      "title": "researchX summary of Lehmann's method",
+      "note": "Independent summary confirming key claims and loop mechanics"
+    },
+    {
+      "url": "https://twitter-thread.com/t/2033919415771713715",
+      "title": "Twitter Thread Reader — Ole Lehmann autoresearch thread",
+      "note": "Thread reader version with extended content of the original X post"
+    }
+  ],
+  "bookmark_id": "2036516660916429106",
+  "generated_at": "2026-05-07T12:07:57.730907Z",
+  "backend": "claude-sonnet-subagent"
+}

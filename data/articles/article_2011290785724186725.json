@@ -1,0 +1,134 @@
+{
+  "headline": "SlopWatch Wants to Crowdsource the War on AI Filler",
+  "lede": "Spam was eventually tamed by a combination of community blocklists and user reporting. A developer known as @_offmylawn is wagering that social-media *slop* — the low-effort, AI-generated, engagement-bait content flooding X feeds — can be suppressed by the same logic. His Chrome extension, SlopWatch, adds a community vote button to every post; enough votes and the content disappears.",
+  "body": "Nate, a developer who blogs under the handle @_offmylawn, launched SlopWatch in January 2026 — a Chrome extension that grafts a **Slop** vote button onto every visible post in an X feed. When enough users flag a piece of content (the threshold is user-configurable, defaulting to five votes), the post is hidden from view. A personal accuracy score and daily streak track whether your slop-calls align with the community’s, gamifying moderation in the fashion of a content-quality leaderboard. The screenshot embedded in the bookmark shows the extension’s dashboard alongside a pump.fun prediction post — pump.fun is a Solana-based platform for creating and trading *meme coins*, a form of crypto token issued largely for speculative entertainment — the kind of financially motivated noise that saturates crypto-adjacent feeds and has become a byword for *engagement bait*.\n\n*Slop* arrived as formal vocabulary in May 2024, when programmer Simon Willison published a post arguing that AI-generated dreck needed a name the way unwanted email needed “spam.” By December 2025, Merriam-Webster had named slop its Word of the Year, defining it as “digital content of low quality that is produced usually in quantity by means of artificial intelligence.” The American Dialect Society and *The Economist* agreed. Mentions of the term online increased roughly ninefold between 2024 and 2025. Willison’s original formulation offered a useful distinction: not all AI-generated content is slop, but content that is “mindlessly generated and thrust upon someone who didn’t ask for it” qualifies.\n\nThe spam analogy is doing real work here, not just rhetorical work. Spam was eventually suppressed through a layered stack: community blocklists, server-side filters, and user-level reporting. SlopWatch attempts an analogous stack at the feed layer rather than the transport layer. The most direct architectural precedent is SponsorBlock, an open-source browser extension from 2019 that lets YouTube viewers submit timestamps of sponsor segments; other users’ clients then skip them automatically. SponsorBlock’s own GitHub issue tracker now contains a feature request to extend the same logic to “AI slop, via community reporting” — the community recognizing the parallel before any single tool has captured it.\n\nSlopWatch enters a crowded field. At least a dozen anti-slop extensions now compete for the same niche, including ZeroSlop (which pairs a probabilistic AI-text detector with community votes) and Kagi’s SlopStop (which down-ranks flagged domains in search results). Bluesky’s *stackable moderation* system, launched in 2024, takes a structurally different approach: users subscribe to independent labeling services that filter content according to community-defined rules. The density of competing tools signals genuine demand; it also surfaces a classic *cold-start problem* — a vote-threshold system requires a critical mass of participants before it produces useful signal, and SlopWatch had only seven users as of early 2026.\n\nWhether SlopWatch or any peer can reach the scale that made SponsorBlock work — that extension now has millions of users and a database covering hundreds of millions of YouTube segments — is the open question. The spam wars took a decade of technical, legal, and social pressure to reach a livable détente. Slop is cheaper to produce than spam ever was, and it is made by humans as readily as machines.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "pump.fun",
+      "ticker": null
+    },
+    {
+      "name": "Kagi",
+      "ticker": null
+    }
+  ],
+  "poster": "nosilverv",
+  "concepts": [
+    {
+      "key": "slop",
+      "term": "Slop",
+      "definition": "Internet slang, formalized in 2024, for digital content of low quality produced in bulk, usually by AI tools. The term draws a deliberate parallel to spam: just as spam means unwanted bulk email, slop means unwanted bulk AI-generated content thrust on audiences who did not request it. Merriam-Webster named it its 2025 Word of the Year."
+    },
+    {
+      "key": "engagement-bait",
+      "term": "Engagement bait",
+      "definition": "Content engineered to maximize reactions, clicks, or shares rather than to inform or entertain. Engagement bait exploits platform algorithms that reward interaction volume, flooding feeds with low-effort but high-reaction material such as provocative predictions, polls, and viral meme formats."
+    },
+    {
+      "key": "meme-coin",
+      "term": "Meme coin",
+      "definition": "A cryptocurrency token issued primarily for speculative or comedic purposes, with little or no underlying utility. Meme coins rely on community momentum and social-media virality rather than technological innovation. Platforms like pump.fun made meme-coin creation cheap and near-instant on the Solana blockchain."
+    },
+    {
+      "key": "sponsorblock",
+      "term": "SponsorBlock",
+      "definition": "An open-source browser extension that lets YouTube users submit and share timestamps of sponsored segments, causing other users’ players to skip them automatically. It is the most widely cited architectural precedent for crowdsourced, threshold-based content filtering at scale."
+    },
+    {
+      "key": "stackable-moderation",
+      "term": "Stackable moderation",
+      "definition": "A moderation architecture introduced by Bluesky in 2024 in which users subscribe to independent third-party labeling services, each applying its own rules for flagging or hiding content. Different users can choose different stacks, allowing pluralistic content standards without centralized enforcement."
+    },
+    {
+      "key": "cold-start-problem",
+      "term": "Cold-start problem",
+      "definition": "In systems that depend on user-generated data such as ratings or votes, the cold-start problem describes the period when there are too few participants to produce reliable outputs. A vote-threshold hiding system is useless until enough people are voting; attracting those first voters is the challenge."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "ajayyy/SponsorBlock",
+      "url": "https://github.com/ajayyy/SponsorBlock",
+      "summary": "SponsorBlock is an open-source browser extension that crowdsources YouTube sponsor-segment timestamps. Users submit time ranges; other users’ clients skip them automatically. The project has millions of users and a public database covering hundreds of millions of video segments, making it the proof-of-concept for crowdsourced, threshold-based feed filtering at scale."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://chromewebstore.google.com/detail/slopwatch/cbhpfcfipgkglniinhifhfigpjmoellj",
+      "title": "SlopWatch — Chrome Web Store",
+      "note": "Primary source for extension features, description, user count, and developer contact"
+    },
+    {
+      "url": "https://offmylawn.xyz/",
+      "title": "offmylawn.xyz — Nate’s personal site",
+      "note": "Creator’s self-description and profile"
+    },
+    {
+      "url": "https://blog.offmylawn.xyz/",
+      "title": "offmylawn.xyz Blog",
+      "note": "Creator’s writing on crypto community dynamics, informing SlopWatch’s gamification design"
+    },
+    {
+      "url": "https://simonwillison.net/2024/May/8/slop/",
+      "title": "Simon Willison, ‘Slop is the new name for unwanted AI-generated content’ (2024)",
+      "note": "Foundational essay formalizing the slop/spam parallel"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AI_slop",
+      "title": "Wikipedia: AI slop",
+      "note": "Timeline of slop’s etymology and cultural adoption"
+    },
+    {
+      "url": "https://maxread.substack.com/p/what-is-slop-exactly",
+      "title": "Max Read, ‘What is slop, exactly?’ (Read Max)",
+      "note": "Cultural theory of slop as market-driven homogenization"
+    },
+    {
+      "url": "https://www.smithsonianmag.com/smart-news/merriam-websters-word-of-the-year-for-2025-is-slop-the-ai-generated-junk-that-fills-our-social-media-feeds-180987887/",
+      "title": "Smithsonian: Merriam-Webster’s Word of the Year for 2025 Is Slop",
+      "note": "MW WOTY announcement and ninefold-increase statistic"
+    },
+    {
+      "url": "https://github.com/ajayyy/SponsorBlock",
+      "title": "SponsorBlock GitHub repository",
+      "note": "Architectural precedent for crowdsourced threshold-based content filtering"
+    },
+    {
+      "url": "https://github.com/ajayyy/SponsorBlock/issues/1963",
+      "title": "SponsorBlock issue #1963: AI slop community reporting proposal",
+      "note": "Shows the SponsorBlock community extending the model to slop moderation"
+    },
+    {
+      "url": "https://hackernoon.com/zeroslop-why-i-built-the-sponsorblock-for-ai-slop-on-x",
+      "title": "HackerNoon: ZeroSlop — Why I Built the SponsorBlock for AI Slop on X",
+      "note": "Competitor tool confirming crowded anti-slop field"
+    },
+    {
+      "url": "https://blog.kagi.com/slopstop",
+      "title": "Kagi: SlopStop announcement",
+      "note": "Search-layer competitor anti-slop tool"
+    },
+    {
+      "url": "https://bsky.social/about/blog/03-12-2024-stackable-moderation",
+      "title": "Bluesky: Stackable Moderation (2024)",
+      "note": "Alternative architectural approach to community content labeling"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pump.fun",
+      "title": "Wikipedia: pump.fun",
+      "note": "Background on the Solana meme-coin platform shown in the bookmark’s OCR"
+    },
+    {
+      "url": "https://www.euronews.com/next/2025/12/28/2025-was-the-year-ai-slop-went-mainstream-is-the-internet-ready-to-grow-up-now",
+      "title": "Euronews: ‘2025 was the year AI slop went mainstream’",
+      "note": "Ninefold increase in mentions and cultural-moment framing"
+    }
+  ],
+  "bookmark_id": "2011290785724186725",
+  "generated_at": "2026-05-07T13:06:53.914760Z",
+  "backend": "claude-sonnet-subagent"
+}

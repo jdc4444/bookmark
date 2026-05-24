@@ -1,0 +1,28 @@
+{
+  "key": "SOI.PA",
+  "name": "Soitec SA",
+  "exchange": "Euronext Paris",
+  "blurb": "Soitec SA is a French semiconductor materials company founded in 1992 that develops and manufactures engineered substrates used in smartphones, automotive electronics, and 5G infrastructure. Its core product lines include Radio Frequency Silicon-on-Insulator (RF-SOI) wafers for smartphone front-end modules, FD-SOI substrates for low-power chips, Piezoelectric-on-Insulator (POI) RF filters, and RF gallium nitride for sub-6GHz and mmWave 5G systems. The company operates across Asia, Europe, and the United States with approximately 1,991 employees and a market capitalization of roughly €5.6 billion. Soitec holds a dominant position in the engineered substrate niche, supplying major semiconductor fabs and OEMs globally.",
+  "recent": "As of mid-May 2026, Soitec shares trade around €152–155, well off their 52-week high of €180 but up sharply over the prior year (+163%) following a reverse stock split. Trailing-twelve-month revenue has contracted 14.3% to €784M and net income has fallen nearly 90% year-over-year, reflecting weakness in smartphone demand — a risk Morningstar analysts flagged in a March 2026 note that also cited silicon photonics as a potential long-term upside catalyst. The company's next scheduled earnings release is May 27, 2026, which will be closely watched for signs of stabilization in mobile volumes.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/quote/epa/SOI/",
+      "title": "Soitec (EPA:SOI) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xpar/soi/quote",
+      "title": "SOI Stock Price Quote | Morningstar"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/SOI.PA/",
+      "title": "Soitec SA (SOI.PA) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/SOI?countrycode=FR",
+      "title": "SOI Stock Price | Soitec S.A. — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:30:36.319570Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,53 @@
+{
+  "headline": "A Commercial Water Shader Brings GPU-Grade Seas to the Browser",
+  "lede": "Dan Greenheck, a 3D web developer, has opened a public live demo of *Three.js Water Pro*, a paid shader asset that renders convincing ocean and water surfaces inside a standard web browser. The demo — reachable at threejswaterpro.com — lets visitors dial through presets and performance settings in real time. It is a small but telling marker of how far browser-based 3D has come.",
+  "body": "**Three.js** is the dominant JavaScript library for real-time 3D on the web. It wraps *WebGL* — the browser API that gives web pages direct access to the device's GPU — in an approachable interface, handling cameras, lights, geometry, and materials without requiring developers to write raw GPU code. The library has been powering product configurators, data visualisations, games, and artistic installations for over a decade.\n\nRendering convincing water is one of 3D graphics' harder sub-problems. A calm lake and a storm-churned sea behave differently at every scale: large swells, wind-driven chop, whitecaps, subsurface scattering of light, and the way a surface mirrors a sky. Doing all of that in real time requires careful shader work — small programs that run per-pixel on the GPU — along with precomputed wave geometry or *FFT*-based (Fast Fourier Transform) ocean models. The gap between a flat shiny plane and something that reads as genuinely aquatic is mostly a question of how much GPU budget you can spend.\n\nThe demo's visible metrics give a sense of the tradeoffs. A readout showing draw calls in the mid-twenties is notably lean; each draw call is a discrete instruction from the CPU to the GPU, and excess calls are a classic bottleneck on mobile hardware. The DPR (device pixel ratio) control lets users halve rendering resolution on high-density screens — a practical concession that can double frame rates on phones without the drop being perceptible from arm's length. Presets labelled *Choppy* and *Ultra* bracket a range from mobile-friendly to desktop-maxed.\n\nThe product is a commercial asset, not an open-source library, aimed at studios and independent developers who need presentable water in a Three.js project without building the shader pipeline themselves. A case-study post on *Three.js Resources* lists five business verticals using it — real-estate visualisation, marine product pages, and games among them — which suggests the market is wider than hobby projects. Greenheck's addition of a mobile-responsive UI to the demo is pointed: water scenes that look good only on a desktop GPU are commercially limited.",
+  "tickers": [],
+  "poster": "dangreenheck",
+  "concepts": [
+    {
+      "key": "webgl",
+      "term": "WebGL",
+      "definition": "A JavaScript API standardised by the Khronos Group that allows web pages to issue commands directly to the device's graphics processor. It is the engine under the hood of virtually all in-browser 3D graphics, including Three.js scenes."
+    },
+    {
+      "key": "draw-calls",
+      "term": "Draw calls",
+      "definition": "Individual instructions sent from the CPU to the GPU telling it to render a batch of geometry. Reducing their count is one of the primary optimisation levers in real-time 3D; excessive draw calls stall the CPU and are especially costly on mobile GPUs."
+    },
+    {
+      "key": "device-pixel-ratio",
+      "term": "Device pixel ratio (DPR)",
+      "definition": "The ratio of physical screen pixels to logical CSS pixels on a display. A DPR of 2 means the screen has four physical pixels for every CSS pixel. Rendering at full DPR on a modern phone is expensive; reducing it trades visual crispness for frame-rate headroom."
+    },
+    {
+      "key": "glsl-shader",
+      "term": "Shader",
+      "definition": "A small program written in a C-like language (GLSL for WebGL) that runs on the GPU rather than the CPU. Shaders control how each pixel is coloured and how geometry is deformed; water effects rely heavily on fragment shaders to simulate light interaction with a moving surface."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.24vids.com/video/ive-had-so-many-people-ask-for-a-live-demo-of-threejs-water-pro-so-im-excited-p-tw-2037682861038248285",
+      "title": "Three.js Water Pro demo announcement mirror",
+      "note": "Mirrors the original tweet text confirming the product name and announcement"
+    },
+    {
+      "url": "https://threejsresources.com/blog",
+      "title": "Three.js Resources Blog",
+      "note": "Lists a case-study post confirming Three.js Water Pro is Dan Greenheck's commercial product with documented business use cases"
+    },
+    {
+      "url": "https://threejsdemos.com/",
+      "title": "Three.js Demos",
+      "note": "Provides context on the Three.js ecosystem and typical demo conventions"
+    }
+  ],
+  "bookmark_id": "2037682861038248285",
+  "generated_at": "2026-05-06T19:53:45.774873Z",
+  "backend": "claude"
+}

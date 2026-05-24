@@ -1,0 +1,20 @@
+{
+  "key": "TSM",
+  "name": "Taiwan Semiconductor Manufacturing Company",
+  "exchange": "NYSE (ADR) / TWSE",
+  "blurb": "TSMC is the world's largest contract chipmaker, fabricating semiconductors designed by Nvidia, Apple, AMD, Qualcomm, and dozens of others. It controls roughly 60% of global foundry revenue and an even higher share of advanced-node manufacturing (3nm and below). TSMC's competitive position rests on process technology leadership, enormous capital expenditure scale, and a customer base that has no viable alternative at leading-edge geometries. Its Taiwanese concentration is the central geopolitical risk that market participants perpetually discount, then rediscover.",
+  "recent": "TSMC reported Q1 2026 revenue of approximately NT$839 billion (roughly $26 billion USD), up around 41% year-over-year, driven by surging AI accelerator demand from Nvidia and Apple. The company's CoWoS advanced packaging capacity — critical for HBM memory integration in AI GPUs — remains sold out through at least 2026. TSMC appeared on Palantir's Q1 2026 Rule of 80 Frontier chart with a composite growth-plus-margin score of 88%, placing it fourth among large-cap companies on that metric.",
+  "sources": [
+    {
+      "url": "https://x.com/StockMKTNewz/status/1952462417860129191",
+      "title": "Rule of 80 Frontier — @StockMKTNewz on X"
+    },
+    {
+      "url": "https://investors.palantir.com/files/Palantir%20-%20Q1%202026%20Business%20Update.pdf",
+      "title": "Palantir Q1 2026 Business Update slides (PDF)"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:06:49Z",
+  "backend": "claude-sonnet-subagent"
+}

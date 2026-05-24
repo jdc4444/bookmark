@@ -1,0 +1,53 @@
+{
+  "handle": "aleabitoreddit",
+  "computed_at": "2026-05-09T04:02:53Z",
+  "best_interpretable": {
+    "final": 569.97,
+    "max_dd_pct": -20.1,
+    "ann_vol_pct": 90.4,
+    "avg_n": 14.6,
+    "fallback_days": 0,
+    "params": {
+      "tier_mix": 1,
+      "tier_power": 1,
+      "conv_power": 1,
+      "untiered_floor": 0,
+      "pshare_mix": 0.3,
+      "pshare_power": 1,
+      "mention_power": 1,
+      "mention_prior": 0,
+      "recency_mode": "zero",
+      "hl_scale": 1,
+      "recency_strength": 1,
+      "threshold": 0.02,
+      "top_n": null,
+      "max_w": null,
+      "fallback": "flat"
+    }
+  },
+  "best_clean_top5": {
+    "final": 540.59,
+    "max_dd_pct": -21.0,
+    "ann_vol_pct": 57.2,
+    "avg_n": 5.0,
+    "fallback_days": 0,
+    "params": {
+      "tier_mix": 0.1,
+      "tier_power": 0.5,
+      "conv_power": 2,
+      "untiered_floor": 0.5,
+      "pshare_mix": 1,
+      "pshare_power": 2,
+      "mention_power": 1.5,
+      "mention_prior": 2,
+      "recency_mode": "zero",
+      "hl_scale": 0.25,
+      "recency_strength": 3,
+      "threshold": 0.005,
+      "top_n": 5,
+      "max_w": 0.2,
+      "fallback": "max"
+    }
+  },
+  "note": "Sidebar metric \u2014 not the headline. These two formulas come from an in-sample sweep tuned on aleabit's series; treat them as a rough sense of how a sensible weighting reconstructs the track record, not as audited returns."
+}

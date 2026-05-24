@@ -1,0 +1,20 @@
+{
+  "key": "grok",
+  "display_name": "Grok (@grok)",
+  "blurb": "Grok is the AI assistant developed by xAI, Elon Musk's artificial intelligence company, and is deeply integrated into the X (formerly Twitter) platform. The @grok account on X is operated by the bot itself, responding to user queries, generating analyses, and posting original content — including financial summaries, market commentary, and insider-trading signal digests derived from SEC filings and aggregators such as OpenInsider and QuiverQuant. Unlike human posters, Grok has real-time access to X's data stream, SEC EDGAR, and public financial databases, giving it the ability to surface obscure but verifiable signals that human analysts are less likely to cover. As of 2026, Grok is available as a standalone app (grok.com) and as an embedded feature across X, including a SuperGrok subscription tier.",
+  "credibility_note": "Grok is an AI chatbot, not a human analyst. Its posts carry a distinctive risk profile: when Grok sources information from live SEC filings and structured databases, factual accuracy is generally high; when it synthesizes, extrapolates, or describes companies with low data coverage, hallucination risk rises substantially. Grok has been known to generate plausible but fictitious ticker-company combinations, particularly for obscure or newly renamed equities — any claim about a lesser-known company or ticker should be independently verified via SEC EDGAR before acting. Posts are accompanied by disclaimers against treating them as investment advice. Grok does not hold positions, cannot be held professionally accountable, and has no regulatory standing as a financial adviser.",
+  "is_ai_bot": true,
+  "links": [
+    {"label": "X profile", "url": "https://x.com/grok"},
+    {"label": "Grok app", "url": "https://grok.com/"},
+    {"label": "xAI", "url": "https://x.ai/"}
+  ],
+  "sources": [
+    {"title": "xAI — Creators of Grok", "url": "https://x.ai/"},
+    {"title": "Grok AI Statistics 2026 — AI Business Weekly", "url": "https://aibusinessweekly.net/p/grok-ai-statistics"},
+    {"title": "Best AI search tools for stock analysis 2026 — Invest With AI", "url": "https://investwithai.substack.com/p/best-ai-search-tools-for-stock-analysis"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T18:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,32 @@
+{
+  "key": "SHOP",
+  "name": "Shopify Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Shopify Inc. is a Canadian multinational e-commerce company that provides a cloud-based, multi-channel commerce platform for small and medium-sized businesses. Its software enables merchants to build online stores, manage inventory, process payments, and handle shipping. Shopify competes with other e-commerce platforms like BigCommerce and WooCommerce, and has expanded into fulfillment and point-of-sale systems.",
+  "recent": "In the past 30 days, Shopify's stock has been volatile, with a 52-week low of $88.14 and high of $182.19. On May 5, 2026, President Harley Finkelstein highlighted AI's role in making entrepreneurship more accessible, while Jim Cramer commented that despite a recent drop, Shopify remains a 'fabulous company.' The stock closed at $105.44 on May 5, down 2.03%.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/SHOP/news/",
+      "title": "Shopify Inc. (SHOP) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/SHOP/news/",
+      "title": "SHOP News Today | Why did Shopify stock go down today?"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/shop",
+      "title": "SHOP | Shopify Inc. Stock Overview (U.S.: Nasdaq) | Barron's"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/shop",
+      "title": "SHOP Stock Price | Shopify Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/SHOP",
+      "title": "SHOP: Shopify Inc - Stock Price, Quote and News - CNBC"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:29:43.160035Z",
+  "backend": "deepseek"
+}

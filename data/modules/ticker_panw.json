@@ -1,0 +1,32 @@
+{
+  "key": "PANW",
+  "name": "Palo Alto Networks, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Palo Alto Networks is a global cybersecurity company offering a range of security solutions including network security, cloud security, and AI-driven threat protection. Its products include Prisma Access (SASE), Strata Cloud Manager, and Prisma AIRS for AI security. The company is a leader in the cybersecurity market, competing with firms like CrowdStrike and Fortinet.",
+  "recent": "As of May 6, 2026, PANW stock closed at $183.68, down 0.16% on the day, with a 52-week range of $139.57 to $223.61. The company has a market cap of $148.96B and a forward PE of 50.84. No major news in the past 30 days was identified from the provided sources.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/PANW/news/",
+      "title": "Palo Alto Networks, Inc. (PANW) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PANW/news/",
+      "title": "PANW News Today | Why did Palo Alto Networks stock go down ... - MarketBeat"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/PANW",
+      "title": "PANW Stock Quote Price and Forecast | CNN"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/panw",
+      "title": "PANW Stock Price | Palo Alto Networks Inc. Stock Quote (U.S.: Nasdaq ... - MarketWatch"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/panw/",
+      "title": "Palo Alto Networks (PANW) Stock Price & Overview - Stock Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:37:03.551915Z",
+  "backend": "deepseek"
+}

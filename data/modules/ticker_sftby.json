@@ -1,0 +1,24 @@
+{
+  "key": "SFTBY",
+  "name": "SoftBank Group Corp. (ADR)",
+  "exchange": "OTC",
+  "blurb": "SFTBY is the American Depositary Receipt (ADR) for SoftBank Group Corp., the Japanese technology conglomerate founded by Masayoshi Son. SoftBank is best known as a technology investment vehicle — through its Vision Fund I ($100 billion, 2017) and Vision Fund II, it took stakes in Uber, WeWork, DoorDash, ARM Holdings, and hundreds of other companies. ARM Holdings (NASDAQ: ARM), which SoftBank retained after a partial IPO in 2023, remains its single largest asset. SoftBank has repositioned itself since 2024 as the lead financial architect of AI infrastructure, with Masayoshi Son publicly framing artificial superintelligence as a civilisational imperative. Each ADR represents one-half of one ordinary SoftBank share.",
+  "recent": "SoftBank completed a $41 billion investment in OpenAI — the largest single external investment in an AI company on record — giving it approximately 11% of the ChatGPT maker. SoftBank is the lead financial partner in the Stargate joint venture, a $500 billion planned US AI data-centre programme co-founded with OpenAI, Oracle, and Abu Dhabi's MGX. SoftBank sold its entire $5.8 billion Nvidia stake and $4.8 billion of its T-Mobile stake to fund these AI commitments. SB Energy (a SoftBank subsidiary) is developing multi-gigawatt data-centre campuses expected to enter service in 2026, with a $3 billion Ohio manufacturing facility also underway.",
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/2025/12/30/softbank-openai-investment.html",
+      "title": "SoftBank Fully Funded $40B OpenAI Investment — CNBC"
+    },
+    {
+      "url": "https://openai.com/index/announcing-the-stargate-project/",
+      "title": "Announcing The Stargate Project — OpenAI"
+    },
+    {
+      "url": "https://markets.financialcontent.com/wral/article/predictstreet-2025-12-29-the-ai-investment-house-a-comprehensive-research-feature-on-softbank-group-corp-sftby-in-2025",
+      "title": "SoftBank Group 2025 Research Feature — Financial Content"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

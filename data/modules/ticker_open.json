@@ -1,0 +1,15 @@
+{
+  "key": "OPEN",
+  "name": "Opendoor Technologies, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Opendoor is an iBuyer — a company that purchases homes algorithmically for rapid resale, aiming to bring liquidity and simplicity to the residential real-estate transaction. It went public via SPAC in 2020 at elevated valuations, then suffered a protracted decline as rising interest rates crushed housing-market transaction volumes and compressed the margins on its home-flipping model.",
+  "recent": "In mid-2025, Opendoor became a retail-driven meme stock, rising roughly 237% from July lows as co-founders Keith Rabois (who became chairman) and Eric Wu rejoined the board, injecting approximately $40 million of personal capital. Kaz Nejatian, formerly COO of Shopify, was named CEO in September 2025 and described a pivot to an AI- and software-driven platform under the 'Opendoor 2.0' framing. Q3 2025 revenue fell 34% year-over-year with a net loss of $90 million. The stock subsequently retreated sharply after earnings disappointed and the meme-momentum dissipated.",
+  "sources": [
+    {"title": "Opendoor meme rally and AI pivot analysis (247wallst.com)", "url": "https://247wallst.com/investing/2025/11/11/opendoors-epic-comeback-can-an-ai-pivot-save-this-meme-stock-darling/"},
+    {"title": "Opendoor meme stock mania (Yahoo Finance)", "url": "https://finance.yahoo.com/news/opendoors-meme-stock-mania-gets-104610322.html"},
+    {"title": "Opendoor stock declines after 2025 meme-stock rally (indexbox.io)", "url": "https://www.indexbox.io/blog/opendoor-stock-declines-after-2025-meme-stock-rally/"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

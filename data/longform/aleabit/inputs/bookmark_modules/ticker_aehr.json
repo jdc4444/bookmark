@@ -1,0 +1,20 @@
+{
+  "key": "AEHR",
+  "name": "Aehr Test Systems",
+  "exchange": "NASDAQ",
+  "blurb": "Aehr Test Systems designs and manufactures wafer-level burn-in and test equipment for semiconductors, with a specialisation in silicon carbide (SiC) power devices, gallium nitride (GaN), and — increasingly — silicon photonics chips. Its flagship FOX-XP system stress-tests devices while still on the wafer, before costly packaging, identifying failures at the cheapest possible point in manufacturing. Aehr claims to be the first company to ship a multi-wafer burn-in solution for silicon photonics transceivers. The company is headquartered in Fremont, California.",
+  "recent": "In March 2026, Aehr won a new silicon photonics customer for its high-power FOX-XP wafer-level burn-in system targeting hyperscale data-centre optical interconnects. Quarterly bookings reached $37.2 million in the quarter ending February 2026 — a book-to-bill ratio exceeding 3.5x — with the company guiding full-year FY2026 revenue toward the high end of its $45–$50 million range. Revenue in the same quarter was $10.3 million, down from $18.3 million a year earlier, reflecting a timing gap between order intake and shipment schedules weighted toward the second half of 2026.",
+  "sources": [
+    {
+      "url": "https://www.aehr.com/2026/04/aehr-test-systems-reports-over-37-million-in-quarterly-bookings-driven-by-strong-ai-and-data-center-infrastructure-demand/",
+      "title": "Aehr Q3 FY2026 Bookings Report — aehr.com"
+    },
+    {
+      "url": "https://www.aehr.com/2026/03/aehr-wins-major-new-silicon-photonics-customer-with-high-power-fox-xp-wafer-level-burn-in-system-for-hyperscale-data-center-optical-interconnect-market/",
+      "title": "Aehr Wins Major Silicon Photonics Customer (March 2026) — aehr.com"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,103 @@
+{
+  "headline": "A Loop Named Ralph Turned Claude Code Into an Overnight Engineer",
+  "lede": "What Damian Player described on X—leaving a half-finished workflow, running a tool called Ralph, going to bed, and waking to six completed updates—sounds like magic. It is not. Ralph is a shell loop, invented by an independent developer in rural Australia, and its implications for how software gets written were significant enough that Anthropic quietly built it into an official product.",
+  "body": "Geoffrey Huntley, an open-source developer in rural Australia, published the technique in July 2025 under the title “Ralph Wiggum as a Software Engineer.” The core mechanism is almost comedically simple: `while :; do cat PROMPT.md | claude; done`—a bash shell loop that feeds a specification file to **Claude Code** repeatedly until a task is complete. Huntley named it after the dim-witted but perpetually cheerful Simpsons character, invoking its quality of naïve persistence. He also noted a secondary meaning: the implications for software development made him, in his own words, “want to ralph.”\n\nAnthropics involvement came later. Boris Cherny, who built Claude Code at Anthropic, formalized the technique into a verified plugin in late 2025. The plugin works through Claude Code’s *Stop Hook* mechanism: when the model tries to end a session, the hook intercepts, checks whether a declared completion string has appeared in the output, and if not, re-injects the original prompt and resumes the loop. This is where the “RALPH BY ANTHROPIC” branding in Player’s screenshot originates—from the plugin marketplace, not from the underlying technique. Huntley and developer Dex Horthy ran a head-to-head comparison in early 2026 and found the original bash loop more reliable than the official plugin.\n\nThe insight at Ralph’s core is not technical but epistemic: **rather than treating AI failures as errors requiring human attention, treat them as data for the next iteration.** The burden shifts from writing code to writing specifications—what practitioners call *context engineering*. A well-crafted PROMPT.md file, paired with automated tests and static analysis that push back against bad output, means Claude Code can iterate toward correctness without supervision. One Y Combinator hackathon team reportedly shipped six repositories overnight using the technique; Huntley himself used it over three months to build a complete programming language from scratch.\n\nHuntley was explicit about the technique’s limits: “There’s no way in heck would I use Ralph in an existing codebase.” It suits *greenfield* projects—clean slates with no legacy dependencies to reason about. Critics on Hacker News described it as “vibe coding with extra steps,” a charge that contains some justice: Ralph amplifies whatever quality lives in the specification, and a vague prompt produces vague software. Context window constraints also matter; usable context in Claude Code runs closer to 147–152 thousand tokens than the advertised 200k, which limits how complex any single iteration can be.\n\nThe framing in Player’s posts—“the people learning this now will be untouchable in 3 months”—belongs to a recognizable genre of AI-productivity breathlessness. Ralph is a real and useful technique. It is also, at its core, a while-loop. The excitement around it reflects less a breakthrough than a collective adjustment to what language models can now reliably do when given a tight specification and room to retry. That adjustment is genuinely significant; the mysticism surrounding it is not.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "Y Combinator",
+      "ticker": null
+    }
+  ],
+  "poster": "bprintco",
+  "concepts": [
+    {
+      "key": "ralph-wiggum-loop",
+      "term": "Ralph Wiggum Loop",
+      "definition": "A technique for running Claude Code autonomously in a bash while-loop, repeatedly feeding a specification file to the model until it completes a task. Each failure becomes input to the next attempt rather than an error requiring human intervention. Named after the persistently cheerful Simpsons character."
+    },
+    {
+      "key": "stop-hook",
+      "term": "Stop Hook",
+      "definition": "A Claude Code mechanism that intercepts the model’s attempt to end a session. In the official Ralph plugin, the Stop Hook checks whether a declared completion condition has been met; if not, it re-injects the original prompt and keeps the loop running within the same session, preserving file state and git history."
+    },
+    {
+      "key": "context-engineering",
+      "term": "Context Engineering",
+      "definition": "The practice of crafting the specification and surrounding context given to an AI model, as distinct from writing code directly. In the Ralph paradigm, the quality of the PROMPT.md specification file determines output quality far more than any manual coding effort applied to individual iterations."
+    },
+    {
+      "key": "greenfield",
+      "term": "Greenfield Project",
+      "definition": "A software project built from scratch with no pre-existing codebase, legacy dependencies, or backward-compatibility constraints. Autonomous loop techniques like Ralph work most reliably in greenfield contexts, where the model does not need to reason about prior design decisions or entangled code."
+    },
+    {
+      "key": "claude-code",
+      "term": "Claude Code",
+      "definition": "Anthropic’s command-line interface for using Claude as a coding assistant inside a development environment. It reads files, runs tests, edits code, and executes shell commands autonomously within a project directory, making it the engine that Ralph loops around."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The “RALPH BY ANTHROPIC” label in the screenshot is misleading. The technique was invented by Geoffrey Huntley, an independent developer, and published in July 2025 at ghuntley.com/ralph. Anthropic later built an official verified plugin based on Huntley’s method—that plugin carries Anthropic’s branding—but the concept, the canonical implementation, and the underlying philosophy are Huntley’s. The misattribution was publicly flagged on X at the time of Player’s viral post.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://ghuntley.com/ralph/",
+      "title": "Ralph Wiggum as a Software Engineer — Geoffrey Huntley",
+      "note": "Original article by the technique’s inventor; canonical description of the bash loop method and its philosophy"
+    },
+    {
+      "url": "https://ghuntley.com/loop/",
+      "title": "everything is a ralph loop — Geoffrey Huntley",
+      "note": "Huntley’s follow-up extending the technique into a broader development philosophy"
+    },
+    {
+      "url": "https://ghuntley.com/cursed/",
+      "title": "I ran Claude in a loop for three months — Geoffrey Huntley",
+      "note": "Long-form case study of Ralph applied to a greenfield programming language project"
+    },
+    {
+      "url": "https://www.humanlayer.dev/blog/brief-history-of-ralph",
+      "title": "A Brief History of Ralph — HumanLayer (Dex Horthy)",
+      "note": "Comprehensive timeline of Ralph’s development; includes head-to-head comparison with Anthropic plugin and critique of official version"
+    },
+    {
+      "url": "https://claude.com/plugins/ralph-loop",
+      "title": "Ralph Loop — Claude Plugin Marketplace (Anthropic)",
+      "note": "Official Anthropic-verified plugin; source of the RALPH BY ANTHROPIC branding"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=46682325",
+      "title": "Ralph Wiggum — Hacker News discussion",
+      "note": "Community debate including the vibe-coding critique and context-window caveats"
+    },
+    {
+      "url": "https://venturebeat.com/technology/how-ralph-wiggum-went-from-the-simpsons-to-the-biggest-name-in-ai-right-now",
+      "title": "How Ralph Wiggum went from The Simpsons to the biggest name in AI — VentureBeat",
+      "note": "Mainstream tech coverage of the technique’s spread and Huntley’s background"
+    },
+    {
+      "url": "https://devinterrupted.substack.com/p/inventing-the-ralph-wiggum-loop-creator",
+      "title": "Inventing the Ralph Wiggum Loop: Creator Interview — Dev Interrupted",
+      "note": "Podcast transcript with Huntley on the technique’s origins and intended use cases"
+    },
+    {
+      "url": "https://x.com/damianplayer/status/2013338667964604909",
+      "title": "Damian Player on X — the overnight Ralph story",
+      "note": "The viral post describing leaving a workflow running overnight and waking to six completed updates"
+    },
+    {
+      "url": "https://x.com/damianplayer/status/2014327653264744566",
+      "title": "Damian Player on X — EVERYONE’S running ralph wrong",
+      "note": "Follow-up correction thread pointing users back to Huntley’s original bash-loop technique"
+    }
+  ],
+  "bookmark_id": "2013467788422119473",
+  "generated_at": "2026-05-07T12:59:11.978690Z",
+  "backend": "claude-sonnet-subagent"
+}

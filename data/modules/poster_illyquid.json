@@ -1,0 +1,20 @@
+{
+  "key": "illyquid",
+  "display_name": "@illyquid",
+  "blurb": "A pseudonymous account on X whose handle is a deliberate misspelling of 'illiquid' — the finance term for assets that cannot be easily sold without moving their price — suggesting an ironic stance toward market liquidity conventions. The account posts tersely on equities, AI, and crypto, often in the compressed, joke-dense register of finance Twitter: single-liners that assume the reader can decode the reference without scaffolding. No institutional affiliation or real identity is publicly known.",
+  "credibility_note": "Posts reflect a market-aware sensibility and facility with both AI-sector terminology and Hong Kong-listed equities, consistent with someone who follows both the technology and its publicly traded proxies. Individual posts cannot be fact-checked without access to the full timeline; the brevity that makes the account readable also makes claims difficult to verify independently.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/illyquid"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/illyquid/status/2016060278107197605",
+      "title": "Post: 'Chinese Claude is up 27% today in HK' — X"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

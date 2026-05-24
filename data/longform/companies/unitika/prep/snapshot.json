@@ -1,0 +1,98 @@
+{
+  "company": {
+    "name": "Unitika Ltd.",
+    "name_ja": "ユニチカ株式会社",
+    "ticker": "3103.T",
+    "exchange": "Tokyo Stock Exchange",
+    "founded": 1889,
+    "age_years": 137,
+    "employees": 2663,
+    "sector": "Materials",
+    "industry": "Specialty Chemicals",
+    "president": "Fujii Minoru (藤井実)"
+  },
+  "market": {
+    "snapshot_date": "2026-05-22",
+    "currency": "JPY",
+    "price": 1574.0,
+    "day_change_pct": 23.55,
+    "market_cap_jpy": 90750000000,
+    "market_cap_pct_change": 902.5,
+    "shares_outstanding": 57650000,
+    "pe_ratio": 45.06,
+    "eps": 34.93,
+    "beta": 2.03,
+    "week52_low": 140.0,
+    "week52_high": 4380.0,
+    "5y_low": 127.0,
+    "5y_high": 3745.0,
+    "candles_5y_count": 1222
+  },
+  "financials_ttm": {
+    "revenue_jpy": 118560000000,
+    "revenue_yoy_pct": -6.2,
+    "net_income_jpy": 18150000000
+  },
+  "financials_q3_fy3_26": {
+    "revenue_jpy_yoy_pct": 2.2,
+    "revenue_jpy": 95637000000,
+    "operating_profit_jpy": 9030000000,
+    "op_yoy_pct": 110.3,
+    "equity_ratio_pct": 25.2
+  },
+  "restructuring": {
+    "plan_announced": "2024-11",
+    "year_1_fiscal": "FY3/2026",
+    "supporter": "REVIC (Regional Economic Vitalization Corporation of Japan / 株式会社地域経済活性化支援機構)",
+    "capital_injection_jpy": 20000000000,
+    "capital_injection_date": "2025-04-30",
+    "actions": [
+      "Cancelled all outstanding Class A and Class B shares",
+      "Issued Class C shares via third-party allotment to REVIC"
+    ],
+    "fund_allocation_jpy": {
+      "withdrawal_from_unprofitable_businesses": 14000000000,
+      "demolition_of_buildings_and_related_work": 6000000000
+    },
+    "target_deadline_for_divestments": "2025-08",
+    "year_2_fiscal": "FY3/2027",
+    "year_2_focus": [
+      "Establish low-cost operating structure",
+      "Sell more value-added products in polymers and performance materials",
+      "Increase capex + new product development"
+    ]
+  },
+  "business_segments": {
+    "polymers": {
+      "products": ["Polymer films (nylon, polyester)", "Plastics / resins", "Biodegradable plastics", "Biomass-based materials"]
+    },
+    "performance_materials": {
+      "products": [
+        "Activated carbon fibers",
+        "Porous plates",
+        "Glass fabrics",
+        "Glass beads",
+        "Hollow fiber membranes",
+        "Nonwoven textiles",
+        "Advanced industrial applications"
+      ]
+    }
+  },
+  "group_companies": [
+    "UNITIKA Films Division",
+    "UNITIKA Plastics Division",
+    "UNITIKA Glass Beads Co., Ltd.",
+    "UNITIKA Sparklite Ltd.",
+    "UNITIKA Activated Carbon Filter Division"
+  ],
+  "recent_corporate_actions": [
+    {"date": "2025-11", "type": "company_split", "detail": "Execution of company split agreement with a wholly owned subsidiary"},
+    {"date": "2026-04-06", "type": "press_release", "url": "https://www.unitika.co.jp/news/io-pdf/re20260406-02.pdf"}
+  ],
+  "sources": [
+    "https://stockanalysis.com/quote/tyo/3103/",
+    "https://www.unitika.co.jp/e/news/pdf/fin-may142025.pdf",
+    "https://www.unitika.co.jp/e/",
+    "https://finance.logmi.jp/articles/382024"
+  ]
+}

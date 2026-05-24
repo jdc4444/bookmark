@@ -1,0 +1,32 @@
+{
+  "key": "WDC",
+  "name": "Western Digital Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Western Digital Corporation is a leading American data storage company that designs, manufactures, and sells hard disk drives (HDDs), solid-state drives (SSDs), and flash memory solutions under brands like WD, SanDisk, and G-Technology. The company serves both consumer and enterprise markets, including cloud data centers, and is a key player in the global storage industry. Western Digital has a strong market position in HDDs and NAND flash memory, competing with Seagate and Samsung.",
+  "recent": "In the past 30 days, Western Digital stock has seen positive momentum driven by strong demand for its HDD and SSD products, particularly from cloud and AI data center customers. The company reported better-than-expected fiscal first-quarter earnings in late October 2024, with revenue of $4.1 billion and adjusted EPS of $1.78, beating analyst estimates. Shares rose on the earnings beat and guidance for continued growth in the December quarter.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/WDC/",
+      "title": "Western Digital Corporation (WDC) Stock Price, News, Quote & History"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/WDC/news/",
+      "title": "WDC News Today | Why did Western Digital stock go up today?"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/wdc",
+      "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq)"
+    },
+    {
+      "url": "https://investor.wdc.com/",
+      "title": "Financial and Investor Information | Western Digital Corporation"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/WDC:NASDAQ",
+      "title": "Western Digital Corp (WDC) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T06:15:11.967771Z",
+  "backend": "deepseek"
+}

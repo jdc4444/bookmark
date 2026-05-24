@@ -1,0 +1,13 @@
+{
+  "key": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "AMD is a fabless semiconductor company that designs CPUs (EPYC for data centres, Ryzen for consumer PCs) and GPUs (Instinct for AI/HPC, Radeon for gaming and workstations). Under CEO Lisa Su, AMD has taken significant data-centre CPU market share from Intel with its EPYC server processors, which now command an estimated 30%+ of the x86 server CPU market. AMD's MI300X and MI350 AI accelerators compete directly with NVIDIA's H100/H200 family and are gaining traction with hyperscalers seeking GPU supply alternatives. All AMD chips are manufactured by TSMC.",
+  "recent": "AMD reported strong 2025 revenue growth led by EPYC and Instinct, with data-centre revenue crossing $12 billion annually. Forward P/E of ~32.6x on 63.8% projected EPS growth yields a PEG of 0.51 — compelling for a company with clear data-centre CPU momentum and an AI accelerator portfolio that is gaining customer adoption. NVIDIA's dominant CUDA ecosystem remains the primary competitive barrier for AMD's GPU ambitions.",
+  "sources": [
+    {"url": "https://www.ainvest.com/news/undervalued-semiconductor-stocks-2026-wall-street-strategic-outlook-2601/", "title": "Undervalued Semiconductor Stocks 2026 — AInvest"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

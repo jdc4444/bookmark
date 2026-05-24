@@ -1,0 +1,24 @@
+{
+  "key": "DGXX",
+  "name": "Digi Power X Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Digi Power X Inc. is a U.S. energy infrastructure company focused on developing and operating power and compute infrastructure for AI data centers. The company owns land and power assets positioned to support large-scale colocation arrangements with AI hardware operators. Its business model centers on providing guaranteed compute capacity — including power delivery and physical hosting — to AI chip companies and hyperscalers under long-term contracts. It is a small-cap infrastructure play occupying a niche at the intersection of energy development and AI compute.",
+  "recent": "In early May 2026, Digi Power X announced a colocation agreement with AI chip maker Cerebras Systems (CBRS) to provide up to 40 MW of compute power for an AI data center campus in Columbiana, Alabama, on property the company already owns; the initial 10-year term is valued at approximately $1.1 billion, with total potential contract value reaching $2.5 billion inclusive of renewal terms. The announcement sent shares surging more than 76% in a single week — the stock's best weekly performance in over three years — and retail message volume on the ticker jumped 258% over the same period. Around the same time, the company expanded its at-the-market equity program by $100 million, and shares gained an additional 5%+ in overnight trading on May 11 as Cerebras prepared for its own NASDAQ IPO mid-week.",
+  "sources": [
+    {
+      "url": "https://stocktwits.com/news-articles/markets/equity/dgxx-stock-jumps-on-cerebras-ipo-week/cZX9YUzReWJ",
+      "title": "DGXX Stock Jumps On Cerebras IPO Optimism: Here's The $2.5B Deal That Ties These Two Plays Together"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/DGXX/news/",
+      "title": "DGXX News Today | Why did Digi Power X stock go up today?"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/DGXX/",
+      "title": "Digi Power X Inc. (DGXX) Stock Price, News, Quote & History - Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:46:24.402235Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,22 @@
+{
+  "key": "marlowxbt",
+  "display_name": "Marlow",
+  "blurb": "Marlow (@marlowxbt) is an X account that publishes short-form financial and crypto narratives, with a specialisation in Polymarket content. The account follows a recognisable story template: a cryptic reference (a Reddit username, a Discord handle) leads to a wallet search, which leads to a reveal of an improbable profit figure from the public Polymarket leaderboard. The posts are presented as investigative discoveries but draw on publicly browsable on-chain data. Multiple posts use near-identical framing, suggesting a content format designed for engagement rather than original reporting. The account does not disclose financial relationships with the wallets or bot-selling services it profiles.",
+  "credibility_note": "Content is narrative and promotional in structure. The wallets and profit figures referenced are real and verifiable on-chain, but the framing as serendipitous discovery obscures that Polymarket's leaderboard is public and freely searchable. No institutional affiliation or research credentials declared. Survivorship bias is systematically absent from the posts. Treat as content marketing unless independently corroborated.",
+  "links": [
+    "https://x.com/marlowxbt"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/marlowxbt/status/2015251253681361009",
+      "title": "Marlow on X — distinct-baguette wallet reveal post"
+    },
+    {
+      "url": "https://x.com/marlowxbt/status/2015814991484461335",
+      "title": "Marlow on X — '$500 to $251K' wallet reveal post (identical format)"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

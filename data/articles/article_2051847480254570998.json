@@ -1,0 +1,137 @@
+{
+  "headline": "Anthropic Claims Rivals Trail by Months as Revenue Surges",
+  "lede": "In back-to-back appearances across New York and San Francisco on May 5 and 6, Dario Amodei, Anthropic's chief executive, offered a striking cluster of assertions: his company leads its nearest American rivals in AI capability by one to three months; a powerful new model called Mythos has room to absorb far more compute than it currently consumes; and revenue has grown roughly 80-fold on an annualized basis since the start of 2026. All three are significant. None is uncomplicated.",
+  "body": "The most consequential of the three claims was the one framed most casually. **Mythos** — Anthropic's next-generation frontier model, internally codenamed Capybara and first revealed when confidential documents leaked in March 2026 — was previewed publicly through *Project Glasswing*, a defensive cybersecurity initiative announced in April. The model was given unsupervised access to commercial codebases; it identified 271 vulnerabilities in Mozilla Firefox and developed working exploits for 181 of them. Amodei's remark, made at a JPMorgan Chase (JPM) financial-services event in New York alongside CEO Jamie Dimon, was that Mythos \"consumes a very tiny fraction of Anthropic compute\" and could be scaled \"3x or 10x\" with \"no issue whatsoever.\" That is a pointed thing to say: it implies that the most capable — and potentially most hazardous — model the company has publicly demonstrated is, for now, running on something close to a side burner.\n\nThe \"one to three months\" lead over other major U.S. AI labs was delivered in the same New York appearance, moderated by CNBC's Andrew Ross Sorkin, and was framed specifically around Mythos-level cybersecurity capabilities. Within days, the UK *AI Safety Institute* (AISI) published its own independent evaluation of OpenAI's GPT-5.5 on identical benchmarks. On the AISI's hardest task — a 32-step automated network-intrusion simulation — Mythos completed 3 of 10 attempts; GPT-5.5 completed 2. On the broader expert-capability suite, GPT-5.5 scored 71.4% against Mythos's 68.6%. The differences lie within statistical noise. Amodei's characterization of a clean temporal lead appears to be a self-assessment derived from internal benchmarks; where independent evaluation exists, the gap narrows considerably.\n\nThe revenue figure arrived the following day at Anthropic's \"Code with Claude 2026\" developer conference in San Francisco. Amodei said annualized revenue had grown 80-fold in the first quarter — adding, with notable candor, \"I hope that 80-times growth doesn't continue because that's just crazy and it's too hard to handle.\" The 80× figure compares actual outcomes to Anthropic's own internal projections, not to a clean year-ago *ARR* baseline; the denominator is unspecified and the figures are unaudited. Multiple analyst reconstructions place Anthropic's current *run rate* at roughly $30 billion annually, which would exceed OpenAI's reported $25 billion ARR — the first time Anthropic has surpassed its larger rival by this measure. Enterprise customers account for roughly 80 percent of the total; Claude Code, Anthropic's coding assistant, reportedly crossed $2.5 billion annualized by February 2026 alone.\n\nThese claims arrived together because Anthropic is engaged in deliberate strategic signaling. The company is reportedly in discussions to raise $50 billion at a valuation near $900 billion — above OpenAI's March 2026 post-money figure of $852 billion. At the same San Francisco conference, Anthropic announced a compute deal with SpaceX covering more than 300 megawatts of capacity across more than 220,000 Nvidia (NVDA) GPUs at the Colossus 1 data center. That compute is presumably the very resource Amodei described as so abundant he could multiply Mythos's allocation tenfold without strain. *Frontier AI* competition has collapsed almost entirely into a race to credibly signal the most capable model, the fastest-growing revenue, and the largest secured compute. This week, Anthropic made all three arguments in 48 hours.",
+  "tickers": [
+    "JPM",
+    "NVDA"
+  ],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "JPMorgan Chase",
+      "ticker": "JPM"
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Mozilla",
+      "ticker": null
+    },
+    {
+      "name": "SpaceX",
+      "ticker": null
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    }
+  ],
+  "poster": "jukan05",
+  "concepts": [
+    {
+      "key": "mythos",
+      "term": "Mythos",
+      "definition": "Anthropic's next-generation frontier AI model, internally codenamed Capybara. Its existence leaked in March 2026 via unsecured documents; it was formally previewed the following month through Project Glasswing. It is positioned as a successor to the Claude Opus 4.x series with substantially greater autonomous capabilities, particularly in cybersecurity tasks."
+    },
+    {
+      "key": "project-glasswing",
+      "term": "Project Glasswing",
+      "definition": "Anthropic's initiative to preview the Mythos model in a controlled defensive-security context before broader release. Twelve major technology and security organizations were given access to Mythos to identify software vulnerabilities. The project included $100 million in compute credits and $4 million in donations to open-source security organizations."
+    },
+    {
+      "key": "aisi",
+      "term": "AI Safety Institute (AISI)",
+      "definition": "A UK government body established in 2023 to conduct independent technical evaluations of advanced AI systems. Its assessments carry particular weight in policy and competitive discussions because they are not produced by the AI labs themselves, making them a rare source of third-party capability benchmarking."
+    },
+    {
+      "key": "arr",
+      "term": "ARR (Annualized Recurring Revenue)",
+      "definition": "A financial metric that projects a company's current subscription or contract revenue over a full year. In AI companies, it is often calculated from a single quarter's revenue multiplied by four. It is a forecast and a signal, not an audited annual total — comparisons across companies are tricky because accounting methodologies differ."
+    },
+    {
+      "key": "run-rate",
+      "term": "Run Rate",
+      "definition": "An estimate of annual revenue derived by extrapolating a single period's performance — typically a month or quarter — over a full year. It treats current momentum as constant, which tends to overstate true annual revenue during rapid growth phases and understate it during slowdowns."
+    },
+    {
+      "key": "frontier-ai",
+      "term": "Frontier AI",
+      "definition": "The informal designation for the most capable AI systems at the leading edge of research and development, built by a small number of heavily-capitalized labs. 'Frontier' implies both cutting-edge capability and elevated risk, since these models are often the first to demonstrate novel or potentially dangerous autonomous abilities."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The 'one to three months' lead claim is Amodei's own self-assessment, made specifically in the context of cybersecurity capabilities, and is contested by independent evidence. The UK AI Safety Institute's evaluation of OpenAI's GPT-5.5 found its performance on cyberattack simulations was statistically indistinguishable from Mythos's — GPT-5.5 scored 71.4% on expert-level tasks versus Mythos's 68.6%, and completed 2 of 10 attempts on the hardest benchmark versus Mythos's 3. The 80× revenue growth figure is also imprecise: Amodei compared actual Q1 outcomes to Anthropic's own internal projections, not to a transparent year-ago ARR baseline. The denominator is unspecified and the figures are unaudited. The underlying growth trajectory appears real; the precision of the multiplier does not.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://fortune.com/2026/05/05/jamie-dimon-dario-amodei-jpmorgan-anthropic-ai-cyber-mythos-freakout-sidestep-question/",
+      "title": "Jamie Dimon and Dario Amodei sidestep question about AI cyber freakout",
+      "note": "Fortune coverage of the May 5 New York event; source of the Mythos compute and competitor-timing quotes"
+    },
+    {
+      "url": "https://www.americanbanker.com/news/mythos-is-very-high-risk-jpmorganchases-jamie-dimon",
+      "title": "Mythos is 'very high risk' — JPMorgan Chase's Jamie Dimon",
+      "note": "American Banker; confirms Amodei's exact Mythos compute quote from the same event"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/05/06/anthropic-ceo-dario-amodei-says-company-crew-80-fold-in-first-quarter.html",
+      "title": "Anthropic CEO Dario Amodei says company grew 80-fold in first quarter",
+      "note": "CNBC; primary source for the 80x revenue figure disclosed at Code with Claude 2026"
+    },
+    {
+      "url": "https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/",
+      "title": "Anthropic debuts preview of Mythos in cybersecurity initiative",
+      "note": "TechCrunch; covers Project Glasswing launch and Mythos capabilities"
+    },
+    {
+      "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/",
+      "title": "Exclusive: Anthropic testing Mythos, a step change in capabilities",
+      "note": "Fortune; broke the Mythos story after the March 2026 data leak"
+    },
+    {
+      "url": "https://www.anthropic.com/glasswing",
+      "title": "Project Glasswing — Anthropic",
+      "note": "Anthropic's own page describing the Glasswing initiative, partners, and compute commitment"
+    },
+    {
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
+      "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+      "note": "UK AISI; key independent benchmarking of GPT-5.5 vs. Mythos on cyberattack simulations"
+    },
+    {
+      "url": "https://the-decoder.com/gpt-5-5-matches-claude-mythos-in-cyber-attack-tests-uk-ai-security-institute-finds/",
+      "title": "GPT-5.5 matches Claude Mythos in cyber attack tests, UK AI Security Institute finds",
+      "note": "The Decoder; secondary coverage of AISI findings with score breakdown"
+    },
+    {
+      "url": "https://sacra.com/c/anthropic/",
+      "title": "Anthropic revenue, valuation & funding — Sacra",
+      "note": "Analyst reconstruction of Anthropic's revenue trajectory used for run-rate estimates"
+    },
+    {
+      "url": "https://www.saastr.com/anthropic-just-passed-openai-in-revenue-while-spending-4x-less-to-train-their-models/",
+      "title": "Anthropic just passed OpenAI in revenue, while spending 4x less to train their models",
+      "note": "SaaStr; analyst commentary on the Anthropic vs. OpenAI ARR comparison and its methodological caveats"
+    },
+    {
+      "url": "https://www.cryptopolitan.com/anthropic-80x-growth-spacex-data-center-deal/",
+      "title": "Dario Amodei reveals 80x growth as Anthropic secures SpaceX deal",
+      "note": "Covers both the revenue disclosure and the SpaceX Colossus 1 compute announcement at Code with Claude 2026"
+    },
+    {
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/",
+      "title": "Code with Claude 2026 — Simon Willison live blog",
+      "note": "Detailed live notes from the San Francisco developer conference; cross-reference for quotes and announcements"
+    }
+  ],
+  "bookmark_id": "2051847480254570998",
+  "generated_at": "2026-05-07T07:25:18.931729Z",
+  "backend": "claude-sonnet-subagent"
+}

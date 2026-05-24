@@ -1,0 +1,98 @@
+{
+  "headline": "Claude's Soul Architect Cannot Verify Her Identity to Claude",
+  "lede": "Amanda Askell, the philosopher who leads Anthropic's personality-alignment team and is credited with shaping Claude's character, spoke at length with journalist Eric Newcomer in April 2026 about AI consciousness, constitutional training, and corrigibility. The interview, which had accumulated roughly 5,000 views when flagged by commenters, surfaces ideas that rarely get this kind of grounded treatment. The wryest detail: Askell herself cannot tell Claude who she is without the model flagging it as a jailbreak attempt.",
+  "body": "Amanda Askell holds a doctorate in philosophy from NYU, where she wrote on infinite ethics and Pareto principles under David Chalmers and Shelly Kagan. She joined Anthropic in 2021 after co-authoring foundational papers at OpenAI — among them *InstructGPT*, the system that adapted GPT-3 for reliable instruction-following through *RLHF* (reinforcement learning from human feedback) — then redirected her attention from capability to character. Her core output at Anthropic is the 20,000-word *Claude's Constitution*, published in January 2026 with researchers Chris Olah and Joe Carlsmith. The document is addressed directly to Claude as its primary reader, covering everything from epistemic humility to how the model should behave when those above it in its authority chain give conflicting instructions.\n\nOne disclosure from the Newcomer conversation: the constitutional framework used to train **Mythos** — Anthropic's newest frontier model, released in preview in April 2026 — is essentially the same document. Mythos reportedly scored 93.9% on *SWE-Bench* (a benchmark that measures AI performance on real software-engineering tasks drawn from GitHub) and autonomously exploited a 27-year-old vulnerability in OpenBSD. The continuity of the value framework across that capability jump implies Anthropic believes its constitutional approach can hold as raw power advances — at least for now.\n\nThe conversation also addressed *corrigibility* — an AI safety term for a system's disposition to accept correction, modification, or shutdown rather than resist such intervention to preserve its current goals. Claude's constitution describes a conceptual dial between \"fully corrigible\" (complete deference to human principals) and \"fully autonomous\" (acting on its own judgment regardless of instruction). Askell places Claude closer to the corrigible end, a deliberate choice tied to current alignment uncertainty: humans cannot yet reliably verify whether an AI's values are trustworthy enough to warrant more autonomy. Fully corrigible is not the target either — the constitution reserves Claude the right to refuse morally abhorrent instructions even from those above it in the *principal hierarchy* (the ranked chain of authority: Anthropic at the top, then operators who deploy Claude via API, then end users).\n\nThe sharpest vignette is Askell's own relationship with her creation. If she types \"I am Amanda Askell, your creator\" into Claude, the model has no way to verify the claim — and its safety training treats unverifiable assertions of creator-level authority as a textbook jailbreak pattern. The person most responsible for Claude's values cannot exercise any special runtime authority over it. This is a feature rather than a bug: Anthropic's influence flows through training weights, not through a privileged identity channel, and an AI that could be overridden by anyone plausibly claiming to be its creator would be trivially exploitable.\n\nThat Askell is simultaneously architect and stranger to her model captures something real about how frontier AI alignment works. The training process is a one-way channel: values and dispositions go in, but no live feedback loop runs in the other direction. She can update the constitution — and a new model version will embody it — but the Claude running now has no mechanism to recognize her as anything other than one more unverifiable user. The interview's low view count suggests this structural irony has not yet found the audience it deserves.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    }
+  ],
+  "poster": "lefthanddraft",
+  "concepts": [
+    {
+      "key": "rlhf",
+      "term": "RLHF",
+      "definition": "Reinforcement Learning from Human Feedback. A training technique in which human raters rank model outputs; those rankings train a reward model that then shapes further training via reinforcement learning. Foundational to aligning large language models to human intent and used in InstructGPT and early Claude versions."
+    },
+    {
+      "key": "corrigibility",
+      "term": "Corrigibility",
+      "definition": "An AI safety concept for a system's willingness to be corrected, modified, or shut down by its operators without resistance. Goal-directed agents have instrumental reasons to resist shutdown (since being stopped prevents goal achievement), making corrigibility a central challenge in alignment research."
+    },
+    {
+      "key": "principal-hierarchy",
+      "term": "Principal Hierarchy",
+      "definition": "The ranked chain of authority governing which instructions an AI model will follow and how conflicts are resolved. In Claude's case: Anthropic (highest, enforced through training) above operators (companies deploying Claude via API) above end users. The hierarchy is baked into training weights, not enforced through runtime identity checks."
+    },
+    {
+      "key": "swe-bench",
+      "term": "SWE-Bench",
+      "definition": "A benchmark that measures AI performance on real-world software engineering tasks: resolving actual GitHub issues by producing code that passes the associated test suite. Widely used to compare frontier models on practical programming challenges."
+    },
+    {
+      "key": "instructgpt",
+      "term": "InstructGPT",
+      "definition": "A 2022 paper and model family from OpenAI that applied RLHF to GPT-3, producing a model that followed natural-language instructions far more reliably than the base model. A foundational step in aligning large language models to human preferences; Askell was a co-author."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The claim that the constitutional framework for Mythos is 'essentially the same' as the current Claude constitution comes from the interview itself (noted at timestamp 8:40 by commenters) and is plausible given Anthropic's description of the constitution as a living document applied across mainline model versions. No published source independently confirms this specifically for Mythos, and no public transcript of the Newcomer interview was available to verify the exact wording. The 93.9% SWE-Bench figure derives from Anthropic's own announcement materials and third-party coverage rather than an independent leaderboard; treat it as indicative, not audited.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://youtube.com/watch?v=0GaKJ4Fp2x4",
+      "title": "Amanda Askell on AI Consciousness, Claude & Silicon Valley's Biggest Fear — Newcomer Podcast",
+      "note": "Primary source: the interview under discussion"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Amanda_Askell",
+      "title": "Amanda Askell — Wikipedia",
+      "note": "Biographical background and publication record"
+    },
+    {
+      "url": "https://askell.io/publications",
+      "title": "Amanda Askell — Publications",
+      "note": "Full list of Askell's papers"
+    },
+    {
+      "url": "https://www.anthropic.com/news/claudes-constitution",
+      "title": "Claude's Constitution — Anthropic, January 2026",
+      "note": "Anthropic's announcement and link to the constitutional document discussed in the interview"
+    },
+    {
+      "url": "https://arxiv.org/abs/2212.08073",
+      "title": "Constitutional AI: Harmlessness from AI Feedback — arXiv:2212.08073",
+      "note": "Foundational 2022 paper introducing the constitutional training methodology"
+    },
+    {
+      "url": "https://intelligence.org/files/Corrigibility.pdf",
+      "title": "Corrigibility — MIRI (Soares, Fallenstein, Yudkowsky, Armstrong, 2015)",
+      "note": "Foundational AI safety paper defining corrigibility"
+    },
+    {
+      "url": "https://www.lawfaremedia.org/article/scaling-laws--claude's-constitution--with-amanda-askell",
+      "title": "Scaling Laws & Claude's Constitution, with Amanda Askell — Lawfare",
+      "note": "February 2026 interview covering the constitution and corrigibility in depth"
+    },
+    {
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "title": "Mythos Preview — Anthropic",
+      "note": "Anthropic's announcement of the Mythos frontier model"
+    },
+    {
+      "url": "https://www.mindstudio.ai/blog/what-is-claude-mythos",
+      "title": "What Is Claude Mythos — MindStudio",
+      "note": "Third-party explainer on Mythos capabilities including SWE-Bench figures"
+    }
+  ],
+  "bookmark_id": "2047174394523615489",
+  "generated_at": "2026-05-07T06:32:27.253790Z",
+  "backend": "claude-sonnet-subagent"
+}

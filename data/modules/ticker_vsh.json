@@ -1,0 +1,17 @@
+{
+  "key": "vsh",
+  "name": "Vishay Intertechnology, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Vishay is one of the world's largest manufacturers of discrete semiconductors (MOSFETs, diodes, rectifiers) and passive electronic components (resistors, inductors, capacitors), making it a two-sided play on the AI server power-plumbing build-out. On the passive side, its vPolyTan polymer tantalum capacitors and IHLE inductors are design-in components for Nvidia Blackwell GB200 server power-supply units. On the semiconductor side, Vishay's PowerPAK MOSFETs, DrMOS integrated power stages, VRPower buck regulators, and SiC Schottky diodes populate the voltage-regulation and power-conversion circuitry of AI racks. The company is executing a multi-year capacity expansion centred on a new 12-inch wafer fab.",
+  "recent": "Vishay reported Q4 2025 revenue of $800.9 million, up 1.3% sequentially, with full-year 2025 revenue of $3.07 billion. The Q4 book-to-bill ratio rose to 1.20 overall (1.27 for semiconductors, 1.13 for passives), and ending backlog reached 4.9 months — the strongest demand signal in several quarters. Management attributed growth partly to confirmed design wins in Nvidia GB200 AI servers across both MOSFET and vPolyTan capacitor lines. Q1 2026 guidance was $800–$830 million with 2026 CapEx of $400–$440 million, the majority directed to the 12-inch fab in what management called the peak of the five-year expansion. The CEO described the company as ready to accelerate on factory utilisation and margin recovery in 2026.",
+  "sources": [
+    {"url": "https://www.globenewswire.com/news-release/2026/02/04/3231928/0/en/Vishay-Intertechnology-Reports-Fourth-Quarter-and-Full-Year-2025-Results.html", "title": "Vishay Q4 and FY2025 Results — GlobeNewswire"},
+    {"url": "https://ir.vishay.com/news-releases/news-release-details/vishay-intertechnology-reports-fourth-quarter-and-full-year-2025", "title": "Vishay Q4 2025 IR Press Release — ir.vishay.com"},
+    {"url": "https://www.stocktitan.net/news/VSH/vishay-intertechnology-to-showcase-solutions-for-ai-and-ev-njr34935krzu.html", "title": "Vishay AI and EV Solutions at PCIM Asia — StockTitan"},
+    {"url": "https://www.globenewswire.com/news-release/2025/09/19/3153351/0/en/Vishay-Intertechnology-to-Showcase-Solutions-for-AI-and-EV-Applications-at-PCIM-Asia-2025.html", "title": "Vishay PCIM Asia 2025 Product Showcase — GlobeNewswire"},
+    {"url": "https://www.beyondspx.com/quote/VSH/vishay-s-margin-squeeze-meets-ai-inflection-can-the-3-0-transformation-deliver-nyse-vsh", "title": "Vishay: Margin Squeeze Meets AI Inflection — BeyondSPX"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

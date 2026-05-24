@@ -1,0 +1,131 @@
+{
+  "headline": "JPMorgan's Ask D.A.V.I.D. Lays Out the Multi-Agent Playbook",
+  "lede": "JPMorgan Chase's Private Bank wealth management division built a production multi-agent AI system called Ask D.A.V.I.D. — Data Analytics, Visualization, Insights, and Decision-making assistant — to handle research queries across thousands of investment products. The architecture was disclosed not through an academic paper but through a conference presentation at LangChain's Interrupt 2025 gathering in San Francisco, delivered by Executive Director David Odomirok and engineering lead Zheng Xue. The developer thread summarizing it spread because the design choices are unusually candid about where the system still fails.",
+  "body": "**Ask D.A.V.I.D.** is JPMorgan Chase's (JPM) attempt to automate investment research across the Private Bank's full product range — equities, fixed income, crypto, ESG — backed by decades of structured data and large volumes of unstructured material: emails, meeting notes, audio and video recordings, presentations. The name is a double entendre; the system is partly named after Odomirok, who continues to be consulted for high-stakes queries. No public white paper exists. The conference talk is the only primary disclosure.\n\nThe architecture runs on **LangGraph**, an open-source graph-based agent framework from LangChain. A supervisor node receives incoming queries and routes them to one of three specialized subagents. A *structured data agent* translates natural language into SQL queries or API calls against production financial databases, with MongoDB among the data stores. An *unstructured data agent* runs *RAG* — retrieval-augmented generation, a technique that fetches relevant document chunks before an LLM generates an answer — over a corpus indexed in Elasticsearch. A third *analytics agent* connects to proprietary JPMorgan models; it uses the *ReAct* pattern (Reason + Act, a prompting loop where the model alternates between reasoning and tool calls) for simpler requests, and escalates to LLM-generated code under human supervision for complex tasks such as drawdown curve comparisons or volatility spread analysis.\n\nBetween answer generation and delivery sits the piece the team highlighted most: a **reflection node** implementing *LLM-as-judge*. A second LLM call evaluates whether the response is coherent and accurate given the original query. On failure it triggers a retry rather than shipping a bad answer. The technique was formalized in a 2023 paper by Lianmin Zheng and colleagues at UC Berkeley, which showed that capable LLMs can approximate human annotator agreement at better than 80% on quality judgements. JPMorgan repurposed it from an offline benchmarking instrument into an inline production quality gate.\n\nHuman-in-the-loop escalation closes the gap that automated reflection cannot. The team described an accuracy staircase: below 50% at baseline; engineering quick-wins push it to roughly 80%; workflow refinement adds another ten points; getting from 90% toward perfect — where decisions touching billions of dollars in client assets live — may be unreachable for generative AI alone. Complex analytical queries that require code generation always route through human supervision by design, not as a fallback. The confirmed efficiency figure from limited availability testing is approximately a 20% reduction in time spent on research inquiries; secondary accounts citing 95% time savings appear to be exaggerations not supported by the slides.\n\nThe pattern itself — supervisor orchestrator, specialist subagents, LLM-as-judge reflection, human escalation — is not proprietary to JPMorgan. LangChain packages the supervisor-subagent graph as `langgraph-supervisor`, and variants appear in systems across finance, legal, and medical research. What makes Ask D.A.V.I.D. useful as a case study is the operational honesty: the team named the accuracy ceiling, disclosed that the evaluation phase took longer than the build phase, and acknowledged that a human named David is still in the loop. That is more instructive than any benchmark.",
+  "tickers": [
+    "JPM"
+  ],
+  "companies": [
+    {
+      "name": "JPMorgan Chase",
+      "ticker": "JPM"
+    },
+    {
+      "name": "LangChain",
+      "ticker": null
+    }
+  ],
+  "poster": "adamghowiba",
+  "concepts": [
+    {
+      "key": "multi-agent-system",
+      "term": "multi-agent system",
+      "definition": "An AI architecture in which multiple LLM-powered agents collaborate to complete a task, each with its own tools, instructions, and scope. One agent often acts as orchestrator, breaking a query into steps and dispatching specialized sub-agents to handle them."
+    },
+    {
+      "key": "supervisor-agent",
+      "term": "supervisor agent",
+      "definition": "The orchestrating agent in a multi-agent hierarchy. It receives the original user query, decides which specialized sub-agent should handle each part, aggregates their outputs, and determines when the answer is ready or when a human should intervene."
+    },
+    {
+      "key": "rag",
+      "term": "RAG (retrieval-augmented generation)",
+      "definition": "A technique that improves LLM answers by first retrieving relevant document chunks from a search index, then feeding those chunks as context into the LLM's prompt. This grounds the model's output in specific documents rather than relying on training-time knowledge alone."
+    },
+    {
+      "key": "llm-as-judge",
+      "term": "LLM-as-judge",
+      "definition": "Using a capable LLM to evaluate the quality of another LLM's output, in place of (or alongside) human annotation. The judge model is given the query, the generated answer, and sometimes a reference answer, then rates accuracy or coherence. A 2023 UC Berkeley paper showed GPT-4-class judges achieve agreement with humans at rates comparable to inter-human agreement."
+    },
+    {
+      "key": "react-pattern",
+      "term": "ReAct pattern",
+      "definition": "A prompting technique (Reason + Act) in which the LLM alternates between producing a chain-of-thought reasoning step and invoking an external tool (search, code execution, database query). The loop continues until the model has enough information to return a final answer."
+    },
+    {
+      "key": "langgraph",
+      "term": "LangGraph",
+      "definition": "An open-source Python library from LangChain that models multi-agent workflows as stateful directed graphs. Nodes represent agents or processing steps; edges represent routing logic. It provides built-in checkpointing, memory, and human-in-the-loop interrupt mechanisms."
+    },
+    {
+      "key": "human-in-the-loop",
+      "term": "human-in-the-loop",
+      "definition": "An AI system design in which a human reviewer is inserted at defined points in the workflow — either on every run, or when the system detects low confidence or high stakes — before a final action is taken. In agentic systems it is often implemented as a graph interrupt that pauses execution and awaits human approval."
+    },
+    {
+      "key": "reflection-node",
+      "term": "reflection node",
+      "definition": "A step in an agent workflow that critically reviews the output of a previous step before passing it on. In practice this often means a second LLM call that checks whether the first LLM's answer is coherent, accurate, or complete, and triggers a retry if not."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "langchain-ai-langgraph-supervisor-py",
+      "url": "https://github.com/langchain-ai/langgraph-supervisor-py",
+      "summary": "The official LangChain package that implements the supervisor-subagent multi-agent pattern on top of LangGraph. A supervisor LLM receives user input, delegates to specialized sub-agents via tool calls, and decides when to return a final answer. JPMorgan's Ask D.A.V.I.D. was built using this framework."
+    }
+  ],
+  "fact_check": "Secondary articles widely cite 'up to 95% time reduction' for Ask D.A.V.I.D. This figure does not appear in the slide deck presented at LangChain Interrupt 2025. The confirmed number from limited-availability testing is approximately 20% reduction in research inquiry time, with a stated accuracy target above 95% — a different metric. The 95% figure appears to conflate the accuracy target with a time-savings claim. Readers should treat the 95% time-reduction number as unverified.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=yMalr0jiOAc",
+      "title": "How JP Morgan Built An AI Agent for Investment Research with LangGraph — LangChain Interrupt 2025",
+      "note": "Primary source: conference presentation by David Odomirok and Zheng Xue describing the full Ask D.A.V.I.D. architecture"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WfqqVRc49RI",
+      "title": "LangChain Interrupt 2025 JP Morgan Building Ask D A V I D — Zheng Xue",
+      "note": "Engineering lead's portion of the talk with stack and implementation details"
+    },
+    {
+      "url": "https://cameronrohn.com/docs/discover/LangChain-Interrupt-2025/presentations/2.4-Multi-Agent-Frontiers-Building-Ask-D.A.V.I.D./",
+      "title": "Multi-Agent Frontiers: Building Ask D.A.V.I.D. — detailed notes",
+      "note": "Best secondary writeup capturing slide content and accuracy staircase figures"
+    },
+    {
+      "url": "https://www.zenml.io/llmops-database/multi-agent-investment-research-assistant-with-rag-and-human-in-the-loop",
+      "title": "ZenML LLMOps Database: JPMorgan Multi-Agent Investment Research",
+      "note": "Structured case study summary with technology stack breakdown"
+    },
+    {
+      "url": "https://x.com/adamghowiba/status/2050886233921061281",
+      "title": "@adamghowiba thread on Ask D.A.V.I.D.",
+      "note": "The bookmarked post; developer summary of the architecture with key slides"
+    },
+    {
+      "url": "https://x.com/adamghowiba/status/2051361283396784273",
+      "title": "@adamghowiba follow-up: three lessons and accuracy staircase",
+      "note": "Second post in the thread sharing JPMorgan's three key engineering lessons"
+    },
+    {
+      "url": "https://x.com/LangChainAI/status/1928135137658818711",
+      "title": "@LangChainAI official announcement of the Interrupt talk",
+      "note": "LangChain's own promotion of the JPMorgan presentation"
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.05685",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena — Zheng et al. 2023",
+      "note": "Canonical academic paper establishing LLM-as-judge as a scalable evaluation method"
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.03629",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models — Yao et al. 2022",
+      "note": "Foundational ReAct paper underpinning the analytics agent's prompting pattern"
+    },
+    {
+      "url": "https://reference.langchain.com/python/langgraph-supervisor",
+      "title": "LangGraph Supervisor — official docs",
+      "note": "Documents the supervisor-subagent pattern library Ask D.A.V.I.D. was built with"
+    },
+    {
+      "url": "https://www.langchain.com/blog/interrupt-2025-recap",
+      "title": "LangChain Interrupt 2025 Recap",
+      "note": "Conference summary confirming JPMorgan as a presenter and the talk's scope"
+    }
+  ],
+  "bookmark_id": "2050886233921061281",
+  "generated_at": "2026-05-07T07:24:09.651863Z",
+  "backend": "claude-sonnet-subagent"
+}

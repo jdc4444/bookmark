@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bookmark",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["x_bookmark_reporter.py", "ui", "--port", "3515", "--no-open"],
+      "port": 3515
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "key": "TSMC",
+  "name": "Taiwan Semiconductor Manufacturing Company Limited",
+  "exchange": "NYSE (ADR: TSM); primary TWSE: 2330.TW",
+  "blurb": "TSMC is the world's largest dedicated semiconductor foundry — a contract manufacturer that makes chips for fabless designers like NVIDIA, Apple, AMD, and QUALCOMM using its own process technology. It operates the most advanced production nodes on earth, including 3nm and 2nm, with N2 (2nm) entering high-volume production in 2025. TSMC manufactures an estimated 90%+ of the world's most advanced logic chips and is a structural chokepoint in the global semiconductor supply chain. The company is expanding manufacturing into the United States (Arizona fabs), Japan (Kumamoto), and Germany (Dresden).",
+  "recent": "TSMC reported record revenue throughout 2025–2026, driven by AI accelerator demand from NVIDIA and Apple silicon. Q1 2026 revenue rose approximately 42% YoY. Forward P/E stands at ~21.8x on 25% projected EPS growth (PEG 0.87) — modest relative to its monopolistic position in advanced logic. Arizona fab yields have improved significantly, addressing earlier concerns about cost competitiveness outside Taiwan.",
+  "sources": [
+    {"url": "https://www.financecharts.com/stocks/TSM/value/peg-ratio", "title": "TSMC PEG Ratio — FinanceCharts"},
+    {"url": "https://www.heygotrade.com/en/blog/ai-semiconductor-stocks-2026-nvidia-tsmc-broadcom/", "title": "NVIDIA vs TSMC vs Broadcom: AI Chip Stocks 2026 — HeyGoTrade"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

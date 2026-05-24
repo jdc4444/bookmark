@@ -1,0 +1,26 @@
+{
+  "ticker": "PFF",
+  "exchange": "NASDAQ",
+  "company": "iShares Preferred and Income Securities ETF",
+  "sector": "ETF — Preferred Stock / Hybrid Income",
+  "description": "iShares Preferred and Income Securities ETF tracks the ICE Exchange-Listed Preferred & Hybrid Securities Index, holding roughly 450 U.S. preferred stocks and subordinated debt instruments. Preferred shares sit between bonds and common equity in a company's capital structure: they pay fixed or floating dividends and have priority over common shareholders in liquidation, but trail bondholders. PFF yields approximately 6% or more and is heavily weighted toward the financial sector. It is sensitive to interest-rate movements and is typically used by income-seeking investors as a higher-yielding alternative to investment-grade bonds.",
+  "key_products": [
+    "ICE Exchange-Listed Preferred & Hybrid Securities Index tracking",
+    "Preferred stock and hybrid income securities exposure"
+  ],
+  "market_cap_usd": null,
+  "aum_usd": null,
+  "aum_date": "2026-05",
+  "expense_ratio": null,
+  "top_holdings": [
+    "Wells Fargo preferred series",
+    "Bank of America preferred series",
+    "JPMorgan preferred series",
+    "NextEra Energy preferred",
+    "Citigroup preferred series"
+  ],
+  "last_updated": "2026-05-06",
+  "key": "PFF",
+  "blurb": "iShares Preferred and Income Securities ETF tracks the ICE Exchange-Listed Preferred & Hybrid Securities Index, holding roughly 450 U.S. preferred stocks and subordinated debt instruments. Preferred shares sit between bonds and common equity in a company's capital structure: they pay fixed or floating dividends and have priority over common shareholders in liquidation, but trail bondholders.",
+  "recent": "PFF yields approximately 6% or more and is heavily weighted toward the financial sector — top holdings include preferred series from Wells Fargo, Bank of America, JPMorgan, NextEra Energy, and Citigroup. It is sensitive to interest-rate movements and is typically used by income-seeking investors as a higher-yielding alternative to investment-grade bonds."
+}

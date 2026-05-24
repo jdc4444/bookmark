@@ -1,0 +1,248 @@
+{
+  "slug": "photonics",
+  "title": "The photonics supercycle",
+  "lede": "The AI data centre does not run on silicon alone: at terabit speeds, moving data between chips requires light, not electrons. That single physics fact has made a handful of obscure substrate and laser-supply companies — largely unknown outside specialist circles — into the most consequential chokepoints in the AI hardware stack. In 2026, Serenity's photonics cluster generated some of the largest gains on the public record; this chapter traces how the thesis mapped onto the actual supply chain, and where it held.",
+  "body": "The scale of the AI data-centre build-out has exposed a problem that electrical engineers have been quietly dreading for a decade. High-speed compute clusters — the kind that train frontier language models — are no longer constrained by processor speed. They are constrained by the bandwidth and energy cost of moving data between chips. Copper wires, however short, dissipate power as heat and distort signals at terabit rates. The solution the industry is converging on is *silicon photonics*: encoding data as pulses of light on integrated optical waveguides, moving it across a rack, a row, or a data-centre floor, and converting it back to electrons at the destination. The enabling insight is that silicon can guide light efficiently. What it cannot do is generate it.\n\n## The substrate that makes silicon photonics possible\n\nEvery silicon photonic chip, whether fabricated by Tower Semiconductor (TSEM), Taiwan Semiconductor Manufacturing (TSM), or GlobalFoundries, begins with the same raw material: a wafer in which a thin crystalline silicon layer — roughly 220 nanometres — sits atop an insulating buried oxide. The structure is called *silicon-on-insulator*, or SOI; the optical waveguide etched into that device layer must be uniform to within a few nanometres across a 300mm wafer, or light scatters and the transceiver fails. Only one company reliably produces photonics-grade SOI at commercial volumes: Soitec (EPA:SOI), based in Grenoble.\n\nSoitec's competitive position rests on a process it invented in the 1990s: *Smart Cut*, in which hydrogen ions are implanted into a donor silicon wafer to cleave away a precisely controlled layer, which is then bonded by molecular adhesion onto an oxidised handle wafer. The technique transfers a layer so thin and so uniform that no alternative process — epitaxial deposition, mechanical polishing — can replicate it at the tolerances photonics demands. GlobalWafers, the Taiwanese substrate group, held a Smart Cut licence until October 2023, when it was revoked after a licensing dispute (a court-sanctioned extension runs to 2027). Shin-Etsu Handotai retains a royalty licence but does not produce meaningful photonics-grade volumes. Soitec, by elimination, holds an estimated 95%-plus share of the global photonics-SOI market.\n\nThat dominance went unnoticed by equity markets for years. The photonics segment was small — comfortably below €100 million — inside a €891 million company (FY2025) whose majority revenue came from RF-SOI wafers for 5G smartphones, a market mired in inventory correction. Soitec shares bottomed at €41.77 on March 9, 2026. Serenity entered the stock around 43 euros, framing it as a substrate-level monopoly on *co-packaged optics* (CPO — the integration of optical engines directly into the switch or GPU package, eliminating high-power electrical trace runs), trading at one times book value. By May 4 the stock printed €153.55, a 517% gain year-to-date; Bloomberg had already declared Soitec Europe's best-performing stock of 2026 by mid-April. Serenity's note on that day was characteristically terse:\n\n> I might be pretty good at this? $SOI up enormous amounts lol.\n\nThe re-rating was not pure speculation. Soitec's Edge and Cloud AI segment, which houses Photonics-SOI, grew 27–34% organically in successive quarters even as group revenue declined. Tower Semiconductor's own filings confirm the upstream demand: its silicon photonics revenue doubled from $106 million in 2024 to $228 million in 2025, and in February 2026 Tower committed $920 million in capital expenditure to expand SiPho and SiGe capacity more than five-fold by end-2026, with over 70% of that capacity already contracted or prepaid through 2028. \"The extremely high adoption rate of SiPho for 1.6T transceivers, for which Tower is the primary provider,\" CEO Russell Ellwanger said on the earnings call — one of the more direct competitive claims in recent semiconductor history. Tower simultaneously launched a CPO Foundry service with 300mm wafer-bonding technology, positioning itself against GlobalFoundries (which enlarged its own silicon photonics footprint in November 2025 by acquiring Singapore's Advanced Micro Foundry).\n\nThe valuation, however, has run well ahead of the revenue. At the May print, Soitec traded at roughly 394 times trailing earnings against a semiconductor sector average near 29, with revenues still declining at the group level year-on-year. Serenity offered a measured ceiling: \"I don't see $SOI becoming a $40B company, maybe $8–12B in a year.\" At the May 4 print the market capitalisation was already €5.3 billion.\n\n## The laser problem\n\nSilicon photonics can guide and modulate light, but silicon cannot generate it. The physics are unaccommodating: silicon is an *indirect-bandgap* material whose electrons do not recombine radiatively. Every silicon photonic transceiver — whether pluggable or co-packaged — requires an external laser source made from *indium phosphide* (InP), a III-V compound semiconductor whose direct bandgap makes it the natural material for data-centre lasers operating in the O- and C-band.\n\nNVIDIA (NVDA) signalled precisely where it considers the supply chain most exposed on March 2, 2026, when it announced simultaneous strategic investments of $2 billion each into Coherent Corp (NYSE:COHR) and Lumentum Holdings (NASDAQ:LITE), each paired with multi-year, multi-billion-dollar purchase commitments. The two companies are respectively the largest and second-largest integrated photonics suppliers, each operating InP fabrication lines. Jensen Huang described the commitment as ensuring that \"optical interconnects and advanced package integration are foundational to the next phase of AI infrastructure.\"\n\nCoherent committed to doubling its six-inch InP wafer output — across fabs in Sherman, Texas and Tarfala, Sweden — one quarter ahead of schedule. Its most recent quarterly revenue reached $1.81 billion, with data-centre optical networking up 37% year-on-year. The company raised its estimate of the co-packaged optics serviceable addressable market to $15 billion at OFC 2026, where it also showcased 800G and 1.6T modulators and 400 mW continuous-wave lasers. Lumentum, for its part, posted Q3 FY2026 revenue of $808 million — up 90% year-on-year — with 200G *externally modulated laser* (EML) revenue more than doubling sequentially and laser chip shipments up sharply versus a year earlier. The company has acquired a fifth InP fab in Greensboro, North Carolina (converted from GaAs), though management does not expect material contribution until early 2028.\n\nSerenity placed both companies firmly in the Compounders column — reliable, capital-intensive quality businesses — rather than the high-beta rockets that generated the headline returns. The assignment proved accurate: Coherent's alpha against the wider market was positive but moderate (0.31 in the dossier model), and Serenity's tier rating for the stock was explicitly Bearish relative to the smaller names, reflecting a view that the large-caps would be bid up faster than the residual upside justified.\n\n## Upstream: substrates and epi-wafers\n\nThe InP laser supply chain has its own upstream chokepoints. Lasers begin as *epitaxial wafers*: thin stacks of precisely doped crystalline layers grown on InP substrates. Two companies sit at critical points in this chain, and both attracted early attention from Serenity's feed.\n\nAXT Inc (NASDAQ:AXTI) is one of the few companies that refines indium and grows the bulk InP single crystals from which substrates are sliced. In Q3 2025, InP revenue grew more than 250% sequentially to a three-year high; CEO Morris Young attributed the surge to export permits finally clearing for a backlog of significant orders. By Q1 2026, InP revenue reached $13.6 million with a backlog exceeding $100 million for the first time in the company's history. AXT raised $632.5 million in equity to double substrate capacity in 2026 and again in 2027 — a commitment that implies sustained conviction about InP demand regardless of short-term permit timing. A geopolitical wrinkle complicates the picture: the majority of AXT's crystal growth is located in Beijing, and Chinese export permits have been taking roughly 60 business days to process, adding a lead-time premium to an already stretched supply chain. The dependency is not lost on US policymakers.\n\nIQE plc (LON:IQE) takes InP substrates and grows the epitaxial device layers on them — the active semiconductor stack on which laser junctions are defined. As the world's largest independent epi-wafer foundry, IQE occupies a position analogous to Soitec's in the silicon photonics chain: it does not make lasers, but nothing inside a data-centre laser works without what IQE makes. In April 2026 the company raised £81 million in a strategic round led by MACOM Technology Solutions, which contributed £45 million in exchange for long-term supply agreements. The connection matters: MACOM supplies continuous-wave laser dies into NVIDIA's co-packaged optics programme, drawing a direct line from IQE's Cardiff fabs to NVIDIA's Spectrum-X architecture. IQE entered 2026 with a strong order book and secured multiple Tier 1 design wins for AI and hyperscale laser and detector products; shares trade at approximately 41p on the London Stock Exchange, giving the company a market capitalisation near £545 million.\n\n## The assemblers\n\nApplied Optoelectronics (NASDAQ:AAOI), a Texas-based transceiver maker, experienced arguably the most straightforward AI-demand story in the cluster. FY2025 revenue reached $456 million, up 83% year-on-year; management guided FY2026 above $1.1 billion and described demand as exceeding capacity through mid-2027. The company exited Q1 2026 running at 100,000 units per month of 800G and 1.6T transceivers, targeting 650,000 per month by year-end. The stock moved from a 52-week low of $12.56 to an all-time high near $192 by early May 2026.\n\nFabrinet (NYSE:FN), the contract manufacturer that assembles optical transceivers at its Thailand and California campuses, crossed $1 billion in quarterly revenue in Q2 fiscal 2026 — up 36% year-on-year — and is sole-source manufacturer for NVIDIA's Blackwell-generation 1.6T transceivers. Serenity accorded Fabrinet only a C-tier, reflecting the view that contract manufacturing margins, however durable, do not offer the same structural leverage as owning a functional monopoly in a substrate or material.\n\n## Sivers and the small-cap premium\n\nThe largest single-name gain in the photonics cluster — and by portfolio metrics the best trade in Serenity's 2026 record — was Sivers Semiconductors AB (STO:SIVE). Its shares rose from roughly SEK 4 at the start of 2026 to SEK 55.95 by early May, approximately 1,247% year-to-date. Serenity first mentioned the name in March 2026 and accumulated the highest conviction score (43, S-tier) in the entire xalpha model.\n\nSivers designs and manufactures *distributed feedback* (DFB) laser dies — the individual light-source elements that go into data-centre transceivers and automotive LiDAR systems. Its scale is modest: FY2025 revenue was SEK 304 million (roughly $33 million at prevailing exchange rates), with an after-tax loss of SEK 186 million. The April 2026 directed share issue at SEK 14.50 — well below the market price at that point — raised SEK 125 million in necessary dilutive capital; investors appear to have forgiven the dilution given subsequent price action. Alongside a 1.6T *linear drive optical* (LRO) module collaboration with Jabil announced in April 2026 and a LiDAR ramp with up to $138 million in cumulative lifetime revenue targeted for Q4 2026, Sivers has agreements with POET Technologies (NASDAQ:POET) for InP DFB laser arrays targeting CPO modules, and a parallel arrangement with O-Net and Enablence Technologies for *external light source* (ELS) assemblies.\n\nThe POET partnership briefly became an object lesson in single-customer concentration risk. POET's largest announced customer, Marvell Technology (which had acquired Celestial AI), cancelled all outstanding purchase orders on April 23, 2026, citing a confidentiality breach. POET shares fell roughly 50% in a week. The episode mattered to the Sivers thesis — Sivers held its own POET partnership — but the practical effect on Sivers' order book was limited, and shares held their broader trajectory. POET itself was pre-revenue at commercial scale ($1.07 million in FY2025 revenue against $63 million in net losses), which made the cancellation existential in tone even as the company moved to disclose a separate $5 million production order and maintained existing partnerships. A well-regarded sceptic noted as early as mid-April that Sivers was \"trading at a ~$1B market cap with just ~$30M in 2025 revenue... largely on speculation, with no formal forward guidance.\" That remains a fair characterisation of the residual risk even after the 2026 run.\n\n## Adjacent plays: Credo and the copper alternative\n\nCredo Technology Group (NASDAQ:CRDO) occupies a useful conceptual boundary for the cluster. Its *active electrical cables* (AECs) — copper cables with on-board retimer chips that regenerate signals at both ends — do not use photonics at all. Within the scale-up fabric connecting GPUs inside a single training cluster, distances are often under three metres — short enough that AECs outperform pluggable optics on cost, power, and latency. Credo's Q3 fiscal 2026 revenue reached $407 million, up 201% year-on-year, and the company now serves all five major domestic hyperscale customers. The counter-narrative embedded in that figure is that the transition to co-packaged optics inside the GPU cluster, though widely anticipated by the photonics community, has not yet materialised in purchasing decisions. CPO's arrival will eventually cannibalise AECs in the scale-up fabric; the uncertainty is when. Serenity assigned Credo a C-tier, reflecting limited conviction relative to the substrate and laser supply names.\n\n## What held up\n\nThe technical record supports three of Serenity's structural claims. Soitec genuinely holds a functional monopoly on photonics-grade SOI — a fact that Tower's $920 million capex plan and TSMC's COUPE (Compact Universal Photonic Engine) co-packaged optics platform jointly confirm. InP laser supply was, as argued across repeated posts, the binding constraint that NVIDIA's $4 billion dual investment was designed to address. And Tower's silicon photonics capacity was indeed being contracted years in advance, not speculated about.\n\nThe fourth claim — that CPO adoption would pull the small-cap laser suppliers into hyperscaler supply chains at volume — is more contested. Co-packaged optics remains a 2027–2028 volume story for most of the cluster. What made the trade work in 2026 was that the market re-rated the option value of those positions months before CPO revenues materialised on schedule. Serenity's own taxonomy — rockets versus compounders — implies the cluster was never a single bet, and the portfolio record suggests the distinction was well-chosen.\n\n> Maybe here's what I'd do personally: \"High Upside Rockets\": 1. $SIVE 2. MSSCorp 3. PCL 4. $AAOI Compounders: 1. Shunsin 2. Sumitomo 3. Furukawa 4. $COHR 5. $LITE",
+  "tickers": [
+    "SIVE",
+    "SOI",
+    "IQE",
+    "AXTI",
+    "TSEM",
+    "AAOI",
+    "LITE",
+    "COHR",
+    "FN",
+    "POET",
+    "CRDO",
+    "TSM",
+    "NVDA"
+  ],
+  "companies": [
+    {
+      "name": "Sivers Semiconductors AB",
+      "ticker": "SIVE"
+    },
+    {
+      "name": "Soitec SA",
+      "ticker": "SOI"
+    },
+    {
+      "name": "IQE plc",
+      "ticker": "IQE"
+    },
+    {
+      "name": "AXT Inc",
+      "ticker": "AXTI"
+    },
+    {
+      "name": "Tower Semiconductor",
+      "ticker": "TSEM"
+    },
+    {
+      "name": "Applied Optoelectronics Inc",
+      "ticker": "AAOI"
+    },
+    {
+      "name": "Lumentum Holdings",
+      "ticker": "LITE"
+    },
+    {
+      "name": "Coherent Corp",
+      "ticker": "COHR"
+    },
+    {
+      "name": "Fabrinet",
+      "ticker": "FN"
+    },
+    {
+      "name": "POET Technologies Inc",
+      "ticker": "POET"
+    },
+    {
+      "name": "Credo Technology Group",
+      "ticker": "CRDO"
+    },
+    {
+      "name": "Taiwan Semiconductor Manufacturing",
+      "ticker": "TSM"
+    },
+    {
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Marvell Technology",
+      "ticker": "MRVL"
+    },
+    {
+      "name": "MACOM Technology Solutions",
+      "ticker": "MTSI"
+    },
+    {
+      "name": "GlobalFoundries",
+      "ticker": null
+    },
+    {
+      "name": "Jabil Inc",
+      "ticker": "JBL"
+    },
+    {
+      "name": "Astera Labs",
+      "ticker": "ALAB"
+    }
+  ],
+  "concepts": [
+    {
+      "key": "silicon-photonics",
+      "term": "Silicon photonics",
+      "definition": "A technology that uses silicon-based waveguides to guide and modulate light on a chip, enabling high-speed, low-power optical data links between processors. Because silicon is transparent to infrared light and compatible with standard semiconductor fabrication, it allows optical functions to be integrated alongside electronics on the same wafer."
+    },
+    {
+      "key": "silicon-on-insulator",
+      "term": "Silicon-on-insulator (SOI)",
+      "definition": "A wafer structure in which a thin crystalline silicon layer (typically 220 nm for photonics) sits atop an electrically insulating buried oxide. The index contrast between the silicon device layer and the oxide below confines light within the waveguide, which is essential for low-loss optical routing on a photonic chip."
+    },
+    {
+      "key": "smart-cut",
+      "term": "Smart Cut",
+      "definition": "Soitec's proprietary wafer-engineering process that uses hydrogen-ion implantation to cleave a precisely controlled thin layer from a donor silicon wafer, then bonds it by molecular adhesion onto a handle wafer. It is the only technique capable of producing photonics-grade SOI with the sub-nanometre thickness uniformity required across 300mm wafers at commercial volumes."
+    },
+    {
+      "key": "co-packaged-optics",
+      "term": "Co-packaged optics (CPO)",
+      "definition": "An advanced packaging architecture that integrates optical engines — lasers, modulators, and photodetectors — directly into the same package as a switch ASIC or GPU, eliminating the long electrical traces between chip and pluggable transceiver. CPO reduces power consumption and signal latency at terabit-class bandwidth, but imposes strict requirements on laser power, packaging yield, and thermal management."
+    },
+    {
+      "key": "indium-phosphide",
+      "term": "Indium phosphide (InP)",
+      "definition": "A III-V compound semiconductor with a direct bandgap, enabling efficient light emission. Because silicon cannot lase, every silicon photonic transceiver requires InP-based laser dies as external light sources. InP substrates and epitaxial wafers are produced by a small number of specialist companies, creating a structural bottleneck upstream of the transceiver supply chain."
+    },
+    {
+      "key": "distributed-feedback-laser",
+      "term": "Distributed feedback (DFB) laser",
+      "definition": "An InP laser whose cavity includes a periodic grating that selects a single emission wavelength. DFB lasers are the dominant light source in data-centre transceivers because their narrow linewidth and stable wavelength allow dense wavelength-division multiplexing, packing multiple data channels onto a single fibre."
+    },
+    {
+      "key": "active-electrical-cable",
+      "term": "Active electrical cable (AEC)",
+      "definition": "A copper cable with integrated retimer chips at each end that regenerate digital signals electronically, extending the useful reach of copper interconnects inside server racks. AECs compete with pluggable optical transceivers for short-reach GPU-to-GPU connections in AI training clusters, and have gained significant share because CPO is not yet available at volume."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://towersemi.com/2026/02/11/02112026/",
+      "title": "Tower Semiconductor Reports Record Revenue for Q4 2025",
+      "note": "TSEM IR filing; primary source for $920M SiPho capex commitment, 5x wafer-start target, and CEO claim on 1.6T provider status"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/05/27/3088835/0/en/Soitec-Reports-Fourth-Quarter-Revenue-and-Full-Year-Results-of-Fiscal-Year-2025.html",
+      "title": "Soitec Full-Year FY2025 Results",
+      "note": "Soitec IR; primary source for €891M group revenue, Edge & Cloud AI growth, and Photonics-SOI trajectory"
+    },
+    {
+      "url": "https://www.soitec.com/docs/default-source/financial-reports/2025-2026/en/soi_-_soitec_-_rfs_2025-2026_-_en.pdf",
+      "title": "Soitec H1 FY2026 Half-Year Financial Report",
+      "note": "Euronext filing; confirms Smart Cut process details and H1 FY2026 Edge & Cloud AI 34% organic growth"
+    },
+    {
+      "url": "https://www.iqep.com/media/press-releases/2025/2025-interim-results/",
+      "title": "IQE 2025 Interim Results",
+      "note": "IQE LSE filing; primary source for H1 2025 photonics revenue, AI data-centre design wins, 6-inch InP platform"
+    },
+    {
+      "url": "https://www.semiconductor-today.com/news_items/2026/apr/iqe-290426.shtml",
+      "title": "IQE raises £81m including £45m from MACOM long-term supply agreements",
+      "note": "Trade press; confirms MACOM-IQE LTSA connecting IQE epi-wafers to NVIDIA CPO laser supply chain"
+    },
+    {
+      "url": "https://investors.axt.com/Investors/news/news-details/2025/AXT-Inc--Announces-Third-Quarter-2025-Financial-Results/default.aspx",
+      "title": "AXT Q3 2025 Financial Results",
+      "note": "AXTI IR; InP revenue 250%+ sequential growth, China export permit processing times"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260430987825/en/AXT-Inc.-Announces-First-Quarter-2026-Financial-Results",
+      "title": "AXT Q1 2026 Financial Results",
+      "note": "AXTI IR; $632.5M equity raise, $100M+ InP backlog, capacity doubling plan"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/05/06/3289361/11543/en/coherent-corp-reports-third-quarter-fiscal-2026-results.html",
+      "title": "Coherent Corp Q3 Fiscal 2026 Results",
+      "note": "COHR IR; $1.81B quarterly revenue, InP capacity doubling timeline, OFC 2026 CPO SAM $15B"
+    },
+    {
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Strategic-Partnership-With-Lumentum-to-Develop-State-of-the-Art-Optics-Technology/default.aspx",
+      "title": "NVIDIA Announces Strategic Partnership With Lumentum",
+      "note": "NVIDIA IR; $2B investment + multi-billion purchase commitment for CPO laser components"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20260505865570/en/Lumentum-Announces-Third-Quarter-of-Fiscal-Year-2026-Financial-Results",
+      "title": "Lumentum Q3 FY2026 Financial Results",
+      "note": "LITE IR; $808M revenue (+90% YoY), 200G EML doubling, Greensboro InP fab acquisition"
+    },
+    {
+      "url": "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-reports-first-quarter-2026-results",
+      "title": "Applied Optoelectronics Q1 2026 Results",
+      "note": "AAOI IR; $151M Q1 revenue, >$1.1B FY2026 guidance, 650k unit/month 800G/1.6T target"
+    },
+    {
+      "url": "https://investor.fabrinet.com/news-releases/news-release-details/fabrinet-announces-fourth-quarter-and-fiscal-year-2025-financial",
+      "title": "Fabrinet FY2025 and Q1 FY2026 Results",
+      "note": "FN IR; $1.13B record Q2 FY2026 revenue; sole-source 1.6T Blackwell transceiver manufacturer"
+    },
+    {
+      "url": "https://investors.credosemi.com/news-events/news/news-details/2026/Credo-Technology-Group-Holding-Ltd-Reports-Third-Quarter-of-Fiscal-Year-2026-Financial-Results/default.aspx",
+      "title": "Credo Technology Q3 FY2026 Results",
+      "note": "CRDO IR; $407M quarterly revenue (+201% YoY), AEC market share, five hyperscale customers"
+    },
+    {
+      "url": "https://www.poet-technologies.com/news/poet-technologies-provides-purchase-order-update",
+      "title": "POET Technologies Marvell Order Cancellation Update",
+      "note": "POET IR; April 27, 2026 disclosure of Marvell cancellation and 50% stock decline context"
+    },
+    {
+      "url": "https://www.sivers-semiconductors.com/press/sivers-semiconductors-ab-publ-publishes-interim-report-q4-october-december-2025/",
+      "title": "Sivers Semiconductors Q4 and Full Year 2025 Interim Report",
+      "note": "SIVE IR; SEK 304M revenue, SEK 186M net loss, photonics segment first profitable year, pipeline $453M"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/11/12/3186012/0/en/Tower-Semiconductor-Announces-New-CPO-Foundry-Technology-Available-On-Tower-s-Leading-Sipho-and-EIC-Optical-Platforms.html",
+      "title": "Tower Semiconductor CPO Foundry Technology Launch",
+      "note": "TSEM IR; November 2025 announcement of 300mm wafer-bonding CPO foundry platform"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/11/18/3189647/0/en/GlobalFoundries-Acquires-Advanced-Micro-Foundry-Accelerating-Silicon-Photonics-Global-Leadership-and-Expanding-AI-Infrastructure-Portfolio.html",
+      "title": "GlobalFoundries Acquires Advanced Micro Foundry",
+      "note": "GF press release; largest pure-play SiPho foundry by revenue after AMF acquisition, competitive context for Tower"
+    },
+    {
+      "url": "https://newsletter.semianalysis.com/p/co-packaged-optics-cpo-book-scaling",
+      "title": "Co-Packaged Optics — Scaling with Light (SemiAnalysis)",
+      "note": "SemiAnalysis deep-dive; TSMC COUPE architecture, SOI substrate dependency, laser supply as critical CPO vulnerability"
+    }
+  ],
+  "serenity_quotes_used": [
+    {
+      "tweet_id": "2051319157552267710",
+      "url": "https://x.com/aleabitoreddit/status/2051319157552267710",
+      "context": "Serenity noting SOI position up 'enormous amounts' on May 4, 2026 — used as the chapter's primary direct quote on the SOI trade"
+    },
+    {
+      "tweet_id": "2047814774726214098",
+      "url": "https://x.com/aleabitoreddit/status/2047814774726214098",
+      "context": "Serenity's valuation ceiling for SOI: '$8–12B in a year' — used to show the analyst applied a fundamental cap even during the rally"
+    },
+    {
+      "tweet_id": "2051029592241279153",
+      "url": "https://x.com/aleabitoreddit/status/2051029592241279153",
+      "context": "Serenity's portfolio taxonomy: 'High Upside Rockets' (SIVE, AAOI) vs 'Compounders' (COHR, LITE) — used as closing block-quote to illustrate the cluster framing"
+    },
+    {
+      "tweet_id": "2048565314053681285",
+      "url": "https://x.com/aleabitoreddit/status/2048565314053681285",
+      "context": "Serenity on SEC filings as a research method for finding hidden photonics supply chain names — supports the methodology narrative"
+    }
+  ],
+  "generated_at": "2026-05-08T13:13:50Z",
+  "backend": "claude-sonnet-subagent"
+}

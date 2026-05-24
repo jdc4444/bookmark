@@ -1,0 +1,25 @@
+{
+  "key": "2344_tw",
+  "name": "Winbond Electronics Corporation",
+  "exchange": "TWSE",
+  "blurb": "Winbond Electronics is a Taiwanese fabless-adjacent chipmaker specialising in low-density specialty DRAM and NOR flash for embedded applications — automotive electronics, industrial controllers, network equipment, and consumer IoT. Its market is structurally distinct from commodity DRAM: customers value the longevity, reliability, and wide operating-temperature range of Winbond's devices rather than peak bandwidth. This niche insulates Winbond from direct competition with Samsung and SK Hynix while making it a beneficiary when specialty supply tightens.",
+  "recent": "After four consecutive quarters of losses, Winbond returned to full-capacity utilisation in mid-2025 and posted consecutive record revenues into early 2026 as specialty DRAM and NOR flash prices rose sharply. The company is advancing its Kaohsiung KH fab from 25-nanometre to 20-nanometre process technology (initial capacity 15,000 wafers/month), accelerating capex to capture the supply gap left by the majors' HBM pivot. Management has guided a healthy demand outlook through 2026, with automotive and industrial segments the primary growth drivers.",
+  "sources": [
+    {
+      "title": "Rising Memory Prices Push Nanya and Winbond into Expansion and Record Revenues (Digitimes)",
+      "url": "https://www.digitimes.com/news/a20260304PD227/winbond-nanya-technology-memory-revenue-2025.html"
+    },
+    {
+      "title": "Memory Giants' HBM Focus Limits DRAM Growth; Taiwan Firms Boost DDR4 (TrendForce)",
+      "url": "https://www.trendforce.com/news/2025/10/17/news-memory-giants-hbm-focus-could-limit-dram-growth-through-2026-taiwan-firms-boost-ddr4/"
+    },
+    {
+      "title": "Top 7 Taiwanese DRAM and NAND Companies in 2025 (HQele)",
+      "url": "https://heqingele.com/blog/top-taiwan-memory-chip-companies-dram-nand-2025/"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent",
+  "ticker": "2344.TW"
+}

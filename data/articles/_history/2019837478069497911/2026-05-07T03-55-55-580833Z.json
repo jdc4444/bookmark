@@ -1,0 +1,68 @@
+{
+  "headline": "Drop Any URL, Extract Its Fonts, Find the Free Twin",
+  "lede": "The tweet text — \"im unstoppable\" — is pure reaction copy. The substance is in the quoted post: a link to a browser utility called Font-Stealer (the site itself goes by \"Analyze Any Font\") that accepts any URL, extracts every typeface the site loads, and suggests a free alternative, typically within ten seconds. For designers who spend time reverse-engineering a competitor's typography or hunting for open-source substitutes, it collapses several manual steps into one.",
+  "body": "Font-Stealer works from the live source of a website rather than from an image. It parses the site's CSS stylesheets to identify every *webfont* being served — files in *WOFF*, *WOFF2*, *TTF*, or *OTF* format — then reads the declared weights, styles, and any *variable font axes* in play. The result is a structured picture of a site's typography stack, surfaced without opening browser developer tools.\n\nThe second half of the workflow is the more commercially interesting part. The tool cross-references whatever commercial typeface it finds against a database of free alternatives — drawn primarily from Google Fonts — and returns the closest geometric match. The example the site shows is illustrative: it flags Circular Pro (a paid geometric sans used heavily in tech branding) and surfaces Plus Jakarta Sans as a free substitute.\n\nThis distinguishes Font-Stealer from image-based font-identification tools like WhatTheFont, run by Monotype, or Fontspring's Matcherator. Those tools accept a screenshot and match letterforms visually — useful when a font appears in a logo or printed material but not when you want to know exactly which weight and optical variant a live website is loading. Font-Stealer skips the image-matching step entirely by reading CSS directly.\n\nThe name is deliberately provocative, but the tool does not download or redistribute proprietary typefaces. The site carries its own disclaimer — \"Identifying a font does not grant usage rights\" — and positions itself as a research instrument. What it genuinely accelerates is the reconnaissance phase: knowing what a site uses and whether a free substitute exists before a designer or developer commits to a paid license.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Monotype",
+      "ticker": null
+    },
+    {
+      "name": "Fontspring",
+      "ticker": null
+    }
+  ],
+  "poster": "Ayavanni",
+  "concepts": [
+    {
+      "key": "webfont",
+      "term": "webfont",
+      "definition": "A font file hosted on a server and loaded by a browser via a CSS @font-face declaration. Webfonts let designers use custom typefaces on the web without requiring users to have the font installed locally."
+    },
+    {
+      "key": "woff-woff2",
+      "term": "WOFF / WOFF2",
+      "definition": "Web Open Font Format — a compressed wrapper around standard font data (TrueType or OpenType) designed for efficient delivery over HTTP. WOFF2 offers roughly 30% better compression than the original WOFF and is now the dominant format for web typography."
+    },
+    {
+      "key": "variable-font-axes",
+      "term": "variable font axes",
+      "definition": "Modern font files can encode a continuous range of design variations — weight, width, slant, optical size — along named axes. A single variable font file can replace an entire family of separate Regular, Bold, and Italic files, and designers can dial in values between named stops."
+    },
+    {
+      "key": "optical-sizing",
+      "term": "optical sizing",
+      "definition": "A variable font axis (typically tagged 'opsz') that adjusts letterform details — stroke contrast, spacing, x-height — to suit the size at which text is displayed. Text set at 8pt benefits from different optical treatment than the same typeface at 72pt."
+    },
+    {
+      "key": "google-fonts",
+      "term": "Google Fonts",
+      "definition": "A free, open-source library of web-ready typefaces maintained by Google, covering hundreds of families. Because the fonts are licensed under open terms and served from Google's CDN, they are commonly used as free substitutes for commercial typefaces with similar geometry."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://font-stealer.vercel.app/",
+      "title": "Analyze Any Font - Extract Fonts from Any Website",
+      "note": "Primary source: the tool itself, describing its three-step workflow and supported formats"
+    },
+    {
+      "url": "https://www.myfonts.com/pages/whatthefont",
+      "title": "WhatTheFont Font Finder — MyFonts",
+      "note": "Used to characterize image-based font identification as a point of comparison"
+    },
+    {
+      "url": "https://www.fontspring.com/matcherator",
+      "title": "Font Finder By Image — Fontspring Matcherator",
+      "note": "Second image-based comparator, described as searching over 900,000 fonts"
+    }
+  ],
+  "bookmark_id": "2019837478069497911",
+  "generated_at": "2026-05-07T03:55:55.580833Z",
+  "backend": "claude"
+}

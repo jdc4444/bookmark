@@ -1,0 +1,11 @@
+{
+  "key": "VIX",
+  "name": "CBOE Volatility Index",
+  "exchange": "CBOE (index, not a stock)",
+  "blurb": "The VIX is the Chicago Board Options Exchange's volatility index, derived from S&P 500 options prices to estimate expected 30-day volatility. Often called the market's \"fear gauge,\" it rises during selloffs and falls during calm uptrends. The index itself isn't directly investable; tradeable products include VIX futures, VXX/VIXY ETFs, UVXY (leveraged), and SVXY (inverse).",
+  "recent": "Through 2025-2026 the VIX moved between roughly 13 and 60, spiking in April 2025 (the so-called Liberation Day shock) and again during the late-2025 mega-cap drawdown that took the AI complex off ~25% from its highs.",
+  "sources": [],
+  "type": "ticker",
+  "generated_at": "2026-05-06T03:23:40.364683+00:00",
+  "backend": "claude-sonnet-subagent"
+}

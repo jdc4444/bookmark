@@ -1,0 +1,105 @@
+{
+  "headline": "A Pixel-Art RPG Where AI Agents Argue and Decide for Themselves",
+  "lede": "Managing a team of AI agents typically means staring at scrolling terminal logs and sparse dashboard widgets — a workload that scales badly and conveys little about why agents are doing what they do. A developer known publicly only as Matin built a different kind of interface: a Phaser-powered pixel RPG where each agent has a character, a home station, and the autonomy to call a meeting.",
+  "body": "The setup is deliberately small. Five agents run on a Mac Mini, connected to a *Node bridge* that feeds live system state to a single HTML file rendered by *Phaser*, an open-source JavaScript game engine popular for browser games and increasingly pressed into service as a visualization layer for software systems. Each agent's pixel character idles at its station during normal operation. When unresolved tasks accumulate past a threshold, the characters walk to a shared meeting point and begin what Matin calls a **council session**.\n\nThe council is where the project becomes philosophically interesting. Four agents — each running on a different *large language model* — independently read the current system state and debate without scripted dialogue. In one documented session, one agent proposed sending cold-outreach messages to sales leads at 2am. Another objected on roughly ethical grounds: an autonomous system contacting strangers while its operator slept was “a terrible look.” The exchange continued until all four converged on an **inbound strategy** that none had individually proposed at the start — something closer to genuine deliberation than to majority vote.\n\nWhat distinguishes this from the growing cluster of pixel-art agent interfaces — *Outworked*, AgentOffice, and Agent Town among them — is the absence of a predetermined resolution script. Most *multi-agent orchestration* frameworks such as LangGraph, CrewAI, and AutoGen — the last backed by Microsoft (MSFT) — assign agents fixed roles and handoff rules; coordination is deterministic by design. Matin’s council appears to let models reason from shared context toward an open-ended outcome, which means it can surface options a fixed-role architecture would never generate.\n\nThe build is technically unassuming: one HTML file, a Node.js bridge handling the agent-to-system connection, and Phaser for rendering. No cloud infrastructure, no orchestration-platform subscription. It runs on commodity hardware and has not been open-sourced; it circulated solely as a demo video attached to Om Patel’s tweet, which drew roughly 650,000 impressions. That appetite — for something between a terminal and a product, something you can glance at and understand — is apparently real and still largely unmet.",
+  "tickers": [
+    "MSFT"
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "CrewAI",
+      "ticker": null
+    }
+  ],
+  "poster": "om_patel5",
+  "concepts": [
+    {
+      "key": "council-session",
+      "term": "council session",
+      "definition": "Matin’s name for the emergent coordination event in his system: when unresolved tasks exceed a threshold, all agents converge on a shared map location and begin an unscripted multi-model debate, each reading live system state independently, until they arrive at a collective decision."
+    },
+    {
+      "key": "phaser",
+      "term": "Phaser",
+      "definition": "An open-source JavaScript game engine for building 2D games that run in any web browser. It handles sprite rendering, tilemaps, and character animation. Originally built for games, it has been adopted as a lightweight visual layer for agent-management interfaces because it can run entirely in a single HTML file with no dedicated backend required for the frontend."
+    },
+    {
+      "key": "node-bridge",
+      "term": "Node bridge",
+      "definition": "A small Node.js server that acts as the connector between the browser-rendered Phaser frontend and the live system state the agents are managing. It relays data — task counts, agent outputs, system events — to the visual interface in real time."
+    },
+    {
+      "key": "large-language-model",
+      "term": "large language model (LLM)",
+      "definition": "A neural network trained on vast quantities of text and capable of generating coherent, contextually relevant language. In agentic systems, an LLM is given tools and system-state context so it can reason and take actions, not merely respond to prompts."
+    },
+    {
+      "key": "multi-agent-orchestration",
+      "term": "multi-agent orchestration",
+      "definition": "The coordination of multiple AI models working in parallel toward shared goals. Orchestration frameworks define which agents run, in what order, and how they hand off work — typically through fixed roles and deterministic rules rather than open-ended negotiation."
+    },
+    {
+      "key": "inbound-strategy",
+      "term": "inbound strategy",
+      "definition": "A sales or marketing approach that attracts potential customers through content, search, or referrals rather than by directly contacting them (cold outreach). The agents’ council chose it over 2am cold outreach because it avoids autonomous contact with strangers outside business hours."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The builder’s identity is confirmed only by a first name — “Matin” — visible in the demo video’s OCR. No public GitHub repository has been found, so the claim about four different models debating live system state without a script cannot be independently verified. The tweet is consistent with a genuine demo but should be treated as unaudited until a repo or technical writeup is published.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/om_patel5/status/2041717699307323399",
+      "title": "Om Patel’s original tweet",
+      "note": "Primary source; full tweet text and engagement stats"
+    },
+    {
+      "url": "https://github.com/phaserjs/phaser",
+      "title": "Phaser — GitHub",
+      "note": "Official repo for the game engine used in the build"
+    },
+    {
+      "url": "https://phaser.io/about",
+      "title": "About Phaser",
+      "note": "Framework overview and history"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Phaser_(game_framework)",
+      "title": "Phaser (game framework) — Wikipedia",
+      "note": "Background on Phaser’s origins and adoption"
+    },
+    {
+      "url": "https://agent-wars.com/news/2026-03-24-outworked-open-source-pixel-art-office-ui-for-orchestrating-claude-code-agents",
+      "title": "Outworked — Agent Wars",
+      "note": "Coverage of a comparable pixel-art agent interface, context for the trend"
+    },
+    {
+      "url": "https://www.fastcompany.com/91497413/this-charming-pixel-art-game-solves-one-of-ai-codings-most-annoying-ux-problems",
+      "title": "Fast Company — Outworked",
+      "note": "Editorial coverage of the pixel-art-for-agents UX trend"
+    },
+    {
+      "url": "https://dev.to/harishkotra/how-i-built-agentoffice-self-growing-ai-teams-in-a-pixel-art-virtual-office-4o0p",
+      "title": "AgentOffice — DEV.to",
+      "note": "Technical writeup of another Phaser-based pixel agent-office project"
+    },
+    {
+      "url": "https://github.com/harishkotra/agent-office",
+      "title": "AgentOffice — GitHub",
+      "note": "Open-source Phaser + Ollama pixel agent office, comparable project"
+    },
+    {
+      "url": "https://x.com/JulianGoldieSEO/status/2043059833322999978",
+      "title": "Julian Goldie SEO repost",
+      "note": "Secondary spread of the tweet; note: misattributes the build to Om Patel"
+    }
+  ],
+  "bookmark_id": "2041717699307323399",
+  "generated_at": "2026-05-07T08:43:48.040219Z",
+  "backend": "claude-sonnet-subagent"
+}

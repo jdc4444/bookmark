@@ -1,0 +1,24 @@
+{
+  "key": "ABNB",
+  "name": "Airbnb, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Airbnb, Inc. operates a global online marketplace for lodging and travel experiences, connecting hosts with guests. Founded in 2008, the company has disrupted the traditional hospitality industry by enabling individuals to rent out their properties or offer unique activities. As of 2025, Airbnb is one of the largest travel platforms in the world, with a market capitalization exceeding $80 billion.",
+  "recent": "In the past 30 days, Airbnb's stock has shown volatility amid mixed analyst ratings and broader market trends. The company reported strong Q4 2024 earnings in February, beating revenue estimates but providing cautious forward guidance due to macroeconomic uncertainties. Shares have fluctuated between $130 and $150, with recent news focusing on regulatory challenges in key European markets.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/ABNB/",
+      "title": "Airbnb, Inc. (ABNB) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ABNB/",
+      "title": "Airbnb (ABNB) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/ABNB:NASDAQ",
+      "title": "Airbnb Inc (ABNB) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-11T13:35:02.534654Z",
+  "backend": "deepseek"
+}

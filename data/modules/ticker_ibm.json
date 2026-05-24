@@ -1,0 +1,24 @@
+{
+  "key": "IBM",
+  "name": "International Business Machines Corporation",
+  "exchange": "NYSE",
+  "blurb": "International Business Machines Corporation (IBM) is a global technology company that provides integrated solutions and services, including hybrid cloud, artificial intelligence, and consulting. It operates through segments such as Software, Consulting, Infrastructure, and Financing. IBM is a leader in enterprise IT and has been pivoting toward high-growth areas like hybrid cloud and AI, with its Red Hat acquisition playing a key role. The company competes with other tech giants like Microsoft and Amazon in the cloud market.",
+  "recent": "In the past 30 days, IBM stock has traded near $225, down from its 52-week high of $324.90, reflecting broader market volatility. Analysts have a consensus rating of Buy with a median price target of $282.18. Recent news highlights Morgan Stanley's view that IBM is building a harder-to-displace role in enterprise technology.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/IBM/news/",
+      "title": "International Business Machines Corporation (IBM) Latest Stock News"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/ibm",
+      "title": "IBM Stock Price | International Business Machines Corp. Stock Quote (U ..."
+    },
+    {
+      "url": "https://markets.businessinsider.com/stocks/ibm-stock?op=1",
+      "title": "IBM Stock Quote, News, and History - Markets Insider"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:46:56.123371Z",
+  "backend": "deepseek"
+}

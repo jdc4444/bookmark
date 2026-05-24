@@ -1,0 +1,28 @@
+{
+  "key": "AIG",
+  "name": "American International Group, Inc.",
+  "exchange": "NYSE",
+  "blurb": "American International Group (AIG) is a leading global insurance organization serving commercial, institutional, and individual customers through property-casualty and life insurance operations. The company's General Insurance segment offers a wide range of property and casualty insurance products, while its Life & Retirement segment provides life insurance, retirement services, and investment products. AIG is one of the largest insurers in the world, with a significant market presence in the United States and internationally.",
+  "recent": "In the past month, AIG's stock has traded within a 52-week range of $71.25 to $87.46, with recent price around $76.43. Notable news includes discussions on how the AI data center boom is 'stress testing' insurers and private capital inflows, as well as broader industry topics like car insurance pricing and travel insurance. The stock has experienced some volatility amid these industry developments.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/AIG/",
+      "title": "American International Group, Inc. (AIG) Stock Price, News, Quote ..."
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/aig",
+      "title": "AIG Stock Price | American International Group Inc. Stock Quote (U.S ..."
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/AIG",
+      "title": "AIG: American International Group Inc - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/AIG",
+      "title": "AIG Stock Quote Price and Forecast | CNN"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:13:30.579406Z",
+  "backend": "deepseek"
+}

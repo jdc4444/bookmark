@@ -1,0 +1,28 @@
+{
+  "key": "002222.SZ",
+  "name": "CASTECH Inc.",
+  "exchange": "Shenzhen Stock Exchange",
+  "blurb": "CASTECH Inc. is a Chinese company listed on the Shenzhen Stock Exchange. The company is primarily engaged in the research, development, production, and sale of optical crystals and related components. It serves various industries including laser, optical communication, and scientific research. CASTECH is recognized as a leading supplier in the global optical crystal market.",
+  "recent": "In the past 30 days, CASTECH's stock price has shown moderate volatility, influenced by broader market trends in China's tech sector. No major earnings reports or significant news announcements have been released. The stock continues to trade in line with its historical averages.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/002222.SZ/",
+      "title": "CASTECH Inc. (002222.SZ) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.barrons.com/market-data/stocks/002222?countrycode=cn",
+      "title": "002222 | Castech Inc. Stock Overview (China: Shenzhen) | Barron's"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/002222.SZ/",
+      "title": "(002222.SZ) | Stock Price & Latest News | Reuters"
+    },
+    {
+      "url": "https://www.investing.com/equities/castech-inc-a",
+      "title": "Castech Inc Stock Price Today | SZ: 002222 Live - Investing.com"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:41:07.266901Z",
+  "backend": "deepseek"
+}

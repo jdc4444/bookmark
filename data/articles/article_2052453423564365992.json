@@ -1,0 +1,116 @@
+{
+  "headline": "SK Hynix's Frankfurt GDR Fell 15%—Its Seoul Shares Rose 3%",
+  "lede": "On the morning of May 7, 2026, SK hynix's Frankfurt-listed depositary receipt fell roughly 15% in thirty minutes while Micron, DRAM futures, and the iShares MSCI South Korea ETF sat unmoved. The divergence looked alarming. It wasn't: the underlying Seoul-listed shares rose 3% that same session, and the answer to \"why\" lies entirely in the mechanics of a thinly traded secondary instrument cut off from its home exchange.",
+  "body": "The instrument in question, trading in Frankfurt under the GDR ticker HY9H, represents ordinary shares of SK hynix (000660.KS) held in custody in Seoul by a depositary bank. *Global Depositary Receipts* exist to give European institutional investors exposure to foreign-listed companies without requiring them to navigate Korean settlement infrastructure, *won* currency conversion, or local foreign-investor registration requirements. Each receipt represents a fractional or whole claim on underlying Korea Exchange (KRX) shares; in theory, the GDR price should track the underlying in real time, adjusted for the conversion ratio and the KRW/EUR exchange rate.\n\nIn practice, that parity depends on live arbitrage—and live arbitrage requires a functioning two-way market. Frankfurt's GDR market for SK hynix (000660.KS) is a specialist venue: a designated market maker maintains quotes but faces no obligation to absorb large blocks at fair value. More critically, the KRX closes at 3:30 PM Seoul time, translating to roughly 8:30 AM in Frankfurt. Any trade after that point proceeds without a live price anchor on the home exchange. Reconstructing the cross-border arbitrage—buying KRX shares in Seoul, depositing them with a custodian, issuing new GDR units, and selling them in Frankfurt—takes days, not seconds. A single institutional seller with no willing counterpart can drive the Frankfurt quote down 15% before the price-equalizing mechanism has any chance to engage.\n\nThe absence of a fundamental driver is confirmed by the Seoul data. 000660 closed at ₩1,654,000 on May 7, **up 3.31%** from the prior session. Micron (MU) was flat, DRAM forward prices were flat, and EWY—which holds KRX-listed 000660 shares and prices them from Seoul—reflected that positive session accordingly. The 15% Frankfurt print carried no fundamental signal. It was a thin-book dislocation on a secondary venue, the kind of artifact that sophisticated traders sometimes exploit as an arbitrage entry rather than interpret as a market view.\n\nThe disconnect is sharpest precisely because SK hynix's (000660.KS) underlying story in May 2026 is one of exceptional momentum. The company reported Q1 2026 revenues of ₩52.6 trillion—up 198% year-on-year—with a 72% operating margin driven almost entirely by *high-bandwidth memory* (HBM), the densely stacked DRAM chips that sit between GPU and processor in every major AI accelerator. SK hynix holds more than half of the global HBM market and supplies roughly two-thirds of demand from Nvidia (NVDA) for HBM4, the latest variant slated for Nvidia's Vera Rubin AI platform. Any genuine bad news would move the KRX price first. On May 7, there was none.",
+  "tickers": [
+    "000660.KS",
+    "MU",
+    "NVDA"
+  ],
+  "companies": [
+    {
+      "name": "SK hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "Nvidia Corporation",
+      "ticker": "NVDA"
+    }
+  ],
+  "poster": "blondesnmoney",
+  "concepts": [
+    {
+      "key": "global-depositary-receipt",
+      "term": "Global Depositary Receipt (GDR)",
+      "definition": "A security issued by a depositary bank that represents shares in a foreign company held in custody on the home exchange. Investors buy the GDR instead of the underlying share to avoid navigating foreign settlement systems, currency accounts, or local registration rules. In theory the GDR tracks the underlying price; in practice, thin liquidity and cross-border settlement latency can produce large temporary divergences from fair value."
+    },
+    {
+      "key": "high-bandwidth-memory",
+      "term": "High-Bandwidth Memory (HBM)",
+      "definition": "A form of DRAM in which multiple memory dies are stacked vertically and connected by microscopic through-silicon vias, dramatically increasing data throughput compared with conventional modules. HBM sits directly beside the GPU die on a shared substrate, providing the bandwidth that large AI model inference and training demand. SK hynix pioneered commercial HBM production and retains the leading market share, ahead of Samsung and Micron."
+    },
+    {
+      "key": "dram",
+      "term": "DRAM",
+      "definition": "Dynamic Random-Access Memory—the dominant form of volatile working memory in computers, servers, and AI accelerators. Data in DRAM must be constantly refreshed and is lost when power is cut, but access speeds are far faster than storage-class memory. Three companies—SK hynix, Samsung, and Micron—control roughly 95% of global DRAM supply."
+    },
+    {
+      "key": "krx",
+      "term": "KRX (Korea Exchange)",
+      "definition": "South Korea's principal securities exchange, which operates the Korea Stock Exchange for equities and closes each trading day at 3:30 PM Seoul time. Because that translates to roughly 8:30 AM Central European Time, GDRs of Korean companies traded in Frankfurt enter an hours-long window each session where there is no live home-market price anchor, leaving them vulnerable to microstructure dislocations."
+    },
+    {
+      "key": "specialist-venue",
+      "term": "Specialist Venue / Market Maker",
+      "definition": "In Frankfurt's model for low-volume securities, a designated specialist both quotes prices and executes trades. The specialist must maintain two-sided quotes but may widen bid-ask spreads aggressively when order flow is thin or one-sided. Unlike a deep electronic order book with many competing participants, a specialist model provides limited price support when a large sell order arrives with no natural counterpart."
+    },
+    {
+      "key": "vera-rubin",
+      "term": "Vera Rubin",
+      "definition": "Nvidia's next-generation AI accelerator platform, succeeding the Blackwell architecture. Vera Rubin integrates HBM4 memory and targets large-scale AI training and inference workloads in data centers. SK hynix has been confirmed as the primary HBM4 memory supplier for the platform, expected to begin mass production in 2026."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Global_depository_receipt",
+      "title": "Global Depositary Receipt — Wikipedia",
+      "note": "Mechanics of GDR creation, arbitrage, and divergence from the underlying share"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/krx/000660/",
+      "title": "SK hynix KRX:000660 — Stock Analysis",
+      "note": "KRX closing price May 7, 2026: ₩1,654,000, up 3.31%—confirms no fundamental selloff"
+    },
+    {
+      "url": "https://www.fidelity.com/news/article/technology/202604221936PR_NEWS_USPR_____CN40885",
+      "title": "SK Hynix Q1 2026 Financial Results — PR Newswire via Fidelity",
+      "note": "Primary source for Q1 2026 revenues of ₩52.6T, 198% YoY growth, 72% operating margin"
+    },
+    {
+      "url": "https://www.shacknews.com/article/148816/sk-hynix-q1-2026-results-198-percent-yoy-revenue-growth",
+      "title": "SK Hynix Q1 2026 Results — Shacknews",
+      "note": "Corroborates 198% revenue growth figure driven by HBM demand"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/",
+      "title": "SK Hynix to Supply ~Two-Thirds of Nvidia HBM4 — TrendForce",
+      "note": "Source for SK hynix's dominant share of Nvidia's HBM4 supply"
+    },
+    {
+      "url": "https://en.sedaily.com/finance/2026/05/07/memory-chip-stocks-still-undervalued-sk-securities-says",
+      "title": "Memory Chip Stocks Still Undervalued — Seoul Economic Daily",
+      "note": "Analyst upgrade published May 7, 2026; confirms no bearish catalyst that day"
+    },
+    {
+      "url": "https://en.sedaily.com/finance/2026/05/08/top-traders-scoop-up-samsung-sk-hynix-on-dip-as-hyundai",
+      "title": "Top Traders Scoop Up Samsung, SK hynix on Dip — Seoul Economic Daily",
+      "note": "Korean market sentiment context around May 7–8"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2026/05/07/news-sk-hynix-10-profit-sharing-system-turns-double-edged-on-record-earnings-krw-600m-payouts-signal-cost-pressure/",
+      "title": "SK Hynix Profit-Sharing Cost Pressure — TrendForce",
+      "note": "Only mild bearish news item on May 7: bonus cost headwind, not a fundamental shock"
+    },
+    {
+      "url": "https://www.deutsche-boerse.com/dbg-en/about-us/contact/glossary/glossary-article/Global-depositary-receipt-GDR--244478",
+      "title": "Global Depositary Receipt — Deutsche Börse Glossary",
+      "note": "Frankfurt GDR market structure and specialist model"
+    },
+    {
+      "url": "https://www.tradingview.com/symbols/FWB-HY9H/",
+      "title": "HY9H FWB — TradingView",
+      "note": "Frankfurt instrument page confirming HY9H is a sponsored 144A/Reg S GDR on SK hynix"
+    }
+  ],
+  "bookmark_id": "2052453423564365992",
+  "generated_at": "2026-05-08T10:44:09.236732Z",
+  "backend": "claude-sonnet-subagent"
+}

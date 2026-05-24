@@ -1,0 +1,20 @@
+{
+  "key": "GLW",
+  "name": "Corning Incorporated",
+  "exchange": "NYSE",
+  "blurb": "Corning Incorporated is an American specialty glass and ceramics manufacturer with roots stretching back to 1851. Its Optical Communications segment — the world's largest maker of optical fibre and fibre-optic cable — has become the principal earnings engine as AI-driven data-centre construction accelerates demand for high-capacity fibre infrastructure. Corning also supplies specialty glass for displays, life sciences, and advanced semiconductor substrates, and has a developing presence in co-packaged optics component supply through collaborations with Broadcom and others. The company is headquartered in Corning, New York.",
+  "recent": "Corning's Optical Communications segment posted full-year 2025 sales of $6.3 billion, up 35% year-over-year, with enterprise data-centre revenue growing 61%. In early 2026, Corning signed a multiyear agreement worth up to $6 billion to supply Meta's global AI data-centre buildout with optical fibre and cable. Bank of America subsequently pegged the total scale-out revenue opportunity at $10.3 billion by 2030. Corning's internal Springboard plan now targets $6.5 billion in incremental annualised sales by end-2026.",
+  "sources": [
+    {
+      "url": "https://investor.corning.com/news-and-events/news/news-details/2026/Corning-and-Meta-Announce-Multiyear-up-to-6-Billion-Agreement-to-Accelerate-US-Data-Center-Buildout/default.aspx",
+      "title": "Corning and Meta Announce $6B Data Center Agreement — investor.corning.com"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/corning-glw-13-6-strong-131232481.html",
+      "title": "Corning Up 13.6% After Strong 2025 Results and Meta Deal — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

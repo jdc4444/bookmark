@@ -1,0 +1,13 @@
+{
+  "key": "002371.SZ",
+  "name": "NAURA Technology Group Co., Ltd.",
+  "exchange": "SZSE (Shenzhen Stock Exchange)",
+  "blurb": "NAURA Technology Group is China's largest domestic semiconductor equipment company, developing etch systems, CVD (chemical vapour deposition) tools, and diffusion/oxidation furnaces. It is a key part of China's strategic effort to build a domestic semiconductor equipment supply chain in response to U.S. export restrictions that block access to tools from Applied Materials, Lam Research, KLA, and Tokyo Electron for advanced nodes. NAURA's tools currently serve mature nodes (28nm and above) and Chinese memory fabs, with ongoing R&D to extend to more advanced processes.",
+  "recent": "NAURA has experienced explosive revenue growth as Chinese chipmakers, facing export restrictions on Western equipment, prioritise domestic alternatives. Forward P/E of ~35.4x on 31.9% projected EPS growth yields a PEG of 1.11. The stock trades at a premium to Western equipment peers partly because investors expect domestic substitution demand to continue regardless of broader market conditions. NAURA's technical capabilities still lag ASML, Applied Materials, and Lam Research at the leading edge.",
+  "sources": [
+    {"url": "https://companiesmarketcap.com/semiconductors/semiconductor-companies-ranked-by-pe-ratio/", "title": "Semiconductor Companies Ranked by PE Ratio — CompaniesMarketCap"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,315 @@
+{
+  "headline": "The 800-Volt Semiconductor Index and Wolfspeed's Second Act",
+  "lede": "An image circulating on X shows the constituent list of MSXX800V, a Morgan Stanley proprietary index backing thirteen semiconductor and power-hardware companies on the 800-volt transition — the voltage standard now reshaping both electric-vehicle drivetrains and AI data centres. The dry caption — “just gonna leave this here as $WOLF makes the rounds” — points to the basket’s most provocative member: Wolfspeed, which emerged from Chapter 11 bankruptcy eight months ago and sits at 5.18% weight alongside Navitas Semiconductor. Whether the comment reads as validation or quiet scepticism, the index is a considered claim worth unpacking.",
+  "body": "The image shows the constituent list of **MSXX800V**, a proprietary index administered by Morgan Stanley (MS)’s *Trading and Investment Solutions* (TIS) group — almost certainly the reference underlier for one or more structured notes sold to institutional and private-wealth clients. Proprietary MSXX-prefixed indices are not publicly documented; their rules and composition appear only inside SEC Form 424B2 prospectus supplements. The thirteen names span the full *silicon carbide* (SiC) and *gallium nitride* (GaN) power-semiconductor supply chain, from substrate makers through chip designers to the power-distribution hardware that routes 800 volts into data-centre racks. The poster’s dry caption — “just gonna leave this here as $WOLF makes the rounds” — draws attention to Wolfspeed (WOLF), which filed for Chapter 11 bankruptcy in June 2025 and emerged ninety-one days later; it sits at 5.18% weight, joint-sixth in the basket alongside Navitas Semiconductor (NVTS).\n\nAn 800-volt architecture doubles the system supply voltage relative to the 400V standard that has dominated both EV drivetrains and data-centre power distribution. Halving the current for the same power level cuts resistive heat losses by roughly 75%, enabling sub-20-minute 80% charge times in the first commercial 800V electric vehicles. The theme’s more recent, and possibly larger, driver is artificial intelligence infrastructure: NVIDIA (NVDA) announced at Computex 2025 that its next-generation *Kyber* rack systems for Rubin Ultra GPUs would standardise on 800-volt *HVDC* (high-voltage direct current) power distribution across the data-centre floor. At gigawatt scale, 800V versus legacy 54V rack-level distribution cuts copper cabling by 45%, eliminates several AC-to-DC conversion stages, and recovers up to five percentage points of end-to-end efficiency. Nine of the thirteen basket constituents were subsequently named official NVIDIA 800V silicon-provider ecosystem partners.\n\nConstituent weights reflect a blend of market-cap scale and thematic purity. Infineon Technologies (IFX.DE) and STMicroelectronics (STM) anchor the index at roughly 14.7% and 13.8% respectively — both vertically integrated *SiC MOSFET* manufacturers with multi-year EV supply agreements. STMicro supplies Renault’s (RNO.PA) Ampere division with SiC powerbox modules for 800V platforms; onsemi (ON), also at 13.8%, claims design wins in 60% of Chinese EV models through its EliteSiC platform and has expanded into 900V architectures in a collaboration with Geely Automobile (0175.HK). Monolithic Power Systems (MPWR) and Analog Devices (ADI) enter the basket primarily through data-centre power management; Texas Instruments (TXN) demonstrated a full 800V-to-processor conversion chain at NVIDIA GTC in March 2026. At the other end of the spectrum, Navitas and Wolfspeed each hold 5.18% — a cap that likely reflects liquidity constraints on small-cap positions. The remaining four — Flex Ltd (FLEX), Power Integrations (POWI), Vertiv Holdings (VRT), and Eaton Corp (ETN) — represent the systems-integration and power-distribution layer between chip and rack.\n\nWolfspeed’s presence is the most pointed element. The company controls the most strategically critical bottleneck in the 800V supply chain: *SiC substrates*. Every SiC chip maker in the basket depends on high-quality SiC wafers, and Wolfspeed held roughly 34% of the global substrate market in 2024 while operating the only 200mm SiC device fab at volume scale. That structural position survived the balance-sheet collapse. The Chapter 11 was prepackaged and resolved in 91 days, eliminating roughly 70% of the company’s $4.6bn in debt; an unexpected $698m IRS settlement in December 2025 provided additional cash relief. Renesas Electronics (6723.T) emerged with 38.7% of the reorganised equity; existing shareholders were left with roughly 3–5%. That Morgan Stanley’s index administrators kept Wolfspeed in the basket — rather than substituting a cleaner-balance-sheet peer — signals that 800V substrate supply is regarded as too structurally critical to remove. The reorganised WOLF shares, trading near $38 as of May 2026, are the instrument the basket holds: a post-emergence equity, not the pre-petition paper.\n\nTwo risks cut across the basket. Chinese producers have moved aggressively into SiC: SICC (688234.SS) and TanKeBlue collectively hold more than 34% of global substrate capacity, up from near-zero before 2020, and BYD Co (1211.HK) supplies SiC devices internally through a captive semiconductor subsidiary, bypassing index constituents for the world’s largest EV maker. The second risk is cyclical: following the 2019–2024 SiC investment supercycle, substrate and *epitaxy* utilisation rates have fallen to roughly 50%, with the trough expected to persist until 2027–2028 when 8-inch wafer platforms reach volume production. The data-centre opportunity softens both concerns — AI infrastructure demand is largely insulated from Chinese EV dynamics — but any structured product linked to MSXX800V ultimately bets that hyperscaler 800V conversion timelines align with the SiC industry’s own recovery.",
+  "tickers": [
+    "WOLF",
+    "NVTS",
+    "MS",
+    "NVDA",
+    "IFX.DE",
+    "STM",
+    "RNO.PA",
+    "ON",
+    "0175.HK",
+    "MPWR",
+    "ADI",
+    "TXN",
+    "FLEX",
+    "POWI",
+    "VRT",
+    "ETN",
+    "6723.T",
+    "688234.SS",
+    "1211.HK"
+  ],
+  "companies": [
+    {
+      "name": "Wolfspeed",
+      "ticker": "WOLF"
+    },
+    {
+      "name": "Navitas Semiconductor",
+      "ticker": "NVTS"
+    },
+    {
+      "name": "Morgan Stanley",
+      "ticker": "MS"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Infineon Technologies",
+      "ticker": "IFX.DE"
+    },
+    {
+      "name": "STMicroelectronics",
+      "ticker": "STM"
+    },
+    {
+      "name": "Renault",
+      "ticker": "RNO.PA"
+    },
+    {
+      "name": "onsemi",
+      "ticker": "ON"
+    },
+    {
+      "name": "Geely Automobile",
+      "ticker": "0175.HK"
+    },
+    {
+      "name": "Monolithic Power Systems",
+      "ticker": "MPWR"
+    },
+    {
+      "name": "Analog Devices",
+      "ticker": "ADI"
+    },
+    {
+      "name": "Texas Instruments",
+      "ticker": "TXN"
+    },
+    {
+      "name": "Flex Ltd",
+      "ticker": "FLEX"
+    },
+    {
+      "name": "Power Integrations",
+      "ticker": "POWI"
+    },
+    {
+      "name": "Vertiv Holdings",
+      "ticker": "VRT"
+    },
+    {
+      "name": "Eaton Corp",
+      "ticker": "ETN"
+    },
+    {
+      "name": "Renesas Electronics",
+      "ticker": "6723.T"
+    },
+    {
+      "name": "SICC",
+      "ticker": "688234.SS"
+    },
+    {
+      "name": "TanKeBlue",
+      "ticker": null
+    },
+    {
+      "name": "BYD Co",
+      "ticker": "1211.HK"
+    }
+  ],
+  "poster": "TheLAPurchaser",
+  "concepts": [
+    {
+      "key": "silicon-carbide",
+      "term": "Silicon Carbide (SiC)",
+      "definition": "A compound semiconductor with a wider energy bandgap than silicon, allowing operation at higher voltages, temperatures, and switching frequencies. In power electronics, SiC MOSFETs handle the switching duties in EV traction inverters and power converters that silicon devices cannot sustain at 800V — an 800V battery bus requires 1,200V-rated switches to safely handle transient overvoltages during switching."
+    },
+    {
+      "key": "gallium-nitride",
+      "term": "Gallium Nitride (GaN)",
+      "definition": "Another wide-bandgap semiconductor, typically grown on silicon wafers. GaN transistors switch faster than SiC at medium voltages (roughly 100–650V), making them well-suited for the DC-DC converter stages within 800V systems — stepping 800V bus voltage down to intermediate levels — rather than the main high-power traction inverter."
+    },
+    {
+      "key": "hvdc",
+      "term": "HVDC (High-Voltage Direct Current)",
+      "definition": "In a data-centre context, HVDC means distributing power at 800V DC directly from main switchgear to server racks, bypassing the multiple AC-to-DC conversion stages used in traditional 480V AC or 54V DC architectures. Each eliminated conversion stage recovers heat losses; at gigawatt scale the efficiency gain is material and the copper reduction is dramatic."
+    },
+    {
+      "key": "sic-mosfet",
+      "term": "SiC MOSFET",
+      "definition": "A metal-oxide-semiconductor field-effect transistor fabricated on silicon carbide. MOSFETs are the dominant switching device in modern power converters; the SiC variant can handle the 1,200V voltage ratings required when a battery bus or data-centre distribution bus operates at 800V. The key figure of merit is RDS(on) — on-state resistance — which determines heat dissipation during conduction."
+    },
+    {
+      "key": "sic-substrate",
+      "term": "SiC Substrate",
+      "definition": "The polished silicon carbide crystal wafer on which SiC power devices are grown via epitaxy. Producing large-diameter, low-defect-density SiC substrates is the most technically demanding step in the supply chain — defects propagate into the active device layers and reduce yield. This bottleneck gives substrate makers unusual pricing leverage over the downstream chip industry."
+    },
+    {
+      "key": "structured-note",
+      "term": "Structured Note",
+      "definition": "A debt security issued by a bank whose return is linked to the performance of a reference asset — here, a proprietary equity basket. Unlike a plain bond, the investor’s repayment may be contingent on the basket staying above certain price levels. Structured notes can be configured as autocallables, reverse convertibles, or principal-protected products, giving issuers flexibility in shaping risk-return profiles."
+    },
+    {
+      "key": "autocallable",
+      "term": "Autocallable",
+      "definition": "A type of structured note that is automatically redeemed early — at a preset premium — if the reference asset closes above a trigger level on predetermined observation dates. If it does not, the note continues; if the asset falls sharply and breaches a lower barrier, the investor absorbs the equity-like downside. Autocallables are among the most common structured products sold to private-wealth clients."
+    },
+    {
+      "key": "epitaxy",
+      "term": "Epitaxy",
+      "definition": "The process of growing a thin, single-crystal semiconductor layer on top of a substrate wafer. For SiC devices, the epitaxial layer defines the electrical characteristics of the finished transistor. Epitaxy is a distinct manufacturing step from substrate production with its own yield constraints; industry analysts track substrate and epitaxy utilisation rates separately when assessing supply-chain health."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://developer.nvidia.com/blog/nvidia-800-v-hvdc-architecture-will-power-the-next-generation-of-ai-factories/",
+      "title": "NVIDIA 800V HVDC Architecture Technical Blog",
+      "note": "Primary source for NVIDIA’s 800V data-centre announcement and 9-partner silicon ecosystem"
+    },
+    {
+      "url": "https://navitassemi.com/navitas-supports-800-vdc-power-architecture-for-nvidias-next-generation-ai-factory-computing-platforms/",
+      "title": "Navitas: 800V Support for NVIDIA AI Factory",
+      "note": "Navitas’s official NVIDIA partnership announcement, May 2025"
+    },
+    {
+      "url": "https://navitassemi.com/navitas-unveils-breakthrough-10-kw-dc-dc-platform-delivering-98-5-efficiency-for-800-vdc-next-gen-ai-data-centers/",
+      "title": "Navitas 10kW DC-DC Platform for 800V AI Data Centres",
+      "note": "Navitas product announcement, February 2026"
+    },
+    {
+      "url": "https://newsroom.st.com/media-center/press-item.html/c3299.html",
+      "title": "STMicro / Renault Ampere SiC Partnership",
+      "note": "Multi-year supply agreement for 800V SiC powerbox modules"
+    },
+    {
+      "url": "https://newsroom.st.com/media-center/press-item.html/c3283.html",
+      "title": "STMicro 4th-Generation SiC Announcement",
+      "note": "STMicro 4th-gen SiC for EV traction inverters"
+    },
+    {
+      "url": "https://blog.st.com/800-v-hvdc-data-center/",
+      "title": "STMicro 800V HVDC Data Centre Blog",
+      "note": "STMicro 12kW 800V power delivery board showcased at OCP 2025"
+    },
+    {
+      "url": "https://investor.onsemi.com/news-releases/news-release-details/onsemi-powers-xiaomis-yu7-electric-suv-line-0",
+      "title": "onsemi Powers Xiaomi YU7 Electric SUV",
+      "note": "EliteSiC design win in Xiaomi YU7, August 2025"
+    },
+    {
+      "url": "https://www.semiconductor-today.com/news_items/2026/apr/onsemi-280426.shtml",
+      "title": "onsemi Geely 900V Architecture Expansion",
+      "note": "onsemi expanding EliteSiC into 900V architectures with Geely, April 2026"
+    },
+    {
+      "url": "https://www.analog.com/en/newsroom/press-releases/2025/8-21-2025-powering-the-future-of-ai.html",
+      "title": "Analog Devices 800V Power Solutions Press Release",
+      "note": "ADI 800V hot-swap and first-stage power module announcement, August 2025"
+    },
+    {
+      "url": "https://www.analog.com/en/signals/articles/800-volts-powering-future-hyperscale-data-centers.html",
+      "title": "ADI: 800 Volts and the Hyperscale Data Centre",
+      "note": "ADI technical explainer on 800V data-centre architecture"
+    },
+    {
+      "url": "https://www.ti.com/about-ti/newsroom/news-releases/2025/tis-new-power-management-solutions-enable-scalable-ai-infrastructures.html",
+      "title": "Texas Instruments 800V AI Infrastructure Solutions",
+      "note": "TI 800V power management announcement and NVIDIA GTC demo"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/ti-unveils-high-performance-isolated-power-modules-to-advance-power-density-in-data-centers-and-evs-302720298.html",
+      "title": "TI IsoShield Isolated Power Modules",
+      "note": "TI’s 800V-capable IsoShield power module announcement"
+    },
+    {
+      "url": "https://www.semiconductor-today.com/news_items/2025/jan/infineon-290125.shtml",
+      "title": "Infineon CoolSiC 1200V / FORVIA HELLA Selection",
+      "note": "Infineon CoolSiC selected for 800V automotive OBC applications"
+    },
+    {
+      "url": "https://investors.power.com/news/news-details/2025/Power-Integrations-Details-1250-V-and-1700-V-PowiGaN-Technology-for-Next-Generation-800-VDC-AI-Data-Centers/default.aspx",
+      "title": "Power Integrations 1250V/1700V PowiGaN for 800V AI Data Centres",
+      "note": "POWI’s new high-voltage GaN technology announcement, October 2025"
+    },
+    {
+      "url": "https://www.digitimes.com/news/a20251015PD233/pmic-data-center-gan-supply-chain-nvidia.html",
+      "title": "Digitimes: POWI Enters NVIDIA 800V Supply Chain",
+      "note": "Confirmation of Power Integrations in NVIDIA certified 800V supply chain"
+    },
+    {
+      "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-unveils-next-generation-architecture.html",
+      "title": "Eaton 800V AI Factory Architecture",
+      "note": "Eaton’s 800V HVDC infrastructure announcement"
+    },
+    {
+      "url": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/from-vision-to-readiness-vertiv-collaborates-with-nvidia-to-advance-800-vdc-platform-designs-to-power-the-next-generation-of-ai-factories/",
+      "title": "Vertiv / NVIDIA 800V Data Centre Collaboration",
+      "note": "Vertiv’s formal collaboration with NVIDIA on 800V rack design"
+    },
+    {
+      "url": "https://investor.aosmd.com/press-releases/press-release-details/2025/Alpha-and-Omega-Semiconductor-Introduces-Gen3-1200V-SiC-MOSFETs-Designed-to-Maximize-Efficiency-in-High-Power-Applications/default.aspx",
+      "title": "AOSL Gen3 1200V SiC MOSFET Launch",
+      "note": "AOSL’s AEC-Q101 1200V SiC MOSFET for 800V EV applications"
+    },
+    {
+      "url": "https://investor.aosmd.com/press-releases/press-release-details/2025/Alpha-and-Omega-Semiconductor-Supports-800-VDC-Power-Architecture-for-Next-Generation-AI-Factories-with-Innovative-SiC-and-GaN-Power-MOSFET-and-Power-IC-Solutions/default.aspx",
+      "title": "AOSL 800V Data Centre Support Announcement",
+      "note": "AOSL SiC and GaN portfolio for 800V AI factory infrastructure"
+    },
+    {
+      "url": "https://investor.wolfspeed.com/news/news-details/2025/Wolfspeed-Successfully-Completes-Financial-Restructuring-Emerges-as-Financially-Stronger-Company-Well-Positioned-in-Silicon-Carbide-Market/default.aspx",
+      "title": "Wolfspeed Chapter 11 Emergence Press Release",
+      "note": "Official announcement of Wolfspeed’s emergence from bankruptcy, September 2025"
+    },
+    {
+      "url": "https://www.semiconductor-today.com/news_items/2025/jul/wolfspeed-010725.shtml",
+      "title": "Wolfspeed Chapter 11 Filing Coverage",
+      "note": "Coverage of Wolfspeed’s bankruptcy filing with debt and creditor details"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/flex-launches-800-vdc-power-rack-for-next-generation-nvidia-ai-infrastructure-302714895.html",
+      "title": "Flex 800V Power Rack for NVIDIA AI Infrastructure",
+      "note": "Flex’s 800V liquid-cooled rack product co-developed with NVIDIA"
+    },
+    {
+      "url": "https://flex.com/resources/advancing-the-transition-to-800-vdc-data-centers-with-nvidia",
+      "title": "Flex / NVIDIA 800V Data Centre Transition",
+      "note": "Flex’s collaboration with NVIDIA on 800V infrastructure deployment"
+    },
+    {
+      "url": "https://recharged.com/articles/which-evs-have-800-volt-architecture",
+      "title": "Recharged: Which EVs Have 800V Architecture?",
+      "note": "Comprehensive list of 800V EV models and charging capabilities as of 2025"
+    },
+    {
+      "url": "https://www.businesswire.com/news/home/20251021314198/en/New-Energy-Vehicle-800-1000V-High-Voltage-Architecture-and-Supply-Chain-Report-2025",
+      "title": "China 800V EV Market and Supply Chain Report 2025",
+      "note": "Market research on 800V adoption in the Chinese EV market"
+    },
+    {
+      "url": "https://www.semiconductor-today.com/news_items/2025/dec/yole-181225.shtml",
+      "title": "Yole SiC Overcapacity and Utilisation Analysis",
+      "note": "Yole Group data on ~50% substrate utilisation and 2027–2028 recovery timeline"
+    },
+    {
+      "url": "https://www.trendforce.com/news/2026/03/04/news-wafer-capacity-set-to-surge-a-new-phase-for-the-sic-industry-in-2026/",
+      "title": "TrendForce: SiC Wafer Capacity and 8-Inch Transition 2026",
+      "note": "Analysis of Chinese SiC capacity ramp and the shift toward 8-inch wafers"
+    },
+    {
+      "url": "https://www.power-sonic.com/400v-vs-800v-charging/",
+      "title": "Power Sonic: 400V vs 800V EV Charging",
+      "note": "Technical primer on 400V versus 800V architecture efficiency differences"
+    },
+    {
+      "url": "https://www.tradinggpt.pro/market/news/57880",
+      "title": "Monolithic Power Systems 800V AI Data Centre Analysis",
+      "note": "MPWR 800V DC solution sampling and data centre revenue segment growth"
+    },
+    {
+      "url": "https://www.insidermonkey.com/blog/monolithic-power-systems-mpwr-emerges-as-high-conviction-ai-data-center-power-play-1676992/",
+      "title": "Insider Monkey: MPWR as AI Data Centre Power Play",
+      "note": "Analysis of MPWR’s data centre segment growth and 800V exposure"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1821769/000162828025027705/ex9912025-05x21prrenvidiac.htm",
+      "title": "Navitas / NVIDIA Partnership SEC Filing Exhibit",
+      "note": "SEC-filed exhibit confirming Navitas–NVIDIA 800V collaboration, May 21 2025"
+    }
+  ],
+  "bookmark_id": "2054382171771605174",
+  "generated_at": "2026-05-14T10:26:56.255079Z",
+  "backend": "claude-sonnet-subagent"
+}

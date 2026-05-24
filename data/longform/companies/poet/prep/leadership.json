@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.poet-technologies.com/team/dr-suresh-venkatesan",
+    "https://www.poet-technologies.com/team/jean-louis-malinge",
+    "https://www.poet-technologies.com/team/theresa-lan-ende",
+    "https://www.poet-technologies.com/news/poet-technologies-announces-appointment-of-sohail-khan-as-director",
+    "https://www.poet-technologies.com/news/poet-technologies-announces-appointment-of-new-director",
+    "https://www.poet-technologies.com/news/poet-technologies-provides-results-of-2025-annual-general-and-special-meeting",
+    "https://www.semiconductor-today.com/news_items/2020/dec/poet-071220.shtml"
+  ],
+  "key_finding": "POET's board is structurally a photonics-and-supply-chain hybrid: a working CEO/Chairman who came from semiconductor process development (Venkatesan ex-GlobalFoundries / Freescale), a lead independent director who already ran the silicon-photonics company Kotura through a successful sale to Mellanox (Malinge), a 32-year semiconductor/optoelectronics operator (Riley), Arista Networks' current Chief Procurement Officer (Lan Ende), a public-company CFO/COO veteran (Tirva), and the most recent addition (July 2025) Sohail Khan who carries the deepest silicon-carbide / Coherent / Agere CEO pattern recognition on the board. Chris Tsiofas retired after 13 years as Audit Committee Chair at the June 2025 AGM — the audit chair seat reconfigured during 2025. The composition is calibrated for a CPO-architecture company that may or may not get qualified at hyperscalers; if it does, the board has the supply-chain (Lan Ende), packaging (Riley), and chip-CEO (Khan, Malinge) pattern-matching to govern through scale.",
+  "ceo_chairman": {
+    "name": "Dr. Suresh Venkatesan",
+    "title": "Chairman and Chief Executive Officer",
+    "joined_company": "2015",
+    "education": [
+      "B.Tech. Electrical Engineering, Indian Institute of Technology",
+      "M.S. Electrical Engineering, Purdue University",
+      "Ph.D. Electrical Engineering, Purdue University"
+    ],
+    "career": [
+      "2015-present: Chairman and CEO, POET Technologies",
+      "2009-2015: SVP Technology Development, GlobalFoundries — led 28nm ramp, instrumental in 14nm transfer and qualification",
+      "Earlier: Multiple leadership positions at Freescale Semiconductor (Austin, Texas); Freescale Fellow (2007) for CMOS technology contributions",
+      "Pre-Freescale: Motorola — inducted into Scientific Advisory Board Associates (SABA, 2004)"
+    ],
+    "ip_accomplishments": "Over 25 US patents; co-author of over 50 technical papers",
+    "framing": "Venkatesan is the rare photonics-platform CEO who came directly from running a leading-edge foundry process technology organisation. The 28nm GlobalFoundries ramp under his leadership is the single most concrete operating credential — that node was a meaningful inflection in the GlobalFoundries-Samsung-TSMC competitive triangle, and he ran it. Bringing that semiconductor process discipline to a wafer-level photonic integration platform is precisely what POET's product strategy requires."
+  },
+  "board_of_directors": [
+    {
+      "name": "Jean-Louis Malinge",
+      "role": "Lead Independent Director",
+      "director_since": "2017-09",
+      "career": [
+        "2004-2013: President and CEO, Kotura (silicon photonics pioneer; sold to Mellanox 2013 for $82M)",
+        "Pre-2004: 15+ years at Corning Incorporated; held various executive positions including Vice President of Optical Networking Components",
+        "Current: Partner at ARCH Venture Partners (~$2B AUM early-stage venture capital firm)",
+        "Current: Managing Director at YADAIS (photonics and telecoms industry consulting)"
+      ],
+      "framing": "Malinge is the most directly relevant operating credential on the board for POET's strategic thesis. Running Kotura — a silicon photonics pioneer with products in three of the top five telecom companies — and selling it to Mellanox is the exact precedent POET is trying to set with its Optical Interposer platform. ARCH Venture Partners affiliation provides ongoing pattern recognition on deep-tech venture economics. The Corning tenure brings 15+ years of optical networking component depth pre-Kotura."
+    },
+    {
+      "name": "Theresa Lan Ende",
+      "role": "Director (advisor since June 2022, formal director from October 2022 AGM)",
+      "director_since": "2022-10",
+      "career": [
+        "Current: Chief Procurement Officer (formerly Chief Procurement Director), Arista Networks",
+        "Previous 10 years at Arista: Senior Director of Global Supply Chain Management",
+        "Earlier: Supply chain and operations roles at JDS Uniphase, Force10 Networks",
+        "20-year span at Cisco Systems and ROLM Telecommunications in program management and planning roles"
+      ],
+      "recognition": "Silicon Valley Business Journal 'Top 100 Women of Influence' (2019)",
+      "framing": "Lan Ende's role as Arista Networks' CPO is the single most consequential customer-side credential on the board. Arista is one of the dominant high-speed Ethernet switch vendors into hyperscaler AI builds; her supply-chain credential maps directly onto the qualification-and-volume challenge POET faces. The JDS Uniphase / Force10 / Cisco / ROLM career is supply-chain-heavy in exactly the optical and switching domains POET targets."
+    },
+    {
+      "name": "Glen Riley",
+      "role": "Director; Chairman of Compensation Committee",
+      "director_since": "2020-12",
+      "career": [
+        "Most recent: General Manager of Filter Solutions Business Unit, Qorvo (highly integrated RF modules for flagship mobile phones)",
+        "Earlier: Managing Director, TriQuint International HQ (Singapore)",
+        "Earlier: General Manager, TriQuint GaAs Foundry Business",
+        "Earlier: General Manager, TriQuint Optoelectronics Business",
+        "Earlier: CEO, Opticalis (optical component start-up)",
+        "Earlier: VP responsible for Agere's high-speed/long-haul optoelectronics business",
+        "Earlier: Asia Sales President, Lucent Technologies Microelectronics Group (Tokyo)"
+      ],
+      "education": [
+        "B.S. (valedictorian), School of Engineering, University of Maine",
+        "General Management Program, Harvard Business School (1998)"
+      ],
+      "framing": "Riley brings 32 years across semiconductors and optoelectronics, with three distinct subsidiary-GM roles at TriQuint plus a Qorvo BU role and an Agere optoelectronics VP role. The GaAs foundry experience is directly relevant to compound-semiconductor process management — adjacent to POET's interposer technology stack."
+    },
+    {
+      "name": "Robert (Bob) Tirva",
+      "role": "Director; Audit Committee member (succeeded Chris Tsiofas at June 2025 AGM)",
+      "director_since": "2024-12",
+      "career": [
+        "Until 2022: President, COO, and CFO of Sonim Technologies Inc. (acquired by AJP Holding Company in 2022)",
+        "Earlier: Various management positions at IBM, Broadcom Corporation, Dropbox, Intermedia Cloud Communications Inc.",
+        "30+ years executive experience in technology industry"
+      ],
+      "other_boards": [
+        "Skyworks Aeronautics (current)",
+        "Costar Technologies (recent)",
+        "Resonant, Inc. (recent)"
+      ],
+      "framing": "Tirva is the public-company CFO/COO veteran on the board. The combined CFO + COO + President role at Sonim through to acquisition is the operating-execution pattern. The IBM / Broadcom / Dropbox career mix brings cross-industry technology-finance perspective. With Tsiofas's retirement, Tirva's Audit Committee role takes on additional weight."
+    },
+    {
+      "name": "Sohail Khan",
+      "role": "Director; Corporate Governance and Nominating Committee member",
+      "director_since": "2025-07-07",
+      "career": [
+        "EVP of Wideband Gap Electronics and President of SiC, LLC at Coherent Corp.",
+        "CEO and Head of Strategy at Agere Systems — extensive M&A experience",
+        "President and CEO of ViXS Systems Inc. (fabless semiconductor company)",
+        "Managing Partner, K5 Innovations LLC",
+        "16 years on the board of LightPath Technologies",
+        "Board member, Intersil Corporation"
+      ],
+      "framing": "Khan is the most senior chip-CEO addition to the POET board. The Coherent silicon-carbide EVP role is the most adjacent operating credential — Coherent (formerly II-VI) is one of the dominant compound-semiconductor materials companies, and SiC is structurally similar to the III-V materials POET works with. The Agere CEO and ViXS CEO roles provide M&A pattern recognition at multiple scale points. LightPath Technologies (optical components) 16-year board tenure brings deep optical-component industry depth."
+    }
+  ],
+  "departures_at_june_2025_agm": [
+    {
+      "name": "Chris Tsiofas",
+      "role": "Departed Audit Committee Chair after 13 years on the board",
+      "framing": "Tsiofas's 13-year tenure spans most of POET's modern history including the pivot from a development-stage compound semiconductor company to the Optical Interposer platform thesis. Departure clears the Audit Committee Chair seat — Bob Tirva (joined December 2024) is the natural successor with the requisite public-company-CFO credentials."
+    }
+  ],
+  "board_composition_observation": "POET's six-director board (post-Tsiofas departure, including new arrival Khan) is unusually well-credentialed for a pre-commercial-revenue company at $313M cash. The composition reads: working photonics CEO (Venkatesan) + ex-silicon-photonics-CEO (Malinge) + ex-compound-semiconductor-EVP (Khan, Coherent SiC) + 32-year optoelectronics operator (Riley) + working hyperscaler-customer CPO (Lan Ende, Arista) + public-company CFO/COO (Tirva). Compare this with a Sivers-style US-listing-prep board (heavy on financial-engineering and IPO advisors) — POET's composition is calibrated for operational governance of a still-pre-revenue platform company, with the expectation that the next 18-24 months will determine whether the Optical Interposer becomes a qualified component in hyperscaler CPO supply chains. There is no separate CFO on POET's public team page, which is structurally noteworthy for a $313M-cash company — the CFO function is presumably handled through corporate-level finance functions and the Audit Committee."
+}

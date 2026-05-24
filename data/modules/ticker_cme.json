@@ -1,0 +1,24 @@
+{
+  "key": "CME",
+  "name": "CME Group Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "CME Group Inc. operates contract markets for trading futures and options on futures contracts worldwide. It offers products based on interest rates, equity indexes, foreign exchange, and commodities such as agricultural, energy, and metals. The company also provides clearing house services, including clearing, settling, and guaranteeing futures and options contracts. As one of the largest derivatives exchanges globally, CME Group holds a dominant market position in financial and commodity derivatives.",
+  "recent": "In the past 30 days, CME Group reported strong earnings with net income up 17.7% year-over-year. The stock has traded in a range of $285 to $288, with a market cap of approximately $104 billion. Analysts maintain a Buy rating with a price target of $307.42.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/CME/",
+      "title": "CME Group Inc. (CME) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CME/",
+      "title": "CME Group (CME) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/cme/",
+      "title": "CME Group (CME) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:13:40.113324Z",
+  "backend": "deepseek"
+}

@@ -1,0 +1,17 @@
+{
+  "key": "POET",
+  "name": "POET Technologies Inc.",
+  "exchange": "Nasdaq",
+  "blurb": "POET Technologies develops optical engines — compact co-packaged modules that integrate lasers and photonic integrated circuits — targeting 400G, 800G, and 1.6T AI data-centre interconnect applications. Its POET Infinity platform is designed to allow customers to assemble high-density optical transceiver modules without owning their own photonics fabrication. The company raised approximately $375M in equity in Q4 2025 and carries roughly $430M in cash.",
+  "recent": "POET experienced one of the more dramatic volatility events in the photonics sector during April 2026. Shares rallied roughly 108% on reports its technology was being integrated into Marvell Technology's AI hardware stack via Celestial AI (which Marvell had acquired). On April 27, 2026, POET disclosed it had received notice of order cancellation from Marvell on April 23, with Marvell citing a confidentiality violation; shares fell approximately 50% in a single week. POET countered with a separate $5M production order for Infinity engines targeting 30,000+ units in 2026, and maintained partnerships with LITEON and Lessengers for 1.6T modules. The episode became a widely-cited example of single-customer concentration risk in small-cap photonics. @Ren_aramb's post singles out POET as the notable exception in an otherwise rising sector.",
+  "sources": [
+    {"url": "https://www.fool.com/investing/2026/04/27/poet-technologies-stock-crashed-after-marvell-canc/", "title": "POET stock crashed after Marvell cancelled orders — Motley Fool"},
+    {"url": "https://www.benzinga.com/trading-ideas/movers/26/04/52130546/poet-technologies-stock-wipeout-why-shares-crashed-50-this-week-following-marvell-order-exit", "title": "POET Technologies stock wipeout — Benzinga"},
+    {"url": "https://www.stocktitan.net/news/POET/poet-ships-advanced-optical-engine-samples-to-three-global-qvstdy57ytii.html", "title": "POET ships optical engine samples to tech giants — StockTitan"},
+    {"url": "https://seekingalpha.com/article/4892936-poet-recent-production-orders-deepening-partnerships-strong-buy", "title": "POET: Recent production orders and deepening partnerships — Seeking Alpha"},
+    {"url": "https://finance.yahoo.com/quote/POET/", "title": "POET Technologies (POET) — Yahoo Finance"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

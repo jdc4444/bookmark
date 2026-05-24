@@ -1,0 +1,58 @@
+{
+  "headline": "WhatsApp Quietly Becomes the Backbone of Food-Policy Networks",
+  "lede": "A two-word pun — \"what app\" — serves as the entire caption for a set of WhatsApp communities run by Oliver Camp, an environment and food-systems adviser at the Global Alliance for Improved Nutrition. The joke works because the medium is, largely, the point.",
+  "body": "Camp works in the Policy Engagement and Advocacy Support team at **GAIN** (*Global Alliance for Improved Nutrition*), a Geneva-based international organization that partners with governments, businesses, and civil society to make food systems produce healthier diets. His Linktree lists two free-to-join communities: \"Transforming Food Systems\" and \"Food Systems under the *UNFCCC*\" — the latter connecting practitioners focused on the intersection of agriculture and the United Nations Framework Convention on Climate Change, the treaty that anchors all formal international climate negotiations.\n\nThe choice of WhatsApp as an organising layer is not incidental. In development and policy circles that span low- and middle-income countries, WhatsApp long ago displaced email threads and listservs as the default coordination tool. Near-universal penetration across the Global South, modest data demands, and end-to-end encryption make it practical in ways that Slack or Discord simply are not for globally distributed advocacy networks that include participants in Lagos, Nairobi, or Dhaka.\n\nFood systems occupy an awkward position in climate politics. Agriculture and land-use change together account for roughly a quarter of global greenhouse-gas emissions, yet the sector has historically sat at the margins of UNFCCC negotiations. Informal communities like Camp's perform a real connective function — stitching together practitioners scattered across UN agencies, national ministries, NGOs, and research institutes who would otherwise miss each other between formal COPs.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Global Alliance for Improved Nutrition",
+      "ticker": null
+    },
+    {
+      "name": "WhatsApp",
+      "ticker": null
+    }
+  ],
+  "poster": "olivercamp_",
+  "concepts": [
+    {
+      "key": "unfccc",
+      "term": "UNFCCC",
+      "definition": "The United Nations Framework Convention on Climate Change, a 1992 international treaty that underpins global climate diplomacy. Its annual Conference of the Parties (COP) is where countries negotiate emissions targets, climate finance, and related frameworks."
+    },
+    {
+      "key": "food-systems",
+      "term": "food systems",
+      "definition": "The full chain of activities involved in producing, processing, distributing, and consuming food, together with the social, economic, and environmental structures that shape them. The term emphasizes systemic interdependencies rather than treating farming, logistics, and diet as separate problems."
+    },
+    {
+      "key": "cop",
+      "term": "COP",
+      "definition": "Conference of the Parties — the annual supreme decision-making body of the UNFCCC, where signatory nations meet to negotiate and review progress on climate commitments. Recent COPs have begun to give food systems more formal agenda space."
+    },
+    {
+      "key": "peas",
+      "term": "PEAS",
+      "definition": "Policy Engagement and Advocacy Support — the team within GAIN responsible for translating nutrition and food-systems evidence into concrete policy influence, engaging governments and multilateral bodies directly."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://linktr.ee/olivercamp",
+      "title": "Oliver William Camp — Linktree",
+      "note": "Primary source for Camp's role at GAIN and his WhatsApp community links"
+    },
+    {
+      "url": "https://web.whatsapp.com/",
+      "title": "WhatsApp Web",
+      "note": "Confirms the platform referenced in the pun and the end-to-end encryption framing"
+    }
+  ],
+  "bookmark_id": "2040688482108969454",
+  "generated_at": "2026-05-07T03:52:32.065216Z",
+  "backend": "claude"
+}

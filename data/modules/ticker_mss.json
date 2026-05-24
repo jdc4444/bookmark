@@ -1,0 +1,15 @@
+{
+  "key": "MSS",
+  "name": "Msscorps Co., Ltd.",
+  "exchange": "Taiwan Stock Exchange (6830.TW)",
+  "blurb": "Msscorps (TWSE: 6830), incorporated in 2005 and headquartered in Hsinchu, Taiwan, provides semiconductor failure-analysis and materials-characterization services — including 3D laser confocal profiling, transmission electron microscopy, and focused-ion-beam cross-sectioning — to clients across the semiconductor, optoelectronics, and networking supply chains. Its position as a services node in the Hsinchu ecosystem places it adjacent to the optical transceiver supply chain rather than directly inside it. Coverage outside Taiwanese financial media is thin.",
+  "recent": "Msscorps trades on the Taiwan Stock Exchange under ticker 6830 and is a small-cap name not widely followed by sell-side analysts outside Taiwan. Investor interest has risen alongside broader attention to the Taiwanese photonics ecosystem, though the company's revenues remain tied to lab services rather than volume component shipments. Specific financial guidance and recent earnings details are not readily available in English-language sources as of May 2026.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/6830.TW/", "title": "Msscorps Co., Ltd. (6830.TW) – Yahoo Finance"},
+    {"url": "https://stockanalysis.com/quote/tpe/6830/", "title": "Msscorps (TPE:6830) – StockAnalysis"},
+    {"url": "https://www.marketscreener.com/quote/stock/MSSCORPS-CO-LTD-120781155/", "title": "Msscorps Co., Ltd. – MarketScreener"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T08:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

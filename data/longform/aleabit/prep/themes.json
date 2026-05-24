@@ -1,0 +1,2146 @@
+{
+  "windows": {
+    "ytd_start": "2026-01-01",
+    "last_4w_start": "2026-04-08",
+    "snapshot_date": "2026-05-08"
+  },
+  "chapters": {
+    "photonics": {
+      "title": "Photonics supercycle",
+      "tickers": [
+        "SIVE",
+        "SOI",
+        "IQE",
+        "AXTI",
+        "TSEM",
+        "AAOI",
+        "LITE",
+        "COHR",
+        "FN",
+        "POET",
+        "ALAB",
+        "CRDO"
+      ],
+      "n_calls_total": 210,
+      "n_calls_ytd": 197,
+      "n_calls_last_4w": 60,
+      "monthly_mention_counts": {
+        "2025-07": 4,
+        "2025-09": 1,
+        "2025-10": 6,
+        "2025-12": 2,
+        "2026-01": 6,
+        "2026-02": 17,
+        "2026-03": 102,
+        "2026-04": 62,
+        "2026-05": 10
+      },
+      "ytd_focus_tickers": [
+        "SIVE",
+        "SOI",
+        "IQE",
+        "AXTI",
+        "TSEM",
+        "AAOI",
+        "LITE",
+        "COHR",
+        "POET",
+        "ALAB",
+        "CRDO"
+      ],
+      "last_4w_focus_tickers": [
+        "2041725026630820186",
+        "2041740090691698750",
+        "2041881445397098659",
+        "2041922561257468329",
+        "2041963517071519963",
+        "2042400195607216431",
+        "2042507141618004372",
+        "2042634402480689355",
+        "2043602257292534014",
+        "2044166920946233543",
+        "2044491122161160517",
+        "2044558416274964855",
+        "2044597208860016877",
+        "2044684536311918647",
+        "2044686996883562965",
+        "2044689000477372677",
+        "2044799630106570808",
+        "2044799925800911064",
+        "2045169238202372496",
+        "2045570180437459268",
+        "2045935509797843372",
+        "2045965735386820934",
+        "2046003874553901188",
+        "2046006396559450580",
+        "2046043070538633618",
+        "2046918449168085183",
+        "2047222249607111062",
+        "2047230186739900428",
+        "2047232354184536273",
+        "2047382329866485981",
+        "2047383202453717415",
+        "2047705901486985666",
+        "2047707424703049809",
+        "2048090023925555240",
+        "2048301213943579012",
+        "2048305656202215684",
+        "2048801270337831047",
+        "2048819178443083852",
+        "2049032343974007088",
+        "2049523399911952597",
+        "2049576551944204385",
+        "2050477239234646381",
+        "2050762148545216899",
+        "2050835734626730011",
+        "2051029592241279153",
+        "2051033642416361642",
+        "2051198288997789765"
+      ],
+      "per_ticker_representatives": {
+        "SIVE": [
+          {
+            "tweet_id": "2033535833085718996",
+            "date": "2026-03-16",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "$SIVE is now up 50%+, to a $190 million USD MC (~1.8B SEK -> USD).\n\nHowever, I genuinely believe this could be the next \n$LITE\n for silicon photonics/CPO. \n\nAnd I’m holding shares, as my personal bull case scenario is $10 billion+.\n\nAs Sivers sits in the silicon photonics CW DFB",
+            "url": "https://x.com/aleabitoreddit/status/2033535833085718996"
+          },
+          {
+            "tweet_id": "2050835734626730011",
+            "date": "2026-05-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "$SIVE likely locked up allocation agreements with Win Semi to scale. And works with \n$GFS\n. \n\nWhich is why I'm long on them both, easy to scale as fabless, kinda like \n$NVDA\n + \n$TSM\n.",
+            "url": "https://x.com/aleabitoreddit/status/2050835734626730011"
+          },
+          {
+            "tweet_id": "2051198288997789765",
+            "date": "2026-05-04",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "GS has mapped out the CPO supercycle with unholy projections of 9x TAM projections.\n\nFrom $15B to $154B in a short timeframe. CPO contributing $91B.\n\nThis is why I’m so bullish on $SIVE as one of bleeding edge CPO laser suppliers. \n\nReminds me of the horse Golden Tempo.\n\nBut for",
+            "url": "https://x.com/aleabitoreddit/status/2051198288997789765"
+          }
+        ],
+        "SOI": [
+          {
+            "tweet_id": "2031751619117744443",
+            "date": "2026-03-11",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Turns out markets like hidden photonics monopolies?\n\nSoitec is up 16% intraday. \n\nIf you look at the CPO photonics architectural ramp led by \n$NVDA\n:\n\nIt’s parabolic. \n\n$SOI is likely a name that people can hold for many years as the substrate monopoly for CPO.\n\nAnd best of yet,",
+            "url": "https://x.com/aleabitoreddit/status/2031751619117744443"
+          },
+          {
+            "tweet_id": "2031896692283621696",
+            "date": "2026-03-12",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Thank you MarketScreener for actual coverage of $SOI this time.\n\nThe article writes:\n\n“In the post dedicated to Soitec, the author puts forward several arguments. \n\nHe believes that the group could benefit from the development of CPO (co-packaged optics), a photonic architecture",
+            "url": "https://x.com/aleabitoreddit/status/2031896692283621696"
+          },
+          {
+            "tweet_id": "2045169238202372496",
+            "date": "2026-04-17",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Investing is not a team game.\n\nAlso I still think names like $SOI double again in the next year.\n\nThis is all institutional buying, I’m just teaching retail how to frontrun them.\n\nJust let the hedge funds do their work and enjoy the ride",
+            "url": "https://x.com/aleabitoreddit/status/2045169238202372496"
+          },
+          {
+            "tweet_id": "2047705901486985666",
+            "date": "2026-04-24",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Photonics go brrr.\n\n\n$MXL\n +76.2% (lol)\n\n$AAOI\n +15.03%\n$SIVE +12.69%\n\n$AEHR\n +7.07%\n$SOI +6.19%\n\n$LITE\n +4.96%\n\nHope you didn’t sell and try and chase other bottlenecks anon?",
+            "url": "https://x.com/aleabitoreddit/status/2047705901486985666"
+          },
+          {
+            "tweet_id": "2049523399911952597",
+            "date": "2026-04-29",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "I’m personally a fan of the functional monopolies.\n\nHere’s 6 of them that I own.\n\n1. $TOWA (6315) - HBM4 Compression\n2. MSSCorp (6830) - CPO Inspection\n3. $LPK - Glass Core Substrates\n4. $SOI - Silicon Photonics Substrates\n5. \n$AXTI\n - End-to-End (mineral, refinery, production) InP",
+            "url": "https://x.com/aleabitoreddit/status/2049523399911952597"
+          }
+        ],
+        "IQE": [
+          {
+            "tweet_id": "2036743111364456739",
+            "date": "2026-03-25",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "add",
+            "text": "I'd personally buy $SIVE and \n$AAOI\n at today's prices if I had anything available. Then maybe those two PCB bottleneck names I've mentioned earlier. \n\nDCA on other names like $IQE, \n$TSEM\n, $SOI, maybe \n$ARM\n if it drops again. \n\nFeels like those have more upside than just going long",
+            "url": "https://x.com/aleabitoreddit/status/2036743111364456739"
+          },
+          {
+            "tweet_id": "2037033147268030753",
+            "date": "2026-03-26",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Yeah $SIVE and $IQE are both possible 10x’s for me personally.\n\nExcited to see where they head",
+            "url": "https://x.com/aleabitoreddit/status/2037033147268030753"
+          },
+          {
+            "tweet_id": "2044491122161160517",
+            "date": "2026-04-15",
+            "row_type": "thesis_or_opinion",
+            "is_trade_call": false,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "No. This type of BS mindset needs to stop. \n\nWhat I do is point them out to retail first before the 100-500%+ returns. \n\nUS institutions like Point72 or Apollo would have bought them out eventually. \n\n1. $IQE went up because they're sitting on the most latent merchant capacity in",
+            "url": "https://x.com/aleabitoreddit/status/2044491122161160517"
+          },
+          {
+            "tweet_id": "2047707424703049809",
+            "date": "2026-04-24",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "No? I’m still holding $IQE just down a lot to a small 246% gain",
+            "url": "https://x.com/aleabitoreddit/status/2047707424703049809"
+          }
+        ],
+        "AXTI": [
+          {
+            "tweet_id": "2009555729645211855",
+            "date": "2026-01-09",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "Thanks! \n$OSS\n and \n$AXTI\n are smaller parts of my portfolio. I should have taken larger position sizes though in hindsight.\n\nMost of my gains came from portfolio margin into stocks that dropped 50-70% from last year into Jan effect like \n$GLXY\n, then just 10%+ trading drops like \n$SOFI",
+            "url": "https://x.com/aleabitoreddit/status/2009555729645211855"
+          },
+          {
+            "tweet_id": "2012225583741063567",
+            "date": "2026-01-16",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Yes? \n$AIRO\n for drones, \n$OSS\n for edge, \n$SSYS\n for robotics, \n$AXTI\n for AI bottlenecks, \n$LPTH\n for defense bottlenecks and \n$VLN\n for mispricing were the most recent posts. \n\nI’m holding my share positions for a year since re-rating doesn’t happen in a day or week. Might take months to",
+            "url": "https://x.com/aleabitoreddit/status/2012225583741063567"
+          },
+          {
+            "tweet_id": "2017269310042124617",
+            "date": "2026-01-30",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "add",
+            "text": "$AXTI\n I’m actually extremely bullish on out of the group of stocks I’ve posted and im a net buyer at these levels. \n\nI’ll make a follow-up post but I just see 7n indium prices increase every day. And the photonics ramp are incredible if you look at 2027-2027.\n\nI did take cut on",
+            "url": "https://x.com/aleabitoreddit/status/2017269310042124617"
+          },
+          {
+            "tweet_id": "2048819178443083852",
+            "date": "2026-04-27",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "They're all different parts of the supply chains. \n$AXTI\n makes the materials needed for anything to do with photonics. I still have my AXT positions. \n\nPackaging layer players might be impacted given nuances of hyperscaler vertical integration.\n\nBut selling off any laser or",
+            "url": "https://x.com/aleabitoreddit/status/2048819178443083852"
+          },
+          {
+            "tweet_id": "2049523399911952597",
+            "date": "2026-04-29",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "I’m personally a fan of the functional monopolies.\n\nHere’s 6 of them that I own.\n\n1. $TOWA (6315) - HBM4 Compression\n2. MSSCorp (6830) - CPO Inspection\n3. $LPK - Glass Core Substrates\n4. $SOI - Silicon Photonics Substrates\n5. \n$AXTI\n - End-to-End (mineral, refinery, production) InP",
+            "url": "https://x.com/aleabitoreddit/status/2049523399911952597"
+          },
+          {
+            "tweet_id": "2050477239234646381",
+            "date": "2026-05-02",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "To answer that question I’m still holding positions like \n$AXTI\n even after 1378% unrealized gains later.",
+            "url": "https://x.com/aleabitoreddit/status/2050477239234646381"
+          }
+        ],
+        "TSEM": [
+          {
+            "tweet_id": "2029966060380901548",
+            "date": "2026-03-06",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Ended up doing dip buying today mainly around these three:\n\nETH - $1950 (cost averaging)\n\n$TSEM\n on the 5% drop\n\n$AEHR\n on the 5% drop back to $38\n\nTower semi is a new position, wanted an entry earlier but never got one until 21% drop.",
+            "url": "https://x.com/aleabitoreddit/status/2029966060380901548"
+          },
+          {
+            "tweet_id": "2031820871170736570",
+            "date": "2026-03-11",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I'm long \n$TSEM\n, the \n$TSM\n of photonics. \n\nMy top two picks for CPO are $SOI and Tower Semi. \n\nGiven the \n$NVDA\n GTC catalyst on new photonic related architecture next week:\n\nI expect Tower Semi to get a huge catalyst. \n\nNvidia laready directly collaborated with Tower to scale 1.6T",
+            "url": "https://x.com/aleabitoreddit/status/2031820871170736570"
+          },
+          {
+            "tweet_id": "2045570180437459268",
+            "date": "2026-04-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "$TSEM\n is a bit more priced in right now after doubling in a month. I'd personally hold it, but if you're entering new positions:\n\nI covered a lot of optical names recently like enplas/pcl/fittech if you scroll back a little.",
+            "url": "https://x.com/aleabitoreddit/status/2045570180437459268"
+          },
+          {
+            "tweet_id": "2050762148545216899",
+            "date": "2026-05-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Just in case you’re wondering why I’m so bullish on CPO.\n\nLike $SIVE (Lasers), Shunsin (Packaging), MSSCorps (Yields), Win Semi / \n$TSEM\n (Foundry).\n\n“The CPO market is projected to grow sharply by a 142% CAGR from 2026 to 2030 (excl. ELS)”\n\n“The scale-up CPO segment is projected",
+            "url": "https://x.com/aleabitoreddit/status/2050762148545216899"
+          }
+        ],
+        "AAOI": [
+          {
+            "tweet_id": "2028906136087478295",
+            "date": "2026-03-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Lazy day today. Just ended up buying \n$INTC\n on the 5% drop, and \n$SE\n on the 18% drop just thought ER was overreaction.\n\nThen sold a bunch of CSPs on \n$AAOI\n, \n$AXTI\n, \n$NBIS\n, and a few others. And bought SK Hynix on drop to 510 euros. (Hy9h).",
+            "url": "https://x.com/aleabitoreddit/status/2028906136087478295"
+          },
+          {
+            "tweet_id": "2029219794025644382",
+            "date": "2026-03-04",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "High conviction long: \n$AAOI\n.   \n\nI genuinely think this could easily be a 3x by next year.  \n\nNvidia funded \n$COHR\n, who does Malaysia manufacturing for 800G/1.6T.  \n\n\n$LITE\n uses FN in Thailand for volume production, and has it's own manufacturing in Thailand. \n\nI will keep",
+            "url": "https://x.com/aleabitoreddit/status/2029219794025644382"
+          },
+          {
+            "tweet_id": "2034107901330219089",
+            "date": "2026-03-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "I bought $AAOI $28-32. And I’m a heavier buyer at $88-$90.\n\nI don’t see how this company should be worth anywhere close to $6.4B if they get even close to these capacity targets.",
+            "url": "https://x.com/aleabitoreddit/status/2034107901330219089"
+          },
+          {
+            "tweet_id": "2047705901486985666",
+            "date": "2026-04-24",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Photonics go brrr.\n\n\n$MXL\n +76.2% (lol)\n\n$AAOI\n +15.03%\n$SIVE +12.69%\n\n$AEHR\n +7.07%\n$SOI +6.19%\n\n$LITE\n +4.96%\n\nHope you didn’t sell and try and chase other bottlenecks anon?",
+            "url": "https://x.com/aleabitoreddit/status/2047705901486985666"
+          },
+          {
+            "tweet_id": "2049576551944204385",
+            "date": "2026-04-29",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "Happy to see my followers are escaping the permanent underclass with names like $SIVE, \n$AAOI\n, or others.\n\nStocks really are positive sum.\n\nEveryone benefits if information synthesis / discovery is correct and helps people from their own conviction.\n\nI appreciate the $1 the most!",
+            "url": "https://x.com/aleabitoreddit/status/2049576551944204385"
+          },
+          {
+            "tweet_id": "2051029592241279153",
+            "date": "2026-05-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Maybe here's what I'd do personally:\n\n\"High Upside Rockets\":\n1. $SIVE \n2. MSSCorp \n3. PCL \n4. \n$AAOI\n\n\nCompounders:\n1. Shunsin \n2. Sumitomo\n3. Furukawa\n4. \n$COHR\n\n5. \n$LITE",
+            "url": "https://x.com/aleabitoreddit/status/2051029592241279153"
+          }
+        ],
+        "LITE": [
+          {
+            "tweet_id": "1999327731478331891",
+            "date": "2025-12-12",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Core portfolio is high conviction longs: \n$BTC\n, \n$RKLB\n, \n$HOOD\n, \n$NBIS\n, \n$ALAB\n, \n$TSM\n\n\nProbably moving \n$LITE\n and \n$CRCL\n to the core long port above, but they’re newer positions that I’m building up.\n\nThen short-mid term mix like \n$SNAP\n, \n$CIFR\n, \n$RDDT\n, \n$SMCI\n, \n$HIMS\n, \n$TE\n, \n$LTC\n, \n$KRUS\n, AMKR,",
+            "url": "https://x.com/aleabitoreddit/status/1999327731478331891"
+          },
+          {
+            "tweet_id": "2036657811179155561",
+            "date": "2026-03-25",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Every industry leader... \n\nEspecially \n$AVGO\n (Physical Layer Products division) in this statement today. \n\nCites Lasers as a bottleneck for semiconductors.\n\nIf you aren't long...\n-> CW Lasers: $SIVE | \n$MTSI\n\n-> EML Lasers: \n$COHR\n | \n$LITE\n \n-> or their foundries in \n$TSEM\n/Win Semi",
+            "url": "https://x.com/aleabitoreddit/status/2036657811179155561"
+          },
+          {
+            "tweet_id": "2037915721435587028",
+            "date": "2026-03-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Faster compounds:\n\n\n$AAOI\n - 10x revenue ramp from optical transcivers h2 2027\n\n$NBIS\n - 10x revenue ramp Q4 2026\n\n$ARM\n - 5x revenue growth from their new AI CPU\n\n$MRVL\n - 2-3x revenue growth from \n$MSFT\n Maia Ramp. \n\n$AVGO\n - Long hyperscaler ASIC\n\n$LITE\n - Long OCS / Google TPU\nWin Semi -",
+            "url": "https://x.com/aleabitoreddit/status/2037915721435587028"
+          },
+          {
+            "tweet_id": "2045935509797843372",
+            "date": "2026-04-19",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Thanks, I did say $SIVE looked like the next \n$LITE\n!\n\nI went long on Lumentum last year because of the Google TPU and markets tend to like Google's ecosystem a bit more than \n$AMZN\n or \n$MSFT\n. \n\nOf course, a lot can happen in the next 2 years so this is speculative but likely supply",
+            "url": "https://x.com/aleabitoreddit/status/2045935509797843372"
+          },
+          {
+            "tweet_id": "2047705901486985666",
+            "date": "2026-04-24",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Photonics go brrr.\n\n\n$MXL\n +76.2% (lol)\n\n$AAOI\n +15.03%\n$SIVE +12.69%\n\n$AEHR\n +7.07%\n$SOI +6.19%\n\n$LITE\n +4.96%\n\nHope you didn’t sell and try and chase other bottlenecks anon?",
+            "url": "https://x.com/aleabitoreddit/status/2047705901486985666"
+          },
+          {
+            "tweet_id": "2051029592241279153",
+            "date": "2026-05-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Maybe here's what I'd do personally:\n\n\"High Upside Rockets\":\n1. $SIVE \n2. MSSCorp \n3. PCL \n4. \n$AAOI\n\n\nCompounders:\n1. Shunsin \n2. Sumitomo\n3. Furukawa\n4. \n$COHR\n\n5. \n$LITE",
+            "url": "https://x.com/aleabitoreddit/status/2051029592241279153"
+          }
+        ],
+        "COHR": [
+          {
+            "tweet_id": "2032577275439485080",
+            "date": "2026-03-13",
+            "row_type": "retrospective",
+            "is_trade_call": false,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I've been the first few to cover many supply chain photonic names.\n\nMost are up 100-400%+ since I've posted.\n\nHere's the TLDR overview of my thesis posts:\n\n“Safest” Longs as of Today:\n\n- \n$TSEM\n (Tower Semi)\n- $SOI (Soitec)\n- \n$COHR\n - Defensible compounders over time. \n\nSoitec -",
+            "url": "https://x.com/aleabitoreddit/status/2032577275439485080"
+          },
+          {
+            "tweet_id": "2033889361801175094",
+            "date": "2026-03-17",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I tend to like semi-monopolies... So $AXTI and $SOI on substrate level are probably kinda my favorites? \n\n$TSEM and $COHR were my two steady compounders. \n\nAs for highest upside, I do think $SIVE takes the crown as the next potential $LITE. Maybe $AAOI second place.  And $AXTI",
+            "url": "https://x.com/aleabitoreddit/status/2033889361801175094"
+          },
+          {
+            "tweet_id": "2041922561257468329",
+            "date": "2026-04-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "add",
+            "text": "Maybe \n$JBL\n is interesting here too. Ended up buying Jabil and more \n$COHR\n today",
+            "url": "https://x.com/aleabitoreddit/status/2041922561257468329"
+          },
+          {
+            "tweet_id": "2051029592241279153",
+            "date": "2026-05-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Maybe here's what I'd do personally:\n\n\"High Upside Rockets\":\n1. $SIVE \n2. MSSCorp \n3. PCL \n4. \n$AAOI\n\n\nCompounders:\n1. Shunsin \n2. Sumitomo\n3. Furukawa\n4. \n$COHR\n\n5. \n$LITE",
+            "url": "https://x.com/aleabitoreddit/status/2051029592241279153"
+          }
+        ],
+        "POET": [
+          {
+            "tweet_id": "2024138512254009533",
+            "date": "2026-02-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "add",
+            "text": "also cost averaging in case it drops back down to $10. previously hype names like \n$POET\n that are now depressed present better risk-opportunities imo. This is just my first entr.y",
+            "url": "https://x.com/aleabitoreddit/status/2024138512254009533"
+          },
+          {
+            "tweet_id": "2046918449168085183",
+            "date": "2026-04-22",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Oh wow, I missed this.\n\nThat's probably why \n$POET\n is up 20.2% pre-market confirming \"far in excess\" of purchase orders on top of \n$MRVL\n supplier relationships. \n\nThat translates materially to $SIVE laser production as well.\n\nMarkets haven't fully priced in either yet imo.",
+            "url": "https://x.com/aleabitoreddit/status/2046918449168085183"
+          }
+        ],
+        "ALAB": [
+          {
+            "tweet_id": "1947292748563796124",
+            "date": "2025-07-21",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Well, \n$ALAB\n just shot up 16%.\n\nI actually wouldn't swing trade or take profit on this this since I think it's another NVIDIA 500%+ type stock. \n\nYou don't really see small cap companies growing 150+ Y/Y with 76% profit margins serving Mag7 companies every day.",
+            "url": "https://x.com/aleabitoreddit/status/1947292748563796124"
+          }
+        ],
+        "CRDO": [
+          {
+            "tweet_id": "1947298901108957475",
+            "date": "2025-07-21",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Just bought $100K worth of \n$CRDO\n as it's a similar company to \n$ALAB\n and also growing at insane rates. \n\nSimilar market segments and it dropped 8% last week. Usually things rise together (eg. \n$CRWV\n + \n$NBIS\n).\n\nI'd hold anyway as it's a solid hyper growth company.",
+            "url": "https://x.com/aleabitoreddit/status/1947298901108957475"
+          },
+          {
+            "tweet_id": "1978365814941384882",
+            "date": "2025-10-15",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "The Great Soybean/Seed Oil Crash, personal thoughts and explanations:\n\nStrong Buy\n\n$ALAB\n\n\n$CRDO\n\n\n$NBIS\n\n\n$WLAC\n\n\n$LTC\n\n\n$TSM\n\n\n$BTC\n\n(+ same as tax harvest stocks last time)\n\n$AMZN\n\n\n$SMCI\n\n_\n\nBuy\n\n$AMD\n\n\n$FLNC\n\n\n$SEI\n\n\n$BZAI\n\n\n$NKLR\n\n\n$IREN\n\n\n$WULF\n\n\n$CIFR\n\n\n$CRWV\n\n$BITF\n\n$WYFI\n\n\n$SLNH\n\n$BITF\n\n$RBRK\n\n\n$GLXY\n\n\n$GRAB\n\n\n$SEA",
+            "url": "https://x.com/aleabitoreddit/status/1978365814941384882"
+          }
+        ]
+      },
+      "dossier_summary": [
+        {
+          "ticker": "SIVE",
+          "tier": "S",
+          "score": 43,
+          "mentions": 117,
+          "first_mention": "2026-03-18",
+          "alpha": 2.4175
+        },
+        {
+          "ticker": "SOI",
+          "tier": "S",
+          "score": 10,
+          "mentions": 23,
+          "first_mention": "2026-03-26",
+          "alpha": 1.0082
+        },
+        {
+          "ticker": "IQE",
+          "tier": "S",
+          "score": 11,
+          "mentions": 21,
+          "first_mention": "2026-03-18",
+          "alpha": 1.628
+        },
+        {
+          "ticker": "AXTI",
+          "tier": "S",
+          "score": 24,
+          "mentions": 68,
+          "first_mention": "2026-03-04",
+          "alpha": 0.9631
+        },
+        {
+          "ticker": "TSEM",
+          "tier": "A",
+          "score": 8,
+          "mentions": 19,
+          "first_mention": "2026-03-19",
+          "alpha": 0.249
+        },
+        {
+          "ticker": "AAOI",
+          "tier": "A",
+          "score": 9,
+          "mentions": 66,
+          "first_mention": "2026-03-04",
+          "alpha": 0.5445
+        },
+        {
+          "ticker": "LITE",
+          "tier": "A",
+          "score": 13,
+          "mentions": 69,
+          "first_mention": "2026-03-04",
+          "alpha": 0.2981
+        },
+        {
+          "ticker": "COHR",
+          "tier": "BEAR",
+          "score": 0,
+          "mentions": 19,
+          "first_mention": "2026-03-04",
+          "alpha": 0.3086
+        },
+        {
+          "ticker": "FN",
+          "tier": "C",
+          "score": 0,
+          "mentions": 3,
+          "first_mention": "2026-04-17",
+          "alpha": 0.0011
+        },
+        {
+          "ticker": "POET",
+          "tier": "A",
+          "score": 8,
+          "mentions": 19,
+          "first_mention": "2026-03-04",
+          "alpha": 0.5578
+        },
+        {
+          "ticker": "ALAB",
+          "tier": "C",
+          "score": 0,
+          "mentions": 1,
+          "first_mention": "2025-07-28",
+          "alpha": 0.5374
+        }
+      ]
+    },
+    "hbm_packaging": {
+      "title": "HBM & advanced packaging",
+      "tickers": [
+        "AEHR",
+        "SNDK",
+        "MU",
+        "KLAC",
+        "ONTO",
+        "TOWA",
+        "MSSCorp",
+        "AMAT",
+        "LRCX",
+        "TSEM"
+      ],
+      "n_calls_total": 55,
+      "n_calls_ytd": 54,
+      "n_calls_last_4w": 8,
+      "monthly_mention_counts": {
+        "2025-10": 1,
+        "2026-01": 6,
+        "2026-02": 13,
+        "2026-03": 20,
+        "2026-04": 14,
+        "2026-05": 1
+      },
+      "ytd_focus_tickers": [
+        "AEHR",
+        "SNDK",
+        "MU",
+        "TOWA",
+        "TSEM"
+      ],
+      "last_4w_focus_tickers": [
+        "2041874183668502748",
+        "2042400195607216431",
+        "2045570180437459268",
+        "2045965735386820934",
+        "2047705901486985666",
+        "2048687868919611836",
+        "2049523399911952597",
+        "2050762148545216899"
+      ],
+      "per_ticker_representatives": {
+        "AEHR": [
+          {
+            "tweet_id": "2018576691296457118",
+            "date": "2026-02-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "I'm actually long \n$AEHR\n right now in the event any of the big three memory companies use them for HBM DRAM die burn in or hyperscalers expands Sonoma usage. Then there's silicon photonics, which is another area of interest.\n\nSo it's more of a speculative moonshot pick to see if",
+            "url": "https://x.com/aleabitoreddit/status/2018576691296457118"
+          },
+          {
+            "tweet_id": "2034800163890634891",
+            "date": "2026-03-20",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "$AEHR is one of my favorite longs. Unfortunately the question asked me to pick 5 only",
+            "url": "https://x.com/aleabitoreddit/status/2034800163890634891"
+          },
+          {
+            "tweet_id": "2036451073045700967",
+            "date": "2026-03-24",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "IMO $AEHR is a great long here and should hit its inflection point in the next few months like $AAOI.\n\n$AMKR better to wait next year since they’re in capex phase and their buildout comes online late 2027 or 2028 if I remember correctly.\n\n$FORM was a fan this yr",
+            "url": "https://x.com/aleabitoreddit/status/2036451073045700967"
+          },
+          {
+            "tweet_id": "2042400195607216431",
+            "date": "2026-04-10",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "No, I’m still at a conservative 759% YTD after today’s overall rally. \n\nLost too much from hedging.\n\nWould probably be up more if indexes and \nmany individual names like \n$RDDT\n weren’t so down from macro.\n\nBut if you pick selective winners like \n$AAOI\n or \n$AEHR\n …\n\n in hyperscaler",
+            "url": "https://x.com/aleabitoreddit/status/2042400195607216431"
+          },
+          {
+            "tweet_id": "2045965735386820934",
+            "date": "2026-04-19",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "Wow, majority of these 30 stocks I’ve liked are up a lot in just two weeks (just a recap to new folks)\n\nBy the way, my long term opinion doesn’t change on any of them from \n$MRVL\n, \n$AMD\n, \n$ARM\n and others.\n\nShort term entry points do though with names like \n$AAOI\n to \n$AEHR\n. And they",
+            "url": "https://x.com/aleabitoreddit/status/2045965735386820934"
+          },
+          {
+            "tweet_id": "2047705901486985666",
+            "date": "2026-04-24",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Photonics go brrr.\n\n\n$MXL\n +76.2% (lol)\n\n$AAOI\n +15.03%\n$SIVE +12.69%\n\n$AEHR\n +7.07%\n$SOI +6.19%\n\n$LITE\n +4.96%\n\nHope you didn’t sell and try and chase other bottlenecks anon?",
+            "url": "https://x.com/aleabitoreddit/status/2047705901486985666"
+          }
+        ],
+        "SNDK": [
+          {
+            "tweet_id": "2016976274573713441",
+            "date": "2026-01-29",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "I have \n$SNDK\n exposure via Kioxia, but don’t directly own Sandisk right now. I do feel a bit of FOMO though looking at the chart every day.",
+            "url": "https://x.com/aleabitoreddit/status/2016976274573713441"
+          },
+          {
+            "tweet_id": "2021354465086013947",
+            "date": "2026-02-10",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "add",
+            "text": "Ended up adding more \n$SNDK\n on 7% drop, I like it a lot more at $540 than $$690\n\nDidn’t like \n$HOOD\n earnings at $80, looks like the start of revenue deceleration, ended up moving those positions over to stuff like \n$RDDT\n. \n\nOtherwise just sitting on positions",
+            "url": "https://x.com/aleabitoreddit/status/2021354465086013947"
+          },
+          {
+            "tweet_id": "2021379616011964744",
+            "date": "2026-02-11",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Yep my friend \n@RJCcapital\n did mention that as an explanation for short term weakness.\n\nThat being said \n$SNDK\n looks like a possible \n$NVDA\n for me at $79B and fundamentals matter more to me than short term supply events.\n\nSo I'm buying into the drop but cost averaging over the next",
+            "url": "https://x.com/aleabitoreddit/status/2021379616011964744"
+          }
+        ],
+        "MU": [
+          {
+            "tweet_id": "1977079938835718513",
+            "date": "2025-10-11",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations\n\nStrong Buy\n\n$IBIT\n\n\n$LTC\n\n\n$WLAC\n\n\n$NBIS\n\n\n$MP\n\n\n$TSM\n\n(For Next Year)\n\n$ETOR\n\n\n$DKNG\n\n\n$SNAP\n\n\nBuy\n\n$UPWK\n\n\n$CRDO\n\n\n$ALAB\n\n\n$AMZN\n\n\n$META\n\n\n$UNH\n\n\n$SG\n\n\n$TGT\n\n\n$BULL\n\n\n$FLY\n\n\n$CIFR\n\n\n$WULF\n\n\n$IREN\n\n\n$GLXY\n\n\n$SMCI\n\n\n$DELL\n\n\n$MRVL\n\n\nHold\n\n$RKLB\n\n\n$HOOD\n\n\n$RBRK\n\n\n$MU",
+            "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
+          },
+          {
+            "tweet_id": "2014731960418238574",
+            "date": "2026-01-23",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I've hold positions in the \n$MU\n that markets sleep on:\n\nUnimicron.\n\nThis one is an incredible long at $16B as they're foundational for:\n\n- \n$MU\n and Samsung memory substrates\n- \n$NVDA\n Rubin/Blackwell\n- TSMC for CoWoS process\n- Apple (iPhones and M-series)\n- Google TPUs\n-",
+            "url": "https://x.com/aleabitoreddit/status/2014731960418238574"
+          },
+          {
+            "tweet_id": "2016133921411568064",
+            "date": "2026-01-27",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "$MU\n looks like a great long! This being said Samsung Electronics and Sk Hynix are still two of my favorite positions. \n\nIt looks like the US is essentially using strong tariff threats to force Samsung and SK Hynix to move their next generation of fabs to US soil (as seen with",
+            "url": "https://x.com/aleabitoreddit/status/2016133921411568064"
+          }
+        ],
+        "TOWA": [
+          {
+            "tweet_id": "2048687868919611836",
+            "date": "2026-04-27",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "European “monopolies” like $LPK (Glass Core Substrates) have also been going brrr lately. \n\n$ALRIB is technically a duopoly but it’s there too… (Quantum / MBE)\n\nThen there’s some over in Japan like Towa for (HBM4/compression molding) too that I own.  \n\nUsually monopolies get",
+            "url": "https://x.com/aleabitoreddit/status/2048687868919611836"
+          },
+          {
+            "tweet_id": "2049523399911952597",
+            "date": "2026-04-29",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "I’m personally a fan of the functional monopolies.\n\nHere’s 6 of them that I own.\n\n1. $TOWA (6315) - HBM4 Compression\n2. MSSCorp (6830) - CPO Inspection\n3. $LPK - Glass Core Substrates\n4. $SOI - Silicon Photonics Substrates\n5. \n$AXTI\n - End-to-End (mineral, refinery, production) InP",
+            "url": "https://x.com/aleabitoreddit/status/2049523399911952597"
+          }
+        ],
+        "TSEM": [
+          {
+            "tweet_id": "2029966060380901548",
+            "date": "2026-03-06",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Ended up doing dip buying today mainly around these three:\n\nETH - $1950 (cost averaging)\n\n$TSEM\n on the 5% drop\n\n$AEHR\n on the 5% drop back to $38\n\nTower semi is a new position, wanted an entry earlier but never got one until 21% drop.",
+            "url": "https://x.com/aleabitoreddit/status/2029966060380901548"
+          },
+          {
+            "tweet_id": "2031820871170736570",
+            "date": "2026-03-11",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I'm long \n$TSEM\n, the \n$TSM\n of photonics. \n\nMy top two picks for CPO are $SOI and Tower Semi. \n\nGiven the \n$NVDA\n GTC catalyst on new photonic related architecture next week:\n\nI expect Tower Semi to get a huge catalyst. \n\nNvidia laready directly collaborated with Tower to scale 1.6T",
+            "url": "https://x.com/aleabitoreddit/status/2031820871170736570"
+          },
+          {
+            "tweet_id": "2045570180437459268",
+            "date": "2026-04-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "$TSEM\n is a bit more priced in right now after doubling in a month. I'd personally hold it, but if you're entering new positions:\n\nI covered a lot of optical names recently like enplas/pcl/fittech if you scroll back a little.",
+            "url": "https://x.com/aleabitoreddit/status/2045570180437459268"
+          },
+          {
+            "tweet_id": "2050762148545216899",
+            "date": "2026-05-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Just in case you’re wondering why I’m so bullish on CPO.\n\nLike $SIVE (Lasers), Shunsin (Packaging), MSSCorps (Yields), Win Semi / \n$TSEM\n (Foundry).\n\n“The CPO market is projected to grow sharply by a 142% CAGR from 2026 to 2030 (excl. ELS)”\n\n“The scale-up CPO segment is projected",
+            "url": "https://x.com/aleabitoreddit/status/2050762148545216899"
+          }
+        ]
+      },
+      "dossier_summary": [
+        {
+          "ticker": "AEHR",
+          "tier": "A",
+          "score": 16,
+          "mentions": 38,
+          "first_mention": "2026-03-30",
+          "alpha": 1.7968
+        },
+        {
+          "ticker": "SNDK",
+          "tier": "A",
+          "score": 7,
+          "mentions": 11,
+          "first_mention": "2026-02-13",
+          "alpha": 0.4763
+        },
+        {
+          "ticker": "MU",
+          "tier": "B",
+          "score": 3,
+          "mentions": 6,
+          "first_mention": "2026-03-28",
+          "alpha": 0.2391
+        },
+        {
+          "ticker": "KLAC",
+          "tier": "C",
+          "score": 0,
+          "mentions": 1,
+          "first_mention": "2026-04-20",
+          "alpha": -0.0158
+        },
+        {
+          "ticker": "ONTO",
+          "tier": "C",
+          "score": 0,
+          "mentions": 1,
+          "first_mention": "2026-04-21",
+          "alpha": null
+        },
+        {
+          "ticker": "TSEM",
+          "tier": "A",
+          "score": 8,
+          "mentions": 19,
+          "first_mention": "2026-03-19",
+          "alpha": 0.249
+        }
+      ]
+    },
+    "ai_infra": {
+      "title": "AI infra & neoclouds",
+      "tickers": [
+        "NBIS",
+        "CRWV",
+        "IREN",
+        "APLD",
+        "VRT",
+        "EQIX",
+        "VST",
+        "CIFR",
+        "CORZ",
+        "DLR",
+        "TLN",
+        "CEG"
+      ],
+      "n_calls_total": 79,
+      "n_calls_ytd": 21,
+      "n_calls_last_4w": 0,
+      "monthly_mention_counts": {
+        "2025-08": 1,
+        "2025-09": 23,
+        "2025-10": 32,
+        "2025-12": 2,
+        "2026-01": 4,
+        "2026-02": 12,
+        "2026-03": 4,
+        "2026-04": 1
+      },
+      "ytd_focus_tickers": [
+        "NBIS",
+        "CRWV",
+        "IREN",
+        "VST",
+        "CIFR"
+      ],
+      "last_4w_focus_tickers": [],
+      "per_ticker_representatives": {
+        "NBIS": [
+          {
+            "tweet_id": "1965474382312341511",
+            "date": "2025-09-09",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "While these dipshits like \n@TheLongInvest\n are posting terrible advice and don't know what they're doing.\n\nI trade live with you and you see my success immediately after.\n\nI don't need a Patreon since I actually make money off the market. \n\n+7% \"chasing\" \n$NBIS\n in a few hours.",
+            "url": "https://x.com/aleabitoreddit/status/1965474382312341511"
+          }
+        ],
+        "CRWV": [
+          {
+            "tweet_id": "1959211074357723498",
+            "date": "2025-08-23",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Some decent recovery/swing trades right now\n\n1. \n$SG\n - $9.39\n2. \n$SNAP\n - $7.21\n3. \n$UNH\n - $306.8\n4. \n$ETOR\n - $46.8\n5. \n$NVO\n - $57.00\n6. \n$HIMS\n - $44.73\n7. \n$CRWV\n - $94.7\n\nStay away from these dips\n\n1. \n$CRCL\n - $136.2\n2. \n$PLTR\n - $159.6\n3. \n$DUOL\n - $334.5",
+            "url": "https://x.com/aleabitoreddit/status/1959211074357723498"
+          },
+          {
+            "tweet_id": "2016368174695120903",
+            "date": "2026-01-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "short",
+            "action": "enter",
+            "text": "$CRWV\n is probably the only $50B+ company I can think of that is likely going to go bankrupt. At least \n$ORCL\n has a profitable core business and owns tons of assets like  15% of Tiktok.  \n\nCoreweave is a clear short to me purely because a large part of their revenue will be used to",
+            "url": "https://x.com/aleabitoreddit/status/2016368174695120903"
+          }
+        ],
+        "IREN": [
+          {
+            "tweet_id": "1971668048588558518",
+            "date": "2025-09-26",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Apart from ORCL, \n$NBIS\n, \n$IREN\n, \n$CIFR\n today these were some fun (short term) portfolio adds/trades and entries if you were curious + tiny bit of my reasoning: \n\nGEMI ~$23.9 - fun short term swing trade +- ~5% all the time. Overvalued though MC wise.\n\nAMZN ~$219.78 - DCA for 4",
+            "url": "https://x.com/aleabitoreddit/status/1971668048588558518"
+          },
+          {
+            "tweet_id": "1984293587295866986",
+            "date": "2025-10-31",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "exit",
+            "text": "Markets are starting to price in:\n\nA divergence between AWS-style full-stack Neoclouds like \n$NBIS\n and miners such as \n$CIFR\n, $BITF, \n$CLSK\n, and others.\n\nThis is the reason I sold off \n$IREN\n \n$WULF\n and others, and consolidated into Nebius.\n\nWhy?\n\n Margins > Capacity.\n\nJust today:",
+            "url": "https://x.com/aleabitoreddit/status/1984293587295866986"
+          }
+        ],
+        "VST": [
+          {
+            "tweet_id": "2023928484415107360",
+            "date": "2026-02-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "im doing dca options because i dont know individual companies like \n$VST\n well enough to pick which one is the best (IV is also individually a lot higher).\n\nBut energy/utilities sector as a whole should go up as AI DCs use up a ton.",
+            "url": "https://x.com/aleabitoreddit/status/2023928484415107360"
+          }
+        ],
+        "CIFR": [
+          {
+            "tweet_id": "1971668048588558518",
+            "date": "2025-09-26",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Apart from ORCL, \n$NBIS\n, \n$IREN\n, \n$CIFR\n today these were some fun (short term) portfolio adds/trades and entries if you were curious + tiny bit of my reasoning: \n\nGEMI ~$23.9 - fun short term swing trade +- ~5% all the time. Overvalued though MC wise.\n\nAMZN ~$219.78 - DCA for 4",
+            "url": "https://x.com/aleabitoreddit/status/1971668048588558518"
+          }
+        ],
+        "CEG": [
+          {
+            "tweet_id": "1975939920096333933",
+            "date": "2025-10-08",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "low",
+            "direction": "long",
+            "action": "hold",
+            "text": "I’m just focusing on higher risk higher upside energy plays, like low market cap, that would benefit off rate cuts too.\n\nI’ve heard of \n$NEE\n and \n$CEG\n but I don’t know enough about energy. So I’m just half-blindly  buying the sector from other DD I’ve seen.",
+            "url": "https://x.com/aleabitoreddit/status/1975939920096333933"
+          }
+        ]
+      },
+      "dossier_summary": [
+        {
+          "ticker": "NBIS",
+          "tier": "A",
+          "score": 11,
+          "mentions": 25,
+          "first_mention": "2025-09-29",
+          "alpha": 0.38
+        },
+        {
+          "ticker": "CRWV",
+          "tier": "B",
+          "score": 2,
+          "mentions": 8,
+          "first_mention": "2025-08-23",
+          "alpha": 0.2251
+        },
+        {
+          "ticker": "IREN",
+          "tier": "BEAR",
+          "score": 1,
+          "mentions": 36,
+          "first_mention": "2025-08-31",
+          "alpha": 0.7651
+        }
+      ]
+    },
+    "hyperscaler_sovereign": {
+      "title": "Hyperscaler & sovereign AI",
+      "tickers": [
+        "NVDA",
+        "MRVL",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "ASML",
+        "META",
+        "GOOGL",
+        "MSFT",
+        "AMZN",
+        "ARM",
+        "ORCL",
+        "KSPI",
+        "EWY"
+      ],
+      "n_calls_total": 114,
+      "n_calls_ytd": 77,
+      "n_calls_last_4w": 16,
+      "monthly_mention_counts": {
+        "2025-07": 3,
+        "2025-09": 9,
+        "2025-10": 23,
+        "2025-12": 2,
+        "2026-01": 6,
+        "2026-02": 27,
+        "2026-03": 27,
+        "2026-04": 17
+      },
+      "ytd_focus_tickers": [
+        "NVDA",
+        "MRVL",
+        "AVGO",
+        "AMD",
+        "TSM",
+        "ASML",
+        "META",
+        "MSFT",
+        "ARM",
+        "ORCL",
+        "EWY"
+      ],
+      "last_4w_focus_tickers": [
+        "2041752476542759313",
+        "2041863876455887081",
+        "2041963517071519963",
+        "2042800782735753670",
+        "2044165549173915714",
+        "2044478349133942901",
+        "2044532375460499900",
+        "2045570512034910342",
+        "2045965735386820934",
+        "2046043070538633618",
+        "2046918449168085183",
+        "2047387839789433134"
+      ],
+      "per_ticker_representatives": {
+        "NVDA": [
+          {
+            "tweet_id": "1975988773277270355",
+            "date": "2025-10-08",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "Crazy run, people are seeing this as a $400B MC company chasing up to a $4.5T \n$NVDA\n.\n\nI should have bought more lol I only have 1.1k shares.",
+            "url": "https://x.com/aleabitoreddit/status/1975988773277270355"
+          },
+          {
+            "tweet_id": "2037779565066764425",
+            "date": "2026-03-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "short",
+            "action": "enter",
+            "text": "The Serenity Doomsday ETF:\n\n25% | \n$FAZ\n\n25% | \n$GUSH\n\n20%| \n$LCID\n Short\n10% | \n$SQQQ\n\n10% \n$UVIX\n\n10% | \n$NVDA\n Puts\n\nRationale:\n\n$FAZ\n / 3x short financial - Private Market liquidity play on Middle Eastern capital abandoning private markets if all their oil fields get blown apart.\n\n\n$GUSH\n /",
+            "url": "https://x.com/aleabitoreddit/status/2037779565066764425"
+          },
+          {
+            "tweet_id": "2042800782735753670",
+            "date": "2026-04-11",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "add",
+            "text": "So CPO is actually happening a lot earlier than I personally expected... \n\nI'll probably be adding more toward \n$NVDA\n CPO ecosystem next week and I'll make a little ETF for u all.\n\nThere's a decent amount of players like \n\n- FOCI (3363)\n- LuxNet (4979)\n- Elaser (3450)\n- ShunSin",
+            "url": "https://x.com/aleabitoreddit/status/2042800782735753670"
+          },
+          {
+            "tweet_id": "2044165549173915714",
+            "date": "2026-04-14",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "4 new longs in \n$NVDA\n CPO Asia ecosystem + 1 misc pluggable/test one. \n\nWill just announce one every day so I can spend some more time doing a mini write up/answer more questions about it. \n\nI'm personally trimming some longs and just rotating capital into purer play names since",
+            "url": "https://x.com/aleabitoreddit/status/2044165549173915714"
+          },
+          {
+            "tweet_id": "2046043070538633618",
+            "date": "2026-04-20",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "I'm telling you all...\n\nLot of stuff in the $SIVE supply chains make very compelling longs.\n\nWin Semi (3105) just goes up 10% a day then halts trading after hitting its max.\n\nObviously they do things for \n$AVGO\n or SpaceX, but photonics ramp spearheaded by \n$NVDA\n and followed by",
+            "url": "https://x.com/aleabitoreddit/status/2046043070538633618"
+          }
+        ],
+        "MRVL": [
+          {
+            "tweet_id": "1962880256576242129",
+            "date": "2025-09-02",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "$MRVL\n 18% drop after earnings was a complete overreaction.\n\nPerfect time to DCA into Marvell positions over the next month.",
+            "url": "https://x.com/aleabitoreddit/status/1962880256576242129"
+          },
+          {
+            "tweet_id": "2037915721435587028",
+            "date": "2026-03-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Faster compounds:\n\n\n$AAOI\n - 10x revenue ramp from optical transcivers h2 2027\n\n$NBIS\n - 10x revenue ramp Q4 2026\n\n$ARM\n - 5x revenue growth from their new AI CPU\n\n$MRVL\n - 2-3x revenue growth from \n$MSFT\n Maia Ramp. \n\n$AVGO\n - Long hyperscaler ASIC\n\n$LITE\n - Long OCS / Google TPU\nWin Semi -",
+            "url": "https://x.com/aleabitoreddit/status/2037915721435587028"
+          },
+          {
+            "tweet_id": "2041963517071519963",
+            "date": "2026-04-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "I feel like \n$COHR\n and \n$MRVL\n are the two \"They Do Everything\" longs.\n\nThat nobody actually knows what they do if you ask them in public.\n\n\n$NVDA\n? GPUs.\n\n$INTC\n? Foundry. \n\nMarvell? No clue.\nCoherent? No clue. \n\nThey're the Deloitte of Semis. \n\nBoth are really solid profitable longs",
+            "url": "https://x.com/aleabitoreddit/status/2041963517071519963"
+          },
+          {
+            "tweet_id": "2045965735386820934",
+            "date": "2026-04-19",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Wow, majority of these 30 stocks I’ve liked are up a lot in just two weeks (just a recap to new folks)\n\nBy the way, my long term opinion doesn’t change on any of them from \n$MRVL\n, \n$AMD\n, \n$ARM\n and others.\n\nShort term entry points do though with names like \n$AAOI\n to \n$AEHR\n. And they",
+            "url": "https://x.com/aleabitoreddit/status/2045965735386820934"
+          },
+          {
+            "tweet_id": "2046918449168085183",
+            "date": "2026-04-22",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Oh wow, I missed this.\n\nThat's probably why \n$POET\n is up 20.2% pre-market confirming \"far in excess\" of purchase orders on top of \n$MRVL\n supplier relationships. \n\nThat translates materially to $SIVE laser production as well.\n\nMarkets haven't fully priced in either yet imo.",
+            "url": "https://x.com/aleabitoreddit/status/2046918449168085183"
+          },
+          {
+            "tweet_id": "2047387839789433134",
+            "date": "2026-04-23",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I wouldn’t have high conviction long on a $850m MC photonics company if they weren’t likely volume ramping to \n$AAPL\n, \n$MRVL\n, \n$JBL\n, Ayar, and others in a years time.",
+            "url": "https://x.com/aleabitoreddit/status/2047387839789433134"
+          }
+        ],
+        "AVGO": [
+          {
+            "tweet_id": "1971618783640072406",
+            "date": "2025-09-26",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "low",
+            "direction": "long",
+            "action": "hold",
+            "text": "Not sure, just holding it for a month to see if it pulls an \n$AVGO\n post earnings. \n\nHistory doesn't repeat itself but it rhymes!",
+            "url": "https://x.com/aleabitoreddit/status/1971618783640072406"
+          },
+          {
+            "tweet_id": "2018712072163307802",
+            "date": "2026-02-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Started positions in \n$AVGO\n at $315 high on -4.6% drop and \n$CRDO\n on -7.12% drop.    \n\nAnd I really dont like adding all at once cause there's always more downside risk.   \n\nBut don't think there's any material news recently so looks like a buying opportunity for me.",
+            "url": "https://x.com/aleabitoreddit/status/2018712072163307802"
+          },
+          {
+            "tweet_id": "2037915721435587028",
+            "date": "2026-03-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Faster compounds:\n\n\n$AAOI\n - 10x revenue ramp from optical transcivers h2 2027\n\n$NBIS\n - 10x revenue ramp Q4 2026\n\n$ARM\n - 5x revenue growth from their new AI CPU\n\n$MRVL\n - 2-3x revenue growth from \n$MSFT\n Maia Ramp. \n\n$AVGO\n - Long hyperscaler ASIC\n\n$LITE\n - Long OCS / Google TPU\nWin Semi -",
+            "url": "https://x.com/aleabitoreddit/status/2037915721435587028"
+          },
+          {
+            "tweet_id": "2044532375460499900",
+            "date": "2026-04-15",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "I said i liked Shunsin which was foxconn's optical packing arm at $1.4B. It's slowly becoming one of my favorite... Foxconn is just absolutely massive.\n\nFittec and Enplas were my other longs.\n\nThen just threw out PCL as a name which I think will benefit from \n$AVGO\n as their",
+            "url": "https://x.com/aleabitoreddit/status/2044532375460499900"
+          },
+          {
+            "tweet_id": "2046043070538633618",
+            "date": "2026-04-20",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "I'm telling you all...\n\nLot of stuff in the $SIVE supply chains make very compelling longs.\n\nWin Semi (3105) just goes up 10% a day then halts trading after hitting its max.\n\nObviously they do things for \n$AVGO\n or SpaceX, but photonics ramp spearheaded by \n$NVDA\n and followed by",
+            "url": "https://x.com/aleabitoreddit/status/2046043070538633618"
+          }
+        ],
+        "AMD": [
+          {
+            "tweet_id": "1975929128114377050",
+            "date": "2025-10-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Some days there’s not much activity.\n\nNew 1Y+ long positions;\n\n- \n$AMD\n shares at $215\n- \n$WYFi\n shares at $33\n- UNH 1Y leaps Jan 2027\n\nDCA \n$FLNC\n & SEI on drop for high risk energy plays. \n\nDCA RDDT $198 on 4% drop. \n\nTrimmed misc positions for EOY tax harvesting.",
+            "url": "https://x.com/aleabitoreddit/status/1975929128114377050"
+          },
+          {
+            "tweet_id": "2045965735386820934",
+            "date": "2026-04-19",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Wow, majority of these 30 stocks I’ve liked are up a lot in just two weeks (just a recap to new folks)\n\nBy the way, my long term opinion doesn’t change on any of them from \n$MRVL\n, \n$AMD\n, \n$ARM\n and others.\n\nShort term entry points do though with names like \n$AAOI\n to \n$AEHR\n. And they",
+            "url": "https://x.com/aleabitoreddit/status/2045965735386820934"
+          }
+        ],
+        "TSM": [
+          {
+            "tweet_id": "1965681856214696110",
+            "date": "2025-09-10",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "$TSM\n is a screaming buy.\n\nLook at \n$NVDA\n rally -> \n$AVGO\n rally -> this will flow into TSM.\n\n$1.3T -> $1.8T given all the backlogs from Oracle/NBIS, etc. after reading all earnings.\n\nI almost never buy calls aside from \n$GOOG\n back at $150. But IV is decent ~32 and it’s such a great",
+            "url": "https://x.com/aleabitoreddit/status/1965681856214696110"
+          },
+          {
+            "tweet_id": "1977079938835718513",
+            "date": "2025-10-11",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Based Friday Market Close (-3.6% SPY day), Thoughts and Explanations\n\nStrong Buy\n\n$IBIT\n\n\n$LTC\n\n\n$WLAC\n\n\n$NBIS\n\n\n$MP\n\n\n$TSM\n\n(For Next Year)\n\n$ETOR\n\n\n$DKNG\n\n\n$SNAP\n\n\nBuy\n\n$UPWK\n\n\n$CRDO\n\n\n$ALAB\n\n\n$AMZN\n\n\n$META\n\n\n$UNH\n\n\n$SG\n\n\n$TGT\n\n\n$BULL\n\n\n$FLY\n\n\n$CIFR\n\n\n$WULF\n\n\n$IREN\n\n\n$GLXY\n\n\n$SMCI\n\n\n$DELL\n\n\n$MRVL\n\n\nHold\n\n$RKLB\n\n\n$HOOD\n\n\n$RBRK\n\n\n$MU",
+            "url": "https://x.com/aleabitoreddit/status/1977079938835718513"
+          }
+        ],
+        "ASML": [
+          {
+            "tweet_id": "2040007773367464406",
+            "date": "2026-04-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Is it possible to buy \n$ASML\n for $600m? Sign me up",
+            "url": "https://x.com/aleabitoreddit/status/2040007773367464406"
+          }
+        ],
+        "META": [
+          {
+            "tweet_id": "1976673663509508249",
+            "date": "2025-10-10",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Also since macro fears randomly appeared today with a Trump tweet, it’s an amazing dip buy opportunity on \n$SPY\n 1.65% drop.\n\nJust some examples:\n\n$AMZN\n - down 3.7%\n\n$AMD\n - down 8.27%\n\n$HIMS\n - down 8%\n\n$SNAP\n - down 5.1%\n\n$META\n - down 3.07%\n\n\n$WLAC\n, \n$NBIS\n always good to DCA.",
+            "url": "https://x.com/aleabitoreddit/status/1976673663509508249"
+          },
+          {
+            "tweet_id": "2013548084752785426",
+            "date": "2026-01-20",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "I do sleep, but it’s hard to when I get the temptation to just full port it into \n$META",
+            "url": "https://x.com/aleabitoreddit/status/2013548084752785426"
+          },
+          {
+            "tweet_id": "2016621132632510939",
+            "date": "2026-01-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Btw this \n$META\n call at $625 was only 2 weeks ago. \n\nHope it goes up even more over the next few weeks, capex spend was overblown since they’re printing money and growing at astounding rates.",
+            "url": "https://x.com/aleabitoreddit/status/2016621132632510939"
+          },
+          {
+            "tweet_id": "2044478349133942901",
+            "date": "2026-04-15",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Nice… I didn’t manage to time the very bottom for \n$META\n but don’t need to in the long run. \n\nNot every day does mag7 growing at record paces sell off -20% in short timeframes.",
+            "url": "https://x.com/aleabitoreddit/status/2044478349133942901"
+          }
+        ],
+        "GOOGL": [
+          {
+            "tweet_id": "1940711432397684953",
+            "date": "2025-07-03",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "Med/Long term swing trades right now are\n\n1. \n$GME\n after the 30% drop\n2. \n$SG\n after the 49% drop\n3. \n$UNH\n after the 45% drop. \n4. \n$GOOGL\n after the drop to $164 again. Bought calls ~$150 for my WSB DD, sold $175, rebought $164, now holding to $185. \n\nDoing more research on \n$SRPT\n.",
+            "url": "https://x.com/aleabitoreddit/status/1940711432397684953"
+          },
+          {
+            "tweet_id": "1949746557253030018",
+            "date": "2025-07-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "For WSB charts I posted: \n\nOn \n$GOOGL\n, realized profit was $101,428+, and lots of unrealized profit since I expect GOOGL to hit $220+ EOY if tech rally continues ( \n$META\n $APPL \n$AMZN\n \n$MSFT\n \n$NVDA\n \n$SPOT\n)    \n\nEarnings were a complete blowout and they still have 70B+ in buybacks",
+            "url": "https://x.com/aleabitoreddit/status/1949746557253030018"
+          }
+        ],
+        "MSFT": [
+          {
+            "tweet_id": "2026704911182999659",
+            "date": "2026-02-25",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "exit",
+            "text": "Bottom timed successfully. Ended up existing \n$MSFT\n and \n$BTC\n swing trades.\n\nI don’t really like posting sells as much, feels a bit weird. But this just kind of shows what I do with spare capital/time. \n\n\n$MSFT\n was options so double digit gain in a day. \n$IBIT\n was shares so few",
+            "url": "https://x.com/aleabitoreddit/status/2026704911182999659"
+          },
+          {
+            "tweet_id": "2037169298695979235",
+            "date": "2026-03-26",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "I went personally long on:\n\n\n$MSFT\n $372 and \n$META\n $576 again.\n\nLooks too discounted to me? \n\nProbably war gets extended. Maybe \n$META\n $550 and \n$MSFT\n $350 if it drops one more time? \n\nBut feels compelling.",
+            "url": "https://x.com/aleabitoreddit/status/2037169298695979235"
+          },
+          {
+            "tweet_id": "2037726281228485055",
+            "date": "2026-03-28",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I’m still long since it’s better to sit through any volatility imo, cause you’ll miss a lot of the reversal if there’s a TACO (as seen with last April). Microsoft has already hit those same valuations.\n\nI’m just saying leverage during this time is a tad dangerous.",
+            "url": "https://x.com/aleabitoreddit/status/2037726281228485055"
+          },
+          {
+            "tweet_id": "2041752476542759313",
+            "date": "2026-04-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Samsung, SK Hynix both back close to ATHs with \n$EWY\n following suit.\n\nBuying back some names that crashed from macro like \n$MSFT\n (-21%), \n$RDDT\n(-36%), or \n$HOOD\n (-31%)…\n\nOr others like \n$ETH\n or \n$IBIT\n here might not be the worst idea.\n\nEspecially as rate cut odds (2-3) spiked on",
+            "url": "https://x.com/aleabitoreddit/status/2041752476542759313"
+          },
+          {
+            "tweet_id": "2044478349133942901",
+            "date": "2026-04-15",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Nice… I didn’t manage to time the very bottom for \n$META\n but don’t need to in the long run. \n\nNot every day does mag7 growing at record paces sell off -20% in short timeframes.",
+            "url": "https://x.com/aleabitoreddit/status/2044478349133942901"
+          }
+        ],
+        "AMZN": [
+          {
+            "tweet_id": "1971668048588558518",
+            "date": "2025-09-26",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Apart from ORCL, \n$NBIS\n, \n$IREN\n, \n$CIFR\n today these were some fun (short term) portfolio adds/trades and entries if you were curious + tiny bit of my reasoning: \n\nGEMI ~$23.9 - fun short term swing trade +- ~5% all the time. Overvalued though MC wise.\n\nAMZN ~$219.78 - DCA for 4",
+            "url": "https://x.com/aleabitoreddit/status/1971668048588558518"
+          },
+          {
+            "tweet_id": "1975368158568718701",
+            "date": "2025-10-07",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "add",
+            "text": "oh i dont post a lot of my buys when I short term trade, but I did buy a lot more \n$AMZN\n Feb 220 calls on that random drop to $216 in the morning.",
+            "url": "https://x.com/aleabitoreddit/status/1975368158568718701"
+          },
+          {
+            "tweet_id": "1978365814941384882",
+            "date": "2025-10-15",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "The Great Soybean/Seed Oil Crash, personal thoughts and explanations:\n\nStrong Buy\n\n$ALAB\n\n\n$CRDO\n\n\n$NBIS\n\n\n$WLAC\n\n\n$LTC\n\n\n$TSM\n\n\n$BTC\n\n(+ same as tax harvest stocks last time)\n\n$AMZN\n\n\n$SMCI\n\n_\n\nBuy\n\n$AMD\n\n\n$FLNC\n\n\n$SEI\n\n\n$BZAI\n\n\n$NKLR\n\n\n$IREN\n\n\n$WULF\n\n\n$CIFR\n\n\n$CRWV\n\n$BITF\n\n$WYFI\n\n\n$SLNH\n\n$BITF\n\n$RBRK\n\n\n$GLXY\n\n\n$GRAB\n\n\n$SEA",
+            "url": "https://x.com/aleabitoreddit/status/1978365814941384882"
+          }
+        ],
+        "ARM": [
+          {
+            "tweet_id": "2036743647182643541",
+            "date": "2026-03-25",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "nope, I already mentioned publicly I bought $ARM when they released the news. \n\nI plan to just hold it in case they end up becoming the $NVDA for CPUs.",
+            "url": "https://x.com/aleabitoreddit/status/2036743647182643541"
+          },
+          {
+            "tweet_id": "2045965735386820934",
+            "date": "2026-04-19",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "Wow, majority of these 30 stocks I’ve liked are up a lot in just two weeks (just a recap to new folks)\n\nBy the way, my long term opinion doesn’t change on any of them from \n$MRVL\n, \n$AMD\n, \n$ARM\n and others.\n\nShort term entry points do though with names like \n$AAOI\n to \n$AEHR\n. And they",
+            "url": "https://x.com/aleabitoreddit/status/2045965735386820934"
+          }
+        ],
+        "ORCL": [
+          {
+            "tweet_id": "1971668048588558518",
+            "date": "2025-09-26",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Apart from ORCL, \n$NBIS\n, \n$IREN\n, \n$CIFR\n today these were some fun (short term) portfolio adds/trades and entries if you were curious + tiny bit of my reasoning: \n\nGEMI ~$23.9 - fun short term swing trade +- ~5% all the time. Overvalued though MC wise.\n\nAMZN ~$219.78 - DCA for 4",
+            "url": "https://x.com/aleabitoreddit/status/1971668048588558518"
+          }
+        ],
+        "KSPI": [
+          {
+            "tweet_id": "1950838489257480592",
+            "date": "2025-07-31",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "$KSPI\n is an extremely good buy at $82 after this week's 7.2% drop. So bought $100k+ worth, plan to scale this to $250k cost average. \n\n\n$HOOD\n \n$SOFI\n \n$BULL\n aside, \n$KSPI\n is growing 47% Y/Y as a fintech with 31% profit margins and a 7.9 P/E. \n\nMight make a WSB style post about this.",
+            "url": "https://x.com/aleabitoreddit/status/1950838489257480592"
+          }
+        ],
+        "EWY": [
+          {
+            "tweet_id": "2018497641278235103",
+            "date": "2026-02-03",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Random thoughts: extremely long memory trade for 2 quarters\n\nKR benefits the most from disconnect\n\n- Sk Hynix, Samsung electronics ( \n$EWY\n / Sk Hynix on margin) \n\nThen long Sandisk\n\n- 6-7 forward p/e. CSP weekly to enter positions since high IV\n\n- shares cause IV on calls way too",
+            "url": "https://x.com/aleabitoreddit/status/2018497641278235103"
+          },
+          {
+            "tweet_id": "2024170237512601619",
+            "date": "2026-02-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Market makers probably hate me.\n\n\n$EWY\n IV went from 32% -> 42% in 5 days on 2 year leaps. \n\nWould be a free ~30%+ profit off IV/vega expansion alone. \n\nThere’s rare cases of arbitrage opportunities off derivatives. \n\nAlgorithms don’t always price things in correctly.",
+            "url": "https://x.com/aleabitoreddit/status/2024170237512601619"
+          },
+          {
+            "tweet_id": "2025095393898270750",
+            "date": "2026-02-21",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Makes sense though, 2028 leaps were extremely mispriced, not short dated options. \n\nWould probably be a 200% gain alone off IV expansion off 2028 OTM \n$EWY\n options. \n\nIt’s caught up a decent amount but would probably double again once 2x leveraged ETFs and 10x leveraged SK Hynix",
+            "url": "https://x.com/aleabitoreddit/status/2025095393898270750"
+          },
+          {
+            "tweet_id": "2045570512034910342",
+            "date": "2026-04-18",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "I'm still personally long 2028 leaps on \n$EWY\n for memory exposure. Those are up over triple digits, since I expect Samsung/Sk Hynix to be printing.\n\n\n$DRAM\n was another good vehicle for exposure.",
+            "url": "https://x.com/aleabitoreddit/status/2045570512034910342"
+          }
+        ]
+      },
+      "dossier_summary": [
+        {
+          "ticker": "NVDA",
+          "tier": "A",
+          "score": 13,
+          "mentions": 40,
+          "first_mention": "2025-07-28",
+          "alpha": 0.1232
+        },
+        {
+          "ticker": "MRVL",
+          "tier": "A",
+          "score": 22,
+          "mentions": 53,
+          "first_mention": "2025-08-25",
+          "alpha": 1.073
+        },
+        {
+          "ticker": "AVGO",
+          "tier": "A",
+          "score": 8,
+          "mentions": 16,
+          "first_mention": "2025-09-30",
+          "alpha": 0.2256
+        },
+        {
+          "ticker": "AMD",
+          "tier": "A",
+          "score": 5,
+          "mentions": 11,
+          "first_mention": "2025-10-10",
+          "alpha": 0.292
+        },
+        {
+          "ticker": "TSM",
+          "tier": "A",
+          "score": 6,
+          "mentions": 7,
+          "first_mention": "2025-09-30",
+          "alpha": 0.3219
+        },
+        {
+          "ticker": "ASML",
+          "tier": "C",
+          "score": 0,
+          "mentions": 4,
+          "first_mention": "2026-04-02",
+          "alpha": 0.1094
+        },
+        {
+          "ticker": "META",
+          "tier": "A",
+          "score": 6,
+          "mentions": 18,
+          "first_mention": "2025-07-28",
+          "alpha": -0.0711
+        },
+        {
+          "ticker": "GOOGL",
+          "tier": "B",
+          "score": 3,
+          "mentions": 19,
+          "first_mention": "2025-07-28",
+          "alpha": 0.7268
+        },
+        {
+          "ticker": "MSFT",
+          "tier": "B",
+          "score": 2,
+          "mentions": 27,
+          "first_mention": "2025-07-28",
+          "alpha": -0.1772
+        },
+        {
+          "ticker": "AMZN",
+          "tier": "B",
+          "score": 2,
+          "mentions": 14,
+          "first_mention": "2025-07-28",
+          "alpha": 0.0673
+        },
+        {
+          "ticker": "ARM",
+          "tier": "A",
+          "score": 6,
+          "mentions": 5,
+          "first_mention": "2026-03-28",
+          "alpha": 0.2178
+        },
+        {
+          "ticker": "ORCL",
+          "tier": "C",
+          "score": 1,
+          "mentions": 5,
+          "first_mention": "2026-03-04",
+          "alpha": 0.1873
+        },
+        {
+          "ticker": "KSPI",
+          "tier": "A",
+          "score": 4,
+          "mentions": 3,
+          "first_mention": "2025-07-31",
+          "alpha": 0.1257
+        },
+        {
+          "ticker": "EWY",
+          "tier": "C",
+          "score": 0,
+          "mentions": 10,
+          "first_mention": "2026-02-12",
+          "alpha": 0.1147
+        }
+      ]
+    },
+    "bear_book": {
+      "title": "What hasn't worked",
+      "tickers": [
+        "DFLI",
+        "VST",
+        "INFQ",
+        "RDDT",
+        "HIMS",
+        "HOOD",
+        "IBIT"
+      ],
+      "n_calls_total": 69,
+      "n_calls_ytd": 51,
+      "n_calls_last_4w": 10,
+      "monthly_mention_counts": {
+        "2025-07": 5,
+        "2025-08": 3,
+        "2025-09": 3,
+        "2025-10": 6,
+        "2025-12": 1,
+        "2026-02": 31,
+        "2026-03": 10,
+        "2026-04": 10
+      },
+      "ytd_focus_tickers": [
+        "VST",
+        "INFQ",
+        "RDDT",
+        "HIMS",
+        "HOOD",
+        "IBIT"
+      ],
+      "last_4w_focus_tickers": [
+        "2041752476542759313",
+        "2042400195607216431",
+        "2044542298646843558",
+        "2044547331891335482",
+        "2045199509807112202",
+        "2045726241421234499",
+        "2046005919637733430"
+      ],
+      "per_ticker_representatives": {
+        "DFLI": [
+          {
+            "tweet_id": "1975952087143039039",
+            "date": "2025-10-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Speaking of random stocks:\n\n1. Bought into \n$FLY\n -\n\nIt’s a \n$RKLB\n / SpaceX competitor. 4B MC. Space + Rockets = me buy \n\n2. \n$DFLI\n - energy, lithium batteries. 83M\nMC just raised $28.7M convertible good price\n\nRisk return looks good cause energy + healthy balance sheet + buzzwords",
+            "url": "https://x.com/aleabitoreddit/status/1975952087143039039"
+          }
+        ],
+        "VST": [
+          {
+            "tweet_id": "2023928484415107360",
+            "date": "2026-02-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "im doing dca options because i dont know individual companies like \n$VST\n well enough to pick which one is the best (IV is also individually a lot higher).\n\nBut energy/utilities sector as a whole should go up as AI DCs use up a ton.",
+            "url": "https://x.com/aleabitoreddit/status/2023928484415107360"
+          }
+        ],
+        "INFQ": [
+          {
+            "tweet_id": "2024135345542242531",
+            "date": "2026-02-18",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Decided to go long on \n$INFQ\n. \n\nInfleqtion is a brand new Quantum Computing IPO that I've been watching.  \n\nQuantum names like:\n\n\n$IONQ\n ($11B+) or \n$RGTI\n ($5.1B) typically command large premiums (trapped-ion/superconducting qubits). \n\nBut, Infleqtion is the first public pure-play in",
+            "url": "https://x.com/aleabitoreddit/status/2024135345542242531"
+          }
+        ],
+        "RDDT": [
+          {
+            "tweet_id": "1975929128114377050",
+            "date": "2025-10-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "add",
+            "text": "Some days there’s not much activity.\n\nNew 1Y+ long positions;\n\n- \n$AMD\n shares at $215\n- \n$WYFi\n shares at $33\n- UNH 1Y leaps Jan 2027\n\nDCA \n$FLNC\n & SEI on drop for high risk energy plays. \n\nDCA RDDT $198 on 4% drop. \n\nTrimmed misc positions for EOY tax harvesting.",
+            "url": "https://x.com/aleabitoreddit/status/1975929128114377050"
+          },
+          {
+            "tweet_id": "2019864754186252798",
+            "date": "2026-02-06",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "I’m long \n$RDDT\n here at $141.\n\nER was good. Probably option related selloff Friday.\n\nSo buying shares and waiting it out",
+            "url": "https://x.com/aleabitoreddit/status/2019864754186252798"
+          },
+          {
+            "tweet_id": "2020260581408985407",
+            "date": "2026-02-07",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "$RDDT\n feels like a strong buy again after drop to $139 post earnings. Earnings felt great, looked option related selloff.\n\n\n$OSS\n is a moonshot type small cap pick for edge AI + defense spend. I made a post that showed they were already validated in Venezuela combat. If they can",
+            "url": "https://x.com/aleabitoreddit/status/2020260581408985407"
+          },
+          {
+            "tweet_id": "2042400195607216431",
+            "date": "2026-04-10",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "No, I’m still at a conservative 759% YTD after today’s overall rally. \n\nLost too much from hedging.\n\nWould probably be up more if indexes and \nmany individual names like \n$RDDT\n weren’t so down from macro.\n\nBut if you pick selective winners like \n$AAOI\n or \n$AEHR\n …\n\n in hyperscaler",
+            "url": "https://x.com/aleabitoreddit/status/2042400195607216431"
+          },
+          {
+            "tweet_id": "2045726241421234499",
+            "date": "2026-04-19",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "LOL, love vibe coded stuff like this.\n\nBut it’s missing some nuance like I was \n$RDDT\n at $148 later in the year, so YTD performance might not capture time I went long.",
+            "url": "https://x.com/aleabitoreddit/status/2045726241421234499"
+          }
+        ],
+        "HIMS": [
+          {
+            "tweet_id": "1942222651151548657",
+            "date": "2025-07-07",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Fire sale today for stocks. \n\nBought a decent amount of \n$BULL\n on the 15% drop 12.28.  \n\nBought \n$SG\n  $13.8 on the 6% drop (sometimes drops to low $13/high $12.8, so hold off on major positions).  \n\nBought \n$GME\n $23.00 on the 3% drop.   \n\n Bought \n$HIMS\n $45.26 on the 5.6% drop.",
+            "url": "https://x.com/aleabitoreddit/status/1942222651151548657"
+          },
+          {
+            "tweet_id": "1960075780383498312",
+            "date": "2025-08-25",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "$HIMS is an easy buy + hold at $42. Short interest  to 34.59% of float and ~$3 Billion + USD / 9.7B market cap company.\n\nHedge funds shorting a profitable, growth company like $HIMS while $IONQ and $OKLO — both with 0 revenue, 10B+ market caps is the definition of a stupid",
+            "url": "https://x.com/aleabitoreddit/status/1960075780383498312"
+          },
+          {
+            "tweet_id": "2030236553708966027",
+            "date": "2026-03-07",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "Monday could make history.\n\nAs one of the largest short squeezes in history could unfold. \n\n> Institutions shorted 40% of \n$HIMS\n (extraordinarily large)\n\n> expecting 0 revenue growth\n\n> betting the FDA and \n$NVO\n would bankrupt the company\n\nAll in one day:\n\n> \n$HIMS\n lawsuit with Novo",
+            "url": "https://x.com/aleabitoreddit/status/2030236553708966027"
+          },
+          {
+            "tweet_id": "2044542298646843558",
+            "date": "2026-04-15",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "short",
+            "action": "exit",
+            "text": "Yes I'll cover \n$HIMS\n later today. Peptide regulatory changes are massive.",
+            "url": "https://x.com/aleabitoreddit/status/2044542298646843558"
+          },
+          {
+            "tweet_id": "2045199509807112202",
+            "date": "2026-04-17",
+            "row_type": "portfolio_update",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "hold",
+            "text": "Thats a weird question to ask considering I’m talking about \n$HIMS\n and their pills. \n\nBut yes I have positions, as I’ve disclosed earlier",
+            "url": "https://x.com/aleabitoreddit/status/2045199509807112202"
+          },
+          {
+            "tweet_id": "2046005919637733430",
+            "date": "2026-04-19",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Stuff like \n$TTD\n at $22 is compelling, probably 40-50% upside back to low 30's.. Same with \n$HIMS\n at $28, I can see mean reversion to $40. \n\nAnd \n$RDDT\n at $163, went long around $140, posted some thesis on the way down to $125, but glad it's recovered a bit. \n\nCould probably chop a",
+            "url": "https://x.com/aleabitoreddit/status/2046005919637733430"
+          }
+        ],
+        "HOOD": [
+          {
+            "tweet_id": "1964079336685744438",
+            "date": "2025-09-05",
+            "row_type": "portfolio_update",
+            "is_trade_call": false,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "$HOOD\n added to S&P 500.\n\nNew product launch on Tuesday and banking coming soon. \n\nHuge money flows coming into Robinhood given market cap soon. Might be PLTR v2.\n\nThis is just WSB instincts that go into DD! Some of you probably saw my deleted post guessing inclusion lol",
+            "url": "https://x.com/aleabitoreddit/status/1964079336685744438"
+          },
+          {
+            "tweet_id": "1967241543850541440",
+            "date": "2025-09-14",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "hold",
+            "text": "1. Time stock breakouts + trade based on catalysts.\n\nTip #1:\n- Read \n$RDDT\n, X, WSJ, etc to get info on upcoming events like earnings/etc. But **IGNORE the sentiment** since it's usually wrong. I cannot stress ignore the sentiment enough.\n\nTip 2:\n- Know what a real catalyst is and",
+            "url": "https://x.com/aleabitoreddit/status/1967241543850541440"
+          },
+          {
+            "tweet_id": "2041752476542759313",
+            "date": "2026-04-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Samsung, SK Hynix both back close to ATHs with \n$EWY\n following suit.\n\nBuying back some names that crashed from macro like \n$MSFT\n (-21%), \n$RDDT\n(-36%), or \n$HOOD\n (-31%)…\n\nOr others like \n$ETH\n or \n$IBIT\n here might not be the worst idea.\n\nEspecially as rate cut odds (2-3) spiked on",
+            "url": "https://x.com/aleabitoreddit/status/2041752476542759313"
+          }
+        ],
+        "IBIT": [
+          {
+            "tweet_id": "1940482346006073582",
+            "date": "2025-07-02",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "med",
+            "direction": "long",
+            "action": "enter",
+            "text": "Seriously though \n$IBIT\n \n$BTC\n 2026-2027 Leaps have huge upside\n\nVery low IV (44-55), new bills inflated USD by 10-11%, global monetary supply increasing, historical rallies Jul/August one year after halving. \n\nMeanwhile, selling BTC CCs into weekly high IV = profit despite theta",
+            "url": "https://x.com/aleabitoreddit/status/1940482346006073582"
+          },
+          {
+            "tweet_id": "1949765584989925742",
+            "date": "2025-07-28",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "high",
+            "direction": "long",
+            "action": "enter",
+            "text": "thoughts: Not surprised if the US announcement in 2 days changes US policy to inflate Bitcoin \n$IBIT\n prices by acquiring more.\n\nTrump just bought 300m in Bitcoin calls today along with 2B in Bitcoin for his \n$DJT\n company.\n\nDJT is the new Nancy Pelosi, just follow the lead.",
+            "url": "https://x.com/aleabitoreddit/status/1949765584989925742"
+          },
+          {
+            "tweet_id": "2041752476542759313",
+            "date": "2026-04-08",
+            "row_type": "trade_call",
+            "is_trade_call": true,
+            "conviction": "low",
+            "direction": "long",
+            "action": "enter",
+            "text": "Samsung, SK Hynix both back close to ATHs with \n$EWY\n following suit.\n\nBuying back some names that crashed from macro like \n$MSFT\n (-21%), \n$RDDT\n(-36%), or \n$HOOD\n (-31%)…\n\nOr others like \n$ETH\n or \n$IBIT\n here might not be the worst idea.\n\nEspecially as rate cut odds (2-3) spiked on",
+            "url": "https://x.com/aleabitoreddit/status/2041752476542759313"
+          }
+        ]
+      },
+      "dossier_summary": [
+        {
+          "ticker": "RDDT",
+          "tier": "A",
+          "score": 1,
+          "mentions": 11,
+          "first_mention": "2026-02-13",
+          "alpha": 0.1347
+        },
+        {
+          "ticker": "HIMS",
+          "tier": "BEAR",
+          "score": -3,
+          "mentions": 12,
+          "first_mention": "2025-07-28",
+          "alpha": -0.4833
+        },
+        {
+          "ticker": "HOOD",
+          "tier": "A",
+          "score": 4,
+          "mentions": 6,
+          "first_mention": "2025-07-31",
+          "alpha": -0.1163
+        },
+        {
+          "ticker": "IBIT",
+          "tier": "A",
+          "score": 3,
+          "mentions": 3,
+          "first_mention": "2025-07-28",
+          "alpha": -0.3712
+        }
+      ]
+    }
+  }
+}

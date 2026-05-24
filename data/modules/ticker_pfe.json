@@ -1,0 +1,24 @@
+{
+  "key": "PFE",
+  "name": "Pfizer Inc.",
+  "exchange": "NYSE",
+  "blurb": "Pfizer Inc. is a global biopharmaceutical company headquartered in New York City that discovers, develops, manufactures, and commercializes medicines and vaccines across therapeutic areas including oncology, immunology, cardiology, and infectious disease. The company is one of the largest pharmaceutical firms in the world by revenue, with a broad portfolio spanning branded biologics, small molecules, and consumer health products. Pfizer gained significant scale and public attention through its mRNA-based COVID-19 vaccine (Comirnaty) and antiviral treatment (Paxlovid), developed in partnership with BioNTech, though revenue from those products has declined sharply from pandemic-era peaks. The company continues to invest heavily in R&D and has pursued large acquisitions—most notably the $43 billion purchase of Seagen in 2023—to build out its oncology pipeline.",
+  "recent": "As of mid-May 2026, PFE trades near $25.96 on the NYSE, close to its 52-week low of $21.97 set on May 14, 2025, and well below its 52-week high of $28.75 reached on April 2, 2026. Recent headlines have been driven by broader healthcare sector sentiment, including a rally in healthcare stocks following news of the FDA head's resignation, though analysts at Mizuho noted the boost may be short-lived amid regulatory uncertainty. The stock has shown modest positive movement in after-hours trading, with no major company-specific earnings or pipeline catalysts reported in the most recent 30-day window.",
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/quotes/PFE/",
+      "title": "PFE: Pfizer Inc - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/PFE/news/",
+      "title": "PFE News Today | Why did Pfizer stock go up today? - MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/PFE/news/",
+      "title": "Pfizer Inc. (PFE) Latest Stock News & Headlines - Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:00:44.211501Z",
+  "backend": "claude-sonnet-subagent"
+}

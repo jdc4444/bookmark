@@ -1,0 +1,24 @@
+{
+  "key": "NNE",
+  "name": "NANO Nuclear Energy Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "NANO Nuclear Energy Inc. is a pre-revenue nuclear energy development company focused on advanced microreactor and small modular reactor (SMR) technologies. Its portfolio includes four reactor concepts: KRONOS (high-temperature gas-cooled reactor), LOKI (compact microreactor for remote applications), ZEUS (solid core battery reactor), and ODIN (low-pressure salt coolant reactor). Beyond reactors, the company is developing a high-assay low-enriched uranium (HALEU) fuel processing facility as well as fuel transportation and nuclear consulting businesses. With only 36 employees and no revenue as of its latest filings, NNE is firmly in early-stage development, targeting the emerging market for distributed and off-grid nuclear power.",
+  "recent": "As of mid-May 2026, NNE shares traded around $27, well off their 52-week high of $60.87 but above the 52-week low of $18.93, reflecting ongoing volatility consistent with its beta of 5.14. The company's Q1 2026 earnings were scheduled for May 14, 2026, a near-term catalyst watched closely given a trailing net loss of approximately $43.5M and no revenue. Market cap stood near $1.41B, with analyst consensus at Hold and a price target of $29.50.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/nne/",
+      "title": "NANO Nuclear Energy (NNE) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/NNE",
+      "title": "NNE Stock Price | Nano Nuclear Energy Inc. Stock Quote (U.S.: Nasdaq) — MarketWatch"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/NNE/news/",
+      "title": "NNE News Today — MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:46:04.921758Z",
+  "backend": "claude-sonnet-subagent"
+}

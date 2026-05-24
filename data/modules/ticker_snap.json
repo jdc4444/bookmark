@@ -1,0 +1,20 @@
+{
+  "key": "SNAP",
+  "name": "Snap Inc.",
+  "exchange": "NYSE",
+  "blurb": "Snap Inc. operates Snapchat, a visual messaging app, and offers advertising products, subscription services (Snapchat+, Lens+, Snapchat Platinum), and augmented reality glasses (Spectacles). The company generates revenue primarily from advertising and faces competition from other social media platforms. As of May 2026, Snap has a market cap of about $10.3 billion and is unprofitable, with a net loss of $460 million on revenue of $5.93 billion.",
+  "recent": "In late April 2026, Snap announced a deal with Experian to integrate AI-powered financial education tools into Snapchat's AI Sponsored Snaps format, and disclosed an upcoming CFO transition. The stock rose 11.3% following the news, but also faced an activist investor letter pressing for a review of its Spectacles subsidiary and governance issues. As of May 6, 2026, SNAP traded at $6.11, down 9.47% after-hours.",
+  "sources": [
+    {
+      "url": "https://simplywall.st/stocks/us/media/nyse-snap/snap/news/snap-snap-is-up-113-after-experian-ai-ads-deal-and-activist",
+      "title": "Snap (SNAP) Is Up 11.3% After Experian AI Ads Deal And Activist Letter"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/snap/",
+      "title": "Snap Inc. (SNAP) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T07:46:28.313749Z",
+  "backend": "deepseek"
+}

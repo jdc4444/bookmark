@@ -1,0 +1,63 @@
+{
+  "headline": "The Arbitrage Bot Quietly Printing Money on Polymarket",
+  "lede": "A Polymarket account called distinct-baguette accumulated $441,263 in profit across 26,293 trades since October 2025, drawing viral attention on Reddit before the thread disappeared. The strategy behind the gains is not a secret — it is a textbook arbitrage play, executed by an automated bot running at machine speed.",
+  "body": "A *prediction market* like Polymarket sells contracts worth $1 if a specified event occurs and $0 if it does not. Because one outcome must always happen, a YES contract and a NO contract on the same binary event should together cost exactly $1. When panic or breaking news distorts prices — say, YES falls to 48 cents and NO to 49 cents — both sides can be purchased for 97 cents with a guaranteed $1 payout at settlement. That three-cent margin is **arbitrage**: risk-free profit extracted from a momentary mispricing caused by irrational fear rather than superior forecasting.\n\nThe OCR embedded in the post reveals the mechanism plainly. Alongside distinct-baguette's trading dashboard sits what appears to be a C++ program connected directly to Polymarket's *CLOB* (Central Limit Order Book) API at `clob.polymarket.com`, running on the Polygon blockchain (chain ID 137). The code scans live markets, calculates whether `1.0 - yes_ask - no_ask` exceeds a minimum *spread* threshold, and executes both sides automatically. This is not a hobby strategy; it requires software infrastructure built to operate across hundreds of markets in parallel, completing paired trades within seconds before the gap closes.\n\nThe tweet frames the wallet's performance in conspiratorial terms — a deleted Reddit thread, a throwaway account, a secret shared only in hints. The performance itself is genuine: the platform's own dashboard shows a monotonically rising profit curve with no visible drawdowns, which is exactly what a successful arbitrage bot produces. A single trade on a 15-minute Bitcoin direction market on December 16 returned $11,816 on a $427 stake — a 2,663% gain consistent with buying a near-worthless side that was mathematically guaranteed to win if the combined entry price was below $1.\n\nThe strategy's edge, though real, is narrower than the tweet implies. Polymarket charges fees, and the mispricings that survive long enough for a human to exploit manually are fleeting. A 2024 analysis found that only 12.7% of Polymarket wallets showed any profit at all; the platform's gains concentrate heavily among sophisticated automated participants. The referral suffix in the linked URL — `?via=marlowxbt` — signals that the tweet's author earns a commission on new sign-ups, reframing the post from investigative curiosity to affiliate marketing with a narrative hook.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "Polymarket",
+      "ticker": null
+    },
+    {
+      "name": "Polygon Labs",
+      "ticker": null
+    }
+  ],
+  "poster": "marlowxbt",
+  "concepts": [
+    {
+      "key": "prediction-market",
+      "term": "prediction market",
+      "definition": "A platform where participants trade contracts tied to the outcome of real-world events. Each contract pays $1 if the specified event occurs and $0 if it does not, so the contract price reflects the market's collective probability estimate for that outcome."
+    },
+    {
+      "key": "arbitrage",
+      "term": "arbitrage",
+      "definition": "Exploiting a price discrepancy between two related assets to earn a risk-free profit. In prediction markets, the classic case is buying both YES and NO contracts when their combined price falls below $1, locking in the guaranteed $1 payout at resolution."
+    },
+    {
+      "key": "clob",
+      "term": "CLOB",
+      "definition": "Central Limit Order Book: the matching engine that pairs buy and sell orders at specified prices, analogous to a stock exchange order book. Polymarket's CLOB API allows automated programs to query live market prices and submit trades programmatically without using the web interface."
+    },
+    {
+      "key": "spread",
+      "term": "spread",
+      "definition": "In prediction market arbitrage, the spread is the difference between the guaranteed $1 payout and the combined cost of YES and NO contracts. A positive spread — meaning the two sides together cost less than $1 — signals an exploitable profit opportunity."
+    },
+    {
+      "key": "binary-market",
+      "term": "binary market",
+      "definition": "A prediction market with exactly two mutually exclusive outcomes, such as whether Bitcoin's price will rise or fall in a 15-minute window. Because one outcome must occur, the two contracts are perfectly complementary and their prices should mathematically sum to $1 at any moment."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet implies the strategy is a hidden secret uncovered through Reddit archaeology, accessible to anyone willing to 'stop asking how.' In practice, prediction market arbitrage — buying both sides of a binary contract when their combined price slips below $1 — is a well-documented technique, not a revelation. The OCR of the post itself shows C++ bot source code and a live trading terminal labeled 'POLYMARKET ARBITRAGE BOT,' confirming this is automated infrastructure rather than a manual trick any retail participant can replicate. The referral URL (`?via=marlowxbt`) indicates the author earns a commission on new Polymarket sign-ups, adding a financial incentive to make the account's performance appear more replicable than it is.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://dailycoin.com/polymarket-betters-are-overwhelmingly-losing-money-heres-why/",
+      "title": "Polymarket Betters Are Overwhelmingly Losing Money: Here's Why",
+      "note": "Provides the 12.7% profitable-wallet statistic and documents how gains concentrate among sophisticated automated traders."
+    },
+    {
+      "url": "https://ariverwhale.substack.com/p/polymarket-faq",
+      "title": "Polymarket F.A.Q. — A River Whale",
+      "note": "Explains Polymarket's contract structure, fee model, and how the UMA resolution system settles disputed outcomes."
+    }
+  ],
+  "bookmark_id": "2015251253681361009",
+  "generated_at": "2026-05-07T04:11:22.349469Z",
+  "backend": "claude"
+}

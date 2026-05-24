@@ -1,0 +1,757 @@
+{
+  "authenticated_user": {},
+  "bookmark_count": 8,
+  "bookmarks": [
+    {
+      "author": {
+        "id": "BlackPantherCap",
+        "name": "Black Panther Capital",
+        "username": "BlackPantherCap"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-16T13:53:24.000Z",
+      "engagement_score": 18.0,
+      "id": "2055647808783282486",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5007,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 2
+      },
+      "raw": {
+        "author": {
+          "name": "Black Panther Capital",
+          "username": "BlackPantherCap"
+        },
+        "created_at": "2026-05-16T13:53:24.000Z",
+        "id": "2055647808783282486",
+        "longform_fetched": false,
+        "media": [],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 5007,
+          "like_count": 13,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 2
+        },
+        "quoted_tweet": null,
+        "raw_text": "Black Panther Capital @BlackPantherCap · 18h Replying to @BlackPantherCap 4/6. What I think he trimmed: $BE — up 191% YTD. He’s disciplined about not holding consensus positions. partial trim is probable. $SNDK — up 816% 1Y. Some profit-taking after that run is just basic portfolio hygiene. $INTC calls — If these were exercised into direct shares during the Q1 rally, the position structure shifts. watch for reclassification from “call” to “SH” in the filing. What I think he held firm: $LITE — Nvidia locked this supply chain. you don’t sell a structural position after a procurement commitment that size. $IREN $CORZ $CIFR — AI compute campuses. the thesis is still early. he’s not done here. 1 2 13 5K",
+        "reply_to": [
+          "BlackPantherCap"
+        ],
+        "text": "4/6. What I think he trimmed: $BE — up 191% YTD. He’s disciplined about not holding consensus positions. partial trim is probable. $SNDK — up 816% 1Y. Some profit-taking after that run is just basic portfolio hygiene. $INTC calls — If these were exercised into direct shares during the Q1 rally, the position structure shifts. watch for reclassification from “call” to “SH” in the filing. What I think he held firm: $LITE — Nvidia locked this supply chain. you don’t sell a structural position after a procurement commitment that size. $IREN $CORZ $CIFR — AI compute campuses. the thesis is still early. he’s not done here.",
+        "truncated": false,
+        "url": "https://x.com/BlackPantherCap/status/2055647808783282486",
+        "urls": [
+          {
+            "display_url": "$BE",
+            "expanded_url": "https://x.com/search?q=%24BE&src=cashtag_click",
+            "title": "$BE"
+          },
+          {
+            "display_url": "$SNDK",
+            "expanded_url": "https://x.com/search?q=%24SNDK&src=cashtag_click",
+            "title": "$SNDK"
+          },
+          {
+            "display_url": "$INTC",
+            "expanded_url": "https://x.com/search?q=%24INTC&src=cashtag_click",
+            "title": "$INTC"
+          },
+          {
+            "display_url": "$LITE",
+            "expanded_url": "https://x.com/search?q=%24LITE&src=cashtag_click",
+            "title": "$LITE"
+          },
+          {
+            "display_url": "$IREN",
+            "expanded_url": "https://x.com/search?q=%24IREN&src=cashtag_click",
+            "title": "$IREN"
+          },
+          {
+            "display_url": "$CORZ",
+            "expanded_url": "https://x.com/search?q=%24CORZ&src=cashtag_click",
+            "title": "$CORZ"
+          },
+          {
+            "display_url": "$CIFR",
+            "expanded_url": "https://x.com/search?q=%24CIFR&src=cashtag_click",
+            "title": "$CIFR"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "reply_to": [
+        "BlackPantherCap"
+      ],
+      "source": "Safari X bookmark timeline",
+      "text": "4/6. What I think he trimmed: $BE — up 191% YTD. He’s disciplined about not holding consensus positions. partial trim is probable. $SNDK — up 816% 1Y. Some profit-taking after that run is just basic portfolio hygiene. $INTC calls — If these were exercised into direct shares during the Q1 rally, the position structure shifts. watch for reclassification from “call” to “SH” in the filing. What I think he held firm: $LITE — Nvidia locked this supply chain. you don’t sell a structural position after a procurement commitment that size. $IREN $CORZ $CIFR — AI compute campuses. the thesis is still early. he’s not done here.",
+      "url": "https://x.com/BlackPantherCap/status/2055647808783282486",
+      "urls": [
+        {
+          "display_url": "$BE",
+          "expanded_url": "https://x.com/search?q=%24BE&src=cashtag_click",
+          "title": "$BE"
+        },
+        {
+          "display_url": "$SNDK",
+          "expanded_url": "https://x.com/search?q=%24SNDK&src=cashtag_click",
+          "title": "$SNDK"
+        },
+        {
+          "display_url": "$INTC",
+          "expanded_url": "https://x.com/search?q=%24INTC&src=cashtag_click",
+          "title": "$INTC"
+        },
+        {
+          "display_url": "$LITE",
+          "expanded_url": "https://x.com/search?q=%24LITE&src=cashtag_click",
+          "title": "$LITE"
+        },
+        {
+          "display_url": "$IREN",
+          "expanded_url": "https://x.com/search?q=%24IREN&src=cashtag_click",
+          "title": "$IREN"
+        },
+        {
+          "display_url": "$CORZ",
+          "expanded_url": "https://x.com/search?q=%24CORZ&src=cashtag_click",
+          "title": "$CORZ"
+        },
+        {
+          "display_url": "$CIFR",
+          "expanded_url": "https://x.com/search?q=%24CIFR&src=cashtag_click",
+          "title": "$CIFR"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "bubbleboi",
+        "name": "bubble boi",
+        "username": "bubbleboi"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-15T21:57:34.000Z",
+      "engagement_score": 852.0,
+      "id": "2055407265667277248",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 131529,
+        "like_count": 791,
+        "quote_count": 0,
+        "reply_count": 17,
+        "retweet_count": 22
+      },
+      "raw": {
+        "author": {
+          "name": "bubble boi",
+          "username": "bubbleboi"
+        },
+        "created_at": "2026-05-15T21:57:34.000Z",
+        "id": "2055407265667277248",
+        "longform_fetched": false,
+        "media": [],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 131529,
+          "like_count": 791,
+          "quote_count": 0,
+          "reply_count": 17,
+          "retweet_count": 22
+        },
+        "quoted_tweet": null,
+        "raw_text": "bubble boi @bubbleboi · May 16 Massive long btw. Quote Dan Nystedt @dnystedt · May 15 Kioxia, the Japanese NAND Flash memory chip giant, plans to list shares on a U.S. stock exchange “to grow its investor base and increase its corporate value,” the company said, noting details of the planned ADS listing, including which market, have not yet been decided. $MU 17 22 791 131K",
+        "reply_to": [],
+        "text": "Massive long btw.",
+        "truncated": false,
+        "url": "https://x.com/bubbleboi/status/2055407265667277248",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Massive long btw.",
+      "url": "https://x.com/bubbleboi/status/2055407265667277248",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "WalterDeemer",
+        "name": "Walter Deemer",
+        "username": "WalterDeemer"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-15T18:27:23.000Z",
+      "engagement_score": 638.0,
+      "id": "2055354371211215184",
+      "lang": null,
+      "media": [
+        {
+          "alt": "Image",
+          "height": 500,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HIYV3epXEAAQxhi?format=png&name=large",
+          "width": 618
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 77268,
+        "like_count": 490,
+        "quote_count": 0,
+        "reply_count": 8,
+        "retweet_count": 70
+      },
+      "raw": {
+        "author": {
+          "name": "Walter Deemer",
+          "username": "WalterDeemer"
+        },
+        "created_at": "2026-05-15T18:27:23.000Z",
+        "id": "2055354371211215184",
+        "longform_fetched": false,
+        "media": [
+          {
+            "alt": "Image",
+            "height": 500,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HIYV3epXEAAQxhi?format=png&name=large",
+            "width": 618
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 77268,
+          "like_count": 490,
+          "quote_count": 0,
+          "reply_count": 8,
+          "retweet_count": 70
+        },
+        "quoted_tweet": null,
+        "raw_text": "Walter Deemer @WalterDeemer · May 16 Here's what the advance-decline line looked like during the dot-com bubble (Jan 1998-Jul 2000) 8 70 490 77K",
+        "reply_to": [],
+        "text": "Here's what the advance-decline line looked like during the dot-com bubble (Jan 1998-Jul 2000)",
+        "truncated": false,
+        "url": "https://x.com/WalterDeemer/status/2055354371211215184",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Here's what the advance-decline line looked like during the dot-com bubble (Jan 1998-Jul 2000)",
+      "url": "https://x.com/WalterDeemer/status/2055354371211215184",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "InTheAssembly",
+        "name": "The Assembly",
+        "username": "InTheAssembly"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-15T16:00:02.000Z",
+      "engagement_score": 114.0,
+      "id": "2055317290862657837",
+      "lang": null,
+      "media": [],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 48369,
+        "like_count": 111,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "raw": {
+        "author": {
+          "name": "The Assembly",
+          "username": "InTheAssembly"
+        },
+        "created_at": "2026-05-15T16:00:02.000Z",
+        "id": "2055317290862657837",
+        "longform_fetched": false,
+        "media": [],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 48369,
+          "like_count": 111,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "quoted_tweet": null,
+        "raw_text": "The Assembly @InTheAssembly · May 15 Replying to @InTheAssembly Top buys this quarter: – AAPL added $781M (the big one) – NVDA added $278M – LIN added $258M Apple back in favor with the quants. Adding to NVDA. Linde is the industrial gases compounder making a comeback. 1 1 111 48K",
+        "reply_to": [
+          "InTheAssembly"
+        ],
+        "text": "Top buys this quarter: – AAPL added $781M (the big one) – NVDA added $278M – LIN added $258M Apple back in favor with the quants. Adding to NVDA. Linde is the industrial gases compounder making a comeback.",
+        "truncated": false,
+        "url": "https://x.com/InTheAssembly/status/2055317290862657837",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "reply_to": [
+        "InTheAssembly"
+      ],
+      "source": "Safari X bookmark timeline",
+      "text": "Top buys this quarter: – AAPL added $781M (the big one) – NVDA added $278M – LIN added $258M Apple back in favor with the quants. Adding to NVDA. Linde is the industrial gases compounder making a comeback.",
+      "url": "https://x.com/InTheAssembly/status/2055317290862657837",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "aleabitoreddit",
+        "name": "Serenity",
+        "username": "aleabitoreddit"
+      },
+      "category": "Business and startups",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-15T02:17:59.000Z",
+      "engagement_score": 712.0,
+      "id": "2055110412375621643",
+      "lang": null,
+      "media": [
+        {
+          "alt": "Image",
+          "height": 880,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HIU4BdCakAE638n?format=jpg&name=large",
+          "width": 1200
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 488031,
+        "like_count": 586,
+        "quote_count": 0,
+        "reply_count": 42,
+        "retweet_count": 42
+      },
+      "quoted_tweet": {
+        "author_name": "Serenity",
+        "author_username": "aleabitoreddit",
+        "created_at": "2026-05-13T00:56:05.000Z",
+        "id": "2054365028820881794",
+        "media": [
+          {
+            "alt": "Image",
+            "height": 240,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HIKSGc9awAEEw2a?format=jpg&name=large",
+            "width": 146
+          },
+          {
+            "alt": "Image",
+            "height": 117,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HIKSGc9akAAwMYm?format=jpg&name=large",
+            "width": 240
+          },
+          {
+            "alt": "Image",
+            "height": 178,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HIKSGc_aEAEjh2V?format=jpg&name=large",
+            "width": 240
+          },
+          {
+            "alt": "Image",
+            "height": 164,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HIKSGc8aIAAkmnL?format=jpg&name=large",
+            "width": 680
+          }
+        ],
+        "text": "FOCI (3363) is looks extremely compelling around now at ~$3.35B MC for CPO exposure. 1. $TSM COUPE advanced packaging director hinted that FAU supplies by FOCI be a pretty big bottleneck for mass production. 2. Leading supplier for $NVDA and $TSM expected with up to 50% market",
+        "url": "https://x.com/aleabitoreddit/status/2054365028820881794/photo/1"
+      },
+      "raw": {
+        "author": {
+          "name": "Serenity",
+          "username": "aleabitoreddit"
+        },
+        "created_at": "2026-05-15T02:17:59.000Z",
+        "id": "2055110412375621643",
+        "longform_fetched": false,
+        "media": [
+          {
+            "alt": "Image",
+            "height": 880,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HIU4BdCakAE638n?format=jpg&name=large",
+            "width": 1200
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 488031,
+          "like_count": 586,
+          "quote_count": 0,
+          "reply_count": 42,
+          "retweet_count": 42
+        },
+        "quoted_tweet": {
+          "author_name": "Serenity",
+          "author_username": "aleabitoreddit",
+          "created_at": "2026-05-13T00:56:05.000Z",
+          "id": "2054365028820881794",
+          "media": [
+            {
+              "alt": "Image",
+              "height": 240,
+              "source": "tweet_media",
+              "type": "image",
+              "url": "https://pbs.twimg.com/media/HIKSGc9awAEEw2a?format=jpg&name=large",
+              "width": 146
+            },
+            {
+              "alt": "Image",
+              "height": 117,
+              "source": "tweet_media",
+              "type": "image",
+              "url": "https://pbs.twimg.com/media/HIKSGc9akAAwMYm?format=jpg&name=large",
+              "width": 240
+            },
+            {
+              "alt": "Image",
+              "height": 178,
+              "source": "tweet_media",
+              "type": "image",
+              "url": "https://pbs.twimg.com/media/HIKSGc_aEAEjh2V?format=jpg&name=large",
+              "width": 240
+            },
+            {
+              "alt": "Image",
+              "height": 164,
+              "source": "tweet_media",
+              "type": "image",
+              "url": "https://pbs.twimg.com/media/HIKSGc8aIAAkmnL?format=jpg&name=large",
+              "width": 680
+            }
+          ],
+          "text": "FOCI (3363) is looks extremely compelling around now at ~$3.35B MC for CPO exposure. 1. $TSM COUPE advanced packaging director hinted that FAU supplies by FOCI be a pretty big bottleneck for mass production. 2. Leading supplier for $NVDA and $TSM expected with up to 50% market",
+          "url": "https://x.com/aleabitoreddit/status/2054365028820881794/photo/1"
+        },
+        "raw_text": "Serenity @aleabitoreddit · May 15 FOCI (3363) is one of the most undervalued CPO players in the entire market right now at ~$3B. Their BOM is massive relative to MC and they're expected to capture a dominant market share for $NVDA / $TSM . You only start to see this show up 2027 / 2028, even though we're entering H2 2026 now (which is what I mean by frontrunning CPO supercycle). Quote Serenity @aleabitoreddit · May 13 FOCI (3363) is looks extremely compelling around now at ~$3.35B MC for CPO exposure. 1. $TSM COUPE advanced packaging director hinted that FAU supplies by FOCI be a pretty big bottleneck for mass production. 2. Leading supplier for $NVDA and $TSM expected with up to 50% market 42 35 586 488K",
+        "reply_to": [],
+        "text": "FOCI (3363) is one of the most undervalued CPO players in the entire market right now at ~$3B. Their BOM is massive relative to MC and they're expected to capture a dominant market share for $NVDA / $TSM . You only start to see this show up 2027 / 2028, even though we're entering H2 2026 now (which is what I mean by frontrunning CPO supercycle).",
+        "truncated": false,
+        "url": "https://x.com/aleabitoreddit/status/2055110412375621643",
+        "urls": [
+          {
+            "display_url": "$NVDA",
+            "expanded_url": "https://x.com/search?q=%24NVDA&src=cashtag_click",
+            "title": "$NVDA"
+          },
+          {
+            "display_url": "$TSM",
+            "expanded_url": "https://x.com/search?q=%24TSM&src=cashtag_click",
+            "title": "$TSM"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "FOCI (3363) is one of the most undervalued CPO players in the entire market right now at ~$3B. Their BOM is massive relative to MC and they're expected to capture a dominant market share for $NVDA / $TSM . You only start to see this show up 2027 / 2028, even though we're entering H2 2026 now (which is what I mean by frontrunning CPO supercycle).",
+      "url": "https://x.com/aleabitoreddit/status/2055110412375621643",
+      "urls": [
+        {
+          "display_url": "$NVDA",
+          "expanded_url": "https://x.com/search?q=%24NVDA&src=cashtag_click",
+          "title": "$NVDA"
+        },
+        {
+          "display_url": "$TSM",
+          "expanded_url": "https://x.com/search?q=%24TSM&src=cashtag_click",
+          "title": "$TSM"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "evergreencap3",
+        "name": "Evergreen Capital",
+        "username": "evergreencap3"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-14T20:22:02.000Z",
+      "engagement_score": 240.0,
+      "id": "2055020836831039600",
+      "lang": null,
+      "media": [
+        {
+          "alt": "",
+          "height": 659,
+          "source": "video_thumb",
+          "type": "image",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2055010671041896448/img/qb9nPdCIzvIuZK-H.jpg?name=large",
+          "width": 1200
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 35101,
+        "like_count": 206,
+        "quote_count": 0,
+        "reply_count": 10,
+        "retweet_count": 12
+      },
+      "raw": {
+        "author": {
+          "name": "Evergreen Capital",
+          "username": "evergreencap3"
+        },
+        "created_at": "2026-05-14T20:22:02.000Z",
+        "id": "2055020836831039600",
+        "longform_fetched": false,
+        "media": [
+          {
+            "alt": "",
+            "height": 659,
+            "source": "video_thumb",
+            "type": "image",
+            "url": "https://pbs.twimg.com/amplify_video_thumb/2055010671041896448/img/qb9nPdCIzvIuZK-H.jpg?name=large",
+            "width": 1200
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 35101,
+          "like_count": 206,
+          "quote_count": 0,
+          "reply_count": 10,
+          "retweet_count": 12
+        },
+        "quoted_tweet": null,
+        "raw_text": "Evergreen Capital @evergreencap3 · May 15 . @alexandr_wang is telling you the models scale predictably. He's telling you bigger and smarter models are coming. And he's telling you GPUs are abundant. Those are the key ingredients for success at the frontier, and they're being laid out in plain sight. Yet success is still not priced into $META stock, which trades at a somewhat pathetic ~16x 2027e EPS. To quote the great @DavidTepper5 , my reaction to the current multiple is that I don't care. The multiple will evolve to reflect the oncoming reality, and at this point they've given us enough to believe. The ingredients are there, the foundation is there, the path is there, the compute is there, the team is cracked, and the potential to apply this technology across the company's billions of daily users and more than 250 million businesses is extraordinary. The upside from re-rating alone is substantial. 22.5x to 25x gets you to $830 to $925, or a 35% to 50% return. That's close to a home run in mega-cap land. And that's before accounting for any upside to numbers from this technology, which seems likely, and the fact that long-run earnings power is still so much higher. I expect this will be a very good stock from here, and I'm excited to see everything MSL has cooking for this year and beyond. 10 12 206 35K",
+        "reply_to": [],
+        "text": ". @alexandr_wang is telling you the models scale predictably. He's telling you bigger and smarter models are coming. And he's telling you GPUs are abundant. Those are the key ingredients for success at the frontier, and they're being laid out in plain sight. Yet success is still not priced into $META stock, which trades at a somewhat pathetic ~16x 2027e EPS. To quote the great @DavidTepper5 , my reaction to the current multiple is that I don't care. The multiple will evolve to reflect the oncoming reality, and at this point they've given us enough to believe. The ingredients are there, the foundation is there, the path is there, the compute is there, the team is cracked, and the potential to apply this technology across the company's billions of daily users and more than 250 million businesses is extraordinary. The upside from re-rating alone is substantial. 22.5x to 25x gets you to $830 to $925, or a 35% to 50% return. That's close to a home run in mega-cap land. And that's before accounting for any upside to numbers from this technology, which seems likely, and the fact that long-run earnings power is still so much higher. I expect this will be a very good stock from here, and I'm excited to see everything MSL has cooking for this year and beyond.",
+        "truncated": false,
+        "url": "https://x.com/evergreencap3/status/2055020836831039600",
+        "urls": [
+          {
+            "display_url": "$META",
+            "expanded_url": "https://x.com/search?q=%24META&src=cashtag_click",
+            "title": "$META"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": ". @alexandr_wang is telling you the models scale predictably. He's telling you bigger and smarter models are coming. And he's telling you GPUs are abundant. Those are the key ingredients for success at the frontier, and they're being laid out in plain sight. Yet success is still not priced into $META stock, which trades at a somewhat pathetic ~16x 2027e EPS. To quote the great @DavidTepper5 , my reaction to the current multiple is that I don't care. The multiple will evolve to reflect the oncoming reality, and at this point they've given us enough to believe. The ingredients are there, the foundation is there, the path is there, the compute is there, the team is cracked, and the potential to apply this technology across the company's billions of daily users and more than 250 million businesses is extraordinary. The upside from re-rating alone is substantial. 22.5x to 25x gets you to $830 to $925, or a 35% to 50% return. That's close to a home run in mega-cap land. And that's before accounting for any upside to numbers from this technology, which seems likely, and the fact that long-run earnings power is still so much higher. I expect this will be a very good stock from here, and I'm excited to see everything MSL has cooking for this year and beyond.",
+      "url": "https://x.com/evergreencap3/status/2055020836831039600",
+      "urls": [
+        {
+          "display_url": "$META",
+          "expanded_url": "https://x.com/search?q=%24META&src=cashtag_click",
+          "title": "$META"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "AndrewHiesinger",
+        "name": "Andrew Hiesinger",
+        "username": "AndrewHiesinger"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-14T20:03:29.000Z",
+      "engagement_score": 322.0,
+      "id": "2055016167954100674",
+      "lang": null,
+      "media": [
+        {
+          "alt": "Image",
+          "height": 652,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HITiQVcWgAAcP8V?format=jpg&name=large",
+          "width": 1138
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 25295,
+        "like_count": 230,
+        "quote_count": 0,
+        "reply_count": 24,
+        "retweet_count": 34
+      },
+      "raw": {
+        "author": {
+          "name": "Andrew Hiesinger",
+          "username": "AndrewHiesinger"
+        },
+        "created_at": "2026-05-14T20:03:29.000Z",
+        "id": "2055016167954100674",
+        "longform_fetched": false,
+        "media": [
+          {
+            "alt": "Image",
+            "height": 652,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HITiQVcWgAAcP8V?format=jpg&name=large",
+            "width": 1138
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 25295,
+          "like_count": 230,
+          "quote_count": 0,
+          "reply_count": 24,
+          "retweet_count": 34
+        },
+        "quoted_tweet": null,
+        "raw_text": "Andrew Hiesinger @AndrewHiesinger · May 15 $5M Put Spike on $QQQ into the close. Puts crossed Calls. 24 34 230 25K",
+        "reply_to": [],
+        "text": "$5M Put Spike on $QQQ into the close. Puts crossed Calls.",
+        "truncated": false,
+        "url": "https://x.com/AndrewHiesinger/status/2055016167954100674",
+        "urls": [
+          {
+            "display_url": "$QQQ",
+            "expanded_url": "https://x.com/search?q=%24QQQ&src=cashtag_click",
+            "title": "$QQQ"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "$5M Put Spike on $QQQ into the close. Puts crossed Calls.",
+      "url": "https://x.com/AndrewHiesinger/status/2055016167954100674",
+      "urls": [
+        {
+          "display_url": "$QQQ",
+          "expanded_url": "https://x.com/search?q=%24QQQ&src=cashtag_click",
+          "title": "$QQQ"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "EffMktHype",
+        "name": "𝐄𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 𝐌𝐚𝐫𝐤𝐞𝐭 𝐇𝐲𝐩𝐞",
+        "username": "EffMktHype"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-14T15:52:49.000Z",
+      "engagement_score": 115.0,
+      "id": "2054953085831925968",
+      "lang": null,
+      "media": [
+        {
+          "alt": "Image",
+          "height": 1200,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HISo5XPb0AAEMZp?format=jpg&name=large",
+          "width": 776
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12750,
+        "like_count": 98,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 6
+      },
+      "raw": {
+        "author": {
+          "name": "𝐄𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 𝐌𝐚𝐫𝐤𝐞𝐭 𝐇𝐲𝐩𝐞",
+          "username": "EffMktHype"
+        },
+        "created_at": "2026-05-14T15:52:49.000Z",
+        "id": "2054953085831925968",
+        "longform_fetched": false,
+        "media": [
+          {
+            "alt": "Image",
+            "height": 1200,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HISo5XPb0AAEMZp?format=jpg&name=large",
+            "width": 776
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 12750,
+          "like_count": 98,
+          "quote_count": 0,
+          "reply_count": 5,
+          "retweet_count": 6
+        },
+        "quoted_tweet": null,
+        "raw_text": "𝐄𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 𝐌𝐚𝐫𝐤𝐞𝐭 𝐇𝐲𝐩𝐞 @EffMktHype · May 14 lmao i give this a week 5 6 98 12K",
+        "reply_to": [],
+        "text": "lmao i give this a week",
+        "truncated": false,
+        "url": "https://x.com/EffMktHype/status/2054953085831925968",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "lmao i give this a week",
+      "url": "https://x.com/EffMktHype/status/2054953085831925968",
+      "urls": []
+    }
+  ],
+  "generated_at": "2026-05-17T08:28:17Z",
+  "includes": {},
+  "pages": [
+    {
+      "scrolls": 1,
+      "source": "Safari"
+    }
+  ],
+  "requested_user_id": null,
+  "source": "safari-x-bookmarks-timeline"
+}

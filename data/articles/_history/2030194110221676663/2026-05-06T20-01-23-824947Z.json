@@ -1,0 +1,48 @@
+{
+  "headline": "Claude Code Gains a Scheduler for Autonomous AI Workflows",
+  "lede": "Boris Cherny, the creator and head of Claude Code at Anthropic, quietly dropped a thread on March 7, 2026 pointing developers to a new capability: running AI prompts on a schedule, without a human in the loop. The feature — documented at code.claude.com — turns Claude Code from an on-demand coding assistant into something closer to an autonomous background worker.",
+  "body": "Most AI coding tools are reactive: a developer types, the model responds, the loop closes. Scheduled prompts break that contract. A developer can now instruct Claude Code to run a task — a nightly code-review sweep, a recurring bug triage, a Monday morning summary of open pull requests — and have it execute automatically, like a *cron job* (a Unix scheduler that fires commands at fixed times or intervals) but with a full language model behind it.\n\nThe distinction matters. Cherny has publicly argued that the limiting factor in AI-assisted development is no longer model capability but workflow design — specifically, how many agents a developer can keep running in parallel. His viral workflow, covered in VentureBeat, showed him orchestrating multiple Claude Code instances simultaneously. Scheduling is the natural extension: agents that don't need to be started at all.\n\nCherny has characterized Claude Code's trajectory in stark terms, telling *Lenny's Podcast* that \"coding is solved\" and asking what professional software work looks like after that threshold. Scheduled, autonomous prompt execution is one answer: the model becomes infrastructure, not a conversational partner. The feature positions Claude Code alongside tools like GitHub Actions or CI/CD pipelines — systems that run code on events and timers, not human whims.\n\nThe engagement numbers on this thread — 193,000 impressions, 837 likes — suggest the developer audience found it significant rather than routine. Whether that enthusiasm reflects excitement about the specific feature or about Cherny's broader credibility as the architect of Claude Code is harder to separate.",
+  "tickers": [],
+  "poster": "bcherny",
+  "concepts": [
+    {
+      "key": "scheduled-agents",
+      "term": "scheduled agents",
+      "definition": "AI agents configured to run automatically at fixed times or intervals, rather than in response to a human prompt. Analogous to cron jobs in Unix systems, but the executed task is a language-model prompt rather than a shell command."
+    },
+    {
+      "key": "cron-job",
+      "term": "cron job",
+      "definition": "A Unix mechanism for scheduling commands to run automatically at specified times or intervals — e.g., every night at midnight or every Monday at 9am. The name comes from the Greek word for time, *chronos*. Developers use cron jobs for backups, report generation, and other recurring tasks."
+    },
+    {
+      "key": "agentic-workflow",
+      "term": "agentic workflow",
+      "definition": "A software pattern where an AI model takes a sequence of actions — reading files, running code, calling APIs — autonomously and over multiple steps, rather than producing a single response to a single prompt. The model acts as an agent pursuing a goal, not just a question-answerer."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": "This tweet is a reply within Cherny's own thread, serving as a 'Learn more' pointer to the official Claude Code documentation for scheduling prompts. The parent tweet in the thread likely announced or demonstrated the feature; this reply provides the canonical docs link for developers who want implementation details.",
+  "sources": [
+    {
+      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+      "title": "The creator of Claude Code just revealed his workflow",
+      "note": "VentureBeat coverage of Cherny's multi-agent parallel workflow, context for the scheduling feature"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
+      "title": "Head of Claude Code: What happens after coding is solved",
+      "note": "Lenny's Podcast interview establishing Cherny's 'coding is solved' thesis and Claude Code's growth trajectory"
+    },
+    {
+      "url": "https://github.com/bcherny",
+      "title": "bcherny (Boris Cherny) · GitHub",
+      "note": "Author profile confirming identity"
+    }
+  ],
+  "bookmark_id": "2030194110221676663",
+  "generated_at": "2026-05-06T20:01:23.824947Z",
+  "backend": "claude"
+}

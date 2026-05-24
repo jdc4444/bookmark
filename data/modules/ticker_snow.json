@@ -1,0 +1,20 @@
+{
+  "key": "SNOW",
+  "name": "Snowflake Inc.",
+  "exchange": "NYSE",
+  "blurb": "Snowflake Inc. provides a cloud-based data platform that enables organizations to consolidate data, build data applications, and share data products. Its platform includes the AI Data Cloud, which applies artificial intelligence to solve business problems. Snowflake serves industries such as financial services, healthcare, retail, and technology. The company is a leader in the cloud data warehousing market, competing with Amazon Redshift and Google BigQuery.",
+  "recent": "As of May 6, 2026, SNOW closed at $139.74, down 1.39% on the day, with a market cap of $48.25B. The stock has a 52-week range of $118.30–$280.67 and is trading below its analyst price target of $248.62. Upcoming earnings are scheduled for May 27, 2026.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/SNOW/",
+      "title": "Snowflake Inc. (SNOW) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/snow/",
+      "title": "Snowflake (SNOW) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T12:28:19.688694Z",
+  "backend": "deepseek"
+}

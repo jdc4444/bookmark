@@ -1,0 +1,16 @@
+{
+  "key": "MatiasScalbi",
+  "display_name": "Matias Scalbi (@MatiasScalbi)",
+  "blurb": "Matias Scalbi is an Argentine finance commentator based in Rosario who has been engaged with markets since age 16. He is associated with IEM (Invirtiendo el Mercado — Investing the Market), an Argentine financial education and analysis platform, and studied at Universidad Austral. His X presence focuses on quantitative investing ideas, systematic strategies, and accessible explanations of academic finance research, often translating award-winning or academic papers into viral thread format for a Spanish-speaking and English-speaking retail audience.",
+  "credibility_note": "Scalbi is a finance communicator and retail investor educator, not an institutional fund manager or academic. His strength is surfacing and popularizing research; his summaries sometimes compress or amplify figures in ways that diverge from the source papers (see the '$28 trillion' claim in his Gayed/Bilello thread). Readers should verify key numbers against primary sources before acting on them.",
+  "links": [
+    {"label": "@MatiasScalbi on X", "url": "https://x.com/MatiasScalbi"},
+    {"label": "LinkedIn", "url": "https://www.linkedin.com/in/matiasscalbi/"}
+  ],
+  "sources": [
+    {"url": "https://www.linkedin.com/in/matiasscalbi/", "title": "Matias Scalbi — LinkedIn (IEM / Universidad Austral)"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

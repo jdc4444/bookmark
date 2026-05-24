@@ -1,0 +1,22 @@
+{
+  "key": "CultureExploreX",
+  "display_name": "Culture Explorer",
+  "blurb": "Culture Explorer curates and shares threads on art, architecture, history, and cultural marvels from around the world. They highlight overlooked masterpieces, from Baroque sculpture to Gothic cathedrals, often aggregating content from other X users. Their following is modest but engaged, with a focus on aesthetic and historical appreciation.",
+  "credibility_note": null,
+  "links": [
+    "https://thecultureexplorer.beehiiv.com/"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/CultureExploreX/with_replies",
+      "title": "Culture Explorer (@CultureExploreX) / Posts and Replies / X"
+    },
+    {
+      "url": "https://thecultureexplorer.beehiiv.com/p/content-on-x-that-you-may-have-missed",
+      "title": "Content on X that you may have Missed."
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-07T07:47:37.253750Z",
+  "backend": "deepseek"
+}

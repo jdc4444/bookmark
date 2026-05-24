@@ -1,0 +1,13 @@
+{
+  "key": "LRCX",
+  "name": "Lam Research Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Lam Research is a leading semiconductor equipment company specialising in deposition (CVD, ALD) and etch systems — the tools that add and remove material layers during chip fabrication. Lam has particularly strong positioning in 3D NAND flash memory manufacturing, where its multi-layer deposition and etch tools are essential for building the hundreds of memory layers in modern NAND stacks. It also supplies critical tools for DRAM and advanced logic. Lam competes most directly with Applied Materials and Tokyo Electron, with each company holding dominant positions in different tool categories.",
+  "recent": "Lam Research trades at a forward P/E of ~36.2x on 30.7% projected EPS growth (PEG 1.18). The company has benefited from the NAND memory capacity buildout and is positioned to grow as 3D NAND layer counts increase — requiring more of Lam's deposition cycles per wafer. Revenue exceeded $17 billion in FY2025. Export restrictions to China have created some headwinds but domestic and non-China customer spending has partially offset the impact.",
+  "sources": [
+    {"url": "https://www.ainvest.com/news/undervalued-semiconductor-stocks-2026-wall-street-strategic-outlook-2601/", "title": "Undervalued Semiconductor Stocks 2026 — AInvest"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

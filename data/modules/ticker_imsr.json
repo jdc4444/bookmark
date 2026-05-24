@@ -1,0 +1,24 @@
+{
+  "key": "IMSR",
+  "name": "Terrestrial Energy Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Terrestrial Energy is a nuclear technology company developing its proprietary Integral Molten Salt Reactor (IMSR), a Generation IV small modular reactor (SMR) that uses liquid fluoride salt as both fuel carrier and coolant. The design operates at higher temperatures and lower pressures than conventional light-water reactors, targeting industrial heat and electricity markets. The company is advancing through the U.S. Nuclear Regulatory Commission (NRC) pre-licensing review process as it works toward commercial IMSR plant deployment. It completed its NASDAQ IPO in 2024.",
+  "recent": "On May 13, 2026, the NRC issued a Safety Evaluation Report approving Terrestrial Energy's Postulated Initiating Events (PIE) Topical Report — the second recent Topical Report approval and a foundational regulatory milestone for future IMSR plant licensed operation. On May 8, 2026, the company appointed Tyler Gronbach as VP of Investor Relations and Public Relations to expand institutional and analyst engagement as commercialization efforts accelerate. Shares have shed roughly 38% over the past six months, trading near $7.12.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/IMSR/",
+      "title": "Terrestrial Energy Inc. (IMSR) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/IMSR/news/",
+      "title": "IMSR News Today | Why did Terrestrial Energy stock go down today? — MarketBeat"
+    },
+    {
+      "url": "https://www.quantisnow.com/company/IMSR",
+      "title": "IMSR - Terrestrial Energy Inc. stock news, filings & ratings — Quantisnow"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:32:58.017994Z",
+  "backend": "claude-sonnet-subagent"
+}

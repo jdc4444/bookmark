@@ -1,0 +1,24 @@
+{
+  "key": "CBOE",
+  "name": "Cboe Global Markets, Inc.",
+  "exchange": "CBOE (Cboe BZX Exchange)",
+  "blurb": "Cboe Global Markets is one of the world's largest exchange operators, providing trading in options, futures, equities, exchange-traded products (ETPs), foreign exchange, and multi-asset volatility products. The company is best known for operating the Chicago Board Options Exchange (CBOE) and the VIX volatility index, which is widely regarded as the market's 'fear gauge.' Cboe operates exchanges across North America, Europe, and Asia-Pacific, serving institutional and retail participants globally. Its data and access solutions segment provides a growing recurring revenue stream alongside its transaction-based exchange businesses.",
+  "recent": "Not enough public information from the provided sources to describe specific news, earnings, or price action from the past 30 days.",
+  "sources": [
+    {
+      "url": "https://ir.cboe.com/news/default.aspx",
+      "title": "Cboe Global Markets, Inc. - News"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/BATS/CBOE/",
+      "title": "Cboe Global Markets (CBOE) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CBOE/",
+      "title": "Cboe Global Markets, Inc. (CBOE) Stock Price, News, Quote & History — Yahoo Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:54:15.502149Z",
+  "backend": "claude-sonnet-subagent"
+}

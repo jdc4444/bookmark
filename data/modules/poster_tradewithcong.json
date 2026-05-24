@@ -1,0 +1,24 @@
+{
+  "key": "tradewithcong",
+  "display_name": "Trade with Congress",
+  "blurb": "An X.com account that monitors and amplifies congressional stock trade disclosures filed under the STOCK Act. The account aggregates data from House and Senate periodic transaction reports — which members of Congress must file within 45 days of any securities transaction above $1,000 — and packages notable trades as short-form alerts for a retail audience. The account is part of a broader ecosystem of congressional-trading trackers (including Unusual Whales, Capitol Trades, and Quiver Quantitative) that emerged after the STOCK Act's public disclosure provisions drew sustained media attention. @tradewithcong does not make independent investment recommendations but implicitly frames congressional purchases as potentially signal-bearing.",
+  "credibility_note": "The account's value is primarily informational: it surfaces publicly available disclosure data faster and more readably than the House Clerk's raw filing system. The framing — presenting congressional buys as notable market intelligence — is editorially loaded; research on congressional trading performance is mixed, and the STOCK Act's 45-day lag and bracketed disclosure amounts (e.g., '$1,001–$15,000') limit the actionability of any individual disclosure.",
+  "links": [
+    {
+      "label": "X / Twitter",
+      "url": "https://x.com/tradewithcong"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://unusualwhales.com/politics",
+      "title": "Unusual Whales Congressional Trading Tracker"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/STOCK_Act",
+      "title": "STOCK Act — Wikipedia"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

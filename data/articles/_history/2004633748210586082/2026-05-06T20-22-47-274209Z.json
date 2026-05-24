@@ -1,0 +1,37 @@
+{
+  "headline": "A Six-Step Pipeline Marries Mocap With AI Physics Cleanup",
+  "lede": "A workflow circulating among 3D animators pairs QuickMagic motion capture with Cascadeur's AI-driven physics tools to take raw movement data to polished, physically plausible animation in six steps. The pipeline, designed by animator @EugeneDyabin, draws attention because it delegates the most repetitive correction work — foot sliding, unnatural poses, secondary motion — to automated passes while leaving creative decisions to the artist.",
+  "body": "Motion capture (*mocap*) records the movement of a live performer and maps it onto a digital skeleton. The raw data is rarely broadcast-ready: feet slide across the ground, joints snap into impossible angles, and secondary motion — the way a coat swings or a ponytail lags — is absent entirely. Correcting these artifacts by hand has historically been the dull, time-consuming half of any mocap job.\n\nCascadeur, a standalone animation software, addresses this with a suite of AI-assisted tools. **AutoPhysics** simulates mass and inertia across the rig so that secondary motion emerges from the physics of the skeleton rather than keyframe-by-keyframe manual work. *AutoPosing* uses a trained model to nudge poses toward biomechanically plausible configurations, reducing the need to tweak individual joints. The \"one-click feet cleanup\" step almost certainly refers to automatic *IK constraint* pinning — locking the feet to the ground plane so they stop sliding, a perennial mocap nuisance.\n\nQuickMagic, the capture end of the pipeline, appears to be a video- or AI-based mocap tool that can generate skeletal animation from footage without a full optical marker suit. The appeal is accessibility: the barrier to entry for mocap drops sharply when you don't need a studio full of cameras.\n\nThe enthusiasm in the original post reflects a broader shift in animation tooling: AI handling constraint satisfaction and physics plausibility while the artist controls timing, weight, and intention. Whether the six-step sequence holds up on complex shots with multiple characters or heavy cloth simulation is harder to evaluate from the tweet alone, and no independent benchmark or review source was available for this brief.",
+  "tickers": [],
+  "poster": "3DxDEV7",
+  "concepts": [
+    {
+      "key": "motion-capture",
+      "term": "Motion Capture (Mocap)",
+      "definition": "A technique that records the movement of a real person or object and translates it into digital animation data. Sensors or computer vision track key points on a body, producing a skeletal animation that can drive a 3D character. Raw mocap always requires cleanup before use in production."
+    },
+    {
+      "key": "ik-constraint",
+      "term": "Inverse Kinematics (IK)",
+      "definition": "A mathematical method for computing how a character's limbs should bend to reach a fixed point in space. In animation, IK foot constraints pin the feet to the ground so they don't slide or float, one of the most common artifacts in raw mocap data."
+    },
+    {
+      "key": "autophysics",
+      "term": "AutoPhysics",
+      "definition": "A Cascadeur feature that applies a physics simulation to an existing animation, adding realistic secondary motion — the way a character's mass shifts, hair moves, or clothing reacts — without manual keyframing. It models inertia and gravity across the rig."
+    },
+    {
+      "key": "autoposing",
+      "term": "AutoPosing",
+      "definition": "A Cascadeur AI tool that analyzes a character's pose and adjusts joint angles toward biomechanically natural configurations. It acts as a correction pass, reducing unnatural-looking positions that mocap or manual animation can introduce."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2004633748210586082",
+  "generated_at": "2026-05-06T20:22:47.274209Z",
+  "backend": "claude"
+}

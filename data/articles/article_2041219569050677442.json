@@ -1,0 +1,121 @@
+{
+  "headline": "A YouTube Data Broker Bets Claude Needs a Live Feed",
+  "lede": "Claude is articulate about YouTube but effectively blind to it in real time — its training data reflects the platform as it looked months or years ago, not what is trending today. Algrow, a bootstrapped YouTube analytics service built by a solo economics undergraduate, launched a connector on April 7, 2026 that turns Claude into a live interface for its proprietary channel database. The announcement landed inside a broader wave of integrations built on Anthropic's Model Context Protocol.",
+  "body": "**MCP** — Anthropic's *Model Context Protocol*, an open standard introduced in November 2024 — lets a language model call external tools mid-conversation without the user switching applications. Algrow's connector exposes 19 such tools to Claude: channel similarity search, viral-video outlier detection, transcript extraction, thumbnail analysis, growth alerts, and, on higher subscription tiers, AI-generated voiceovers and video clips. The database behind those tools covers roughly 312,000 channels and 18.7 million videos, refreshed daily via web scraping. Users authenticate once over *OAuth* on Claude.ai and can then prompt Claude in plain language — “find me similar long-form channels under 50,000 subscribers” — receiving ranked results with live subscriber counts and growth data rather than the model's trained recollections.\n\nAlgrow was built by Sam (@samgrows), a roughly 21-year-old economics undergraduate who assembled the product using AI coding assistants with no traditional software engineering background. By January 2026, the service had roughly 10,000 users and $14,000 in monthly recurring revenue (*MRR*), grown through Discord communities with no paid advertising. The MCP integration is a strategic pivot: rather than competing as a standalone analytics dashboard, Algrow aims to embed itself as infrastructure inside the AI tools creators already use, making switching costs structural rather than incidental.\n\nThe tweet's “BREAKING” framing warrants inspection. MCP has been available since November 2024 and had attracted over 200 server implementations by the time of Algrow's announcement. More pointedly, vidIQ — a YouTube analytics company operating since 2014 — launched its own MCP connector the following day, April 8, with a database of 12 billion videos: roughly 640 times Algrow's indexed catalog, and free for existing vidIQ subscribers. Open-source community projects also offer basic transcript extraction and YouTube Data API access at no cost, though they require self-hosting and carry no live analytics intelligence. Algrow's genuine differentiator is the bundle: research, competitor mapping, and AI content generation within a single Claude conversation, without switching services.\n\nAlgrow's 312,000-channel database is a sliver of YouTube's more than 800 million channels, curated heavily toward *faceless automation* content — formulaic, often AI-assembled videos designed to run with minimal human involvement. Alphabet (GOOGL), YouTube's parent, has historically restricted third-party scrapers, and competitors TubeBuddy and vidIQ have navigated that fragility at scale for years. On the generation side, credits disappear quickly at production volume: a single OpenAI Sora 2 video clip costs 30 credits, and the entry-level Boost pack of 250 credits runs $9.99 — fewer than nine clips before a reload. Algrow has no disclosed outside funding and is a single-founder operation, which limits its resilience if Alphabet tightens data access or a better-capitalized competitor undercuts on price.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Algrow",
+      "ticker": null
+    },
+    {
+      "name": "Anthropic",
+      "ticker": null
+    },
+    {
+      "name": "vidIQ",
+      "ticker": null
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "TubeBuddy",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    }
+  ],
+  "poster": "samgrows",
+  "concepts": [
+    {
+      "key": "model-context-protocol",
+      "term": "Model Context Protocol (MCP)",
+      "definition": "An open standard introduced by Anthropic in November 2024 that lets a language model call external tools and data sources mid-conversation. An MCP server exposes named functions — search, fetch, generate — and the model invokes them on behalf of the user without requiring a separate application or browser tab."
+    },
+    {
+      "key": "faceless-automation",
+      "term": "Faceless automation",
+      "definition": "A genre of YouTube content produced with minimal visible human presence — voiceovers, stock footage, AI-generated visuals — often cloned across multiple channels. The approach is popular among solo creators optimizing for passive income rather than personal brand."
+    },
+    {
+      "key": "outlier-detection",
+      "term": "Outlier detection (YouTube analytics)",
+      "definition": "A method of flagging videos whose view counts substantially exceed a channel's historical average. A high outlier score is read as evidence that a format or topic resonated unusually well, making it a candidate for imitation across similar channels."
+    },
+    {
+      "key": "mrr",
+      "term": "MRR",
+      "definition": "Monthly recurring revenue — the predictable subscription income a SaaS company collects each month, used as a primary measure of business scale. It smooths out one-time payments and refunds to show the baseline run rate."
+    },
+    {
+      "key": "web-scraping",
+      "term": "Web scraping",
+      "definition": "Automated extraction of data from websites by programmatically fetching pages and parsing their content. Many platforms restrict scraping in their terms of service, making it a legally and technically fragile basis for a data pipeline — particularly on large consumer platforms that actively detect and block scrapers."
+    },
+    {
+      "key": "oauth",
+      "term": "OAuth",
+      "definition": "An open authorization standard that lets a user grant a third-party application limited access to their account on another service without sharing a password. On Claude.ai, Algrow uses OAuth so users connect their subscription once and Claude can call Algrow tools on their behalf automatically."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet's “BREAKING” label overstates novelty: Anthropic's Model Context Protocol has been publicly available since November 2024, and YouTube-focused MCP integrations existed before Algrow's April 7, 2026 launch. The claim that Claude “has never watched a video” is rhetorically vivid but misleading — Claude's training includes substantial text about YouTube creators, formats, and culture; what it lacks is live channel metrics and current trending data, a narrower limitation than the framing implies. A well-established competitor, vidIQ, launched a YouTube MCP connector the very next day with a database roughly 640 times larger.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://algrow.online/blog/claude-can-now-search-youtube",
+      "title": "Claude Can Now Search YouTube For You — Algrow Blog",
+      "note": "Primary announcement post; describes 19 MCP tools, demo results, and integration setup"
+    },
+    {
+      "url": "https://algrow.online/mcp",
+      "title": "Algrow MCP Server Documentation",
+      "note": "Technical spec: rate limits, tool schemas, credit costs per operation"
+    },
+    {
+      "url": "https://algrow.online/",
+      "title": "Algrow Homepage",
+      "note": "Pricing tiers and subscription plan features"
+    },
+    {
+      "url": "https://fastai.news/2026/04/07/algrow-brings-live-youtube-data-to-claude-via-mcp/",
+      "title": "Algrow Brings Live YouTube Data to Claude via MCP — fastai.news",
+      "note": "Independent news piece confirming the connector went live April 7, 2026"
+    },
+    {
+      "url": "https://www.moneymakingstory.com/p/how-a-21-year-old-student-built-a-14k-month-saas-using-discord",
+      "title": "How a 21-Year-Old Student Built a $14K/Month SaaS Using Discord — MoneymakingStory",
+      "note": "Founder profile: background, revenue figures, and user acquisition method as of January 2026"
+    },
+    {
+      "url": "https://vidiq.com/blog/post/youtube-mcp-integration/",
+      "title": "Claude Doesn't Know YouTube — Fix It with vidIQ MCP",
+      "note": "vidIQ's competing MCP launch (April 8, 2026); database scale comparison"
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-context-protocol",
+      "title": "Introducing the Model Context Protocol — Anthropic",
+      "note": "Official Anthropic announcement of MCP, November 2024"
+    },
+    {
+      "url": "https://www.ekamoira.com/blog/youtube-mcp-server-comparison-2026",
+      "title": "YouTube MCP Server Comparison 2026 — Ekamoira",
+      "note": "Independent comparison of YouTube MCP tools including open-source alternatives"
+    },
+    {
+      "url": "https://virlo.ai/compare/virlo-vs-algrow",
+      "title": "Virlo vs Algrow — Virlo",
+      "note": "Competitor positioning; highlights Algrow's YouTube-only scope vs. multi-platform rivals"
+    }
+  ],
+  "bookmark_id": "2041219569050677442",
+  "generated_at": "2026-05-07T08:03:12.050264Z",
+  "backend": "claude-sonnet-subagent"
+}

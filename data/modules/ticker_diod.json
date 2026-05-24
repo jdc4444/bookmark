@@ -1,0 +1,17 @@
+{
+  "key": "diod",
+  "name": "Diodes Incorporated",
+  "exchange": "NASDAQ",
+  "blurb": "Diodes Incorporated is a fabless/hybrid analog and discrete semiconductor company serving automotive, industrial, computing, consumer, and communications markets. Its product portfolio for the AI power-plumbing story includes power MOSFETs, half-bridge and high/low-side gate drivers (600V), smart load switches for GPU and ASIC power domains, AC-DC controllers, DC-DC switching regulators, and LDO voltage references — all targeting server mainboards, power-delivery units, PCIe switches, and networking infrastructure. The company differentiates on a flexible hybrid manufacturing model and broad application-specific standard product (ASSP) coverage across low-to-medium voltage power rails.",
+  "recent": "Diodes reported Q4 2025 revenue of $391.6 million, up 15.4% year-over-year and ahead of the $387.7 million consensus, marking the highest annual revenue growth since 2021 at 13% for full-year 2025. CEO Gary Yu outlined a long-term target of $2.5 billion in revenue with $1 billion in gross profit. Q1 2026 guidance called for revenue of ~$395 million (±3%), representing approximately 19% year-over-year growth. Note: Q1 2026 results are scheduled for May 7, 2026, and were not yet reported at the time of writing; Q4 2025 is the most recent completed quarter available.",
+  "sources": [
+    {"url": "https://www.stocktitan.net/news/DIOD/diodes-incorporated-reports-fourth-quarter-fiscal-2025-financial-w19fjjgtext1.html", "title": "Diodes Q4 2025 Earnings — StockTitan"},
+    {"url": "https://www.marketbeat.com/earnings/reports/2026-2-10-diodes-incorporated-stock/", "title": "DIOD Q4 2025 Earnings Report — MarketBeat"},
+    {"url": "https://www.businesswire.com/news/home/20260415742603/en/Diodes-Incorporated-to-Announce-First-Quarter-2026-Financial-Results-on-May-7-2026", "title": "Diodes Q1 2026 Earnings Date Announcement — BusinessWire"},
+    {"url": "https://investor.diodes.com/news-releases/news-release-details/high-frequency-100v-rated-gate-driver-diodes-incorporated-raises", "title": "Diodes 100V Gate Driver Product Release — investor.diodes.com"},
+    {"url": "https://www.diodes.com/products", "title": "Diodes Incorporated Product Portfolio — diodes.com"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

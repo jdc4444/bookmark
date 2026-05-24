@@ -1,0 +1,190 @@
+{
+  "headline": "Photorealistic 3D Capture Arrives on the Hobbyist's Hard Drive",
+  "lede": "A hobbyist flew a 360-degree drone over a neighborhood park and fed the footage into free consumer software, producing a navigable, photorealistic three-dimensional reconstruction that would have required a research-lab pipeline three years ago. The output is a *Gaussian splat* — a scene encoded not as photographs or polygons but as millions of tiny 3D ellipsoids, each storing position, shape, color, and opacity, renderable in real time at over a hundred frames per second. What startled the poster most was the quality visible at just 2 percent through the training run.",
+  "body": "The method behind this, **3D Gaussian Splatting** (3DGS), was introduced in a July 2023 paper by Bernhard Kerbl and colleagues at INRIA, France's national computer-science research institute. It belongs to a class of techniques called *novel-view synthesis* — reconstructing a scene so completely from photographs that software can generate realistic views from angles never directly captured. The dominant prior approach, *NeRF* (Neural Radiance Fields), encoded scenes as neural-network weights and rendered them by marching rays through that network: photorealistic but computationally punishing, requiring hours to train and yielding only a handful of frames per second. Gaussian splatting sidesteps the network entirely. A scene is stored as an explicit cloud of discrete 3D blobs, each optimized against training images, and rendered by projecting them onto the screen through *GPU rasterization* — the same hardware path video games have used for thirty years. Training collapses from hours to minutes; playback at 1080p exceeds 100 frames per second.\n\nThe poster's pipeline runs through two pieces of open-source software. *Brush*, written in Rust by Arthur Brussee, was built around hardware reach: it trains on AMD, Nvidia, Intel, and Apple Silicon GPUs, runs on Android, and functions in a web browser, with no CUDA or complex environment setup required. *LichtFeld Studio*, maintained by developer Janusch Patas, handles the other half — a native desktop application that unifies training, real-time viewport visualization, scene editing with lasso and polygon tools, checkpoint resumption, and export to PLY, *SPZ*, and standalone HTML viewer formats. The source code is free under the GPLv3 license; prebuilt Windows binaries are available through a pay-what-you-want model at the developer's portal, and training requires an NVIDIA GPU with CUDA 12.8+. Together, the two tools cover most of the production workflow a professional studio would use, at minimal cost.\n\nThe 360-degree drone is not incidental to the quality achieved. Outdoor scene reconstruction demands dense, overlapping coverage from many angles; with a conventional drone, that means multiple orbital passes at different altitudes, a laborious flight plan prone to gaps. A 360-degree camera captures the full sphere in a single pass. The footage then feeds into *COLMAP*, a *Structure-from-Motion* tool that estimates where each frame was taken in physical space and generates a sparse three-dimensional point cloud; the Gaussian trainer initializes a blob at each point and refines from there. It is this progressive convergence — blobs settling into place around real geometry — that produces a recognizable, detailed scene image at just 2 percent of the training run.\n\nThe broader field has industrialized with unusual speed. The Khronos Group, the standards body behind OpenGL and WebGL, announced a *glTF* extension for Gaussian Splatting in late 2025, positioning splats as first-class web-native 3D content. DJI Terra added native splatting support, as did geospatial platforms including Cesium. Research at CVPR 2025 produced DroneSplat, a training variant specifically hardened for the unstable camera motion of real-world drone footage. Free smartphone apps from Niantic and Luma AI now let anyone produce a splat from a short video. Industry commentary has converged on “the JPEG of 3D” as the apt frame — a lossy-but-good-enough representation that democratizes photorealistic 3D capture the way JPEG democratized photographs in the 1990s.",
+  "tickers": [],
+  "companies": [
+    {
+      "name": "INRIA",
+      "ticker": null
+    },
+    {
+      "name": "DJI",
+      "ticker": null
+    },
+    {
+      "name": "Khronos Group",
+      "ticker": null
+    },
+    {
+      "name": "Niantic",
+      "ticker": null
+    },
+    {
+      "name": "Luma AI",
+      "ticker": null
+    },
+    {
+      "name": "Cesium",
+      "ticker": null
+    }
+  ],
+  "poster": "SadlyItsBradley",
+  "concepts": [
+    {
+      "key": "3d-gaussian-splatting",
+      "term": "3D Gaussian Splatting (3DGS)",
+      "definition": "A scene-reconstruction method introduced in 2023 that represents a photographed environment as millions of tiny 3D ellipsoids, each defined by position, orientation, color, and opacity. The scene is rendered by projecting (“splatting”) these blobs onto the screen using GPU rasterization, enabling real-time playback at over 100 fps — far faster than prior neural approaches. Training a scene typically takes minutes rather than hours."
+    },
+    {
+      "key": "novel-view-synthesis",
+      "term": "Novel-View Synthesis",
+      "definition": "The computational problem of reconstructing a scene so thoroughly from a set of input photographs that software can generate a realistic image of it from any angle — including angles that were never directly photographed. Both NeRF and Gaussian splatting are approaches to novel-view synthesis."
+    },
+    {
+      "key": "nerf",
+      "term": "NeRF (Neural Radiance Fields)",
+      "definition": "A technique introduced in 2020 that encodes a photographed scene as the weights of a neural network. To render a view, the network is queried along many rays cast through the scene. NeRF produces high-quality results but is computationally slow — training typically takes many hours, and rendering runs at a handful of frames per second without heavy optimization."
+    },
+    {
+      "key": "gpu-rasterization",
+      "term": "GPU Rasterization",
+      "definition": "The standard technique graphics cards use to render 3D content: objects in 3D space are projected onto a 2D screen plane. Video games have relied on this pipeline for decades, and GPU hardware is heavily optimized for it. Gaussian splatting uses this same path, which is why it renders so much faster than NeRF's ray-marching approach."
+    },
+    {
+      "key": "colmap",
+      "term": "COLMAP",
+      "definition": "An open-source photogrammetry tool that takes a collection of overlapping photographs and estimates where each was taken in 3D space, outputting a sparse three-dimensional point cloud. This recovery of camera positions is the first step in most Gaussian splatting pipelines, providing the initial geometry the trainer refines into full scene detail."
+    },
+    {
+      "key": "structure-from-motion",
+      "term": "Structure-from-Motion (SfM)",
+      "definition": "A photogrammetry technique that infers the 3D structure of a scene and the positions from which photographs were taken by analyzing how features move across multiple overlapping images. COLMAP is the most widely used open-source implementation."
+    },
+    {
+      "key": "gltf",
+      "term": "glTF",
+      "definition": "An open standard format for 3D scenes and models, maintained by the Khronos Group and widely supported in browsers, game engines, and AR/VR platforms. A 2025 extension to glTF adds native support for Gaussian splats, making them first-class citizens of the 3D web alongside polygonal meshes."
+    },
+    {
+      "key": "spz-format",
+      "term": "SPZ format",
+      "definition": "A compressed file format for Gaussian splat data, open-sourced by Niantic. It is roughly 90 percent smaller than the standard PLY point-cloud format while preserving visual fidelity, making splats practical to share, stream, and embed. LichtFeld Studio can export directly to SPZ."
+    },
+    {
+      "key": "gaussian-blob",
+      "term": "Gaussian Blob / Splat",
+      "definition": "The individual unit of a 3D Gaussian Splatting scene: a tiny three-dimensional ellipsoid defined by its position, orientation (how stretched or flattened along each axis), color, and opacity. Rendering works by projecting each blob from 3D space onto the 2D screen — a process called splatting, which gives the method its name."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "ArthurBrussee-brush",
+      "url": "https://github.com/ArthurBrussee/brush",
+      "summary": "Brush is a 3D Gaussian Splatting training and viewing application written in Rust, using WebGPU for hardware-agnostic GPU access. Unlike most 3DGS implementations that require NVIDIA CUDA, Brush trains on AMD, Intel, Apple Silicon, and even in a web browser with no complex setup — its explicit mission is '3D Reconstruction for all.' Users can watch the scene reconstruct live in the viewport during training."
+    },
+    {
+      "key": "MrNeRF-LichtFeld-Studio",
+      "url": "https://github.com/MrNeRF/LichtFeld-Studio",
+      "summary": "LichtFeld Studio is a free, open-source (GPLv3) native desktop application that unifies the entire Gaussian splatting workflow: loading COLMAP datasets, training with real-time viewport feedback, editing individual Gaussians with brush and lasso tools, resuming from checkpoints, and exporting to PLY, SPZ, or standalone HTML viewers. Prebuilt Windows binaries are available via a pay-what-you-want model; the tool requires an NVIDIA GPU with CUDA 12.8+. Python plugins and MCP endpoints extend it for automation."
+    },
+    {
+      "key": "graphdeco-inria-gaussian-splatting",
+      "url": "https://github.com/graphdeco-inria/gaussian-splatting",
+      "summary": "The original reference implementation of 3D Gaussian Splatting, released alongside the July 2023 INRIA paper by Bernhard Kerbl and colleagues. It introduced the method to the public and remains the canonical starting point for researchers; most downstream tools, including Brush and LichtFeld Studio, descend from or are benchmarked against it."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": "The bookmarked tweet quotes an earlier post from the same user showing a completed Gaussian splat of a public park captured with a 360-degree drone, described as their first attempt with hobbyist hardware. The main tweet then documents switching from Brush to LichtFeld Studio for training and expresses astonishment at the visual fidelity visible at only 2 percent of training progress. Together, the two posts trace a single capture-to-reconstruction workflow from finished output back to the mid-training moment of revelation.",
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2308.04079",
+      "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering (arXiv:2308.04079)",
+      "note": "Original 2023 INRIA paper introducing 3DGS"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3592433",
+      "title": "ACM Transactions on Graphics — 3DGS publication",
+      "note": "Peer-reviewed journal publication of the foundational paper"
+    },
+    {
+      "url": "https://github.com/graphdeco-inria/gaussian-splatting",
+      "title": "graphdeco-inria/gaussian-splatting (GitHub)",
+      "note": "Reference implementation released with the paper"
+    },
+    {
+      "url": "https://github.com/ArthurBrussee/brush",
+      "title": "ArthurBrussee/brush (GitHub)",
+      "note": "Open-source cross-platform 3DGS trainer used by the poster"
+    },
+    {
+      "url": "https://github.com/MrNeRF/LichtFeld-Studio",
+      "title": "MrNeRF/LichtFeld-Studio (GitHub)",
+      "note": "LichtFeld Studio — the desktop pipeline tool the poster switched to"
+    },
+    {
+      "url": "https://radiancefields.com/gaussian-splatting-in-browser-brush",
+      "title": "Radiance Fields: Brush — Gaussian Splatting in the Browser",
+      "note": "Coverage of Brush's hardware-agnostic design and browser support"
+    },
+    {
+      "url": "https://www.thefuture3d.com/blog/state-of-gaussian-splatting-2026/",
+      "title": "The Future 3D: State of Gaussian Splatting 2026",
+      "note": "Overview of the field's current maturity, ecosystem, and standardization"
+    },
+    {
+      "url": "https://www.thefuture3d.com/equipment/compare/3d-gaussian-splatting-vs-nerf/",
+      "title": "The Future 3D: 3DGS vs NeRF Comparison",
+      "note": "Technical comparison of splatting and NeRF rendering approaches"
+    },
+    {
+      "url": "https://pyimagesearch.com/2024/12/09/3d-gaussian-splatting-vs-nerf-the-end-game-of-3d-reconstruction/",
+      "title": "PyImageSearch: 3DGS vs NeRF — The End Game of 3D Reconstruction",
+      "note": "Training time and rendering speed benchmarks between methods"
+    },
+    {
+      "url": "https://www.khronos.org/news/press/gltf-gaussian-splatting-press-release",
+      "title": "Khronos Group: glTF Gaussian Splatting Extension Announcement",
+      "note": "Standardization milestone for Gaussian splats as web-native 3D content"
+    },
+    {
+      "url": "https://cesium.com/blog/2026/04/27/3d-gaussian-splats-lod/",
+      "title": "Cesium: 3D Gaussian Splats with Hierarchical LOD",
+      "note": "Adoption of 3DGS in geospatial and mapping platforms"
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Tang_DroneSplat_3D_Gaussian_Splatting_for_Robust_3D_Reconstruction_from_In-the-Wild_CVPR_2025_paper.pdf",
+      "title": "DroneSplat: 3D Gaussian Splatting for Robust Reconstruction from In-the-Wild Drone Imagery (CVPR 2025)",
+      "note": "Research specifically targeting unstable drone camera motion in 3DGS pipelines"
+    },
+    {
+      "url": "https://petapixel.com/2026/04/24/antigravity-is-preserving-historical-sites-in-3d-using-its-360-drone/",
+      "title": "PetaPixel: Antigravity A1 and Project Eternal",
+      "note": "Context on 360-degree drone capture for Gaussian splatting at cultural-heritage scale"
+    },
+    {
+      "url": "https://radiancefields.com/insta360-releases-360-drone-antigravity-a1",
+      "title": "Radiance Fields: Antigravity A1 360-degree Drone",
+      "note": "Hardware context for 360-degree drone capture workflows"
+    },
+    {
+      "url": "https://medium.com/@qsibmini123/gaussian-splats-are-becoming-the-jpeg-of-3d-why-2025-is-the-breakout-year-ac841ed39440",
+      "title": "Medium: Gaussian Splats Are Becoming the JPEG of 3D",
+      "note": "Industry framing of 3DGS as a democratizing ubiquitous format"
+    },
+    {
+      "url": "https://skysplat.org/",
+      "title": "SkySplat — Blender Addon for Drone-to-Splat Pipelines",
+      "note": "Hobbyist workflow context for drone-captured Gaussian splatting"
+    },
+    {
+      "url": "https://www.polyvia3d.com/guides/gaussian-splatting-mobile-capture",
+      "title": "Polyvia3D: Mobile Gaussian Splatting Capture Guide",
+      "note": "Overview of free consumer tools for 3DGS capture on smartphones"
+    }
+  ],
+  "bookmark_id": "2038893693365518482",
+  "generated_at": "2026-05-07T09:14:14.682197Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "ASML",
+  "name": "ASML Holding N.V.",
+  "exchange": "NASDAQ (primary: AMS: ASML)",
+  "blurb": "ASML is a Dutch semiconductor equipment company and the sole manufacturer of EUV (extreme ultraviolet) lithography machines — the tools required to print the finest circuit features on leading-edge chips at 5nm and below. Every AI accelerator, high-bandwidth memory chip, and advanced logic die manufactured at TSMC, Samsung, or Intel passes through ASML optics. The company's monopoly position emerged after decades of public-private R&D investment in partnership with European governments and chipmakers.",
+  "recent": "ASML reported €32.7 billion in total net sales for full-year 2025, up roughly 16% year-on-year, with net income of €9.6 billion and a gross margin of 52.8%. Year-end backlog stood at €38.8 billion. Q4 2025 saw record total net sales of €9.7 billion, including revenue recognized for the first High-NA EUV systems — the next-generation machines required for 2nm nodes and below. TSMC accounts for an estimated 40% of EUV tool deliveries. ASML guides to €34–39 billion for 2026 and €44–60 billion by 2030 as High-NA adoption widens. In December 2025 Huawei and Chinese startup SiCarrier confirmed a functional EUV light source using an alternative plasma architecture, but analysts place production-ready Chinese competition no earlier than 2028–2030.",
+  "sources": [
+    {"url": "https://asiatimes.com/2026/04/asml-as-the-last-polite-monopolist/", "title": "ASML as the Last Polite Monopolist — Asia Times"},
+    {"url": "https://www.cnbc.com/2026/01/29/-ai-boom-nvidia-asml-dutch-chip-equipment-maker-lithography-.html", "title": "Why Nvidia's AI boom needs Dutch chip equipment maker ASML — CNBC"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,120 @@
+{
+  "headline": "Why Today's S&P 500 Margins Dwarf the Dot-Com Era",
+  "lede": "A chart from BCA Research, circulating widely among macro traders in May 2026, shows S&P 500 net profit margins at their highest level in more than 15 years — roughly 13%, nearly double what prevailed at the peak of the dot-com bubble. Danish macro strategist Andreas Steno made the comparison explicit: this margin surge, he noted, did not happen ahead of the technology bust of 2000. Whether the difference is structural or cyclical is the live debate.",
+  "body": "A BCA Research chart — shared by Peter Berezin and amplified by Danish macro strategist Andreas Steno — plots **S&P 500 net profit margins** against a decade of history. The metric, calculated as earnings per share divided by sales per share (*EPS/SPS*), reached 13.4% on a blended basis in Q1 2026, the highest level in more than 15 years according to FactSet (FDS) data. Sell-side consensus projects further expansion toward 14.6% by late 2026.\n\nThe dot-com contrast is the point. In late 1999, those same margins sat at roughly 7%; at the Nasdaq's peak in early 2000, they barely nudged above 7.4% before collapsing. The late-1990s bull market was driven by *price-to-sales* multiples — a valuation method indifferent to profitability — applied liberally to companies, many running deeply negative margins, with no near-term path to profit. Steno's observation is precise: whatever risks the current rally carries, it is sitting on a different earnings foundation than the bubble that burst in 2000.\n\nStructural changes in the index explain much of the gap. Apple (AAPL), Microsoft (MSFT), Nvidia (NVDA), Alphabet (GOOGL), and Meta Platforms (META) now represent roughly 30% of the index by weight, each carrying net margins between 20% and 50%. In 2000, the heaviest index weights included telecoms and hardware companies with thinner margins, while the most celebrated internet names were largely pre-revenue. Layered on top: AI-driven *operating leverage* — the dynamic by which fixed-cost infrastructure produces rising margins as revenue scales — slowing wage inflation, and the 2025 tax legislation.\n\nThe metric itself warrants scrutiny. EPS/SPS captures net income after interest and taxes, not operational efficiency alone; the 2025 tax cuts mechanically improved net margins without a corresponding change in business fundamentals. FactSet's tracking of this series begins only in 2009, so the dot-com comparison relies on third-party datasets with different methodologies. Consensus estimates of 14.6% for late 2026 carry the upward bias typical of sell-side forecasting. And *capex* cycles — heavy investment spending on chips and data centres that precedes, and may eventually compress, returns — have not been fully priced into those projections.\n\nThe irony is that Berezin himself ranks among the more cautious institutional strategists on the current cycle. BCA Research has warned that AI capital expenditure may peak within 12 months, drawing comparisons to the telecom overbuilding that preceded the dot-com crash. Sharing a chart of record margins can be read as diagnosis rather than celebration — record margins are as plausibly a ceiling as a foundation. Whether today's earnings power is secular or cyclical will determine how this data point ages.",
+  "tickers": [
+    "FDS",
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "GOOGL",
+    "META"
+  ],
+  "companies": [
+    {
+      "name": "FactSet Research Systems",
+      "ticker": "FDS"
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "name": "BCA Research",
+      "ticker": null
+    }
+  ],
+  "poster": "AndreasSteno",
+  "concepts": [
+    {
+      "key": "eps-sps-margin",
+      "term": "EPS/SPS (Net Profit Margin)",
+      "definition": "A measure of aggregate corporate profitability calculated by dividing earnings per share by sales per share — equivalent to net profit margin at the index level. It captures the bottom line after all costs including interest and taxes. Unlike operating margin, it is sensitive to tax law changes and financing costs, which can shift the figure without any change in underlying business performance."
+    },
+    {
+      "key": "price-to-sales-multiple",
+      "term": "Price-to-Sales Multiple",
+      "definition": "A stock valuation ratio comparing a company's share price to its annual revenue per share. Unlike price-to-earnings, it can be applied to unprofitable companies, making it a favoured metric during the dot-com era when many celebrated names had no earnings to value. A high multiple implies investors expect margins to improve substantially in the future."
+    },
+    {
+      "key": "operating-leverage",
+      "term": "Operating Leverage",
+      "definition": "The degree to which a company's cost structure allows revenue growth to produce disproportionately larger profit growth. A firm with high fixed costs and low marginal costs — cloud software, semiconductor design — exhibits strong operating leverage: once infrastructure is built, each additional dollar of revenue contributes more to the bottom line."
+    },
+    {
+      "key": "capex",
+      "term": "Capital Expenditure (Capex)",
+      "definition": "Spending on long-lived physical or intangible assets — servers, data centres, chip fabrication lines — expected to generate returns over several years. In the current AI cycle, hyperscalers are committing tens of billions annually; whether those investments will yield sufficient returns is one of the central macro debates of 2025-2026."
+    },
+    {
+      "key": "sell-side-optimism-bias",
+      "term": "Sell-Side Optimism Bias",
+      "definition": "The well-documented tendency for equity analysts at investment banks to publish earnings and margin forecasts that are systematically too high, particularly for periods more than two quarters out. The bias reflects both commercial incentives and the difficulty of accounting for macro shocks not yet visible in the data."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://insight.factset.com/sp-500-reporting-highest-net-profit-margin-in-more-than-15-years-1",
+      "title": "S&P 500 Reporting Highest Net Profit Margin in More Than 15 Years — FactSet",
+      "note": "Primary source for Q1 2026 blended net margin of 13.4% and the 15-year record framing"
+    },
+    {
+      "url": "https://www.factset.com/earningsinsight",
+      "title": "FactSet Earnings Insight",
+      "note": "Ongoing weekly S&P 500 earnings data; historical margin series back to 2009"
+    },
+    {
+      "url": "https://dqydj.com/sp-500-profit-margin/",
+      "title": "S&P 500 Profit Margin History — DQYDJ",
+      "note": "Third-party dataset extending the net margin series to the dot-com era; source for 1999-2000 figures (~7%)"
+    },
+    {
+      "url": "https://www.tker.co/p/profit-margins-expected-to-expand-2026",
+      "title": "A Key Business Story to Watch in 2026 — tker.co",
+      "note": "Compiles 2026 margin expansion expectations from BofA, Goldman, RBC, and others"
+    },
+    {
+      "url": "https://www.bcaresearch.com/marketing/peter-berezin",
+      "title": "Peter Berezin — BCA Research",
+      "note": "Official profile: Chief Global Strategist and Director of Research at BCA Research"
+    },
+    {
+      "url": "https://www.bcaresearch.com/marketing/report/gis/second-quarter-2025-strategy-outlook-abyss/191766",
+      "title": "Second Quarter 2025 Strategy Outlook: Into The Abyss — BCA Research",
+      "note": "Source for BCA's bearish macro stance and recession-risk framing"
+    },
+    {
+      "url": "https://markets.financialcontent.com/wral/article/marketminute-2025-11-28-ais-looming-metaverse-moment-skepticism-mounts-over-soaring-capital-expenditure",
+      "title": "AI's Looming 'Metaverse Moment' — Market Minute",
+      "note": "Covers BCA Research's warning comparing AI capex to telecom overbuilding before the dot-com crash"
+    },
+    {
+      "url": "https://stenoresearch.com/",
+      "title": "Steno Research",
+      "note": "Andreas Steno Larsen's independent macro research firm; context for the poster"
+    }
+  ],
+  "bookmark_id": "2054988277111767386",
+  "generated_at": "2026-05-15T08:11:52.232177Z",
+  "backend": "claude-sonnet-subagent"
+}

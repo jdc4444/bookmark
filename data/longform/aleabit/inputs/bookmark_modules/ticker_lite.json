@@ -1,0 +1,16 @@
+{
+  "key": "lite",
+  "name": "Lumentum Holdings Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Lumentum makes the lasers, optical chips, and components that go into the high-speed transceivers wiring AI data centres together. Spun out of JDSU in 2015, it spent its first decade as a 3D-sensing and telecom-optics supplier of moderate growth. The AI-cluster build-out has remade it into one of the principal upstream beneficiaries of hyperscaler capex, alongside Coherent Corp.",
+  "recent": "Q1 fiscal-2026 set record revenue, with management citing AI-driven demand and an order book that runs into 2027. In March 2026 Nvidia announced a roughly $2 billion strategic investment paired with multi-year purchase commitments for co-packaged-optics components. The company joined the S&P 500 in March 2026; shares have surged on AI demand, leaving the stock at a forward P/E in the 60s, materially above peers.",
+  "sources": [
+    {"title": "Lumentum Q1 2026 Earnings Highlights (Yahoo)", "url": "https://finance.yahoo.com/news/lumentum-holdings-inc-lite-q1-051037719.html"},
+    {"title": "Lumentum Forward P/E (GuruFocus)", "url": "https://www.gurufocus.com/term/forward-pe-ratio/LITE"},
+    {"title": "Nvidia $4B CPO investment", "url": "https://www.genaitech.net/p/nvidias-4b-cpo-bet-scaleout-first"},
+    {"title": "Lumentum Investor Relations", "url": "https://investor.lumentum.com/overview/default.aspx"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

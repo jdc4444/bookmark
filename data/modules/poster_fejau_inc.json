@@ -1,0 +1,19 @@
+{
+  "key": "fejau_inc",
+  "display_name": "fejau (@fejau_inc)",
+  "blurb": "Felix Jauvin is a Montreal-based macro trader and host of the Forward Guidance podcast at Blockworks, where he interviews institutional investors, economists, and strategists on global liquidity cycles, rates, and asset allocation. On X he posts independently under @fejau_inc, covering macro positioning, volatility dynamics, Bitcoin as a global liquidity proxy, and occasional forays into quantitative finance. His public persona straddles two registers: long-form podcast interviewer drawing out guests on yield curve mechanics and central bank balance sheets, and short-form commentator flagging market anomalies, academic papers, and trade setups for a following in the low six figures.",
+  "credibility_note": "Jauvin speaks as a practitioner-commentator rather than a licensed advisor or disclosed fund manager; his views are not attributable to a regulated entity. He has a track record of surfacing serious academic and market-structure ideas to a broad audience — the implied-volatility tweet is characteristic of his tendency to reframe technical finance questions for non-specialist readers. No verified AUM or auditable performance record is publicly available.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/fejau_inc"},
+    {"label": "Blockworks author page", "url": "https://blockworks.com/author/felix-jauvin"},
+    {"label": "Forward Guidance podcast", "url": "https://blockworks.co/podcast/forwardguidance"}
+  ],
+  "sources": [
+    {"title": "Forward Guidance — Apple Podcasts", "url": "https://podcasts.apple.com/fj/podcast/forward-guidance/id1592743188"},
+    {"title": "Felix Jauvin — Blockworks", "url": "https://blockworks.com/author/felix-jauvin"},
+    {"title": "fejau (@fejau_inc) on X", "url": "https://x.com/fejau_inc"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

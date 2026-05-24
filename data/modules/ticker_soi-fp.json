@@ -1,0 +1,32 @@
+{
+  "key": "SOI FP",
+  "name": "Soitec SA",
+  "exchange": "Euronext Paris",
+  "blurb": "Soitec SA develops and manufactures semiconductor materials, specializing in silicon-on-insulator (SOI) substrates. The company serves markets including mobile communications, automotive, and 5G infrastructure. It is headquartered in France and listed on Euronext Paris under the ticker SOI.",
+  "recent": "Over the past month, Soitec's stock price surged more than 10% on May 8, 2026, reaching €167.20. The company's market cap stands at €5.38 billion, with revenue of €783.86 million and net income of €11.33 million for the trailing twelve months.",
+  "sources": [
+    {
+      "url": "https://www.bloomberg.com/quote/SOI:FP",
+      "title": "SOI: SOITEC Stock Price Quote - EN Paris - Bloomberg"
+    },
+    {
+      "url": "https://stockanalysis.com/quote/epa/SOI/",
+      "title": "Soitec (EPA:SOI) Stock Price & Overview"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/SOI.PA/",
+      "title": "Soitec SA (SOI.PA) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/SOITEC-4695/",
+      "title": "Soitec Stock (SOI) - Quote Euronext Paris- MarketScreener"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/SOIT.PA/",
+      "title": "(SOIT.PA) | Stock Price & Latest News | Reuters"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:28:58.139802Z",
+  "backend": "deepseek"
+}

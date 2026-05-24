@@ -1,0 +1,14 @@
+{
+  "key": "SICHF",
+  "name": "Shin-Etsu Chemical Co., Ltd.",
+  "exchange": "OTC (primary: TYO: 4063)",
+  "blurb": "Shin-Etsu Chemical is Japan's largest chemical company and the world's leading producer of semiconductor-grade silicon wafers, holding roughly 32% of global 300-millimeter wafer capacity. It is also the world's largest producer of polyvinyl chloride (PVC) and a major supplier of silicones and rare-earth magnets. The wafer division supplies the ultra-flat, ultra-pure silicon discs on which leading-edge AI chips — including Nvidia's H-series GPUs — are etched at TSMC and Samsung.",
+  "recent": "In November 2025, Shin-Etsu committed ¥150 billion to expand 300mm wafer capacity at its Shirakawa and Takefu sites, targeting 2nm and 3nm node specifications. The company pioneered real-time diameter monitoring that achieves total-thickness variation below 0.09 micrometers, a threshold essential for backside power-rail designs in next-generation AI chips. AI-related wafer demand has been a bright spot even as other device categories remain weak.",
+  "sources": [
+    {"url": "https://www.klover.ai/shin-etsu-ai-strategy-analysis-of-dominance-in-chemicals-ai/", "title": "Shin-Etsu's AI Strategy — Klover.ai"},
+    {"url": "https://www.intelmarketresearch.com/semiconductor-silicon-wafer-market-16631", "title": "Semiconductor Silicon Wafer Market Outlook — Intel Market Research"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

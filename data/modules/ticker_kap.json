@@ -1,0 +1,24 @@
+{
+  "key": "KAP",
+  "name": "National Atomic Company Kazatomprom JSC",
+  "exchange": "London Stock Exchange (XLON) — GDRs; also Astana International Exchange (AIX)",
+  "blurb": "National Atomic Company Kazatomprom JSC is the world's largest uranium producer, headquartered in Astana, Kazakhstan. The company accounts for roughly 40% of global primary uranium output, selling uranium concentrates and conversion products to nuclear power operators across Asia, Europe, and North America. Majority-owned by Kazakhstan's sovereign wealth fund Samruk-Kazyna, Kazatomprom extracts uranium almost exclusively via low-cost in-situ recovery (ISR) across Kazakhstan's southern uranium deposits. Its global depositary receipts (GDRs) trade on the London Stock Exchange under the ticker KAP.",
+  "recent": "As of May 14, 2026, KAP GDRs were quoted at approximately $70.10, off 3.04% on the day per Morningstar. The company filed a regulatory announcement on the London Stock Exchange disclosing its 1H2025 financial results and its 2026 production strategy. Beyond the intraday price decline and that disclosure, the provided sources do not contain sufficient detail to characterize specific earnings beats, guidance changes, or other catalysts within the past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/KAP.IL/",
+      "title": "National Atomic Company Kazatomprom JSC (KAP.IL) Stock Price, News — Yahoo Finance"
+    },
+    {
+      "url": "https://www.londonstockexchange.com/news-article/KAP/kap-1h2025-results-and-2026-production-strategy/17196403",
+      "title": "KAP 1H2025 Results and 2026 Production Strategy — London Stock Exchange"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xlon/kap/quote",
+      "title": "KAP Stock Price Quote — Morningstar"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:00:02.306976Z",
+  "backend": "claude-sonnet-subagent"
+}

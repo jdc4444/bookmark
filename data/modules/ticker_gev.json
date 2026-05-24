@@ -1,0 +1,24 @@
+{
+  "key": "GEV",
+  "name": "GE Vernova Inc.",
+  "exchange": "NYSE",
+  "blurb": "GE Vernova is the power and energy spinoff of General Electric, separated as an independent NYSE-listed company in April 2024. The company operates three segments: Power (gas turbines, steam turbines, grid services), Wind (onshore and offshore turbines), and Electrification (grid software, power conversion, high-voltage equipment). It is one of the few companies in the world capable of manufacturing heavy-duty gas turbines at scale, a competitive moat that has become highly significant as hyperscalers race to secure reliable power for AI data centres.",
+  "recent": "GE Vernova reported Q1 2026 revenue of $9.34 billion and net income of $4.75 billion, driven by record AI-linked orders. Its total backlog reached $150 billion — described by management as 'sold out for years.' The stock rose from its April 2024 IPO price of approximately $165 to $1,099 as of early May 2026, a gain of roughly 565%, making it one of the best-performing large-cap equities of the AI infrastructure cycle. Gas turbine lead times have stretched into the early 2030s, cementing GEV's pricing power. In 2025 full-year revenue was $38.1 billion (+9%), with net income of $4.9 billion, up 215% year-on-year. Analysts maintain a consensus Buy rating but the average 12-month price target of $1,068 implies the stock has largely priced in near-term upside.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/gev/",
+      "title": "GE Vernova (GEV) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/GEV/",
+      "title": "GE Vernova Inc. (GEV) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.macrotrends.net/stocks/charts/GEV/ge-vernova/stock-price-history",
+      "title": "GE Vernova 2-Year Stock Price History — MacroTrends"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T21:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,166 @@
+{
+  "headline": "Bare-Metal Cloud Computers Aim to Give AI Agents a Persistent Home",
+  "lede": "A solo developer has built Agent Computer, a service that provisions isolated Linux virtual machines purpose-built for AI agents, giving software that can browse, code, and reason its own persistent desktop to work in. The service runs on Firecracker microVMs deployed directly on bare-metal hosts, distinguishing it from competitors that layer virtual machines atop cloud-provider infrastructure. The project is new and unfunded, but addresses a real gap: autonomous AI agents need somewhere durable to live.",
+  "body": "The core problem Agent Computer solves is one of residency. Most AI agents — whether coding assistants, web scrapers, or autonomous task runners — execute in ephemeral sandboxes that vanish when a task ends, or inside a developer's local machine where they can interfere with their host's work. A *cloud computer* for an agent is a persistent, isolated Linux environment the agent treats as its own: it can install software, start servers, browse the web via *VNC*, and maintain state across sessions. Agent Computer provisions these machines at $0.07 per CPU-hour, with up to 64 gigabytes of RAM and 250 gigabytes of storage per instance.\n\nThe architectural choice behind the service's performance pitch is running **Firecracker** — the open-source *microVM* monitor that Amazon (AMZN) built for AWS Lambda — directly on *bare metal* rather than inside rented cloud VMs. Most competing services also use Firecracker but run it inside AWS or Google Cloud (GOOGL) instances, adding a virtualization layer that caps throughput. Agent Computer claims approximately 1 GB/s network and 3 GB/s NVMe speeds as a result. The host daemon is intentionally synchronous: Firecracker boots a VM in under 200 milliseconds, the project's README notes, and “the overhead of an async job queue would dwarf the actual work.”\n\nThe announcement highlights support for one-click self-hosting of two prominent agent frameworks: Hermes Agent, by Nous Research, a lab focused on open-weight language models; and **OpenClaw**, created by developer Peter Steinberger and now stewarded by a non-profit foundation. Both are self-hosted, open-source platforms that run a personal AI assistant across dozens of messaging services. OpenClaw grew to 345,000 GitHub stars before a security crisis in early 2026 exposed 135,000 publicly accessible instances to nine critical vulnerabilities in four days, one rated 9.9 on the *CVSS* severity scale. Hermes Agent, partly positioned as a security-minded alternative, reached 137,000 stars; it features a self-improving loop in which the agent writes its own skill files from completed tasks. Both frameworks need persistent compute to run continuously — Agent Computer is pitching itself as that host.\n\nThe cloud-infrastructure layer for AI agents has become a contested category. Browserbase, which raised $61 million at a $300 million valuation, focuses on headless browser automation. E2B, with $32 million in backing from Insight Partners, targets ephemeral *code-execution sandboxes*. Daytona and Modal occupy adjacent positions. Against these better-capitalized competitors, Agent Computer is a solo-founder project by Harivansh Rathi, a computer-science student at the University of Virginia, whose GitHub organization for the service was created six weeks before the announcement, with essentially no GitHub traction. Whether a technically credible but unfunded project can win infrastructure contracts at scale is the real open question.",
+  "tickers": [
+    "AMZN",
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Nous Research",
+      "ticker": null
+    },
+    {
+      "name": "Browserbase",
+      "ticker": null
+    },
+    {
+      "name": "E2B",
+      "ticker": null
+    },
+    {
+      "name": "Insight Partners",
+      "ticker": null
+    },
+    {
+      "name": "Daytona",
+      "ticker": null
+    },
+    {
+      "name": "Modal",
+      "ticker": null
+    }
+  ],
+  "poster": "HarivanshRathi",
+  "concepts": [
+    {
+      "key": "firecracker-microvm",
+      "term": "Firecracker microVM",
+      "definition": "Firecracker is an open-source virtual machine monitor developed by Amazon for running serverless workloads at scale. It creates lightweight microVMs — stripped-down virtual machines that boot in milliseconds with minimal memory overhead — using the Linux kernel's built-in KVM hypervisor. Because each microVM is isolated at the hardware level, it offers stronger security boundaries than containers while remaining far lighter than a full VM."
+    },
+    {
+      "key": "microvm",
+      "term": "microVM",
+      "definition": "A minimalist virtual machine designed for isolation without the resource overhead of a traditional VM. MicroVMs share the host hardware's virtualization extensions via KVM rather than emulating hardware entirely, letting them boot in under a second and consume as little as 5 MB of memory. They are widely used to safely sandbox untrusted or autonomous code in cloud environments."
+    },
+    {
+      "key": "bare-metal",
+      "term": "bare metal",
+      "definition": "Running software directly on physical server hardware without an intermediate hypervisor or cloud provider's own virtualization layer between tenant and machine. In cloud infrastructure, bare metal means the workload has exclusive access to the actual CPUs, RAM, and drives of a physical host, which delivers higher throughput and lower latency than nested virtualization."
+    },
+    {
+      "key": "vnc",
+      "term": "VNC",
+      "definition": "Virtual Network Computing — a protocol for viewing and interacting with a remote graphical desktop environment over a network connection. VNC transmits screen images and accepts mouse and keyboard input, letting AI agents that support computer-use capabilities see and control a full desktop interface running on a distant machine."
+    },
+    {
+      "key": "cvss",
+      "term": "CVSS",
+      "definition": "The Common Vulnerability Scoring System — a standardized framework for rating the severity of software security vulnerabilities on a scale of 0 to 10. A score of 9.9 indicates a near-worst-case flaw: typically one that is remotely exploitable, requires little attacker skill, and enables full system compromise."
+    },
+    {
+      "key": "code-execution-sandbox",
+      "term": "code-execution sandbox",
+      "definition": "An isolated, typically ephemeral environment in which arbitrary code can run without risk of damaging the host system or leaking data to adjacent tenants. Sandboxes spin up on demand, execute a task, then are destroyed — the opposite of the persistent, stateful cloud computers Agent Computer provides."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "AgentComputerAI-computer-host",
+      "url": "https://github.com/AgentComputerAI/computer-host",
+      "summary": "The core daemon for Agent Computer's infrastructure: a Go program that manages Firecracker microVMs on bare-metal Linux hosts by talking directly to the Firecracker HTTP API via the jailer process. It exposes a JSON interface over a Unix socket and is intentionally synchronous, since Firecracker's sub-200-millisecond boot time makes async overhead counterproductive. It forms the server-side runtime that provisions, starts, stops, and snapshots every cloud computer the service sells."
+    },
+    {
+      "key": "NousResearch-hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "summary": "Hermes Agent is a self-hosted, open-source AI assistant framework from Nous Research that connects to over 40 messaging platforms and accumulates capabilities by writing its own skill files from completed tasks. Its self-improving loop — stored in SQLite, vector memory, and Honcho — is designed to reduce task time by around 40% once the agent has built up 20 or more skills. It supports any LLM provider and can migrate users directly from OpenClaw."
+    },
+    {
+      "key": "openclaw-openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "summary": "OpenClaw is a self-hosted, open-source personal AI assistant that interfaces with 24-plus messaging platforms and offers a community skill marketplace (ClawHub) with over 13,000 contributed plugins. Created by Peter Steinberger and later transferred to a non-profit foundation, it grew to 345,000 GitHub stars before a March 2026 security crisis exposed 135,000 public instances to nine critical CVEs, including one rated 9.9. Despite the incident it remains one of the most widely deployed self-hosted agent frameworks."
+    }
+  ],
+  "fact_check": "The tweet links to CLI documentation at a URL ending in #mount-commands, implying that mount-style filesystem commands are documented there. No such section currently exists in the Agent Computer CLI docs. The closest available functionality is a file-sync command that copies a local directory to the remote machine via SCP, and a REST file-operations API with read, write, patch, and directory commands. The #mount-commands anchor may refer to a planned or renamed feature.",
+  "thread_summary": "The thread opens with an announcement that Agent Computer now supports one-click self-hosting for Hermes Agent, OpenClaw, Bitwarden, and other self-hosted tools, positioning the service as a turnkey compute host for personal AI infrastructure. It then links to the main provisioning page and CLI documentation, pitching the combination of managed cloud VMs and popular open-source agent frameworks as a low-friction path to running a persistent AI agent.",
+  "sources": [
+    {
+      "url": "https://agentcomputer.ai",
+      "title": "Agent Computer — Cloud Computers for AI Agents",
+      "note": "Main product page; core feature description, tagline, and compute specs"
+    },
+    {
+      "url": "https://agentcomputer.ai/docs/cli",
+      "title": "Agent Computer CLI Reference",
+      "note": "Full CLI command reference: lifecycle, access modes, sync, port publishing, and snapshots"
+    },
+    {
+      "url": "https://agentcomputer.ai/docs/api",
+      "title": "Agent Computer REST API Reference",
+      "note": "REST API including file-ops endpoints and exec session RPC methods"
+    },
+    {
+      "url": "https://agentcomputer.ai/pricing",
+      "title": "Agent Computer Pricing",
+      "note": "Usage-based rates for CPU, RAM, hot storage, and cold storage"
+    },
+    {
+      "url": "https://github.com/AgentComputerAI/computer-host",
+      "title": "AgentComputerAI/computer-host — GitHub",
+      "note": "Go daemon for Firecracker microVM management; architecture details and README quotes"
+    },
+    {
+      "url": "https://github.com/AgentComputerAI/computer-guest",
+      "title": "AgentComputerAI/computer-guest — GitHub",
+      "note": "Guest image defaults: SSH on port 2222, VNC on port 6080"
+    },
+    {
+      "url": "https://github.com/AgentComputerAI/computer-cli",
+      "title": "AgentComputerAI/computer-cli — GitHub",
+      "note": "TypeScript CLI public mirror; confirms command surface area"
+    },
+    {
+      "url": "https://github.com/harivansh-afk",
+      "title": "harivansh-afk — GitHub",
+      "note": "Builder's GitHub profile; confirms affiliation with AgentComputerAI org and org creation date"
+    },
+    {
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "title": "NousResearch/hermes-agent — GitHub",
+      "note": "Hermes Agent repo: star count, self-improving loop description, platform list"
+    },
+    {
+      "url": "https://github.com/openclaw/openclaw",
+      "title": "openclaw/openclaw — GitHub",
+      "note": "OpenClaw repo: star count, ClawHub marketplace details, security crisis context"
+    },
+    {
+      "url": "https://rywalker.com/research/ai-agent-sandboxes",
+      "title": "AI Agent Sandbox Comparison (14 platforms)",
+      "note": "Competitive landscape: architecture and pricing across E2B, Browserbase, Daytona, Modal, Runloop, Sprites"
+    },
+    {
+      "url": "https://jimmysong.io/blog/e2b-browserbase-report/",
+      "title": "E2B and Browserbase Analysis",
+      "note": "Funding figures and product positioning for E2B and Browserbase"
+    },
+    {
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "title": "Anthropic — Introducing Computer Use (Oct 2024)",
+      "note": "Context: computer-use as a model capability vs. the cloud infrastructure layer"
+    }
+  ],
+  "bookmark_id": "2038677036697329774",
+  "generated_at": "2026-05-07T09:22:10.064371Z",
+  "backend": "claude-sonnet-subagent"
+}

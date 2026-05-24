@@ -1,0 +1,16 @@
+{
+  "key": "LPK",
+  "name": "LPKF Laser & Electronics SE",
+  "exchange": "XETRA (Frankfurt)",
+  "blurb": "LPKF is a German laser-systems specialist whose product lines span PCB prototyping, solar-cell scribing, plastic welding and - most strategically - LIDE (Laser-Induced Deep Etching), a proprietary process for high-precision drilling and structuring of thin glass. LIDE is the company's bet on advanced semiconductor packaging: glass interposers and glass core substrates that route signals between chiplets, and are increasingly seen as enablers for co-packaged optics. The competitive set is small (Schott, Corning and a handful of equipment vendors), but LPKF's incumbency in the actual etching step is differentiated.",
+  "recent": "Q1 2026 revenue fell about 32% year-over-year as the legacy solar segment continues its planned wind-down, and adjusted EBIT was down 68%. Management nevertheless reaffirmed 2026 guidance of EUR 105-120m revenue and an adjusted EBIT margin between -3.0% and 4.5%, while flagging that LIDE remains in test-and-R&D rollout with major semiconductor customers and that follow-up production orders are expected in 2026 with a ramp into 2027-28. Shares re-rated sharply on the CPO and glass-substrate narrative, trading near EUR 20 in early May 2026 against a 52-week low of EUR 5.35. The 'North Star' restructuring program targets a sustainable double-digit EBIT margin by 2028.",
+  "sources": [
+    {"url": "https://www.lpkf.com/en/news-press/press-releases-teaser/lpkf-gets-off-to-a-solid-start-in-2026", "title": "LPKF gets off to a solid start in 2026"},
+    {"url": "https://finance.yahoo.com/quote/LPK.DE/earnings/LPK.DE-Q1-2026-earnings_call-408710.html", "title": "LPKF Q1 FY2026 earnings call transcript"},
+    {"url": "https://lide.lpkf.com/en/applications/glass-interposers", "title": "LPKF - Glass Interposers (LIDE applications)"},
+    {"url": "https://www.lpkf.com/fileadmin/mediafiles/user_upload/company/investor-relations/financial-reports/2026/Quarterly_Financial_Report_Q1_2026.pdf", "title": "LPKF Quarterly Financial Report Q1 2026"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

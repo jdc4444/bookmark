@@ -1,0 +1,24 @@
+{
+  "key": "VICR",
+  "name": "Vicor Corporation",
+  "exchange": "NASDAQ",
+  "blurb": "Vicor Corporation designs, develops, manufactures, and markets modular power components and power systems for converting electrical power in electrically powered devices. The company offers a range of brick-format DC-DC converters, complementary components for AC line rectification and filtering, and input/output voltage products. Vicor serves customers in the United States, Europe, Asia Pacific, and internationally, and is known for its high-performance power management solutions.",
+  "recent": "As of May 6, 2026, Vicor's stock closed at $280.34, up 5.39% on the day, with a 52-week range of $39.64 to $293.95. The company reported strong financials with revenue of $426.70M (up 15.6% year-over-year) and net income of $136.68M (up 490.6%). Analysts have a Strong Buy rating with a price target of $217.50, though the stock trades above that level.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/VICR/",
+      "title": "Vicor Corporation (VICR) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/VICR/",
+      "title": "Vicor (VICR) Stock Price, News & Analysis - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/vicr/",
+      "title": "Vicor (VICR) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:49:28.735914Z",
+  "backend": "deepseek"
+}

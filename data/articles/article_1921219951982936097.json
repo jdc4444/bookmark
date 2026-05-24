@@ -1,0 +1,151 @@
+{
+  "headline": "There Is No Trick: Sustained Good Acts Make Good Character",
+  "lede": "Emmett Shear — Twitch's co-founder and longtime chief executive, and briefly OpenAI's interim CEO during its chaotic November 2023 board crisis — posted an observation that reads as self-deprecating but argues something philosophically precise: that consistently showing up to do useful work for the people around you is not a *performance* of virtue but its actual production. The tweet asks no credit and concedes no theory. Watch what people do, for long enough, and you will not be fooled.",
+  "body": "The observation arrives from a specific vantage point. Shear sold Twitch to Amazon (AMZN) for $970 million in 2014, ran it until 2023, then spent three days as OpenAI's interim chief executive before Sam Altman was reinstated — an episode that put trust, track record, and the gap between stated values and revealed behavior under an unusually bright light. He now runs Softmax, an AI alignment company whose central thesis is that genuine alignment cannot be imposed from above but must emerge through practice and genuine stake in a shared system. The tweet is the human version of that argument, stripped to its minimum.\n\nThe philosophical case is ancient. Aristotle's *Nicomachean Ethics* defines virtue as *hexis* — an active disposition formed through *habituation*, the same Greek root from which \"ethics\" derives. \"We become just by doing just acts,\" Aristotle wrote, \"temperate by doing temperate acts.\" Character is not an inner essence that behavior expresses; it is the sediment of repeated acts. The implication for Shear's \"trick\" is radical: **the sustained performance of prosocial virtue is the very mechanism by which virtue is produced.** The fake and the genuine converge.\n\nTwo later frameworks specify how. William James, in *The Principles of Psychology* (1890), argued that \"acting as if\" is not self-deception but a genuine causal pathway — enact a trait long enough and it becomes structurally embedded in your motivational architecture. Daryl Bem's *self-perception theory* (1967) adds an empirical complement: people infer their own character from observable behavior much as an outside observer would. Consistently help your neighbors, and you will conclude — correctly — that you care about your neighbors. The observer and the actor arrive at the same diagnosis by the same route.\n\n*Behavioral ethics*, the empirical study of how people actually behave under moral conditions, has found that stated character predicts conduct only weakly. What predicts it strongly is observed behavioral pattern over time. This makes Shear's formulation epistemologically sharp rather than simply generous: if inner states are inaccessible, sustained and costly prosocial action is the most reliable signal available. The consistency criterion — not one dramatic gesture but chronic, unremarkable show-up — is the key discriminator, because that pattern is expensive to fake. \"I fall for it every time\" is not credulity. It is the correct response to a strong signal.\n\nShear has described himself in interviews as a localist, skeptical of the *effective altruism* movement's preference for abstracted, large-scale intervention over direct stake in one's own community. \"It's hubris to do global stuff,\" he has said. The tweet's specificity — \"in your life and your community\" — is deliberate. At Softmax, he calls his framework *organic alignment*: the idea that a group of agents, whether human or artificial, coordinates genuinely through practice and mutual stake rather than through externally imposed rules. The person who \"tricks\" Shear by consistently showing up is, in this frame, simply an agent that has aligned itself to the system it inhabits. The trick is not a trick. It is the thing.",
+  "tickers": [
+    "AMZN"
+  ],
+  "companies": [
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Twitch",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Softmax",
+      "ticker": null
+    }
+  ],
+  "poster": "eshear",
+  "concepts": [
+    {
+      "key": "hexis",
+      "term": "hexis",
+      "definition": "Aristotle's term for a stable character disposition — not a momentary feeling or state, but an active, durable tendency of the soul formed through sustained practice. Courage is a hexis; so is justice. You cannot have one without the accumulated acts that built it."
+    },
+    {
+      "key": "habituation",
+      "term": "habituation",
+      "definition": "In Aristotelian ethics, the process by which repeated actions form stable character traits. The Greek word for habit (ethos) is the root of \"ethics.\" What a person does consistently is, over time, what a person becomes. Habituation is both the route to virtue and the route to vice."
+    },
+    {
+      "key": "self-perception-theory",
+      "term": "self-perception theory",
+      "definition": "Daryl Bem's 1967 psychological theory holding that people infer their own attitudes, emotions, and character traits from their observable behavior, exactly as an outside observer would. We are not transparent to ourselves; we read our own character from the outside in. The implication is that acting prosocially does not merely express a caring identity — it produces one."
+    },
+    {
+      "key": "behavioral-ethics",
+      "term": "behavioral ethics",
+      "definition": "An empirical field studying how people actually behave in morally relevant situations, as distinct from normative ethics, which asks what they should do. Its core finding — associated with researchers including Max Bazerman — is that stated character and moral beliefs predict ethical action only weakly; observed behavioral patterns over time predict it far more reliably."
+    },
+    {
+      "key": "effective-altruism",
+      "term": "effective altruism",
+      "definition": "A philosophical and philanthropic movement whose practitioners aim to do the most measurable good per unit of resources, typically by directing money or effort toward large-scale, often global interventions chosen through quantitative reasoning. Critics, including Shear, argue it can substitute abstraction for the direct, community-rooted stake that generates genuine accountability."
+    },
+    {
+      "key": "organic-alignment",
+      "term": "organic alignment",
+      "definition": "Emmett Shear's term for the way a group of intelligent agents achieves genuine coordination — not through externally imposed rules but through each agent internalizing values by taking a real stake in the system they inhabit. Shear applies the concept to AI systems at Softmax, but it maps directly onto his view of human community and character."
+    }
+  ],
+  "books": [
+    {
+      "key": "nicomachean-ethics",
+      "title": "Nicomachean Ethics",
+      "author": "Aristotle",
+      "summary": "The foundational text of Western virtue ethics, written around 350 BCE, in which Aristotle argues that the virtues of character — courage, justice, temperance — are stable dispositions formed through habituation and maintained through practice. The work defines ethics as the study of human flourishing (eudaimonia) and insists that moral character is built by doing, not merely by knowing. Book II contains the core argument that Shear's tweet implicitly restates: we become virtuous by performing virtuous acts."
+    },
+    {
+      "key": "principles-of-psychology",
+      "title": "The Principles of Psychology",
+      "author": "William James",
+      "summary": "James's two-volume masterwork (1890) laid the foundations of modern psychology. Its chapters on habit and the will develop what became the 'act as if' principle: sustained enactment of a trait, even under uncertainty, causally embeds it in the motivational structure of the person. James saw character as plastic and behavior as prior to belief — a pragmatist inversion of common-sense psychology that anticipates both Bem's self-perception theory and the behavioral ethics literature."
+    }
+  ],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Emmett_Shear",
+      "title": "Emmett Shear — Wikipedia",
+      "note": "Biographical background: Twitch founding, Amazon acquisition, OpenAI episode, Softmax"
+    },
+    {
+      "url": "https://www.cnn.com/2023/11/20/tech/openai-ceo-emmett-shear-twitch/index.html",
+      "title": "Who is Emmett Shear, OpenAI's third CEO in three days? — CNN",
+      "note": "News coverage of Shear's 72-hour OpenAI tenure and professional background"
+    },
+    {
+      "url": "https://classics.mit.edu/Aristotle/nicomachaen.2.ii.html",
+      "title": "Nicomachean Ethics, Book II — MIT Classics",
+      "note": "Primary source for Aristotle's habituation argument and hexis concept"
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/aristotle-ethics/",
+      "title": "Aristotle's Ethics — Stanford Encyclopedia of Philosophy",
+      "note": "Authoritative secondary source on hexis, eudaimonia, and habituation"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Self-perception_theory",
+      "title": "Self-Perception Theory — Wikipedia",
+      "note": "Overview of Bem 1967 and its implications for identity formation through behavior"
+    },
+    {
+      "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Motivation/Bem_1967_Self_perception.pdf",
+      "title": "Self-Perception: An Alternative Interpretation of Cognitive Dissonance Phenomena — Bem (1967)",
+      "note": "Original paper establishing self-perception theory"
+    },
+    {
+      "url": "https://www.commonsenseethics.com/blog/fake-it-until-you-make-it-aristotle-on-becoming-a-better-person",
+      "title": "Fake It Until You Make It: Aristotle on Becoming a Better Person — Common Sense Ethics",
+      "note": "Frames Aristotle's habituation doctrine as the original 'fake it till you make it' philosophy"
+    },
+    {
+      "url": "https://blogs.lse.ac.uk/theforum/fake-it-till-you-make-it/",
+      "title": "Fake It Till You Make It — LSE Forum for Philosophy",
+      "note": "Philosophical analysis of emulative imitation and the fake-to-genuine transition in virtue"
+    },
+    {
+      "url": "https://insight.kellogg.northwestern.edu/article/the-problem-with-faking-it",
+      "title": "The Problem With Faking It — Kellogg Insight",
+      "note": "Research on inauthenticity and moral debt; supports the claim that sustained prosocial faking is self-correcting"
+    },
+    {
+      "url": "https://ethicsunwrapped.utexas.edu/glossary/behavioral-ethics",
+      "title": "Behavioral Ethics — Ethics Unwrapped, University of Texas",
+      "note": "Definition and scope of behavioral ethics as an empirical field"
+    },
+    {
+      "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=42452",
+      "title": "Behavioral Ethics: Toward a Deeper Understanding of Moral Judgment and Dishonesty — HBS",
+      "note": "Academic grounding for the finding that stated character weakly predicts ethical action"
+    },
+    {
+      "url": "https://podcast.clearerthinking.org/episode/214/emmett-shear-worldviews-altruism-and-embracing-variance/",
+      "title": "Worldviews, Altruism, and Embracing Variance — ClearerThinking Podcast with Emmett Shear",
+      "note": "Shear in long-form on altruism, localism, motivation from love vs. fear, and identity"
+    },
+    {
+      "url": "https://parconley.com/emmett-shear/",
+      "title": "Emmett Shear: SF, Power, AI Alignment, Meditation, Softmax — parconley.com",
+      "note": "Interview covering Shear's localism, critique of EA, and Softmax's organic alignment concept"
+    },
+    {
+      "url": "https://www.corememory.com/p/exclusive-emmett-shear-is-back-with-softmax",
+      "title": "Exclusive: Emmett Shear Is Back With a New Company — Core Memory",
+      "note": "Reporting on Softmax founding and Shear's organic alignment thesis"
+    }
+  ],
+  "bookmark_id": "1921219951982936097",
+  "generated_at": "2026-05-07T06:52:28.657653Z",
+  "backend": "claude-sonnet-subagent"
+}

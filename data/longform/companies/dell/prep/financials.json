@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "fiscal_year_end": "Approximately January 30 (fiscal year FY2026 ended approximately January 30, 2026)",
+  "currency": "USD",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001571996/000119312526226755/d341553dars.pdf",
+    "https://futurumgroup.com/insights/dell-q4-fy-2026-earnings-highlight-ai-optimized-server-ramp/",
+    "https://futurumgroup.com/insights/dell-technologies-q3-fy-2026-ai-orders-backlog-and-outlook-rise/",
+    "https://futurumgroup.com/insights/dell-q2-fy-2026-results-show-19-revenue-jump-ai-server-shipments-surge/",
+    "https://markets.financialcontent.com/stocks/article/finterra-2026-2-26-the-ai-architect-a-deep-dive-into-dell-technologies-q4-2026-results-and-the-future-of-ai-hardware"
+  ],
+  "key_finding": "Dell FY2026 produced $113.5B revenue with the operating story dominated by ISG: $24.6B FY26 AI server revenue (+300%+ YoY), $64B+ of AI-optimised server orders closed during the year, $25B+ of AI server shipments, and a record $43B AI server backlog entering FY27. ISG Q4 revenue $18.82B (+66%) with server and networking +112%. CSG Q4 revenue $13.5B (+14%) — commercial $11.6B (+16%), consumer $1.9B (flat). The AI server cycle is the dominant operating leverage event of the year; CSG provides the cash-generative base.",
+  "fy2026_total_revenue_usd_billions": 113.5,
+  "fy2026_ai_server_revenue_usd_billions": 24.6,
+  "fy2026_ai_server_yoy_growth": 3.0,
+  "fy2026_ai_server_orders_closed_usd_billions": 64,
+  "fy2026_ai_server_shipments_usd_billions": 25,
+  "fy26_year_end_ai_backlog_usd_billions": 43,
+  "q4_fy26_segment_revenue": {
+    "isg_total_usd_billions": 18.82,
+    "isg_yoy_growth": 0.66,
+    "server_and_networking_yoy_growth": 1.12,
+    "csg_total_usd_billions": 13.5,
+    "csg_yoy_growth": 0.14,
+    "csg_commercial_usd_billions": 11.6,
+    "csg_commercial_yoy_growth": 0.16,
+    "csg_consumer_usd_billions": 1.9,
+    "csg_consumer_yoy_growth": 0.0
+  },
+  "structural_observations": [
+    "AI server revenue growing 300%+ YoY while CSG grows 14% indicates Dell's operating gravity has fundamentally shifted toward ISG within twelve months.",
+    "Backlog of $43B entering FY27 against $25B FY26 AI server shipments implies forward-deliverable revenue is roughly double the year just completed.",
+    "ISG +66% versus CSG +14% creates margin-mix uplift if AI server gross margin holds — though Dell does not separately disclose AI server gross margin and concerns exist that hyperscaler-volume AI server economics compress at scale.",
+    "CSG commercial +16% reflects the AI PC refresh cycle beginning; the consumer line at flat YoY reflects the continued weakness in discretionary PC spending.",
+    "September 2025 CFO transition (McGill out, Kennedy interim) creates a leadership-continuity question heading into the FY27 ramp; permanent CFO search announced."
+  ]
+}

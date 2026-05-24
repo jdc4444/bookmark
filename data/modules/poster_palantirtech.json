@@ -1,0 +1,23 @@
+{
+  "key": "PalantirTech",
+  "display_name": "Palantir",
+  "blurb": "Official corporate account for Palantir Technologies (PLTR), a data analytics and AI software company whose self-described mission is 'Software that dominates.' The account posts earnings releases, CEO shareholder letters from Alex Karp, and company milestones. In Q2 2024 they reported $678M in revenue (+27% y/y), with U.S. commercial revenue up 70% y/y, and beat analyst estimates by ~$25M. Follower count not available from provided sources.",
+  "credibility_note": "This is Palantir's own official IR/comms account, so content is inherently promotional and investor-relations-oriented. Financial figures posted (revenue beats, guidance) should be cross-checked against SEC filings (10-Q/8-K) for full context.",
+  "links": [
+    "https://x.com/PalantirTech",
+    "https://www.palantir.com"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/PalantirTech/with_replies",
+      "title": "Palantir (@PalantirTech) / Posts and Replies / X"
+    },
+    {
+      "url": "https://threadreaderapp.com/user/PalantirTech",
+      "title": "Palantir's Threads - Thread Reader App"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-09T07:43:04.271388Z",
+  "backend": "claude-sonnet-subagent"
+}

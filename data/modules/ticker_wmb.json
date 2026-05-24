@@ -1,0 +1,14 @@
+{
+  "key": "WMB",
+  "name": "The Williams Companies, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Williams Companies is the largest natural-gas-focused midstream infrastructure company in the United States, operating the Transco pipeline — the nation's highest-volume natural-gas transmission system, running 1,800 miles from Texas to New York — along with gathering, processing, and deepwater assets. Unlike diversified midstream peers such as Energy Transfer or Kinder Morgan, Williams has deliberately concentrated its portfolio on natural gas at a moment when data-center electricity demand has made gas the critical bridge fuel for AI infrastructure build-out.",
+  "recent": "Williams' market capitalization has surged approximately 90% over two years to nearly $90 billion — the highest among U.S. pipeline operators — as AI-driven electricity demand has elevated natural-gas infrastructure to near-strategic-asset status. CEO Chad Zamarin described current conditions as 'definitely an upcycle,' with infrastructure representing the critical bottleneck as data-center load grows. The company targets 10% or higher compound annual EBITDA growth from 2026 to 2030 and announced $7.3 billion in power-generation projects in Ohio and Utah to position itself as a 'one-stop shop' for hyperscaler power supply — combining gas transportation with direct electricity generation for customers like Meta.",
+  "sources": [
+    {"url": "https://fortune.com/2026/04/11/data-centers-gas-demand-make-boring-pipelines-great-again/", "title": "Data centers and gas demand make boring pipelines great again — Fortune"},
+    {"url": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/", "title": "Data center demand drives 66% surge in natural gas power plant costs — TechCrunch"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

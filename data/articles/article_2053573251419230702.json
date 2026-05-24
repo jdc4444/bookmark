@@ -1,0 +1,186 @@
+{
+  "headline": "The Gigawatt AI Data Center and Its Borrowed Arithmetic",
+  "lede": "On May 10, David Sacks — co-founder of Craft Ventures and the man who spent fifteen months as Trump's White House AI czar — posted a four-line calculation claiming that a one-gigawatt AI data center costs $50 billion to build, generates $25–30 billion in annual revenue, and pays for itself in two years. The post drew two million impressions and 578 replies. One of his four figures holds up cleanly; the other three require conditions no independent analyst treats as a baseline.",
+  "body": "David Sacks — co-founder of Craft Ventures, co-host of the *All-In* podcast, and the man who spent fifteen months shaping American AI policy as Trump's White House AI czar — posted four lines on May 10 that drew 578 replies and two million impressions. **A one-gigawatt AI data center** costs about $50 billion to build, generates $25–30 billion in annual revenue, and pays itself back in two years, he wrote. The boom, he concluded, is real.\n\nThe $50 billion figure is not Sacks's own arithmetic — it is Nvidia (NVDA) chief executive Jensen Huang's. Huang has told investors that each gigawatt of AI data-center capacity represents “$40–50 billion in revenue to Nvidia,” and Barclays (BARC.L) analysts have specifically labeled this “Jensen Math,” estimating it overstates Nvidia's actual per-gigawatt take by $7–10 billion. Independent estimates cluster lower: Bernstein Research analyst Stacy Rasgon puts all-in construction at roughly $35 billion per gigawatt, breaking it down as 39% GPUs, 33% civil and electrical infrastructure, and 13% networking; McKinsey's model, which projects $5.2 trillion in global data-center investment through 2030, implies approximately $41 billion. Sacks chose the top of the reported range as his starting number.\n\nThe revenue line is the most contested figure. A gigawatt of AI compute running current *GB200 NVL72* racks at roughly 120 kilowatts each powers approximately 460,000–500,000 Blackwell-generation GPUs, once cooling and distribution losses are accounted for — a ratio captured by the metric *power usage effectiveness*, or PUE. To produce $25–30 billion annually from that hardware requires near-peak *GPU-hour* pricing, near-continuous utilization, or both simultaneously: reaching $25 billion at 75% utilization implies an average realized rate of about $7.60 per GPU-hour, achievable for committed enterprise contracts at today's Blackwell pricing but not a market baseline. H100 spot rates have already fallen 64% from their 2024 peak as more than 300 new GPU cloud providers entered the market; similar compression in the Blackwell generation would erode this figure sharply in years two and three. Conservative models built from wholesale *colocation* rates and enterprise cloud contracts suggest $10–15 billion per gigawatt-year. Amazon (AMZN)'s AWS, the world's largest cloud provider, generates roughly $3.7–4.3 billion in revenue per gigawatt of capacity it operates, though its workload mix spans far more than pure AI inference.\n\nThe electricity estimate — $1–2 billion per year — is the one figure that checks out cleanly. At the US commercial average of roughly 14 cents per kilowatt-hour, running one gigawatt continuously for a year costs about $1.24 billion; operators with *power-purchase agreements* in low-cost states can push that below $800 million. What the tweet omits is everything else in the operating stack — labor, cooling, networking, software, hardware refresh — which cloud operators typically run at 15–25% of revenue. Even accepting Sacks's revenue assumptions and computing operating profit generously, the all-in payback runs to roughly 2.3–3 years at best. At moderate utilization or with any price compression factored in, the horizon extends to four or five. Ratings agency S&P Global (SPGI) wrote in early 2026 that the lag between AI capital expenditure and profit “will remain elevated for an extended period”; Goldman Sachs (GS) structures its own trillion-dollar buildout models around multi-year returns. No independent analyst consensus supports two years as a median expectation.\n\nNone of this makes the buildout notional. Microsoft (MSFT), Meta (META), Amazon (AMZN), and the Stargate consortium — OpenAI, SoftBank (9984.T), and Oracle (ORCL) — are collectively committing roughly $725 billion in data-center capital expenditure in 2026 alone; the first genuine gigawatt-scale facilities are being energized this year in Memphis, Abilene, and rural Louisiana. But Sacks is not a neutral observer. He returned to Craft Ventures in March 2026 after exhausting his 130-day *Special Government Employee* appointment, during which his firm retained more than 400 investments in AI-adjacent companies and received two separate ethics waivers. Senate investigators documented a $22 million Craft Ventures investment in Vultron — an AI company targeting federal procurement contracts — made while Sacks was in office. His tweet faithfully reproduces Nvidia (NVDA)'s own gigawatt economics, a narrative whose primary commercial beneficiary is Nvidia itself. The electricity figure is accurate. The rest is best read as a promotional document.",
+  "tickers": [
+    "NVDA",
+    "BARC.L",
+    "AMZN",
+    "SPGI",
+    "GS",
+    "MSFT",
+    "META",
+    "ORCL",
+    "9984.T"
+  ],
+  "companies": [
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Barclays",
+      "ticker": "BARC.L"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "S&P Global",
+      "ticker": "SPGI"
+    },
+    {
+      "name": "Goldman Sachs",
+      "ticker": "GS"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    },
+    {
+      "name": "Oracle",
+      "ticker": "ORCL"
+    },
+    {
+      "name": "SoftBank Group",
+      "ticker": "9984.T"
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Craft Ventures",
+      "ticker": null
+    },
+    {
+      "name": "Vultron",
+      "ticker": null
+    },
+    {
+      "name": "McKinsey & Company",
+      "ticker": null
+    },
+    {
+      "name": "Bernstein Research",
+      "ticker": null
+    }
+  ],
+  "poster": "DavidSacks",
+  "concepts": [
+    {
+      "key": "gb200-nvl72",
+      "term": "GB200 NVL72",
+      "definition": "Nvidia's current flagship rack-scale AI computing module, housing 72 Blackwell B200 GPUs in a dense, liquid-cooled chassis. Each rack draws approximately 120 kilowatts and is designed for large-scale AI training and inference at data-center scale. The NVL72 designation indicates 72 GPUs connected via Nvidia's NVLink fabric within a single rack unit."
+    },
+    {
+      "key": "power-usage-effectiveness",
+      "term": "power usage effectiveness (PUE)",
+      "definition": "A ratio measuring data-center energy efficiency: total facility power input (including cooling, lighting, and power conversion losses) divided by the power actually delivered to IT equipment. A PUE of 1.0 is theoretically perfect; real-world AI data centers typically run 1.2–1.4, meaning 20–40% of input power is consumed before it ever reaches a GPU."
+    },
+    {
+      "key": "gpu-hour",
+      "term": "GPU-hour",
+      "definition": "The standard unit for pricing rented GPU compute time: one GPU running for one hour. Cloud providers charge per GPU-hour, and market rates shift sharply with supply and demand. A fleet of 500,000 GPUs running at 75% utilization for a year produces roughly 3.3 billion billable GPU-hours; the realized revenue per hour is the central variable in Sacks's contested projection."
+    },
+    {
+      "key": "colocation",
+      "term": "colocation",
+      "definition": "A data-center business model in which the facility operator provides physical space, electrical power, and cooling infrastructure while tenant companies own and operate their own servers and networking hardware. Colocation rates are quoted per kilowatt per month and are far lower per kilowatt than what a hyperscaler earns running its own compute cloud, because the software margin and utilization risk stay with the tenant."
+    },
+    {
+      "key": "power-purchase-agreement",
+      "term": "power-purchase agreement (PPA)",
+      "definition": "A long-term contract — typically 10–20 years — between an electricity generator and a large industrial buyer, fixing the price of power at rates negotiated below prevailing market levels. Major data-center operators use PPAs, often for renewable energy, to stabilize operating costs and reduce exposure to spot-market price volatility."
+    },
+    {
+      "key": "special-government-employee",
+      "term": "Special Government Employee (SGE)",
+      "definition": "A US federal appointment category for temporary advisers and consultants, capped by law at 130 working days per calendar year. SGEs face narrower financial-disclosure and ethics-recusal requirements than permanent federal employees, a distinction that critics argued allowed Sacks to retain his VC portfolio while setting AI policy his investments stood to benefit from."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Sacks presents his figures as moderate back-of-envelope estimates, but each number is drawn from the optimistic end of its range or beyond. The $50 billion capex figure originates in Nvidia CEO Jensen Huang's investor presentations, not independent analysis; Bernstein puts the figure at $35 billion per gigawatt and McKinsey implies approximately $41 billion. The $25–30 billion annual revenue projection requires 75%-plus GPU utilization sustained at near-peak Blackwell pricing, in a market that saw H100 spot rates collapse 64% from peak as supply expanded. The two-year payback is not supportable under any independent analyst base-case model; S&P Global Ratings and Goldman Sachs both frame the current AI capex cycle around multi-year return horizons. Only the $1–2 billion electricity cost estimate is consistent with independent data.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/news/nvidias-jensen-math-50-billion-033104538.html",
+      "title": "Nvidia's Jensen Math of $50B Revenue Per GW Gets a Reality Check: Barclays",
+      "note": "Barclays analysis identifying Sacks's capex figure as Nvidia's promotional math, not independent estimates"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/how-much-does-a-gw-of-data-center-capacity-actually-cost-4314046",
+      "title": "How Much Does a GW of Data Center Capacity Actually Cost",
+      "note": "Bernstein/Rasgon component-level cost breakdown putting all-in GW construction at ~$35B"
+    },
+    {
+      "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-cost-of-compute-a-7-trillion-dollar-race-to-scale-data-centers",
+      "title": "The Cost of Compute: A $7 Trillion Race to Scale Data Centers",
+      "note": "McKinsey model implying ~$41B per GW over the 2025–2030 global buildout"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out",
+      "title": "Tracking Trillions: The Assumptions Shaping the Scale of the AI Build-Out",
+      "note": "Goldman Sachs multi-year return framework for AI infrastructure investment"
+    },
+    {
+      "url": "https://introl.com/blog/gpu-cloud-price-collapse-h100-market-december-2025",
+      "title": "GPU Cloud Prices Collapse: H100 Market Analysis",
+      "note": "Documents the 64% fall in H100 spot rates from peak, driven by 300+ new market entrants"
+    },
+    {
+      "url": "https://intuitionlabs.ai/articles/h100-rental-prices-cloud-comparison",
+      "title": "H100 Rental Prices Compared: $1.49–$6.98/hr Across Providers",
+      "note": "Current and historical GPU-hour pricing data illustrating active price compression"
+    },
+    {
+      "url": "https://datacenterpost.com/the-1-gigawatt-data-center-dilemma/",
+      "title": "The 1 Gigawatt Data Center Dilemma",
+      "note": "Colocation rate benchmarks showing GW-scale facility revenue far below Sacks's $25–30B projection"
+    },
+    {
+      "url": "https://www.npr.org/2025/12/12/nx-s1-5631823/david-sacks-ai-advisor-investment-conflicts",
+      "title": "Trump tech adviser David Sacks under fire over vast AI investments",
+      "note": "Documents Craft Ventures' 400+ retained AI investments and two ethics waivers during Sacks's White House tenure"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/03/26/david-sacks-trump-crypto-ai-czar.html",
+      "title": "David Sacks says his time as Trump's crypto and AI czar has ended",
+      "note": "Confirms Sacks's March 2026 departure from the White House after exhausting the 130-day SGE cap"
+    },
+    {
+      "url": "https://www.spglobal.com/ratings/en/regulatory/article/data-centers-are-the-winning-odds-less-certain-in-2026-s101659690",
+      "title": "Data Centers: Are The Winning Odds Less Certain In 2026?",
+      "note": "S&P Global Ratings on extended payback periods and capital-intensity lag in AI data-center investment"
+    },
+    {
+      "url": "https://www.nextbigfuture.com/2025/11/first-five-ai-data-center-with-over-one-gigawatt-of-power-arriving-in-2026-2027.html",
+      "title": "First Five AI Data Centers With Over One Gigawatt of Power Arriving in 2026–2027",
+      "note": "Documents real gigawatt-scale projects: xAI Colossus 2, Stargate Abilene, Meta Prometheus"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/big-techs-ai-spending-plans-reach-725-billion",
+      "title": "Big Tech's AI Spending Plans Reach $725 Billion",
+      "note": "Source for combined hyperscaler capex commitments in 2026"
+    },
+    {
+      "url": "https://www.electricchoice.com/electricity-prices-by-state/",
+      "title": "Electricity Rates by State (May 2026)",
+      "note": "US commercial electricity rates used to validate the electricity cost estimate"
+    },
+    {
+      "url": "https://x.com/ShanuMathew93/status/2043710898859089994",
+      "title": "Shanu Mathew on X — data-center capacity analysis thread",
+      "note": "Independent portfolio manager triangulating hyperscaler disclosures on energized vs. announced gigawatt capacity"
+    }
+  ],
+  "bookmark_id": "2053573251419230702",
+  "generated_at": "2026-05-14T11:22:19.145073Z",
+  "backend": "claude-sonnet-subagent"
+}

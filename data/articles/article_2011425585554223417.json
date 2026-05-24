@@ -1,0 +1,38 @@
+{
+  "headline": "Freepik's Change Camera Generates New Angles From One Photo",
+  "lede": "Freepik, the Madrid-based stock-media platform, has released a tool called Change Camera that synthesizes new camera angles from a single still image — no second photograph, no 3D model required. The system uses AI to extrapolate what a scene would look like from positions a real camera never occupied. It is the kind of capability that, a few years ago, required a photogrammetry rig and hours of post-production.",
+  "body": "The core trick is **novel-view synthesis** — inferring the geometry and texture of a scene well enough to render it from an arbitrary viewpoint. Traditional approaches required either multiple reference photographs shot from known positions, or an explicit 3D model built by scanning or manual construction. Change Camera, according to Freepik's own description, needs neither: one image goes in, a virtual camera moves around it, and plausible new frames come out.\n\nThe practical targets are commercial: product photography, advertising thumbnails, and short-form video — contexts where re-shooting or commissioning a 3D artist is expensive relative to the value of the asset. A single product photo could, in principle, be repurposed into a rotating hero shot without a studio or a second session. That compression of cost has real implications for small e-commerce operators and independent creators who currently can't afford what larger brands take for granted.\n\nThe limitations are worth noting even if the sources don't dwell on them. *Novel-view synthesis* breaks down at occlusion boundaries — areas hidden from the original camera that the model must hallucinate. For tightly cropped or texture-rich scenes, artifacts and blurring at the edges of extrapolation are common failure modes in the underlying research. Whether Change Camera has meaningfully solved these or simply constrained the tool to angles where the errors are tolerable is not clear from available sources.\n\nFreepik's move is part of a broader pattern in which stock-media and creative-SaaS platforms have become unexpected delivery vehicles for frontier AI research. The company already offers AI image generation, background removal, and upscaling; Change Camera extends that portfolio into spatial reasoning. It positions Freepik not merely as a library of assets but as a production tool — a subtle but commercially significant shift in what the platform is.",
+  "tickers": [],
+  "poster": "Stronkter",
+  "concepts": [
+    {
+      "key": "novel-view-synthesis",
+      "term": "novel-view synthesis",
+      "definition": "A computer-vision technique that generates what a scene would look like from a camera position that was never actually used. The model infers 3D structure and surface appearance from one or more reference images, then renders new frames from arbitrary viewpoints. Quality degrades where the original image provides no information — areas hidden behind objects or at the edges of the frame."
+    },
+    {
+      "key": "photogrammetry",
+      "term": "photogrammetry",
+      "definition": "The traditional method of reconstructing 3D geometry by analyzing many overlapping photographs taken from known positions. Accurate but time-consuming and equipment-intensive; the process Change Camera is designed to bypass for everyday creative work."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.facebook.com/learnaifaster/videos/turn-one-photo-into-a-full-360-viewfreepik-just-dropped-change-camera-an-ai-tool/1202879094692373/",
+      "title": "Turn one photo into a full 360° view — Learn AI Faster",
+      "note": "Primary description of Freepik's Change Camera tool, use cases, and core claims"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cCQpgv2xZ2s",
+      "title": "Freepik's Hidden AI Feature Nobody's Talking About — YouTube",
+      "note": "Additional corroboration that Change Camera is a notable recent Freepik release"
+    }
+  ],
+  "bookmark_id": "2011425585554223417",
+  "generated_at": "2026-05-06T20:16:28.923755Z",
+  "backend": "claude"
+}

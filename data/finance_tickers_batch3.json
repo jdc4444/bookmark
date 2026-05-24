@@ -1,0 +1,63 @@
+{
+  "batch": 3,
+  "bookmarks_processed": 33,
+  "tickers": [
+    "ASTS",
+    "EOSE",
+    "FISV",
+    "HIMS",
+    "IREN",
+    "MU",
+    "NBIS",
+    "NVDA",
+    "ONDS",
+    "OSCR",
+    "PLTR",
+    "RKLB",
+    "SERV",
+    "TE",
+    "TSLA",
+    "ZETA"
+  ],
+  "per_bookmark": {
+    "2011670801859141742": [
+      "NVDA",
+      "PLTR",
+      "TSLA"
+    ],
+    "2011467499078840547": [
+      "ASTS",
+      "EOSE",
+      "IREN",
+      "ONDS",
+      "RKLB"
+    ],
+    "2011451964270531001": [
+      "MU"
+    ],
+    "2011394191184765074": [
+      "FISV"
+    ],
+    "2011292180573266365": [
+      "ASTS",
+      "IREN",
+      "NBIS",
+      "ONDS",
+      "RKLB",
+      "TSLA"
+    ],
+    "2011103238607814722": [
+      "HIMS",
+      "IREN",
+      "OSCR",
+      "TE",
+      "ZETA"
+    ],
+    "2010870821489951030": [
+      "SERV"
+    ],
+    "1884004387410051222": [
+      "NVDA"
+    ]
+  }
+}

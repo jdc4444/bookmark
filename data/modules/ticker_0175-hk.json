@@ -1,0 +1,28 @@
+{
+  "key": "0175.HK",
+  "name": "Geely Automobile Holdings Limited",
+  "exchange": "Hong Kong Stock Exchange (HKEX)",
+  "blurb": "Geely Automobile Holdings Limited is one of China's largest privately-owned automobile manufacturers, producing and selling passenger vehicles under the Geely, Lynk & Co, and Galaxy brands, among others. The company is the listed vehicle-manufacturing arm of Zhejiang Geely Holding Group, which also controls stakes in Volvo Cars, Polestar, Lotus, and the Smart brand (via a joint venture with Mercedes-Benz). Geely has aggressively expanded into new-energy vehicles (NEVs), competing in both the domestic Chinese market and select international markets. Its scale and brand portfolio make it a bellwether for China's auto industry transition toward electrification.",
+  "recent": "On May 13, 2026, Daiwa lowered its target price on Geely Auto (00175) to HKD 23.7, contributing to a sharp single-day decline of approximately 5.2% to HK$21.38. The stock has remained under pressure, trading around HK$21.26 as of May 14, 2026. A block trade of roughly 2.35 million shares (HK$52.78 million) was recorded on April 27, 2026, signaling continued institutional activity in the name.",
+  "sources": [
+    {
+      "url": "https://www.etnet.com.hk/www/eng/stocks/realtime/quote_news.php?code=0175",
+      "title": "0175.HK GEELY AUTO Real-Time Stock News - etnet"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/0175.HK/",
+      "title": "Geely Automobile Holdings Limited (0175.HK) - Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/0175.HK/",
+      "title": "Geely Automobile Holdings Ltd Stock Price & Latest News - Reuters"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/0175:HKG",
+      "title": "Geely Automobile Holdings Ltd (0175) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:27:22.652473Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,22 @@
+{
+  "key": "TheLAPurchaser",
+  "display_name": "Unknown — not retrieved",
+  "blurb": "No reliable profile data was recoverable from the provided research sources. The X.com page failed to load (JavaScript required), and no scraped profile data was included in the Apify source.",
+  "credibility_note": null,
+  "links": [
+    "https://x.com/TheLAPurchaser"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/TheLAPurchaser",
+      "title": "TheLAPurchaser (@TheLAPurchaser) / Posts / X — failed to load"
+    },
+    {
+      "url": "https://apify.com/web.harvester/twitter-scraper",
+      "title": "Twitter (X.com) Tweets & Profiles Scraper - Apify — no profile data included"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-14T10:31:26.256547Z",
+  "backend": "claude-sonnet-subagent"
+}

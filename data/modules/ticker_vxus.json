@@ -1,0 +1,31 @@
+{
+  "ticker": "VXUS",
+  "exchange": "NASDAQ",
+  "company": "Vanguard Total International Stock ETF",
+  "sector": "ETF — International Equity (ex-US)",
+  "description": "Vanguard Total International Stock ETF tracks the FTSE Global All Cap ex US Index, providing broad exposure to thousands of stocks across both developed and emerging markets outside the United States. At an expense ratio of 0.05%, it is one of the cheapest instruments for international diversification. The fund's trailing price-to-earnings ratio (around 14 as of mid-2026) makes it a notable valuation counterweight to higher-multiple U.S. equity funds.",
+  "key_products": [
+    "FTSE Global All Cap ex US Index tracking",
+    "International developed and emerging market equity exposure"
+  ],
+  "market_cap_usd": null,
+  "aum_usd": 144000000000,
+  "aum_date": "2026-05",
+  "expense_ratio": 0.0005,
+  "top_holdings": [
+    "Novo Nordisk",
+    "ASML",
+    "Samsung Electronics",
+    "Nestlé",
+    "Shell",
+    "Toyota",
+    "LVMH",
+    "AstraZeneca",
+    "HSBC",
+    "Roche"
+  ],
+  "last_updated": "2026-05-06",
+  "key": "VXUS",
+  "blurb": "Vanguard Total International Stock ETF tracks the FTSE Global All Cap ex US Index, providing broad exposure to thousands of stocks across both developed and emerging markets outside the United States. At an expense ratio of 0.05%, it is one of the cheapest instruments for international diversification.",
+  "recent": "AUM was approximately $144 billion as of May 2026, with top holdings led by Novo Nordisk, ASML, Samsung Electronics, Nestlé, Shell, Toyota, LVMH, AstraZeneca, HSBC, and Roche. The fund's trailing price-to-earnings ratio (around 14 as of mid-2026) makes it a notable valuation counterweight to higher-multiple U.S. equity funds."
+}

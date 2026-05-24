@@ -1,0 +1,43 @@
+{
+  "headline": "AI Inbetweening and the Fuzzy Edge of Steam's Disclosure Policy",
+  "lede": "A pointed question circulating among game developers: if you use Cascadeur — software that generates physically plausible motion between two hand-keyed poses — does the finished game require Valve's Steam AI-content label? The answer hinges on a distinction the platform has been slow to clarify.",
+  "body": "Cascadeur is an animation application developed by Nekki, launched in 2019 and positioned as an artist-friendly alternative to traditional rigging-and-curve workflows. Its central selling point is a cluster of AI-assisted toolsets. *AutoPosing* lets an animator reposition a few joints while the software infers the rest of the body; *AutoPhysics* retrofits physical accuracy onto an existing keyframe sequence; and a new *Inbetweening* system, added in Cascadeur 2025.1, generates up to 89 frames of complete, repeating motion between just two authored poses. Crucially, all inference runs locally on the user's machine, not in the cloud.\n\nValve introduced an AI-content disclosure requirement for Steam submissions, drawing a distinction between two categories. **Pre-generated AI content** — assets produced with AI tools during development and baked into the shipped build — must be declared but does not trigger automatic rejection. *Live-generated AI content* — assets produced by AI at runtime, in response to players — receives heavier scrutiny and may require additional review. Under that framework, animations produced in Cascadeur and exported to FBX or USD for use in Unity or Unreal Engine would almost certainly fall into the pre-generated bucket: the AI ran in the studio, not in the player's session.\n\nThe difficulty is that the threshold for \"meaningful\" AI involvement in pre-generated content remains undefined. A developer who used Cascadeur to generate a single idle animation sits in a very different place from one whose entire motion library was inbetweened from sparse keyframes. Valve's disclosure form asks whether AI tools were used, not how extensively — so the honest answer for any Cascadeur user is yes, with the practical consequence being a disclosure label rather than a blocked release.\n\nThe broader tension Grummz is pointing at is real: AI-assisted tooling has become standard in game pipelines (noise functions, terrain generators, LOD bakers all automate what animators or artists once did by hand), and few of those tools triggered calls for consumer labeling. Cascadeur is further along the automation spectrum than a noise brush, but it is still a tool operated by a human animator who authors the key poses, reviews the output, and decides what ships. Whether that constitutes \"AI-generated content\" in any sense that meaningfully informs a buyer is the question the policy has not yet resolved.",
+  "tickers": [],
+  "poster": "Grummz",
+  "concepts": [
+    {
+      "key": "inbetweening",
+      "term": "Inbetweening (tweening)",
+      "definition": "The process of generating intermediate frames between two explicitly authored keyframes. Traditionally done by hand by junior animators; modern tools use interpolation or, as in Cascadeur 2025.1, AI models trained on motion data to produce physically plausible transitions."
+    },
+    {
+      "key": "steam-ai-disclosure",
+      "term": "Steam AI content disclosure",
+      "definition": "A policy introduced by Valve requiring developers to declare whether a game contains AI-generated content. It distinguishes pre-generated content (AI ran during development) from live-generated content (AI runs at runtime for each player), applying stricter review to the latter category."
+    },
+    {
+      "key": "autophysics",
+      "term": "AutoPhysics",
+      "definition": "A Cascadeur toolset that takes an existing keyframe animation and adjusts it to conform to real-world physics — correcting implausible momentum, balance, and trajectory — without requiring the animator to re-key the motion from scratch."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://cascadeur.com/",
+      "title": "Cascadeur official site",
+      "note": "Primary source for tool capabilities and positioning"
+    },
+    {
+      "url": "https://www.cgchannel.com/2025/04/nekki-releases-cascadeur-2025-1-with-ai-based-inbetweening/",
+      "title": "Nekki releases Cascadeur 2025.1 with AI-based Inbetweening — CG Channel",
+      "note": "Detailed breakdown of the 2025.1 Inbetweening feature and other toolset updates"
+    }
+  ],
+  "bookmark_id": "1994969668776595554",
+  "generated_at": "2026-05-06T20:29:19.676589Z",
+  "backend": "claude"
+}

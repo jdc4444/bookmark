@@ -1,0 +1,23 @@
+{
+  "key": "haydenfield",
+  "display_name": "Hayden Field",
+  "blurb": "Hayden Field is an AI beat reporter on CNBC's technology team, based in Englewood Cliffs, New Jersey. She covers artificial intelligence across all forms, with a focus on the industry's shifting power dynamics and real-world implications of the technology. Her bylines also appear in MIT Technology Review, Wired UK, Fortune, Digital Trends, Morning Brew, and Entrepreneur Magazine. Recent stories include coverage of OpenAI equity disputes, Anthropic model launches, and internal Microsoft policy controversies.",
+  "credibility_note": "Staff reporter at a major financial news outlet with a broad publication track record. No known public corrections or significant bias controversies identified from available sources.",
+  "links": [
+    "https://www.cnbc.com/hayden-field/",
+    "https://x.com/haydenfield"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cnbc.com/hayden-field/",
+      "title": "Hayden Field - CNBC"
+    },
+    {
+      "url": "https://x.com/haydenfield",
+      "title": "Hayden Field (@haydenfield) / Posts / X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-15T08:14:19.147147Z",
+  "backend": "claude-sonnet-subagent"
+}

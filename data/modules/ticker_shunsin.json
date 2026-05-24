@@ -1,0 +1,15 @@
+{
+  "key": "SHUNSIN",
+  "name": "ShunSin Technology Holdings Limited",
+  "exchange": "Taiwan Stock Exchange (6451.TW)",
+  "blurb": "ShunSin Technology (TWSE: 6451) is a Foxconn (Far East) subsidiary that packages and tests system-in-package (SiP) modules — including fiber-optic transceiver modules and thick-film hybrid integrated circuits — for cloud server, consumer electronics, and hearing-aid customers. Its optical transceiver business places it in the AI data-center supply chain, and it is actively accelerating silicon-photonics and co-packaged-optics deployment under pressure from hyperscaler customers seeking qualified module suppliers.",
+  "recent": "Shares climbed roughly 263% over the prior 12 months to approximately TWD 405 as of late April 2026, within a 52-week range of TWD 120–530. Digitimes reported in late 2025 that ShunSin was building a full-stack optical transceiver module capability and piloting AI data-center CPO integration with cloud service providers. The stock is thinly covered by English-language sell-side research.",
+  "sources": [
+    {"url": "https://finance.yahoo.com/quote/6451.TW/", "title": "ShunSin Technology Holdings (6451.TW) – Yahoo Finance"},
+    {"url": "https://www.digitimes.com/news/a20251124PD223/ai-applications-shunsin-data-cpo-data-center.html", "title": "ShunSin builds full-stack optical transceiver modules (Digitimes, Nov 2025)"},
+    {"url": "https://www.stockopedia.com/share-prices/shunsin-technology-holdings-TPE:6451/", "title": "ShunSin Technology Holdings (TPE:6451) – Stockopedia"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T08:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

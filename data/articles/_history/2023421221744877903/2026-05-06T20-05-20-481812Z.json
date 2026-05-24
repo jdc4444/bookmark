@@ -1,0 +1,54 @@
+{
+  "headline": "Eight Hundred Dollars of Mistakes, One Lesson on AI Agents",
+  "lede": "A self-described hobbyist spent eighty hours and roughly $800 in metered API charges before arriving at a working personal AI agent. His postmortem, published in February 2026, has accumulated 3.3 million views — a figure that suggests the mistakes he catalogues are widely shared. The guide centres on OpenClaw, an open-source framework installable via npm that wires a large language model to messaging apps, web search, and voice transcription.",
+  "body": "The most consequential error @jordymaui describes is also the most avoidable: signing up for the **Anthropic console** and paying per token rather than using a Claude Pro or Max subscription. At $20 or $90 a month respectively, those tiers include Claude Code, Anthropic's command-line coding assistant, and expose a session token that OpenClaw can use directly. Pay-per-use, by contrast, charges fractions of a cent per thousand tokens — amounts that compound quietly and catastrophically when debugging loops and multi-agent experiments run unchecked.\n\nThe second expensive lesson concerns agent architecture. The author ran eight simultaneous agents on Telegram, each with its own model context, each ignorant of what the others were doing. The appeal is intuitive — parallel specialists sound efficient — but in practice the agents kept losing track of shared state. His conclusion, which aligns with emerging practitioner consensus, is that a single agent augmented with discrete *skills* (modular capabilities it can invoke on demand) outperforms a fleet of loosely coupled agents on nearly every practical task.\n\nOpenClaw structures agent identity through three plain-text files: **SOUL.md** (personality and communication style), USER.md (information about the owner), and MEMORY.md (a running log the agent updates itself). Leaving these empty, as the author did for a week, produces an agent that sounds, in his phrase, \"like a call centre.\" The files function as persistent context in a medium — chat — where context windows reset. A related component, the *QMD skill*, handles long-term memory persistence; installing it after conversations have begun can cause the agent to reset and lose prior logs, which is why the guide emphasises setting it up first.\n\nThe hardware recommendation — a $500–$600 M4 Mac Mini running headless beside a television — reflects a broader shift in how hobbyists think about inference. Hosted API calls are metered and stateless; a local machine that stays on provides a stable, always-available runtime at a fixed cost. The author pairs the Mac Mini with Brave Search's free-tier API for web access and Groq's transcription service for voice input, keeping recurring costs to the Claude subscription alone.\n\nOne claim deserves a footnote: the article instructs readers to run `claude setup-token` in Terminal after installing Claude Code. The broader point — that OpenClaw uses a subscription-linked session token rather than a metered API key — is accurate and important, but readers should consult current Claude Code documentation for the precise command syntax, as CLI interfaces change between versions.",
+  "tickers": [],
+  "poster": "jordymaui",
+  "concepts": [
+    {
+      "key": "openclaw",
+      "term": "OpenClaw",
+      "definition": "An open-source framework, installable as an npm package, that connects a large language model to communication platforms (Telegram, Discord), web search, and voice transcription. It is configured through a terminal-based onboarding flow and persists agent identity in markdown files on the host machine."
+    },
+    {
+      "key": "claude-session-token",
+      "term": "Claude session token",
+      "definition": "A credential tied to a Claude Pro or Max subscription rather than to the metered Anthropic API console. Using this token means charges are covered by the flat monthly subscription fee, not billed per token consumed — a critical cost distinction when running experimental or always-on agents."
+    },
+    {
+      "key": "skills-vs-agents",
+      "term": "Skills vs. agents",
+      "definition": "In agent frameworks, a 'skill' is a modular capability (web search, calendar access, voice transcription) that a single agent can call when needed. Running multiple separate agents instead — each with its own model context — often leads to coordination failures as the agents cannot share memory or state without additional infrastructure."
+    },
+    {
+      "key": "qmd-skill",
+      "term": "QMD skill",
+      "definition": "A plugin for OpenClaw that manages long-term memory persistence across conversations. Without it, the agent's chat logs can reset between sessions; installing it mid-conversation can cause existing logs to be lost, which is why practitioners recommend installing it before any substantive use."
+    },
+    {
+      "key": "soul-md",
+      "term": "SOUL.md / USER.md / MEMORY.md",
+      "definition": "Three plain-text markdown files that define an OpenClaw agent's identity: SOUL.md sets personality and tone, USER.md stores information about the owner, and MEMORY.md is a running log the agent updates itself. They serve as persistent context that survives across separate conversations."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "openclaw",
+      "url": "https://www.npmjs.com/package/openclaw",
+      "summary": "OpenClaw is an npm-distributed agent framework that connects a language model backend (Claude, OpenAI-compatible, and others) to messaging platforms, search APIs, and voice services through a guided terminal onboarding process. Users interact with their configured agent via Telegram or Discord rather than a separate web interface. The project emphasises a 'skills over agents' philosophy, encouraging single-agent setups augmented with modular capabilities rather than multi-agent architectures."
+    }
+  ],
+  "fact_check": "The article's core financial claim — that Claude Pro ($20/month) and Claude Max ($90/month) offer substantially better value than pay-per-use Anthropic API access for hobbyist workloads — is accurate in broad strokes, though the precise breakeven depends on usage volume. The `claude setup-token` command cited for retrieving the session token should be verified against current Claude Code documentation before following; CLI commands change between releases and the guide was written in February 2026. The article's dismissal of multi-agent architectures as 'mostly bollocks' is a practitioner opinion, not a universal finding — at production scale, coordinated multi-agent systems do outperform single agents on sufficiently parallelisable tasks, though the overhead is real and the author's point about hobbyist use cases stands.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://loyalmomo.com/articles",
+      "title": "Articles — Momo",
+      "note": "Author's own site confirming both articles exist and their publication dates (Feb 16 and Feb 18, 2026)"
+    }
+  ],
+  "bookmark_id": "2023421221744877903",
+  "generated_at": "2026-05-06T20:05:20.481812Z",
+  "backend": "claude"
+}

@@ -1,0 +1,48 @@
+{
+  "bookmark_id": "2014117303059714352",
+  "headline": "A Famous Maxim, an Unverified Source, and a Useful Idea",
+  "lede": "A quote attributed to Charlie Munger — buy quality stocks on the 200-week moving average and beat the market — has spread across financial social media with the velocity of gospel. The idea is sound enough; the attribution is shakier than its fans acknowledge.",
+  "body": "The *200-week moving average* is exactly what it sounds like: the mean closing price of a security over the preceding two hundred weeks, or roughly four years. Because it digests so much history, it moves glacially, making it less a timing tool than a structural one — a way of asking whether a stock is still, in any meaningful sense, on an upward trajectory. Technical analysts treat it as a long-horizon line of gravity: prices tend to be drawn back toward it during corrections, and the manner in which they bounce — or fail to — reveals something about the underlying health of a business. The S&P 500 has found footing at or near this level during the 2010 correction, the 2020 pandemic crash, and most of the bear markets of the past half-century. Three significant exceptions — 1974, 2001, and 2008 — share a common feature: a genuine recession, deep enough to revise earnings expectations so severely that the average itself began trending downward.\n\nThis is where the quality filter buried in the supposed Munger quote does all the real work. For compounders like Apple, which has held the 200-week average through every crisis of the smartphone era, the indicator functions as a useful buy-signal precisely because the underlying business keeps growing. The average rises with the company; touching it during a panic is a momentary discount on an intact story. For a company in secular decline — a legacy telecoms giant, a brick-and-mortar retailer, an energy conglomerate whose competitive position has quietly eroded — the 200-week line does not mark a floor. It marks a last stop before a longer fall. The average descends with the business, and patient buyers who treat its touch as an opportunity may find they have purchased not a dip but a slide. The strategy's historical reputation, in other words, is built almost entirely on survivorship: we remember Apple, not the names that quietly broke and kept going.\n\nBacktests of moving-average strategies tell a similarly conditional story. Studies of the 200-day average (the daily analogue, tracking roughly the same horizon) show that the approach tends to reduce drawdowns meaningfully relative to buy-and-hold — sometimes by half — while delivering annual returns that are modestly lower in extended bull markets and modestly higher when recessions intervene. The 200-week version, with its far longer lookback, fires very infrequently; one might wait years for a quality stock to revisit that level, which is precisely where the discipline problem Munger (or whoever originated the line) identified becomes concrete. Waiting for a rare signal while watching a stock run 40 percent above you is a psychological trial that overwhelms most investors long before the signal arrives.\n\nAs for Charlie Munger himself: no verified primary source — no Berkshire Hathaway shareholder meeting transcript, no interview, no passage in *Poor Charlie's Almanack* — has been produced to confirm this particular formulation is his. The quote circulates widely on financial social media, always attributed, never footnoted. That does not make the sentiment wrong; Munger did preach the virtues of patience, quality, and waiting for fat pitches, and the 200-week approach rhymes perfectly with that philosophy. But Munger was also, on the record, skeptical of technical analysis as a primary discipline, and the idea that he would have endorsed a chart-reading rule as sufficient investment methodology — without any mention of earnings power, competitive moats, or management quality — strains credulity a little. It is possible the quote is real, lightly paraphrased, or a plausible extrapolation that calcified into attribution. The internet is well-stocked with all three.\n\nThe charitable and probably correct reading is that the maxim captures something genuine about long-term investing psychology — that the rarest and most profitable behavior is buying good businesses when they are temporarily unloved — while dressing it up in the language of a specific mechanical rule. The 200-week average is a reasonable proxy for \"this stock has fallen a very long way from its trend.\" It is not, on its own, a due-diligence checklist. Used well, as a trigger to begin analysis rather than to conclude it, the concept holds up. Used naively, as a signal that any stock touching a long-term average deserves a buy, it will occasionally lead an investor into the terminal chapter of a once-respectable company's story — which is how value traps are born, and how aphorisms accumulate victims.",
+  "tickers": [
+    "AAPL",
+    "MSFT"
+  ],
+  "poster": "ThiccTeddy",
+  "concepts": [
+    {
+      "key": "200-week-moving-average",
+      "term": "200-Week Moving Average",
+      "definition": "The arithmetic mean of a stock's weekly closing prices over the preceding 200 weeks (roughly four years). Because it incorporates such a long span of data, it changes slowly and is used as a structural indicator of long-term trend rather than a short-term timing tool."
+    },
+    {
+      "key": "survivorship-bias",
+      "term": "Survivorship Bias",
+      "definition": "The logical error of evaluating a strategy's historical performance using only the winners that persisted long enough to be measured, while ignoring the losers that were delisted, acquired at distressed prices, or simply forgotten."
+    },
+    {
+      "key": "value-trap",
+      "term": "Value Trap",
+      "definition": "A stock that appears cheap by conventional metrics — low price relative to earnings or book value — but continues to decline because the underlying business is structurally impaired. Investors who buy expecting a rebound find themselves holding a deteriorating asset."
+    }
+  ],
+  "books": [
+    {
+      "title": "Poor Charlie's Almanack",
+      "author": "Charles T. Munger, edited by Peter D. Kaufman",
+      "relevance": "The canonical collection of Munger's speeches and wit; the 200-week moving average quote does not appear in it, which is itself informative about the attribution question."
+    }
+  ],
+  "repos": [],
+  "fact_check": "The quote attributed to Charlie Munger — 'If all you ever did was buy high-quality stocks on the 200-week moving average, you would beat the S&P 500 by a large margin over time' — is widely circulated on financial social media and cited in articles on Yahoo Finance, Barchart, and Zacks, but no verified primary source has been identified. None of the articles tracing the quote back to Munger cite a specific speech, interview, shareholder meeting transcript, or published work. The quote does not appear in Poor Charlie's Almanack. Its provenance is unconfirmed; it may be authentic, paraphrased, or apocryphal. Readers should treat it as an illustrative maxim consistent with Munger's publicly documented philosophy rather than a verified direct quotation.",
+  "thread_summary": null,
+  "sources": [
+    "https://finance.yahoo.com/news/charlie-munger-strategy-buy-quality-140000015.html",
+    "https://www.barchart.com/story/news/31126675/charlie-munger-strategy-buy-quality-stocks-at-200-week-moving-average",
+    "https://chartswatcher.com/pages/blog/a-trader-s-guide-to-the-200-week-moving-average",
+    "https://www.quiverquant.com/news/Microsoft+Stock+(MSFT)+Opinions+on+Breaching+200-Week+Moving+Average",
+    "https://www.quantifiedstrategies.com/200-day-moving-average-trading-strategy/",
+    "https://press.stripe.com/poor-charlies-almanack"
+  ],
+  "generated_at": "2026-05-05T23:50:01.556727Z",
+  "backend": "claude-sonnet-subagent"
+}

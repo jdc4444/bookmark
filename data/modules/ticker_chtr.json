@@ -1,0 +1,32 @@
+{
+  "key": "CHTR",
+  "name": "Charter Communications, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Charter Communications is the second-largest cable operator in the United States, serving residential and business customers under the Spectrum brand. The company provides subscription-based broadband internet, mobile (MVNO via Verizon's network), video, and voice services across approximately 41 states. It has been aggressively expanding its mobile subscriber base and overbuilding its network with faster DOCSIS 3.1 and next-generation DOCSIS 4.0 infrastructure. With trailing twelve-month revenue of roughly $54.6 billion, Charter is one of the largest communications companies in the country by revenue.",
+  "recent": "Charter reported Q1 2026 earnings on April 24, 2026; the stock has since declined sharply and as of May 8, 2026 closed at $154.86 — essentially at its 52-week low of $154.70, down more than 60% from the 52-week high of $437.06, reflecting ongoing pressure from video cord-cutting, fixed wireless competition from T-Mobile and Verizon, and elevated capital expenditure for network upgrades. Market cap has compressed roughly 54.9% over the trailing year to approximately $21.5 billion despite net income of $4.93 billion. The analyst consensus is Hold with a median price target of $271.50, implying roughly 75% upside from current levels.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/chtr/",
+      "title": "Charter Communications (CHTR) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/CHTR/news/",
+      "title": "Charter Communications, Inc. (CHTR) Latest Stock News & Headlines — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CHTR/news/",
+      "title": "CHTR News Today — MarketBeat"
+    },
+    {
+      "url": "https://seekingalpha.com/symbol/CHTR/news",
+      "title": "Charter Communications, Inc. (CHTR) Latest Stock News — Seeking Alpha"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/chtr",
+      "title": "CHTR Stock Quote — MarketWatch"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-09T05:38:18.633952Z",
+  "backend": "claude-sonnet-subagent"
+}

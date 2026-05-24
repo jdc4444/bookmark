@@ -1,0 +1,28 @@
+{
+  "key": "XPER",
+  "name": "Xperi Inc.",
+  "exchange": "NYSE",
+  "blurb": "Xperi Inc. is a media and entertainment technology company that develops and licenses software powering the consumer viewing experience. Its flagship offerings include Pay-TV user experience solutions, the TiVo electronic program guide, integrated DVR/VOD navigation, and universal search and content-discovery tools that work across linear and streaming sources. Serving pay-TV operators and device manufacturers worldwide, Xperi licenses its platform to embed its software in televisions, set-top boxes, and connected-device ecosystems. With roughly 1,460 employees and trailing-twelve-month revenue near $448 million, the company occupies a niche middleware position between content providers and the living-room screen.",
+  "recent": "Xperi reported its most recent quarterly results on May 6, 2026; the stock subsequently climbed to a fresh 52-week high of $8.50 on May 13, closing at $8.21 (+2.50% on the day) with elevated volume of ~1.27 million shares. The analyst consensus sits at Strong Buy with a price target of $11.67, implying roughly 42% upside from current levels. Revenue remains under modest pressure (–8.3% year-over-year on a trailing basis) and the company continues to run at a net loss, but a forward P/E of 8.68 suggests the market is pricing in a meaningful profitability improvement.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/stocks/xper/",
+      "title": "Xperi (XPER) Stock Price & Overview — Stock Analysis"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/XPER/",
+      "title": "Xperi (XPER) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/XPER/",
+      "title": "Xperi Inc. (XPER) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.cnn.com/markets/stocks/XPER",
+      "title": "XPER Stock Quote Price and Forecast — CNN Markets"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:21:11.627804Z",
+  "backend": "claude-sonnet-subagent"
+}

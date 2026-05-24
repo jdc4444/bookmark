@@ -1,0 +1,114 @@
+{
+  "headline": "A Tiny RNA Molecule Edges Closer to Copying Itself",
+  "lede": "In February 2026, researchers at the MRC Laboratory of Molecular Biology in Cambridge identified a 45-nucleotide RNA molecule — the smallest ribozyme yet capable of general RNA copying — that can perform both chemical reactions required for self-replication. The molecule, called QT45, has not yet closed a fully autonomous replication loop, but it substantially sharpens the case that life could have begun with chemistry alone.",
+  "body": "The **RNA world hypothesis** — the idea that the first living molecules were RNA strands that could both carry genetic information and catalyze their own replication — has long had a credibility problem. The *ribozymes* (RNA-based enzymes) capable of general RNA copying have, until recently, been too large and structurally complex to have plausibly arisen by chance on early Earth. A paper published in *Science* in February 2026 substantially narrows that gap.\n\nEdoardo Gianni and colleagues screened roughly one trillion random RNA sequences — a technique called *in vitro selection* — and isolated QT45. “Quite Tiny 45” is a 45-nucleotide ribozyme that synthesizes RNA from *trinucleotide triphosphate* substrates (preformed three-letter building blocks rather than individual nucleotides) with 94.1% *per-nucleotide fidelity*, working in *eutectic ice* — a slushy water-salt mixture at roughly −7°C. At 45 nucleotides, QT45 is dramatically smaller than the previous state-of-the-art: the 5TU-t1 heterodimer, a two-subunit complex whose cryo-EM architecture is archived as entry 8T2P in the Protein Data Bank, spans hundreds of nucleotides across two interacting chains.\n\nQT45 demonstrated the two reactions that together constitute self-replication: it synthesized its *complementary strand* (the minus strand), and it synthesized a copy of itself using that complement as template. But the tweet’s claim that the molecule “make[s] a full copy of itself” is slightly ahead of the science — the two reactions were performed in separate experiments, not coupled into an autonomous loop. The researchers supplied the minus strand as a starting material for the second step. Yield is also strikingly low: roughly 0.2% product after 72 days, which Gianni called “unbelievably slow.”\n\nThe significance lies in what the discovery implies about probability. A 45-nucleotide sequence occupies a far denser region of *RNA sequence space* than a molecule ten times its length — meaning the odds of such a ribozyme arising spontaneously in a prebiotic chemical environment are meaningfully higher than for its predecessors. QT45 was found in 18 rounds of laboratory-guided *directed evolution* from a random pool; the implication is that the functional landscape of short RNAs is not as sparse as the field had feared. “This substantially lowers the bar for non-enzymatic replication needed before ribozyme replication could begin,” observed David Lilley of the University of Dundee.\n\nThe next challenge is coupling both reactions in a single environment and improving yields enough to support heritable variation. Whether eutectic ice was sufficiently common on early Earth to have hosted this chemistry remains actively debated. But QT45 has answered a question that has haunted origin-of-life research for decades: a molecule small enough to plausibly emerge by chance can already perform the core work of replication.",
+  "tickers": [],
+  "companies": [],
+  "poster": "parmita",
+  "concepts": [
+    {
+      "key": "rna-world-hypothesis",
+      "term": "RNA World Hypothesis",
+      "definition": "The theory that life's origins involved RNA molecules performing both the genetic-storage role now filled by DNA and the catalytic role now filled by proteins. An RNA world requires a molecule capable of copying itself, making self-replicating ribozymes the central experimental target."
+    },
+    {
+      "key": "ribozyme",
+      "term": "Ribozyme",
+      "definition": "An RNA molecule with catalytic activity, analogous to a protein enzyme. Ribozymes demonstrate that RNA can do more than carry information — it can also drive chemical reactions, which is the core requirement of the RNA world hypothesis."
+    },
+    {
+      "key": "in-vitro-selection",
+      "term": "In Vitro Selection",
+      "definition": "A laboratory technique for isolating molecules with desired properties from a vast random pool. Trillions of sequences are subjected to a selection pressure — such as the ability to catalyze a reaction — and only those with the target activity survive to be amplified and re-selected over many rounds."
+    },
+    {
+      "key": "trinucleotide-triphosphate",
+      "term": "Trinucleotide Triphosphate",
+      "definition": "A preformed building block consisting of three RNA nucleotides joined in sequence, used by QT45 as a substrate for RNA synthesis. Using triplets rather than individual nucleotides makes copying faster and more accurate, though it raises questions about whether such substrates were available in prebiotic environments."
+    },
+    {
+      "key": "per-nucleotide-fidelity",
+      "term": "Per-Nucleotide Fidelity",
+      "definition": "A measure of copying accuracy expressed as the probability that each individual position in a newly synthesized strand is correctly matched to the template. At 94.1%, QT45 makes roughly one error in every seventeen positions."
+    },
+    {
+      "key": "eutectic-ice",
+      "term": "Eutectic Ice",
+      "definition": "A frozen water-salt mixture that forms at specific concentrations below 0°C. As water freezes, dissolved molecules concentrate in liquid pockets, potentially accelerating prebiotic chemistry. Whether eutectic ice environments were common enough on early Earth to have hosted the first replicating molecules is actively debated."
+    },
+    {
+      "key": "rna-sequence-space",
+      "term": "RNA Sequence Space",
+      "definition": "The abstract set of all possible RNA sequences of a given length. A 45-nucleotide RNA can take roughly 10^27 distinct forms. The density of functional sequences within that space determines how likely a useful ribozyme is to arise by random chemical chance."
+    },
+    {
+      "key": "directed-evolution",
+      "term": "Directed Evolution",
+      "definition": "A laboratory technique that mimics natural selection, iteratively mutating molecules and selecting those with improved properties over many rounds. Applied to enzymes and ribozymes, it can discover highly active molecules starting from random sequence pools."
+    },
+    {
+      "key": "complementary-strand",
+      "term": "Complementary Strand",
+      "definition": "In RNA (and DNA), every strand has a mirror-image partner determined by base-pairing rules (A pairs with U, G with C in RNA). Synthesizing the complementary strand from a template is the first step of replication; the complement then serves as the template for producing a copy of the original."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet claims the molecule 'makes a full copy of itself — not just a complement.' This overstates the finding. QT45 performed two reactions that together constitute self-replication, but they were carried out in separate experiments: the researchers supplied the complementary (minus) strand as a starting material for the second step. The paper's own title — 'a small polymerase ribozyme that can synthesize itself and its complementary strand' — describes two demonstrated reactions, not a closed, self-sustaining replication cycle. The yield is also extremely low (~0.2% over 72 days). The broader claim that 'nobody is talking about it' understates coverage: the paper received press releases from MRC LMB, UKRI, and multiple science outlets on publication.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.science.org/doi/10.1126/science.adt2760",
+      "title": "A small polymerase ribozyme that can synthesize itself and its complementary strand — Science 2026",
+      "note": "Primary paper by Gianni et al., MRC LMB; key findings and methods"
+    },
+    {
+      "url": "https://www.biorxiv.org/content/10.1101/2024.10.11.617851v1",
+      "title": "QT45 preprint — bioRxiv, October 2024",
+      "note": "Original preprint preceding the Science publication"
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41678588/",
+      "title": "PubMed record — Gianni et al. Science 2026",
+      "note": "Full citation and abstract for verification"
+    },
+    {
+      "url": "https://mrclmb.ac.uk/news-events/articles/bridging-the-gap-from-chemistry-to-life-discovery-of-a-tiny-rna-that-can-copy-itself/",
+      "title": "Bridging the gap from chemistry to life — MRC LMB press release",
+      "note": "Official institutional announcement with researcher quotes and context"
+    },
+    {
+      "url": "https://www.chemistryworld.com/news/self-synthesising-rna-strand-offers-clues-to-lifes-origins/4022966.article",
+      "title": "Self-synthesising RNA strand offers clues to life's origins — Chemistry World",
+      "note": "Expert commentary including Gianni's 'unbelievably slow' quote and field reaction"
+    },
+    {
+      "url": "https://www.sciencealert.com/this-rna-almost-self-replicates-which-could-explain-lifes-origins",
+      "title": "This RNA Almost Self-Replicates, Which Could Explain Life's Origins — ScienceAlert",
+      "note": "Headline captures the 'almost' nuance; notes the two-step, non-autonomous nature"
+    },
+    {
+      "url": "https://www.rcsb.org/structure/8T2P",
+      "title": "RCSB PDB entry 8T2P — 5TU-t1 heterodimeric triplet polymerase ribozyme",
+      "note": "Structure record for the large predecessor ribozyme shown in the comparison image"
+    },
+    {
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2313332121",
+      "title": "Cryo-EM structure and functional landscape of an RNA polymerase ribozyme — PNAS 2024",
+      "note": "Paper describing the 8T2P (5TU-t1) large ribozyme; Gianni is a co-author"
+    },
+    {
+      "url": "https://www.ukri.org/news/scientists-chemical-breakthrough-sheds-light-on-origins-of-life/",
+      "title": "Scientists' chemical breakthrough sheds light on origins of life — UKRI",
+      "note": "Funder press release with significance framing"
+    },
+    {
+      "url": "https://zenodo.org/records/13891380",
+      "title": "QT45 data deposit — Zenodo",
+      "note": "Raw sequences and data from the paper for reproducibility"
+    }
+  ],
+  "bookmark_id": "2043194119942779333",
+  "generated_at": "2026-05-07T12:13:06.829545Z",
+  "backend": "claude-sonnet-subagent"
+}

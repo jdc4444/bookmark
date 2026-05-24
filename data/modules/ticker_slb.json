@@ -1,0 +1,24 @@
+{
+  "key": "SLB",
+  "name": "SLB N.V.",
+  "exchange": "NYSE",
+  "blurb": "SLB N.V. is a global technology company providing services and solutions to the energy industry. It operates through four divisions: Digital & Integration, Reservoir Performance, Well Construction, and Production Systems, offering field development, carbon management, reservoir interpretation, well construction, and production improvement services. Founded in 1926 and headquartered in Houston, Texas, SLB is one of the largest oilfield services companies in the world, with a market capitalization of approximately $82.5 billion as of May 2026.",
+  "recent": "As of May 6, 2026, SLB stock closed at $55.16, down 1.50% on the day, with a 52-week range of $31.64 to $57.20. The company reported earnings on April 24, 2026, and has a forward PE ratio of 19.81. Analysts rate the stock as Strong Buy with a price target of $58.48.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/SLB/",
+      "title": "SLB N.V. (SLB) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/SLB/",
+      "title": "SLB (SLB) Stock Price, News & Analysis $SLB - MarketBeat"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/slb/",
+      "title": "SLB N.V. (SLB) Stock Price & Overview"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:53:13.130914Z",
+  "backend": "deepseek"
+}

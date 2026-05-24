@@ -1,0 +1,167 @@
+{
+  "headline": "Paying to Hate It: The Case for Rebuilding Neglected Apps",
+  "lede": "A veteran internet entrepreneur argues the fastest path to $10 million is not originality but arbitrage: find mobile software that users pay for despite disliking, rebuild it with AI tooling, and sell to the same captive audience. The logic runs against the conventional startup gospel of disruption and delight — and, executed by a disciplined operator, it has real precedent.",
+  "body": "The premise is old; the tooling is new. **Greg Isenberg** — a Montreal-born entrepreneur whose prior companies include a video-discovery app (5by, acquired by StumbleUpon) and a messaging platform (Islands, absorbed by WeWork), and who now runs Late Checkout, a self-described eight-figure internet *holdco* — argues in a January 2026 thread that the most reliable route to mobile wealth is rebuilding what already works rather than inventing from scratch.\n\nHis filtering methodology is sound. He recommends mining Sensor Tower, an app-intelligence platform, for titles generating $50,000–$200,000 in *monthly recurring revenue* (MRR) that carry sub-4-star ratings: a signal that users need the product badly enough to keep paying despite the experience. The metric he elevates — *revenue-per-download* — is sharper than raw install counts because it distinguishes tools people return to month after month from those downloaded on a whim. What the playbook quietly underplays is cost: Sensor Tower's entry-level subscription runs approximately $25,000 a year, a non-trivial barrier for the bootstrapper the thread is ostensibly addressing.\n\nFor his worked example, Isenberg cites Alarmy, made by DelightRoom Co., Ltd., a South Korean developer. He describes it as a developer who built “a louder version of an alarm clock” — a framing that sells the product short. Alarmy's actual moat is *behavioral-friction design*: users must photograph a specific object, solve a math problem, or shake their phone before the alarm silences. That is not a volume play but a commitment device, and it has proven lucrative. Third-party Sensor Tower estimates put monthly revenue at roughly $500,000, consistent with Korean public filings showing peak annual sales near $11 million around 2021.\n\nThe thread contains one plain error. Isenberg writes that “Wealthfront is the Robinhood of Canada” doing roughly $200 million in revenue with $50 billion under management. Wealthfront is a US-only *robo-advisor* — an automated investment service — and operates nowhere in Canada. The description fits Wealthsimple, the Toronto-based fintech that pioneered commission-free trading in Canada in 2019 and now manages over CAD $100 billion in client assets. The revenue and asset figures, while plausible for an earlier Wealthsimple period, are significantly outdated. The misattribution does not void the underlying point — that a regional clone of an established product can build a durable business — but it suggests some of the thread's other numerical claims may be equally eyeballed rather than verified.\n\nThe structural thesis, at least, is well-attested. Building a portfolio of boring, profitable apps rather than swinging for a single unicorn has a credible track record in **Tiny Limited** (TINY.V), Andrew Wilkinson's Vancouver-based internet holdco, which has executed roughly 35 acquisitions on exactly this logic. Isenberg's own Late Checkout follows the same pattern. One caveat: the thread recommends Ideabrowser.com — a tool for surfacing startup ideas — without disclosing that Isenberg built and sells it. That undisclosed conflict does not void the playbook, but it warrants noting.",
+  "tickers": [
+    "TINY.V"
+  ],
+  "companies": [
+    {
+      "name": "Late Checkout",
+      "ticker": null
+    },
+    {
+      "name": "5by",
+      "ticker": null
+    },
+    {
+      "name": "StumbleUpon",
+      "ticker": null
+    },
+    {
+      "name": "Islands",
+      "ticker": null
+    },
+    {
+      "name": "WeWork",
+      "ticker": null
+    },
+    {
+      "name": "Sensor Tower",
+      "ticker": null
+    },
+    {
+      "name": "DelightRoom Co., Ltd.",
+      "ticker": null
+    },
+    {
+      "name": "Wealthfront",
+      "ticker": null
+    },
+    {
+      "name": "Wealthsimple",
+      "ticker": null
+    },
+    {
+      "name": "Tiny Limited",
+      "ticker": "TINY.V"
+    }
+  ],
+  "poster": "gregisenberg",
+  "concepts": [
+    {
+      "key": "holdco",
+      "term": "Holdco (Holding Company)",
+      "definition": "A parent company that owns stakes in a portfolio of smaller operating businesses without managing their day-to-day operations. Holdcos reinvest cash flows from mature subsidiaries into new acquisitions or seed-stage products rather than returning capital to shareholders."
+    },
+    {
+      "key": "mrr",
+      "term": "Monthly Recurring Revenue (MRR)",
+      "definition": "The predictable revenue a subscription business earns each month. Analysts prefer it to total revenue because it smooths out one-time purchases and shows whether users are actively renewing — a proxy for product-market fit."
+    },
+    {
+      "key": "revenue-per-download",
+      "term": "Revenue Per Download",
+      "definition": "Total app revenue divided by number of installs over a given period. A high ratio suggests users are paying repeatedly over time rather than downloading once and abandoning, making it a sharper proxy for long-term viability than raw download volume alone."
+    },
+    {
+      "key": "behavioral-friction-design",
+      "term": "Behavioral-Friction Design",
+      "definition": "A product pattern that deliberately introduces a physical or cognitive obstacle before granting users what they want, in order to interrupt automatic behavior. Alarmy requires users to photograph a specific object or solve a puzzle before silencing an alarm, ensuring they are genuinely awake."
+    },
+    {
+      "key": "robo-advisor",
+      "term": "Robo-Advisor",
+      "definition": "An automated digital investment service that manages a portfolio of low-cost index funds on a client's behalf using algorithms rather than human advisors. Fees are typically a fraction of traditional wealth management costs. Examples include Wealthfront (US) and Wealthsimple (Canada)."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet’s claim that “Wealthfront is the Robinhood of Canada” is factually wrong. Wealthfront is a US-only robo-advisor with no Canadian operations. The description applies to Wealthsimple, the Toronto-based fintech founded in 2014. The associated figures ($200M revenue, $50B AUM) are plausibly consistent with Wealthsimple at an earlier period but are now outdated — Wealthsimple crossed CAD $100 billion in assets in late 2025. Separately, the thread recommends Ideabrowser.com as a neutral research resource without disclosing that Isenberg built and sells it — a material conflict of interest. The Sensor Tower recommendation also omits that entry-level access costs approximately $25,000 a year, undermining the playbook’s accessible framing.",
+  "thread_summary": "Isenberg’s thread is a six-step playbook for building a mobile app portfolio: identify utilities with strong retention despite poor ratings using app-intelligence tools; isolate single features driving most revenue; target workflows where AI can replace manual steps; build distribution through TikTok and UGC creators; launch with one rebuilt core feature; and reinvest profits into more acquisitions. The overarching model is a small holding company that compounds returns across a portfolio of cashflow-positive boring apps rather than wagering everything on a single product.",
+  "sources": [
+    {
+      "url": "https://x.com/gregisenberg/status/2012171244666253777",
+      "title": "Greg Isenberg — original thread on X",
+      "note": "Primary source: the thread being briefed"
+    },
+    {
+      "url": "https://www.gregisenberg.com/about-me",
+      "title": "Greg Isenberg — About",
+      "note": "Biographical background and company history"
+    },
+    {
+      "url": "https://www.crunchbase.com/person/greg-isenberg",
+      "title": "Crunchbase: Greg Isenberg",
+      "note": "Acquisition history for 5by and Islands"
+    },
+    {
+      "url": "https://sensortower.com/",
+      "title": "Sensor Tower",
+      "note": "App intelligence platform described in the thread"
+    },
+    {
+      "url": "https://www.vendr.com/marketplace/sensor-tower",
+      "title": "Vendr: Sensor Tower Pricing",
+      "note": "Pricing intelligence showing ~$25K/year entry cost"
+    },
+    {
+      "url": "https://trysonar.app/blog/sensor-tower-pricing",
+      "title": "Sonar: Sensor Tower Pricing Analysis",
+      "note": "Corroborates $25K–$250K/year pricing range"
+    },
+    {
+      "url": "https://www.indiehackers.com/post/alarmy-the-11-million-alarm-clock-app-c74024c017",
+      "title": "Indie Hackers: Alarmy — The $11 Million Alarm Clock App",
+      "note": "Revenue data for Alarmy, citing public filings and Sensor Tower"
+    },
+    {
+      "url": "https://alar.my/en/company",
+      "title": "Alarmy / DelightRoom — Company page",
+      "note": "Official company page for the Alarmy worked example"
+    },
+    {
+      "url": "https://advertising.inmobi.com/case-study/delight-room-partners-with-inmobi-to-grow-global-in-app-ad-revenues-by-80",
+      "title": "InMobi Case Study: DelightRoom",
+      "note": "Ad revenue growth data confirming Alarmy’s scale"
+    },
+    {
+      "url": "https://www.wealthfront.com/",
+      "title": "Wealthfront",
+      "note": "Confirms US-only operations; no Canadian presence"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wealthsimple",
+      "title": "Wikipedia: Wealthsimple",
+      "note": "Background on the actual Robinhood of Canada"
+    },
+    {
+      "url": "https://newsroom.wealthsimple.com/wealthsimples-total-assets-climb-93-year-over-year",
+      "title": "Wealthsimple Newsroom: AUM milestone",
+      "note": "Confirms CAD $100B+ AUM by late 2025"
+    },
+    {
+      "url": "https://www.fool.ca/2020/07/16/wealthsimple-is-canadas-robinhood-how-can-investors-benefit/",
+      "title": "Motley Fool Canada: Wealthsimple is Canada’s Robinhood",
+      "note": "Documents the Robinhood-of-Canada label applied to Wealthsimple"
+    },
+    {
+      "url": "https://rollupeurope.com/p/rollups-from-hell-vol-2-tiny-ltd-is-the-struggling-berkshire-hathaway-of-internet-ripe-for-a-bending",
+      "title": "Rollup Europe: Tiny Ltd analysis",
+      "note": "Context on Tiny Limited as a holdco model and precedent"
+    },
+    {
+      "url": "https://www.ideabrowser.com/about",
+      "title": "Ideabrowser.com — About",
+      "note": "Confirms Isenberg ownership; material to the conflict-of-interest flag"
+    },
+    {
+      "url": "https://startupspells.com/p/greg-isenberg-ideabrowser-lead-magnet-wantrepreneurs-startup-ideas-podcast/",
+      "title": "Startup Spells: Ideabrowser as lead magnet",
+      "note": "Third-party analysis of Ideabrowser’s role in Isenberg’s content funnel"
+    }
+  ],
+  "bookmark_id": "2012171244666253777",
+  "generated_at": "2026-05-07T12:59:11.876913Z",
+  "backend": "claude-sonnet-subagent"
+}

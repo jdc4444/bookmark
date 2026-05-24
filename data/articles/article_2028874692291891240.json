@@ -1,0 +1,50 @@
+{
+  "bookmark_id": "2028874692291891240",
+  "headline": "A Remote BC Copper Deposit Courts Believers With Outsized Numbers",
+  "lede": "Doubleview Gold Corp's Hat Project, a copper-gold deposit in the wilderness of northwestern British Columbia, has produced a preliminary economic study with headline numbers big enough to make shareholders giddy. The arithmetic between today's market cap and that study requires patience, capital, and several leaps of faith.",
+  "body": "The Hat Project sits roughly 95 kilometres southwest of Dease Lake in a corner of British Columbia more accustomed to grizzlies than graders. Access depends on aircraft from Dease Lake or Whitehorse; the nearest highway is 95 kilometres away and the nearest power line 120. This is not a deal-breaker — the region hosts serious neighbours, including the Red Chris copper-gold mine and the long-gestating Galore Creek project — but it is a reminder that distance from tarmac is distance from revenue.\n\nDoubleview's property, which it has drilled since around 2014, hosts what geologists call an **alkalic porphyry** deposit: a style of mineralization, common in BC's Stikine terrane, in which copper, gold, cobalt, and silver are disseminated through a large volume of rock at grades that are individually modest but collectively enormous. The updated mineral resource estimate, effective February 2026, counts 609 million tonnes of measured-and-indicated material at 0.43% *copper equivalent* (a catch-all grade that converts gold, cobalt, and silver into a notional copper weight). That is a genuinely large number for a deposit still measured in drill holes rather than revenue.\n\nThe *Preliminary Economic Assessment* (PEA) released in March 2026 — the earliest-stage economic study under Canadian disclosure rules, explicitly cautioned against being used to support production decisions — projects an after-tax net present value of C$6.73 billion at consensus metal prices and an internal rate of return of 23%. The scenario that includes a scandium recovery circuit pushes the NPV figure above C$7 billion. These are striking. The initial capital cost is C$3.6 billion, more than five times the company's current enterprise value of roughly C$650 million — a gap that in junior mining is bridged either by a major-company partnership, debt markets, or the kind of multi-year waiting that tends to erode both investor patience and share counts.\n\nThe post promoting Doubleview comes from an anonymous X account styled after a character from *The Usual Suspects* — itself a film about the unreliability of narrators. The account discloses holding the stock as its \"largest position by far,\" which is relevant context: enthusiasm proportional to ownership concentration is the oldest dynamic in retail promotion. None of that makes the underlying asset fictitious; the deposit is real, the NI 43-101 resource is independently verified, and the PEA was prepared by qualified persons. What it does mean is that a \"5x–15x from here\" claim, offered without a timeline sensitivity analysis, a dilution schedule, or a financing roadmap, deserves scrutiny rather than applause. The account also has a habit of flagging other small miners with similar triumphalist language, which is a pattern worth noting.\n\nThe practical obstacles between today's stock price and the PEA's NPV are substantial. BC's environmental assessment process for a mine of this scale — 120,000 tonnes of rock milled per day over 25 years — typically takes a decade or more. First Nations consultation with the Tahltan Nation and the Taku River Tlingit First Nation is a legal requirement and a genuine relationship, not a checkbox. The scandium recovery circuit, which features prominently in the higher NPV scenarios, is flagged in the PEA itself as lacking \"sufficient market transparency\" to support reliable valuation, and the global scandium market remains thin enough that even Doubleview's projected 128 tonnes of annual scandium oxide would be significant relative to current supply. Cobalt, meanwhile, faces longer-term demand uncertainty as battery chemists pivot toward lithium-iron-phosphate formulations.\n\nNone of this forecloses the story. Copper's structural demand from electrification is real, BC's Stikine terrace is a proven address for world-class deposits, and a C$650 million enterprise value against a resource of this scale is not obviously expensive by the standards of comparable pre-feasibility projects. The next milestone — a Pre-Feasibility Study, which would require far more drilling, geotechnical work, and metallurgical testing — is targeted for 2026 to 2027, and its conclusions will matter far more than any social-media return forecast. Whether the gap between geological promise and mine gate closes in \"a few quarters\" is the kind of claim that BC wilderness tends to answer on its own schedule.",
+  "tickers": ["DBG.V", "DBLVF"],
+  "poster": "James56487175",
+  "concepts": [
+    {
+      "key": "alkalic-porphyry",
+      "term": "Alkalic Porphyry Deposit",
+      "definition": "A type of magmatic ore deposit in which copper, gold, and other metals are disseminated at low grades through a large volume of igneous rock. The 'alkalic' modifier refers to the sodium- and potassium-rich chemistry of the host magma, typical of BC's Stikine terrane. Because the grade is dilute but the rock mass is enormous, these deposits can host world-class metal endowments — but require large-scale, capital-intensive mining to be economic."
+    },
+    {
+      "key": "copper-equivalent-grade",
+      "term": "Copper Equivalent (CuEq)",
+      "definition": "A single number that converts the grades of multiple metals (gold, silver, cobalt, scandium) into a notional copper weight using prevailing metal prices and assumed recoveries. It simplifies comparison across polymetallic deposits but obscures differences in which metals are actually recoverable at scale — and at what cost. A high CuEq grade driven by gold is different in character from one driven by bulk copper."
+    },
+    {
+      "key": "pea",
+      "term": "Preliminary Economic Assessment (PEA)",
+      "definition": "The first formal economic study in the Canadian mine-development sequence, governed by National Instrument 43-101. A PEA is explicitly permitted to include 'inferred' mineral resources — the lowest confidence category — meaning its economics rest partly on geology that is too uncertain to be classified as a mineral reserve. Canadian regulators require PEAs to carry prominent warnings that they are preliminary and should not be used to make production decisions. A Pre-Feasibility Study and then a Feasibility Study must follow before a construction decision can be made."
+    },
+    {
+      "key": "ni-43-101",
+      "term": "NI 43-101",
+      "definition": "National Instrument 43-101 is the Canadian regulatory standard governing public disclosure of mineral project information. It requires that resource and reserve estimates be prepared and signed off by a 'qualified person' — a geoscientist or engineer with relevant credentials and professional liability. The standard exists partly in response to historical mining frauds; compliant disclosure is more trustworthy than promotional tweets but does not guarantee economic viability."
+    },
+    {
+      "key": "npv-irr",
+      "term": "Net Present Value and Internal Rate of Return (NPV / IRR)",
+      "definition": "Standard project-finance metrics. NPV discounts projected future cash flows back to today's dollars at a chosen rate (here, 5% annually); a positive NPV suggests the project creates value above the cost of capital. IRR is the discount rate at which NPV equals zero — essentially the project's implied return. Both figures are highly sensitive to metal prices, capital cost estimates, and production schedules, all of which at the PEA stage carry wide uncertainty ranges."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The PEA figures (C$6.73B NPV, 23% IRR, C$3.6B initial capex, 25-year mine life at 120,000 t/d) are drawn from Doubleview's March 2026 press release and confirmed by the filed technical report. The resource estimate of 609 Mt M&I at 0.43% CuEq, effective February 4, 2026, is NI 43-101 compliant. The stock's approximate one-year return of ~285–293% is consistent across multiple financial data sources as of early-to-mid 2026. The poster's '5x–15x from here' claim is unsubstantiated by any independent analysis found in research; it reflects personal conviction and an undisclosed return timeline. The project's infrastructure remoteness (95 km from Highway 37, 120 km from grid power) is confirmed by the company's own project page. Claims that the deposit is 'dirt cheap' are not falsifiable without a specified valuation framework, though the company trades at roughly 10% of its PEA base-case NPV — a discount consistent with the project's early stage and execution risk.",
+  "thread_summary": null,
+  "sources": [
+    "https://www.doubleview.ca/doubleview-gold-corp-announces-positive-preliminary-economic-assessment-for-the-hat-project-robust-base-case-economics-with-strategic-scandium-upside/",
+    "https://finance.yahoo.com/news/doubleview-gold-corp-announces-positive-163500606.html",
+    "https://www.doubleview.ca/hat-project/",
+    "https://stockanalysis.com/quote/otc/DBLVF/",
+    "https://www.stocktitan.net/news/DBLVF/doubleview-gold-corp-announces-important-high-grade-copper-and-gold-tnmqi3qyxxlu.html",
+    "https://www.stocktitan.net/news/DBLVF/doubleview-gold-corp-announces-successful-completion-of-2025-qat8dtg8pft0.html",
+    "https://threadreaderapp.com/thread/1981367135814500392.html"
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

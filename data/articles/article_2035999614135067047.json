@@ -1,0 +1,166 @@
+{
+  "headline": "The Background Agent That Teaches Claude Code to Remember",
+  "lede": "Modern AI coding assistants suffer from a fundamental limitation: they forget everything the moment a session closes. Each new conversation begins from scratch, unaware of architectural decisions, debugging patterns, and developer preferences built up in prior sessions. claude-subconscious, an open-source plugin from Letta AI, attempts to solve this by running a silent second agent that watches, learns, and whispers context forward.",
+  "body": "The plugin — launched in January 2026 and now at version 2.1.1 — works by registering four *hooks* into Claude Code's session lifecycle. When a session ends, a background worker parses the full transcript, sends it to a Letta agent running in the cloud, and updates eight named **memory blocks** — structured fields such as `user_preferences`, `project_context`, `session_patterns`, and `pending_items`. Before the next prompt, the agent injects that accumulated knowledge back as invisible context, formatted as XML tags the model sees but the developer does not.\n\nThe technical architecture reflects an older research lineage. Letta AI grew from **MemGPT**, a 2023 paper by UC Berkeley researchers proposing that language models be treated like an operating system: rather than passively filling a *context window*, agents should maintain tiered memory and self-edit what they retain. The paper's authors, Charles Packer and Sarah Wooders, went on to found Letta AI and raise a $10 million seed round led by Felicis Ventures. The company's stated positioning: to be “the open alternative to OpenAI.”\n\nThe README contains a caveat the promotional framing elides: claude-subconscious is explicitly a “demo app” “not intended to be used in production.” The intended production route is Letta's own **Letta Code** *CLI*, a separate open-source coding agent with memory built in from the start. claude-subconscious is, in effect, a showcase for what Letta's *SDK* can do when grafted onto a competitor's tool — valuable as a proof of concept and as a recruiting device for Letta's own product.\n\nThe market for *AI agent memory* is crowded. Mem0, Zep, and GitHub Copilot Memory — the last a Microsoft (MSFT) product — all address the same amnesia problem with different architectural bets. GitHub Copilot Memory uses a just-in-time citation model: agents store learnings tied to specific code references, then validate those citations before reuse. Microsoft claims a 7% improvement in pull request merge rates. Letta argues its self-editing approach is more principled: on the **LongMemEval** benchmark it reports 83% accuracy against Mem0's 49%, though independent replication has not been published.\n\nThe governance questions raised by persistent coding memory are non-trivial. A system that accumulates knowledge about a developer's patterns, preferred shortcuts, and unfinished work also creates a surveillance substrate — one that persists across projects by default in claude-subconscious. The plugin shipped memory limits only after at least one user accrued 51 memory blocks and 115,000 tokens of system-prompt overhead, demonstrating that unconstrained accumulation carries real practical costs.",
+  "tickers": [
+    "MSFT"
+  ],
+  "companies": [
+    {
+      "name": "Letta AI",
+      "ticker": null
+    },
+    {
+      "name": "Felicis Ventures",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "GitHub",
+      "ticker": null
+    },
+    {
+      "name": "Mem0",
+      "ticker": null
+    },
+    {
+      "name": "Zep",
+      "ticker": null
+    }
+  ],
+  "poster": "charliejhills",
+  "concepts": [
+    {
+      "key": "hooks",
+      "term": "Claude Code hooks",
+      "definition": "Named callbacks in Claude Code's session lifecycle — SessionStart, UserPromptSubmit, PreToolUse, and Stop — that let external scripts intercept and augment the agent's inputs and outputs at defined moments."
+    },
+    {
+      "key": "memory-blocks",
+      "term": "memory blocks",
+      "definition": "Named, structured fields in Letta's memory system that an agent actively reads and edits across sessions. Unlike a flat log, each block (e.g. `user_preferences`, `project_context`) holds a bounded, curated summary the agent updates by reasoning about what to retain or discard."
+    },
+    {
+      "key": "context-window",
+      "term": "context window",
+      "definition": "The finite buffer of text — measured in tokens — that a language model can attend to in a single inference call. Information outside the window is invisible to the model; this is why agents forget across sessions unless they explicitly persist state elsewhere."
+    },
+    {
+      "key": "memgpt",
+      "term": "MemGPT",
+      "definition": "A 2023 UC Berkeley research project (arXiv 2310.08560) proposing that LLMs be structured like an operating system, with tiered memory layers and self-editing memory management. It became the academic foundation for Letta AI."
+    },
+    {
+      "key": "cli",
+      "term": "CLI",
+      "definition": "Command-line interface: a program invoked from a terminal by typing commands. In this context, Letta Code is a CLI tool installed globally via npm and run from the developer's terminal rather than a graphical application."
+    },
+    {
+      "key": "sdk",
+      "term": "SDK",
+      "definition": "Software Development Kit: a packaged set of libraries, APIs, and tools that lets developers build on top of an existing platform without reimplementing its infrastructure. The Letta Code SDK is what claude-subconscious uses to talk to Letta's memory backend."
+    },
+    {
+      "key": "ai-agent-memory",
+      "term": "AI agent memory",
+      "definition": "The capability of an AI agent to persist and retrieve information across multiple sessions or interactions — distinct from the within-session context window. Implementations range from simple key-value stores to vector databases to self-editing structured blocks."
+    },
+    {
+      "key": "longmemeval",
+      "term": "LongMemEval",
+      "definition": "A benchmark for evaluating how well AI agents recall and reason over information from prior conversations. It tests multi-hop retrieval, temporal reasoning, and knowledge updates across long interaction histories."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "letta-ai/claude-subconscious",
+      "url": "https://github.com/letta-ai/claude-subconscious",
+      "summary": "A Claude Code plugin that runs a background Letta agent watching every session transcript. It accumulates knowledge into named memory blocks and injects relevant context before each new prompt, giving Claude Code persistent memory across sessions. The project is explicitly a demo for the Letta Code SDK rather than a production tool."
+    },
+    {
+      "key": "letta-ai/letta-code",
+      "url": "https://github.com/letta-ai/letta-code",
+      "summary": "Letta's own open-source coding agent CLI, described as the production-ready successor to claude-subconscious. It has memory built in from the start — including /init for codebase research, /search across past conversations, and a /remember command — rather than retrofitting memory onto another agent."
+    }
+  ],
+  "fact_check": "The tweet's framing overstates both novelty and readiness. The memory layer for AI coding agents has not been “missing” — Mem0, Zep, and GitHub Copilot Memory are active competitors predating or contemporaneous with this release. More critically, the README explicitly states that claude-subconscious is “a demo app… not intended to be used in production”; the intended product is Letta's own Letta Code CLI.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/letta-ai/claude-subconscious",
+      "title": "letta-ai/claude-subconscious on GitHub",
+      "note": "Primary source: README, version history, architecture details"
+    },
+    {
+      "url": "https://github.com/letta-ai/letta-code",
+      "title": "letta-ai/letta-code on GitHub",
+      "note": "Production successor to claude-subconscious"
+    },
+    {
+      "url": "https://www.letta.com",
+      "title": "Letta AI official site",
+      "note": "Company overview and positioning"
+    },
+    {
+      "url": "https://www.letta.com/blog/letta-code",
+      "title": "Letta Code blog post",
+      "note": "Letta's own description of Letta Code and its relationship to claude-subconscious"
+    },
+    {
+      "url": "https://docs.letta.com/letta-code",
+      "title": "Letta Code documentation",
+      "note": "Technical documentation for the Letta Code SDK"
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.08560",
+      "title": "MemGPT: Towards LLMs as Operating Systems (arXiv)",
+      "note": "The foundational academic paper behind Letta's memory architecture"
+    },
+    {
+      "url": "https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/",
+      "title": "TechCrunch: Letta comes out of stealth",
+      "note": "Funding and founding team details"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/berkeley-ai-research-lab-spinout-letta-raises-10m-seed-financing-led-by-felicis-to-build-ai-with-memory-302257004.html",
+      "title": "Letta $10M seed round press release",
+      "note": "Investor details and funding amount"
+    },
+    {
+      "url": "https://www.letta.com/blog/benchmarking-ai-agent-memory",
+      "title": "Letta memory benchmark blog",
+      "note": "LongMemEval scores and comparison with Mem0"
+    },
+    {
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/",
+      "title": "GitHub blog: Building an agentic memory system for GitHub Copilot",
+      "note": "Microsoft's competing just-in-time citation memory approach"
+    },
+    {
+      "url": "https://medium.com/@reliabledataengineering/claude-subconscious-gives-claude-code-a-persistent-memory-that-actually-works-bfd6ff5444e3",
+      "title": "Medium: Claude Subconscious Gives Claude Code a Persistent Memory",
+      "note": "Community writeup with implementation details"
+    },
+    {
+      "url": "https://www.i-scoop.eu/claude-subconscious-memory/",
+      "title": "i-scoop: Claude Subconscious analysis",
+      "note": "Critical analysis including governance concerns"
+    },
+    {
+      "url": "https://x.com/charliejhills/status/2035999601954865229",
+      "title": "Charlie Hills X thread",
+      "note": "Original promotional thread announcing the repo"
+    }
+  ],
+  "bookmark_id": "2035999614135067047",
+  "generated_at": "2026-05-07T12:22:13.102482Z",
+  "backend": "claude-sonnet-subagent"
+}

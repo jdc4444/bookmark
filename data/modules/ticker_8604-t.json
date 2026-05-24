@@ -1,0 +1,28 @@
+{
+  "key": "8604.T",
+  "name": "Nomura Holdings, Inc.",
+  "exchange": "Tokyo Stock Exchange (Prime Market)",
+  "blurb": "Nomura Holdings is Japan's largest investment bank and brokerage firm, providing a broad range of financial services including retail brokerage, asset management, wholesale banking, and investment banking. Founded in 1925 and headquartered in Tokyo, it operates across Asia, Europe, and the Americas, serving individual investors, corporations, financial institutions, and governments. Nomura is widely regarded as the preeminent Japanese securities house and competes globally with major Western investment banks in fixed income, equities, and advisory services.",
+  "recent": "As of mid-May 2026, Nomura shares (8604.T) were trading around ¥1,265, near a 52-week low of ¥827 set on May 12, 2025, and well off the 52-week high of ¥1,506.50 reached in January 2026. Price action has been pressured by broader macro uncertainty including U.S.-China trade tensions and geopolitical headwinds affecting Asian financial markets. No company-specific earnings or major corporate announcements are surfaced in the available sources for the past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/8604.T/",
+      "title": "Nomura Holdings, Inc. (8604.T) Stock Price, News, Quote & History — Yahoo Finance"
+    },
+    {
+      "url": "https://www.reuters.com/markets/companies/8604.T/",
+      "title": "Nomura Holdings Inc (8604.T) Stock Price & Latest News — Reuters"
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/8604.T-JP",
+      "title": "8604.T-JP: Nomura Holdings Inc — CNBC"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/NOMURA-HOLDINGS-INC-6492527/",
+      "title": "Nomura Holdings, Inc. Stock (8604) — MarketScreener"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:07:46.344721Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,60 @@
+{
+  "bookmark_id": "2004917487339503757",
+  "headline": "The Open-Source Engine Quietly Running Quant Finance",
+  "lede": "QuantConnect's Lean Engine is free, battle-tested algorithmic trading software that now moves some $45 billion in notional volume each month — a figure that makes the project's GitHub price tag of zero feel almost absurd.",
+  "body": "Algorithmic trading has long been the province of well-capitalised institutions, their proprietary code guarded like a trade secret. Lean Engine, the open-source project that underpins QuantConnect's cloud platform, is an attempt to redistribute at least part of that advantage. Written primarily in C# and first released publicly in 2015 by founder Jared Broad, the engine has since accumulated more than 18,000 GitHub stars, contributions from over 180 engineers, and adoption by more than 300 hedge funds — a constituency not typically associated with free software.\n\nAt its core, Lean is an *event-driven backtester*, meaning it simulates historical markets by replaying market events — ticks, bar closes, order fills — in sequence, rather than feeding raw time-series arrays through vectorised calculations. This approach preserves the causal structure of trading: an algorithm cannot see tomorrow's price when deciding today's order, and execution logic unfolds exactly as it would in live markets. The same codebase handles both historical simulation and live deployment, which is rarer than it sounds; many research-grade tools stumble badly when pointed at a real brokerage.\n\nThe platform supports nine asset classes — equities, options, futures, forex, index options, future options, cryptocurrencies, CFDs, and indices — and integrates with roughly forty data sources and a growing list of brokerages. Python users access all of this through *PythonNet*, a bridge that routes calls down to the C# engine's native layer. The integration is impressively smooth for most purposes, though it introduces overhead: backtests run two to three times slower in Python than in equivalent C# code, and the bridge imposes a floor on live-trading latency — typically five to forty milliseconds — that makes the engine unsuitable for *high-frequency trading*, the sub-millisecond game played by firms with co-located servers and custom silicon.\n\nThe $1 billion monthly trading-volume figure circulating on social media appears to be an outdated marketing claim. QuantConnect's own website and recent third-party reviews now cite $45 billion per month in *notional volume* — the face value of the positions being traded, which includes leveraged instruments like futures and can look impressively large relative to actual capital at risk. The company remains private, has disclosed no funding rounds, and earns revenue by selling cloud compute and data subscriptions on top of the free engine — a model that aligns its incentives, at least partially, with the community that improves the code.\n\nFor a quantitative researcher who knows Python and wants to test a systematic strategy against a decade of daily equity data, Lean is a serious tool rather than a toy. A ten-year equity backtest runs in roughly thirty seconds on QuantConnect's cloud hardware. The harder question — whether a backtest that looks compelling will survive contact with real markets — is one no open-source engine can answer. *Overfitting*, the sin of calibrating a strategy so tightly to past data that it decays the moment the future arrives, remains the genre's occupational hazard, and Lean's extensive data library and frictionless iteration cycle can as easily accelerate that mistake as prevent it.",
+  "tickers": [],
+  "poster": "pyquantnews",
+  "concepts": [
+    {
+      "key": "backtesting",
+      "term": "Backtesting",
+      "definition": "Running a trading strategy against historical market data to evaluate how it would have performed, as a proxy for future viability."
+    },
+    {
+      "key": "event-driven-backtester",
+      "term": "Event-Driven Backtester",
+      "definition": "A simulation engine that replays market events — price ticks, bar closes, order fills — in chronological sequence, preserving the causal structure of real trading rather than processing data as static arrays."
+    },
+    {
+      "key": "pythonnet",
+      "term": "PythonNet",
+      "definition": "An open-source bridge that allows Python code to call into the .NET (C#) runtime, enabling Python algorithms to run on top of Lean's C# core."
+    },
+    {
+      "key": "notional-volume",
+      "term": "Notional Volume",
+      "definition": "The face value of all positions traded — including leveraged instruments like futures — which can be a much larger number than the actual capital deployed."
+    },
+    {
+      "key": "overfitting",
+      "term": "Overfitting",
+      "definition": "Calibrating a model so precisely to historical data that it captures noise rather than signal, causing it to underperform in live markets."
+    },
+    {
+      "key": "high-frequency-trading",
+      "term": "High-Frequency Trading",
+      "definition": "A strategy category that executes thousands of orders per second, exploiting tiny price discrepancies over microsecond to millisecond timescales — requiring infrastructure far below Lean's latency floor."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "url": "https://github.com/QuantConnect/Lean",
+      "name": "QuantConnect/Lean",
+      "note": "The core open-source engine: event-driven backtester and live trading framework in C# with Python bindings, Apache 2.0 licensed, 18k+ stars."
+    }
+  ],
+  "fact_check": "The tweet's claim of \"$1,000,000,000 in trading volume per month\" is outdated. QuantConnect's current official figure is $45 billion per month in notional trading volume — a number that reflects the face value of leveraged positions, not net capital deployed. The older $1B figure appears in legacy reviews referencing data from around 2021, when the platform cited approximately $8.1 billion in aggregate volume traded since inception. The current headline figure has grown substantially since then.",
+  "thread_summary": null,
+  "sources": [
+    "https://github.com/QuantConnect/Lean",
+    "https://www.lean.io/",
+    "https://en.wikipedia.org/wiki/QuantConnect",
+    "https://www.quantconnect.com/docs/v2/writing-algorithms/key-concepts/python-and-lean",
+    "https://www.quantvps.com/blog/quantconnect-review",
+    "https://www.quantconnect.com/docs/v2/lean-engine"
+  ],
+  "generated_at": "2026-05-06T00:00:48Z",
+  "backend": "claude-sonnet-subagent"
+}

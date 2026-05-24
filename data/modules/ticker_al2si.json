@@ -1,0 +1,32 @@
+{
+  "key": "AL2SI",
+  "name": "2CRSI S.A.",
+  "exchange": "Euronext Paris (EPA/XPAR)",
+  "blurb": "Not enough public information. The provided research sources are stock-quote landing pages (Yahoo Finance, MarketScreener, Morningstar, Investing.com, Google Finance) and none contain substantive business-description text. ISIN FR0013341781 and the Euronext Paris listing are confirmed, but a verified description of operations and market position cannot be drawn from the supplied sources alone.",
+  "recent": "Morningstar shows 2CRSI SA trading at €39.52, up +€2.18 (+5.84%) as of May 13–14, 2026 (delayed price). No earnings releases, press releases, or news headlines are present in the supplied sources to characterize additional catalysts or events within the past 30 days.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/AL2SI.PA/",
+      "title": "2CRSI S.A. (AL2SI.PA) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/2CRSI-44358422/",
+      "title": "2CRSi Stock (AL2SI) - Quote Euronext Paris - MarketScreener"
+    },
+    {
+      "url": "https://www.morningstar.com/stocks/xpar/al2si/quote",
+      "title": "AL2SI Stock Price Quote | Morningstar"
+    },
+    {
+      "url": "https://www.investing.com/equities/2crsi",
+      "title": "2Crsi SA Stock Price Today | EPA: AL2SI Live - Investing.com"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/AL2SI:EPA",
+      "title": "2Crsi SA (AL2SI) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T11:29:47.015035Z",
+  "backend": "claude-sonnet-subagent"
+}

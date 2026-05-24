@@ -1,0 +1,155 @@
+{
+  "headline": "This Tech Rally Has an Earnings Engine the Dot-Com Bubble Lacked",
+  "lede": "A pair of charts from Pictet Asset Management frames a pointed question about the current technology rally: are investors paying for real earnings growth, or for a speculative dream? The data, drawn from the *MSCI ACWI IT* index and sourced from Refinitiv, compares the dot-com era to the AI cycle and finds the two periods structurally distinct — not because today’s valuations are modest, but because earnings growth has largely kept pace with price appreciation.",
+  "body": "Steve Donze, a senior fund manager and Head of Investments at Pictet Asset Management Japan, posted two charts derived from Refinitiv data that make a pointed structural comparison. Each tracks the *MSCI ACWI IT* index — a global benchmark of information-technology stocks spanning 47 developed and emerging markets, classified by the GICS sector framework — against **12-month forward earnings**: the rolling consensus analyst estimate of what the index’s constituents will earn over the next year. Plotting the two lines on the same axis makes visible whether price gains are grounded in expected profit, or have raced ahead of it.\n\nIn the late 1990s, the divergence was extreme. From the 1995 base, IT prices on the MSCI ACWI IT surged nearly 800% before crashing; forward earnings, by contrast, rose only about 73%. That roughly eleven-to-one gap is the visual anatomy of a speculative bubble. The label “irrational exuberance” — the phrase Alan Greenspan deployed in a December 1996 Federal Reserve speech to warn of asset inflation disconnected from fundamentals — appears on the chart near where prices first broke decisively away from earnings. The warning proved correct but premature: the NASDAQ continued climbing for three more years before falling more than 80% from its March 2000 peak, erasing trillions in market value. Most dot-com companies were operating at net losses; of the 370 technology IPOs in 1999, only 14% were profitable.\n\nToday’s picture is materially different. Indexed from 2021 — just before the launch of ChatGPT intensified investor interest in AI — IT prices are up roughly 214%, while the index’s 12-month forward earnings have risen approximately 157%. The two lines track each other with nothing like the 1990s gap. That is Donze’s point, stated in eight words: “Prices chasing earnings. Not the other way round.” When price and earnings growth are in rough proportion, **multiple expansion** — the inflation of what investors pay per dollar of future profit — remains moderate rather than explosive. The technology sector’s current forward *price-to-earnings* ratio sits near 30 times, elevated by historical standards but roughly 40% below the 50-plus times reached at the dot-com peak.\n\nThe earnings case holds up to external scrutiny. The so-called Magnificent Seven — Apple (AAPL), Microsoft (MSFT), Nvidia (NVDA), Alphabet (GOOGL), Amazon (AMZN), Meta (META), and Tesla (TSLA) — which dominate the MSCI ACWI IT index’s weight, collectively grew earnings roughly 37% in 2024 and sustained quarterly growth above 25% for ten of eleven consecutive quarters. Cisco Systems (CSCO) alone traded above 100 times earnings in 2000, with a valuation that left no room for error; today’s dominant names generate hundreds of billions in annual free cash flow. The structural composition of the index has shifted from companies priced on projected existence to companies priced on demonstrated profitability.\n\nThe chart makes a structural argument, not a timing call. Forward earnings are analyst projections, not realized profits, and they are historically revised downward when growth disappoints. The AI investment cycle rests heavily on sustained capital expenditure by a handful of *hyperscalers* — the largest cloud-computing platforms — and a demand shortfall could reprice expectations sharply. What the Pictet data shows is that the current rally began from, and has so far maintained, a closer relationship between prices and fundamentals than the one that preceded the dot-com crash. Whether that relationship holds is the open question.",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "GOOGL",
+    "AMZN",
+    "META",
+    "TSLA",
+    "CSCO"
+  ],
+  "companies": [
+    {
+      "name": "Pictet Asset Management",
+      "ticker": null
+    },
+    {
+      "name": "Apple",
+      "ticker": "AAPL"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    },
+    {
+      "name": "Nvidia",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN"
+    },
+    {
+      "name": "Meta",
+      "ticker": "META"
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA"
+    },
+    {
+      "name": "Cisco Systems",
+      "ticker": "CSCO"
+    }
+  ],
+  "poster": "steve_donze",
+  "concepts": [
+    {
+      "key": "msci-acwi-it-index",
+      "term": "MSCI ACWI IT Index",
+      "definition": "The MSCI All Country World Index Information Technology Index tracks large- and mid-cap technology stocks across 47 developed and emerging markets, using the GICS (Global Industry Classification Standard) sector framework. Its major constituents today are the largest US technology companies; in the late 1990s they were Cisco, Intel, and Lucent. It is the standard global benchmark for the IT sector’s market performance."
+    },
+    {
+      "key": "12-month-forward-earnings",
+      "term": "12-Month Forward Earnings",
+      "definition": "Also called NTM (Next Twelve Months) earnings per share, this is a rolling consensus estimate of what a company or index’s constituents will earn over the next twelve months. It blends current- and next-fiscal-year analyst estimates weighted by where you are in the fiscal year. Because stock markets discount future profits rather than past ones, forward earnings are the standard denominator for price-to-earnings ratios used in valuation comparisons — and the right metric for detecting whether prices have run ahead of what analysts expect companies actually to earn."
+    },
+    {
+      "key": "irrational-exuberance",
+      "term": "Irrational Exuberance",
+      "definition": "A phrase coined by Federal Reserve Chairman Alan Greenspan in a December 1996 speech to describe asset prices inflated beyond what fundamentals can justify. Yale economist Robert Shiller later used it as the title of his landmark book on asset bubbles. The phrase is now canonical shorthand for speculative excess disconnected from earnings — and its appearance on the 1990s panel of the Pictet chart marks the moment prices and earnings first broke decisively apart."
+    },
+    {
+      "key": "multiple-expansion",
+      "term": "Multiple Expansion",
+      "definition": "When stock prices rise faster than earnings, the price-to-earnings ratio — the “multiple” — expands. Modest multiple expansion is normal when earnings growth is accelerating; extreme multiple expansion signals investors paying increasingly for growth that has not yet materialized, and may never. The dot-com bubble was driven almost entirely by multiple expansion; the current AI cycle has seen far more moderate expansion because earnings have also grown substantially."
+    },
+    {
+      "key": "price-to-earnings-ratio",
+      "term": "Price-to-Earnings Ratio",
+      "definition": "The ratio of a stock’s or index’s price to its earnings per share. When calculated against forward (future) analyst estimates rather than trailing (past) reported earnings, it is called the forward P/E. A higher P/E means investors are paying more for each dollar of expected profit, implying higher growth expectations — or higher speculation. The IT sector’s forward P/E exceeded 50 times at the dot-com peak; it sits near 30 times today."
+    },
+    {
+      "key": "hyperscalers",
+      "term": "Hyperscalers",
+      "definition": "The largest cloud-computing platforms — principally Amazon Web Services, Microsoft Azure, and Google Cloud — that operate data centers at massive scale. They are the primary buyers of AI infrastructure (chips, networking, servers) and their capital expenditure decisions have an outsized effect on the earnings of semiconductor and hardware companies that together constitute a large share of the MSCI ACWI IT index."
+    },
+    {
+      "key": "magnificent-seven",
+      "term": "Magnificent Seven",
+      "definition": "A market nickname for the seven largest US technology companies by market capitalization — Apple, Microsoft, Nvidia, Alphabet, Amazon, Meta, and Tesla. Together they account for a substantial portion of the S&P 500 and dominate the MSCI ACWI IT index’s weight, making their collective earnings performance the primary driver of aggregate technology-sector earnings growth statistics."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/steve_donze/status/2054425996569563396",
+      "title": "Steve Donze on X — Prices chasing earnings",
+      "note": "Original bookmark post with dual-chart comparison of MSCI ACWI IT price vs. forward earnings"
+    },
+    {
+      "url": "https://x.com/steve_donze/status/2024001958756204764",
+      "title": "Steve Donze on X — Earnings-led, unlike then",
+      "note": "Quoted inner tweet providing the one-sentence verbal thesis"
+    },
+    {
+      "url": "https://am.pictet.com/ch/en/investment-views/multi-asset/2025/february-barometer-of-financial-markets-outlook",
+      "title": "Pictet AM February 2025 Barometer",
+      "note": "Pictet’s documented research methodology on IT-sector EPS and price comparisons; confirms dot-com vs. AI framing"
+    },
+    {
+      "url": "https://www.msci.com/indexes/index/106752",
+      "title": "MSCI ACWI Information Technology Index",
+      "note": "Official index description, constituent methodology, and market-cap coverage"
+    },
+    {
+      "url": "https://insight.factset.com/magnificent-7-companies-reported-earnings-growth-above-25-for-q4",
+      "title": "FactSet: Magnificent 7 Q4 2024 Earnings",
+      "note": "Confirms 36.8% YoY earnings growth and sustained quarterly beats above 25% for ten of eleven quarters"
+    },
+    {
+      "url": "https://insight.factset.com/magnificent-7-companies-reported-earnings-growth-above-25-for-q1",
+      "title": "FactSet: Magnificent 7 Q1 2025 Earnings",
+      "note": "Confirms 27.7% Q1 2025 earnings growth vs. 16% pre-quarter analyst estimate"
+    },
+    {
+      "url": "https://www.janushenderson.com/en-au/adviser/article/ai-versus-the-dotcom-bubble-8-reasons-the-ai-wave-is-different/",
+      "title": "Janus Henderson: AI vs. the Dot-Com Bubble",
+      "note": "Current tech sector forward P/E vs. dot-com peak; earnings-driven vs. multiple-driven analysis"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Irrational_exuberance",
+      "title": "Wikipedia: Irrational Exuberance",
+      "note": "Origin, context, and market reception of Greenspan’s December 1996 phrase"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dot-com_bubble",
+      "title": "Wikipedia: Dot-Com Bubble",
+      "note": "Scale of price-earnings disconnect, NASDAQ P/E ratios, IPO profitability data, and crash magnitude"
+    },
+    {
+      "url": "https://www.tikr.com/blog/ntm-next-twelve-months-explained-how-forward-looking-metrics-help-you-value-stocks",
+      "title": "TIKR: NTM — Next Twelve Months Explained",
+      "note": "Definition and methodology for 12-month forward earnings as a valuation metric"
+    },
+    {
+      "url": "https://www.goldmansachs.com/our-firm/history/moments/2000-dot-com-bubble",
+      "title": "Goldman Sachs: The Dot-Com Bubble",
+      "note": "Historical price performance data and collapse of late-1990s technology stocks"
+    }
+  ],
+  "bookmark_id": "2054425996569563396",
+  "generated_at": "2026-05-14T10:12:35.375236Z",
+  "backend": "claude-sonnet-subagent"
+}

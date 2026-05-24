@@ -1,0 +1,100 @@
+{
+  "headline": "Alibaba's Open-Source Video Model Brings Mixture-of-Experts to Cinema",
+  "lede": "Alibaba (BABA) has released Wan 2.2, a family of open-source video-generation models that applies the *Mixture-of-Experts* architecture to cinematic video production for the first time in an open-weight release. Built by the Wan-AI team at Alibaba Cloud, the series covers text-to-video, image-to-video, and a hybrid model in a unified framework. The release positions Alibaba's open video stack as a serious challenge to proprietary systems accessible only through cloud APIs.",
+  "body": "The flagship T2V and I2V models — designated **A14B** — carry roughly 27 billion total parameters, but only about 14 billion are *active* on any single inference pass. The *MoE* design splits video generation between two specialist sub-models: one handles early *denoising*, transforming a field of random noise into a rough video, while the second handles late-stage fine-detail refinement. Routing each computation to the relevant expert — rather than running the full network for every step — keeps inference costs close to those of a much smaller *dense model* while drawing on the capacity of a larger one.\n\nCinematic control is the headline claim. Wan 2.2's training pipeline incorporates finely labeled aesthetic datasets covering lighting conditions, color grading, camera angle, focal length, and composition. A user can specify photographic grammar in a text prompt — a golden-hour backlight, a low-angle wide shot — and the model is designed to honor it. Earlier open-source video models often responded to subject prompts while ignoring such visual specifications, so this is a meaningful step if it holds up in practice.\n\nTraining scale accounts for much of the improvement. Compared to Wan 2.1, the new release was trained on 65.6% more images and 83.2% more video clips, which the team credits for better generalization across complex motions: facial expressions, hand gestures, sports sequences. A lighter 5B-parameter hybrid model, **TI2V-5B**, handles both *T2V* and *I2V* tasks in a single framework at 720p and 24 fps — offering developers flexibility without the compute demands of the larger A14B variants.\n\nThe open-weights status matters as much as the technical claims. Proprietary video models from OpenAI and Alphabet (GOOGL) — Sora and Veo respectively — are available only through cloud APIs, which impose usage limits, data-handling conditions, and no ability to fine-tune on proprietary visual styles. Wan 2.2 can be run locally or self-hosted, making it relevant to independent filmmakers, game studios, and researchers who need low-latency or private-data workflows. The open-source video generation space has historically lagged closed models by at least one generation; Wan 2.2 appears to narrow that gap meaningfully, though independent benchmarking beyond Alibaba's own *Wan-Bench 2.0* evaluation suite has yet to materialize.",
+  "tickers": [
+    "BABA",
+    "GOOGL"
+  ],
+  "companies": [
+    {
+      "name": "Alibaba Group",
+      "ticker": "BABA"
+    },
+    {
+      "name": "Alibaba Cloud",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL"
+    }
+  ],
+  "poster": "AngryTomtweets",
+  "concepts": [
+    {
+      "key": "mixture-of-experts",
+      "term": "Mixture-of-Experts (MoE)",
+      "definition": "An architecture in which a large neural network is divided into specialist sub-networks ('experts'), and a learned routing layer directs each input token to only a subset of those experts. This allows a model to have many more total parameters than it activates on any given computation, making it more capable without proportionally higher inference costs."
+    },
+    {
+      "key": "denoising",
+      "term": "Denoising",
+      "definition": "In diffusion-based generative models, denoising is the iterative process of starting from a frame of random noise and progressively removing that noise to recover a coherent image or video. The model is trained to predict and subtract noise at each step until a clean output emerges."
+    },
+    {
+      "key": "dense-model",
+      "term": "Dense Model",
+      "definition": "A neural network in which all parameters are active and used for every computation, as opposed to Mixture-of-Experts models that route inputs to only a subset. Dense models are simpler to train but become expensive to scale because inference cost grows with every parameter added."
+    },
+    {
+      "key": "text-to-video",
+      "term": "Text-to-Video (T2V)",
+      "definition": "A generative AI task in which a model produces a video clip from a natural-language text description, translating abstract descriptions of scenes, motion, and style into coherent moving images."
+    },
+    {
+      "key": "image-to-video",
+      "term": "Image-to-Video (I2V)",
+      "definition": "A generative AI task in which a static image is used as a starting frame and the model animates it into a short video clip, inferring plausible motion from the visual content and any accompanying text prompt."
+    },
+    {
+      "key": "open-weights",
+      "term": "Open Weights",
+      "definition": "A model release in which the trained numerical parameters are made publicly available for download, allowing anyone to run, inspect, or fine-tune the model locally. Distinct from 'open source' in the strict legal sense, but the terms are widely used interchangeably in the AI community."
+    },
+    {
+      "key": "wan-bench",
+      "term": "Wan-Bench 2.0",
+      "definition": "Alibaba's internal evaluation benchmark for video generation models, used to compare Wan 2.2 against both open-source and closed-source alternatives. As a first-party benchmark, its results should be treated with the caution typically applied to vendor-reported performance figures."
+    },
+    {
+      "key": "inference",
+      "term": "Inference",
+      "definition": "The process of running a trained AI model on new input to produce an output — distinct from training, which builds the model's parameters. Inference cost (time, memory, compute) determines how practical it is to use a model in production or on consumer hardware."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "Wan-Video/Wan2.2",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "summary": "The official open-source release of Alibaba's Wan 2.2 video generation model family. The repository contains model weights, inference code, and documentation for the T2V, I2V, and TI2V variants. It is the primary distribution point for developers who want to run or fine-tune the models locally without going through Alibaba's cloud APIs."
+    }
+  ],
+  "fact_check": "The claim that Wan 2.2 is the 'world's first open-source MoE-architecture video model' originates from Alibaba's own press release and has not been independently verified at time of publication. No source consulted contradicts it, but the superlative should be read as Alibaba's characterization rather than an established consensus.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://www.alibabacloud.com/en/press-room/alibaba-releases-wan2-2-to-uplift-cinematic",
+      "title": "Alibaba Releases Wan2.2 to Uplift Cinematic Video Production",
+      "note": "Official Alibaba Cloud press release detailing model architecture, capabilities, and release date."
+    },
+    {
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "title": "GitHub — Wan-Video/Wan2.2",
+      "note": "Official open-source repository with model weights, code, and technical documentation."
+    },
+    {
+      "url": "https://rits.shanghai.nyu.edu/ai/wan2-2-alibabas-open%E2%80%91source-breakthrough-in-ai-video-generation/",
+      "title": "Wan2.2: Alibaba's Open-Source Breakthrough in AI Video Generation",
+      "note": "NYU Shanghai RITS analysis providing technical depth on MoE parameter counts and training data improvements."
+    }
+  ],
+  "bookmark_id": "1953036339718570328",
+  "generated_at": "2026-05-07T04:02:27.497935Z",
+  "backend": "claude"
+}

@@ -1,0 +1,97 @@
+{
+  "headline": "Recurrent Feedback Closes the Gap in Instant 3-D Scene Reconstruction",
+  "lede": "The dominant paradigm for fast 3-D scene reconstruction has until now committed to a single forward pass: one neural-network prediction, no self-correction. ReSplat, from ETH Zurich and the University of Tübingen, breaks that pattern with a recurrent feedback loop that uses its own rendering errors to refine a scene in successive iterations — without computing gradients. The result is quality approaching slow per-scene optimisation at a fraction of the computational cost.",
+  "body": "*Gaussian splatting* is a 3-D rendering technique that represents a scene as millions of tiny translucent ellipsoids — 3-D Gaussians — each carrying a position, orientation, opacity, and colour. Introduced in 2023 by Kerbl et al. at SIGGRAPH, the method displaced earlier neural approaches because it renders in real time and learns directly from photographs. A subsequent wave of *feed-forward Gaussian splatting* models removed even the per-scene optimisation step: given a handful of posed images, a single neural-network pass predicts all Gaussian parameters in under a second. The tradeoff has been quality — a single guess is rarely as good as hundreds of iterative gradient updates.\n\n**ReSplat** fixes this by introducing a recurrent correction loop at inference time. After an initial prediction, the model computes the *rendering error* — the difference between its current output and the real input images — and feeds that signal back as a guide for the next iteration. The network's weights are shared across iterations; the same module that predicts Gaussians learns what kinds of errors imply what kinds of updates. No gradients flow at test time, so the loop is fast and generalises naturally to unseen scenes, varying numbers of input views, and arbitrary image resolutions without retraining.\n\nThe recurrent process also demands an efficient initialisation. ReSplat's first-stage model works in a 16× spatially subsampled space, producing **16× fewer Gaussians** than *per-pixel* predecessors, which assign one Gaussian to every input pixel. Fewer primitives mean lighter recurrent iterations, and the compact representation actually improves quality by avoiding the redundancy that plagues over-parameterised per-pixel models.\n\nThe benchmark numbers are striking. On DL3DV — a large-scale architectural and real-estate benchmark — ReSplat's 77-million-parameter variant scores 27.70 *PSNR* versus 24.17 for DepthSplat, the previous state-of-the-art: a gap of more than 3.5 dB, which in perceptual terms is substantial. The same small model outperforms considerably larger networks, including a competitor with 1.26 billion parameters. On RealEstate10K it matches the quality of slow per-scene optimisation methods while rendering 20× faster.\n\nThe work comes from the Computer Vision and Geometry group at ETH Zurich, whose lead author Haofei Xu has made feed-forward Gaussian splatting the throughline of his dissertation: MVSplat (ECCV 2024 Oral), NoPoSplat (ICLR 2025 Oral), DepthSplat (CVPR 2025), and now ReSplat. His adviser Marc Pollefeys holds a joint appointment at Microsoft (MSFT). Each paper in the sequence removes a limitation of its predecessor; ReSplat's open code and pretrained weights make the technique directly accessible to practitioners in robotics, augmented reality, and film production — all fields that prize fast, high-quality scene reconstruction from consumer photography.",
+  "tickers": [
+    "MSFT"
+  ],
+  "companies": [
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT"
+    }
+  ],
+  "poster": "haofeixu",
+  "concepts": [
+    {
+      "key": "gaussian-splatting",
+      "term": "Gaussian Splatting",
+      "definition": "A technique for representing and rendering 3-D scenes as a cloud of tiny translucent ellipsoids called 3-D Gaussians, each defined by its position, shape, opacity, and colour. During training the ellipsoids are projected onto a 2-D image plane and compared to real photographs; their parameters are then adjusted to minimise the pixel difference. Unlike neural radiance fields (NeRFs), which trace rays through an implicit field, Gaussian splatting uses explicit geometric primitives and rasterisation, enabling real-time rendering at high resolution. The approach was introduced by Kerbl et al. at SIGGRAPH 2023."
+    },
+    {
+      "key": "feed-forward-gaussian-splatting",
+      "term": "Feed-Forward Gaussian Splatting",
+      "definition": "A family of models that predict a 3-D Gaussian scene representation in a single neural-network pass, given a small set of posed input photographs. Traditional Gaussian splatting requires hundreds of gradient-update iterations per scene; feed-forward models amortise that cost across a training dataset, learning a prior over scenes that enables near-instant reconstruction at test time. The tradeoff is lower accuracy relative to per-scene optimisation — a gap ReSplat attempts to close with recurrent refinement."
+    },
+    {
+      "key": "rendering-error",
+      "term": "Rendering Error",
+      "definition": "The pixel-wise difference between the image a 3-D model currently produces when rendered from a given camera viewpoint and the ground-truth photograph from that angle. In standard per-scene Gaussian splatting, this error drives gradient updates to the scene representation. ReSplat repurposes it as an explicit input to a learned recurrent correction module, enabling self-correction at test time without any gradient computation."
+    },
+    {
+      "key": "per-pixel-model",
+      "term": "Per-Pixel Model",
+      "definition": "A feed-forward 3-D reconstruction approach that assigns one Gaussian primitive to each pixel of each input image, yielding a Gaussian count equal to the total number of input pixels across all views. This is straightforward but produces extremely large Gaussian clouds — often tens of millions of primitives — making subsequent processing expensive. ReSplat's initialisation stage operates in a 16× subsampled space to avoid this overhead while improving quality."
+    },
+    {
+      "key": "psnr",
+      "term": "PSNR",
+      "definition": "Peak Signal-to-Noise Ratio, a logarithmic metric expressed in decibels (dB) that measures how closely a reconstructed image matches its ground truth. Higher scores indicate better fidelity; a gain of 3 dB roughly doubles the signal-to-noise ratio and corresponds to a perceptible quality improvement. On novel-view-synthesis benchmarks, differences of 1–2 dB between competing methods are considered significant."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "cvg-resplat",
+      "url": "https://github.com/cvg/resplat",
+      "summary": "The official code and pretrained model release for ReSplat, including two-stage training pipelines, inference scripts for COLMAP-preprocessed scenes, and evaluation scripts that reproduce the paper's benchmark numbers. Weights for multiple model sizes are provided via a model zoo hosted on Hugging Face. Built on PyTorch 2.7 and the gsplat rasterisation library; supports RealEstate10K, DL3DV, and ACID datasets under an MIT licence."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://arxiv.org/abs/2510.08575",
+      "title": "ReSplat: Learning Recurrent Gaussian Splatting (arXiv)",
+      "note": "Primary source for all technical claims, benchmark numbers, and architecture details"
+    },
+    {
+      "url": "https://haofeixu.github.io/resplat/",
+      "title": "ReSplat Project Page",
+      "note": "Official project page with video demos, paper links, and related-work context"
+    },
+    {
+      "url": "https://github.com/cvg/resplat",
+      "title": "cvg/resplat GitHub Repository",
+      "note": "Source for code structure, licensing, dependencies, and model zoo details"
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.04079",
+      "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering (Kerbl et al., SIGGRAPH 2023)",
+      "note": "Foundational Gaussian splatting paper that ReSplat's representation builds on"
+    },
+    {
+      "url": "https://donydchen.github.io/mvsplat/",
+      "title": "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images (ECCV 2024)",
+      "note": "Direct predecessor establishing the feed-forward 3DGS paradigm"
+    },
+    {
+      "url": "https://haofeixu.github.io/depthsplat/",
+      "title": "DepthSplat: Connecting Gaussian Splatting and Depth (CVPR 2025)",
+      "note": "Immediate predecessor; ReSplat's Stage 1 initialisation builds on DepthSplat's architecture"
+    },
+    {
+      "url": "https://haofeixu.github.io/",
+      "title": "Haofei Xu — Personal Homepage",
+      "note": "Source for author biography, publication record, and institutional affiliations"
+    },
+    {
+      "url": "https://www.emergentmind.com/papers/2510.08575",
+      "title": "ReSplat on EmergentMind",
+      "note": "Community reception signal — tweet counts and citation tracking for the preprint"
+    }
+  ],
+  "bookmark_id": "2039076281560576465",
+  "generated_at": "2026-05-07T09:11:53.252653Z",
+  "backend": "claude-sonnet-subagent"
+}

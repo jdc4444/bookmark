@@ -1,0 +1,23 @@
+{
+  "key": "MoneyPrinter0x",
+  "display_name": "MP (divinely protected)",
+  "blurb": "MP, known as @MoneyPrinter0x, is a crypto-focused content creator active on X and Telegram. They run a Telegram channel (t.me/mpsjournal) and post about cryptocurrency, trading, and market insights. Their follower count on X is not publicly available due to access restrictions.",
+  "credibility_note": null,
+  "links": [
+    "https://t.me/mpsjournal",
+    "https://x.com/MoneyPrinter0x"
+  ],
+  "sources": [
+    {
+      "url": "https://t.me/MoneyPrinter0x",
+      "title": "Telegram: Contact @MoneyPrinter0x"
+    },
+    {
+      "url": "https://x.com/MoneyPrinter0x",
+      "title": "MP (@MoneyPrinter0x) / Posts / X"
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-11T12:10:42.051304Z",
+  "backend": "deepseek"
+}

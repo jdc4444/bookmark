@@ -1,0 +1,14 @@
+{
+  "key": "TMQ",
+  "name": "Trilogy Metals Inc.",
+  "exchange": "NYSE American",
+  "blurb": "Trilogy Metals is a Canadian-headquartered base-metals explorer developing the Upper Kobuk Mineral Projects (UKMP) in the remote Brooks Range of northwestern Alaska. Its flagship assets — the Arctic copper-zinc-lead-gold-silver deposit and the Bornite copper-cobalt deposit — sit within the Ambler Mining District, one of the world's largest undeveloped polymetallic regions. The company holds a 50% interest in Ambler Metals LLC (joint-ventured with South32), which controls 100% of UKMP. In September 2025 the U.S. Department of Defense acquired a 10% equity stake for approximately $35.6 million, citing the copper and cobalt content as strategic to defense supply chains.",
+  "recent": "The DoD investment in October 2025 sent TMQ shares from roughly $2.17 to a 52-week high of $15.21 CAD. The stock has since pulled back sharply amid permitting uncertainty — the Ambler Access Road, a 211-mile industrial road required for any commercial mine, remains contentious and faces ongoing legal and regulatory challenges from Alaska Native communities. Despite the government's endorsement, no construction timeline has been set, and the company is pre-revenue.",
+  "sources": [
+    {"url": "https://www.streetwisereports.com/article/2025/10/09/us-government-takes-10-stake-in-critical-minerals-co.html", "title": "US Government Takes 10% Stake in Critical Minerals Co. — Streetwise Reports"},
+    {"url": "https://investingnews.com/us-to-take-trilogy-stake/", "title": "Trilogy Metals Shares Rocket as US Government Takes Stake — Investing News Network"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T14:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

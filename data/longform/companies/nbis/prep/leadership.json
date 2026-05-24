@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://nebius.com/board-of-directors",
+    "https://nebius.com/board-of-directors/arkady-volozh",
+    "https://nebius.com/board-of-directors/john-boynton",
+    "https://nebius.com/board-of-directors/charles-ryan",
+    "https://nebius.com/board-of-directors/kira-radinsky",
+    "https://nebius.com/board-of-directors/arne-grimme",
+    "https://nebius.com/board-of-directors/matthew-weigand",
+    "https://nebius.com/board-of-directors/elena-bunina",
+    "https://nebius.com/board-of-directors/ophir-nave",
+    "https://www.sec.gov/Archives/edgar/data/1513845/000110465925070330/tm2521636d1_ex99-1.htm"
+  ],
+  "key_finding": "Nebius's board is structurally a Yandex-legacy board reconfigured for AI infrastructure governance: founder Volozh returned as CEO in 2024, John Boynton (Yandex co-incubator since 1990, board since 2000, chairman since 2016) remains the institutional-memory anchor, Charles Ryan (Yandex board since 2011 IPO, ex-Deutsche Bank Russia CEO, UFG founder) is the second pillar of continuity. The newer arrivals are calibrated for the AI-infra strategic pivot: Kira Radinsky (Diagnostic Robotics CEO, AI-healthcare specialist) joined 2024 as part of governance diversification; Elena Bunina (Head of Science and Education, ex-Yandex HR director and academic services head) joined August 2024; Ophir Nave (COO from May 2024, executive director from August 2024, Harvard SJD + Wachtell + Israeli M&A practice) ran the post-restructuring legal architecture; Arne Grimme (De Brauw partner, Dutch corporate M&A specialist) joined August 2025 to anchor Netherlands-domiciled governance; Matthew Weigand (Accel partner since 2013) joined August 2025 alongside the $700M strategic financing that brought Accel, Nvidia, and Orbis onto the cap table.",
+  "ceo_founder": {
+    "name": "Arkady Volozh",
+    "title": "Founder, CEO, and Executive Director",
+    "ceo_tenure": "2000-2022, resumed 2024",
+    "framing": "Volozh founded Yandex and led it through its Russia-listed and US-relisted phases. His 2022 stepping-down was in the context of post-invasion political pressure; his 2024 return coincided with the corporate restructuring that separated the Russian operating business from the listed parent and refocused the surviving group on AI infrastructure. He carries the institutional credibility that allows the AI-infrastructure thesis to be funded at the $700M+ strategic-equity-financing level from Accel, Nvidia, and Orbis."
+  },
+  "executive_directors_and_executives": [
+    {
+      "name": "Ophir Nave",
+      "title": "Chief Operating Officer (since May 2024), Executive Director (since August 2024)",
+      "education": [
+        "Doctor of Juridical Science (SJD), Harvard Law School",
+        "LL.B., Tel Aviv University",
+        "B.Sc. (subject not specified in public bios)"
+      ],
+      "career": [
+        "2024-present: COO and Executive Director, Nebius Group",
+        "Lead Partner, Corporate and M&A Practice, Arnon Tadmor-Levy (Israel)",
+        "Wachtell, Lipton, Rosen & Katz (New York)",
+        "Clerked for the Israeli Supreme Court",
+        "Lecturer on corporate finance at Tel Aviv University"
+      ],
+      "framing": "Nave's Harvard SJD + Wachtell M&A pedigree + Israeli Supreme Court clerkship + Tel Aviv corporate-finance lectureship is the legal-architecture credential that explains how Nebius's post-restructuring corporate form was assembled. COO of a Netherlands-domiciled NASDAQ-listed AI infrastructure company spun from Yandex is a deeply technical legal role and his profile is calibrated for exactly that."
+    },
+    {
+      "name": "Elena Bunina",
+      "title": "Head of Science and Education, Non-Executive Director (since August 2024)",
+      "framing": "Bunina is an Israel-based academic and mathematician with nearly 70 research publications. She previously served as Head of Academic and Educational Services across the Yandex Group, and as General Director and Director of Human Resources at Yandex LLC until April 2022. At Nebius she leads science and education, which connects directly to the TripleTen online tech education subsidiary."
+    }
+  ],
+  "board_of_directors": [
+    {
+      "name": "John Boynton",
+      "role": "Independent Non-Executive Chairman of the Board",
+      "director_since_yandex": "2000",
+      "chairman_since": "2016",
+      "career": [
+        "1990-1995: Co-founder and President, CompTek International (the company that incubated Yandex)",
+        "1997-2001: Vice President of Mergers and Acquisitions; Vice President of Corporate Strategy and Development, Forrester Research",
+        "Earlier: Strategy Consultant, Mercer Management Consulting",
+        "Earlier: Managing Director, Wilson Alan LLC",
+        "Current: Founder of Firehouse Capital (private investment firm backing early-stage technology and select real estate)",
+        "Current: Recent co-founder of Litix (vertical SaaS AI for public sector organisations)",
+        "Recent activity: Sports industry — professional women's ice hockey and soccer, sports tech and data companies"
+      ],
+      "framing": "Boynton is the deepest institutional-memory figure on the board. He co-founded CompTek International (1990) — the company that incubated Yandex itself — and has been on the Yandex / Nebius board since 2000. The chairman since 2016, including through the 2022 invasion, the 2024 restructuring, and the AI-infrastructure refocus. His Firehouse Capital private investment vehicle keeps him active in early-stage technology; Litix as a vertical-SaaS AI co-founder is the contemporary signal."
+    },
+    {
+      "name": "Charles E. Ryan",
+      "role": "Independent Non-Executive Director",
+      "director_since_yandex": "2011 (IPO)",
+      "career": [
+        "1989-1991: Financial analyst, CS First Boston",
+        "1991-1994: Associate and Principal Banker, European Bank for Reconstruction and Development (London); led St. Petersburg privatization program",
+        "1994-2005: Co-founder and CEO, United Financial Group (UFG) — one of Russia's leading investment companies",
+        "1996: Founded UFG Asset Management",
+        "1998: Initiated New Technology Group within UFG; sponsored early-stage tech investment in ru-Net Holdings (which included Yandex)",
+        "2005-2008: Chief Country Officer and CEO, Deutsche Bank Group in Russia (after Deutsche Bank's 100% acquisition of UFG's investment banking business)",
+        "2008-present: Chairman, UFG Asset Management (from October 2008)",
+        "Current: General Partner, Almaz Capital Partners (Silicon Valley VC connecting US and Eastern Europe / CIS engineering talent)"
+      ],
+      "framing": "Ryan is the Russia-finance-and-technology bridge figure. His 1998 sponsorship of the ru-Net Holdings investment (which included Yandex) is the original financial connection to the company; he has been on the board since the 2011 NASDAQ IPO. The Deutsche Bank Russia CEO role provides senior-bank pattern recognition; Almaz Capital is the contemporary deal-flow channel. The longest-tenured outside director on the board after Boynton."
+    },
+    {
+      "name": "Kira Radinsky",
+      "role": "Independent Non-Executive Director (since 2024)",
+      "career": [
+        "Current: CEO and Chairwoman, Diagnostic Robotics (US-based AI for healthcare)",
+        "Founder, Mana Bio (AI-based drug delivery)",
+        "2012-2016: Co-founder, SalesPredict (sold to eBay 2016)",
+        "2016-?: Director of Data Science and IL Chief Scientist, eBay (after SalesPredict acquisition)"
+      ],
+      "framing": "Radinsky is the AI-domain expertise director. Her Diagnostic Robotics CEO + Mana Bio founder profile is the most directly aligned AI-application credential on the board. The SalesPredict / eBay path provides successful AI-startup exit pattern recognition."
+    },
+    {
+      "name": "Arne Grimme",
+      "role": "Independent Non-Executive Director (since August 2025)",
+      "career": [
+        "2003-present: Partner, De Brauw Blackstone Westbroek (leading Dutch law firm); Head of Corporate M&A practice",
+        "Advises listed companies on corporate matters and complex cross-border transactions"
+      ],
+      "framing": "Grimme is the Netherlands-domiciled-corporate-governance specialist. Nebius is a Netherlands public limited company (N.V.); Grimme's De Brauw partnership in the Dutch corporate M&A practice anchors the home-domicile legal credential. Joined at the August 2025 AGM alongside Matthew Weigand, the most consequential dual addition since the restructuring."
+    },
+    {
+      "name": "Matthew (Matt) Weigand",
+      "role": "Independent Non-Executive Director (since August 2025)",
+      "career": [
+        "2013-present: Partner, Accel (focus on enterprise software, financial technology, security businesses)",
+        "Pre-2013: William Blair technology investment banking group"
+      ],
+      "framing": "Weigand joined the board concurrent with Accel's participation in Nebius's $700M strategic equity financing (alongside Nvidia and Orbis). He held observer rights prior to the August 2025 AGM that formally elected him. The Accel partnership is the venture-side governance signal: Nebius's strategic AI-infrastructure thesis is being underwritten not just by Nvidia (the hardware supplier with strategic interest in Nebius's GPU buying), but by Accel as a venture co-investor."
+    }
+  ],
+  "board_composition_observation": "Nebius's eight-director board pairs three Yandex-legacy figures (Boynton chairman, Ryan independent, Volozh executive) with five newer arrivals calibrated for the AI-infrastructure pivot (Radinsky AI/healthcare, Grimme Dutch M&A, Weigand Accel, Bunina science/education, Nave COO/legal-architecture). The composition reads: institutional-memory anchor + Russia-finance-and-tech bridge + AI-domain expert + Netherlands-domicile specialist + venture co-investor + legal-architecture COO + science/education leader + founder-CEO. There is no separate independent CFO-grade director on the board at the snapshot — the CFO function is handled through corporate-level finance and the Audit Committee. The board build-out tracks the strategic transformation precisely: the additions since 2024 are all consistent with a corporate restructuring + AI-infra pivot + Nasdaq-listing maintenance posture. The Accel / Nvidia / Orbis $700M financing is the consequential 2025 event that brought Weigand onto the board and signalled the strategic-equity commitment to the AI-infrastructure trajectory."
+}

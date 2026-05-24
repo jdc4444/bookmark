@@ -1,0 +1,14 @@
+{
+  "key": "MRVL",
+  "name": "Marvell Technology, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Marvell Technology is a fabless semiconductor company that designs custom AI silicon (XPUs) for hyperscalers, high-speed networking ASICs (application-specific integrated circuits) for data-centre switching, and storage controllers. Its custom silicon business — building proprietary AI accelerators for Google, Amazon, and Microsoft under long-term agreements — has become its fastest-growing segment. Marvell also supplies Ethernet SerDes (serialiser/deserialiser) components, optical DSPs for coherent networking, and enterprise storage chips. The company is headquartered in Santa Clara and manufactures exclusively at TSMC.",
+  "recent": "Marvell reported record FY2026 revenue of $8.2 billion, up 42% YoY, with data-centre revenue reaching 74% of total sales. Non-GAAP EPS of $2.84 represented 81% growth. Despite this, forward EPS growth estimates for the next fiscal year are near 0.2% — likely a fiscal-calendar base-effect or consensus lag — producing a non-meaningful PEG at a 42.1x forward P/E. Custom silicon revenue is expected to accelerate as hyperscaler XPU programs ramp into production.",
+  "sources": [
+    {"url": "https://investor.marvell.com/news-events/press-releases/detail/1011/marvell-technology-inc-reports-fourth-quarter-and-fiscal-year-2026-financial-results", "title": "Marvell FY2026 Results — Marvell IR"},
+    {"url": "https://futurumgroup.com/insights/marvell-q3-fy-2026-posts-record-revenue-higher-data-center-outlook/", "title": "Marvell Q3 FY2026: Record Revenue — Futurum"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

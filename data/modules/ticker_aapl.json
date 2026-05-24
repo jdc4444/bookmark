@@ -1,0 +1,16 @@
+{
+  "key": "AAPL",
+  "name": "Apple Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "Apple designs and markets consumer electronics (iPhone, Mac, iPad, Apple Watch), software, and digital services. The iPhone remains the dominant revenue driver, but the Services segment — comprising the App Store, Apple Music, iCloud, Apple Pay, and licensing — has grown into a high-margin business that Wall Street values separately. Apple commands one of the highest brand loyalty rates in consumer technology and operates a tightly integrated hardware-software ecosystem.",
+  "recent": "Apple reported FY2025 revenue of approximately $400 billion. The company has faced headwinds from slowing iPhone upgrade cycles in mature markets and regulatory pressure on App Store commissions in both the US and EU. Apple Intelligence, its generative AI suite, launched in late 2024 but has not yet materially re-accelerated upgrade cycles. Paul Pelosi sold 45,000 shares of AAPL according to the January 2026 PTR disclosure — the largest single sale in the filing by share count.",
+  "sources": [
+    {
+      "url": "https://nancypelosistocktracker.org/",
+      "title": "Nancy Pelosi Stock Tracker"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

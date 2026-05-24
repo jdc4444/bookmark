@@ -1,0 +1,28 @@
+{
+  "key": "DNA",
+  "name": "Ginkgo Bioworks Holdings, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Ginkgo Bioworks is a synthetic biology platform company that operates a cell programming foundry, enabling customers across pharmaceuticals, agriculture, food, and industrial chemicals to engineer microorganisms for manufacturing. Founded in 2009 and taken public via SPAC merger in 2021, the company offers access to its automated bioengineering infrastructure rather than selling end products directly. After a post-COVID wind-down of its biosecurity subsidiary Concentric by Ginkgo, the company has been restructuring around its core cell-engineering platform and pursuing partnerships to stabilize revenue.",
+  "recent": "Not enough public information — the provided sources contain only site navigation markup and garbled data, with no article-level content about earnings releases, price action, or catalysts from the past 30 days.",
+  "sources": [
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/DNA/",
+      "title": "Ginkgo Bioworks (DNA) Stock Price, News & Analysis — MarketBeat"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/DNA/",
+      "title": "Ginkgo Bioworks Holdings, Inc. (DNA) — Yahoo Finance"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/dna",
+      "title": "DNA Stock Price | Ginkgo Bioworks Holdings Inc. — MarketWatch"
+    },
+    {
+      "url": "https://www.zacks.com/stock/research/DNA/all-news",
+      "title": "All News for DNA: Ginkgo Bioworks — Zacks.com"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-14T10:59:06.615813Z",
+  "backend": "claude-sonnet-subagent"
+}

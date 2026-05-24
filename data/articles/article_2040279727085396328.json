@@ -1,0 +1,124 @@
+{
+  "headline": "AutoAgent Rewrites Its Own Scaffolding to Top AI Benchmarks",
+  "lede": "A new open-source library called AutoAgent, released in April 2026 by Kevin Gu, a co-founder of Y Combinator–backed ThirdLayer, automates a task that typically consumes most developer effort on production AI systems: tuning the scaffolding around a language model. Rather than touching model weights, it deploys a *meta-agent* that rewrites a subordinate agent's configuration overnight, guided only by a numeric performance score. Two benchmark claims — topping SpreadsheetBench and leading TerminalBench within the GPT-5 tier — have drawn both attention and scrutiny.",
+  "body": "The core concept behind AutoAgent is **harness engineering** — the practice of shaping not a model's weights but the scaffolding surrounding it: system prompts, tool definitions, routing logic, and orchestration strategy. Most developer time on production AI agents goes into this scaffolding, and most of it is still hand-tuned. AutoAgent automates the loop. A human specifies goals in a plain-English `program.md` file; a *meta-agent* reads it, runs benchmark tasks in the Harbor evaluation format, diagnoses failures by root cause, and rewrites the `agent.py` harness — keeping changes that lift the score, discarding those that do not. The system operates without interruption: the directives explicitly instruct the meta-agent, “Do NOT stop to ask whether you should continue.”\n\nGu, who trained as a mathematician and statistician at Harvard before stints at Jump Trading and Meta (META), released the library on GitHub in early April 2026. ThirdLayer, his YC W25 startup, is otherwise known for Dex, an AI browser copilot. The AutoAgent announcement claimed two records: 96.5% on *SpreadsheetBench*, a NeurIPS 2024 spotlight benchmark for LLM spreadsheet-manipulation tasks developed at Renmin University of China and Tsinghua University; and the top score among GPT-5-tier entries on *TerminalBench 2.0*, a sandboxed CLI and DevOps evaluation hosted at tbench.ai. Both claims warrant scrutiny. The SpreadsheetBench figure does not appear on the benchmark’s public leaderboard — where the highest verified entry sits below 35% — suggesting AutoAgent tested against a different version or subset. The TerminalBench framing carves out a model-tier partition rather than reporting overall rank, a non-standard comparison that flatters the result.\n\nThe conceptual grounding has academic antecedents. A March 2026 arXiv preprint, *Natural-Language Agent Harnesses* (arXiv:2603.25723), by researchers at Renmin University and Tsinghua, argues that externalizing harness logic as editable natural-language artifacts reduces brittleness in complex agent pipelines. AutoAgent’s architecture is a practical instantiation of that idea. One operational pattern noted in early coverage: pairing Claude as the meta-agent with Claude as the task agent appeared to improve failure diagnosis — a suggestion that same-family model pairings may carry a structural optimization advantage worth investigating.\n\nA practical ceiling limits the framework’s reach. The *hill-climbing* loop requires a well-defined, automated numeric scoring function to optimize against. Most real-world agent deployments — customer support, document processing, internal tooling — lack ground-truth-comparable scores generated on the fly. Without that signal, the loop has nothing to optimize. Whether AutoAgent’s benchmark claims survive independent verification, and whether harness engineering generalizes beyond neatly-scoreable evaluation tasks, are the open questions that determine its practical significance.",
+  "tickers": [
+    "META"
+  ],
+  "companies": [
+    {
+      "name": "ThirdLayer",
+      "ticker": null
+    },
+    {
+      "name": "Y Combinator",
+      "ticker": null
+    },
+    {
+      "name": "Jump Trading",
+      "ticker": null
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META"
+    }
+  ],
+  "poster": "aakashgupta",
+  "concepts": [
+    {
+      "key": "harness-engineering",
+      "term": "harness engineering",
+      "definition": "The practice of designing and tuning everything that wraps a language model in an agent system — system prompts, tool definitions, routing logic, and orchestration strategy — without changing the model’s underlying weights. Most production agent work lives here, and it is traditionally done by hand."
+    },
+    {
+      "key": "meta-agent",
+      "term": "meta-agent",
+      "definition": "An AI agent that oversees and modifies another agent’s configuration rather than performing end-user tasks directly. In AutoAgent’s architecture, the meta-agent iteratively rewrites the task agent’s harness based on benchmark performance scores."
+    },
+    {
+      "key": "spreadsheetbench",
+      "term": "SpreadsheetBench",
+      "definition": "A benchmark for evaluating LLM agents on spreadsheet-manipulation tasks, created by researchers at Renmin University of China, Tsinghua University, and Zhipu.AI. Accepted as a NeurIPS 2024 spotlight, it draws real-world questions from Excel user forums and scores answers using automated, OJ-style evaluation."
+    },
+    {
+      "key": "terminalbench",
+      "term": "TerminalBench",
+      "definition": "A benchmark for evaluating AI agents on realistic command-line interface and DevOps tasks run in sandboxed environments, hosted at tbench.ai. It scores agents on their ability to complete terminal operations autonomously without human guidance."
+    },
+    {
+      "key": "hill-climbing",
+      "term": "hill-climbing",
+      "definition": "A class of iterative optimization techniques that move toward higher scores by making incremental changes and keeping only those that improve the objective. AutoAgent applies hill-climbing to agent harness configuration: run tasks, score results, keep edits that raise performance, discard those that do not."
+    },
+    {
+      "key": "harbor-format",
+      "term": "Harbor format",
+      "definition": "An evaluation format used by AutoAgent to define benchmark tasks. Each task returns a numeric score between 0.0 and 1.0, providing the signal the optimization loop needs to compare successive harness versions."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "kevinrgu-autoagent",
+      "url": "https://github.com/kevinrgu/autoagent",
+      "summary": "AutoAgent is an MIT-licensed Python library that automates agent harness engineering. A meta-agent reads human-specified directives from a plain-English program.md file, runs benchmark tasks in Harbor format, diagnoses failures, and iteratively rewrites the task agent’s configuration — keeping changes that improve scores. The repo accumulated more than 4,400 GitHub stars within weeks of its April 2026 release. Note: a separate, unrelated project at github.com/HKUDS/AutoAgent shares the name."
+    }
+  ],
+  "fact_check": "The 96.5% SpreadsheetBench score does not appear on the benchmark’s public leaderboard, where the highest verified entry sits below 35%; AutoAgent likely tested against a different version or subset. The TerminalBench “GPT-5 score” claim uses a non-standard model-tier partition rather than overall leaderboard rank — the overall leaders on TerminalBench 2.0 exceed 80% — making the comparison difficult to evaluate independently. Both benchmark figures are currently author-reported only and have not been verified by the respective benchmark maintainers.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/kevingu/status/2039874388095651937",
+      "title": "Kevin Gu announcement tweet",
+      "note": "Primary source — original AutoAgent release announcement with benchmark claims"
+    },
+    {
+      "url": "https://github.com/kevinrgu/autoagent",
+      "title": "AutoAgent GitHub repository (kevinrgu)",
+      "note": "Primary source — code, architecture, program.md directives, and README"
+    },
+    {
+      "url": "https://github.com/kevinrgu/autoagent/blob/main/program.md",
+      "title": "AutoAgent program.md",
+      "note": "Human-readable directives file showing how users configure the meta-agent and its stop conditions"
+    },
+    {
+      "url": "https://www.marktechpost.com/2026/04/05/meet-autoagent-the-open-source-library-that-lets-an-ai-engineer-and-optimize-its-own-agent-harness-overnight/",
+      "title": "MarkTechPost — Meet AutoAgent (April 5, 2026)",
+      "note": "Secondary coverage with architecture breakdown and same-family pairing observation"
+    },
+    {
+      "url": "https://spreadsheetbench.github.io/",
+      "title": "SpreadsheetBench official site",
+      "note": "Primary benchmark source — leaderboard and methodology used to evaluate the 96.5% claim"
+    },
+    {
+      "url": "https://github.com/RUCKBReasoning/SpreadsheetBench",
+      "title": "SpreadsheetBench GitHub",
+      "note": "Benchmark repository with task details, scoring methodology, and NeurIPS 2024 paper link"
+    },
+    {
+      "url": "https://www.tbench.ai/leaderboard/terminal-bench/2.0",
+      "title": "TerminalBench 2.0 leaderboard",
+      "note": "Primary leaderboard — used to evaluate the AutoAgent GPT-5 tier claim against overall results"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/joindex",
+      "title": "ThirdLayer on Y Combinator",
+      "note": "Confirms Kevin Gu’s affiliation, YC W25 backing, and Dex product context"
+    },
+    {
+      "url": "https://arxiv.org/abs/2603.25723",
+      "title": "Natural-Language Agent Harnesses (arXiv:2603.25723)",
+      "note": "Academic preprint providing conceptual grounding for the harness-as-editable-artifact approach"
+    },
+    {
+      "url": "https://addrom.com/autoagent-autonomous-harness-engineering-for-self-optimizing-ai-agents/",
+      "title": "addROM technical breakdown of AutoAgent",
+      "note": "Technical architecture analysis including the same-family model pairing finding"
+    }
+  ],
+  "bookmark_id": "2040279727085396328",
+  "generated_at": "2026-05-07T08:47:46.638253Z",
+  "backend": "claude-sonnet-subagent"
+}

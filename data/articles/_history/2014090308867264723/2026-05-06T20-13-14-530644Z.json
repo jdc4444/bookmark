@@ -1,0 +1,42 @@
+{
+  "headline": "The App Factory: Engineering Fifty Million Downloads Systematically",
+  "lede": "Most mobile apps are launched on hope and abandoned after a few bad weeks on the charts. Ryan Thorpe built something different: a portfolio of more than 40 apps, 50 million downloads, and two stints at the top of the US App Store — not through viral luck but through what he describes as a factory for producing, testing, and scaling user-generated video ads at industrial volume. The playbook, published in full on X in January 2026, is a rare look at the operational machinery behind app-store success.",
+  "body": "The company's first breakthrough came with Reflectly, an AI-powered journaling app launched in 2017, which Thorpe says reached $3–4 million in *annual recurring revenue* by 2020. The engine was **UGC arbitrage** — recruiting micro-influencers in local markets, having them record in their native languages with bad lighting and ambient household noise, and running those 'ugly' videos as paid Facebook ads. While competitors spent money on polished graphics, the rough-edged aesthetic consistently outperformed. When the team couldn't predict which videos would win, they stopped trying to predict and built a system instead.\n\nUnable to find an agency that could crack the formula, the team assembled its own creator pipeline. At peak, 250 active creators were producing videos, drawn from a pool of more than 2,000 over the company's life. What distinguished the operation was a training layer Thorpe calls a 'university': an in-house curriculum covering algorithm mechanics, conversion metrics rather than raw view counts, and precise technical parameters — 25 to 27 cuts within a 10-to-15-second video. Creators entered at $30–$40 per video and could reach $80–$100 as proven performers, with bonuses for viral hits. The incentive was designed to compound: once trained, creators could charge larger brands three times as much for the same skills.\n\nEvery video entered a three-level funnel. At Level 1, each clip received $15–$20 in ad spend; most were killed after $5–$10. Survivors graduated to Level 2 budgets of $100–$500, then stress-tested on TikTok at new scale. Only the top one percent became *evergreens* — the small fraction of creatives that absorb 90 percent of total ad spend and keep running indefinitely. The whole cycle, from sourcing through invoicing and performance feedback, was automated and managed by a team of three.\n\nTiming proved as important as creative quality. The first week of January — peak health-and-fitness intent — is what Thorpe calls the Super Bowl for apps in that category: cost per download falls roughly 50 percent and conversion rates double. The company deployed 75 percent of its annual ad budget in that single window, beginning with small test spends on December 26 and going 'all in' January 1–3. One counterintuitive nuance: if January 1st falls on a Thursday or Friday, the real peak arrives on Sunday, when people psychologically commit to starting fresh at the beginning of a week.\n\nFor all the systematization, the playbook includes an honest admission of limits. The team's best creator consistently generated tens of millions of views; when 40 others attempted to replicate her exact videos, none landed. Frame counts, hooks, pacing — nothing explained the gap. The lesson Thorpe draws is the correct one: build a system large enough to find the outliers you could never have predicted. Thorpe says the portfolio has since been largely sold, and he is now building Fload, described as AI agents designed to automate the mobile growth playbook he developed.",
+  "tickers": [],
+  "poster": "helloryanj",
+  "concepts": [
+    {
+      "key": "ugc-arbitrage",
+      "term": "UGC Arbitrage",
+      "definition": "User-generated content (UGC) means video shot by real people rather than professional production teams. 'Arbitrage' here refers to exploiting a gap: authentic, low-production video converts better as a paid ad than polished creative, but most advertisers hadn't recognized this yet. The opportunity closed as the technique became mainstream."
+    },
+    {
+      "key": "three-tier-scaling",
+      "term": "Three-Tier Ad Scaling",
+      "definition": "A systematic funnel for testing ad creatives. Videos start at minimal spend ($15–$20) and are killed quickly if they don't perform. Those that survive graduate to medium budgets, then to open-ended 'evergreen' campaigns. The model is designed to make failure cheap and success scalable."
+    },
+    {
+      "key": "evergreen-ad",
+      "term": "Evergreen Ad Creative",
+      "definition": "An ad video that continues performing over a long period without significant creative decay. In Thorpe's framework, evergreens are the top one percent of tested videos and receive the vast majority of total ad spend. Finding them requires testing at scale, since they cannot be reliably predicted in advance."
+    },
+    {
+      "key": "january-arbitrage",
+      "term": "January Arbitrage",
+      "definition": "The practice of concentrating app marketing spend in early January, when consumer intent for self-improvement peaks and the cost to acquire a new user temporarily falls. For health and fitness apps, the supply-demand imbalance in ad inventory creates a brief, predictable window of outsized efficiency."
+    },
+    {
+      "key": "cost-per-download",
+      "term": "Cost Per Download (CPD)",
+      "definition": "The amount an advertiser pays, on average, each time a user downloads their app as a direct result of an ad. Lower CPD means the same budget acquires more users. Seasonal and platform factors can cause CPD to shift dramatically — halving in January, for instance, as Thorpe describes."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The specific claims — 50 million downloads, two App Store number-one rankings, $3–4 million ARR for Reflectly — are self-reported and cannot be independently verified from the provided sources. App Store rankings are not archived publicly, making the 'ahead of TikTok and Google' assertion difficult to confirm retroactively. The figures should be read as the author's account rather than audited results.",
+  "thread_summary": "The post is a self-contained long-form article published as a single tweet, with 23 replies not captured here. The core content — the full UGC playbook — is contained in the original post itself rather than distributed across a reply chain.",
+  "sources": [],
+  "bookmark_id": "2014090308867264723",
+  "generated_at": "2026-05-06T20:13:14.530644Z",
+  "backend": "claude"
+}

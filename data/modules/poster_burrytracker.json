@@ -1,0 +1,16 @@
+{
+  "key": "burrytracker",
+  "display_name": "Michael Burry Stock Tracker (@burrytracker)",
+  "blurb": "An independent X/Twitter account that tracks the disclosed portfolio moves and public statements of Michael J. Burry — the physician-turned-investor made famous by his prescient short of the subprime mortgage market ahead of the 2008 financial crisis and later dramatized in Michael Lewis's book and the film 'The Big Short.' The account aggregates Burry's 13-F filings, monitors his periodic Twitter activity (Burry has a habit of deleting posts), and provides commentary on the macro and single-stock themes he highlights. Posts span contrarian macro views, debt and credit cycle analysis, individual equity positions, and occasional posts on prominent figures and funds in finance.",
+  "credibility_note": "The account is a tracker and aggregator, not an advisory service. It does not represent Michael Burry or Scion Asset Management. Content accuracy depends on timely reading of public SEC filings and Burry's own posts, which are subject to deletion. Followers should verify positions directly via 13-F filings on EDGAR before acting.",
+  "links": [
+    {"label": "X / Twitter", "url": "https://x.com/burrytracker"},
+    {"label": "Threads", "url": "https://www.threads.com/@burrytracker"}
+  ],
+  "sources": [
+    {"title": "Michael Burry Stock Tracker (@burrytracker) — X", "url": "https://x.com/burrytracker"}
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

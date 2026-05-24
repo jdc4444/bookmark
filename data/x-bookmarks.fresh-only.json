@@ -1,0 +1,271 @@
+{
+  "authenticated_user": {},
+  "bookmark_count": 3,
+  "bookmarks": [
+    {
+      "author": {
+        "id": "napoleon21st",
+        "name": "Cyberpunk Sense",
+        "username": "napoleon21st"
+      },
+      "category": "AI and machine learning",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-05T03:39:28.000Z",
+      "engagement_score": 24.0,
+      "id": "2051507041617969351",
+      "lang": null,
+      "media": [
+        {
+          "alt": "Image",
+          "height": 1105,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HHhqyESakAAZ8S0?format=jpg&name=large",
+          "width": 1199
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4081,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "raw": {
+        "author": {
+          "name": "Cyberpunk Sense",
+          "username": "napoleon21st"
+        },
+        "created_at": "2026-05-05T03:39:28.000Z",
+        "id": "2051507041617969351",
+        "media": [
+          {
+            "alt": "Image",
+            "height": 1105,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HHhqyESakAAZ8S0?format=jpg&name=large",
+            "width": 1199
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 4081,
+          "like_count": 21,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "raw_text": "Cyberpunk Sense @napoleon21st · 8h What's crazy is that even while $SIVE is on an epic run and the bull case looks glorious, when I tell the Gemini pro thinking model to compare it to my other positions $SILC and $LPK, it says that they are even better opportunities. It's not necessarily true but it shows how Show more 1 1 21 4K",
+        "text": "What's crazy is that even while $SIVE is on an epic run and the bull case looks glorious, when I tell the Gemini pro thinking model to compare it to my other positions $SILC and $LPK, it says that they are even better opportunities. It's not necessarily true but it shows how",
+        "url": "https://x.com/napoleon21st/status/2051507041617969351",
+        "urls": [
+          {
+            "display_url": "$SIVE",
+            "expanded_url": "https://x.com/search?q=%24SIVE&src=cashtag_click",
+            "title": "$SIVE"
+          },
+          {
+            "display_url": "$SILC",
+            "expanded_url": "https://x.com/search?q=%24SILC&src=cashtag_click",
+            "title": "$SILC"
+          },
+          {
+            "display_url": "$LPK",
+            "expanded_url": "https://x.com/search?q=%24LPK&src=cashtag_click",
+            "title": "$LPK"
+          }
+        ]
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "What's crazy is that even while $SIVE is on an epic run and the bull case looks glorious, when I tell the Gemini pro thinking model to compare it to my other positions $SILC and $LPK, it says that they are even better opportunities. It's not necessarily true but it shows how",
+      "url": "https://x.com/napoleon21st/status/2051507041617969351",
+      "urls": [
+        {
+          "display_url": "$SIVE",
+          "expanded_url": "https://x.com/search?q=%24SIVE&src=cashtag_click",
+          "title": "$SIVE"
+        },
+        {
+          "display_url": "$SILC",
+          "expanded_url": "https://x.com/search?q=%24SILC&src=cashtag_click",
+          "title": "$SILC"
+        },
+        {
+          "display_url": "$LPK",
+          "expanded_url": "https://x.com/search?q=%24LPK&src=cashtag_click",
+          "title": "$LPK"
+        }
+      ]
+    },
+    {
+      "author": {
+        "id": "KobeissiLetter",
+        "name": "The Kobeissi Letter",
+        "username": "KobeissiLetter"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-05T00:44:50.000Z",
+      "engagement_score": 2306.0,
+      "id": "2051463095101329857",
+      "lang": null,
+      "media": [
+        {
+          "alt": "Image",
+          "height": 549,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HHej44YWwAAZB5N?format=jpg&name=large",
+          "width": 975
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 199949,
+        "like_count": 1504,
+        "quote_count": 0,
+        "reply_count": 120,
+        "retweet_count": 341
+      },
+      "raw": {
+        "author": {
+          "name": "The Kobeissi Letter",
+          "username": "KobeissiLetter"
+        },
+        "created_at": "2026-05-05T00:44:50.000Z",
+        "id": "2051463095101329857",
+        "media": [
+          {
+            "alt": "Image",
+            "height": 549,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HHej44YWwAAZB5N?format=jpg&name=large",
+            "width": 975
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 199949,
+          "like_count": 1504,
+          "quote_count": 0,
+          "reply_count": 120,
+          "retweet_count": 341
+        },
+        "raw_text": "The Kobeissi Letter @KobeissiLetter · 11h BREAKING: The ratio of US leading to coincident economic indicators is now down to 0.84, matching the 2008 Financial Crisis low. This comes as the Leading Economic Index (LEI) fell -0.6% MoM in March, posting its 7th monthly decline out of the last 8. The Conference Board Show more 120 341 1.5K 199K",
+        "text": "BREAKING: The ratio of US leading to coincident economic indicators is now down to 0.84, matching the 2008 Financial Crisis low. This comes as the Leading Economic Index (LEI) fell -0.6% MoM in March, posting its 7th monthly decline out of the last 8. The Conference Board",
+        "url": "https://x.com/KobeissiLetter/status/2051463095101329857",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "BREAKING: The ratio of US leading to coincident economic indicators is now down to 0.84, matching the 2008 Financial Crisis low. This comes as the Leading Economic Index (LEI) fell -0.6% MoM in March, posting its 7th monthly decline out of the last 8. The Conference Board",
+      "url": "https://x.com/KobeissiLetter/status/2051463095101329857",
+      "urls": []
+    },
+    {
+      "author": {
+        "id": "HyperTechInvest",
+        "name": "Daniel Romero",
+        "username": "HyperTechInvest"
+      },
+      "category": "Uncategorized",
+      "context_annotations": [],
+      "conversation_id": null,
+      "created_at": "2026-05-04T23:48:00.000Z",
+      "engagement_score": 54.0,
+      "id": "2051448792629551592",
+      "lang": null,
+      "media": [
+        {
+          "alt": "Image",
+          "height": 1200,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HHg1zJnW4AM5B6M?format=jpg&name=large",
+          "width": 1130
+        },
+        {
+          "alt": "Image",
+          "height": 357,
+          "source": "tweet_media",
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HG5w6MDW8AArwwi?format=jpg&name=large",
+          "width": 680
+        }
+      ],
+      "possibly_sensitive": null,
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12015,
+        "like_count": 51,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+      },
+      "raw": {
+        "author": {
+          "name": "Daniel Romero",
+          "username": "HyperTechInvest"
+        },
+        "created_at": "2026-05-04T23:48:00.000Z",
+        "id": "2051448792629551592",
+        "media": [
+          {
+            "alt": "Image",
+            "height": 1200,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HHg1zJnW4AM5B6M?format=jpg&name=large",
+            "width": 1130
+          },
+          {
+            "alt": "Image",
+            "height": 357,
+            "source": "tweet_media",
+            "type": "image",
+            "url": "https://pbs.twimg.com/media/HG5w6MDW8AArwwi?format=jpg&name=large",
+            "width": 680
+          }
+        ],
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 12015,
+          "like_count": 51,
+          "quote_count": 0,
+          "reply_count": 3,
+          "retweet_count": 0
+        },
+        "raw_text": "Daniel Romero @HyperTechInvest · 12h Now people know Quote Daniel Romero @HyperTechInvest · Apr 27 Why isn’t $INDI getting bid up after the CEO confirmed that Unitree and Figure AI use its lasers? 3 51 12K",
+        "text": "Now people know",
+        "url": "https://x.com/HyperTechInvest/status/2051448792629551592",
+        "urls": []
+      },
+      "referenced_tweets": [],
+      "reply_settings": null,
+      "source": "Safari X bookmark timeline",
+      "text": "Now people know",
+      "url": "https://x.com/HyperTechInvest/status/2051448792629551592",
+      "urls": []
+    }
+  ],
+  "generated_at": "2026-05-05T12:32:08Z",
+  "includes": {},
+  "pages": [
+    {
+      "scrolls": 12,
+      "source": "Safari"
+    }
+  ],
+  "requested_user_id": null,
+  "source": "safari-x-bookmarks-timeline"
+}

@@ -1,0 +1,14 @@
+{
+  "key": "IQE",
+  "name": "IQE plc",
+  "exchange": "London Stock Exchange (LON: IQE); OTC: IQEPF",
+  "blurb": "IQE plc is the world's leading independent manufacturer of compound semiconductor epitaxial wafers, supplying the active crystalline layers that underpin lasers, detectors, and RF devices. The company operates through three segments — Wireless, Photonics, and CMOS++ — with its Photonics segment providing InP and GaAs epi-wafers used in optical transceivers for data centres, LiDAR, and 3D sensing. Headquartered in Cardiff, Wales, IQE's commercial position rests on process know-how that takes years to replicate and tight qualification relationships with Tier 1 customers.",
+  "recent": "In 2025, IQE reported full-year revenue of approximately £97 million, entering 2026 with a strong first-quarter order book. The company secured multiple Tier 1 design wins for AI and hyperscale data-centre laser and detector products and launched a 6-inch foundry platform for silicon photonics customers. As of May 2026, IQE trades at approximately 41p on the London Stock Exchange, giving it a market capitalisation of roughly £545 million.",
+  "sources": [
+    {"url": "https://www.semiconductor-today.com/news_items/2026/jan/iqe-120126.shtml", "title": "IQE H2 2025 Trading Update — Semiconductor Today"},
+    {"url": "https://www.iqep.com/media/press-releases/2025/2025-interim-results/", "title": "IQE 2025 Interim Results"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

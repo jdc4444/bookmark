@@ -1,0 +1,16 @@
+{
+  "key": "4892.T",
+  "name": "NCI (TSE:4892 — unresolved)",
+  "exchange": "TSE",
+  "blurb": "The ticker TSE:4892 as listed in the source OCR could not be unambiguously resolved to a semiconductor-related company. The ticker 4892 on the Tokyo Stock Exchange corresponds to Cyfuse Biomedical K.K., a regenerative-medicine bioprinting company unrelated to semiconductor supply chains. It is possible the OCR misread a digit (e.g., 4892 may be a corruption of another TSE code), or that @zephyr_z9 was referencing a private or OTC entity under the abbreviation NCI. This module is a placeholder pending clarification.",
+  "recent": "No verified recent data available for this ticker in a semiconductor context. Cyfuse Biomedical (TSE:4892) is a healthcare company and is almost certainly not the entity @zephyr_z9 intended.",
+  "sources": [
+    {
+      "url": "https://stockanalysis.com/quote/tyo/4892/company/",
+      "title": "TSE:4892 — Cyfuse Biomedical K.K. — Stock Analysis"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T20:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

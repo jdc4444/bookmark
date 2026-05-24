@@ -1,0 +1,25 @@
+{
+  "key": "URNJ",
+  "name": "Sprott Junior Uranium Miners ETF",
+  "exchange": "NYSE Arca",
+  "type": "etf",
+  "note": "ETF — included because URNJ is a central subject of this uranium-sector bookmark.",
+  "blurb": "The Sprott Junior Uranium Miners ETF (URNJ) tracks the Nasdaq Sprott Junior Uranium Miners Index and targets early-stage and development-phase uranium companies — the segment commonly called junior miners or explorers. It holds approximately 35 fairly evenly weighted positions, which provides modest diversification within a universe that is by definition high-risk. Expense ratio is 0.80%, the highest in the Sprott uranium ETF family. The fund pays a dividend yield of approximately 2.25%. Energy Fuels (UUUU) is the largest single holding at over 14% of the portfolio. Junior miners offer the highest potential operating leverage to spot prices — development-stage companies can reprice dramatically when uranium spot prices rise — but also the highest idiosyncratic risk: permitting failures, financing gaps, and the 10–15-year lead time from discovery to production mean that even well-resourced juniors regularly disappoint.",
+  "recent": "URNJ is positioned to benefit from uranium spot prices moving back above $100/lb in early 2026, though junior miners typically lag the initial move of a spot-price rally and outperform only if the cycle sustains. The fund underperformed both URNM and URA on a one-year trailing basis through November 2025.",
+  "sources": [
+    {
+      "url": "https://www.etf.com/tools/etf-comparison/URNJ-vs-URNM",
+      "title": "URNJ vs URNM ETF Comparison — ETF.com"
+    },
+    {
+      "url": "https://sprottetfs.com/urnm-sprott-uranium-miners-etf/",
+      "title": "Sprott Uranium ETF family — Sprott ETFs"
+    },
+    {
+      "url": "https://investingnews.com/daily/resource-investing/energy-investing/uranium-investing/uranium-etfs/",
+      "title": "Investing in Uranium ETFs: 9 Options — Investing News Network"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

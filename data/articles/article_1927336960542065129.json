@@ -1,0 +1,45 @@
+{
+  "headline": "Google's Stitch Promises to Turn Prompts Into Polished UI Code",
+  "lede": "Google has launched **Stitch**, an AI-powered tool that converts plain-language descriptions into user-interface designs and exportable front-end code. Announced in May 2025 and available at stitch.withgoogle.com, it targets the gap between a product idea and a working prototype. The release lands amid fierce competition in AI-assisted development tools.",
+  "body": "The pitch is straightforward: describe the app you want, and Stitch generates the visual design alongside the underlying code. That combination — collapsing the traditional handoff between designer and developer into a single prompt-driven loop — is what distinguishes it from tools that stop at wireframes or, conversely, those that only scaffold logic without touching layout.\n\nGoogle's developer blog frames Stitch as a new entry point for builders who lack formal design training. The tool fits inside a broader Google ecosystem play: a developer who starts in Stitch can, in principle, carry that output into Firebase, Flutter, or other Google infrastructure without friction. The integration bet is as much about lock-in as it is about convenience.\n\nThe poster's claim that Stitch is \"the most powerful UI designer in the world\" is his own characterisation, not Google's. Verifiable comparisons against rivals such as *Figma*'s AI features, *v0* by Vercel, or *Lovable* would require head-to-head benchmarking that the available sources do not provide. The tool is new enough that independent assessments remain sparse.\n\nWhat the launch does confirm is that the *prompt-to-UI* category has moved from research novelty to productised offering at one of the world's largest engineering organisations. For non-technical founders and solo developers, the barrier to a shippable first screen has never been lower — though the gap between a generated prototype and a production-grade interface remains a practical concern worth watching.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "poster": "jowettbrendan",
+  "concepts": [
+    {
+      "key": "prompt-to-ui",
+      "term": "prompt-to-UI",
+      "definition": "A workflow in which a developer or designer types a natural-language description — \"a login screen with a dark theme and a forgot-password link\" — and an AI model generates both the visual layout and the corresponding front-end code. It short-circuits the traditional design-then-handoff-then-code sequence."
+    },
+    {
+      "key": "design-to-code",
+      "term": "design-to-code",
+      "definition": "The automated translation of a visual or wireframe design into working markup and styling code (HTML, CSS, React, Flutter, etc.). Historically done by developers interpreting design files; AI tools increasingly attempt to do it in one step from a text or image input."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet calls Stitch \"the most powerful UI designer in the world\" — a superlative the available sources do not support. Google's own announcement describes it as \"a new way to design UIs,\" not a claim of supremacy over existing tools. The characterisation is the poster's promotional framing, not an established or benchmarked fact.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://stitch.withgoogle.com/",
+      "title": "Stitch - Design with AI",
+      "note": "Official Google product page for Stitch"
+    },
+    {
+      "url": "https://developers.googleblog.com/en/stitch-a-new-way-to-design-uis/",
+      "title": "From idea to app: Introducing Stitch, a new way to design UIs",
+      "note": "Google Developers Blog launch announcement with product framing"
+    },
+    {
+      "url": "https://techcrunch.com/2025/05/20/google-launches-stitch-an-ai-powered-tool-to-help-design-apps/",
+      "title": "Stitch is Google's AI-powered tool to help design apps",
+      "note": "TechCrunch coverage of the May 2025 launch"
+    }
+  ],
+  "bookmark_id": "1927336960542065129",
+  "generated_at": "2026-05-06T20:56:51.228911Z",
+  "backend": "claude"
+}

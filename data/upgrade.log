@@ -1,0 +1,111 @@
+[14:29:59] start (n=3, concurrency=12)
+[14:29:59] OCR preflight
+OCR targets: 0 images across 0 bookmarks
+Nothing to do.
+[14:42:24] ok 2045779713411731477
+[14:43:04] ok 2045574398573453312
+[14:47:17] ok 2042661584556707845
+[14:47:17] DONE
+[16:30:42] start (n=21, concurrency=12)
+[16:30:42] OCR preflight
+OCR targets: 0 images across 0 bookmarks
+Nothing to do.
+[16:31:34] fail 2053439521178751453 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:35] fail 2053236293371674693 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:35] fail 2053227694549057847 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:36] fail 2053601586501579250 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:36] fail 2053674761721450801 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:37] fail 2053696568944120176 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:38] fail 2053625578780086655 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:39] fail 2052922231370694843 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:39] fail 2053279575270969437 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:39] fail 2052887722868576397 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:40] fail 2053650310854328729 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:41] fail 2052848796468744585 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:41] fail 2053222352301727763 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:42] fail 2052998675639750665 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:42] fail 2053022747765457005 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:46] fail 2032172386246705627 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:47] fail 2053143268452622477 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:31:47] fail 2042015567465664843 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:32:25] fail 2053300899913859411 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:32:36] fail 2053290202995564782 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:32:38] fail 2053707362775466461 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:32:38] FAILED (rc=1)
+[16:33:25] start (n=1, concurrency=12)
+[16:33:25] OCR preflight
+OCR targets: 0 images across 0 bookmarks
+Nothing to do.
+[16:33:38] fail 2053674371206599103 ([1;35mRuntimeError[0m: [35mAll backends failed. Last error: You've hit your limit · resets May 13 at 7pm (Asia/Bangkok)[0m)
+[16:33:38] FAILED (rc=1)
+[16:00:51] start (n=36, concurrency=12)
+[16:00:51] OCR preflight
+OCR targets: 0 images across 0 bookmarks
+Nothing to do.
+[16:00:56] fail 2054630498173886532 (ValueError: embedded null byte)
+[16:22:38] start (n=37, concurrency=4)
+[16:22:38] OCR preflight
+OCR targets: 0 images across 0 bookmarks
+Nothing to do.
+[16:29:20] ok 2054750487145337010
+[16:30:57] ok 2054717107540037794
+[16:33:55] ok 2054701534261252441
+[16:37:28] ok 2054710782974136444
+[16:37:32] ok 2054660534100758784
+[16:41:03] ok 2054636907552993652
+[16:41:43] ok 2054630498173886532
+[16:44:17] fail 2054623496848760924 (RuntimeError: All backends failed. Last error: API Error: The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch())
+[16:46:50] ok 2054590503509701112
+[16:51:44] fail 2054565055929135365 (  "lede": "A public reply disputing skeptics argues that Anthropic's extraordinary growth trajectory will carry the AI startup past Alphabet's revenues within as little as two years. The arithmetic is genuinely striking — several specific claims hold up — but the 2027 catch-up date rests on assumptions without prec)
+[16:53:25] ok 2054582187282837666
+[16:58:34] ok 2054551161391169741
+[17:01:34] ok 2054553996946182161
+[17:04:32] ok 2054528571746427236
+[17:10:08] ok 2054535800118001982
+[17:12:45] ok 2054425996569563396
+[17:18:30] ok 2054399554624376864
+[17:21:33] ok 2054526603238232262
+[17:22:46] ok 2054464532320514305
+[17:30:55] ok 2054372782872703122
+[17:31:26] ok 2054382171771605174
+[17:34:19] ok 2054335940026573222
+[17:34:51] ok 2054244712878669839
+[17:46:05] ok 2054200515257409927
+[17:47:45] ok 2054185855611273294
+[17:48:20] ok 2054236870649721074
+[17:54:29] ok 2053989387512222145
+[17:59:22] ok 2053926375770231227
+[18:02:54] ok 2053875267790086523
+[18:04:11] ok 2053821820361490732
+[18:08:05] ok 2053902867346465150
+[18:12:12] ok 2053665898960138522
+[18:17:16] ok 2053674371206599103
+[18:19:33] ok 2053811991337222456
+[18:23:29] ok 2053573251419230702
+[18:24:21] ok 2032165625666351528
+[18:37:29] ok 2039906072291611057
+[18:37:29] FAILED (rc=1)
+[14:53:33] start (n=10, concurrency=4)
+[14:53:33] OCR preflight
+OCR targets: 0 images across 0 bookmarks
+Nothing to do.
+[15:05:56] ok 2055110412375621643
+[15:06:07] ok 2055106469981192273
+[15:09:47] ok 2055016167954100674
+[15:11:02] ok 2055020836831039600
+[15:12:45] ok 2054988277111767386
+[15:14:19] ok 2054961027893117274
+[15:19:29] ok 2054953085831925968
+[15:20:00] ok 2054879403088441592
+[15:22:50] ok 2054745934299611376
+[15:28:12] ok 2054878476675805490
+[15:28:12] DONE
+[15:28:19] start (n=4, concurrency=4)
+[15:28:19] OCR preflight
+OCR targets: 0 images across 0 bookmarks
+Nothing to do.
+[15:34:55] ok 2055647808783282486
+[15:38:44] ok 2055354371211215184
+[15:44:18] ok 2055407265667277248
+[15:45:04] ok 2055317290862657837
+[15:45:04] DONE

@@ -1,0 +1,18 @@
+{
+  "report_id": "alab",
+  "report_type": "company",
+  "name": "Astera Labs, Inc.",
+  "trade_name_short": "Astera Labs",
+  "ticker": "ALAB",
+  "exchange": "NASDAQ",
+  "sector": "Information Technology",
+  "industry": "Semiconductors / AI Connectivity Silicon",
+  "homepage": "https://www.asteralabs.com/",
+  "ir_page": "https://ir.asteralabs.com/",
+  "slug": "alab",
+  "title": "Astera Labs — the connectivity-silicon company that priced the AI rack",
+  "subtitle": "From three Texas Instruments alumni in 2017 to $852M of FY2025 revenue and 75.7% gross margin — how PCIe retimers became the highest-margin pickaxe of the AI buildout",
+  "snapshot_date": "2026-05-23",
+  "currency": "USD",
+  "abstract": "Astera Labs, Inc. (ALAB, NASDAQ) is the AI-connectivity silicon company founded in November 2017 by three Texas Instruments alumni — Jitendra Mohan (CEO), Sanjay Gajendra (President/COO), and Casey Morrison (Chief Product Officer) — and IPO'd on NASDAQ in March 2024. The company sells PCIe, CXL, and Ethernet retimers, smart cable modules, and connectivity ASICs that sit between accelerator GPUs and the CPU/network fabric inside AI servers, racks, and pods. FY2025 (calendar year ended December 31, 2025) was a structural-margin year: revenue reached $852.5 million (+115% YoY), GAAP gross margin 75.7%, GAAP net income $219.1 million ($1.22 diluted EPS), non-GAAP net income $331.0 million ($1.84 diluted), and operating cash flow $319.3 million. Cash plus marketable securities of $1.19 billion (12/31/25) provide a fortress balance sheet at sub-1x trailing revenue. Q4 2025 was a $270.6 million quarter — a +92% YoY and +17% sequential print — and Q1 2026 guidance of $286-$297 million implies continued mid-single-digit sequential growth into the early innings of the next AI rack generation. The board pairs three independent semiconductor veterans (Manuel Alba as chair, Craig Barratt fresh off the Intel chairmanship transition, Michael Hurlston who has run Synaptics and now Lumentum) with a venture-side anchor (Stefan Dyckerhoff of Sutter Hill, the lead Series A investor), an audit-grade independent (Jack Lazar, ex-GoPro CFO, ex-Atheros), and Bethany Mayer (ex-Ixia CEO, current Box chair, on HPE and LAM Research boards). The composition is that of a company that has already executed a clean IPO and is now configured for sustained governance through cycle compression. The structural risks are AI capex concentration (Astera's products go almost entirely into the GPU-server supply chain at Nvidia, AMD, hyperscaler custom silicon, and the OEMs who ship those systems), and the historical 18-24 month qualification cycles that compress when a new accelerator generation transitions — the next of which is the Nvidia Rubin / Blackwell-Ultra transition Astera must be designed-in to."
+}

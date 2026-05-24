@@ -1,0 +1,43 @@
+{
+  "headline": "Two Keyframes, One AI: Cascadeur Compresses the Animation Craft",
+  "lede": "A viral clip shows Cascadeur, an AI-assisted animation tool, generating a plausible walk cycle from just two posed keyframes. The demo is brief enough to feel like a magic trick, but the underlying technology is a genuine shift in how character motion gets made. Whether it holds up at production scale is the more interesting question.",
+  "body": "Traditional *keyframe animation* — the backbone of games, film, and cartoons — asks an animator to define a character's pose at discrete moments in time, then hand-craft the frames in between. Getting those in-betweens right is what separates a stiff marionette from a convincing human stride. That labor has historically taken hours per second of finished footage, which is why animation studios are large and expensive.\n\nCascadeur's approach replaces manual in-betweening with a physics-aware AI that tracks a character's **center of mass**, momentum, and ballistic trajectory across frames. Rather than interpolating joint angles mechanically — the approach that produces the notorious 'floaty' look in cheap software — it reasons about how a body *should* move under gravity. The company describes the system as deep-learning-based, trained on physically plausible motion.\n\nThe two-keyframe walk cycle in the clip is a deliberately simple showcase: a standing pose and a mid-stride pose, with the AI filling the loop. Experienced animators will note that a looping walk is one of the more forgiving test cases — the motion is periodic and well-represented in training data — so the result reads cleanly. More complex or stylized movement (a creature with unusual proportions, a fight sequence with contact) would be a stiffer test of the system's limits.\n\nCascadeur markets itself toward indie developers, game studios, and previz pipelines — contexts where speed matters more than the last five percent of polish. The software is available free for non-commercial use according to the company's own marketing, which lowers the barrier to experimentation considerably.\n\nThe poster's claim of a 'twenty-second learning curve' is rhetorical; professional adoption requires understanding which outputs need correction and why. But the underlying proposition — that AI can handle a meaningful fraction of the in-between work — is credible, and tools like Cascadeur are already reshaping what a one-person animation pipeline can produce.",
+  "tickers": [],
+  "poster": "3DxDEV7",
+  "concepts": [
+    {
+      "key": "keyframe-animation",
+      "term": "Keyframe Animation",
+      "definition": "A technique in which an animator defines a character's pose at specific moments (keyframes) and software generates the intermediate frames. The quality of those in-between frames — how naturally the body transitions — determines whether motion looks fluid or mechanical."
+    },
+    {
+      "key": "physics-based-animation",
+      "term": "Physics-Based Animation",
+      "definition": "Animation constrained by physical laws such as gravity, momentum, and center-of-mass balance. Instead of purely interpolating joint angles, physics-based systems model how a body would actually move, reducing the 'floaty' or robotically stiff artifacts common in simpler software."
+    },
+    {
+      "key": "ai-inbetweening",
+      "term": "AI In-Betweening",
+      "definition": "The use of machine-learning models to automatically generate the frames between manually posed keyframes. Traditional in-betweening was done by hand (or junior animators); AI systems trained on motion data can now produce plausible transitions at a fraction of the time cost."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The '20 seconds including learning time' figure is marketing hyperbole from the original poster, not a measured claim. Cascadeur's AI does genuinely reduce the labor of in-betweening, but the demo uses a periodic walk cycle — one of the simplest possible test cases. The post does not misrepresent what the software does; it overstates how broadly the result generalizes.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://cascadeur.com/",
+      "title": "Cascadeur — AI-Assisted Keyframe Animation Software",
+      "note": "Official product site confirming physics-based, deep-learning approach and free non-commercial availability"
+    },
+    {
+      "url": "https://www.tiktok.com/@cascadeur3d/video/7612695615876730134",
+      "title": "Just 2 keyframes. AI did the rest. — Cascadeur TikTok",
+      "note": "Official Cascadeur demo video showing the two-keyframe workflow referenced in the bookmark"
+    }
+  ],
+  "bookmark_id": "2003843169813934487",
+  "generated_at": "2026-05-06T20:23:27.825950Z",
+  "backend": "claude"
+}

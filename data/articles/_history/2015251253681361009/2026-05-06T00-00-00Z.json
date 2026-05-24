@@ -1,0 +1,66 @@
+{
+  "bookmark_id": "2015251253681361009",
+  "headline": "The Bot Behind the Baguette: Polymarket's Automated Elite",
+  "lede": "A cryptic Reddit username, a deleted thread, and a wallet sitting on $441,000 in profits: the story is compelling, tidy, and follows a template that its author has used before. That the underlying wallet is real does not make the narrative around it journalism.",
+  "body": "On Polymarket — the blockchain-based prediction market where users bet real dollars on the outcome of world events — a small class of accounts has quietly separated itself from the ordinary punter. The leaderboard, publicly visible and sorted by all-time profit, is dominated by handles that look like password-generator outputs: *distinct-baguette*, *planktonXD*, and their ilk. These are not colourful nicknames chosen by lucky amateurs; they are, in most cases, the usernames auto-assigned to automated trading bots operating at speeds and frequencies no human could sustain. Distinct-baguette, which joined the platform in October 2025, had made more than 46,000 predictions by mid-2026 and at various points showed cumulative profits reported between $241,000 and $812,000, depending on when you checked the ledger.\n\nThe vehicle behind the name is less mysterious than the narrative implies. A website operating under the distinct-baguette brand openly sells a Rust-language trading bot for $199, bundled with 6.8 gigabytes of historical market data. Its strategy is structural rather than predictive: the bot exploits the gap between Polymarket's prices and live cryptocurrency-exchange feeds from Binance, buying both sides of a contract when their combined cost dips below one dollar — a near-risk-free capture of the spread, repeated hundreds of times a day. The platform's profile page for the account includes an admirably candid disclaimer: \"This account has no social media or other online presence. No code has been or will ever be released. Any post or article claiming otherwise is almost certainly a scam.\" The irony that the bot is being sold at all is left as an exercise for the reader.\n\nThe post by *marlowxbt* belongs to a genre rather than a beat. It follows an identifiable template: a cryptic reference surfaces in a community forum, the author \"searches,\" a wallet address is revealed, astronomical profits follow. A near-identical post from the same account described a trader who \"lost everything in 2024,\" deposited five hundred dollars in December 2025, and emerged two months later with $251,000 in profit. The formula is designed to feel like investigative serendipity — the thrill of finding a needle in a haystack — but the haystack is Polymarket's public, on-chain leaderboard, which anyone can browse. The \"discovery\" is theatrical. Whether marlowxbt has a commercial relationship with distinct-baguette or the bot-selling site cannot be determined from public information alone, but the narrative arc serves the same purpose as a promotional case study.\n\nThe figure that the post does not supply is the denominator. Academic research published in 2025 estimated that arbitrage-oriented accounts extracted roughly $40 million from Polymarket between April 2024 and April 2025 alone, with the gains concentrated in fewer than twenty wallets. A Bloomberg analysis from April 2026 found that under one percent of wallets account for half of all profits, and that the overwhelming majority of accounts on the platform lose money. On-chain data from multiple sources puts the share of losing wallets at more than ninety percent. For every distinct-baguette on the leaderboard, there is a long tail of ordinary users who funded it — a form of survivorship bias so complete that the leaderboard itself functions as a kind of casino advertisement, showcasing only the jackpot winners.\n\nNone of this makes prediction markets uninteresting or even necessarily unfair. Markets with structural inefficiencies attract structural arbitrageurs; that is a feature, not a scandal. Polymarket has responded to growing bot saturation by adjusting fee structures and market designs, and the average duration of arbitrage windows — a measure of how quickly the crowd corrects mispricings — has reportedly fallen from twelve seconds in 2024 to under three in early 2026, suggesting the easy edge is compressing. What remains is a platform that is genuinely useful as a real-time probability aggregator for major events, and genuinely punishing for retail participants who mistake it for a skill game. The line between the two uses is the one marlowxbt's posts are designed to obscure.",
+  "tickers": [],
+  "poster": "marlowxbt",
+  "concepts": [
+    {
+      "key": "polymarket",
+      "term": "Polymarket",
+      "definition": "A decentralised prediction market built on the Polygon blockchain, where users trade contracts whose value depends on the outcome of real-world events — elections, economic indicators, sports results, and cryptocurrency prices. Winnings and losses settle in USDC, a dollar-pegged stablecoin. Polymarket is legally accessible in most jurisdictions outside the United States and in May 2025 became X's official prediction market partner."
+    },
+    {
+      "key": "structural-arbitrage",
+      "term": "structural arbitrage",
+      "definition": "A trading strategy that profits from mechanical price discrepancies rather than from any view on the underlying outcome. On Polymarket, the classic form involves buying both the YES and NO sides of a binary contract when their combined price falls below one dollar — guaranteeing a profit regardless of the result, at the cost of capital and transaction fees. Executed automatically at high frequency, this is essentially risk-free extraction of a small spread, repeated thousands of times."
+    },
+    {
+      "key": "survivorship-bias",
+      "term": "survivorship bias",
+      "definition": "The statistical distortion that results from analysing only the entities that 'survived' a selection process — in this case, the wallets that appear on a profit leaderboard. Because losing wallets are invisible, a leaderboard creates the impression that large profits are typical rather than exceptional. The same phenomenon gives rise to misleading fund-performance rankings and the mythology of startup success."
+    },
+    {
+      "key": "usdc",
+      "term": "USDC",
+      "definition": "A stablecoin (a cryptocurrency pegged one-to-one to the US dollar) issued by Circle. Polymarket settles all wagers in USDC, which means profits and losses are denominated in dollars and do not fluctuate with cryptocurrency prices — though users must still interact with a blockchain to deposit and withdraw funds."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The distinct-baguette wallet is a real, publicly verifiable Polymarket account, visible on the platform's leaderboard with an October 2025 join date and more than 46,000 predictions as of mid-2026. Reported all-time profit figures for the account have varied across sources — from approximately $241,000 in early secondary coverage to $812,000 on the leaderboard at a later date — reflecting the live, time-stamped nature of on-chain data; the $441,263 figure cited in the marlowxbt post is plausible for a specific snapshot but cannot be independently pinned to a date. The distinct-baguette.com website, selling a Rust trading bot for $199, is genuine and publicly accessible. The account's own Polymarket profile explicitly disavows any social media or external online presence and warns that claims to the contrary are likely scams — a direct contradiction of the implied discovery narrative. The marlowxbt account demonstrably uses a recurring narrative format (cryptic reference → wallet search → profit reveal) across multiple posts, which is consistent with promotional content creation rather than organic investigation. Statistics on bot dominance and retail losses draw from a 2025 academic study ('Unravelling the Probabilistic Forest') and a Bloomberg analysis from April 2026; both are consistent with on-chain data reviewed across multiple analytics platforms.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://polymarket.com/@distinct-baguette",
+      "title": "distinct-baguette profile — Polymarket"
+    },
+    {
+      "url": "https://distinct-baguette.com",
+      "title": "Your proven Polymarket edge — distinct-baguette bot sales page"
+    },
+    {
+      "url": "https://www.dlnews.com/articles/markets/polymarket-users-lost-millions-of-dollars-to-bot-like-bettors-over-the-past-year/",
+      "title": "Polymarket users lost millions of dollars to 'bot-like' bettors over the past year — DL News"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/arbitrage-bots-dominate-polymarket-millions-100000888.html",
+      "title": "Arbitrage Bots Dominate Polymarket With Millions in Profits as Humans Fall Behind — Yahoo Finance"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/newsletters/2026-04-29/most-traders-lose-on-polymarket-and-winners-look-like-bots",
+      "title": "Most Traders Lose on Polymarket and Winners Look Like Bots — Bloomberg"
+    },
+    {
+      "url": "https://www.coindesk.com/markets/2026/04/29/a-tiny-group-is-winning-on-polymarket-as-under-1-of-wallets-take-half-the-profits",
+      "title": "A tiny group is winning on Polymarket as under 1% of wallets take half the profits — CoinDesk"
+    },
+    {
+      "url": "https://x.com/marlowxbt/status/2015814991484461335",
+      "title": "Marlow (@marlowxbt) — prior post using identical narrative format"
+    }
+  ],
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

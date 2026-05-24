@@ -1,0 +1,32 @@
+{
+  "key": "UBER",
+  "name": "Uber Technologies, Inc.",
+  "exchange": "NYSE",
+  "blurb": "Uber Technologies, Inc. develops and operates proprietary technology applications for ridesharing, food delivery, freight, and other mobility services across the US, Canada, Latin America, Europe, the Middle East, Africa, and Asia Pacific. The company operates through three segments: Mobility, Delivery, and Freight. Uber is a dominant player in the global ride-hailing and food delivery markets, with a market cap of approximately $161 billion as of May 2026.",
+  "recent": "On May 6, 2026, Uber reported earnings that beat bookings estimates and announced Uber One reached 50 million members, sending the stock up 8.53% to $79.17. The stock has a 52-week range of $68.46 to $101.99 and a consensus analyst price target of $107.18.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/quote/UBER/news/",
+      "title": "Uber Technologies, Inc. (UBER) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/uber/",
+      "title": "Uber Technologies (UBER) Stock Price & Overview"
+    },
+    {
+      "url": "https://www.marketwatch.com/investing/stock/uber",
+      "title": "UBER Stock Price | Uber Technologies Inc. Stock Quote (U.S.: NYSE ..."
+    },
+    {
+      "url": "https://www.cnbc.com/quotes/UBER",
+      "title": "UBER: Uber Technologies Inc - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "url": "https://www.marketbeat.com/stocks/NYSE/UBER/",
+      "title": "Uber Technologies (UBER) Stock Price, News & Analysis - MarketBeat"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-07T05:49:19.087915Z",
+  "backend": "deepseek"
+}

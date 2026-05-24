@@ -1,0 +1,53 @@
+{
+  "headline": "4D Gaussian Splatting Reaches the Browser, No Plugins Required",
+  "lede": "The technology that turns smartphone video into navigable, photorealistic 3D scenes has cleared a significant engineering hurdle: it now runs entirely inside an ordinary web browser. What once demanded CUDA clusters and local GPU installs can render dynamic, time-aware scenes in real time through WebAssembly and WebGL alone.",
+  "body": "**Gaussian splatting** represents a scene not as polygons but as millions of overlapping 3D Gaussian distributions — translucent ellipsoids, each encoding position, color, and opacity. The renderer composites them to produce images that rival photogrammetry but update far faster than earlier neural approaches like *NeRF* (neural radiance field). The \"4D\" extension adds a temporal axis: rather than a frozen moment, the model captures how a scene deforms or evolves over time, frame by frame.\n\nThe research underpinning the most capable versions of this technique was published at SIGGRAPH 2025. *Splat4D*, from researchers at the University of Hong Kong, Nanyang Technological University, and Google DeepMind, generates high-fidelity 4D content from monocular (single-camera) video using a video diffusion model and an asymmetric U-Net architecture to enforce spatial and temporal coherence. The core problem it solves is real: naive 4D reconstruction from a single moving camera tends to produce flickering artifacts and geometric drift, especially at scene edges.\n\nRunning such scenes in a browser without any installation is where the engineering surprise lies. Gauzilla Pro, built by developer Yoshiharu Sato in Rust compiled to *WebAssembly* (WASM), sidesteps the usual CUDA and PyTorch dependencies entirely. WebGL handles rendering; WebGPU powers on-device AI inferencing for tasks like isolating structural geometry. Lock-free multithreading works around WASM's concurrency limitations. The result is photorealistic 3D reconstruction that opens in a tab.\n\nThe OCR labels visible in the tweet — \"Scene: Fashion, Environment: Street Dome\" — suggest a consumer or creative demo, likely a viewer with preset environments. Gauzilla Pro is already in practical use by construction teams for as-built site documentation, where a 4D time-lapse of a build site can be shared with any stakeholder who has a browser. The fashion and retail verticals are an obvious next step, where photorealistic spatial visualization carries clear commercial value.\n\nThe convergence of diffusion-enhanced reconstruction (Splat4D) and web-native rendering (Gauzilla) points toward a near future in which **photorealistic digital twins** require neither specialized hardware nor proprietary desktop software. The remaining bottleneck is capture quality and processing time, not the viewer itself.",
+  "tickers": [],
+  "poster": "NikTek",
+  "concepts": [
+    {
+      "key": "gaussian-splatting",
+      "term": "Gaussian Splatting",
+      "definition": "A scene-representation technique that models 3D environments as collections of millions of semi-transparent, colored Gaussian ellipsoids rather than polygons. The renderer projects and composites these 'splats' onto a 2D image. It is faster to render at high quality than earlier neural scene representations like NeRF."
+    },
+    {
+      "key": "4d-gaussian-splatting",
+      "term": "4D Gaussian Splatting",
+      "definition": "An extension of 3D Gaussian splatting that adds time as a fourth dimension, allowing the representation to capture motion and scene changes across frames. Each Gaussian can shift, deform, or change opacity over time, enabling reconstruction of dynamic scenes from video."
+    },
+    {
+      "key": "webassembly",
+      "term": "WebAssembly (WASM)",
+      "definition": "A binary instruction format that runs in web browsers at near-native speed. It allows code written in systems languages like Rust or C++ to be compiled once and executed inside any modern browser without plugins. It is increasingly used to bring compute-intensive applications — 3D rendering, physics simulation — to the web."
+    },
+    {
+      "key": "webgpu",
+      "term": "WebGPU",
+      "definition": "A newer web graphics API that gives browsers low-level access to GPU hardware, going beyond what the older WebGL standard supports. It enables general-purpose GPU computation (not just graphics) inside the browser, making tasks like AI inferencing or physical simulation feasible without leaving the tab."
+    },
+    {
+      "key": "nerf",
+      "term": "NeRF (Neural Radiance Field)",
+      "definition": "An earlier neural scene-representation method that encodes a 3D scene as a continuous function learned by a neural network. It produces photorealistic novel views but is computationally slow to render. Gaussian splatting largely superseded NeRF for real-time applications by replacing the implicit neural function with explicit, rasterizable splats."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://visual-ai.github.io/splat4d/",
+      "title": "Splat4D: Diffusion-Enhanced 4D Gaussian Splatting",
+      "note": "SIGGRAPH 2025 paper from U of Hong Kong, NTU, and Google DeepMind detailing the Splat4D framework for monocular-video 4D reconstruction"
+    },
+    {
+      "url": "https://www.webgpu.com/showcase/gauzilla-rust-gaussian-splatting-digital-twins/",
+      "title": "Gauzilla Pro: Web-Native Gaussian Splatting for 4D Digital Twins",
+      "note": "Details the Rust/WASM architecture enabling browser-native Gaussian Splatting rendering without CUDA or Python dependencies"
+    }
+  ],
+  "bookmark_id": "2039684899603710037",
+  "generated_at": "2026-05-06T19:41:21.456348Z",
+  "backend": "claude"
+}

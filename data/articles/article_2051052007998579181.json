@@ -1,0 +1,98 @@
+{
+  "bookmark_id": "2051052007998579181",
+  "headline": "Goldman's Photonics Map Left Out the Terrain That Matters",
+  "lede": "Goldman Sachs sees a $154 billion optical-networking market by 2028, but its supply-chain map skips the foundries, wafer growers, and equipment makers that actually make chips move light. A retail investor's annotated rebuttal names names.",
+  "body": "Goldman Sachs projects that the market for optical networking hardware will expand roughly ninefold — from about $15 billion today to $154 billion by the time NVIDIA's Rubin Ultra platform is in full production — with **co-packaged optics** (CPO, a design that fuses laser transceivers directly onto a switch chip to slash power and latency) accounting for $91 billion of that figure. The bank's report, circulated in early 2025, has become the photonics sector's equivalent of a treasure map. The post argues, with some justification, that Goldman has drawn the coastline but left the interior blank.\n\nThe most pointed omission concerns substrates. Every silicon photonics chip manufactured at TSMC begins life as a *photonics-grade silicon-on-insulator* (Photonics-SOI) wafer — a sandwich of ultra-thin silicon atop a buried oxide layer, engineered to guide light with minimal loss. **Soitec** (ticker: SOI, Paris) is the only supplier approved by TSMC, Tower Semiconductor, and GlobalFoundries for volume Photonics-SOI production. Two decades of process know-how and tight qualification cycles make that position nearly impossible to replicate quickly. Yet the Goldman deck apparently treats the wafer as a commodity input.\n\nThe *epitaxial layer* — the crystalline film grown atop a base wafer to produce active optical structures like lasers and detectors — represents a second invisible link. **IQE plc** (LON: IQE) grows these compound semiconductor films; it recently launched a 6-inch foundry platform for silicon photonics customers and secured multiple Tier 1 design wins for AI data-centre laser and detector products. The post cites its £400 million market capitalisation against Sumitomo Electric's roughly $52 billion and calls the gap an anomaly. That framing has some merit — IQE's role in the laser supply chain is structurally indispensable — though small-cap liquidity risk and execution uncertainty argue for caution before labelling any multiple \"absurd.\" The market cap figure cited in the tweet ($400M) is somewhat dated; as of May 2026, IQE trades closer to a £545 million capitalisation, so the specific asymmetry claim needs updating even if the directional logic holds.\n\nOn equipment, **Aixtron** (XETRA: AIXA) manufactures *MOCVD reactors* — metal-organic chemical vapour deposition systems that bake compound semiconductors into precise crystalline layers at extreme temperatures. Every major laser maker (Sumitomo, Lumentum, VPEC) uses them. Aixtron's first-quarter 2026 order intake rose 30% year-over-year to €171 million, with optoelectronics comprising nearly 70% of new orders; the company subsequently raised its full-year revenue guidance to €560 million. **Aehr Test Systems** (NASDAQ: AEHR) provides wafer-level burn-in — stress-testing photonic chips while still on the wafer, before dicing, which is both cheaper and more reliable than package-level testing. Aehr booked $37 million in a single quarter early in 2026 and won a new silicon photonics transceiver customer in March. **LPKF Laser** (XETRA: LPKF) adds a third equipment angle: its proprietary *LIDE* process (Laser-Induced Deep Etching) creates precision through-holes in glass panels, enabling glass-based substrates that can also guide light — a natural fit for CPO modules where both electrical and optical interconnects must coexist at microscopic scales.\n\n**Tower Semiconductor** (NASDAQ: TSEM), the independent foundry the post calls arguably the leading photonics fabricator, generated $228 million in silicon photonics revenue in 2025 — more than double the prior year — and is committing $920 million in capital expenditure to expand capacity, with over 70% of that capacity already reserved by customers through 2028. That level of demand commitment is unusual in the foundry business and lends credibility to the supercycle thesis. **Sivers Semiconductors** (Nasdaq Stockholm: SIVE), the Swedish maker of *indium phosphide* (InP) lasers, recently demonstrated wafer-scale hybrid integration of its DFB lasers onto a 300mm silicon photonics wafer with sub-500nm alignment — a milestone that matters because the shortage of light sources is the most widely cited bottleneck in CPO commercialisation. Sivers posted record revenues of SEK 304 million in 2025, up 25%, though its opportunity pipeline ($453 million) still dwarfs its current run-rate, suggesting the ramp is front-loaded with engineering wins rather than production revenue.\n\nThe broader critique — that sell-side ecosystem maps systematically underweight the picks-and-shovels layer — is well-trodden but not wrong. Goldman's forecast numbers are genuine; the supply chain analysis is, by the author's account, incomplete. Whether the named small-caps can convert structural necessity into durable pricing power is a different question, and one the tweet elides. Capital cycles have a way of attracting competition to exactly the nodes that look most indispensable.",
+  "tickers": ["SIVE", "IQE", "LPKF", "SOI", "TSEM", "AIXA", "AEHR", "GLW"],
+  "poster": "Million_Sancet",
+  "concepts": [
+    {
+      "key": "co-packaged-optics",
+      "term": "Co-Packaged Optics (CPO)",
+      "definition": "A chip architecture that integrates optical transceivers directly onto the same package as a switch or compute chip, replacing electrical signalling between them with light. CPO dramatically reduces power consumption and latency compared to pluggable optical modules that sit at the edge of a rack. Goldman Sachs projects CPO will represent $91 billion of the $154 billion optical-networking market by 2028."
+    },
+    {
+      "key": "silicon-on-insulator",
+      "term": "Silicon-on-Insulator (SOI)",
+      "definition": "A wafer architecture in which a thin layer of silicon sits atop an electrically insulating buried oxide. In photonics, the refractive-index contrast between the silicon and the oxide confines light in waveguides, enabling chips that route optical signals much as conventional chips route electrons. Photonics-grade SOI requires tighter uniformity specs than standard SOI used in logic chips."
+    },
+    {
+      "key": "epitaxial-layer",
+      "term": "Epitaxial Layer (Epi-Wafer)",
+      "definition": "A crystalline film deposited atom-by-atom atop a base substrate, matching its crystal structure. In compound semiconductors like indium phosphide (InP) or gallium arsenide (GaAs), the epitaxial layer defines the active region of a laser or detector. Growing it reproducibly at commercial volumes requires MOCVD equipment and significant process know-how."
+    },
+    {
+      "key": "mocvd",
+      "term": "Metal-Organic Chemical Vapour Deposition (MOCVD)",
+      "definition": "A reactor-based manufacturing process in which metallic precursor gases are flowed over a heated wafer, depositing precise atomic layers of compound semiconductor material. MOCVD is the primary growth technique for III-V semiconductor lasers and detectors used in optical communications. Aixtron and Veeco are the two dominant equipment suppliers."
+    },
+    {
+      "key": "wafer-level-burn-in",
+      "term": "Wafer-Level Burn-In (WLBI)",
+      "definition": "A reliability screening process that applies elevated temperature and voltage or current to semiconductor chips while they are still part of an intact wafer, before they are cut into individual dies. Testing at the wafer stage is cheaper than package-level testing because defective chips are identified before the cost of packaging is incurred. Photonic chips require specialised burn-in because light output degrades through different failure modes than purely electronic devices."
+    },
+    {
+      "key": "indium-phosphide",
+      "term": "Indium Phosphide (InP)",
+      "definition": "A compound semiconductor composed of indium and phosphorus, notable for its direct bandgap and high electron mobility. InP is the substrate of choice for lasers and photodetectors operating in the 1.3–1.6 µm wavelength range used in telecommunications and data-centre optics. Supply of InP substrates is geographically concentrated, making it a cited geopolitical risk in the photonics supply chain."
+    },
+    {
+      "key": "lide-technology",
+      "term": "LIDE (Laser-Induced Deep Etching)",
+      "definition": "LPKF's proprietary process for creating precise micro-holes and channels in glass substrates using an ultrashort-pulse laser followed by a wet etch step. The technique enables glass-core substrates for advanced semiconductor packaging, offering advantages over silicon interposers in electrical loss and optical transparency — properties increasingly relevant for packages that must carry both electrical and optical signals simultaneously."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet states IQE has a '$400M mcap' versus Sumitomo's '$52B mcap'. The IQE figure appears to reference an earlier trading period; as of May 2026, IQE's market capitalisation is approximately £545 million (~$680 million at current rates), making the stated asymmetry numerically outdated even if qualitatively valid. The claim that Tower Semiconductor is 'tripling its capacity' is broadly consistent with public disclosures: Tower has committed $920 million in capex and targets silicon photonics wafer starts more than five times Q4 2025 monthly shipments by end-2026, which exceeds a simple tripling. Goldman's forecast of $154 billion total value TAM by the Rubin Ultra cycle (mainly 2028) with CPO at $91 billion is confirmed by the OCR text extracted from the report image. The claim that AIXTRON reactors are used by 'EVERY listed laser manufacturer' is a reasonable characterisation given Aixtron's 70-90% MOCVD market share in relevant product segments, though not independently verifiable to the letter.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://finance.biggo.com/news/W6DUmZ0B-x-dxYpb0XI7",
+      "title": "Goldman Sachs Raises Optical Interconnect Market Forecast — BigGo Finance",
+      "note": "Confirms $15B to $154B Goldman projection and CPO share"
+    },
+    {
+      "url": "https://www.soitec.com/home/group/newsroom/press-releases/content/2025/03/19/soitec-contributes-to-accelerated-development-of-integrated-optical-connectivity-solutions-for-ai-datacentres-with-its-silicon-photonics-soi-technology",
+      "title": "Soitec: Silicon Photonics SOI for AI Datacentres (March 2025)",
+      "note": "Confirms Soitec's approved-supplier status at major photonics foundries"
+    },
+    {
+      "url": "https://www.semiconductor-today.com/news_items/2026/jan/iqe-120126.shtml",
+      "title": "IQE reports strong second-half 2025 demand — Semiconductor Today",
+      "note": "IQE design wins and photonics platform details"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/02/11/3236139/0/en/Tower-Semiconductor-Reports-Record-Revenue-for-the-Fourth-Quarter-of-2025.html",
+      "title": "Tower Semiconductor Q4 2025 Record Revenue — GlobeNewswire",
+      "note": "Silicon photonics revenue, capacity expansion, and customer prepayments"
+    },
+    {
+      "url": "https://www.semiconductor-today.com/news_items/2026/may/aixtron-040526.shtml",
+      "title": "Aixtron Q1 2026 revenue and order intake — Semiconductor Today",
+      "note": "MOCVD order surge driven by optoelectronics; guidance raise"
+    },
+    {
+      "url": "https://www.aehr.com/2026/03/aehr-wins-major-new-silicon-photonics-customer-with-high-power-fox-xp-wafer-level-burn-in-system-for-hyperscale-data-center-optical-interconnect-market/",
+      "title": "Aehr Wins Major New Silicon Photonics Customer (March 2026)",
+      "note": "Confirms Aehr's role in wafer-level burn-in for photonics"
+    },
+    {
+      "url": "https://www.sivers-semiconductors.com/press/sivers-photonics-joins-forces-with-imec-and-asm-amicra-to-accelerate-hybrid-integration-of-silicon-photonics/",
+      "title": "Sivers Photonics joins imec and ASM AMICRA for InP-SiPho integration",
+      "note": "300mm wafer-scale hybrid integration milestone"
+    },
+    {
+      "url": "https://lide.lpkf.com/en/technology",
+      "title": "LPKF LIDE Technology — lpkf.com",
+      "note": "Technical overview of LIDE glass etching process"
+    },
+    {
+      "url": "https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/",
+      "title": "Where CPO technology stands in 2026 — EDN",
+      "note": "Industry overview of CPO commercialisation timeline"
+    }
+  ],
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

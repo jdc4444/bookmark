@@ -1,0 +1,123 @@
+{
+  "headline": "Bitcoin at Sixteen: Why the Tulip Comparison Keeps Failing",
+  "lede": "Whenever Bitcoin's price runs up, the Dutch tulip craze of 1637 returns to the discourse — a convenient shorthand for speculative excess. The problem, as the writer and comedian Dominic Frisby has long argued, is that tulip mania's acute speculative phase lasted roughly two to three months, while Bitcoin has absorbed four separate 80-percent crashes and survived sixteen years. Longevity does not prove utility, but it does distinguish Bitcoin from every classical bubble in the historical record.",
+  "body": "The durational argument at the heart of this post is well-grounded. Tulip mania's speculative frenzy was most acute for about two to three months, from December 1636 to February 1637; even counting the broader runup, the episode spanned under four years. **Bitcoin** published its *genesis block* — the founding transaction of the blockchain — on January 3, 2009, and has now persisted for more than sixteen years, absorbing four separate crashes of 80 percent or more and recovering to new all-time highs after each one. No classical historical bubble has repeated this cycle of collapse and reconstitution.\n\nThe clip being passed around features Dominic Frisby, a British financial writer and stand-up comedian who has commentated on commodities and cryptocurrency for *MoneyWeek* since 2006. In 2014 he published *Bitcoin: The Future of Money?*, among the earliest mainstream-press books on the subject. His signature quip — \"a bubble is a bull market in which you don't have a position\" — captures the rhetorical frustration animating the tweet.\n\nThe tulip comparison has always rested on shakier historical ground than its popularity suggests. Historian Anne Goldgar's archival study *Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age* (University of Chicago Press, 2007) found the speculation involved roughly 350 participants, almost no documented bankruptcies, and negligible lasting economic damage. The catastrophe story was largely invented by Charles Mackay's 1841 *Extraordinary Popular Delusions and the Madness of Crowds*, which drew on satirical pamphlets and plagiarized accounts rather than contemporaneous records.\n\nThe more substantive case for Bitcoin-as-bubble rests on the question of intrinsic value, not on its age. Macro analyst Lyn Alden classifies Bitcoin as an *emergent store of value* — a monetary asset in *price discovery*, correlated with global M2 money supply roughly 83 percent of the time over twelve-month windows. The January 2024 approval of spot Bitcoin *exchange-traded funds* (ETFs) in the United States, and subsequent uptake by BlackRock (BLK), Fidelity Investments, and VanEck, which together held around $135 billion by mid-2025, represents a different order of institutional commitment than Dutch floriculture ever attracted. Fiduciary managers do not build custody and distribution networks around objects they expect shortly to go to zero.\n\nThe longevity argument is not conclusive on its own — some assets sustain speculative premiums for years. But the tulip comparison specifically misidentifies the mechanism. Tulip prices collapsed because the market was a pure *greater fool* game: no settlement infrastructure, no custody network, no store-of-wealth narrative beyond the next auction. Bitcoin's repeated survival through hostile regulatory environments, major exchange collapses, and four brutal drawdowns reflects something structurally distinct from a seventeenth-century Dutch flower craze.",
+  "tickers": [
+    "BLK"
+  ],
+  "companies": [
+    {
+      "name": "BlackRock",
+      "ticker": "BLK"
+    },
+    {
+      "name": "Fidelity Investments",
+      "ticker": null
+    },
+    {
+      "name": "VanEck",
+      "ticker": null
+    }
+  ],
+  "poster": "noahkaufmanmd",
+  "concepts": [
+    {
+      "key": "genesis-block",
+      "term": "Genesis Block",
+      "definition": "The very first block in a blockchain's history, hardcoded by its creator. Bitcoin's genesis block was mined by Satoshi Nakamoto on January 3, 2009, and cannot be altered — it is the irreducible starting point of the entire ledger."
+    },
+    {
+      "key": "emergent-store-of-value",
+      "term": "Emergent Store of Value",
+      "definition": "Macro analyst Lyn Alden's classification for Bitcoin: an asset that functions like a store of value (holding purchasing power over time) but has not yet fully matured into one. The 'emergent' qualifier acknowledges its ongoing volatility and price-discovery phase."
+    },
+    {
+      "key": "price-discovery",
+      "term": "Price Discovery",
+      "definition": "The ongoing market process of finding the 'correct' price for an asset through supply, demand, and new information. An asset in price discovery lacks a settled, agreed-upon valuation — prices can move sharply as new buyers and new data enter the market."
+    },
+    {
+      "key": "m2-money-supply",
+      "term": "M2 Money Supply",
+      "definition": "A broad measure of money in circulation, including physical cash, checking deposits, savings accounts, and small time deposits. Central banks track M2 as an indicator of monetary conditions; when M2 expands rapidly, hard-capped assets like Bitcoin can appreciate in relative terms."
+    },
+    {
+      "key": "exchange-traded-fund",
+      "term": "Exchange-Traded Fund (ETF)",
+      "definition": "A pooled investment vehicle that tracks an underlying asset and trades on a stock exchange like a share. A spot Bitcoin ETF holds actual Bitcoin, giving institutional and retail investors exposure without requiring them to custody the asset directly."
+    },
+    {
+      "key": "greater-fool",
+      "term": "Greater Fool",
+      "definition": "The greater fool theory holds that overpriced assets can still be sold at a profit because there is always a 'greater fool' willing to pay more. Markets driven purely by this logic — with no underlying utility or cash flow — tend to collapse once new buyers dry up."
+    }
+  ],
+  "books": [
+    {
+      "key": "bitcoin-future-of-money",
+      "title": "Bitcoin: The Future of Money?",
+      "author": "Dominic Frisby",
+      "summary": "Published in 2014 by Unbound, this was among the first mainstream books to explain Bitcoin to a general audience. Frisby covers the technology's origins, speculates on Satoshi Nakamoto's identity, and argues for Bitcoin's potential as a global monetary standard. Endorsed by figures including Richard Branson, it remains a readable entry point for newcomers approaching the subject without a technical background."
+    },
+    {
+      "key": "tulipmania-goldgar",
+      "title": "Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age",
+      "author": "Anne Goldgar",
+      "summary": "Published by the University of Chicago Press in 2007, this archival history dismantles the popular narrative of tulip mania as a catastrophic mass hysteria. Goldgar found the episode involved roughly 350 participants, produced no documented bankruptcies, and caused negligible economic damage — concluding the real crisis was social and reputational rather than financial. The popular disaster story, she shows, was largely fabricated by Charles Mackay in 1841."
+    },
+    {
+      "key": "extraordinary-popular-delusions",
+      "title": "Extraordinary Popular Delusions and the Madness of Crowds",
+      "author": "Charles Mackay",
+      "summary": "Published in 1841, this book cemented tulip mania's reputation as history's most notorious speculative bubble. Mackay's vivid account of Dutch speculators trading entire estates for single bulbs became the template for bubble discourse for nearly two centuries. Subsequent archival research, most notably Goldgar's, has shown Mackay relied on satirical pamphlets rather than contemporaneous documents and greatly exaggerated the episode's scale and damage."
+    }
+  ],
+  "repos": [],
+  "fact_check": "The tweet claims 'bubbles last a very short time, not 15 years.' This is directionally accurate but slightly overstated: some large speculative episodes — the dot-com bubble (roughly 1995–2000) and the U.S. housing bubble (roughly 2002–2007) — lasted four to six years. What holds is that no historical bubble of comparable notoriety has persisted for fifteen-plus years with repeated crash-and-recovery cycles. The tulip comparison is particularly inapt: the acute speculative peak lasted approximately two to three months.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://libertystreeteconomics.newyorkfed.org/2013/09/crisis-chronicles-tulip-mania-1633-37/",
+      "title": "Crisis Chronicles: Tulip Mania, 1633–37 — NY Fed Liberty Street Economics",
+      "note": "Authoritative timeline and economic context for tulip mania, including the February 1637 collapse and why it did not spread to the banking sector"
+    },
+    {
+      "url": "https://www.history.com/articles/tulip-mania-financial-crash-holland",
+      "title": "Tulip Mania: The World's First Financial Bubble — HISTORY.com",
+      "note": "Popular account incorporating Goldgar's revisionist findings on the scale and damage of the episode"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tulip_mania",
+      "title": "Tulip Mania — Wikipedia",
+      "note": "Overview of dates, price data, and the scholarly debate including the Mackay-versus-Goldgar divergence"
+    },
+    {
+      "url": "https://press.uchicago.edu/ucp/books/book/chicago/T/bo5414939.html",
+      "title": "Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age — University of Chicago Press",
+      "note": "Publisher page for Anne Goldgar's definitive archival study of the episode"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dominic_Frisby",
+      "title": "Dominic Frisby — Wikipedia",
+      "note": "Biography and career overview of the financial writer and comedian behind the cited Bitcoin explanation"
+    },
+    {
+      "url": "https://www.amazon.com/Bitcoin-future-money-Dominic-Frisby/dp/1783521023",
+      "title": "Bitcoin: The Future of Money? — Amazon/Unbound",
+      "note": "Frisby's 2014 book, one of the first mainstream-press works on Bitcoin"
+    },
+    {
+      "url": "https://www.lynalden.com/",
+      "title": "Lyn Alden Investment Strategy",
+      "note": "Source for the 'emergent store of value' classification and M2 money supply correlation analysis"
+    },
+    {
+      "url": "https://www.blockchain-council.org/bitcoin/comparing-bitcoin/",
+      "title": "Comparing Bitcoin — Blockchain Council",
+      "note": "Data on Bitcoin ETF AUM and institutional adoption milestones through mid-2025"
+    }
+  ],
+  "bookmark_id": "1870876644614775213",
+  "generated_at": "2026-05-07T05:42:26.610470Z",
+  "backend": "claude-sonnet-subagent"
+}

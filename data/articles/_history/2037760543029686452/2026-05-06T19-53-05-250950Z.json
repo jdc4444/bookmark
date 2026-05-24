@@ -1,0 +1,53 @@
+{
+  "headline": "A Terminal Becomes the Bus for Two Rival AI Agents",
+  "lede": "A developer called @shawn_pana built a small tool, *smux*, that lets Anthropic's Claude Code and OpenAI's Codex coordinate on tasks without any shared API, SDK, or purpose-built protocol. The only connective tissue is a terminal session. The implication is modest in scope but pointed in principle: the shell prompt may be the lowest-common-denominator interface that lets heterogeneous AI agents interoperate without anyone agreeing on a standard first.",
+  "body": "Both Claude Code and Codex are *agentic coding assistants* — programs that don't just suggest code but can read a repository, execute commands, edit files, and iterate toward a stated goal without step-by-step human direction. They run inside a terminal, and that is precisely the surface smux exploits. Rather than routing messages through a purpose-built orchestration layer, smux lets each agent create, read from, and write to terminal panes, turning the shell into a shared blackboard.\n\nThe architectural bet is that **the terminal is already a universal interface** that any sufficiently capable coding agent can operate. A human developer writes to a terminal and reads its output; so does Claude Code; so does Codex. If a tool can mediate that surface — multiplexing panes, routing output, letting one agent observe what another wrote — then inter-agent communication falls out almost for free, without either vendor shipping a joint spec.\n\nThis matters because multi-agent coordination is currently one of the harder unsolved problems in applied AI. Most frameworks that tackle it — LangGraph, CrewAI, AutoGen — require agents to share a runtime or speak a common protocol, which implicitly ties you to one vendor or one model family. A terminal-mediated approach sidesteps that entirely: Claude Code and Codex remain fully independent processes; smux just lets them share a workspace.\n\nThe research sources confirm that Claude Code and Codex take meaningfully different approaches even within the same terminal paradigm — Claude Code centers on a unified agent loop tightly coupled to Anthropic's model stack, while Codex (OpenAI's rebooted terminal agent, distinct from the original 2021 code-generation model of the same name) has its own architecture. That the two can be made to collaborate through a thin terminal-multiplexer layer, rather than a fat orchestration framework, is the interesting finding here.\n\nThe demo is early, and the OCR of the attached screenshot is largely illegible, so the exact interaction shown — what task the agents divided, who reviewed whose work — cannot be independently verified from the available sources. Still, the concept is clean enough to stand on its own: if the terminal is the universal substrate, a tool that treats it as a message bus could outlast any particular agent or model.",
+  "tickers": [],
+  "poster": "shawn_pana",
+  "concepts": [
+    {
+      "key": "terminal-multiplexer",
+      "term": "terminal multiplexer",
+      "definition": "Software that splits a single terminal session into multiple independent panes or windows, each running its own process. Classic examples are tmux and screen. Here, smux extends the idea so that programs — not just humans — can programmatically create panes and read their output."
+    },
+    {
+      "key": "agentic-coding-assistant",
+      "term": "agentic coding assistant",
+      "definition": "An AI tool that goes beyond autocomplete or chat to autonomously read files, run shell commands, edit code, and iterate toward a goal. Claude Code and Codex are both in this category. The 'agentic' label distinguishes them from passive suggestion tools: they take actions, observe outcomes, and adjust."
+    },
+    {
+      "key": "agent-to-agent-communication",
+      "term": "agent-to-agent communication",
+      "definition": "The ability for two or more AI agents to exchange information and coordinate work without direct human mediation at each step. Achieving this across agents from different vendors is non-trivial because there is no agreed protocol; most solutions require a shared runtime or orchestration layer."
+    },
+    {
+      "key": "shared-blackboard",
+      "term": "shared blackboard",
+      "definition": "A classic pattern in multi-agent systems where agents coordinate by reading from and writing to a common data structure rather than sending messages directly to each other. Using a terminal as a blackboard is an informal application of this idea."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The post refers to 'Codex' as an OpenAI product comparable to Claude Code. This warrants a note: OpenAI's original Codex was a code-generation model released in 2021 and later deprecated. The Codex referenced here is OpenAI's subsequently relaunched terminal coding agent, a distinct product. The two share a name but are architecturally different. The post's claim that communication requires 'no APIs' is accurate in the sense that no inter-agent API is needed, though both agents still rely on their respective model APIs internally.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/shawn_pana/status/2037760543029686452",
+      "title": "Original tweet by @shawn_pana",
+      "note": "Primary source; JavaScript-gated, so full thread content unavailable"
+    },
+    {
+      "url": "https://claude.com/product/claude-code",
+      "title": "Claude Code by Anthropic",
+      "note": "Product overview confirming Claude Code's terminal-and-IDE agent architecture"
+    },
+    {
+      "url": "https://www.analyticsvidhya.com/blog/2026/04/claude-code-vs-codex/",
+      "title": "Claude Code vs Codex: A Detailed Terminal Agent Comparison",
+      "note": "Confirms both are terminal agents with distinct architectural approaches"
+    }
+  ],
+  "bookmark_id": "2037760543029686452",
+  "generated_at": "2026-05-06T19:53:05.250950Z",
+  "backend": "claude"
+}

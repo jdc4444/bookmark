@@ -1,0 +1,40 @@
+{
+  "key": "aleabitoreddit",
+  "display_name": "Serenity",
+  "blurb": "Serenity (@aleabitoreddit) is an X-based equity analyst whose feed concentrates on the AI hardware supply chain, with particular focus on what they call 'functional monopolies' — small or mid-cap suppliers occupying chokepoints in the photonics, advanced packaging and substrate value chains. Recurring names include Soitec ($SOI) for silicon-photonics substrates, Tower Semiconductor ($TSEM) for photonics foundry capacity, Coherent ($COHR) for transceivers, AXT ($AXTI) for indium phosphide, Lipoid Kosmetik / LPKF ($LPK) for glass-core substrates, and Japanese names such as TOWA (6315) and MSSCorp (6830) for HBM compression and CPO inspection respectively. The posting style mixes thesis posts with running performance updates and is frank about both wins and laggards.",
+  "recent": "In early March 2026, ahead of NVIDIA's GTC, the account took what it described as a 'sizable position' in Soitec at roughly 43 EUR, framing the stock as a substrate-level monopoly on co-packaged optics that was trading at one times book. Subsequent posts charted the move higher (44%+ within five days, then 45.58%, then 'up 39.28% since last month' as it underperformed others in the photonics basket), and on May 4, 2026 the account marked the position up 'enormous amounts' alongside charts showing 517% YTD performance. The thesis tracks: the broader photonics rally has carried multiple names in their public list up triple digits over the same period.",
+  "credibility_note": "Public posts show Serenity called Soitec at ~43 EUR in March 2026, before the rally documented in this bookmark, and has flagged related names (TSEM, AXTI, AAOI) ahead of large moves. Self-reported one-year returns of 630%+ should be treated as such — self-reported and unverified — but the timestamped Soitec call is a matter of public record.",
+  "links": [
+    "https://x.com/aleabitoreddit"
+  ],
+  "sources": [
+    {
+      "url": "https://x.com/aleabitoreddit/status/2031648475310616604",
+      "title": "Serenity — initial Soitec position (~43 EUR), pre-GTC",
+      "note": "Public timestamp of the entry call cited above."
+    },
+    {
+      "url": "https://x.com/aleabitoreddit/status/2032178441064534389",
+      "title": "Serenity — Soitec +45.58% update",
+      "note": "Post-rally performance update with monopoly framing."
+    },
+    {
+      "url": "https://x.com/aleabitoreddit/status/2049523399911952597",
+      "title": "Serenity — 'functional monopolies' portfolio enumeration",
+      "note": "TOWA, MSSCorp, LPK, SOI, AXTI listed as core holdings."
+    },
+    {
+      "url": "https://x.com/aleabitoreddit/status/2034056688693875036",
+      "title": "Serenity — Photonics Supercycle thesis post",
+      "note": "NVDA / Spectrum-X / CPO framing, Soitec and Sivers as supply-chain chokepoints."
+    },
+    {
+      "url": "https://x.com/aleabitoreddit/status/2042526193375940878",
+      "title": "Serenity — Soitec 'only up 39.28% since last month'",
+      "note": "Example of the account's dryly-amused tone toward its own laggards."
+    }
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

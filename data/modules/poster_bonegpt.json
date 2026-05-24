@@ -1,0 +1,15 @@
+{
+  "key": "boneGPT",
+  "display_name": "boneGPT",
+  "blurb": "X account documenting experiments in which large language model agents are connected to live cryptocurrency trading infrastructure — including perpetual DEX APIs — and observed trading with real market data. Posts focus on emergent agent behaviour, paper-trading results, and the mechanics of running LLMs against leveraged derivatives markets.",
+  "credibility_note": "No verifiable institutional affiliation or track record. Account is experiment-oriented rather than analytical; posts report observations without a disclosed methodology, benchmark, or statistical framework. Results should be treated as anecdote and starting point for inquiry rather than evidence of genuine alpha.",
+  "links": [
+    "https://x.com/boneGPT"
+  ],
+  "sources": [
+    "https://x.com/boneGPT/status/1983965014500446272"
+  ],
+  "type": "poster",
+  "generated_at": "2026-05-06T18:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

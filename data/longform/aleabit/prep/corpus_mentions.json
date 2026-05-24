@@ -1,0 +1,983 @@
+{
+  "handle": "aleabitoreddit",
+  "scanned_at": "2026-05-08T08:29:27Z",
+  "n_handles_scanned": 84743,
+  "n_handles_mentioning": 46,
+  "total_mentions": 127,
+  "top_mentioners": [
+    {
+      "handle": "pepinveststocks",
+      "n_mentions": 19,
+      "n_tweets_total": 2220,
+      "mention_rate": 0.0086
+    },
+    {
+      "handle": "paradislabs",
+      "n_mentions": 13,
+      "n_tweets_total": 1355,
+      "mention_rate": 0.0096
+    },
+    {
+      "handle": "ren_aramb",
+      "n_mentions": 7,
+      "n_tweets_total": 1472,
+      "mention_rate": 0.0048
+    },
+    {
+      "handle": "moodywriter13",
+      "n_mentions": 6,
+      "n_tweets_total": 588,
+      "mention_rate": 0.0102
+    },
+    {
+      "handle": "pepemoonboy",
+      "n_mentions": 6,
+      "n_tweets_total": 2796,
+      "mention_rate": 0.0021
+    },
+    {
+      "handle": "unclealpha007",
+      "n_mentions": 6,
+      "n_tweets_total": 1017,
+      "mention_rate": 0.0059
+    },
+    {
+      "handle": "crux_capital_",
+      "n_mentions": 5,
+      "n_tweets_total": 2685,
+      "mention_rate": 0.0019
+    },
+    {
+      "handle": "superioresearch",
+      "n_mentions": 5,
+      "n_tweets_total": 867,
+      "mention_rate": 0.0058
+    },
+    {
+      "handle": "singularityres",
+      "n_mentions": 4,
+      "n_tweets_total": 1807,
+      "mention_rate": 0.0022
+    },
+    {
+      "handle": "zizonchain",
+      "n_mentions": 4,
+      "n_tweets_total": 161,
+      "mention_rate": 0.0248
+    },
+    {
+      "handle": "0xkyle__",
+      "n_mentions": 3,
+      "n_tweets_total": 369,
+      "mention_rate": 0.0081
+    },
+    {
+      "handle": "daniel_koss",
+      "n_mentions": 3,
+      "n_tweets_total": 1984,
+      "mention_rate": 0.0015
+    },
+    {
+      "handle": "thevalueist",
+      "n_mentions": 3,
+      "n_tweets_total": 1320,
+      "mention_rate": 0.0023
+    },
+    {
+      "handle": "FD_coop_NY",
+      "n_mentions": 2,
+      "n_tweets_total": 1336,
+      "mention_rate": 0.0015
+    },
+    {
+      "handle": "_gautam_94",
+      "n_mentions": 2,
+      "n_tweets_total": 257,
+      "mention_rate": 0.0078
+    },
+    {
+      "handle": "babybluecream",
+      "n_mentions": 2,
+      "n_tweets_total": 273,
+      "mention_rate": 0.0073
+    },
+    {
+      "handle": "dynamicmoats",
+      "n_mentions": 2,
+      "n_tweets_total": 1108,
+      "mention_rate": 0.0018
+    },
+    {
+      "handle": "equityclimb1",
+      "n_mentions": 2,
+      "n_tweets_total": 831,
+      "mention_rate": 0.0024
+    },
+    {
+      "handle": "fundaai",
+      "n_mentions": 2,
+      "n_tweets_total": 153,
+      "mention_rate": 0.0131
+    },
+    {
+      "handle": "michaelsikand",
+      "n_mentions": 2,
+      "n_tweets_total": 1222,
+      "mention_rate": 0.0016
+    },
+    {
+      "handle": "plaskpojken",
+      "n_mentions": 2,
+      "n_tweets_total": 176,
+      "mention_rate": 0.0114
+    },
+    {
+      "handle": "tacticzh",
+      "n_mentions": 2,
+      "n_tweets_total": 219,
+      "mention_rate": 0.0091
+    },
+    {
+      "handle": "thesarge_",
+      "n_mentions": 2,
+      "n_tweets_total": 213,
+      "mention_rate": 0.0094
+    },
+    {
+      "handle": "JC_GetRichSlow",
+      "n_mentions": 1,
+      "n_tweets_total": 2184,
+      "mention_rate": 0.0005
+    },
+    {
+      "handle": "MWM76",
+      "n_mentions": 1,
+      "n_tweets_total": 1878,
+      "mention_rate": 0.0005
+    },
+    {
+      "handle": "alexbhturnbull",
+      "n_mentions": 1,
+      "n_tweets_total": 190,
+      "mention_rate": 0.0053
+    },
+    {
+      "handle": "blackscholesman",
+      "n_mentions": 1,
+      "n_tweets_total": 2003,
+      "mention_rate": 0.0005
+    },
+    {
+      "handle": "blinklebloop",
+      "n_mentions": 1,
+      "n_tweets_total": 311,
+      "mention_rate": 0.0032
+    },
+    {
+      "handle": "consensusgurus",
+      "n_mentions": 1,
+      "n_tweets_total": 1541,
+      "mention_rate": 0.0006
+    },
+    {
+      "handle": "cyberprince_rwo",
+      "n_mentions": 1,
+      "n_tweets_total": 2149,
+      "mention_rate": 0.0005
+    },
+    {
+      "handle": "deepinference",
+      "n_mentions": 1,
+      "n_tweets_total": 137,
+      "mention_rate": 0.0073
+    },
+    {
+      "handle": "degentradinglsd",
+      "n_mentions": 1,
+      "n_tweets_total": 1102,
+      "mention_rate": 0.0009
+    },
+    {
+      "handle": "enrichtrades",
+      "n_mentions": 1,
+      "n_tweets_total": 1349,
+      "mention_rate": 0.0007
+    },
+    {
+      "handle": "jimmyhuli",
+      "n_mentions": 1,
+      "n_tweets_total": 2291,
+      "mention_rate": 0.0004
+    },
+    {
+      "handle": "jkeynesalpha",
+      "n_mentions": 1,
+      "n_tweets_total": 2371,
+      "mention_rate": 0.0004
+    },
+    {
+      "handle": "kiantrades",
+      "n_mentions": 1,
+      "n_tweets_total": 2127,
+      "mention_rate": 0.0005
+    },
+    {
+      "handle": "labubu_trader",
+      "n_mentions": 1,
+      "n_tweets_total": 2908,
+      "mention_rate": 0.0003
+    },
+    {
+      "handle": "latent_value7",
+      "n_mentions": 1,
+      "n_tweets_total": 215,
+      "mention_rate": 0.0047
+    },
+    {
+      "handle": "macnbtc",
+      "n_mentions": 1,
+      "n_tweets_total": 1864,
+      "mention_rate": 0.0005
+    },
+    {
+      "handle": "minnvestor",
+      "n_mentions": 1,
+      "n_tweets_total": 1750,
+      "mention_rate": 0.0006
+    },
+    {
+      "handle": "mylesmcnulty",
+      "n_mentions": 1,
+      "n_tweets_total": 164,
+      "mention_rate": 0.0061
+    },
+    {
+      "handle": "pennycheck",
+      "n_mentions": 1,
+      "n_tweets_total": 2307,
+      "mention_rate": 0.0004
+    },
+    {
+      "handle": "sandeman52",
+      "n_mentions": 1,
+      "n_tweets_total": 2001,
+      "mention_rate": 0.0005
+    },
+    {
+      "handle": "stormdirac",
+      "n_mentions": 1,
+      "n_tweets_total": 162,
+      "mention_rate": 0.0062
+    },
+    {
+      "handle": "undrvalue",
+      "n_mentions": 1,
+      "n_tweets_total": 1124,
+      "mention_rate": 0.0009
+    },
+    {
+      "handle": "vlmkapital",
+      "n_mentions": 1,
+      "n_tweets_total": 241,
+      "mention_rate": 0.0041
+    }
+  ],
+  "signals": {
+    "high_mention_rate": [],
+    "low_volume_heavy_mention": []
+  },
+  "samples_by_handle": {
+    "pepinveststocks": [
+      {
+        "id": "2050301576435085745",
+        "date": "2026-05-01",
+        "text": "5 Stocks Totally \n@aleabitoreddit\n Taste \n\nIf you know me, you know I hunt for under-the-radar names with serious asymmetric upside. \n\nHere are the five I’d happily hold for the next few years - all flying way below most investors’ radar but sitting in massive secular tailwinds:",
+        "url": "https://x.com/PepInvestStocks/status/2050301576435085745"
+      },
+      {
+        "id": "2050240346840248534",
+        "date": "2026-05-01",
+        "text": "Kirk Konert chairman from\n\n$YSS\n\nsits currently serves on the board of directors of\n\n$BBAI\n\n\n$RDW\n\nand\n\n$FLY\n\n\n\n@aleabitoreddit\n follows you, you made it.",
+        "url": "https://x.com/PepInvestStocks/status/2050240346840248534"
+      },
+      {
+        "id": "2049113565303316721",
+        "date": "2026-04-28",
+        "text": "$LPK $LPKF - The NEXT Bottleneck   x.com/aleabitoreddit…",
+        "url": "https://x.com/PepInvestStocks/status/2049113565303316721"
+      },
+      {
+        "id": "2047263598435549598",
+        "date": "2026-04-23",
+        "text": "Thanks \n@aleabitoreddit\n for illustrating the supply chain in relation to $SIVE. \n\nOne of the best graphics on this topic I’ve ever seen.\n\nI don’t know a single small-cap in the photonics space that is so indispensable to the entire ecosystem. \n\nSo why the hell is $SIVE so",
+        "url": "https://x.com/PepInvestStocks/status/2047263598435549598"
+      },
+      {
+        "id": "2046711313569603630",
+        "date": "2026-04-21",
+        "text": "$MXL\n $SIVE \n$AMD\n \n\nTake a look \n@aleabitoreddit\n what I found: if this partnership is still in place, it would be another strongly bullish signal for the stock.",
+        "url": "https://x.com/PepInvestStocks/status/2046711313569603630"
+      }
+    ],
+    "paradislabs": [
+      {
+        "id": "2051599438569676938",
+        "date": "2026-05-05",
+        "text": "@aleabitoreddit\n has covered Sivers better than I probably ever could, but I'm sure I'd get to the same conclusion if I put in as much time to researching them as he has!",
+        "url": "https://x.com/ParadisLabs/status/2051599438569676938"
+      },
+      {
+        "id": "2051300597891014838",
+        "date": "2026-05-04",
+        "text": "I don't really talk about them since they're already well-covered by people like \n@StormDirac\n, \n@aleabitoreddit\n. But yeah, I'm bullish since they're a mission critical chokepoint for the likes of Marvell",
+        "url": "https://x.com/ParadisLabs/status/2051300597891014838"
+      },
+      {
+        "id": "2048141370368397616",
+        "date": "2026-04-25",
+        "text": "Wow, I only just realised that I got my first ever \n@X\n payout via the revenue sharing programme!\n\nInspired by \n@aleabitoreddit\n and others, I'll be donating 100% of this money to:\n- Charities solving youth homelessness in London\n- Child welfare and protection charities in the UK",
+        "url": "https://x.com/ParadisLabs/status/2048141370368397616"
+      },
+      {
+        "id": "2046351662072148037",
+        "date": "2026-04-20",
+        "text": "FYI \n@aleabitoreddit",
+        "url": "https://x.com/ParadisLabs/status/2046351662072148037"
+      },
+      {
+        "id": "2045949540243558577",
+        "date": "2026-04-19",
+        "text": "Do you think that's needed though? Lots of people like \n@crux_capital_\n, \n@aleabitoreddit\n cover $SIVE in great detail already!",
+        "url": "https://x.com/ParadisLabs/status/2045949540243558577"
+      }
+    ],
+    "ren_aramb": [
+      {
+        "id": "2051462874686509528",
+        "date": "2026-05-05",
+        "text": "Back in January I had just begun posting about stocks on FinX. The first big account to follow me was \n@aleabitoreddit\n – my account didn’t even have 500 followers yet and this dude dropped a follow.\n\nI guess alpha can be found in more places than just stocks.\n\nHalf Legend / half",
+        "url": "https://x.com/Ren_aramb/status/2051462874686509528"
+      },
+      {
+        "id": "2048040051582398922",
+        "date": "2026-04-25",
+        "text": "@aleabitoreddit\n is the godfather of FinX, he is my main source of alpha. \n\nWouldn’t be having such a successful YTD without him.",
+        "url": "https://x.com/Ren_aramb/status/2048040051582398922"
+      },
+      {
+        "id": "2047693084599758959",
+        "date": "2026-04-24",
+        "text": "Holy mother of \n$MXL\n\n\nTalk about fomo, \n$MXL\n is up +70% in a single session.\n\n\n@aleabitoreddit\n called it 2 days ago in his sub, but even he didn’t get in.\n\nYou can’t win them all, but you can certainly try.\n\nThe TAM expansion is actually the most important part of the story.\n\n",
+        "url": "https://x.com/Ren_aramb/status/2047693084599758959"
+      },
+      {
+        "id": "2046803345008898274",
+        "date": "2026-04-22",
+        "text": "I legit wonder how many new accounts have been driven by \n@aleabitoreddit\n recommending non US stocks",
+        "url": "https://x.com/Ren_aramb/status/2046803345008898274"
+      },
+      {
+        "id": "2036818337569673576",
+        "date": "2026-03-25",
+        "text": "$ARM\n\n\nI wonder when the haters will come and say that \n@aleabitoreddit\n is pumping this \"Micro Cap\" company.\n\nI'm long since he called the news on the new chip.\n\nUp 17% on the news, and long on the new general direction the company is taking.\n\nThanks for the α",
+        "url": "https://x.com/Ren_aramb/status/2036818337569673576"
+      }
+    ],
+    "moodywriter13": [
+      {
+        "id": "2048774897925587052",
+        "date": "2026-04-27",
+        "text": "Interesting. I just noticed that my actor colleague from that short film \n@aleabitoreddit\n has blocked me. I’ve never spoken badly about him, but I always found it a bit telling how he consistently avoided any kind of connection. We never actually had any direct contact.",
+        "url": "https://x.com/MoodyWriter13/status/2048774897925587052"
+      },
+      {
+        "id": "2047576996134162618",
+        "date": "2026-04-24",
+        "text": "If Sivers is as important as presented here, why don’t these companies own stakes in Sivers? That’s unusual for firms like these. It certainly suggests that some skepticism is warranted in this regard. They would recently have had the opportunity to participate in a capital \nhttp",
+        "url": "https://x.com/MoodyWriter13/status/2047576996134162618"
+      },
+      {
+        "id": "2044003414422548717",
+        "date": "2026-04-14",
+        "text": "Riber’s $ALRIB production capacity is being significantly overestimated. The company is likely operating at around 50–60% utilization today.\nEven if QD laser demand rises sharply, which I believe is still 2–3 years away, Riber won’t be able to meet that demand. Scaling capacity \n",
+        "url": "https://x.com/MoodyWriter13/status/2044003414422548717"
+      },
+      {
+        "id": "2033470767896113496",
+        "date": "2026-03-16",
+        "text": "I’m the ghost trader of \n@aleabitoreddit\n. First she picked up my $SOI Soitec idea, now $SIVE too. Great that my followers could enter much cheaper, but she hasn’t reacted to a single one of my posts. Pretty pathetic.\n\n\nhttps://\nx.com/felixschreibe1\n3/status/2028816933030650223?s",
+        "url": "https://x.com/MoodyWriter13/status/2033470767896113496"
+      },
+      {
+        "id": "2031780284903854377",
+        "date": "2026-03-11",
+        "text": "The amazing thing about that post back then was that it was exactly at the lowest point..\n\nI can't imagine that \n@aleabitoreddit\n picked up on my idea and coincidentally chose exactly my words for soitec, and all those who followed as well..",
+        "url": "https://x.com/MoodyWriter13/status/2031780284903854377"
+      }
+    ],
+    "pepemoonboy": [
+      {
+        "id": "2044624615151157312",
+        "date": "2026-04-16",
+        "text": "When people tell you something is impossible, show them this. \n\nHuge congrats to my friend \n@aleabitoreddit\n. \n\nThis is only the beginning.\n\nKeep inspiring us all!",
+        "url": "https://x.com/pepemoonboy/status/2044624615151157312"
+      },
+      {
+        "id": "2042227575666126902",
+        "date": "2026-04-09",
+        "text": "Dude you have grown faster than anyone I’ve seen on this platform for only being on a month. \n@aleabitoreddit\n type growth! You will be huge. Your content is phenomenal. Only a matter of time",
+        "url": "https://x.com/pepemoonboy/status/2042227575666126902"
+      },
+      {
+        "id": "2034971859469394243",
+        "date": "2026-03-20",
+        "text": "You have two types of people on X right now…\n\nThose congratulating \n@aleabitoreddit\n for what is most likely the best YTD stock market performance in the world, by any single trader/investor…\n\nAnd then those hating because they’re jealous.\n\nIf you find yourself hating, I urge you",
+        "url": "https://x.com/pepemoonboy/status/2034971859469394243"
+      },
+      {
+        "id": "2034781006847263014",
+        "date": "2026-03-19",
+        "text": "The most impressive trader/investor on this platform.\n\nWho you follow matters.\n\nCongrats \n@aleabitoreddit\n, been a blast following your journey.",
+        "url": "https://x.com/pepemoonboy/status/2034781006847263014"
+      },
+      {
+        "id": "2011875432053031077",
+        "date": "2026-01-15",
+        "text": "SHEESH Serenity strikes again!\n\n \nhttps://\nx.com/aleabitoreddit\n/aleabitoreddit/status/2011872698809663516\n…",
+        "url": "https://x.com/pepemoonboy/status/2011875432053031077"
+      }
+    ],
+    "unclealpha007": [
+      {
+        "id": "2048852372273648121",
+        "date": "2026-04-27",
+        "text": "$lpk $lpkff 10x case with unit economics provided by Gemini AI\n\nCurrently trading at <.5x 2028 sales and 1.5x 2028 EBIT in a strong AI Capex scenario... \n\nMuch higher IMHO - I am long - NFA \n\n\n@aleabitoreddit\n \n@TheValueist",
+        "url": "https://x.com/UncleAlpha007/status/2048852372273648121"
+      },
+      {
+        "id": "2047283233096679512",
+        "date": "2026-04-23",
+        "text": "$lpkff would be Serenity’s \n@aleabitoreddit\n “all-in stock” right now and stock is down … that hasn’t happened in awhile. I am long \n\n$sive \n$aaoi\n \n$lite\n \n$cohr\n \n$mu\n $p4O $soi",
+        "url": "https://x.com/UncleAlpha007/status/2047283233096679512"
+      },
+      {
+        "id": "2046649124775227393",
+        "date": "2026-04-21",
+        "text": "The operating leverage with $lpk at 80% gross margin is huge. $130M in sales right now. If that goes to $300m due to their 80% market share, we are looking at $150m of ebitda. At 15x ebitda, market cap should be over $2B (4x from here). \n\nAnother great call \n@aleabitoreddit",
+        "url": "https://x.com/UncleAlpha007/status/2046649124775227393"
+      },
+      {
+        "id": "2043874004612563107",
+        "date": "2026-04-14",
+        "text": "Leaps on \n$poet\n remind me of leaps on \n$iren\n in April 2025. Stupid cheap \n\n\n@TheValueist\n \n@aleabitoreddit",
+        "url": "https://x.com/UncleAlpha007/status/2043874004612563107"
+      },
+      {
+        "id": "2035754556508835924",
+        "date": "2026-03-22",
+        "text": "@StormDirac\n do you think Sivers will list in a more liquid market? If so, what might the timeline look like? \n$axti\n for instance trades at such a huge market cap because its liquid on platforms like Robinhood \n\n\n@aleabitoreddit",
+        "url": "https://x.com/UncleAlpha007/status/2035754556508835924"
+      }
+    ],
+    "crux_capital_": [
+      {
+        "id": "2046597883617796174",
+        "date": "2026-04-21",
+        "text": "$POET\n We got an update! $SIVE \n\n@aleabitoreddit\n \n\nIn the StockTwits TV interview, CFO Thomas Mika said Celestial AI had been a POET customer for a couple of years, and that POET supplies high-bandwidth, multi-frequency, high-power light sources used in Celestial’s photonic fabr",
+        "url": "https://x.com/crux_capital_/status/2046597883617796174"
+      },
+      {
+        "id": "2029295196350104060",
+        "date": "2026-03-04",
+        "text": "@aleabitoreddit\n \n@KawzInvests\n \n@BillieBillion1\n \n@ShortSeller\n \n@realstockfox",
+        "url": "https://x.com/crux_capital_/status/2029295196350104060"
+      },
+      {
+        "id": "2028199779197731220",
+        "date": "2026-03-01",
+        "text": "I have gotten alot of comments asking me about $IQE \n\nIt has especially gotten alot of interest over the last week when \n@aleabitoreddit\n posted about it\n\nI am working on a post right now that lays out my thoughts, mostly in the framework of:\n\nWhere they sit in the stack.\nHow",
+        "url": "https://x.com/crux_capital_/status/2028199779197731220"
+      },
+      {
+        "id": "2013138306595536918",
+        "date": "2026-01-19",
+        "text": "Not every bottleneck provides a great investment opportunity\n\nBut there are some really great insights in this article by \n@aleabitoreddit\n \n\nEspecially the bit about finding the constraint that interests you/that you think is pertinent and then doing the research on the supply",
+        "url": "https://x.com/crux_capital_/status/2013138306595536918"
+      },
+      {
+        "id": "2006135147566141537",
+        "date": "2025-12-30",
+        "text": "Something I haven’t done enough is highlight other X accounts that I believe deserve a follow\n\nMy first one is going to be \n@aleabitoreddit\n \n\nIf you are interested in AI, tech, photonics this account is a must follow\n\nI am especially impressed by the in depth details on company",
+        "url": "https://x.com/crux_capital_/status/2006135147566141537"
+      }
+    ],
+    "superioresearch": [
+      {
+        "id": "2032468523935576344",
+        "date": "2026-03-13",
+        "text": "$HIMX\n: Trade Idea with \n@khawatmiTradez\n \n\nNot trying to be the next \n@aleabitoreddit\n, but the long dated calls here look mispriced. \n\n1/21/28: $12 calls, $2.53 a contract, 59% IV\n\n1/21/28: $15 calls, $3.10 a contract. 65% IV\n\nObviously this mispricing comes from the move cause",
+        "url": "https://x.com/Superioresearch/status/2032468523935576344"
+      },
+      {
+        "id": "2023579209071780000",
+        "date": "2026-02-17",
+        "text": "11) Thanks for reading if you made it this far. Some great accounts to follow that cover Kioxia below: \n\n@aleabitoreddit\n \n@Arronwei3n \n\n@TheValueist\n \n\n@jukan05\n \n\n@Unclestocknotes\n \n\n@bboczeng",
+        "url": "https://x.com/Superioresearch/status/2023579209071780000"
+      },
+      {
+        "id": "2021945290157367773",
+        "date": "2026-02-12",
+        "text": "@TradexWhisperer\n \n\n@sam_badawi\n \n\n@MarkosAAIG\n\n\n@aleabitoreddit\n \n\n@_HalalTrader_\n \n\n@ns123abc\n \n\n@HyperTechInvest",
+        "url": "https://x.com/Superioresearch/status/2021945290157367773"
+      },
+      {
+        "id": "2017812114241364280",
+        "date": "2026-02-01",
+        "text": "Shoutout to these accounts who helped me write this: Highly recommend you give them a follow: \n@TradexWhisperer\n  \n@RJCcapital\n  \n@MarkosAAIG\n  \n@aleabitoreddit\n  \n@_HalalTrader_\n  \n@jukan05\n  \n@ns123abc\n  \n@HyperTechInvest",
+        "url": "https://x.com/Superioresearch/status/2017812114241364280"
+      },
+      {
+        "id": "2009017973294682316",
+        "date": "2026-01-07",
+        "text": "Shoutout to a few accounts whose research helped with this thread. You should give them all a follow for future \n$OSS\n updates and research:\n\n\n@_OneStopSystems\n \n\n@HeikoBusiness\n \n\n@MegatrendGlobal\n \n\n@stocktalkweekly\n \n\n@pennycheck\n \n\n@bitcoinarch\n \n\n@mellowrk_lion\n \n\n@aleabitor",
+        "url": "https://x.com/Superioresearch/status/2009017973294682316"
+      }
+    ],
+    "singularityres": [
+      {
+        "id": "2043984992783790328",
+        "date": "2026-04-14",
+        "text": "At this point\n\nevery startup is an llm wrapper \n\nevery hedge fund is a Semianalysis wrapper\n\nand every retail optics investor is a \n@aleabitoreddit\n wrapper",
+        "url": "https://x.com/SingularityRes/status/2043984992783790328"
+      },
+      {
+        "id": "2039772047828746478",
+        "date": "2026-04-02",
+        "text": "Serenity has a paper in Nature. \n@aleabitoreddit\n didn’t know he was this crazy smart.",
+        "url": "https://x.com/SingularityRes/status/2039772047828746478"
+      },
+      {
+        "id": "2034837546359034145",
+        "date": "2026-03-20",
+        "text": "I don’t understand the hate \n@aleabitoreddit\n is receiving \n\nHe finds stocks that no one is talking about. People criticize him about pumping small caps but the thesis for each and every one of them is accurate\n\nHe has talked about microcap stocks that even Citrini talks about.",
+        "url": "https://x.com/SingularityRes/status/2034837546359034145"
+      },
+      {
+        "id": "2026757017701068993",
+        "date": "2026-02-25",
+        "text": "All you had to do was all-in on memory, and you would have beaten everyone's YTD except \n@aleabitoreddit\n \n\n\n$KORU",
+        "url": "https://x.com/SingularityRes/status/2026757017701068993"
+      }
+    ],
+    "zizonchain": [
+      {
+        "id": "2044868440587190744",
+        "date": "2026-04-16",
+        "text": "The story of $SIVE is INSANE. \n\nIf you participated or not, it’s worth knowing about these 2 accounts. \n\nBefore it soared up 400%, \n@MoodyWriter13\n researched the company and told \n@aleabitoreddit\n about it in the comments. \n\nThen both of them bought at a $140M market cap and tol",
+        "url": "https://x.com/zizonchain/status/2044868440587190744"
+      },
+      {
+        "id": "2044479440160424123",
+        "date": "2026-04-15",
+        "text": "2026 AI BUBBLE TOP SIGNAL \n\n$BIRD, a shoe brand, up 572% after announcing a pivot into GPU-aaS \n\nThis is a video in tribute to show respect to the immense amount of work \n@aleabitoreddit\n has put to help us ride the Silicon Photonics with her, while it lasted. \n\npart 1/2\npls enjo",
+        "url": "https://x.com/zizonchain/status/2044479440160424123"
+      },
+      {
+        "id": "2043798960217960847",
+        "date": "2026-04-13",
+        "text": "If \n@aleabitoreddit\n was a girl, this is what he’d look like. \n\nPart 1/2",
+        "url": "https://x.com/zizonchain/status/2043798960217960847"
+      },
+      {
+        "id": "2041309712571076833",
+        "date": "2026-04-07",
+        "text": "yeah so this is insane\n\ninternet investor \n@aleabitoreddit\n  made $AEHR gain 14.28% from one single post in <2 days.\n\ndug into her recent investments and… holy fuck\n\n- MASSIVE profit from buying $AXTI at $15 with price target $150\n\n- massively followed by HFT algos. making such",
+        "url": "https://x.com/zizonchain/status/2041309712571076833"
+      }
+    ],
+    "0xkyle__": [
+      {
+        "id": "2046147982886887655",
+        "date": "2026-04-20",
+        "text": "v2.0 - Now includes live price updates of his callouts - congrats on the 3x now that $SIVE is $28 \n@aleabitoreddit\n \n\nLaunching soon, but lots of stuff to fix first UI-wise. Not the best, as you can see.",
+        "url": "https://x.com/0xkyle__/status/2046147982886887655"
+      },
+      {
+        "id": "2045724240721359037",
+        "date": "2026-04-19",
+        "text": "and ofc, h/t to \n@aleabitoreddit\n for always posting such great stuff. thank u brother",
+        "url": "https://x.com/0xkyle__/status/2045724240721359037"
+      },
+      {
+        "id": "2045724081488867360",
+        "date": "2026-04-19",
+        "text": "since no one did it, i built a dashboard to see \n@aleabitoreddit\n's live picks alongside the thesis of each stock so that you too, can make money on his shills",
+        "url": "https://x.com/0xkyle__/status/2045724081488867360"
+      }
+    ],
+    "daniel_koss": [
+      {
+        "id": "2051176212265898401",
+        "date": "2026-05-04",
+        "text": "It's certainly not about \n@yianisz\n and also NOT about \n@aleabitoreddit\n or \n@jukan05\n btw. I would appreciate if both would be more transparent and share when they buy and what % of portfolio allocation, but I understand why they don't and they both mention stocks by name.",
+        "url": "https://x.com/daniel_koss/status/2051176212265898401"
+      },
+      {
+        "id": "2047672522473140513",
+        "date": "2026-04-24",
+        "text": "Holy shit \n$INTC\n crushed it!\n\nI genuinely believe \n$SHMD\n and $LPKF could 10x as a result. They could be the best levered way to profit from Intel's success and this general supercycle.\n\nNow I finally understand why \n@aleabitoreddit\n \n@JKeynesAlpha\n \n@genZinvest0r\n and many othe",
+        "url": "https://x.com/daniel_koss/status/2047672522473140513"
+      },
+      {
+        "id": "2031734000843116609",
+        "date": "2026-03-11",
+        "text": "Great day to be a communist \n@aleabitoreddit\n \n\nHitting the gym now and then already excited to listen to the bears explain why today's news was super bearish for \n$NBIS\n ",
+        "url": "https://x.com/daniel_koss/status/2031734000843116609"
+      }
+    ],
+    "thevalueist": [
+      {
+        "id": "2047484482358550684",
+        "date": "2026-04-24",
+        "text": "Get involved, people! I might not be able to post the stats that my friend \n@aleabitoreddit\n can (you should subscribe to his as well), but I’m giving it a try! A nominal $1/month (X doesn't allow it to be lower) to keep the signal high and the conversation and questions tight.",
+        "url": "https://x.com/TheValueist/status/2047484482358550684"
+      },
+      {
+        "id": "2025951553543115239",
+        "date": "2026-02-23",
+        "text": "This \n$EWY\n trade was stupid good. If you are an investor or trader on X, you simply must be following \n@aleabitoreddit\n . He understands macro, micro/company-level, and derivatives technicals, then puts it all together for you in one easily understandable package. A tremendous",
+        "url": "https://x.com/TheValueist/status/2025951553543115239"
+      },
+      {
+        "id": "2025026606197281229",
+        "date": "2026-02-21",
+        "text": "Again, outstanding trade on long \n$EWY\n leaps call by \n@aleabitoreddit\n . Massive leap call volume today relative to OI. US investors want exposure to SK Hynix and Samsung for memory/storage, and this is a readily available way to do it.",
+        "url": "https://x.com/TheValueist/status/2025026606197281229"
+      }
+    ],
+    "FD_coop_NY": [
+      {
+        "id": "2048156531565219947",
+        "date": "2026-04-25",
+        "text": "@aleabitoreddit\n \nGreetings from a Day 1 paid subscriber that never bothers you with questions (as I know you receive many). \n\nSo here’s one for you and how it relates to “compute power” (the CPU/GPU) being effectively bottlenecked by the physical ability to deliver, convert, and",
+        "url": "https://x.com/FD_coop_NY/status/2048156531565219947"
+      },
+      {
+        "id": "2028460669889073521",
+        "date": "2026-03-02",
+        "text": "@aleabitoreddit\n caused it ",
+        "url": "https://x.com/FD_coop_NY/status/2028460669889073521"
+      }
+    ],
+    "_gautam_94": [
+      {
+        "id": "2048766077098688756",
+        "date": "2026-04-27",
+        "text": "Serenity \n@aleabitoreddit\n Its time to update your SC flowchart $sive $poet",
+        "url": "https://x.com/_gautam_94/status/2048766077098688756"
+      },
+      {
+        "id": "2046753047322255848",
+        "date": "2026-04-22",
+        "text": "Serenity \n@aleabitoreddit\n  is playing a dangerous game with sivers $sive here. Small retail investors like us should be careful by not chasing at these high prices..\n\nI've seen so many hype posts shilling $sive and lot of speculation about their partnerships and future growth..",
+        "url": "https://x.com/_gautam_94/status/2046753047322255848"
+      }
+    ],
+    "babybluecream": [
+      {
+        "id": "2048168346370338898",
+        "date": "2026-04-25",
+        "text": "@aleabitoreddit\n Strategy Structure | 260426\n\nThis strategy isn't luck.\n\nThere is a repeatable pattern, and that pattern has clear logic.\n\nThe key is waiting for the moment when three things align simultaneously.\n\nA company that no one is paying attention to\n\nAn external catalyst",
+        "url": "https://x.com/babybluecream/status/2048168346370338898"
+      },
+      {
+        "id": "2047687578640588988",
+        "date": "2026-04-24",
+        "text": "@aleabitoreddit\n By any chance, are you tracking $MXL too?",
+        "url": "https://x.com/babybluecream/status/2047687578640588988"
+      }
+    ],
+    "dynamicmoats": [
+      {
+        "id": "2044035123453276176",
+        "date": "2026-04-14",
+        "text": "@aleabitoreddit",
+        "url": "https://x.com/DynamicMoats/status/2044035123453276176"
+      },
+      {
+        "id": "2043960542465835176",
+        "date": "2026-04-14",
+        "text": "@aleabitoreddit\n check DM",
+        "url": "https://x.com/DynamicMoats/status/2043960542465835176"
+      }
+    ],
+    "equityclimb1": [
+      {
+        "id": "2042405006289318161",
+        "date": "2026-04-10",
+        "text": "I was asking \n@aleabitoreddit\n  about \n$AEHR\n in Jan when stock was under 22. This was around when the stock started getting more recognition and thesis started playing.  Again they are really good at finding at names and a must follow name in stock investment space.",
+        "url": "https://x.com/equityclimb1/status/2042405006289318161"
+      },
+      {
+        "id": "2037583452837716105",
+        "date": "2026-03-27",
+        "text": "@aleabitoreddit\n  Why you need to pay attention to these chinese bot accounts? Ignore them. There is more people who like your work and appreciate it.",
+        "url": "https://x.com/equityclimb1/status/2037583452837716105"
+      }
+    ],
+    "fundaai": [
+      {
+        "id": "2034960911392546918",
+        "date": "2026-03-20",
+        "text": "@aleabitoreddit\n Serenity produces many excellent summaries and has an outstanding ability to learn quickly. The buy side also frequently studies sell-side reports, and I feel that most of it is probably from his own research as well.",
+        "url": "https://x.com/FundaAI/status/2034960911392546918"
+      },
+      {
+        "id": "2034880590730993927",
+        "date": "2026-03-20",
+        "text": "I think we've done in-depth research, and our clients are mainly institutional investors. So in terms of influence over retail investors, \n@aleabitoreddit\n  is actually stronger than us.",
+        "url": "https://x.com/FundaAI/status/2034880590730993927"
+      }
+    ],
+    "michaelsikand": [
+      {
+        "id": "2031462908455170245",
+        "date": "2026-03-10",
+        "text": "On 3/10/2026, $KRKNF became the hottest stock in the world.\n\nIran is laying mines in Hormuz.\n\nThis makes Kraken's mine counter-measure tech the difference between $0 and $1T in trade.\n\nMentioned today by \n@aleabitoreddit\n , \n@Citrini7\n, \n@amitisinvesting\n and more",
+        "url": "https://x.com/michaelsikand/status/2031462908455170245"
+      },
+      {
+        "id": "2018091078231224641",
+        "date": "2026-02-01",
+        "text": "Your portfolio will be a bloodbath in 2026.\n\nUnless you understand this.\n\nBecause the smart money on FinX has made 2026 positioning crystal clear...\n\nHave you noticed the best traders aren't giving you new stock ideas this year?\n\n\n@aleabitoreddit\n is telling you the memory",
+        "url": "https://x.com/michaelsikand/status/2018091078231224641"
+      }
+    ],
+    "plaskpojken": [
+      {
+        "id": "2038329905159508451",
+        "date": "2026-03-29",
+        "text": "I’ve been quiet for a few days, but I haven't been idle.\n\nThe recent narrative from Swedish financial media regarding Sivers Semiconductors ( $SIVE / $SIVEF ) has been incredibly frustrating. They label the data-driven retail discussion as a \"cult\" (shoutout to \n@aleabitoreddit\n)",
+        "url": "https://x.com/Plaskpojken/status/2038329905159508451"
+      },
+      {
+        "id": "2034256602090332303",
+        "date": "2026-03-18",
+        "text": "I think \n@aleabitoreddit\n mostly covered the photonics department of Sivers so far. I think the wireless has a lot of uncovered potential and is about to get a correction in valuation soon when the market understands the demand for Sivers products in both defence and commercial",
+        "url": "https://x.com/Plaskpojken/status/2034256602090332303"
+      }
+    ],
+    "tacticzh": [
+      {
+        "id": "2047631589849341992",
+        "date": "2026-04-24",
+        "text": "Serenity might be investigated by the NASDAQ  \n@aleabitoreddit\n - $SIVE",
+        "url": "https://x.com/TacticzH/status/2047631589849341992"
+      },
+      {
+        "id": "2036013681515921663",
+        "date": "2026-03-23",
+        "text": "@aleabitoreddit\n definitely worth a closer look!",
+        "url": "https://x.com/TacticzH/status/2036013681515921663"
+      }
+    ],
+    "thesarge_": [
+      {
+        "id": "2041952595267481744",
+        "date": "2026-04-08",
+        "text": "Lots of new followers thanks to \n@aleabitoreddit\n :)\n\nAppreciate all of you, will look to be more active here going forward.",
+        "url": "https://x.com/TheSarge_/status/2041952595267481744"
+      },
+      {
+        "id": "2032032754934620609",
+        "date": "2026-03-12",
+        "text": "cc \n@PhotonCap\n \n@aleabitoreddit\n curious if you've looked at these",
+        "url": "https://x.com/TheSarge_/status/2032032754934620609"
+      }
+    ],
+    "JC_GetRichSlow": [
+      {
+        "id": "2031789693130654126",
+        "date": "2026-03-11",
+        "text": "@aleabitoreddit\n \n@yianisz\n \n\nThoughts/comments where \n$HIMX\n potentially stands in the optical stack?",
+        "url": "https://x.com/JC_GetRichSlow/status/2031789693130654126"
+      }
+    ],
+    "MWM76": [
+      {
+        "id": "2048589781290901653",
+        "date": "2026-04-27",
+        "text": "@aleabitoreddit\n have you looked at \n$MX\n? Seems like your type of play trading at 1X Sales.\n\n$SMH",
+        "url": "https://x.com/MWM76/status/2048589781290901653"
+      }
+    ],
+    "alexbhturnbull": [
+      {
+        "id": "2046431807751762015",
+        "date": "2026-04-21",
+        "text": "I would like share some very cool work at \n@Opticore_AI\n. The team have fabbed out a 256x256 crossbar structure for MAC operations that allow up to 330 TOPS/W all on foundry processes. May be of interest to \n@citrini\n \n@aleabitoreddit\n \n@PhotonCap",
+        "url": "https://x.com/alexbhturnbull/status/2046431807751762015"
+      }
+    ],
+    "blackscholesman": [
+      {
+        "id": "2011583257817796808",
+        "date": "2026-01-14",
+        "text": "I've initiated positions in $LPTH ($621M).\n\nLightpath is incredible.\n\nEvery modern thermal weapon (Missiles, Drones) requires Germanium glass, which China owns (70%)\n\nLPTH is the only US alternative with: Black Diamond\n\nUsers?\n\n- $ONDS\n- L3Harris\n- Lockheed\n- Andruil (likely)\n-  ",
+        "url": "https://x.com/BlackScholesMan/status/2011583257817796808"
+      }
+    ],
+    "blinklebloop": [
+      {
+        "id": "2044157808183017943",
+        "date": "2026-04-14",
+        "text": "Big day for Soitec! \n\nUp a solid 40% since we profiled it. \n\nA lot of the recent move is due to retail climbing into the hype around Photonics following \n@aleabitoreddit\n and \n@citrini\n being bullish on the stock.\n\nOf all the photonics names, this probably remains my favorite rew",
+        "url": "https://x.com/Blinklebloop/status/2044157808183017943"
+      }
+    ],
+    "consensusgurus": [
+      {
+        "id": "2049464999081325002",
+        "date": "2026-04-29",
+        "text": "@aleabitoreddit\n singlehandedly killing \n$HOOD\n!",
+        "url": "https://x.com/ConsensusGurus/status/2049464999081325002"
+      }
+    ],
+    "cyberprince_rwo": [
+      {
+        "id": "2049565187435282826",
+        "date": "2026-04-29",
+        "text": "Ask \n@aleabitoreddit",
+        "url": "https://x.com/cyberprince_rwo/status/2049565187435282826"
+      }
+    ],
+    "deepinference": [
+      {
+        "id": "2046588169760428305",
+        "date": "2026-04-21",
+        "text": "cc: \n@beach_trades\n \n@aleabitoreddit",
+        "url": "https://x.com/DeepInference/status/2046588169760428305"
+      }
+    ],
+    "degentradinglsd": [
+      {
+        "id": "2050642570414580068",
+        "date": "2026-05-02",
+        "text": "$SIVE - now that this ticker has crossed 1b in mkt cap - tailed \n@aleabitoreddit\n on this trade. this account has gotten very popular lately - i didnt manage to buy it anywhere near 4SEK, but ~6.2 SEK on avg",
+        "url": "https://x.com/degentradingLSD/status/2050642570414580068"
+      }
+    ],
+    "enrichtrades": [
+      {
+        "id": "2051363077006786747",
+        "date": "2026-05-04",
+        "text": "$SIVE up over 50% today wow\n\nPhotonics sector name with huge potential\n\nShoutout to \n@aleabitoreddit\n for this unbelievable play",
+        "url": "https://x.com/enrichtrades/status/2051363077006786747"
+      }
+    ],
+    "jimmyhuli": [
+      {
+        "id": "2037489901143498820",
+        "date": "2026-03-27",
+        "text": "Hi \n@aleabitoreddit\n  , thanks for the Chinese reply!\n\njust out of curiosity,\n\ndid you just AI translate this into Chinese:\n\n\"lmao, can't you use a better title please\"",
+        "url": "https://x.com/jimmyhuli/status/2037489901143498820"
+      }
+    ],
+    "jkeynesalpha": [
+      {
+        "id": "2038347115466772952",
+        "date": "2026-03-29",
+        "text": "$TEM\n is an institutional-facing company supporting pharma, researchers, institutions, hospital systems, and providers. They are ramping up AI precision medicine infrastructure at scale. But \n@aleabitoreddit\n has a good point, there will need to be many platforms that interface w",
+        "url": "https://x.com/JKeynesAlpha/status/2038347115466772952"
+      }
+    ],
+    "kiantrades": [
+      {
+        "id": "2033547010381672954",
+        "date": "2026-03-16",
+        "text": "the power of X \n$SIVE\n\nNice one \n@aleabitoreddit",
+        "url": "https://x.com/kiantrades/status/2033547010381672954"
+      }
+    ],
+    "labubu_trader": [
+      {
+        "id": "2045311321043009905",
+        "date": "2026-04-18",
+        "text": "Zero hope of catching up Master Serenity \n@aleabitoreddit\n this year.\nMost wins were from AMD, AEHR, RKLB, 3103 and KORU this week.",
+        "url": "https://x.com/labubu_trader/status/2045311321043009905"
+      }
+    ],
+    "latent_value7": [
+      {
+        "id": "2046195760991981615",
+        "date": "2026-04-20",
+        "text": "Jenoptik is a ticket into the Advantest silicon photonics testing chain. Jenoptik + v93000 + electric prober (Accretech, etc) via passive alignment for earlier testing -> Triton (v93000 + Formfactor) for later. Vs. Ficontec +/- Ter all active alignment on the other side. \nhttps:/",
+        "url": "https://x.com/latent_value7/status/2046195760991981615"
+      }
+    ],
+    "macnbtc": [
+      {
+        "id": "2049878057276608661",
+        "date": "2026-04-30",
+        "text": "$SIVE +200% something in only 2.5 weeks\n\nall credit to \n@aleabitoreddit\n, made me more than I made in crypto past 5 months",
+        "url": "https://x.com/MacnBTC/status/2049878057276608661"
+      }
+    ],
+    "minnvestor": [
+      {
+        "id": "2028563355632599509",
+        "date": "2026-03-02",
+        "text": "I was early to research \n$AXTI\n but I didn't \"call\" it\n\nSerenity, on the other hand, did. Here are a few niche bottleneck plays they're looking at now \n@aleabitoreddit\n:\n\nSoitec $SOI.PA\nFrench maker of silicon-on-insulator (SOI) wafers with a dominant position in photonics-SOI vi",
+        "url": "https://x.com/Minnvestor/status/2028563355632599509"
+      }
+    ],
+    "mylesmcnulty": [
+      {
+        "id": "2029156926710297023",
+        "date": "2026-03-04",
+        "text": "Almost entirely down to the excellent thesis on $IQE #IQE by \n@aleabitoreddit\n.\n\nThey also singlehandedly catalyzed the monster move in $RPI #RPI last month.\n\nReally encouraging to see major US retail players (and consequently, their hordes of followers!) slowly turning their",
+        "url": "https://x.com/MylesMcNulty/status/2029156926710297023"
+      }
+    ],
+    "pennycheck": [
+      {
+        "id": "2046236131008618616",
+        "date": "2026-04-20",
+        "text": "How crazy is it to legit long \n$IBKR\n into earnings tmrw due to the thousands of brand new \n@aleabitoreddit\n 'serenity' accounts started in the last 2 months?",
+        "url": "https://x.com/pennycheck/status/2046236131008618616"
+      }
+    ],
+    "sandeman52": [
+      {
+        "id": "2048748568295420141",
+        "date": "2026-04-27",
+        "text": "Paging \n@aleabitoreddit\n \n\nThis guy would like to debate you.",
+        "url": "https://x.com/Sandeman52/status/2048748568295420141"
+      }
+    ],
+    "stormdirac": [
+      {
+        "id": "2047213819403866541",
+        "date": "2026-04-23",
+        "text": "Yet again great deep research by \n@aleabitoreddit\n ",
+        "url": "https://x.com/StormDirac/status/2047213819403866541"
+      }
+    ],
+    "undrvalue": [
+      {
+        "id": "2050290976313184739",
+        "date": "2026-05-01",
+        "text": "Good read. \n\n$WOLF is an interesting one\n\n- fresh out of restructuring\n- small cap now, $14b at peak\n- real tech x.com/aleabitoreddit…",
+        "url": "https://x.com/undrvalue/status/2050290976313184739"
+      }
+    ],
+    "vlmkapital": [
+      {
+        "id": "2048147349399122164",
+        "date": "2026-04-25",
+        "text": "Uh chat... is my timing insane or what?\n\nNames like $TSEM are flat all year, I go long, then it doubles. The moment I go long on $AEHR, it almost triples.\n\nPeople are starting to think I'm the catalyst because this keeps happening over and over... lol this is a $22B+ company.  x.",
+        "url": "https://x.com/vlmkapital/status/2048147349399122164"
+      }
+    ]
+  }
+}

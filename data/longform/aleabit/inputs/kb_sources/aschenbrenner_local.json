@@ -1,0 +1,16 @@
+{
+  "id": "aschenbrenner_local",
+  "category": "aschenbrenner_local",
+  "title": "Local 13F holdings parquet (5 quarters Q4 2024 \u2192 Q4 2025)",
+  "url": "file:///Users/alphaone/Documents/Code/fin_v1/projects/13f_pipeline/data/holdings_with_tickers.parquet",
+  "local_path": "~/Documents/Code/fin_v1/projects/13f_pipeline/data/holdings_with_tickers.parquet",
+  "is_primary": false,
+  "tags": [
+    "aschenbrenner",
+    "13f",
+    "local",
+    "parquet"
+  ],
+  "last_updated": "2026-05-01",
+  "last_updated_by": "manual@v0"
+}

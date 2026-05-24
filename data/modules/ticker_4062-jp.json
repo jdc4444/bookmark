@@ -1,0 +1,28 @@
+{
+  "key": "4062 JP",
+  "name": "Ibiden Co., Ltd.",
+  "exchange": "Tokyo Stock Exchange",
+  "blurb": "Ibiden Co., Ltd. is a Japanese electronics and ceramics manufacturer, primarily known for producing printed circuit boards (PCBs) and ceramic products. The company is a key supplier of IC substrates for semiconductors, particularly for AI server applications, which has driven recent growth. It also produces ceramic components for automotive and industrial use. Ibiden holds a strong position in the high-end PCB market, benefiting from demand for generative AI infrastructure.",
+  "recent": "In the past 30 days, Ibiden's stock surged over 22% on May 7, 2026, reaching a year-high of ¥16,375, driven by strong demand for AI-related substrates. However, on May 8, the stock fell 5.25% to ¥15,515 as profit-taking emerged. The company's Q3 FY2026 results showed a 10.5% revenue increase and 27.7% operating profit growth, fueled by electronics segment strength.",
+  "sources": [
+    {
+      "url": "https://www.marketscreener.com/quote/stock/IBIDEN-CO-LTD-6494666/",
+      "title": "Ibiden Co.,Ltd. Stock (4062) - Quote Japan Exchange- MarketScreener"
+    },
+    {
+      "url": "https://finance.yahoo.co.jp/quote/4062.T",
+      "title": "イビデン (株)【4062】：株価・株式情報 - Yahoo!ファイナンス"
+    },
+    {
+      "url": "https://finance.yahoo.com/quote/4062.T/",
+      "title": "Ibiden Co.,Ltd. (4062.T) Stock Price, News, Quote & History - Yahoo Finance"
+    },
+    {
+      "url": "https://www.google.com/finance/beta/quote/4062:TYO",
+      "title": "Ibiden Co Ltd (4062) Stock Price & News - Google Finance"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-08T10:28:11.899714Z",
+  "backend": "deepseek"
+}

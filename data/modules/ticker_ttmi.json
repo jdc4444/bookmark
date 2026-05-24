@@ -1,0 +1,24 @@
+{
+  "key": "TTMI",
+  "name": "TTM Technologies, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "TTM Technologies is the largest printed-circuit-board (PCB) manufacturer in North America and one of the top five globally, headquartered in Santa Ana, California. PCBs are the laminated boards that mechanically support and electrically connect electronic components in virtually every device — from fighter jets to AI server racks. TTM's end markets include aerospace and defence (roughly 45% of revenue), data-centre computing (growing rapidly from a 14% base), medical and industrial, automotive, and networking. The company also produces radio-frequency and specialty (RF&S) components. TTM has historically supplied PCBs for Google's tensor processing unit (TPU) server programmes alongside Korea's ISU, maintaining an estimated 20–30% market share in that segment.",
+  "recent": "TTM's data-centre computing segment grew approximately 57% in 2025, driven by ultra-HDI (high-density interconnect) board demand for AI server programmes. In July 2025, the company acquired a 750,000-square-foot manufacturing facility in Eau Claire, Wisconsin, and secured land rights in Penang, Malaysia, to support high-volume US production of advanced PCBs for AI and defence. The company is positioned as a beneficiary of US government reshoring requirements for defence electronics and growing domestic AI infrastructure investment.",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/TTM_Technologies",
+      "title": "TTM Technologies — Wikipedia"
+    },
+    {
+      "url": "https://seekingalpha.com/article/4830515-ttm-technologies-the-silent-pcb-leader-poised-for-breakout-growth",
+      "title": "TTM Technologies: PCB Leader — Seeking Alpha"
+    },
+    {
+      "url": "https://investors.ttm.com/news-events/press-releases/detail/382/ttm-technologies-inc-prepares-for-the-future-with-the",
+      "title": "TTM Wisconsin Facility Acquisition — TTM Investor Relations"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

@@ -1,0 +1,69 @@
+{
+  "headline": "StableGen Brings AI-Powered Texture Generation Inside Blender",
+  "lede": "Texturing — painting realistic surface detail onto 3D models — is one of the most time-consuming steps in digital art production. StableGen, a free and open-source plugin for the popular 3D suite Blender, collapses that step into a prompt and a button press. The tool runs a local generative AI pipeline to produce and apply textures directly inside the application.",
+  "body": "StableGen works by connecting Blender to **ComfyUI**, a node-based interface that orchestrates *Stable Diffusion XL* (SDXL) — a family of open-source image-generation models — as its backend. Rather than generating a flat image separately and then manually wrapping it around a mesh, the plugin projects AI-generated imagery onto 3D surfaces from one or more camera viewpoints, handling the geometry-to-pixel mapping automatically.\n\nPrecision is managed through **ControlNet** units — modules that feed structural cues (depth maps, edge outlines, surface normals) directly into the diffusion process. This prevents the AI from ignoring the model's shape: a curved vase stays curved in the texture, a brick wall's corners align with the mesh's corners. Users can stack multiple ControlNet types simultaneously for tighter geometric fidelity.\n\nFor objects viewed from multiple angles — the common case in any real scene — StableGen offers two consistency modes. *Sequential Mode* generates each viewpoint in turn, using inpainting and visibility masks to blend each pass with the last; *Grid Mode* processes several viewpoints at once for faster, if slightly looser, previews. Style can be steered further with *IPAdapter*, which lets users supply a reference image to match a particular mood or aesthetic without fine-tuning the underlying model.\n\nThe plugin also supports scene-wide texturing: rather than processing one mesh at a time, it can apply coherent textures across every object in a scene in a single generation pass, a meaningful productivity gain for environment artists working on complex sets. Custom *LoRAs* (lightweight model fine-tunes) and any SDXL checkpoint the user already owns can be slotted in, keeping the workflow within existing asset libraries.\n\nThe practical ceiling is hardware: SDXL inference demands a capable GPU, and multi-view generation multiplies that demand. Users without a modern discrete graphics card will find the pipeline slow or impractical. The plugin itself is free; the compute cost is the user's own machine.",
+  "tickers": [],
+  "poster": "alexfredo87",
+  "concepts": [
+    {
+      "key": "uv-texturing",
+      "term": "UV texturing",
+      "definition": "The process of wrapping a 2D image onto a 3D mesh by 'unfolding' the mesh's surface like a flat map. UV coordinates (named for the horizontal and vertical axes of that flat space) tell the renderer which part of the image maps to which polygon on the model."
+    },
+    {
+      "key": "controlnet",
+      "term": "ControlNet",
+      "definition": "An add-on architecture for diffusion models that accepts structural images — depth maps, edge outlines, surface normals — as additional inputs, guiding generation to respect specific geometric constraints rather than inventing arbitrary compositions."
+    },
+    {
+      "key": "ipadapter",
+      "term": "IPAdapter",
+      "definition": "A lightweight adapter that feeds an existing image into a diffusion model as a style reference, without full fine-tuning. The model learns to match the reference's color palette, texture character, or mood while still following text prompts."
+    },
+    {
+      "key": "comfyui",
+      "term": "ComfyUI",
+      "definition": "An open-source graphical interface for building and running Stable Diffusion pipelines as node graphs. It exposes low-level controls over each step of diffusion inference and serves as a popular local backend for third-party tools."
+    },
+    {
+      "key": "lora",
+      "term": "LoRA (Low-Rank Adaptation)",
+      "definition": "A technique for fine-tuning large AI models cheaply by training only a small set of additional weights that modify the base model's behavior. LoRA files are compact and can be swapped in and out at inference time to shift an image model's style or subject matter."
+    },
+    {
+      "key": "inpainting",
+      "term": "Inpainting",
+      "definition": "The diffusion-model technique of regenerating only a masked region of an image while preserving the rest. StableGen uses it to fill gaps in multi-view texture passes without overwriting surfaces already resolved from earlier viewpoints."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "sakalond-StableGen",
+      "url": "https://github.com/sakalond/StableGen",
+      "summary": "StableGen is an open-source Blender add-on that routes 3D mesh geometry through a ComfyUI/SDXL pipeline to generate and project AI textures directly onto scene objects. It supports ControlNet for geometric precision, IPAdapter for style guidance, and both single- and multi-mesh generation modes. Installation requires a working ComfyUI backend and a compatible SDXL checkpoint; the plugin itself is free."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/sakalond/StableGen",
+      "title": "StableGen — GitHub",
+      "note": "Primary source: repository documentation detailing features, architecture, and installation steps"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/luka-tisler_ever-wished-your-3d-models-could-texture-activity-7332667676810436608-VUu1",
+      "title": "LinkedIn post by Luka Tisler on StableGen",
+      "note": "Secondary source: feature breakdown including multi-view modes, ControlNet types, and IPAdapter usage"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EVNYAMnn_oQ",
+      "title": "StableGen Tutorial — YouTube",
+      "note": "Corroborating source confirming the plugin is free and Blender-native"
+    }
+  ],
+  "bookmark_id": "1924617998557438342",
+  "generated_at": "2026-05-06T20:59:07.137133Z",
+  "backend": "claude"
+}

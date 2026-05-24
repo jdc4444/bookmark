@@ -1,0 +1,43 @@
+{
+  "headline": "A Free Blender Wrinkle Rig Finds Its First Grateful User",
+  "lede": "A **Geometry Nodes** wrinkle setup for Blender character rigs, released free on Gumroad by @Cartesian_C, drew a first-time test from animator @LukaszBorges — and his verdict was unambiguous approval. The exchange is brief, but the technical object being shared is not: procedural skin wrinkles are one of the harder unsolved problems in real-time and film character animation. The Blender community's habit of giving such tools away for nothing is the real story.",
+  "body": "The post's thin caption — \"for the first time i used it i always wanted to it's cool ngl\" — points to the substance in the quoted tweet: @Cartesian_C's *Geometry Nodes* wrinkle setup, shared on Gumroad at no cost and tagged #b3d and #shader. *Geometry Nodes* is Blender's node-based, non-destructive procedural system, which allows artists to generate and manipulate geometry through a visual graph rather than by hand-sculpting every state. Applied to character skin, it can detect when a joint bends and automatically introduce fold and crease geometry in response.\n\nDynamic wrinkles are typically handled through one of three approaches: painted *wrinkle maps* blended by driver values keyed to bone rotations; *corrective blend shapes* — sculpted mesh offsets triggered at specific pose angles — which are precise but expensive to author; or procedural geometry that responds automatically to the rig. The Geometry Nodes route, when well-built, spares the animator from painting every intermediate state by hand while remaining non-destructive: the underlying mesh is untouched.\n\nThe screenshot visible in the post shows @LukaszBorges's scene running in **Blender 5.0.0**, with a rig called BASE RIG — 189 bones, 13 objects — drawing 561.5 MiB of RAM and 4.7 GB of a 15.9 GB VRAM budget. The outliner lists a node labeled MoviePuppety (LukaszModel), suggesting the rig is part of a production-scale animated project rather than a quick study. That context makes the wrinkle tool's relevance plain: a rig this elaborate needs skin deformation that keeps pace with it.\n\nThe free Gumroad release follows a well-worn pattern in the Blender ecosystem: technical artists publish tools that would carry licensing fees in commercial *DCC* (digital content creation) packages — Houdini, Maya, 3ds Max — and distribute them at zero cost, building reputation through generosity rather than sales. The #b3d hashtag on X has become shorthand for this culture of open exchange, where the value proposition is craft visibility rather than revenue.",
+  "tickers": [],
+  "poster": "LukaszBorges",
+  "concepts": [
+    {
+      "key": "geometry-nodes",
+      "term": "Geometry Nodes",
+      "definition": "Blender's node-based procedural system for creating and modifying 3D geometry through a visual graph rather than direct mesh editing. Artists connect nodes that describe operations — deform, instance, select by angle — and Blender evaluates them in order. This makes the setup non-destructive: the underlying mesh is unchanged, and parameters can be tweaked at any time without re-sculpting."
+    },
+    {
+      "key": "corrective-blend-shapes",
+      "term": "Corrective Blend Shapes",
+      "definition": "Sculpted mesh offsets applied on top of a character rig to fix unwanted deformation at specific joint poses — for example, an elbow that collapses when fully bent. They are highly accurate because an artist hand-sculpts the correct shape, but expensive to author: one blend shape per problematic pose, per joint. Procedural alternatives like wrinkle nodes try to automate what blend shapes do by hand."
+    },
+    {
+      "key": "wrinkle-map",
+      "term": "Wrinkle Map",
+      "definition": "A texture, usually a normal map, that encodes the surface detail of folded or creased skin. In animation, multiple wrinkle maps are blended together at runtime based on joint angles or muscle activation, so the character appears to develop creases as it moves. The maps must be painted by hand for each pose, which makes extensive coverage time-consuming."
+    },
+    {
+      "key": "dcc",
+      "term": "DCC (Digital Content Creation)",
+      "definition": "An industry shorthand for professional 3D software used to produce films, games, and visual effects — applications such as Houdini, Maya, 3ds Max, and Cinema 4D. These tools typically carry significant licensing costs, which makes the Blender ecosystem's culture of free tool-sharing notable by comparison."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/LukaszBorges/status/1997537557010358621",
+      "title": "LukaszBorges tweet quoting Cartesian_C",
+      "note": "Primary bookmark; contains the quoted tweet, image OCR of Blender scene, and Gumroad link"
+    }
+  ],
+  "bookmark_id": "1997537557010358621",
+  "generated_at": "2026-05-06T20:27:45.934106Z",
+  "backend": "claude"
+}

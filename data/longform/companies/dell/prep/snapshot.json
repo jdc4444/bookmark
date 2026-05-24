@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "headline_summary": "Dell Technologies is the integrated US technology hardware franchise, founded 1984 by Michael Dell (still Chairman/CEO 42 years later), now operating at $113.5B FY26 revenue with $24.6B FY26 AI server revenue (+300%+ YoY), $64B AI server orders closed during the year, $25B+ AI server shipped, and a record $43B AI server backlog entering FY27. Q4 FY26 ISG revenue $18.82B (+66% YoY); CSG revenue $13.5B (+14%). Yvonne McGill stepped down as CFO September 9 2025; David Kennedy is interim CFO. Board has unanimously recommended redomestication to Texas.",
+  "headquarters": "Round Rock, Texas",
+  "founded": "1984 (incorporated as PCs Limited May 1984)",
+  "ipo_history": "NASDAQ June 1988; take-private October 2013 ($24.4B LBO with Silver Lake); relisted NYSE December 2018 (DELL ticker)",
+  "ceo_chairman": "Michael S. Dell (founder; CEO 1984-2004, 2007-present; Chairman since 1984)",
+  "coo_vice_chairman": "Jeff Clarke (Vice Chairman and COO since December 2019)",
+  "interim_cfo_sept_2025": "David Kennedy (27-year Dell veteran; prior CSG CFO and Global Sales COO)",
+  "fy2026_total_revenue_usd_billions": 113.5,
+  "fy2026_ai_server_revenue_usd_billions": 24.6,
+  "fy2026_ai_server_orders_closed_usd_billions": 64,
+  "fy2026_ai_server_shipments_usd_billions": 25,
+  "fy26_year_end_backlog_usd_billions": 43,
+  "q4_fy26_isg_usd_billions": 18.82,
+  "q4_fy26_csg_usd_billions": 13.5,
+  "key_supplier_nvidia": "Dominant AI accelerator GPU supplier; Dell AI Factory Nvidia-optimised",
+  "key_supplier_amd": "Alternative accelerator GPU (MI300/MI400) plus EPYC CPU",
+  "structural_thesis_in_one_paragraph": "Dell Technologies is the largest US enterprise IT hardware franchise and one of the most consequential beneficiaries of the AI server demand cycle. The investment proposition is whether the $43B AI backlog converts to revenue at margins that hold against hyperscaler self-sourcing through ODMs (Inventec/Quanta/Wiwynn) and against competitive pressure from Supermicro and HPE, while CSG AI PC refresh provides the second growth engine and the CSG cash-generative base funds the working capital intensity of AI server scaling. The board (Michael Dell + Egon Durban Silver Lake + Ellen Kullman Lead Independent ex-DuPont CEO + William Green Audit Chair ex-Accenture Chairman + Steven Mollenkopf ex-Qualcomm CEO + David Dorman Centerview ex-AT&T + David Grain + Lynn Vojvodich Radakovich) is calibrated for cycle-management governance through the AI infrastructure transition."
+}

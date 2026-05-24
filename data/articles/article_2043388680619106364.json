@@ -1,0 +1,170 @@
+{
+  "headline": "Sixteen iPhone Photos, One Panorama, a Navigable 3D World",
+  "lede": "Martin Maly, an indie developer based in Tokyo, has built a pipeline that converts sixteen iPhone photographs into a fully navigable three-dimensional world in under five minutes. By pairing his 360° photography app Teleport with World Labs' generative world model Marble, he has compressed a workflow that once required specialist hardware and hours of processing into something a single person can run from a phone. His demo — Golden Gai, the dense post-war bar district in Shinjuku — illustrates how quickly spatial AI pipelines are becoming accessible to solo builders.",
+  "body": "The workflow has three steps. Teleport guides the user to photograph a space from a fixed central point using the iPhone's ultra-wide lens; server-side stitching then assembles those shots into a single **equirectangular panorama** — the 2:1 rectangular format that maps a full 360° × 180° sphere onto a flat image, the same standard used by Google (GOOGL) Street View and dedicated 360° cameras. That panorama is sent to the World Labs API specifying *Marble 1.1*, their April 2026 model update. Within three to five minutes the API returns a *3D Gaussian Splat*: the scene encoded as millions of semi-transparent ellipsoids that render interactively in real time.\n\nWorld Labs was founded in January 2024 by researchers with an unusual claim on the underlying technology. Ben Mildenhall co-invented *NeRF* (Neural Radiance Fields) at Google (GOOGL) Research in 2020, the volumetric approach that first made photorealistic novel-view synthesis practical. Christoph Lassner built Pulsar, an early differentiable sphere renderer that anticipated modern Gaussian Splatting. Fei-Fei Li — Stanford professor, ImageNet creator, former Google Cloud AI chief — serves as CEO. Together they have fused two generations of 3D reconstruction into a generative model that synthesizes geometry beyond the camera frame, not merely reconstructing what was photographed. The company has raised approximately $1.23 billion to date; its February 2026 round brought in NVIDIA (NVDA), AMD (AMD), and Autodesk (ADSK) as strategic investors.\n\nThe shift from NeRF to Gaussian Splatting matters for both speed and editability. A NeRF encodes a scene inside a neural network's weights and renders by casting virtual rays through a continuous volumetric field — photorealistic but slow and computationally opaque. **3D Gaussian Splatting** instead represents the scene as an explicit set of positioned, sized, and colored ellipsoids, optimized against input photographs through *differentiable rasterization*. Rendering projects those ellipsoids onto the screen directly, concentrating compute only where geometry exists. The result runs in real time on a GPU and, increasingly, in a browser — which is how World Labs delivers navigable worlds to end users.\n\nCompetitors like Luma AI and Polycam have offered Gaussian Splatting pipelines for iPhone since 2023, and Niantic Spatial's Scaniverse performs splat generation on-device without a cloud round-trip. What distinguishes World Labs' Marble is its status as a *world model* rather than a photogrammetric reconstructor: it fills in unseen angles, extends scene boundaries, and generates plausible geometry where no photograph exists. Marble 1.1 introduced \"dynamic cubes,\" which detect when a scene needs more spatial room and add units in the same generation pass. Whether the pipeline handles Golden Gai's specific density — six alleys crammed with two-story wooden bars, exposed wiring, and hand-lettered signs stacked floor to ceiling — at acceptable fidelity is not verifiable from the demo clip alone. But the choice of location is pointed: few subjects in Tokyo compress more visual complexity into less physical space.\n\nWhat Maly has demonstrated is less a product than a proof of stack. A solo developer with an existing app, no venture backing, and access to a public API assembled a 3D-world capture pipeline in what appears to be days. The integration depends entirely on World Labs having opened Marble as an API — a platform bet that echoes how Stability AI and OpenAI built developer ecosystems ahead of consumer products. As cost-per-generation falls and output fidelity rises, the applications most often cited are architectural walk-throughs, real-estate listings, heritage preservation, and location-based games.",
+  "tickers": [
+    "GOOGL",
+    "NVDA",
+    "AMD",
+    "ADSK"
+  ],
+  "companies": [
+    {
+      "name": "World Labs",
+      "ticker": null
+    },
+    {
+      "name": "Google",
+      "ticker": "GOOGL"
+    },
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "AMD",
+      "ticker": "AMD"
+    },
+    {
+      "name": "Autodesk",
+      "ticker": "ADSK"
+    },
+    {
+      "name": "Luma AI",
+      "ticker": null
+    },
+    {
+      "name": "Polycam",
+      "ticker": null
+    },
+    {
+      "name": "Niantic Spatial",
+      "ticker": null
+    },
+    {
+      "name": "Stability AI",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    }
+  ],
+  "poster": "mountain_mal",
+  "concepts": [
+    {
+      "key": "equirectangular-panorama",
+      "term": "equirectangular panorama",
+      "definition": "A 360° image format that maps the entire spherical field of view — 360° horizontally and 180° vertically — onto a flat rectangle with a 2:1 aspect ratio. It is the industry standard for 360° photography (used by Google Street View, Ricoh Theta, and similar systems) and is the preferred input format for World Labs' Marble API because it encodes complete spatial information about a scene. Teleport generates it by stitching multiple overlapping iPhone photos together on its servers."
+    },
+    {
+      "key": "nerf",
+      "term": "NeRF (Neural Radiance Fields)",
+      "definition": "A 2020 technique that encodes a 3D scene inside the weights of a neural network and renders novel viewpoints by casting virtual rays through the learned volumetric field. Co-invented by Ben Mildenhall and colleagues at Google Research, it was the first method to produce photorealistic novel-view synthesis from ordinary photographs alone, but renders slowly and is difficult to edit after training."
+    },
+    {
+      "key": "3d-gaussian-splatting",
+      "term": "3D Gaussian Splatting",
+      "definition": "A scene representation introduced in 2023 that encodes a 3D space as millions of semi-transparent ellipsoids (Gaussians), each with a position, size, orientation, and color, optimized to match a set of input photographs. Unlike NeRF, the geometry is explicit and therefore editable, and rendering is fast enough to run interactively in real time. World Labs outputs scenes in a Gaussian Splat container format (.spz)."
+    },
+    {
+      "key": "world-model",
+      "term": "world model",
+      "definition": "An AI system that builds an internal spatial representation of an environment and can generate or extend it beyond what was directly observed. Unlike photogrammetric reconstructors — which reproduce only what the camera captured — a world model synthesizes unseen geometry, fills in occluded surfaces, and can expand scene boundaries generatively. World Labs describes Marble as a world model to distinguish it from reconstruction-only tools."
+    },
+    {
+      "key": "photogrammetry",
+      "term": "photogrammetry",
+      "definition": "The technique of extracting 3D geometry from multiple overlapping photographs by identifying common points across images and triangulating their positions in space. It is the foundational step in tools like Luma AI and Polycam, and underlies the stitching stage in Teleport's pipeline before the panorama is handed to World Labs."
+    },
+    {
+      "key": "differentiable-rasterization",
+      "term": "differentiable rasterization",
+      "definition": "A rendering method that projects 3D geometry onto a 2D image in a way that allows gradients to be computed backward through the projection step. This makes it possible to optimize a 3D representation — such as the shape, color, and position of Gaussian ellipsoids — directly from photograph supervision, which is the training mechanism behind 3D Gaussian Splatting."
+    },
+    {
+      "key": "dynamic-cubes",
+      "term": "dynamic cubes",
+      "definition": "A Marble 1.1 feature that automatically detects when a captured scene requires more spatial extent than the input panorama implies, and adds up to five additional spatial units in the same generation pass. It addresses the common failure mode where indoor or enclosed spaces need more room than the photography suggests."
+    },
+    {
+      "key": "imagenet",
+      "term": "ImageNet",
+      "definition": "A large-scale visual database of over 14 million labeled images across thousands of categories, created by Fei-Fei Li and colleagues starting in 2009. Its annual recognition challenge (ILSVRC) catalyzed the modern deep-learning revolution in computer vision when a neural network dramatically outperformed classical methods in 2012, and remains a foundational benchmark in AI research."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The tweet claims Teleport is \"the only iPhone app that can capture high-quality 360° panoramas.\" This is a marketing claim that does not survive scrutiny: companion apps for dedicated 360° cameras (Insta360, Ricoh Theta, GoPro MAX) also run on iPhone and capture high-quality panoramas, though they require external hardware. The more defensible claim — which Maly likely intends — is that Teleport is the only app generating full equirectangular panoramas using solely the iPhone's built-in cameras, without auxiliary hardware. Even that narrower claim is difficult to verify without a comprehensive survey of the App Store.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://apps.apple.com/us/app/teleport-360-camera/id6476905405",
+      "title": "Teleport: 360° Camera — App Store",
+      "note": "Primary source for developer identity (Martin Maly / HDReye Technologies Inc.), reduced shot count (16 photos), and World Labs integration flag in changelog"
+    },
+    {
+      "url": "https://www.worldlabs.ai/blog/marble-world-model",
+      "title": "Marble: A Multimodal World Model | World Labs",
+      "note": "Official product description covering input formats, output types, and founding team credentials"
+    },
+    {
+      "url": "https://www.worldlabs.ai/blog/announcing-the-world-api",
+      "title": "Announcing the World API | World Labs",
+      "note": "API launch date (January 21, 2026), accepted input types including 360° panoramas, and early integrator examples"
+    },
+    {
+      "url": "https://rits.shanghai.nyu.edu/ai/world-labs-releases-marble-1-1-auto-expanding-3d-world-generation/",
+      "title": "World Labs Releases Marble 1.1: Auto-Expanding 3D World Generation | NYU Shanghai RITS",
+      "note": "Marble 1.1 release date (April 2, 2026), dynamic cubes feature, .spz output format, and per-generation pricing"
+    },
+    {
+      "url": "https://techcrunch.com/2025/11/12/fei-fei-lis-world-labs-speeds-up-the-world-model-race-with-marble-its-first-commercial-product/",
+      "title": "Fei-Fei Li's World Labs speeds up the world model race with Marble | TechCrunch",
+      "note": "Marble product launch context, founding team backgrounds, and Series A details"
+    },
+    {
+      "url": "https://techfundingnews.com/world-labs-1b-funding-feifei-li-autodesk/",
+      "title": "AI godmother Fei-Fei Li's World Labs lands $1B | TechFundingNews",
+      "note": "February 2026 funding round details: NVIDIA, AMD, Autodesk as strategic investors; total raised ~$1.23B"
+    },
+    {
+      "url": "https://docs.worldlabs.ai/marble/create/prompt-guides/pano-prompt",
+      "title": "Pano Prompt Guide — World Labs Documentation",
+      "note": "Confirms equirectangular format requirement, 2:1 aspect ratio, and seamless-wrap requirement for panorama inputs"
+    },
+    {
+      "url": "https://pyimagesearch.com/2024/12/09/3d-gaussian-splatting-vs-nerf-the-end-game-of-3d-reconstruction/",
+      "title": "3D Gaussian Splatting vs NeRF: The End Game of 3D Reconstruction? | PyImageSearch",
+      "note": "Technical explainer on NeRF vs. Gaussian Splatting rendering mechanics, trade-offs, and why explicit geometry matters for speed"
+    },
+    {
+      "url": "https://x.com/mountain_mal/status/2020575105689002132",
+      "title": "Martin Maly (@mountain_mal) — Original World Labs integration announcement",
+      "note": "First-person account of the three-step workflow and the Chiang Mai co-working space as the initial test subject"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Shinjuku_Golden_Gai",
+      "title": "Shinjuku Golden Gai — Wikipedia",
+      "note": "Location context: six narrow alleys, 200+ tiny bars, post-WWII origins, architectural density and cultural history"
+    },
+    {
+      "url": "https://synergyxr.com/resources/learn/blogs/3d-scanning-apps/luma-ai-in-2024/",
+      "title": "Luma AI in 2025: Features, Pros and Cons | SynergyXR",
+      "note": "Competitive context: Luma AI's Gaussian Splatting pipeline for iPhone and funding history"
+    },
+    {
+      "url": "https://poly.cam/tools/gaussian-splatting",
+      "title": "3D Gaussian Splatting | Polycam",
+      "note": "Competitive context: Polycam's photogrammetric Gaussian Splatting and LiDAR dependency"
+    },
+    {
+      "url": "https://medium.com/echo3d/niantic-spatial-unveils-scaniverse-and-vps-2-0-the-gateway-to-the-large-geospatial-model-ace03d103cce",
+      "title": "Niantic Spatial Unveils Scaniverse and VPS 2.0 | echo3D/Medium",
+      "note": "Competitive context: Scaniverse's on-device Gaussian Splatting and world-scale mapping focus"
+    }
+  ],
+  "bookmark_id": "2043388680619106364",
+  "generated_at": "2026-05-07T07:51:20.336705Z",
+  "backend": "claude-sonnet-subagent"
+}

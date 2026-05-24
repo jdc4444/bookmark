@@ -1,0 +1,15 @@
+{
+  "key": "FUWAY",
+  "name": "Furukawa Electric Co., Ltd.",
+  "exchange": "OTC (ADR) / Tokyo Stock Exchange: 5801",
+  "blurb": "Furukawa Electric is a Japanese industrial conglomerate founded in 1884, with four segments: Infrastructure (optical fiber, power cable), Electrical and Electronic (connectors, PCB materials), Functional Products (heat pipes, automotive components), and Services. Its optical-communications operations were unified in 2025 under the Lightera brand, which in March 2026 began mass production of 13,824-count fiber cable — among the densest in the world — for hyperscale data centers. Lightera also supplies fusion splicers and field-installable connectors used throughout fiber-optic network deployment.",
+  "recent": "Furukawa Electric reached an all-time high of JPY 47,940 on April 14, 2026, before pulling back to roughly JPY 41,190 by early May. The stock had outperformed the Nikkei 225 by approximately 193% over the prior six months. Market capitalization reached JPY 2.9 trillion (up ~995% year-on-year). Q3 FY2025 earnings of JPY 320 per share beat consensus estimates by more than 110%. Buy ratings from Goldman Sachs, Nomura, and Morgan Stanley were in place heading into spring 2026. Revenue for the trailing twelve months stood at JPY 1.27 trillion; the company's next earnings date is May 12, 2026.",
+  "sources": [
+    {"url": "https://stockanalysis.com/quote/tyo/5801/", "title": "Furukawa Electric (TYO:5801) – StockAnalysis", "note": "Price, market cap, financials as of May 2026"},
+    {"url": "https://www.furukawaelectric.com/en/ir/", "title": "Furukawa Electric – Investor Relations", "note": "Corporate investor relations page"},
+    {"url": "https://www.tradingview.com/symbols/TSE-5801/", "title": "Furukawa Electric (TSE:5801) – TradingView", "note": "Chart and all-time high data"}
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-05T12:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

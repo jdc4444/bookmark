@@ -1,0 +1,181 @@
+{
+  "headline": "Cerebras IPO Sets a High-Water Mark for AI Conviction",
+  "lede": "Cerebras Systems raised $5.5 billion and watched its stock open 108% above its offer price — then close at a more measured +68% — on its Nasdaq debut on May 14, 2026. The night before, a pre-IPO analysis using perpetual-futures pricing and a decade of comparable IPO data asked the question the market was already answering: AI supercycle, or bubble?",
+  "body": "**Cerebras Systems** (CBRS) builds the WSE-3, the world's largest commercial AI chip — a *wafer-scale* processor that uses an entire 300mm silicon wafer as a single die, roughly 57 times the area of an NVIDIA (NVDA) H100. By eliminating the inter-chip communication that slows GPU clusters, the WSE-3 sustains inference speeds Cerebras claims exceed 3,000 *tokens per second*, versus roughly 150 on GPU equivalents. On-chip *SRAM* — fast memory embedded directly in the die rather than stacked below it — removes a second bottleneck. Whether that technical advantage justifies the rest of the filing is precisely what the market spent May 14 pricing in.\n\nThe offer was set at $185 on May 13, after two upward revisions; the book was more than 20 times oversubscribed. With the greenshoe exercised, Cerebras raised roughly $5.5 billion — the largest US tech IPO by proceeds since Arm Holdings (ARM) in September 2023. The night before trading opened, the poster noted that perpetual futures on tradexyz were pricing CBRS at $289.86 — a 57% premium to the offer — and that the annualised *funding rate* had flipped negative, meaning short-sellers were being paid to hold, a sign the long-side frenzy had cooled from its peak. Shares opened at roughly $385 and closed at $311.07, a **+68% first-day gain** that landed within reach of where the pre-listing perp had been trading.\n\nAt the offer price, Cerebras traded at roughly 110 times trailing revenue of $510 million. The post's comparison table renders that premium in concrete terms: **NVIDIA** (NVDA), itself the defining beneficiary of the AI buildout, carried a *price-to-sales* multiple of about 25x at the time; **Micron Technology** (MU) roughly 16x; **SK Hynix** (000660.KS) approximately 6x. Cerebras at $185 was therefore 4.4 times NVDA's multiple, seven times Micron's, and 17.5 times SK Hynix's — measured against established, profitable companies with tens of billions in annual revenue. At the $289.86 perp price those ratios widened to 6.9x, 11x, and 27.5x.\n\nWhat that premium finances is a $24.6 billion backlog of *remaining performance obligations* — contracted future revenue. The problem is its geography: roughly 86% of 2025 revenue came from UAE-linked institutions, with the Mohamed bin Zayed University of Artificial Intelligence contributing 62% and G42, the Abu Dhabi technology group, 24%. G42 also holds a $335 million equity stake in Cerebras, a customer-investor overlap that triggered a CFIUS national-security review in 2024 and pushed the original IPO filing back nearly a year. A reported partnership with OpenAI carries its own caveat: warrant grants estimated at $9.4 billion in potential dilution substantially reduce the net economics of the headline deal figure.\n\nThe post's comparison table — tracking first-day market caps for Coinbase (COIN), Airbnb (ABNB), Snowflake (SNOW), ARM, and CoreWeave (CRWV) alongside dot-com entries including VA Linux (+698% on day one in 1999) and theGlobe.com (+606%) — is the post's real argument. Most dot-com megapops surrendered their gains within a year. CoreWeave (CRWV), the most recent AI-infrastructure IPO comparable, opened flat in March 2025 before roughly doubling. Cerebras's +68% sits between those poles: a genuine first-day gain for a company with real revenue and a demonstrably different architecture, at a multiple that leaves almost no margin for any deterioration in its UAE customer relationships, its export-control exposure, or its ability to convert that backlog into cash.",
+  "tickers": [
+    "CBRS",
+    "NVDA",
+    "MU",
+    "000660.KS",
+    "ARM",
+    "COIN",
+    "ABNB",
+    "SNOW",
+    "CRWV"
+  ],
+  "companies": [
+    {
+      "name": "Cerebras Systems",
+      "ticker": "CBRS"
+    },
+    {
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA"
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU"
+    },
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS"
+    },
+    {
+      "name": "Arm Holdings",
+      "ticker": "ARM"
+    },
+    {
+      "name": "Coinbase",
+      "ticker": "COIN"
+    },
+    {
+      "name": "Airbnb",
+      "ticker": "ABNB"
+    },
+    {
+      "name": "Snowflake",
+      "ticker": "SNOW"
+    },
+    {
+      "name": "CoreWeave",
+      "ticker": "CRWV"
+    },
+    {
+      "name": "G42",
+      "ticker": null
+    },
+    {
+      "name": "OpenAI",
+      "ticker": null
+    },
+    {
+      "name": "tradexyz",
+      "ticker": null
+    },
+    {
+      "name": "VA Linux Systems",
+      "ticker": null
+    },
+    {
+      "name": "theGlobe.com",
+      "ticker": null
+    }
+  ],
+  "poster": "0xMerp",
+  "concepts": [
+    {
+      "key": "wafer-scale-integration",
+      "term": "wafer-scale integration",
+      "definition": "A chip-design approach in which the entire silicon wafer — rather than individual dies cut from it — is treated as one device. This maximises transistor count and on-chip interconnect bandwidth at the cost of yield-management complexity. Cerebras's WSE-3 is the leading commercial example, at ~46,000 mm² compared to ~800 mm² for a typical GPU die."
+    },
+    {
+      "key": "tokens-per-second",
+      "term": "tokens per second",
+      "definition": "A benchmark for AI inference throughput: how many text fragments a model generates each second. One token is roughly three-quarters of an English word. Higher throughput means faster responses for interactive or agentic applications — and lower per-query cost at scale."
+    },
+    {
+      "key": "sram",
+      "term": "SRAM",
+      "definition": "Static random-access memory — fast, low-latency memory that can be fabricated directly onto a processor die. Unlike HBM (stacked memory modules mounted alongside a GPU), on-chip SRAM is accessed without leaving the chip, eliminating the memory-bandwidth bottleneck that constrains large-batch GPU inference."
+    },
+    {
+      "key": "perpetual-futures",
+      "term": "perpetual futures (perp)",
+      "definition": "A derivative instrument, common in crypto markets and increasingly in synthetic equity markets, that tracks an underlying asset's price without an expiry date. Traders pay or receive a periodic funding rate to keep the contract anchored to spot. Pre-IPO perps on platforms like tradexyz let participants bet on an asset's listing price before shares begin trading."
+    },
+    {
+      "key": "funding-rate",
+      "term": "funding rate",
+      "definition": "In perpetual futures markets, the periodic payment exchanged between long and short positions to keep the contract price close to spot. A high positive rate signals heavy long-side demand (longs paying shorts); a negative rate means shorts are paying longs, typically indicating speculative fever has cooled or short-sellers are piling in."
+    },
+    {
+      "key": "price-to-sales",
+      "term": "price-to-sales (P/S) multiple",
+      "definition": "A valuation ratio dividing market capitalisation by revenue. Unlike P/E, it applies even when earnings are thin or absent. A P/S of 110x means investors are paying $110 for every $1 of current annual revenue — a bet that revenue will grow dramatically, or that the multiple will compress as the company scales."
+    },
+    {
+      "key": "remaining-performance-obligations",
+      "term": "remaining performance obligations (RPO)",
+      "definition": "Under US accounting standards, the total value of contracted revenue a company has yet to recognise — essentially its binding backlog. A large RPO signals customer commitment but does not guarantee cash conversion, particularly if contracts are concentrated among a few counterparties or subject to renegotiation."
+    },
+    {
+      "key": "cfius",
+      "term": "CFIUS",
+      "definition": "The Committee on Foreign Investment in the United States — an interagency body that reviews foreign investments in US companies for national-security implications. A CFIUS review can block a deal, impose mitigation requirements, or clear it outright. The process delayed Cerebras's original 2024 IPO filing by nearly a year because of G42's investment stake."
+    },
+    {
+      "key": "fully-diluted-valuation",
+      "term": "fully diluted valuation (FDV)",
+      "definition": "A company's total implied equity value calculated using all shares that could eventually be outstanding — including unvested options, restricted stock units, warrants, and convertible instruments — rather than just the float. FDV typically exceeds market cap at IPO, when large blocks of shares remain locked up or unexercised."
+    },
+    {
+      "key": "greenshoe",
+      "term": "greenshoe (overallotment option)",
+      "definition": "A provision allowing IPO underwriters to sell up to 15% more shares than originally planned. If the stock trades above the offer price, underwriters exercise the option and deliver the extra shares, boosting total proceeds for the company. Named after the Green Shoe Manufacturing Company, the first to use the mechanism."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "Three claims merit scrutiny. First, the \"largest IPO since 2022\" framing: Arm Holdings IPO'd in September 2023 at approximately $54B FDV and raised ~$5.23B in proceeds including the greenshoe — both modestly below Cerebras's ~$56.4B FDV and ~$5.5B, so the claim holds narrowly on both measures, though ARM is the obvious comparator the framing elides. Second, the \"10th most expensive IPO of all time\" characterisation is unverifiable from available sources and the methodology is not specified; during the dot-com era, numerous companies IPO'd with zero revenue, producing theoretically infinite price-to-sales multiples, so any such ranking is sensitive to methodology. Third, the ticker $SKHX used throughout the post for SK Hynix is not a recognised US exchange-listed instrument. SK Hynix's primary listing is on the Korea Exchange (000660.KS); its US OTC handle is HXSCL. The poster uses $SKHX as tradexyz's perpetual-futures handle for a synthetic instrument on a crypto-native platform — the valuation comparisons are conceptually valid, but $SKHX is not a standard brokerage ticker.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://cerebras.ai/",
+      "title": "Cerebras Systems — Company Website",
+      "note": "WSE-3 specifications, inference speed claims, and product overview"
+    },
+    {
+      "url": "https://stockanalysis.com/stocks/cbrs/",
+      "title": "Cerebras Systems (CBRS) Stock Price & Overview — Stock Analysis",
+      "note": "First-day close price, market cap, revenue, P/E ratio, and key metrics"
+    },
+    {
+      "url": "https://www.techstackipo.com/ipo/cerebras/trading-day",
+      "title": "Cerebras IPO Day: CBRS First-Day Trading Guide — TechStackIPO",
+      "note": "IPO pricing history, oversubscription data, backlog figures, and retail access details"
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "title": "Cerebras raises $5.5B, kicking off 2026's IPO season — TechCrunch",
+      "note": "First-day open and close prices, founder stakes, prior CFIUS context"
+    },
+    {
+      "url": "https://www.theregister.com/ai-ml/2026/05/15/cerebras-wafer-scale-ai-bet-delivers-blockbuster-ipo/",
+      "title": "Cerebras wafer-scale AI bet delivers blockbuster IPO — The Register",
+      "note": "WSE-3 technical architecture and competitive differentiation versus GPU-based inference"
+    },
+    {
+      "url": "https://www.benzinga.com/Opinion/26/05/52575489/cerebras-ipo-the-market-is-already-mispricing-the-real-risk",
+      "title": "Cerebras IPO: The Market Is Already Mispricing the Real Risk — Benzinga",
+      "note": "G42 and MBZUAI revenue concentration breakdown; OpenAI warrant economics"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/03/25/sk-hynix-confidential-us-listing-adr-ai-memory.html",
+      "title": "SK Hynix files confidentially for US ADR listing — CNBC",
+      "note": "Basis for noting $SKHX is not a recognised exchange ticker; HXSCL is the current US OTC handle"
+    },
+    {
+      "url": "https://newsroom.arm.com/news/arm-announces-pricing-of-initial-public-offering",
+      "title": "Arm Announces Pricing of Initial Public Offering — Arm Newsroom",
+      "note": "ARM IPO offer price and FDV for comparison with Cerebras's \"largest since 2022\" claim"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/03/03/ai-cloud-provider-coreweave-files-for-ipo.html",
+      "title": "CoreWeave files for IPO — CNBC",
+      "note": "CoreWeave IPO pricing and first-day performance for recent AI-infrastructure comparable"
+    }
+  ],
+  "bookmark_id": "2054745934299611376",
+  "generated_at": "2026-05-15T08:21:57.089258Z",
+  "backend": "claude-sonnet-subagent"
+}

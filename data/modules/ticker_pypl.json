@@ -1,0 +1,16 @@
+{
+  "key": "PYPL",
+  "name": "PayPal Holdings, Inc.",
+  "exchange": "NASDAQ",
+  "blurb": "PayPal operates one of the world's largest digital payments networks, facilitating transactions between consumers and merchants via its PayPal wallet, Venmo peer-to-peer app, Braintree payment gateway, and Honey shopping tool. Spun off from eBay in 2015, PayPal was for years one of the fastest-growing fintech companies globally; it has since faced intensified competition from Apple Pay, Google Pay, Stripe, and bank-issued digital wallets, compressing both growth and margins.",
+  "recent": "PayPal has been undergoing a strategic overhaul under CEO Alex Chriss, who took the helm in 2023, focusing on profitable growth over transaction volume. The company has invested in AI-driven checkout personalisation and advertising capabilities. Despite a recovery in the stock price from multi-year lows, PayPal trades at a significant discount to its 2021 peak. Paul Pelosi sold 5,000 shares of PYPL per the January 2026 PTR disclosure.",
+  "sources": [
+    {
+      "url": "https://nancypelosistocktracker.org/",
+      "title": "Nancy Pelosi Stock Tracker"
+    }
+  ],
+  "type": "ticker",
+  "generated_at": "2026-05-06T00:00:00Z",
+  "backend": "claude-sonnet-subagent"
+}

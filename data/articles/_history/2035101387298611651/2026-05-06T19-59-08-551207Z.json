@@ -1,0 +1,29 @@
+{
+  "headline": "Google Drive's Scanner Quietly Grows Up With Serious Features",
+  "lede": "Google has been quietly upgrading the document scanner embedded in Google Drive, and a cluster of new capabilities — demonstrated in a viral clip — suggests the company is making a serious play for the mobile scanning workflow. The update bundles features that until recently distinguished dedicated scanning apps from the bundled, good-enough alternatives. For millions of users who already live inside Google's productivity suite, the gap just narrowed.",
+  "body": "The headline additions are *continuous capture* and real-time multi-page scanning. Traditional mobile scanners — including earlier versions of Drive's own tool — require the user to tap a shutter for each page, wait for processing, then proceed. Auto-capture removes that friction: the app detects a document in frame, locks on it, and advances automatically, compressing a ten-page scan into a fluid, uninterrupted motion. That workflow has been a selling point for Adobe Scan and Microsoft Lens for years.\n\n**Duplicate page detection** is the subtler addition, and arguably the more practically useful one. Anyone who has scanned a thick document while distracted knows the problem: you get home, open the PDF, and find page seven twice. Catching that redundancy in real time — rather than after the fact in editing — removes a persistent annoyance that has never quite been glamorous enough to headline a product launch.\n\nThe redesigned beta interface signals that these are not minor patches bolted onto old scaffolding; Google appears to be rebuilding the scanner as a first-class surface. That matters because Drive is the default storage layer for a vast portion of Android devices and Google Workspace subscribers. A scanner that ships pre-installed and now performs comparably to dedicated apps is a meaningful distribution advantage — one that erodes the use case for downloading a separate scanning app at all.\n\nThe caveat is that 'beta' carries real weight here. Features shown in preview clips have a way of shipping with rough edges, delayed rollouts, or narrower device support than the demos imply. Whether continuous capture works reliably under imperfect lighting — the condition under which people most often need to scan — will determine whether this upgrade genuinely changes behavior or simply looks impressive on a phone held at the right angle.",
+  "tickers": [
+    "GOOGL"
+  ],
+  "poster": "minchoi",
+  "concepts": [
+    {
+      "key": "continuous-capture",
+      "term": "Continuous Capture",
+      "definition": "A scanning mode in which the app automatically detects and photographs each document page without requiring a manual shutter tap between pages. The camera stays live, advancing the scan as soon as a new page is positioned in frame, dramatically reducing the time and attention needed to digitize multi-page documents."
+    },
+    {
+      "key": "duplicate-page-detection",
+      "term": "Duplicate Page Detection",
+      "definition": "An automated check that identifies when the same page has been captured more than once during a scanning session. Rather than requiring the user to review and delete duplicates in post-processing, the scanner flags or discards the redundant image in real time."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [],
+  "bookmark_id": "2035101387298611651",
+  "generated_at": "2026-05-06T19:59:08.551207Z",
+  "backend": "claude"
+}

@@ -1,0 +1,130 @@
+{
+  "headline": "An AI Agent That Hunts Stock-Market Edges Alone",
+  "lede": "Quantitative finance has long rewarded those who can write, test, and discard trading hypotheses fastest. A developer publishing as @artemg314 has built **AutoHypothesis**, an open-source Python harness that removes the human from that cycle entirely — tasking a large language model with proposing ideas, writing code, backtesting, and iterating without supervision. After roughly four hours of autonomous operation, the system produced a strategy that cleared a held-out three-year period with a Sharpe ratio of 0.86.",
+  "body": "Software engineer Artem G. has designed **AutoHypothesis** as a deliberately minimal two-file structure: `agent.py` defines the backtest infrastructure — data loading, signal evaluation, and simulation — while `program.md` contains the research mandate the language model reads as its operating instruction. The model rewrites only a bounded portion of `agent.py`, three functions exposed as an editable zone, while the adapter layer connecting signals to execution stays fixed. The effect is a closed loop in which the agent proposes an economic rationale, implements a strategy, observes the result, and refines — without a human reviewing any step.\n\nThe strategy the agent ultimately settled on is not exotic. It ranks stocks in a 300-name US universe by a composite of two signals: a *volume trend* ratio (60-day average volume divided by its 200-day counterpart, interpreted as evidence of institutional accumulation) and *inverse volatility weighting* (favoring stocks with lower recent realized volatility, an approach that exploits the *low-volatility anomaly* — the documented tendency of less-volatile stocks to deliver superior risk-adjusted returns). The top 20 percent are bought equal-weight. A *regime filter* — specifically a *golden cross* check on the S&P 500, comparing its 50-day and 200-day moving averages — halves position sizes when the index is in a downtrend, which accounts for much of the strategy's tame 11.4 percent maximum drawdown. Annual *turnover* runs at 28.1 percent.\n\nOn the 2022–2025 holdout period the agent reached a *Sharpe ratio* of 0.86 — annualized excess return divided by annualized volatility of returns — against 0.67 for an equal-weight buy-and-hold benchmark. That headline beat is real but contextually modest. Practitioners in algorithmic trading typically set a floor of 1.0 for retail systematic strategies after realistic costs; institutional quantitative funds routinely discard anything below 2.0. A rigorous academic attempt at the same concept — automated hypothesis-driven trading using *walk-forward validation* (a rolling-window method that tests a strategy on sequential out-of-sample periods to approximate live deployment) — obtained a Sharpe of just 0.33 with no statistical significance. That the AutoHypothesis result is better does not establish it is genuine.\n\nSeveral structural limitations compound the uncertainty. The backtest universe excludes delisted stocks — a *survivorship bias* that academic studies estimate can inflate volume-trend and momentum strategies by 30 to 70 percent. The iterative search itself creates *data-snooping bias*: running up to 200 hypothesis iterations and evaluating each against walk-forward results gradually shapes which signals survive, even when no single hypothesis is directly re-tuned after seeing those results. The author acknowledges this directly in the repository's README. A further technical flaw is that the winning strategy uses hardcoded lookback windows (60, 200, and 252 trading days), which means the three walk-forward folds cannot independently recalibrate — they reduce to three segments of a static strategy, not three independent calibrations. And no *deflated Sharpe ratio* correction is applied: a statistical adjustment for the number of tests conducted that would reduce the headline figure to reflect the probability it is an artifact of the search process.\n\nAutoHypothesis is not the first attempt in this space. Academic equivalents include AlphaAgent, which uses large language models to generate WorldQuant-style formulaic *alpha factors* with syntactic constraints to suppress redundancy, and QuantEvolve, which frames the same problem as evolutionary search. What distinguishes AutoHypothesis is its transparency: the code is clean, the limitations are documented in the repository's own README, and the research gates — one-shot holdback checks, walk-forward pass thresholds — are more explicit than most open-source analogues. It is, in the author's own framing, \"an interesting signal.\" Given the evidence, that may be the most defensible claim available.",
+  "tickers": [],
+  "companies": [],
+  "poster": "artemg314",
+  "concepts": [
+    {
+      "key": "sharpe-ratio",
+      "term": "Sharpe ratio",
+      "definition": "A measure of risk-adjusted return: annualized excess return above the risk-free rate, divided by the annualized standard deviation of those returns. A ratio of 1.0 means one unit of return per unit of risk. Retail algorithmic strategies typically target a Sharpe above 1.0 after costs; institutional funds often require 2.0 or higher."
+    },
+    {
+      "key": "volume-trend",
+      "term": "Volume trend signal",
+      "definition": "A trading signal based on whether a stock's recent trading volume is rising relative to its longer-term average. A high 60-day-to-200-day volume ratio is interpreted as evidence of accumulation by institutional buyers, signaling potential future price appreciation."
+    },
+    {
+      "key": "inverse-volatility-weighting",
+      "term": "Inverse volatility weighting",
+      "definition": "A portfolio construction method where each position is sized inversely proportional to the asset's recent volatility, so that low-volatility stocks receive larger allocations. The goal is to equalize each position's contribution to overall portfolio risk, rather than allocating equal capital."
+    },
+    {
+      "key": "low-volatility-anomaly",
+      "term": "Low-volatility anomaly",
+      "definition": "The empirically documented tendency of stocks with lower historical volatility to deliver superior risk-adjusted returns over time, contrary to standard financial theory, which predicts higher risk should accompany higher return. Rigorously documented by Ang, Hodrick, Xing, and Zhang (2006)."
+    },
+    {
+      "key": "regime-filter",
+      "term": "Regime filter",
+      "definition": "A binary or graded indicator of broad market conditions — typically bull versus bear — used to scale a strategy's exposure up or down. By reducing position sizes in downtrends, regime filters can lower maximum drawdowns without significantly sacrificing returns during bull markets."
+    },
+    {
+      "key": "golden-cross",
+      "term": "Golden cross",
+      "definition": "A technical signal that occurs when a shorter-term moving average (commonly the 50-day) crosses above a longer-term moving average (commonly the 200-day) on a price chart. Widely interpreted as a bullish trend indicator; its inverse is the 'death cross.' Used here as a simple binary regime indicator."
+    },
+    {
+      "key": "turnover",
+      "term": "Portfolio turnover",
+      "definition": "The fraction of a portfolio's holdings bought or sold over a given period, usually expressed as an annual percentage. High turnover generates more transaction costs. A 28 percent annual turnover means roughly a quarter of the portfolio is replaced each year."
+    },
+    {
+      "key": "walk-forward-validation",
+      "term": "Walk-forward validation",
+      "definition": "A temporal cross-validation technique for financial models. Instead of a single train/test split, the researcher trains on a historical window, tests on the next period, then advances both windows forward — repeating across many periods. This mimics how a strategy would be deployed in real time and is more rigorous than a single out-of-sample test."
+    },
+    {
+      "key": "survivorship-bias",
+      "term": "Survivorship bias",
+      "definition": "A systematic distortion in backtesting results caused by studying only securities that still exist at the end of the test period. Stocks that were delisted — often due to bankruptcy or poor performance — are excluded, making historical returns appear better than they actually were."
+    },
+    {
+      "key": "data-snooping-bias",
+      "term": "Data-snooping bias",
+      "definition": "The distortion introduced when a large number of strategy configurations are tested on the same dataset and only the best-performing result is reported. Because some configurations will outperform by chance, the reported performance overstates true predictive power. The more hypotheses tested, the more severe the bias."
+    },
+    {
+      "key": "deflated-sharpe-ratio",
+      "term": "Deflated Sharpe ratio",
+      "definition": "A statistical correction to the Sharpe ratio that adjusts for the number of strategies or hypotheses tested. Developed by Marcos López de Prado and Arnav Lewis (2019), it asks: given how many configurations were tried, what is the probability this Sharpe ratio is a statistical artifact? A higher search count deflates the apparent Sharpe."
+    },
+    {
+      "key": "alpha-factor",
+      "term": "Alpha factor",
+      "definition": "A quantitative signal or formula designed to predict the future relative performance of securities — their 'alpha,' or return above a benchmark. In systematic quant research, firms like WorldQuant use large libraries of formulaic alpha factors, each derived from price, volume, or fundamental data, to construct diversified portfolios."
+    },
+    {
+      "key": "backtest",
+      "term": "Backtest",
+      "definition": "A simulation of how a trading strategy would have performed if applied to historical market data. Backtests are the primary tool for evaluating systematic strategies before deploying real capital, but they are vulnerable to overfitting, look-ahead bias, and survivorship bias."
+    }
+  ],
+  "books": [],
+  "repos": [
+    {
+      "key": "arteemg-AutoHypothesis",
+      "url": "https://github.com/arteemg/AutoHypothesis",
+      "summary": "An open-source Python framework in which a large language model autonomously proposes, implements, and iterates on quantitative trading strategies without human involvement. The system uses a two-file design — a fixed backtest harness and an editable strategy zone — combined with structured validation gates (one-shot holdback and walk-forward checks) to limit overfitting. After roughly four hours of autonomous operation using Claude Opus, the reported best strategy achieved a holdout Sharpe ratio of 0.86 over 2022–2025 data."
+    }
+  ],
+  "fact_check": null,
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://github.com/arteemg/AutoHypothesis",
+      "title": "AutoHypothesis — GitHub",
+      "note": "Primary source: repository structure, README, strategy code, and author-acknowledged limitations"
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.16789",
+      "title": "AlphaAgent: LLM-Driven Alpha Mining with Regularized Exploration",
+      "note": "Closest published analogue using LLMs for autonomous alpha factor discovery with redundancy constraints"
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.18569",
+      "title": "QuantEvolve: Automating Quantitative Strategy Discovery through Multi-Agent Evolutionary Framework",
+      "note": "Structurally similar multi-agent evolutionary search for trading strategies"
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.09746",
+      "title": "Alpha-GPT 2.0: Human-in-the-Loop AI for Quantitative Investment",
+      "note": "Human-in-the-loop contrast case; illuminates the design spectrum between supervised and autonomous alpha research"
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.06289",
+      "title": "Automate Strategy Finding with LLM in Quant Investment (Kou et al., 2024)",
+      "note": "EMNLP 2025 paper on LLM-driven strategy discovery applied to Chinese equity markets"
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.12924",
+      "title": "Interpretable Hypothesis-Driven Trading: Walk-Forward Validation Framework",
+      "note": "Academic attempt at the same concept; achieved Sharpe 0.33 with p=0.34 — key benchmark for contextualizing AutoHypothesis claims"
+    },
+    {
+      "url": "https://www.quantstart.com/articles/Sharpe-Ratio-for-Algorithmic-Trading-Performance-Measurement/",
+      "title": "Sharpe Ratio for Algorithmic Trading Performance Measurement — QuantStart",
+      "note": "Industry-standard framing of Sharpe ratio thresholds for retail and institutional systematic strategies"
+    },
+    {
+      "url": "https://frontierledger.ai/foundations-core-concepts/why-most-backtests-fail-overfitting-look-ahead-bias-and-data-snooping",
+      "title": "Why Most Backtests Fail — Frontier Ledger",
+      "note": "Context on survivorship bias magnitude and multiple-testing failure rates in systematic strategy research"
+    }
+  ],
+  "bookmark_id": "2046244088542859591",
+  "generated_at": "2026-05-07T05:35:12.069967Z",
+  "backend": "claude-sonnet-subagent"
+}

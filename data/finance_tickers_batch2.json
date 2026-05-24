@@ -1,0 +1,87 @@
+{
+  "batch": 2,
+  "bookmarks_processed": 40,
+  "tickers": [
+    "AAPL",
+    "AMZN",
+    "ASTS",
+    "AVAV",
+    "AVEX",
+    "AVGO",
+    "CIFR",
+    "DBG",
+    "DBLVF",
+    "DIS",
+    "GOOGL",
+    "IREN",
+    "META",
+    "MSFT",
+    "MU",
+    "NBIS",
+    "NFLX",
+    "NUAI",
+    "NVDA",
+    "ONDS",
+    "OPEN",
+    "ORCL",
+    "PLTR",
+    "PYPL",
+    "QBTS",
+    "RKLB",
+    "SNDK",
+    "TE",
+    "TEM",
+    "WULF"
+  ],
+  "per_bookmark": {
+    "2046608717039509939": [
+      "AVAV",
+      "AVEX"
+    ],
+    "2046240462823170451": [
+      "RKLB"
+    ],
+    "2028874692291891240": [
+      "DBG",
+      "DBLVF"
+    ],
+    "2017942723714552189": [
+      "ASTS",
+      "IREN",
+      "MU",
+      "NBIS",
+      "SNDK",
+      "TE"
+    ],
+    "2015798190449086948": [
+      "AAPL",
+      "AMZN",
+      "DIS",
+      "GOOGL",
+      "NVDA",
+      "PYPL",
+      "TEM"
+    ],
+    "2014031188680130621": [
+      "AAPL",
+      "AVGO",
+      "GOOGL",
+      "META",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "ORCL",
+      "PLTR"
+    ],
+    "2012903582849548593": [
+      "ASTS",
+      "CIFR",
+      "IREN",
+      "NUAI",
+      "ONDS",
+      "OPEN",
+      "QBTS",
+      "WULF"
+    ]
+  }
+}

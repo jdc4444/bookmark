@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-05-23",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001158114/000143774926005875/aaoi20251231_10k.htm",
+    "https://investors.ao-inc.com/news-releases/news-release-details/applied-optoelectronics-announces-strategic",
+    "https://www.globenewswire.com/news-release/2026/03/23/3260782/9986/en/AOI-Receives-New-Order-for-800G-Data-Center-Transceivers-from-Major-Hyperscale-Customer.html",
+    "https://www.lightreading.com/ai-machine-learning/aoi-receives-first-volume-order-of-1-6t-data-center-transceivers-from-major-hyperscale-customer",
+    "https://convergedigest.com/aoi-lands-53m-800g-transceiver-order-from-hyperscaler/"
+  ],
+  "key_finding": "AAOI's counterparty map is the most concentrated for any small-cap optical components manufacturer at this scale: two customers — Digicomm (CATV channel) and Microsoft (hyperscale datacenter) — represented 81.9% of FY2025 revenue. The Amazon warrant disclosed in March 2025 (up to 7.945M shares) makes AMZN a 'pending' third major customer, with the >$324M order book announced March-April 2026 likely flowing through that relationship. The customer base inverts conventional risk framing: extreme concentration is the symptom of being early in the AI-optics supply cycle when very few suppliers can ship qualified product, not a sign of distribution weakness. The supply side — laser-diode-grade epitaxial wafers, OSFP cage and connector vendors, optical-coupling micro-optics — is undisclosed but inferred to lean Taiwan/China-domestic given the vertical-integration posture.",
+  "customers_fy2025": [
+    {
+      "name": "Digicomm International",
+      "type": "CATV channel distributor",
+      "fy2025_revenue_share": 0.531,
+      "fy2024_revenue_share": 0.341,
+      "fy2023_revenue_share": 0.113,
+      "estimated_fy2025_revenue_usd_millions": 242.0,
+      "framing": "Digicomm is a privately-held US distributor of broadband network equipment (acquired by The Beekman Group in 2018). Through this channel AAOI's HFC amplifier and Quantum18 / QuantumLink products reach Comcast, Charter, Cox, and other Tier-1 MSOs. The share tripled in two years on the back of the DOCSIS 4.0 / 1.8 GHz amplifier upgrade cycle driven by the cable industry's response to fiber competition."
+    },
+    {
+      "name": "Microsoft",
+      "type": "Hyperscale datacenter direct customer",
+      "fy2025_revenue_share": 0.288,
+      "fy2024_revenue_share": 0.437,
+      "fy2023_revenue_share": 0.466,
+      "estimated_fy2025_revenue_usd_millions": 131.2,
+      "products": "Optical transceivers (400G historical, 800G OSFP DR8 ramping)",
+      "framing": "Microsoft has been AAOI's anchor datacenter customer for several years. Share declined relatively in 2025 because total revenue grew 83%; absolute dollar value rose modestly. Microsoft's qualified position in the 800G ramp is the operational reason AAOI passed the 30% gross-margin threshold."
+    },
+    {
+      "name": "Amazon (AWS)",
+      "type": "Hyperscale datacenter customer — emerging",
+      "warrant_disclosure_date": "2025-03",
+      "warrant_max_shares": 7945000,
+      "framing": "The March 2025 stock purchase warrant — up to 7.945M shares of AAOI common stock tied to purchase volume thresholds — formalises Amazon as a strategic hyperscale customer. The order announcements of March-April 2026 ($53M + $71M + $200M+ = >$324M) are widely understood by analysts to be Amazon, though AOI's press releases describe only 'one major hyperscale customer.' AAOI's 10-K does not yet name Amazon as a >10% customer — the recognition lag reflects the warrant-vesting and purchase-cycle timing rather than relationship absence."
+    }
+  ],
+  "supply_chain_observations": {
+    "vertical_integration": "AAOI fabricates its own InP and GaAs laser dies using MBE (molecular beam epitaxy) and MOCVD processes in-house. This eliminates the largest upstream dependency that pure-play module-assemblers (Eoptolink, Innolight, Sumitomo OEM lines) carry: the InP wafer supply chain dominated by Sumitomo Electric, II-VI/Coherent and a handful of Asian foundries.",
+    "remaining_external_dependencies": [
+      "OSFP / QSFP-DD cage and connector vendors (TE Connectivity, Amphenol, Molex)",
+      "Optical lens and isolator suppliers (predominantly Japanese — Nichia, Hamamatsu indirect)",
+      "DSPs and clock-data-recovery silicon for the higher-line-rate transceivers (Marvell, Maxlinear, Broadcom)",
+      "Capacitors, resistors, PCB substrates (commoditised — Taiwan/China sourcing)"
+    ],
+    "geographic_concentration": "Manufacturing concentrated in three locations: Sugar Land (Texas), Taipei (Taiwan), Ningbo (China). The Ningbo facility represents the largest single point of employee concentration (2,881 of 4,691 employees, 61.4%). The Texas-onshore 800G capability (35% of exit-2025 800G capacity) is the strategic hedge against China-US trade friction and the basis for the 'largest US production capacity' marketing claim."
+  },
+  "competitor_set_for_reference": [
+    {"name": "Coherent (COHR, NYSE)", "note": "Vertically-integrated, much larger; competes in transceivers and components"},
+    {"name": "Lumentum (LITE, NASDAQ)", "note": "Laser components leader; competes at the upstream layer"},
+    {"name": "Innolight (300308, Shenzhen)", "note": "Pure-play module assembler; AAOI's primary China competitor at the transceiver level"},
+    {"name": "Eoptolink (300502, Shenzhen)", "note": "Pure-play module assembler; transceiver volume leader"},
+    {"name": "POET Technologies (POET, NASDAQ/TSX)", "note": "Optical-interposer platform — emerging competitor at the CPO/external light source layer"},
+    {"name": "Sivers Semiconductors (SIVE.ST)", "note": "InP DFB laser components — closest upstream comparable for the laser-die piece of AAOI's stack"}
+  ]
+}

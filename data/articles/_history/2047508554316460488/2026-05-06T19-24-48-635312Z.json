@@ -1,0 +1,48 @@
+{
+  "headline": "From Text Prompt to Walkable 3D World in One Pipeline",
+  "lede": "A developer working in extended reality describes generating a themed 360-degree image with an AI tool and then stitching it into a fully interactive, explorable 3D environment using a small stack of creative-coding frameworks. The result — a Golden State Warriors–branded spaceship interior — is less about the NBA team than about what the workflow reveals: the gap between a compelling AI image and a *persistent, navigable world* is now closeable by a single practitioner in an afternoon.",
+  "body": "The starting point is ChatGPT's upgraded image-generation capability, introduced in 2025, which produces richer, more instruction-faithful imagery than earlier iterations. Asking it for a 360-degree interior — rather than a flat rectangular image — primes the output for spherical projection, the format that makes a single picture wrap convincingly around a viewer standing at its centre.\n\nFrom there, the creator passes the image through **Marble** and **Spark** before arriving at *Three.js*, a widely used JavaScript library that wraps WebGL in a friendlier API. Three.js handles the heavy lifting of placing the equirectangular image onto a sphere, wiring up keyboard and pointer controls, and keeping the scene responsive in a browser without a dedicated game engine. The specific roles of Marble and Spark in this pipeline are not detailed in the post; given the XR context, Spark may refer to Meta's Spark AR platform, used for adding interactive overlays or effects, though this is inferred rather than stated.\n\nTwo post-processing touches push the result from demo toward experience. *Depth of field* (DoF) is a rendering effect borrowed from cinematography: objects outside a chosen focal plane are blurred, giving the scene a sense of three-dimensional weight rather than the flat sharpness of raw rasterisation. *Splat particle effects* most likely refers to **Gaussian splatting**, a technique formalised in a 2023 research paper that represents a scene as millions of semi-transparent, oriented ellipsoids rather than polygons; it renders photorealistic volumes efficiently and has become fashionable in real-time XR work for exactly this reason.\n\nThe broader significance is pipeline compression. Until recently, converting a static AI image into a navigable environment required either a photogrammetry scan of a real space or a laborious modelling session in a tool like Blender. The workflow sketched here suggests that generative imagery, a spherical projection, and a handful of JavaScript libraries can substitute — at least for immersive ambience, if not for precise spatial accuracy. That is a meaningful shift for indie developers and experience designers who lack large studios.",
+  "tickers": [],
+  "poster": "XRarchitect",
+  "concepts": [
+    {
+      "key": "equirectangular-360-image",
+      "term": "360° / equirectangular image",
+      "definition": "A photograph or generated image that captures every direction from a single point — up, down, front, back, left, right — mapped onto a flat rectangle using the same projection cartographers use for world maps. When wrapped onto the inside of a sphere, it creates the illusion of standing inside a scene and looking around."
+    },
+    {
+      "key": "three-js",
+      "term": "Three.js",
+      "definition": "An open-source JavaScript library that makes it practical to create and display 3D graphics in a web browser without writing raw WebGL shader code. It is widely used for interactive data visualisations, games, product configurators, and immersive web experiences."
+    },
+    {
+      "key": "depth-of-field",
+      "term": "depth of field (DoF)",
+      "definition": "A rendering effect that mimics how a real camera lens works: objects near the focal point appear sharp while those farther away blur progressively. In 3D graphics it is applied as a post-processing pass and gives scenes a sense of physical depth and cinematic weight."
+    },
+    {
+      "key": "gaussian-splatting",
+      "term": "Gaussian splatting",
+      "definition": "A scene-representation technique introduced in a 2023 paper that models a 3D environment as a cloud of millions of small, semi-transparent ellipsoids (splats) rather than triangles. It can render photorealistic results in real time and is increasingly used in XR and novel-view synthesis because it captures fine volumetric detail — smoke, hair, translucent surfaces — that polygon meshes handle poorly."
+    },
+    {
+      "key": "xr-extended-reality",
+      "term": "XR (extended reality)",
+      "definition": "An umbrella term for virtual reality (VR), augmented reality (AR), and mixed reality (MR). It describes any technology that alters or extends a user's perception of the physical world through digital overlays or fully synthetic environments."
+    }
+  ],
+  "books": [],
+  "repos": [],
+  "fact_check": "The post does not make falsifiable factual claims, so there is nothing to correct. One ambiguity worth flagging: 'Marble' and 'Spark' are not defined in the tweet, and without additional context their exact roles in the pipeline are unclear. If 'Spark' refers to Meta Spark AR, that platform is primarily designed for mobile AR filters rather than desktop-navigable 3D worlds, which would make its presence in this stack unusual — but the creator may be using it for a specific compositing step not elaborated here.",
+  "thread_summary": null,
+  "sources": [
+    {
+      "url": "https://x.com/XRarchitect/status/2047508554316460488",
+      "title": "Original tweet by @XRarchitect",
+      "note": "Primary source; research scrape returned no readable content due to JavaScript requirement"
+    }
+  ],
+  "bookmark_id": "2047508554316460488",
+  "generated_at": "2026-05-06T19:24:48.635312Z",
+  "backend": "claude"
+}
