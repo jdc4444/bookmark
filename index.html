@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1 class="masthead">
+        <button type="button" class="masthead-glyph-btn" id="mastheadRefresh"
+          title="Pull latest bookmarks" aria-label="Pull latest bookmarks">
+          <iconify-icon icon="fluent-mdl2:single-bookmark-solid" class="masthead-glyph" aria-hidden="true"></iconify-icon>
+        </button>
+        <button type="button" class="masthead-word" id="mastheadWord"
+          title="Articles · Recent bookmarks" aria-label="Articles, sorted by recent bookmarks">Bookmark</button>
+      </h1>
+      <span class="masthead-stamp" id="mastheadStamp" aria-live="polite"></span>
+    </div>
+    <div class="topbar-tools">
+      <input type="search" id="searchBox" placeholder="Search" autocomplete="off">
+      <select id="sortSelect" aria-label="Sort">
+        <option value="bookmarked-recent" selected>Recent (bookmarked)</option>
+        <option value="bookmarked-oldest">Oldest (bookmarked)</option>
+        <option value="post-recent">Recent (post)</option>
+        <option value="post-oldest">Oldest (post)</option>
+        <option value="recent">Recent (article)</option>
+        <option value="oldest">Oldest (article)</option>
+        <option value="engagement">Most engagement</option>
+        <option value="tags">By tag</option>
+      </select>
+      <button type="button" id="indexBtn" class="topbar-toggle" aria-pressed="false" title="Browse the index of all entities, concepts, and references">Index</button>
+      <button type="button" id="articlesToggle" class="topbar-toggle" aria-pressed="false">Posts</button>
+      <button type="button" id="longformToggle" class="topbar-toggle" aria-pressed="false" title="Read longform reports compiled from the bookmark archive + xalpha + fin_v1 sources">Longform</button>
+      <select id="mediaFilter" aria-label="Media filter" class="hidden">
+        <option value="">Any media</option>
+        <option value="media">Has media</option>
+        <option value="no_media">No media</option>
+        <option value="ocr">Has OCR text</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="layout">
+    <div class="sidebar-resizer" id="sidebarResizer" role="separator" aria-orientation="vertical" aria-label="Resize sidebar"></div>
+    <aside class="sidebar" id="sidebar">
+      <section class="sidebar-section">
+        <header>
+          <h2>Tags</h2>
+          <div class="tag-mode-controls">
+            <button id="multiToggleBtn" type="button" class="mode-btn" title="Allow selecting multiple tags">+</button>
+            <button id="tagModeBtn" type="button" class="mode-btn hidden" title="Toggle tag combine mode (any / all)">any</button>
+          </div>
+        </header>
+        <div class="tag-search-wrap">
+          <input type="search" id="tagSearch" placeholder="Filter tags…" autocomplete="off">
+        </div>
+        <ul class="tag-list" id="tagList"></ul>
+      </section>
+    </aside>
+
+    <section class="feed" id="feed">
+      <div class="feed-header">
+        <div class="active-filters" id="activeFilters"></div>
+        <span class="match-count" id="matchCount">—</span>
+      </div>
+      <div class="cards" id="cards"></div>
+      <div class="feed-footer" id="feedFooter"></div>
+      <div class="articles-view hidden" id="articlesView"></div>
+      <div class="article-detail hidden" id="articleDetail"></div>
+      <div class="index-view hidden" id="indexView"></div>
+      <div class="longform-view hidden" id="longformView">
+        <button type="button" class="lf-toc-mobilebar" id="longformTocBar" aria-expanded="false" aria-controls="longformToc">
+          <span class="lf-toc-mobilebar-label">
+            <span class="lf-toc-mobilebar-num" id="longformTocBarNum"></span>
+            <span class="lf-toc-mobilebar-title" id="longformTocBarTitle">Contents</span>
+          </span>
+          <iconify-icon class="lf-toc-mobilebar-chev" icon="material-symbols:keyboard-arrow-down-rounded" aria-hidden="true"></iconify-icon>
+        </button>
+        <aside class="longform-toc" id="longformToc" aria-label="Table of contents"></aside>
+        <div class="longform-main" id="longformMain"></div>
+      </div>
+    </section>
+
+    <aside class="article-pane" id="articlePane" aria-hidden="true">
+      <div class="pane-resizer" id="paneResizer" role="separator" aria-orientation="vertical" aria-label="Resize article pane"></div>
+      <div class="article-pane-body" id="articlePaneBody">
+        <div class="article-pane-empty">Click a bookmark to read its brief here.</div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="modal-backdrop hidden" id="modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <div class="focus-backdrop hidden" id="focusModal" aria-hidden="true">
+    <form class="focus-card" role="dialog" aria-modal="true" id="focusForm">
+      <label class="focus-label" for="focusInput">Focus on…</label>
+      <input class="focus-input" id="focusInput" type="text" autocomplete="off" placeholder="e.g. the book itself, not the joke">
+      <div class="focus-actions">
+        <button type="button" class="focus-cancel" id="focusCancel">Cancel</button>
+        <button type="submit" class="focus-submit">Regenerate</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
