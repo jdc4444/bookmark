@@ -129,13 +129,13 @@ function apiUrl(path) {
   if (clean.startsWith("api/longform/")) {
     const rest = clean.slice("api/longform/".length);
     if (rest.endsWith("/live")) {
-      return `api/longform-live/${rest.slice(0, -"/live".length)}.json${suffix}`;
+      return `api/longform-live/${decodeURIComponent(rest.slice(0, -"/live".length))}.json${suffix}`;
     }
     if (rest.includes("/options/")) {
       const [id, prediction] = rest.split("/options/");
-      return `api/longform-options/${id}/${prediction}.json${suffix}`;
+      return `api/longform-options/${decodeURIComponent(id)}/${decodeURIComponent(prediction)}.json${suffix}`;
     }
-    return `api/longform-report/${rest}.json${suffix}`;
+    return `api/longform-report/${decodeURIComponent(rest)}.json${suffix}`;
   }
   return clean + suffix;
 }
