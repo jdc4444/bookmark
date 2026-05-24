@@ -966,6 +966,35 @@ function renderArticleSlot(bookmarkId, data, displayedVersionId = null) {
       '$1<em>$2</em>');
     return out;
   };
+  const renderArticleMarkdownBlock = (block) => {
+    const lines = String(block || "").replace(/\r\n/g, "\n").split("\n");
+    const parts = [];
+    let para = [];
+    const flushPara = () => {
+      const text = para.join("\n").trim();
+      if (text) parts.push(`<p>${mdInline(text)}</p>`);
+      para = [];
+    };
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].replace(/\s+$/, "");
+      if (!line.trim()) { flushPara(); continue; }
+      if (isMarkdownTableRow(line) && isMarkdownTableSeparator(lines[i + 1] || "")) {
+        flushPara();
+        const tableRows = [];
+        i += 2;
+        while (i < lines.length && isMarkdownTableRow(lines[i])) {
+          tableRows.push(lines[i]);
+          i += 1;
+        }
+        i -= 1;
+        parts.push(renderMarkdownTable(line, tableRows, mdInline));
+        continue;
+      }
+      para.push(line.trim());
+    }
+    flushPara();
+    return parts.join("");
+  };
   const renderBodyWithDefs = () => {
     if (!bodyParagraphs.length) return "";
     // Distribute interleaved images evenly between paragraphs (skipping the
@@ -983,7 +1012,7 @@ function renderArticleSlot(bookmarkId, data, displayedVersionId = null) {
       }
     }
     return bodyParagraphs.map((p, idx) => {
-      const para = `<p>${mdInline(p)}</p>`;
+      const para = renderArticleMarkdownBlock(p);
       const defs = (conceptByParagraph[idx] || []).map(i => renderInlineDef(concepts[i])).join("");
       const imgs = (imgAfter.get(idx) || []).map(m => `
         <figure class="article-media single article-media-inline">
@@ -1697,6 +1726,35 @@ function longformInline(s) {
   return out;
 }
 
+function markdownTableCells(line) {
+  const trimmed = String(line || "").trim();
+  if (!trimmed.includes("|")) return null;
+  const inner = trimmed.replace(/^\|/, "").replace(/\|$/, "");
+  const cells = inner.split("|").map((cell) => cell.trim());
+  return cells.length >= 2 ? cells : null;
+}
+
+function isMarkdownTableSeparator(line) {
+  const cells = markdownTableCells(line);
+  return !!cells && cells.every((cell) => /^:?-{3,}:?$/.test(cell.trim()));
+}
+
+function isMarkdownTableRow(line) {
+  return !!markdownTableCells(line) && !isMarkdownTableSeparator(line);
+}
+
+function renderMarkdownTable(headerLine, bodyLines, inlineRenderer) {
+  const headers = markdownTableCells(headerLine) || [];
+  const rows = bodyLines
+    .map(markdownTableCells)
+    .filter((cells) => cells && cells.length);
+  if (!headers.length || !rows.length) return "";
+  return `<div class="md-table-wrap"><table class="md-table">
+    <thead><tr>${headers.map((cell) => `<th>${inlineRenderer(cell)}</th>`).join("")}</tr></thead>
+    <tbody>${rows.map((cells) => `<tr>${headers.map((_, i) => `<td>${inlineRenderer(cells[i] || "")}</td>`).join("")}</tr>`).join("")}</tbody>
+  </table></div>`;
+}
+
 function longformMarkdown(md) {
   if (!md) return "";
   const lines = String(md).replace(/\r\n/g, "\n").split("\n");
@@ -1713,9 +1771,22 @@ function longformMarkdown(md) {
     }
     buf = []; inQuote = false;
   };
-  for (const raw of lines) {
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i];
     const line = raw.replace(/\s+$/, "");
     if (!line.trim()) { flush(); continue; }
+    if (isMarkdownTableRow(line) && isMarkdownTableSeparator(lines[i + 1] || "")) {
+      flush();
+      const tableRows = [];
+      i += 2;
+      while (i < lines.length && isMarkdownTableRow(lines[i])) {
+        tableRows.push(lines[i]);
+        i += 1;
+      }
+      i -= 1;
+      out.push(renderMarkdownTable(line, tableRows, longformInline));
+      continue;
+    }
     const h2 = line.match(/^##\s+(.*)$/);
     if (h2) { flush(); out.push(`<h3>${longformInline(h2[1])}</h3>`); continue; }
     const bq = line.match(/^>\s?(.*)$/);
