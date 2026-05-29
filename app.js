@@ -35,6 +35,7 @@ const els = {
   longformTocBar: document.getElementById("longformTocBar"),
   longformTocBarNum: document.getElementById("longformTocBarNum"),
   longformTocBarTitle: document.getElementById("longformTocBarTitle"),
+  longformMobileBarPicker: document.getElementById("longformMobileBarPicker"),
 };
 
 const PANE_BREAKPOINT = "(min-width: 1280px)";
@@ -103,45 +104,6 @@ function debounce(fn, ms) {
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-function apiUrl(path) {
-  const raw = String(path);
-  const [pathname, query = ""] = raw.split("?", 2);
-  const suffix = query ? `?${query}` : "";
-  const clean = pathname.replace(/^\/+/, "");
-  if (clean === "api/stats") return `api/stats.json${suffix}`;
-  if (clean === "api/bookmarks") return `api/bookmarks.json${suffix}`;
-  if (clean === "api/articles") return `api/articles.json${suffix}`;
-  if (clean === "api/index") return `api/index.json${suffix}`;
-  if (clean === "api/longform") return `api/longform.json${suffix}`;
-  if (clean.startsWith("api/article/")) {
-    const rest = clean.slice("api/article/".length);
-    if (rest.endsWith("/history")) {
-      return `api/article-history/${rest.slice(0, -"/history".length)}.json${suffix}`;
-    }
-    if (rest.includes("/v/")) {
-      const [id, version] = rest.split("/v/");
-      return `api/article-version/${id}/${version}.json${suffix}`;
-    }
-    return `api/article/${rest}.json${suffix}`;
-  }
-  if (clean.startsWith("api/longform/")) {
-    const rest = clean.slice("api/longform/".length);
-    if (rest.endsWith("/live")) {
-      return `api/longform-live/${decodeURIComponent(rest.slice(0, -"/live".length))}.json${suffix}`;
-    }
-    if (rest.includes("/options/")) {
-      const [id, prediction] = rest.split("/options/");
-      return `api/longform-options/${decodeURIComponent(id)}/${decodeURIComponent(prediction)}.json${suffix}`;
-    }
-    return `api/longform-report/${decodeURIComponent(rest)}.json${suffix}`;
-  }
-  return clean + suffix;
-}
-
-function apiFetch(path, options) {
-  return fetch(apiUrl(path), options);
 }
 
 function articleIsWriting(bookmarkId) {
@@ -248,70 +210,24 @@ function unmarkArticleWriting(bookmarkId) {
 // ---------- data fetch ----------
 
 async function fetchStats() {
-  const res = await apiFetch("/api/stats");
+  const res = await fetch("/api/stats");
   if (!res.ok) return null;
   return res.json();
 }
 
 async function fetchBookmarks() {
-  const res = await apiFetch("/api/bookmarks");
-  if (!res.ok) return null;
-  return filterBookmarkPayload(await res.json());
-}
-
-function filterBookmarkPayload(data) {
-  const allRows = data.rows || [];
-  let rows = allRows.slice();
-  const q = state.query.toLowerCase().trim();
-  if (q) {
-    rows = rows.filter((row) => {
-      const hay = [
-        row.text,
-        row.author,
-        row.author_name,
-        row.username,
-        row.category,
-        (row.tags || []).join(" "),
-        (row.domains || []).join(" "),
-        row.ocr_text,
-      ].join(" ").toLowerCase();
-      return hay.includes(q);
-    });
-  }
+  const params = new URLSearchParams();
+  if (state.query) params.set("query", state.query);
+  if (state.sort) params.set("sort", state.sort);
+  if (state.mediaFilter) params.set("media", state.mediaFilter);
   if (state.selectedTags.size) {
-    const tags = [...state.selectedTags];
-    rows = rows.filter((row) => {
-      const mine = new Set(row.tags || []);
-      return state.tagMode === "all"
-        ? tags.every((tag) => mine.has(tag))
-        : tags.some((tag) => mine.has(tag));
-    });
+    params.set("tags", [...state.selectedTags].join(","));
+    params.set("tag_mode", state.tagMode);
   }
-  if (state.mediaFilter === "media") {
-    rows = rows.filter((row) => Number(row.media_count || 0) > 0);
-  } else if (state.mediaFilter === "no_media") {
-    rows = rows.filter((row) => Number(row.media_count || 0) === 0);
-  } else if (state.mediaFilter === "ocr") {
-    rows = rows.filter((row) => Number(row.ocr_lines || 0) > 0 || (row.ocr_text || "").trim());
-  }
-  const bookmarkedKey = (row) => row.bookmarked_at || row.created_at || "";
-  if (state.sort === "engagement") {
-    rows.sort((a, b) => Number(b.score || 0) - Number(a.score || 0));
-  } else if (state.sort === "post-oldest" || state.sort === "oldest") {
-    rows.sort((a, b) => (a.created_at || "").localeCompare(b.created_at || ""));
-  } else if (state.sort === "post-recent" || state.sort === "recent") {
-    rows.sort((a, b) => (b.created_at || "").localeCompare(a.created_at || ""));
-  } else if (state.sort === "bookmarked-oldest") {
-    rows.sort((a, b) => bookmarkedKey(a).localeCompare(bookmarkedKey(b)));
-  } else {
-    rows.sort((a, b) => bookmarkedKey(b).localeCompare(bookmarkedKey(a)));
-  }
-  const matched = rows.length;
-  return {
-    ...data,
-    matched,
-    rows: rows.slice(0, 500),
-  };
+  params.set("limit", "500");
+  const res = await fetch(`/api/bookmarks?${params}`);
+  if (!res.ok) return null;
+  return res.json();
 }
 
 // ---------- rendering ----------
@@ -758,7 +674,7 @@ async function loadCachedArticle(bookmarkId) {
     // after a regenerate. Articles are written by background pipelines that
     // don't bump any cache headers; without this, the user can click ↻, see
     // the regen succeed server-side, but get the old article on next visit.
-    const res = await apiFetch(`/api/article/${encodeURIComponent(bookmarkId)}`,
+    const res = await fetch(`/api/article/${encodeURIComponent(bookmarkId)}`,
                             { cache: "no-store" });
     if (!res.ok) return;
     const data = await res.json();
@@ -771,7 +687,7 @@ async function loadArticleHistory(bookmarkId) {
     `.article-versions[data-bookmark-id="${CSS.escape(String(bookmarkId))}"]`);
   if (!slot) return;
   try {
-    const res = await apiFetch(`/api/article/${encodeURIComponent(bookmarkId)}/history`);
+    const res = await fetch(`/api/article/${encodeURIComponent(bookmarkId)}/history`);
     if (!res.ok) { slot.innerHTML = ""; return; }
     const data = await res.json();
     const versions = (data.versions || []);
@@ -809,7 +725,7 @@ async function loadArticleVersion(bookmarkId, versionId) {
   if (!slot) return;
   slot.innerHTML = `<div class="article-loading"><span class="spinner"></span> Loading version…</div>`;
   try {
-    const res = await apiFetch(`/api/article/${encodeURIComponent(bookmarkId)}/v/${encodeURIComponent(versionId)}`);
+    const res = await fetch(`/api/article/${encodeURIComponent(bookmarkId)}/v/${encodeURIComponent(versionId)}`);
     if (!res.ok) throw new Error((await res.json()).error || "failed");
     const data = await res.json();
     renderArticleSlot(bookmarkId, data, versionId);
@@ -862,7 +778,7 @@ async function forceRegenerateArticle(bookmarkId, focus = null) {
     slot.innerHTML = articleEmptyHtml(bookmarkId);
   }
   try {
-    const res = await apiFetch("/api/article", {
+    const res = await fetch("/api/article", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ bookmark_id: bookmarkId, force: true, focus }),
@@ -887,7 +803,7 @@ async function generateArticle(bookmarkId, slot) {
     slot.innerHTML = articleEmptyHtml(bookmarkId);
   }
   try {
-    const res = await apiFetch("/api/article", {
+    const res = await fetch("/api/article", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ bookmark_id: bookmarkId }),
@@ -1051,35 +967,6 @@ function renderArticleSlot(bookmarkId, data, displayedVersionId = null) {
       '$1<em>$2</em>');
     return out;
   };
-  const renderArticleMarkdownBlock = (block) => {
-    const lines = String(block || "").replace(/\r\n/g, "\n").split("\n");
-    const parts = [];
-    let para = [];
-    const flushPara = () => {
-      const text = para.join("\n").trim();
-      if (text) parts.push(`<p>${mdInline(text)}</p>`);
-      para = [];
-    };
-    for (let i = 0; i < lines.length; i++) {
-      const line = lines[i].replace(/\s+$/, "");
-      if (!line.trim()) { flushPara(); continue; }
-      if (isMarkdownTableRow(line) && isMarkdownTableSeparator(lines[i + 1] || "")) {
-        flushPara();
-        const tableRows = [];
-        i += 2;
-        while (i < lines.length && isMarkdownTableRow(lines[i])) {
-          tableRows.push(lines[i]);
-          i += 1;
-        }
-        i -= 1;
-        parts.push(renderMarkdownTable(line, tableRows, mdInline));
-        continue;
-      }
-      para.push(line.trim());
-    }
-    flushPara();
-    return parts.join("");
-  };
   const renderBodyWithDefs = () => {
     if (!bodyParagraphs.length) return "";
     // Distribute interleaved images evenly between paragraphs (skipping the
@@ -1097,7 +984,7 @@ function renderArticleSlot(bookmarkId, data, displayedVersionId = null) {
       }
     }
     return bodyParagraphs.map((p, idx) => {
-      const para = renderArticleMarkdownBlock(p);
+      const para = `<p>${mdInline(p)}</p>`;
       const defs = (conceptByParagraph[idx] || []).map(i => renderInlineDef(concepts[i])).join("");
       const imgs = (imgAfter.get(idx) || []).map(m => `
         <figure class="article-media single article-media-inline">
@@ -1425,7 +1312,7 @@ els.search.addEventListener("input", debouncedSearch);
 // newspaper-style grid of editorial briefs. Sort dropdown applies to either
 // view; "By tag" only matters in articles mode.
 async function loadArticles() {
-  const res = await apiFetch("/api/articles");
+  const res = await fetch("/api/articles");
   if (!res.ok) return [];
   const data = await res.json();
   return data.articles || [];
@@ -1575,7 +1462,7 @@ let _indexActiveTab = "tickers";
 
 async function loadIndex() {
   if (_indexCache) return _indexCache;
-  const r = await apiFetch("/api/index");
+  const r = await fetch("/api/index");
   _indexCache = await r.json();
   return _indexCache;
 }
@@ -1796,6 +1683,11 @@ state.longformOptionTracks = {};
 const LONGFORM_INLINE_RE = {
   link: /\[([^\]]+)\]\(([^)]+)\)/g,
   code: /`([^`]+)`/g,
+  // Fact-check redline markup: ~~removed~~ renders as a red strikethrough
+  // deletion; ==added== renders as a yellow-highlighted insertion. Applied
+  // before bold/italic so the corrected spans can themselves carry emphasis.
+  strike: /~~([^~]+)~~/g,
+  highlight: /==([^=]+)==/g,
   bold: /\*\*([^*]+)\*\*/g,
   italic: /\*([^*]+)\*/g,
 };
@@ -1806,38 +1698,11 @@ function longformInline(s) {
   out = out.replace(LONGFORM_INLINE_RE.link, (_, txt, url) =>
     `<a href="${url.replace(/"/g, "&quot;")}" target="_blank" rel="noopener">${txt}</a>`);
   out = out.replace(LONGFORM_INLINE_RE.code, "<code>$1</code>");
+  out = out.replace(LONGFORM_INLINE_RE.strike, '<del class="fc-del">$1</del>');
+  out = out.replace(LONGFORM_INLINE_RE.highlight, '<mark class="fc-ins">$1</mark>');
   out = out.replace(LONGFORM_INLINE_RE.bold, "<strong>$1</strong>");
   out = out.replace(LONGFORM_INLINE_RE.italic, "<em>$1</em>");
   return out;
-}
-
-function markdownTableCells(line) {
-  const trimmed = String(line || "").trim();
-  if (!trimmed.includes("|")) return null;
-  const inner = trimmed.replace(/^\|/, "").replace(/\|$/, "");
-  const cells = inner.split("|").map((cell) => cell.trim());
-  return cells.length >= 2 ? cells : null;
-}
-
-function isMarkdownTableSeparator(line) {
-  const cells = markdownTableCells(line);
-  return !!cells && cells.every((cell) => /^:?-{3,}:?$/.test(cell.trim()));
-}
-
-function isMarkdownTableRow(line) {
-  return !!markdownTableCells(line) && !isMarkdownTableSeparator(line);
-}
-
-function renderMarkdownTable(headerLine, bodyLines, inlineRenderer) {
-  const headers = markdownTableCells(headerLine) || [];
-  const rows = bodyLines
-    .map(markdownTableCells)
-    .filter((cells) => cells && cells.length);
-  if (!headers.length || !rows.length) return "";
-  return `<div class="md-table-wrap"><table class="md-table">
-    <thead><tr>${headers.map((cell) => `<th>${inlineRenderer(cell)}</th>`).join("")}</tr></thead>
-    <tbody>${rows.map((cells) => `<tr>${headers.map((_, i) => `<td>${inlineRenderer(cells[i] || "")}</td>`).join("")}</tr>`).join("")}</tbody>
-  </table></div>`;
 }
 
 function longformMarkdown(md) {
@@ -1856,22 +1721,9 @@ function longformMarkdown(md) {
     }
     buf = []; inQuote = false;
   };
-  for (let i = 0; i < lines.length; i++) {
-    const raw = lines[i];
+  for (const raw of lines) {
     const line = raw.replace(/\s+$/, "");
     if (!line.trim()) { flush(); continue; }
-    if (isMarkdownTableRow(line) && isMarkdownTableSeparator(lines[i + 1] || "")) {
-      flush();
-      const tableRows = [];
-      i += 2;
-      while (i < lines.length && isMarkdownTableRow(lines[i])) {
-        tableRows.push(lines[i]);
-        i += 1;
-      }
-      i -= 1;
-      out.push(renderMarkdownTable(line, tableRows, longformInline));
-      continue;
-    }
     const h2 = line.match(/^##\s+(.*)$/);
     if (h2) { flush(); out.push(`<h3>${longformInline(h2[1])}</h3>`); continue; }
     const bq = line.match(/^>\s?(.*)$/);
@@ -1923,7 +1775,7 @@ async function loadLongformReports() {
   els.longformToc.innerHTML = "";
   let list;
   try {
-    const res = await apiFetch("/api/longform");
+    const res = await fetch("/api/longform");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     list = (await res.json()).reports || [];
   } catch (e) {
@@ -1949,7 +1801,7 @@ async function openLongformReport(id) {
   els.longformMain.innerHTML = `<div class="empty"><span class="spinner"></span> Loading ${escapeHtml(id)}…</div>`;
   let report;
   try {
-    const res = await apiFetch(`/api/longform/${encodeURIComponent(id)}`);
+    const res = await fetch(`/api/longform/${encodeURIComponent(id)}`);
     if (!res.ok) {
       const body = await res.text();
       throw new Error(`HTTP ${res.status}: ${body.slice(0, 200)}`);
@@ -1982,6 +1834,18 @@ function renderLongformReport(report) {
       </select>`
     : "";
 
+  // Count fact-check redline spans across chapters (~~deletion~~ ==insertion==).
+  // Each correction is one ~~..~~ pair; this drives the "Show corrections" toggle,
+  // which is only offered when the dossier actually carries audited corrections.
+  const correctionCount = chapters.reduce(
+    (n, c) => n + ((String(c.body || "").match(/~~[^~]+~~/g) || []).length), 0);
+  const correctionsToggleHtml = correctionCount > 0
+    ? `<button class="lf-corrections-toggle" id="lfCorrectionsToggle" aria-pressed="false"
+         title="Reveal the fact-check corrections — removed text in red strikethrough, added text highlighted in yellow">
+         Show corrections <span class="lf-corrections-count">${correctionCount}</span>
+       </button>`
+    : "";
+
   els.longformToc.innerHTML = `
     ${selectorHtml}
     <h2 class="lf-toc-heading">Contents</h2>
@@ -1992,11 +1856,23 @@ function renderLongformReport(report) {
         </li>
       `).join("")}
     </ol>
+    ${correctionsToggleHtml}
     <div class="lf-toc-meta">
       ${meta.snapshot_date ? `Snapshot ${escapeHtml(meta.snapshot_date)}<br>` : ""}
       ${meta.word_count ? `${meta.word_count.toLocaleString()} words<br>` : ""}
       ${meta.n_sources ? `${meta.n_sources} sources` : ""}
     </div>`;
+
+  // Reset corrections view on each report load, then wire the toggle.
+  if (els.longformView) els.longformView.classList.remove("show-corrections");
+  const ctBtn = document.getElementById("lfCorrectionsToggle");
+  if (ctBtn && els.longformView) {
+    ctBtn.addEventListener("click", () => {
+      const on = els.longformView.classList.toggle("show-corrections");
+      ctBtn.setAttribute("aria-pressed", String(on));
+      ctBtn.childNodes[0].nodeValue = on ? "Hide corrections " : "Show corrections ";
+    });
+  }
 
   const picker = document.getElementById("longformReportPicker");
   if (picker) {
@@ -2004,6 +1880,25 @@ function renderLongformReport(report) {
       const next = e.target.value;
       if (next && next !== state.longformReportId) openLongformReport(next);
     });
+  }
+
+  // Mirror the picker into the mobile sticky bar so it stays visible on scroll
+  if (els.longformMobileBarPicker) {
+    els.longformMobileBarPicker.innerHTML = list.length > 1
+      ? `<select class="lf-toc-report-picker" id="longformMobileReportPicker" aria-label="Pick report">
+          ${list.map((r) => `<option value="${escapeHtml(r.id)}" ${r.id === state.longformReportId ? "selected" : ""}>${escapeHtml((r.type === "company" ? "🏢 " : "👤 ") + (r.title || r.id))}</option>`).join("")}
+        </select>`
+      : "";
+    if (els.longformView) {
+      els.longformView.classList.toggle("lf-has-mobilepicker", list.length > 1);
+    }
+    const mobilePicker = document.getElementById("longformMobileReportPicker");
+    if (mobilePicker) {
+      mobilePicker.addEventListener("change", (e) => {
+        const next = e.target.value;
+        if (next && next !== state.longformReportId) openLongformReport(next);
+      });
+    }
   }
 
   const abstract = report.abstract
@@ -2407,7 +2302,7 @@ async function hydrateLongformOptionTracks(report) {
       continue;
     }
     try {
-      const res = await apiFetch(`/api/longform/${encodeURIComponent(reportId)}/options/${encodeURIComponent(pid)}`);
+      const res = await fetch(`/api/longform/${encodeURIComponent(reportId)}/options/${encodeURIComponent(pid)}`);
       if (!res.ok) {
         mount.remove();
         continue;
@@ -2580,7 +2475,7 @@ async function refreshLongformLive(reportId) {
   if (!reportId) return;
   let payload;
   try {
-    const res = await apiFetch(`/api/longform/${encodeURIComponent(reportId)}/live`);
+    const res = await fetch(`/api/longform/${encodeURIComponent(reportId)}/live`);
     if (!res.ok) return;
     payload = await res.json();
   } catch (e) {
@@ -2990,7 +2885,7 @@ if (els.mastheadRefresh) {
       els.mastheadStamp.classList.add("refreshing");
     }
     try {
-      const res = await apiFetch("/api/refresh", { method: "POST" });
+      const res = await fetch("/api/refresh", { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "refresh failed");
       await refreshStats();
@@ -3327,6 +3222,26 @@ document.addEventListener("keydown", (e) => {
     else if (els.articlePane.dataset.bookmarkId) clearPane();
   }
 });
+
+// Track the site .topbar height as a CSS custom property so sticky elements
+// below it (like the longform chapter-title bar) can position themselves
+// flush against its bottom edge regardless of how many rows it wraps to.
+(() => {
+  const topbar = document.querySelector(".topbar");
+  if (!topbar) return;
+  const updateTopbarHeight = () => {
+    document.documentElement.style.setProperty(
+      "--topbar-h",
+      `${Math.round(topbar.getBoundingClientRect().height)}px`,
+    );
+  };
+  updateTopbarHeight();
+  if (typeof ResizeObserver !== "undefined") {
+    new ResizeObserver(updateTopbarHeight).observe(topbar);
+  } else {
+    window.addEventListener("resize", updateTopbarHeight);
+  }
+})();
 
 // ---------- bootstrap ----------
 

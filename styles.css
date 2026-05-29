@@ -76,34 +76,35 @@ input[type="search"]:focus, select:focus { border-color: var(--ink); box-shadow:
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  padding: 18px 28px;
+  gap: clamp(12px, 1.5vw + 4px, 24px);
+  padding: clamp(12px, 0.9vw + 8px, 18px) clamp(14px, 1.8vw + 8px, 28px);
   border-bottom: 1px solid var(--line);
   background: var(--bg);
   position: sticky;
   top: 0;
   z-index: 30;
+  flex-wrap: wrap;
 }
 .brand {
   line-height: 1;
   display: inline-flex;
   align-items: flex-end;
-  gap: 10px;
+  gap: clamp(6px, 0.5vw + 4px, 10px);
 }
 .brand .masthead {
   margin: 0;
   font-family: "Bodoni 72", "Didot", "Playfair Display", Georgia, "Times New Roman", serif;
   font-weight: 900;
-  font-size: 52px;
+  font-size: clamp(30px, 3vw + 12px, 52px);
   letter-spacing: -0.025em;
   line-height: 1;
   color: var(--ink);
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: clamp(4px, 0.4vw + 2px, 8px);
 }
 .masthead-glyph {
-  font-size: 44px;
+  font-size: clamp(26px, 2.6vw + 8px, 44px);
   color: var(--ink);
   display: inline-flex;
   line-height: 1;
@@ -153,15 +154,15 @@ input[type="search"]:focus, select:focus { border-color: var(--ink); box-shadow:
    indeterminate loading bar while a Playwright pull is in flight. */
 .masthead-stamp {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: clamp(9px, 0.15vw + 8.5px, 11px);
   color: var(--ink-mute);
   letter-spacing: 0.04em;
-  min-width: 80px;
+  min-width: 0;
   display: inline-flex;
   align-items: flex-end;
   height: 14px;
   white-space: nowrap;
-  margin-bottom: 6px;
+  margin-bottom: clamp(3px, 0.3vw + 1px, 6px);
 }
 .masthead-stamp.refreshing {
   color: var(--ink);
@@ -170,13 +171,13 @@ input[type="search"]:focus, select:focus { border-color: var(--ink); box-shadow:
 /* "Articles" toggle replaces the old media-filter dropdown. */
 .topbar-toggle {
   font-family: var(--font);
-  font-size: 13.5px;
+  font-size: clamp(11.5px, 0.2vw + 11px, 13.5px);
   letter-spacing: 0.02em;
   color: var(--ink);
   background: var(--bg);
   border: 1px solid var(--ink);
   border-radius: 0;
-  padding: 6px 14px;
+  padding: clamp(4px, 0.2vw + 3px, 6px) clamp(8px, 0.6vw + 5px, 14px);
   cursor: pointer;
 }
 .topbar-toggle:hover { background: var(--ink); color: var(--bg); }
@@ -187,11 +188,14 @@ body.articles-mode .sidebar,
 body.articles-mode .sidebar-resizer,
 body.articles-mode .article-pane,
 body.articles-mode .pane-resizer,
+body.index-mode .sidebar,
+body.index-mode .sidebar-resizer,
 body.index-mode .article-pane,
 body.index-mode .pane-resizer { display: none !important; }
-body.articles-mode .layout,
-body.index-mode .layout { grid-template-columns: var(--sidebar-w, 280px) 1fr; }
 body.articles-mode .layout { grid-template-columns: 1fr; }
+/* Index view: no sidebar (tags are irrelevant on an entity/concept catalog).
+   Full-width index entries with their own internal grid for browsing. */
+body.index-mode .layout { grid-template-columns: 1fr; }
 body.articles-mode .feed,
 body.index-mode .feed,
 body.longform-mode .feed { max-width: none; }
@@ -508,7 +512,8 @@ body.longform-mode .article-pane { display: none; }
 .topbar-tools {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: clamp(6px, 0.5vw + 3px, 10px);
+  flex-wrap: wrap;
 }
 /* When the timestamp sits in the toolbar, anchor the toolbar to the bottom
    of the topbar so the stamp aligns with the wordmark's baseline. */
@@ -516,7 +521,45 @@ body.longform-mode .article-pane { display: none; }
 .topbar-tools > input,
 .topbar-tools > select,
 .topbar-tools > button { align-self: center; }
-.topbar-tools #searchBox { width: 320px; }
+.topbar-tools #searchBox {
+  width: clamp(160px, 22vw, 320px);
+  min-width: 0;
+}
+
+/* Below ~720px: brand on row 1, toolbar wraps onto row 2+. Search and sort
+   share row 2; toggle buttons drop to row 3 if needed. All items remain
+   visible — no horizontal scroll, no hidden buttons. */
+@media (max-width: 720px) {
+  .topbar { gap: 10px; }
+  .topbar-tools {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .topbar-tools > * { flex-shrink: 1; }
+  .topbar-tools #searchBox {
+    flex: 1 1 140px;
+    min-width: 100px;
+    width: auto;
+  }
+  /* Cap the sort dropdown so its long "Recent (bookmarked)" label doesn't
+     push the toggle buttons to their own row. Native <select> ellipsises
+     overflowing text automatically. */
+  .topbar-tools #sortSelect {
+    flex: 1 1 120px;
+    min-width: 90px;
+    max-width: 180px;
+  }
+}
+
+/* Phone widths: drop the stamp (secondary info) and tighten further. */
+@media (max-width: 480px) {
+  .brand .masthead { font-size: clamp(22px, 5vw + 4px, 30px); }
+  .masthead-glyph { font-size: clamp(20px, 4.5vw + 4px, 26px); }
+  .masthead-stamp { display: none; }
+  .topbar-tools #sortSelect { max-width: 140px; }
+}
 
 /* LAYOUT */
 .layout {
@@ -529,8 +572,11 @@ body.longform-mode .article-pane { display: none; }
 }
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }
-  .sidebar { border-right: 0; border-bottom: 1px solid var(--line); position: static; max-height: none; }
 }
+/* The narrow-viewport .sidebar overrides live AFTER the base .sidebar rule
+   below (see the block starting `.sidebar { position: sticky; ... }`) so
+   their source order beats the base — see the matching block after that
+   definition. */
 /* Wide screens: show the article pane as a third column.
    Cap the feed at its natural max-width and let the pane absorb extra space.
    Sidebar and pane widths are user-draggable via the --sidebar-w / --pane-w
@@ -662,6 +708,27 @@ body.longform-mode .article-pane { display: none; }
   border-right: 1px solid var(--line);
   padding: 20px 0;
   background: var(--bg);
+  /* Grid item default is `min-width: auto` (won't shrink below intrinsic
+     content size), which forces the whole layout grid to expand beyond
+     viewport when the sidebar holds wide controls (e.g., the tag search
+     input). Reset so the grid column can actually contract at narrow widths. */
+  min-width: 0;
+}
+/* Narrow-viewport overrides — placed AFTER the base .sidebar rule so the
+   max-height cap actually wins source-order over `calc(100vh - 65px)`. */
+@media (max-width: 900px) {
+  .sidebar {
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    position: static;
+    /* Cap stacked sidebar height so the feed remains visible below;
+       sidebar's own overflow:auto handles internal scrolling. */
+    max-height: 40vh;
+    padding: 12px 0;
+  }
+}
+@media (max-width: 600px) {
+  .sidebar { max-height: 30vh; }
 }
 /* Draggable divider sitting on the sidebar/feed boundary. Lives in .layout
    (not inside .sidebar) so it can extend past the sidebar's overflow:auto
@@ -770,6 +837,9 @@ body.longform-mode .article-pane { display: none; }
 /* FEED */
 .feed {
   padding: 20px 28px 60px;
+  /* Same reason as .sidebar: prevent intrinsic min-content from forcing
+     grid expansion past viewport at narrow widths. */
+  min-width: 0;
 }
 .feed-header {
   display: flex;
@@ -1654,72 +1724,109 @@ button.article-regenerate:hover {
   padding-right: 8px;
 }
 
-/* Mobile collapsed ToC topbar — hidden on desktop, sticky bar on mobile */
-.lf-toc-mobilebar {
-  display: none;
+/* Sticky chapter-title bar — visible at all widths now. Spans the full
+   longform-view width (above both the TOC sidebar and main column on
+   desktop, above the article on mobile). Stacks below the site .topbar,
+   whose height is exposed as --topbar-h via JS (falls back to ~96px). */
+.lf-toc-mobilebar-picker {
+  display: block;
+  position: sticky;
+  top: var(--topbar-h, 96px);
+  z-index: 21;
+  padding: 8px 16px;
+  background: var(--bg, #fff);
+  border-bottom: 1px solid var(--line, #e5e5e5);
+  /* Span all grid columns of .longform-view */
+  grid-column: 1 / -1;
+  margin: 0 -32px; /* bleed past longform-view padding so it touches viewport edges */
 }
+.lf-toc-mobilebar-picker:empty { display: none; }
+.lf-toc-mobilebar-picker .lf-toc-report-picker { margin: 0; }
+
+.lf-toc-mobilebar {
+  display: flex;
+  position: sticky;
+  top: var(--topbar-h, 96px);
+  z-index: 20;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: auto;
+  margin: 0 -32px;
+  padding: 10px 16px;
+  background: var(--bg, #fff);
+  border: 0;
+  border-bottom: 1px solid var(--line, #e5e5e5);
+  color: var(--ink, #111);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  grid-column: 1 / -1;
+}
+/* When the report picker is present above this bar, push the title bar
+   below the picker (which is itself below the topbar). */
+.longform-view.lf-has-mobilepicker .lf-toc-mobilebar {
+  top: calc(var(--topbar-h, 96px) + 43px);
+}
+
+/* Label/num/title/chev styling — applies at all widths. */
+.lf-toc-mobilebar-label {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  flex: 1;
+}
+.lf-toc-mobilebar-num {
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: var(--muted, #999);
+  flex-shrink: 0;
+}
+.lf-toc-mobilebar-title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+.lf-toc-mobilebar-chev {
+  font-size: 20px;
+  color: var(--muted, #888);
+  flex-shrink: 0;
+  transition: transform 0.18s ease;
+}
+.lf-toc-mobilebar[aria-expanded="true"] .lf-toc-mobilebar-chev {
+  transform: rotate(180deg);
+}
+
 @media (max-width: 920px) {
-  .lf-toc-mobilebar {
-    display: flex;
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    width: 100%;
+  .lf-toc-mobilebar-picker {
+    top: 89px; /* below site .topbar at narrow widths */
     margin: 0;
-    padding: 10px 16px;
-    background: var(--bg, #fff);
-    border: 0;
-    border-bottom: 1px solid var(--line, #e5e5e5);
-    color: var(--ink, #111);
-    font: inherit;
-    text-align: left;
-    cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
   }
-  .lf-toc-mobilebar-label {
-    display: flex;
-    align-items: baseline;
-    gap: 8px;
-    min-width: 0;
-    flex: 1;
-  }
-  .lf-toc-mobilebar-num {
-    font-size: 11px;
-    font-variant-numeric: tabular-nums;
-    letter-spacing: 0.04em;
-    color: var(--muted, #999);
-    flex-shrink: 0;
-  }
-  .lf-toc-mobilebar-title {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.3;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    min-width: 0;
-  }
-  .lf-toc-mobilebar-chev {
-    font-size: 20px;
-    color: var(--muted, #888);
-    flex-shrink: 0;
-    transition: transform 0.18s ease;
-  }
-  .lf-toc-mobilebar[aria-expanded="true"] .lf-toc-mobilebar-chev {
-    transform: rotate(180deg);
+  .lf-toc-mobilebar {
+    top: 89px;
+    margin: 0;
+    width: 100%;
   }
 
+  /* Mobile: stack the picker (when present) above the topbar */
+  .longform-view.lf-has-mobilepicker .lf-toc-mobilebar {
+    top: 132px; /* site topbar 89 + picker row 43 */
+  }
   /* Mobile: ToC becomes a slide-down sheet under the topbar */
   .longform-toc {
     position: fixed;
-    top: 41px; /* topbar height */
+    top: 130px; /* site topbar 89 + lf mobilebar 41 */
     left: 0;
     right: 0;
     z-index: 19;
-    max-height: calc(100vh - 41px);
+    max-height: calc(100vh - 130px);
     overflow-y: auto;
     background: var(--bg, #fff);
     padding: 16px 20px 24px;
@@ -1734,6 +1841,10 @@ button.article-regenerate:hover {
     transform: translateY(0);
     visibility: visible;
     transition: transform 0.22s ease, visibility 0s linear 0s;
+  }
+  .longform-view.lf-has-mobilepicker .longform-toc {
+    top: 173px; /* site topbar 89 + picker 43 + lf mobilebar 41 */
+    max-height: calc(100vh - 173px);
   }
   .lf-toc-heading {
     margin-top: 4px;
@@ -1904,35 +2015,62 @@ button.article-regenerate:hover {
   border-radius: 3px;
 }
 
-.md-table-wrap {
-  width: 100%;
-  overflow-x: auto;
-  margin: 18px 0 22px;
+/* Fact-check redlines. Default (corrections hidden) shows the clean corrected
+   copy: deletions removed, insertions rendered as ordinary prose. The
+   "Show corrections" toggle adds .show-corrections to the longform view, which
+   reveals removed text as red strikethrough and added text as yellow highlight. */
+.fc-del { display: none; }
+.fc-ins { background: none; color: inherit; padding: 0; border-radius: 0; }
+
+.show-corrections .fc-del {
+  display: inline;
+  color: #c0392b;
+  text-decoration: line-through;
+  text-decoration-color: #c0392b;
+  text-decoration-thickness: 1.5px;
+}
+.show-corrections .fc-ins {
+  background: #fff3a3;
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* "Show corrections" toggle in the Contents rail */
+.lf-corrections-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 14px 0 0;
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  background: transparent;
   border: 1px solid var(--line);
-  background: var(--paper);
+  border-radius: 6px;
+  cursor: pointer;
 }
-.md-table {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 520px;
-  font-size: 13px;
-  line-height: 1.45;
+.lf-corrections-toggle:hover { border-color: var(--ink); }
+.lf-corrections-toggle[aria-pressed="true"] {
+  background: #fff3a3;
+  border-color: #e6c200;
 }
-.md-table th,
-.md-table td {
-  padding: 9px 10px;
-  border-bottom: 1px solid var(--line);
-  text-align: left;
-  vertical-align: top;
-}
-.md-table th {
+.lf-corrections-count {
+  font-variant-numeric: tabular-nums;
   font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-weight: 700;
-  background: var(--surface);
+  padding: 0 5px;
+  border-radius: 8px;
+  background: var(--line);
+  color: var(--muted, #666);
 }
-.md-table tr:last-child td { border-bottom: 0; }
+.lf-corrections-toggle[aria-pressed="true"] .lf-corrections-count {
+  background: rgba(0,0,0,0.12);
+  color: var(--ink);
+}
 
 .lf-chapter-meta {
   margin-top: 12px;
