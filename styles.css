@@ -1729,6 +1729,29 @@ button.article-regenerate:hover {
   font-size: 13px;
   line-height: 1.45;
   padding-right: 8px;
+  /* Flex column: macro + chapter list (scrolls) + meta + toolbar pinned. */
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 140px);
+}
+/* Only the chapter list scrolls; everything else is pinned. */
+.longform-toc .lf-toc-list {
+  overflow-y: auto;
+  min-height: 0;          /* allow flex shrink to enable scrolling */
+  flex: 1 1 auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--ink-mute, #999) transparent;
+}
+.longform-toc .lf-toc-list::-webkit-scrollbar { width: 6px; }
+.longform-toc .lf-toc-list::-webkit-scrollbar-thumb {
+  background: var(--ink-mute, #999);
+  border-radius: 3px;
+}
+.longform-toc .lf-toc-list::-webkit-scrollbar-track { background: transparent; }
+/* Bottom-pinned toolbar inside the rail. */
+.longform-toc .lf-toc-toolbar {
+  flex: 0 0 auto;
+  margin-top: auto;
 }
 /* The pinned ticker macro at the top of the TOC pane. Same Baldessari
    palette + layout as the overview card's macro, but clickable: the
@@ -1983,24 +2006,40 @@ button.article-regenerate:hover {
 
 .lf-article { padding: 0; }
 .lf-header { margin: 0 0 24px; }
+/* Shared column width for the longform article column. Title/deck/abstract/
+   chapter body/blockquote all align to the same right margin. */
+.lf-article { --lf-col: 580px; }
 .lf-title {
+  font-family: var(--font);     /* sans for the company-name title */
   font-size: 44px;
   line-height: 1.05;
   letter-spacing: -0.025em;
-  margin: 0 0 12px;
+  margin: 0 0 28px;
   font-weight: 800;
-  max-width: 22ch;
+  max-width: var(--lf-col);
 }
+/* Even when the user toggles Serif for body type, keep the title sans. */
+.article-block.serif .lf-title { font-family: var(--font); }
 /* Deck — the part of the headline after the first ":" or em-dash. Reads as
    the FT-style subhead beneath a punchy lead. */
+/* The deck (FT-style subhead after the title's first colon / em-dash) is
+   rendered as a black macro block — solid black, white sans, paragraph-
+   weight. Mirrors the Baldessari ticker macro on the overview card. */
 .lf-deck {
-  font-size: 22px;
-  line-height: 1.3;
-  letter-spacing: -0.015em;
-  font-weight: 500;
-  color: var(--ink);
-  margin: 0 0 20px;
-  max-width: 56ch;
+  background: #0a0a0a;
+  color: #fafafa;
+  font-family: var(--font);
+  font-size: 19px;
+  line-height: 1.55;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  hyphens: none;
+  margin: 0 0 44px;
+  padding: 52px 40px;
+  max-width: var(--lf-col);
+  box-sizing: border-box;
 }
 .lf-subtitle {
   font-size: 16px;
@@ -2023,13 +2062,10 @@ button.article-regenerate:hover {
   line-height: 1.6;
   color: var(--ink);
   margin: 0 0 32px;
-  max-width: 64ch;
+  max-width: var(--lf-col);
 }
-.lf-abstract p {
-  margin: 0 0 14px;
-}
+.lf-abstract p { margin: 0 0 14px; }
 .lf-abstract p:last-child { margin-bottom: 0; }
-/* First paragraph gets a touch more weight so the lede reads first. */
 .lf-abstract p:first-child {
   font-size: 18px;
   font-weight: 500;
@@ -2054,7 +2090,34 @@ button.article-regenerate:hover {
   letter-spacing: -0.005em;
   margin: 0 0 12px;
   font-weight: 700;
+  max-width: var(--lf-col);
 }
+/* When the chapter title carries a "kicker: descriptor" pattern, the JS
+   splits it into two spans rendered on separate lines. Scale: the kicker
+   (the short lead before the colon — usually the actual chapter name) is
+   the BIG headline; the descriptor (the long string after the colon) is
+   the secondary, smaller eyebrow beneath. */
+.lf-chapter-kicker {
+  display: block;
+  font-family: var(--font);     /* sans for the big lead line */
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--ink);
+}
+.lf-chapter-mainline {
+  display: block;
+  margin-top: 8px;
+  font-family: var(--font-serif, "Bodoni 72", "Didot", Georgia, serif);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: var(--muted, #555);
+}
+/* Even if the user toggles Serif body, the kicker stays sans. */
+.article-block.serif .lf-chapter-kicker { font-family: var(--font); }
 .lf-chapter-lede {
   font-size: 16px;
   line-height: 1.55;
@@ -2065,7 +2128,7 @@ button.article-regenerate:hover {
 .lf-chapter-body {
   font-size: 16px;
   line-height: 1.65;
-  max-width: 64ch;
+  max-width: var(--lf-col);
 }
 .lf-chapter-body p { margin: 0 0 16px; }
 .lf-chapter-body h3 {
@@ -2075,13 +2138,27 @@ button.article-regenerate:hover {
   margin: 28px 0 10px;
   font-weight: 700;
 }
+/* Blockquotes rendered as black macro blocks too. */
+/* Blockquotes: white-background card with a thin black rectangle outline,
+   all-caps centered type — same editorial register as the deck but
+   inverted so the eye treats it as a callout, not a continuation. */
 .lf-chapter-body blockquote {
-  margin: 18px 0;
-  padding: 4px 0 4px 16px;
-  border-left: 3px solid var(--line);
-  font-style: italic;
-  color: var(--muted, #444);
+  background: var(--bg, #ffffff);
+  color: var(--ink);
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.55;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 26px 0;
+  padding: 30px 28px;
+  border: 1.5px solid var(--ink);
 }
+.lf-chapter-body blockquote p { margin: 0 0 12px; color: inherit; }
+.lf-chapter-body blockquote p:last-child { margin-bottom: 0; }
 .lf-chapter-body a {
   color: var(--ink);
   text-decoration: underline;
@@ -3093,55 +3170,90 @@ body.longform-mode #sortSelect { display: none; }
 /* Markdown pipe-tables embedded inside chapter bodies. Wrapped in a
    horizontal-scroll container so wide tables don't blow up the chapter column
    on narrow viewports. */
+/* === Longform tables ====================================================
+   Editorial register matching the deck / quote / rubric language: heavy
+   double rule on top, single rule on bottom, FT-style uppercase headers,
+   tabular numbers, first-column row-label emphasis, subtle hover. */
 .lf-table-wrap {
-  margin: 22px 0;
+  margin: 32px 0;
   overflow-x: auto;
-  border-top: 2px solid var(--ink);
+  border-top: 3px double var(--ink);
   border-bottom: 1px solid var(--ink);
 }
 .lf-table {
   width: 100%;
   border-collapse: collapse;
   font-family: var(--font);
-  font-size: 13.5px;
-  line-height: 1.4;
+  font-size: 14px;
+  line-height: 1.45;
+  font-variant-numeric: tabular-nums;
   font-style: normal;
 }
 .lf-table th,
 .lf-table td {
   text-align: left;
   vertical-align: top;
-  padding: 8px 12px 8px 0;
+  padding: 12px 18px 12px 0;
   border-bottom: 1px solid var(--line, #e5e2da);
   font-style: normal;
 }
-.lf-table th {
+.lf-table thead th {
+  font-family: var(--font);
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
-  font-size: 11px;
-  color: var(--muted, #555);
-  border-bottom: 1px solid var(--ink);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  letter-spacing: 0.09em;
+  font-size: 10.5px;
+  color: var(--ink);
+  border-bottom: 2px solid var(--ink);
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-.lf-table tbody tr:last-child td { border-bottom: 0; }
-.lf-table td:first-child,
-.lf-table th:first-child { padding-left: 0; }
+/* First column = row label: ink-coloured, slightly heavier, all caps when
+   short. Acts as the editorial "kicker" for each row. */
+.lf-table td:first-child {
+  font-weight: 600;
+  color: var(--ink);
+  padding-left: 0;
+}
+.lf-table thead th:first-child { padding-left: 0; }
 .lf-table td:last-child,
-.lf-table th:last-child { padding-right: 0; }
+.lf-table thead th:last-child { padding-right: 0; }
+.lf-table tbody tr:hover { background: var(--bg-muted, #fafafa); }
+.lf-table tbody tr:last-child td { border-bottom: 0; }
+/* Numeric columns (detected at parse time) right-align with tabular nums. */
+.lf-table td.lf-num,
+.lf-table thead th.lf-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+/* Inside a table cell, suppress the entity-highlight backgrounds /
+   underlines for tickers + companies so the column-grid stays clean. */
+.lf-table td a.lf-hl-ticker,
+.lf-table td a.lf-hl-company {
+  text-decoration: none;
+  font-weight: inherit;
+}
+.lf-table td .lf-hl-money,
+.lf-table td .lf-hl-money-pos,
+.lf-table td .lf-hl-money-neg,
+.lf-table td .lf-hl-metric,
+.lf-table td .lf-hl-metric-pos,
+.lf-table td .lf-hl-metric-neg,
+.lf-table td .lf-hl-date {
+  font-weight: 600;
+}
 
 /* === Longform entity highlighting (Bloomberg-terminal style) =========== */
 /* Inline colour-coded spans for dates / money / metrics / tickers / glossary
    / names so the reader can scan a chapter for the right datapoint at a
    glance. Subtle, no background colour — just the foreground hue. */
 .lf-hl-date {
-  color: #1d4ed8;   /* royal/cobalt blue */
+  color: #d97706;   /* amber-600 — warm yellow/orange */
 }
 /* Money — neutral (just a dollar amount), positive (up/gain/profit), negative
    (down/loss/deficit). Sign is inferred from surrounding verbs/nouns. */
 .lf-hl-money {
-  color: #4b5563;   /* slate — neutral */
+  color: #0e7490;   /* cyan / teal — neutral (matches metric-neutral) */
   font-weight: 600;
 }
 .lf-hl-money-pos {
@@ -3212,3 +3324,154 @@ a.lf-hl-company { font-weight: 600; }
 .lf-hl-phrase-neutral {
   background: rgba(75, 85, 99, 0.05);    /* slate, very light */
 }
+
+/* === Longform key-sentence highlighter ================================== */
+/* The LLM picks the top 10–20% of sentences per chapter that matter most
+   for understanding the company. Render them with a warm highlighter-pen
+   tint — subtle enough that the prose still reads, distinct enough that
+   skimming surfaces them at a glance. */
+mark.lf-hl-keysentence {
+  background: linear-gradient(to bottom,
+              transparent 0,
+              transparent 14%,
+              rgba(255, 222, 102, 0.42) 14%,
+              rgba(255, 222, 102, 0.42) 92%,
+              transparent 92%);
+  color: inherit;
+  padding: 1px 2px;
+  border-radius: 1px;
+}
+/* In an article with a TON of phrases nested, keep the highlighter's
+   background visible through any inner number/date colour. */
+mark.lf-hl-keysentence .lf-hl-money,
+mark.lf-hl-keysentence .lf-hl-metric,
+mark.lf-hl-keysentence .lf-hl-money-pos,
+mark.lf-hl-keysentence .lf-hl-money-neg,
+mark.lf-hl-keysentence .lf-hl-metric-pos,
+mark.lf-hl-keysentence .lf-hl-metric-neg {
+  background-color: transparent;
+}
+
+/* Font-toolbar pinned at the bottom of the longform contents rail. */
+.lf-toc-toolbar {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line, #ddd);
+}
+.toolbar-btn[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+/* === Color / Changes toggles at the bottom of the rail ================== */
+.lf-toc-toolbar {
+  display: flex;
+  gap: 8px;
+}
+.lf-rail-toggle {
+  flex: 1 1 0;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 8px 10px;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+.lf-rail-toggle:hover { background: var(--bg-muted, #f4f1eb); }
+.lf-rail-toggle[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--bg);
+}
+.lf-rail-toggle .lf-corrections-count {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 1px 5px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 999px;
+  font-size: 10px;
+}
+.lf-rail-toggle:not([aria-pressed="true"]) .lf-corrections-count {
+  background: rgba(0,0,0,0.08);
+}
+
+/* When the Color toggle is OFF, suppress every entity highlight so the
+   chapter body reads as plain text. Affects ticker / company links too
+   (drop the underline). The fact-check redline UI is unaffected. */
+.longform-view.colors-off .lf-hl-date,
+.longform-view.colors-off .lf-hl-money,
+.longform-view.colors-off .lf-hl-money-pos,
+.longform-view.colors-off .lf-hl-money-neg,
+.longform-view.colors-off .lf-hl-metric,
+.longform-view.colors-off .lf-hl-metric-pos,
+.longform-view.colors-off .lf-hl-metric-neg,
+.longform-view.colors-off .lf-hl-name,
+.longform-view.colors-off .lf-hl-glossary,
+.longform-view.colors-off .lf-hl-concept,
+.longform-view.colors-off .lf-hl-place {
+  color: inherit !important;
+  font-weight: inherit !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+.longform-view.colors-off a.lf-hl-ticker,
+.longform-view.colors-off a.lf-hl-company {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+.longform-view.colors-off mark.lf-hl-keysentence {
+  background: transparent !important;
+}
+.longform-view.colors-off .lf-hl-phrase,
+.longform-view.colors-off .lf-hl-phrase-positive,
+.longform-view.colors-off .lf-hl-phrase-negative,
+.longform-view.colors-off .lf-hl-phrase-neutral {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+/* "8 sources" in the rail meta block links to the bibliography. */
+.lf-toc-meta-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--ink-mute, #999);
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.lf-toc-meta-link:hover { text-decoration-color: var(--ink); }
+
+/* === Rail social-link icons ============================================ */
+.lf-toc-socials {
+  display: inline-flex;
+  gap: 6px;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+.lf-soc {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--ink);
+  text-decoration: none;
+  line-height: 1;
+  font-family: var(--font);
+  letter-spacing: 0;
+  transition: background-color 100ms ease, color 100ms ease;
+}
+.lf-soc:hover { background: var(--ink); color: var(--bg); }
+.lf-soc-x  { font-family: serif; font-size: 13px; }
+.lf-soc-yt { font-size: 9px; }

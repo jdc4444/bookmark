@@ -1766,10 +1766,11 @@ const LONGFORM_HIGHLIGHT_RE = new RegExp([
 
   // 4. METRICS
   //    "200% YoY" / "13% growth" / "+12.9%" / "−3.0%" / "38 percent" /
-  //    "57-percent" / "57 percentage points" / "25–30 percent"  (ranges)
-  `(?<metricPct>[+\\-−]?\\d+(?:\\.\\d+)?(?:[\\s]*[–\\-—]\\s*\\d+(?:\\.\\d+)?)?[\\s\\-]*(?:%|percent(?:age)?(?:\\s+points?)?|pct|bps)(?:\\s*(?:YoY|QoQ|MoM|YTD|CAGR|year[- ]over[- ]year))?)`,
-  //    "5x Sales" / "45.2x" / "2.5×"
-  `(?<metricMult>\\d+(?:\\.\\d+)?[x×])`,
+  //    "57-percent" / "57 percentage points" / "25–30 percent" (ranges) /
+  //    "+168 per cent" (British two-word spelling).
+  `(?<metricPct>[+\\-−]?\\d+(?:\\.\\d+)?(?:[\\s]*[–\\-—]\\s*\\d+(?:\\.\\d+)?)?[\\s\\-]*(?:%|per\\s*cent(?:age)?(?:\\s+points?)?|pct|bps)(?:\\s*(?:YoY|QoQ|MoM|YTD|CAGR|year[- ]over[- ]year))?)`,
+  //    "5x Sales" / "45.2x" / "2.5×" / "0.7–0.9x" (range)
+  `(?<metricMult>\\d+(?:\\.\\d+)?(?:[\\s]*[–\\-—]\\s*\\d+(?:\\.\\d+)?)?[x×])`,
 
   // 6. TICKERS
   //    "$TSM" / "$NVDA" / "$ASML.AS" / "$0992.HK" — alphanumeric ticker syms
@@ -1781,8 +1782,12 @@ const LONGFORM_HIGHLIGHT_RE = new RegExp([
 // "up 23 percent" → positive; "$35M loss" → negative; "$10B revenue" → neutral.
 const _SIGN_NEG_BEFORE = /\b(down|fell|fall|fallen|lost|los[ts]|loss|losses|declin[a-z]*|decreas[a-z]*|lower|contract[a-z]*|drop[a-z]*|plunge[a-z]*|tumble[a-z]*|shr[au]nk|narrow[a-z]*|reduc[a-z]*|impair[a-z]*|writedown|writeoff|negat[a-z]*|misse?d?|short(fall)?|under|deficit|sank|slow[a-z]*)\b[^.?!]{0,40}$/i;
 const _SIGN_POS_BEFORE = /\b(up|rose|risen|grew|grow[ns]?|gain[a-z]*|increas[a-z]*|higher|expand[a-z]*|jump[a-z]*|surg[a-z]*|rall[a-z]*|advanc[a-z]*|climb[a-z]*|added|swell[a-z]*|posit[a-z]*|beat|exceed[a-z]*|outperform[a-z]*|over|profit[a-z]*|boost[a-z]*|topp[a-z]*)\b[^.?!]{0,40}$/i;
-const _SIGN_NEG_AFTER = /^[\s,;]*?\b(loss|losses|deficit|impair[a-z]*|writedown|writeoff|short(fall)?|decline|drop|fell|declin[a-z]*)\b/i;
-const _SIGN_POS_AFTER = /^[\s,;]*?\b(gain|gains|profit|surplus|income|growth|revenue|increase)\b/i;
+// Allow a short connector (in / of / from / for / as / per) between the
+// number and the financial-context noun, with up to two adjectives between
+// connector and noun so "$8.9M in operating cash flow" / "$5.1B in net
+// revenue" / "$48B of strategic impairment" all classify correctly.
+const _SIGN_NEG_AFTER = /^[\s,;]*?(?:(?:in|of|from|for|as|to|per)\s+)?(?:[a-z]+(?:\s+[a-z]+)?\s+)?\b(loss|losses|deficit|impair[a-z]*|writedown|writeoff|short(fall)?|decline|drop|fell|declin[a-z]*|debt|leverage|liabilit[a-z]*|charge|penal[a-z]*|fine|interest\s+expense|net\s+loss)\b/i;
+const _SIGN_POS_AFTER = /^[\s,;]*?(?:(?:in|of|from|for|as|to|per)\s+)?(?:[a-z]+(?:\s+[a-z]+)?\s+)?\b(cash\s+flow|free\s+cash\s+flow|FCF|operating\s+cash|operating\s+income|net\s+income|gross\s+profit|margin\s+expansion|gain|gains|profit[a-z]*|surplus|income|growth|revenue|earnings|cash|dividend|buyback|EBITDA|backlog|ARR|RPO|orders|increase)\b/i;
 
 // "from X to Y" range continuation — if we're looking at Y (the destination
 // number) and the prose said "expanded from N1 to N2", N2 should inherit the
@@ -1825,6 +1830,24 @@ function wrapMetricPhrases(escapedHtml, phrases) {
     if (idx < 0) continue;
     out = out.slice(0, idx) +
           `<span class="lf-hl-phrase lf-hl-phrase-${p.sign || "neutral"}">${needle}</span>` +
+          out.slice(idx + needle.length);
+  }
+  return out;
+}
+
+// Wrap the LLM-selected top sentences ("understand the company at a glance")
+// with a highlighter-pen background. Runs BEFORE other wrappers so the inner
+// number / company / date highlights still apply within the sentence.
+function wrapKeySentences(escapedHtml, keySentences) {
+  if (!keySentences || !keySentences.length) return escapedHtml;
+  let out = escapedHtml;
+  for (const ks of keySentences) {
+    const needle = escapeHtml(ks.text);
+    const idx = out.indexOf(needle);
+    if (idx < 0) continue;
+    const tooltip = ks.why ? ` title="${escapeAttr(ks.why)}"` : "";
+    out = out.slice(0, idx) +
+          `<mark class="lf-hl-keysentence"${tooltip}>${needle}</mark>` +
           out.slice(idx + needle.length);
   }
   return out;
@@ -1987,6 +2010,9 @@ async function ensureDossierEntityScope(slug) {
       if (!cc.name) continue;
       scope.concepts.set(cc.name.toLowerCase(), cc);
     }
+    // Official social-media handles (codex-discovered). Surfaced as icon links
+    // next to the rail's "N sources" line.
+    scope.socials = data.socials || null;
     // LLM-identified metric phrases — whole sub-sentences carrying a number
     // whose sign is set by the full sentence's context. The renderer wraps
     // these phrases verbatim BEFORE the regex pass so the wrapping survives.
@@ -1994,6 +2020,13 @@ async function ensureDossierEntityScope(slug) {
       .filter((mp) => mp && mp.text && mp.text.length >= 8)
       .map((mp) => ({ text: mp.text, sign: (mp.sign || "neutral").toLowerCase() }))
       // Longest first so a phrase containing another phrase wins.
+      .sort((a, b) => b.text.length - a.text.length);
+    // LLM-selected key sentences — the top ~10-20% of sentences in a chapter
+    // that matter most for understanding the company. Rendered with a
+    // highlighter-pen background so they stand out at a glance.
+    scope.keySentences = (data.key_sentences || [])
+      .filter((ks) => ks && ks.text && ks.text.length >= 20)
+      .map((ks) => ({ text: ks.text, why: ks.why || "" }))
       .sort((a, b) => b.text.length - a.text.length);
     // Compile a single regex matching any confirmed entity name. Sort by
     // length descending so longer names win the alternation.
@@ -2016,12 +2049,36 @@ async function ensureDossierEntityScope(slug) {
       scope.glossaryRe = new RegExp("\\b(" + sorted.map(escapeRe).join("|") + ")\\b", "g");
     }
     state.lfDossierScope = scope;
+    // Once the scope is loaded, paint the social-link icons into the rail.
+    renderSocialIcons(scope.socials);
     return scope;
   } catch (e) {
     console.warn("Failed to load dossier entity scope:", e);
     state.lfDossierScope = null;
     return null;
   }
+}
+
+// Render the rail's social-link icons (X / Instagram / LinkedIn / YouTube)
+// once codex has discovered them for this dossier.
+function renderSocialIcons(socials) {
+  const slot = document.getElementById("lfTocSocials");
+  if (!slot) return;
+  if (!socials) { slot.innerHTML = ""; return; }
+  const make = (key, url, label, glyph) => url
+    ? `<a class="lf-soc lf-soc-${key}" href="${escapeAttr(url)}"
+          target="_blank" rel="noopener" title="${label}"
+          aria-label="${label}">${glyph}</a>`
+    : "";
+  // Compact monogram glyphs — sit inline next to "N sources" so the row
+  // stays scannable; tooltip names them on hover.
+  const html = [
+    make("x",  socials.twitter,   "Twitter / X", "𝕏"),
+    make("ig", socials.instagram, "Instagram",   "IG"),
+    make("li", socials.linkedin,  "LinkedIn",    "in"),
+    make("yt", socials.youtube,   "YouTube",     "▶"),
+  ].filter(Boolean).join("");
+  slot.innerHTML = html;
 }
 
 // Fetch the sitewide entity index + dossier overview, build a single regex
@@ -2088,6 +2145,22 @@ async function ensureLongformEntityIndex() {
   } catch (e) {
     console.warn("Failed to build longform entity index:", e);
   }
+}
+
+// Split a chapter title at the first ": " into a kicker + the title proper,
+// rendered on two lines. "Financial Deep Dive: Revenue Trajectory, ..." →
+//   kicker = "Financial Deep Dive"
+//   title  = "Revenue Trajectory, ..."
+// Falls back to the unchanged title if there's no colon.
+function renderChapterTitle(title) {
+  const t = String(title || "").trim();
+  if (!t) return "";
+  const i = t.indexOf(": ");
+  if (i <= 0 || i > 60) return escapeHtml(t);
+  const kicker = t.slice(0, i).trim();
+  const main = t.slice(i + 2).trim();
+  return `<span class="lf-chapter-kicker">${escapeHtml(kicker)}</span>` +
+         `<span class="lf-chapter-mainline">${escapeHtml(main)}</span>`;
 }
 
 // Split a long FT-style dossier title into a punchy lead + a smaller deck.
@@ -2165,16 +2238,44 @@ function longformInline(s) {
   out = out.replace(LONGFORM_INLINE_RE.code, "<code>$1</code>");
   out = out.replace(LONGFORM_INLINE_RE.strike, '<del class="fc-del">$1</del>');
   out = out.replace(LONGFORM_INLINE_RE.highlight, '<mark class="fc-ins">$1</mark>');
-  // Wrap whole metric phrases (LLM-identified) FIRST so the colour-tint
-  // backdrop is preserved when the inner number/date highlights apply.
+  // Wrap LLM-selected key sentences FIRST (outer highlighter-pen background),
+  // then metric phrases on top of those, then regex/scope inner highlights.
   const scope = state.lfDossierScope;
+  if (scope && scope.keySentences) out = wrapKeySentences(out, scope.keySentences);
   if (scope && scope.phrases) out = wrapMetricPhrases(out, scope.phrases);
   // Apply colour-coded entity highlights to remaining plain text. Skips
   // text already wrapped by the steps above so we don't double-wrap.
   out = highlightEntities(out);
+  // Post-pass: when a number-bearing redline insertion sits next to its
+  // unit ("<mark>55–58</mark> percent"), the original entity highlighter
+  // couldn't reach across the tag boundary. Re-wrap the unit so the whole
+  // metric reads as a coloured run.
+  out = stitchRedlineMetrics(out);
   out = out.replace(LONGFORM_INLINE_RE.bold, "<strong>$1</strong>");
   out = out.replace(LONGFORM_INLINE_RE.italic, "<em>$1</em>");
   return out;
+}
+
+// Glue a metric / money / date unit that sits OUTSIDE a fact-check insertion
+// to the number INSIDE it, so "<mark class=fc-ins>55–58</mark> percent" reads
+// as one cohesive metric.
+function stitchRedlineMetrics(html) {
+  const _UNIT_PCT = /^(\s*)(per\s*cent(?:age)?(?:\s+points?)?|percent|pct|bps|%)/i;
+  const _UNIT_MONEY = /^(\s*)(million|billion|trillion|thousand|bn|mn|tn|M|B|T|K)\b/i;
+  return html.replace(
+    /(<mark class="fc-ins">)([+\-−]?\d[\d.,\s\-–—xX×]*?)(<\/mark>)([^<]{0,40})/gi,
+    (full, openTag, number, closeTag, tail) => {
+      const pctM = _UNIT_PCT.exec(tail);
+      if (pctM) {
+        return `${openTag}<span class="lf-hl-metric">${number}${pctM[1]}${pctM[2]}</span>${closeTag}${tail.slice(pctM[0].length)}`;
+      }
+      const monM = _UNIT_MONEY.exec(tail);
+      if (monM && /^[$£€¥]?\d/.test(number.trim())) {
+        return `${openTag}<span class="lf-hl-money">${number}${monM[1]}${monM[2]}</span>${closeTag}${tail.slice(monM[0].length)}`;
+      }
+      return full;
+    }
+  );
 }
 
 // Split a markdown table row "| a | b | c |" into trimmed cells.
@@ -2235,11 +2336,32 @@ function longformMarkdown(md) {
       const bodyRows = sepIdx >= 0 ? rawRows.slice(sepIdx + 1) : rawRows.slice(1);
       const parsedHeader = headerRows.map(splitTableRow);
       const parsedBody = bodyRows.map(splitTableRow);
+      // Per-column numeric detection: a column is "numeric" when at least
+      // 60% of its non-empty body cells match a money / metric / number /
+      // date-year pattern. Numeric columns right-align via .lf-num.
+      const colCount = Math.max(
+        ...parsedHeader.map(r => r.length),
+        ...parsedBody.map(r => r.length),
+        0
+      );
+      const numericRe = /^[\s+\-−]*[$£€¥]?\d[\d,.\s]*(?:[KMBT%×x]|million|billion|trillion|bn|mn|bps|pct|percent|points?)?[\s\-—]*$/i;
+      const isNumCol = [];
+      for (let c = 0; c < colCount; c++) {
+        let total = 0, hit = 0;
+        for (const row of parsedBody) {
+          const cell = (row[c] || "").trim();
+          if (!cell || cell === "—" || cell === "-") continue;
+          total++;
+          if (numericRe.test(cell)) hit++;
+        }
+        isNumCol.push(total > 0 && hit / total >= 0.6);
+      }
+      const cellClass = (c) => isNumCol[c] ? ' class="lf-num"' : "";
       const thead = parsedHeader.length
-        ? `<thead>${parsedHeader.map(r => `<tr>${r.map(c => `<th>${longformInline(c)}</th>`).join("")}</tr>`).join("")}</thead>`
+        ? `<thead>${parsedHeader.map(r => `<tr>${r.map((c, i) => `<th${cellClass(i)}>${longformInline(c)}</th>`).join("")}</tr>`).join("")}</thead>`
         : "";
       const tbody = parsedBody.length
-        ? `<tbody>${parsedBody.map(r => `<tr>${r.map(c => `<td>${longformInline(c)}</td>`).join("")}</tr>`).join("")}</tbody>`
+        ? `<tbody>${parsedBody.map(r => `<tr>${r.map((c, i) => `<td${cellClass(i)}>${longformInline(c)}</td>`).join("")}</tr>`).join("")}</tbody>`
         : "";
       // Skip if nothing parsed (e.g. a stray "|" line); otherwise emit.
       if (thead || tbody) {
@@ -2553,12 +2675,16 @@ function renderLongformReport(report) {
   // which is only offered when the dossier actually carries audited corrections.
   const correctionCount = chapters.reduce(
     (n, c) => n + ((String(c.body || "").match(/~~[^~]+~~/g) || []).length), 0);
-  const correctionsToggleHtml = correctionCount > 0
-    ? `<button class="lf-corrections-toggle" id="lfCorrectionsToggle" aria-pressed="false"
-         title="Reveal the fact-check corrections — removed text in red strikethrough, added text highlighted in yellow">
-         Show corrections <span class="lf-corrections-count">${correctionCount}</span>
-       </button>`
-    : "";
+  const toggleBarHtml = `
+      <button class="lf-rail-toggle" id="lfColorToggle" aria-pressed="true"
+              title="Colour-code dates, money, metrics, companies, names, etc.">
+        Color
+      </button>
+      ${correctionCount > 0 ? `
+        <button class="lf-rail-toggle" id="lfCorrectionsToggle" aria-pressed="false"
+                title="Show the fact-check changes — removed text struck through, added text highlighted">
+          Changes <span class="lf-corrections-count">${correctionCount}</span>
+        </button>` : ""}`;
 
   // Replace the in-report TOC chapter list with the dossier's coloured
   // ticker macro, pinned to the top. Clicking the macro returns to the
@@ -2586,11 +2712,14 @@ function renderLongformReport(report) {
         </li>
       `).join("")}
     </ol>
-    ${correctionsToggleHtml}
     <div class="lf-toc-meta">
       ${meta.snapshot_date ? `Snapshot ${escapeHtml(meta.snapshot_date)}<br>` : ""}
       ${meta.word_count ? `${meta.word_count.toLocaleString()} words<br>` : ""}
-      ${meta.n_sources ? `${meta.n_sources} sources` : ""}
+      ${meta.n_sources ? `<a href="#lf-sources" class="lf-toc-meta-link">${meta.n_sources} sources</a>` : ""}
+      <span class="lf-toc-socials" id="lfTocSocials"></span>
+    </div>
+    <div class="lf-toc-toolbar">
+      ${toggleBarHtml}
     </div>`;
 
   // The macro is the back gesture. Click → return to longform overview.
@@ -2602,14 +2731,23 @@ function renderLongformReport(report) {
     });
   }
 
-  // Reset corrections view on each report load, then wire the toggle.
-  if (els.longformView) els.longformView.classList.remove("show-corrections");
+  // Defaults per dossier load: Color ON, Changes OFF.
+  if (els.longformView) {
+    els.longformView.classList.remove("show-corrections");
+    els.longformView.classList.remove("colors-off");
+  }
+  const colorBtn = document.getElementById("lfColorToggle");
+  if (colorBtn && els.longformView) {
+    colorBtn.addEventListener("click", () => {
+      const off = els.longformView.classList.toggle("colors-off");
+      colorBtn.setAttribute("aria-pressed", String(!off));
+    });
+  }
   const ctBtn = document.getElementById("lfCorrectionsToggle");
   if (ctBtn && els.longformView) {
     ctBtn.addEventListener("click", () => {
       const on = els.longformView.classList.toggle("show-corrections");
       ctBtn.setAttribute("aria-pressed", String(on));
-      ctBtn.childNodes[0].nodeValue = on ? "Hide corrections " : "Show corrections ";
     });
   }
 
@@ -2633,7 +2771,7 @@ function renderLongformReport(report) {
     chaptersHtml = chapters.map((c, i) => `
       <section class="lf-chapter" id="lf-${escapeHtml(c.slug)}">
         <p class="lf-chapter-num">${String(i + 1).padStart(2, "0")}</p>
-        <h2 class="lf-chapter-title">${escapeHtml(c.title || c.slug)}</h2>
+        <h2 class="lf-chapter-title">${renderChapterTitle(c.title || c.slug)}</h2>
         ${c.lede ? `<p class="lf-chapter-lede">${longformInline(c.lede)}</p>` : ""}
         <div class="lf-chapter-body article-body">${longformMarkdown(c.body || "")}</div>
         ${renderLongformChapterMeta(c)}
@@ -2683,13 +2821,6 @@ function renderLongformReport(report) {
       <header class="lf-header">
         ${renderLongformTitle(meta.title || state.longformReportId, meta.subtitle)}
         ${meta.byline ? `<p class="lf-byline">${escapeHtml(meta.byline)}</p>` : ""}
-        <div class="article-toolbar lf-toolbar">
-          <div class="article-font-controls">
-            <button type="button" class="toolbar-btn" data-action="font-toggle" aria-pressed="false">Serif</button>
-            <button type="button" class="toolbar-btn" data-action="size-down" aria-label="Decrease text size">A−</button>
-            <button type="button" class="toolbar-btn" data-action="size-up" aria-label="Increase text size">A+</button>
-          </div>
-        </div>
       </header>
       ${abstract}
       ${chaptersHtml}
@@ -3815,8 +3946,6 @@ function handleArticleToolbarClick(e) {
   const btn = e.target.closest('.toolbar-btn[data-action]');
   if (!btn) return;
   e.preventDefault();
-  const block = btn.closest(".article-block");
-  if (!block) return;
   let scale = parseFloat(localStorage.getItem("article-scale") || "1");
   let serif = localStorage.getItem("article-serif") === "1";
   if (btn.dataset.action === "size-up") scale = Math.min(1.6, +(scale + 0.1).toFixed(2));
@@ -3824,11 +3953,16 @@ function handleArticleToolbarClick(e) {
   else if (btn.dataset.action === "font-toggle") serif = !serif;
   localStorage.setItem("article-scale", String(scale));
   localStorage.setItem("article-serif", serif ? "1" : "0");
-  // Apply to every visible article-block (modal + pane).
+  // Apply to every visible article-block (modal + pane + longform).
   document.querySelectorAll(".article-block").forEach(applyArticleFontPrefs);
+  // Keep the Serif button's pressed state in sync.
+  document.querySelectorAll('.toolbar-btn[data-action="font-toggle"]')
+    .forEach((b) => b.setAttribute("aria-pressed", String(serif)));
 }
 els.modalBody.addEventListener("click", handleArticleToolbarClick);
 els.articlePaneBody.addEventListener("click", handleArticleToolbarClick);
+// Longform toolbar lives inside the TOC rail (outside .article-block).
+if (els.longformToc) els.longformToc.addEventListener("click", handleArticleToolbarClick);
 
 // Draggable sidebar resizer.
 (() => {
