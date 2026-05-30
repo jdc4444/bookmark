@@ -2070,13 +2070,13 @@ function renderSocialIcons(socials) {
           target="_blank" rel="noopener" title="${label}"
           aria-label="${label}">${glyph}</a>`
     : "";
-  // Compact monogram glyphs — sit inline next to "N sources" so the row
-  // stays scannable; tooltip names them on hover.
+  // Plain-text monogram labels — render the same in every browser and font
+  // stack. Tooltip names each on hover.
   const html = [
-    make("x",  socials.twitter,   "Twitter / X", "𝕏"),
+    make("x",  socials.twitter,   "Twitter / X", "X"),
     make("ig", socials.instagram, "Instagram",   "IG"),
     make("li", socials.linkedin,  "LinkedIn",    "in"),
-    make("yt", socials.youtube,   "YouTube",     "▶"),
+    make("yt", socials.youtube,   "YouTube",     "YT"),
   ].filter(Boolean).join("");
   slot.innerHTML = html;
 }
@@ -2609,6 +2609,15 @@ async function openLongformReport(id) {
   // Kick off the entity index (companies + tickers) so chapter rendering
   // can colour-link mentions to dossiers / the bookmark index.
   ensureLongformEntityIndex();
+  // Also kick off the per-dossier scope (people/places/glossary/concepts/
+  // phrases/key-sentences/socials) — once it lands, the renderer wraps
+  // confirmed entities and the rail picks up social icons.
+  const _slug = id.replace(/^companies\//, "");
+  ensureDossierEntityScope(_slug).then(() => {
+    // Re-render the report so the new scope is applied to all chapters
+    // (entity wraps + phrase tints + key-sentence highlighter).
+    if (state.longformReport === report) renderLongformReport(report);
+  });
   let report;
   try {
     const res = await fetch(`/api/longform/${encodeURIComponent(id)}`);
@@ -2729,6 +2738,13 @@ function renderLongformReport(report) {
       showLongformOverview();
       history.pushState({ view: "longform" }, "", "#longform");
     });
+  }
+
+  // If the dossier scope (with socials) is already loaded, paint icons now.
+  // Otherwise renderSocialIcons fires later when ensureDossierEntityScope
+  // resolves. Either way the rail picks them up.
+  if (state.lfDossierScope && state.lfDossierScope.socials) {
+    renderSocialIcons(state.lfDossierScope.socials);
   }
 
   // Defaults per dossier load: Color ON, Changes OFF.

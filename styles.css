@@ -3473,5 +3473,3 @@ mark.lf-hl-keysentence .lf-hl-metric-neg {
   transition: background-color 100ms ease, color 100ms ease;
 }
 .lf-soc:hover { background: var(--ink); color: var(--bg); }
-.lf-soc-x  { font-family: serif; font-size: 13px; }
-.lf-soc-yt { font-size: 9px; }
