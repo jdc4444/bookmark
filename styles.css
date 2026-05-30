@@ -3112,6 +3112,25 @@ body.longform-mode #sortSelect { display: none; }
 }
 /* Bottom row — smaller, all-caps weight; line-clamped to 2 so it never
    overflows. */
+.lf-ov-card-macro-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+/* ETF strip — small uppercase tracked, sits just ABOVE the cap/country
+   meta line. Hidden when the company isn't a constituent of any ETF. */
+.lf-ov-card-macro-etfs {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 1.35;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
 .lf-ov-card-macro-meta {
   display: -webkit-box;
   -webkit-line-clamp: 2;

@@ -2607,6 +2607,12 @@ function renderLongformCard(r) {
     escapeHtml(country),
   ].filter(Boolean);
   const metaLine = metaParts.join(" · ");
+  // ETF strip — sits ABOVE the cap/country line in the macro. Only shown
+  // when the company is a constituent of at least one tracked ETF.
+  const etfList = (r.etfs || []).map(escapeHtml).join(" · ");
+  const etfLine = etfList
+    ? `<span class="lf-ov-card-macro-etfs">${etfList}</span>`
+    : "";
   // Below the key-art: headline = short company name; lede = abstract-derived.
   const headline = escapeHtml(r.display_name || r.name || r.slug);
   const lede = escapeHtml(r.subtitle || "");
@@ -2618,7 +2624,10 @@ function renderLongformCard(r) {
           <div class="lf-ov-card-macro-name">${nameLine}</div>
           <div class="lf-ov-card-macro-ticker">${tickerLine}</div>
         </div>
-        <span class="lf-ov-card-macro-meta">${metaLine}</span>
+        <div class="lf-ov-card-macro-bottom">
+          ${etfLine}
+          <span class="lf-ov-card-macro-meta">${metaLine}</span>
+        </div>
       </div>
       <h3 class="lf-ov-card-headline">${headline}</h3>
       <p class="lf-ov-card-lede">${lede}</p>
