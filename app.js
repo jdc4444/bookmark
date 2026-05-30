@@ -1,6 +1,32 @@
 // Bookmark Atlas — vanilla JS frontend.
 // Layout: Pinboard-style tag sidebar + Tweetbot-style tweet feed.
 
+// Resolve /api/* paths against the dev server's routing AND GitHub Pages'
+// static-files-only filesystem. Dev server has handlers at /api/<thing>;
+// Pages serves the publish-script's files at /api/<thing>.json (plus the
+// longform reports live under /api/longform-report/, not /api/longform/).
+// Try the bare path first; on 404, rewrite and retry.
+async function apiFetch(path, init) {
+  const r = await fetch(path, init);
+  if (r.status !== 404) return r;
+  // Split off any query string — Pages can't honour it (no router), but
+  // the static file is still at <path>.json. Frontend filters client-side.
+  const qIdx = path.indexOf("?");
+  const base = qIdx >= 0 ? path.slice(0, qIdx) : path;
+  let alt = "";
+  const reportM = base.match(/^\/api\/longform\/(companies(?:%2F|\/)([^/]+))$/);
+  if (reportM) {
+    alt = `/api/longform-report/companies/${decodeURIComponent(reportM[2])}.json`;
+  } else if (!base.endsWith(".json")) {
+    alt = base + ".json";
+  }
+  if (alt && alt !== path) {
+    const r2 = await fetch(alt, init);
+    if (r2.ok || r2.status !== 404) return r2;
+  }
+  return r;
+}
+
 const els = {
   search: document.getElementById("searchBox"),
   sort: document.getElementById("sortSelect"),
@@ -215,7 +241,7 @@ function unmarkArticleWriting(bookmarkId) {
 // ---------- data fetch ----------
 
 async function fetchStats() {
-  const res = await fetch("/api/stats");
+  const res = await apiFetch("/api/stats");
   if (!res.ok) return null;
   return res.json();
 }
@@ -230,7 +256,7 @@ async function fetchBookmarks() {
     params.set("tag_mode", state.tagMode);
   }
   params.set("limit", "500");
-  const res = await fetch(`/api/bookmarks?${params}`);
+  const res = await apiFetch(`/api/bookmarks?${params}`);
   if (!res.ok) return null;
   return res.json();
 }
@@ -679,7 +705,7 @@ async function loadCachedArticle(bookmarkId) {
     // after a regenerate. Articles are written by background pipelines that
     // don't bump any cache headers; without this, the user can click ↻, see
     // the regen succeed server-side, but get the old article on next visit.
-    const res = await fetch(`/api/article/${encodeURIComponent(bookmarkId)}`,
+    const res = await apiFetch(`/api/article/${encodeURIComponent(bookmarkId)}`,
                             { cache: "no-store" });
     if (!res.ok) return;
     const data = await res.json();
@@ -692,7 +718,7 @@ async function loadArticleHistory(bookmarkId) {
     `.article-versions[data-bookmark-id="${CSS.escape(String(bookmarkId))}"]`);
   if (!slot) return;
   try {
-    const res = await fetch(`/api/article/${encodeURIComponent(bookmarkId)}/history`);
+    const res = await apiFetch(`/api/article/${encodeURIComponent(bookmarkId)}/history`);
     if (!res.ok) { slot.innerHTML = ""; return; }
     const data = await res.json();
     const versions = (data.versions || []);
@@ -730,7 +756,7 @@ async function loadArticleVersion(bookmarkId, versionId) {
   if (!slot) return;
   slot.innerHTML = `<div class="article-loading"><span class="spinner"></span> Loading version…</div>`;
   try {
-    const res = await fetch(`/api/article/${encodeURIComponent(bookmarkId)}/v/${encodeURIComponent(versionId)}`);
+    const res = await apiFetch(`/api/article/${encodeURIComponent(bookmarkId)}/v/${encodeURIComponent(versionId)}`);
     if (!res.ok) throw new Error((await res.json()).error || "failed");
     const data = await res.json();
     renderArticleSlot(bookmarkId, data, versionId);
@@ -783,7 +809,7 @@ async function forceRegenerateArticle(bookmarkId, focus = null) {
     slot.innerHTML = articleEmptyHtml(bookmarkId);
   }
   try {
-    const res = await fetch("/api/article", {
+    const res = await apiFetch("/api/article", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ bookmark_id: bookmarkId, force: true, focus }),
@@ -808,7 +834,7 @@ async function generateArticle(bookmarkId, slot) {
     slot.innerHTML = articleEmptyHtml(bookmarkId);
   }
   try {
-    const res = await fetch("/api/article", {
+    const res = await apiFetch("/api/article", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ bookmark_id: bookmarkId }),
@@ -1317,7 +1343,7 @@ els.search.addEventListener("input", debouncedSearch);
 // newspaper-style grid of editorial briefs. Sort dropdown applies to either
 // view; "By tag" only matters in articles mode.
 async function loadArticles() {
-  const res = await fetch("/api/articles");
+  const res = await apiFetch("/api/articles");
   if (!res.ok) return [];
   const data = await res.json();
   return data.articles || [];
@@ -1467,7 +1493,7 @@ let _indexActiveTab = "tickers";
 
 async function loadIndex() {
   if (_indexCache) return _indexCache;
-  const r = await fetch("/api/index");
+  const r = await apiFetch("/api/index");
   _indexCache = await r.json();
   return _indexCache;
 }
@@ -1979,7 +2005,7 @@ async function ensureDossierEntityScope(slug) {
     return state.lfDossierScope;
   }
   try {
-    const idxR = await fetch(`/api/longform-entities/${encodeURIComponent(slug)}`);
+    const idxR = await apiFetch(`/api/longform-entities/${encodeURIComponent(slug)}`);
     if (!idxR.ok) { state.lfDossierScope = null; return null; }
     const data = await idxR.json();
     const scope = {
@@ -2087,8 +2113,8 @@ async function ensureLongformEntityIndex() {
   if (state.lfCompanyRe) return;
   try {
     const [idxR, ovR] = await Promise.all([
-      fetch("/api/index").then(r => r.ok ? r.json() : null).catch(() => null),
-      fetch("/api/longform-overview").then(r => r.ok ? r.json() : null).catch(() => null),
+      apiFetch("/api/index").then(r => r.ok ? r.json() : null).catch(() => null),
+      apiFetch("/api/longform-overview").then(r => r.ok ? r.json() : null).catch(() => null),
     ]);
     const map = {};       // lowercased name -> entry
     const tickerToSlug = {};
@@ -2423,7 +2449,7 @@ async function loadLongformReports() {
   // Fetch the report index in the background so the picker is ready when a
   // user opens a specific report, but the FIRST screen is the overview.
   try {
-    const res = await fetch("/api/longform");
+    const res = await apiFetch("/api/longform");
     if (res.ok) state.longformReportsList = (await res.json()).reports || [];
   } catch {}
   if (state.longformReportId) {
@@ -2445,7 +2471,7 @@ async function showLongformOverview() {
   }
   if (!state.longformOverviewData) {
     try {
-      const res = await fetch("/api/longform-overview");
+      const res = await apiFetch("/api/longform-overview");
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const d = await res.json();
       state.longformOverviewData = d.reports || [];
@@ -2620,7 +2646,7 @@ async function openLongformReport(id) {
   });
   let report;
   try {
-    const res = await fetch(`/api/longform/${encodeURIComponent(id)}`);
+    const res = await apiFetch(`/api/longform/${encodeURIComponent(id)}`);
     if (!res.ok) {
       const body = await res.text();
       throw new Error(`HTTP ${res.status}: ${body.slice(0, 200)}`);
@@ -2704,7 +2730,7 @@ function renderLongformReport(report) {
   // overview data yet — fetch it in the background and re-render once it
   // arrives so the macro can populate.
   if (!ovRow) {
-    fetch("/api/longform-overview").then((r) => r.json()).then((d) => {
+    apiFetch("/api/longform-overview").then((r) => r.json()).then((d) => {
       state.longformOverviewData = d.reports || [];
       if (state.longformReport === report) renderLongformReport(report);
     }).catch(() => {});
@@ -3164,7 +3190,7 @@ async function hydrateLongformOptionTracks(report) {
       continue;
     }
     try {
-      const res = await fetch(`/api/longform/${encodeURIComponent(reportId)}/options/${encodeURIComponent(pid)}`);
+      const res = await apiFetch(`/api/longform/${encodeURIComponent(reportId)}/options/${encodeURIComponent(pid)}`);
       if (!res.ok) {
         mount.remove();
         continue;
@@ -3337,7 +3363,7 @@ async function refreshLongformLive(reportId) {
   if (!reportId) return;
   let payload;
   try {
-    const res = await fetch(`/api/longform/${encodeURIComponent(reportId)}/live`);
+    const res = await apiFetch(`/api/longform/${encodeURIComponent(reportId)}/live`);
     if (!res.ok) return;
     payload = await res.json();
   } catch (e) {
@@ -3765,7 +3791,7 @@ if (els.mastheadRefresh) {
       els.mastheadStamp.classList.add("refreshing");
     }
     try {
-      const res = await fetch("/api/refresh", { method: "POST" });
+      const res = await apiFetch("/api/refresh", { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "refresh failed");
       await refreshStats();
