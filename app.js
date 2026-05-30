@@ -2531,6 +2531,16 @@ function renderLongformOverview() {
       .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
       .map(([etf, arr]) => [etf, arr.slice().sort((a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0))]);
     if (offEtf.length) groups.push(["Off-ETF", offEtf.slice().sort((a, b) => (a.name || "").localeCompare(b.name || ""))]);
+  } else if (mode === "source") {
+    // Group into the bulk ETF sweep vs. individually-selected dossiers.
+    const sel = [], etfSweep = [];
+    for (const r of all) {
+      (r.provenance === "etf_sweep" ? etfSweep : sel).push(r);
+    }
+    const byCap = (a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0);
+    groups = [];
+    if (sel.length) groups.push(["Selected", sel.slice().sort(byCap)]);
+    if (etfSweep.length) groups.push(["ETF", etfSweep.slice().sort(byCap)]);
   } else if (mode === "tag") {
     // group by industry tag; rubrics sorted alphabetically.
     const byTag = new Map();
