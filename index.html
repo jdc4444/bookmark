@@ -22,6 +22,10 @@
     </div>
     <div class="topbar-tools">
       <input type="search" id="searchBox" placeholder="Search" autocomplete="off">
+      <button type="button" id="indexBtn" class="topbar-toggle" aria-pressed="false" title="Browse the index of all entities, concepts, and references">Index</button>
+      <button type="button" id="postsBtn" class="topbar-toggle" aria-pressed="true" title="Bookmark posts feed">Posts</button>
+      <button type="button" id="articlesToggle" class="topbar-toggle" aria-pressed="false" title="Articles overview">Articles</button>
+      <button type="button" id="longformToggle" class="topbar-toggle" aria-pressed="false" title="Read longform reports compiled from the bookmark archive + xalpha + fin_v1 sources">Longform</button>
       <select id="sortSelect" aria-label="Sort">
         <option value="bookmarked-recent" selected>Recent (bookmarked)</option>
         <option value="bookmarked-oldest">Oldest (bookmarked)</option>
@@ -32,9 +36,13 @@
         <option value="engagement">Most engagement</option>
         <option value="tags">By tag</option>
       </select>
-      <button type="button" id="indexBtn" class="topbar-toggle" aria-pressed="false" title="Browse the index of all entities, concepts, and references">Index</button>
-      <button type="button" id="articlesToggle" class="topbar-toggle" aria-pressed="false">Posts</button>
-      <button type="button" id="longformToggle" class="topbar-toggle" aria-pressed="false" title="Read longform reports compiled from the bookmark archive + xalpha + fin_v1 sources">Longform</button>
+      <select id="lfOverviewSort" class="lf-ov-sort" aria-label="Group by">
+        <option value="sector">Group: Sector</option>
+        <option value="tag">Group: Tag</option>
+        <option value="etf">Group: ETF</option>
+        <option value="cap">Group: Market cap</option>
+        <option value="az">Group: A–Z</option>
+      </select>
       <select id="mediaFilter" aria-label="Media filter" class="hidden">
         <option value="">Any media</option>
         <option value="media">Has media</option>
@@ -83,6 +91,9 @@
         </button>
         <aside class="longform-toc" id="longformToc" aria-label="Table of contents"></aside>
         <div class="longform-main" id="longformMain"></div>
+      </div>
+      <div class="longform-overview hidden" id="longformOverview">
+        <div class="lf-ov-body" id="lfOverviewBody"></div>
       </div>
     </section>
 

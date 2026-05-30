@@ -10,6 +10,7 @@ const els = {
   mastheadRefresh: document.getElementById("mastheadRefresh"),
   articlesToggle: document.getElementById("articlesToggle"),
   indexBtn: document.getElementById("indexBtn"),
+  postsBtn: document.getElementById("postsBtn"),
   indexView: document.getElementById("indexView"),
   mastheadWord: document.getElementById("mastheadWord"),
   articlesView: document.getElementById("articlesView"),
@@ -36,6 +37,10 @@ const els = {
   longformTocBarNum: document.getElementById("longformTocBarNum"),
   longformTocBarTitle: document.getElementById("longformTocBarTitle"),
   longformMobileBarPicker: document.getElementById("longformMobileBarPicker"),
+  longformOverview: document.getElementById("longformOverview"),
+  lfOverviewBody: document.getElementById("lfOverviewBody"),
+  lfOverviewSort: document.getElementById("lfOverviewSort"),
+  lfOverviewCount: document.getElementById("lfOverviewCount"),
 };
 
 const PANE_BREAKPOINT = "(min-width: 1280px)";
@@ -1579,9 +1584,8 @@ function renderIndexView(tab = _indexActiveTab) {
 function setArticlesMode(on, { pushHistory = true } = {}) {
   state.articlesMode = on;
   els.articlesToggle.setAttribute("aria-pressed", String(on));
-  // Label reflects the CURRENT view (Posts or Articles). Black-pressed
-  // styling is applied via aria-pressed=true when in Articles mode.
-  els.articlesToggle.textContent = on ? "Articles" : "Posts";
+  // Label is fixed — Posts/Articles/Longform are four permanent topbar
+  // buttons now; the pressed state is signalled via aria-pressed only.
   els.cards.classList.toggle("hidden", on);
   document.querySelector(".feed-header").classList.toggle("hidden", on);
   els.feedFooter.classList.toggle("hidden", on);
@@ -1645,24 +1649,54 @@ async function restoreFromHash() {
     openInDetail({ id }, { pushHistory: false });
   } else if (hash === "#longform" || hash.startsWith("#longform=")) {
     if (hash.startsWith("#longform=")) {
-      state.longformReportId = hash.slice("#longform=".length);
+      // Decode the URI-escaped segment ("companies%2Fvrt" → "companies/vrt").
+      // openLongformReport re-encodes via encodeURIComponent before fetching;
+      // leaving the encoded form here would cause a double-encode, and the
+      // server's "companies/<id>" routing would miss it.
+      state.longformReportId = decodeURIComponent(hash.slice("#longform=".length));
     }
     setLongformMode(true, { pushHistory: false });
   }
 }
 
-if (els.articlesToggle) {
-  els.articlesToggle.addEventListener("click", () => {
+// Posts/Articles/Longform/Index render as four permanent topbar buttons.
+// Exactly one is active at a time; clicking a button switches into that mode
+// (and clicking the already-active button is a no-op rather than a toggle-off).
+// updateTopbarNavState() keeps the aria-pressed attributes in sync so the
+// active button reads pressed in the UI.
+function updateTopbarNavState() {
+  const inDefault = !state.articlesMode && !state.indexMode && !state.longformMode;
+  if (els.postsBtn) els.postsBtn.setAttribute("aria-pressed", String(inDefault));
+  if (els.articlesToggle) els.articlesToggle.setAttribute("aria-pressed", String(!!state.articlesMode));
+  if (els.indexBtn) els.indexBtn.setAttribute("aria-pressed", String(!!state.indexMode));
+  if (els.longformToggle) els.longformToggle.setAttribute("aria-pressed", String(!!state.longformMode));
+}
+
+if (els.postsBtn) {
+  els.postsBtn.addEventListener("click", () => {
+    if (state.articlesMode) setArticlesMode(false, { pushHistory: false });
     if (state.indexMode) setIndexMode(false, { pushHistory: false });
     if (state.longformMode) setLongformMode(false, { pushHistory: false });
-    setArticlesMode(!state.articlesMode);
+    history.pushState({ view: "feed" }, "", "#");
+    updateTopbarNavState();
+  });
+}
+if (els.articlesToggle) {
+  els.articlesToggle.addEventListener("click", () => {
+    if (state.articlesMode) return;  // already active
+    if (state.indexMode) setIndexMode(false, { pushHistory: false });
+    if (state.longformMode) setLongformMode(false, { pushHistory: false });
+    setArticlesMode(true);
+    updateTopbarNavState();
   });
 }
 if (els.indexBtn) {
   els.indexBtn.addEventListener("click", () => {
+    if (state.indexMode) return;
     if (state.articlesMode) setArticlesMode(false, { pushHistory: false });
     if (state.longformMode) setLongformMode(false, { pushHistory: false });
-    setIndexMode(!state.indexMode);
+    setIndexMode(true);
+    updateTopbarNavState();
   });
 }
 
@@ -1680,6 +1714,10 @@ state.longformReport = null;
 state.longformObserver = null;
 state.longformOptionTracks = {};
 
+// Keep the topbar nav buttons in sync with the active mode after popstate
+// (browser back/forward triggers mode changes outside the click handlers).
+window.addEventListener("popstate", () => updateTopbarNavState());
+
 const LONGFORM_INLINE_RE = {
   link: /\[([^\]]+)\]\(([^)]+)\)/g,
   code: /`([^`]+)`/g,
@@ -1692,6 +1730,433 @@ const LONGFORM_INLINE_RE = {
   italic: /\*([^*]+)\*/g,
 };
 
+// === Entity highlighting (terminal-style) ============================
+// Colour-code dates / money / metrics / tickers / glossary / names in the
+// chapter body so the reader can scan for the right datapoint quickly.
+// Applied to ESCAPED HTML text BEFORE markdown bold/italic so the wrapping
+// spans don't collide with **strong** or *em* asterisks.
+//
+// Order in the alternation matters — longest/most-specific first. Each
+// branch is a NAMED capture group; the function replacement picks the
+// matching group and assigns a class.
+
+const _MONTHS = "January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec";
+const _UNITS_FULL = "trillion|billion|million|thousand|hundred";
+const _NUM_WORDS = "one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|fifteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety";
+
+const LONGFORM_HIGHLIGHT_RE = new RegExp([
+  // 1. DATES
+  //    "December 31, 2025" / "December 2025" / "May 1982" / "July 17".
+  //    Try 4-digit year FIRST so "May 2022" isn't truncated to "May 20".
+  `(?<dateMonth>(?:${_MONTHS})\\.?\\s+(?:\\d{4}|\\d{1,2}(?:st|nd|rd|th)?(?:,\\s*\\d{4})?))`,
+  //    "Q2 FY2025" / "Q2 2025" / "Q2'25" / "Q2–Q3 2026" (range)
+  `(?<dateQtr>Q[1-4](?:[\\s]*[–\\-]\\s*Q[1-4])?(?:\\s*FY)?\\s*(?:'?\\d{2,4}|\\d{4}))`,
+  //    "FY2025" / "FY25" / "H1 2024" / "1H25" / "CY2024".
+  //    H1/H2 must be SEPARATED from the year (space or apostrophe) so that
+  //    GPU/product codes like H100, H200, H300 don't false-positive as dates.
+  `(?<dateFY>(?:FY|CY)\\s*\\d{2,4}|H[12](?:\\s+|')\\d{2,4}|[12]H\\s*'?\\d{2,4})`,
+  //    "mid-2010s" / "early 1990s" / "late 2020s" / "2010-2020" / "2024"
+  `(?<dateYear>(?:(?:mid|early|late)[\\s\\-])?(?:19|20)\\d{2}s?(?:[–\\-](?:19|20)?\\d{2}s?)?)`,
+
+  // 2. MONEY
+  //    "$12M" / "$270 million" / "$1.85B" / "$2.5 trillion" / "$25–30 million"
+  `(?<moneyDollar>\\$\\d[\\d,]*(?:\\.\\d+)?(?:[\\s]*[–\\-—]\\s*\\$?\\d[\\d,]*(?:\\.\\d+)?)?(?:\\s*(?:${_UNITS_FULL}|[KMBT]|bn|mn|tn))?)`,
+  //    "Nine billion" / "two hundred million" (word-based)
+  `(?<moneyWord>\\b(?:${_NUM_WORDS})(?:[- ](?:hundred|thousand))?\\s+(?:${_UNITS_FULL})(?:\\s+dollars?)?\\b)`,
+
+  // 4. METRICS
+  //    "200% YoY" / "13% growth" / "+12.9%" / "−3.0%" / "38 percent" /
+  //    "57-percent" / "57 percentage points" / "25–30 percent"  (ranges)
+  `(?<metricPct>[+\\-−]?\\d+(?:\\.\\d+)?(?:[\\s]*[–\\-—]\\s*\\d+(?:\\.\\d+)?)?[\\s\\-]*(?:%|percent(?:age)?(?:\\s+points?)?|pct|bps)(?:\\s*(?:YoY|QoQ|MoM|YTD|CAGR|year[- ]over[- ]year))?)`,
+  //    "5x Sales" / "45.2x" / "2.5×"
+  `(?<metricMult>\\d+(?:\\.\\d+)?[x×])`,
+
+  // 6. TICKERS
+  //    "$TSM" / "$NVDA" / "$ASML.AS" / "$0992.HK" — alphanumeric ticker syms
+  `(?<ticker>\\$[A-Z][A-Z0-9]{0,5}(?:\\.[A-Z]{1,3})?\\b)`,
+].join("|"), "g");
+
+// Classify a number-bearing match as positive / negative / neutral by
+// inspecting ~30–50 chars before and after the match for sign words.
+// "up 23 percent" → positive; "$35M loss" → negative; "$10B revenue" → neutral.
+const _SIGN_NEG_BEFORE = /\b(down|fell|fall|fallen|lost|los[ts]|loss|losses|declin[a-z]*|decreas[a-z]*|lower|contract[a-z]*|drop[a-z]*|plunge[a-z]*|tumble[a-z]*|shr[au]nk|narrow[a-z]*|reduc[a-z]*|impair[a-z]*|writedown|writeoff|negat[a-z]*|misse?d?|short(fall)?|under|deficit|sank|slow[a-z]*)\b[^.?!]{0,40}$/i;
+const _SIGN_POS_BEFORE = /\b(up|rose|risen|grew|grow[ns]?|gain[a-z]*|increas[a-z]*|higher|expand[a-z]*|jump[a-z]*|surg[a-z]*|rall[a-z]*|advanc[a-z]*|climb[a-z]*|added|swell[a-z]*|posit[a-z]*|beat|exceed[a-z]*|outperform[a-z]*|over|profit[a-z]*|boost[a-z]*|topp[a-z]*)\b[^.?!]{0,40}$/i;
+const _SIGN_NEG_AFTER = /^[\s,;]*?\b(loss|losses|deficit|impair[a-z]*|writedown|writeoff|short(fall)?|decline|drop|fell|declin[a-z]*)\b/i;
+const _SIGN_POS_AFTER = /^[\s,;]*?\b(gain|gains|profit|surplus|income|growth|revenue|increase)\b/i;
+
+// "from X to Y" range continuation — if we're looking at Y (the destination
+// number) and the prose said "expanded from N1 to N2", N2 should inherit the
+// "expanded" verb's positive sign even though no direct verb sits next to N2.
+// Use lazy quantifiers so a sentence like "climbed from $5B to $10B" actually
+// matches "climbed ... from ... to" with N2 at the end (greedy would consume
+// everything and fail).
+const _RANGE_FROM_TO = /\b(expand|grew|grow|gain|increas|higher|jump|surg|rall|advanc|climb|rose|rise|risen|swell|posit|beat|exceed|outperform|boost|reach|raised|raise|widen|deepen|swing|recover|rebound|hit|topp|outpac|accelerat)[a-z]*\b(?:[^.?!]|\.\d){0,30}?\bfrom\b(?:[^.?!]|\.\d){0,140}?\bto\s*$/i;
+const _RANGE_FROM_TO_NEG = /\b(declin|fell|fall|fallen|drop|plunge|tumble|shr[au]nk|narrow|reduc|decreas|lower|contract|loss|sank|slow|miss|underperform|deteriorate|erode|weaken)[a-z]*\b(?:[^.?!]|\.\d){0,30}?\bfrom\b(?:[^.?!]|\.\d){0,140}?\bto\s*$/i;
+
+function classifyNumberSign(match, chunk, offset, kind) {
+  // Explicit sign at the start of the match wins.
+  if (/^\+/.test(match)) return `lf-hl-${kind}-pos`;
+  if (/^[−\-]/.test(match)) return `lf-hl-${kind}-neg`;
+  const before = chunk.slice(Math.max(0, offset - 200), offset);
+  const after = chunk.slice(offset + match.length, offset + match.length + 40);
+  // Trailing "loss" / "gain" within ~8 chars after the number is strongest.
+  if (_SIGN_NEG_AFTER.test(after)) return `lf-hl-${kind}-neg`;
+  if (_SIGN_POS_AFTER.test(after)) return `lf-hl-${kind}-pos`;
+  // "from X to Y" pattern — Y inherits the sign of the verb before "from".
+  if (_RANGE_FROM_TO.test(before)) return `lf-hl-${kind}-pos`;
+  if (_RANGE_FROM_TO_NEG.test(before)) return `lf-hl-${kind}-neg`;
+  // Otherwise look at the directional verb immediately preceding.
+  if (_SIGN_NEG_BEFORE.test(before.slice(-60))) return `lf-hl-${kind}-neg`;
+  if (_SIGN_POS_BEFORE.test(before.slice(-60))) return `lf-hl-${kind}-pos`;
+  return `lf-hl-${kind}`;
+}
+
+// Wrap LLM-identified metric phrases as background-tinted spans. Runs BEFORE
+// the regex/scope passes so the wrap is preserved across them; the inner
+// money / metric / date highlights still apply within the phrase.
+function wrapMetricPhrases(escapedHtml, phrases) {
+  if (!phrases || !phrases.length) return escapedHtml;
+  let out = escapedHtml;
+  for (const p of phrases) {
+    // The phrase text from JSON is unescaped; escape it to match the
+    // already-escaped HTML, then replace ONE occurrence (avoid double-wrap).
+    const needle = escapeHtml(p.text);
+    const idx = out.indexOf(needle);
+    if (idx < 0) continue;
+    out = out.slice(0, idx) +
+          `<span class="lf-hl-phrase lf-hl-phrase-${p.sign || "neutral"}">${needle}</span>` +
+          out.slice(idx + needle.length);
+  }
+  return out;
+}
+
+function highlightEntities(escapedHtml) {
+  // Skip text already inside HTML tags (we ran link/code/strike before this).
+  // Strategy: split on tag boundaries, only transform text segments.
+  return escapedHtml.replace(/<[^>]*>|[^<]+/g, (chunk) => {
+    if (chunk.startsWith("<")) return chunk;
+    // Pass 1 — pure regex categories (no entity-list dependency):
+    //          dates, money, metrics, $TICKER patterns.
+    let out = chunk.replace(LONGFORM_HIGHLIGHT_RE, (m, ...rest) => {
+      // Last 3 of `rest` are [offset, fullString, namedGroups].
+      const groups = rest[rest.length - 1] || {};
+      const fullStr = rest[rest.length - 2];
+      const offset = rest[rest.length - 3];
+      if (groups.dateMonth || groups.dateQtr || groups.dateFY || groups.dateYear)
+        return `<span class="lf-hl-date">${m}</span>`;
+      if (groups.moneyDollar || groups.moneyWord)
+        return `<span class="${classifyNumberSign(m, fullStr, offset, "money")}">${m}</span>`;
+      if (groups.metricPct || groups.metricMult)
+        return `<span class="${classifyNumberSign(m, fullStr, offset, "metric")}">${m}</span>`;
+      if (groups.ticker) {
+        const tk = m.replace(/^\$/, "").toUpperCase();
+        const slug = (state.lfTickerToSlug || {})[tk];
+        if (slug) return `<a class="lf-hl-ticker" href="#longform=companies%2F${slug}" data-lf-ticker="${tk}">${m}</a>`;
+        return `<a class="lf-hl-ticker" href="#index" data-lf-ticker="${tk}">${m}</a>`;
+      }
+      return m;
+    });
+    // Pass 2 — scope-based highlights (LLM-confirmed entities only). The
+    // dossier-level scope is the source of truth for companies / people /
+    // places / corporate-concepts. If no scope is loaded yet (sweep hasn't
+    // produced this dossier's data) we fall back to the global company-name
+    // regex from /api/index.
+    const scope = state.lfDossierScope;
+    if (scope && scope.entityRe) {
+      out = highlightFromScope(out, scope);
+    } else {
+      out = highlightCompanyNames(out);
+    }
+    // Pass 3 — sitewide glossary terms (acronyms) — case-sensitive.
+    if (scope && scope.glossaryRe) {
+      out = highlightGlossary(out, scope);
+    }
+    return out;
+  });
+}
+
+// Scope-based highlighter. Walks the chunk against the per-dossier entity
+// regex; for each match, looks up which category it belongs to and emits
+// the appropriate tag + colour. Uses an inner tag-skip splitter so already-
+// wrapped content (links from earlier passes) isn't re-wrapped.
+function highlightFromScope(text, scope) {
+  return text.replace(/<[^>]*>|[^<]+/g, (chunk) => {
+    if (chunk.startsWith("<")) return chunk;
+    return chunk.replace(scope.entityRe, (match) => {
+      const k = match.toLowerCase();
+      const co = scope.companies.get(k);
+      if (co) {
+        const slug = (state.lfTickerToSlug || {})[(co.ticker || "").toUpperCase()] ||
+                     (state.lfCompanyMap && state.lfCompanyMap[k] && state.lfCompanyMap[k].slug) || "";
+        const title = co.ticker ? `${co.name} ($${co.ticker})` : co.name;
+        if (slug) return `<a class="lf-hl-company" href="#longform=companies%2F${slug}" title="${escapeAttr(title)}">${match}</a>`;
+        return `<a class="lf-hl-company" href="#index" data-entity="${escapeAttr(co.name)}" title="${escapeAttr(title)}">${match}</a>`;
+      }
+      const p = scope.people.get(k);
+      if (p) {
+        const title = p.role ? `${p.name} — ${p.role}` : p.name;
+        return `<span class="lf-hl-name" title="${escapeAttr(title)}">${match}</span>`;
+      }
+      const pl = scope.places.get(k);
+      if (pl) {
+        const title = pl.type ? `${pl.name} (${pl.type})` : pl.name;
+        return `<span class="lf-hl-place" title="${escapeAttr(title)}">${match}</span>`;
+      }
+      const cc = scope.concepts.get(k);
+      if (cc) return `<span class="lf-hl-concept" title="${escapeAttr(cc.brief)}">${match}</span>`;
+      return match;
+    });
+  });
+}
+
+// Highlight glossary acronyms (CPO, MBE, HBM, EUV) with their expansion as a
+// hover tooltip. Case-sensitive because acronyms are typically uppercase
+// (lowercase "mbe" inside a longer word shouldn't match).
+function highlightGlossary(text, scope) {
+  return text.replace(/<[^>]*>|[^<]+/g, (chunk) => {
+    if (chunk.startsWith("<")) return chunk;
+    return chunk.replace(scope.glossaryRe, (match) => {
+      // glossary keys are lowercased in the Map, but we want the match's case
+      const entry = scope.glossary.get(match.toLowerCase());
+      if (!entry) return match;
+      return `<span class="lf-hl-glossary" title="${escapeAttr(entry.expansion)}">${match}</span>`;
+    });
+  });
+}
+
+// Fallback when no per-dossier entity scope is loaded yet: highlight company
+// names from the global /api/index. Kept so non-swept dossiers still get
+// some highlighting; will be obsolete once every dossier has entities.
+function highlightCompanyNames(text) {
+  const re = state.lfCompanyRe;
+  if (!re) return text;
+  return text.replace(re, (match) => {
+    const key = match.toLowerCase();
+    const entry = state.lfCompanyMap[key];
+    if (!entry) return match;
+    if (entry.slug) {
+      return `<a class="lf-hl-company" href="#longform=companies%2F${entry.slug}" title="${escapeAttr(entry.title || entry.name)}">${match}</a>`;
+    }
+    return `<a class="lf-hl-company" href="#index" data-entity="${escapeAttr(entry.name)}" title="${escapeAttr(entry.title || entry.name)}">${match}</a>`;
+  });
+}
+
+function escapeAttr(s) {
+  return String(s || "").replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+}
+
+// Per-dossier entity scope (LLM-confirmed): the renderer treats this as the
+// SOURCE OF TRUTH for company / people / place / glossary / concept mentions.
+// Names not confirmed by the per-chapter Sonnet extraction are NOT highlighted
+// even if a regex or the global index would otherwise match them — that's
+// what eliminates the false positives ("Apple" the fruit, "Mark" the verb).
+async function ensureDossierEntityScope(slug) {
+  if (!slug) return null;
+  if (state.lfDossierScope && state.lfDossierScope._slug === slug) {
+    return state.lfDossierScope;
+  }
+  try {
+    const idxR = await fetch(`/api/longform-entities/${encodeURIComponent(slug)}`);
+    if (!idxR.ok) { state.lfDossierScope = null; return null; }
+    const data = await idxR.json();
+    const scope = {
+      _slug: slug,
+      companies: new Map(),  // lowercased name -> {name, ticker?, slug?}
+      people: new Map(),     // lowercased name -> {name, role?}
+      places: new Map(),     // lowercased name -> {name, type?}
+      glossary: new Map(),   // lowercased term -> {term, expansion}
+      concepts: new Map(),   // lowercased name -> {name, brief}
+    };
+    for (const c of (data.companies || [])) {
+      if (!c.name) continue;
+      scope.companies.set(c.name.toLowerCase(), c);
+    }
+    for (const p of (data.people || [])) {
+      if (!p.name) continue;
+      scope.people.set(p.name.toLowerCase(), p);
+    }
+    for (const pl of (data.places || [])) {
+      if (!pl.name) continue;
+      scope.places.set(pl.name.toLowerCase(), pl);
+    }
+    for (const g of (data.glossary || [])) {
+      if (!g.term) continue;
+      scope.glossary.set(g.term.toLowerCase(), g);
+    }
+    for (const cc of (data.corporate_concepts || [])) {
+      if (!cc.name) continue;
+      scope.concepts.set(cc.name.toLowerCase(), cc);
+    }
+    // LLM-identified metric phrases — whole sub-sentences carrying a number
+    // whose sign is set by the full sentence's context. The renderer wraps
+    // these phrases verbatim BEFORE the regex pass so the wrapping survives.
+    scope.phrases = (data.metric_phrases || [])
+      .filter((mp) => mp && mp.text && mp.text.length >= 8)
+      .map((mp) => ({ text: mp.text, sign: (mp.sign || "neutral").toLowerCase() }))
+      // Longest first so a phrase containing another phrase wins.
+      .sort((a, b) => b.text.length - a.text.length);
+    // Compile a single regex matching any confirmed entity name. Sort by
+    // length descending so longer names win the alternation.
+    const allKeys = [
+      ...scope.companies.keys(),
+      ...scope.people.keys(),
+      ...scope.places.keys(),
+      ...scope.concepts.keys(),
+    ].filter((k) => k.length >= 3);
+    const glossaryKeys = [...scope.glossary.keys()].filter((k) => k.length >= 2);
+    const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (allKeys.length) {
+      const sorted = [...new Set(allKeys)].sort((a, b) => b.length - a.length);
+      scope.entityRe = new RegExp("\\b(" + sorted.map(escapeRe).join("|") + ")\\b", "gi");
+    }
+    if (glossaryKeys.length) {
+      const sorted = [...new Set(glossaryKeys)].sort((a, b) => b.length - a.length);
+      // Glossary terms are usually acronyms — match case-sensitively so "MBE"
+      // matches "MBE" but not "mbe" inside another word.
+      scope.glossaryRe = new RegExp("\\b(" + sorted.map(escapeRe).join("|") + ")\\b", "g");
+    }
+    state.lfDossierScope = scope;
+    return scope;
+  } catch (e) {
+    console.warn("Failed to load dossier entity scope:", e);
+    state.lfDossierScope = null;
+    return null;
+  }
+}
+
+// Fetch the sitewide entity index + dossier overview, build a single regex
+// over company names + tickers so chapter rendering can colour-link mentions.
+async function ensureLongformEntityIndex() {
+  if (state.lfCompanyRe) return;
+  try {
+    const [idxR, ovR] = await Promise.all([
+      fetch("/api/index").then(r => r.ok ? r.json() : null).catch(() => null),
+      fetch("/api/longform-overview").then(r => r.ok ? r.json() : null).catch(() => null),
+    ]);
+    const map = {};       // lowercased name -> entry
+    const tickerToSlug = {};
+    const dossiers = (ovR && ovR.reports) || [];
+    for (const r of dossiers) {
+      if (r.ticker) tickerToSlug[r.ticker.toUpperCase()] = r.slug;
+      if (r.name) map[r.name.toLowerCase()] = { name: r.name, slug: r.slug, title: `${r.name} dossier` };
+      if (r.display_name && r.display_name !== r.name) {
+        map[r.display_name.toLowerCase()] = { name: r.display_name, slug: r.slug, title: `${r.name} dossier` };
+      }
+    }
+    // Companies from the bookmark index — keep ones with count ≥ 2 to filter
+    // noise. Allow 3-char names like "AMD" / "TSM" / "IBM" but only if they
+    // are all-uppercase (so common 3-letter words don't over-match). The
+    // regex still requires word boundaries.
+    const companies = (idxR && idxR.companies) || [];
+    for (const c of companies) {
+      if (!c.name) continue;
+      if (c.name.length < 3) continue;
+      if (c.name.length === 3 && c.name !== c.name.toUpperCase()) continue;
+      if ((c.count || 0) < 2) continue;
+      const k = c.name.toLowerCase();
+      // If a longform dossier exists for this company's ticker, link
+      // straight to it; otherwise this is an article-index reference.
+      const dossierSlug = c.ticker ? tickerToSlug[c.ticker.toUpperCase()] : null;
+      if (!map[k]) {
+        map[k] = { name: c.name, ticker: c.ticker || null,
+                   slug: dossierSlug || undefined,
+                   title: dossierSlug ? `${c.name} dossier` : `${c.name} — ${c.count} bookmarks` };
+      } else if (!map[k].slug && dossierSlug) {
+        map[k].slug = dossierSlug;
+      }
+    }
+    // Also seed bare tickers ("AMD", "TSM", "NVDA") as company aliases so
+    // their bare-word usage in chapter prose links back to the dossier.
+    for (const r of dossiers) {
+      if (!r.ticker || r.ticker.length < 3) continue;
+      const k = r.ticker.toLowerCase();
+      if (!map[k]) {
+        map[k] = { name: r.ticker, slug: r.slug, title: `${r.name} dossier` };
+      }
+    }
+    // Tickers from the bookmark index (for the $TICKER pattern dossier-linking).
+    for (const t of (idxR && idxR.tickers) || []) {
+      if (t.ticker) tickerToSlug[t.ticker.toUpperCase()] = tickerToSlug[t.ticker.toUpperCase()] || null;
+    }
+    // Build the alternation. Sort by length desc so longer names win.
+    const names = Object.keys(map).sort((a, b) => b.length - a.length);
+    if (!names.length) return;
+    const escaped = names.map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    state.lfCompanyMap = map;
+    state.lfCompanyRe = new RegExp("\\b(" + escaped.join("|") + ")\\b", "gi");
+    state.lfTickerToSlug = tickerToSlug;
+  } catch (e) {
+    console.warn("Failed to build longform entity index:", e);
+  }
+}
+
+// Split a long FT-style dossier title into a punchy lead + a smaller deck.
+// "TSMC: How Chairman C.C. Wei Is Defending The World's Largest Foundry..."
+// becomes  H1="TSMC"  +  deck="How Chairman C.C. Wei Is Defending...".
+// Splits at the first ":" or " — " (em-dash). If no natural break exists
+// (or the lead would be ridiculously short), renders the title whole as H1.
+function renderLongformTitle(title, fallbackSubtitle) {
+  const t = String(title || "").trim();
+  if (!t) return "";
+  // Split at the first ":" (not part of a time / URL fragment) or " — ".
+  const colonIdx = t.indexOf(": ");
+  const dashIdx = t.indexOf(" — ");
+  let cut = -1, cutLen = 0;
+  if (colonIdx > 0 && colonIdx < 80) { cut = colonIdx; cutLen = 2; }
+  if (dashIdx > 0 && dashIdx < 80 && (cut < 0 || dashIdx < cut)) { cut = dashIdx; cutLen = 3; }
+  if (cut < 0) {
+    return `<h1 class="lf-title">${escapeHtml(t)}</h1>` +
+      (fallbackSubtitle ? `<p class="lf-subtitle">${escapeHtml(fallbackSubtitle)}</p>` : "");
+  }
+  const lead = t.slice(0, cut).trim();
+  const deck = t.slice(cut + cutLen).trim();
+  return `<h1 class="lf-title">${escapeHtml(lead)}</h1>
+          <p class="lf-deck">${escapeHtml(deck)}</p>`;
+}
+
+// Break a long single-paragraph abstract into readable chunks. The dossier
+// abstracts come back as one giant prose block (no \n\n in source). Split on
+// sentence boundaries, then group ~3 sentences per paragraph so the lede
+// reads like an FT/Bloomberg lead instead of a wall of text. If the source
+// already contains paragraph breaks, honour those instead.
+function splitAbstractParagraphs(text) {
+  const trimmed = String(text || "").trim();
+  if (!trimmed) return [];
+  if (/\n\s*\n/.test(trimmed)) {
+    return trimmed.split(/\n\s*\n+/).map(s => s.trim()).filter(Boolean);
+  }
+  // Sentence-split that ignores Inc./Corp./Ltd./Dr./U.S./Mr. style fake-ends.
+  const ABBR = /(?:Inc|Corp|Ltd|Co|U\.S|U\.K|Dr|Mr|Mrs|Ms|St|No|vs|approx|e\.g|i\.e|Jr|Sr)$/i;
+  const sentences = [];
+  let buf = "";
+  for (let i = 0; i < trimmed.length; i++) {
+    buf += trimmed[i];
+    if (/[.?!]/.test(trimmed[i]) && /\s/.test(trimmed[i + 1] || " ")
+        && /[A-Z(]/.test(trimmed[i + 2] || "")) {
+      // Check the token immediately before the punctuation for abbreviations.
+      const m = buf.match(/(\S+)[.?!]$/);
+      if (!m || !ABBR.test(m[1].replace(/[.?!]$/, ""))) {
+        sentences.push(buf.trim());
+        buf = "";
+      }
+    }
+  }
+  if (buf.trim()) sentences.push(buf.trim());
+  // Group into paragraphs of 2–3 sentences. Aim for ~350–500 chars per para.
+  const paras = [];
+  let cur = "";
+  for (const s of sentences) {
+    if (cur && (cur.length + s.length > 420 || cur.split(/[.?!]\s/).length >= 3)) {
+      paras.push(cur.trim());
+      cur = s;
+    } else {
+      cur = cur ? cur + " " + s : s;
+    }
+  }
+  if (cur.trim()) paras.push(cur.trim());
+  return paras;
+}
+
 function longformInline(s) {
   if (!s) return "";
   let out = escapeHtml(s);
@@ -1700,9 +2165,31 @@ function longformInline(s) {
   out = out.replace(LONGFORM_INLINE_RE.code, "<code>$1</code>");
   out = out.replace(LONGFORM_INLINE_RE.strike, '<del class="fc-del">$1</del>');
   out = out.replace(LONGFORM_INLINE_RE.highlight, '<mark class="fc-ins">$1</mark>');
+  // Wrap whole metric phrases (LLM-identified) FIRST so the colour-tint
+  // backdrop is preserved when the inner number/date highlights apply.
+  const scope = state.lfDossierScope;
+  if (scope && scope.phrases) out = wrapMetricPhrases(out, scope.phrases);
+  // Apply colour-coded entity highlights to remaining plain text. Skips
+  // text already wrapped by the steps above so we don't double-wrap.
+  out = highlightEntities(out);
   out = out.replace(LONGFORM_INLINE_RE.bold, "<strong>$1</strong>");
   out = out.replace(LONGFORM_INLINE_RE.italic, "<em>$1</em>");
   return out;
+}
+
+// Split a markdown table row "| a | b | c |" into trimmed cells.
+function splitTableRow(line) {
+  let s = line.trim();
+  if (s.startsWith("|")) s = s.slice(1);
+  if (s.endsWith("|")) s = s.slice(0, -1);
+  return s.split("|").map((c) => c.trim());
+}
+// Is `line` a markdown table separator like "|---|---|" / "---|---" /
+// "| :--- | ---: |"? Tolerates missing leading/trailing pipes.
+function isTableSeparator(line) {
+  if (!line || !line.includes("|")) return false;
+  const cells = splitTableRow(line);
+  return cells.length > 0 && cells.every((c) => /^\s*:?-{2,}:?\s*$/.test(c));
 }
 
 function longformMarkdown(md) {
@@ -1721,11 +2208,46 @@ function longformMarkdown(md) {
     }
     buf = []; inQuote = false;
   };
-  for (const raw of lines) {
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i];
     const line = raw.replace(/\s+$/, "");
     if (!line.trim()) { flush(); continue; }
     const h2 = line.match(/^##\s+(.*)$/);
     if (h2) { flush(); out.push(`<h3>${longformInline(h2[1])}</h3>`); continue; }
+    // Markdown table: any sequence of ≥2 consecutive lines starting with "|"
+    // OR a separator line followed by "|" body rows. Tolerates missing
+    // leading pipes, mismatched column counts, and absent header rows.
+    const startsTable = line.trim().startsWith("|") || isTableSeparator(line);
+    const nextLooksTabular = (lines[i + 1] || "").trim().startsWith("|")
+      || isTableSeparator(lines[i + 1] || "");
+    if (startsTable && nextLooksTabular) {
+      flush();
+      // Collect all consecutive table-shaped lines as table content.
+      const rawRows = [];
+      let j = i;
+      while (j < lines.length && (lines[j].trim().startsWith("|") || isTableSeparator(lines[j]))) {
+        rawRows.push(lines[j]);
+        j++;
+      }
+      // Find a separator row (every cell matches /^:?-{2,}:?$/) if present.
+      let sepIdx = rawRows.findIndex(isTableSeparator);
+      const headerRows = sepIdx > 0 ? rawRows.slice(0, sepIdx) : (sepIdx === 0 ? [] : [rawRows[0]]);
+      const bodyRows = sepIdx >= 0 ? rawRows.slice(sepIdx + 1) : rawRows.slice(1);
+      const parsedHeader = headerRows.map(splitTableRow);
+      const parsedBody = bodyRows.map(splitTableRow);
+      const thead = parsedHeader.length
+        ? `<thead>${parsedHeader.map(r => `<tr>${r.map(c => `<th>${longformInline(c)}</th>`).join("")}</tr>`).join("")}</thead>`
+        : "";
+      const tbody = parsedBody.length
+        ? `<tbody>${parsedBody.map(r => `<tr>${r.map(c => `<td>${longformInline(c)}</td>`).join("")}</tr>`).join("")}</tbody>`
+        : "";
+      // Skip if nothing parsed (e.g. a stray "|" line); otherwise emit.
+      if (thead || tbody) {
+        out.push(`<div class="lf-table-wrap"><table class="lf-table">${thead}${tbody}</table></div>`);
+        i = j - 1;
+        continue;
+      }
+    }
     const bq = line.match(/^>\s?(.*)$/);
     if (bq) {
       if (!inQuote && buf.length) flush();
@@ -1751,7 +2273,12 @@ function setLongformMode(on, { pushHistory = true } = {}) {
   els.cards.classList.toggle("hidden", on);
   document.querySelector(".feed-header").classList.toggle("hidden", on);
   els.feedFooter.classList.toggle("hidden", on);
-  if (els.longformView) els.longformView.classList.toggle("hidden", !on);
+  // When leaving longform, hide both report and overview panes; when entering,
+  // loadLongformReports() decides which to show.
+  if (!on) {
+    if (els.longformView) els.longformView.classList.add("hidden");
+    if (els.longformOverview) els.longformOverview.classList.add("hidden");
+  }
   document.body.classList.toggle("longform-mode", on);
   if (els.articleDetail) {
     els.articleDetail.classList.add("hidden");
@@ -1771,34 +2298,195 @@ function setLongformMode(on, { pushHistory = true } = {}) {
 
 async function loadLongformReports() {
   if (!els.longformMain || !els.longformToc) return;
-  els.longformMain.innerHTML = `<div class="empty"><span class="spinner"></span> Loading reports…</div>`;
-  els.longformToc.innerHTML = "";
-  let list;
+  // Fetch the report index in the background so the picker is ready when a
+  // user opens a specific report, but the FIRST screen is the overview.
   try {
     const res = await fetch("/api/longform");
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    list = (await res.json()).reports || [];
-  } catch (e) {
-    els.longformMain.innerHTML = `<pre class="report-error">Failed to load reports: ${escapeHtml(String(e.message || e))}</pre>`;
-    return;
+    if (res.ok) state.longformReportsList = (await res.json()).reports || [];
+  } catch {}
+  if (state.longformReportId) {
+    await openLongformReport(state.longformReportId);
+  } else {
+    await showLongformOverview();
   }
-  if (!list.length) {
-    els.longformMain.innerHTML = `<div class="empty">No longform reports built yet. Run <code>python3 longform/compose/assemble.py</code> after generating chapters.</div>`;
-    return;
+}
+
+async function showLongformOverview() {
+  state.longformReportId = null;
+  if (els.longformView) {
+    els.longformView.classList.remove("show-corrections");
+    els.longformView.classList.add("hidden");
   }
-  // Save the full list so the ToC report-picker can render it.
-  state.longformReportsList = list;
-  const usable = list.filter((r) => r.available);
-  const target = state.longformReportId && list.find((r) => r.id === state.longformReportId)
-    ? state.longformReportId
-    : (usable[0] && usable[0].id) || list[0].id;
-  await openLongformReport(target);
+  if (els.longformOverview) els.longformOverview.classList.remove("hidden");
+  if (els.lfOverviewBody && !state.longformOverviewData) {
+    els.lfOverviewBody.innerHTML = `<div class="empty"><span class="spinner"></span> Loading…</div>`;
+  }
+  if (!state.longformOverviewData) {
+    try {
+      const res = await fetch("/api/longform-overview");
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const d = await res.json();
+      state.longformOverviewData = d.reports || [];
+    } catch (e) {
+      if (els.lfOverviewBody) {
+        els.lfOverviewBody.innerHTML = `<pre class="report-error">Failed to load overview: ${escapeHtml(String(e.message || e))}</pre>`;
+      }
+      return;
+    }
+  }
+  renderLongformOverview();
+}
+
+// Tier order for the cap dimension — Micro → Giga (small to large).
+const LF_CAP_TIER_ORDER = ["Micro", "Small", "Mid", "Large", "Mega", "Giga"];
+// Single-word sectors, alphabetical.
+const LF_SECTOR_ORDER = ["AI", "Cloud", "Energy", "Health",
+                          "Materials", "Power", "Semis", "Space"];
+
+function renderLongformOverview() {
+  if (!els.lfOverviewBody) return;
+  const all = state.longformOverviewData || [];
+  if (els.lfOverviewCount) {
+    els.lfOverviewCount.textContent = `${all.length} dossier${all.length === 1 ? "" : "s"}`;
+  }
+  const mode = (els.lfOverviewSort && els.lfOverviewSort.value) || "sector";
+  // Build groups: an array of [groupLabel, items[]] preserving display order.
+  let groups = [];
+  if (mode === "az") {
+    const sorted = all.slice().sort((a, b) => (a.name || a.ticker || "").localeCompare(b.name || b.ticker || ""));
+    groups = [["All dossiers", sorted]];
+  } else if (mode === "cap") {
+    const byTier = new Map();
+    for (const r of all) {
+      const t = r.cap_tier || "Unknown";
+      if (!byTier.has(t)) byTier.set(t, []);
+      byTier.get(t).push(r);
+    }
+    const order = LF_CAP_TIER_ORDER.concat(["Unknown"]);
+    groups = order.filter(t => byTier.has(t)).map(t => {
+      const arr = byTier.get(t).slice().sort((a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0));
+      return [t === "Unknown" ? "Cap unknown" : `${t} cap`, arr];
+    });
+  } else if (mode === "etf") {
+    const byEtf = new Map();
+    const offEtf = [];
+    for (const r of all) {
+      const etfs = r.etfs || [];
+      if (!etfs.length) { offEtf.push(r); continue; }
+      // Multi-membership: include the dossier under every ETF it sits in.
+      for (const e of etfs) {
+        if (!byEtf.has(e)) byEtf.set(e, []);
+        byEtf.get(e).push(r);
+      }
+    }
+    groups = [...byEtf.entries()]
+      .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
+      .map(([etf, arr]) => [etf, arr.slice().sort((a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0))]);
+    if (offEtf.length) groups.push(["Off-ETF", offEtf.slice().sort((a, b) => (a.name || "").localeCompare(b.name || ""))]);
+  } else if (mode === "tag") {
+    // group by industry tag; rubrics sorted alphabetically.
+    const byTag = new Map();
+    for (const r of all) {
+      const t = r.tag || "Untagged";
+      if (!byTag.has(t)) byTag.set(t, []);
+      byTag.get(t).push(r);
+    }
+    groups = [...byTag.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([t, arr]) => [t, arr.slice().sort((a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0))]);
+  } else {
+    // sector — group by single sector; dossier shows once.
+    const bySec = new Map();
+    for (const r of all) {
+      const s = r.sector || "Untagged";
+      if (!bySec.has(s)) bySec.set(s, []);
+      bySec.get(s).push(r);
+    }
+    const order = LF_SECTOR_ORDER.concat(["Untagged"]);
+    groups = order.filter(s => bySec.has(s)).map(s => {
+      const arr = bySec.get(s).slice().sort((a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0));
+      return [s, arr];
+    });
+  }
+  // Each `.lf-ov-rubric` is CSS-sticky just below the controls bar; the next
+  // section's rubric naturally pushes the previous one out as you scroll. No
+  // JS observer needed.
+  els.lfOverviewBody.innerHTML = groups.map(([label, arr]) => `
+    <section class="lf-ov-group">
+      <h2 class="lf-ov-rubric">${escapeHtml(label)} <span class="lf-ov-rubric-count">${arr.length}</span></h2>
+      <div class="lf-ov-grid">
+        ${arr.map(renderLongformCard).join("")}
+      </div>
+    </section>
+  `).join("");
+}
+
+function formatCapUSD(n) {
+  if (n == null) return "";
+  if (n >= 1e12) return `$${(n/1e12).toFixed(2)}T`;
+  if (n >= 1e9)  return `$${(n/1e9).toFixed(1)}B`;
+  if (n >= 1e6)  return `$${(n/1e6).toFixed(0)}M`;
+  return `$${Math.round(n)}`;
+}
+
+// Stable Baldessari-style colour pick per slug — same dossier always gets the
+// same tone across reloads. Matches the news-card palette tokens.
+function lfCardTone(slug) {
+  const palette = ["k", "r", "b", "y", "g"];
+  let h = 0;
+  for (let i = 0; i < slug.length; i++) h = (h * 31 + slug.charCodeAt(i)) >>> 0;
+  return palette[h % palette.length];
+}
+
+function renderLongformCard(r) {
+  // Macro line packs identity: legal name, $TICKER, market cap, primary sector,
+  // cap tier, country. Lives inside the coloured key-art block.
+  const ticker = r.ticker || r.slug.toUpperCase();
+  const cap = formatCapUSD(r.market_cap_usd);
+  const sector = r.sector || "";
+  const tag = r.tag || "";
+  const capTier = r.cap_tier ? `${r.cap_tier} Cap` : "";
+  const country = (r.country || "").toUpperCase();
+  // Top of the macro: full legal name on line 1, $TICKER on line 2 — both
+  // big and emphatic. Small meta strip at the bottom.
+  const nameLine = escapeHtml(r.name || r.slug);
+  const tickerLine = `$${escapeHtml(ticker)}`;
+  const metaParts = [
+    cap ? escapeHtml(cap) : "",
+    escapeHtml(sector),
+    escapeHtml(tag),
+    escapeHtml(capTier),
+    escapeHtml(country),
+  ].filter(Boolean);
+  const metaLine = metaParts.join(" · ");
+  // Below the key-art: headline = short company name; lede = abstract-derived.
+  const headline = escapeHtml(r.display_name || r.name || r.slug);
+  const lede = escapeHtml(r.subtitle || "");
+  const tone = lfCardTone(r.slug);
+  return `
+    <article class="lf-ov-card" data-slug="${escapeHtml(r.slug)}">
+      <div class="lf-ov-card-macro" data-tone="${tone}">
+        <div class="lf-ov-card-macro-top">
+          <div class="lf-ov-card-macro-name">${nameLine}</div>
+          <div class="lf-ov-card-macro-ticker">${tickerLine}</div>
+        </div>
+        <span class="lf-ov-card-macro-meta">${metaLine}</span>
+      </div>
+      <h3 class="lf-ov-card-headline">${headline}</h3>
+      <p class="lf-ov-card-lede">${lede}</p>
+    </article>`;
 }
 
 async function openLongformReport(id) {
   if (!els.longformMain || !els.longformToc) return;
   state.longformReportId = id;
+  // Hide overview, show single-report layout.
+  if (els.longformOverview) els.longformOverview.classList.add("hidden");
+  if (els.longformView) els.longformView.classList.remove("hidden");
   els.longformMain.innerHTML = `<div class="empty"><span class="spinner"></span> Loading ${escapeHtml(id)}…</div>`;
+  // Kick off the entity index (companies + tickers) so chapter rendering
+  // can colour-link mentions to dossiers / the bookmark index.
+  ensureLongformEntityIndex();
   let report;
   try {
     const res = await fetch(`/api/longform/${encodeURIComponent(id)}`);
@@ -1824,15 +2512,41 @@ document.addEventListener("visibilitychange", () => {
   refreshLongformLive(state.longformReportId);
 });
 
+// Builds the coloured ticker macro that pins to the top of the report's
+// TOC pane. Mirrors the overview card's macro block (Name / $TICKER / meta
+// strip) but with a "← Back" hint indicating the macro itself is the
+// back gesture.
+function renderLongformReportMacro(ovRow, meta, slug) {
+  // Pull display fields. Prefer the overview row (carries sector/tag/etc.);
+  // fall back to the report meta when the overview hasn't loaded yet.
+  const name = (ovRow && ovRow.name) || meta.name || slug;
+  const ticker = (ovRow && ovRow.ticker) || meta.ticker || slug.toUpperCase();
+  const cap = ovRow ? formatCapUSD(ovRow.market_cap_usd) : "";
+  const sector = ovRow ? ovRow.sector : "";
+  const tag = ovRow ? ovRow.tag : "";
+  const capTier = ovRow && ovRow.cap_tier ? `${ovRow.cap_tier} Cap` : "";
+  const country = ovRow && ovRow.country ? ovRow.country.toUpperCase() : "";
+  const metaParts = [
+    cap ? escapeHtml(cap) : "",
+    escapeHtml(sector),
+    escapeHtml(tag),
+    escapeHtml(capTier),
+    escapeHtml(country),
+  ].filter(Boolean);
+  const tone = lfCardTone(slug);
+  return `
+    <button type="button" class="lf-toc-macro" data-tone="${tone}"
+            aria-label="Back to all dossiers">
+      <span class="lf-toc-macro-back">← All dossiers</span>
+      <span class="lf-toc-macro-name">${escapeHtml(name)}</span>
+      <span class="lf-toc-macro-ticker">$${escapeHtml(ticker)}</span>
+      ${metaParts.length ? `<span class="lf-toc-macro-meta">${metaParts.join(" · ")}</span>` : ""}
+    </button>`;
+}
+
 function renderLongformReport(report) {
   const meta = report.meta || {};
   const chapters = report.chapters || [];
-  const list = state.longformReportsList || [];
-  const selectorHtml = list.length > 1
-    ? `<select class="lf-toc-report-picker" id="longformReportPicker" aria-label="Pick report">
-        ${list.map((r) => `<option value="${escapeHtml(r.id)}" ${r.id === state.longformReportId ? "selected" : ""}>${escapeHtml((r.type === "company" ? "🏢 " : "👤 ") + (r.title || r.id))}</option>`).join("")}
-      </select>`
-    : "";
 
   // Count fact-check redline spans across chapters (~~deletion~~ ==insertion==).
   // Each correction is one ~~..~~ pair; this drives the "Show corrections" toggle,
@@ -1846,11 +2560,27 @@ function renderLongformReport(report) {
        </button>`
     : "";
 
+  // Replace the in-report TOC chapter list with the dossier's coloured
+  // ticker macro, pinned to the top. Clicking the macro returns to the
+  // overview (the same gesture as the "← All dossiers" back button).
+  const slug = state.longformReportId.replace(/^companies\//, "");
+  const ovRow = (state.longformOverviewData || []).find((r) => r.slug === slug);
+  // If the user landed straight on this report URL we may not have the
+  // overview data yet — fetch it in the background and re-render once it
+  // arrives so the macro can populate.
+  if (!ovRow) {
+    fetch("/api/longform-overview").then((r) => r.json()).then((d) => {
+      state.longformOverviewData = d.reports || [];
+      if (state.longformReport === report) renderLongformReport(report);
+    }).catch(() => {});
+  }
+  const macroHtml = renderLongformReportMacro(ovRow, meta, slug);
+
   els.longformToc.innerHTML = `
-    ${selectorHtml}
+    ${macroHtml}
     <h2 class="lf-toc-heading">Contents</h2>
     <ol class="lf-toc-list">
-      ${chapters.map((c, i) => `
+      ${chapters.map((c) => `
         <li data-slug="${escapeHtml(c.slug)}">
           <a href="#lf-${escapeHtml(c.slug)}">${escapeHtml(c.title || c.slug)}</a>
         </li>
@@ -1863,6 +2593,15 @@ function renderLongformReport(report) {
       ${meta.n_sources ? `${meta.n_sources} sources` : ""}
     </div>`;
 
+  // The macro is the back gesture. Click → return to longform overview.
+  const macroEl = els.longformToc.querySelector(".lf-toc-macro");
+  if (macroEl) {
+    macroEl.addEventListener("click", () => {
+      showLongformOverview();
+      history.pushState({ view: "longform" }, "", "#longform");
+    });
+  }
+
   // Reset corrections view on each report load, then wire the toggle.
   if (els.longformView) els.longformView.classList.remove("show-corrections");
   const ctBtn = document.getElementById("lfCorrectionsToggle");
@@ -1874,35 +2613,12 @@ function renderLongformReport(report) {
     });
   }
 
-  const picker = document.getElementById("longformReportPicker");
-  if (picker) {
-    picker.addEventListener("change", (e) => {
-      const next = e.target.value;
-      if (next && next !== state.longformReportId) openLongformReport(next);
-    });
-  }
-
-  // Mirror the picker into the mobile sticky bar so it stays visible on scroll
-  if (els.longformMobileBarPicker) {
-    els.longformMobileBarPicker.innerHTML = list.length > 1
-      ? `<select class="lf-toc-report-picker" id="longformMobileReportPicker" aria-label="Pick report">
-          ${list.map((r) => `<option value="${escapeHtml(r.id)}" ${r.id === state.longformReportId ? "selected" : ""}>${escapeHtml((r.type === "company" ? "🏢 " : "👤 ") + (r.title || r.id))}</option>`).join("")}
-        </select>`
-      : "";
-    if (els.longformView) {
-      els.longformView.classList.toggle("lf-has-mobilepicker", list.length > 1);
-    }
-    const mobilePicker = document.getElementById("longformMobileReportPicker");
-    if (mobilePicker) {
-      mobilePicker.addEventListener("change", (e) => {
-        const next = e.target.value;
-        if (next && next !== state.longformReportId) openLongformReport(next);
-      });
-    }
-  }
+  // Clear the legacy mobile picker — the macro is the navigation now.
+  if (els.longformMobileBarPicker) els.longformMobileBarPicker.innerHTML = "";
+  if (els.longformView) els.longformView.classList.remove("lf-has-mobilepicker");
 
   const abstract = report.abstract
-    ? `<section class="lf-abstract">${longformInline(report.abstract)}</section>`
+    ? `<section class="lf-abstract">${splitAbstractParagraphs(report.abstract).map(p => `<p>${longformInline(p)}</p>`).join("")}</section>`
     : "";
 
   let chaptersHtml = "";
@@ -1965,8 +2681,7 @@ function renderLongformReport(report) {
   els.longformMain.innerHTML = `
     <article class="article-block lf-article">
       <header class="lf-header">
-        <h1 class="lf-title">${escapeHtml(meta.title || state.longformReportId)}</h1>
-        ${meta.subtitle ? `<p class="lf-subtitle">${escapeHtml(meta.subtitle)}</p>` : ""}
+        ${renderLongformTitle(meta.title || state.longformReportId, meta.subtitle)}
         ${meta.byline ? `<p class="lf-byline">${escapeHtml(meta.byline)}</p>` : ""}
         <div class="article-toolbar lf-toolbar">
           <div class="article-font-controls">
@@ -2776,9 +3491,27 @@ function setLongformTocOpen(open) {
 
 if (els.longformToggle) {
   els.longformToggle.addEventListener("click", () => {
+    if (state.longformMode) return;
     if (state.articlesMode) setArticlesMode(false, { pushHistory: false });
     if (state.indexMode) setIndexMode(false, { pushHistory: false });
-    setLongformMode(!state.longformMode);
+    setLongformMode(true);
+    updateTopbarNavState();
+  });
+}
+
+// Overview sort selector + card click.
+if (els.lfOverviewSort) {
+  els.lfOverviewSort.addEventListener("change", () => renderLongformOverview());
+}
+if (els.lfOverviewBody) {
+  els.lfOverviewBody.addEventListener("click", (e) => {
+    const card = e.target.closest(".lf-ov-card");
+    if (!card) return;
+    const slug = card.getAttribute("data-slug");
+    if (!slug) return;
+    const id = `companies/${slug}`;
+    openLongformReport(id);
+    history.pushState({ view: "longform", id }, "", `#longform=${encodeURIComponent(id)}`);
   });
 }
 
@@ -3250,6 +3983,9 @@ document.addEventListener("keydown", (e) => {
   await refreshFeed();
   // If the URL pins us to articles mode or a specific article, restore it.
   restoreFromHash();
+  // Sync topbar nav buttons (Posts/Articles/Index/Longform) to whichever mode
+  // restoreFromHash() landed on.
+  if (typeof updateTopbarNavState === "function") updateTopbarNavState();
   // Wide-mode first run (only when not coming in via a hash): prefill the
   // article pane with the first row that already has a brief on disk so the
   // user lands on something reading immediately.
