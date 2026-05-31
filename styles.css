@@ -3270,36 +3270,24 @@ body.longform-mode #sortSelect { display: none; }
 /* Inline colour-coded spans for dates / money / metrics / tickers / glossary
    / names so the reader can scan a chapter for the right datapoint at a
    glance. Subtle, no background colour — just the foreground hue. */
-.lf-hl-date {
-  color: #d97706;   /* amber-600 — warm yellow/orange */
+/* Highlight colours are driven by per-category HSL hue variables so the
+   in-rail Color panel can let the user shift each one with a slider. The
+   defaults below reproduce the original palette. */
+:root {
+  --hl-date-h: 32;       /* amber */
+  --hl-pos-h: 142;       /* green */
+  --hl-neg-h: 0;         /* red */
+  --hl-neutral-h: 188;   /* cyan / teal */
+  --hl-name-h: 280;      /* purple */
+  --hl-place-h: 32;      /* amber (places + concepts + glossary share) */
 }
-/* Money — neutral (just a dollar amount), positive (up/gain/profit), negative
-   (down/loss/deficit). Sign is inferred from surrounding verbs/nouns. */
-.lf-hl-money {
-  color: #0e7490;   /* cyan / teal — neutral (matches metric-neutral) */
-  font-weight: 600;
-}
-.lf-hl-money-pos {
-  color: #15803d;   /* green-700 */
-  font-weight: 600;
-}
-.lf-hl-money-neg {
-  color: #b91c1c;   /* red-700 */
-  font-weight: 600;
-}
-/* Metrics — cyan when neutral, green when up/beat, red when down/missed. */
-.lf-hl-metric {
-  color: #0e7490;   /* cyan / bluegreen — neutral */
-  font-weight: 600;
-}
-.lf-hl-metric-pos {
-  color: #15803d;   /* green-700 */
-  font-weight: 600;
-}
-.lf-hl-metric-neg {
-  color: #b91c1c;   /* red-700 */
-  font-weight: 600;
-}
+.lf-hl-date     { color: hsl(var(--hl-date-h), 90%, 44%); }
+.lf-hl-money    { color: hsl(var(--hl-neutral-h), 82%, 32%); font-weight: 600; }
+.lf-hl-money-pos{ color: hsl(var(--hl-pos-h), 70%, 32%); font-weight: 600; }
+.lf-hl-money-neg{ color: hsl(var(--hl-neg-h), 75%, 42%); font-weight: 600; }
+.lf-hl-metric   { color: hsl(var(--hl-neutral-h), 82%, 32%); font-weight: 600; }
+.lf-hl-metric-pos{ color: hsl(var(--hl-pos-h), 70%, 32%); font-weight: 600; }
+.lf-hl-metric-neg{ color: hsl(var(--hl-neg-h), 75%, 42%); font-weight: 600; }
 a.lf-hl-ticker,
 a.lf-hl-company {
   color: #0a0a0a;
@@ -3317,12 +3305,14 @@ a.lf-hl-company:hover {
 }
 a.lf-hl-company { font-weight: 600; }
 .lf-hl-name {
-  color: #6f1d97;   /* purple */
+  color: hsl(var(--hl-name-h), 67%, 35%);
   font-weight: 600;
 }
+.lf-hl-place    { color: hsl(var(--hl-place-h), 88%, 30%); }
+.lf-hl-concept  { color: hsl(var(--hl-place-h), 88%, 30%); }
 .lf-hl-glossary {
-  color: #036672;   /* teal */
-  border-bottom: 1px dotted #036672;
+  color: hsl(var(--hl-place-h), 88%, 30%);
+  border-bottom: 1px dotted hsl(var(--hl-place-h), 88%, 30%);
   cursor: help;
 }
 
@@ -3518,3 +3508,94 @@ body.lf-body-sans .lf-chapter-body,
 body.lf-body-sans .lf-abstract {
   font-family: var(--font);
 }
+
+/* === Color panel (rail toolbar) =========================================
+   Opens when the user clicks the Color button. One row per highlight
+   category with a swatch, label, and hue slider. Master checkbox flips
+   the existing .colors-off behaviour. Choices persist in localStorage. */
+.lf-rail-toggle-row { display: flex; gap: 8px; }
+.lf-color-panel {
+  margin-top: 10px;
+  padding: 12px;
+  background: var(--bg, #fff);
+  border: 1px solid var(--ink);
+  font-size: 12px;
+}
+.lf-color-panel.hidden { display: none; }
+.lf-color-master {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lf-color-master input { margin: 0; }
+.lf-color-row {
+  display: grid;
+  grid-template-columns: 14px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 8px;
+  row-gap: 4px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.lf-color-swatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+}
+.lf-color-label {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+.lf-color-slider {
+  grid-column: 1 / span 2;
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  background: linear-gradient(to right,
+    hsl(0,80%,50%)   0%,
+    hsl(60,80%,50%)  17%,
+    hsl(120,80%,50%) 33%,
+    hsl(180,80%,50%) 50%,
+    hsl(240,80%,50%) 67%,
+    hsl(300,80%,50%) 83%,
+    hsl(360,80%,50%) 100%);
+  border-radius: 999px;
+  outline: none;
+  cursor: pointer;
+}
+.lf-color-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px; height: 14px;
+  background: var(--bg);
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  cursor: grab;
+}
+.lf-color-slider::-moz-range-thumb {
+  width: 14px; height: 14px;
+  background: var(--bg);
+  border: 2px solid var(--ink);
+  border-radius: 50%;
+  cursor: grab;
+}
+.lf-color-reset {
+  width: 100%;
+  margin-top: 4px;
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: var(--bg);
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  cursor: pointer;
+}
+.lf-color-reset:hover { background: var(--ink); color: var(--bg); }

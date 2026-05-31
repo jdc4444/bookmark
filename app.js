@@ -2704,6 +2704,86 @@ document.addEventListener("visibilitychange", () => {
   refreshLongformLive(state.longformReportId);
 });
 
+// Per-category hue controls for the longform highlight palette. Each entry
+// drives one CSS variable on document.body so the user can shift dates /
+// positive sums / negative sums / etc. independently. The defaults
+// reproduce the shipped palette.
+const LF_HUE_CATS = [
+  { key: "date",    label: "Dates",            cssVar: "--hl-date-h",    def: 32  },
+  { key: "pos",     label: "Positive sums",    cssVar: "--hl-pos-h",     def: 142 },
+  { key: "neg",     label: "Negative sums",    cssVar: "--hl-neg-h",     def: 0   },
+  { key: "neutral", label: "Neutral sums",     cssVar: "--hl-neutral-h", def: 188 },
+  { key: "name",    label: "People",           cssVar: "--hl-name-h",    def: 280 },
+  { key: "place",   label: "Places / glossary",cssVar: "--hl-place-h",   def: 32  },
+];
+
+function applyStoredHues() {
+  for (const c of LF_HUE_CATS) {
+    const stored = localStorage.getItem("lf-hue-" + c.key);
+    if (stored != null && stored !== "") {
+      document.body.style.setProperty(c.cssVar, stored);
+    }
+  }
+  const off = localStorage.getItem("lf-colors-off") === "1";
+  if (off && els.longformView) els.longformView.classList.add("colors-off");
+}
+
+function renderColorPanel(panel) {
+  const sat = 75, light = 40;
+  const stored = (key, def) => {
+    const v = localStorage.getItem("lf-hue-" + key);
+    return v == null || v === "" ? def : v;
+  };
+  const colorsOff = localStorage.getItem("lf-colors-off") === "1";
+  panel.innerHTML = `
+    <label class="lf-color-master">
+      <input type="checkbox" id="lfColorMaster" ${colorsOff ? "" : "checked"}>
+      <span>Enable highlights</span>
+    </label>
+    ${LF_HUE_CATS.map((c) => {
+      const v = stored(c.key, c.def);
+      return `
+      <div class="lf-color-row" data-cat="${c.key}">
+        <span class="lf-color-swatch" style="background: hsl(${v}, ${sat}%, ${light}%);"></span>
+        <span class="lf-color-label">${c.label}</span>
+        <input type="range" min="0" max="360" value="${v}"
+               class="lf-color-slider" data-cat="${c.key}"
+               data-var="${c.cssVar}" aria-label="${c.label} hue">
+      </div>`;
+    }).join("")}
+    <button type="button" class="lf-color-reset" id="lfColorReset">Reset to defaults</button>
+  `;
+  panel.querySelectorAll("input.lf-color-slider").forEach((input) => {
+    input.addEventListener("input", (e) => {
+      const cat = e.target.dataset.cat;
+      const cssVar = e.target.dataset.var;
+      const v = e.target.value;
+      document.body.style.setProperty(cssVar, v);
+      localStorage.setItem("lf-hue-" + cat, v);
+      const sw = e.target.parentElement.querySelector(".lf-color-swatch");
+      if (sw) sw.style.background = `hsl(${v}, ${sat}%, ${light}%)`;
+    });
+  });
+  const master = panel.querySelector("#lfColorMaster");
+  if (master) {
+    master.addEventListener("change", () => {
+      const enable = master.checked;
+      if (els.longformView) els.longformView.classList.toggle("colors-off", !enable);
+      localStorage.setItem("lf-colors-off", enable ? "0" : "1");
+    });
+  }
+  const reset = panel.querySelector("#lfColorReset");
+  if (reset) {
+    reset.addEventListener("click", () => {
+      for (const c of LF_HUE_CATS) {
+        document.body.style.removeProperty(c.cssVar);
+        localStorage.removeItem("lf-hue-" + c.key);
+      }
+      renderColorPanel(panel);  // re-render to reset slider values + swatches
+    });
+  }
+}
+
 // Builds the coloured ticker macro that pins to the top of the report's
 // TOC pane. Mirrors the overview card's macro block (Name / $TICKER / meta
 // strip) but with a "← Back" hint indicating the macro itself is the
@@ -2746,19 +2826,23 @@ function renderLongformReport(report) {
   const correctionCount = chapters.reduce(
     (n, c) => n + ((String(c.body || "").match(/~~[^~]+~~/g) || []).length), 0);
   const toggleBarHtml = `
-      <button class="lf-rail-toggle" id="lfColorToggle" aria-pressed="true"
-              title="Colour-code dates, money, metrics, companies, names, etc.">
-        Color
-      </button>
-      <button class="lf-rail-toggle lf-rail-toggle-font" id="lfBodyFontToggle"
-              aria-pressed="false" title="Toggle body serif / sans">
-        Aa
-      </button>
-      ${correctionCount > 0 ? `
-        <button class="lf-rail-toggle" id="lfCorrectionsToggle" aria-pressed="false"
-                title="Show the fact-check changes — removed text struck through, added text highlighted">
-          Changes
-        </button>` : ""}`;
+      <div class="lf-rail-toggle-row">
+        <button class="lf-rail-toggle" id="lfColorToggle" aria-pressed="true"
+                aria-expanded="false" aria-controls="lfColorPanel"
+                title="Highlight colour controls">
+          Color
+        </button>
+        <button class="lf-rail-toggle lf-rail-toggle-font" id="lfBodyFontToggle"
+                aria-pressed="false" title="Toggle body serif / sans">
+          Aa
+        </button>
+        ${correctionCount > 0 ? `
+          <button class="lf-rail-toggle" id="lfCorrectionsToggle" aria-pressed="false"
+                  title="Show the fact-check changes — removed text struck through, added text highlighted">
+            Changes
+          </button>` : ""}
+      </div>
+      <div class="lf-color-panel hidden" id="lfColorPanel" aria-hidden="true"></div>`;
 
   // Replace the in-report TOC chapter list with the dossier's coloured
   // ticker macro, pinned to the top. Clicking the macro returns to the
@@ -2834,10 +2918,18 @@ function renderLongformReport(report) {
     });
   }
   const colorBtn = document.getElementById("lfColorToggle");
-  if (colorBtn && els.longformView) {
+  const colorPanel = document.getElementById("lfColorPanel");
+  if (colorBtn && colorPanel) {
+    // Click Color → expand the per-category hue panel. The master "Enable
+    // highlights" checkbox inside toggles .colors-off (the old binary
+    // behaviour). Each hue slider sets a CSS variable on body, persisted
+    // to localStorage so the user's palette sticks across reports.
+    renderColorPanel(colorPanel);
+    applyStoredHues();
     colorBtn.addEventListener("click", () => {
-      const off = els.longformView.classList.toggle("colors-off");
-      colorBtn.setAttribute("aria-pressed", String(!off));
+      const open = colorPanel.classList.toggle("hidden") === false;
+      colorBtn.setAttribute("aria-expanded", String(open));
+      colorPanel.setAttribute("aria-hidden", String(!open));
     });
   }
   const ctBtn = document.getElementById("lfCorrectionsToggle");
