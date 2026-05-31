@@ -6,21 +6,37 @@
 // Pages serves the publish-script's files at /api/<thing>.json (plus the
 // longform reports live under /api/longform-report/, not /api/longform/).
 // Try the bare path first; on 404, rewrite and retry.
+// GitHub Pages serves this site from a subdirectory (e.g. /bookmark/), so an
+// absolute fetch("/api/...") goes to the wrong host root and 404s. Compute
+// the document's mount point once and prefix every /api/... call so the
+// request resolves under the project page on Pages AND under the dev server's
+// root locally.
+const SITE_BASE = (() => {
+  // location.pathname is "/bookmark/" or "/bookmark/index.html" on Pages,
+  // and "/" or "/index.html" on the dev server.
+  let p = location.pathname.replace(/[^\/]*$/, "");
+  if (p.endsWith("/") && p.length > 1) p = p.slice(0, -1);
+  return p === "/" ? "" : p;
+})();
+
 async function apiFetch(path, init) {
-  const r = await fetch(path, init);
+  // Prefix the mount point if the path is absolute (/api/...). Untouched
+  // for already-fully-qualified URLs (http://, //, etc.).
+  const target = (SITE_BASE && path.startsWith("/api/")) ? SITE_BASE + path : path;
+  const r = await fetch(target, init);
   if (r.status !== 404) return r;
   // Split off any query string — Pages can't honour it (no router), but
   // the static file is still at <path>.json. Frontend filters client-side.
-  const qIdx = path.indexOf("?");
-  const base = qIdx >= 0 ? path.slice(0, qIdx) : path;
+  const qIdx = target.indexOf("?");
+  const baseUrl = qIdx >= 0 ? target.slice(0, qIdx) : target;
   let alt = "";
-  const reportM = base.match(/^\/api\/longform\/(companies(?:%2F|\/)([^/]+))$/);
+  const reportM = baseUrl.match(/\/api\/longform\/(companies(?:%2F|\/)([^/]+))$/);
   if (reportM) {
-    alt = `/api/longform-report/companies/${decodeURIComponent(reportM[2])}.json`;
-  } else if (!base.endsWith(".json")) {
-    alt = base + ".json";
+    alt = `${SITE_BASE}/api/longform-report/companies/${decodeURIComponent(reportM[2])}.json`;
+  } else if (!baseUrl.endsWith(".json")) {
+    alt = baseUrl + ".json";
   }
-  if (alt && alt !== path) {
+  if (alt && alt !== target) {
     const r2 = await fetch(alt, init);
     if (r2.ok || r2.status !== 404) return r2;
   }
