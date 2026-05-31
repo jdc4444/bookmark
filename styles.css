@@ -2058,7 +2058,8 @@ button.article-regenerate:hover {
 .lf-toolbar { margin-top: 12px; }
 
 .lf-abstract {
-  font-size: 17px;
+  font-family: "Bodoni 72", "Didot", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  font-size: 17.5px;
   line-height: 1.6;
   color: var(--ink);
   margin: 0 0 32px;
@@ -2126,7 +2127,8 @@ button.article-regenerate:hover {
   max-width: 60ch;
 }
 .lf-chapter-body {
-  font-size: 16px;
+  font-family: "Bodoni 72", "Didot", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  font-size: 16.5px;
   line-height: 1.65;
   max-width: var(--lf-col);
 }
