@@ -3281,7 +3281,7 @@ body.longform-mode #sortSelect { display: none; }
   --hl-name-h: 280;      /* purple */
   --hl-place-h: 32;      /* amber (places + concepts + glossary share) */
 }
-.lf-hl-date     { color: hsl(var(--hl-date-h), 90%, 44%); }
+.lf-hl-date     { color: hsl(var(--hl-date-h), 90%, 44%); font-weight: 600; }
 .lf-hl-money    { color: hsl(var(--hl-neutral-h), 82%, 32%); font-weight: 600; }
 .lf-hl-money-pos{ color: hsl(var(--hl-pos-h), 70%, 32%); font-weight: 600; }
 .lf-hl-money-neg{ color: hsl(var(--hl-neg-h), 75%, 42%); font-weight: 600; }
