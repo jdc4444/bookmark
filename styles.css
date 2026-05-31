@@ -2058,7 +2058,7 @@ button.article-regenerate:hover {
 .lf-toolbar { margin-top: 12px; }
 
 .lf-abstract {
-  font-family: "Bodoni 72", "Didot", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  font-family: Charter, "Iowan Old Style", "Source Serif Pro", Georgia, "Times New Roman", serif;
   font-size: 17.5px;
   line-height: 1.6;
   color: var(--ink);
@@ -2127,7 +2127,9 @@ button.article-regenerate:hover {
   max-width: 60ch;
 }
 .lf-chapter-body {
-  font-family: "Bodoni 72", "Didot", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  /* Body-reading serif (Charter / Iowan Old Style) — same stack the old
+     Serif toggle used. Matches what users have been reading all along. */
+  font-family: Charter, "Iowan Old Style", "Source Serif Pro", Georgia, "Times New Roman", serif;
   font-size: 16.5px;
   line-height: 1.65;
   max-width: var(--lf-col);
@@ -3494,3 +3496,37 @@ mark.lf-hl-keysentence .lf-hl-metric-neg {
   transition: background-color 100ms ease, color 100ms ease;
 }
 .lf-soc:hover { background: var(--ink); color: var(--bg); }
+
+/* Body font toggle ("Aa") sits inline next to "N sources" in the rail meta.
+   Compact 22px square, ink border, inverts on press. Default state =
+   serif (no class on body). When pressed = sans (class .lf-body-sans). */
+.lf-toc-meta-font {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  margin-left: 8px;
+  font: inherit;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 1;
+  padding: 0;
+}
+.lf-toc-meta-font:hover { background: var(--ink); color: var(--bg); }
+.lf-toc-meta-font[aria-pressed="true"] {
+  background: var(--ink); color: var(--bg);
+  font-family: var(--font); font-style: normal;
+}
+body.lf-body-sans .lf-chapter-body,
+body.lf-body-sans .lf-abstract {
+  font-family: var(--font);
+}

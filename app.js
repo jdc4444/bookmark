@@ -2786,6 +2786,8 @@ function renderLongformReport(report) {
       ${meta.snapshot_date ? `Snapshot ${escapeHtml(meta.snapshot_date)}<br>` : ""}
       ${meta.word_count ? `${meta.word_count.toLocaleString()} words<br>` : ""}
       ${meta.n_sources ? `<a href="#lf-sources" class="lf-toc-meta-link">${meta.n_sources} sources</a>` : ""}
+      <button type="button" class="lf-toc-meta-font" id="lfBodyFontToggle"
+              aria-pressed="false" title="Toggle body serif / sans">Aa</button>
       <span class="lf-toc-socials" id="lfTocSocials"></span>
     </div>
     <div class="lf-toc-toolbar">
@@ -2812,6 +2814,22 @@ function renderLongformReport(report) {
   if (els.longformView) {
     els.longformView.classList.remove("show-corrections");
     els.longformView.classList.remove("colors-off");
+  }
+  // Body-font toggle (the "Aa" button next to "N sources" in the rail).
+  // Default is serif (Charter / Iowan Old Style) — same body type users
+  // have been reading throughout. Clicking flips to sans across the
+  // article via a body class so the preference sticks per session.
+  const fontBtn = document.getElementById("lfBodyFontToggle");
+  if (fontBtn) {
+    const sansOn = localStorage.getItem("lf-body-sans") === "1";
+    document.body.classList.toggle("lf-body-sans", sansOn);
+    fontBtn.setAttribute("aria-pressed", String(sansOn));
+    fontBtn.addEventListener("click", () => {
+      const on = !document.body.classList.contains("lf-body-sans");
+      document.body.classList.toggle("lf-body-sans", on);
+      localStorage.setItem("lf-body-sans", on ? "1" : "0");
+      fontBtn.setAttribute("aria-pressed", String(on));
+    });
   }
   const colorBtn = document.getElementById("lfColorToggle");
   if (colorBtn && els.longformView) {
