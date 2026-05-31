@@ -3497,34 +3497,22 @@ mark.lf-hl-keysentence .lf-hl-metric-neg {
 }
 .lf-soc:hover { background: var(--ink); color: var(--bg); }
 
-/* Body font toggle ("Aa") sits inline next to "N sources" in the rail meta.
-   Compact 22px square, ink border, inverts on press. Default state =
-   serif (no class on body). When pressed = sans (class .lf-body-sans). */
-.lf-toc-meta-font {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 22px;
-  height: 22px;
-  margin-left: 8px;
-  font: inherit;
+/* Body font toggle "Aa" — sits BETWEEN Color and Changes in the rail
+   bottom toolbar. Default = serif (Aa rendered italic-serif);
+   pressed = sans (Aa rendered upright sans). */
+.lf-rail-toggle.lf-rail-toggle-font {
+  flex: 0 0 44px;
+  padding-left: 6px;
+  padding-right: 6px;
   font-family: Georgia, serif;
   font-style: italic;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--ink);
-  background: var(--bg);
-  border: 1px solid var(--ink);
-  border-radius: 0;
-  cursor: pointer;
-  vertical-align: middle;
-  line-height: 1;
-  padding: 0;
+  font-size: 13px;
+  letter-spacing: 0;
+  text-transform: none;
 }
-.lf-toc-meta-font:hover { background: var(--ink); color: var(--bg); }
-.lf-toc-meta-font[aria-pressed="true"] {
-  background: var(--ink); color: var(--bg);
-  font-family: var(--font); font-style: normal;
+.lf-rail-toggle.lf-rail-toggle-font[aria-pressed="true"] {
+  font-family: var(--font);
+  font-style: normal;
 }
 body.lf-body-sans .lf-chapter-body,
 body.lf-body-sans .lf-abstract {

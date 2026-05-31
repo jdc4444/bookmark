@@ -2750,10 +2750,14 @@ function renderLongformReport(report) {
               title="Colour-code dates, money, metrics, companies, names, etc.">
         Color
       </button>
+      <button class="lf-rail-toggle lf-rail-toggle-font" id="lfBodyFontToggle"
+              aria-pressed="false" title="Toggle body serif / sans">
+        Aa
+      </button>
       ${correctionCount > 0 ? `
         <button class="lf-rail-toggle" id="lfCorrectionsToggle" aria-pressed="false"
                 title="Show the fact-check changes — removed text struck through, added text highlighted">
-          Changes <span class="lf-corrections-count">${correctionCount}</span>
+          Changes
         </button>` : ""}`;
 
   // Replace the in-report TOC chapter list with the dossier's coloured
@@ -2786,8 +2790,6 @@ function renderLongformReport(report) {
       ${meta.snapshot_date ? `Snapshot ${escapeHtml(meta.snapshot_date)}<br>` : ""}
       ${meta.word_count ? `${meta.word_count.toLocaleString()} words<br>` : ""}
       ${meta.n_sources ? `<a href="#lf-sources" class="lf-toc-meta-link">${meta.n_sources} sources</a>` : ""}
-      <button type="button" class="lf-toc-meta-font" id="lfBodyFontToggle"
-              aria-pressed="false" title="Toggle body serif / sans">Aa</button>
       <span class="lf-toc-socials" id="lfTocSocials"></span>
     </div>
     <div class="lf-toc-toolbar">
